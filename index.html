@@ -1,0 +1,1498 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>O Maior Dia do g1 — Eleições 2026</title>
+<meta name="description" content="Relatório de audiência do primeiro turno das Eleições 2026 no g1 — Inteligência de Dados.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --red:#C4170C;
+  --day:#FFFFFF;
+  --dusk:#F4E8E6;
+  --night:#191919;
+  --crimson:#7A1B15;
+  --blue:#005CDE;
+  --gray:#6B6B6B;
+  --surface-l:#F4F1EC;
+  --surface-d:#242424;
+  --ink:#191919;
+  --paper:#F4F1EC;
+}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:auto}
+html,body{overflow-x:clip}
+body{
+  background:var(--day);
+  color:var(--ink);
+  font-family:'Inter',system-ui,sans-serif;
+  font-size:1.125rem;
+  line-height:1.7;
+  -webkit-font-smoothing:antialiased;
+}
+img,svg,canvas{max-width:100%;display:block}
+a{color:inherit}
+
+/* ===== type system ===== */
+.mono{
+  font-family:'IBM Plex Mono',monospace;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+  font-size:.8125rem;
+  font-weight:400;
+}
+.mono strong{font-weight:500}
+.display{font-family:'Archivo',sans-serif;font-weight:900;line-height:1.02;letter-spacing:-.01em}
+.title{
+  font-family:'Archivo',sans-serif;font-weight:900;
+  font-size:clamp(2rem,5vw,4rem);
+  line-height:1.05;letter-spacing:-.015em;
+}
+.body-text{max-width:68ch}
+.kicker{color:var(--gray);margin-bottom:2rem}
+
+/* initial hidden states — only when JS is running the animated path */
+html.js:not(.rm) .rev{opacity:0}
+
+/* ===== thread layer ===== */
+#thread-layer{position:absolute;inset:0 auto auto 0;width:100%;z-index:2;pointer-events:none}
+#thread-svg{position:absolute;top:0;left:0;overflow:visible}
+#thread-path{
+  fill:none;stroke:var(--red);stroke-width:3;
+  stroke-linecap:round;stroke-linejoin:round;
+}
+#thread-dot{fill:var(--red)}
+html.rm #thread-dot{r:5px}
+
+/* ===== sections ===== */
+main{position:relative}
+section{position:relative}
+.inner{position:relative;z-index:3;max-width:1200px;margin:0 auto;padding-left:5vw;padding-right:5vw}
+.pin-scene{height:100vh;overflow:hidden}
+.pin-scene .inner{height:100%}
+
+/* dark act (after the fall of night) */
+#s5,#s6,#s7,#s8{background:var(--night);color:var(--paper)}
+
+/* ===== scene 1 ===== */
+#s1{background:transparent}
+.s1-grid{display:grid;grid-template-columns:55% 45%;align-items:center;height:100%;gap:2rem}
+#s1-counter{
+  font-size:clamp(3rem,9vw,8.5rem);
+  color:var(--red);
+  font-variant-numeric:tabular-nums;
+  white-space:nowrap;
+}
+.s1-counterwrap{position:relative;display:inline-block}
+#s1-underline{position:absolute;left:0;bottom:-10px;width:100%;height:8px;overflow:visible}
+#s1-underline-path{fill:none;stroke:var(--red);stroke-width:3;stroke-linecap:round}
+#s1-headline{
+  font-family:'Archivo',sans-serif;font-weight:900;
+  font-size:clamp(1.5rem,3.2vw,2.6rem);
+  line-height:1.15;letter-spacing:-.01em;
+  margin-top:2.5rem;max-width:20ch;
+}
+#s1-headline .w{display:inline-block}
+#s1-analogy{margin-top:1.75rem;color:var(--gray);font-size:1rem}
+.s1-right{display:flex;flex-direction:column;align-items:center;gap:1rem}
+#stadium{width:100%;height:auto}
+#stadium .dotb circle{fill:var(--red)}
+html.js:not(.rm) #stadium .dotb{opacity:0}
+#stadium .sil{fill:none;stroke:var(--gray);stroke-width:1}
+
+/* ===== scene 2 ===== */
+#s2{padding:26vh 0}
+#s2 .title{margin-bottom:1.5rem}
+#s2-para{margin-bottom:5rem}
+.s2-row{display:grid;grid-template-columns:5.5rem 1fr 9rem;align-items:center;gap:1.25rem;margin-bottom:2.25rem}
+.s2-year{color:var(--gray)}
+.s2-barwrap{height:2.75rem;position:relative}
+.s2-bar{position:absolute;inset:0;transform-origin:left center;border-radius:2px}
+html.js:not(.rm) .s2-bar{transform:scaleX(0)}
+.s2-bar.y2022,.s2-bar.y2024{background:var(--blue);opacity:.6}
+.s2-bar.y2026{background:var(--red)}
+.s2-val{font-variant-numeric:tabular-nums;text-align:right}
+#s2-table{margin-top:6rem;width:100%;border-collapse:collapse}
+#s2-table th,#s2-table td{
+  font-family:'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:.08em;
+  font-size:.8125rem;text-align:right;padding:.9rem .5rem;
+  border-bottom:1px solid #E2DDD5;font-weight:400;
+}
+#s2-table th:first-child,#s2-table td:first-child{text-align:left;color:var(--gray)}
+#s2-table .delta{color:var(--red);font-weight:500}
+
+/* ===== scene 3 ===== */
+#s3 .inner{max-width:none;padding:0}
+.s3-stage{position:relative;width:100%;height:100%}
+#s3-svg{position:absolute;inset:0;width:100%;height:100%}
+#s3-canvas{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+html.rm #s3-canvas{display:none}
+#s3-svg .flow{fill:none;stroke:var(--red);stroke-linecap:round}
+#s3-svg .src-label{font-family:'IBM Plex Mono',monospace;font-size:13px;letter-spacing:1px;fill:var(--ink);text-transform:uppercase}
+#s3-svg .src-share{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:1px;fill:var(--gray)}
+#s3-svg .g1-circle{fill:var(--red)}
+#s3-svg .g1-type{font-family:'Archivo',sans-serif;font-weight:900;font-size:52px;fill:#fff}
+#s3-badges{position:absolute;top:6vh;left:0;right:0;display:flex;justify-content:center;gap:1rem;z-index:4}
+.s3-badge{
+  border:1px solid #DDD5CC;background:var(--surface-l);
+  padding:.55rem 1rem;border-radius:999px;display:flex;gap:.75rem;align-items:baseline;
+}
+.s3-badge .pct{font-weight:500;color:var(--red)}
+#s3-captions{position:absolute;left:5vw;bottom:7vh;width:min(460px,86vw);z-index:4;min-height:8.5rem}
+.s3-cap{position:absolute;inset:0 auto auto 0;width:100%;font-size:1.25rem;line-height:1.55;font-weight:400}
+.s3-cap strong{font-weight:600}
+html.js:not(.rm) .s3-cap{opacity:0}
+html.rm .s3-cap{position:static;margin-bottom:1rem;font-size:1rem}
+
+/* ===== scene 4 ===== */
+#s4{color:var(--ink)}
+#s4-progress{position:absolute;top:0;left:0;width:100%;height:2px;background:var(--red);transform-origin:left center;z-index:5}
+html.js:not(.rm) #s4-progress{transform:scaleX(0)}
+#s4-clock{
+  position:absolute;top:6vh;left:5vw;z-index:5;
+  font-family:'IBM Plex Mono',monospace;font-weight:500;
+  font-size:clamp(2.4rem,6vw,4.6rem);letter-spacing:.04em;
+  font-variant-numeric:tabular-nums;
+}
+#s4-clock small{display:block;font-size:.8125rem;letter-spacing:.08em;font-weight:400;color:var(--gray);margin-top:.25rem;text-transform:uppercase}
+#s4-live{position:absolute;top:6vh;right:5vw;z-index:5;text-align:right;display:flex;gap:1.25rem;align-items:flex-start;flex-direction:row-reverse}
+#s4-vpm{font-family:'IBM Plex Mono',monospace;font-weight:500;font-size:1.5rem;font-variant-numeric:tabular-nums}
+#s4-vpm-label{color:var(--gray);margin-top:.2rem}
+#s4-donutwrap{text-align:center}
+#s4-donut{width:64px;height:64px}
+#s4-donut .track{fill:none;stroke:#00000022;stroke-width:7}
+#s4-donut .arc{fill:none;stroke:var(--red);stroke-width:7;transform:rotate(-90deg);transform-origin:center}
+#s4-donutlabel{color:var(--gray);margin-top:.4rem;font-size:.6875rem}
+#s4-chartwrap{position:absolute;left:0;right:0;bottom:0;height:65vh;z-index:4}
+#s4-chart{width:100%;height:100%}
+#s4-curve{fill:none;stroke:var(--red);stroke-width:3;stroke-linecap:round;vector-effect:non-scaling-stroke}
+#s4-area{fill:var(--red);opacity:.12}
+.s4-ann{position:absolute;bottom:0;z-index:5;transform-origin:bottom left}
+html.js:not(.rm) .s4-ann{opacity:0}
+.s4-ann .stem{width:1px;height:3.2rem;background:currentColor;opacity:.45;margin-left:3px}
+.s4-ann .flagdot{width:7px;height:7px;border-radius:50%;background:var(--red)}
+.s4-ann .lbl{white-space:nowrap;margin-bottom:.35rem}
+.s4-ann .lbl strong{font-weight:500}
+#s4-callout{
+  position:absolute;z-index:6;right:5vw;top:32vh;max-width:24rem;text-align:right;
+}
+html.js:not(.rm) #s4-callout{opacity:0}
+#s4-callout .big{font-family:'Archivo',sans-serif;font-weight:900;font-size:clamp(1.4rem,2.6vw,2.1rem);line-height:1.15;color:var(--red)}
+#s4-callout .sub{margin-top:.6rem;font-size:1rem}
+/* night flip inside scene 4 */
+#s4 .flip{transition:color .6s linear}
+#s4.night{color:var(--paper)}
+#s4.night #s4-clock small,#s4.night #s4-vpm-label,#s4.night #s4-donutlabel{color:#A8A29A}
+#s4.night #s4-donut .track{stroke:#FFFFFF26}
+
+/* ===== scene 5 ===== */
+#s5{padding:12vh 0 20vh}
+.s5-grid{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:start}
+.s5-step{min-height:72vh;display:flex;flex-direction:column;justify-content:center;padding-left:3.5rem}
+.s5-step .mono{color:#A8A29A;margin-bottom:1rem}
+.s5-step p{font-size:1.35rem;line-height:1.6;max-width:30ch}
+.s5-step p strong{font-weight:600;color:#fff}
+.s5-sticky{position:sticky;top:14vh;height:72vh}
+.s5-state{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;gap:1.1rem}
+html.js:not(.rm) #s5-stateB{opacity:0}
+.s5-card{background:var(--surface-d);border:1px solid #333;border-radius:6px;padding:1.1rem 1.3rem}
+.s5-card .head{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;margin-bottom:.6rem}
+.s5-card .name{font-weight:600;font-size:1rem;color:#fff}
+.s5-card .num{font-variant-numeric:tabular-nums;color:#A8A29A;white-space:nowrap}
+.s5-card .barwrap{height:8px;background:#FFFFFF14;border-radius:99px;overflow:hidden}
+.s5-card .bar{height:100%;background:var(--red);transform-origin:left center;border-radius:99px}
+html.js:not(.rm) .s5-card .bar{transform:scaleX(0)}
+.s5-card .badges{display:flex;gap:.9rem;margin-top:.55rem;flex-wrap:wrap}
+.s5-card .badges span{color:#8B857D;font-size:.6875rem}
+#s5-stateB .s5-card{opacity:.35;transition:opacity .5s}
+#s5-stateB .s5-card.on{opacity:1}
+#s5-stateB .s5-card.seen{opacity:.55}
+#s5-node{position:absolute;width:10px;height:10px;border-radius:50%;background:var(--red);z-index:4;margin:-5px 0 0 -5px}
+html.js:not(.rm) #s5-node{opacity:0}
+
+/* ===== scene 6 ===== */
+#s6{padding:22vh 0}
+#s6-title{position:relative;display:inline-block;margin-bottom:2rem}
+#s6-total{font-size:clamp(3rem,8vw,7rem);color:var(--red);font-variant-numeric:tabular-nums;margin:1.5rem 0 .5rem}
+#s6-sub{margin-bottom:4.5rem;color:#CFC9C1}
+.s6-row{display:grid;grid-template-columns:3rem 1fr 8rem;gap:1.25rem;align-items:center;padding:1.4rem 0;border-bottom:1px solid #333}
+.s6-row .rank{font-family:'Archivo',sans-serif;font-weight:900;font-size:1.6rem;color:var(--red)}
+.s6-row .name{font-weight:600;color:#fff}
+.s6-row .vbar{height:4px;background:#FFFFFF14;margin-top:.6rem;border-radius:99px;overflow:hidden;max-width:24rem}
+.s6-row .vbar i{display:block;height:100%;background:var(--red);transform-origin:left center;border-radius:99px}
+html.js:not(.rm) .s6-row .vbar i{transform:scaleX(0)}
+.s6-row .num{text-align:right;font-variant-numeric:tabular-nums;color:#A8A29A}
+
+/* ===== scene 7 ===== */
+#s7 .inner{display:flex;flex-direction:column;justify-content:center;height:100%}
+#s7-title{margin-bottom:1rem}
+#s7-stage{position:relative;height:56vh}
+#s7-svg{width:100%;height:100%;isolation:isolate}
+#s7-g1outline{fill:none;stroke:var(--red);stroke-width:3;stroke-linecap:round}
+#s7-g1fill{fill:var(--red);opacity:.5;mix-blend-mode:screen}
+#s7-gncircle{fill:var(--crimson);opacity:.9;mix-blend-mode:screen}
+#s7-counterwrap{position:absolute;z-index:5;text-align:center;transform:translate(-50%,-50%)}
+#s7-counter{font-family:'Archivo',sans-serif;font-weight:900;font-size:clamp(1.6rem,3.4vw,2.8rem);color:#fff;font-variant-numeric:tabular-nums}
+#s7-label{color:#E8E2DA;margin-top:.35rem}
+#s7-sentence{margin:1.5rem auto 0;text-align:center;font-size:1.25rem}
+html.js:not(.rm) #s7-sentence,html.js:not(.rm) #s7-counterwrap{opacity:0}
+#s7-svg .circles-label{font-family:'IBM Plex Mono',monospace;font-size:13px;letter-spacing:1px;fill:#CFC9C1;text-transform:uppercase}
+
+/* ===== scene 8 ===== */
+#s8{padding:18vh 0 0;min-height:120vh;display:flex;flex-direction:column}
+#s8 .inner{flex:1;display:flex;flex-direction:column}
+#s8-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem;margin-bottom:auto}
+.s8-card{background:var(--surface-d);border:1px solid #333;border-radius:6px;padding:1.6rem 1.5rem}
+.s8-card .lbl{color:#8B857D;margin-bottom:.9rem}
+.s8-card .val{font-family:'Archivo',sans-serif;font-weight:900;font-size:clamp(1.6rem,2.6vw,2.4rem);line-height:1;color:#fff;font-variant-numeric:tabular-nums}
+.s8-card .note{color:#8B857D;font-size:.6875rem;margin-top:.7rem}
+#s8-footer{text-align:center;padding:14vh 0 12vh}
+#s8-rule{width:240px;height:0;margin:0 auto 2.2rem}
+#s8-sig{color:#CFC9C1}
+#s8-link{display:inline-block;margin-top:1.4rem;color:#A8A29A;text-decoration:none;border-bottom:1px solid transparent;transition:border-color .2s,color .2s}
+#s8-link:hover{color:#fff;border-bottom-color:#fff}
+
+/* ===== reduced motion / static mode ===== */
+html.rm .pin-scene{height:auto;min-height:100vh;padding:10vh 0}
+html.rm .pin-scene .inner{height:auto}
+html.rm .rev{opacity:1;transform:none}
+html.rm #s4{background:var(--night);color:var(--paper)}
+html.rm #s3-captions{position:static;width:auto;min-height:0;padding:2rem 5vw}
+html.rm .s3-stage{height:80vh}
+html.rm #s4-chartwrap,html.rm #s4-clock,html.rm #s4-live,html.rm #s4-callout{position:static}
+html.rm #s4 .inner{display:flex;flex-direction:column;gap:2rem}
+html.rm #s4-chartwrap{height:50vh}
+html.rm #s4-callout{text-align:left;max-width:none}
+html.rm .s4-ann{position:static;display:inline-block;margin-right:2rem}
+html.rm .s5-sticky{position:static;height:auto}
+html.rm .s5-state{position:static}
+html.rm #s5-stateB .s5-card{opacity:1}
+html.rm .s5-step{min-height:0;padding:2rem 0}
+html.rm #s7-counterwrap{position:static;transform:none;margin-top:1rem}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+}
+
+/* ===== mobile ===== */
+@media (max-width:768px){
+  .s1-grid{grid-template-columns:1fr;align-content:center;gap:1rem}
+  .s1-right{order:-1;height:40vh}
+  #stadium{height:100%;width:auto;max-height:40vh}
+  #s1-headline{font-size:1.35rem;margin-top:1.6rem}
+  #s1-counter{font-size:clamp(2.6rem,13vw,4.5rem)}
+  .s2-row{grid-template-columns:3.5rem 1fr 6rem;gap:.7rem}
+  #s2-table th,#s2-table td{font-size:.6875rem;padding:.6rem .25rem}
+  #s3-badges{flex-wrap:wrap;padding:0 4vw;top:3vh}
+  .s3-badge{padding:.4rem .7rem;font-size:.6875rem}
+  #s3-captions{left:0;bottom:0;width:100%;padding:1.2rem 5vw 3vh;background:linear-gradient(transparent,#ffffffd9 30%)}
+  html.rm #s3-captions{background:none}
+  .s3-cap{font-size:1rem}
+  #s4-clock{font-size:2rem;top:4vh}
+  #s4-live{top:4.5vh}
+  #s4-vpm{font-size:1.1rem}
+  #s4-donutwrap{display:none}
+  #s4-callout{top:auto;bottom:44vh;left:5vw;right:5vw;max-width:none;text-align:left}
+  .s4-ann .lbl{display:none}
+  .s4-ann .stem{height:1.6rem}
+  .s4-ann .flagdot{width:10px;height:10px}
+  .s5-grid{display:block}
+  .s5-sticky{position:sticky;top:0;height:45vh;background:var(--night);z-index:4;padding-top:2vh}
+  .s5-state{gap:.5rem}
+  .s5-card{padding:.6rem .8rem}
+  .s5-card .head{margin-bottom:.35rem}
+  .s5-card .name{font-size:.8125rem}
+  .s5-card .badges{display:none}
+  .s5-step{min-height:60vh;padding-left:2rem}
+  .s5-step p{font-size:1.05rem}
+  #s7-stage{height:44vh}
+  #s8-cards{grid-template-columns:1fr 1fr;gap:.8rem}
+  .s8-card{padding:1rem}
+}
+@media (max-width:480px){
+  #s8-cards{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<script>document.documentElement.classList.add('js');</script>
+
+<div id="thread-layer" aria-hidden="true">
+  <svg id="thread-svg" width="100" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+    <path id="thread-path" d="M0 0"/>
+    <circle id="thread-dot" r="0" cx="-10" cy="-10"/>
+  </svg>
+</div>
+
+<main>
+
+<!-- SCENE 1 — O Gancho -->
+<section id="s1" class="pin-scene" aria-label="Abertura">
+  <div class="inner s1-grid">
+    <div class="s1-left">
+      <p class="kicker mono s1-fade">Primeiro turno — Outubro 2026</p>
+      <div class="s1-counterwrap">
+        <div id="s1-counter" class="display" aria-label="Contador de usuários únicos">0</div>
+        <svg id="s1-underline" data-thread-anchor aria-hidden="true"><path id="s1-underline-path" d="M0 4 L10 4"/></svg>
+      </div>
+      <h1 id="s1-headline" class="s1-fade"></h1>
+      <p id="s1-analogy" class="body-text rev s1-fade"></p>
+    </div>
+    <div class="s1-right s1-fade">
+      <svg id="stadium" role="img"></svg>
+      <p class="mono" id="stadium-caption" style="color:var(--gray)"></p>
+    </div>
+  </div>
+</section>
+
+<!-- SCENE 2 — Cada eleição, um novo teto -->
+<section id="s2" aria-label="Comparativo histórico">
+  <div class="inner">
+    <h2 class="title rev" id="s2-title">Cada eleição, um novo teto.</h2>
+    <p class="body-text rev" id="s2-para"></p>
+    <div id="s2-bars"></div>
+    <table id="s2-table" aria-label="Tabela comparativa de métricas por eleição"></table>
+  </div>
+</section>
+
+<!-- SCENE 3 — Onde eles estavam -->
+<section id="s3" class="pin-scene" aria-label="Origens do tráfego">
+  <div class="inner">
+    <div class="s3-stage">
+      <svg id="s3-svg" role="img" viewBox="0 0 1200 700" preserveAspectRatio="xMidYMid meet"></svg>
+      <canvas id="s3-canvas" aria-hidden="true"></canvas>
+      <div id="s3-badges"></div>
+      <div id="s3-captions"></div>
+    </div>
+  </div>
+</section>
+
+<!-- SCENE 4 — Minuto a minuto (assinatura) -->
+<section id="s4" class="pin-scene" aria-label="Curva de audiência minuto a minuto">
+  <div class="inner">
+    <div id="s4-progress" aria-hidden="true"></div>
+    <div id="s4-clock" class="flip"><span id="s4-clock-t">06:00</span><small>Horário de Brasília</small></div>
+    <div id="s4-live" class="flip">
+      <div>
+        <div id="s4-vpm">0</div>
+        <div id="s4-vpm-label" class="mono">views/minuto</div>
+      </div>
+      <div id="s4-donutwrap">
+        <svg id="s4-donut" viewBox="0 0 64 64" aria-hidden="true">
+          <circle class="track" cx="32" cy="32" r="26"/>
+          <circle class="arc" id="s4-donut-arc" cx="32" cy="32" r="26"/>
+        </svg>
+        <div id="s4-donutlabel" class="mono"><span id="s4-donut-pct">0%</span> Eleições no g1</div>
+      </div>
+    </div>
+    <div id="s4-chartwrap">
+      <svg id="s4-chart" viewBox="0 0 1000 620" preserveAspectRatio="none" role="img"></svg>
+      <div id="s4-anns"></div>
+      <div id="s4-callout">
+        <div class="big" id="s4-callout-big"></div>
+        <div class="sub" id="s4-callout-sub"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SCENE 5 — Onde os milhões foram -->
+<section id="s5" aria-label="Conteúdos mais acessados">
+  <div id="s5-node" aria-hidden="true"></div>
+  <div class="inner">
+    <div class="s5-grid">
+      <div class="s5-steps" id="s5-steps"></div>
+      <div class="s5-sticky">
+        <div class="s5-state" id="s5-stateA" aria-label="Views por template"></div>
+        <div class="s5-state" id="s5-stateB" aria-label="Ranking de páginas"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SCENE 6 — O Brasil deu play -->
+<section id="s6" aria-label="Vídeo">
+  <div class="inner" id="s6-inner">
+    <h2 class="title rev" id="s6-title" data-thread-anchor>O Brasil deu play.</h2>
+    <div id="s6-total" class="display rev">0</div>
+    <p id="s6-sub" class="body-text rev"></p>
+    <div id="s6-rows"></div>
+  </div>
+</section>
+
+<!-- SCENE 7 — A força do ecossistema -->
+<section id="s7" class="pin-scene" aria-label="Ecossistema g1 e GloboNews">
+  <div class="inner">
+    <h2 class="title rev" id="s7-title">A força do ecossistema.</h2>
+    <div id="s7-stage">
+      <svg id="s7-svg" viewBox="0 0 900 520" preserveAspectRatio="xMidYMid meet" role="img"></svg>
+      <div id="s7-counterwrap">
+        <div id="s7-counter">0</div>
+        <div id="s7-label" class="mono"></div>
+      </div>
+    </div>
+    <p id="s7-sentence" class="body-text"></p>
+  </div>
+</section>
+
+<!-- SCENE 8 — O Fechamento -->
+<section id="s8" aria-label="Resumo final">
+  <div class="inner">
+    <div id="s8-cards"></div>
+    <div id="s8-footer">
+      <div id="s8-rule" data-thread-anchor></div>
+      <div id="s8-sig" class="mono">Inteligência de Dados — g1 · Eleições 2026</div>
+      <a id="s8-link" class="mono" href="#">Explore os microdados no Looker →</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/lenis@1.1.14/dist/lenis.min.js"></script>
+<script>
+'use strict';
+/* =========================================================================
+   O MAIOR DIA DO g1 — Eleições 2026 · Inteligência de Dados
+   Single-file scrollytelling report. All visuals derive from DATA below.
+   ========================================================================= */
+
+// ---------- tiny helpers ----------
+const $  = (s, c) => (c || document).querySelector(s);
+const $$ = (s, c) => Array.from((c || document).querySelectorAll(s));
+const clamp = (v, a, b) => Math.min(b, Math.max(a, v));
+const lerp = (a, b, t) => a + (b - a) * t;
+const smoothstep = t => { t = clamp(t, 0, 1); return t * t * (3 - 2 * t); };
+const ramp = (p, a, b) => clamp((p - a) / (b - a), 0, 1);
+function mulberry32(seed) {
+  return function () {
+    seed |= 0; seed = (seed + 0x6D2B79F5) | 0;
+    let t = Math.imul(seed ^ (seed >>> 15), 1 | seed);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+const timeToIdx = t => { const [h, m] = t.split(':').map(Number); return (h - 6) * 60 + m; };
+const idxToTime = i => {
+  const h = (6 + Math.floor(i / 60)) % 24, m = i % 60;
+  return String(h).padStart(2, '0') + ':' + String(m).padStart(2, '0');
+};
+
+// pt-BR formatting — the ONE fmt() helper (integer + compact forms)
+function fmt(n, mode) {
+  if (mode === 'int') return Math.round(n).toLocaleString('pt-BR');
+  if (mode === 'pct') return Math.round(n * 100).toLocaleString('pt-BR') + '%';
+  const abs = Math.abs(n);
+  if (abs >= 1e6) {
+    const v = Math.round(n / 1e5) / 10;
+    const s = v.toLocaleString('pt-BR', { maximumFractionDigits: 1 });
+    if (mode === 'short') return s + ' mi';
+    return s + (v >= 2 ? ' milhões' : ' milhão');
+  }
+  if (abs >= 1e3) return Math.round(n / 1e3).toLocaleString('pt-BR') + ' mil';
+  return Math.round(n).toLocaleString('pt-BR');
+}
+const pctDelta = (a, b) => Math.round((a / b - 1) * 100);
+
+// ===== PLUG REAL DATA HERE =====================================================
+const DATA = {
+  totals2026: { users: 38700000, pageviews: 214000000, screenviews: 52000000, videoviews: 41000000 },
+  totals2024: { users: 24100000, pageviews: 131000000, screenviews: 30000000, videoviews: 22500000 },
+  totals2022: { users: 31200000, pageviews: 189000000, screenviews: 41000000, videoviews: 28900000 },
+  devices: [
+    { name: 'Mobile web', share: 0.72 },
+    { name: 'App', share: 0.16 },
+    { name: 'Desktop', share: 0.12 }
+  ],
+  // 19 valores, 06h → 00h (share da editoria Eleições no total do g1, 0–1) — gerado abaixo
+  editoriaShareByHour: [],
+  // 1080 pontos {t, pv}, minuto a minuto 06:00 → 00:00 — gerado proceduralmente abaixo
+  minuteByMinute: [],
+  peak: { time: '20:47', pvPerMinute: 412000, label: 'Definição matemática do resultado' },
+  annotations: [
+    { time: '17:00', label: 'Urnas fecham' },
+    { time: '19:12', label: 'Primeira parcial do TSE' },
+    { time: '20:47', label: 'Resultado definido' }
+  ],
+  templates: [
+    { name: 'Tempo Real', pv: 88000000 },
+    { name: 'Matéria', pv: 61000000 },
+    { name: 'Capa', pv: 39000000 },
+    { name: 'Mapa interativo', pv: 26000000 }
+  ],
+  topPages: [
+    { name: 'Apuração em tempo real', pv: 68000000, vv: 0, users: 21000000 },
+    { name: 'Ao vivo', pv: 41000000, vv: 29000000, users: 15200000 },
+    { name: 'Resultados por estado', pv: 33000000, vv: 0, users: 12800000 },
+    { name: 'Candidatos', pv: 18000000, vv: 4200000, users: 9100000 },
+    { name: 'Onde votar / Título', pv: 12000000, vv: 1100000, users: 7400000 }
+  ],
+  topVideos: [
+    { name: 'Pronunciamento do eleito', vv: 8900000 },
+    { name: 'Momento da definição no plantão', vv: 6200000 },
+    { name: 'Debate: melhores momentos', vv: 4100000 }
+  ],
+  trafficSources: [
+    { name: 'Busca', share: 0.34 },
+    { name: 'Direto', share: 0.29 },
+    { name: 'Portais Globo', share: 0.16 },
+    { name: 'Push', share: 0.12 },
+    { name: 'Social', share: 0.09 }
+  ],
+  ecosystem: { g1Users: 38700000, globonewsUsers: 9800000, overlapUsers: 6400000 },
+  maracana: 78838,
+  units: { stadiumDot: 100000, particleUser: 50000 } // 1 ponto = 100 mil usuários; 1 partícula = 50 mil usuários
+};
+// ===============================================================================
+
+// ---------- procedural series (still 100% derived from DATA) ----------
+(function genEditoriaShare() {
+  const a = [];
+  for (let i = 0; i < 19; i++) { // i=0 → 06h ... i=18 → 00h
+    let v = 0.18 + 0.52 * smoothstep((i - 2) / 12.5);
+    if (i > 15) v -= (i - 15) * 0.02; // leve queda depois das 21h
+    a.push(Math.round(v * 100) / 100);
+  }
+  DATA.editoriaShareByHour = a;
+})();
+
+(function genMinuteByMinute() {
+  const rng = mulberry32(20261004);
+  const peakIdx = timeToIdx(DATA.peak.time);
+  const raw = [];
+  for (let i = 0; i < 1080; i++) {
+    const h = 6 + i / 60;
+    let v;
+    if (h < 10)            v = lerp(0.05, 0.30, smoothstep((h - 6) / 4));            // rampa lenta
+    else if (h < 16)       v = 0.30 + 0.02 * Math.sin(((h - 10) / 6) * Math.PI * 2) + 0.02 * ((h - 10) / 6); // platô
+    else if (h < 17)       v = lerp(0.32, 0.40, smoothstep(h - 16));
+    else if (h < 19)       v = lerp(0.40, 0.58, smoothstep((h - 17) / 2));           // aceleração pós-urnas
+    else if (i <= peakIdx) v = lerp(0.58, 0.97, Math.pow((i - 780) / (peakIdx - 780), 1.7)); // subida forte
+    else if (h < 22)       v = lerp(0.88, 0.60, smoothstep((i - peakIdx) / (960 - peakIdx)));
+    else                   v = lerp(0.60, 0.24, smoothstep((h - 22) / 2));           // decaimento
+    v *= 1 + (rng() * 2 - 1) * 0.03; // ±3% de ruído
+    raw.push(v);
+  }
+  raw[peakIdx] = 1; // pico exato
+  if (peakIdx > 0) raw[peakIdx - 1] = Math.max(raw[peakIdx - 1], 0.93);
+  if (peakIdx < 1079) raw[peakIdx + 1] = Math.max(raw[peakIdx + 1] * 0.98, 0.9);
+  DATA.minuteByMinute = raw.map((v, i) => ({ t: idxToTime(i), pv: Math.round(v * DATA.peak.pvPerMinute) }));
+})();
+
+// ---------- derived values (zero hardcoded numbers) ----------
+const DER = (() => {
+  const d = {};
+  d.dotCount = Math.round(DATA.totals2026.users / DATA.units.stadiumDot);
+  d.maracanas = Math.round(DATA.totals2026.users / DATA.maracana);
+  d.pvDelta22 = pctDelta(DATA.totals2026.pageviews, DATA.totals2022.pageviews);
+  d.pvDelta24 = pctDelta(DATA.totals2026.pageviews, DATA.totals2024.pageviews);
+  d.mobileOf10 = Math.round(DATA.devices[0].share * 10);
+  const src = Object.fromEntries(DATA.trafficSources.map(s => [s.name, s.share]));
+  d.searchDirectPct = Math.round(((src['Busca'] || 0) + (src['Direto'] || 0)) * 100);
+  d.pushHousePct = Math.round(((src['Push'] || 0) + (src['Portais Globo'] || 0)) * 100);
+  d.peakIdx = timeToIdx(DATA.peak.time);
+  d.maxPv = Math.max(...DATA.minuteByMinute.map(p => p.pv));
+  d.maracanaSecs = Math.round(DATA.maracana / (DATA.peak.pvPerMinute / 60));
+  d.aoVivoYears = Math.round(DATA.topPages[1].vv / (60 * 24 * 365));
+  const vvRatio = DATA.totals2026.videoviews / DATA.totals2024.videoviews;
+  d.vvLine = (vvRatio >= 1.75 && vvRatio < 2.05)
+    ? fmt(DATA.totals2026.videoviews) + ' de videoviews no dia — quase o dobro de 2024.'
+    : fmt(DATA.totals2026.videoviews) + ' de videoviews no dia — ' + pctDelta(DATA.totals2026.videoviews, DATA.totals2024.videoviews) + '% acima de 2024.';
+  d.oneInN = Math.round(DATA.ecosystem.g1Users / DATA.ecosystem.overlapUsers);
+  d.peakHourIdx = clamp(Math.floor(d.peakIdx / 60), 0, DATA.editoriaShareByHour.length - 1);
+  d.peakShare = DATA.editoriaShareByHour[d.peakHourIdx];
+  d.particleTarget = Math.round(DATA.totals2026.users / DATA.units.particleUser); // ~774
+  return d;
+})();
+
+// ---------- shared runtime state ----------
+const REDUCED = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const state = {
+  mobile: matchMedia('(max-width: 768px)').matches,
+  s1Batches: [],      // stadium dot <g> batches
+  flowPaths: [],      // scene 3 SVG stream paths
+  s4: {},             // scene 4 chart refs
+  s7: {},             // scene 7 venn refs
+  stepEls: [],        // scene 5 steps
+  pinIds: ['s1', 's3', 's4', 's7'] // scenes that pin (desktop)
+};
+
+// =========================================================================
+// CONTENT BUILDERS — inject all computed copy + build every SVG from DATA
+// =========================================================================
+
+function buildScene1() {
+  // headline (split into words for the load-in stagger)
+  const l1 = fmt(DATA.totals2026.users) + ' de pessoas';
+  const l2 = 'escolheram o g1 no dia em que o Brasil escolheu.';
+  $('#s1-headline').innerHTML =
+    l1.split(' ').map(w => '<span class="w" style="color:var(--red)">' + w + '</span>').join(' ') +
+    '<br>' +
+    l2.split(' ').map(w => '<span class="w">' + w + '</span>').join(' ');
+  $('#s1-analogy').textContent =
+    'O equivalente a ' + fmt(DER.maracanas, 'int') + ' Maracanãs lotados. ' +
+    'Cada ponto ao lado: ' + fmt(DATA.units.stadiumDot) + ' pessoas.';
+  $('#stadium-caption').textContent = fmt(DER.dotCount, 'int') + ' pontos · 1 ponto = ' + fmt(DATA.units.stadiumDot) + ' usuários';
+  const counter = $('#s1-counter');
+  counter.textContent = fmt(DATA.totals2026.users, 'int'); // final text for width reserve
+  // reserve width to avoid CLS while counting
+  requestAnimationFrame(() => {
+    counter.style.minWidth = counter.getBoundingClientRect().width + 'px';
+    if (!document.documentElement.classList.contains('rm')) counter.textContent = '0';
+  });
+
+  // dot stadium
+  const svg = $('#stadium');
+  const W = 520, H = 380, cx = W / 2, cy = H / 2;
+  svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
+  svg.setAttribute('aria-label',
+    'Estádio de pontos: ' + fmt(DER.dotCount, 'int') + ' pontos, cada um representando ' +
+    fmt(DATA.units.stadiumDot) + ' usuários — total de ' + fmt(DATA.totals2026.users) + ' de usuários únicos.');
+  const NS = 'http://www.w3.org/2000/svg';
+  const sil = document.createElementNS(NS, 'g');
+  sil.setAttribute('class', 'sil');
+  [[84, 50], [178, 108]].forEach(([a, b]) => {
+    const e = document.createElementNS(NS, 'ellipse');
+    e.setAttribute('cx', cx); e.setAttribute('cy', cy);
+    e.setAttribute('rx', a); e.setAttribute('ry', b);
+    sil.appendChild(e);
+  });
+  svg.appendChild(sil);
+  // concentric dot rings between field and edge
+  const pos = [];
+  let ring = 0;
+  while (pos.length < DER.dotCount && ring < 40) {
+    const a = 96 + ring * 11, b = a * 0.58;
+    const h = Math.pow((a - b) / (a + b), 2);
+    const per = Math.PI * (a + b) * (1 + (3 * h) / (10 + Math.sqrt(4 - 3 * h)));
+    const n = Math.max(8, Math.floor(per / 11.5));
+    for (let k = 0; k < n && pos.length < DER.dotCount; k++) {
+      const t = (k / n) * Math.PI * 2 + (ring % 2) * 0.09;
+      pos.push([cx + a * Math.cos(t), cy + b * Math.sin(t)]);
+    }
+    ring++;
+  }
+  const nBatches = 20, per = Math.ceil(pos.length / nBatches);
+  for (let bIdx = 0; bIdx < nBatches; bIdx++) {
+    const g = document.createElementNS(NS, 'g');
+    g.setAttribute('class', 'dotb');
+    pos.slice(bIdx * per, (bIdx + 1) * per).forEach(([x, y]) => {
+      const c = document.createElementNS(NS, 'circle');
+      c.setAttribute('cx', x.toFixed(1)); c.setAttribute('cy', y.toFixed(1));
+      c.setAttribute('r', state.mobile ? 2 : 3);
+      g.appendChild(c);
+    });
+    if (g.childNodes.length) { svg.appendChild(g); state.s1Batches.push(g); }
+  }
+}
+
+function buildScene2() {
+  $('#s2-para').textContent =
+    'Em 2026, o g1 registrou ' + fmt(DATA.totals2026.pageviews) + ' de pageviews — ' +
+    DER.pvDelta22 + '% acima de 2022 e ' + DER.pvDelta24 + '% acima das municipais de 2024.';
+  const years = [
+    ['2022', DATA.totals2022, 'y2022'],
+    ['2024', DATA.totals2024, 'y2024'],
+    ['2026', DATA.totals2026, 'y2026']
+  ];
+  const maxPv = Math.max(...years.map(y => y[1].pageviews));
+  $('#s2-bars').innerHTML = years.map(([label, t, cls]) =>
+    '<div class="s2-row" data-thread-anchor data-pv="' + t.pageviews + '">' +
+      '<div class="s2-year mono">' + label + '</div>' +
+      '<div class="s2-barwrap"><div class="s2-bar ' + cls + '" style="width:' + ((t.pageviews / maxPv) * 100).toFixed(1) + '%"></div></div>' +
+      '<div class="s2-val mono" data-target="' + t.pageviews + '">' + fmt(t.pageviews, 'int') + '</div>' +
+    '</div>').join('');
+  const rows = [
+    ['Pageviews', 'pageviews'], ['Screenviews', 'screenviews'], ['Videoviews', 'videoviews']
+  ];
+  $('#s2-table').innerHTML =
+    '<thead><tr class="s2-trow"><th></th><th>2022</th><th>2024</th><th>2026</th><th>Δ 26/22</th></tr></thead><tbody>' +
+    rows.map(([lbl, key]) =>
+      '<tr class="s2-trow"><td>' + lbl + '</td>' +
+      '<td>' + fmt(DATA.totals2022[key], 'short') + '</td>' +
+      '<td>' + fmt(DATA.totals2024[key], 'short') + '</td>' +
+      '<td>' + fmt(DATA.totals2026[key], 'short') + '</td>' +
+      '<td class="delta">' + (pctDelta(DATA.totals2026[key], DATA.totals2022[key]) >= 0 ? '+' : '') +
+        pctDelta(DATA.totals2026[key], DATA.totals2022[key]) + '%</td></tr>'
+    ).join('') + '</tbody>';
+}
+
+function buildScene3() {
+  const NS = 'http://www.w3.org/2000/svg';
+  const svg = $('#s3-svg');
+  svg.setAttribute('aria-label',
+    'Diagrama de fluxo das origens de tráfego para o g1: ' +
+    DATA.trafficSources.map(s => s.name + ' ' + fmt(s.share, 'pct')).join(', ') + '. Dispositivos: ' +
+    DATA.devices.map(d => d.name + ' ' + fmt(d.share, 'pct')).join(', ') + '.');
+  const shares = DATA.trafficSources.map(s => s.share);
+  const sMin = Math.min(...shares), sMax = Math.max(...shares);
+  const wMin = state.mobile ? 4 : 6, wMax = state.mobile ? 16 : 28;
+  const node = { x: 930, y: 350, r: 62 };
+  const ys = [150, 250, 350, 450, 550];
+  const endOff = [-28, -14, 0, 14, 28];
+  const ranked = DATA.trafficSources.slice().sort((a, b) => b.share - a.share).map(s => s.name);
+  let inner = '';
+  DATA.trafficSources.forEach((s, i) => {
+    const w = wMin + ((s.share - sMin) / (sMax - sMin || 1)) * (wMax - wMin);
+    const op = 0.9 - (ranked.indexOf(s.name) * (0.55 / (DATA.trafficSources.length - 1)));
+    const y0 = ys[i], y1 = node.y + endOff[i];
+    const d = 'M 150 ' + y0 +
+      ' C 430 ' + y0 + ', 560 ' + lerp(y0, y1, 0.55).toFixed(0) + ', ' + (node.x - node.r - 4) + ' ' + y1;
+    inner += '<path class="flow" data-share="' + s.share + '" d="' + d + '" stroke-width="' + w.toFixed(1) + '" stroke-opacity="' + op.toFixed(2) + '"/>';
+    inner += '<text class="src-label" x="44" y="' + (y0 - 14) + '">' + s.name + '</text>';
+    inner += '<text class="src-share" x="44" y="' + (y0 + 6) + '">' + fmt(s.share, 'pct') + '</text>';
+    inner += '<circle cx="150" cy="' + y0 + '" r="5" fill="#191919"/>';
+  });
+  inner += '<g id="s3-g1node"><circle class="g1-circle" cx="' + node.x + '" cy="' + node.y + '" r="' + node.r + '"/>' +
+    '<text class="g1-type" x="' + node.x + '" y="' + (node.y + 18) + '" text-anchor="middle">g1</text></g>';
+  svg.innerHTML = inner;
+  state.flowPaths = $$('.flow', svg);
+  state.s3Node = node;
+
+  $('#s3-badges').innerHTML = DATA.devices.map(d =>
+    '<div class="s3-badge rev"><span class="mono">' + d.name + '</span><span class="mono pct">' + fmt(d.share, 'pct') + '</span></div>'
+  ).join('');
+
+  const caps = [
+    DER.mobileOf10 + ' em cada 10 acessos vieram do <strong>celular</strong>. A eleição coube na palma da mão.',
+    'Busca e acesso direto somaram <strong>' + DER.searchDirectPct + '% do tráfego</strong> — audiência que veio procurar, não que tropeçou.',
+    'Push e portais Globo completaram o mapa: <strong>' + DER.pushHousePct + '%</strong> chegaram por um empurrão da casa.'
+  ];
+  $('#s3-captions').innerHTML = caps.map((c, i) => '<p class="s3-cap" data-i="' + i + '">' + c + '</p>').join('');
+}
+
+function buildScene4() {
+  const NS = 'http://www.w3.org/2000/svg';
+  const svg = $('#s4-chart');
+  const CW = 1000, CH = 620, padT = 46, padB = 26;
+  const pts = DATA.minuteByMinute;
+  const X = i => (i / (pts.length - 1)) * CW;
+  const Y = v => CH - padB - (v / DER.maxPv) * (CH - padT - padB);
+  let dLine = '', dArea = '';
+  pts.forEach((p, i) => {
+    const seg = (i ? 'L' : 'M') + X(i).toFixed(2) + ' ' + Y(p.pv).toFixed(2);
+    dLine += seg; dArea += seg;
+  });
+  dArea += 'L' + CW + ' ' + CH + ' L0 ' + CH + ' Z';
+  svg.setAttribute('aria-label',
+    'Curva de audiência minuto a minuto, de 06:00 a 00:00. Pico às ' + DATA.peak.time + ' com ' +
+    fmt(DATA.peak.pvPerMinute) + ' de views por minuto — ' + DATA.peak.label + '.');
+  svg.innerHTML =
+    '<defs><clipPath id="s4-clip"><rect id="s4-cliprect" x="0" y="0" width="' + CW + '" height="' + CH + '" transform="scale(0,1)"/></clipPath></defs>' +
+    '<path id="s4-area" d="' + dArea + '" clip-path="url(#s4-clip)"/>' +
+    '<path id="s4-curve" d="' + dLine + '"/>';
+  state.s4 = {
+    CW, CH, X, Y,
+    curve: $('#s4-curve'), area: $('#s4-area'), clipRect: $('#s4-cliprect'),
+    clock: $('#s4-clock-t'), vpm: $('#s4-vpm'),
+    donutArc: $('#s4-donut-arc'), donutPct: $('#s4-donut-pct'),
+    lastIdx: -1, lastHour: -1, night: false
+  };
+  const C = 2 * Math.PI * 26;
+  state.s4.donutC = C;
+  state.s4.donutArc.setAttribute('stroke-dasharray', '0 ' + C);
+  // annotation flags at their exact timestamps
+  $('#s4-anns').innerHTML = DATA.annotations.map(a => {
+    const idx = timeToIdx(a.time);
+    const leftPct = (idx / (pts.length - 1)) * 100;
+    const hPct = ((CH - Y(pts[idx].pv)) / CH) * 100;
+    return '<div class="s4-ann flip" data-idx="' + idx + '" style="left:' + leftPct.toFixed(2) + '%;bottom:' + hPct.toFixed(2) + '%">' +
+      '<div class="lbl mono"><strong>' + a.time + '</strong> ' + a.label + '</div>' +
+      '<div class="stem"></div><div class="flagdot"></div></div>';
+  }).join('');
+  $('#s4-callout-big').textContent = DATA.peak.time + ' — ' + fmt(DATA.peak.pvPerMinute) + ' views por minuto.';
+  $('#s4-callout-sub').textContent = 'Um Maracanã inteiro entrando no g1 a cada ' + DER.maracanaSecs + ' segundos. ' + DATA.peak.label + '.';
+  $('#s4-vpm').textContent = fmt(pts[0].pv, 'int');
+}
+
+function buildScene5() {
+  const steps = [];
+  steps.push({
+    kicker: 'Por template',
+    html: 'O <strong>Tempo Real</strong> foi o coração da operação: <strong>' + fmt(DATA.templates[0].pv) + '</strong> de views num único formato.'
+  });
+  const lines = [
+    p => 'A apuração em tempo real: <strong>' + fmt(p.pv) + '</strong> de views. Sozinha, maior que muitos portais inteiros num dia comum.',
+    p => '<strong>' + fmt(p.vv) + '</strong> de videoviews no Ao Vivo — se cada uma durasse um minuto, seriam <strong>' + DER.aoVivoYears + ' anos</strong> de vídeo assistidos num único dia.',
+    p => 'Resultados por estado: <strong>' + fmt(p.pv) + '</strong> de views — o mapa que o país abriu, estado por estado.',
+    p => 'Candidatos: <strong>' + fmt(p.pv) + '</strong> de views — a última conferência antes da escolha.',
+    p => 'Onde votar e título: <strong>' + fmt(p.pv) + '</strong> de views de serviço puro. Jornalismo que resolve.'
+  ];
+  DATA.topPages.forEach((p, i) => steps.push({ kicker: '#' + (i + 1) + ' — ' + p.name, html: lines[i] ? lines[i](p) : fmt(p.pv) + ' de views.' }));
+  $('#s5-steps').innerHTML = steps.map((s, i) =>
+    '<div class="s5-step" data-step="' + i + '" data-thread-anchor>' +
+      '<div class="mono">' + s.kicker + '</div><p>' + s.html + '</p></div>'
+  ).join('');
+  state.stepEls = $$('.s5-step');
+
+  const maxT = Math.max(...DATA.templates.map(t => t.pv));
+  $('#s5-stateA').innerHTML = DATA.templates.map(t =>
+    '<div class="s5-card"><div class="head"><span class="name">' + t.name + '</span>' +
+    '<span class="num mono">' + fmt(t.pv, 'short') + ' views</span></div>' +
+    '<div class="barwrap"><div class="bar" style="width:' + ((t.pv / maxT) * 100).toFixed(1) + '%"></div></div></div>'
+  ).join('');
+  const maxP = Math.max(...DATA.topPages.map(p => p.pv));
+  $('#s5-stateB').innerHTML = DATA.topPages.map((p, i) =>
+    '<div class="s5-card" data-row="' + i + '"><div class="head"><span class="name">' + (i + 1) + '. ' + p.name + '</span>' +
+    '<span class="num mono">' + fmt(p.pv, 'short') + ' PV</span></div>' +
+    '<div class="barwrap"><div class="bar" style="width:' + ((p.pv / maxP) * 100).toFixed(1) + '%"></div></div>' +
+    '<div class="badges mono"><span>PV ' + fmt(p.pv, 'short') + '</span>' +
+    (p.vv ? '<span>VV ' + fmt(p.vv, 'short') + '</span>' : '') +
+    '<span>Usuários ' + fmt(p.users, 'short') + '</span></div></div>'
+  ).join('');
+}
+
+function buildScene6() {
+  $('#s6-total').textContent = fmt(DATA.totals2026.videoviews, 'int');
+  $('#s6-sub').textContent = DER.vvLine;
+  const top3 = DATA.topVideos.reduce((a, v) => a + v.vv, 0);
+  $('#s6-rows').innerHTML = DATA.topVideos.map((v, i) =>
+    '<div class="s6-row rev"><div class="rank">' + (i + 1) + '</div>' +
+    '<div><div class="name">' + v.name + '</div>' +
+    '<div class="vbar"><i style="width:' + ((v.vv / top3) * 100).toFixed(1) + '%"></i></div></div>' +
+    '<div class="num mono">' + fmt(v.vv, 'short') + ' VV</div></div>'
+  ).join('');
+}
+
+function buildScene7() {
+  const svg = $('#s7-svg');
+  const W = 900, H = 520;
+  const R1 = 150;
+  const R2 = R1 * Math.sqrt(DATA.ecosystem.globonewsUsers / DATA.ecosystem.g1Users);
+  const dFinal = (R1 + R2) * 0.72;
+  const c1 = { x: 330, y: 260 };
+  const c2 = { x: c1.x + dFinal, y: 260 };
+  // circle path drawn by the thread (starts at leftmost point, sweeps around)
+  const circPath = 'M ' + (c1.x - R1) + ' ' + c1.y +
+    ' a ' + R1 + ' ' + R1 + ' 0 1 1 ' + (2 * R1) + ' 0' +
+    ' a ' + R1 + ' ' + R1 + ' 0 1 1 ' + (-2 * R1) + ' 0';
+  svg.setAttribute('aria-label',
+    'Diagrama de sobreposição: g1 com ' + fmt(DATA.ecosystem.g1Users) + ' de usuários, GloboNews com ' +
+    fmt(DATA.ecosystem.globonewsUsers) + ' de usuários, e ' + fmt(DATA.ecosystem.overlapUsers) + ' de usuários em comum.');
+  svg.innerHTML =
+    '<circle id="s7-g1fill" cx="' + c1.x + '" cy="' + c1.y + '" r="' + R1 + '"/>' +
+    '<circle id="s7-gncircle" cx="' + c2.x.toFixed(1) + '" cy="' + c2.y + '" r="' + R2.toFixed(1) + '"/>' +
+    '<path id="s7-g1outline" d="' + circPath + '"/>' +
+    '<text class="circles-label" x="' + c1.x + '" y="' + (c1.y + R1 + 34) + '" text-anchor="middle">g1 · ' + fmt(DATA.ecosystem.g1Users, 'short') + '</text>' +
+    '<text class="circles-label" x="' + c2.x.toFixed(1) + '" y="' + (c2.y - R2 - 18).toFixed(1) + '" text-anchor="middle">GloboNews · ' + fmt(DATA.ecosystem.globonewsUsers, 'short') + '</text>';
+  state.s7 = { W, H, c1, c2, R1, R2, dFinal,
+    outline: $('#s7-g1outline'), gn: $('#s7-gncircle'), fill: $('#s7-g1fill') };
+  // overlap counter positioned at lens center (as % of stage box, matching xMidYMid meet is close enough centered)
+  const lensX = ((c1.x + c2.x) / 2 + R1 - R2) / 2; // midpoint of intersection region approx
+  const midX = (Math.max(c2.x - R2, c1.x - R1) + Math.min(c1.x + R1, c2.x + R2)) / 2;
+  $('#s7-counterwrap').style.left = ((midX / W) * 100).toFixed(1) + '%';
+  $('#s7-counterwrap').style.top = ((c1.y / H) * 100).toFixed(1) + '%';
+  $('#s7-counter').textContent = REDUCED ? fmt(DATA.ecosystem.overlapUsers) : '0';
+  $('#s7-label').textContent = 'usuários em comum';
+  $('#s7-sentence').innerHTML = '1 em cada ' + DER.oneInN +
+    ' usuários do g1 no dia também esteve na GloboNews — a cobertura foi uma só.';
+}
+
+function buildScene8() {
+  const cards = [
+    ['Usuários únicos', fmt(DATA.totals2026.users), ''],
+    ['Pageviews', fmt(DATA.totals2026.pageviews), ''],
+    ['Screenviews', fmt(DATA.totals2026.screenviews), ''],
+    ['Videoviews', fmt(DATA.totals2026.videoviews), ''],
+    ['Pico (views/min)', fmt(DATA.peak.pvPerMinute), 'às ' + DATA.peak.time + ' — ' + DATA.peak.label.toLowerCase()],
+    ['Share Eleições no pico', fmt(DER.peakShare, 'pct'), 'de todo o consumo do g1']
+  ];
+  $('#s8-cards').innerHTML = cards.map(c =>
+    '<div class="s8-card rev"><div class="lbl mono">' + c[0] + '</div>' +
+    '<div class="val">' + c[1] + '</div>' +
+    (c[2] ? '<div class="note mono">' + c[2] + '</div>' : '') + '</div>'
+  ).join('');
+}
+
+function buildAll() {
+  buildScene1(); buildScene2(); buildScene3(); buildScene4();
+  buildScene5(); buildScene6(); buildScene7(); buildScene8();
+}
+
+// =========================================================================
+// O FIO — the continuous thread
+// One document-spanning SVG path, drawn via strokeDashoffset scrubbed to
+// overall scroll (tip ~viewport center). Inside pinned scenes the line runs
+// down the left margin while scene-local thread pieces (S1 underline,
+// S3 confluence, S4 curve, S7 circle) carry the choreography; their
+// geometry is aligned with this path at each pin's resting position.
+// Geometry is rebuilt only on load / ScrollTrigger refresh — never per frame.
+// =========================================================================
+const THREAD = { total: 0, ys: null, n: 0, ptr: 0, built: false };
+
+function docPoint(el) {
+  const r = el.getBoundingClientRect();
+  const out = { left: r.left, right: r.right, w: r.width, h: r.height, top: r.top + window.scrollY, cy: 0 };
+  const sec = el.closest('.pin-scene');
+  if (sec && window.ScrollTrigger) {
+    const st = ScrollTrigger.getById(sec.id);
+    if (st && st.pin) {
+      const sr = sec.getBoundingClientRect();
+      out.top = st.end + (r.top - sr.top); // resting position after the pin releases
+    }
+  }
+  out.cy = out.top + r.height / 2;
+  return out;
+}
+function pinRange(id) {
+  if (window.ScrollTrigger) {
+    const st = ScrollTrigger.getById(id);
+    if (st && st.pin) return { a: st.start, b: st.end };
+  }
+  const el = $('#' + id);
+  const r = el.getBoundingClientRect();
+  const top = r.top + window.scrollY;
+  return { a: top, b: top + Math.max(0, r.height - innerHeight) };
+}
+
+function buildThreadGeometry() {
+  const svg = $('#thread-svg'), path = $('#thread-path');
+  const docW = document.documentElement.clientWidth;
+  const docH = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight);
+  const vh = innerHeight;
+  svg.setAttribute('width', docW); svg.setAttribute('height', docH);
+  svg.setAttribute('viewBox', '0 0 ' + docW + ' ' + docH);
+  svg.style.width = docW + 'px'; svg.style.height = docH + 'px';
+  const mx = Math.max(22, docW * 0.035);
+  const P = [];
+  const add = (x, y) => { const p = P[P.length - 1]; if (!p || Math.abs(p[0] - x) > 0.5 || Math.abs(p[1] - y) > 0.5) P.push([x, y]); };
+
+  // S1 — born as the counter underline; global path picks up at its right end
+  const ul = docPoint($('#s1-underline'));
+  const ulY = ul.top + 4;
+  add(ul.right, ulY);
+  add(mx, ulY + vh * 0.45);
+
+  // S2 — baseline under the year bars, kinking with each year's result
+  const rows = $$('.s2-row');
+  if (rows.length) {
+    const maxPv = Math.max(...rows.map(r => +r.dataset.pv));
+    rows.forEach(r => {
+      const p = docPoint(r);
+      const dx = state.mobile ? 0 : ((+r.dataset.pv / maxPv) - 0.85) * 40;
+      add((state.mobile ? mx : p.left - 18) + dx, p.cy);
+    });
+    const tbl = docPoint($('#s2-table'));
+    add(mx, tbl.top + vh * 0.1);
+  }
+
+  // S3 / S4 — down the left margin through each pinned stretch
+  ['s3', 's4'].forEach(id => {
+    const pr = pinRange(id);
+    add(mx, pr.a + vh * 0.5);
+    add(mx, pr.b + vh * 0.5);
+  });
+
+  // S5 — the margin line the step-node travels on
+  state.stepEls.forEach(stp => add(mx, docPoint(stp).cy));
+
+  // S6 — underline of "O Brasil deu play."
+  const t6 = docPoint($('#s6-title'));
+  const t6y = t6.top + t6.h + 12;
+  if (!state.mobile) {
+    add(mx, t6.top - vh * 0.08);
+    add(t6.left, t6y);
+    add(t6.right, t6y);
+    add(mx, t6y + vh * 0.35);
+  } else {
+    add(mx, t6y);
+  }
+
+  // S7 — through the pinned Venn stretch (the circle piece is scene-local)
+  const pr7 = pinRange('s7');
+  add(mx, pr7.a + vh * 0.5);
+  add(mx, pr7.b + vh * 0.5);
+
+  // S8 — final rule above the signature, ending in the terminal dot
+  const cards = docPoint($('#s8-cards'));
+  add(mx, cards.top + cards.h + vh * 0.06);
+  const rule = docPoint($('#s8-rule'));
+  add(rule.left, rule.top);
+  add(rule.right, rule.top);
+
+  // path d: straight segments on mobile, Catmull-Rom smoothing on desktop
+  let d = 'M' + P[0][0].toFixed(1) + ' ' + P[0][1].toFixed(1);
+  if (state.mobile) {
+    for (let i = 1; i < P.length; i++) d += 'L' + P[i][0].toFixed(1) + ' ' + P[i][1].toFixed(1);
+  } else {
+    for (let i = 0; i < P.length - 1; i++) {
+      const p0 = P[Math.max(0, i - 1)], p1 = P[i], p2 = P[i + 1], p3 = P[Math.min(P.length - 1, i + 2)];
+      const c1x = p1[0] + (p2[0] - p0[0]) / 6, c1y = p1[1] + (p2[1] - p0[1]) / 6;
+      const c2x = p2[0] - (p3[0] - p1[0]) / 6, c2y = p2[1] - (p3[1] - p1[1]) / 6;
+      d += 'C' + c1x.toFixed(1) + ' ' + c1y.toFixed(1) + ',' + c2x.toFixed(1) + ' ' + c2y.toFixed(1) + ',' + p2[0].toFixed(1) + ' ' + p2[1].toFixed(1);
+    }
+  }
+  path.setAttribute('d', d);
+
+  // terminal dot sits at the path's very end
+  const dot = $('#thread-dot');
+  dot.setAttribute('cx', P[P.length - 1][0].toFixed(1));
+  dot.setAttribute('cy', P[P.length - 1][1].toFixed(1));
+
+  // sample table for scroll → drawn-length mapping (built once per layout)
+  const total = path.getTotalLength();
+  THREAD.total = total;
+  THREAD.n = clamp(Math.round(total / 24), 120, 1600);
+  THREAD.ys = new Float32Array(THREAD.n + 1);
+  for (let k = 0; k <= THREAD.n; k++) THREAD.ys[k] = path.getPointAtLength((total * k) / THREAD.n).y;
+  THREAD.ptr = 0;
+  THREAD.built = true;
+
+  if (REDUCED || !window.gsap) {
+    path.style.strokeDasharray = 'none';
+    path.style.strokeDashoffset = '0';
+  } else {
+    path.style.strokeDasharray = total + ' ' + total;
+    setThreadTip(window.scrollY);
+  }
+}
+
+function setThreadTip(scroll) {
+  if (!THREAD.built) return;
+  const path = $('#thread-path');
+  const maxS = Math.max(1, (document.documentElement.scrollHeight - innerHeight));
+  let L;
+  if (scroll >= maxS - 2) L = THREAD.total;
+  else {
+    const targetY = scroll + innerHeight * 0.5, tol = 14;
+    let p = THREAD.ptr;
+    while (p < THREAD.n && THREAD.ys[p + 1] <= targetY + tol) p++;
+    while (p > 0 && THREAD.ys[p] > targetY + tol) p--;
+    THREAD.ptr = p;
+    L = (THREAD.total * p) / THREAD.n;
+  }
+  path.style.strokeDashoffset = String(THREAD.total - L);
+}
+
+// =========================================================================
+// SCENE 3 PARTICLES — the only canvas on the page.
+// rAF loop runs ONLY while scene 3's ScrollTrigger is active.
+// =========================================================================
+const PART = {
+  running: false, raf: 0, parts: [], tables: [], alpha: 0,
+  cap: 400, ctx: null, dpr: 1, last: 0
+};
+
+function buildParticleTables() {
+  const canvas = $('#s3-canvas'), svg = $('#s3-svg');
+  const rect = svg.getBoundingClientRect();
+  if (!rect.width || !rect.height) return;
+  PART.dpr = Math.min(2, window.devicePixelRatio || 1);
+  canvas.width = Math.round(rect.width * PART.dpr);
+  canvas.height = Math.round(rect.height * PART.dpr);
+  PART.ctx = canvas.getContext('2d');
+  const scale = Math.min(rect.width / 1200, rect.height / 700);
+  const ox = (rect.width - 1200 * scale) / 2, oy = (rect.height - 700 * scale) / 2;
+  PART.tables = state.flowPaths.map(p => {
+    const L = p.getTotalLength();
+    const n = Math.max(8, Math.ceil((L * scale) / 6));
+    const xs = new Float32Array(n + 1), ys = new Float32Array(n + 1);
+    for (let k = 0; k <= n; k++) {
+      const pt = p.getPointAtLength((L * k) / n);
+      xs[k] = (pt.x * scale + ox) * PART.dpr;
+      ys[k] = (pt.y * scale + oy) * PART.dpr;
+    }
+    return { n, xs, ys, len: L * scale * PART.dpr };
+  });
+  seedParticles();
+}
+
+function seedParticles() {
+  // 1 particle = particleUser users (~774 for the 2026 total) — hard-capped;
+  // when capped, each on-screen particle simply stands for proportionally more users.
+  const rng = mulberry32(97);
+  const n = Math.min(PART.cap, DER.particleTarget);
+  const totalShare = DATA.trafficSources.reduce((a, s) => a + s.share, 0);
+  PART.parts = [];
+  DATA.trafficSources.forEach((s, pi) => {
+    const count = Math.round((s.share / totalShare) * n);
+    const tbl = PART.tables[pi];
+    if (!tbl) return;
+    for (let k = 0; k < count; k++) {
+      PART.parts.push({
+        pi,
+        s: rng() * tbl.len,                          // per-particle phase offset
+        v: (60 + rng() * 50) * PART.dpr              // 60–110 px/s (screen px)
+      });
+    }
+  });
+}
+
+function partFrame(ts) {
+  if (!PART.running) return;
+  const ctx = PART.ctx;
+  const dt = Math.min(0.05, (ts - PART.last) / 1000 || 0.016);
+  PART.last = ts;
+  ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
+  if (PART.alpha > 0.005) {
+    ctx.fillStyle = '#C4170C';
+    const sz = 2 * PART.dpr, fadeLen = 12 * PART.dpr;
+    for (let i = 0; i < PART.parts.length; i++) {
+      const pt = PART.parts[i], tbl = PART.tables[pt.pi];
+      if (!tbl) continue;
+      pt.s += pt.v * dt;
+      if (pt.s >= tbl.len) pt.s -= tbl.len; // fade out at the node, respawn at source
+      const fade = Math.min(1, (tbl.len - pt.s) / fadeLen);
+      const ga = PART.alpha * 0.85 * fade;
+      if (ga <= 0.02) continue;
+      const f = (pt.s / tbl.len) * tbl.n;
+      const k = Math.min(tbl.n - 1, Math.floor(f)), fr = f - k;
+      const x = tbl.xs[k] + (tbl.xs[k + 1] - tbl.xs[k]) * fr;
+      const y = tbl.ys[k] + (tbl.ys[k + 1] - tbl.ys[k]) * fr;
+      ctx.globalAlpha = ga;
+      ctx.fillRect(x - sz / 2, y - sz / 2, sz, sz);
+    }
+    ctx.globalAlpha = 1;
+  }
+  PART.raf = requestAnimationFrame(partFrame);
+}
+
+function partStart() {
+  if (PART.running || REDUCED) return;
+  PART.running = true;
+  PART.last = performance.now();
+  PART.raf = requestAnimationFrame(partFrame);
+}
+function partStop() {
+  PART.running = false;
+  cancelAnimationFrame(PART.raf);
+  if (PART.ctx) PART.ctx.clearRect(0, 0, PART.ctx.canvas.width, PART.ctx.canvas.height);
+}
+
+// =========================================================================
+// ANIMATION — GSAP + ScrollTrigger (+ Lenis on fine pointers)
+// =========================================================================
+function setupUnderline() {
+  const wrap = $('.s1-counterwrap'), path = $('#s1-underline-path');
+  const w = Math.max(40, wrap.getBoundingClientRect().width);
+  path.setAttribute('d', 'M2 4 L' + (w - 2).toFixed(0) + ' 4');
+  path.setAttribute('pathLength', '1');
+}
+
+function positionS5Node() {
+  const s5 = $('#s5'), node = $('#s5-node');
+  const sTop = s5.getBoundingClientRect().top + window.scrollY;
+  state.stepYs = state.stepEls.map(el => {
+    const r = el.getBoundingClientRect();
+    return (r.top + window.scrollY) - sTop + r.height / 2;
+  });
+  node.style.left = (state.mx || 22) + 'px';
+  node.style.top = (state.stepYs[0] || 0) + 'px';
+}
+
+function setFlowWidths(mob) {
+  const shares = DATA.trafficSources.map(s => s.share);
+  const sMin = Math.min(...shares), sMax = Math.max(...shares);
+  const wMin = mob ? 4 : 6, wMax = mob ? 16 : 28;
+  state.flowPaths.forEach(p => {
+    const s = +p.dataset.share;
+    p.setAttribute('stroke-width', (wMin + ((s - sMin) / (sMax - sMin || 1)) * (wMax - wMin)).toFixed(1));
+  });
+}
+
+function onRefresh() {
+  setupUnderline();
+  buildThreadGeometry();
+  buildParticleTables();
+  positionS5Node();
+  setThreadTip(window.scrollY);
+  updateBodyBg(window.scrollY);
+}
+
+// single owner of body backgroundColor (theme only): white → dusk across the
+// end of scene 3, dusk → night across scene 4's 20–55% (15–45% mobile)
+function updateBodyBg(scroll) {
+  if (!window.ScrollTrigger || !state.bgLerp1) return;
+  const st3 = ScrollTrigger.getById('s3'), st4 = ScrollTrigger.getById('s4');
+  if (!st3 || !st4) return;
+  let c;
+  if (scroll >= st4.start) {
+    const p4 = (scroll - st4.start) / Math.max(1, st4.end - st4.start);
+    c = state.bgLerp2(ramp(p4, state.nightA, state.nightB));
+  } else {
+    const p3 = (scroll - st3.start) / Math.max(1, st3.end - st3.start);
+    c = state.bgLerp1(ramp(p3, .85, 1));
+  }
+  document.body.style.backgroundColor = c;
+}
+
+function buildTriggers(mob) {
+  const wc = t => ({ onStart: () => gsap.set(t, { willChange: 'transform' }), onComplete: () => gsap.set(t, { willChange: 'auto' }) });
+
+  // normalized dash setup for every scene-local thread piece
+  [$('#s1-underline-path'), $('#s4-curve'), $('#s7-g1outline')].forEach(p => p.setAttribute('pathLength', '1'));
+  state.flowPaths.forEach(p => p.setAttribute('pathLength', '1'));
+  setFlowWidths(mob);
+  PART.cap = mob ? 150 : 400;
+
+  // ---------- SCENE 1 — O Gancho ----------
+  const c1 = { v: 0 };
+  gsap.set('#s1-underline-path', { strokeDasharray: 1, strokeDashoffset: 1 });
+  const tl1 = gsap.timeline({
+    defaults: { ease: 'none' },
+    scrollTrigger: { id: 's1', trigger: '#s1', start: 'top top', end: '+=' + (mob ? 100 : 150) + '%', pin: true, scrub: 1 }
+  });
+  tl1.to(c1, { v: DATA.totals2026.users, duration: .6, snap: { v: 1 }, onUpdate: () => { $('#s1-counter').textContent = fmt(c1.v, 'int'); } }, 0)
+     .to('#s1-underline-path', { strokeDashoffset: 0, duration: .6 }, 0);
+  if (state.s1Batches.length)
+    tl1.to(state.s1Batches, { opacity: 1, duration: .02, stagger: { each: .58 / state.s1Batches.length } }, 0);
+  tl1.fromTo('#s1-analogy', { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: .1, ease: 'power3.out' }, .65)
+     .to('.s1-fade', { opacity: 0, y: -60, duration: .15 }, .85);
+
+  // ---------- SCENE 2 — Cada eleição, um novo teto ----------
+  const tl2 = gsap.timeline({
+    scrollTrigger: { trigger: '#s2-bars', start: 'top 70%', toggleActions: 'play none none reverse' }
+  });
+  tl2.fromTo(['#s2-title', '#s2-para'], { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: .8, ease: 'power3.out', stagger: .1 }, 0);
+  $$('.s2-row').forEach((row, i) => {
+    tl2.to($('.s2-bar', row), { scaleX: 1, duration: 1.2, ease: 'expo.inOut' }, i * .25);
+    const val = $('.s2-val', row), o = { v: 0 }, target = +val.dataset.target;
+    val.textContent = '0';
+    tl2.to(o, { v: target, duration: 1.2, ease: 'expo.inOut', snap: { v: 1 }, onUpdate: () => { val.textContent = fmt(o.v, 'int'); } }, i * .25);
+  });
+  tl2.fromTo('.s2-trow', { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: .6, ease: 'power3.out', stagger: .08 }, 1);
+
+  // ---------- SCENE 3 — Onde eles estavam ----------
+  gsap.set(state.flowPaths, { strokeDasharray: 1, strokeDashoffset: 1 });
+  state.s3CapIdx = -1;
+  const showCap = idx => {
+    if (idx === state.s3CapIdx) return;
+    const caps = $$('.s3-cap');
+    if (state.s3CapIdx >= 0) gsap.to(caps[state.s3CapIdx], { opacity: 0, y: -14, duration: .5, ease: 'power2.out', overwrite: 'auto' });
+    gsap.fromTo(caps[idx], { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: .5, ease: 'power2.out', overwrite: 'auto' });
+    state.s3CapIdx = idx;
+  };
+  const tl3 = gsap.timeline({
+    defaults: { ease: 'none' },
+    scrollTrigger: {
+      id: 's3', trigger: '#s3', start: 'top top', end: '+=' + (mob ? 150 : 200) + '%', pin: true, scrub: 1,
+      onToggle: self => { if (self.isActive) partStart(); else partStop(); },
+      onUpdate: self => {
+        const p = self.progress;
+        PART.alpha = ramp(p, .15, .4) * (1 - ramp(p, .85, 1));
+        showCap(p < 1 / 3 ? 0 : p < 2 / 3 ? 1 : 2);
+      }
+    }
+  });
+  tl3.to(state.flowPaths, { strokeDashoffset: 0, duration: .35, stagger: .0375 }, 0)
+     .fromTo('.s3-badge', { scale: .9, opacity: 0 }, { scale: 1, opacity: 1, duration: .08, stagger: .02, ease: 'power3.out' }, .1);
+
+  // ---------- SCENE 4 — Minuto a minuto (assinatura) ----------
+  const s4 = state.s4, mm4 = DATA.minuteByMinute;
+  const nightA = mob ? .15 : .2, nightB = mob ? .45 : .55;
+  state.nightA = nightA; state.nightB = nightB;
+  state.bgLerp1 = gsap.utils.interpolate('#FFFFFF', '#F4E8E6');
+  state.bgLerp2 = gsap.utils.interpolate('#F4E8E6', '#191919');
+  gsap.set(s4.curve, { strokeDasharray: 1, strokeDashoffset: 1 });
+  gsap.set(s4.area, { opacity: .12 });
+  const s4El = $('#s4');
+  const s4Update = self => {
+    const p = self.progress, f = clamp(p / .9, 0, 1);
+    s4.curve.style.strokeDashoffset = String(1 - f);
+    s4.clipRect.setAttribute('transform', 'scale(' + f.toFixed(4) + ',1)');
+    const idx = Math.min(mm4.length - 1, Math.round(f * (mm4.length - 1)));
+    if (idx !== s4.lastIdx) {
+      s4.lastIdx = idx;
+      s4.clock.textContent = f >= .999 ? '00:00' : mm4[idx].t;
+      s4.vpm.textContent = fmt(mm4[idx].pv, 'int');
+      const hour = clamp(Math.floor(idx / 60), 0, DATA.editoriaShareByHour.length - 1);
+      if (hour !== s4.lastHour) {
+        s4.lastHour = hour;
+        const share = DATA.editoriaShareByHour[hour];
+        s4.donutArc.setAttribute('stroke-dasharray', (share * s4.donutC).toFixed(1) + ' ' + s4.donutC.toFixed(1));
+        s4.donutPct.textContent = fmt(share, 'pct');
+      }
+    }
+    const night = p >= (nightA + nightB) / 2;
+    if (night !== s4.night) { s4.night = night; s4El.classList.toggle('night', night); }
+  };
+  const tl4 = gsap.timeline({
+    defaults: { ease: 'none' },
+    scrollTrigger: {
+      id: 's4', trigger: '#s4', start: 'top top', end: '+=' + (mob ? 150 : 400) + '%',
+      pin: true, scrub: 1, onUpdate: s4Update
+    }
+  });
+  tl4.fromTo('#s4-progress', { scaleX: 0 }, { scaleX: 1, duration: 1 }, 0)
+     .to(s4.area, { opacity: .28, duration: nightB - nightA }, nightA);
+  $$('.s4-ann').forEach(ann => {
+    const pos = .9 * (+ann.dataset.idx) / (mm4.length - 1);
+    tl4.fromTo(ann, { scale: .8, opacity: 0, y: 20 }, { scale: 1, opacity: 1, y: 0, duration: .04, ease: 'back.out(1.4)' }, pos);
+  });
+  tl4.fromTo('#s4-callout', { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: .05, ease: 'power3.out' }, .78)
+     .to('#s4-chartwrap', { scale: .92, opacity: .35, duration: .1 }, .9);
+
+  // ---------- SCENE 5 — Onde os milhões foram ----------
+  state.s5Active = -1;
+  let s5Crossfaded = false;
+  const activateStep = i => {
+    if (i === state.s5Active) return;
+    state.s5Active = i;
+    const node = $('#s5-node');
+    gsap.to(node, { opacity: 1, y: (state.stepYs[i] || 0) - (state.stepYs[0] || 0), duration: .4, ease: 'power2.out', overwrite: 'auto' });
+    if (i === 0) {
+      s5Crossfaded = false;
+      gsap.to('#s5-stateA', { autoAlpha: 1, duration: .6, ease: 'expo.inOut', overwrite: 'auto' });
+      gsap.to('#s5-stateB', { autoAlpha: 0, duration: .6, ease: 'expo.inOut', overwrite: 'auto' });
+      gsap.to('#s5-stateA .bar', { scaleX: 1, duration: .9, ease: 'expo.out', stagger: .15, overwrite: 'auto' });
+    } else {
+      if (!s5Crossfaded) {
+        s5Crossfaded = true;
+        gsap.to('#s5-stateA', { autoAlpha: 0, duration: .6, ease: 'expo.inOut', overwrite: 'auto' });
+        gsap.to('#s5-stateB', { autoAlpha: 1, duration: .6, ease: 'expo.inOut', overwrite: 'auto' });
+      }
+      $$('#s5-stateB .s5-card').forEach((card, j) => {
+        card.classList.toggle('on', j === i - 1);
+        card.classList.toggle('seen', j < i - 1);
+        if (j === i - 1) gsap.fromTo($('.bar', card), { scaleX: 0 }, { scaleX: 1, duration: .9, ease: 'expo.out', overwrite: 'auto' });
+      });
+    }
+  };
+  state.stepEls.forEach((el, i) => {
+    ScrollTrigger.create({
+      trigger: el, start: 'top 55%', end: 'bottom 45%',
+      onToggle: self => { if (self.isActive) activateStep(i); }
+    });
+  });
+
+  // ---------- SCENE 6 — O Brasil deu play ----------
+  const c6 = { v: 0 };
+  const tl6 = gsap.timeline({
+    scrollTrigger: { trigger: '#s6', start: 'top 70%', toggleActions: 'play none none reverse' }
+  });
+  tl6.fromTo('#s6-title', { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: .8, ease: 'power3.out' }, 0)
+     .fromTo('#s6-total', { opacity: 0 }, { opacity: 1, duration: .4 }, .1)
+     .to(c6, { v: DATA.totals2026.videoviews, duration: 1.1, ease: 'power1.out', snap: { v: 1 }, onUpdate: () => { $('#s6-total').textContent = fmt(c6.v, 'int'); } }, .1)
+     .fromTo('#s6-sub', { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: .7, ease: 'power3.out' }, .3)
+     .fromTo('.s6-row', { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: .8, ease: 'power3.out', stagger: .12, ...wc('.s6-row') }, .4)
+     .to('.s6-row .vbar i', { scaleX: 1, duration: .9, ease: 'expo.out', stagger: .12 }, .9);
+  gsap.to('#s6-inner', { // the only parallax on the page
+    yPercent: -8, ease: 'none',
+    scrollTrigger: { trigger: '#s6', start: 'top bottom', end: 'bottom top', scrub: 1 }
+  });
+
+  // ---------- SCENE 7 — A força do ecossistema ----------
+  const c7 = { v: 0 };
+  const s7CounterUpd = () => { $('#s7-counter').textContent = fmt(c7.v); };
+  gsap.set('#s7-g1outline', { strokeDasharray: 1, strokeDashoffset: 1 });
+  if (!mob) {
+    const tl7 = gsap.timeline({
+      defaults: { ease: 'none' },
+      scrollTrigger: { id: 's7', trigger: '#s7', start: 'top top', end: '+=150%', pin: true, scrub: 1 }
+    });
+    tl7.fromTo('#s7-title', { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: .08, ease: 'power3.out' }, 0)
+       .to('#s7-g1outline', { strokeDashoffset: 0, duration: .4 }, 0)
+       .fromTo('#s7-g1fill', { opacity: 0 }, { opacity: .5, duration: .2 }, .2)
+       .fromTo('#s7-gncircle', { x: 520 }, { x: 0, duration: .5 }, .2)
+       .fromTo('#s7-counterwrap', { opacity: 0 }, { opacity: 1, duration: .05 }, .55)
+       .to(c7, { v: DATA.ecosystem.overlapUsers, duration: .3, snap: { v: 1 }, onUpdate: s7CounterUpd }, .55)
+       .fromTo('#s7-sentence', { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: .1, ease: 'power3.out' }, .85);
+  } else {
+    // mobile: no pin — pre-overlapped circles fade in with the counter
+    const tl7 = gsap.timeline({
+      scrollTrigger: { trigger: '#s7', start: 'top 65%', toggleActions: 'play none none reverse' }
+    });
+    tl7.fromTo('#s7-title', { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: .7, ease: 'power3.out' }, 0)
+       .to('#s7-g1outline', { strokeDashoffset: 0, duration: 1.1, ease: 'expo.inOut' }, 0)
+       .fromTo(['#s7-g1fill', '#s7-gncircle'], { opacity: 0 }, { opacity: .5, duration: .8, ease: 'power2.out' }, .3)
+       .fromTo('#s7-counterwrap', { opacity: 0 }, { opacity: 1, duration: .5 }, .5)
+       .to(c7, { v: DATA.ecosystem.overlapUsers, duration: .9, ease: 'power1.out', snap: { v: 1 }, onUpdate: s7CounterUpd }, .5)
+       .fromTo('#s7-sentence', { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: .6, ease: 'power3.out' }, .9);
+  }
+
+  // ---------- SCENE 8 — O Fechamento ----------
+  gsap.timeline({
+    scrollTrigger: { trigger: '#s8-cards', start: 'top 70%', toggleActions: 'play none none reverse' }
+  }).fromTo('.s8-card', { opacity: 0, y: 50 }, { opacity: 1, y: 0, duration: .9, ease: 'power3.out', stagger: .12, ...wc('.s8-card') }, 0);
+  ScrollTrigger.create({
+    trigger: '#s8-footer', start: 'top 80%',
+    onEnter: () => gsap.to('#thread-dot', { attr: { r: 5 }, duration: .6, ease: 'back.out(1.7)' }),
+    onLeaveBack: () => gsap.to('#thread-dot', { attr: { r: 0 }, duration: .3 })
+  });
+
+  // cleanup for matchMedia branch switches (gsap reverts its own tweens/triggers)
+  return () => {
+    partStop();
+    s4El.classList.remove('night');
+    s4.night = false; s4.lastIdx = -1; s4.lastHour = -1;
+    $$('#s5-stateB .s5-card').forEach(c => c.classList.remove('on', 'seen'));
+    document.body.style.backgroundColor = '';
+  };
+}
+
+function initAnimated() {
+  gsap.registerPlugin(ScrollTrigger);
+  ScrollTrigger.config({ ignoreMobileResize: true });
+
+  // Lenis — fine pointers only; touch keeps native scroll
+  if (matchMedia('(pointer: fine)').matches && window.Lenis) {
+    const lenis = new Lenis({ lerp: 0.1 });
+    lenis.on('scroll', ScrollTrigger.update);
+    gsap.ticker.add(t => lenis.raf(t * 1000));
+    gsap.ticker.lagSmoothing(0);
+  }
+
+  // headline load-in
+  gsap.from('#s1-headline .w', { y: 40, opacity: 0, stagger: .05, duration: .9, ease: 'power3.out', delay: .15 });
+  gsap.from('.kicker', { opacity: 0, y: 10, duration: .8, ease: 'power3.out' });
+
+  ScrollTrigger.addEventListener('refresh', onRefresh);
+
+  const mmg = gsap.matchMedia();
+  mmg.add({ desk: '(min-width: 769px)', mob: '(max-width: 768px)' }, ctx => {
+    state.mobile = !!(ctx.conditions && ctx.conditions.mob);
+    return buildTriggers(state.mobile);
+  });
+
+  // the thread's global scrub — tip tracks the viewport center — plus the
+  // day → dusk → night background arc
+  ScrollTrigger.create({
+    start: 0, end: 'max',
+    onUpdate: self => { setThreadTip(self.scroll()); updateBodyBg(self.scroll()); }
+  });
+
+  ScrollTrigger.refresh();
+  document.fonts.ready.then(() => ScrollTrigger.refresh());
+}
+
+// =========================================================================
+// STATIC MODE — prefers-reduced-motion, or CDN unavailable.
+// Everything fully drawn and readable, no pins, no particles.
+// =========================================================================
+function staticInit() {
+  document.documentElement.classList.add('rm');
+  $('#s1-counter').textContent = fmt(DATA.totals2026.users, 'int');
+  $$('.s2-val').forEach(v => { v.textContent = fmt(+v.dataset.target, 'int'); });
+  const s4 = state.s4;
+  $('#s4').classList.add('night');
+  s4.clock.textContent = DATA.peak.time;
+  s4.vpm.textContent = fmt(DATA.peak.pvPerMinute, 'int');
+  s4.clipRect.setAttribute('transform', 'scale(1,1)');
+  s4.area.style.opacity = .28;
+  s4.donutArc.setAttribute('stroke-dasharray', (DER.peakShare * s4.donutC).toFixed(1) + ' ' + s4.donutC.toFixed(1));
+  s4.donutPct.textContent = fmt(DER.peakShare, 'pct');
+  $('#s6-total').textContent = fmt(DATA.totals2026.videoviews, 'int');
+  $('#s7-counter').textContent = fmt(DATA.ecosystem.overlapUsers);
+  const rebuild = () => { try { buildThreadGeometry(); } catch (e) { /* decorative only */ } };
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(rebuild);
+  window.addEventListener('load', rebuild);
+  rebuild();
+}
+
+// =========================================================================
+// BOOT
+// =========================================================================
+buildAll();
+if (window.gsap && window.ScrollTrigger && !REDUCED) {
+  try { initAnimated(); }
+  catch (e) { console.error('Animation init failed, falling back to static:', e); staticInit(); }
+} else {
+  staticInit();
+}
+</script>
+</body>
+</html>
