@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --pds-orange: #f58220;
+  --pds-orange-dark: #c9640f;
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-top: env(safe-area-inset-top, 0px);
+  color-scheme: dark;
+}
+
+html,
+body {
+  background: #000;
+  color: #fff;
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior-y: none;
+}
+
+body {
+  font-family: var(--font-sans), system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Fundo com brilho laranja discreto, no espirito do selo da Familia PDS. */
+.pds-bg {
+  background:
+    radial-gradient(90rem 40rem at 50% -18rem, rgba(245, 130, 32, 0.16), transparent 60%),
+    radial-gradient(60rem 30rem at 110% 100%, rgba(245, 130, 32, 0.07), transparent 55%),
+    #000;
+}
+
+@layer components {
+  .card {
+    @apply rounded-2xl border border-pds-line bg-pds-card/80 backdrop-blur;
+  }
+
+  .campo {
+    @apply w-full rounded-xl border border-pds-line bg-black/60 px-4 py-3 text-base text-white
+      placeholder:text-pds-muted outline-none transition
+      focus:border-pds-orange focus:ring-2 focus:ring-pds-orange/30;
+  }
+
+  .rotulo {
+    @apply mb-1.5 block text-xs font-semibold uppercase tracking-wider text-pds-muted;
+  }
+
+  .btn {
+    @apply inline-flex min-h-[48px] items-center justify-center gap-2 rounded-xl px-5 text-base
+      font-bold transition active:scale-[.98] disabled:pointer-events-none disabled:opacity-50;
+  }
+
+  .btn-primario {
+    @apply btn bg-pds-orange text-black hover:bg-pds-orangeSoft;
+  }
+
+  .btn-secundario {
+    @apply btn border border-pds-line bg-pds-card text-white hover:border-pds-orange/60;
+  }
+
+  .btn-perigo {
+    @apply btn border border-red-500/40 bg-red-500/10 text-red-300 hover:bg-red-500/20;
+  }
+
+  .etiqueta {
+    @apply inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-[11px] font-bold uppercase tracking-wide;
+  }
+}
+
+/* Scrollbar discreta no desktop */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a2a30;
+  border-radius: 99px;
+}
+
+/* Esconde a barra em carrosseis horizontais */
+.sem-barra::-webkit-scrollbar {
+  display: none;
+}
+.sem-barra {
+  scrollbar-width: none;
+}

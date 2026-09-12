@@ -1,0 +1,13 @@
+{
+  "name": "Feijuca PDS - Listas e Reservas",
+  "short_name": "Feijuca PDS",
+  "description": "Lista VIP, bistros e lounges da Feijuca do Papo de Samba.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "orientation": "portrait",
+  "icons": [
+    { "src": "/logo.jpg", "sizes": "1024x1024", "type": "image/jpeg", "purpose": "any" }
+  ]
+}
