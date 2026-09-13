@@ -81,22 +81,42 @@ ele diz exatamente o quê e onde resolver.
 
 ### 4. Publicar na Vercel
 
-1. Suba este repositório para o GitHub (já está: `davilealster/projetos`).
+**Caminho curto — um comando faz tudo:**
+
+```bash
+cd feijuca-reservas
+npm run deploy -- ~/Downloads/feijuca-pds-a1b2c3.json
+```
+
+O script valida a credencial, testa a planilha, faz login na Vercel (abre o navegador),
+cria o projeto, cadastra as 4 variáveis nos três ambientes e publica em produção.
+Se a credencial não passar no teste, ele **não** publica.
+
+Como o comando roda de dentro de `feijuca-reservas/`, a Vercel já trata essa pasta como
+raiz do projeto — não é preciso mexer em "Root Directory".
+
+<details>
+<summary><strong>Caminho manual pelo painel</strong> (se preferir clicar)</summary>
+
+1. Suba este repositório para o GitHub.
 2. Em https://vercel.com → **Add New → Project** → importe o repositório.
-3. Em **Root Directory**, selecione **`feijuca-reservas`** (o app não fica na raiz do repo).
+3. Em **Root Directory**, selecione **`feijuca-reservas`**.
 4. Em **Environment Variables**, cadastre:
 
 | Variável | Valor |
 |---|---|
 | `GOOGLE_SHEET_ID` | `1hn1MswrZH6yq0BXsUU7rPBGdRf9u6DIZxtrfPLohk6k` |
 | `GOOGLE_SERVICE_ACCOUNT_EMAIL` | o `client_email` do JSON |
-| `GOOGLE_PRIVATE_KEY` | o `private_key` do JSON, **inteiro**, incluindo `-----BEGIN PRIVATE KEY-----`, os `\n` e as aspas |
-| `AUTH_SECRET` | um texto aleatório longo (gere com `openssl rand -base64 32`) |
+| `GOOGLE_PRIVATE_KEY` | o `private_key` do JSON, **inteiro**, incluindo `-----BEGIN PRIVATE KEY-----`, os `\n` e sem as aspas externas |
+| `AUTH_SECRET` | um texto aleatório longo (`openssl rand -base64 32`) |
 
-O `npm run configurar` do passo anterior já imprime os quatro valores prontos.
+O `npm run configurar` imprime os quatro valores prontos para colar.
 
 5. Clique em **Deploy**.
-6. Abra `https://seu-app.vercel.app/configuracao` para conferir se está tudo verde.
+
+</details>
+
+Depois do deploy, abra `https://seu-app.vercel.app/configuracao` para conferir se está tudo verde.
 
 O plano gratuito (Hobby) da Vercel dá conta com folga: o app é leve e várias pessoas
 podem usar ao mesmo tempo.
@@ -131,6 +151,7 @@ Outros comandos:
 npm run build      # build de produção
 npm run typecheck  # checagem de tipos
 npm test           # testes das regras de negócio
+npm run deploy     # publica na Vercel (variáveis de ambiente incluídas)
 ```
 
 ---

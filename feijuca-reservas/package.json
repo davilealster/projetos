@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "configurar": "node --no-deprecation scripts/configurar.mjs",
+    "deploy": "node --no-deprecation scripts/deploy.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
