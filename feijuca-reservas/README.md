@@ -42,12 +42,18 @@ O app fala com a planilha através de uma **conta de serviço** do Google. É de
 
 ### 1. Criar a conta de serviço
 
+> ⚠️ **Conta de serviço, não Cliente OAuth.** São duas credenciais diferentes no mesmo
+> menu do Google Cloud. O Cliente OAuth (`client_secret_....json`, com os campos
+> `client_id`/`client_secret`) serve para **uma pessoa logar** — não serve aqui.
+> O app roda sozinho no servidor, então precisa de uma **conta de serviço**, cujo JSON
+> tem `"type": "service_account"` e um campo `private_key`.
+
 1. Acesse https://console.cloud.google.com/ e crie um projeto (ex.: `feijuca-pds`).
 2. Em **APIs e serviços → Biblioteca**, procure **Google Sheets API** e clique em **Ativar**.
 3. Em **APIs e serviços → Credenciais → Criar credenciais → Conta de serviço**.
-   Dê um nome (ex.: `app-feijuca`) e conclua.
+   Dê um nome (ex.: `app-feijuca`) e conclua (pode pular as etapas opcionais de papel e acesso).
 4. Abra a conta de serviço criada → aba **Chaves** → **Adicionar chave → Criar nova chave → JSON**.
-   Um arquivo `.json` será baixado. Guarde-o: ele tem os dois valores que você vai usar.
+   Um arquivo `.json` será baixado. É esse o arquivo que o app usa.
 
 ### 2. Dar acesso à planilha
 
@@ -57,8 +63,23 @@ Abra o arquivo JSON e copie o valor de `client_email`
 Na planilha do Google Sheets, clique em **Compartilhar** e adicione esse e-mail como **Editor**.
 
 > Sem esse passo o app responde "Sem permissão na planilha".
+> Como **Leitor** também não funciona: o app precisa escrever.
 
-### 3. Publicar na Vercel
+### 3. Gerar as variáveis com um comando
+
+Na sua máquina, dentro de `feijuca-reservas`:
+
+```bash
+npm install
+npm run configurar -- ~/Downloads/feijuca-pds-a1b2c3.json
+```
+
+O script confere se o JSON é do tipo certo, escreve o `.env.local`, **testa a leitura e a
+escrita na planilha** e imprime as variáveis já formatadas para colar na Vercel.
+Se algo estiver faltando (API desativada, planilha não compartilhada, ID errado),
+ele diz exatamente o quê e onde resolver.
+
+### 4. Publicar na Vercel
 
 1. Suba este repositório para o GitHub (já está: `davilealster/projetos`).
 2. Em https://vercel.com → **Add New → Project** → importe o repositório.
@@ -72,13 +93,15 @@ Na planilha do Google Sheets, clique em **Compartilhar** e adicione esse e-mail 
 | `GOOGLE_PRIVATE_KEY` | o `private_key` do JSON, **inteiro**, incluindo `-----BEGIN PRIVATE KEY-----`, os `\n` e as aspas |
 | `AUTH_SECRET` | um texto aleatório longo (gere com `openssl rand -base64 32`) |
 
+O `npm run configurar` do passo anterior já imprime os quatro valores prontos.
+
 5. Clique em **Deploy**.
 6. Abra `https://seu-app.vercel.app/configuracao` para conferir se está tudo verde.
 
 O plano gratuito (Hobby) da Vercel dá conta com folga: o app é leve e várias pessoas
 podem usar ao mesmo tempo.
 
-### 4. Primeiro acesso
+### 5. Primeiro acesso
 
 Usuários já criados na aba `Usuarios` da planilha:
 
@@ -98,7 +121,7 @@ Usuários já criados na aba `Usuarios` da planilha:
 ```bash
 cd feijuca-reservas
 npm install
-cp .env.example .env.local   # preencha os valores
+npm run configurar -- caminho/para/chave-da-conta-de-servico.json
 npm run dev                  # http://localhost:3000
 ```
 
@@ -172,4 +195,5 @@ Você pode editar a planilha à mão — o app lê e escreve nas mesmas colunas.
 | "Sem permissão na planilha" | Compartilhe a planilha com o `client_email` como **Editor** |
 | "Planilha não encontrada" | Confira o `GOOGLE_SHEET_ID` |
 | "A Google Sheets API não está habilitada" | Ative a Sheets API no projeto do Google Cloud |
+| "Este é um JSON de Cliente OAuth" | Você baixou a credencial errada — crie uma **conta de serviço** (passo 1) |
 | "Lounge é exclusivo de aniversariante..." | É a regra funcionando. Marque "É aniversariante" ou destrave na tela do evento |
