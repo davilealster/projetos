@@ -3,7 +3,16 @@
 import { useState } from "react";
 import { useApp } from "@/components/contexto";
 import { useDados } from "@/components/usar-dados";
-import { Campo, Esqueleto, Etiqueta, Folha, Selecao, Vazio, useToast } from "@/components/ui";
+import {
+  Campo,
+  Esqueleto,
+  Etiqueta,
+  Folha,
+  Selecao,
+  Vazio,
+  useConfirmacao,
+  useToast,
+} from "@/components/ui";
 import { IconeMais } from "@/components/icones";
 import { api } from "@/lib/cliente";
 import type { Papel } from "@/lib/types";
@@ -185,6 +194,7 @@ function EditarUsuario({
   aoSalvar: () => void;
 }) {
   const avisar = useToast();
+  const confirmar = useConfirmacao();
   const [nome, setNome] = useState(usuario.nome);
   const [papel, setPapel] = useState<Papel>(usuario.papel);
   const [senha, setSenha] = useState("");
@@ -220,7 +230,14 @@ function EditarUsuario({
   }
 
   async function apagar() {
-    if (!confirm(`Apagar o usuário ${usuario.nome}?`)) return;
+    const certeza = await confirmar({
+      titulo: `Apagar o usuário ${usuario.nome}?`,
+      descricao:
+        "Ele perde o acesso ao app na hora. Para tirar o acesso sem apagar o cadastro, use Desativar acesso.",
+      confirmar: "Apagar",
+      perigo: true,
+    });
+    if (!certeza) return;
     try {
       await api.delete(`/api/usuarios/${usuario.id}`);
       avisar("Usuário apagado.");

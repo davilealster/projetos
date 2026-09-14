@@ -1,6 +1,14 @@
 "use client";
 
-import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
+import {
+  createContext,
+  useCallback,
+  useContext,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react";
 import { IconeAlerta, IconeCheck, IconeFechar } from "./icones";
 
 /* --------------------------------- Toast -------------------------------- */
@@ -46,6 +54,109 @@ export function ToastProvider({ children }: { children: React.ReactNode }) {
         ))}
       </div>
     </ToastCtx.Provider>
+  );
+}
+
+/* ------------------------------ Confirmação ------------------------------ */
+
+export interface PedidoConfirmacao {
+  titulo: string;
+  descricao?: string;
+  /** Conteúdo extra entre a descrição e os botões. */
+  conteudo?: React.ReactNode;
+  /** Texto do botão que confirma. Padrão: "Confirmar". */
+  confirmar?: string;
+  cancelar?: string;
+  /** Pinta o botão de confirmar de vermelho, para ações destrutivas. */
+  perigo?: boolean;
+}
+
+const ConfirmacaoCtx = createContext<(pedido: PedidoConfirmacao) => Promise<boolean>>(
+  async () => false,
+);
+
+/**
+ * Confirmação em modal do próprio app. O `confirm()` do navegador some
+ * quando o usuário tem bloqueador de pop-up, e aí a ação acontecia sem
+ * ninguém ver a pergunta — ou não acontecia sem explicação.
+ */
+export function useConfirmacao() {
+  return useContext(ConfirmacaoCtx);
+}
+
+export function ConfirmacaoProvider({ children }: { children: React.ReactNode }) {
+  const [pedido, setPedido] = useState<PedidoConfirmacao | null>(null);
+  const resolver = useRef<((resposta: boolean) => void) | null>(null);
+
+  const responder = useCallback((resposta: boolean) => {
+    const pendente = resolver.current;
+    resolver.current = null;
+    setPedido(null);
+    pendente?.(resposta);
+  }, []);
+
+  const confirmar = useCallback(
+    (novo: PedidoConfirmacao) => {
+      // Se ja' havia uma pergunta aberta, ela vira "cancelado".
+      resolver.current?.(false);
+      setPedido(novo);
+      return new Promise<boolean>((resolve) => {
+        resolver.current = resolve;
+      });
+    },
+    [],
+  );
+
+  useEffect(() => {
+    if (!pedido) return;
+    const anterior = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    const escape = (e: KeyboardEvent) => e.key === "Escape" && responder(false);
+    window.addEventListener("keydown", escape);
+    return () => {
+      document.body.style.overflow = anterior;
+      window.removeEventListener("keydown", escape);
+    };
+  }, [pedido, responder]);
+
+  return (
+    <ConfirmacaoCtx.Provider value={confirmar}>
+      {children}
+      {pedido ? (
+        <div
+          role="dialog"
+          aria-modal="true"
+          aria-label={pedido.titulo}
+          className="fixed inset-0 z-[80] flex items-end justify-center sm:items-center"
+        >
+          <button
+            aria-label="Fechar sem confirmar"
+            onClick={() => responder(false)}
+            className="absolute inset-0 bg-black/80 backdrop-blur-sm"
+          />
+          <div className="animate-fade-up relative w-full rounded-t-3xl border border-pds-line bg-pds-ink p-5 pb-[calc(1.25rem+var(--safe-bottom))] sm:max-w-sm sm:rounded-3xl sm:pb-5">
+            <h2 className="text-base font-extrabold leading-snug">{pedido.titulo}</h2>
+            {pedido.descricao ? (
+              <p className="mt-1.5 text-sm leading-relaxed text-pds-muted">{pedido.descricao}</p>
+            ) : null}
+            {pedido.conteudo ? <div className="mt-4">{pedido.conteudo}</div> : null}
+
+            <div className="mt-5 grid grid-cols-2 gap-3">
+              <button onClick={() => responder(false)} className="btn-secundario w-full">
+                {pedido.cancelar ?? "Cancelar"}
+              </button>
+              <button
+                autoFocus
+                onClick={() => responder(true)}
+                className={pedido.perigo ? "btn-perigo w-full" : "btn-primario w-full"}
+              >
+                {pedido.confirmar ?? "Confirmar"}
+              </button>
+            </div>
+          </div>
+        </div>
+      ) : null}
+    </ConfirmacaoCtx.Provider>
   );
 }
 

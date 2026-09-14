@@ -48,6 +48,9 @@ https://docs.google.com/spreadsheets/d/1hn1MswrZH6yq0BXsUU7rPBGdRf9u6DIZxtrfPLoh
 - **Menu hambúrguer**: perfil do usuário, mesas únicas, eventos, administração de usuários e sair.
 - **Topo**: toque no nome do evento para trocar de evento a qualquer momento.
 - Dá para **instalar na tela de início** do celular (é um PWA: Compartilhar → Adicionar à Tela de Início).
+- **Nenhum diálogo do navegador.** Toda confirmação (cancelar reserva, apagar, remover da lista,
+  trocar de lugar) é um modal do próprio app: bloqueador de pop-up não engole a pergunta, e cada
+  uma explica a consequência antes de você tocar em confirmar.
 
 ---
 

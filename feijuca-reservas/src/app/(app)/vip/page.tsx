@@ -13,6 +13,7 @@ import {
   Selecao,
   Vazio,
   classes,
+  useConfirmacao,
   useToast,
 } from "@/components/ui";
 import { IconeBusca, IconeCheck, IconeLixeira, IconeMais, IconeWhatsapp } from "@/components/icones";
@@ -349,6 +350,7 @@ function DetalheVip({
   aoSalvar: () => void;
 }) {
   const avisar = useToast();
+  const confirmar = useConfirmacao();
   const [editando, setEditando] = useState(false);
   const [ocupado, setOcupado] = useState(false);
   const whatsapp = linkWhatsapp(
@@ -361,7 +363,13 @@ function DetalheVip({
   }
 
   async function remover() {
-    if (!confirm(`Remover ${vip.nome} da lista?`)) return;
+    const certeza = await confirmar({
+      titulo: `Remover ${vip.nome} da lista?`,
+      descricao: "O nome sai da lista da portaria deste evento.",
+      confirmar: "Remover",
+      perigo: true,
+    });
+    if (!certeza) return;
     setOcupado(true);
     try {
       await api.delete(`/api/vip/${vip.id}`);

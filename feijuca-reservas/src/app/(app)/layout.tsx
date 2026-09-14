@@ -2,7 +2,7 @@ import { redirect } from "next/navigation";
 import { sessaoAtual } from "@/lib/auth";
 import { AppProvider } from "@/components/contexto";
 import { AppShell } from "@/components/app-shell";
-import { ToastProvider } from "@/components/ui";
+import { ConfirmacaoProvider, ToastProvider } from "@/components/ui";
 
 export const dynamic = "force-dynamic";
 
@@ -12,9 +12,11 @@ export default async function LayoutApp({ children }: { children: React.ReactNod
 
   return (
     <ToastProvider>
-      <AppProvider usuario={usuario}>
-        <AppShell>{children}</AppShell>
-      </AppProvider>
+      <ConfirmacaoProvider>
+        <AppProvider usuario={usuario}>
+          <AppShell>{children}</AppShell>
+        </AppProvider>
+      </ConfirmacaoProvider>
     </ToastProvider>
   );
 }

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { AreaTexto, Campo, Etiqueta, Folha, Interruptor, useToast } from "./ui";
+import { AreaTexto, Campo, Etiqueta, Folha, Interruptor, useConfirmacao, useToast } from "./ui";
 import { IconeBolo, IconeCheck, IconeLixeira, IconeWhatsapp } from "./icones";
 import { api } from "@/lib/cliente";
 import { formatarMoeda, formatarValorReserva, formatarTelefone, linkWhatsapp } from "@/lib/formato";
@@ -245,6 +245,7 @@ function DetalheReserva({
   aoSalvar,
 }: PainelProps & { reserva: Reserva }) {
   const avisar = useToast();
+  const confirmar = useConfirmacao();
   const [ocupado, setOcupado] = useState(false);
   const [editando, setEditando] = useState(false);
 
@@ -268,7 +269,14 @@ function DetalheReserva({
   }
 
   async function apagar() {
-    if (!confirm(`Apagar definitivamente a reserva de ${reserva.nome_cliente}?`)) return;
+    const certeza = await confirmar({
+      titulo: `Apagar a reserva de ${reserva.nome_cliente}?`,
+      descricao:
+        "A linha some da planilha e não dá para desfazer. Para só liberar o lugar mantendo o histórico, use Cancelar reserva.",
+      confirmar: "Apagar",
+      perigo: true,
+    });
+    if (!certeza) return;
     setOcupado(true);
     try {
       await api.delete(`/api/reservas/${reserva.id}`);
@@ -373,10 +381,20 @@ function DetalheReserva({
             </button>
             <button
               disabled={ocupado}
-              onClick={() =>
-                confirm(`Liberar o ${ROTULO[tipo].singular.toLowerCase()} ${unidade.numero}?`) &&
-                mudarStatus("CANCELADA", `${ROTULO[tipo].singular} ${unidade.numero} liberado.`)
-              }
+              onClick={async () => {
+                const certeza = await confirmar({
+                  titulo: `Liberar o ${ROTULO[tipo].singular.toLowerCase()} ${unidade.numero}?`,
+                  descricao: `A reserva de ${reserva.nome_cliente} é cancelada e o lugar volta a ficar livre.`,
+                  confirmar: "Liberar",
+                  perigo: true,
+                });
+                if (certeza) {
+                  await mudarStatus(
+                    "CANCELADA",
+                    `${ROTULO[tipo].singular} ${unidade.numero} liberado.`,
+                  );
+                }
+              }}
               className="btn-perigo w-full"
             >
               Cancelar reserva

@@ -12,6 +12,7 @@ import {
   Interruptor,
   Selecao,
   classes,
+  useConfirmacao,
   useToast,
 } from "@/components/ui";
 import { IconeBistro, IconeLounge, IconeMais, IconeMapa, IconeMesa } from "@/components/icones";
@@ -36,6 +37,7 @@ export default function PaginaEvento() {
   const router = useRouter();
   const { ehAdmin, atualizar, recarregarEventos } = useApp();
   const avisar = useToast();
+  const confirmar = useConfirmacao();
   const { dados, carregando, erro } = useDados<Detalhe>(`/api/eventos/${id}`);
 
   const [editarAberto, setEditarAberto] = useState(false);
@@ -87,7 +89,14 @@ export default function PaginaEvento() {
   }
 
   async function apagarEvento() {
-    if (!confirm(`Apagar o evento "${evento.nome}"? Só funciona se não houver reservas.`)) return;
+    const certeza = await confirmar({
+      titulo: `Apagar o evento "${evento.nome}"?`,
+      descricao:
+        "Só funciona se ainda não houver nenhuma reserva nem nome na lista. Para um evento que já aconteceu, prefira mudar o status para Encerrado.",
+      confirmar: "Apagar evento",
+      perigo: true,
+    });
+    if (!certeza) return;
     try {
       await api.delete(`/api/eventos/${id}`);
       avisar("Evento apagado.");
@@ -287,6 +296,7 @@ function Secao({
   aoAtualizar: () => void;
 }) {
   const avisar = useToast();
+  const confirmar = useConfirmacao();
   const [ocupado, setOcupado] = useState<string | null>(null);
 
   async function alternarBloqueio(unidade: UnidadeComReserva) {
@@ -306,7 +316,13 @@ function Secao({
   }
 
   async function apagar(unidade: UnidadeComReserva) {
-    if (!confirm(`Apagar ${titulo.slice(0, -1)} ${unidade.numero}?`)) return;
+    const certeza = await confirmar({
+      titulo: `Apagar ${titulo.slice(0, -1)} ${unidade.numero}?`,
+      descricao: "A posição some deste evento. Os outros eventos não são afetados.",
+      confirmar: "Apagar",
+      perigo: true,
+    });
+    if (!certeza) return;
     setOcupado(unidade.id);
     try {
       await api.delete(`/api/unidades/${unidade.id}?tipo=${tipo}`);

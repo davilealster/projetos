@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { Folha, classes, useToast } from "./ui";
+import { Folha, classes, useConfirmacao, useToast } from "./ui";
 import { ROTULO } from "./painel-unidade";
 import { IconeBolo, IconeCheck, IconeCopiar, IconeMover } from "./icones";
 import { api } from "@/lib/cliente";
@@ -250,10 +250,8 @@ function FolhaMover({
   aoMover: () => void;
 }) {
   const avisar = useToast();
+  const confirmar = useConfirmacao();
   const [enviando, setEnviando] = useState(false);
-  const [aTrocar, setATrocar] = useState<{ tipo: TipoUnidade; unidade: UnidadeComReserva } | null>(
-    null,
-  );
   const reserva = origem.unidade.reserva!;
 
   async function mover(tipoDestino: TipoUnidade, destino: UnidadeComReserva) {
@@ -272,20 +270,38 @@ function FolhaMover({
   }
 
   async function trocar(alvo: { tipo: TipoUnidade; unidade: UnidadeComReserva }) {
+    const outra = alvo.unidade.reserva!;
+    const certeza = await confirmar({
+      titulo: "Trocar de lugar?",
+      confirmar: "Trocar",
+      conteudo: (
+        <div className="space-y-2">
+          <LinhaTroca
+            nome={reserva.nome_cliente}
+            origemTexto={`${ROTULO[origem.tipo].singular} ${origem.unidade.numero}`}
+            destinoTexto={`${ROTULO[alvo.tipo].singular} ${alvo.unidade.numero}`}
+          />
+          <LinhaTroca
+            nome={outra.nome_cliente}
+            origemTexto={`${ROTULO[alvo.tipo].singular} ${alvo.unidade.numero}`}
+            destinoTexto={`${ROTULO[origem.tipo].singular} ${origem.unidade.numero}`}
+          />
+        </div>
+      ),
+    });
+    if (!certeza) return;
+
     setEnviando(true);
     try {
       await api.post("/api/reservas/trocar", {
         reserva_a: reserva.id,
-        reserva_b: alvo.unidade.reserva!.id,
+        reserva_b: outra.id,
       });
-      avisar(
-        `${reserva.nome_cliente} e ${alvo.unidade.reserva!.nome_cliente} trocaram de lugar.`,
-      );
+      avisar(`${reserva.nome_cliente} e ${outra.nome_cliente} trocaram de lugar.`);
       aoMover();
     } catch (erro) {
       avisar(erro instanceof Error ? erro.message : "Não foi possível trocar.", "erro");
       setEnviando(false);
-      setATrocar(null);
     }
   }
 
@@ -329,7 +345,7 @@ function FolhaMover({
                       <button
                         key={destino.id}
                         disabled={enviando}
-                        onClick={() => setATrocar({ tipo, unidade: destino })}
+                        onClick={() => trocar({ tipo, unidade: destino })}
                         className="flex max-w-full items-center gap-2 rounded-xl border border-pds-orange/40 bg-pds-orange/10 py-2 pl-2.5 pr-3 text-left transition active:scale-95 hover:border-pds-orange disabled:opacity-40"
                       >
                         <span className="text-sm font-extrabold tabular-nums text-pds-orange">
@@ -361,64 +377,7 @@ function FolhaMover({
         </p>
       </div>
 
-      {aTrocar ? (
-        <ConfirmarTroca
-          origem={origem}
-          alvo={aTrocar}
-          enviando={enviando}
-          aoCancelar={() => setATrocar(null)}
-          aoConfirmar={() => trocar(aTrocar)}
-        />
-      ) : null}
     </Folha>
-  );
-}
-
-function ConfirmarTroca({
-  origem,
-  alvo,
-  enviando,
-  aoCancelar,
-  aoConfirmar,
-}: {
-  origem: { tipo: TipoUnidade; unidade: UnidadeComReserva };
-  alvo: { tipo: TipoUnidade; unidade: UnidadeComReserva };
-  enviando: boolean;
-  aoCancelar: () => void;
-  aoConfirmar: () => void;
-}) {
-  const de = origem.unidade.reserva!;
-  const para = alvo.unidade.reserva!;
-
-  return (
-    <div className="fixed inset-0 z-[65] flex items-end justify-center sm:items-center">
-      <button aria-label="Cancelar" onClick={aoCancelar} className="absolute inset-0 bg-black/80" />
-      <div className="animate-fade-up relative w-full rounded-t-3xl border border-pds-line bg-pds-ink p-5 sm:max-w-sm sm:rounded-3xl">
-        <h3 className="text-base font-extrabold">Trocar de lugar?</h3>
-
-        <div className="mt-4 space-y-2">
-          <LinhaTroca
-            nome={de.nome_cliente}
-            origemTexto={`${ROTULO[origem.tipo].singular} ${origem.unidade.numero}`}
-            destinoTexto={`${ROTULO[alvo.tipo].singular} ${alvo.unidade.numero}`}
-          />
-          <LinhaTroca
-            nome={para.nome_cliente}
-            origemTexto={`${ROTULO[alvo.tipo].singular} ${alvo.unidade.numero}`}
-            destinoTexto={`${ROTULO[origem.tipo].singular} ${origem.unidade.numero}`}
-          />
-        </div>
-
-        <div className="mt-5 grid grid-cols-2 gap-3">
-          <button onClick={aoCancelar} disabled={enviando} className="btn-secundario w-full">
-            Cancelar
-          </button>
-          <button onClick={aoConfirmar} disabled={enviando} className="btn-primario w-full">
-            {enviando ? "Trocando..." : "Trocar"}
-          </button>
-        </div>
-      </div>
-    </div>
   );
 }
 
