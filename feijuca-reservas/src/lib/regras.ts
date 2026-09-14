@@ -115,3 +115,63 @@ export function contarPessoas(reservas: Reserva[]): number {
     .filter(reservaAtiva)
     .reduce((total, r) => total + (Number(r.qtd_pessoas) || 0), 0);
 }
+
+/* ------------------------------ Troca de lugar --------------------------- */
+
+export interface LadoDaTroca {
+  reserva: Pick<
+    Reserva,
+    "id" | "nome_cliente" | "tipo" | "unidade_id" | "qtd_pessoas" | "aniversariante"
+  >;
+  destino: Pick<Unidade, "id" | "numero" | "capacidade" | "status"> & { tipo: Reserva["tipo"] };
+}
+
+/**
+ * Trocar duas reservas de lugar. Cada lado e' validado como se estivesse
+ * sendo movido sozinho, com uma excecao importante: quem ja' estava num
+ * lounge continua podendo ficar num lounge, mesmo sem ser aniversariante.
+ * A prioridade vale para quem ENTRA num lounge, nao para quem so' muda de
+ * numero dentro deles.
+ */
+export function validarTroca(
+  evento: Evento,
+  a: LadoDaTroca,
+  b: LadoDaTroca,
+): { ok: true } | { ok: false; motivo: string } {
+  if (a.reserva.id === b.reserva.id) {
+    return { ok: false, motivo: "Escolha duas reservas diferentes." };
+  }
+  if (a.destino.id !== b.reserva.unidade_id || b.destino.id !== a.reserva.unidade_id) {
+    return { ok: false, motivo: "Na troca, cada reserva assume o lugar da outra." };
+  }
+
+  for (const lado of [a, b]) {
+    if ((lado.destino.status ?? "").toUpperCase() === "BLOQUEADO") {
+      return {
+        ok: false,
+        motivo: `O lugar ${lado.destino.numero} esta bloqueado e nao recebe reserva.`,
+      };
+    }
+
+    const pessoas = Number(lado.reserva.qtd_pessoas) || 0;
+    const capacidade = Number(lado.destino.capacidade) || 0;
+    if (capacidade > 0 && pessoas > capacidade) {
+      return {
+        ok: false,
+        motivo: `${lado.reserva.nome_cliente} tem ${pessoas} pessoas e o lugar ${lado.destino.numero} comporta ${capacidade}.`,
+      };
+    }
+
+    // So' quem chega de fora precisa passar pela regra do lounge.
+    const entrandoNoLounge =
+      lado.destino.tipo === "LOUNGE" && lado.reserva.tipo !== "LOUNGE";
+    if (entrandoNoLounge) {
+      const regra = validarReservaLounge(evento, ehAniversariante(lado.reserva.aniversariante));
+      if (!regra.ok) {
+        return { ok: false, motivo: `${lado.reserva.nome_cliente}: ${regra.motivo}` };
+      }
+    }
+  }
+
+  return { ok: true };
+}

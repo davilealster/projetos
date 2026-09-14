@@ -25,8 +25,9 @@ https://docs.google.com/spreadsheets/d/1hn1MswrZH6yq0BXsUU7rPBGdRf9u6DIZxtrfPLoh
 - **Copiar lista do WhatsApp**: um toque monta o texto no formato que já se usa no grupo
   (🟠 LOUNGE / ⚪️ MESA / 🟢 BISTRÔ, uma linha por número, 🎂 no aniversariante) e copia para a
   área de transferência, com aviso de "Lista copiada".
-- **Mover pessoa de lugar**: na lista, o botão ao lado do nome abre os lugares livres de todos os
-  tipos. Dois toques movem alguém do lounge para o bistrô, ou de um lounge para outro.
+- **Mover ou trocar pessoa de lugar**: na lista, o botão ao lado do nome abre todos os lugares.
+  Tocar num vazio move; tocar num nome troca as duas de posição, com confirmação mostrando quem
+  vai para onde.
 - **Lounges**: com a regra de prioridade de aniversariante.
 - **Regra do lounge** (o coração do app):
   - Enquanto faltar mais de 1 dia para o evento, **só aniversariante** pega lounge.
@@ -256,17 +257,23 @@ com `textarea` e, se os dois falharem, o app abre o texto numa folha para copiar
 
 ---
 
-## Mover uma reserva de lugar
+## Mover e trocar reservas de lugar
 
-Na lista, o botão ⇄ ao lado do nome abre os lugares **livres** de todos os tipos. Tocar num
-número move a reserva para lá. O servidor confere o mesmo que confere numa reserva nova:
+Na lista, o botão ⇄ ao lado do nome abre os lugares de todas as seções.
 
-- o destino existe, é do mesmo evento, não está bloqueado nem ocupado;
-- ir para um lounge respeita a prioridade de aniversariante;
-- a capacidade do destino comporta o tamanho do grupo;
-- o valor acompanha o novo tipo, a menos que a reserva já tenha um preço combinado.
+**Lugar vazio move.** O servidor confere o mesmo que confere numa reserva nova: o destino existe,
+é do mesmo evento, não está bloqueado nem ocupado; ir para um lounge respeita a prioridade de
+aniversariante; a capacidade comporta o grupo; e o valor acompanha o novo tipo, a menos que a
+reserva já tenha um preço combinado.
 
-Para trocar duas pessoas de lugar, mova uma para um lugar vago primeiro.
+**Lugar com nome troca as duas.** Uma confirmação mostra quem sai de onde e vai para onde antes
+de gravar. As duas linhas vão para a planilha **numa única requisição** (`values.batchUpdate`):
+gravar uma de cada vez deixaria as duas reservas no mesmo número no meio do caminho, e quem
+estivesse com a tela aberta veria conflito.
+
+A regra do lounge na troca tem uma diferença que vale saber: ela vale para quem **entra** num
+lounge vindo de outro tipo. Duas pessoas que já estão em lounges podem trocar de número entre si
+mesmo sem serem aniversariantes — a prioridade protege a entrada, não o rodízio interno.
 
 ---
 

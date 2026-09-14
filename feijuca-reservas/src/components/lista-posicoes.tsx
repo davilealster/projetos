@@ -236,7 +236,7 @@ function BotaoCopiar({ evento, grupos }: { evento: Evento; grupos: GruposDeUnida
   );
 }
 
-/* ------------------------------ Mover pessoa ----------------------------- */
+/* -------------------------- Mover ou trocar pessoa ------------------------ */
 
 function FolhaMover({
   origem,
@@ -251,6 +251,9 @@ function FolhaMover({
 }) {
   const avisar = useToast();
   const [enviando, setEnviando] = useState(false);
+  const [aTrocar, setATrocar] = useState<{ tipo: TipoUnidade; unidade: UnidadeComReserva } | null>(
+    null,
+  );
   const reserva = origem.unidade.reserva!;
 
   async function mover(tipoDestino: TipoUnidade, destino: UnidadeComReserva) {
@@ -260,13 +263,29 @@ function FolhaMover({
         tipo: tipoDestino,
         unidade_id: destino.id,
       });
-      avisar(
-        `${reserva.nome_cliente} foi para ${ROTULO[tipoDestino].singular} ${destino.numero}.`,
-      );
+      avisar(`${reserva.nome_cliente} foi para ${ROTULO[tipoDestino].singular} ${destino.numero}.`);
       aoMover();
     } catch (erro) {
       avisar(erro instanceof Error ? erro.message : "Não foi possível mover.", "erro");
       setEnviando(false);
+    }
+  }
+
+  async function trocar(alvo: { tipo: TipoUnidade; unidade: UnidadeComReserva }) {
+    setEnviando(true);
+    try {
+      await api.post("/api/reservas/trocar", {
+        reserva_a: reserva.id,
+        reserva_b: alvo.unidade.reserva!.id,
+      });
+      avisar(
+        `${reserva.nome_cliente} e ${alvo.unidade.reserva!.nome_cliente} trocaram de lugar.`,
+      );
+      aoMover();
+    } catch (erro) {
+      avisar(erro instanceof Error ? erro.message : "Não foi possível trocar.", "erro");
+      setEnviando(false);
+      setATrocar(null);
     }
   }
 
@@ -275,20 +294,19 @@ function FolhaMover({
       aberta
       aoFechar={aoFechar}
       titulo={`Mover ${reserva.nome_cliente}`}
-      subtitulo={`Hoje em ${ROTULO[origem.tipo].singular} ${origem.unidade.numero} · toque no novo lugar`}
+      subtitulo={`Hoje em ${ROTULO[origem.tipo].singular} ${origem.unidade.numero} · toque num lugar livre para mover, ou num nome para trocar`}
     >
       <div className="space-y-4">
         {SECOES.map(({ tipo, emoji, rotulo }) => {
-          const livres = [...(grupos[tipo] ?? [])]
+          const unidades = [...(grupos[tipo] ?? [])]
             .filter(
               (u) =>
-                !u.ocupado &&
-                (u.status ?? "").toUpperCase() !== "BLOQUEADO" &&
-                u.id !== origem.unidade.id,
+                u.id !== origem.unidade.id && (u.status ?? "").toUpperCase() !== "BLOQUEADO",
             )
             .sort((a, b) => (Number(a.numero) || 0) - (Number(b.numero) || 0));
 
           if (!(grupos[tipo] ?? []).length) return null;
+          const livres = unidades.filter((u) => !u.ocupado).length;
 
           return (
             <section key={tipo}>
@@ -296,26 +314,42 @@ function FolhaMover({
                 <span aria-hidden="true">{emoji}</span>
                 {rotulo}
                 <span className="font-medium normal-case tracking-normal">
-                  · {livres.length} livre{livres.length === 1 ? "" : "s"}
+                  · {livres} livre{livres === 1 ? "" : "s"}
                 </span>
               </p>
 
-              {livres.length === 0 ? (
+              {unidades.length === 0 ? (
                 <p className="rounded-xl border border-pds-line bg-black/40 px-3.5 py-2.5 text-xs text-white/40">
-                  Nenhum lugar livre nesta seção.
+                  Nenhum lugar disponível nesta seção.
                 </p>
               ) : (
                 <div className="flex flex-wrap gap-2">
-                  {livres.map((destino) => (
-                    <button
-                      key={destino.id}
-                      disabled={enviando}
-                      onClick={() => mover(tipo, destino)}
-                      className="min-w-[3.25rem] rounded-xl border border-pds-line bg-black/40 px-3 py-2.5 text-sm font-extrabold tabular-nums transition active:scale-95 hover:border-pds-orange hover:text-pds-orange disabled:opacity-40"
-                    >
-                      {String(destino.numero).padStart(2, "0")}
-                    </button>
-                  ))}
+                  {unidades.map((destino) =>
+                    destino.ocupado ? (
+                      <button
+                        key={destino.id}
+                        disabled={enviando}
+                        onClick={() => setATrocar({ tipo, unidade: destino })}
+                        className="flex max-w-full items-center gap-2 rounded-xl border border-pds-orange/40 bg-pds-orange/10 py-2 pl-2.5 pr-3 text-left transition active:scale-95 hover:border-pds-orange disabled:opacity-40"
+                      >
+                        <span className="text-sm font-extrabold tabular-nums text-pds-orange">
+                          {String(destino.numero).padStart(2, "0")}
+                        </span>
+                        <span className="truncate text-xs font-medium text-white/80">
+                          {destino.reserva?.nome_cliente}
+                        </span>
+                      </button>
+                    ) : (
+                      <button
+                        key={destino.id}
+                        disabled={enviando}
+                        onClick={() => mover(tipo, destino)}
+                        className="min-w-[3.25rem] rounded-xl border border-pds-line bg-black/40 px-3 py-2.5 text-sm font-extrabold tabular-nums transition active:scale-95 hover:border-pds-orange hover:text-pds-orange disabled:opacity-40"
+                      >
+                        {String(destino.numero).padStart(2, "0")}
+                      </button>
+                    ),
+                  )}
                 </div>
               )}
             </section>
@@ -323,10 +357,88 @@ function FolhaMover({
         })}
 
         <p className="text-xs leading-relaxed text-pds-muted">
-          Só aparecem lugares livres. Para trocar duas pessoas de lugar, mova uma para um lugar
-          vago primeiro.
+          Lugar vazio move a reserva. Lugar com nome troca as duas de posição.
         </p>
       </div>
+
+      {aTrocar ? (
+        <ConfirmarTroca
+          origem={origem}
+          alvo={aTrocar}
+          enviando={enviando}
+          aoCancelar={() => setATrocar(null)}
+          aoConfirmar={() => trocar(aTrocar)}
+        />
+      ) : null}
     </Folha>
+  );
+}
+
+function ConfirmarTroca({
+  origem,
+  alvo,
+  enviando,
+  aoCancelar,
+  aoConfirmar,
+}: {
+  origem: { tipo: TipoUnidade; unidade: UnidadeComReserva };
+  alvo: { tipo: TipoUnidade; unidade: UnidadeComReserva };
+  enviando: boolean;
+  aoCancelar: () => void;
+  aoConfirmar: () => void;
+}) {
+  const de = origem.unidade.reserva!;
+  const para = alvo.unidade.reserva!;
+
+  return (
+    <div className="fixed inset-0 z-[65] flex items-end justify-center sm:items-center">
+      <button aria-label="Cancelar" onClick={aoCancelar} className="absolute inset-0 bg-black/80" />
+      <div className="animate-fade-up relative w-full rounded-t-3xl border border-pds-line bg-pds-ink p-5 sm:max-w-sm sm:rounded-3xl">
+        <h3 className="text-base font-extrabold">Trocar de lugar?</h3>
+
+        <div className="mt-4 space-y-2">
+          <LinhaTroca
+            nome={de.nome_cliente}
+            origemTexto={`${ROTULO[origem.tipo].singular} ${origem.unidade.numero}`}
+            destinoTexto={`${ROTULO[alvo.tipo].singular} ${alvo.unidade.numero}`}
+          />
+          <LinhaTroca
+            nome={para.nome_cliente}
+            origemTexto={`${ROTULO[alvo.tipo].singular} ${alvo.unidade.numero}`}
+            destinoTexto={`${ROTULO[origem.tipo].singular} ${origem.unidade.numero}`}
+          />
+        </div>
+
+        <div className="mt-5 grid grid-cols-2 gap-3">
+          <button onClick={aoCancelar} disabled={enviando} className="btn-secundario w-full">
+            Cancelar
+          </button>
+          <button onClick={aoConfirmar} disabled={enviando} className="btn-primario w-full">
+            {enviando ? "Trocando..." : "Trocar"}
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function LinhaTroca({
+  nome,
+  origemTexto,
+  destinoTexto,
+}: {
+  nome: string;
+  origemTexto: string;
+  destinoTexto: string;
+}) {
+  return (
+    <div className="rounded-xl border border-pds-line bg-black/40 px-3.5 py-2.5">
+      <p className="truncate text-sm font-bold">{nome}</p>
+      <p className="mt-0.5 flex items-center gap-1.5 text-xs text-pds-muted">
+        <span className="line-through">{origemTexto}</span>
+        <IconeMover width={13} height={13} className="shrink-0 text-pds-orange" />
+        <span className="font-bold text-white">{destinoTexto}</span>
+      </p>
+    </div>
   );
 }

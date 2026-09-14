@@ -201,6 +201,35 @@ export async function atualizarCampoEmLote(
   return data.length;
 }
 
+/**
+ * Atualiza varias linhas inteiras numa unica chamada. Numa troca de lugar,
+ * gravar as duas reservas em requisicoes separadas deixaria, entre uma e
+ * outra, as duas ocupando o mesmo numero.
+ */
+export async function atualizarLinhasEmLote(
+  tab: TabName,
+  atualizacoes: { id: string; patch: Row }[],
+): Promise<number> {
+  if (!atualizacoes.length) return 0;
+
+  const { header, rows } = toObjects(await readValues(tab));
+  const porId = new Map(rows.map((linha, i) => [linha.id, { linha, numero: i + 2 }]));
+
+  const data = atualizacoes.map(({ id, patch }) => {
+    const atual = porId.get(id);
+    if (!atual) throw new Error(`Linha "${id}" nao encontrada na aba "${tab}".`);
+    const merged: Row = { ...atual.linha, ...patch, id };
+    return { range: `${tab}!A${atual.numero}`, values: [rowToValues(header, merged)] };
+  });
+
+  await getClient().spreadsheets.values.batchUpdate({
+    spreadsheetId: spreadsheetId(),
+    requestBody: { valueInputOption: "RAW", data },
+  });
+  invalidate(tab);
+  return data.length;
+}
+
 let sheetIdCache: Record<string, number> | null = null;
 
 async function sheetIdOf(tab: TabName): Promise<number> {
