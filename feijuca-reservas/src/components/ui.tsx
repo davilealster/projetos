@@ -76,9 +76,56 @@ const ConfirmacaoCtx = createContext<(pedido: PedidoConfirmacao) => Promise<bool
 );
 
 /**
- * Confirmação em modal do próprio app. O `confirm()` do navegador some
- * quando o usuário tem bloqueador de pop-up, e aí a ação acontecia sem
- * ninguém ver a pergunta — ou não acontecia sem explicação.
+ * Casca de modal do app. Um só formato de diálogo em todo o produto —
+ * confirmação, aviso de envio — e nada do navegador, que some quando a
+ * pessoa tem bloqueador de pop-up.
+ */
+export function ModalBase({
+  aberto,
+  aoFechar,
+  rotulo,
+  children,
+}: {
+  aberto: boolean;
+  aoFechar: () => void;
+  rotulo: string;
+  children: React.ReactNode;
+}) {
+  useEffect(() => {
+    if (!aberto) return;
+    const anterior = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    const escape = (e: KeyboardEvent) => e.key === "Escape" && aoFechar();
+    window.addEventListener("keydown", escape);
+    return () => {
+      document.body.style.overflow = anterior;
+      window.removeEventListener("keydown", escape);
+    };
+  }, [aberto, aoFechar]);
+
+  if (!aberto) return null;
+
+  return (
+    <div
+      role="dialog"
+      aria-modal="true"
+      aria-label={rotulo}
+      className="fixed inset-0 z-[80] flex items-end justify-center sm:items-center"
+    >
+      <button
+        aria-label="Fechar sem confirmar"
+        onClick={aoFechar}
+        className="absolute inset-0 bg-black/80 backdrop-blur-sm"
+      />
+      <div className="animate-fade-up relative w-full rounded-t-3xl border border-pds-line bg-pds-ink p-5 pb-[calc(1.25rem+var(--safe-bottom))] sm:max-w-sm sm:rounded-3xl sm:pb-5">
+        {children}
+      </div>
+    </div>
+  );
+}
+
+/**
+ * Confirmação em modal do próprio app.
  */
 export function useConfirmacao() {
   return useContext(ConfirmacaoCtx);
@@ -95,46 +142,23 @@ export function ConfirmacaoProvider({ children }: { children: React.ReactNode })
     pendente?.(resposta);
   }, []);
 
-  const confirmar = useCallback(
-    (novo: PedidoConfirmacao) => {
-      // Se ja' havia uma pergunta aberta, ela vira "cancelado".
-      resolver.current?.(false);
-      setPedido(novo);
-      return new Promise<boolean>((resolve) => {
-        resolver.current = resolve;
-      });
-    },
-    [],
-  );
+  const recusar = useCallback(() => responder(false), [responder]);
 
-  useEffect(() => {
-    if (!pedido) return;
-    const anterior = document.body.style.overflow;
-    document.body.style.overflow = "hidden";
-    const escape = (e: KeyboardEvent) => e.key === "Escape" && responder(false);
-    window.addEventListener("keydown", escape);
-    return () => {
-      document.body.style.overflow = anterior;
-      window.removeEventListener("keydown", escape);
-    };
-  }, [pedido, responder]);
+  const confirmar = useCallback((novo: PedidoConfirmacao) => {
+    // Se ja' havia uma pergunta aberta, ela vira "cancelado".
+    resolver.current?.(false);
+    setPedido(novo);
+    return new Promise<boolean>((resolve) => {
+      resolver.current = resolve;
+    });
+  }, []);
 
   return (
     <ConfirmacaoCtx.Provider value={confirmar}>
       {children}
-      {pedido ? (
-        <div
-          role="dialog"
-          aria-modal="true"
-          aria-label={pedido.titulo}
-          className="fixed inset-0 z-[80] flex items-end justify-center sm:items-center"
-        >
-          <button
-            aria-label="Fechar sem confirmar"
-            onClick={() => responder(false)}
-            className="absolute inset-0 bg-black/80 backdrop-blur-sm"
-          />
-          <div className="animate-fade-up relative w-full rounded-t-3xl border border-pds-line bg-pds-ink p-5 pb-[calc(1.25rem+var(--safe-bottom))] sm:max-w-sm sm:rounded-3xl sm:pb-5">
+      <ModalBase aberto={pedido !== null} aoFechar={recusar} rotulo={pedido?.titulo ?? ""}>
+        {pedido ? (
+          <>
             <h2 className="text-base font-extrabold leading-snug">{pedido.titulo}</h2>
             {pedido.descricao ? (
               <p className="mt-1.5 text-sm leading-relaxed text-pds-muted">{pedido.descricao}</p>
@@ -153,9 +177,9 @@ export function ConfirmacaoProvider({ children }: { children: React.ReactNode })
                 {pedido.confirmar ?? "Confirmar"}
               </button>
             </div>
-          </div>
-        </div>
-      ) : null}
+          </>
+        ) : null}
+      </ModalBase>
     </ConfirmacaoCtx.Provider>
   );
 }

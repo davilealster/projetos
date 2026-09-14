@@ -41,16 +41,14 @@ function motivoFechada(lista: ListaPublica, evento: Evento): string | null {
   return null;
 }
 
+/**
+ * Quem envia nomes nao fica sabendo quem ja' esta na lista nem quantos
+ * sao: isso e' informacao da equipe. A resposta traz so' o que a tela do
+ * formulario precisa desenhar.
+ */
 export async function GET(_request: Request, { params }: Ctx) {
   try {
     const { lista, evento } = await carregar(params.token);
-    const vips = await readTab<Vip>(TABS.vip);
-    const meus = vips
-      .filter((v) => v.lista_id === lista.id && v.status !== "CANCELADO")
-      .map((v) => v.nome)
-      .sort((a, b) => a.localeCompare(b, "pt-BR"));
-
-    const limite = Number(lista.limite_nomes) || 0;
 
     return json({
       evento: {
@@ -63,10 +61,7 @@ export async function GET(_request: Request, { params }: Ctx) {
         nome: lista.nome,
         responsavel: lista.responsavel,
         instrucoes: lista.instrucoes,
-        limite,
-        restam: limite > 0 ? Math.max(limite - meus.length, 0) : null,
       },
-      nomes: meus,
       fechada: motivoFechada(lista, evento),
       limitePorEnvio: LIMITE_POR_ENVIO,
     });
@@ -89,7 +84,7 @@ export async function POST(request: Request, { params }: Ctx) {
       throw new HttpError(413, "Texto grande demais. Envie em partes menores.");
     }
 
-    const { nomes, duplicados } = extrairNomes(bruto);
+    const { nomes } = extrairNomes(bruto);
     if (!nomes.length) throw new HttpError(400, "Não encontrei nenhum nome no que você escreveu.");
     if (nomes.length > LIMITE_POR_ENVIO) {
       throw new HttpError(
@@ -101,11 +96,12 @@ export async function POST(request: Request, { params }: Ctx) {
     const vips = await readTab<Vip>(TABS.vip, false);
     const doEvento = vips.filter((v) => v.evento_id === lista.evento_id && v.status !== "CANCELADO");
 
-    // Repetido é normal quando a pessoa reenvia a lista inteira com um nome
-    // a mais. Isso não é erro: entra quem falta e o resto é só informado.
+    // Reenviar a lista inteira com um nome a mais e' o fluxo normal, entao
+    // quem ja' esta na lista e' apenas ignorado — sem duplicar a linha e sem
+    // avisar. Dizer "fulano ja' estava" deixaria descobrir a lista da equipe
+    // chutando nomes de fora.
     const jaNaLista = new Set(doEvento.map((v) => v.nome.trim().toLocaleLowerCase("pt-BR")));
     const inéditos = nomes.filter((n) => !jaNaLista.has(n.toLocaleLowerCase("pt-BR")));
-    const repetidos = nomes.filter((n) => jaNaLista.has(n.toLocaleLowerCase("pt-BR")));
 
     const limiteLista = Number(lista.limite_nomes) || 0;
     if (limiteLista > 0) {
@@ -157,11 +153,8 @@ export async function POST(request: Request, { params }: Ctx) {
       });
     }
 
-    return json({
-      adicionados: novos.map((v) => v.nome),
-      repetidos: [...repetidos, ...duplicados],
-      total: doEvento.filter((v) => v.lista_id === lista.id).length + novos.length,
-    });
+    // Devolve o que a propria pessoa mandou, nada do que ja' havia.
+    return json({ recebidos: nomes.length, nomes });
   } catch (error) {
     return erroRespostaPublica(error);
   }

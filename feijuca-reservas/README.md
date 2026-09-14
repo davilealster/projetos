@@ -247,16 +247,18 @@ uma lista por pessoa ("Lista do Davi"). Cada uma ganha um endereço próprio,
 
 Quem abre o link vê o evento, o nome da lista, um campo de texto e o botão de enviar. Pode
 **colar a mensagem do WhatsApp inteira**: numeração (`1.`, `2)`), travessão, bolinha e a linha
-de cabeçalho "Lista do Davi (8 nomes)" são removidos. Nomes repetidos, dentro do texto ou já
-presentes no evento, são informados em vez de dar erro — reenviar a lista com um nome a mais
-funciona e só entra o que falta.
+de cabeçalho "Lista do Davi (8 nomes)" são removidos. Reenviar a lista inteira com um nome a
+mais funciona: quem já está é ignorado sem duplicar a linha. Ao enviar, um modal confirma
+quantos nomes foram e quais.
 
 Os nomes caem direto na Lista VIP com o promoter da lista, prontos para o check-in.
 
-**O que o link não faz.** Não autentica ninguém e não abre nenhuma tela do app. Ele só lê o
-evento (nome, data, local), a própria lista e os nomes que ele mesmo enviou. Nada do resto do
-evento, nada de reservas, nada de outras listas. Erros inesperados voltam com texto genérico,
-para não expor configuração a quem não tem login.
+**O que o link não faz.** Não autentica ninguém e não abre nenhuma tela do app. Ele lê apenas o
+evento (nome, data, local) e os dados da própria lista — nome, responsável e o recado. **Quem
+envia não vê quem já está na lista nem quantos são**; isso é informação da equipe. Por isso o
+endpoint público também não responde quais nomes já existiam: dizer "fulano já estava" deixaria
+descobrir a lista inteira chutando nomes. Erros inesperados voltam com texto genérico, para não
+expor configuração a quem não tem login.
 
 **Controles do admin.** Pausar (o link para de aceitar e explica isso a quem abrir), encerrar,
 gerar um token novo (invalida o endereço antigo na hora) e definir um limite de nomes por lista.

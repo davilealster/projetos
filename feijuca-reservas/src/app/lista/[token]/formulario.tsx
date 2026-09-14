@@ -4,25 +4,18 @@ import { useCallback, useEffect, useState } from "react";
 import Image from "next/image";
 import { api } from "@/lib/cliente";
 import { IconeAlerta, IconeCheck, IconeLista } from "@/components/icones";
+import { ModalBase } from "@/components/ui";
 
 interface Dados {
   evento: { nome: string; data: string; hora_inicio: string; local: string };
-  lista: {
-    nome: string;
-    responsavel: string;
-    instrucoes: string;
-    limite: number;
-    restam: number | null;
-  };
-  nomes: string[];
+  lista: { nome: string; responsavel: string; instrucoes: string };
   fechada: string | null;
   limitePorEnvio: number;
 }
 
 interface Resultado {
-  adicionados: string[];
-  repetidos: string[];
-  total: number;
+  recebidos: number;
+  nomes: string[];
 }
 
 export function FormularioLista({ token }: { token: string }) {
@@ -57,7 +50,6 @@ export function FormularioLista({ token }: { token: string }) {
       );
       setResultado(resposta);
       setTexto("");
-      await carregar();
     } catch (e) {
       setErro(e instanceof Error ? e.message : "Não foi possível enviar.");
     } finally {
@@ -87,8 +79,6 @@ export function FormularioLista({ token }: { token: string }) {
     );
   }
 
-  const contagem = dados.nomes.length;
-
   return (
     <Moldura>
       <section className="card overflow-hidden">
@@ -115,10 +105,6 @@ export function FormularioLista({ token }: { token: string }) {
               </p>
             ) : null}
           </div>
-          <span className="shrink-0 text-xs font-bold text-pds-muted">
-            {contagem}
-            {dados.lista.limite > 0 ? `/${dados.lista.limite}` : ""}
-          </span>
         </div>
       </section>
 
@@ -126,29 +112,6 @@ export function FormularioLista({ token }: { token: string }) {
         <p className="card px-4 py-3 text-sm leading-relaxed text-white/85">
           {dados.lista.instrucoes}
         </p>
-      ) : null}
-
-      {resultado ? (
-        <section className="card border-emerald-500/40 bg-emerald-500/5 px-5 py-4">
-          <p className="flex items-center gap-2 text-sm font-extrabold text-emerald-300">
-            <IconeCheck width={18} height={18} />
-            {resultado.adicionados.length === 0
-              ? "Nada novo para incluir"
-              : `${resultado.adicionados.length} nome${
-                  resultado.adicionados.length === 1 ? "" : "s"
-                } na lista!`}
-          </p>
-          {resultado.adicionados.length ? (
-            <p className="mt-1.5 text-sm leading-relaxed text-white/85">
-              {resultado.adicionados.join(", ")}
-            </p>
-          ) : null}
-          {resultado.repetidos.length ? (
-            <p className="mt-2 text-xs leading-relaxed text-pds-muted">
-              Já estavam na lista: {resultado.repetidos.join(", ")}
-            </p>
-          ) : null}
-        </section>
       ) : null}
 
       {dados.fechada ? (
@@ -175,7 +138,6 @@ export function FormularioLista({ token }: { token: string }) {
             <span className="mt-1 block text-xs text-pds-muted">
               Pode colar a lista do WhatsApp direto: numeração e travessão são removidos.
               Até {dados.limitePorEnvio} nomes por envio.
-              {dados.lista.restam !== null ? ` Ainda cabem ${dados.lista.restam} nesta lista.` : ""}
             </span>
           </label>
 
@@ -202,30 +164,50 @@ export function FormularioLista({ token }: { token: string }) {
         </form>
       )}
 
-      {contagem > 0 ? (
-        <section className="card overflow-hidden">
-          <header className="border-b border-pds-line px-4 py-3">
-            <h2 className="text-sm font-extrabold uppercase tracking-wider">
-              Nomes desta lista ({contagem})
-            </h2>
-          </header>
-          <ol className="divide-y divide-pds-line">
-            {dados.nomes.map((nome, i) => (
-              <li key={`${nome}-${i}`} className="flex items-center gap-3 px-4 py-2.5">
-                <span className="w-6 shrink-0 text-right text-xs font-bold tabular-nums text-pds-muted">
-                  {i + 1}
-                </span>
-                <span className="truncate text-sm">{nome}</span>
-              </li>
-            ))}
-          </ol>
-        </section>
-      ) : null}
-
       <p className="px-2 pb-2 text-center text-xs leading-relaxed text-pds-muted">
         Esta página serve apenas para enviar nomes para a lista da portaria.
         Para tirar um nome, fale com {dados.lista.responsavel || "a organização"}.
       </p>
+
+      <ModalBase
+        aberto={resultado !== null}
+        aoFechar={() => setResultado(null)}
+        rotulo="Nomes enviados"
+      >
+        {resultado ? (
+          <div className="text-center">
+            <span className="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-emerald-500 text-black">
+              <IconeCheck width={30} height={30} />
+            </span>
+            <h2 className="mt-4 text-lg font-extrabold">
+              {resultado.recebidos === 1
+                ? "Nome enviado!"
+                : `${resultado.recebidos} nomes enviados!`}
+            </h2>
+            <p className="mt-1.5 text-sm leading-relaxed text-pds-muted">
+              {resultado.recebidos === 1
+                ? "Está na lista da portaria. É só chegar e falar o nome."
+                : "Estão na lista da portaria. É só chegar e falar o nome."}
+            </p>
+
+            <div className="mt-4 max-h-48 overflow-y-auto rounded-xl border border-pds-line bg-black/40 px-3.5 py-3 text-left">
+              {resultado.nomes.map((nome, i) => (
+                <p key={`${nome}-${i}`} className="truncate py-0.5 text-sm">
+                  {nome}
+                </p>
+              ))}
+            </div>
+
+            <button
+              autoFocus
+              onClick={() => setResultado(null)}
+              className="btn-primario mt-5 w-full"
+            >
+              Enviar mais nomes
+            </button>
+          </div>
+        ) : null}
+      </ModalBase>
     </Moldura>
   );
 }
