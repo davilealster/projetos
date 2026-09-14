@@ -1,6 +1,6 @@
 export type Papel = "ADMIN" | "PORTARIA" | "VENDAS";
 
-export type TipoUnidade = "LOUNGE" | "BISTRO";
+export type TipoUnidade = "LOUNGE" | "BISTRO" | "MESA";
 
 export type StatusReserva = "PENDENTE" | "CONFIRMADA" | "CHECKIN" | "CANCELADA";
 

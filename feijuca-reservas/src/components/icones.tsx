@@ -174,3 +174,17 @@ export const IconeEngrenagem = (p: Props) => (
     <path d="M12 2.8v2.4M12 18.8v2.4M4.5 7.5l2 1.2M17.5 15.3l2 1.2M4.5 16.5l2-1.2M17.5 8.7l2-1.2" />
   </Base>
 );
+
+export const IconeMapa = (p: Props) => (
+  <Base {...p}>
+    <path d="M9 4.2 3.5 6.4v13.4L9 17.6l6 2.2 5.5-2.2V4.2L15 6.4 9 4.2Z" />
+    <path d="M9 4.2v13.4M15 6.4v13.4" />
+  </Base>
+);
+
+export const IconeMesa = (p: Props) => (
+  <Base {...p}>
+    <rect x="4.5" y="8.5" width="15" height="7" rx="1.6" />
+    <path d="M7.5 15.5V19M16.5 15.5V19M4.5 12h15" />
+  </Base>
+);

@@ -5,6 +5,7 @@ export const TABS = {
   eventos: "Eventos",
   lounges: "Lounges",
   bistros: "Bistros",
+  mesas: "Mesas",
   reservas: "Reservas",
   vip: "ListaVip",
   usuarios: "Usuarios",

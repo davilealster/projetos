@@ -13,21 +13,29 @@ import {
   IconeBistro,
   IconeCalendario,
   IconeCasa,
-  IconeEngrenagem,
   IconeFechar,
   IconeLista,
   IconeLounge,
+  IconeMapa,
   IconeMenu,
+  IconeMesa,
   IconeSair,
   IconeSeta,
   IconeUsuarios,
 } from "./icones";
 
+/** Barra inferior: o que a equipe usa durante o evento. */
 const ABAS = [
   { href: "/", rotulo: "Inicio", Icone: IconeCasa },
+  { href: "/mapa", rotulo: "Mapa", Icone: IconeMapa },
   { href: "/vip", rotulo: "Lista VIP", Icone: IconeLista },
-  { href: "/bistro", rotulo: "Bistro", Icone: IconeBistro },
   { href: "/lounge", rotulo: "Lounge", Icone: IconeLounge },
+  { href: "/bistro", rotulo: "Bistro", Icone: IconeBistro },
+];
+
+/** Telas secundarias, so' na gaveta. */
+const ABAS_GAVETA = [
+  { href: "/mesas", rotulo: "Mesas únicas", Icone: IconeMesa },
   { href: "/eventos", rotulo: "Eventos", Icone: IconeCalendario },
 ];
 
@@ -169,7 +177,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
             </div>
 
             <nav className="flex-1 overflow-y-auto p-3">
-              {ABAS.map(({ href, rotulo, Icone }) => (
+              {[...ABAS, ...ABAS_GAVETA].map(({ href, rotulo, Icone }) => (
                 <Link
                   key={href}
                   href={href}
@@ -200,13 +208,6 @@ export function AppShell({ children }: { children: React.ReactNode }) {
                   >
                     <IconeUsuarios width={20} height={20} />
                     Usuarios
-                  </Link>
-                  <Link
-                    href="/eventos"
-                    className="flex items-center gap-3 rounded-xl px-4 py-3 text-sm font-bold text-white/85 transition hover:bg-white/5"
-                  >
-                    <IconeEngrenagem width={20} height={20} />
-                    Lounges e bistros
                   </Link>
                 </>
               ) : null}

@@ -15,8 +15,12 @@ https://docs.google.com/spreadsheets/d/1hn1MswrZH6yq0BXsUU7rPBGdRf9u6DIZxtrfPLoh
 - **Vários eventos**: cada Feijuca tem seus próprios lounges, bistrôs e lista VIP.
 - **Lista VIP da portaria**: nome, documento, WhatsApp, acompanhantes, quem indicou,
   busca instantânea e check-in com um toque.
-- **Bistrôs numerados**: mapa visual de mesas (livre / reservado / check-in / bloqueado).
-- **Lounges numerados**: mesmo mapa, com a regra de prioridade de aniversariante.
+- **Mapa do salão**: planta da casa com o palco no centro, o anel de bistrôs em volta,
+  os lounges nas extremidades e as mesas únicas entre o palco e o DJ. Toque numa posição
+  para reservar, editar ou fazer check-in. Cor mostra o estado na hora:
+  livre, reservado, check-in, bloqueado ou ainda não cadastrado.
+- **Bistrôs, lounges e mesas únicas numerados**: também em lista, com os mesmos controles.
+- **Lounges**: com a regra de prioridade de aniversariante.
 - **Regra do lounge** (o coração do app):
   - Enquanto faltar mais de 1 dia para o evento, **só aniversariante** pega lounge.
   - **Na véspera**, os lounges que sobraram liberam para qualquer pessoa, automaticamente.
@@ -29,8 +33,8 @@ https://docs.google.com/spreadsheets/d/1hn1MswrZH6yq0BXsUU7rPBGdRf9u6DIZxtrfPLoh
 
 ## Como é a navegação
 
-- **Barra inferior**: Início · Lista VIP · Bistrô · Lounge · Eventos.
-- **Menu hambúrguer**: perfil do usuário, atalhos, administração de usuários e sair.
+- **Barra inferior**: Início · Mapa · Lista VIP · Lounge · Bistrô.
+- **Menu hambúrguer**: perfil do usuário, mesas únicas, eventos, administração de usuários e sair.
 - **Topo**: toque no nome do evento para trocar de evento a qualquer momento.
 - Dá para **instalar na tela de início** do celular (é um PWA: Compartilhar → Adicionar à Tela de Início).
 
@@ -163,6 +167,7 @@ npm run deploy     # publica na Vercel (variáveis de ambiente incluídas)
 | `Eventos` | Cada Feijuca: nome, data, hora, local, status, limite da lista VIP, prazo da prioridade e a trava manual dos lounges |
 | `Lounges` | Lounges numerados de cada evento (capacidade, valor, bloqueio) |
 | `Bistros` | Bistrôs numerados de cada evento |
+| `Mesas` | Mesas únicas de 4 cadeiras, perto do palco |
 | `Reservas` | Reservas de lounge **e** de bistrô (campo `tipo`), com cliente, aniversariante, valor, sinal e check-in |
 | `ListaVip` | Lista da portaria: nome, documento, acompanhantes, tipo, promoter e check-in |
 | `Usuarios` | Quem acessa o app e com qual perfil (senha guardada como hash scrypt) |
@@ -175,7 +180,8 @@ Você pode editar a planilha à mão — o app lê e escreve nas mesmas colunas.
 ### Chaves e relacionamentos
 
 - `Lounges.evento_id`, `Bistros.evento_id`, `Reservas.evento_id`, `ListaVip.evento_id` → `Eventos.id`
-- `Reservas.unidade_id` → `Lounges.id` (quando `tipo = LOUNGE`) ou `Bistros.id` (quando `tipo = BISTRO`)
+- `Reservas.unidade_id` → `Lounges.id`, `Bistros.id` ou `Mesas.id`, conforme o campo `tipo`
+  (`LOUNGE`, `BISTRO` ou `MESA`)
 - Uma unidade está ocupada quando existe reserva com status `PENDENTE`, `CONFIRMADA` ou `CHECKIN`.
   Cancelar uma reserva (`CANCELADA`) libera a mesa na hora.
 
@@ -197,6 +203,7 @@ Você pode editar a planilha à mão — o app lê e escreve nas mesmas colunas.
 | `/api/eventos` | GET / POST | todos / admin |
 | `/api/eventos/[id]` | GET / PATCH / DELETE | todos / admin / admin |
 | `/api/unidades` | GET / POST | todos / admin |
+| `/api/croqui` | POST | admin |
 | `/api/unidades/[id]?tipo=` | PATCH / DELETE | admin |
 | `/api/reservas` | GET / POST | todos / admin+vendas |
 | `/api/reservas/[id]` | PATCH / DELETE | admin+vendas (check-in também portaria) / admin |
@@ -205,6 +212,25 @@ Você pode editar a planilha à mão — o app lê e escreve nas mesmas colunas.
 | `/api/usuarios`, `/api/usuarios/[id]` | GET/POST/PATCH/DELETE | admin |
 | `/api/resumo?evento_id=` | GET | todos |
 | `/api/saude` | GET | público (diagnóstico) |
+
+---
+
+## O croqui da casa
+
+O mapa é um **molde** descrito em `src/lib/croqui.ts`: ele diz apenas **onde** cada posição
+fica no salão. Quem manda no que existe de verdade é a planilha.
+
+- Uma posição que está no croqui mas não no evento aparece **apagada**; um admin toca nela
+  para cadastrar, ou usa **"Cadastrar as N posições que faltam"** no topo do mapa.
+- Uma unidade cadastrada que o croqui não prevê (outra casa, um extra) aparece na
+  faixa **"Fora do croqui"** logo abaixo do mapa, e continua clicável.
+- Em **Eventos → o evento → "Aplicar croqui do Soulbrado"** o app cria de uma vez as 33
+  posições da casa. É idempotente: rodar de novo não duplica nada.
+
+O croqui atual (`SOULBRADO`) tem 15 lounges (00–14), 15 bistrôs (01–15) e 3 mesas únicas
+(01–03). Para outra casa, acrescente um novo objeto `Croqui` no mesmo arquivo e inclua-o
+em `CROQUIS`. Os testes de geometria (`npm test`) conferem numeração, marcadores fora do
+desenho, sobreposição entre marcadores e invasão do palco.
 
 ---
 

@@ -14,9 +14,10 @@ import {
   classes,
   useToast,
 } from "@/components/ui";
-import { IconeBistro, IconeLounge, IconeMais } from "@/components/icones";
+import { IconeBistro, IconeLounge, IconeMais, IconeMapa, IconeMesa } from "@/components/icones";
 import { api } from "@/lib/cliente";
 import { formatarData, formatarMoeda } from "@/lib/formato";
+import { PADRAO_POR_TIPO } from "@/lib/croqui";
 import type { StatusPrioridade } from "@/lib/regras";
 import type { Evento, TipoUnidade, UnidadeComReserva, Vip } from "@/lib/types";
 
@@ -25,6 +26,7 @@ interface Detalhe {
   prioridadeLounge: StatusPrioridade;
   lounges: UnidadeComReserva[];
   bistros: UnidadeComReserva[];
+  mesas: UnidadeComReserva[];
   vips: Vip[];
 }
 
@@ -42,7 +44,7 @@ export default function PaginaEvento() {
   if (carregando) return <Esqueleto linhas={5} />;
   if (erro || !dados) return <p className="card px-4 py-3 text-sm text-red-300">{erro}</p>;
 
-  const { evento, prioridadeLounge, lounges, bistros, vips } = dados;
+  const { evento, prioridadeLounge, lounges, bistros, mesas, vips } = dados;
   const loungesLivres = lounges.filter((u) => !u.ocupado).length;
 
   async function alternarLiberacao(valor: boolean) {
@@ -58,6 +60,26 @@ export default function PaginaEvento() {
       await recarregarEventos();
     } catch (e) {
       avisar(e instanceof Error ? e.message : "Falha ao salvar.", "erro");
+    } finally {
+      setSalvando(false);
+    }
+  }
+
+  async function aplicarCroqui() {
+    setSalvando(true);
+    try {
+      const { total } = await api.post<{ total: number }>("/api/croqui", {
+        evento_id: id,
+        croqui_id: "SOULBRADO",
+      });
+      avisar(
+        total
+          ? `${total} posição(ões) criada(s) a partir do croqui do Soulbrado.`
+          : "O croqui do Soulbrado já está todo cadastrado neste evento.",
+      );
+      atualizar();
+    } catch (e) {
+      avisar(e instanceof Error ? e.message : "Falha ao aplicar o croqui.", "erro");
     } finally {
       setSalvando(false);
     }
@@ -118,11 +140,19 @@ export default function PaginaEvento() {
         ) : null}
       </section>
 
-      <div className="grid grid-cols-3 gap-3">
+      <div className="grid grid-cols-4 gap-2.5">
         <Resumo titulo="Lounges" valor={`${lounges.filter((u) => u.ocupado).length}/${lounges.length}`} />
         <Resumo titulo="Bistros" valor={`${bistros.filter((u) => u.ocupado).length}/${bistros.length}`} />
+        <Resumo titulo="Mesas" valor={`${mesas.filter((u) => u.ocupado).length}/${mesas.length}`} />
         <Resumo titulo="Lista VIP" valor={String(vips.filter((v) => v.status !== "CANCELADO").length)} />
       </div>
+
+      {ehAdmin ? (
+        <button onClick={aplicarCroqui} disabled={salvando} className="btn-secundario w-full">
+          <IconeMapa width={18} height={18} />
+          Aplicar croqui do Soulbrado
+        </button>
+      ) : null}
 
       <Secao
         titulo="Lounges"
@@ -141,6 +171,16 @@ export default function PaginaEvento() {
         tipo="BISTRO"
         ehAdmin={ehAdmin}
         aoAdicionar={() => setNovasUnidades("BISTRO")}
+        aoAtualizar={atualizar}
+      />
+
+      <Secao
+        titulo="Mesas únicas"
+        Icone={IconeMesa}
+        unidades={mesas}
+        tipo="MESA"
+        ehAdmin={ehAdmin}
+        aoAdicionar={() => setNovasUnidades("MESA")}
         aoAtualizar={atualizar}
       />
 
@@ -169,7 +209,13 @@ export default function PaginaEvento() {
       <Folha
         aberta={novasUnidades !== null}
         aoFechar={() => setNovasUnidades(null)}
-        titulo={novasUnidades === "LOUNGE" ? "Adicionar lounges" : "Adicionar bistros"}
+        titulo={
+          novasUnidades === "LOUNGE"
+            ? "Adicionar lounges"
+            : novasUnidades === "BISTRO"
+              ? "Adicionar bistros"
+              : "Adicionar mesas únicas"
+        }
         subtitulo="A numeracao continua a partir da ultima unidade."
       >
         {novasUnidades ? (
@@ -395,8 +441,8 @@ function FormularioUnidades({
 }) {
   const avisar = useToast();
   const [quantidade, setQuantidade] = useState("1");
-  const [capacidade, setCapacidade] = useState(tipo === "LOUNGE" ? "8" : "4");
-  const [valor, setValor] = useState("");
+  const [capacidade, setCapacidade] = useState(PADRAO_POR_TIPO[tipo].capacidade);
+  const [valor, setValor] = useState(PADRAO_POR_TIPO[tipo].valor);
   const [enviando, setEnviando] = useState(false);
 
   async function salvar(e: React.FormEvent) {

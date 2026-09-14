@@ -15,9 +15,10 @@ export async function GET(request: Request) {
     const evento = await findById<Evento>(TABS.eventos, eventoId);
     if (!evento) throw new HttpError(404, "Evento nao encontrado.");
 
-    const [lounges, bistros, reservas, vips] = await Promise.all([
+    const [lounges, bistros, mesas, reservas, vips] = await Promise.all([
       readTab<Unidade>(TABS.lounges),
       readTab<Unidade>(TABS.bistros),
+      readTab<Unidade>(TABS.mesas),
       readTab<Reserva>(TABS.reservas),
       readTab<Vip>(TABS.vip),
     ]);
@@ -33,11 +34,16 @@ export async function GET(request: Request) {
       bistros.filter((u) => u.evento_id === eventoId),
       reservasEvento.filter((r) => r.tipo === "BISTRO"),
     );
+    const mapaMesa = montarMapa(
+      mesas.filter((u) => u.evento_id === eventoId),
+      reservasEvento.filter((r) => r.tipo === "MESA"),
+    );
 
     const ocupadosLounge = mapaLounge.filter((u) => u.ocupado);
     const ocupadosBistro = mapaBistro.filter((u) => u.ocupado);
+    const ocupadosMesa = mapaMesa.filter((u) => u.ocupado);
 
-    const receita = [...ocupadosLounge, ...ocupadosBistro].reduce(
+    const receita = [...ocupadosLounge, ...ocupadosBistro, ...ocupadosMesa].reduce(
       (total, u) => total + (Number(u.reserva?.valor) || 0),
       0,
     );
@@ -58,13 +64,19 @@ export async function GET(request: Request) {
         livres: mapaBistro.length - ocupadosBistro.length,
         checkins: ocupadosBistro.filter((u) => u.reserva?.status === "CHECKIN").length,
       },
+      mesa: {
+        total: mapaMesa.length,
+        ocupados: ocupadosMesa.length,
+        livres: mapaMesa.length - ocupadosMesa.length,
+        checkins: ocupadosMesa.filter((u) => u.reserva?.status === "CHECKIN").length,
+      },
       vip: {
         nomes: vipsEvento.length,
         pessoas: vipsEvento.reduce((t, v) => t + 1 + (Number(v.acompanhantes) || 0), 0),
         checkins: vipsEvento.filter((v) => v.status === "CHECKIN").length,
         limite: Number(evento.capacidade_lista_vip) || 0,
       },
-      pessoasReservadas: [...ocupadosLounge, ...ocupadosBistro].reduce(
+      pessoasReservadas: [...ocupadosLounge, ...ocupadosBistro, ...ocupadosMesa].reduce(
         (t, u) => t + (Number(u.reserva?.qtd_pessoas) || 0),
         0,
       ),

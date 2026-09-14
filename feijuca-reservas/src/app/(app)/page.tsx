@@ -15,6 +15,8 @@ import {
   IconeCadeadoAberto,
   IconeLista,
   IconeLounge,
+  IconeMapa,
+  IconeMesa,
   IconeSeta,
 } from "@/components/icones";
 
@@ -23,6 +25,7 @@ interface Resumo {
   prioridadeLounge: StatusPrioridade;
   lounge: { total: number; ocupados: number; livres: number; aniversariantes: number; checkins: number };
   bistro: { total: number; ocupados: number; livres: number; checkins: number };
+  mesa: { total: number; ocupados: number; livres: number; checkins: number };
   vip: { nomes: number; pessoas: number; checkins: number; limite: number };
   pessoasReservadas: number;
   receitaPrevista: number;
@@ -101,7 +104,23 @@ export default function PaginaInicio() {
         <Esqueleto linhas={3} />
       ) : (
         <>
-          <div className="grid grid-cols-2 gap-3">
+          <Link
+            href="/mapa"
+            className="card flex items-center gap-4 border-pds-orange/40 bg-gradient-to-r from-pds-orange/15 to-transparent px-5 py-4 transition active:scale-[.99]"
+          >
+            <span className="rounded-xl bg-pds-orange/20 p-2.5 text-pds-orange">
+              <IconeMapa />
+            </span>
+            <div className="min-w-0 flex-1">
+              <p className="text-sm font-bold">Mapa do salão</p>
+              <p className="text-xs text-pds-muted">
+                Planta da casa: toque na posição para reservar ou fazer check-in
+              </p>
+            </div>
+            <IconeSeta className="shrink-0 text-pds-muted" width={18} height={18} />
+          </Link>
+
+          <div className="grid grid-cols-3 gap-2.5">
             <Cartao
               href="/lounge"
               titulo="Lounges"
@@ -110,9 +129,8 @@ export default function PaginaInicio() {
               total={dados.lounge.total}
               extra={
                 <span className="inline-flex items-center gap-1 text-pds-orangeSoft">
-                  <IconeBolo width={13} height={13} />
-                  {dados.lounge.aniversariantes} aniversariante
-                  {dados.lounge.aniversariantes === 1 ? "" : "s"}
+                  <IconeBolo width={12} height={12} />
+                  {dados.lounge.aniversariantes} aniver.
                 </span>
               }
             />
@@ -123,6 +141,14 @@ export default function PaginaInicio() {
               ocupados={dados.bistro.ocupados}
               total={dados.bistro.total}
               extra={<span>{dados.bistro.livres} livres</span>}
+            />
+            <Cartao
+              href="/mesas"
+              titulo="Mesas"
+              Icone={IconeMesa}
+              ocupados={dados.mesa.ocupados}
+              total={dados.mesa.total}
+              extra={<span>{dados.mesa.livres} livres</span>}
             />
           </div>
 
@@ -169,6 +195,7 @@ export default function PaginaInicio() {
               <Etiqueta cor="verde">Lista VIP: {dados.vip.checkins}</Etiqueta>
               <Etiqueta cor="laranja">Lounge: {dados.lounge.checkins}</Etiqueta>
               <Etiqueta cor="azul">Bistro: {dados.bistro.checkins}</Etiqueta>
+              <Etiqueta cor="cinza">Mesas: {dados.mesa.checkins}</Etiqueta>
             </div>
           </section>
         </>
@@ -194,14 +221,14 @@ function Cartao({
 }) {
   const percentual = total > 0 ? Math.round((ocupados / total) * 100) : 0;
   return (
-    <Link href={href} className="card px-4 py-4 transition active:scale-[.98]">
-      <div className="flex items-center gap-2 text-pds-orange">
-        <Icone width={18} height={18} />
-        <span className="text-[11px] font-bold uppercase tracking-wider">{titulo}</span>
+    <Link href={href} className="card px-3 py-3.5 transition active:scale-[.98]">
+      <div className="flex items-center gap-1.5 text-pds-orange">
+        <Icone width={16} height={16} />
+        <span className="text-[10px] font-bold uppercase tracking-wider">{titulo}</span>
       </div>
-      <p className="mt-2 text-2xl font-extrabold leading-none">
+      <p className="mt-2 text-xl font-extrabold leading-none">
         {ocupados}
-        <span className="text-base font-bold text-pds-muted">/{total}</span>
+        <span className="text-sm font-bold text-pds-muted">/{total}</span>
       </p>
       <div className="mt-2.5 h-1.5 overflow-hidden rounded-full bg-white/10">
         <div

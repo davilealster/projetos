@@ -27,9 +27,10 @@ export async function GET(_request: Request, { params }: Ctx) {
     const evento = await findById<Evento>(TABS.eventos, params.id);
     if (!evento) throw new HttpError(404, "Evento nao encontrado.");
 
-    const [lounges, bistros, reservas, vips] = await Promise.all([
+    const [lounges, bistros, mesas, reservas, vips] = await Promise.all([
       readTab<Unidade>(TABS.lounges),
       readTab<Unidade>(TABS.bistros),
+      readTab<Unidade>(TABS.mesas),
       readTab<Reserva>(TABS.reservas),
       readTab<Vip>(TABS.vip),
     ]);
@@ -42,6 +43,7 @@ export async function GET(_request: Request, { params }: Ctx) {
       prioridadeLounge: statusPrioridadeLounge(evento),
       lounges: montarMapa(doEvento(lounges), doEvento(reservas)),
       bistros: montarMapa(doEvento(bistros), doEvento(reservas)),
+      mesas: montarMapa(doEvento(mesas), doEvento(reservas)),
       vips: doEvento(vips),
     });
   } catch (error) {
