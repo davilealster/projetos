@@ -7,7 +7,7 @@ import { SemEvento } from "./aviso-sem-evento";
 import { Esqueleto, Folha, Vazio, classes, useToast } from "./ui";
 import { PainelUnidade, ROTULO } from "./painel-unidade";
 import { ListaPosicoes } from "./lista-posicoes";
-import { IconeBolo, IconeCadeado, IconeCadeadoAberto, IconeMais } from "./icones";
+import { IconeCadeado, IconeCadeadoAberto, IconeMais } from "./icones";
 import { api } from "@/lib/cliente";
 import { CROQUI_SOULBRADO, chaveUnidade, type PosicaoCroqui } from "@/lib/croqui";
 import type { GruposDeUnidades } from "@/lib/lista-whatsapp";
@@ -446,6 +446,7 @@ function Marcador({
           : "bg-white/25 text-white";
 
   const tamanho = posicao.tipo === "LOUNGE" ? 9 : 8.5;
+  const corpo = Math.max(8, Math.min(zoom, 2.4) * 8);
 
   return (
     <button
@@ -466,15 +467,24 @@ function Marcador({
         width: `${tamanho}%`,
         aspectRatio: "1",
         transform: "translate(-50%, -50%)",
-        fontSize: `${Math.max(7, Math.min(zoom, 2) * 7)}px`,
+        fontSize: `${corpo}px`,
       }}
     >
-      {posicao.numero}
-      {aniversario ? (
-        <span className="absolute -right-0.5 -top-1 text-pds-orangeSoft">
-          <IconeBolo width={9} height={9} />
-        </span>
-      ) : null}
+      {/* O bolo fica DENTRO da forma: o clip-path do pentagono apaga
+          qualquer filho posicionado para fora da caixa. */}
+      <span className="flex flex-col items-center justify-center leading-none">
+        <span>{posicao.numero}</span>
+        {aniversario ? (
+          <span
+            role="img"
+            aria-label="Aniversariante"
+            className="mt-[0.15em]"
+            style={{ fontSize: `${corpo * 0.95}px`, lineHeight: 1 }}
+          >
+            🎂
+          </span>
+        ) : null}
+      </span>
     </button>
   );
 }
@@ -516,7 +526,9 @@ function Legenda() {
         Não cadastrado
       </span>
       <span className="inline-flex items-center gap-1.5">
-        <IconeBolo width={12} height={12} className="text-pds-orangeSoft" />
+        <span role="img" aria-label="Aniversariante">
+          🎂
+        </span>
         Aniversariante
       </span>
     </div>

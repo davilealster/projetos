@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { AreaTexto, Campo, Etiqueta, Folha, Interruptor, useConfirmacao, useToast } from "./ui";
-import { IconeBolo, IconeCheck, IconeLixeira, IconeWhatsapp } from "./icones";
+import { IconeCheck, IconeLixeira, IconeWhatsapp } from "./icones";
 import { api } from "@/lib/cliente";
 import { formatarMoeda, formatarValorReserva, formatarTelefone, linkWhatsapp } from "@/lib/formato";
 import type { Reserva, TipoUnidade, UnidadeComReserva } from "@/lib/types";
@@ -311,7 +311,10 @@ function DetalheReserva({
         <Etiqueta cor={cores[reserva.status]}>{reserva.status}</Etiqueta>
         {reserva.aniversariante === "SIM" ? (
           <Etiqueta cor="laranja">
-            <IconeBolo width={12} height={12} /> Aniversariante
+            <span role="img" aria-label="">
+              🎂
+            </span>{" "}
+            Aniversariante
           </Etiqueta>
         ) : null}
       </div>

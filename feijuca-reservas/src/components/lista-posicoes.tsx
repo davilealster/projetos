@@ -3,7 +3,7 @@
 import { useMemo, useState } from "react";
 import { Folha, classes, useConfirmacao, useToast } from "./ui";
 import { ROTULO } from "./painel-unidade";
-import { IconeBolo, IconeCheck, IconeCopiar, IconeMover } from "./icones";
+import { IconeCheck, IconeCopiar, IconeMover } from "./icones";
 import { api } from "@/lib/cliente";
 import { copiarTexto } from "@/lib/copiar";
 import {
@@ -142,7 +142,9 @@ function Linha({
             <>
               <span className="truncate text-sm font-bold">{reserva.nome_cliente}</span>
               {aniversario ? (
-                <IconeBolo className="shrink-0 text-pds-orangeSoft" width={13} height={13} />
+                <span role="img" aria-label="Aniversariante" className="shrink-0 text-xs">
+                  🎂
+                </span>
               ) : null}
               {checkin ? (
                 <IconeCheck className="shrink-0 text-emerald-400" width={13} height={13} />

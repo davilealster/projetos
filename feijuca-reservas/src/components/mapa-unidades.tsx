@@ -5,7 +5,7 @@ import { useApp } from "./contexto";
 import { useDados } from "./usar-dados";
 import { SemEvento } from "./aviso-sem-evento";
 import { Esqueleto, Vazio, classes } from "./ui";
-import { IconeBolo, IconeCadeado, IconeCadeadoAberto, IconeCheck, IconeLista, IconeMapa } from "./icones";
+import { IconeCadeado, IconeCadeadoAberto, IconeCheck, IconeLista, IconeMapa } from "./icones";
 import { PainelUnidade, ROTULO } from "./painel-unidade";
 import { ListaPosicoes } from "./lista-posicoes";
 import { statusPrioridadeLounge, validarReservaLounge } from "@/lib/regras";
@@ -244,8 +244,8 @@ function Bloco({ unidade, aoAbrir }: { unidade: UnidadeComReserva; aoAbrir: () =
       )}
     >
       {aniversario ? (
-        <span className="absolute right-1.5 top-1.5 text-pds-orangeSoft">
-          <IconeBolo width={14} height={14} />
+        <span role="img" aria-label="Aniversariante" className="absolute right-1 top-1 text-[11px]">
+          🎂
         </span>
       ) : null}
       {checkin ? (
@@ -282,7 +282,9 @@ function Legenda() {
         </span>
       ))}
       <span className="inline-flex items-center gap-1.5">
-        <IconeBolo width={12} height={12} className="text-pds-orangeSoft" />
+        <span role="img" aria-label="Aniversariante">
+          🎂
+        </span>
         Aniversariante
       </span>
     </div>

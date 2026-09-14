@@ -118,15 +118,6 @@ export const IconeAtualizar = (p: Props) => (
   </Base>
 );
 
-export const IconeBolo = (p: Props) => (
-  <Base {...p}>
-    <path d="M12 5.2V3.4M12 3.4c.9-.5 1.2-1.4.6-2.1-.4.9-1.4 1.2-2.1.6" />
-    <path d="M5 11.5c0-1.4 1.1-2.5 2.5-2.5h9c1.4 0 2.5 1.1 2.5 2.5v2.2H5v-2.2Z" />
-    <path d="M3.5 20.5v-4c0-1.2 1-2.2 2.2-2.2h12.6c1.2 0 2.2 1 2.2 2.2v4" />
-    <path d="M2.5 20.5h19" />
-  </Base>
-);
-
 export const IconeAlerta = (p: Props) => (
   <Base {...p}>
     <path d="M12 4.5 21 19.5H3L12 4.5Z" />

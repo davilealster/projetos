@@ -10,7 +10,6 @@ import type { StatusPrioridade } from "@/lib/regras";
 import type { Evento } from "@/lib/types";
 import {
   IconeBistro,
-  IconeBolo,
   IconeCadeado,
   IconeCadeadoAberto,
   IconeLista,
@@ -129,7 +128,9 @@ export default function PaginaInicio() {
               total={dados.lounge.total}
               extra={
                 <span className="inline-flex items-center gap-1 text-pds-orangeSoft">
-                  <IconeBolo width={12} height={12} />
+                  <span role="img" aria-label="">
+                    🎂
+                  </span>
                   {dados.lounge.aniversariantes} aniver.
                 </span>
               }

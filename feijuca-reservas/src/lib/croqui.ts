@@ -96,7 +96,7 @@ export const CROQUI_SOULBRADO: Croqui = {
   local: "Soulbrado - Anil",
   proporcao: LARGURA / ALTURA,
   zonas: [
-    { rotulo: "ENTRADA", x: 58, y: 0.5, largura: 36, altura: 6, tom: "entrada" },
+    { rotulo: "ENTRADA", x: 32, y: 0.5, largura: 36, altura: 6, tom: "entrada" },
     { rotulo: "", x: 6, y: 8, largura: 88, altura: 76, tom: "deck" },
     { rotulo: "PALCO", x: 40, y: 29, largura: 22, altura: 22, tom: "palco" },
     { rotulo: "SOM / DJ", x: 41, y: 55, largura: 20, altura: 8, tom: "dj" },
