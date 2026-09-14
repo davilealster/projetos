@@ -1,6 +1,7 @@
 import { erroResposta, exigirSessao } from "@/lib/auth";
 import { json, lerCorpo, obrigatorio, texto } from "@/lib/api";
 import { appendRow, nextId, readTab, registrarLog, TABS } from "@/lib/sheets";
+import { normalizarValor } from "@/lib/valores";
 import type { Evento } from "@/lib/types";
 
 export const runtime = "nodejs";
@@ -35,6 +36,10 @@ export async function POST(request: Request) {
       capacidade_lista_vip: texto(corpo.capacidade_lista_vip),
       observacoes: texto(corpo.observacoes),
       criado_em: new Date().toISOString(),
+      // Cortesia e' o padrao: cada evento decide se cobra e quanto.
+      valor_lounge: normalizarValor(corpo.valor_lounge),
+      valor_bistro: normalizarValor(corpo.valor_bistro),
+      valor_mesa: normalizarValor(corpo.valor_mesa),
     };
 
     await appendRow(TABS.eventos, evento as unknown as Record<string, string>);

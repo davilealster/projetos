@@ -3,6 +3,7 @@ import { json, lerCorpo, selecionar } from "@/lib/api";
 import { deleteRow, readTab, registrarLog, TABS, updateRow } from "@/lib/sheets";
 import { reservaAtiva } from "@/lib/regras";
 import { normalizarTipo, rotuloDoTipo, tabelaDoTipo } from "@/lib/unidades";
+import { normalizarValor } from "@/lib/valores";
 import type { Reserva } from "@/lib/types";
 
 export const runtime = "nodejs";
@@ -20,6 +21,7 @@ export async function PATCH(request: Request, { params }: Ctx) {
     const tipo = tipoDaQuery(request);
     const corpo = await lerCorpo(request);
     const patch = selecionar(corpo, ["numero", "nome", "capacidade", "valor", "status", "observacoes"]);
+    if (patch.valor !== undefined) patch.valor = normalizarValor(patch.valor);
 
     const unidade = await updateRow(tabelaDoTipo(tipo), params.id, patch);
     if (!unidade) throw new HttpError(404, `${rotuloDoTipo(tipo)} nao encontrado.`);

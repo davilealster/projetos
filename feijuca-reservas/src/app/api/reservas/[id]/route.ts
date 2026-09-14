@@ -3,6 +3,7 @@ import { json, lerCorpo, selecionar, simNao, texto } from "@/lib/api";
 import { deleteRow, findById, readTab, registrarLog, TABS, updateRow } from "@/lib/sheets";
 import { ehAniversariante, reservaAtiva, validarReservaLounge } from "@/lib/regras";
 import { rotuloDoTipo, tabelaDoTipo } from "@/lib/unidades";
+import { normalizarValor } from "@/lib/valores";
 import type { Evento, Reserva, Unidade } from "@/lib/types";
 
 export const runtime = "nodejs";
@@ -38,6 +39,9 @@ export async function PATCH(request: Request, { params }: Ctx) {
     if (!reserva) throw new HttpError(404, "Reserva nao encontrada.");
 
     const patch = selecionar(corpo, CAMPOS_EDITAVEIS);
+    for (const campo of ["valor", "sinal_pago"] as const) {
+      if (patch[campo] !== undefined) patch[campo] = normalizarValor(patch[campo]);
+    }
 
     if (corpo.aniversariante !== undefined) {
       const novo = simNao(corpo.aniversariante);

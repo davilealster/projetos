@@ -94,11 +94,16 @@ test("nenhum marcador fica em cima do palco", () => {
   }
 });
 
-test("todo tipo do croqui tem capacidade e valor padrao", () => {
+test("todo tipo do croqui tem capacidade padrao", () => {
   for (const tipo of new Set(posicoes.map((p) => p.tipo))) {
     const padrao = PADRAO_POR_TIPO[tipo];
     assert.ok(padrao, `falta padrao para ${tipo}`);
     assert.ok(Number(padrao.capacidade) > 0, `capacidade invalida em ${tipo}`);
-    assert.ok(Number(padrao.valor) > 0, `valor invalido em ${tipo}`);
+  }
+});
+
+test("o molde nao carrega preco: quem cobra e' o evento", () => {
+  for (const padrao of Object.values(PADRAO_POR_TIPO)) {
+    assert.equal(padrao.valor, undefined);
   }
 });

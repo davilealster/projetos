@@ -157,6 +157,50 @@ export async function updateRow(tab: TabName, id: string, patch: Row): Promise<R
   return merged;
 }
 
+function letraDaColuna(indice: number): string {
+  let letra = "";
+  let n = indice;
+  while (n >= 0) {
+    letra = String.fromCharCode((n % 26) + 65) + letra;
+    n = Math.floor(n / 26) - 1;
+  }
+  return letra;
+}
+
+/**
+ * Grava o mesmo valor num campo de varias linhas com UMA chamada a API.
+ * Atualizar 33 unidades uma a uma estouraria o limite de 60 escritas/minuto.
+ */
+export async function atualizarCampoEmLote(
+  tab: TabName,
+  ids: string[],
+  campo: string,
+  valor: string,
+): Promise<number> {
+  if (!ids.length) return 0;
+
+  const values = await readValues(tab);
+  const { header, rows } = toObjects(values);
+  const coluna = header.indexOf(campo);
+  if (coluna === -1) throw new Error(`A aba "${tab}" nao tem a coluna "${campo}".`);
+
+  const alvo = new Set(ids);
+  const letra = letraDaColuna(coluna);
+  const data = rows
+    .map((linha, i) => ({ linha, numero: i + 2 }))
+    .filter(({ linha }) => alvo.has(linha.id))
+    .map(({ numero }) => ({ range: `${tab}!${letra}${numero}`, values: [[valor]] }));
+
+  if (!data.length) return 0;
+
+  await getClient().spreadsheets.values.batchUpdate({
+    spreadsheetId: spreadsheetId(),
+    requestBody: { valueInputOption: "RAW", data },
+  });
+  invalidate(tab);
+  return data.length;
+}
+
 let sheetIdCache: Record<string, number> | null = null;
 
 async function sheetIdOf(tab: TabName): Promise<number> {

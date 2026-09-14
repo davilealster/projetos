@@ -3,9 +3,11 @@ import { NextResponse } from "next/server";
 import { COOKIE_NAME, verifySession } from "./session";
 import { readTab, TABS } from "./sheets";
 import { conferirSenha } from "./senha";
+import { HttpError } from "./erros";
 import type { Papel, SessionUser, Usuario } from "./types";
 
 export { conferirSenha, hashSenha } from "./senha";
+export { HttpError } from "./erros";
 
 export async function autenticar(usuario: string, senha: string): Promise<SessionUser | null> {
   const usuarios = await readTab<Usuario>(TABS.usuarios, false);
@@ -26,15 +28,6 @@ export async function autenticar(usuario: string, senha: string): Promise<Sessio
 /** Sessao atual em Server Components e Route Handlers. */
 export async function sessaoAtual(): Promise<SessionUser | null> {
   return verifySession(cookies().get(COOKIE_NAME)?.value);
-}
-
-export class HttpError extends Error {
-  constructor(
-    public status: number,
-    message: string,
-  ) {
-    super(message);
-  }
 }
 
 /** Exige sessao valida; opcionalmente restringe por papel. */

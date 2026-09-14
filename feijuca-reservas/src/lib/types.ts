@@ -41,6 +41,10 @@ export interface Evento {
   capacidade_lista_vip: string;
   observacoes: string;
   criado_em: string;
+  /** Valor padrao cobrado por reserva. "0" ou vazio = cortesia. */
+  valor_lounge: string;
+  valor_bistro: string;
+  valor_mesa: string;
 }
 
 export interface Unidade {

@@ -27,6 +27,9 @@ https://docs.google.com/spreadsheets/d/1hn1MswrZH6yq0BXsUU7rPBGdRf9u6DIZxtrfPLoh
   - O admin pode **destravar antes** pelo botão na tela do evento (útil quando está sobrando
     lounge e aparece um comprador).
   - O prazo de 1 dia é configurável por evento (campo "Prioridade (dias)").
+- **Valores por evento**: lounge, bistrô e mesa nascem como **cortesia**. Cada evento define
+  se cobra e quanto, em *Eventos → o evento → Valores da reserva*. Reserva sem valor aparece
+  como "Gratuito", não como preço zerado.
 - **Perfis de acesso**: Administrador (tudo), Vendas (reservas + lista) e
   Portaria (só check-in e incluir nomes).
 - **Trilha de auditoria**: toda criação/edição vai para a aba `Log` da planilha.
@@ -164,7 +167,7 @@ npm run deploy     # publica na Vercel (variáveis de ambiente incluídas)
 
 | Aba | Para que serve |
 |---|---|
-| `Eventos` | Cada Feijuca: nome, data, hora, local, status, limite da lista VIP, prazo da prioridade e a trava manual dos lounges |
+| `Eventos` | Cada Feijuca: nome, data, hora, local, status, limite da lista VIP, prazo da prioridade, a trava manual dos lounges e o valor cobrado por tipo (`valor_lounge`, `valor_bistro`, `valor_mesa`) |
 | `Lounges` | Lounges numerados de cada evento (capacidade, valor, bloqueio) |
 | `Bistros` | Bistrôs numerados de cada evento |
 | `Mesas` | Mesas únicas de 4 cadeiras, perto do palco |
@@ -212,6 +215,22 @@ Você pode editar a planilha à mão — o app lê e escreve nas mesmas colunas.
 | `/api/usuarios`, `/api/usuarios/[id]` | GET/POST/PATCH/DELETE | admin |
 | `/api/resumo?evento_id=` | GET | todos |
 | `/api/saude` | GET | público (diagnóstico) |
+
+---
+
+## Valores e cortesia
+
+O preço não fica preso na unidade: quem manda é o evento.
+
+- `Eventos.valor_lounge`, `valor_bistro` e `valor_mesa` guardam o valor padrão de cada tipo.
+  **Vazio ou `0` significa cortesia** — é o padrão de um evento novo.
+- Ao criar unidades (uma a uma ou pelo croqui), o valor vem do evento.
+- Em *Valores da reserva* você liga **Cobrar por reserva**, preenche os três campos e salva.
+  Com **"Aplicar nas unidades já cadastradas"** ligado, as unidades do evento passam a valer
+  o novo preço numa única chamada à planilha — **exceto** as que já têm reserva ativa, que
+  mantêm o valor combinado com o cliente.
+- O campo aceita o que se digita no celular: `600`, `R$ 600,00`, `1.200`, `1.200,50`, `250,50`.
+  Qualquer coisa que não vire um número positivo é tratada como cortesia.
 
 ---
 

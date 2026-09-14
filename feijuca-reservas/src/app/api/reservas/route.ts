@@ -3,6 +3,7 @@ import { inteiro, json, lerCorpo, obrigatorio, simNao, texto } from "@/lib/api";
 import { appendRow, findById, nextId, readTab, registrarLog, TABS } from "@/lib/sheets";
 import { ehAniversariante, reservaAtiva, validarReservaLounge } from "@/lib/regras";
 import { normalizarTipo, rotuloDoTipo, tabelaDoTipo } from "@/lib/unidades";
+import { normalizarValor } from "@/lib/valores";
 import type { Evento, Reserva, Unidade } from "@/lib/types";
 
 export const runtime = "nodejs";
@@ -89,7 +90,7 @@ export async function POST(request: Request) {
       aniversariante,
       data_aniversario: texto(corpo.data_aniversario),
       status: "PENDENTE",
-      valor: texto(corpo.valor) || unidade.valor,
+      valor: texto(corpo.valor) ? normalizarValor(corpo.valor) : normalizarValor(unidade.valor),
       sinal_pago: texto(corpo.sinal_pago),
       observacoes: texto(corpo.observacoes),
       criado_por: user.usuario,

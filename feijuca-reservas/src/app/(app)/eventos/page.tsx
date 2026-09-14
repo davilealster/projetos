@@ -176,6 +176,11 @@ function FormularioEvento({ aoSalvar }: { aoSalvar: (id: string) => void | Promi
         <option value="RASCUNHO">Rascunho</option>
         <option value="ENCERRADO">Encerrado</option>
       </Selecao>
+      <p className="rounded-xl border border-pds-line bg-black/40 px-3.5 py-3 text-xs leading-relaxed text-pds-muted">
+        O evento nasce com lounges, bistrôs e mesas como <strong className="text-white">cortesia</strong>.
+        Para cobrar, defina os valores depois em <strong className="text-white">Valores da reserva</strong>,
+        na tela do evento.
+      </p>
       <button type="submit" disabled={enviando} className="btn-primario w-full">
         {enviando ? "Criando..." : "Criar evento"}
       </button>

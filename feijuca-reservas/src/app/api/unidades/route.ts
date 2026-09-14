@@ -2,7 +2,14 @@ import { erroResposta, exigirSessao, HttpError } from "@/lib/auth";
 import { inteiro, json, lerCorpo, obrigatorio, texto } from "@/lib/api";
 import { appendRows, findById, readTab, registrarLog, TABS } from "@/lib/sheets";
 import { montarMapa } from "@/lib/regras";
-import { normalizarTipo, prefixoDoTipo, rotuloDoTipo, tabelaDoTipo } from "@/lib/unidades";
+import {
+  normalizarTipo,
+  prefixoDoTipo,
+  rotuloDoTipo,
+  tabelaDoTipo,
+  valorPadraoDoEvento,
+} from "@/lib/unidades";
+import { normalizarValor } from "@/lib/valores";
 import type { Evento, Reserva, Unidade } from "@/lib/types";
 
 export const runtime = "nodejs";
@@ -46,7 +53,10 @@ export async function POST(request: Request) {
     const doEvento = existentes.filter((u) => u.evento_id === eventoId);
 
     const capacidade = String(inteiro(corpo.capacidade, tipo === "LOUNGE" ? 8 : 4));
-    const valor = texto(corpo.valor);
+    // Sem valor informado, vale o padrao do evento (cortesia, por padrao).
+    const valor = corpo.valor !== undefined && texto(corpo.valor) !== ""
+      ? normalizarValor(corpo.valor)
+      : valorPadraoDoEvento(evento, tipo);
     const quantidade = Math.min(Math.max(inteiro(corpo.quantidade, 1), 1), 60);
 
     // Numero explicito cria uma unidade; senao continua a numeracao do evento.

@@ -23,6 +23,8 @@ export function formatarMoeda(valor: string | number): string {
   return numero.toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
 }
 
+export { ehCortesia, formatarValorReserva } from "./valores";
+
 export function formatarHora(iso: string): string {
   if (!iso) return "";
   const data = new Date(iso);

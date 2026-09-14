@@ -1,4 +1,4 @@
-import { HttpError } from "./auth";
+import { HttpError } from "./erros";
 import { TABS, type TabName } from "./sheets";
 import type { TipoUnidade } from "./types";
 
@@ -39,3 +39,5 @@ export function prefixoDoTipo(tipo: TipoUnidade): string {
 export function rotuloDoTipo(tipo: TipoUnidade): string {
   return ROTULOS[tipo];
 }
+
+export { campoValorDoTipo, valorPadraoDoEvento } from "./valores";

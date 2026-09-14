@@ -4,7 +4,7 @@ import { useState } from "react";
 import { AreaTexto, Campo, Etiqueta, Folha, Interruptor, useToast } from "./ui";
 import { IconeBolo, IconeCheck, IconeLixeira, IconeWhatsapp } from "./icones";
 import { api } from "@/lib/cliente";
-import { formatarMoeda, formatarTelefone, linkWhatsapp } from "@/lib/formato";
+import { formatarMoeda, formatarValorReserva, formatarTelefone, linkWhatsapp } from "@/lib/formato";
 import type { Reserva, TipoUnidade, UnidadeComReserva } from "@/lib/types";
 
 export const ROTULO: Record<TipoUnidade, { singular: string; plural: string }> = {
@@ -32,8 +32,8 @@ export function PainelUnidade(props: PainelProps) {
   const { unidade, tipo } = props;
   const titulo = `${ROTULO[tipo].singular} ${unidade.numero}`;
   const subtitulo = [
-    unidade.capacidade ? `ate ${unidade.capacidade} pessoas` : null,
-    unidade.valor ? formatarMoeda(unidade.valor) : null,
+    unidade.capacidade ? `até ${unidade.capacidade} pessoas` : null,
+    formatarValorReserva(unidade.valor),
   ]
     .filter(Boolean)
     .join(" · ");
@@ -186,7 +186,7 @@ function NovaReserva({
             value={valor}
             onChange={(e) => setValor(e.target.value)}
             inputMode="decimal"
-            placeholder={unidade.valor || "0"}
+            placeholder="0 = cortesia"
           />
         )}
       </div>
@@ -198,7 +198,7 @@ function NovaReserva({
             value={valor}
             onChange={(e) => setValor(e.target.value)}
             inputMode="decimal"
-            placeholder={unidade.valor || "0"}
+            placeholder="0 = cortesia"
           />
           <Campo
             rotulo="Sinal pago (R$)"
@@ -318,7 +318,7 @@ function DetalheReserva({
       </div>
 
       <dl className="grid grid-cols-2 gap-3">
-        <Info titulo="Valor" valor={formatarMoeda(reserva.valor)} />
+        <Info titulo="Valor" valor={formatarValorReserva(reserva.valor)} />
         <Info titulo="Sinal pago" valor={formatarMoeda(reserva.sinal_pago)} />
         {reserva.data_aniversario ? (
           <Info titulo="Aniversario" valor={reserva.data_aniversario.split("-").reverse().join("/")} />

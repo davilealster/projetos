@@ -1,6 +1,17 @@
 import { erroResposta, exigirSessao, HttpError } from "@/lib/auth";
 import { json, lerCorpo, selecionar } from "@/lib/api";
-import { deleteRow, findById, readTab, registrarLog, TABS, updateRow } from "@/lib/sheets";
+import {
+  atualizarCampoEmLote,
+  deleteRow,
+  findById,
+  readTab,
+  registrarLog,
+  TABS,
+  updateRow,
+} from "@/lib/sheets";
+import { reservaAtiva } from "@/lib/regras";
+import { tabelaDoTipo, TIPOS_UNIDADE, valorPadraoDoEvento } from "@/lib/unidades";
+import { normalizarValor } from "@/lib/valores";
 import { montarMapa, statusPrioridadeLounge } from "@/lib/regras";
 import type { Evento, Reserva, Unidade, Vip } from "@/lib/types";
 
@@ -19,6 +30,9 @@ const CAMPOS_EDITAVEIS = [
   "prioridade_aniversariante_dias",
   "capacidade_lista_vip",
   "observacoes",
+  "valor_lounge",
+  "valor_bistro",
+  "valor_mesa",
 ];
 
 export async function GET(_request: Request, { params }: Ctx) {
@@ -59,9 +73,40 @@ export async function PATCH(request: Request, { params }: Ctx) {
     if (patch.lounges_liberados) {
       patch.lounges_liberados = patch.lounges_liberados.toUpperCase() === "SIM" ? "SIM" : "NAO";
     }
+    for (const campo of ["valor_lounge", "valor_bistro", "valor_mesa"] as const) {
+      if (patch[campo] !== undefined) patch[campo] = normalizarValor(patch[campo]);
+    }
 
-    const evento = await updateRow(TABS.eventos, params.id, patch);
-    if (!evento) throw new HttpError(404, "Evento nao encontrado.");
+    const atualizado = await updateRow(TABS.eventos, params.id, patch);
+    if (!atualizado) throw new HttpError(404, "Evento nao encontrado.");
+    const evento = atualizado as unknown as Evento;
+
+    // Mudar o valor do evento so' vale a pena se as unidades acompanharem.
+    // Reservas ja feitas guardam o proprio valor e nao sao tocadas.
+    let unidadesAtualizadas = 0;
+    if (corpo.aplicar_nas_unidades) {
+      const reservas = await readTab<Reserva>(TABS.reservas, false);
+      const ocupadas = new Set(
+        reservas.filter((r) => r.evento_id === params.id && reservaAtiva(r)).map((r) => r.unidade_id),
+      );
+
+      for (const tipo of TIPOS_UNIDADE) {
+        const campo = tipo === "LOUNGE" ? "valor_lounge" : tipo === "BISTRO" ? "valor_bistro" : "valor_mesa";
+        if (patch[campo] === undefined) continue;
+
+        const tabela = tabelaDoTipo(tipo);
+        const unidades = await readTab<Unidade>(tabela, false);
+        const ids = unidades
+          .filter((u) => u.evento_id === params.id && !ocupadas.has(u.id))
+          .map((u) => u.id);
+        unidadesAtualizadas += await atualizarCampoEmLote(
+          tabela,
+          ids,
+          "valor",
+          valorPadraoDoEvento(evento, tipo),
+        );
+      }
+    }
 
     await registrarLog({
       usuario: user.usuario,
@@ -70,7 +115,7 @@ export async function PATCH(request: Request, { params }: Ctx) {
       entidade_id: params.id,
       detalhes: JSON.stringify(patch),
     });
-    return json({ evento });
+    return json({ evento, unidadesAtualizadas });
   } catch (error) {
     return erroResposta(error);
   }

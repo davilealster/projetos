@@ -16,8 +16,9 @@ import {
 } from "@/components/ui";
 import { IconeBistro, IconeLounge, IconeMais, IconeMapa, IconeMesa } from "@/components/icones";
 import { api } from "@/lib/cliente";
-import { formatarData, formatarMoeda } from "@/lib/formato";
+import { formatarData, formatarValorReserva } from "@/lib/formato";
 import { PADRAO_POR_TIPO } from "@/lib/croqui";
+import { valorPadraoDoEvento } from "@/lib/valores";
 import type { StatusPrioridade } from "@/lib/regras";
 import type { Evento, TipoUnidade, UnidadeComReserva, Vip } from "@/lib/types";
 
@@ -140,6 +141,31 @@ export default function PaginaEvento() {
         ) : null}
       </section>
 
+      {ehAdmin ? (
+        <SecaoValores
+          evento={evento}
+          aoSalvar={async () => {
+            atualizar();
+            await recarregarEventos();
+          }}
+        />
+      ) : (
+        <section className="card px-5 py-4">
+          <h2 className="text-sm font-extrabold uppercase tracking-wider text-pds-orange">
+            Valores da reserva
+          </h2>
+          <div className="mt-3 grid grid-cols-3 gap-2.5">
+            {(["LOUNGE", "BISTRO", "MESA"] as TipoUnidade[]).map((tipo) => (
+              <Resumo
+                key={tipo}
+                titulo={tipo === "LOUNGE" ? "Lounge" : tipo === "BISTRO" ? "Bistrô" : "Mesa"}
+                valor={formatarValorReserva(valorPadraoDoEvento(evento, tipo))}
+              />
+            ))}
+          </div>
+        </section>
+      )}
+
       <div className="grid grid-cols-4 gap-2.5">
         <Resumo titulo="Lounges" valor={`${lounges.filter((u) => u.ocupado).length}/${lounges.length}`} />
         <Resumo titulo="Bistros" valor={`${bistros.filter((u) => u.ocupado).length}/${bistros.length}`} />
@@ -222,6 +248,7 @@ export default function PaginaEvento() {
           <FormularioUnidades
             tipo={novasUnidades}
             eventoId={evento.id}
+            valorPadrao={valorPadraoDoEvento(evento, novasUnidades)}
             aoSalvar={() => {
               setNovasUnidades(null);
               atualizar();
@@ -336,7 +363,7 @@ function Secao({
                     {u.reserva ? u.reserva.nome_cliente : bloqueado ? "Bloqueado" : "Livre"}
                   </p>
                   <p className="truncate text-xs text-pds-muted">
-                    ate {u.capacidade || "?"} pessoas · {formatarMoeda(u.valor)}
+                    até {u.capacidade || "?"} pessoas · {formatarValorReserva(u.valor)}
                   </p>
                 </div>
                 {ehAdmin ? (
@@ -363,6 +390,113 @@ function Secao({
         </ul>
       )}
     </section>
+  );
+}
+
+/**
+ * Valor cobrado por tipo, definido no evento. Cortesia e' o padrao: o
+ * interruptor desligado zera os tres de uma vez.
+ */
+function SecaoValores({ evento, aoSalvar }: { evento: Evento; aoSalvar: () => void | Promise<void> }) {
+  const avisar = useToast();
+  const inicial = {
+    LOUNGE: valorPadraoDoEvento(evento, "LOUNGE"),
+    BISTRO: valorPadraoDoEvento(evento, "BISTRO"),
+    MESA: valorPadraoDoEvento(evento, "MESA"),
+  };
+  const jaCobra = Object.values(inicial).some((v) => Number(v) > 0);
+
+  const [cobrando, setCobrando] = useState(jaCobra);
+  const [valores, setValores] = useState<Record<TipoUnidade, string>>({
+    LOUNGE: inicial.LOUNGE === "0" ? "" : inicial.LOUNGE,
+    BISTRO: inicial.BISTRO === "0" ? "" : inicial.BISTRO,
+    MESA: inicial.MESA === "0" ? "" : inicial.MESA,
+  });
+  const [aplicar, setAplicar] = useState(true);
+  const [enviando, setEnviando] = useState(false);
+
+  async function salvar(e: React.FormEvent) {
+    e.preventDefault();
+    setEnviando(true);
+    try {
+      const { unidadesAtualizadas } = await api.patch<{ unidadesAtualizadas: number }>(
+        `/api/eventos/${evento.id}`,
+        {
+          valor_lounge: cobrando ? valores.LOUNGE || "0" : "0",
+          valor_bistro: cobrando ? valores.BISTRO || "0" : "0",
+          valor_mesa: cobrando ? valores.MESA || "0" : "0",
+          aplicar_nas_unidades: aplicar,
+        },
+      );
+      avisar(
+        unidadesAtualizadas
+          ? `Valores salvos e aplicados em ${unidadesAtualizadas} unidade(s).`
+          : "Valores salvos.",
+      );
+      await aoSalvar();
+    } catch (erro) {
+      avisar(erro instanceof Error ? erro.message : "Falha ao salvar os valores.", "erro");
+    } finally {
+      setEnviando(false);
+    }
+  }
+
+  const campos: { tipo: TipoUnidade; rotulo: string }[] = [
+    { tipo: "LOUNGE", rotulo: "Lounge (R$)" },
+    { tipo: "BISTRO", rotulo: "Bistrô (R$)" },
+    { tipo: "MESA", rotulo: "Mesa única (R$)" },
+  ];
+
+  return (
+    <form onSubmit={salvar} className="card space-y-3 px-5 py-4">
+      <div>
+        <h2 className="text-sm font-extrabold uppercase tracking-wider text-pds-orange">
+          Valores da reserva
+        </h2>
+        <p className="mt-1 text-xs leading-relaxed text-pds-muted">
+          Define quanto cada tipo custa neste evento. Deixado como cortesia, o app mostra
+          &quot;Gratuito&quot; em vez de preço.
+        </p>
+      </div>
+
+      <Interruptor
+        destaque
+        rotulo="Cobrar por reserva"
+        descricao={
+          cobrando
+            ? "Cada tipo abaixo tem o seu valor."
+            : "Desligado: lounges, bistrôs e mesas saem como cortesia."
+        }
+        ativo={cobrando}
+        aoMudar={setCobrando}
+      />
+
+      {cobrando ? (
+        <div className="grid grid-cols-3 gap-2.5">
+          {campos.map(({ tipo, rotulo }) => (
+            <Campo
+              key={tipo}
+              rotulo={rotulo}
+              value={valores[tipo]}
+              onChange={(e) => setValores((v) => ({ ...v, [tipo]: e.target.value }))}
+              inputMode="decimal"
+              placeholder="0"
+            />
+          ))}
+        </div>
+      ) : null}
+
+      <Interruptor
+        rotulo="Aplicar nas unidades já cadastradas"
+        descricao="Unidades com reserva ativa mantêm o valor combinado com o cliente."
+        ativo={aplicar}
+        aoMudar={setAplicar}
+      />
+
+      <button type="submit" disabled={enviando} className="btn-primario w-full">
+        {enviando ? "Salvando..." : "Salvar valores"}
+      </button>
+    </form>
   );
 }
 
@@ -433,16 +567,18 @@ function FormularioEdicao({ evento, aoSalvar }: { evento: Evento; aoSalvar: () =
 function FormularioUnidades({
   tipo,
   eventoId,
+  valorPadrao,
   aoSalvar,
 }: {
   tipo: TipoUnidade;
   eventoId: string;
+  valorPadrao: string;
   aoSalvar: () => void;
 }) {
   const avisar = useToast();
   const [quantidade, setQuantidade] = useState("1");
   const [capacidade, setCapacidade] = useState(PADRAO_POR_TIPO[tipo].capacidade);
-  const [valor, setValor] = useState(PADRAO_POR_TIPO[tipo].valor);
+  const [valor, setValor] = useState(valorPadrao);
   const [enviando, setEnviando] = useState(false);
 
   async function salvar(e: React.FormEvent) {
@@ -487,6 +623,7 @@ function FormularioUnidades({
           onChange={(e) => setValor(e.target.value)}
           inputMode="decimal"
           placeholder="0"
+          dica="0 = cortesia"
         />
       </div>
       <button type="submit" disabled={enviando} className="btn-primario w-full">

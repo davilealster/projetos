@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { HttpError } from "./auth";
+import { HttpError } from "./erros";
 
 export function json(data: unknown, status = 200) {
   return NextResponse.json(data, { status });

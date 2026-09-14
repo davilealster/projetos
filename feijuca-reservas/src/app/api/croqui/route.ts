@@ -2,7 +2,13 @@ import { erroResposta, exigirSessao, HttpError } from "@/lib/auth";
 import { json, lerCorpo, obrigatorio, texto } from "@/lib/api";
 import { appendRows, findById, readTab, registrarLog, TABS } from "@/lib/sheets";
 import { chaveUnidade, croquiPorId, PADRAO_POR_TIPO } from "@/lib/croqui";
-import { prefixoDoTipo, rotuloDoTipo, tabelaDoTipo, TIPOS_UNIDADE } from "@/lib/unidades";
+import {
+  prefixoDoTipo,
+  rotuloDoTipo,
+  tabelaDoTipo,
+  TIPOS_UNIDADE,
+  valorPadraoDoEvento,
+} from "@/lib/unidades";
 import type { Evento, TipoUnidade, Unidade } from "@/lib/types";
 
 export const runtime = "nodejs";
@@ -44,6 +50,7 @@ export async function POST(request: Request) {
       }, 0);
 
       const padrao = PADRAO_POR_TIPO[tipo];
+      const valor = valorPadraoDoEvento(evento, tipo);
       const novas: Unidade[] = [];
       for (const posicao of previstas) {
         if (jaTem.has(chaveUnidade(tipo, posicao.numero))) continue;
@@ -54,7 +61,7 @@ export async function POST(request: Request) {
           numero: posicao.numero,
           nome: `${rotuloDoTipo(tipo)} ${posicao.numero}`,
           capacidade: padrao.capacidade,
-          valor: padrao.valor,
+          valor,
           status: "DISPONIVEL",
           observacoes: "",
         });
