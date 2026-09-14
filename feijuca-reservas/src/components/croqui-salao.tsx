@@ -6,9 +6,11 @@ import { useDados } from "./usar-dados";
 import { SemEvento } from "./aviso-sem-evento";
 import { Esqueleto, Folha, Vazio, classes, useToast } from "./ui";
 import { PainelUnidade, ROTULO } from "./painel-unidade";
+import { ListaPosicoes } from "./lista-posicoes";
 import { IconeBolo, IconeCadeado, IconeCadeadoAberto, IconeMais } from "./icones";
 import { api } from "@/lib/cliente";
 import { CROQUI_SOULBRADO, chaveUnidade, type PosicaoCroqui } from "@/lib/croqui";
+import type { GruposDeUnidades } from "@/lib/lista-whatsapp";
 import { statusPrioridadeLounge, validarReservaLounge } from "@/lib/regras";
 import type { TipoUnidade, UnidadeComReserva } from "@/lib/types";
 
@@ -76,6 +78,15 @@ export function CroquiSalao() {
   const faltando = useMemo(
     () => CROQUI.posicoes.filter((p) => !porChave.has(chaveUnidade(p.tipo, p.numero))),
     [porChave],
+  );
+
+  const grupos: GruposDeUnidades = useMemo(
+    () => ({
+      LOUNGE: dados?.lounges ?? [],
+      BISTRO: dados?.bistros ?? [],
+      MESA: dados?.mesas ?? [],
+    }),
+    [dados],
   );
 
   if (carregandoApp) return <Esqueleto linhas={4} />;
@@ -228,6 +239,14 @@ export function CroquiSalao() {
           />
 
           <Legenda />
+
+          <ListaPosicoes
+            evento={evento}
+            grupos={grupos}
+            podeVender={podeVender}
+            aoAbrir={(_, unidade) => setSelecionada(unidade)}
+            aoAtualizar={atualizar}
+          />
 
           {foraDoCroqui.length > 0 ? (
             <section className="card px-4 py-3.5">

@@ -19,7 +19,14 @@ https://docs.google.com/spreadsheets/d/1hn1MswrZH6yq0BXsUU7rPBGdRf9u6DIZxtrfPLoh
   os lounges nas extremidades e as mesas únicas entre o palco e o DJ. Toque numa posição
   para reservar, editar ou fazer check-in. Cor mostra o estado na hora:
   livre, reservado, check-in, bloqueado ou ainda não cadastrado.
-- **Bistrôs, lounges e mesas únicas numerados**: também em lista, com os mesmos controles.
+- **Lista de lugares por pessoa**: a escala completa, posição por posição, incluindo as vazias —
+  do jeito que a equipe lê hoje no grupo. É a visão padrão nas telas de Lounge, Bistrô e Mesas,
+  e aparece abaixo do mapa.
+- **Copiar lista do WhatsApp**: um toque monta o texto no formato que já se usa no grupo
+  (🟠 LOUNGE / ⚪️ MESA / 🟢 BISTRÔ, uma linha por número, 🎂 no aniversariante) e copia para a
+  área de transferência, com aviso de "Lista copiada".
+- **Mover pessoa de lugar**: na lista, o botão ao lado do nome abre os lugares livres de todos os
+  tipos. Dois toques movem alguém do lounge para o bistrô, ou de um lounge para outro.
 - **Lounges**: com a regra de prioridade de aniversariante.
 - **Regra do lounge** (o coração do app):
   - Enquanto faltar mais de 1 dia para o evento, **só aniversariante** pega lounge.
@@ -215,6 +222,51 @@ Você pode editar a planilha à mão — o app lê e escreve nas mesmas colunas.
 | `/api/usuarios`, `/api/usuarios/[id]` | GET/POST/PATCH/DELETE | admin |
 | `/api/resumo?evento_id=` | GET | todos |
 | `/api/saude` | GET | público (diagnóstico) |
+
+---
+
+## A lista do WhatsApp
+
+O botão **Copiar lista do WhatsApp** gera exatamente o texto que o grupo já recebe:
+
+```
+FEIJUCA PDS
+RESERVAS - 12/09/2026
+
+🟠 LOUNGE
+00 - PDS/CONVIDADO
+01 - Rafael Rizzi
+02 - Douglas PDS🎂
+03 -
+...
+```
+
+- Seções sempre nesta ordem: lounge, mesa, bistrô. Uma seção sem nenhuma unidade cadastrada
+  é omitida.
+- Números com dois dígitos, em ordem. Posições vazias entram como `07 -`, para a lista servir
+  de convite: quem lê vê o que sobrou.
+- Posição bloqueada sai como `07 - indisponível`, para ninguém pedir uma mesa fora de uso.
+- Só reservas ativas aparecem; cancelar libera a linha na hora.
+
+O formato vive em `src/lib/lista-whatsapp.ts` e é coberto por testes que comparam a saída com
+o texto real usado pela equipe.
+
+A cópia usa a Clipboard API, que exige HTTPS e pode ser negada pelo navegador. Há um plano B
+com `textarea` e, se os dois falharem, o app abre o texto numa folha para copiar à mão.
+
+---
+
+## Mover uma reserva de lugar
+
+Na lista, o botão ⇄ ao lado do nome abre os lugares **livres** de todos os tipos. Tocar num
+número move a reserva para lá. O servidor confere o mesmo que confere numa reserva nova:
+
+- o destino existe, é do mesmo evento, não está bloqueado nem ocupado;
+- ir para um lounge respeita a prioridade de aniversariante;
+- a capacidade do destino comporta o tamanho do grupo;
+- o valor acompanha o novo tipo, a menos que a reserva já tenha um preço combinado.
+
+Para trocar duas pessoas de lugar, mova uma para um lugar vago primeiro.
 
 ---
 

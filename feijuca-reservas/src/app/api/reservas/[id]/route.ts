@@ -2,7 +2,7 @@ import { erroResposta, exigirSessao, HttpError } from "@/lib/auth";
 import { json, lerCorpo, selecionar, simNao, texto } from "@/lib/api";
 import { deleteRow, findById, readTab, registrarLog, TABS, updateRow } from "@/lib/sheets";
 import { ehAniversariante, reservaAtiva, validarReservaLounge } from "@/lib/regras";
-import { rotuloDoTipo, tabelaDoTipo } from "@/lib/unidades";
+import { normalizarTipo, rotuloDoTipo, tabelaDoTipo } from "@/lib/unidades";
 import { normalizarValor } from "@/lib/valores";
 import type { Evento, Reserva, Unidade } from "@/lib/types";
 
@@ -63,21 +63,63 @@ export async function PATCH(request: Request, { params }: Ctx) {
       if (status === "CANCELADA") patch.checkin_em = "";
     }
 
-    // Troca de lounge/bistro: a unidade destino precisa estar livre.
+    // Mover a reserva de lugar. O destino pode ser de outro tipo: sair de um
+    // lounge para um bistro e' parte da rotina da equipe.
     if (corpo.unidade_id !== undefined && texto(corpo.unidade_id) !== reserva.unidade_id) {
       const destinoId = texto(corpo.unidade_id);
-      const unidades = await readTab<Unidade>(tabelaDoTipo(reserva.tipo), false);
+      const tipoDestino = corpo.tipo !== undefined ? normalizarTipo(corpo.tipo) : reserva.tipo;
+      const rotulo = rotuloDoTipo(tipoDestino);
+
+      const unidades = await readTab<Unidade>(tabelaDoTipo(tipoDestino), false);
       const destino = unidades.find((u) => u.id === destinoId);
-      if (!destino) throw new HttpError(404, `${rotuloDoTipo(reserva.tipo)} destino não existe.`);
+      if (!destino) throw new HttpError(404, `${rotulo} destino não existe.`);
       if (destino.evento_id !== reserva.evento_id) {
         throw new HttpError(400, "A unidade destino é de outro evento.");
       }
-      const reservas = await readTab<Reserva>(TABS.reservas, false);
-      if (reservas.some((r) => r.unidade_id === destinoId && r.id !== reserva.id && reservaAtiva(r))) {
-        throw new HttpError(409, `${rotuloDoTipo(reserva.tipo)} ${destino.numero} já está ocupado.`);
+      if ((destino.status ?? "").toUpperCase() === "BLOQUEADO") {
+        throw new HttpError(409, `${rotulo} ${destino.numero} está bloqueado.`);
       }
+
+      const reservas = await readTab<Reserva>(TABS.reservas, false);
+      const ocupante = reservas.find(
+        (r) => r.unidade_id === destinoId && r.id !== reserva.id && reservaAtiva(r),
+      );
+      if (ocupante) {
+        throw new HttpError(
+          409,
+          `${rotulo} ${destino.numero} já está com ${ocupante.nome_cliente}. Libere antes de mover.`,
+        );
+      }
+
+      // Ir para um lounge exige a mesma regra de quem reserva do zero.
+      if (tipoDestino === "LOUNGE" && tipoDestino !== reserva.tipo) {
+        const evento = await findById<Evento>(TABS.eventos, reserva.evento_id);
+        const querAniversariante =
+          patch.aniversariante !== undefined
+            ? patch.aniversariante === "SIM"
+            : reserva.aniversariante === "SIM";
+        if (evento) {
+          const regra = validarReservaLounge(evento, querAniversariante);
+          if (!regra.ok) throw new HttpError(409, regra.motivo);
+        }
+      }
+
+      const pessoas = Number(patch.qtd_pessoas ?? reserva.qtd_pessoas) || 0;
+      const capacidade = Number(destino.capacidade) || 0;
+      if (capacidade > 0 && pessoas > capacidade) {
+        throw new HttpError(
+          400,
+          `${rotulo} ${destino.numero} comporta até ${capacidade} pessoas, e a reserva tem ${pessoas}.`,
+        );
+      }
+
+      patch.tipo = tipoDestino;
       patch.unidade_id = destinoId;
       patch.numero = destino.numero;
+      // O valor acompanha o novo tipo, a menos que a reserva ja tenha um combinado.
+      if (patch.valor === undefined && normalizarValor(reserva.valor) === "0") {
+        patch.valor = normalizarValor(destino.valor);
+      }
     }
 
     if (Object.keys(patch).length === 0) throw new HttpError(400, "Nada para atualizar.");

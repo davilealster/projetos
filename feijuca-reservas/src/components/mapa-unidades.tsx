@@ -1,27 +1,67 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useApp } from "./contexto";
 import { useDados } from "./usar-dados";
 import { SemEvento } from "./aviso-sem-evento";
 import { Esqueleto, Vazio, classes } from "./ui";
-import { IconeBolo, IconeCadeado, IconeCadeadoAberto, IconeCheck } from "./icones";
+import { IconeBolo, IconeCadeado, IconeCadeadoAberto, IconeCheck, IconeLista, IconeMapa } from "./icones";
 import { PainelUnidade, ROTULO } from "./painel-unidade";
+import { ListaPosicoes } from "./lista-posicoes";
 import { statusPrioridadeLounge, validarReservaLounge } from "@/lib/regras";
+import type { GruposDeUnidades } from "@/lib/lista-whatsapp";
 import type { TipoUnidade, UnidadeComReserva } from "@/lib/types";
 
 type Filtro = "TODOS" | "LIVRES" | "OCUPADOS" | "ANIVERSARIO";
+type Visao = "LISTA" | "GRADE";
+
+const CHAVE_VISAO = "pds:visao-unidades";
+
+interface Detalhe {
+  lounges: UnidadeComReserva[];
+  bistros: UnidadeComReserva[];
+  mesas: UnidadeComReserva[];
+}
 
 export function MapaUnidades({ tipo }: { tipo: TipoUnidade }) {
   const { evento, carregando: carregandoApp, podeVender, usuario, atualizar } = useApp();
-  const { dados, carregando, erro } = useDados<{ unidades: UnidadeComReserva[] }>(
-    evento ? `/api/unidades?evento_id=${evento.id}&tipo=${tipo}` : null,
+  const { dados, carregando, erro } = useDados<Detalhe>(
+    evento ? `/api/eventos/${evento.id}` : null,
   );
   const [filtro, setFiltro] = useState<Filtro>("TODOS");
   const [selecionada, setSelecionada] = useState<UnidadeComReserva | null>(null);
 
+  // A lista e' o padrao: e' assim que a equipe le' a escala hoje.
+  const [visao, setVisao] = useState<Visao>("LISTA");
+  useEffect(() => {
+    try {
+      const salva = localStorage.getItem(CHAVE_VISAO);
+      if (salva === "GRADE" || salva === "LISTA") setVisao(salva);
+    } catch {
+      // modo privado: fica no padrao
+    }
+  }, []);
+
+  function trocarVisao(nova: Visao) {
+    setVisao(nova);
+    try {
+      localStorage.setItem(CHAVE_VISAO, nova);
+    } catch {
+      // sem persistencia, mas a tela funciona
+    }
+  }
+
+  const grupos: GruposDeUnidades = useMemo(
+    () => ({
+      LOUNGE: dados?.lounges ?? [],
+      BISTRO: dados?.bistros ?? [],
+      MESA: dados?.mesas ?? [],
+    }),
+    [dados],
+  );
+
   const prioridade = evento ? statusPrioridadeLounge(evento) : null;
-  const unidades = dados?.unidades ?? [];
+  const unidades = grupos[tipo];
 
   const visiveis = useMemo(() => {
     switch (filtro) {
@@ -58,6 +98,27 @@ export function MapaUnidades({ tipo }: { tipo: TipoUnidade }) {
             {ocupados} de {unidades.length} reservados
           </p>
         </div>
+        <div className="flex items-center gap-1 rounded-xl border border-pds-line bg-pds-card p-1">
+          {(
+            [
+              { chave: "LISTA" as Visao, rotulo: "Lista", Icone: IconeLista },
+              { chave: "GRADE" as Visao, rotulo: "Grade", Icone: IconeMapa },
+            ]
+          ).map(({ chave, rotulo, Icone }) => (
+            <button
+              key={chave}
+              onClick={() => trocarVisao(chave)}
+              aria-label={rotulo}
+              aria-pressed={visao === chave}
+              className={classes(
+                "rounded-lg p-2 transition",
+                visao === chave ? "bg-pds-orange text-black" : "text-pds-muted hover:text-white",
+              )}
+            >
+              <Icone width={18} height={18} />
+            </button>
+          ))}
+        </div>
       </header>
 
       {tipo === "LOUNGE" && prioridade ? (
@@ -85,6 +146,7 @@ export function MapaUnidades({ tipo }: { tipo: TipoUnidade }) {
         </div>
       ) : null}
 
+      {visao === "GRADE" ? (
       <div className="sem-barra -mx-4 flex gap-2 overflow-x-auto px-4 pb-1">
         {filtros.map((f) => (
           <button
@@ -101,6 +163,7 @@ export function MapaUnidades({ tipo }: { tipo: TipoUnidade }) {
           </button>
         ))}
       </div>
+      ) : null}
 
       {erro ? (
         <p className="card px-4 py-3 text-sm text-red-300">{erro}</p>
@@ -111,17 +174,27 @@ export function MapaUnidades({ tipo }: { tipo: TipoUnidade }) {
           titulo={`Nenhum ${ROTULO[tipo].singular.toLowerCase()} cadastrado`}
           descricao={`Cadastre os ${ROTULO[tipo].plural.toLowerCase()} deste evento na tela de eventos para começar a reservar.`}
         />
+      ) : visao === "LISTA" ? (
+        <ListaPosicoes
+          evento={evento}
+          grupos={grupos}
+          tipos={[tipo]}
+          podeVender={podeVender}
+          aoAbrir={(_, unidade) => setSelecionada(unidade)}
+          aoAtualizar={atualizar}
+        />
       ) : visiveis.length === 0 ? (
         <Vazio titulo="Nada por aqui" descricao="Nenhuma unidade neste filtro." />
       ) : (
-        <div className="grid grid-cols-3 gap-2.5 sm:grid-cols-4">
-          {visiveis.map((unidade) => (
-            <Bloco key={unidade.id} unidade={unidade} aoAbrir={() => setSelecionada(unidade)} />
-          ))}
-        </div>
+        <>
+          <div className="grid grid-cols-3 gap-2.5 sm:grid-cols-4">
+            {visiveis.map((unidade) => (
+              <Bloco key={unidade.id} unidade={unidade} aoAbrir={() => setSelecionada(unidade)} />
+            ))}
+          </div>
+          <Legenda />
+        </>
       )}
-
-      <Legenda />
 
       {selecionada ? (
         <PainelUnidade

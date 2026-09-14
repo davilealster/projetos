@@ -188,3 +188,19 @@ export const IconeMesa = (p: Props) => (
     <path d="M7.5 15.5V19M16.5 15.5V19M4.5 12h15" />
   </Base>
 );
+
+export const IconeCopiar = (p: Props) => (
+  <Base {...p}>
+    <rect x="9" y="9" width="11.5" height="11.5" rx="2.2" />
+    <path d="M15 6.2V5.5A2 2 0 0 0 13 3.5H5.5a2 2 0 0 0-2 2V13a2 2 0 0 0 2 2h.7" />
+  </Base>
+);
+
+export const IconeMover = (p: Props) => (
+  <Base {...p}>
+    <path d="M7.5 8.5 4 12l3.5 3.5" />
+    <path d="M4 12h9.5" />
+    <path d="M16.5 4.5 20 8l-3.5 3.5" />
+    <path d="M20 8h-9.5" />
+  </Base>
+);
