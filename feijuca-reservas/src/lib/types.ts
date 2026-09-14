@@ -82,6 +82,25 @@ export interface Reserva {
   checkin_em: string;
 }
 
+export type StatusLista = "ATIVA" | "PAUSADA" | "ENCERRADA";
+
+/** Link público por onde alguém de fora manda nomes para a lista VIP. */
+export interface ListaPublica {
+  id: string;
+  evento_id: string;
+  /** Como a equipe reconhece a lista: "Lista do Davi". */
+  nome: string;
+  /** Segredo da URL /lista/<token>. */
+  token: string;
+  responsavel: string;
+  /** "" ou "0" = sem limite. */
+  limite_nomes: string;
+  status: StatusLista;
+  instrucoes: string;
+  criado_por: string;
+  criado_em: string;
+}
+
 export interface Vip {
   id: string;
   evento_id: string;
@@ -97,6 +116,8 @@ export interface Vip {
   criado_por: string;
   criado_em: string;
   checkin_em: string;
+  /** Preenchido quando o nome chegou por um link público. */
+  lista_id: string;
 }
 
 /** Unidade + reserva ativa, como o app consome nas telas de mapa. */

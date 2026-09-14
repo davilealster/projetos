@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import Link from "next/link";
 import { useApp } from "@/components/contexto";
 import { useDados } from "@/components/usar-dados";
 import { SemEvento } from "@/components/aviso-sem-evento";
@@ -16,7 +17,14 @@ import {
   useConfirmacao,
   useToast,
 } from "@/components/ui";
-import { IconeBusca, IconeCheck, IconeLixeira, IconeMais, IconeWhatsapp } from "@/components/icones";
+import {
+  IconeBusca,
+  IconeCheck,
+  IconeLink,
+  IconeLixeira,
+  IconeMais,
+  IconeWhatsapp,
+} from "@/components/icones";
 import { api } from "@/lib/cliente";
 import { formatarHora, formatarTelefone, linkWhatsapp } from "@/lib/formato";
 import type { TipoVip, Vip } from "@/lib/types";
@@ -69,13 +77,22 @@ export default function PaginaVip() {
   return (
     <div className="space-y-4">
       <header className="flex items-end justify-between gap-3">
-        <div>
+        <div className="min-w-0">
           <h1 className="text-xl font-extrabold">Lista VIP</h1>
           <p className="text-sm text-pds-muted">
             {vips.length} nomes · {pessoas} pessoas
             {limite ? ` de ${limite}` : ""} · {checkins} check-in
           </p>
         </div>
+        {podeVender ? (
+          <Link
+            href="/listas"
+            aria-label="Links de lista"
+            className="shrink-0 rounded-xl border border-pds-line bg-pds-card p-2.5 text-pds-muted transition hover:border-pds-orange/60 hover:text-pds-orange"
+          >
+            <IconeLink width={20} height={20} />
+          </Link>
+        ) : null}
       </header>
 
       <div className="relative">

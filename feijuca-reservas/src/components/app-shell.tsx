@@ -14,6 +14,7 @@ import {
   IconeCalendario,
   IconeCasa,
   IconeFechar,
+  IconeLink,
   IconeLista,
   IconeLounge,
   IconeMapa,
@@ -35,6 +36,7 @@ const ABAS = [
 
 /** Telas secundarias, so' na gaveta. */
 const ABAS_GAVETA = [
+  { href: "/listas", rotulo: "Links de lista", Icone: IconeLink },
   { href: "/mesas", rotulo: "Mesas únicas", Icone: IconeMesa },
   { href: "/eventos", rotulo: "Eventos", Icone: IconeCalendario },
 ];

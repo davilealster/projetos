@@ -38,6 +38,9 @@ https://docs.google.com/spreadsheets/d/1hn1MswrZH6yq0BXsUU7rPBGdRf9u6DIZxtrfPLoh
 - **Valores por evento**: lounge, bistrô e mesa nascem como **cortesia**. Cada evento define
   se cobra e quanto, em *Eventos → o evento → Valores da reserva*. Reserva sem valor aparece
   como "Gratuito", não como preço zerado.
+- **Links de lista**: o admin cria um link por pessoa do grupo. Quem recebe abre um formulário,
+  cola os nomes e envia. O link **não dá acesso ao app** — só empurra nomes para a lista da
+  portaria daquele evento.
 - **Perfis de acesso**: Administrador (tudo), Vendas (reservas + lista) e
   Portaria (só check-in e incluir nomes).
 - **Trilha de auditoria**: toda criação/edição vai para a aba `Log` da planilha.
@@ -183,7 +186,8 @@ npm run deploy     # publica na Vercel (variáveis de ambiente incluídas)
 | `Bistros` | Bistrôs numerados de cada evento |
 | `Mesas` | Mesas únicas de 4 cadeiras, perto do palco |
 | `Reservas` | Reservas de lounge **e** de bistrô (campo `tipo`), com cliente, aniversariante, valor, sinal e check-in |
-| `ListaVip` | Lista da portaria: nome, documento, acompanhantes, tipo, promoter e check-in |
+| `ListaVip` | Lista da portaria: nome, documento, acompanhantes, tipo, promoter, check-in e `lista_id` (o link que trouxe o nome) |
+| `Listas` | Links públicos de envio de nomes: nome, `token`, responsável, limite e status |
 | `Usuarios` | Quem acessa o app e com qual perfil (senha guardada como hash scrypt) |
 | `Config` | Ajustes gerais (nome da casa, prazo padrão, contato) |
 | `Log` | Histórico de tudo que foi criado, editado ou apagado |
@@ -218,6 +222,9 @@ Você pode editar a planilha à mão — o app lê e escreve nas mesmas colunas.
 | `/api/eventos/[id]` | GET / PATCH / DELETE | todos / admin / admin |
 | `/api/unidades` | GET / POST | todos / admin |
 | `/api/croqui` | POST | admin |
+| `/api/listas` | GET / POST | admin+vendas / admin |
+| `/api/listas/[id]` | PATCH / DELETE | admin |
+| `/api/publico/lista/[token]` | GET / POST | **público** (só com o token) |
 | `/api/unidades/[id]?tipo=` | PATCH / DELETE | admin |
 | `/api/reservas` | GET / POST | todos / admin+vendas |
 | `/api/reservas/[id]` | PATCH / DELETE | admin+vendas (check-in também portaria) / admin |
@@ -226,6 +233,39 @@ Você pode editar a planilha à mão — o app lê e escreve nas mesmas colunas.
 | `/api/usuarios`, `/api/usuarios/[id]` | GET/POST/PATCH/DELETE | admin |
 | `/api/resumo?evento_id=` | GET | todos |
 | `/api/saude` | GET | público (diagnóstico) |
+
+---
+
+## Links de lista
+
+Hoje cada pessoa do grupo manda a sua lista no WhatsApp e alguém consolida à mão. O link
+substitui esse repasse.
+
+**Como funciona.** Em *Lista VIP → ícone de link*, ou em *Menu → Links de lista*, o admin cria
+uma lista por pessoa ("Lista do Davi"). Cada uma ganha um endereço próprio,
+`/lista/<token>`, com um botão para copiar e outro para mandar no WhatsApp.
+
+Quem abre o link vê o evento, o nome da lista, um campo de texto e o botão de enviar. Pode
+**colar a mensagem do WhatsApp inteira**: numeração (`1.`, `2)`), travessão, bolinha e a linha
+de cabeçalho "Lista do Davi (8 nomes)" são removidos. Nomes repetidos, dentro do texto ou já
+presentes no evento, são informados em vez de dar erro — reenviar a lista com um nome a mais
+funciona e só entra o que falta.
+
+Os nomes caem direto na Lista VIP com o promoter da lista, prontos para o check-in.
+
+**O que o link não faz.** Não autentica ninguém e não abre nenhuma tela do app. Ele só lê o
+evento (nome, data, local), a própria lista e os nomes que ele mesmo enviou. Nada do resto do
+evento, nada de reservas, nada de outras listas. Erros inesperados voltam com texto genérico,
+para não expor configuração a quem não tem login.
+
+**Controles do admin.** Pausar (o link para de aceitar e explica isso a quem abrir), encerrar,
+gerar um token novo (invalida o endereço antigo na hora) e definir um limite de nomes por lista.
+Apagar só funciona enquanto a lista não recebeu nada — depois disso o caminho é encerrar, para
+não deixar nomes sem origem.
+
+**Limites.** 60 nomes por envio, 20 mil caracteres por requisição, mais o limite da lista e o
+limite de lista VIP do evento, se estiverem definidos. A proteção principal é o token ser
+secreto: quem tiver o link pode enviar nomes, então trate-o como se fosse a chave da portaria.
 
 ---
 

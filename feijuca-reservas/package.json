@@ -10,7 +10,7 @@
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
-    "test": "tsc src/lib/regras.ts src/lib/senha.ts src/lib/croqui.ts src/lib/valores.ts src/lib/lista-whatsapp.ts --outDir .test-build --strict --module es2022 --moduleResolution bundler --target ES2022 --skipLibCheck && node -e \"require('fs').writeFileSync('.test-build/package.json','{\\\"type\\\":\\\"module\\\"}')\" && node --test tests/*.test.mjs"
+    "test": "tsc src/lib/regras.ts src/lib/senha.ts src/lib/croqui.ts src/lib/valores.ts src/lib/lista-whatsapp.ts src/lib/nomes.ts --outDir .test-build --strict --module es2022 --moduleResolution bundler --target ES2022 --skipLibCheck && node -e \"require('fs').writeFileSync('.test-build/package.json','{\\\"type\\\":\\\"module\\\"}')\" && node --test tests/*.test.mjs"
   },
   "dependencies": {
     "google-auth-library": "^9.15.1",

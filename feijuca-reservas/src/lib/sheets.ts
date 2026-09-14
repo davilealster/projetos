@@ -8,6 +8,7 @@ export const TABS = {
   mesas: "Mesas",
   reservas: "Reservas",
   vip: "ListaVip",
+  listas: "Listas",
   usuarios: "Usuarios",
   config: "Config",
   log: "Log",

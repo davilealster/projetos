@@ -1,6 +1,7 @@
 import { erroResposta, exigirSessao, HttpError } from "@/lib/auth";
 import { inteiro, json, lerCorpo, obrigatorio, texto } from "@/lib/api";
-import { appendRow, findById, nextId, readTab, registrarLog, TABS } from "@/lib/sheets";
+import { appendRow, findById, readTab, registrarLog, TABS } from "@/lib/sheets";
+import { idAleatorio } from "@/lib/identificadores";
 import type { Evento, TipoVip, Vip } from "@/lib/types";
 
 export const runtime = "nodejs";
@@ -72,7 +73,7 @@ export async function POST(request: Request) {
     }
 
     const vip: Vip = {
-      id: nextId("vip", vips),
+      id: idAleatorio("vip"),
       evento_id: eventoId,
       nome,
       documento: texto(corpo.documento),
@@ -86,6 +87,7 @@ export async function POST(request: Request) {
       criado_por: user.usuario,
       criado_em: new Date().toISOString(),
       checkin_em: "",
+      lista_id: "",
     };
 
     await appendRow(TABS.vip, vip as unknown as Record<string, string>);

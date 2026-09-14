@@ -195,3 +195,10 @@ export const IconeMover = (p: Props) => (
     <path d="M20 8h-9.5" />
   </Base>
 );
+
+export const IconeLink = (p: Props) => (
+  <Base {...p}>
+    <path d="M10.5 13.5a4 4 0 0 0 5.7 0l3-3a4 4 0 1 0-5.7-5.7L11.9 6.4" />
+    <path d="M13.5 10.5a4 4 0 0 0-5.7 0l-3 3a4 4 0 1 0 5.7 5.7l1.6-1.6" />
+  </Base>
+);

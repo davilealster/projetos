@@ -63,6 +63,23 @@ export function mensagemAmigavel(bruta: string): string {
   return bruta;
 }
 
+/**
+ * Erro em rota aberta. As mensagens de HttpError são escritas para quem
+ * está do outro lado do link e podem sair. Qualquer outra coisa vira um
+ * texto genérico: quem não tem login não precisa saber que a chave do
+ * Google está errada.
+ */
+export function erroRespostaPublica(error: unknown) {
+  if (error instanceof HttpError) {
+    return NextResponse.json({ erro: error.message }, { status: error.status });
+  }
+  console.error("[publico]", error);
+  return NextResponse.json(
+    { erro: "Não foi possível carregar a lista agora. Tente de novo em instantes." },
+    { status: 500 },
+  );
+}
+
 export function erroResposta(error: unknown) {
   if (error instanceof HttpError) {
     return NextResponse.json({ erro: error.message }, { status: error.status });
