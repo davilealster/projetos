@@ -77,7 +77,7 @@ function NovaReserva({
   if (!podeVender) {
     return (
       <p className="py-8 text-center text-sm text-pds-muted">
-        {ROTULO[tipo].singular} livre. Seu perfil nao pode criar reservas — fale com vendas ou com
+        {ROTULO[tipo].singular} livre. Seu perfil não pode criar reservas — fale com vendas ou com
         um administrador.
       </p>
     );
@@ -86,7 +86,7 @@ function NovaReserva({
   if ((unidade.status ?? "").toUpperCase() === "BLOQUEADO") {
     return (
       <p className="py-8 text-center text-sm text-pds-muted">
-        Esta unidade esta bloqueada. Um administrador pode liberar na tela de eventos.
+        Esta unidade está bloqueada. Um administrador pode liberar na tela de eventos.
       </p>
     );
   }
@@ -112,7 +112,7 @@ function NovaReserva({
       avisar(`${ROTULO[tipo].singular} ${unidade.numero} reservado para ${nome}.`);
       aoSalvar();
     } catch (erro) {
-      avisar(erro instanceof Error ? erro.message : "Nao foi possivel reservar.", "erro");
+      avisar(erro instanceof Error ? erro.message : "Não foi possível reservar.", "erro");
       setEnviando(false);
     }
   }
@@ -121,15 +121,15 @@ function NovaReserva({
     <form onSubmit={salvar} className="space-y-4">
       {eventoEncerrado ? (
         <p className="rounded-xl border border-red-500/40 bg-red-950/40 px-3 py-2.5 text-sm text-red-200">
-          Evento encerrado: nao aceita novas reservas.
+          Evento encerrado: não aceita novas reservas.
         </p>
       ) : null}
 
       {tipo === "LOUNGE" ? (
         <Interruptor
           destaque
-          rotulo="E' aniversariante"
-          descricao="Aniversariantes tem prioridade nos lounges ate a vespera."
+          rotulo="É aniversariante"
+          descricao="Aniversariantes têm prioridade nos lounges até a véspera."
           ativo={aniversariante}
           aoMudar={setAniversariante}
         />
@@ -175,7 +175,7 @@ function NovaReserva({
         />
         {aniversariante ? (
           <Campo
-            rotulo="Data do aniversario"
+            rotulo="Data do aniversário"
             type="date"
             value={dataAniversario}
             onChange={(e) => setDataAniversario(e.target.value)}
@@ -219,10 +219,10 @@ function NovaReserva({
       )}
 
       <AreaTexto
-        rotulo="Observacoes"
+        rotulo="Observações"
         value={observacoes}
         onChange={(e) => setObservacoes(e.target.value)}
-        placeholder="Combinados, decoracao, bolo, etc."
+        placeholder="Combinados, decoração, bolo, etc."
       />
 
       <button
@@ -250,7 +250,7 @@ function DetalheReserva({
 
   const whatsapp = linkWhatsapp(
     reserva.telefone,
-    `Fala ${reserva.nome_cliente.split(" ")[0]}! Aqui e' da Feijuca do Papo de Samba sobre o seu ${ROTULO[
+    `Fala ${reserva.nome_cliente.split(" ")[0]}! Aqui é da Feijuca do Papo de Samba sobre o seu ${ROTULO[
       tipo
     ].singular.toLowerCase()} ${unidade.numero}.`,
   );
@@ -321,7 +321,7 @@ function DetalheReserva({
         <Info titulo="Valor" valor={formatarValorReserva(reserva.valor)} />
         <Info titulo="Sinal pago" valor={formatarMoeda(reserva.sinal_pago)} />
         {reserva.data_aniversario ? (
-          <Info titulo="Aniversario" valor={reserva.data_aniversario.split("-").reverse().join("/")} />
+          <Info titulo="Aniversário" valor={reserva.data_aniversario.split("-").reverse().join("/")} />
         ) : null}
         <Info titulo="Vendido por" valor={reserva.criado_por || "-"} />
       </dl>
@@ -449,7 +449,7 @@ function EditarReserva({
     <form onSubmit={salvar} className="space-y-4">
       {reserva.tipo === "LOUNGE" ? (
         <Interruptor
-          rotulo="E' aniversariante"
+          rotulo="É aniversariante"
           ativo={aniversariante}
           aoMudar={setAniversariante}
         />
@@ -466,13 +466,13 @@ function EditarReserva({
       <div className="grid grid-cols-2 gap-3">
         <Campo rotulo="Instagram" value={form.instagram} onChange={mudar("instagram")} />
         <Campo
-          rotulo="Aniversario"
+          rotulo="Aniversário"
           type="date"
           value={form.data_aniversario}
           onChange={mudar("data_aniversario")}
         />
       </div>
-      <AreaTexto rotulo="Observacoes" value={form.observacoes} onChange={mudar("observacoes")} />
+      <AreaTexto rotulo="Observações" value={form.observacoes} onChange={mudar("observacoes")} />
       <div className="grid grid-cols-2 gap-3">
         <button type="button" onClick={aoCancelar} className="btn-secundario w-full">
           Voltar

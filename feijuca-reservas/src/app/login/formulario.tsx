@@ -22,7 +22,7 @@ export function FormularioLogin() {
       router.replace("/");
       router.refresh();
     } catch (e) {
-      setErro(e instanceof Error ? e.message : "Nao foi possivel entrar.");
+      setErro(e instanceof Error ? e.message : "Não foi possível entrar.");
       setEnviando(false);
     }
   }
@@ -33,7 +33,7 @@ export function FormularioLogin() {
         <div className="mb-8 flex flex-col items-center text-center">
           <Image
             src="/logo.jpg"
-            alt="Familia Papo de Samba"
+            alt="Família Papo de Samba"
             width={132}
             height={132}
             priority
@@ -43,13 +43,13 @@ export function FormularioLogin() {
             Feijuca do <span className="text-pds-orange">Papo de Samba</span>
           </h1>
           <p className="mt-1.5 text-sm text-pds-muted">
-            Lista VIP, bistros e lounges em um lugar so&apos;.
+            Lista VIP, bistrôs e lounges em um lugar só.
           </p>
         </div>
 
         <form onSubmit={enviar} className="card space-y-4 p-5">
           <label className="block">
-            <span className="rotulo">Usuario</span>
+            <span className="rotulo">Usuário</span>
             <input
               className="campo"
               value={usuario}
@@ -88,9 +88,9 @@ export function FormularioLogin() {
         </form>
 
         <p className="mt-6 text-center text-xs text-pds-muted">
-          Problemas para entrar? Fale com o administrador da Familia PDS ou abra o{" "}
+          Problemas para entrar? Fale com o administrador da Família PDS ou abra o{" "}
           <a href="/configuracao" className="font-bold text-pds-orange underline">
-            diagnostico
+            diagnóstico
           </a>
           .
         </p>

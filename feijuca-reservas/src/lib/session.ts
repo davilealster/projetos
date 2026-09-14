@@ -7,7 +7,7 @@ const MAX_AGE_SECONDS = 60 * 60 * 24 * 30; // 30 dias
 function secretKey(): Uint8Array {
   const secret = process.env.AUTH_SECRET;
   if (!secret) {
-    throw new Error('Variavel de ambiente AUTH_SECRET nao configurada.');
+    throw new Error('Variável de ambiente AUTH_SECRET não configurada.');
   }
   return new TextEncoder().encode(secret);
 }
@@ -24,7 +24,7 @@ export async function verifySession(token: string | undefined): Promise<SessionU
   if (!token) return null;
   try {
     // secretKey() lanca quando o app ainda nao foi configurado: tratamos como
-    // "sem sessao" para a tela de login/diagnostico conseguir renderizar.
+    // "sem sessao" para a tela de login/diagnóstico conseguir renderizar.
     const { payload } = await jwtVerify(token, secretKey());
     if (!payload.id || !payload.usuario) return null;
     return {

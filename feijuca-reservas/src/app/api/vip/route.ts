@@ -40,9 +40,9 @@ export async function POST(request: Request) {
 
     const eventoId = obrigatorio(corpo.evento_id, "evento_id");
     const evento = await findById<Evento>(TABS.eventos, eventoId);
-    if (!evento) throw new HttpError(404, "Evento nao encontrado.");
+    if (!evento) throw new HttpError(404, "Evento não encontrado.");
     if (evento.status === "ENCERRADO") {
-      throw new HttpError(409, "Este evento esta encerrado.");
+      throw new HttpError(409, "Este evento está encerrado.");
     }
 
     const nome = obrigatorio(corpo.nome, "nome");
@@ -55,7 +55,7 @@ export async function POST(request: Request) {
     const duplicado = doEvento.find(
       (v) => v.nome.trim().toLowerCase() === nome.toLowerCase() && v.status !== "CANCELADO",
     );
-    if (duplicado) throw new HttpError(409, `"${nome}" ja esta na lista deste evento.`);
+    if (duplicado) throw new HttpError(409, `"${nome}" já está na lista deste evento.`);
 
     const limite = Number(evento.capacidade_lista_vip) || 0;
     if (limite > 0) {
@@ -66,7 +66,7 @@ export async function POST(request: Request) {
       if (usados + novos > limite) {
         throw new HttpError(
           409,
-          `Lista cheia: limite de ${limite} nomes e ja ha ${usados} confirmados.`,
+          `Lista cheia: limite de ${limite} nomes e já há ${usados} confirmados.`,
         );
       }
     }

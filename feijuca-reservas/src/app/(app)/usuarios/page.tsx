@@ -18,7 +18,7 @@ type UsuarioLista = {
 };
 
 const PAPEIS: { valor: Papel; rotulo: string; descricao: string }[] = [
-  { valor: "ADMIN", rotulo: "Administrador", descricao: "Tudo, inclusive eventos e usuarios" },
+  { valor: "ADMIN", rotulo: "Administrador", descricao: "Tudo, inclusive eventos e usuários" },
   { valor: "VENDAS", rotulo: "Vendas", descricao: "Reservas e lista VIP" },
   { valor: "PORTARIA", rotulo: "Portaria", descricao: "Somente check-in e incluir nomes" },
 ];
@@ -34,8 +34,8 @@ export default function PaginaUsuarios() {
   if (!ehAdmin) {
     return (
       <Vazio
-        titulo="Area restrita"
-        descricao="Somente administradores podem gerenciar os usuarios do app."
+        titulo="Área restrita"
+        descricao="Somente administradores podem gerenciar os usuários do app."
       />
     );
   }
@@ -65,7 +65,7 @@ export default function PaginaUsuarios() {
               <div className="min-w-0 flex-1">
                 <p className="truncate font-bold">
                   {u.nome}
-                  {u.id === eu?.id ? <span className="text-pds-muted"> (voce)</span> : null}
+                  {u.id === eu?.id ? <span className="text-pds-muted"> (você)</span> : null}
                 </p>
                 <p className="truncate text-xs text-pds-muted">@{u.usuario}</p>
               </div>
@@ -81,7 +81,7 @@ export default function PaginaUsuarios() {
       <button
         onClick={() => setNovoAberto(true)}
         className="fixed bottom-[calc(5.5rem+var(--safe-bottom))] right-4 z-30 flex h-14 w-14 items-center justify-center rounded-full bg-pds-orange text-black shadow-glow transition active:scale-95"
-        aria-label="Novo usuario"
+        aria-label="Novo usuário"
       >
         <IconeMais width={26} height={26} />
       </button>
@@ -89,7 +89,7 @@ export default function PaginaUsuarios() {
       <Folha
         aberta={novoAberto}
         aoFechar={() => setNovoAberto(false)}
-        titulo="Novo usuario"
+        titulo="Novo usuário"
         subtitulo="A senha pode ser trocada depois."
       >
         <FormularioUsuario
@@ -134,10 +134,10 @@ function FormularioUsuario({ aoSalvar }: { aoSalvar: () => void }) {
     setEnviando(true);
     try {
       await api.post("/api/usuarios", form);
-      avisar("Usuario criado.");
+      avisar("Usuário criado.");
       aoSalvar();
     } catch (erro) {
-      avisar(erro instanceof Error ? erro.message : "Falha ao criar usuario.", "erro");
+      avisar(erro instanceof Error ? erro.message : "Falha ao criar usuário.", "erro");
       setEnviando(false);
     }
   }
@@ -150,7 +150,7 @@ function FormularioUsuario({ aoSalvar }: { aoSalvar: () => void }) {
         value={form.usuario}
         onChange={mudar("usuario")}
         autoCapitalize="none"
-        placeholder="sem espacos"
+        placeholder="sem espaços"
         required
       />
       <Campo
@@ -158,7 +158,7 @@ function FormularioUsuario({ aoSalvar }: { aoSalvar: () => void }) {
         type="password"
         value={form.senha}
         onChange={mudar("senha")}
-        dica="Minimo de 6 caracteres."
+        dica="Mínimo de 6 caracteres."
         required
       />
       <Selecao rotulo="Perfil" value={form.papel} onChange={mudar("papel")}>
@@ -169,7 +169,7 @@ function FormularioUsuario({ aoSalvar }: { aoSalvar: () => void }) {
         ))}
       </Selecao>
       <button type="submit" disabled={enviando} className="btn-primario w-full">
-        {enviando ? "Criando..." : "Criar usuario"}
+        {enviando ? "Criando..." : "Criar usuário"}
       </button>
     </form>
   );
@@ -199,7 +199,7 @@ function EditarUsuario({
         papel,
         ...(senha ? { senha } : {}),
       });
-      avisar("Usuario atualizado.");
+      avisar("Usuário atualizado.");
       aoSalvar();
     } catch (erro) {
       avisar(erro instanceof Error ? erro.message : "Falha ao salvar.", "erro");
@@ -220,10 +220,10 @@ function EditarUsuario({
   }
 
   async function apagar() {
-    if (!confirm(`Apagar o usuario ${usuario.nome}?`)) return;
+    if (!confirm(`Apagar o usuário ${usuario.nome}?`)) return;
     try {
       await api.delete(`/api/usuarios/${usuario.id}`);
-      avisar("Usuario apagado.");
+      avisar("Usuário apagado.");
       aoSalvar();
     } catch (erro) {
       avisar(erro instanceof Error ? erro.message : "Falha ao apagar.", "erro");
@@ -257,7 +257,7 @@ function EditarUsuario({
             {usuario.ativo === "SIM" ? "Desativar acesso" : "Reativar acesso"}
           </button>
           <button type="button" onClick={apagar} className="btn-perigo w-full">
-            Apagar usuario
+            Apagar usuário
           </button>
         </>
       ) : null}

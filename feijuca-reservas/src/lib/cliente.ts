@@ -27,8 +27,8 @@ async function requisicao<T>(url: string, init?: RequestInit): Promise<T> {
     const mensagem =
       (corpo as { erro?: string } | null)?.erro ??
       (resposta.status === 401
-        ? "Sessao expirada. Entre novamente."
-        : "Nao foi possivel completar a acao.");
+        ? "Sessão expirada. Entre novamente."
+        : "Não foi possível completar a ação.");
     throw new ApiError(resposta.status, mensagem);
   }
 

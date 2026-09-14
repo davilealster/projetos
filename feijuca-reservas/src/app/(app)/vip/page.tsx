@@ -121,10 +121,10 @@ export default function PaginaVip() {
         <Esqueleto linhas={4} />
       ) : visiveis.length === 0 ? (
         <Vazio
-          titulo={busca ? "Ninguem encontrado" : "Lista vazia"}
+          titulo={busca ? "Ninguém encontrado" : "Lista vazia"}
           descricao={
             busca
-              ? "Confira a grafia ou tente buscar so' o primeiro nome."
+              ? "Confira a grafia ou tente buscar só o primeiro nome."
               : "Adicione o primeiro nome na lista da portaria deste evento."
           }
         />
@@ -328,10 +328,10 @@ function FormularioVip({
         <Campo rotulo="Quem indicou" value={form.promoter} onChange={mudar("promoter")} />
       </div>
 
-      <AreaTexto rotulo="Observacoes" value={form.observacoes} onChange={mudar("observacoes")} />
+      <AreaTexto rotulo="Observações" value={form.observacoes} onChange={mudar("observacoes")} />
 
       <button type="submit" disabled={enviando} className="btn-primario w-full">
-        {enviando ? "Salvando..." : vip ? "Salvar alteracoes" : "Adicionar na lista"}
+        {enviando ? "Salvando..." : vip ? "Salvar alterações" : "Adicionar na lista"}
       </button>
     </form>
   );
@@ -353,7 +353,7 @@ function DetalheVip({
   const [ocupado, setOcupado] = useState(false);
   const whatsapp = linkWhatsapp(
     vip.telefone,
-    `Fala ${vip.nome.split(" ")[0]}! Voce esta na lista da Feijuca do Papo de Samba.`,
+    `Fala ${vip.nome.split(" ")[0]}! Você está na lista da Feijuca do Papo de Samba.`,
   );
 
   if (editando) {

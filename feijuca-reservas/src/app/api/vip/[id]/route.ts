@@ -31,14 +31,14 @@ export async function PATCH(request: Request, { params }: Ctx) {
     );
 
     const vip = await findById<Vip>(TABS.vip, params.id);
-    if (!vip) throw new HttpError(404, "Nome nao encontrado na lista.");
+    if (!vip) throw new HttpError(404, "Nome não encontrado na lista.");
 
     const patch = selecionar(corpo, CAMPOS_EDITAVEIS);
     if (patch.instagram) patch.instagram = patch.instagram.replace(/^@/, "");
 
     if (corpo.status !== undefined) {
       const status = texto(corpo.status).toUpperCase() as StatusVip;
-      if (!STATUS.includes(status)) throw new HttpError(400, "Status invalido.");
+      if (!STATUS.includes(status)) throw new HttpError(400, "Status inválido.");
       patch.status = status;
       patch.checkin_em = status === "CHECKIN" ? new Date().toISOString() : "";
     }
@@ -64,7 +64,7 @@ export async function DELETE(_request: Request, { params }: Ctx) {
   try {
     const user = await exigirSessao(["ADMIN", "VENDAS"]);
     const apagado = await deleteRow(TABS.vip, params.id);
-    if (!apagado) throw new HttpError(404, "Nome nao encontrado na lista.");
+    if (!apagado) throw new HttpError(404, "Nome não encontrado na lista.");
     await registrarLog({
       usuario: user.usuario,
       acao: "APAGAR",

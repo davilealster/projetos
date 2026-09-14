@@ -9,7 +9,7 @@ export async function lerCorpo<T = Record<string, unknown>>(request: Request): P
   try {
     return (await request.json()) as T;
   } catch {
-    throw new HttpError(400, "Corpo da requisicao invalido.");
+    throw new HttpError(400, "Corpo da requisição inválido.");
   }
 }
 
@@ -19,7 +19,7 @@ export function texto(valor: unknown): string {
 
 export function obrigatorio(valor: unknown, campo: string): string {
   const v = texto(valor);
-  if (!v) throw new HttpError(400, `Campo obrigatorio: ${campo}.`);
+  if (!v) throw new HttpError(400, `Campo obrigatório: ${campo}.`);
   return v;
 }
 

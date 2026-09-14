@@ -25,10 +25,10 @@ export async function POST(request: Request) {
 
     const eventoId = obrigatorio(corpo.evento_id, "evento_id");
     const croqui = croquiPorId(texto(corpo.croqui_id) || "SOULBRADO");
-    if (!croqui) throw new HttpError(404, "Croqui nao encontrado.");
+    if (!croqui) throw new HttpError(404, "Croqui não encontrado.");
 
     const evento = await findById<Evento>(TABS.eventos, eventoId);
-    if (!evento) throw new HttpError(404, "Evento nao encontrado.");
+    if (!evento) throw new HttpError(404, "Evento não encontrado.");
 
     const criadas: Record<string, number> = {};
 

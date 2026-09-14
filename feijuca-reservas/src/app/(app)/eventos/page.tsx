@@ -21,7 +21,7 @@ export default function PaginaEventos() {
       <header>
         <h1 className="text-xl font-extrabold">Eventos</h1>
         <p className="text-sm text-pds-muted">
-          Cada Feijuca tem lista, bistros e lounges independentes.
+          Cada Feijuca tem lista, bistrôs e lounges independentes.
         </p>
       </header>
 
@@ -31,7 +31,7 @@ export default function PaginaEventos() {
           descricao={
             ehAdmin
               ? "Crie o primeiro evento para liberar as listas e o mapa de mesas."
-              : "Peca a um administrador para cadastrar o proximo evento."
+              : "Peça a um administrador para cadastrar o próximo evento."
           }
         />
       ) : (
@@ -88,7 +88,7 @@ export default function PaginaEventos() {
             aberta={novoAberto}
             aoFechar={() => setNovoAberto(false)}
             titulo="Novo evento"
-            subtitulo="Depois voce cadastra os lounges e bistros."
+            subtitulo="Depois você cadastra os lounges e bistrôs."
           >
             <FormularioEvento
               aoSalvar={async (id) => {
@@ -106,9 +106,9 @@ export default function PaginaEventos() {
 
 function rotuloContagem(evento: Evento) {
   const dias = diasParaEvento(evento);
-  if (dias < 0) return "Ja passou";
-  if (dias === 0) return "E' hoje";
-  if (dias === 1) return "E' amanha";
+  if (dias < 0) return "Já passou";
+  if (dias === 0) return "É hoje";
+  if (dias === 1) return "É amanhã";
   return `Faltam ${dias} dias`;
 }
 

@@ -24,7 +24,7 @@ export async function PATCH(request: Request, { params }: Ctx) {
     if (patch.valor !== undefined) patch.valor = normalizarValor(patch.valor);
 
     const unidade = await updateRow(tabelaDoTipo(tipo), params.id, patch);
-    if (!unidade) throw new HttpError(404, `${rotuloDoTipo(tipo)} nao encontrado.`);
+    if (!unidade) throw new HttpError(404, `${rotuloDoTipo(tipo)} não encontrado.`);
 
     await registrarLog({
       usuario: user.usuario,
@@ -50,7 +50,7 @@ export async function DELETE(request: Request, { params }: Ctx) {
     }
 
     const apagado = await deleteRow(tabelaDoTipo(tipo), params.id);
-    if (!apagado) throw new HttpError(404, `${rotuloDoTipo(tipo)} nao encontrado.`);
+    if (!apagado) throw new HttpError(404, `${rotuloDoTipo(tipo)} não encontrado.`);
 
     await registrarLog({
       usuario: user.usuario,

@@ -7,7 +7,7 @@ export function SemEvento() {
   return (
     <Vazio
       titulo="Nenhum evento selecionado"
-      descricao="Crie a proxima Feijuca ou escolha um evento no topo da tela para comecar."
+      descricao="Crie a próxima Feijuca ou escolha um evento no topo da tela para começar."
       acao={
         <Link href="/eventos" className="btn-primario">
           Ir para eventos

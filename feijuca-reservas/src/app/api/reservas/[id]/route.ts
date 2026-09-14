@@ -36,7 +36,7 @@ export async function PATCH(request: Request, { params }: Ctx) {
     );
 
     const reserva = await findById<Reserva>(TABS.reservas, params.id);
-    if (!reserva) throw new HttpError(404, "Reserva nao encontrada.");
+    if (!reserva) throw new HttpError(404, "Reserva não encontrada.");
 
     const patch = selecionar(corpo, CAMPOS_EDITAVEIS);
     for (const campo of ["valor", "sinal_pago"] as const) {
@@ -57,7 +57,7 @@ export async function PATCH(request: Request, { params }: Ctx) {
 
     if (corpo.status !== undefined) {
       const status = texto(corpo.status).toUpperCase() as Reserva["status"];
-      if (!STATUS_VALIDOS.includes(status)) throw new HttpError(400, "Status invalido.");
+      if (!STATUS_VALIDOS.includes(status)) throw new HttpError(400, "Status inválido.");
       patch.status = status;
       if (status === "CHECKIN") patch.checkin_em = new Date().toISOString();
       if (status === "CANCELADA") patch.checkin_em = "";
@@ -68,13 +68,13 @@ export async function PATCH(request: Request, { params }: Ctx) {
       const destinoId = texto(corpo.unidade_id);
       const unidades = await readTab<Unidade>(tabelaDoTipo(reserva.tipo), false);
       const destino = unidades.find((u) => u.id === destinoId);
-      if (!destino) throw new HttpError(404, `${rotuloDoTipo(reserva.tipo)} destino nao existe.`);
+      if (!destino) throw new HttpError(404, `${rotuloDoTipo(reserva.tipo)} destino não existe.`);
       if (destino.evento_id !== reserva.evento_id) {
-        throw new HttpError(400, "A unidade destino e' de outro evento.");
+        throw new HttpError(400, "A unidade destino é de outro evento.");
       }
       const reservas = await readTab<Reserva>(TABS.reservas, false);
       if (reservas.some((r) => r.unidade_id === destinoId && r.id !== reserva.id && reservaAtiva(r))) {
-        throw new HttpError(409, `${rotuloDoTipo(reserva.tipo)} ${destino.numero} ja esta ocupado.`);
+        throw new HttpError(409, `${rotuloDoTipo(reserva.tipo)} ${destino.numero} já está ocupado.`);
       }
       patch.unidade_id = destinoId;
       patch.numero = destino.numero;
@@ -102,7 +102,7 @@ export async function DELETE(_request: Request, { params }: Ctx) {
   try {
     const user = await exigirSessao(["ADMIN"]);
     const apagada = await deleteRow(TABS.reservas, params.id);
-    if (!apagada) throw new HttpError(404, "Reserva nao encontrada.");
+    if (!apagada) throw new HttpError(404, "Reserva não encontrada.");
     await registrarLog({
       usuario: user.usuario,
       acao: "APAGAR",

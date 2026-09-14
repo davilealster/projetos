@@ -57,8 +57,8 @@ export function statusPrioridadeLounge(evento: Evento): StatusPrioridade {
   } else if (porPrazo) {
     mensagem =
       dias < 0
-        ? "Evento ja aconteceu."
-        : "Estamos na vespera: os lounges que sobraram valem para qualquer pessoa.";
+        ? "Evento já aconteceu."
+        : "Estamos na véspera: os lounges que sobraram valem para qualquer pessoa.";
   } else {
     const falta = dias - prazo;
     mensagem = `Prioridade de aniversariante ativa. Libera para todos em ${falta} ${
@@ -84,7 +84,7 @@ export function validarReservaLounge(
   const falta = status.dias - status.prazo;
   return {
     ok: false,
-    motivo: `Lounge e' exclusivo de aniversariante ate a vespera do evento. Faltam ${falta} ${
+    motivo: `Lounge é exclusivo de aniversariante até a véspera do evento. Faltam ${falta} ${
       falta === 1 ? "dia" : "dias"
     } para liberar geral (ou um admin pode destravar na tela do evento).`,
   };

@@ -33,9 +33,9 @@ export async function sessaoAtual(): Promise<SessionUser | null> {
 /** Exige sessao valida; opcionalmente restringe por papel. */
 export async function exigirSessao(papeis?: Papel[]): Promise<SessionUser> {
   const user = await sessaoAtual();
-  if (!user) throw new HttpError(401, "Sessao expirada. Entre novamente.");
+  if (!user) throw new HttpError(401, "Sessão expirada. Entre novamente.");
   if (papeis && !papeis.includes(user.papel)) {
-    throw new HttpError(403, "Seu perfil nao tem permissao para esta acao.");
+    throw new HttpError(403, "Seu perfil não tem permissão para esta ação.");
   }
   return user;
 }
@@ -43,22 +43,22 @@ export async function exigirSessao(papeis?: Papel[]): Promise<SessionUser> {
 /** Traduz erros tecnicos do Google em instrucoes acionaveis. */
 export function mensagemAmigavel(bruta: string): string {
   if (/DECODER routines|PEM|asn1|Invalid keyData/i.test(bruta)) {
-    return "A chave GOOGLE_PRIVATE_KEY esta invalida. Cole o valor do campo private_key do JSON inteiro, com aspas e os \\n.";
+    return "A chave GOOGLE_PRIVATE_KEY está inválida. Cole o valor do campo private_key do JSON inteiro, com aspas e os \\n.";
   }
   if (/invalid_grant|Invalid JWT|unauthorized_client/i.test(bruta)) {
     return "O Google recusou as credenciais. Confira GOOGLE_SERVICE_ACCOUNT_EMAIL e GOOGLE_PRIVATE_KEY.";
   }
   if (/permission|PERMISSION_DENIED|caller does not have/i.test(bruta)) {
-    return "Sem permissao na planilha. Compartilhe a planilha com o e-mail da conta de servico como Editor.";
+    return "Sem permissão na planilha. Compartilhe a planilha com o e-mail da conta de serviço como Editor.";
   }
   if (/Requested entity was not found|notFound/i.test(bruta)) {
-    return "Planilha nao encontrada. Confira o GOOGLE_SHEET_ID.";
+    return "Planilha não encontrada. Confira o GOOGLE_SHEET_ID.";
   }
   if (/Unable to parse range/i.test(bruta)) {
-    return "Uma aba da planilha nao foi encontrada. As abas precisam se chamar Eventos, Lounges, Bistros, Reservas, ListaVip, Usuarios, Config e Log.";
+    return "Uma aba da planilha não foi encontrada. As abas precisam se chamar Eventos, Lounges, Bistros, Reservas, ListaVip, Usuarios, Config e Log.";
   }
   if (/Sheets API has not been used|accessNotConfigured/i.test(bruta)) {
-    return "A Google Sheets API nao esta habilitada no projeto do Google Cloud.";
+    return "A Google Sheets API não está habilitada no projeto do Google Cloud.";
   }
   return bruta;
 }

@@ -13,7 +13,7 @@ export async function GET(request: Request) {
     const eventoId = obrigatorio(new URL(request.url).searchParams.get("evento_id"), "evento_id");
 
     const evento = await findById<Evento>(TABS.eventos, eventoId);
-    if (!evento) throw new HttpError(404, "Evento nao encontrado.");
+    if (!evento) throw new HttpError(404, "Evento não encontrado.");
 
     const [lounges, bistros, mesas, reservas, vips] = await Promise.all([
       readTab<Unidade>(TABS.lounges),

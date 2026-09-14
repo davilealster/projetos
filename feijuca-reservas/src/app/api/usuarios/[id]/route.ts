@@ -18,7 +18,7 @@ export async function PATCH(request: Request, { params }: Ctx) {
 
     if (corpo.papel !== undefined) {
       const papel = texto(corpo.papel).toUpperCase() as Papel;
-      if (!PAPEIS.includes(papel)) throw new HttpError(400, "Perfil invalido.");
+      if (!PAPEIS.includes(papel)) throw new HttpError(400, "Perfil inválido.");
       patch.papel = papel;
     }
     if (corpo.ativo !== undefined) {
@@ -32,11 +32,11 @@ export async function PATCH(request: Request, { params }: Ctx) {
     if (Object.keys(patch).length === 0) throw new HttpError(400, "Nada para atualizar.");
 
     if (params.id === admin.id && patch.ativo === "NAO") {
-      throw new HttpError(409, "Voce nao pode desativar o proprio usuario.");
+      throw new HttpError(409, "Você não pode desativar o próprio usuário.");
     }
 
     const atualizado = await updateRow(TABS.usuarios, params.id, patch);
-    if (!atualizado) throw new HttpError(404, "Usuario nao encontrado.");
+    if (!atualizado) throw new HttpError(404, "Usuário não encontrado.");
 
     await registrarLog({
       usuario: admin.usuario,
@@ -56,16 +56,16 @@ export async function PATCH(request: Request, { params }: Ctx) {
 export async function DELETE(_request: Request, { params }: Ctx) {
   try {
     const admin = await exigirSessao(["ADMIN"]);
-    if (params.id === admin.id) throw new HttpError(409, "Voce nao pode apagar o proprio usuario.");
+    if (params.id === admin.id) throw new HttpError(409, "Você não pode apagar o próprio usuário.");
 
     const usuarios = await readTab<Usuario>(TABS.usuarios, false);
     const admins = usuarios.filter((u) => u.papel === "ADMIN" && u.ativo === "SIM");
     if (admins.length <= 1 && admins[0]?.id === params.id) {
-      throw new HttpError(409, "E' preciso manter pelo menos um administrador ativo.");
+      throw new HttpError(409, "É preciso manter pelo menos um administrador ativo.");
     }
 
     const apagado = await deleteRow(TABS.usuarios, params.id);
-    if (!apagado) throw new HttpError(404, "Usuario nao encontrado.");
+    if (!apagado) throw new HttpError(404, "Usuário não encontrado.");
 
     await registrarLog({
       usuario: admin.usuario,

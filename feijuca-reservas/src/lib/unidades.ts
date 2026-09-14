@@ -7,7 +7,7 @@ export const TIPOS_UNIDADE: TipoUnidade[] = ["LOUNGE", "BISTRO", "MESA"];
 export function normalizarTipo(valor: unknown): TipoUnidade {
   const v = String(valor ?? "").trim().toUpperCase() as TipoUnidade;
   if (TIPOS_UNIDADE.includes(v)) return v;
-  throw new HttpError(400, 'Tipo invalido. Use "LOUNGE", "BISTRO" ou "MESA".');
+  throw new HttpError(400, 'Tipo inválido. Use "LOUNGE", "BISTRO" ou "MESA".');
 }
 
 const TABELAS: Record<TipoUnidade, TabName> = {

@@ -53,9 +53,9 @@ export default function PaginaInicio() {
               : diasFalta > 1
                 ? `Faltam ${diasFalta} dias`
                 : diasFalta === 1
-                  ? "E' amanha!"
+                  ? "É amanhã!"
                   : diasFalta === 0
-                    ? "E' hoje!"
+                    ? "É hoje!"
                     : "Evento passado"}
           </p>
           <h1 className="mt-1 text-xl font-extrabold leading-tight">{evento.nome}</h1>
@@ -89,7 +89,7 @@ export default function PaginaInicio() {
             <p className="text-sm font-bold">
               {dados.prioridadeLounge.liberado
                 ? "Lounges liberados para todos"
-                : "Lounges so' para aniversariantes"}
+                : "Lounges só para aniversariantes"}
             </p>
             <p className="mt-0.5 text-xs leading-relaxed text-pds-muted">
               {dados.prioridadeLounge.mensagem}
@@ -136,7 +136,7 @@ export default function PaginaInicio() {
             />
             <Cartao
               href="/bistro"
-              titulo="Bistros"
+              titulo="Bistrôs"
               Icone={IconeBistro}
               ocupados={dados.bistro.ocupados}
               total={dados.bistro.total}

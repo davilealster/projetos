@@ -54,7 +54,7 @@ export default function PaginaEvento() {
       await api.patch(`/api/eventos/${id}`, { lounges_liberados: valor ? "SIM" : "NAO" });
       avisar(
         valor
-          ? "Lounges liberados para nao aniversariantes."
+          ? "Lounges liberados para não aniversariantes."
           : "Prioridade de aniversariante reativada.",
       );
       atualizar();
@@ -87,7 +87,7 @@ export default function PaginaEvento() {
   }
 
   async function apagarEvento() {
-    if (!confirm(`Apagar o evento "${evento.nome}"? So' funciona se nao houver reservas.`)) return;
+    if (!confirm(`Apagar o evento "${evento.nome}"? Só funciona se não houver reservas.`)) return;
     try {
       await api.delete(`/api/eventos/${id}`);
       avisar("Evento apagado.");
@@ -134,7 +134,7 @@ export default function PaginaEvento() {
           <Interruptor
             destaque
             rotulo="Liberar lounges para qualquer pessoa"
-            descricao="Use quando faltarem lounges para vender e o prazo ainda nao chegou."
+            descricao="Use quando faltarem lounges para vender e o prazo ainda não chegou."
             ativo={evento.lounges_liberados === "SIM"}
             aoMudar={(v) => !salvando && alternarLiberacao(v)}
           />
@@ -168,7 +168,7 @@ export default function PaginaEvento() {
 
       <div className="grid grid-cols-4 gap-2.5">
         <Resumo titulo="Lounges" valor={`${lounges.filter((u) => u.ocupado).length}/${lounges.length}`} />
-        <Resumo titulo="Bistros" valor={`${bistros.filter((u) => u.ocupado).length}/${bistros.length}`} />
+        <Resumo titulo="Bistrôs" valor={`${bistros.filter((u) => u.ocupado).length}/${bistros.length}`} />
         <Resumo titulo="Mesas" valor={`${mesas.filter((u) => u.ocupado).length}/${mesas.length}`} />
         <Resumo titulo="Lista VIP" valor={String(vips.filter((v) => v.status !== "CANCELADO").length)} />
       </div>
@@ -191,7 +191,7 @@ export default function PaginaEvento() {
       />
 
       <Secao
-        titulo="Bistros"
+        titulo="Bistrôs"
         Icone={IconeBistro}
         unidades={bistros}
         tipo="BISTRO"
@@ -239,10 +239,10 @@ export default function PaginaEvento() {
           novasUnidades === "LOUNGE"
             ? "Adicionar lounges"
             : novasUnidades === "BISTRO"
-              ? "Adicionar bistros"
+              ? "Adicionar bistrôs"
               : "Adicionar mesas únicas"
         }
-        subtitulo="A numeracao continua a partir da ultima unidade."
+        subtitulo="A numeração continua a partir da última unidade."
       >
         {novasUnidades ? (
           <FormularioUnidades
@@ -558,7 +558,7 @@ function FormularioEdicao({ evento, aoSalvar }: { evento: Evento; aoSalvar: () =
         <option value="ENCERRADO">Encerrado</option>
       </Selecao>
       <button type="submit" disabled={enviando} className="btn-primario w-full">
-        {enviando ? "Salvando..." : "Salvar alteracoes"}
+        {enviando ? "Salvando..." : "Salvar alterações"}
       </button>
     </form>
   );
@@ -607,7 +607,7 @@ function FormularioUnidades({
         value={quantidade}
         onChange={(e) => setQuantidade(e.target.value)}
         inputMode="numeric"
-        dica="Maximo de 60 por vez."
+        dica="Máximo de 60 por vez."
         required
       />
       <div className="grid grid-cols-2 gap-3">

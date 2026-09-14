@@ -11,7 +11,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Feijuca PDS | Listas e Reservas",
   description:
-    "Gestao de lista VIP, reservas de bistro e lounges da Feijuca do Papo de Samba.",
+    "Gestão de lista VIP, reservas de bistrô e lounges da Feijuca do Papo de Samba.",
   manifest: "/manifest.webmanifest",
   appleWebApp: {
     capable: true,

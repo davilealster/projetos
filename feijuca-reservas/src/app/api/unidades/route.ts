@@ -46,7 +46,7 @@ export async function POST(request: Request) {
     const tipo = normalizarTipo(corpo.tipo);
     const eventoId = obrigatorio(corpo.evento_id, "evento_id");
     const evento = await findById<Evento>(TABS.eventos, eventoId);
-    if (!evento) throw new HttpError(404, "Evento nao encontrado.");
+    if (!evento) throw new HttpError(404, "Evento não encontrado.");
 
     const tabela = tabelaDoTipo(tipo);
     const existentes = await readTab<Unidade>(tabela, false);
@@ -73,7 +73,7 @@ export async function POST(request: Request) {
     for (let i = 0; i < total; i++) {
       const numero = numeroInformado !== null ? numeroInformado : maiorNumero + i + 1;
       if (doEvento.some((u) => Number(u.numero) === numero)) {
-        throw new HttpError(409, `${rotuloDoTipo(tipo)} numero ${numero} ja existe neste evento.`);
+        throw new HttpError(409, `${rotuloDoTipo(tipo)} numero ${numero} já existe neste evento.`);
       }
       contadorId += 1;
       novas.push({

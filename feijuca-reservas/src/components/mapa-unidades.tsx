@@ -109,7 +109,7 @@ export function MapaUnidades({ tipo }: { tipo: TipoUnidade }) {
       ) : unidades.length === 0 ? (
         <Vazio
           titulo={`Nenhum ${ROTULO[tipo].singular.toLowerCase()} cadastrado`}
-          descricao={`Cadastre os ${ROTULO[tipo].plural.toLowerCase()} deste evento na tela de eventos para comecar a reservar.`}
+          descricao={`Cadastre os ${ROTULO[tipo].plural.toLowerCase()} deste evento na tela de eventos para começar a reservar.`}
         />
       ) : visiveis.length === 0 ? (
         <Vazio titulo="Nada por aqui" descricao="Nenhuma unidade neste filtro." />

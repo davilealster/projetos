@@ -13,7 +13,7 @@ export async function POST(request: Request) {
     const senha = obrigatorio(corpo.senha, "senha");
 
     const sessao = await autenticar(usuario, senha);
-    if (!sessao) throw new HttpError(401, "Usuario ou senha invalidos.");
+    if (!sessao) throw new HttpError(401, "Usuário ou senha inválidos.");
 
     cookies().set({ ...cookieOptions, value: await signSession(sessao) });
     return json({ usuario: sessao });

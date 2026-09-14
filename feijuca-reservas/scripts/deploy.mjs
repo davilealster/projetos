@@ -140,6 +140,6 @@ if (deploy.status !== 0) abortar("O deploy falhou. A saida acima traz o motivo."
 
 console.log(`\n${cor.ok(cor.forte("Publicado."))}`);
 console.log(
-  `\n  Abra ${cor.forte("/configuracao")} na URL acima para o diagnostico,\n` +
+  `\n  Abra ${cor.forte("/configuracao")} na URL acima para o diagnóstico,\n` +
     `  depois entre com ${cor.forte("admin / pds2026")} e troque as senhas.\n`,
 );

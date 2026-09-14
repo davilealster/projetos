@@ -23,7 +23,7 @@ function requiredEnv(name: string): string {
   const value = process.env[name];
   if (!value) {
     throw new Error(
-      `Variavel de ambiente ${name} nao configurada. Confira o README (secao "Configuracao").`,
+      `Variável de ambiente ${name} não configurada. Confira o README (seção "Configuração").`,
     );
   }
   return value;
@@ -182,7 +182,7 @@ export async function atualizarCampoEmLote(
   const values = await readValues(tab);
   const { header, rows } = toObjects(values);
   const coluna = header.indexOf(campo);
-  if (coluna === -1) throw new Error(`A aba "${tab}" nao tem a coluna "${campo}".`);
+  if (coluna === -1) throw new Error(`A aba "${tab}" não tem a coluna "${campo}".`);
 
   const alvo = new Set(ids);
   const letra = letraDaColuna(coluna);
@@ -218,7 +218,7 @@ async function sheetIdOf(tab: TabName): Promise<number> {
     }
   }
   const id = sheetIdCache[tab];
-  if (id === undefined) throw new Error(`Aba "${tab}" nao encontrada na planilha.`);
+  if (id === undefined) throw new Error(`Aba "${tab}" não encontrada na planilha.`);
   return id;
 }
 

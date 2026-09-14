@@ -39,16 +39,16 @@ export async function POST(request: Request) {
     const aniversariante = simNao(corpo.aniversariante);
 
     const evento = await findById<Evento>(TABS.eventos, eventoId);
-    if (!evento) throw new HttpError(404, "Evento nao encontrado.");
+    if (!evento) throw new HttpError(404, "Evento não encontrado.");
     if (evento.status === "ENCERRADO") {
-      throw new HttpError(409, "Este evento esta encerrado e nao aceita novas reservas.");
+      throw new HttpError(409, "Este evento está encerrado e não aceita novas reservas.");
     }
 
     const unidades = await readTab<Unidade>(tabelaDoTipo(tipo), false);
     const unidade = unidades.find((u) => u.id === unidadeId);
-    if (!unidade) throw new HttpError(404, `${rotuloDoTipo(tipo)} nao encontrado.`);
+    if (!unidade) throw new HttpError(404, `${rotuloDoTipo(tipo)} não encontrado.`);
     if (unidade.evento_id !== eventoId) {
-      throw new HttpError(400, `Este ${rotuloDoTipo(tipo).toLowerCase()} e' de outro evento.`);
+      throw new HttpError(400, `Este ${rotuloDoTipo(tipo).toLowerCase()} é de outro evento.`);
     }
     if ((unidade.status ?? "").toUpperCase() === "BLOQUEADO") {
       throw new HttpError(409, `${rotuloDoTipo(tipo)} ${unidade.numero} esta bloqueado.`);
@@ -58,7 +58,7 @@ export async function POST(request: Request) {
     if (reservas.some((r) => r.unidade_id === unidadeId && reservaAtiva(r))) {
       throw new HttpError(
         409,
-        `${rotuloDoTipo(tipo)} ${unidade.numero} ja esta reservado. Atualize a tela.`,
+        `${rotuloDoTipo(tipo)} ${unidade.numero} já está reservado. Atualize a tela.`,
       );
     }
 
@@ -72,7 +72,7 @@ export async function POST(request: Request) {
     if (capacidade > 0 && pessoas > capacidade) {
       throw new HttpError(
         400,
-        `${rotuloDoTipo(tipo)} ${unidade.numero} comporta ate ${capacidade} pessoas.`,
+        `${rotuloDoTipo(tipo)} ${unidade.numero} comporta até ${capacidade} pessoas.`,
       );
     }
 

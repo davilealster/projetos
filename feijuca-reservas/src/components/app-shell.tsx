@@ -84,7 +84,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
           >
             <Image
               src="/logo.jpg"
-              alt="Familia Papo de Samba"
+              alt="Família Papo de Samba"
               width={40}
               height={40}
               priority
@@ -195,7 +195,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
               {ehAdmin ? (
                 <>
                   <p className="px-4 pb-1 pt-4 text-[10px] font-bold uppercase tracking-wider text-pds-muted">
-                    Administracao
+                    Administração
                   </p>
                   <Link
                     href="/usuarios"
@@ -231,7 +231,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
         aberta={seletorAberto}
         aoFechar={() => setSeletorAberto(false)}
         titulo="Escolher evento"
-        subtitulo="Cada evento tem lista, bistros e lounges proprios."
+        subtitulo="Cada evento tem lista, bistrôs e lounges próprios."
       >
         <div className="space-y-2">
           {eventos.length === 0 ? (

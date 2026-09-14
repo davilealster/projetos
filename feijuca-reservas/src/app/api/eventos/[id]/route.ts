@@ -39,7 +39,7 @@ export async function GET(_request: Request, { params }: Ctx) {
   try {
     await exigirSessao();
     const evento = await findById<Evento>(TABS.eventos, params.id);
-    if (!evento) throw new HttpError(404, "Evento nao encontrado.");
+    if (!evento) throw new HttpError(404, "Evento não encontrado.");
 
     const [lounges, bistros, mesas, reservas, vips] = await Promise.all([
       readTab<Unidade>(TABS.lounges),
@@ -78,7 +78,7 @@ export async function PATCH(request: Request, { params }: Ctx) {
     }
 
     const atualizado = await updateRow(TABS.eventos, params.id, patch);
-    if (!atualizado) throw new HttpError(404, "Evento nao encontrado.");
+    if (!atualizado) throw new HttpError(404, "Evento não encontrado.");
     const evento = atualizado as unknown as Evento;
 
     // Mudar o valor do evento so' vale a pena se as unidades acompanharem.
@@ -134,12 +134,12 @@ export async function DELETE(_request: Request, { params }: Ctx) {
     if (temDados) {
       throw new HttpError(
         409,
-        "Este evento ja tem reservas ou nomes na lista. Encerre o evento em vez de apagar.",
+        "Este evento já tem reservas ou nomes na lista. Encerre o evento em vez de apagar.",
       );
     }
 
     const apagado = await deleteRow(TABS.eventos, params.id);
-    if (!apagado) throw new HttpError(404, "Evento nao encontrado.");
+    if (!apagado) throw new HttpError(404, "Evento não encontrado.");
 
     await registrarLog({
       usuario: user.usuario,
