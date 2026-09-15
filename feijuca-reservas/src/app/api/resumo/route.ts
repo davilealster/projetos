@@ -1,7 +1,7 @@
 import { erroResposta, exigirSessao, HttpError } from "@/lib/auth";
 import { json, obrigatorio } from "@/lib/api";
 import { findById, readTab, TABS } from "@/lib/sheets";
-import { montarMapa, statusPrioridadeLounge } from "@/lib/regras";
+import { montarMapa } from "@/lib/regras";
 import type { Evento, Reserva, Unidade, Vip } from "@/lib/types";
 
 export const runtime = "nodejs";
@@ -43,14 +43,8 @@ export async function GET(request: Request) {
     const ocupadosBistro = mapaBistro.filter((u) => u.ocupado);
     const ocupadosMesa = mapaMesa.filter((u) => u.ocupado);
 
-    const receita = [...ocupadosLounge, ...ocupadosBistro, ...ocupadosMesa].reduce(
-      (total, u) => total + (Number(u.reserva?.valor) || 0),
-      0,
-    );
-
     return json({
       evento,
-      prioridadeLounge: statusPrioridadeLounge(evento),
       lounge: {
         total: mapaLounge.length,
         ocupados: ocupadosLounge.length,
@@ -76,11 +70,6 @@ export async function GET(request: Request) {
         checkins: vipsEvento.filter((v) => v.status === "CHECKIN").length,
         limite: Number(evento.capacidade_lista_vip) || 0,
       },
-      pessoasReservadas: [...ocupadosLounge, ...ocupadosBistro, ...ocupadosMesa].reduce(
-        (t, u) => t + (Number(u.reserva?.qtd_pessoas) || 0),
-        0,
-      ),
-      receitaPrevista: receita,
     });
   } catch (error) {
     return erroResposta(error);

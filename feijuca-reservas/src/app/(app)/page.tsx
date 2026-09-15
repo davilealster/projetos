@@ -4,14 +4,12 @@ import Link from "next/link";
 import { useApp } from "@/components/contexto";
 import { useDados } from "@/components/usar-dados";
 import { SemEvento } from "@/components/aviso-sem-evento";
-import { Esqueleto, Etiqueta, classes } from "@/components/ui";
-import { formatarDataExtenso, formatarMoeda } from "@/lib/formato";
-import type { StatusPrioridade } from "@/lib/regras";
+import { Esqueleto, Etiqueta } from "@/components/ui";
+import { formatarDataExtenso } from "@/lib/formato";
+import { diasParaEvento } from "@/lib/regras";
 import type { Evento } from "@/lib/types";
 import {
   IconeBistro,
-  IconeCadeado,
-  IconeCadeadoAberto,
   IconeLista,
   IconeLounge,
   IconeMapa,
@@ -21,13 +19,10 @@ import {
 
 interface Resumo {
   evento: Evento;
-  prioridadeLounge: StatusPrioridade;
   lounge: { total: number; ocupados: number; livres: number; aniversariantes: number; checkins: number };
   bistro: { total: number; ocupados: number; livres: number; checkins: number };
   mesa: { total: number; ocupados: number; livres: number; checkins: number };
   vip: { nomes: number; pessoas: number; checkins: number; limite: number };
-  pessoasReservadas: number;
-  receitaPrevista: number;
 }
 
 export default function PaginaInicio() {
@@ -39,7 +34,8 @@ export default function PaginaInicio() {
   if (carregandoApp) return <Esqueleto linhas={4} />;
   if (!evento) return <SemEvento />;
 
-  const diasFalta = dados?.prioridadeLounge.dias ?? 0;
+  // A contagem sai da propria data do evento: nao precisa esperar a API.
+  const diasFalta = diasParaEvento(evento);
 
   return (
     <div className="space-y-4">
@@ -66,59 +62,12 @@ export default function PaginaInicio() {
         </div>
       </section>
 
-      {/* Regra do lounge */}
-      {dados ? (
-        <section
-          className={classes(
-            "card flex items-start gap-3 px-4 py-4",
-            dados.prioridadeLounge.liberado
-              ? "border-emerald-500/35 bg-emerald-500/5"
-              : "border-pds-orange/40 bg-pds-orange/5",
-          )}
-        >
-          <span
-            className={classes(
-              "mt-0.5 shrink-0",
-              dados.prioridadeLounge.liberado ? "text-emerald-400" : "text-pds-orange",
-            )}
-          >
-            {dados.prioridadeLounge.liberado ? <IconeCadeadoAberto /> : <IconeCadeado />}
-          </span>
-          <div className="min-w-0 flex-1">
-            <p className="text-sm font-bold">
-              {dados.prioridadeLounge.liberado
-                ? "Lounges liberados para todos"
-                : "Lounges só para aniversariantes"}
-            </p>
-            <p className="mt-0.5 text-xs leading-relaxed text-pds-muted">
-              {dados.prioridadeLounge.mensagem}
-            </p>
-          </div>
-        </section>
-      ) : null}
-
       {erro ? (
         <p className="card px-4 py-3 text-sm text-red-300">{erro}</p>
       ) : carregando || !dados ? (
         <Esqueleto linhas={3} />
       ) : (
         <>
-          <Link
-            href="/mapa"
-            className="card flex items-center gap-4 border-pds-orange/40 bg-gradient-to-r from-pds-orange/15 to-transparent px-5 py-4 transition active:scale-[.99]"
-          >
-            <span className="rounded-xl bg-pds-orange/20 p-2.5 text-pds-orange">
-              <IconeMapa />
-            </span>
-            <div className="min-w-0 flex-1">
-              <p className="text-sm font-bold">Mapa do salão</p>
-              <p className="text-xs text-pds-muted">
-                Planta da casa: toque na posição para reservar ou fazer check-in
-              </p>
-            </div>
-            <IconeSeta className="shrink-0 text-pds-muted" width={18} height={18} />
-          </Link>
-
           <div className="grid grid-cols-3 gap-2.5">
             <Cartao
               href="/lounge"
@@ -154,6 +103,22 @@ export default function PaginaInicio() {
           </div>
 
           <Link
+            href="/mapa"
+            className="card flex items-center gap-4 border-pds-orange/40 bg-gradient-to-r from-pds-orange/15 to-transparent px-5 py-4 transition active:scale-[.99]"
+          >
+            <span className="rounded-xl bg-pds-orange/20 p-2.5 text-pds-orange">
+              <IconeMapa />
+            </span>
+            <div className="min-w-0 flex-1">
+              <p className="text-sm font-bold">Mapa do salão</p>
+              <p className="text-xs text-pds-muted">
+                Planta da casa: toque na posição para reservar ou fazer check-in
+              </p>
+            </div>
+            <IconeSeta className="shrink-0 text-pds-muted" width={18} height={18} />
+          </Link>
+
+          <Link
             href="/vip"
             className="card flex items-center gap-4 px-5 py-4 transition active:scale-[.99]"
           >
@@ -170,23 +135,6 @@ export default function PaginaInicio() {
             </div>
             <IconeSeta className="shrink-0 text-pds-muted" width={18} height={18} />
           </Link>
-
-          <section className="card grid grid-cols-2 divide-x divide-pds-line">
-            <div className="px-5 py-4">
-              <p className="text-[11px] font-bold uppercase tracking-wider text-pds-muted">
-                Pessoas em mesa
-              </p>
-              <p className="mt-1 text-2xl font-extrabold">{dados.pessoasReservadas}</p>
-            </div>
-            <div className="px-5 py-4">
-              <p className="text-[11px] font-bold uppercase tracking-wider text-pds-muted">
-                Receita prevista
-              </p>
-              <p className="mt-1 text-2xl font-extrabold text-pds-orange">
-                {formatarMoeda(dados.receitaPrevista)}
-              </p>
-            </div>
-          </section>
 
           <section className="card px-5 py-4">
             <p className="text-[11px] font-bold uppercase tracking-wider text-pds-muted">
