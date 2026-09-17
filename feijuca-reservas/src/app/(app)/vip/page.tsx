@@ -41,9 +41,10 @@ const COR_TIPO: Record<TipoVip, "laranja" | "verde" | "azul" | "cinza"> = {
 };
 
 export default function PaginaVip() {
-  const { evento, carregando: carregandoApp, podeVender, ehAdmin, atualizar } = useApp();
+  const { evento, carregando: carregandoApp, pode, ehAdmin, atualizar } = useApp();
+  const podeVer = pode("verVip");
   const { dados, carregando, erro } = useDados<{ vips: Vip[] }>(
-    evento ? `/api/vip?evento_id=${evento.id}` : null,
+    evento && podeVer ? `/api/vip?evento_id=${evento.id}` : null,
   );
 
   const [busca, setBusca] = useState("");
@@ -67,6 +68,15 @@ export default function PaginaVip() {
     });
   }, [vips, busca, filtro]);
 
+  if (!podeVer) {
+    return (
+      <Vazio
+        titulo="Área restrita"
+        descricao="A lista da portaria é do administrador e da recepção. Seu perfil cuida das reservas de lounge, bistrô e mesa."
+      />
+    );
+  }
+
   if (carregandoApp) return <Esqueleto linhas={4} />;
   if (!evento) return <SemEvento />;
 
@@ -84,7 +94,7 @@ export default function PaginaVip() {
             {limite ? ` de ${limite}` : ""} · {checkins} check-in
           </p>
         </div>
-        {podeVender ? (
+        {pode("linksLista") ? (
           <Link
             href="/listas"
             aria-label="Links de lista"
@@ -159,13 +169,15 @@ export default function PaginaVip() {
         </ul>
       )}
 
-      <button
-        onClick={() => setNovoAberto(true)}
-        className="fixed bottom-[calc(5.5rem+var(--safe-bottom))] right-4 z-30 flex h-14 w-14 items-center justify-center rounded-full bg-pds-orange text-black shadow-glow transition active:scale-95"
-        aria-label="Adicionar nome na lista"
-      >
-        <IconeMais width={26} height={26} />
-      </button>
+      {pode("incluirVip") ? (
+        <button
+          onClick={() => setNovoAberto(true)}
+          className="fixed bottom-[calc(5.5rem+var(--safe-bottom))] right-4 z-30 flex h-14 w-14 items-center justify-center rounded-full bg-pds-orange text-black shadow-glow transition active:scale-95"
+          aria-label="Adicionar nome na lista"
+        >
+          <IconeMais width={26} height={26} />
+        </button>
+      ) : null}
 
       <Folha
         aberta={novoAberto}
@@ -191,8 +203,8 @@ export default function PaginaVip() {
         >
           <DetalheVip
             vip={selecionado}
-            podeEditar={podeVender}
-            podeApagar={ehAdmin || podeVender}
+            podeEditar={pode("editarVip")}
+            podeApagar={pode("editarVip")}
             aoSalvar={() => {
               setSelecionado(null);
               atualizar();

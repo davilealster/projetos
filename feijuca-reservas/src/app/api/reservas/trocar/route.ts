@@ -1,4 +1,5 @@
 import { erroResposta, exigirSessao, HttpError } from "@/lib/auth";
+import { papeisCom } from "@/lib/permissoes";
 import { json, lerCorpo, obrigatorio } from "@/lib/api";
 import { atualizarLinhasEmLote, findById, readTab, registrarLog, TABS } from "@/lib/sheets";
 import { reservaAtiva, validarTroca, type LadoDaTroca } from "@/lib/regras";
@@ -15,7 +16,7 @@ export const dynamic = "force-dynamic";
  */
 export async function POST(request: Request) {
   try {
-    const user = await exigirSessao(["ADMIN", "VENDAS"]);
+    const user = await exigirSessao(papeisCom("reservas"));
     const corpo = await lerCorpo(request);
 
     const idA = obrigatorio(corpo.reserva_a, "reserva_a");

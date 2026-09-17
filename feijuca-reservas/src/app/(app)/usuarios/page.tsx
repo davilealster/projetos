@@ -15,6 +15,7 @@ import {
 } from "@/components/ui";
 import { IconeMais } from "@/components/icones";
 import { api } from "@/lib/cliente";
+import { DESCRICAO_PAPEL } from "@/lib/permissoes";
 import type { Papel } from "@/lib/types";
 
 type UsuarioLista = {
@@ -27,9 +28,9 @@ type UsuarioLista = {
 };
 
 const PAPEIS: { valor: Papel; rotulo: string; descricao: string }[] = [
-  { valor: "ADMIN", rotulo: "Administrador", descricao: "Tudo, inclusive eventos e usuários" },
-  { valor: "VENDAS", rotulo: "Vendas", descricao: "Reservas e lista VIP" },
-  { valor: "PORTARIA", rotulo: "Portaria", descricao: "Somente check-in e incluir nomes" },
+  { valor: "ADMIN", rotulo: "Administrador", descricao: DESCRICAO_PAPEL.ADMIN },
+  { valor: "VENDAS", rotulo: "Vendas", descricao: DESCRICAO_PAPEL.VENDAS },
+  { valor: "PORTARIA", rotulo: "Portaria", descricao: DESCRICAO_PAPEL.PORTARIA },
 ];
 
 export default function PaginaUsuarios() {

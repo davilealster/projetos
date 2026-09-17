@@ -11,6 +11,7 @@ import {
 } from "@/lib/unidades";
 import { normalizarValor } from "@/lib/valores";
 import type { Evento, Reserva, Unidade } from "@/lib/types";
+import { papeisCom } from "@/lib/permissoes";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -40,7 +41,7 @@ export async function GET(request: Request) {
 
 export async function POST(request: Request) {
   try {
-    const user = await exigirSessao(["ADMIN"]);
+    const user = await exigirSessao(papeisCom("administrar"));
     const corpo = await lerCorpo(request);
 
     const tipo = normalizarTipo(corpo.tipo);

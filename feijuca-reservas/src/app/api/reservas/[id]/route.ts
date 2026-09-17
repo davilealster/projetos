@@ -1,4 +1,5 @@
 import { erroResposta, exigirSessao, HttpError } from "@/lib/auth";
+import { papeisCom } from "@/lib/permissoes";
 import { json, lerCorpo, selecionar, simNao, texto } from "@/lib/api";
 import { deleteRow, findById, readTab, registrarLog, TABS, updateRow } from "@/lib/sheets";
 import { ehAniversariante, reservaAtiva, validarReservaLounge } from "@/lib/regras";
@@ -32,7 +33,7 @@ export async function PATCH(request: Request, { params }: Ctx) {
     const somenteCheckin =
       chaves.length > 0 && chaves.every((c) => c === "status") && corpo.status === "CHECKIN";
     const user = await exigirSessao(
-      somenteCheckin ? ["ADMIN", "VENDAS", "PORTARIA"] : ["ADMIN", "VENDAS"],
+      papeisCom(somenteCheckin ? "checkinReserva" : "reservas"),
     );
 
     const reserva = await findById<Reserva>(TABS.reservas, params.id);
@@ -142,7 +143,7 @@ export async function PATCH(request: Request, { params }: Ctx) {
 
 export async function DELETE(_request: Request, { params }: Ctx) {
   try {
-    const user = await exigirSessao(["ADMIN"]);
+    const user = await exigirSessao(papeisCom("administrar"));
     const apagada = await deleteRow(TABS.reservas, params.id);
     if (!apagada) throw new HttpError(404, "Reserva não encontrada.");
     await registrarLog({

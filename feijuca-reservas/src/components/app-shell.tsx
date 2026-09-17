@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { useApp } from "./contexto";
+import type { Capacidade } from "@/lib/permissoes";
 import { classes, Folha, useToast } from "./ui";
 import { formatarData } from "@/lib/formato";
 import { api } from "@/lib/cliente";
@@ -25,18 +26,27 @@ import {
   IconeUsuarios,
 } from "./icones";
 
+interface Aba {
+  href: string;
+  rotulo: string;
+  Icone: (p: React.SVGProps<SVGSVGElement>) => JSX.Element;
+  exige?: Capacidade;
+}
+
 /** Barra inferior: o que a equipe usa durante o evento. */
-const ABAS = [
+const ABAS: Aba[] = [
   { href: "/", rotulo: "Inicio", Icone: IconeCasa },
   { href: "/mapa", rotulo: "Mapa", Icone: IconeMapa },
-  { href: "/vip", rotulo: "Lista VIP", Icone: IconeLista },
+  { href: "/vip", rotulo: "Lista VIP", Icone: IconeLista, exige: "verVip" },
   { href: "/lounge", rotulo: "Lounge", Icone: IconeLounge },
   { href: "/bistro", rotulo: "Bistro", Icone: IconeBistro },
+  // Entra na barra de quem nao tem a Lista VIP, para nao sobrar buraco.
+  { href: "/mesas", rotulo: "Mesas", Icone: IconeMesa },
 ];
 
 /** Telas secundarias, so' na gaveta. */
-const ABAS_GAVETA = [
-  { href: "/listas", rotulo: "Links de lista", Icone: IconeLink },
+const ABAS_GAVETA: Aba[] = [
+  { href: "/listas", rotulo: "Links de lista", Icone: IconeLink, exige: "linksLista" },
   { href: "/mesas", rotulo: "Mesas únicas", Icone: IconeMesa },
   { href: "/eventos", rotulo: "Eventos", Icone: IconeCalendario },
 ];
@@ -48,7 +58,7 @@ const PAPEIS: Record<string, string> = {
 };
 
 export function AppShell({ children }: { children: React.ReactNode }) {
-  const { usuario, evento, eventos, trocarEvento, ehAdmin, atualizar } = useApp();
+  const { usuario, evento, eventos, trocarEvento, ehAdmin, pode, atualizar } = useApp();
   const [menuAberto, setMenuAberto] = useState(false);
   const [seletorAberto, setSeletorAberto] = useState(false);
   const pathname = usePathname();
@@ -66,6 +76,11 @@ export function AppShell({ children }: { children: React.ReactNode }) {
   }
 
   const ativa = (href: string) => (href === "/" ? pathname === "/" : pathname.startsWith(href));
+  const permitida = (aba: Aba) => !aba.exige || pode(aba.exige);
+  const abasBarra = ABAS.filter(permitida).slice(0, 5);
+  const abasGaveta = ABAS_GAVETA.filter(permitida).filter(
+    (aba) => !abasBarra.some((b) => b.href === aba.href),
+  );
 
   return (
     <div className="flex min-h-dvh flex-col">
@@ -124,7 +139,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
       {/* --------------------------- Barra baixo -------------------------- */}
       <nav className="fixed inset-x-0 bottom-0 z-40 border-t border-pds-line bg-black/90 pb-[var(--safe-bottom)] backdrop-blur-lg">
         <div className="mx-auto flex max-w-3xl items-stretch">
-          {ABAS.map(({ href, rotulo, Icone }) => {
+          {abasBarra.map(({ href, rotulo, Icone }) => {
             const on = ativa(href);
             return (
               <Link
@@ -179,7 +194,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
             </div>
 
             <nav className="flex-1 overflow-y-auto p-3">
-              {[...ABAS, ...ABAS_GAVETA].map(({ href, rotulo, Icone }) => (
+              {[...abasBarra, ...abasGaveta].map(({ href, rotulo, Icone }) => (
                 <Link
                   key={href}
                   href={href}

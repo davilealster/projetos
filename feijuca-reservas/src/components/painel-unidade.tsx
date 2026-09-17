@@ -22,7 +22,7 @@ export interface PainelProps {
   eventoEncerrado: boolean;
   prioridadeLiberada: boolean;
   motivoBloqueio: string | null;
-  podeVender: boolean;
+  podeReservar: boolean;
   podeApagar: boolean;
   aoFechar: () => void;
   aoSalvar: () => void;
@@ -56,7 +56,7 @@ function NovaReserva({
   eventoEncerrado,
   prioridadeLiberada,
   motivoBloqueio,
-  podeVender,
+  podeReservar,
   aoSalvar,
 }: PainelProps) {
   const avisar = useToast();
@@ -74,7 +74,7 @@ function NovaReserva({
   const bloqueadoPelaRegra =
     tipo === "LOUNGE" && !aniversariante && !prioridadeLiberada && Boolean(motivoBloqueio);
 
-  if (!podeVender) {
+  if (!podeReservar) {
     return (
       <p className="py-8 text-center text-sm text-pds-muted">
         {ROTULO[tipo].singular} livre. Seu perfil não pode criar reservas — fale com vendas ou com
@@ -240,7 +240,7 @@ function DetalheReserva({
   tipo,
   unidade,
   reserva,
-  podeVender,
+  podeReservar,
   podeApagar,
   aoSalvar,
 }: PainelProps & { reserva: Reserva }) {
@@ -368,7 +368,7 @@ function DetalheReserva({
           </a>
         ) : null}
 
-        {podeVender ? (
+        {podeReservar ? (
           <>
             {reserva.status === "PENDENTE" ? (
               <button

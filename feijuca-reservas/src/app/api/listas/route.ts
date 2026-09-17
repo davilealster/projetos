@@ -3,6 +3,7 @@ import { inteiro, json, lerCorpo, obrigatorio, texto } from "@/lib/api";
 import { appendRow, findById, readTab, registrarLog, TABS } from "@/lib/sheets";
 import { gerarToken, idAleatorio } from "@/lib/identificadores";
 import type { Evento, ListaPublica, Vip } from "@/lib/types";
+import { papeisCom } from "@/lib/permissoes";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -19,7 +20,7 @@ function comContagem(lista: ListaPublica, vips: Vip[]) {
 
 export async function GET(request: Request) {
   try {
-    await exigirSessao(["ADMIN", "VENDAS"]);
+    await exigirSessao(papeisCom("linksLista"));
     const eventoId = obrigatorio(
       new URL(request.url).searchParams.get("evento_id"),
       "evento_id",
@@ -43,7 +44,7 @@ export async function GET(request: Request) {
 
 export async function POST(request: Request) {
   try {
-    const user = await exigirSessao(["ADMIN"]);
+    const user = await exigirSessao(papeisCom("linksLista"));
     const corpo = await lerCorpo(request);
 
     const eventoId = obrigatorio(corpo.evento_id, "evento_id");

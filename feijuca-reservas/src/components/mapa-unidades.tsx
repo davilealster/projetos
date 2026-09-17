@@ -24,7 +24,7 @@ interface Detalhe {
 }
 
 export function MapaUnidades({ tipo }: { tipo: TipoUnidade }) {
-  const { evento, carregando: carregandoApp, podeVender, usuario, atualizar } = useApp();
+  const { evento, carregando: carregandoApp, podeReservar, usuario, atualizar } = useApp();
   const { dados, carregando, erro } = useDados<Detalhe>(
     evento ? `/api/eventos/${evento.id}` : null,
   );
@@ -179,7 +179,7 @@ export function MapaUnidades({ tipo }: { tipo: TipoUnidade }) {
           evento={evento}
           grupos={grupos}
           tipos={[tipo]}
-          podeVender={podeVender}
+          podeReservar={podeReservar}
           aoAbrir={(_, unidade) => setSelecionada(unidade)}
           aoAtualizar={atualizar}
         />
@@ -211,7 +211,7 @@ export function MapaUnidades({ tipo }: { tipo: TipoUnidade }) {
                 })()
               : null
           }
-          podeVender={podeVender}
+          podeReservar={podeReservar}
           podeApagar={usuario?.papel === "ADMIN"}
           aoFechar={() => setSelecionada(null)}
           aoSalvar={() => {

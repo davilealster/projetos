@@ -19,7 +19,7 @@ interface Props {
   grupos: GruposDeUnidades;
   /** Secoes a exibir. Por padrao as tres. */
   tipos?: TipoUnidade[];
-  podeVender: boolean;
+  podeReservar: boolean;
   aoAbrir: (tipo: TipoUnidade, unidade: UnidadeComReserva) => void;
   aoAtualizar: () => void;
   /** O botao copia sempre a lista inteira, mesmo numa pagina de um tipo so'. */
@@ -30,7 +30,7 @@ export function ListaPosicoes({
   evento,
   grupos,
   tipos,
-  podeVender,
+  podeReservar,
   aoAbrir,
   aoAtualizar,
   mostrarCopiar = true,
@@ -71,7 +71,7 @@ export function ListaPosicoes({
                   key={unidade.id}
                   tipo={tipo}
                   unidade={unidade}
-                  podeVender={podeVender}
+                  podeReservar={podeReservar}
                   aoAbrir={() => aoAbrir(tipo, unidade)}
                   aoMover={() => setMovendo({ tipo, unidade })}
                 />
@@ -101,13 +101,13 @@ export function ListaPosicoes({
 function Linha({
   tipo,
   unidade,
-  podeVender,
+  podeReservar,
   aoAbrir,
   aoMover,
 }: {
   tipo: TipoUnidade;
   unidade: UnidadeComReserva;
-  podeVender: boolean;
+  podeReservar: boolean;
   aoAbrir: () => void;
   aoMover: () => void;
 }) {
@@ -162,7 +162,7 @@ function Linha({
         ) : null}
       </button>
 
-      {reserva && podeVender ? (
+      {reserva && podeReservar ? (
         <button
           onClick={aoMover}
           aria-label={`Mover ${reserva.nome_cliente} de ${ROTULO[tipo].singular} ${unidade.numero}`}

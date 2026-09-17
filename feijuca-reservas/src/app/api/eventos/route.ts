@@ -3,6 +3,7 @@ import { json, lerCorpo, obrigatorio, texto } from "@/lib/api";
 import { appendRow, nextId, readTab, registrarLog, TABS } from "@/lib/sheets";
 import { normalizarValor } from "@/lib/valores";
 import type { Evento } from "@/lib/types";
+import { papeisCom } from "@/lib/permissoes";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -20,7 +21,7 @@ export async function GET() {
 
 export async function POST(request: Request) {
   try {
-    const user = await exigirSessao(["ADMIN"]);
+    const user = await exigirSessao(papeisCom("administrar"));
     const corpo = await lerCorpo(request);
 
     const eventos = await readTab<Evento>(TABS.eventos, false);

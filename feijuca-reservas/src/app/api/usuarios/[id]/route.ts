@@ -2,6 +2,7 @@ import { erroResposta, exigirSessao, hashSenha, HttpError } from "@/lib/auth";
 import { json, lerCorpo, selecionar, texto } from "@/lib/api";
 import { deleteRow, readTab, registrarLog, TABS, updateRow } from "@/lib/sheets";
 import type { Papel, Usuario } from "@/lib/types";
+import { papeisCom } from "@/lib/permissoes";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -12,7 +13,7 @@ const PAPEIS: Papel[] = ["ADMIN", "PORTARIA", "VENDAS"];
 
 export async function PATCH(request: Request, { params }: Ctx) {
   try {
-    const admin = await exigirSessao(["ADMIN"]);
+    const admin = await exigirSessao(papeisCom("administrar"));
     const corpo = await lerCorpo(request);
     const patch = selecionar(corpo, ["nome"]);
 
@@ -55,7 +56,7 @@ export async function PATCH(request: Request, { params }: Ctx) {
 
 export async function DELETE(_request: Request, { params }: Ctx) {
   try {
-    const admin = await exigirSessao(["ADMIN"]);
+    const admin = await exigirSessao(papeisCom("administrar"));
     if (params.id === admin.id) throw new HttpError(409, "Você não pode apagar o próprio usuário.");
 
     const usuarios = await readTab<Usuario>(TABS.usuarios, false);

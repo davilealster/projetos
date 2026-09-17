@@ -35,7 +35,7 @@ interface Detalhe {
 export default function PaginaEvento() {
   const { id } = useParams<{ id: string }>();
   const router = useRouter();
-  const { ehAdmin, atualizar, recarregarEventos } = useApp();
+  const { ehAdmin, podeVerVip, atualizar, recarregarEventos } = useApp();
   const avisar = useToast();
   const confirmar = useConfirmacao();
   const { dados, carregando, erro } = useDados<Detalhe>(`/api/eventos/${id}`);

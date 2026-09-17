@@ -22,7 +22,8 @@ interface Resumo {
   lounge: { total: number; ocupados: number; livres: number; aniversariantes: number; checkins: number };
   bistro: { total: number; ocupados: number; livres: number; checkins: number };
   mesa: { total: number; ocupados: number; livres: number; checkins: number };
-  vip: { nomes: number; pessoas: number; checkins: number; limite: number };
+  /** null quando o papel nao pode ver a lista da portaria. */
+  vip: { nomes: number; pessoas: number; checkins: number; limite: number } | null;
 }
 
 export default function PaginaInicio() {
@@ -118,6 +119,7 @@ export default function PaginaInicio() {
             <IconeSeta className="shrink-0 text-pds-muted" width={18} height={18} />
           </Link>
 
+          {dados.vip ? (
           <Link
             href="/vip"
             className="card flex items-center gap-4 px-5 py-4 transition active:scale-[.99]"
@@ -135,13 +137,16 @@ export default function PaginaInicio() {
             </div>
             <IconeSeta className="shrink-0 text-pds-muted" width={18} height={18} />
           </Link>
+          ) : null}
 
           <section className="card px-5 py-4">
             <p className="text-[11px] font-bold uppercase tracking-wider text-pds-muted">
               Check-ins de hoje
             </p>
             <div className="mt-3 flex flex-wrap gap-2">
-              <Etiqueta cor="verde">Lista VIP: {dados.vip.checkins}</Etiqueta>
+              {dados.vip ? (
+                <Etiqueta cor="verde">Lista VIP: {dados.vip.checkins}</Etiqueta>
+              ) : null}
               <Etiqueta cor="laranja">Lounge: {dados.lounge.checkins}</Etiqueta>
               <Etiqueta cor="azul">Bistro: {dados.bistro.checkins}</Etiqueta>
               <Etiqueta cor="cinza">Mesas: {dados.mesa.checkins}</Etiqueta>

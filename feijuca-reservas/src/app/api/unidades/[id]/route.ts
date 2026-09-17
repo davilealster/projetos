@@ -5,6 +5,7 @@ import { reservaAtiva } from "@/lib/regras";
 import { normalizarTipo, rotuloDoTipo, tabelaDoTipo } from "@/lib/unidades";
 import { normalizarValor } from "@/lib/valores";
 import type { Reserva } from "@/lib/types";
+import { papeisCom } from "@/lib/permissoes";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -17,7 +18,7 @@ function tipoDaQuery(request: Request) {
 
 export async function PATCH(request: Request, { params }: Ctx) {
   try {
-    const user = await exigirSessao(["ADMIN"]);
+    const user = await exigirSessao(papeisCom("administrar"));
     const tipo = tipoDaQuery(request);
     const corpo = await lerCorpo(request);
     const patch = selecionar(corpo, ["numero", "nome", "capacidade", "valor", "status", "observacoes"]);
@@ -41,7 +42,7 @@ export async function PATCH(request: Request, { params }: Ctx) {
 
 export async function DELETE(request: Request, { params }: Ctx) {
   try {
-    const user = await exigirSessao(["ADMIN"]);
+    const user = await exigirSessao(papeisCom("administrar"));
     const tipo = tipoDaQuery(request);
 
     const reservas = await readTab<Reserva>(TABS.reservas, false);

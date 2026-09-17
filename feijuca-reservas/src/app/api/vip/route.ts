@@ -3,6 +3,7 @@ import { inteiro, json, lerCorpo, obrigatorio, texto } from "@/lib/api";
 import { appendRow, findById, readTab, registrarLog, TABS } from "@/lib/sheets";
 import { idAleatorio } from "@/lib/identificadores";
 import type { Evento, TipoVip, Vip } from "@/lib/types";
+import { papeisCom } from "@/lib/permissoes";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -11,7 +12,7 @@ const TIPOS: TipoVip[] = ["VIP", "CORTESIA", "DESCONTO", "ANIVERSARIANTE"];
 
 export async function GET(request: Request) {
   try {
-    await exigirSessao();
+    await exigirSessao(papeisCom("verVip"));
     const url = new URL(request.url);
     const eventoId = url.searchParams.get("evento_id");
     const busca = (url.searchParams.get("busca") ?? "").trim().toLowerCase();
@@ -36,7 +37,7 @@ export async function GET(request: Request) {
 
 export async function POST(request: Request) {
   try {
-    const user = await exigirSessao(["ADMIN", "VENDAS", "PORTARIA"]);
+    const user = await exigirSessao(papeisCom("incluirVip"));
     const corpo = await lerCorpo(request);
 
     const eventoId = obrigatorio(corpo.evento_id, "evento_id");

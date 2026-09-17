@@ -41,8 +41,8 @@ https://docs.google.com/spreadsheets/d/1hn1MswrZH6yq0BXsUU7rPBGdRf9u6DIZxtrfPLoh
 - **Links de lista**: o admin cria um link por pessoa do grupo. Quem recebe abre um formulário,
   cola os nomes e envia. O link **não dá acesso ao app** — só empurra nomes para a lista da
   portaria daquele evento.
-- **Perfis de acesso**: Administrador (tudo), Vendas (reservas + lista) e
-  Portaria (só check-in e incluir nomes).
+- **Perfis de acesso**: Administrador (tudo), Vendas (só reservas de lounge, bistrô e mesa) e
+  Portaria (só lista VIP e check-in). Ver a seção *Quem pode o quê*.
 - **Trilha de auditoria**: toda criação/edição vai para a aba `Log` da planilha.
 
 ## Como é a navegação
@@ -219,20 +219,48 @@ Você pode editar a planilha à mão — o app lê e escreve nas mesmas colunas.
 |---|---|---|
 | `/api/auth/login`, `/logout`, `/me` | POST/GET | todos |
 | `/api/eventos` | GET / POST | todos / admin |
-| `/api/eventos/[id]` | GET / PATCH / DELETE | todos / admin / admin |
+| `/api/eventos/[id]` | GET / PATCH / DELETE | todos¹ / admin / admin |
 | `/api/unidades` | GET / POST | todos / admin |
 | `/api/croqui` | POST | admin |
-| `/api/listas` | GET / POST | admin+vendas / admin |
+| `/api/listas` | GET / POST | admin |
 | `/api/listas/[id]` | PATCH / DELETE | admin |
 | `/api/publico/lista/[token]` | GET / POST | **público** (só com o token) |
 | `/api/unidades/[id]?tipo=` | PATCH / DELETE | admin |
 | `/api/reservas` | GET / POST | todos / admin+vendas |
 | `/api/reservas/[id]` | PATCH / DELETE | admin+vendas (check-in também portaria) / admin |
-| `/api/vip` | GET / POST | todos |
-| `/api/vip/[id]` | PATCH / DELETE | admin+vendas (status também portaria) |
+| `/api/vip` | GET / POST | admin+portaria |
+| `/api/vip/[id]` | PATCH / DELETE | admin (check-in também portaria) |
 | `/api/usuarios`, `/api/usuarios/[id]` | GET/POST/PATCH/DELETE | admin |
-| `/api/resumo?evento_id=` | GET | todos |
+| `/api/resumo?evento_id=` | GET | todos¹ |
 | `/api/saude` | GET | público (diagnóstico) |
+
+---
+
+## Quem pode o quê
+
+A matriz vive em `src/lib/permissoes.ts` e é a **mesma** que a tela e as rotas consultam.
+Esconder um botão não protege nada: a rota recusa sozinha, e a tela só evita mostrar porta
+que não abre.
+
+| | Administrador | Vendas | Portaria |
+|---|:---:|:---:|:---:|
+| Reservar, mover, trocar e cancelar lounge/bistrô/mesa | ✅ | ✅ | — |
+| Check-in de quem tem mesa | ✅ | ✅ | ✅ |
+| Mapa do salão | ✅ | ✅ | ✅ |
+| Ver a lista VIP | ✅ | — | ✅ |
+| Incluir nome e fazer check-in na lista | ✅ | — | ✅ |
+| Editar ou remover um nome da lista | ✅ | — | — |
+| Links públicos de lista | ✅ | — | — |
+| Criar e editar eventos, unidades e croqui | ✅ | — | — |
+| Usuários | ✅ | — | — |
+
+**Vendas não enxerga a lista da portaria.** Isso vale também para os dados: `/api/resumo` e
+`/api/eventos/[id]` deixam de mandar o bloco de VIP para quem não pode vê-lo¹ — devolver e
+esconder no HTML deixaria a lista a um devtools de distância. A barra inferior de vendas fica
+*Início · Mapa · Lounge · Bistrô · Mesas*.
+
+¹ A rota responde a qualquer sessão, mas omite os dados da lista VIP para quem não tem a
+capacidade `verVip`.
 
 ---
 

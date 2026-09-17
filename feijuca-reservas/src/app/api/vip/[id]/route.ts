@@ -1,4 +1,5 @@
 import { erroResposta, exigirSessao, HttpError } from "@/lib/auth";
+import { papeisCom } from "@/lib/permissoes";
 import { json, lerCorpo, selecionar, texto } from "@/lib/api";
 import { deleteRow, findById, registrarLog, TABS, updateRow } from "@/lib/sheets";
 import type { StatusVip, Vip } from "@/lib/types";
@@ -27,7 +28,7 @@ export async function PATCH(request: Request, { params }: Ctx) {
     const chaves = Object.keys(corpo);
     const somenteStatus = chaves.length > 0 && chaves.every((c) => c === "status");
     const user = await exigirSessao(
-      somenteStatus ? ["ADMIN", "VENDAS", "PORTARIA"] : ["ADMIN", "VENDAS"],
+      papeisCom(somenteStatus ? "incluirVip" : "editarVip"),
     );
 
     const vip = await findById<Vip>(TABS.vip, params.id);
@@ -62,7 +63,7 @@ export async function PATCH(request: Request, { params }: Ctx) {
 
 export async function DELETE(_request: Request, { params }: Ctx) {
   try {
-    const user = await exigirSessao(["ADMIN", "VENDAS"]);
+    const user = await exigirSessao(papeisCom("editarVip"));
     const apagado = await deleteRow(TABS.vip, params.id);
     if (!apagado) throw new HttpError(404, "Nome não encontrado na lista.");
     await registrarLog({

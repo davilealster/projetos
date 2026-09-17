@@ -14,6 +14,7 @@ import { tabelaDoTipo, TIPOS_UNIDADE, valorPadraoDoEvento } from "@/lib/unidades
 import { normalizarValor } from "@/lib/valores";
 import { montarMapa, statusPrioridadeLounge } from "@/lib/regras";
 import type { Evento, Reserva, Unidade, Vip } from "@/lib/types";
+import { papeisCom, pode } from "@/lib/permissoes";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -37,7 +38,7 @@ const CAMPOS_EDITAVEIS = [
 
 export async function GET(_request: Request, { params }: Ctx) {
   try {
-    await exigirSessao();
+    const user = await exigirSessao();
     const evento = await findById<Evento>(TABS.eventos, params.id);
     if (!evento) throw new HttpError(404, "Evento não encontrado.");
 
@@ -58,7 +59,7 @@ export async function GET(_request: Request, { params }: Ctx) {
       lounges: montarMapa(doEvento(lounges), doEvento(reservas)),
       bistros: montarMapa(doEvento(bistros), doEvento(reservas)),
       mesas: montarMapa(doEvento(mesas), doEvento(reservas)),
-      vips: doEvento(vips),
+      vips: pode(user.papel, "verVip") ? doEvento(vips) : [],
     });
   } catch (error) {
     return erroResposta(error);
@@ -67,7 +68,7 @@ export async function GET(_request: Request, { params }: Ctx) {
 
 export async function PATCH(request: Request, { params }: Ctx) {
   try {
-    const user = await exigirSessao(["ADMIN"]);
+    const user = await exigirSessao(papeisCom("administrar"));
     const corpo = await lerCorpo(request);
     const patch = selecionar(corpo, CAMPOS_EDITAVEIS);
     if (patch.lounges_liberados) {
@@ -123,7 +124,7 @@ export async function PATCH(request: Request, { params }: Ctx) {
 
 export async function DELETE(_request: Request, { params }: Ctx) {
   try {
-    const user = await exigirSessao(["ADMIN"]);
+    const user = await exigirSessao(papeisCom("administrar"));
 
     const [reservas, vips] = await Promise.all([
       readTab<Reserva>(TABS.reservas, false),

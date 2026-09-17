@@ -29,18 +29,18 @@ import type { ListaPublica, StatusLista } from "@/lib/types";
 type ListaComContagem = ListaPublica & { nomes: number; pessoas: number };
 
 export default function PaginaListas() {
-  const { evento, carregando: carregandoApp, ehAdmin, podeVender, atualizar } = useApp();
+  const { evento, carregando: carregandoApp, ehAdmin, pode, atualizar } = useApp();
   const { dados, carregando, erro } = useDados<{ listas: ListaComContagem[] }>(
-    evento && podeVender ? `/api/listas?evento_id=${evento.id}` : null,
+    evento && pode("linksLista") ? `/api/listas?evento_id=${evento.id}` : null,
   );
   const [novaAberta, setNovaAberta] = useState(false);
   const [aberta, setAberta] = useState<ListaComContagem | null>(null);
 
-  if (!podeVender) {
+  if (!pode("linksLista")) {
     return (
       <Vazio
         titulo="Área restrita"
-        descricao="Os links de lista ficam com o administrador e a equipe de vendas."
+        descricao="Os links de lista são do administrador, junto com a lista da portaria."
       />
     );
   }

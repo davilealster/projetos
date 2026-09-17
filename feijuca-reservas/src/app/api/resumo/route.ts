@@ -2,6 +2,7 @@ import { erroResposta, exigirSessao, HttpError } from "@/lib/auth";
 import { json, obrigatorio } from "@/lib/api";
 import { findById, readTab, TABS } from "@/lib/sheets";
 import { montarMapa } from "@/lib/regras";
+import { pode } from "@/lib/permissoes";
 import type { Evento, Reserva, Unidade, Vip } from "@/lib/types";
 
 export const runtime = "nodejs";
@@ -9,7 +10,7 @@ export const dynamic = "force-dynamic";
 
 export async function GET(request: Request) {
   try {
-    await exigirSessao();
+    const user = await exigirSessao();
     const eventoId = obrigatorio(new URL(request.url).searchParams.get("evento_id"), "evento_id");
 
     const evento = await findById<Evento>(TABS.eventos, eventoId);
@@ -64,12 +65,15 @@ export async function GET(request: Request) {
         livres: mapaMesa.length - ocupadosMesa.length,
         checkins: ocupadosMesa.filter((u) => u.reserva?.status === "CHECKIN").length,
       },
-      vip: {
-        nomes: vipsEvento.length,
-        pessoas: vipsEvento.reduce((t, v) => t + 1 + (Number(v.acompanhantes) || 0), 0),
-        checkins: vipsEvento.filter((v) => v.status === "CHECKIN").length,
-        limite: Number(evento.capacidade_lista_vip) || 0,
-      },
+      // Vendas nao enxerga a lista da portaria, entao nem os numeros dela.
+      vip: pode(user.papel, "verVip")
+        ? {
+            nomes: vipsEvento.length,
+            pessoas: vipsEvento.reduce((t, v) => t + 1 + (Number(v.acompanhantes) || 0), 0),
+            checkins: vipsEvento.filter((v) => v.status === "CHECKIN").length,
+            limite: Number(evento.capacidade_lista_vip) || 0,
+          }
+        : null,
     });
   } catch (error) {
     return erroResposta(error);

@@ -3,6 +3,7 @@ import { inteiro, json, lerCorpo, selecionar, texto } from "@/lib/api";
 import { deleteRow, readTab, registrarLog, TABS, updateRow } from "@/lib/sheets";
 import { gerarToken } from "@/lib/identificadores";
 import type { StatusLista, Vip } from "@/lib/types";
+import { papeisCom } from "@/lib/permissoes";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -13,7 +14,7 @@ const STATUS: StatusLista[] = ["ATIVA", "PAUSADA", "ENCERRADA"];
 
 export async function PATCH(request: Request, { params }: Ctx) {
   try {
-    const user = await exigirSessao(["ADMIN"]);
+    const user = await exigirSessao(papeisCom("linksLista"));
     const corpo = await lerCorpo(request);
     const patch = selecionar(corpo, ["nome", "responsavel", "instrucoes"]);
 
@@ -48,7 +49,7 @@ export async function PATCH(request: Request, { params }: Ctx) {
 
 export async function DELETE(_request: Request, { params }: Ctx) {
   try {
-    const user = await exigirSessao(["ADMIN"]);
+    const user = await exigirSessao(papeisCom("linksLista"));
 
     // Os nomes já recebidos continuam valendo, então apagar a lista
     // deixaria o rastro de quem indicou cada um pendurado no vazio.

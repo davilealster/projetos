@@ -34,7 +34,7 @@ const TONS_ZONA: Record<string, string> = {
 };
 
 export function CroquiSalao() {
-  const { evento, carregando: carregandoApp, podeVender, usuario, ehAdmin, atualizar } = useApp();
+  const { evento, carregando: carregandoApp, podeReservar, usuario, ehAdmin, atualizar } = useApp();
   const { dados, carregando, erro } = useDados<Detalhe>(
     evento ? `/api/eventos/${evento.id}` : null,
   );
@@ -243,7 +243,7 @@ export function CroquiSalao() {
           <ListaPosicoes
             evento={evento}
             grupos={grupos}
-            podeVender={podeVender}
+            podeReservar={podeReservar}
             aoAbrir={(_, unidade) => setSelecionada(unidade)}
             aoAtualizar={atualizar}
           />
@@ -299,7 +299,7 @@ export function CroquiSalao() {
           eventoEncerrado={evento.status === "ENCERRADO"}
           prioridadeLiberada={prioridade.liberado}
           motivoBloqueio={motivoLounge}
-          podeVender={podeVender}
+          podeReservar={podeReservar}
           podeApagar={usuario?.papel === "ADMIN"}
           aoFechar={() => setSelecionada(null)}
           aoSalvar={() => {

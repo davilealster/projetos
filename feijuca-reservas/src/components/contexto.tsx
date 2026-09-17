@@ -3,6 +3,7 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import { api, ApiError } from "@/lib/cliente";
+import { pode, type Capacidade } from "@/lib/permissoes";
 import type { Evento, SessionUser } from "@/lib/types";
 
 const CHAVE_EVENTO = "pds:evento";
@@ -19,7 +20,10 @@ interface AppCtx {
   versao: number;
   atualizar: () => void;
   ehAdmin: boolean;
-  podeVender: boolean;
+  /** Capacidade do papel logado; mesma matriz que as rotas usam. */
+  pode: (capacidade: Capacidade) => boolean;
+  podeReservar: boolean;
+  podeVerVip: boolean;
 }
 
 const Ctx = createContext<AppCtx | null>(null);
@@ -92,7 +96,9 @@ export function AppProvider({
       versao,
       atualizar: () => setVersao((v) => v + 1),
       ehAdmin: usuario.papel === "ADMIN",
-      podeVender: usuario.papel === "ADMIN" || usuario.papel === "VENDAS",
+      pode: (capacidade: Capacidade) => pode(usuario.papel, capacidade),
+      podeReservar: pode(usuario.papel, "reservas"),
+      podeVerVip: pode(usuario.papel, "verVip"),
     }),
     [usuario, eventos, eventoId, carregando, erro, trocarEvento, recarregarEventos, versao],
   );
