@@ -14,11 +14,24 @@ npm run sync                   # os 20 times (1 + 20 requisições na API-Footba
 npm run dev
 ```
 
+## Páginas
+
+| Rota | O que é |
+| --- | --- |
+| `/` | Os 20 clubes, com busca |
+| `/{slug}` | Prancheta do clube (ex.: `/vasco`). Escalação compartilhada vem em `#s=...` |
+| `/{slug}/live` | Modo Live para OBS: `?bg=grass\|solid\|chroma\|transparent&ratio=16x9\|9x16&size=P\|M\|G&safe=1&creator=@handle&ui=0&score=1` |
+| `/creator` | Página para influenciadores: gerador de URL do OBS, atalhos e aviso de imagens |
+
+Atalhos: `1`–`6` formações, `D` desenhar, `E` apagar desenhos, `C` limpar campo, `H` esconder controles, `S` lista de substituições, `Ctrl+Z` desfazer.
+
+Pendências e decisões em aberto: [PENDENCIAS.md](PENDENCIAS.md).
+
 ## Pipeline de dados (`scripts/`)
 
 | Script | O que faz | Saída |
 | --- | --- | --- |
-| `fetch:teams` | `/teams?league=71&season=2026`, trava o `apiId` de cada slug em `data/team-map.json` pelos aliases, baixa escudos | `data/raw/_teams.json`, `public/teams/{slug}/crest.webp` |
+| `fetch:teams` | `/teams?league=71&season=2026`, trava o `apiId` de cada slug em `data/team-map.json` pelos aliases, baixa escudos | `.cache/teams.json`, `public/teams/{slug}/crest.webp` |
 | `fetch:squads` | `/players/squads?team={id}`, 1,5 s entre chamadas, cache em `.cache/squads` | `data/raw/{slug}.json` |
 | `fetch:sportsdb` | TheSportsDB: posição específica e nome completo como sugestão | `data/sportsdb/{slug}.json` |
 | `fetch:photos` | baixa fotos, descarta o placeholder genérico (hash repetido), converte para webp 192x192 q80 | `public/players/{slug}/{id}.webp` |

@@ -11,7 +11,8 @@ import {
 } from "./lib/io";
 
 const PLACEHOLDER_MIN_REPEATS = 3;
-const KNOWN_PLACEHOLDERS_FILE = p(".cache/photos/_placeholders.json");
+// Versionado: o CI começa sem cache e precisa reconhecer a silhueta já conhecida.
+const KNOWN_PLACEHOLDERS_FILE = p("data/photo-placeholders.json");
 
 const sha = (b: Buffer) => createHash("sha1").update(b).digest("hex");
 
@@ -22,10 +23,16 @@ export async function downloadPhotos({ teams = null as string[] | null, force = 
   // 1) baixar para o cache bruto
   const entries: { slug: string; id: number; hash: string }[] = [];
   let failed = 0;
+  let kept = 0;
   for (const slug of slugs) {
     const raw = readJson<{ players: RawPlayer[] }>(PATHS.raw(slug), { players: [] });
     for (const pl of raw.players) {
       if (!pl.photo) continue;
+      // já convertida numa rodada anterior: não baixa de novo
+      if (!force && existsSync(PATHS.photo(slug, pl.id))) {
+        kept++;
+        continue;
+      }
       const cache = PATHS.photoCache(pl.id);
       try {
         if (force || !existsSync(cache)) {
@@ -48,20 +55,16 @@ export async function downloadPhotos({ teams = null as string[] | null, force = 
   const known = new Set(readJson<string[]>(KNOWN_PLACEHOLDERS_FILE, []));
   for (const [h, n] of counts) if (n >= PLACEHOLDER_MIN_REPEATS) known.add(h);
   ensureDir(KNOWN_PLACEHOLDERS_FILE);
-  writeFileSync(KNOWN_PLACEHOLDERS_FILE, JSON.stringify([...known]));
+  writeFileSync(KNOWN_PLACEHOLDERS_FILE, JSON.stringify([...known], null, 2) + "\n");
 
   // 3) converter
-  let ok = 0;
+  let ok = kept;
   let placeholders = 0;
   for (const e of entries) {
     const out = PATHS.photo(e.slug, e.id);
     if (known.has(e.hash)) {
       placeholders++;
       rmSync(out, { force: true });
-      continue;
-    }
-    if (!force && existsSync(out)) {
-      ok++;
       continue;
     }
     try {

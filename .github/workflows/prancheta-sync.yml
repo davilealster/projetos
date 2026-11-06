@@ -1,0 +1,52 @@
+name: Prancheta · sincronizar elencos
+
+# Toda segunda às 9h UTC: baixa os elencos da API-Football e abre um PR se algo mudou
+# (transferências e posições novas precisam de revisão antes de publicar).
+on:
+  schedule:
+    - cron: "0 9 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: prancheta-brasileirao
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: prancheta-brasileirao/package-lock.json
+
+      - run: npm ci
+
+      - name: Sincronizar (elencos + fotos + build)
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+        run: npm run sync
+
+      - run: npm test
+
+      - name: Abrir PR com as mudanças
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: prancheta/sync-elencos
+          delete-branch: true
+          commit-message: "Atualiza elencos da Série A"
+          title: "Prancheta: elencos atualizados"
+          body: |
+            Sincronização semanal automática (API-Football).
+            Confira transferências, números de camisa e jogadores novos com posição genérica
+            (`npm run review`) antes de fazer o merge.
+          add-paths: |
+            prancheta-brasileirao/data
+            prancheta-brasileirao/src/data
+            prancheta-brasileirao/public

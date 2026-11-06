@@ -28,7 +28,7 @@ export const FORMATIONS: Record<string, Slot[]> = {
     { role: "MEI", u: 0.35, v: 0.7 },
     { role: "MEI", u: 0.35, v: 0.3 },
     { role: "PON", u: 0.44, v: 0.85 },
-    { role: "ATA", u: 0.47, v: 0.5 },
+    { role: "ATA", u: 0.43, v: 0.5 },
     { role: "PON", u: 0.44, v: 0.15 },
   ],
   "4-4-2": [
@@ -37,8 +37,8 @@ export const FORMATIONS: Record<string, Slot[]> = {
     { role: "VOL", u: 0.31, v: 0.6 },
     { role: "MEI", u: 0.31, v: 0.4 },
     { role: "PON", u: 0.34, v: 0.14 },
-    { role: "ATA", u: 0.46, v: 0.62 },
-    { role: "ATA", u: 0.46, v: 0.38 },
+    { role: "ATA", u: 0.44, v: 0.64 },
+    { role: "ATA", u: 0.44, v: 0.36 },
   ],
   "4-2-3-1": [
     ...back4,
@@ -47,7 +47,7 @@ export const FORMATIONS: Record<string, Slot[]> = {
     { role: "PON", u: 0.39, v: 0.85 },
     { role: "MEI", u: 0.39, v: 0.5 },
     { role: "PON", u: 0.39, v: 0.15 },
-    { role: "ATA", u: 0.47, v: 0.5 },
+    { role: "ATA", u: 0.43, v: 0.5 },
   ],
   "3-5-2": [
     ...back3,
@@ -56,8 +56,8 @@ export const FORMATIONS: Record<string, Slot[]> = {
     { role: "MEI", u: 0.35, v: 0.67 },
     { role: "MEI", u: 0.35, v: 0.33 },
     { role: "LE", u: 0.31, v: 0.1 },
-    { role: "ATA", u: 0.46, v: 0.62 },
-    { role: "ATA", u: 0.46, v: 0.38 },
+    { role: "ATA", u: 0.44, v: 0.64 },
+    { role: "ATA", u: 0.44, v: 0.36 },
   ],
   "3-4-3": [
     ...back3,
@@ -66,7 +66,7 @@ export const FORMATIONS: Record<string, Slot[]> = {
     { role: "VOL", u: 0.29, v: 0.4 },
     { role: "LE", u: 0.3, v: 0.12 },
     { role: "PON", u: 0.43, v: 0.84 },
-    { role: "ATA", u: 0.47, v: 0.5 },
+    { role: "ATA", u: 0.43, v: 0.5 },
     { role: "PON", u: 0.43, v: 0.16 },
   ],
   "5-3-2": [
@@ -79,8 +79,8 @@ export const FORMATIONS: Record<string, Slot[]> = {
     { role: "VOL", u: 0.3, v: 0.5 },
     { role: "MEI", u: 0.36, v: 0.7 },
     { role: "MEI", u: 0.36, v: 0.3 },
-    { role: "ATA", u: 0.46, v: 0.62 },
-    { role: "ATA", u: 0.46, v: 0.38 },
+    { role: "ATA", u: 0.44, v: 0.64 },
+    { role: "ATA", u: 0.44, v: 0.36 },
   ],
 };
 // As posições acima foram pensadas no próprio campo; esticamos para o time ocupar o campo todo

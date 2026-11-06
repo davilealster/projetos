@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { Board } from "./components/Board";
+import { CreatorPage } from "./components/CreatorPage";
 import { TeamPicker } from "./components/TeamPicker";
 import { navigate, useRoute } from "./router";
 
@@ -10,6 +11,7 @@ export function App() {
   }, [route]);
 
   if (route.page === "home") return <TeamPicker />;
+  if (route.page === "creator") return <CreatorPage />;
   if (route.page === "board") return <Board key={route.slug} slug={route.slug} live={route.live} />;
   return (
     <div className="notfound">

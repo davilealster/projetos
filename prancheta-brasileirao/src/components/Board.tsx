@@ -6,9 +6,11 @@ import type { DragPayload } from "../lib/drag";
 import { FORMATION_NAMES, applyFormation, applyOppNumbers, mirror, slotsFor } from "../lib/formations";
 import { emptyState, encodeState, getPref, loadSaved, readHashState, save, setPref } from "../lib/state";
 import { exportImage } from "../lib/exportImage";
+import { cleanHandle, referral, trackEvent } from "../lib/analytics";
 import type { BoardState, Drawing, DrawTool, Player, Point, Team, Token } from "../types";
 import { Avatar } from "./Avatar";
 import { DrawControls, FormationButtons } from "./Controls";
+import { ExportCard, type ExportFormat } from "./ExportCard";
 import { Footer } from "./Footer";
 import { OpponentPanel } from "./OpponentPanel";
 import { Pitch, type PitchHandle, type TokenRender } from "./Pitch";
@@ -53,6 +55,8 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
   const dragSnap = useRef<Snap | null>(null);
   const pitchRef = useRef<PitchHandle>(null);
   const captureRef = useRef<HTMLDivElement>(null);
+  const cardRef = useRef<HTMLDivElement>(null);
+  const [exportFmt, setExportFmt] = useState<ExportFormat | null>(null);
   const narrow = useMedia("(max-width: 760px)");
 
   // ---- parâmetros do Modo Live ----
@@ -65,10 +69,15 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
   const [showScore, setShowScore] = useState(qp.get("score") === "1");
   const [showSubs, setShowSubs] = useState(false);
   const [drawer, setDrawer] = useState<"squad" | "opp" | null>(null);
-  const [creator, setCreator] = useState(() => (qp.get("creator") ?? getPref("creator") ?? "").replace(/^@/, ""));
+  // Seu @ (de quem está usando). No Modo Live, ?creator= define o @; fora dele, ?creator= é só a origem da visita.
+  const [creator, setCreator] = useState(() => cleanHandle((live && qp.get("creator")) || getPref("creator")));
   const [solid, setSolid] = useState(qp.get("color") ? `#${qp.get("color")}` : "#0E1A13");
 
-  useEffect(() => setPref("creator", creator), [creator]);
+  useEffect(() => setPref("creator", cleanHandle(creator)), [creator]);
+  useEffect(() => {
+    document.documentElement.classList.toggle("bg-transparent", live && bg === "transparent");
+    return () => document.documentElement.classList.remove("bg-transparent");
+  }, [live, bg]);
 
   // ---- carregar time + estado ----
   useEffect(() => {
@@ -266,9 +275,14 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
   };
 
   // ---- compartilhar / exportar ----
-  const shareUrl = () => (state ? `${location.origin}/${slug}#s=${encodeState(state)}` : "");
+  const shareUrl = () => {
+    if (!state) return "";
+    const by = cleanHandle(creator) || referral();
+    return `${location.origin}/${slug}${by ? `?creator=@${by}` : ""}#s=${encodeState(state)}`;
+  };
   const copyLink = async () => {
     const url = shareUrl();
+    trackEvent("share_link", { team: slug });
     try {
       if (narrow && navigator.share) await navigator.share({ title: `Minha escalação do ${summary?.shortName}`, url });
       else {
@@ -279,15 +293,27 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
       prompt("Copie o link:", url);
     }
   };
-  const downloadImage = async () => {
-    if (!captureRef.current || !summary) return;
+  /** "pitch" = campo como está na tela; feed/story = cartão vertical 1080x1350 / 1080x1920. */
+  const downloadImage = async (fmt: "pitch" | ExportFormat) => {
+    if (busy) return;
     setBusy(true);
     try {
-      await exportImage(captureRef.current, `escalacao-${slug}.png`, narrow);
+      let el: HTMLElement | null = captureRef.current;
+      if (fmt !== "pitch") {
+        setExportFmt(fmt);
+        // espera o cartão montar e as imagens carregarem
+        for (let i = 0; i < 50 && !cardRef.current; i++) await new Promise((r) => setTimeout(r, 30));
+        el = cardRef.current;
+        const imgs = [...(el?.querySelectorAll("img") ?? [])];
+        await Promise.all(imgs.map((im) => (im.complete ? null : new Promise((r) => ((im.onload = r), (im.onerror = r))))));
+      }
+      trackEvent("export_image", { team: slug, format: fmt });
+      if (el) await exportImage(el, `escalacao-${slug}${fmt === "pitch" ? "" : `-${fmt}`}.png`, narrow);
     } catch (err) {
       setToast("Não foi possível gerar a imagem");
       console.error(err);
     } finally {
+      setExportFmt(null);
       setBusy(false);
     }
   };
@@ -465,7 +491,7 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
             <button className={`btn btn--sm ${safe ? "is-on" : ""}`} onClick={() => setSafe((v) => !v)} title="Avatares sem foto">Sem fotos</button>
             <label className="field">
               Seu @
-              <input value={creator} onChange={(e) => setCreator(e.target.value.replace(/^@/, "").slice(0, 30))} placeholder="seucanal" size={10} />
+              <input value={creator} onChange={(e) => setCreator(cleanHandle(e.target.value))} placeholder="seucanal" size={10} />
             </label>
             <button
               className="btn btn--sm"
@@ -480,6 +506,21 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
               title="URL para colar no OBS como Browser Source"
             >
               URL p/ OBS
+            </button>
+            <button
+              className="btn btn--sm"
+              onClick={async () => {
+                const url = `${location.origin}/${slug}${creator ? `?creator=@${cleanHandle(creator)}` : ""}`;
+                try {
+                  await navigator.clipboard.writeText(url);
+                  setToast("Link da audiência copiado");
+                } catch {
+                  prompt("Link para a audiência:", url);
+                }
+              }}
+              title="Link para colar no chat: quem abrir monta a própria escalação"
+            >
+              Link p/ chat
             </button>
             <button className="icon-btn" onClick={() => setUiHidden(true)} title="Esconder controles (H)">✕</button>
           </div>
@@ -562,8 +603,26 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
 
       <div className="cta">
         <button className="btn btn--primary btn--lg" onClick={copyLink}>Compartilhar minha escalação</button>
-        <button className="btn btn--lg" onClick={downloadImage} disabled={busy}>{busy ? "Gerando…" : "Baixar imagem"}</button>
+        <div className="cta__group" role="group" aria-label="Baixar imagem">
+          <span className="cta__label">{busy ? "Gerando…" : "Baixar imagem"}</span>
+          <button className="btn btn--sm" onClick={() => downloadImage("feed")} disabled={busy} title="1080x1350">Feed 4:5</button>
+          <button className="btn btn--sm" onClick={() => downloadImage("story")} disabled={busy} title="1080x1920">Story 9:16</button>
+          <button className="btn btn--sm" onClick={() => downloadImage("pitch")} disabled={busy} title="O campo como está na tela">Campo</button>
+        </div>
       </div>
+      {exportFmt && (
+        <ExportCard
+          ref={cardRef}
+          format={exportFmt}
+          team={team}
+          opp={opp && state.tokens.some((t) => t.kind === "oppPlayer") ? opp : null}
+          formation={state.formation}
+          tokens={renders}
+          drawings={state.drawings}
+          creator={creator}
+          host={host}
+        />
+      )}
       <p className="hint">
         O campo é seu. Arraste do elenco para o campo; solte um reserva em cima de um titular para substituir. Duplo clique
         (ou toque longo) remove. Atalhos: 1–6 formações · D desenhar · E apagar · C limpar · H esconder painéis · Ctrl+Z desfazer.
