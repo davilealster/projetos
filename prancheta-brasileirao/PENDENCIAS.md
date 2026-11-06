@@ -9,7 +9,7 @@ Atualizado em 06/11/2026. O que está feito vai no fim do arquivo.
    - Opção B: eu monto um rascunho de LD/LE/VOL/PON e apelidos por time e você só revisa. Recomendo começar pelos times das lives que você já tem em vista.
 2. **134 nomes abreviados** ("J. Rojas", "A. Gómez"). Corrige no mesmo override com `displayName`.
 3. **Domínio e nome do site.** A marca d'água usa o endereço em que o site está rodando. Falta decidir o nome/domínio definitivo (ex.: `pranchetabrasileirao.com.br`). "Prancheta Brasileirão" é provisório.
-4. **Deploy na Vercel.** O `vercel.json` já está pronto (diretório raiz do projeto: `prancheta-brasileirao`). Preciso que você conecte o repositório na Vercel, ou me passe um token, para eu publicar e te mandar a URL para testar no OBS.
+4. **Deploy automático a cada push.** O site está publicado em https://prancheta-brasileirao.vercel.app (deploy manual pelo CLI em 06/11/2026). Para cada push publicar sozinho, conecte o repositório no painel da Vercel (Settings → Git, Root Directory = `prancheta-brasileirao`).
 5. **Secret `API_FOOTBALL_KEY` no GitHub** (Settings → Secrets → Actions) para a sincronização semanal funcionar.
 6. **Revisar as cores dos clubes** em `data/team-colors.json` (preenchidas de memória).
 7. **Termos da API-Football sobre exibir as fotos publicamente** (seção 8 do plano). Não verifiquei. Se houver restrição, deixo "sem fotos" como padrão em tudo, não só no `?safe=1`.
