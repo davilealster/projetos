@@ -90,8 +90,7 @@ export function OpponentPanel(props: Props) {
               <button
                 className={`opp-chip ${props.onField.has(n) ? "is-used" : ""}`}
                 style={{ background: props.color, color: textOn(props.color), touchAction: "none" }}
-                onPointerDown={(e) => startPanelDrag(e, payload, props.onDrop)}
-                onDoubleClick={() => props.onActivate(payload)}
+                onPointerDown={(e) => startPanelDrag(e, payload, props.onDrop, props.onActivate)}
                 onKeyDown={(e) => {
                   if (e.key === "Enter" || e.key === " ") {
                     e.preventDefault();

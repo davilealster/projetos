@@ -47,14 +47,13 @@ export function SquadPanel({ title, players, colors, kind, onField, onDrop, onAc
             <li key={p.id}>
               <button
                 className={`squad__item ${used ? "is-used" : ""}`}
-                onPointerDown={(e) => startPanelDrag(e, payload, onDrop)}
+                onPointerDown={(e) => startPanelDrag(e, payload, onDrop, onActivate)}
                 onKeyDown={(e) => {
                   if (e.key === "Enter" || e.key === " ") {
                     e.preventDefault();
                     onActivate(payload);
                   }
                 }}
-                onDoubleClick={() => onActivate(payload)}
                 aria-label={`${p.name}, ${p.pos}${p.number != null ? `, número ${p.number}` : ""}${used ? ", em campo" : ""}`}
                 style={{ touchAction: "none" }}
               >

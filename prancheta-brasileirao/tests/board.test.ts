@@ -76,3 +76,26 @@ describe("link compartilhável", () => {
     expect(decodeState("e30")).toBeNull(); // "{}"
   });
 });
+
+describe("pickSlot (clique para escalar)", async () => {
+  const { pickSlot, slotsFor } = await import("../src/lib/formations");
+  const slots = slotsFor("4-3-3", true);
+  it("zagueiro vai para vaga de zagueiro, não de lateral", () => {
+    expect(pickSlot(slots, [], { pos: "ZAG" })?.role).toBe("ZAG");
+  });
+  it("com as vagas de zagueiro ocupadas, usa a alternativa", () => {
+    const zags = slots.filter((s) => s.role === "ZAG");
+    expect(pickSlot(slots, zags, { pos: "ZAG", alt: ["VOL"] })?.role).toBe("VOL");
+  });
+  it("lateral esquerdo vai para LE; goleiro para o gol", () => {
+    expect(pickSlot(slots, [], { pos: "LE" })?.role).toBe("LE");
+    expect(pickSlot(slots, [], { pos: "GOL" })?.role).toBe("GOL");
+  });
+  it("quem não é goleiro nunca cai no gol", () => {
+    const allButGk = slots.filter((s) => s.role !== "GOL");
+    expect(pickSlot(slots, allButGk, { pos: "ATA" })).toBeNull();
+  });
+  it("ficha numerada usa a vaga do número", () => {
+    expect(pickSlot(slots, [], null, 6)).toBe(slots[6]);
+  });
+});

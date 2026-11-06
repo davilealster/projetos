@@ -127,7 +127,27 @@ a { color: inherit; }
   background: var(--panel-2); border: 1px solid var(--club-ui); border-radius: var(--radius); padding: 10px 14px; margin-bottom: 12px;
 }
 
-.board__panels { display: grid; grid-template-columns: 1.7fr 1fr; gap: 12px; }
+/* elenco e adversário com o mesmo tamanho e a mesma grade */
+.board__panels { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; align-items: stretch; }
+.board__panels .panel { height: 340px; }
+.board__panels .squad { flex: 1; max-height: none; min-height: 0; }
+.board__panels .chips-grid { flex: 1; min-height: 0; overflow-y: auto; align-content: start; }
+
+/* painéis recolhidos: o campo se ajusta à altura da tela */
+.board.is-focus .capture .pitch { width: min(100%, calc((100svh - 210px) * 109 / 72)); margin-inline: auto; }
+.board.is-focus .capture .pitch--vertical { width: min(100%, calc((100svh - 210px) * 72 / 109)); }
+.board.is-focus .capture__foot { max-width: calc((100svh - 210px) * 109 / 72); margin-inline: auto; }
+.panels-toggle { white-space: nowrap; }
+
+/* barra de rolagem discreta: só aparece com o mouse em cima */
+.squad, .chips-grid, .drawer, .admin__teams {
+  scrollbar-width: thin; scrollbar-color: transparent transparent; scrollbar-gutter: stable;
+}
+.squad:hover, .chips-grid:hover, .drawer:hover, .admin__teams:hover { scrollbar-color: rgba(255,255,255,.22) transparent; }
+.squad::-webkit-scrollbar, .chips-grid::-webkit-scrollbar, .drawer::-webkit-scrollbar, .admin__teams::-webkit-scrollbar { width: 6px; }
+.squad::-webkit-scrollbar-track, .chips-grid::-webkit-scrollbar-track, .drawer::-webkit-scrollbar-track, .admin__teams::-webkit-scrollbar-track { background: transparent; }
+.squad::-webkit-scrollbar-thumb, .chips-grid::-webkit-scrollbar-thumb, .drawer::-webkit-scrollbar-thumb, .admin__teams::-webkit-scrollbar-thumb { background: transparent; border-radius: 6px; }
+.squad:hover::-webkit-scrollbar-thumb, .chips-grid:hover::-webkit-scrollbar-thumb, .drawer:hover::-webkit-scrollbar-thumb, .admin__teams:hover::-webkit-scrollbar-thumb { background: rgba(255,255,255,.22); }
 .panel {
   background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius);
   padding: 12px; min-width: 0; display: flex; flex-direction: column;
@@ -152,7 +172,7 @@ a { color: inherit; }
 .squad {
   list-style: none; margin: 0; padding: 2px; display: grid;
   grid-template-columns: repeat(auto-fill, minmax(78px, 1fr)); gap: 4px 4px;
-  max-height: 268px; overflow-y: auto; scrollbar-width: thin;
+  max-height: 268px; overflow-y: auto;
 }
 .squad__item {
   width: 100%; border: 0; background: transparent; cursor: grab; padding: 6px 2px 4px; border-radius: 10px;
@@ -491,6 +511,7 @@ kbd { background: var(--bg); border: 1px solid var(--line); border-bottom-width:
 /* ============ Responsivo ============ */
 @media (max-width: 960px) {
   .board__panels { grid-template-columns: 1fr; }
+  .board__panels .panel { height: 300px; }
 }
 @media (max-width: 760px) {
   .board { padding: 10px 12px 0; }

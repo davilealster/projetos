@@ -108,6 +108,44 @@ const FALLBACK: Record<Pos, Pos[]> = {
 // Funções específicas são preenchidas antes das genéricas para não "roubar" um lateral para a zaga.
 const FILL_ORDER: Pos[] = ["GOL", "LD", "LE", "VOL", "PON", "ATA", "ZAG", "MEI"];
 
+/** Nota de encaixe (menor = melhor): posição principal > alternativas > parentes da função (FALLBACK). */
+export function fitScore(p: Pick<Player, "pos" | "alt">, role: Pos): number {
+  if (p.pos === role) return 0;
+  const a = p.alt?.indexOf(role) ?? -1;
+  if (a >= 0) return 1 + a;
+  const f = FALLBACK[role].indexOf(p.pos);
+  return f >= 0 ? 3 + f : Infinity;
+}
+
+const dist = (a: { u: number; v: number }, b: { u: number; v: number }) => Math.hypot((a.u - b.u) * 105, (a.v - b.v) * 68);
+
+/**
+ * Vaga livre para um jogador escalado com clique: a da posição dele (ex.: zagueiro → vaga de zagueiro),
+ * depois alternativas e funções próximas; nunca o gol para quem não é goleiro.
+ * Sem jogador (ficha numerada), usa a vaga de índice `preferIndex` se livre, senão a primeira livre.
+ */
+export function pickSlot(
+  slots: Slot[],
+  taken: { u: number; v: number }[],
+  player?: Pick<Player, "pos" | "alt"> | null,
+  preferIndex?: number,
+): Slot | null {
+  const free = slots.filter((s) => taken.every((t) => dist(t, s) > 3));
+  if (!free.length) return null;
+  if (!player) {
+    const pref = preferIndex !== undefined ? slots[preferIndex] : undefined;
+    return pref && free.includes(pref) ? pref : free[0];
+  }
+  let best: Slot | null = null;
+  let bestScore = Infinity;
+  for (const s of free) {
+    const sc = fitScore(player, s.role);
+    if (sc < bestScore) [best, bestScore] = [s, sc];
+  }
+  if (best) return best;
+  return player.pos === "GOL" ? null : free.find((s) => s.role !== "GOL") ?? null;
+}
+
 /** Espelha um ponto para o lado adversário. */
 export const mirror = (s: { u: number; v: number }) => ({ u: 1 - s.u, v: 1 - s.v });
 
@@ -131,14 +169,7 @@ export function applyFormation(opts: {
 
   const assigned = new Map<number, number>(); // slot index -> player id
   const used = new Set<number>();
-  // nota de encaixe: posição principal > alternativas > parentes da função (FALLBACK)
-  const fit = (p: Player, role: Pos): number => {
-    if (p.pos === role) return 0;
-    const a = p.alt?.indexOf(role) ?? -1;
-    if (a >= 0) return 1 + a;
-    const f = FALLBACK[role].indexOf(p.pos);
-    return f >= 0 ? 3 + f : Infinity;
-  };
+  const fit = fitScore;
   const pick = (pool: number[], role: Pos): number | undefined => {
     let best: number | undefined;
     let bestScore = Infinity;

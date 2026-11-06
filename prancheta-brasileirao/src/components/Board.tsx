@@ -3,7 +3,7 @@ import { loadTeam, teamSummary } from "../data";
 import { navigate, params } from "../router";
 import { clubVars, labelName, textOn } from "../lib/color";
 import type { DragPayload } from "../lib/drag";
-import { FORMATION_NAMES, applyFormation, applyOppNumbers, mirror, slotsFor } from "../lib/formations";
+import { FORMATION_NAMES, applyFormation, applyOppNumbers, mirror, pickSlot, slotsFor } from "../lib/formations";
 import { emptyState, encodeState, getPref, loadSaved, readHashState, save, setPref } from "../lib/state";
 import { exportImage } from "../lib/exportImage";
 import { cleanHandle, referral, trackEvent } from "../lib/analytics";
@@ -70,7 +70,8 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
   const [ratio, setRatio] = useState<Ratio>(qp.get("ratio") === "9x16" ? "9x16" : "16x9");
   const [size, setSize] = useState<Size>((qp.get("size") as Size) || "M");
   const [safe, setSafe] = useState(qp.get("safe") === "1");
-  const [uiHidden, setUiHidden] = useState(qp.get("ui") === "0");
+  // Modo Live: esconde os controles. Prancheta: recolhe os painéis (lembrado no navegador) para o campo caber na tela.
+  const [uiHidden, setUiHidden] = useState(() => qp.get("ui") === "0" || (!live && getPref("panels") === "closed"));
   const [showScore, setShowScore] = useState(qp.get("score") === "1");
   const [showSubs, setShowSubs] = useState(false);
   const [drawer, setDrawer] = useState<"squad" | "opp" | null>(null);
@@ -79,6 +80,9 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
   const [solid, setSolid] = useState(qp.get("color") ? `#${qp.get("color")}` : "#0E1A13");
 
   useEffect(() => setPref("creator", cleanHandle(creator)), [creator]);
+  useEffect(() => {
+    if (!live) setPref("panels", uiHidden ? "closed" : "open");
+  }, [live, uiHidden]);
   useEffect(() => {
     document.documentElement.classList.toggle("bg-transparent", live && bg === "transparent");
     return () => document.documentElement.classList.remove("bg-transparent");
@@ -217,10 +221,13 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
       const existing = s.tokens.findIndex((t) => sameToken(t, payload));
       if (existing >= 0) return { ...s, tokens: s.tokens.filter((_, i) => i !== existing) };
       const isOpp = payload.kind !== "player";
-      const slots = slotsFor(s.formation, !isOpp && !hasOpp(s.tokens)).map((x) => (isOpp ? mirror(x) : x));
+      const slots = slotsFor(s.formation, !isOpp && !hasOpp(s.tokens)).map((x) => (isOpp ? { ...x, ...mirror(x) } : x));
       const mates = s.tokens.filter((t) => (isOpp ? t.kind === "opp" || t.kind === "oppPlayer" : t.kind === "player"));
-      const free = slots.find((sl) => mates.every((m) => meters(m, sl) > 3));
-      const spot = free ?? { u: isOpp ? 0.75 : 0.25, v: 0.15 + Math.random() * 0.7 };
+      const player =
+        payload.kind === "player" ? playersById.get(payload.ref) : payload.kind === "oppPlayer" ? oppById.get(payload.ref) : null;
+      // jogador vai para a vaga da posição dele; ficha numerada N vai para a vaga N da formação
+      const slot = pickSlot(slots, mates, player, payload.kind === "opp" ? payload.ref - 1 : undefined);
+      const spot = slot ?? { u: isOpp ? 0.75 : 0.25, v: 0.15 + Math.random() * 0.7 };
       return { ...s, tokens: [...s.tokens, { ...payload, u: spot.u, v: spot.v }] };
     });
 
@@ -574,7 +581,7 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
 
   // =================== PRANCHETA NORMAL ===================
   return (
-    <div className="board" style={vars}>
+    <div className={`board ${uiHidden ? "is-focus" : ""}`} style={vars}>
       <header className="board__head">
         <a className="back" href="/" onClick={(e) => (e.preventDefault(), navigate("/"))}>← Clubes</a>
         <div className="board__club">
@@ -621,6 +628,17 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
       )}
 
       <div className="toolbar">
+        <button
+          className={`btn btn--sm panels-toggle ${uiHidden ? "is-on" : ""}`}
+          onClick={() => {
+            setUiHidden((h) => !h);
+            window.scrollTo({ top: 0, behavior: "smooth" });
+          }}
+          aria-expanded={!uiHidden}
+          title="Recolher/mostrar elenco e adversário para o campo caber na tela (H)"
+        >
+          {uiHidden ? "▸ Mostrar elenco" : "▾ Recolher elenco"}
+        </button>
         <FormationButtons value={state.formation} onPick={setFormation} />
         <DrawControls tool={drawTool} color={drawColor} onTool={pickTool} onColor={setDrawColor} onErase={eraseDrawings} />
         <div className="toolbar__end">

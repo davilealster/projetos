@@ -11,6 +11,8 @@ export function startPanelDrag(
   e: React.PointerEvent<HTMLElement>,
   payload: DragPayload,
   onDrop: (p: DragPayload, x: number, y: number) => void,
+  /** clique sem arrastar */
+  onClick?: (p: DragPayload) => void,
 ): void {
   if (e.button !== 0) return;
   e.preventDefault();
@@ -53,6 +55,7 @@ export function startPanelDrag(
     const wasDrag = !!ghost;
     ghost?.remove();
     if (wasDrag) onDrop(payload, ev.clientX, ev.clientY);
+    else onClick?.(payload);
   };
   const cancel = () => {
     window.removeEventListener("pointermove", move);
