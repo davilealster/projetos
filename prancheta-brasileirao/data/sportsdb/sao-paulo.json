@@ -1,0 +1,44 @@
+{
+  "190": {
+    "strPosition": "Right-Back",
+    "pos": "LD"
+  },
+  "6237": {
+    "strPosition": "Left-Back",
+    "fullName": "Enzo Díaz",
+    "pos": "LE"
+  },
+  "8451": {
+    "strPosition": "Defender",
+    "pos": "ZAG"
+  },
+  "10040": {
+    "strPosition": "Right Winger",
+    "pos": "PON"
+  },
+  "25272": {
+    "strPosition": "Attacking Midfield",
+    "pos": "MEI"
+  },
+  "41188": {
+    "strPosition": "Forward",
+    "pos": "ATA"
+  },
+  "46795": {
+    "strPosition": "Centre-Back",
+    "pos": "ZAG"
+  },
+  "50726": {
+    "strPosition": "Goalkeeper",
+    "pos": "GOL"
+  },
+  "77754": {
+    "strPosition": "Central Midfield",
+    "pos": "MEI"
+  },
+  "195107": {
+    "strPosition": "Central Midfield",
+    "fullName": "Damián Bobadilla",
+    "pos": "MEI"
+  }
+}

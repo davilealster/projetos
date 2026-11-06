@@ -1,0 +1,280 @@
+{
+  "slug": "internacional",
+  "name": "Internacional",
+  "shortName": "Inter",
+  "colors": {
+    "primary": "#E30613",
+    "secondary": "#FFFFFF",
+    "accent": "#000000"
+  },
+  "crest": "/teams/internacional/crest.webp",
+  "updatedAt": "2026-11-06",
+  "players": [
+    {
+      "id": 50077,
+      "name": "S. Rochet",
+      "number": 1,
+      "pos": "GOL",
+      "photo": "/players/internacional/50077.webp"
+    },
+    {
+      "id": 306552,
+      "name": "Anthoni",
+      "number": 12,
+      "pos": "GOL",
+      "photo": "/players/internacional/306552.webp"
+    },
+    {
+      "id": 415046,
+      "name": "Kauan",
+      "number": 22,
+      "pos": "GOL",
+      "photo": "/players/internacional/415046.webp"
+    },
+    {
+      "id": 306210,
+      "name": "Matheus Cunha",
+      "number": 23,
+      "pos": "GOL",
+      "photo": "/players/internacional/306210.webp"
+    },
+    {
+      "id": 664879,
+      "name": "Felipe",
+      "number": 24,
+      "pos": "GOL",
+      "photo": null
+    },
+    {
+      "id": 624986,
+      "name": "Diego Esser",
+      "number": 32,
+      "pos": "GOL",
+      "photo": null
+    },
+    {
+      "id": 463951,
+      "name": "Henrique Menke",
+      "number": 43,
+      "pos": "GOL",
+      "photo": "/players/internacional/463951.webp"
+    },
+    {
+      "id": 2553,
+      "name": "G. Maripán",
+      "number": 3,
+      "pos": "ZAG",
+      "photo": "/players/internacional/2553.webp"
+    },
+    {
+      "id": 63964,
+      "name": "F. Torres",
+      "number": 4,
+      "pos": "ZAG",
+      "photo": "/players/internacional/63964.webp"
+    },
+    {
+      "id": 9912,
+      "name": "Juninho",
+      "number": 18,
+      "pos": "ZAG",
+      "photo": "/players/internacional/9912.webp"
+    },
+    {
+      "id": 2044,
+      "name": "G. Mercado",
+      "number": 25,
+      "pos": "ZAG",
+      "photo": "/players/internacional/2044.webp"
+    },
+    {
+      "id": 305042,
+      "name": "Victor Gabriel",
+      "number": 41,
+      "pos": "ZAG",
+      "photo": "/players/internacional/305042.webp"
+    },
+    {
+      "id": 463956,
+      "name": "Pedro Kauã",
+      "number": 46,
+      "pos": "ZAG",
+      "photo": "/players/internacional/463956.webp"
+    },
+    {
+      "id": 660739,
+      "name": "L. F. de Morais Francisco",
+      "number": 53,
+      "pos": "ZAG",
+      "photo": null
+    },
+    {
+      "id": 288720,
+      "name": "Braian Aguirre",
+      "number": 35,
+      "pos": "LD",
+      "photo": "/players/internacional/288720.webp"
+    },
+    {
+      "id": 129902,
+      "name": "Alexandro Bernabéi",
+      "number": 26,
+      "pos": "LE",
+      "photo": "/players/internacional/129902.webp"
+    },
+    {
+      "id": 143368,
+      "name": "Bruno Gomes",
+      "number": 15,
+      "pos": "VOL",
+      "photo": "/players/internacional/143368.webp"
+    },
+    {
+      "id": 6519,
+      "name": "R. Villagra",
+      "number": 5,
+      "pos": "MEI",
+      "photo": "/players/internacional/6519.webp"
+    },
+    {
+      "id": 197051,
+      "name": "Matheus Bahia",
+      "number": 6,
+      "pos": "MEI",
+      "photo": "/players/internacional/197051.webp"
+    },
+    {
+      "id": 9921,
+      "name": "Bruno Henrique",
+      "number": 8,
+      "pos": "MEI",
+      "photo": "/players/internacional/9921.webp"
+    },
+    {
+      "id": 692,
+      "name": "Alan Patrick",
+      "number": 10,
+      "pos": "MEI",
+      "photo": "/players/internacional/692.webp"
+    },
+    {
+      "id": 10167,
+      "name": "Ronaldo",
+      "number": 16,
+      "pos": "MEI",
+      "photo": "/players/internacional/10167.webp"
+    },
+    {
+      "id": 19270,
+      "name": "N. Eliasson",
+      "number": 17,
+      "pos": "MEI",
+      "photo": "/players/internacional/19270.webp"
+    },
+    {
+      "id": 96353,
+      "name": "Paulinho",
+      "number": 27,
+      "pos": "MEI",
+      "photo": "/players/internacional/96353.webp"
+    },
+    {
+      "id": 22231,
+      "name": "Thiago Maia",
+      "number": 29,
+      "pos": "MEI",
+      "photo": "/players/internacional/22231.webp"
+    },
+    {
+      "id": 266658,
+      "name": "Calebe",
+      "number": 30,
+      "pos": "MEI",
+      "photo": "/players/internacional/266658.webp"
+    },
+    {
+      "id": 415052,
+      "name": "Allex",
+      "number": 31,
+      "pos": "MEI",
+      "photo": null
+    },
+    {
+      "id": 610495,
+      "name": "B. Arhin",
+      "number": 33,
+      "pos": "MEI",
+      "photo": null
+    },
+    {
+      "id": 633310,
+      "name": "Joao Gabriel Kempes Goncalves",
+      "number": 51,
+      "pos": "MEI",
+      "photo": null
+    },
+    {
+      "id": 661196,
+      "name": "Gabriel Vinicius",
+      "number": 52,
+      "pos": "MEI",
+      "photo": null
+    },
+    {
+      "id": 13691,
+      "name": "J. Carbonero",
+      "number": 7,
+      "pos": "ATA",
+      "photo": "/players/internacional/13691.webp"
+    },
+    {
+      "id": 9893,
+      "name": "Alerrandro",
+      "number": 9,
+      "pos": "ATA",
+      "photo": "/players/internacional/9893.webp"
+    },
+    {
+      "id": 305819,
+      "name": "Kayky",
+      "number": 11,
+      "pos": "ATA",
+      "photo": "/players/internacional/305819.webp"
+    },
+    {
+      "id": 2522,
+      "name": "Antonio Sanabria",
+      "number": 19,
+      "pos": "ATA",
+      "photo": "/players/internacional/2522.webp"
+    },
+    {
+      "id": 10147,
+      "name": "Vitinho",
+      "number": 28,
+      "pos": "ATA",
+      "photo": "/players/internacional/10147.webp"
+    },
+    {
+      "id": 633284,
+      "name": "Victor Joao",
+      "number": 44,
+      "pos": "ATA",
+      "photo": null
+    },
+    {
+      "id": 609580,
+      "name": "J. Bezerra",
+      "number": 49,
+      "pos": "ATA",
+      "photo": null
+    },
+    {
+      "id": 609467,
+      "name": "F. Zechmeister",
+      "number": 54,
+      "pos": "ATA",
+      "photo": null
+    }
+  ]
+}

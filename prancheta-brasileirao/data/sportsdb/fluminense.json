@@ -1,0 +1,20 @@
+{
+  "10080": {
+    "strPosition": "Goalkeeper",
+    "pos": "GOL"
+  },
+  "10311": {
+    "strPosition": "Attacking Midfield",
+    "fullName": "Ganso",
+    "pos": "MEI"
+  },
+  "10501": {
+    "strPosition": "Attacker",
+    "pos": "ATA"
+  },
+  "51603": {
+    "strPosition": "Right Winger",
+    "fullName": "Agustín Canobbio",
+    "pos": "PON"
+  }
+}

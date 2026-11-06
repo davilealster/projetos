@@ -1,0 +1,222 @@
+[
+  {
+    "slug": "athletico-pr",
+    "name": "Athletico Paranaense",
+    "shortName": "Athletico-PR",
+    "crest": "/teams/athletico-pr/crest.webp",
+    "colors": {
+      "primary": "#C8102E",
+      "secondary": "#000000",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "slug": "atletico-mg",
+    "name": "Atlético Mineiro",
+    "shortName": "Atlético-MG",
+    "crest": "/teams/atletico-mg/crest.webp",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "accent": "#D4AF37"
+    }
+  },
+  {
+    "slug": "bahia",
+    "name": "Bahia",
+    "shortName": "Bahia",
+    "crest": "/teams/bahia/crest.webp",
+    "colors": {
+      "primary": "#0055A4",
+      "secondary": "#FFFFFF",
+      "accent": "#E30613"
+    }
+  },
+  {
+    "slug": "botafogo",
+    "name": "Botafogo",
+    "shortName": "Botafogo",
+    "crest": "/teams/botafogo/crest.webp",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "accent": "#9A9A9A"
+    }
+  },
+  {
+    "slug": "bragantino",
+    "name": "Red Bull Bragantino",
+    "shortName": "Bragantino",
+    "crest": "/teams/bragantino/crest.webp",
+    "colors": {
+      "primary": "#FFFFFF",
+      "secondary": "#E30613",
+      "accent": "#0B1F3A"
+    }
+  },
+  {
+    "slug": "chapecoense",
+    "name": "Chapecoense",
+    "shortName": "Chapecoense",
+    "crest": "/teams/chapecoense/crest.webp",
+    "colors": {
+      "primary": "#00843D",
+      "secondary": "#FFFFFF",
+      "accent": "#000000"
+    }
+  },
+  {
+    "slug": "corinthians",
+    "name": "Corinthians",
+    "shortName": "Corinthians",
+    "crest": "/teams/corinthians/crest.webp",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "accent": "#9A9A9A"
+    }
+  },
+  {
+    "slug": "coritiba",
+    "name": "Coritiba",
+    "shortName": "Coritiba",
+    "crest": "/teams/coritiba/crest.webp",
+    "colors": {
+      "primary": "#00544D",
+      "secondary": "#FFFFFF",
+      "accent": "#000000"
+    }
+  },
+  {
+    "slug": "cruzeiro",
+    "name": "Cruzeiro",
+    "shortName": "Cruzeiro",
+    "crest": "/teams/cruzeiro/crest.webp",
+    "colors": {
+      "primary": "#0033A0",
+      "secondary": "#FFFFFF",
+      "accent": "#F2C200"
+    }
+  },
+  {
+    "slug": "flamengo",
+    "name": "Flamengo",
+    "shortName": "Flamengo",
+    "crest": "/teams/flamengo/crest.webp",
+    "colors": {
+      "primary": "#C8102E",
+      "secondary": "#000000",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "slug": "fluminense",
+    "name": "Fluminense",
+    "shortName": "Fluminense",
+    "crest": "/teams/fluminense/crest.webp",
+    "colors": {
+      "primary": "#7A0A2E",
+      "secondary": "#006437",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "slug": "gremio",
+    "name": "Grêmio",
+    "shortName": "Grêmio",
+    "crest": "/teams/gremio/crest.webp",
+    "colors": {
+      "primary": "#0D80BF",
+      "secondary": "#000000",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "slug": "internacional",
+    "name": "Internacional",
+    "shortName": "Inter",
+    "crest": "/teams/internacional/crest.webp",
+    "colors": {
+      "primary": "#E30613",
+      "secondary": "#FFFFFF",
+      "accent": "#000000"
+    }
+  },
+  {
+    "slug": "mirassol",
+    "name": "Mirassol",
+    "shortName": "Mirassol",
+    "crest": "/teams/mirassol/crest.webp",
+    "colors": {
+      "primary": "#FFD200",
+      "secondary": "#00843D",
+      "accent": "#000000"
+    }
+  },
+  {
+    "slug": "palmeiras",
+    "name": "Palmeiras",
+    "shortName": "Palmeiras",
+    "crest": "/teams/palmeiras/crest.webp",
+    "colors": {
+      "primary": "#006437",
+      "secondary": "#FFFFFF",
+      "accent": "#0B3D2E"
+    }
+  },
+  {
+    "slug": "remo",
+    "name": "Remo",
+    "shortName": "Remo",
+    "crest": "/teams/remo/crest.webp",
+    "colors": {
+      "primary": "#0B2A5B",
+      "secondary": "#FFFFFF",
+      "accent": "#6CB4E4"
+    }
+  },
+  {
+    "slug": "santos",
+    "name": "Santos",
+    "shortName": "Santos",
+    "crest": "/teams/santos/crest.webp",
+    "colors": {
+      "primary": "#FFFFFF",
+      "secondary": "#000000",
+      "accent": "#B8A16B"
+    }
+  },
+  {
+    "slug": "sao-paulo",
+    "name": "São Paulo",
+    "shortName": "São Paulo",
+    "crest": "/teams/sao-paulo/crest.webp",
+    "colors": {
+      "primary": "#E30613",
+      "secondary": "#FFFFFF",
+      "accent": "#000000"
+    }
+  },
+  {
+    "slug": "vasco",
+    "name": "Vasco da Gama",
+    "shortName": "Vasco",
+    "crest": "/teams/vasco/crest.webp",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "accent": "#E30613"
+    }
+  },
+  {
+    "slug": "vitoria",
+    "name": "Vitória",
+    "shortName": "Vitória",
+    "crest": "/teams/vitoria/crest.webp",
+    "colors": {
+      "primary": "#E30613",
+      "secondary": "#000000",
+      "accent": "#FFFFFF"
+    }
+  }
+]

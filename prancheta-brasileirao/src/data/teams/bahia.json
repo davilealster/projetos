@@ -1,0 +1,259 @@
+{
+  "slug": "bahia",
+  "name": "Bahia",
+  "shortName": "Bahia",
+  "colors": {
+    "primary": "#0055A4",
+    "secondary": "#FFFFFF",
+    "accent": "#E30613"
+  },
+  "crest": "/teams/bahia/crest.webp",
+  "updatedAt": "2026-11-06",
+  "players": [
+    {
+      "id": 9512,
+      "name": "Ronaldo",
+      "number": 1,
+      "pos": "GOL",
+      "photo": "/players/bahia/9512.webp"
+    },
+    {
+      "id": 6225,
+      "name": "G. Herrera",
+      "number": 17,
+      "pos": "GOL",
+      "photo": "/players/bahia/6225.webp"
+    },
+    {
+      "id": 10109,
+      "name": "Léo Vieira",
+      "number": 22,
+      "pos": "GOL",
+      "photo": "/players/bahia/10109.webp"
+    },
+    {
+      "id": 407275,
+      "name": "Victor",
+      "number": 61,
+      "pos": "GOL",
+      "photo": null
+    },
+    {
+      "id": 657690,
+      "name": "J. C. Neres dos Santos I.",
+      "number": 91,
+      "pos": "GOL",
+      "photo": null
+    },
+    {
+      "id": 162138,
+      "name": "Marco Moreno",
+      "number": 3,
+      "pos": "ZAG",
+      "photo": "/players/bahia/162138.webp"
+    },
+    {
+      "id": 10059,
+      "name": "Kanu",
+      "number": 4,
+      "pos": "ZAG",
+      "photo": "/players/bahia/10059.webp"
+    },
+    {
+      "id": 459837,
+      "name": "Roman Gomez",
+      "number": 31,
+      "pos": "ZAG",
+      "photo": "/players/bahia/459837.webp"
+    },
+    {
+      "id": 10351,
+      "name": "David Duarte",
+      "number": 33,
+      "pos": "ZAG",
+      "photo": "/players/bahia/10351.webp"
+    },
+    {
+      "id": 454562,
+      "name": "Luiz Gustavo",
+      "number": 43,
+      "pos": "ZAG",
+      "photo": "/players/bahia/454562.webp"
+    },
+    {
+      "id": 350808,
+      "name": "Marcos Victor",
+      "number": 44,
+      "pos": "ZAG",
+      "photo": "/players/bahia/350808.webp"
+    },
+    {
+      "id": 197383,
+      "name": "Luciano Juba",
+      "number": 46,
+      "pos": "ZAG",
+      "photo": "/players/bahia/197383.webp"
+    },
+    {
+      "id": 411433,
+      "name": "Zé Guilherme",
+      "number": 66,
+      "pos": "ZAG",
+      "photo": "/players/bahia/411433.webp"
+    },
+    {
+      "id": 505598,
+      "name": "Fred",
+      "number": 83,
+      "pos": "ZAG",
+      "photo": "/players/bahia/505598.webp"
+    },
+    {
+      "id": 180236,
+      "name": "Caio Alexandre",
+      "number": 8,
+      "pos": "VOL",
+      "photo": "/players/bahia/180236.webp"
+    },
+    {
+      "id": 10130,
+      "name": "Erick",
+      "number": 14,
+      "pos": "VOL",
+      "photo": "/players/bahia/10130.webp"
+    },
+    {
+      "id": 51545,
+      "name": "N. Acevedo",
+      "number": 5,
+      "pos": "MEI",
+      "photo": "/players/bahia/51545.webp"
+    },
+    {
+      "id": 9994,
+      "name": "Jean Lucas",
+      "number": 6,
+      "pos": "MEI",
+      "photo": "/players/bahia/9994.webp"
+    },
+    {
+      "id": 10168,
+      "name": "Éverton Ribeiro",
+      "number": 10,
+      "pos": "MEI",
+      "photo": "/players/bahia/10168.webp"
+    },
+    {
+      "id": 9954,
+      "name": "Rodrigo Nestor",
+      "number": 11,
+      "pos": "MEI",
+      "photo": "/players/bahia/9954.webp"
+    },
+    {
+      "id": 51701,
+      "name": "M. Araújo",
+      "number": 15,
+      "pos": "MEI",
+      "photo": "/players/bahia/51701.webp"
+    },
+    {
+      "id": 427332,
+      "name": "Lautaro López",
+      "number": 18,
+      "pos": "MEI",
+      "photo": "/players/bahia/427332.webp"
+    },
+    {
+      "id": 407265,
+      "name": "Sidney",
+      "number": 55,
+      "pos": "MEI",
+      "photo": "/players/bahia/407265.webp"
+    },
+    {
+      "id": 525667,
+      "name": "Çağatay Yılmaz",
+      "number": 57,
+      "pos": "MEI",
+      "photo": null
+    },
+    {
+      "id": 510204,
+      "name": "David Martins",
+      "number": 63,
+      "pos": "MEI",
+      "photo": "/players/bahia/510204.webp"
+    },
+    {
+      "id": 454145,
+      "name": "Wendel Silva",
+      "number": 67,
+      "pos": "MEI",
+      "photo": "/players/bahia/454145.webp"
+    },
+    {
+      "id": 9854,
+      "name": "Ademir",
+      "number": 7,
+      "pos": "PON",
+      "photo": "/players/bahia/9854.webp"
+    },
+    {
+      "id": 303127,
+      "name": "Erick Pulga",
+      "number": 16,
+      "pos": "PON",
+      "photo": "/players/bahia/303127.webp"
+    },
+    {
+      "id": 67902,
+      "name": "Cristian Olivera",
+      "number": 99,
+      "pos": "PON",
+      "photo": "/players/bahia/67902.webp"
+    },
+    {
+      "id": 311344,
+      "name": "Alejo Véliz",
+      "number": 9,
+      "pos": "ATA",
+      "photo": "/players/bahia/311344.webp"
+    },
+    {
+      "id": 47319,
+      "name": "Willian José",
+      "number": 12,
+      "pos": "ATA",
+      "photo": "/players/bahia/47319.webp"
+    },
+    {
+      "id": 355253,
+      "name": "M. Sanabria",
+      "number": 23,
+      "pos": "ATA",
+      "photo": "/players/bahia/355253.webp"
+    },
+    {
+      "id": 10222,
+      "name": "Everaldo",
+      "number": 27,
+      "pos": "ATA",
+      "photo": "/players/bahia/10222.webp"
+    },
+    {
+      "id": 454147,
+      "name": "Ruan Pablo",
+      "number": 77,
+      "pos": "ATA",
+      "photo": "/players/bahia/454147.webp"
+    },
+    {
+      "id": 510677,
+      "name": "Dell",
+      "number": 89,
+      "pos": "ATA",
+      "photo": "/players/bahia/510677.webp"
+    }
+  ]
+}

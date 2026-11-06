@@ -1,0 +1,224 @@
+{
+  "slug": "mirassol",
+  "name": "Mirassol",
+  "shortName": "Mirassol",
+  "colors": {
+    "primary": "#FFD200",
+    "secondary": "#00843D",
+    "accent": "#000000"
+  },
+  "crest": "/teams/mirassol/crest.webp",
+  "updatedAt": "2026-11-06",
+  "players": [
+    {
+      "id": 80649,
+      "name": "Georgemy",
+      "number": 1,
+      "pos": "GOL",
+      "photo": "/players/mirassol/80649.webp"
+    },
+    {
+      "id": 10226,
+      "name": "Walter",
+      "number": 22,
+      "pos": "GOL",
+      "photo": "/players/mirassol/10226.webp"
+    },
+    {
+      "id": 9337,
+      "name": "Alex Muralha",
+      "number": 23,
+      "pos": "GOL",
+      "photo": "/players/mirassol/9337.webp"
+    },
+    {
+      "id": 77966,
+      "name": "Thomazella",
+      "number": 90,
+      "pos": "GOL",
+      "photo": "/players/mirassol/77966.webp"
+    },
+    {
+      "id": 9308,
+      "name": "Lucas Oliveira",
+      "number": 2,
+      "pos": "ZAG",
+      "photo": "/players/mirassol/9308.webp"
+    },
+    {
+      "id": 80654,
+      "name": "Willian Machado",
+      "number": 3,
+      "pos": "ZAG",
+      "photo": "/players/mirassol/80654.webp"
+    },
+    {
+      "id": 9946,
+      "name": "Reinaldo",
+      "number": 6,
+      "pos": "ZAG",
+      "photo": "/players/mirassol/9946.webp"
+    },
+    {
+      "id": 9573,
+      "name": "Elias",
+      "number": 18,
+      "pos": "ZAG",
+      "photo": "/players/mirassol/9573.webp"
+    },
+    {
+      "id": 156191,
+      "name": "Igor Formiga",
+      "number": 32,
+      "pos": "ZAG",
+      "photo": "/players/mirassol/156191.webp"
+    },
+    {
+      "id": 115525,
+      "name": "João Victor",
+      "number": 34,
+      "pos": "ZAG",
+      "photo": "/players/mirassol/115525.webp"
+    },
+    {
+      "id": 357888,
+      "name": "Gabriel",
+      "number": 44,
+      "pos": "ZAG",
+      "photo": "/players/mirassol/357888.webp"
+    },
+    {
+      "id": 9771,
+      "name": "Daniel Borges",
+      "number": 20,
+      "pos": "LD",
+      "photo": "/players/mirassol/9771.webp"
+    },
+    {
+      "id": 405353,
+      "name": "Japa",
+      "number": 5,
+      "pos": "MEI",
+      "photo": "/players/mirassol/405353.webp"
+    },
+    {
+      "id": 10025,
+      "name": "Shaylon",
+      "number": 7,
+      "pos": "MEI",
+      "photo": "/players/mirassol/10025.webp"
+    },
+    {
+      "id": 80474,
+      "name": "Chico",
+      "number": 10,
+      "pos": "MEI",
+      "photo": "/players/mirassol/80474.webp"
+    },
+    {
+      "id": 9620,
+      "name": "Gustavo Silva",
+      "number": 19,
+      "pos": "MEI",
+      "photo": "/players/mirassol/9620.webp"
+    },
+    {
+      "id": 133183,
+      "name": "José Aldo",
+      "number": 21,
+      "pos": "MEI",
+      "photo": "/players/mirassol/133183.webp"
+    },
+    {
+      "id": 504957,
+      "name": "Neto",
+      "number": 25,
+      "pos": "MEI",
+      "photo": null
+    },
+    {
+      "id": 276452,
+      "name": "Denilson",
+      "number": 27,
+      "pos": "MEI",
+      "photo": "/players/mirassol/276452.webp"
+    },
+    {
+      "id": 44348,
+      "name": "Eduardo",
+      "number": 33,
+      "pos": "MEI",
+      "photo": "/players/mirassol/44348.webp"
+    },
+    {
+      "id": 96385,
+      "name": "Gustavo Cazonatti",
+      "number": 55,
+      "pos": "MEI",
+      "photo": "/players/mirassol/96385.webp"
+    },
+    {
+      "id": 159493,
+      "name": "Wallisson",
+      "number": 80,
+      "pos": "MEI",
+      "photo": "/players/mirassol/159493.webp"
+    },
+    {
+      "id": 54238,
+      "name": "Edson",
+      "number": 95,
+      "pos": "MEI",
+      "photo": "/players/mirassol/54238.webp"
+    },
+    {
+      "id": 41430,
+      "name": "André Luís",
+      "number": 9,
+      "pos": "ATA",
+      "photo": "/players/mirassol/41430.webp"
+    },
+    {
+      "id": 9907,
+      "name": "Victor Luís",
+      "number": 12,
+      "pos": "ATA",
+      "photo": "/players/mirassol/9907.webp"
+    },
+    {
+      "id": 77680,
+      "name": "Fernandinho",
+      "number": 17,
+      "pos": "ATA",
+      "photo": "/players/mirassol/77680.webp"
+    },
+    {
+      "id": 159843,
+      "name": "Bruno Santos",
+      "number": 30,
+      "pos": "ATA",
+      "photo": "/players/mirassol/159843.webp"
+    },
+    {
+      "id": 9429,
+      "name": "Alesson",
+      "number": 77,
+      "pos": "ATA",
+      "photo": "/players/mirassol/9429.webp"
+    },
+    {
+      "id": 520668,
+      "name": "Carlos Eduardo de Barros",
+      "number": 96,
+      "pos": "ATA",
+      "photo": "/players/mirassol/520668.webp"
+    },
+    {
+      "id": 9686,
+      "name": "Zé Roberto",
+      "number": 99,
+      "pos": "ATA",
+      "photo": "/players/mirassol/9686.webp"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "905": {
+    "strPosition": "Central Midfield",
+    "pos": "MEI"
+  },
+  "9939": {
+    "strPosition": "Left Wing",
+    "pos": "PON"
+  },
+  "9978": {
+    "strPosition": "Goalkeeper",
+    "pos": "GOL"
+  },
+  "16360": {
+    "strPosition": "Central Midfield",
+    "fullName": "Alan Franco",
+    "pos": "MEI"
+  },
+  "18761": {
+    "strPosition": "Left Wing",
+    "pos": "PON"
+  },
+  "280695": {
+    "strPosition": "Right Winger",
+    "fullName": "Alan Minda",
+    "pos": "PON"
+  },
+  "363323": {
+    "strPosition": "Defensive Midfield",
+    "pos": "VOL"
+  }
+}

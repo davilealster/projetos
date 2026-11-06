@@ -1,0 +1,224 @@
+{
+  "slug": "remo",
+  "name": "Remo",
+  "shortName": "Remo",
+  "colors": {
+    "primary": "#0B2A5B",
+    "secondary": "#FFFFFF",
+    "accent": "#6CB4E4"
+  },
+  "crest": "/teams/remo/crest.webp",
+  "updatedAt": "2026-11-06",
+  "players": [
+    {
+      "id": 77812,
+      "name": "Marcelo Rangel",
+      "number": 88,
+      "pos": "GOL",
+      "photo": "/players/remo/77812.webp"
+    },
+    {
+      "id": 9694,
+      "name": "Ygor Vinhas",
+      "number": 94,
+      "pos": "GOL",
+      "photo": "/players/remo/9694.webp"
+    },
+    {
+      "id": 9692,
+      "name": "Ivan",
+      "number": 97,
+      "pos": "GOL",
+      "photo": "/players/remo/9692.webp"
+    },
+    {
+      "id": 9709,
+      "name": "Matheus Alexandre",
+      "number": 2,
+      "pos": "ZAG",
+      "photo": "/players/remo/9709.webp"
+    },
+    {
+      "id": 160101,
+      "name": "Matheus Felipe",
+      "number": 4,
+      "pos": "ZAG",
+      "photo": "/players/remo/160101.webp"
+    },
+    {
+      "id": 547339,
+      "name": "Leo Andrade",
+      "number": 5,
+      "pos": "ZAG",
+      "photo": null
+    },
+    {
+      "id": 77923,
+      "name": "Marlon",
+      "number": 6,
+      "pos": "ZAG",
+      "photo": "/players/remo/77923.webp"
+    },
+    {
+      "id": 10232,
+      "name": "Marllon",
+      "number": 13,
+      "pos": "ZAG",
+      "photo": "/players/remo/10232.webp"
+    },
+    {
+      "id": 36833,
+      "name": "Cristian Tassano",
+      "number": 17,
+      "pos": "ZAG",
+      "photo": "/players/remo/36833.webp"
+    },
+    {
+      "id": 22251,
+      "name": "Duplexe Tchamba",
+      "number": 18,
+      "pos": "ZAG",
+      "photo": "/players/remo/22251.webp"
+    },
+    {
+      "id": 10114,
+      "name": "Zé Ivaldo",
+      "number": 27,
+      "pos": "ZAG",
+      "photo": "/players/remo/10114.webp"
+    },
+    {
+      "id": 80484,
+      "name": "Mayk",
+      "number": 77,
+      "pos": "ZAG",
+      "photo": "/players/remo/80484.webp"
+    },
+    {
+      "id": 268877,
+      "name": "Marcelinho",
+      "number": 79,
+      "pos": "ZAG",
+      "photo": "/players/remo/268877.webp"
+    },
+    {
+      "id": 54894,
+      "name": "Jája Silva",
+      "number": 7,
+      "pos": "MEI",
+      "photo": "/players/remo/54894.webp"
+    },
+    {
+      "id": 10388,
+      "name": "Patrick",
+      "number": 8,
+      "pos": "MEI",
+      "photo": "/players/remo/10388.webp"
+    },
+    {
+      "id": 5211,
+      "name": "L. Picco",
+      "number": 14,
+      "pos": "MEI",
+      "photo": "/players/remo/5211.webp"
+    },
+    {
+      "id": 10581,
+      "name": "Yago Pikachu",
+      "number": 22,
+      "pos": "MEI",
+      "photo": "/players/remo/10581.webp"
+    },
+    {
+      "id": 9882,
+      "name": "José Welison",
+      "number": 28,
+      "pos": "MEI",
+      "photo": "/players/remo/9882.webp"
+    },
+    {
+      "id": 64032,
+      "name": "Edson Fernando",
+      "number": 35,
+      "pos": "MEI",
+      "photo": "/players/remo/64032.webp"
+    },
+    {
+      "id": 10310,
+      "name": "Zé Ricardo",
+      "number": 55,
+      "pos": "MEI",
+      "photo": "/players/remo/10310.webp"
+    },
+    {
+      "id": 631345,
+      "name": "Tico",
+      "number": 61,
+      "pos": "MEI",
+      "photo": null
+    },
+    {
+      "id": 10141,
+      "name": "Gabriel Poveda",
+      "number": 9,
+      "pos": "ATA",
+      "photo": "/players/remo/10141.webp"
+    },
+    {
+      "id": 10146,
+      "name": "Jáderson",
+      "number": 10,
+      "pos": "ATA",
+      "photo": "/players/remo/10146.webp"
+    },
+    {
+      "id": 96343,
+      "name": "Alef Manga",
+      "number": 11,
+      "pos": "ATA",
+      "photo": "/players/remo/96343.webp"
+    },
+    {
+      "id": 9962,
+      "name": "Vitor Bueno",
+      "number": 15,
+      "pos": "ATA",
+      "photo": "/players/remo/9962.webp"
+    },
+    {
+      "id": 80273,
+      "name": "Gabriel Taliari",
+      "number": 19,
+      "pos": "ATA",
+      "photo": "/players/remo/80273.webp"
+    },
+    {
+      "id": 686109,
+      "name": "Andres Gonzalez",
+      "number": 20,
+      "pos": "ATA",
+      "photo": null
+    },
+    {
+      "id": 95392,
+      "name": "Antonio Galeano",
+      "number": 21,
+      "pos": "ATA",
+      "photo": "/players/remo/95392.webp"
+    },
+    {
+      "id": 355193,
+      "name": "David Francisco",
+      "number": 26,
+      "pos": "ATA",
+      "photo": "/players/remo/355193.webp"
+    },
+    {
+      "id": 197073,
+      "name": "Eduardo Melo",
+      "number": 39,
+      "pos": "ATA",
+      "photo": "/players/remo/197073.webp"
+    }
+  ]
+}

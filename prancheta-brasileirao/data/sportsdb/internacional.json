@@ -1,0 +1,43 @@
+{
+  "692": {
+    "strPosition": "Attacking Midfield",
+    "pos": "MEI"
+  },
+  "2522": {
+    "strPosition": "Centre-Forward",
+    "fullName": "Antonio Sanabria",
+    "pos": "ATA"
+  },
+  "9893": {
+    "strPosition": "Forward",
+    "pos": "ATA"
+  },
+  "9921": {
+    "strPosition": "Midfielder",
+    "fullName": "Bruno Henrique Corsini",
+    "pos": "MEI"
+  },
+  "129902": {
+    "strPosition": "Left-Back",
+    "fullName": "Alexandro Bernabéi",
+    "pos": "LE"
+  },
+  "143368": {
+    "strPosition": "Defensive Midfield",
+    "pos": "VOL"
+  },
+  "288720": {
+    "strPosition": "Right-Back",
+    "fullName": "Braian Aguirre",
+    "pos": "LD"
+  },
+  "306552": {
+    "strPosition": "Goalkeeper",
+    "pos": "GOL"
+  },
+  "415052": {
+    "strPosition": "Midfielder",
+    "fullName": "Allex Rodrigues Pereira da Silva",
+    "pos": "MEI"
+  }
+}

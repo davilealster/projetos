@@ -1,0 +1,42 @@
+{
+  "6052": {
+    "strPosition": "Left Wing",
+    "fullName": "Álvaro Barreal",
+    "pos": "PON"
+  },
+  "9949": {
+    "strPosition": "Goalkeeper",
+    "fullName": "Diógenes Vinicius da Silva",
+    "pos": "GOL"
+  },
+  "10174": {
+    "strPosition": "Centre-Forward",
+    "pos": "ATA"
+  },
+  "30568": {
+    "strPosition": "Midfielder",
+    "fullName": "Christian Oliva",
+    "pos": "MEI"
+  },
+  "31007": {
+    "strPosition": "Goalkeeper",
+    "pos": "GOL"
+  },
+  "119485": {
+    "strPosition": "Attacker",
+    "fullName": "Benjamín Rollheiser",
+    "pos": "ATA"
+  },
+  "195111": {
+    "strPosition": "Central Midfield",
+    "pos": "MEI"
+  },
+  "321454": {
+    "strPosition": "Goalkeeper",
+    "pos": "GOL"
+  },
+  "506275": {
+    "strPosition": "Midfielder",
+    "pos": "MEI"
+  }
+}

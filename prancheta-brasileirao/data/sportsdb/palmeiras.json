@@ -1,0 +1,44 @@
+{
+  "899": {
+    "strPosition": "Attacking Midfield",
+    "pos": "MEI"
+  },
+  "5933": {
+    "strPosition": "Centre-Back",
+    "fullName": "Alexander Barboza",
+    "pos": "ZAG"
+  },
+  "10373": {
+    "strPosition": "Goalkeeper",
+    "pos": "GOL"
+  },
+  "10379": {
+    "strPosition": "Centre-Back",
+    "pos": "ZAG"
+  },
+  "31353": {
+    "strPosition": "Centre-Back",
+    "fullName": "Bruno Fuchs",
+    "pos": "ZAG"
+  },
+  "153083": {
+    "strPosition": "Defensive Midfield",
+    "fullName": "Emiliano Martínez",
+    "pos": "VOL"
+  },
+  "306706": {
+    "strPosition": "Defender",
+    "fullName": "Agustín Giay",
+    "pos": "ZAG"
+  },
+  "425715": {
+    "strPosition": "Defender",
+    "fullName": "Arthur Gabriel",
+    "pos": "ZAG"
+  },
+  "512522": {
+    "strPosition": "Midfielder",
+    "fullName": "Erick Machado Belé",
+    "pos": "MEI"
+  }
+}

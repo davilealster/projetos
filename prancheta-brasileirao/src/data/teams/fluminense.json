@@ -1,0 +1,266 @@
+{
+  "slug": "fluminense",
+  "name": "Fluminense",
+  "shortName": "Fluminense",
+  "colors": {
+    "primary": "#7A0A2E",
+    "secondary": "#006437",
+    "accent": "#FFFFFF"
+  },
+  "crest": "/teams/fluminense/crest.webp",
+  "updatedAt": "2026-11-06",
+  "players": [
+    {
+      "id": 10080,
+      "name": "Fábio",
+      "number": 1,
+      "pos": "GOL",
+      "photo": "/players/fluminense/10080.webp"
+    },
+    {
+      "id": 180866,
+      "name": "Marcelo",
+      "number": 27,
+      "pos": "GOL",
+      "photo": "/players/fluminense/180866.webp"
+    },
+    {
+      "id": 10079,
+      "name": "Vitor Eudes",
+      "number": 98,
+      "pos": "GOL",
+      "photo": "/players/fluminense/10079.webp"
+    },
+    {
+      "id": 667869,
+      "name": "Gustavo Felix",
+      "number": null,
+      "pos": "GOL",
+      "photo": null
+    },
+    {
+      "id": 10267,
+      "name": "Samuel Xavier",
+      "number": 2,
+      "pos": "ZAG",
+      "photo": "/players/fluminense/10267.webp"
+    },
+    {
+      "id": 259,
+      "name": "Thiago Silva",
+      "number": 3,
+      "pos": "ZAG",
+      "photo": "/players/fluminense/259.webp"
+    },
+    {
+      "id": 10017,
+      "name": "Ignacio",
+      "number": 4,
+      "pos": "ZAG",
+      "photo": "/players/fluminense/10017.webp"
+    },
+    {
+      "id": 10163,
+      "name": "Renê",
+      "number": 6,
+      "pos": "ZAG",
+      "photo": "/players/fluminense/10163.webp"
+    },
+    {
+      "id": 2038,
+      "name": "Guilherme Arana",
+      "number": 13,
+      "pos": "ZAG",
+      "photo": "/players/fluminense/2038.webp"
+    },
+    {
+      "id": 9872,
+      "name": "Igor Rabello",
+      "number": 21,
+      "pos": "ZAG",
+      "photo": "/players/fluminense/9872.webp"
+    },
+    {
+      "id": 6337,
+      "name": "J. Freytes",
+      "number": 22,
+      "pos": "ZAG",
+      "photo": "/players/fluminense/6337.webp"
+    },
+    {
+      "id": 9874,
+      "name": "Guga",
+      "number": 23,
+      "pos": "ZAG",
+      "photo": "/players/fluminense/9874.webp"
+    },
+    {
+      "id": 13715,
+      "name": "J. Millán",
+      "number": 29,
+      "pos": "ZAG",
+      "photo": "/players/fluminense/13715.webp"
+    },
+    {
+      "id": 519811,
+      "name": "Vagno",
+      "number": 36,
+      "pos": "ZAG",
+      "photo": "/players/fluminense/519811.webp"
+    },
+    {
+      "id": 282692,
+      "name": "Jemmes",
+      "number": 44,
+      "pos": "ZAG",
+      "photo": "/players/fluminense/282692.webp"
+    },
+    {
+      "id": 443088,
+      "name": "Julio Fidelis",
+      "number": 46,
+      "pos": "ZAG",
+      "photo": "/players/fluminense/443088.webp"
+    },
+    {
+      "id": 280245,
+      "name": "Martinelli",
+      "number": 8,
+      "pos": "MEI",
+      "photo": "/players/fluminense/280245.webp"
+    },
+    {
+      "id": 10311,
+      "name": "PH Ganso",
+      "number": 10,
+      "pos": "MEI",
+      "photo": "/players/fluminense/10311.webp"
+    },
+    {
+      "id": 51214,
+      "name": "J. Savarino",
+      "number": 11,
+      "pos": "MEI",
+      "photo": "/players/fluminense/51214.webp"
+    },
+    {
+      "id": 10396,
+      "name": "Nonato",
+      "number": 16,
+      "pos": "MEI",
+      "photo": "/players/fluminense/10396.webp"
+    },
+    {
+      "id": 502726,
+      "name": "Riquelme",
+      "number": 28,
+      "pos": "MEI",
+      "photo": "/players/fluminense/502726.webp"
+    },
+    {
+      "id": 50763,
+      "name": "L. Acosta",
+      "number": 32,
+      "pos": "MEI",
+      "photo": "/players/fluminense/50763.webp"
+    },
+    {
+      "id": 266267,
+      "name": "Hércules",
+      "number": 35,
+      "pos": "MEI",
+      "photo": "/players/fluminense/266267.webp"
+    },
+    {
+      "id": 667326,
+      "name": "Ruan",
+      "number": 41,
+      "pos": "MEI",
+      "photo": null
+    },
+    {
+      "id": 681309,
+      "name": "Sales Ruan",
+      "number": 41,
+      "pos": "MEI",
+      "photo": null
+    },
+    {
+      "id": 1262,
+      "name": "Otávio",
+      "number": 94,
+      "pos": "MEI",
+      "photo": "/players/fluminense/1262.webp"
+    },
+    {
+      "id": 51603,
+      "name": "Agustín Canobbio",
+      "number": 17,
+      "pos": "PON",
+      "photo": "/players/fluminense/51603.webp"
+    },
+    {
+      "id": 12705,
+      "name": "Hulk",
+      "number": 7,
+      "pos": "ATA",
+      "photo": "/players/fluminense/12705.webp"
+    },
+    {
+      "id": 297522,
+      "name": "John Kennedy",
+      "number": 9,
+      "pos": "ATA",
+      "photo": "/players/fluminense/297522.webp"
+    },
+    {
+      "id": 13523,
+      "name": "G. Cano",
+      "number": 14,
+      "pos": "ATA",
+      "photo": "/players/fluminense/13523.webp"
+    },
+    {
+      "id": 304048,
+      "name": "R. Castillo",
+      "number": 19,
+      "pos": "ATA",
+      "photo": "/players/fluminense/304048.webp"
+    },
+    {
+      "id": 10501,
+      "name": "Alisson",
+      "number": 25,
+      "pos": "ATA",
+      "photo": "/players/fluminense/10501.webp"
+    },
+    {
+      "id": 2454,
+      "name": "Y. Soteldo",
+      "number": 30,
+      "pos": "ATA",
+      "photo": "/players/fluminense/2454.webp"
+    },
+    {
+      "id": 568706,
+      "name": "Wesley Nata",
+      "number": 34,
+      "pos": "ATA",
+      "photo": null
+    },
+    {
+      "id": 519809,
+      "name": "Keven Samuel",
+      "number": 39,
+      "pos": "ATA",
+      "photo": "/players/fluminense/519809.webp"
+    },
+    {
+      "id": 70849,
+      "name": "K. Serna",
+      "number": 90,
+      "pos": "ATA",
+      "photo": "/players/fluminense/70849.webp"
+    }
+  ]
+}

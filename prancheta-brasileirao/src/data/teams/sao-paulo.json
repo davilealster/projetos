@@ -1,0 +1,280 @@
+{
+  "slug": "sao-paulo",
+  "name": "São Paulo",
+  "shortName": "São Paulo",
+  "colors": {
+    "primary": "#E30613",
+    "secondary": "#FFFFFF",
+    "accent": "#000000"
+  },
+  "crest": "/teams/sao-paulo/crest.webp",
+  "updatedAt": "2026-11-06",
+  "players": [
+    {
+      "id": 10081,
+      "name": "Rafael",
+      "number": 23,
+      "pos": "GOL",
+      "photo": "/players/sao-paulo/10081.webp"
+    },
+    {
+      "id": 50726,
+      "name": "Carlos Coronel",
+      "number": 31,
+      "pos": "GOL",
+      "photo": "/players/sao-paulo/50726.webp"
+    },
+    {
+      "id": 465204,
+      "name": "João Pedro",
+      "number": 41,
+      "pos": "GOL",
+      "photo": "/players/sao-paulo/465204.webp"
+    },
+    {
+      "id": 30429,
+      "name": "R. Tolói",
+      "number": 2,
+      "pos": "ZAG",
+      "photo": "/players/sao-paulo/30429.webp"
+    },
+    {
+      "id": 2571,
+      "name": "R. Arboleda",
+      "number": 5,
+      "pos": "ZAG",
+      "photo": "/players/sao-paulo/2571.webp"
+    },
+    {
+      "id": 10375,
+      "name": "Iago",
+      "number": 12,
+      "pos": "ZAG",
+      "photo": "/players/sao-paulo/10375.webp"
+    },
+    {
+      "id": 970,
+      "name": "Wendell",
+      "number": 18,
+      "pos": "ZAG",
+      "photo": "/players/sao-paulo/970.webp"
+    },
+    {
+      "id": 9451,
+      "name": "Lucas Ramon",
+      "number": 19,
+      "pos": "ZAG",
+      "photo": "/players/sao-paulo/9451.webp"
+    },
+    {
+      "id": 8451,
+      "name": "Aurélio Buta",
+      "number": 20,
+      "pos": "ZAG",
+      "photo": "/players/sao-paulo/8451.webp"
+    },
+    {
+      "id": 46795,
+      "name": "Domingos Duarte",
+      "number": 22,
+      "pos": "ZAG",
+      "photo": "/players/sao-paulo/46795.webp"
+    },
+    {
+      "id": 449245,
+      "name": "Pedro Lima",
+      "number": 32,
+      "pos": "ZAG",
+      "photo": "/players/sao-paulo/449245.webp"
+    },
+    {
+      "id": 9340,
+      "name": "Sabino",
+      "number": 35,
+      "pos": "ZAG",
+      "photo": "/players/sao-paulo/9340.webp"
+    },
+    {
+      "id": 634548,
+      "name": "Igor Felisberto",
+      "number": 40,
+      "pos": "ZAG",
+      "photo": null
+    },
+    {
+      "id": 414456,
+      "name": "Isac",
+      "number": 53,
+      "pos": "ZAG",
+      "photo": null
+    },
+    {
+      "id": 639743,
+      "name": "Osorio Luis",
+      "number": 54,
+      "pos": "ZAG",
+      "photo": null
+    },
+    {
+      "id": 516821,
+      "name": "Nicolas",
+      "number": 56,
+      "pos": "ZAG",
+      "photo": "/players/sao-paulo/516821.webp"
+    },
+    {
+      "id": 190,
+      "name": "Cédric Soares",
+      "number": 21,
+      "pos": "LD",
+      "photo": "/players/sao-paulo/190.webp"
+    },
+    {
+      "id": 6237,
+      "name": "Enzo Díaz",
+      "number": 13,
+      "pos": "LE",
+      "photo": "/players/sao-paulo/6237.webp"
+    },
+    {
+      "id": 178,
+      "name": "Lucas Moura",
+      "number": 7,
+      "pos": "MEI",
+      "photo": "/players/sao-paulo/178.webp"
+    },
+    {
+      "id": 696,
+      "name": "Marcos Antônio",
+      "number": 8,
+      "pos": "MEI",
+      "photo": "/players/sao-paulo/696.webp"
+    },
+    {
+      "id": 195107,
+      "name": "Damián Bobadilla",
+      "number": 16,
+      "pos": "MEI",
+      "photo": "/players/sao-paulo/195107.webp"
+    },
+    {
+      "id": 277169,
+      "name": "Newton",
+      "number": 28,
+      "pos": "MEI",
+      "photo": "/players/sao-paulo/277169.webp"
+    },
+    {
+      "id": 313732,
+      "name": "Pablo Maia",
+      "number": 29,
+      "pos": "MEI",
+      "photo": "/players/sao-paulo/313732.webp"
+    },
+    {
+      "id": 505992,
+      "name": "Pedro Ferreira",
+      "number": 46,
+      "pos": "MEI",
+      "photo": null
+    },
+    {
+      "id": 612911,
+      "name": "D. Ferreira",
+      "number": 48,
+      "pos": "MEI",
+      "photo": null
+    },
+    {
+      "id": 505993,
+      "name": "Pedro Henrique Bezerra Araujo",
+      "number": 58,
+      "pos": "MEI",
+      "photo": null
+    },
+    {
+      "id": 25272,
+      "name": "Cauly",
+      "number": 80,
+      "pos": "MEI",
+      "photo": "/players/sao-paulo/25272.webp"
+    },
+    {
+      "id": 77754,
+      "name": "Danielzinho",
+      "number": 94,
+      "pos": "MEI",
+      "photo": "/players/sao-paulo/77754.webp"
+    },
+    {
+      "id": 10040,
+      "name": "Artur",
+      "number": 37,
+      "pos": "PON",
+      "photo": "/players/sao-paulo/10040.webp"
+    },
+    {
+      "id": 47368,
+      "name": "J. Calleri",
+      "number": 9,
+      "pos": "ATA",
+      "photo": "/players/sao-paulo/47368.webp"
+    },
+    {
+      "id": 10323,
+      "name": "Luciano",
+      "number": 10,
+      "pos": "ATA",
+      "photo": "/players/sao-paulo/10323.webp"
+    },
+    {
+      "id": 106510,
+      "name": "Ferreira",
+      "number": 11,
+      "pos": "ATA",
+      "photo": "/players/sao-paulo/106510.webp"
+    },
+    {
+      "id": 41188,
+      "name": "André Silva",
+      "number": 17,
+      "pos": "ATA",
+      "photo": "/players/sao-paulo/41188.webp"
+    },
+    {
+      "id": 7541,
+      "name": "Victor Sá",
+      "number": 27,
+      "pos": "ATA",
+      "photo": "/players/sao-paulo/7541.webp"
+    },
+    {
+      "id": 607350,
+      "name": "P. dos Santos",
+      "number": 34,
+      "pos": "ATA",
+      "photo": null
+    },
+    {
+      "id": 607347,
+      "name": "G. Santana",
+      "number": 43,
+      "pos": "ATA",
+      "photo": null
+    },
+    {
+      "id": 505994,
+      "name": "Lucca Marques Alencar",
+      "number": 45,
+      "pos": "ATA",
+      "photo": "/players/sao-paulo/505994.webp"
+    },
+    {
+      "id": 465196,
+      "name": "Ryan Francisco",
+      "number": 49,
+      "pos": "ATA",
+      "photo": "/players/sao-paulo/465196.webp"
+    }
+  ]
+}

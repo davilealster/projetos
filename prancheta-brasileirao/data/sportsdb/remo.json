@@ -1,0 +1,31 @@
+{
+  "22251": {
+    "strPosition": "Centre-Back",
+    "fullName": "Duplexe Tchamba",
+    "pos": "ZAG"
+  },
+  "36833": {
+    "strPosition": "Defender",
+    "fullName": "Cristian Tassano",
+    "pos": "ZAG"
+  },
+  "54894": {
+    "strPosition": "Midfielder",
+    "fullName": "Edson da Silva Gomes",
+    "pos": "MEI"
+  },
+  "80273": {
+    "strPosition": "Attacker",
+    "fullName": "Gabriel Pereira Taliari",
+    "pos": "ATA"
+  },
+  "95392": {
+    "strPosition": "Attacker",
+    "fullName": "Antonio Galeano",
+    "pos": "ATA"
+  },
+  "96343": {
+    "strPosition": "Attacker",
+    "pos": "ATA"
+  }
+}

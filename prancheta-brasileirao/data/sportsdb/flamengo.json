@@ -1,0 +1,41 @@
+{
+  "618": {
+    "strPosition": "Centre-Back",
+    "pos": "ZAG"
+  },
+  "860": {
+    "strPosition": "Left-Back",
+    "pos": "LE"
+  },
+  "1566": {
+    "strPosition": "Right-Back",
+    "pos": "LD"
+  },
+  "1771": {
+    "strPosition": "Left-Back",
+    "pos": "LE"
+  },
+  "10180": {
+    "strPosition": "Attacker",
+    "pos": "ATA"
+  },
+  "11756": {
+    "strPosition": "Goalkeeper",
+    "fullName": "Agustín Rossi",
+    "pos": "GOL"
+  },
+  "80528": {
+    "strPosition": "Goalkeeper",
+    "fullName": "Andrew da Silva Ventura",
+    "pos": "GOL"
+  },
+  "372083": {
+    "strPosition": "Goalkeeper",
+    "fullName": "Dyogo Alves",
+    "pos": "GOL"
+  },
+  "403299": {
+    "strPosition": "Right-Back",
+    "pos": "LD"
+  }
+}

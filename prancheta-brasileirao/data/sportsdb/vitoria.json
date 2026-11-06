@@ -1,0 +1,36 @@
+{
+  "159653": {
+    "strPosition": "Midfielder",
+    "pos": "MEI"
+  },
+  "197031": {
+    "strPosition": "Goalkeeper",
+    "fullName": "Alexandre Fintelman de Mello Ribeiro da",
+    "pos": "GOL"
+  },
+  "442404": {
+    "strPosition": "Attacker",
+    "fullName": "Carlos Renê de Sousa Ferreira",
+    "pos": "ATA"
+  },
+  "455047": {
+    "strPosition": "Defender",
+    "fullName": "Diego Tarzia",
+    "pos": "ZAG"
+  },
+  "633443": {
+    "strPosition": "Midfielder",
+    "fullName": "Anderson Anderson",
+    "pos": "MEI"
+  },
+  "654294": {
+    "strPosition": "Attacker",
+    "fullName": "Alex Bruno da Costa Lima",
+    "pos": "ATA"
+  },
+  "681367": {
+    "strPosition": "Defender",
+    "fullName": "Darlan Darlan",
+    "pos": "ZAG"
+  }
+}

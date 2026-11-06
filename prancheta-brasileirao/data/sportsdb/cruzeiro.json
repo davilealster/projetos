@@ -1,0 +1,41 @@
+{
+  "2411": {
+    "strPosition": "Right-Back",
+    "pos": "LD"
+  },
+  "6608": {
+    "strPosition": "Left-Back",
+    "fullName": "Gabriel Rojas",
+    "pos": "LE"
+  },
+  "9445": {
+    "strPosition": "Attacker",
+    "fullName": "Bruno Rodrigues do Nascimento",
+    "pos": "ATA"
+  },
+  "10008": {
+    "strPosition": "Manager",
+    "fullName": "Artur Jorge"
+  },
+  "10089": {
+    "strPosition": "Centre-Back",
+    "pos": "ZAG"
+  },
+  "10229": {
+    "strPosition": "Goalkeeper",
+    "pos": "GOL"
+  },
+  "30408": {
+    "strPosition": "Central Midfield",
+    "pos": "MEI"
+  },
+  "143367": {
+    "strPosition": "Right Winger",
+    "pos": "PON"
+  },
+  "360306": {
+    "strPosition": "Attacker",
+    "fullName": "João Costa",
+    "pos": "ATA"
+  }
+}

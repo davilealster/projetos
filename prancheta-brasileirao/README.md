@@ -28,6 +28,13 @@ npm run dev
 
 Todos aceitam `--team=slug1,slug2` e `--force` (ignora cache e gasta cota). `fetch:teams -- --check-league` lista as ligas do Brasil para confirmar o id 71. `sync -- --no-sportsdb` pula o TheSportsDB.
 
+### Plano gratuito da API-Football (verificado em 06/11/2026)
+
+- `/players/squads` funciona no plano gratuito: um sync completo gasta ~21 das 100 requisições do dia.
+- `/teams?league=71&season=2026` é bloqueado ("Free plans do not have access to this season"). O `fetch:teams` cai para `/teams?country=Brazil` e casa os 20 pelos aliases exatos. Os ids já estão travados em `data/team-map.json`, então isso só importa se um clube novo subir.
+- Limite de 10 requisições por minuto: o cliente espera 61 s e tenta de novo quando recebe 429.
+- O TheSportsDB com a chave gratuita devolve só 10 jogadores por time, então as sugestões de posição cobrem ~25% dos elencos. O resto vai por override.
+
 Prioridade dos dados de cada jogador: `data/overrides/{slug}.json` > TheSportsDB > API-Football.
 
 ```json

@@ -1,0 +1,266 @@
+{
+  "slug": "atletico-mg",
+  "name": "Atlético Mineiro",
+  "shortName": "Atlético-MG",
+  "colors": {
+    "primary": "#000000",
+    "secondary": "#FFFFFF",
+    "accent": "#D4AF37"
+  },
+  "crest": "/teams/atletico-mg/crest.webp",
+  "updatedAt": "2026-11-06",
+  "players": [
+    {
+      "id": 311275,
+      "name": "Gabriel Delfim",
+      "number": 1,
+      "pos": "GOL",
+      "photo": "/players/atletico-mg/311275.webp"
+    },
+    {
+      "id": 9978,
+      "name": "Everson",
+      "number": 22,
+      "pos": "GOL",
+      "photo": "/players/atletico-mg/9978.webp"
+    },
+    {
+      "id": 465184,
+      "name": "Robert",
+      "number": 31,
+      "pos": "GOL",
+      "photo": "/players/atletico-mg/465184.webp"
+    },
+    {
+      "id": 449252,
+      "name": "Pedro Cobra",
+      "number": 46,
+      "pos": "GOL",
+      "photo": "/players/atletico-mg/449252.webp"
+    },
+    {
+      "id": 686214,
+      "name": "Guilherme Pires",
+      "number": 64,
+      "pos": "GOL",
+      "photo": null
+    },
+    {
+      "id": 197450,
+      "name": "Natanael",
+      "number": 2,
+      "pos": "ZAG",
+      "photo": "/players/atletico-mg/197450.webp"
+    },
+    {
+      "id": 10160,
+      "name": "Léo Duarte",
+      "number": 3,
+      "pos": "ZAG",
+      "photo": "/players/atletico-mg/10160.webp"
+    },
+    {
+      "id": 152857,
+      "name": "Ruan Tressoldi",
+      "number": 4,
+      "pos": "ZAG",
+      "photo": "/players/atletico-mg/152857.webp"
+    },
+    {
+      "id": 10122,
+      "name": "Renan Lodi",
+      "number": 6,
+      "pos": "ZAG",
+      "photo": "/players/atletico-mg/10122.webp"
+    },
+    {
+      "id": 30476,
+      "name": "Lyanco",
+      "number": 13,
+      "pos": "ZAG",
+      "photo": "/players/atletico-mg/30476.webp"
+    },
+    {
+      "id": 30398,
+      "name": "Vitor Hugo",
+      "number": 14,
+      "pos": "ZAG",
+      "photo": "/players/atletico-mg/30398.webp"
+    },
+    {
+      "id": 2583,
+      "name": "A. Preciado",
+      "number": 23,
+      "pos": "ZAG",
+      "photo": "/players/atletico-mg/2583.webp"
+    },
+    {
+      "id": 633527,
+      "name": "Samuel",
+      "number": 34,
+      "pos": "ZAG",
+      "photo": null
+    },
+    {
+      "id": 609544,
+      "name": "K. Pascini",
+      "number": 36,
+      "pos": "ZAG",
+      "photo": null
+    },
+    {
+      "id": 515668,
+      "name": "Vitão",
+      "number": 40,
+      "pos": "ZAG",
+      "photo": "/players/atletico-mg/515668.webp"
+    },
+    {
+      "id": 675445,
+      "name": "Pedro Lemos",
+      "number": 53,
+      "pos": "ZAG",
+      "photo": null
+    },
+    {
+      "id": 363323,
+      "name": "Alexsander",
+      "number": 5,
+      "pos": "VOL",
+      "photo": "/players/atletico-mg/363323.webp"
+    },
+    {
+      "id": 905,
+      "name": "Fred",
+      "number": 7,
+      "pos": "MEI",
+      "photo": "/players/atletico-mg/905.webp"
+    },
+    {
+      "id": 687,
+      "name": "Maycon",
+      "number": 8,
+      "pos": "MEI",
+      "photo": "/players/atletico-mg/687.webp"
+    },
+    {
+      "id": 9926,
+      "name": "Gustavo Scarpa",
+      "number": 10,
+      "pos": "MEI",
+      "photo": "/players/atletico-mg/9926.webp"
+    },
+    {
+      "id": 289592,
+      "name": "K. Castaño",
+      "number": 15,
+      "pos": "MEI",
+      "photo": "/players/atletico-mg/289592.webp"
+    },
+    {
+      "id": 9967,
+      "name": "Igor Gomes",
+      "number": 17,
+      "pos": "MEI",
+      "photo": "/players/atletico-mg/9967.webp"
+    },
+    {
+      "id": 16360,
+      "name": "Alan Franco",
+      "number": 21,
+      "pos": "MEI",
+      "photo": "/players/atletico-mg/16360.webp"
+    },
+    {
+      "id": 414544,
+      "name": "T. Pérez",
+      "number": 25,
+      "pos": "MEI",
+      "photo": "/players/atletico-mg/414544.webp"
+    },
+    {
+      "id": 6031,
+      "name": "T. Cuello",
+      "number": 28,
+      "pos": "MEI",
+      "photo": "/players/atletico-mg/6031.webp"
+    },
+    {
+      "id": 506034,
+      "name": "Índio",
+      "number": 38,
+      "pos": "MEI",
+      "photo": null
+    },
+    {
+      "id": 615196,
+      "name": "Mamady Cisse",
+      "number": 39,
+      "pos": "MEI",
+      "photo": null
+    },
+    {
+      "id": 570399,
+      "name": "Gutte",
+      "number": 48,
+      "pos": "MEI",
+      "photo": null
+    },
+    {
+      "id": 18761,
+      "name": "Bernard",
+      "number": 11,
+      "pos": "PON",
+      "photo": "/players/atletico-mg/18761.webp"
+    },
+    {
+      "id": 280695,
+      "name": "Alan Minda",
+      "number": 27,
+      "pos": "PON",
+      "photo": "/players/atletico-mg/280695.webp"
+    },
+    {
+      "id": 9939,
+      "name": "Dudu",
+      "number": 92,
+      "pos": "PON",
+      "photo": "/players/atletico-mg/9939.webp"
+    },
+    {
+      "id": 5923,
+      "name": "M. Cassierra",
+      "number": 9,
+      "pos": "ATA",
+      "photo": "/players/atletico-mg/5923.webp"
+    },
+    {
+      "id": 197513,
+      "name": "T. Borbas",
+      "number": 18,
+      "pos": "ATA",
+      "photo": "/players/atletico-mg/197513.webp"
+    },
+    {
+      "id": 10166,
+      "name": "Reinier",
+      "number": 19,
+      "pos": "ATA",
+      "photo": "/players/atletico-mg/10166.webp"
+    },
+    {
+      "id": 609519,
+      "name": "Caua",
+      "number": 29,
+      "pos": "ATA",
+      "photo": null
+    },
+    {
+      "id": 352371,
+      "name": "Victor Hugo",
+      "number": 30,
+      "pos": "ATA",
+      "photo": "/players/atletico-mg/352371.webp"
+    }
+  ]
+}

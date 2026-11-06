@@ -1,0 +1,252 @@
+{
+  "slug": "flamengo",
+  "name": "Flamengo",
+  "shortName": "Flamengo",
+  "colors": {
+    "primary": "#C8102E",
+    "secondary": "#000000",
+    "accent": "#FFFFFF"
+  },
+  "crest": "/teams/flamengo/crest.webp",
+  "updatedAt": "2026-11-06",
+  "players": [
+    {
+      "id": 11756,
+      "name": "Agustín Rossi",
+      "number": 1,
+      "pos": "GOL",
+      "photo": "/players/flamengo/11756.webp"
+    },
+    {
+      "id": 80528,
+      "name": "Andrew",
+      "number": 42,
+      "pos": "GOL",
+      "photo": "/players/flamengo/80528.webp"
+    },
+    {
+      "id": 372083,
+      "name": "Dyogo",
+      "number": 49,
+      "pos": "GOL",
+      "photo": "/players/flamengo/372083.webp"
+    },
+    {
+      "id": 1290,
+      "name": "G. Varela",
+      "number": 2,
+      "pos": "ZAG",
+      "photo": "/players/flamengo/1290.webp"
+    },
+    {
+      "id": 9458,
+      "name": "Léo Ortiz",
+      "number": 3,
+      "pos": "ZAG",
+      "photo": "/players/flamengo/9458.webp"
+    },
+    {
+      "id": 10124,
+      "name": "Léo Pereira",
+      "number": 4,
+      "pos": "ZAG",
+      "photo": "/players/flamengo/10124.webp"
+    },
+    {
+      "id": 618,
+      "name": "Danilo",
+      "number": 13,
+      "pos": "ZAG",
+      "photo": "/players/flamengo/618.webp"
+    },
+    {
+      "id": 9909,
+      "name": "Vitão",
+      "number": 44,
+      "pos": "ZAG",
+      "photo": "/players/flamengo/9909.webp"
+    },
+    {
+      "id": 449253,
+      "name": "João Victor Cunha",
+      "number": 61,
+      "pos": "ZAG",
+      "photo": "/players/flamengo/449253.webp"
+    },
+    {
+      "id": 512740,
+      "name": "Johnny Góes",
+      "number": 77,
+      "pos": "ZAG",
+      "photo": null
+    },
+    {
+      "id": 634767,
+      "name": "Daniel Carvalho",
+      "number": 87,
+      "pos": "ZAG",
+      "photo": null
+    },
+    {
+      "id": 1566,
+      "name": "Emerson Royal",
+      "number": 22,
+      "pos": "LD",
+      "photo": "/players/flamengo/1566.webp"
+    },
+    {
+      "id": 403299,
+      "name": "Daniel Sales",
+      "number": 51,
+      "pos": "LD",
+      "photo": "/players/flamengo/403299.webp"
+    },
+    {
+      "id": 1771,
+      "name": "Ayrton Lucas",
+      "number": 6,
+      "pos": "LE",
+      "photo": "/players/flamengo/1771.webp"
+    },
+    {
+      "id": 860,
+      "name": "Alex Sandro",
+      "number": 26,
+      "pos": "LE",
+      "photo": "/players/flamengo/860.webp"
+    },
+    {
+      "id": 2560,
+      "name": "E. Pulgar",
+      "number": 5,
+      "pos": "MEI",
+      "photo": "/players/flamengo/2560.webp"
+    },
+    {
+      "id": 48,
+      "name": "Saúl",
+      "number": 8,
+      "pos": "MEI",
+      "photo": "/players/flamengo/48.webp"
+    },
+    {
+      "id": 2612,
+      "name": "G. de Arrascaeta",
+      "number": 10,
+      "pos": "MEI",
+      "photo": "/players/flamengo/2612.webp"
+    },
+    {
+      "id": 1646,
+      "name": "Lucas Paquetá",
+      "number": 11,
+      "pos": "MEI",
+      "photo": "/players/flamengo/1646.webp"
+    },
+    {
+      "id": 126936,
+      "name": "Samuel Lino",
+      "number": 16,
+      "pos": "MEI",
+      "photo": "/players/flamengo/126936.webp"
+    },
+    {
+      "id": 5995,
+      "name": "N. de la Cruz",
+      "number": 18,
+      "pos": "MEI",
+      "photo": "/players/flamengo/5995.webp"
+    },
+    {
+      "id": 16369,
+      "name": "G. Plata",
+      "number": 19,
+      "pos": "MEI",
+      "photo": "/players/flamengo/16369.webp"
+    },
+    {
+      "id": 2289,
+      "name": "Jorginho",
+      "number": 21,
+      "pos": "MEI",
+      "photo": "/players/flamengo/2289.webp"
+    },
+    {
+      "id": 332654,
+      "name": "Evertton Araújo",
+      "number": 52,
+      "pos": "MEI",
+      "photo": "/players/flamengo/332654.webp"
+    },
+    {
+      "id": 644618,
+      "name": "L. Mariano",
+      "number": 75,
+      "pos": "MEI",
+      "photo": null
+    },
+    {
+      "id": 544685,
+      "name": "Joshua",
+      "number": 79,
+      "pos": "MEI",
+      "photo": null
+    },
+    {
+      "id": 22238,
+      "name": "Luiz Araújo",
+      "number": 7,
+      "pos": "ATA",
+      "photo": "/players/flamengo/22238.webp"
+    },
+    {
+      "id": 10321,
+      "name": "Pedro",
+      "number": 9,
+      "pos": "ATA",
+      "photo": "/players/flamengo/10321.webp"
+    },
+    {
+      "id": 198347,
+      "name": "A. Valencia",
+      "number": 14,
+      "pos": "ATA",
+      "photo": "/players/flamengo/198347.webp"
+    },
+    {
+      "id": 5994,
+      "name": "J. Carrascal",
+      "number": 15,
+      "pos": "ATA",
+      "photo": "/players/flamengo/5994.webp"
+    },
+    {
+      "id": 10180,
+      "name": "Bruno Henrique",
+      "number": 27,
+      "pos": "ATA",
+      "photo": "/players/flamengo/10180.webp"
+    },
+    {
+      "id": 560314,
+      "name": "J. Freitas",
+      "number": 30,
+      "pos": "ATA",
+      "photo": null
+    },
+    {
+      "id": 613324,
+      "name": "J. S. Miranda",
+      "number": 39,
+      "pos": "ATA",
+      "photo": null
+    },
+    {
+      "id": 589367,
+      "name": "Alan",
+      "number": 59,
+      "pos": "ATA",
+      "photo": null
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "9862": {
+    "strPosition": "Goalkeeper",
+    "pos": "GOL"
+  },
+  "10004": {
+    "strPosition": "Attacker",
+    "pos": "ATA"
+  },
+  "10027": {
+    "strPosition": "Midfielder",
+    "pos": "MEI"
+  },
+  "41544": {
+    "strPosition": "Defender",
+    "pos": "ZAG"
+  },
+  "51571": {
+    "strPosition": "Right-Back",
+    "fullName": "Agustín Sant'Anna",
+    "pos": "LD"
+  },
+  "279805": {
+    "strPosition": "Midfielder",
+    "pos": "MEI"
+  },
+  "297893": {
+    "strPosition": "Centre-Back",
+    "fullName": "Alix Vinicius",
+    "pos": "ZAG"
+  },
+  "415069": {
+    "strPosition": "Defender",
+    "fullName": "Da Silva",
+    "pos": "ZAG"
+  },
+  "431417": {
+    "strPosition": "Centre-Back",
+    "fullName": "Alix Vinicius",
+    "pos": "ZAG"
+  },
+  "525527": {
+    "strPosition": "Defender",
+    "fullName": "Eduardo Santos",
+    "pos": "ZAG"
+  }
+}

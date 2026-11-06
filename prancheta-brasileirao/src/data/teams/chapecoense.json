@@ -1,0 +1,350 @@
+{
+  "slug": "chapecoense",
+  "name": "Chapecoense",
+  "shortName": "Chapecoense",
+  "colors": {
+    "primary": "#00843D",
+    "secondary": "#FFFFFF",
+    "accent": "#000000"
+  },
+  "crest": "/teams/chapecoense/crest.webp",
+  "updatedAt": "2026-11-06",
+  "players": [
+    {
+      "id": 352217,
+      "name": "Gabriel Werner",
+      "number": 14,
+      "pos": "GOL",
+      "photo": "/players/chapecoense/352217.webp"
+    },
+    {
+      "id": 119847,
+      "name": "Matheus Aurélio",
+      "number": 30,
+      "pos": "GOL",
+      "photo": "/players/chapecoense/119847.webp"
+    },
+    {
+      "id": 632422,
+      "name": "Wellington",
+      "number": 32,
+      "pos": "GOL",
+      "photo": null
+    },
+    {
+      "id": 80173,
+      "name": "Anderson",
+      "number": 98,
+      "pos": "GOL",
+      "photo": "/players/chapecoense/80173.webp"
+    },
+    {
+      "id": 106467,
+      "name": "Doma",
+      "number": 3,
+      "pos": "ZAG",
+      "photo": "/players/chapecoense/106467.webp"
+    },
+    {
+      "id": 197064,
+      "name": "João Paulo",
+      "number": 4,
+      "pos": "ZAG",
+      "photo": "/players/chapecoense/197064.webp"
+    },
+    {
+      "id": 10384,
+      "name": "Heitor",
+      "number": 5,
+      "pos": "ZAG",
+      "photo": "/players/chapecoense/10384.webp"
+    },
+    {
+      "id": 306254,
+      "name": "Mancha",
+      "number": 6,
+      "pos": "ZAG",
+      "photo": "/players/chapecoense/306254.webp"
+    },
+    {
+      "id": 182015,
+      "name": "Fernando",
+      "number": 12,
+      "pos": "ZAG",
+      "photo": "/players/chapecoense/182015.webp"
+    },
+    {
+      "id": 9560,
+      "name": "Rafael Thyere",
+      "number": 15,
+      "pos": "ZAG",
+      "photo": "/players/chapecoense/9560.webp"
+    },
+    {
+      "id": 660597,
+      "name": "M. Kalebe",
+      "number": 18,
+      "pos": "ZAG",
+      "photo": null
+    },
+    {
+      "id": 9468,
+      "name": "Bruno Tubarão",
+      "number": 20,
+      "pos": "ZAG",
+      "photo": "/players/chapecoense/9468.webp"
+    },
+    {
+      "id": 352220,
+      "name": "Kauan Faria Gomes",
+      "number": 21,
+      "pos": "ZAG",
+      "photo": null
+    },
+    {
+      "id": 544973,
+      "name": "Dudu Marques",
+      "number": 23,
+      "pos": "ZAG",
+      "photo": null
+    },
+    {
+      "id": 9666,
+      "name": "Victor Caetano",
+      "number": 25,
+      "pos": "ZAG",
+      "photo": "/players/chapecoense/9666.webp"
+    },
+    {
+      "id": 55185,
+      "name": "Everton",
+      "number": 26,
+      "pos": "ZAG",
+      "photo": "/players/chapecoense/55185.webp"
+    },
+    {
+      "id": 638546,
+      "name": "Eduardo Vinicius",
+      "number": 35,
+      "pos": "ZAG",
+      "photo": null
+    },
+    {
+      "id": 633456,
+      "name": "Silva Da",
+      "number": 48,
+      "pos": "ZAG",
+      "photo": null
+    },
+    {
+      "id": 10192,
+      "name": "Bruno Pacheco",
+      "number": 91,
+      "pos": "LE",
+      "photo": "/players/chapecoense/10192.webp"
+    },
+    {
+      "id": 63998,
+      "name": "Camilo",
+      "number": 27,
+      "pos": "VOL",
+      "photo": "/players/chapecoense/63998.webp"
+    },
+    {
+      "id": 9589,
+      "name": "Rafael Santos",
+      "number": 1,
+      "pos": "MEI",
+      "photo": "/players/chapecoense/9589.webp"
+    },
+    {
+      "id": 632420,
+      "name": "Kaue Arno",
+      "number": 2,
+      "pos": "MEI",
+      "photo": null
+    },
+    {
+      "id": 10363,
+      "name": "Marcinho",
+      "number": 7,
+      "pos": "MEI",
+      "photo": "/players/chapecoense/10363.webp"
+    },
+    {
+      "id": 10356,
+      "name": "Giovanni Augusto",
+      "number": 10,
+      "pos": "MEI",
+      "photo": "/players/chapecoense/10356.webp"
+    },
+    {
+      "id": 1432,
+      "name": "Y. Bolasie",
+      "number": 11,
+      "pos": "MEI",
+      "photo": "/players/chapecoense/1432.webp"
+    },
+    {
+      "id": 80626,
+      "name": "Bruno Matias",
+      "number": 16,
+      "pos": "MEI",
+      "photo": "/players/chapecoense/80626.webp"
+    },
+    {
+      "id": 650653,
+      "name": "K. Godoy",
+      "number": 17,
+      "pos": "MEI",
+      "photo": null
+    },
+    {
+      "id": 278496,
+      "name": "Vinicius Balieiro",
+      "number": 17,
+      "pos": "MEI",
+      "photo": "/players/chapecoense/278496.webp"
+    },
+    {
+      "id": 544990,
+      "name": "David Antunes",
+      "number": 19,
+      "pos": "MEI",
+      "photo": null
+    },
+    {
+      "id": 632957,
+      "name": "Miguel",
+      "number": 19,
+      "pos": "MEI",
+      "photo": null
+    },
+    {
+      "id": 306213,
+      "name": "Max",
+      "number": 22,
+      "pos": "MEI",
+      "photo": "/players/chapecoense/306213.webp"
+    },
+    {
+      "id": 631034,
+      "name": "Rodrigo",
+      "number": 39,
+      "pos": "MEI",
+      "photo": null
+    },
+    {
+      "id": 316938,
+      "name": "Rosivan",
+      "number": 55,
+      "pos": "MEI",
+      "photo": null
+    },
+    {
+      "id": 408347,
+      "name": "Rubens",
+      "number": 70,
+      "pos": "MEI",
+      "photo": "/players/chapecoense/408347.webp"
+    },
+    {
+      "id": 13771,
+      "name": "D. Borrero",
+      "number": 77,
+      "pos": "MEI",
+      "photo": "/players/chapecoense/13771.webp"
+    },
+    {
+      "id": 337009,
+      "name": "Miguel Carvalho",
+      "number": 80,
+      "pos": "MEI",
+      "photo": "/players/chapecoense/337009.webp"
+    },
+    {
+      "id": 10348,
+      "name": "Yago Felipe",
+      "number": 88,
+      "pos": "MEI",
+      "photo": "/players/chapecoense/10348.webp"
+    },
+    {
+      "id": 106495,
+      "name": "Rafael Carvalheira",
+      "number": 99,
+      "pos": "MEI",
+      "photo": "/players/chapecoense/106495.webp"
+    },
+    {
+      "id": 403060,
+      "name": "Túlio",
+      "number": 9,
+      "pos": "ATA",
+      "photo": "/players/chapecoense/403060.webp"
+    },
+    {
+      "id": 631260,
+      "name": "Alberto",
+      "number": 20,
+      "pos": "ATA",
+      "photo": null
+    },
+    {
+      "id": 634404,
+      "name": "Gleidson",
+      "number": 22,
+      "pos": "ATA",
+      "photo": null
+    },
+    {
+      "id": 310781,
+      "name": "F. Rossi",
+      "number": 29,
+      "pos": "ATA",
+      "photo": null
+    },
+    {
+      "id": 201201,
+      "name": "Garcez",
+      "number": 31,
+      "pos": "ATA",
+      "photo": "/players/chapecoense/201201.webp"
+    },
+    {
+      "id": 614597,
+      "name": "Joao Henrique",
+      "number": 40,
+      "pos": "ATA",
+      "photo": null
+    },
+    {
+      "id": 634427,
+      "name": "Luciano",
+      "number": 44,
+      "pos": "ATA",
+      "photo": null
+    },
+    {
+      "id": 634403,
+      "name": "Kassio",
+      "number": 50,
+      "pos": "ATA",
+      "photo": null
+    },
+    {
+      "id": 632958,
+      "name": "Juan Ferreira",
+      "number": 66,
+      "pos": "ATA",
+      "photo": null
+    },
+    {
+      "id": 51589,
+      "name": "K. Ramírez",
+      "number": 94,
+      "pos": "ATA",
+      "photo": "/players/chapecoense/51589.webp"
+    }
+  ]
+}

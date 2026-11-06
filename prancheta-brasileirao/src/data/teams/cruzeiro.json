@@ -1,0 +1,266 @@
+{
+  "slug": "cruzeiro",
+  "name": "Cruzeiro",
+  "shortName": "Cruzeiro",
+  "colors": {
+    "primary": "#0033A0",
+    "secondary": "#FFFFFF",
+    "accent": "#F2C200"
+  },
+  "crest": "/teams/cruzeiro/crest.webp",
+  "updatedAt": "2026-11-06",
+  "players": [
+    {
+      "id": 10229,
+      "name": "Cássio",
+      "number": 1,
+      "pos": "GOL",
+      "photo": "/players/cruzeiro/10229.webp"
+    },
+    {
+      "id": 631005,
+      "name": "Eraclito Marcelo",
+      "number": 12,
+      "pos": "GOL",
+      "photo": null
+    },
+    {
+      "id": 306178,
+      "name": "Leo Aragão",
+      "number": 41,
+      "pos": "GOL",
+      "photo": "/players/cruzeiro/306178.webp"
+    },
+    {
+      "id": 522974,
+      "name": "Vitor Lamounier",
+      "number": 51,
+      "pos": "GOL",
+      "photo": "/players/cruzeiro/522974.webp"
+    },
+    {
+      "id": 522246,
+      "name": "Kauã Moraes",
+      "number": 2,
+      "pos": "ZAG",
+      "photo": "/players/cruzeiro/522246.webp"
+    },
+    {
+      "id": 51572,
+      "name": "M. Viña",
+      "number": 6,
+      "pos": "ZAG",
+      "photo": "/players/cruzeiro/51572.webp"
+    },
+    {
+      "id": 25398,
+      "name": "William",
+      "number": 12,
+      "pos": "ZAG",
+      "photo": "/players/cruzeiro/25398.webp"
+    },
+    {
+      "id": 10089,
+      "name": "Fabrício Bruno",
+      "number": 15,
+      "pos": "ZAG",
+      "photo": "/players/cruzeiro/10089.webp"
+    },
+    {
+      "id": 6268,
+      "name": "L. Villalba",
+      "number": 25,
+      "pos": "ZAG",
+      "photo": "/players/cruzeiro/6268.webp"
+    },
+    {
+      "id": 422150,
+      "name": "Jonathan",
+      "number": 34,
+      "pos": "ZAG",
+      "photo": "/players/cruzeiro/422150.webp"
+    },
+    {
+      "id": 54866,
+      "name": "João Marcelo",
+      "number": 43,
+      "pos": "ZAG",
+      "photo": "/players/cruzeiro/54866.webp"
+    },
+    {
+      "id": 631006,
+      "name": "Kelvin Barbosa",
+      "number": 84,
+      "pos": "ZAG",
+      "photo": null
+    },
+    {
+      "id": 2411,
+      "name": "Fágner",
+      "number": 23,
+      "pos": "LD",
+      "photo": "/players/cruzeiro/2411.webp"
+    },
+    {
+      "id": 6608,
+      "name": "Gabriel Rojas",
+      "number": 27,
+      "pos": "LE",
+      "photo": "/players/cruzeiro/6608.webp"
+    },
+    {
+      "id": 504950,
+      "name": "Zé Lucas",
+      "number": 5,
+      "pos": "MEI",
+      "photo": "/players/cruzeiro/504950.webp"
+    },
+    {
+      "id": 10494,
+      "name": "Matheus Henrique",
+      "number": 7,
+      "pos": "MEI",
+      "photo": "/players/cruzeiro/10494.webp"
+    },
+    {
+      "id": 30408,
+      "name": "Gerson",
+      "number": 8,
+      "pos": "MEI",
+      "photo": "/players/cruzeiro/30408.webp"
+    },
+    {
+      "id": 25618,
+      "name": "Matheus Pereira",
+      "number": 10,
+      "pos": "MEI",
+      "photo": "/players/cruzeiro/25618.webp"
+    },
+    {
+      "id": 10102,
+      "name": "Lucas Silva",
+      "number": 16,
+      "pos": "MEI",
+      "photo": "/players/cruzeiro/10102.webp"
+    },
+    {
+      "id": 439566,
+      "name": "N. Villareal",
+      "number": 22,
+      "pos": "MEI",
+      "photo": "/players/cruzeiro/439566.webp"
+    },
+    {
+      "id": 10100,
+      "name": "L. Romero",
+      "number": 29,
+      "pos": "MEI",
+      "photo": "/players/cruzeiro/10100.webp"
+    },
+    {
+      "id": 554485,
+      "name": "Rhuan Gabriel",
+      "number": 40,
+      "pos": "MEI",
+      "photo": null
+    },
+    {
+      "id": 414405,
+      "name": "K. Arroyo",
+      "number": 99,
+      "pos": "MEI",
+      "photo": "/players/cruzeiro/414405.webp"
+    },
+    {
+      "id": 143367,
+      "name": "Gabriel Pec",
+      "number": 77,
+      "pos": "PON",
+      "photo": "/players/cruzeiro/143367.webp"
+    },
+    {
+      "id": 9445,
+      "name": "Bruno Rodrigues",
+      "number": 9,
+      "pos": "ATA",
+      "photo": "/players/cruzeiro/9445.webp"
+    },
+    {
+      "id": 311520,
+      "name": "Marquinhos",
+      "number": 11,
+      "pos": "ATA",
+      "photo": "/players/cruzeiro/311520.webp"
+    },
+    {
+      "id": 37161,
+      "name": "L. Sinisterra",
+      "number": 17,
+      "pos": "ATA",
+      "photo": "/players/cruzeiro/37161.webp"
+    },
+    {
+      "id": 10008,
+      "name": "Kaio Jorge",
+      "number": 19,
+      "pos": "ATA",
+      "photo": "/players/cruzeiro/10008.webp"
+    },
+    {
+      "id": 365287,
+      "name": "Wesley Gassova",
+      "number": 20,
+      "pos": "ATA",
+      "photo": "/players/cruzeiro/365287.webp"
+    },
+    {
+      "id": 606701,
+      "name": "Felipe Morais",
+      "number": 38,
+      "pos": "ATA",
+      "photo": null
+    },
+    {
+      "id": 610497,
+      "name": "R. Lelis",
+      "number": 57,
+      "pos": "ATA",
+      "photo": null
+    },
+    {
+      "id": 368096,
+      "name": "João Gabriel e Costa Cesco",
+      "number": 67,
+      "pos": "ATA",
+      "photo": "/players/cruzeiro/368096.webp"
+    },
+    {
+      "id": 465165,
+      "name": "Kenji",
+      "number": 70,
+      "pos": "ATA",
+      "photo": "/players/cruzeiro/465165.webp"
+    },
+    {
+      "id": 360306,
+      "name": "Otávio Eleodoro Rezende Costa",
+      "number": 81,
+      "pos": "ATA",
+      "photo": "/players/cruzeiro/360306.webp"
+    },
+    {
+      "id": 2083,
+      "name": "Wanderson",
+      "number": 94,
+      "pos": "ATA",
+      "photo": "/players/cruzeiro/2083.webp"
+    },
+    {
+      "id": 297749,
+      "name": "L. Rodríguez",
+      "number": 97,
+      "pos": "ATA",
+      "photo": "/players/cruzeiro/297749.webp"
+    }
+  ]
+}

@@ -9,7 +9,7 @@ export const p = (...parts: string[]) => join(ROOT, ...parts);
 export const PATHS = {
   teamMap: p("data/team-map.json"),
   teamColors: p("data/team-colors.json"),
-  apiTeams: p("data/raw/_teams.json"),
+  apiTeams: p(".cache/teams.json"),
   raw: (slug: string) => p("data/raw", `${slug}.json`),
   overrides: (slug: string) => p("data/overrides", `${slug}.json`),
   sportsdb: (slug: string) => p("data/sportsdb", `${slug}.json`),
@@ -113,10 +113,16 @@ interface ApiEnvelope<T> {
 }
 
 /** GET na API-Football v3. Lança erro se a API responder com `errors` preenchido. */
-export async function apiFootball<T>(path: string): Promise<T> {
+export async function apiFootball<T>(path: string, attempt = 1): Promise<T> {
   const res = await fetch(`https://v3.football.api-sports.io${path}`, {
     headers: { "x-apisports-key": env.apiKey },
   });
+  // O plano gratuito também limita por minuto (10/min): espera a janela virar e tenta de novo.
+  if (res.status === 429 && attempt <= 3) {
+    console.log(`  limite por minuto atingido, aguardando 61 s (tentativa ${attempt}/3)`);
+    await sleep(61_000);
+    return apiFootball<T>(path, attempt + 1);
+  }
   if (!res.ok) throw new Error(`API-Football ${res.status} em ${path}`);
   const body = (await res.json()) as ApiEnvelope<T>;
   const errs = body.errors;

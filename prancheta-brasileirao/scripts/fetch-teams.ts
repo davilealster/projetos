@@ -9,7 +9,7 @@ import {
 } from "./lib/io";
 
 interface ApiTeam {
-  team: { id: number; name: string; code: string | null; logo: string };
+  team: { id: number; name: string; code: string | null; founded: number | null; logo: string };
 }
 
 export async function fetchTeams({ force = false } = {}) {
@@ -31,24 +31,36 @@ export async function fetchTeams({ force = false } = {}) {
     console.log(`Times lidos do cache (${PATHS.apiTeams}). Use --force para chamar a API.`);
   } else {
     console.log(`Buscando /teams?league=${env.league()}&season=${env.season()}`);
-    teams = await apiFootball<ApiTeam[]>(`/teams?league=${env.league()}&season=${env.season()}`);
+    try {
+      teams = await apiFootball<ApiTeam[]>(`/teams?league=${env.league()}&season=${env.season()}`);
+      if (teams.length !== 20) {
+        console.warn(`⚠ Esperava 20 times, vieram ${teams.length}. Confira a liga/temporada (--check-league).`);
+      }
+    } catch (err) {
+      // O plano gratuito não libera a temporada corrente em /teams, mas /players/squads funciona.
+      // Alternativa: todos os times do Brasil (1 requisição), casados pelos aliases exatos.
+      if (!/plan/i.test((err as Error).message)) throw err;
+      console.warn(`⚠ ${(err as Error).message}\n  Usando /teams?country=Brazil como alternativa.`);
+      const all = await apiFootball<ApiTeam[]>("/teams?country=Brazil");
+      // Fora femininos/base e cadastros órfãos (sem código nem ano de fundação, ex.: 117 "Atletico Mineiro").
+      teams = all.filter(
+        (t) => !/\b(W|U\d{2})$/.test(t.team.name.trim()) && (t.team.code || t.team.founded),
+      );
+    }
     writeJson(PATHS.apiTeams, teams);
-  }
-
-  if (teams.length !== 20) {
-    console.warn(`⚠ Esperava 20 times, vieram ${teams.length}. Confira a liga/temporada (--check-league).`);
   }
 
   const aliases = Object.fromEntries(Object.entries(map).map(([s, t]) => [s, t.aliases]));
   const byId = new Map(teams.map((t) => [t.team.id, t]));
   const unmatchedApi: string[] = [];
 
+  const fromLeague = teams.length <= 30; // na alternativa por país vêm centenas de times
   for (const t of teams) {
     const already = Object.entries(map).find(([, e]) => e.apiId === t.team.id);
     if (already) continue;
     const slug = matchTeamSlug(t.team.name, aliases);
     if (!slug) {
-      unmatchedApi.push(`${t.team.id} "${t.team.name}"`);
+      if (fromLeague) unmatchedApi.push(`${t.team.id} "${t.team.name}"`);
       continue;
     }
     if (map[slug].apiId && map[slug].apiId !== t.team.id) {

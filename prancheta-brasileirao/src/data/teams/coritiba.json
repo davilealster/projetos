@@ -1,0 +1,273 @@
+{
+  "slug": "coritiba",
+  "name": "Coritiba",
+  "shortName": "Coritiba",
+  "colors": {
+    "primary": "#00544D",
+    "secondary": "#FFFFFF",
+    "accent": "#000000"
+  },
+  "crest": "/teams/coritiba/crest.webp",
+  "updatedAt": "2026-11-06",
+  "players": [
+    {
+      "id": 425831,
+      "name": "Pedro Luccas",
+      "number": 1,
+      "pos": "GOL",
+      "photo": "/players/coritiba/425831.webp"
+    },
+    {
+      "id": 10370,
+      "name": "Keiller",
+      "number": 13,
+      "pos": "GOL",
+      "photo": "/players/coritiba/10370.webp"
+    },
+    {
+      "id": 293555,
+      "name": "Pedro Rangel",
+      "number": 22,
+      "pos": "GOL",
+      "photo": "/players/coritiba/293555.webp"
+    },
+    {
+      "id": 296061,
+      "name": "Benassi",
+      "number": 67,
+      "pos": "GOL",
+      "photo": "/players/coritiba/296061.webp"
+    },
+    {
+      "id": 10413,
+      "name": "Tinga",
+      "number": 2,
+      "pos": "ZAG",
+      "photo": "/players/coritiba/10413.webp"
+    },
+    {
+      "id": 44304,
+      "name": "Maicon",
+      "number": 3,
+      "pos": "ZAG",
+      "photo": "/players/coritiba/44304.webp"
+    },
+    {
+      "id": 10378,
+      "name": "Rodrigo Moledo",
+      "number": 4,
+      "pos": "ZAG",
+      "photo": "/players/coritiba/10378.webp"
+    },
+    {
+      "id": 9989,
+      "name": "Felipe Jonatan",
+      "number": 6,
+      "pos": "ZAG",
+      "photo": "/players/coritiba/9989.webp"
+    },
+    {
+      "id": 305026,
+      "name": "Tiago Cóser",
+      "number": 23,
+      "pos": "ZAG",
+      "photo": "/players/coritiba/305026.webp"
+    },
+    {
+      "id": 680061,
+      "name": "Gabriel Ibson",
+      "number": 27,
+      "pos": "ZAG",
+      "photo": null
+    },
+    {
+      "id": 9633,
+      "name": "Jacy",
+      "number": 55,
+      "pos": "ZAG",
+      "photo": "/players/coritiba/9633.webp"
+    },
+    {
+      "id": 404085,
+      "name": "Rodrigo Gelado",
+      "number": 66,
+      "pos": "ZAG",
+      "photo": "/players/coritiba/404085.webp"
+    },
+    {
+      "id": 505577,
+      "name": "Lucas Taverna",
+      "number": 86,
+      "pos": "ZAG",
+      "photo": "/players/coritiba/505577.webp"
+    },
+    {
+      "id": 6080,
+      "name": "Fabricio Bustos",
+      "number": 14,
+      "pos": "LD",
+      "photo": "/players/coritiba/6080.webp"
+    },
+    {
+      "id": 10416,
+      "name": "Bruno Melo",
+      "number": 26,
+      "pos": "LE",
+      "photo": "/players/coritiba/10416.webp"
+    },
+    {
+      "id": 30690,
+      "name": "N. Fonseca",
+      "number": 5,
+      "pos": "MEI",
+      "photo": "/players/coritiba/30690.webp"
+    },
+    {
+      "id": 468958,
+      "name": "A. Ararat",
+      "number": 15,
+      "pos": "MEI",
+      "photo": null
+    },
+    {
+      "id": 631685,
+      "name": "Paulo Roberto",
+      "number": 18,
+      "pos": "MEI",
+      "photo": null
+    },
+    {
+      "id": 13310,
+      "name": "S. Gómez",
+      "number": 19,
+      "pos": "MEI",
+      "photo": "/players/coritiba/13310.webp"
+    },
+    {
+      "id": 9924,
+      "name": "Thiago Santos",
+      "number": 21,
+      "pos": "MEI",
+      "photo": "/players/coritiba/9924.webp"
+    },
+    {
+      "id": 10240,
+      "name": "Richard",
+      "number": 25,
+      "pos": "MEI",
+      "photo": "/players/coritiba/10240.webp"
+    },
+    {
+      "id": 631771,
+      "name": "Khensane",
+      "number": 30,
+      "pos": "MEI",
+      "photo": null
+    },
+    {
+      "id": 10106,
+      "name": "Pedro Rocha",
+      "number": 32,
+      "pos": "MEI",
+      "photo": "/players/coritiba/10106.webp"
+    },
+    {
+      "id": 298041,
+      "name": "Gustavo",
+      "number": 39,
+      "pos": "MEI",
+      "photo": "/players/coritiba/298041.webp"
+    },
+    {
+      "id": 505572,
+      "name": "Tissi",
+      "number": 50,
+      "pos": "MEI",
+      "photo": "/players/coritiba/505572.webp"
+    },
+    {
+      "id": 53966,
+      "name": "Breno Lopes",
+      "number": 77,
+      "pos": "MEI",
+      "photo": "/players/coritiba/53966.webp"
+    },
+    {
+      "id": 51588,
+      "name": "Brian Ocampo",
+      "number": 17,
+      "pos": "PON",
+      "photo": "/players/coritiba/51588.webp"
+    },
+    {
+      "id": 315569,
+      "name": "J. Lavega",
+      "number": 7,
+      "pos": "ATA",
+      "photo": "/players/coritiba/315569.webp"
+    },
+    {
+      "id": 2150,
+      "name": "Josué",
+      "number": 10,
+      "pos": "ATA",
+      "photo": "/players/coritiba/2150.webp"
+    },
+    {
+      "id": 410449,
+      "name": "Lucas Ronier",
+      "number": 11,
+      "pos": "ATA",
+      "photo": "/players/coritiba/410449.webp"
+    },
+    {
+      "id": 16847,
+      "name": "Keno",
+      "number": 20,
+      "pos": "ATA",
+      "photo": "/players/coritiba/16847.webp"
+    },
+    {
+      "id": 143365,
+      "name": "Fabinho",
+      "number": 28,
+      "pos": "ATA",
+      "photo": "/players/coritiba/143365.webp"
+    },
+    {
+      "id": 653237,
+      "name": "D. Alves",
+      "number": 33,
+      "pos": "ATA",
+      "photo": null
+    },
+    {
+      "id": 309499,
+      "name": "Vini Paulista",
+      "number": 36,
+      "pos": "ATA",
+      "photo": "/players/coritiba/309499.webp"
+    },
+    {
+      "id": 631680,
+      "name": "L. Crepaldi",
+      "number": 37,
+      "pos": "ATA",
+      "photo": null
+    },
+    {
+      "id": 360303,
+      "name": "Renato Marques",
+      "number": 78,
+      "pos": "ATA",
+      "photo": "/players/coritiba/360303.webp"
+    },
+    {
+      "id": 54106,
+      "name": "Rodrigo Rodrigues",
+      "number": 99,
+      "pos": "ATA",
+      "photo": "/players/coritiba/54106.webp"
+    }
+  ]
+}

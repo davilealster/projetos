@@ -1,0 +1,38 @@
+{
+  "9337": {
+    "strPosition": "Goalkeeper",
+    "pos": "GOL"
+  },
+  "9429": {
+    "strPosition": "Forward",
+    "pos": "ATA"
+  },
+  "9771": {
+    "strPosition": "Right-Back",
+    "pos": "LD"
+  },
+  "9907": {
+    "strPosition": "Forward",
+    "fullName": "André Luis",
+    "pos": "ATA"
+  },
+  "41430": {
+    "strPosition": "Forward",
+    "pos": "ATA"
+  },
+  "80474": {
+    "strPosition": "Attacking Midfield",
+    "fullName": "Chico Kim",
+    "pos": "MEI"
+  },
+  "276452": {
+    "strPosition": "Midfielder",
+    "fullName": "Denilson Alves Borges",
+    "pos": "MEI"
+  },
+  "504957": {
+    "strPosition": "Midfielder",
+    "fullName": "Antonio Francisco Moura Neto",
+    "pos": "MEI"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "9854": {
+    "strPosition": "Right Winger",
+    "pos": "PON"
+  },
+  "10130": {
+    "strPosition": "Defensive Midfield",
+    "pos": "VOL"
+  },
+  "10351": {
+    "strPosition": "Centre-Back",
+    "pos": "ZAG"
+  },
+  "67902": {
+    "strPosition": "Right Winger",
+    "fullName": "Cristian Olivera",
+    "pos": "PON"
+  },
+  "180236": {
+    "strPosition": "Defensive Midfield",
+    "pos": "VOL"
+  },
+  "303127": {
+    "strPosition": "Left Wing",
+    "pos": "PON"
+  },
+  "311344": {
+    "strPosition": "Centre-Forward",
+    "fullName": "Alejo Véliz",
+    "pos": "ATA"
+  },
+  "510204": {
+    "strPosition": "Midfielder",
+    "fullName": "David Martins Almeida de Lira",
+    "pos": "MEI"
+  },
+  "525667": {
+    "strPosition": "Midfielder",
+    "pos": "MEI"
+  }
+}
