@@ -10,7 +10,11 @@ export const emptyState = (): BoardState => ({
   compact: false,
   formation: "4-3-3",
   subs: [],
+  show: { ...SHOW_ALL },
 });
+
+export const SHOW_ALL = { pos: true, name: true, num: true, photo: true } as const;
+const SHOW_KEYS = ["pos", "name", "num", "photo"] as const;
 
 const key = (slug: string) => `prancheta:${slug}:v1`;
 
@@ -18,7 +22,8 @@ export function loadSaved(slug: string): BoardState | null {
   try {
     const raw = localStorage.getItem(key(slug));
     if (!raw) return null;
-    return { ...emptyState(), ...(JSON.parse(raw) as Partial<BoardState>) };
+    const saved = JSON.parse(raw) as Partial<BoardState>;
+    return { ...emptyState(), ...saved, show: { ...SHOW_ALL, ...(saved.show ?? {}) } };
   } catch {
     return null;
   }
@@ -59,6 +64,8 @@ interface Packed {
   c?: string;
   o?: string;
   f?: string;
+  /** opções de exibição como bits (pos, name, num, photo); ausente = tudo ligado */
+  h?: number;
 }
 
 function b64urlEncode(s: string): string {
@@ -83,6 +90,8 @@ export function encodeState(s: BoardState): string {
   if (s.oppColor !== DEFAULT_OPP_COLOR) p.c = s.oppColor;
   if (s.oppSlug) p.o = s.oppSlug;
   p.f = s.formation;
+  const bits = SHOW_KEYS.reduce((n, k, i) => n | (s.show[k] ? 1 << i : 0), 0);
+  if (bits !== 15) p.h = bits;
   return b64urlEncode(JSON.stringify(p));
 }
 
@@ -113,6 +122,10 @@ export function decodeState(code: string): BoardState | null {
       oppColor: p.c ?? DEFAULT_OPP_COLOR,
       oppSlug: p.o ?? null,
       formation: p.f ?? "4-3-3",
+      show:
+        p.h === undefined
+          ? { ...SHOW_ALL }
+          : { pos: !!(p.h & 1), name: !!(p.h & 2), num: !!(p.h & 4), photo: !!(p.h & 8) },
     };
   } catch {
     return null;

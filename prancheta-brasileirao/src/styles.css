@@ -244,8 +244,6 @@ a { color: inherit; }
 .pitch__field { position: absolute; left: calc(2 / 109 * 100%); right: calc(2 / 109 * 100%); top: calc(2 / 72 * 100%); bottom: calc(2 / 72 * 100%); }
 .pitch--vertical .pitch__field { left: calc(2 / 72 * 100%); right: calc(2 / 72 * 100%); top: calc(2 / 109 * 100%); bottom: calc(2 / 109 * 100%); }
 
-.telestrator { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 3; overflow: visible; }
-.telestrator.is-active { pointer-events: auto; cursor: crosshair; touch-action: none; }
 
 .token {
   position: absolute; transform: translate(-50%, -50%); z-index: 2; touch-action: none; cursor: grab;
@@ -260,16 +258,6 @@ a { color: inherit; }
 @keyframes pop { from { opacity: 0; scale: .6; } to { opacity: 1; scale: 1; } }
 .token__avatar { position: relative; display: block; transition: transform .12s; filter: drop-shadow(0 3px 5px rgba(0,0,0,.45)); }
 .token__avatar .avatar { width: var(--tok) !important; height: var(--tok) !important; font-size: calc(var(--tok) * .36) !important; border-width: max(2px, calc(var(--tok) * .045)); }
-.token__num {
-  position: absolute; right: calc(var(--tok) * -.14); bottom: calc(var(--tok) * -.06);
-  min-width: calc(var(--tok) * .42); height: calc(var(--tok) * .42); padding: 0 3px; border-radius: 999px; border: 1.5px solid;
-  font-size: calc(var(--tok) * .25); font-weight: 900; display: grid; place-items: center; line-height: 1;
-}
-.token__name {
-  margin-top: calc(var(--tok) * .08); padding: 1px 6px; border-radius: 5px; white-space: nowrap;
-  background: rgba(5, 10, 7, .82); color: #fff; font-weight: 800; letter-spacing: .01em;
-  font-size: max(10px, calc(var(--tok) * .24)); line-height: 1.25; pointer-events: none;
-}
 .disc {
   width: calc(var(--tok) * .82); height: calc(var(--tok) * .82); border-radius: 50%; display: grid; place-items: center;
   font-weight: 900; font-size: calc(var(--tok) * .34); border: 2px solid rgba(0,0,0,.3);
@@ -286,12 +274,42 @@ a { color: inherit; }
   clip-path: polygon(50% 0, 100% 38%, 82% 100%, 18% 100%, 0 38%);
 }
 .token--ball { z-index: 4; }
+
+/* ---- peça do jogador: posição centralizada embaixo do círculo, "nº nome" logo abaixo ---- */
 .token__pos {
-  position: absolute; left: calc(var(--tok) * -.16); top: calc(var(--tok) * -.08); z-index: 1;
+  position: absolute; left: 50%; bottom: 0; transform: translate(-50%, 48%); z-index: 1;
   font-size: max(8px, calc(var(--tok) * .2)); font-weight: 900; line-height: 1; letter-spacing: .02em;
-  padding: 2px 3px; border-radius: 4px; color: #0b0f0c; background: var(--c, #aaa); pointer-events: none;
+  padding: 2px 4px; border-radius: 4px; color: #0b0f0c; background: var(--c, #aaa); pointer-events: none; white-space: nowrap;
+  box-shadow: 0 1px 3px rgba(0,0,0,.45);
 }
-.token__pos.is-alt { box-shadow: 0 0 0 1.5px #fff; }
+.token__pos.is-alt { box-shadow: 0 0 0 1.5px #fff, 0 1px 3px rgba(0,0,0,.45); }
+.token__label {
+  display: inline-flex; align-items: center; gap: 4px; margin-top: calc(var(--tok) * .08);
+  padding: 1px 6px 1px 2px; border-radius: 6px; background: rgba(5, 10, 7, .82); color: #fff; pointer-events: none;
+  white-space: nowrap; font-size: max(10px, calc(var(--tok) * .24)); line-height: 1.25;
+}
+.token__label.has-pos { margin-top: calc(var(--tok) * .2); }
+.token__label:not(:has(.token__num)) { padding-left: 6px; }
+.token__num {
+  min-width: 1.5em; padding: 0 3px; border-radius: 4px; border: 1px solid; text-align: center;
+  font-size: .92em; font-weight: 900; line-height: 1.2;
+}
+.token__name { font-weight: 800; letter-spacing: .01em; }
+.avatar--blank { box-shadow: inset 0 0 0 calc(var(--tok) * .09) rgba(0,0,0,.12); }
+
+/* ---- desenhos: camada ABAIXO das peças; selecionar, arrastar, borracha ---- */
+.telestrator { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 1; overflow: visible; touch-action: none; }
+.telestrator.is-drawing { pointer-events: auto; cursor: crosshair; }
+.telestrator__hit { cursor: grab; }
+.telestrator__hit--line { pointer-events: stroke; }
+.telestrator__hit--area { pointer-events: all; }
+.telestrator__hit:active { cursor: grabbing; }
+.telestrator.is-drawing .telestrator__hit { pointer-events: none; }
+.telestrator.is-erasing .telestrator__hit { cursor: not-allowed; }
+.telestrator.is-erasing .telestrator__item:hover { opacity: .4; }
+.telestrator__item.is-selected { filter: drop-shadow(0 0 2px rgba(0,0,0,.6)); }
+/* enquanto desenha ou apaga, as peças não pegam o clique */
+.pitch--tool .token { pointer-events: none; }
 
 /* seletor de posição (clique no jogador em campo) */
 .role-picker {

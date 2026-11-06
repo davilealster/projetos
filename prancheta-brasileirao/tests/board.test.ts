@@ -71,6 +71,12 @@ describe("link compartilhável", () => {
     expect(back).toMatchObject({ oppColor: "#1B6FD8", oppSlug: "flamengo", formation: "3-5-2" });
   });
 
+  it("opções de exibição vão no link só quando diferentes do padrão", () => {
+    const off = { ...emptyState(), show: { pos: false, name: true, num: false, photo: false } };
+    expect(decodeState(encodeState(off))!.show).toEqual(off.show);
+    expect(decodeState(encodeState(emptyState()))!.show).toEqual({ pos: true, name: true, num: true, photo: true });
+  });
+
   it("código inválido retorna null em vez de quebrar", () => {
     expect(decodeState("!!!")).toBeNull();
     expect(decodeState("e30")).toBeNull(); // "{}"

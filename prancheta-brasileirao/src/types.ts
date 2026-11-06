@@ -63,6 +63,14 @@ export interface SubEvent {
   in: number;
 }
 
+/** O que aparece em cada peça de jogador. Tudo desligado = só o círculo nas cores do clube. */
+export interface ShowOptions {
+  pos: boolean;
+  name: boolean;
+  num: boolean;
+  photo: boolean;
+}
+
 export interface BoardState {
   tokens: Token[];
   drawings: Drawing[];
@@ -71,4 +79,5 @@ export interface BoardState {
   compact: boolean;
   formation: string;
   subs: SubEvent[];
+  show: ShowOptions;
 }

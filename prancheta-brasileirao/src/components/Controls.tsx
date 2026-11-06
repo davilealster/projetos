@@ -1,5 +1,6 @@
 import { FORMATION_NAMES } from "../lib/formations";
-import type { DrawTool } from "../types";
+import type { DrawTool, ShowOptions } from "../types";
+import type { TeleTool } from "./Telestrator";
 
 export const DRAW_COLORS = ["#FFD400", "#FFFFFF", "#FF3B30", "#00D1FF", "#111111"];
 
@@ -23,12 +24,25 @@ export function FormationButtons({ value, onPick }: { value: string; onPick: (f:
   );
 }
 
+const EraserIcon = () => (
+  <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="2" strokeLinejoin="round">
+    <path d="M7 21h10" />
+    <path d="M5.5 14.5 14 6a2 2 0 0 1 2.8 0l2.2 2.2a2 2 0 0 1 0 2.8L11.5 19.5H8.4L5.5 16.6a1.5 1.5 0 0 1 0-2.1Z" />
+    <path d="m9.5 10.5 5 5" />
+  </svg>
+);
+const TrashIcon = () => (
+  <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+    <path d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13M10 11v6M14 11v6" />
+  </svg>
+);
+
 export function DrawControls({
   tool, color, onTool, onColor, onErase,
 }: {
-  tool: DrawTool | null;
+  tool: TeleTool;
   color: string;
-  onTool: (t: DrawTool | null) => void;
+  onTool: (t: TeleTool) => void;
   onColor: (c: string) => void;
   onErase: () => void;
 }) {
@@ -46,6 +60,15 @@ export function DrawControls({
           {t.icon}
         </button>
       ))}
+      <button
+        className={`icon-btn ${tool === "eraser" ? "is-on" : ""}`}
+        onClick={() => onTool(tool === "eraser" ? null : "eraser")}
+        title="Borracha: clique num desenho para apagar (B)"
+        aria-label="Borracha"
+        aria-pressed={tool === "eraser"}
+      >
+        <EraserIcon />
+      </button>
       <span className="draw__sep" />
       {DRAW_COLORS.map((c) => (
         <button
@@ -56,9 +79,35 @@ export function DrawControls({
           aria-label={`Cor ${c}`}
         />
       ))}
-      <button className="icon-btn" onClick={onErase} title="Apagar desenhos (E)" aria-label="Apagar desenhos">
-        ⌫
+      <button className="icon-btn" onClick={onErase} title="Apagar todos os desenhos (E)" aria-label="Apagar todos os desenhos">
+        <TrashIcon />
       </button>
+    </div>
+  );
+}
+
+const SHOW_LABELS: [keyof ShowOptions, string, string][] = [
+  ["pos", "Posição", "Mostrar a posição na peça"],
+  ["name", "Nome", "Mostrar o nome abaixo da peça"],
+  ["num", "Nº", "Mostrar o número da camisa"],
+  ["photo", "Foto", "Mostrar a foto (desligado = só o círculo nas cores do clube)"],
+];
+
+/** Liga/desliga o que aparece nas peças dos jogadores. */
+export function ShowControls({ value, onChange }: { value: ShowOptions; onChange: (v: ShowOptions) => void }) {
+  return (
+    <div className="seg show-ctl" role="group" aria-label="Exibir nas peças">
+      {SHOW_LABELS.map(([k, label, title]) => (
+        <button
+          key={k}
+          className={`seg__btn ${value[k] ? "is-on" : ""}`}
+          onClick={() => onChange({ ...value, [k]: !value[k] })}
+          aria-pressed={value[k]}
+          title={title}
+        >
+          {label}
+        </button>
+      ))}
     </div>
   );
 }

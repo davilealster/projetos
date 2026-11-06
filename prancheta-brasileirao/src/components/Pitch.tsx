@@ -1,7 +1,7 @@
 import { forwardRef, useImperativeHandle, useLayoutEffect, useRef, useState } from "react";
-import type { Drawing, DrawTool, Point, Token } from "../types";
+import type { Drawing, Point, Token } from "../types";
 import { PitchMarkings } from "./PitchMarkings";
-import { Telestrator } from "./Telestrator";
+import { Telestrator, type TeleTool } from "./Telestrator";
 
 export interface PitchHandle {
   /** Converte posição na tela para coordenada canônica; null se fora do campo (com folga). */
@@ -20,7 +20,11 @@ interface Props {
   tokens: TokenRender[];
   tokenScale: number;
   drawings: Drawing[];
-  drawTool: DrawTool | null;
+  drawTool: TeleTool;
+  selectedDrawing?: string | null;
+  onSelectDrawing?: (id: string | null) => void;
+  onMoveDrawing?: (id: string, du: number, dv: number) => void;
+  onRemoveDrawing?: (id: string) => void;
   drawColor: string;
   onAddDrawing: (d: Drawing) => void;
   onMoveToken: (index: number, p: Point, commit: boolean) => void;
@@ -65,7 +69,7 @@ export const Pitch = forwardRef<PitchHandle, Props>(function Pitch(props, ref) {
 
   return (
     <div
-      className={`pitch ${vertical ? "pitch--vertical" : ""} ${props.className ?? ""}`}
+      className={`pitch ${vertical ? "pitch--vertical" : ""} ${props.drawTool ? "pitch--tool" : ""} ${props.className ?? ""}`}
       style={{ "--tok": `${tok}px` } as React.CSSProperties}
     >
       <PitchMarkings vertical={vertical} stripes={props.stripes} />
@@ -76,6 +80,10 @@ export const Pitch = forwardRef<PitchHandle, Props>(function Pitch(props, ref) {
           tool={props.drawTool}
           color={props.drawColor}
           onAdd={props.onAddDrawing}
+          selectedId={props.selectedDrawing}
+          onSelect={props.onSelectDrawing}
+          onMove={props.onMoveDrawing}
+          onRemove={props.onRemoveDrawing}
           toCanon={(x, y) => toCanon(x, y, 0)}
         />
         {props.tokens.map((t, i) => (

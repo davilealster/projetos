@@ -7,11 +7,14 @@ export function Avatar({
   colors,
   size,
   safe = false,
+  blank = false,
 }: {
   player: Player;
   colors: Colors;
   size: number;
   safe?: boolean;
+  /** só o círculo nas cores do clube, sem foto nem iniciais */
+  blank?: boolean;
 }) {
   const style = {
     width: size,
@@ -21,6 +24,7 @@ export function Avatar({
     borderColor: colors.secondary,
     fontSize: size * 0.36,
   };
+  if (blank) return <span className="avatar avatar--blank" style={style} />;
   if (player.photo && !safe) {
     return (
       <span className="avatar" style={style}>

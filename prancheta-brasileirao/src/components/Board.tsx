@@ -10,7 +10,8 @@ import { cleanHandle, referral, trackEvent } from "../lib/analytics";
 import { applyTeam, loadOverrides } from "../lib/overrides";
 import type { BoardState, Drawing, DrawTool, Player, Point, Pos, Team, Token } from "../types";
 import { Avatar } from "./Avatar";
-import { DrawControls, FormationButtons } from "./Controls";
+import { DrawControls, FormationButtons, ShowControls } from "./Controls";
+import type { TeleTool } from "./Telestrator";
 import { ExportCard, type ExportFormat } from "./ExportCard";
 import { Footer } from "./Footer";
 import { RolePicker } from "./RolePicker";
@@ -47,7 +48,8 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
   const [opp, setOpp] = useState<Team | null>(null);
   const [state, setState] = useState<BoardState | null>(null);
   const [shared, setShared] = useState(false);
-  const [drawTool, setDrawTool] = useState<DrawTool | null>(null);
+  const [drawTool, setDrawTool] = useState<TeleTool>(null);
+  const [selDrawing, setSelDrawing] = useState<string | null>(null);
   const [lastTool, setLastTool] = useState<DrawTool>("arrow");
   const [drawColor, setDrawColor] = useState("#FFD400");
   const [tab, setTab] = useState<"squad" | "opp">("squad");
@@ -255,6 +257,18 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
     } else commit((s) => ({ ...s, tokens: s.tokens.filter((_, j) => j !== i) }));
   };
   const onAddDrawing = (d: Drawing) => commit((s) => ({ ...s, drawings: [...s.drawings, d] }));
+  const onMoveDrawing = useCallback(
+    (id: string, du: number, dv: number) =>
+      commit((s) => ({
+        ...s,
+        drawings: s.drawings.map((d) => (d.id === id ? { ...d, pts: d.pts.map(([u, v]) => [u + du, v + dv] as [number, number]) } : d)),
+      })),
+    [commit],
+  );
+  const onRemoveDrawing = useCallback((id: string) => {
+    setSelDrawing(null);
+    commit((s) => ({ ...s, drawings: s.drawings.filter((d) => d.id !== id) }));
+  }, [commit]);
 
   // ---- atalhos de teclado ----
   useEffect(() => {
@@ -269,7 +283,8 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
       const k = e.key.toLowerCase();
       const n = Number(e.key);
       if (n >= 1 && n <= FORMATION_NAMES.length) setFormation(FORMATION_NAMES[n - 1]);
-      else if (k === "d") setDrawTool((t) => (t ? null : lastTool));
+      else if (k === "d") setDrawTool((t) => (t && t !== "eraser" ? null : lastTool));
+      else if (k === "b") setDrawTool((t) => (t === "eraser" ? null : "eraser"));
       else if (k === "e") eraseDrawings();
       else if (k === "c") clearField();
       else if (k === "h") setUiHidden((h) => !h);
@@ -282,10 +297,11 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
     return () => window.removeEventListener("keydown", on);
   }, [undo, setFormation, eraseDrawings, clearField, lastTool]);
 
-  const pickTool = (t: DrawTool | null) => {
+  const pickTool = (t: TeleTool) => {
     setDrawTool(t);
-    if (t) setLastTool(t);
-  };
+    setSelDrawing(null);
+    if (t && t !== "eraser") setLastTool(t);
+  };;
 
   // ---- compartilhar / exportar ----
   const shareUrl = () => {
@@ -350,20 +366,30 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
   const onFieldOppPlayers = new Set(state.tokens.filter((t) => t.kind === "oppPlayer").map((t) => t.ref));
   const onFieldOpp = new Set(state.tokens.filter((t) => t.kind === "opp").map((t) => t.ref));
 
-  const playerNode = (p: Player, colors: Team["colors"], as?: Pos) => (
-    <>
-      <span className="token__avatar">
-        <span className={`token__pos pos-badge--${as ?? p.pos} ${as ? "is-alt" : ""}`}>{as ?? p.pos}</span>
-        <Avatar player={p} colors={colors} size={64} safe={safe} />
-        {p.number != null && (
-          <span className="token__num" style={{ background: colors.primary, color: textOn(colors.primary), borderColor: colors.secondary }}>
-            {p.number}
+  // posição centralizada embaixo do círculo; rótulo "nº nome" logo abaixo
+  const show = state.show;
+  const playerNode = (p: Player, colors: Team["colors"], as?: Pos) => {
+    const role = as ?? p.pos;
+    const num = show.num && p.number != null;
+    return (
+      <>
+        <span className="token__avatar">
+          <Avatar player={p} colors={colors} size={64} safe={safe} blank={!show.photo} />
+          {show.pos && <span className={`token__pos pos-badge--${role} ${as ? "is-alt" : ""}`}>{role}</span>}
+        </span>
+        {(show.name || num) && (
+          <span className={`token__label ${show.pos ? "has-pos" : ""}`}>
+            {num && (
+              <b className="token__num" style={{ background: colors.primary, color: textOn(colors.primary), borderColor: colors.secondary }}>
+                {p.number}
+              </b>
+            )}
+            {show.name && <span className="token__name">{labelName(p.name)}</span>}
           </span>
         )}
-      </span>
-      {!state.compact || live ? <span className="token__name">{labelName(p.name)}</span> : null}
-    </>
-  );
+      </>
+    );
+  };
 
   const renders: TokenRender[] = state.tokens.flatMap((t): TokenRender[] => {
     const key = `${t.kind}-${t.ref}`;
@@ -427,6 +453,10 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
       drawTool={drawTool}
       drawColor={drawColor}
       onAddDrawing={onAddDrawing}
+      selectedDrawing={selDrawing}
+      onSelectDrawing={setSelDrawing}
+      onMoveDrawing={onMoveDrawing}
+      onRemoveDrawing={onRemoveDrawing}
       onMoveToken={onMoveToken}
       onRemoveToken={onRemoveToken}
       onDropToken={onDropToken}
@@ -512,6 +542,7 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
             <button className={`btn btn--sm ${drawer === "squad" ? "is-on" : ""}`} onClick={() => setDrawer(drawer === "squad" ? null : "squad")}>Elenco</button>
             <button className={`btn btn--sm ${drawer === "opp" ? "is-on" : ""}`} onClick={() => setDrawer(drawer === "opp" ? null : "opp")}>Adversário</button>
             <FormationButtons value={state.formation} onPick={setFormation} />
+            <ShowControls value={state.show} onChange={(v) => setState((s) => (s ? { ...s, show: v } : s))} />
             <DrawControls tool={drawTool} color={drawColor} onTool={pickTool} onColor={setDrawColor} onErase={eraseDrawings} />
             <button className="icon-btn" onClick={undo} title="Desfazer (Ctrl+Z)">↶</button>
             <button className="icon-btn" onClick={clearField} title="Limpar campo (C)">⟲</button>
@@ -642,6 +673,7 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
         <FormationButtons value={state.formation} onPick={setFormation} />
         <DrawControls tool={drawTool} color={drawColor} onTool={pickTool} onColor={setDrawColor} onErase={eraseDrawings} />
         <div className="toolbar__end">
+          <ShowControls value={state.show} onChange={(v) => setState((s) => (s ? { ...s, show: v } : s))} />
           <label className="switch">
             <input type="checkbox" checked={state.compact} onChange={(e) => setState((s) => (s ? { ...s, compact: e.target.checked } : s))} />
             Compacto
@@ -685,7 +717,7 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
       )}
       <p className="hint">
         O campo é seu. Arraste do elenco para o campo; solte um reserva em cima de um titular para substituir. Duplo clique
-        (ou toque longo) remove. Atalhos: 1–6 formações · D desenhar · E apagar · C limpar · H esconder painéis · Ctrl+Z desfazer.
+        (ou toque longo) remove. Atalhos: 1–6 formações · D desenhar · B borracha · E apagar · C limpar · H esconder painéis · Ctrl+Z desfazer.
       </p>
       <Footer updatedAt={team.updatedAt} />
       {toast && <div className="toast">{toast}</div>}
