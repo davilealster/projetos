@@ -65,11 +65,13 @@ export const Pitch = forwardRef<PitchHandle, Props>(function Pitch(props, ref) {
 
   // tamanho de referência das peças: largura do lado curto do campo
   const shortSide = vertical ? fieldW : (fieldW * 68) / 105;
-  const tok = Math.max(26, shortSide * 0.085 * props.tokenScale);
+  // em campo pequeno (painel aberto no celular, celular deitado) as peças encolhem junto
+  const tok = Math.max(16, shortSide * 0.085 * props.tokenScale);
+  const tiny = tok < 26;
 
   return (
     <div
-      className={`pitch ${vertical ? "pitch--vertical" : ""} ${props.drawTool ? "pitch--tool" : ""} ${props.className ?? ""}`}
+      className={`pitch ${vertical ? "pitch--vertical" : ""} ${props.drawTool ? "pitch--tool" : ""} ${tiny ? "pitch--tiny" : ""} ${props.className ?? ""}`}
       style={{ "--tok": `${tok}px` } as React.CSSProperties}
     >
       <PitchMarkings vertical={vertical} stripes={props.stripes} />

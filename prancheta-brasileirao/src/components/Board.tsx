@@ -14,6 +14,8 @@ import { DrawControls, FormationButtons, ShowControls } from "./Controls";
 import type { TeleTool } from "./Telestrator";
 import { ExportCard, type ExportFormat } from "./ExportCard";
 import { Footer } from "./Footer";
+import { DrawBubble } from "./DrawBubble";
+import { MobileShell } from "./MobileShell";
 import { RolePicker } from "./RolePicker";
 import { OpponentPanel } from "./OpponentPanel";
 import { Pitch, type PitchHandle, type TokenRender } from "./Pitch";
@@ -52,7 +54,6 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
   const [selDrawing, setSelDrawing] = useState<string | null>(null);
   const [lastTool, setLastTool] = useState<DrawTool>("arrow");
   const [drawColor, setDrawColor] = useState("#FFD400");
-  const [tab, setTab] = useState<"squad" | "opp">("squad");
   const [toast, setToast] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
   const [picker, setPicker] = useState<number | null>(null);
@@ -64,7 +65,8 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
   const captureRef = useRef<HTMLDivElement>(null);
   const cardRef = useRef<HTMLDivElement>(null);
   const [exportFmt, setExportFmt] = useState<ExportFormat | null>(null);
-  const narrow = useMedia("(max-width: 760px)");
+  // celular (em pé ou deitado): layout de app e campo sempre na vertical
+  const narrow = useMedia("(max-width: 760px), (pointer: coarse) and (max-height: 560px)");
 
   // ---- parâmetros do Modo Live ----
   const qp = params();
@@ -610,6 +612,104 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
     );
   }
 
+  const bannerNode = shared && (
+    <div className="banner">
+          Você está vendo uma escalação compartilhada.
+          <button
+            className="btn btn--primary btn--sm"
+            onClick={() => {
+              history.replaceState(null, "", `/${slug}`);
+              const base = emptyState();
+              setShared(false);
+              setState(loadSaved(slug) ?? { ...base, tokens: [...base.tokens, ...applyFormation({ formation: "4-3-3", kind: "player", squad: team.players, current: [], fullPitch: true })] });
+            }}
+          >
+            Monte a sua
+          </button>
+        </div>
+  );
+  const exportNode = exportFmt && (
+    <ExportCard
+      ref={cardRef}
+      format={exportFmt}
+      team={team}
+      opp={opp && state.tokens.some((t) => t.kind === "oppPlayer") ? opp : null}
+      formation={state.formation}
+      tokens={renders}
+      drawings={state.drawings}
+      creator={creator}
+      host={host}
+    />
+  );
+  const setShow = (v: BoardState["show"]) => setState((s) => (s ? { ...s, show: v } : s));
+
+  // =================== CELULAR: layout de app ===================
+  if (narrow) {
+    return (
+      <MobileShell
+        ref={captureRef}
+        style={vars}
+        title={team.shortName}
+        crest={team.crest}
+        onBack={() => navigate("/")}
+        onLive={() => navigate(`/${slug}/live?ratio=9x16`)}
+        onUndo={undo}
+        banner={bannerNode}
+        pitch={pitch}
+        overlay={subsList}
+        bubble={<DrawBubble tool={drawTool} color={drawColor} onTool={pickTool} onColor={setDrawColor} onEraseAll={eraseDrawings} onUndo={undo} />}
+        counts={{ squad: String(onFieldPlayers.size) }}
+        sheets={{
+          squad: squadPanel,
+          opp: oppPanel,
+          tactic: (
+            <div className="m-tactic">
+              <h3>Formação</h3>
+              <FormationButtons value={state.formation} onPick={setFormation} />
+              <h3>Mostrar nas peças</h3>
+              <ShowControls value={state.show} onChange={setShow} />
+              <label className="switch">
+                <input type="checkbox" checked={state.compact} onChange={(e) => setState((s) => (s ? { ...s, compact: e.target.checked } : s))} />
+                Peças menores (compacto)
+              </label>
+              <div className="m-tactic__row">
+                <button className="btn" onClick={lineUpOpp}>Escalar adversário</button>
+                <button className="btn btn--ghost" onClick={clearField}>Limpar campo</button>
+              </div>
+              <p className="hint">
+                Toque no jogador do elenco para escalar na posição dele, ou arraste até o campo. No campo: toque para
+                escolher a posição, dois toques ou toque longo para tirar. Desenhos ficam no botão redondo do campo.
+              </p>
+            </div>
+          ),
+          more: (
+            <div className="m-more">
+              <button className="btn btn--primary btn--lg" onClick={copyLink}>Compartilhar minha escalação</button>
+              <h3>{busy ? "Gerando imagem…" : "Baixar imagem"}</h3>
+              <div className="m-more__grid">
+                <button className="btn" onClick={() => downloadImage("story")} disabled={busy}>Story 9:16</button>
+                <button className="btn" onClick={() => downloadImage("feed")} disabled={busy}>Feed 4:5</button>
+                <button className="btn" onClick={() => downloadImage("pitch")} disabled={busy}>Só o campo</button>
+              </div>
+              <h3>Para quem faz live</h3>
+              <div className="m-more__grid">
+                <button className="btn" onClick={() => navigate(`/${slug}/live?ratio=9x16`)}>Modo Live 9:16</button>
+                <button className="btn" onClick={() => navigate("/creator")}>Guia do criador</button>
+              </div>
+              <Footer updatedAt={team.updatedAt} />
+            </div>
+          ),
+        }}
+        extra={
+          <>
+            {exportNode}
+            {toast && <div className="toast toast--app">{toast}</div>}
+          </>
+        }
+      />
+    );
+  }
+
   // =================== PRANCHETA NORMAL ===================
   return (
     <div className={`board ${uiHidden ? "is-focus" : ""}`} style={vars}>
@@ -624,38 +724,13 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
         </div>
       </header>
 
-      {shared && (
-        <div className="banner">
-          Você está vendo uma escalação compartilhada.
-          <button
-            className="btn btn--primary btn--sm"
-            onClick={() => {
-              history.replaceState(null, "", `/${slug}`);
-              const base = emptyState();
-              setShared(false);
-              setState(loadSaved(slug) ?? { ...base, tokens: [...base.tokens, ...applyFormation({ formation: "4-3-3", kind: "player", squad: team.players, current: [], fullPitch: true })] });
-            }}
-          >
-            Monte a sua
-          </button>
-        </div>
-      )}
+      {bannerNode}
 
       {!uiHidden && (
-        narrow ? (
-          <div className="tabs">
-            <div className="tabs__bar" role="tablist">
-              <button role="tab" aria-selected={tab === "squad"} className={tab === "squad" ? "is-on" : ""} onClick={() => setTab("squad")}>Elenco</button>
-              <button role="tab" aria-selected={tab === "opp"} className={tab === "opp" ? "is-on" : ""} onClick={() => setTab("opp")}>Adversário</button>
-            </div>
-            {tab === "squad" ? squadPanel : oppPanel}
-          </div>
-        ) : (
-          <div className="board__panels">
-            {squadPanel}
-            {oppPanel}
-          </div>
-        )
+        <div className="board__panels">
+          {squadPanel}
+          {oppPanel}
+        </div>
       )}
 
       <div className="toolbar">
@@ -702,19 +777,7 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
           <button className="btn btn--sm" onClick={() => downloadImage("pitch")} disabled={busy} title="O campo como está na tela">Campo</button>
         </div>
       </div>
-      {exportFmt && (
-        <ExportCard
-          ref={cardRef}
-          format={exportFmt}
-          team={team}
-          opp={opp && state.tokens.some((t) => t.kind === "oppPlayer") ? opp : null}
-          formation={state.formation}
-          tokens={renders}
-          drawings={state.drawings}
-          creator={creator}
-          host={host}
-        />
-      )}
+      {exportNode}
       <p className="hint">
         O campo é seu. Arraste do elenco para o campo; solte um reserva em cima de um titular para substituir. Duplo clique
         (ou toque longo) remove. Atalhos: 1–6 formações · D desenhar · B borracha · E apagar · C limpar · H esconder painéis · Ctrl+Z desfazer.
