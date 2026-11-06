@@ -1,0 +1,23 @@
+{
+  "_doc": "slug -> clube. apiId (API-Football) e sportsDbId (TheSportsDB) começam null e são travados na primeira execução de fetch-teams / enrich-sportsdb, casando pelos aliases. Depois disso o casamento é só pelo id. Para corrigir um casamento errado, edite o id à mão.",
+  "athletico-pr": { "name": "Athletico Paranaense", "shortName": "Athletico-PR", "apiId": null, "sportsDbId": null, "aliases": ["Athletico Paranaense", "Atletico Paranaense", "Athletico-PR", "Athletico PR", "Atletico-PR"] },
+  "atletico-mg": { "name": "Atlético Mineiro", "shortName": "Atlético-MG", "apiId": null, "sportsDbId": null, "aliases": ["Atletico Mineiro", "Atletico-MG", "Atletico MG", "Clube Atletico Mineiro"] },
+  "bahia": { "name": "Bahia", "shortName": "Bahia", "apiId": null, "sportsDbId": null, "aliases": ["Bahia", "EC Bahia", "Esporte Clube Bahia"] },
+  "botafogo": { "name": "Botafogo", "shortName": "Botafogo", "apiId": null, "sportsDbId": null, "aliases": ["Botafogo", "Botafogo RJ", "Botafogo FR"] },
+  "bragantino": { "name": "Red Bull Bragantino", "shortName": "Bragantino", "apiId": null, "sportsDbId": null, "aliases": ["RB Bragantino", "Red Bull Bragantino", "Bragantino"] },
+  "chapecoense": { "name": "Chapecoense", "shortName": "Chapecoense", "apiId": null, "sportsDbId": null, "aliases": ["Chapecoense", "Chapecoense-SC", "Chapecoense SC", "Associacao Chapecoense de Futebol"] },
+  "corinthians": { "name": "Corinthians", "shortName": "Corinthians", "apiId": null, "sportsDbId": null, "aliases": ["Corinthians", "SC Corinthians Paulista", "Corinthians Paulista"] },
+  "coritiba": { "name": "Coritiba", "shortName": "Coritiba", "apiId": null, "sportsDbId": null, "aliases": ["Coritiba", "Coritiba FC"] },
+  "cruzeiro": { "name": "Cruzeiro", "shortName": "Cruzeiro", "apiId": null, "sportsDbId": null, "aliases": ["Cruzeiro", "Cruzeiro EC"] },
+  "flamengo": { "name": "Flamengo", "shortName": "Flamengo", "apiId": null, "sportsDbId": null, "aliases": ["Flamengo", "CR Flamengo", "Flamengo RJ"] },
+  "fluminense": { "name": "Fluminense", "shortName": "Fluminense", "apiId": null, "sportsDbId": null, "aliases": ["Fluminense", "Fluminense FC", "Fluminense RJ"] },
+  "gremio": { "name": "Grêmio", "shortName": "Grêmio", "apiId": null, "sportsDbId": null, "aliases": ["Gremio", "Gremio FBPA"] },
+  "internacional": { "name": "Internacional", "shortName": "Inter", "apiId": null, "sportsDbId": null, "aliases": ["Internacional", "SC Internacional"] },
+  "mirassol": { "name": "Mirassol", "shortName": "Mirassol", "apiId": null, "sportsDbId": null, "aliases": ["Mirassol", "Mirassol FC"] },
+  "palmeiras": { "name": "Palmeiras", "shortName": "Palmeiras", "apiId": null, "sportsDbId": null, "aliases": ["Palmeiras", "SE Palmeiras"] },
+  "remo": { "name": "Remo", "shortName": "Remo", "apiId": null, "sportsDbId": null, "aliases": ["Remo", "Clube do Remo"] },
+  "santos": { "name": "Santos", "shortName": "Santos", "apiId": null, "sportsDbId": null, "aliases": ["Santos", "Santos FC"] },
+  "sao-paulo": { "name": "São Paulo", "shortName": "São Paulo", "apiId": null, "sportsDbId": null, "aliases": ["Sao Paulo", "Sao Paulo FC"] },
+  "vasco": { "name": "Vasco da Gama", "shortName": "Vasco", "apiId": null, "sportsDbId": null, "aliases": ["Vasco DA Gama", "Vasco da Gama", "CR Vasco da Gama", "Vasco"] },
+  "vitoria": { "name": "Vitória", "shortName": "Vitória", "apiId": null, "sportsDbId": null, "aliases": ["Vitoria", "EC Vitoria", "Esporte Clube Vitoria"] }
+}

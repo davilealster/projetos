@@ -1,0 +1,23 @@
+{
+  "_doc": "Cores aproximadas de cada clube, preenchidas à mão. primary = cor dominante da camisa, secondary = segunda cor, accent = detalhe. Revise à vontade.",
+  "athletico-pr": { "primary": "#C8102E", "secondary": "#000000", "accent": "#FFFFFF" },
+  "atletico-mg": { "primary": "#000000", "secondary": "#FFFFFF", "accent": "#D4AF37" },
+  "bahia": { "primary": "#0055A4", "secondary": "#FFFFFF", "accent": "#E30613" },
+  "botafogo": { "primary": "#000000", "secondary": "#FFFFFF", "accent": "#9A9A9A" },
+  "bragantino": { "primary": "#FFFFFF", "secondary": "#E30613", "accent": "#0B1F3A" },
+  "chapecoense": { "primary": "#00843D", "secondary": "#FFFFFF", "accent": "#000000" },
+  "corinthians": { "primary": "#000000", "secondary": "#FFFFFF", "accent": "#9A9A9A" },
+  "coritiba": { "primary": "#00544D", "secondary": "#FFFFFF", "accent": "#000000" },
+  "cruzeiro": { "primary": "#0033A0", "secondary": "#FFFFFF", "accent": "#F2C200" },
+  "flamengo": { "primary": "#C8102E", "secondary": "#000000", "accent": "#FFFFFF" },
+  "fluminense": { "primary": "#7A0A2E", "secondary": "#006437", "accent": "#FFFFFF" },
+  "gremio": { "primary": "#0D80BF", "secondary": "#000000", "accent": "#FFFFFF" },
+  "internacional": { "primary": "#E30613", "secondary": "#FFFFFF", "accent": "#000000" },
+  "mirassol": { "primary": "#FFD200", "secondary": "#00843D", "accent": "#000000" },
+  "palmeiras": { "primary": "#006437", "secondary": "#FFFFFF", "accent": "#0B3D2E" },
+  "remo": { "primary": "#0B2A5B", "secondary": "#FFFFFF", "accent": "#6CB4E4" },
+  "santos": { "primary": "#FFFFFF", "secondary": "#000000", "accent": "#B8A16B" },
+  "sao-paulo": { "primary": "#E30613", "secondary": "#FFFFFF", "accent": "#000000" },
+  "vasco": { "primary": "#000000", "secondary": "#FFFFFF", "accent": "#E30613" },
+  "vitoria": { "primary": "#E30613", "secondary": "#000000", "accent": "#FFFFFF" }
+}
