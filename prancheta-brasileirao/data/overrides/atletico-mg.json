@@ -1,1 +1,200 @@
-{}
+{
+  "687": {
+    "pos": "VOL",
+    "alt": [
+      "MEI",
+      "ZAG"
+    ],
+    "draft": true,
+    "source": "wikipedia: volante"
+  },
+  "905": {
+    "pos": "VOL",
+    "alt": [
+      "MEI",
+      "ZAG"
+    ],
+    "draft": true,
+    "source": "wikipedia: volante"
+  },
+  "2583": {
+    "pos": "LD",
+    "alt": [
+      "ZAG",
+      "LE"
+    ],
+    "draft": true,
+    "source": "wikipedia: lateral-direito",
+    "displayName": "Ángelo Preciado"
+  },
+  "5923": {
+    "pos": "ATA",
+    "alt": [
+      "PON",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: centroavante",
+    "displayName": "Mateo Cassierra"
+  },
+  "6031": {
+    "pos": "PON",
+    "alt": [
+      "ATA",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: ponta",
+    "displayName": "Tomás Cuello"
+  },
+  "9926": {
+    "pos": "MEI",
+    "alt": [
+      "VOL",
+      "PON"
+    ],
+    "draft": true,
+    "source": "wikipedia: meio-campista"
+  },
+  "9939": {
+    "pos": "PON",
+    "alt": [
+      "MEI",
+      "ATA"
+    ],
+    "draft": true,
+    "source": "wikipedia: ponta ou meio-campista"
+  },
+  "9978": {
+    "pos": "GOL",
+    "alt": [],
+    "draft": true,
+    "source": "wikipedia: goleiro"
+  },
+  "10122": {
+    "pos": "LE",
+    "alt": [
+      "ZAG",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: lateral-esquerdo"
+  },
+  "10160": {
+    "pos": "ZAG",
+    "alt": [
+      "VOL",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: zagueiro"
+  },
+  "10166": {
+    "pos": "MEI",
+    "alt": [
+      "VOL",
+      "PON"
+    ],
+    "draft": true,
+    "source": "wikipedia: meio-campista"
+  },
+  "16360": {
+    "pos": "MEI",
+    "alt": [
+      "VOL",
+      "PON"
+    ],
+    "draft": true,
+    "source": "wikipedia: meio-campista"
+  },
+  "18761": {
+    "pos": "PON",
+    "alt": [
+      "MEI",
+      "ATA"
+    ],
+    "draft": true,
+    "source": "wikipedia: ponta ou meio-campista"
+  },
+  "30398": {
+    "pos": "ZAG",
+    "alt": [
+      "VOL",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: zagueiro"
+  },
+  "30476": {
+    "pos": "ZAG",
+    "alt": [
+      "VOL",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: zagueiro"
+  },
+  "197450": {
+    "pos": "LD",
+    "alt": [
+      "ZAG",
+      "LE"
+    ],
+    "draft": true,
+    "source": "wikipedia: lateral-direito"
+  },
+  "197513": {
+    "pos": "ATA",
+    "alt": [
+      "PON",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: atacante",
+    "displayName": "Thiago Borbas"
+  },
+  "280695": {
+    "pos": "PON",
+    "alt": [
+      "ATA",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: ponta-direita",
+    "displayName": "Alan Minda"
+  },
+  "289592": {
+    "pos": "VOL",
+    "alt": [
+      "MEI",
+      "ZAG"
+    ],
+    "draft": true,
+    "source": "wikipedia: volante",
+    "displayName": "Kevin Castaño"
+  },
+  "311275": {
+    "pos": "GOL",
+    "alt": [],
+    "draft": true,
+    "source": "wikipedia: goleiro"
+  },
+  "352371": {
+    "pos": "MEI",
+    "alt": [
+      "VOL",
+      "PON"
+    ],
+    "draft": true,
+    "source": "wikipedia: meio-campista"
+  },
+  "363323": {
+    "pos": "VOL",
+    "alt": [
+      "MEI",
+      "ZAG"
+    ],
+    "draft": true,
+    "source": "wikipedia: volante"
+  }
+}

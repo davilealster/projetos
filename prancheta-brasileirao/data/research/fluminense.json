@@ -1,0 +1,193 @@
+{
+ "club": "fluminense",
+ "template": "en_Fluminense_FC_squad.html",
+ "lang": "en",
+ "players": [
+  {
+   "number": 1,
+   "title": "Fábio (footballer, born 1980)",
+   "label": "Fábio",
+   "positions_raw": "Goalkeeper"
+  },
+  {
+   "number": 2,
+   "title": "Samuel Xavier",
+   "label": "Samuel Xavier",
+   "positions_raw": "Right back"
+  },
+  {
+   "number": 3,
+   "title": "Thiago Silva",
+   "label": "Thiago Silva",
+   "positions_raw": "Centre-back"
+  },
+  {
+   "number": 4,
+   "title": "Ignácio (footballer)",
+   "label": "Ignácio",
+   "positions_raw": "Centre-back"
+  },
+  {
+   "number": 6,
+   "title": "Renê (footballer, born 1992)",
+   "label": "Renê",
+   "positions_raw": "Left back"
+  },
+  {
+   "number": 7,
+   "title": "Hulk (footballer)",
+   "label": "Hulk",
+   "positions_raw": "Striker"
+  },
+  {
+   "number": 8,
+   "title": "Matheus Martinelli",
+   "label": "Martinelli",
+   "positions_raw": "Midfielder"
+  },
+  {
+   "number": 9,
+   "title": "John Kennedy (footballer, born 2002)",
+   "label": "John Kennedy",
+   "positions_raw": "Forward"
+  },
+  {
+   "number": 10,
+   "title": "Paulo Henrique Ganso",
+   "label": "Ganso",
+   "positions_raw": "Attacking midfielder"
+  },
+  {
+   "number": 11,
+   "title": "Jefferson Savarino",
+   "label": "Savarino",
+   "positions_raw": "Attacking midfielder, winger"
+  },
+  {
+   "number": 13,
+   "title": "Guilherme Arana",
+   "label": "Arana",
+   "positions_raw": "Left-back"
+  },
+  {
+   "number": 14,
+   "title": "Germán Cano",
+   "label": "Cano",
+   "positions_raw": "Striker"
+  },
+  {
+   "number": 16,
+   "title": "Nonato (footballer, born 1998)",
+   "label": "Nonato",
+   "positions_raw": "Midfielder"
+  },
+  {
+   "number": 17,
+   "title": "Agustín Canobbio",
+   "label": "Canobbio",
+   "positions_raw": "Attacking midfielder, winger"
+  },
+  {
+   "number": 19,
+   "title": "Rodrigo Castillo",
+   "label": "Castillo",
+   "positions_raw": "Forward"
+  },
+  {
+   "number": 21,
+   "title": "Igor Rabello",
+   "label": "Rabello",
+   "positions_raw": "Centre back"
+  },
+  {
+   "number": 22,
+   "title": "Juan Pablo Freytes",
+   "label": "Freytes",
+   "positions_raw": "Centre-back"
+  },
+  {
+   "number": 23,
+   "title": "Guga (footballer, born 1998)",
+   "label": "Guga",
+   "positions_raw": "Right back"
+  },
+  {
+   "number": 25,
+   "title": "Alisson (footballer, born 1993)",
+   "label": "Alisson",
+   "positions_raw": "Midfielder"
+  },
+  {
+   "number": 27,
+   "title": "Marcelo Pitaluga",
+   "label": "Pitaluga",
+   "positions_raw": "Goalkeeper"
+  },
+  {
+   "number": 28,
+   "title": "Riquelme Felipe",
+   "label": "Riquelme",
+   "positions_raw": "Right winger"
+  },
+  {
+   "number": 29,
+   "title": "Julián Millán",
+   "label": "Millán",
+   "positions_raw": "Centre-back"
+  },
+  {
+   "number": 30,
+   "title": "Yeferson Soteldo",
+   "label": "Soteldo",
+   "positions_raw": "Winger, attacking midfielder"
+  },
+  {
+   "number": 32,
+   "title": "Luciano Acosta",
+   "label": "Acosta",
+   "positions_raw": "Attacking midfielder"
+  },
+  {
+   "number": 35,
+   "title": "Hércules (footballer, born 2000)",
+   "label": "Hércules",
+   "positions_raw": "Midfielder"
+  },
+  {
+   "number": 40,
+   "title": "Davi Schuindt",
+   "label": "Davi",
+   "positions_raw": "Centre-back"
+  },
+  {
+   "number": 44,
+   "title": "Jemmes",
+   "label": "Jemmes",
+   "positions_raw": "Centre-back"
+  },
+  {
+   "number": 46,
+   "title": "Júlio Fidelis",
+   "label": "Fidelis",
+   "positions_raw": "Right-back"
+  },
+  {
+   "number": 90,
+   "title": "Kevin Serna",
+   "label": "Serna",
+   "positions_raw": "Forward"
+  },
+  {
+   "number": 94,
+   "title": "Otávio (footballer, born 1994)",
+   "label": "Otávio",
+   "positions_raw": "Defensive midfielder"
+  },
+  {
+   "number": 98,
+   "title": "Vitor Eudes",
+   "label": "Vitor Eudes",
+   "positions_raw": "Goalkeeper"
+  }
+ ]
+}

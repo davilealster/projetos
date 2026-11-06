@@ -1,0 +1,608 @@
+{
+  "slug": "gremio",
+  "updatedAt": "2026-11-06",
+  "players": [
+    {
+      "id": 2410,
+      "apiName": "Weverton",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 1,
+      "photo": "/players/gremio/2410.webp",
+      "name": "Weverton",
+      "number": 1,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Goalkeeper"
+    },
+    {
+      "id": 309634,
+      "apiName": "Gabriel Grando",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 12,
+      "photo": "/players/gremio/309634.webp",
+      "name": "Gabriel Grando",
+      "number": 12,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Goalkeeper"
+    },
+    {
+      "id": 454135,
+      "apiName": "Thiago Beltrame",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 24,
+      "photo": "/players/gremio/454135.webp",
+      "name": "Thiago Beltrame",
+      "number": 24,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Goalkeeper"
+    },
+    {
+      "id": 635023,
+      "apiName": "G. Menegon",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 31,
+      "photo": null,
+      "name": "Gabriel Menegon",
+      "number": 31,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Goalkeeper"
+    },
+    {
+      "id": 2500,
+      "apiName": "F. Balbuena",
+      "apiPos": "Defender",
+      "apiNumber": 2,
+      "photo": "/players/gremio/2500.webp",
+      "name": "Fabián Balbuena",
+      "number": 2,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Centre-back"
+    },
+    {
+      "id": 9993,
+      "apiName": "Wagner Leonardo",
+      "apiPos": "Defender",
+      "apiNumber": 3,
+      "photo": "/players/gremio/9993.webp",
+      "name": "Wagner Leonardo",
+      "number": 3,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Centre back"
+    },
+    {
+      "id": 2466,
+      "apiName": "W. Kannemann",
+      "apiPos": "Defender",
+      "apiNumber": 4,
+      "photo": "/players/gremio/2466.webp",
+      "name": "Walter Kannemann",
+      "number": 4,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Centre-back"
+    },
+    {
+      "id": 304867,
+      "apiName": "Gustavo Martins",
+      "apiPos": "Defender",
+      "apiNumber": 6,
+      "photo": "/players/gremio/304867.webp",
+      "name": "Gustavo Martins",
+      "number": 6,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Centre-back"
+    },
+    {
+      "id": 607376,
+      "apiName": "V. Ramon",
+      "apiPos": "Defender",
+      "apiNumber": 32,
+      "photo": null,
+      "name": "V. Ramon",
+      "number": 32,
+      "pos": "ZAG",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 510552,
+      "apiName": "Luis Eduardo",
+      "apiPos": "Defender",
+      "apiNumber": 43,
+      "photo": "/players/gremio/510552.webp",
+      "name": "Luis Eduardo",
+      "number": 43,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Centre-back"
+    },
+    {
+      "id": 686215,
+      "apiName": "Emanuel Mariano Quaresma da Silva",
+      "apiPos": "Defender",
+      "apiNumber": 58,
+      "photo": null,
+      "name": "Emanuel Mariano Quaresma da Silva",
+      "number": 58,
+      "pos": "ZAG",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 454925,
+      "apiName": "Wallace",
+      "apiPos": "Defender",
+      "apiNumber": 82,
+      "photo": "/players/gremio/454925.webp",
+      "name": "Wallace",
+      "number": 82,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Centre-back"
+    },
+    {
+      "id": 9916,
+      "apiName": "Marcos Rocha",
+      "apiPos": "Defender",
+      "apiNumber": 14,
+      "photo": "/players/gremio/9916.webp",
+      "name": "Marcos Rocha",
+      "number": 14,
+      "pos": "LD",
+      "alt": [
+        "ZAG",
+        "LE"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Right-back"
+    },
+    {
+      "id": 374,
+      "apiName": "João Pedro",
+      "apiPos": "Midfielder",
+      "apiNumber": 18,
+      "photo": "/players/gremio/374.webp",
+      "name": "João Pedro",
+      "number": 18,
+      "pos": "LD",
+      "alt": [
+        "ZAG",
+        "LE"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Right-back"
+    },
+    {
+      "id": 405703,
+      "apiName": "Diego Caito",
+      "apiPos": "Defender",
+      "apiNumber": 27,
+      "photo": "/players/gremio/405703.webp",
+      "name": "Diego Caito",
+      "number": 27,
+      "pos": "LD",
+      "alt": [
+        "ZAG",
+        "LE"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Right-back"
+    },
+    {
+      "id": 10309,
+      "apiName": "Marlon",
+      "apiPos": "Midfielder",
+      "apiNumber": 23,
+      "photo": "/players/gremio/10309.webp",
+      "name": "Marlon",
+      "number": 23,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Left-back"
+    },
+    {
+      "id": 10527,
+      "apiName": "Caio Paulista",
+      "apiPos": "Defender",
+      "apiNumber": 38,
+      "photo": "/players/gremio/10527.webp",
+      "name": "Caio Paulista",
+      "number": 38,
+      "pos": "LE",
+      "alt": [
+        "PON",
+        "ZAG"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Left-back, winger"
+    },
+    {
+      "id": 647516,
+      "apiName": "Pedro Gabriel",
+      "apiPos": "Defender",
+      "apiNumber": 54,
+      "photo": null,
+      "name": "Pedro Gabriel",
+      "number": 54,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Left-back"
+    },
+    {
+      "id": 199141,
+      "apiName": "E. Noriega",
+      "apiPos": "Midfielder",
+      "apiNumber": 8,
+      "photo": "/players/gremio/199141.webp",
+      "name": "Erick Noriega",
+      "number": 8,
+      "pos": "VOL",
+      "alt": [
+        "ZAG",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Defensive midfielder, centre-back"
+    },
+    {
+      "id": 22167,
+      "apiName": "Danilo Barbosa",
+      "apiPos": "Midfielder",
+      "apiNumber": 15,
+      "photo": "/players/gremio/22167.webp",
+      "name": "Danilo Barbosa",
+      "number": 15,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Defensive midfielder"
+    },
+    {
+      "id": 10314,
+      "apiName": "Dodi",
+      "apiPos": "Midfielder",
+      "apiNumber": 17,
+      "photo": "/players/gremio/10314.webp",
+      "name": "Dodi",
+      "number": 17,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Defensive midfielder"
+    },
+    {
+      "id": 129882,
+      "apiName": "J. Nardoni",
+      "apiPos": "Midfielder",
+      "apiNumber": 5,
+      "photo": "/players/gremio/129882.webp",
+      "name": "Juan Nardoni",
+      "number": 5,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Central midfielder"
+    },
+    {
+      "id": 574,
+      "apiName": "F. Krovinović",
+      "apiPos": "Midfielder",
+      "apiNumber": 10,
+      "photo": "/players/gremio/574.webp",
+      "name": "Filip Krovinović",
+      "number": 10,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Midfielder"
+    },
+    {
+      "id": 70566,
+      "apiName": "M. Villasanti",
+      "apiPos": "Midfielder",
+      "apiNumber": 20,
+      "photo": "/players/gremio/70566.webp",
+      "name": "Mathías Villasanti",
+      "number": 20,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Midfielder"
+    },
+    {
+      "id": 502998,
+      "apiName": "Tiago",
+      "apiPos": "Midfielder",
+      "apiNumber": 39,
+      "photo": "/players/gremio/502998.webp",
+      "name": "Tiago",
+      "number": 39,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Midfielder"
+    },
+    {
+      "id": 634340,
+      "apiName": "Jefinho",
+      "apiPos": "Midfielder",
+      "apiNumber": 40,
+      "photo": null,
+      "name": "Jefinho",
+      "number": 40,
+      "pos": "MEI",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 570403,
+      "apiName": "B. G. Joao Pedro",
+      "apiPos": "Midfielder",
+      "apiNumber": 48,
+      "photo": null,
+      "name": "B. G. Joao Pedro",
+      "number": 48,
+      "pos": "MEI",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 510554,
+      "apiName": "Bernardo Zortea",
+      "apiPos": "Midfielder",
+      "apiNumber": 50,
+      "photo": "/players/gremio/510554.webp",
+      "name": "Bernardo Zortea",
+      "number": 50,
+      "pos": "MEI",
+      "alt": [],
+      "hidden": false,
+      "source": "sportsdb",
+      "note": "Midfielder"
+    },
+    {
+      "id": 457508,
+      "apiName": "Riquelme Freitas",
+      "apiPos": "Midfielder",
+      "apiNumber": 65,
+      "photo": "/players/gremio/457508.webp",
+      "name": "Riquelme Freitas",
+      "number": 65,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Midfielder"
+    },
+    {
+      "id": 5981,
+      "apiName": "C. Pavón",
+      "apiPos": "Attacker",
+      "apiNumber": 7,
+      "photo": "/players/gremio/5981.webp",
+      "name": "Cristian Pavon",
+      "number": 7,
+      "pos": "PON",
+      "alt": [
+        "LD",
+        "ATA"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Winger, Right-back"
+    },
+    {
+      "id": 1431,
+      "apiName": "F. Amuzu",
+      "apiPos": "Midfielder",
+      "apiNumber": 9,
+      "photo": "/players/gremio/1431.webp",
+      "name": "Francis Amuzu",
+      "number": 9,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Winger"
+    },
+    {
+      "id": 691,
+      "apiName": "Tetê",
+      "apiPos": "Attacker",
+      "apiNumber": 11,
+      "photo": "/players/gremio/691.webp",
+      "name": "Tetê",
+      "number": 11,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Right winger"
+    },
+    {
+      "id": 1494,
+      "apiName": "Jovane Cabral",
+      "apiPos": "Attacker",
+      "apiNumber": 77,
+      "photo": "/players/gremio/1494.webp",
+      "name": "Jovane Cabral",
+      "number": 77,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Winger"
+    },
+    {
+      "id": 13616,
+      "apiName": "J. Enamorado",
+      "apiPos": "Midfielder",
+      "apiNumber": 99,
+      "photo": "/players/gremio/13616.webp",
+      "name": "José Enamorado",
+      "number": 99,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Winger"
+    },
+    {
+      "id": 2737,
+      "apiName": "M. Braithwaite",
+      "apiPos": "Attacker",
+      "apiNumber": 22,
+      "photo": "/players/gremio/2737.webp",
+      "name": "Martin Braithwaite",
+      "number": 22,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Striker, winger"
+    },
+    {
+      "id": 269441,
+      "apiName": "Matheus Nascimento",
+      "apiPos": "Attacker",
+      "apiNumber": 30,
+      "photo": "/players/gremio/269441.webp",
+      "name": "Matheus Nascimento",
+      "number": 30,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Striker"
+    },
+    {
+      "id": 104,
+      "apiName": "Carlos Vinícius",
+      "apiPos": "Attacker",
+      "apiNumber": 95,
+      "photo": "/players/gremio/104.webp",
+      "name": "Carlos Vinícius",
+      "number": 95,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Striker"
+    }
+  ]
+}

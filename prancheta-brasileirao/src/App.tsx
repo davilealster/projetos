@@ -1,8 +1,10 @@
-import { useEffect } from "react";
+import { Suspense, lazy, useEffect } from "react";
 import { Board } from "./components/Board";
 import { CreatorPage } from "./components/CreatorPage";
 import { TeamPicker } from "./components/TeamPicker";
 import { navigate, useRoute } from "./router";
+
+const AdminApp = lazy(() => import("./admin/AdminApp"));
 
 export function App() {
   const route = useRoute();
@@ -12,6 +14,12 @@ export function App() {
 
   if (route.page === "home") return <TeamPicker />;
   if (route.page === "creator") return <CreatorPage />;
+  if (route.page === "admin")
+    return (
+      <Suspense fallback={<div className="admin-loading">Carregando…</div>}>
+        <AdminApp />
+      </Suspense>
+    );
   if (route.page === "board") return <Board key={route.slug} slug={route.slug} live={route.live} />;
   return (
     <div className="notfound">

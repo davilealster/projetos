@@ -32,25 +32,15 @@
       "photo": "/players/vasco/454136.webp"
     },
     {
-      "id": 51426,
-      "name": "J. Rodríguez",
-      "number": 2,
-      "pos": "ZAG",
-      "photo": "/players/vasco/51426.webp"
-    },
-    {
       "id": 310774,
       "name": "Alan Saldivia",
       "number": 4,
       "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
       "photo": "/players/vasco/310774.webp"
-    },
-    {
-      "id": 10234,
-      "name": "Lucas Piton",
-      "number": 6,
-      "pos": "ZAG",
-      "photo": "/players/vasco/10234.webp"
     },
     {
       "id": 505138,
@@ -71,6 +61,10 @@
       "name": "Robert Renan",
       "number": 30,
       "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
       "photo": "/players/vasco/359372.webp"
     },
     {
@@ -78,13 +72,21 @@
       "name": "Lucas Freitas",
       "number": 43,
       "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
       "photo": "/players/vasco/286962.webp"
     },
     {
       "id": 13283,
-      "name": "C. Cuesta",
+      "name": "Carlos Cuesta",
       "number": 46,
       "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
       "photo": "/players/vasco/13283.webp"
     },
     {
@@ -92,6 +94,10 @@
       "name": "Gabriel Pereira",
       "number": 55,
       "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
       "photo": "/players/vasco/159511.webp"
     },
     {
@@ -100,13 +106,6 @@
       "number": 64,
       "pos": "ZAG",
       "photo": "/players/vasco/505139.webp"
-    },
-    {
-      "id": 353034,
-      "name": "Cuiabano",
-      "number": 66,
-      "pos": "ZAG",
-      "photo": "/players/vasco/353034.webp"
     },
     {
       "id": 588652,
@@ -130,17 +129,91 @@
       "photo": null
     },
     {
+      "id": 51426,
+      "name": "Puma Rodríguez",
+      "number": 2,
+      "pos": "LD",
+      "alt": [
+        "ATA",
+        "ZAG"
+      ],
+      "photo": "/players/vasco/51426.webp"
+    },
+    {
       "id": 133910,
       "name": "Paulo Henrique",
       "number": 96,
-      "pos": "ZAG",
+      "pos": "LD",
+      "alt": [
+        "ZAG",
+        "LE"
+      ],
       "photo": "/players/vasco/133910.webp"
+    },
+    {
+      "id": 10234,
+      "name": "Lucas Piton",
+      "number": 6,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "photo": "/players/vasco/10234.webp"
+    },
+    {
+      "id": 353034,
+      "name": "Cuiabano",
+      "number": 66,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "photo": "/players/vasco/353034.webp"
+    },
+    {
+      "id": 6006,
+      "name": "Santiago Sosa",
+      "number": 5,
+      "pos": "VOL",
+      "alt": [
+        "ZAG",
+        "MEI"
+      ],
+      "photo": "/players/vasco/6006.webp"
+    },
+    {
+      "id": 9890,
+      "name": "Jair",
+      "number": 8,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "photo": "/players/vasco/9890.webp"
+    },
+    {
+      "id": 404753,
+      "name": "Cauan Barros",
+      "number": 88,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "photo": "/players/vasco/404753.webp"
     },
     {
       "id": 9958,
       "name": "Tchê Tchê",
       "number": 3,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": "/players/vasco/9958.webp"
     },
     {
@@ -151,20 +224,6 @@
       "photo": null
     },
     {
-      "id": 6006,
-      "name": "S. Sosa",
-      "number": 5,
-      "pos": "MEI",
-      "photo": "/players/vasco/6006.webp"
-    },
-    {
-      "id": 9890,
-      "name": "Jair",
-      "number": 8,
-      "pos": "MEI",
-      "photo": "/players/vasco/9890.webp"
-    },
-    {
       "id": 606272,
       "name": "Samuel",
       "number": 8,
@@ -172,31 +231,25 @@
       "photo": null
     },
     {
-      "id": 214,
-      "name": "F. Colidio",
-      "number": 9,
-      "pos": "MEI",
-      "photo": "/players/vasco/214.webp"
-    },
-    {
       "id": 351920,
-      "name": "J. Rojas",
+      "name": "Johan Rojas",
       "number": 10,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": "/players/vasco/351920.webp"
-    },
-    {
-      "id": 163260,
-      "name": "Nuno Moreira",
-      "number": 17,
-      "pos": "MEI",
-      "photo": "/players/vasco/163260.webp"
     },
     {
       "id": 358383,
       "name": "Alan Lescano",
       "number": 22,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": "/players/vasco/358383.webp"
     },
     {
@@ -204,14 +257,11 @@
       "name": "Thiago Mendes",
       "number": 23,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": "/players/vasco/22232.webp"
-    },
-    {
-      "id": 306261,
-      "name": "Adson",
-      "number": 28,
-      "pos": "MEI",
-      "photo": "/players/vasco/306261.webp"
     },
     {
       "id": 452887,
@@ -235,24 +285,69 @@
       "photo": "/players/vasco/454458.webp"
     },
     {
-      "id": 404753,
-      "name": "Cauan Barros",
-      "number": 88,
-      "pos": "MEI",
-      "photo": "/players/vasco/404753.webp"
-    },
-    {
       "id": 345748,
       "name": "Andrés Gómez",
       "number": 11,
       "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
       "photo": "/players/vasco/345748.webp"
+    },
+    {
+      "id": 163260,
+      "name": "Nuno Moreira",
+      "number": 17,
+      "pos": "PON",
+      "alt": [
+        "MEI",
+        "ATA"
+      ],
+      "photo": "/players/vasco/163260.webp"
+    },
+    {
+      "id": 64134,
+      "name": "Marino Hinestroza",
+      "number": 18,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "photo": "/players/vasco/64134.webp"
+    },
+    {
+      "id": 306261,
+      "name": "Adson",
+      "number": 28,
+      "pos": "PON",
+      "alt": [
+        "MEI",
+        "ATA"
+      ],
+      "photo": "/players/vasco/306261.webp"
+    },
+    {
+      "id": 289306,
+      "name": "Loide Augusto",
+      "number": 45,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "photo": "/players/vasco/289306.webp"
     },
     {
       "id": 10105,
       "name": "David",
       "number": 7,
       "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
       "photo": "/players/vasco/10105.webp"
     },
     {
@@ -263,17 +358,25 @@
       "photo": "/players/vasco/454139.webp"
     },
     {
-      "id": 64134,
-      "name": "M. Hinestroza",
-      "number": 18,
+      "id": 214,
+      "name": "Facundo Colidio",
+      "number": 9,
       "pos": "ATA",
-      "photo": "/players/vasco/64134.webp"
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "photo": "/players/vasco/214.webp"
     },
     {
       "id": 63475,
       "name": "Bruno Duarte",
       "number": 19,
       "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
       "photo": "/players/vasco/63475.webp"
     },
     {
@@ -281,14 +384,11 @@
       "name": "Brenner",
       "number": 20,
       "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
       "photo": "/players/vasco/9975.webp"
-    },
-    {
-      "id": 289306,
-      "name": "Loide Augusto",
-      "number": 45,
-      "pos": "ATA",
-      "photo": "/players/vasco/289306.webp"
     },
     {
       "id": 607352,
@@ -306,9 +406,13 @@
     },
     {
       "id": 6735,
-      "name": "C. Spinelli",
+      "name": "Claudio Spinelli",
       "number": 77,
       "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
       "photo": "/players/vasco/6735.webp"
     }
   ]

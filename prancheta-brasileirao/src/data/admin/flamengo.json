@@ -1,0 +1,560 @@
+{
+  "slug": "flamengo",
+  "updatedAt": "2026-11-06",
+  "players": [
+    {
+      "id": 11756,
+      "apiName": "A. Rossi",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 1,
+      "photo": "/players/flamengo/11756.webp",
+      "name": "Agustín Rossi",
+      "number": 1,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Goalkeeper"
+    },
+    {
+      "id": 80528,
+      "apiName": "Andrew",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 42,
+      "photo": "/players/flamengo/80528.webp",
+      "name": "Andrew",
+      "number": 42,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Goalkeeper"
+    },
+    {
+      "id": 372083,
+      "apiName": "Dyogo",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 49,
+      "photo": "/players/flamengo/372083.webp",
+      "name": "Dyogo",
+      "number": 49,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Goalkeeper"
+    },
+    {
+      "id": 9458,
+      "apiName": "Léo Ortiz",
+      "apiPos": "Defender",
+      "apiNumber": 3,
+      "photo": "/players/flamengo/9458.webp",
+      "name": "Léo Ortiz",
+      "number": 3,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Centre back"
+    },
+    {
+      "id": 10124,
+      "apiName": "Léo Pereira",
+      "apiPos": "Defender",
+      "apiNumber": 4,
+      "photo": "/players/flamengo/10124.webp",
+      "name": "Léo Pereira",
+      "number": 4,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Centre back"
+    },
+    {
+      "id": 618,
+      "apiName": "Danilo",
+      "apiPos": "Defender",
+      "apiNumber": 13,
+      "photo": "/players/flamengo/618.webp",
+      "name": "Danilo",
+      "number": 13,
+      "pos": "ZAG",
+      "alt": [
+        "LD",
+        "VOL"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Centre-back, right-back"
+    },
+    {
+      "id": 9909,
+      "apiName": "Vitão",
+      "apiPos": "Defender",
+      "apiNumber": 44,
+      "photo": "/players/flamengo/9909.webp",
+      "name": "Vitão",
+      "number": 44,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Centre-back"
+    },
+    {
+      "id": 449253,
+      "apiName": "João Victor Cunha",
+      "apiPos": "Defender",
+      "apiNumber": 61,
+      "photo": "/players/flamengo/449253.webp",
+      "name": "João Victor Cunha",
+      "number": 61,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Centre-back"
+    },
+    {
+      "id": 512740,
+      "apiName": "Johnny Góes",
+      "apiPos": "Defender",
+      "apiNumber": 77,
+      "photo": null,
+      "name": "Johnny Góes",
+      "number": 77,
+      "pos": "ZAG",
+      "alt": [
+        "LE",
+        "VOL"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Centre-back, left-back"
+    },
+    {
+      "id": 634767,
+      "apiName": "Daniel Carvalho",
+      "apiPos": "Defender",
+      "apiNumber": 87,
+      "photo": null,
+      "name": "Daniel Carvalho",
+      "number": 87,
+      "pos": "ZAG",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 1290,
+      "apiName": "G. Varela",
+      "apiPos": "Defender",
+      "apiNumber": 2,
+      "photo": "/players/flamengo/1290.webp",
+      "name": "Guillermo Varela",
+      "number": 2,
+      "pos": "LD",
+      "alt": [
+        "ZAG",
+        "LE"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Right-back"
+    },
+    {
+      "id": 1566,
+      "apiName": "Emerson Royal",
+      "apiPos": "Defender",
+      "apiNumber": 22,
+      "photo": "/players/flamengo/1566.webp",
+      "name": "Emerson Royal",
+      "number": 22,
+      "pos": "LD",
+      "alt": [],
+      "hidden": false,
+      "source": "sportsdb",
+      "note": "Right-Back"
+    },
+    {
+      "id": 403299,
+      "apiName": "Daniel Sales",
+      "apiPos": "Defender",
+      "apiNumber": 51,
+      "photo": "/players/flamengo/403299.webp",
+      "name": "Daniel Sales",
+      "number": 51,
+      "pos": "LD",
+      "alt": [
+        "ZAG",
+        "LE"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Right-back"
+    },
+    {
+      "id": 1771,
+      "apiName": "Ayrton Lucas",
+      "apiPos": "Defender",
+      "apiNumber": 6,
+      "photo": "/players/flamengo/1771.webp",
+      "name": "Ayrton Lucas",
+      "number": 6,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Left back"
+    },
+    {
+      "id": 860,
+      "apiName": "Alex Sandro",
+      "apiPos": "Defender",
+      "apiNumber": 26,
+      "photo": "/players/flamengo/860.webp",
+      "name": "Alex Sandro",
+      "number": 26,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Left-back"
+    },
+    {
+      "id": 2560,
+      "apiName": "E. Pulgar",
+      "apiPos": "Midfielder",
+      "apiNumber": 5,
+      "photo": "/players/flamengo/2560.webp",
+      "name": "Erick Pulgar",
+      "number": 5,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Defensive midfielder"
+    },
+    {
+      "id": 2289,
+      "apiName": "Jorginho",
+      "apiPos": "Midfielder",
+      "apiNumber": 21,
+      "photo": "/players/flamengo/2289.webp",
+      "name": "Jorginho",
+      "number": 21,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Defensive midfielder"
+    },
+    {
+      "id": 48,
+      "apiName": "Saúl",
+      "apiPos": "Midfielder",
+      "apiNumber": 8,
+      "photo": "/players/flamengo/48.webp",
+      "name": "Saúl",
+      "number": 8,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Midfielder"
+    },
+    {
+      "id": 2612,
+      "apiName": "G. de Arrascaeta",
+      "apiPos": "Midfielder",
+      "apiNumber": 10,
+      "photo": "/players/flamengo/2612.webp",
+      "name": "Giorgian de Arrascaeta",
+      "number": 10,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Attacking midfielder"
+    },
+    {
+      "id": 1646,
+      "apiName": "Lucas Paquetá",
+      "apiPos": "Midfielder",
+      "apiNumber": 11,
+      "photo": "/players/flamengo/1646.webp",
+      "name": "Lucas Paquetá",
+      "number": 11,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Attacking midfielder"
+    },
+    {
+      "id": 198347,
+      "apiName": "A. Valencia",
+      "apiPos": "Attacker",
+      "apiNumber": 14,
+      "photo": "/players/flamengo/198347.webp",
+      "name": "Anthony Valencia",
+      "number": 14,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Midfielder"
+    },
+    {
+      "id": 5994,
+      "apiName": "J. Carrascal",
+      "apiPos": "Attacker",
+      "apiNumber": 15,
+      "photo": "/players/flamengo/5994.webp",
+      "name": "Jorge Carrascal",
+      "number": 15,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Attacking midfielder"
+    },
+    {
+      "id": 5995,
+      "apiName": "N. de la Cruz",
+      "apiPos": "Midfielder",
+      "apiNumber": 18,
+      "photo": "/players/flamengo/5995.webp",
+      "name": "N. de la Cruz",
+      "number": 18,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Central midfielder"
+    },
+    {
+      "id": 332654,
+      "apiName": "Evertton Araújo",
+      "apiPos": "Midfielder",
+      "apiNumber": 52,
+      "photo": "/players/flamengo/332654.webp",
+      "name": "Evertton Araújo",
+      "number": 52,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Midfielder"
+    },
+    {
+      "id": 644618,
+      "apiName": "L. Mariano",
+      "apiPos": "Midfielder",
+      "apiNumber": 75,
+      "photo": null,
+      "name": "L. Mariano",
+      "number": 75,
+      "pos": "MEI",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 544685,
+      "apiName": "Joshua",
+      "apiPos": "Midfielder",
+      "apiNumber": 79,
+      "photo": null,
+      "name": "Joshua",
+      "number": 79,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Attacking midfielder"
+    },
+    {
+      "id": 22238,
+      "apiName": "Luiz Araújo",
+      "apiPos": "Attacker",
+      "apiNumber": 7,
+      "photo": "/players/flamengo/22238.webp",
+      "name": "Luiz Araújo",
+      "number": 7,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Winger"
+    },
+    {
+      "id": 126936,
+      "apiName": "Samuel Lino",
+      "apiPos": "Midfielder",
+      "apiNumber": 16,
+      "photo": "/players/flamengo/126936.webp",
+      "name": "Samuel Lino",
+      "number": 16,
+      "pos": "PON",
+      "alt": [
+        "LE",
+        "ATA"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Left winger, wing-back"
+    },
+    {
+      "id": 16369,
+      "apiName": "G. Plata",
+      "apiPos": "Midfielder",
+      "apiNumber": 19,
+      "photo": "/players/flamengo/16369.webp",
+      "name": "Gonzalo Plata",
+      "number": 19,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Right winger"
+    },
+    {
+      "id": 10180,
+      "apiName": "Bruno Henrique",
+      "apiPos": "Attacker",
+      "apiNumber": 27,
+      "photo": "/players/flamengo/10180.webp",
+      "name": "Bruno Henrique",
+      "number": 27,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Winger / Forward"
+    },
+    {
+      "id": 10321,
+      "apiName": "Pedro",
+      "apiPos": "Attacker",
+      "apiNumber": 9,
+      "photo": "/players/flamengo/10321.webp",
+      "name": "Pedro",
+      "number": 9,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Striker"
+    },
+    {
+      "id": 560314,
+      "apiName": "J. Freitas",
+      "apiPos": "Attacker",
+      "apiNumber": 30,
+      "photo": null,
+      "name": "Joaquín Freitas",
+      "number": 30,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Forward"
+    },
+    {
+      "id": 613324,
+      "apiName": "J. S. Miranda",
+      "apiPos": "Attacker",
+      "apiNumber": 39,
+      "photo": null,
+      "name": "J. S. Miranda",
+      "number": 39,
+      "pos": "ATA",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 589367,
+      "apiName": "Alan",
+      "apiPos": "Attacker",
+      "apiNumber": 59,
+      "photo": null,
+      "name": "Alan",
+      "number": 59,
+      "pos": "ATA",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    }
+  ]
+}

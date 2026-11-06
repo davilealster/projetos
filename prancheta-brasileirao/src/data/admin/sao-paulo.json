@@ -1,0 +1,598 @@
+{
+  "slug": "sao-paulo",
+  "updatedAt": "2026-11-06",
+  "players": [
+    {
+      "id": 10081,
+      "apiName": "Rafael",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 23,
+      "photo": "/players/sao-paulo/10081.webp",
+      "name": "Rafael",
+      "number": 23,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: goleiro"
+    },
+    {
+      "id": 50726,
+      "apiName": "Carlos Coronel",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 31,
+      "photo": "/players/sao-paulo/50726.webp",
+      "name": "Carlos Coronel",
+      "number": 31,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "sportsdb",
+      "note": "Goalkeeper"
+    },
+    {
+      "id": 465204,
+      "apiName": "João Pedro",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 41,
+      "photo": "/players/sao-paulo/465204.webp",
+      "name": "João Pedro",
+      "number": 41,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 30429,
+      "apiName": "R. Tolói",
+      "apiPos": "Defender",
+      "apiNumber": 2,
+      "photo": "/players/sao-paulo/30429.webp",
+      "name": "Rafael Tolói",
+      "number": 2,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: zagueiro"
+    },
+    {
+      "id": 2571,
+      "apiName": "R. Arboleda",
+      "apiPos": "Defender",
+      "apiNumber": 5,
+      "photo": "/players/sao-paulo/2571.webp",
+      "name": "Robert Arboleda",
+      "number": 5,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: zagueiro"
+    },
+    {
+      "id": 8451,
+      "apiName": "Aurélio Buta",
+      "apiPos": "Defender",
+      "apiNumber": 20,
+      "photo": "/players/sao-paulo/8451.webp",
+      "name": "Aurélio Buta",
+      "number": 20,
+      "pos": "ZAG",
+      "alt": [],
+      "hidden": false,
+      "source": "sportsdb",
+      "note": "Defender"
+    },
+    {
+      "id": 46795,
+      "apiName": "Domingos Duarte",
+      "apiPos": "Defender",
+      "apiNumber": 22,
+      "photo": "/players/sao-paulo/46795.webp",
+      "name": "Domingos Duarte",
+      "number": 22,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: zagueiro"
+    },
+    {
+      "id": 449245,
+      "apiName": "Pedro Lima",
+      "apiPos": "Defender",
+      "apiNumber": 32,
+      "photo": "/players/sao-paulo/449245.webp",
+      "name": "Pedro Lima",
+      "number": 32,
+      "pos": "ZAG",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 9340,
+      "apiName": "Sabino",
+      "apiPos": "Defender",
+      "apiNumber": 35,
+      "photo": "/players/sao-paulo/9340.webp",
+      "name": "Sabino",
+      "number": 35,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: zagueiro"
+    },
+    {
+      "id": 634548,
+      "apiName": "Igor Felisberto",
+      "apiPos": "Defender",
+      "apiNumber": 40,
+      "photo": null,
+      "name": "Igor Felisberto",
+      "number": 40,
+      "pos": "ZAG",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 414456,
+      "apiName": "Isac",
+      "apiPos": "Defender",
+      "apiNumber": 53,
+      "photo": null,
+      "name": "Isac",
+      "number": 53,
+      "pos": "ZAG",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 639743,
+      "apiName": "Osorio Luis",
+      "apiPos": "Defender",
+      "apiNumber": 54,
+      "photo": null,
+      "name": "Osorio Luis",
+      "number": 54,
+      "pos": "ZAG",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 516821,
+      "apiName": "Nicolas",
+      "apiPos": "Defender",
+      "apiNumber": 56,
+      "photo": "/players/sao-paulo/516821.webp",
+      "name": "Nicolas",
+      "number": 56,
+      "pos": "ZAG",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 9451,
+      "apiName": "Lucas Ramon",
+      "apiPos": "Defender",
+      "apiNumber": 19,
+      "photo": "/players/sao-paulo/9451.webp",
+      "name": "Lucas Ramon",
+      "number": 19,
+      "pos": "LD",
+      "alt": [
+        "ZAG",
+        "LE"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: lateral-direito"
+    },
+    {
+      "id": 190,
+      "apiName": "Cédric Soares",
+      "apiPos": "Defender",
+      "apiNumber": 21,
+      "photo": "/players/sao-paulo/190.webp",
+      "name": "Cédric Soares",
+      "number": 21,
+      "pos": "LD",
+      "alt": [
+        "ZAG",
+        "LE"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: lateral-direito"
+    },
+    {
+      "id": 10375,
+      "apiName": "Iago",
+      "apiPos": "Defender",
+      "apiNumber": 12,
+      "photo": "/players/sao-paulo/10375.webp",
+      "name": "Iago",
+      "number": 12,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: lateral-esquerdo"
+    },
+    {
+      "id": 6237,
+      "apiName": "E. Díaz",
+      "apiPos": "Defender",
+      "apiNumber": 13,
+      "photo": "/players/sao-paulo/6237.webp",
+      "name": "Enzo Díaz",
+      "number": 13,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: lateral-esquerdo"
+    },
+    {
+      "id": 970,
+      "apiName": "Wendell",
+      "apiPos": "Defender",
+      "apiNumber": 18,
+      "photo": "/players/sao-paulo/970.webp",
+      "name": "Wendell",
+      "number": 18,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: lateral-esquerdo"
+    },
+    {
+      "id": 313732,
+      "apiName": "Pablo Maia",
+      "apiPos": "Midfielder",
+      "apiNumber": 29,
+      "photo": "/players/sao-paulo/313732.webp",
+      "name": "Pablo Maia",
+      "number": 29,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: volante"
+    },
+    {
+      "id": 178,
+      "apiName": "Lucas Moura",
+      "apiPos": "Midfielder",
+      "apiNumber": 7,
+      "photo": "/players/sao-paulo/178.webp",
+      "name": "Lucas Moura",
+      "number": 7,
+      "pos": "MEI",
+      "alt": [
+        "PON",
+        "VOL"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: meia ou ponta"
+    },
+    {
+      "id": 696,
+      "apiName": "Marcos Antônio",
+      "apiPos": "Midfielder",
+      "apiNumber": 8,
+      "photo": "/players/sao-paulo/696.webp",
+      "name": "Marcos Antônio",
+      "number": 8,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: meio-campista"
+    },
+    {
+      "id": 195107,
+      "apiName": "D. Bobadilla",
+      "apiPos": "Midfielder",
+      "apiNumber": 16,
+      "photo": "/players/sao-paulo/195107.webp",
+      "name": "Damián Bobadilla",
+      "number": 16,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: meio-campista"
+    },
+    {
+      "id": 277169,
+      "apiName": "Newton",
+      "apiPos": "Midfielder",
+      "apiNumber": 28,
+      "photo": "/players/sao-paulo/277169.webp",
+      "name": "Newton",
+      "number": 28,
+      "pos": "MEI",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 505992,
+      "apiName": "Pedro Ferreira",
+      "apiPos": "Midfielder",
+      "apiNumber": 46,
+      "photo": null,
+      "name": "Pedro Ferreira",
+      "number": 46,
+      "pos": "MEI",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 612911,
+      "apiName": "D. Ferreira",
+      "apiPos": "Midfielder",
+      "apiNumber": 48,
+      "photo": null,
+      "name": "D. Ferreira",
+      "number": 48,
+      "pos": "MEI",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 505993,
+      "apiName": "Pedro Henrique Bezerra Araujo",
+      "apiPos": "Midfielder",
+      "apiNumber": 58,
+      "photo": null,
+      "name": "Pedro Henrique Bezerra Araujo",
+      "number": 58,
+      "pos": "MEI",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 25272,
+      "apiName": "Cauly",
+      "apiPos": "Midfielder",
+      "apiNumber": 80,
+      "photo": "/players/sao-paulo/25272.webp",
+      "name": "Cauly",
+      "number": 80,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: meio-campo"
+    },
+    {
+      "id": 77754,
+      "apiName": "Danielzinho",
+      "apiPos": "Midfielder",
+      "apiNumber": 94,
+      "photo": "/players/sao-paulo/77754.webp",
+      "name": "Danielzinho",
+      "number": 94,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: meio-campista"
+    },
+    {
+      "id": 106510,
+      "apiName": "Ferreira",
+      "apiPos": "Attacker",
+      "apiNumber": 11,
+      "photo": "/players/sao-paulo/106510.webp",
+      "name": "Ferreira",
+      "number": 11,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: ponta"
+    },
+    {
+      "id": 7541,
+      "apiName": "Victor Sá",
+      "apiPos": "Attacker",
+      "apiNumber": 27,
+      "photo": "/players/sao-paulo/7541.webp",
+      "name": "Victor Sá",
+      "number": 27,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: ponta-esquerda"
+    },
+    {
+      "id": 10040,
+      "apiName": "Artur",
+      "apiPos": "Midfielder",
+      "apiNumber": 37,
+      "photo": "/players/sao-paulo/10040.webp",
+      "name": "Artur",
+      "number": 37,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: ponta-direita"
+    },
+    {
+      "id": 47368,
+      "apiName": "J. Calleri",
+      "apiPos": "Attacker",
+      "apiNumber": 9,
+      "photo": "/players/sao-paulo/47368.webp",
+      "name": "Jonathan Calleri",
+      "number": 9,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: centro-avante"
+    },
+    {
+      "id": 10323,
+      "apiName": "Luciano",
+      "apiPos": "Attacker",
+      "apiNumber": 10,
+      "photo": "/players/sao-paulo/10323.webp",
+      "name": "Luciano",
+      "number": 10,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: atacante"
+    },
+    {
+      "id": 41188,
+      "apiName": "André Silva",
+      "apiPos": "Attacker",
+      "apiNumber": 17,
+      "photo": "/players/sao-paulo/41188.webp",
+      "name": "André Silva",
+      "number": 17,
+      "pos": "ATA",
+      "alt": [],
+      "hidden": false,
+      "source": "sportsdb",
+      "note": "Forward"
+    },
+    {
+      "id": 607350,
+      "apiName": "P. dos Santos",
+      "apiPos": "Attacker",
+      "apiNumber": 34,
+      "photo": null,
+      "name": "P. dos Santos",
+      "number": 34,
+      "pos": "ATA",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 607347,
+      "apiName": "G. Santana",
+      "apiPos": "Attacker",
+      "apiNumber": 43,
+      "photo": null,
+      "name": "G. Santana",
+      "number": 43,
+      "pos": "ATA",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 505994,
+      "apiName": "Lucca Marques Alencar",
+      "apiPos": "Attacker",
+      "apiNumber": 45,
+      "photo": "/players/sao-paulo/505994.webp",
+      "name": "Lucca Marques Alencar",
+      "number": 45,
+      "pos": "ATA",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 465196,
+      "apiName": "Ryan Francisco",
+      "apiPos": "Attacker",
+      "apiNumber": 49,
+      "photo": "/players/sao-paulo/465196.webp",
+      "name": "Ryan Francisco",
+      "number": 49,
+      "pos": "ATA",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    }
+  ]
+}

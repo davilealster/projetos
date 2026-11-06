@@ -1,0 +1,162 @@
+{
+ "club": "Cruzeiro Esporte Clube",
+ "template": "Predefinição:Elenco Cruzeiro",
+ "players": [
+  {
+   "number": 1,
+   "title": "Cássio Ramos",
+   "label": "Cássio",
+   "positions_raw": "goleiro"
+  },
+  {
+   "number": 2,
+   "title": "Zé Lucas",
+   "label": "Zé Lucas",
+   "positions_raw": "volante"
+  },
+  {
+   "number": 6,
+   "title": "Matías Viña",
+   "label": "Viña",
+   "positions_raw": "lateral-esquerdo"
+  },
+  {
+   "number": 7,
+   "title": "Matheus Henrique",
+   "label": "Matheus Henrique",
+   "positions_raw": "volante"
+  },
+  {
+   "number": 8,
+   "title": "Gerson Santos da Silva",
+   "label": "Gerson",
+   "positions_raw": "meio-campista e ponta-direita"
+  },
+  {
+   "number": 9,
+   "title": "Bruno Rodrigues",
+   "label": "Bruno Rodrigues",
+   "positions_raw": "ponta-esquerda"
+  },
+  {
+   "number": 10,
+   "title": "Matheus Pereira (futebolista, 1996)",
+   "label": "Matheus Pereira",
+   "positions_raw": "meio-campista"
+  },
+  {
+   "number": 11,
+   "title": "Marcus Vinicius Oliveira Alencar",
+   "label": "Marquinhos",
+   "positions_raw": "ponta-direita"
+  },
+  {
+   "number": 12,
+   "title": "William de Asevedo Furtado",
+   "label": "William",
+   "positions_raw": "lateral-direito"
+  },
+  {
+   "number": 15,
+   "title": "Fabrício Bruno",
+   "label": "Fabrício Bruno",
+   "positions_raw": "zagueiro"
+  },
+  {
+   "number": 16,
+   "title": "Lucas Silva",
+   "label": "Lucas Silva",
+   "positions_raw": null
+  },
+  {
+   "number": 17,
+   "title": "Luis Sinisterra",
+   "label": "Sinisterra",
+   "positions_raw": "ponta-esquerda"
+  },
+  {
+   "number": 19,
+   "title": "Kaio Jorge",
+   "label": "Kaio Jorge",
+   "positions_raw": "centroavante"
+  },
+  {
+   "number": 20,
+   "title": "Wesley Gassova Ribeiro Teixeira",
+   "label": "Wesley",
+   "positions_raw": "ponta-esquerda"
+  },
+  {
+   "number": 22,
+   "title": "Néiser Villarreal",
+   "label": "Villarreal",
+   "positions_raw": "atacante"
+  },
+  {
+   "number": 23,
+   "title": "Fagner (futebolista)",
+   "label": "Fagner",
+   "positions_raw": "lateral-direito"
+  },
+  {
+   "number": 25,
+   "title": "Lucas Villalba",
+   "label": "Villalba",
+   "positions_raw": "lateral-esquerdo ou zagueiro"
+  },
+  {
+   "number": 27,
+   "title": "Gabriel Rojas",
+   "label": "Rojas",
+   "positions_raw": "lateral-esquerdo"
+  },
+  {
+   "number": 29,
+   "title": "Lucas Romero",
+   "label": "Romero",
+   "positions_raw": "volante"
+  },
+  {
+   "number": 34,
+   "title": "Jonathan Jesus",
+   "label": "Jonathan Jesus",
+   "positions_raw": "zagueiro"
+  },
+  {
+   "number": 36,
+   "title": "João Marcelo",
+   "label": "João Marcelo",
+   "positions_raw": "zagueiro"
+  },
+  {
+   "number": 67,
+   "title": "Gabriel Pec",
+   "label": "Gabriel Pec",
+   "positions_raw": "ponta-direita"
+  },
+  {
+   "number": 81,
+   "title": "Otávio Costa",
+   "label": "Otávio",
+   "positions_raw": "goleiro"
+  },
+  {
+   "number": 94,
+   "title": "Wanderson Maciel",
+   "label": "Wanderson",
+   "positions_raw": "ponta"
+  },
+  {
+   "number": 97,
+   "title": "Luciano Rodríguez",
+   "label": "Lucho Rodríguez",
+   "positions_raw": "atacante"
+  },
+  {
+   "number": 99,
+   "title": "Keny Arroyo",
+   "label": "Arroyo",
+   "positions_raw": "ponta-direita"
+  }
+ ]
+}

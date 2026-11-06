@@ -1,0 +1,619 @@
+{
+  "slug": "athletico-pr",
+  "updatedAt": "2026-11-06",
+  "players": [
+    {
+      "id": 321646,
+      "apiName": "Mycael",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 1,
+      "photo": "/players/athletico-pr/321646.webp",
+      "name": "Mycael",
+      "number": 1,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Goalkeeper"
+    },
+    {
+      "id": 10112,
+      "apiName": "Santos",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 23,
+      "photo": "/players/athletico-pr/10112.webp",
+      "name": "Santos",
+      "number": 23,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Goalkeeper"
+    },
+    {
+      "id": 415111,
+      "apiName": "Matheus Soares",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 42,
+      "photo": "/players/athletico-pr/415111.webp",
+      "name": "Matheus Soares",
+      "number": 42,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 667859,
+      "apiName": "Maksym Voronov",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 76,
+      "photo": null,
+      "name": "Maksym Voronov",
+      "number": 76,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 9951,
+      "apiName": "Léo",
+      "apiPos": "Defender",
+      "apiNumber": 3,
+      "photo": "/players/athletico-pr/9951.webp",
+      "name": "Léo",
+      "number": 3,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Centre-back"
+    },
+    {
+      "id": 457420,
+      "apiName": "Arthur Dias",
+      "apiPos": "Defender",
+      "apiNumber": 4,
+      "photo": "/players/athletico-pr/457420.webp",
+      "name": "Arthur Dias",
+      "number": 4,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Centre-back"
+    },
+    {
+      "id": 632456,
+      "apiName": "Alemao",
+      "apiPos": "Defender",
+      "apiNumber": 15,
+      "photo": null,
+      "name": "Alemao",
+      "number": 15,
+      "pos": "ZAG",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 13493,
+      "apiName": "C. Terán",
+      "apiPos": "Defender",
+      "apiNumber": 22,
+      "photo": "/players/athletico-pr/13493.webp",
+      "name": "Carlos Terán",
+      "number": 22,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Centre-back"
+    },
+    {
+      "id": 408987,
+      "apiName": "Dantas",
+      "apiPos": "Defender",
+      "apiNumber": 25,
+      "photo": "/players/athletico-pr/408987.webp",
+      "name": "Dantas",
+      "number": 25,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Centre-back, defensive midfielder"
+    },
+    {
+      "id": 36258,
+      "apiName": "J. Aguirre",
+      "apiPos": "Defender",
+      "apiNumber": 33,
+      "photo": "/players/athletico-pr/36258.webp",
+      "name": "Juan Felipe Aguirre",
+      "number": 33,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Central defender"
+    },
+    {
+      "id": 653951,
+      "apiName": "Arthur Monteiro",
+      "apiPos": "Defender",
+      "apiNumber": 36,
+      "photo": null,
+      "name": "Arthur Monteiro",
+      "number": 36,
+      "pos": "ZAG",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 631802,
+      "apiName": "Bruno Baldini",
+      "apiPos": "Defender",
+      "apiNumber": 55,
+      "photo": null,
+      "name": "Bruno Baldini",
+      "number": 55,
+      "pos": "ZAG",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 415066,
+      "apiName": "Gilberto",
+      "apiPos": "Defender",
+      "apiNumber": 2,
+      "photo": "/players/athletico-pr/415066.webp",
+      "name": "Gilberto",
+      "number": 2,
+      "pos": "LD",
+      "alt": [
+        "ZAG",
+        "LE"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Right-back"
+    },
+    {
+      "id": 10305,
+      "apiName": "Gilberto",
+      "apiPos": "Defender",
+      "apiNumber": 12,
+      "photo": "/players/athletico-pr/10305.webp",
+      "name": "Gilberto",
+      "number": 12,
+      "pos": "LD",
+      "alt": [
+        "ZAG",
+        "LE"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Right back"
+    },
+    {
+      "id": 58577,
+      "apiName": "G. Benavídez",
+      "apiPos": "Midfielder",
+      "apiNumber": 29,
+      "photo": "/players/athletico-pr/58577.webp",
+      "name": "Gastón Benavídez",
+      "number": 29,
+      "pos": "LD",
+      "alt": [
+        "ZAG",
+        "LE"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Right-back"
+    },
+    {
+      "id": 362716,
+      "apiName": "Derik",
+      "apiPos": "Defender",
+      "apiNumber": 6,
+      "photo": "/players/athletico-pr/362716.webp",
+      "name": "Derik",
+      "number": 6,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Left-back"
+    },
+    {
+      "id": 630991,
+      "apiName": "Claudinho",
+      "apiPos": "Defender",
+      "apiNumber": 26,
+      "photo": null,
+      "name": "Claudinho",
+      "number": 26,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Left-back"
+    },
+    {
+      "id": 288704,
+      "apiName": "L. Esquivel",
+      "apiPos": "Midfielder",
+      "apiNumber": 37,
+      "photo": "/players/athletico-pr/288704.webp",
+      "name": "Lucas Esquivel",
+      "number": 37,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Left-back"
+    },
+    {
+      "id": 140507,
+      "apiName": "Felipinho",
+      "apiPos": "Defender",
+      "apiNumber": 5,
+      "photo": "/players/athletico-pr/140507.webp",
+      "name": "Felipinho",
+      "number": 5,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Defensive midfielder"
+    },
+    {
+      "id": 1909,
+      "apiName": "Luiz Gustavo",
+      "apiPos": "Midfielder",
+      "apiNumber": 14,
+      "photo": "/players/athletico-pr/1909.webp",
+      "name": "Luiz Gustavo",
+      "number": 14,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Defensive midfielder"
+    },
+    {
+      "id": 10091,
+      "apiName": "Jádson",
+      "apiPos": "Midfielder",
+      "apiNumber": 16,
+      "photo": "/players/athletico-pr/10091.webp",
+      "name": "Jádson",
+      "number": 16,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Defensive midfielder"
+    },
+    {
+      "id": 414661,
+      "apiName": "João Cruz",
+      "apiPos": "Midfielder",
+      "apiNumber": 8,
+      "photo": "/players/athletico-pr/414661.webp",
+      "name": "João Cruz",
+      "number": 8,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Midfielder"
+    },
+    {
+      "id": 152931,
+      "apiName": "B. Zapelli",
+      "apiPos": "Midfielder",
+      "apiNumber": 10,
+      "photo": "/players/athletico-pr/152931.webp",
+      "name": "Bruno Zapelli",
+      "number": 10,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Midfielder"
+    },
+    {
+      "id": 13669,
+      "apiName": "A. García",
+      "apiPos": "Midfielder",
+      "apiNumber": 20,
+      "photo": "/players/athletico-pr/13669.webp",
+      "name": "Alejandro García",
+      "number": 20,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Midfielder"
+    },
+    {
+      "id": 503271,
+      "apiName": "N. Azambuja",
+      "apiPos": "Midfielder",
+      "apiNumber": 21,
+      "photo": null,
+      "name": "N. Azambuja",
+      "number": 21,
+      "pos": "MEI",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 13151,
+      "apiName": "J. Portilla",
+      "apiPos": "Midfielder",
+      "apiNumber": 27,
+      "photo": "/players/athletico-pr/13151.webp",
+      "name": "Juan Portilla",
+      "number": 27,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Midfielder"
+    },
+    {
+      "id": 653949,
+      "apiName": "Leonardo Cerci",
+      "apiPos": "Midfielder",
+      "apiNumber": 39,
+      "photo": null,
+      "name": "Leonardo Cerci",
+      "number": 39,
+      "pos": "MEI",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 414660,
+      "apiName": "Chiqueti",
+      "apiPos": "Midfielder",
+      "apiNumber": 47,
+      "photo": null,
+      "name": "Chiqueti",
+      "number": 47,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Attacking midfielder"
+    },
+    {
+      "id": 414399,
+      "apiName": "Dudu",
+      "apiPos": "Midfielder",
+      "apiNumber": 53,
+      "photo": "/players/athletico-pr/414399.webp",
+      "name": "Dudu",
+      "number": 53,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Midfielder"
+    },
+    {
+      "id": 457593,
+      "apiName": "Diogo Riquelme",
+      "apiPos": "Midfielder",
+      "apiNumber": 63,
+      "photo": "/players/athletico-pr/457593.webp",
+      "name": "Diogo Riquelme",
+      "number": 63,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Midfielder"
+    },
+    {
+      "id": 13198,
+      "apiName": "K. Viveros",
+      "apiPos": "Attacker",
+      "apiNumber": 9,
+      "photo": "/players/athletico-pr/13198.webp",
+      "name": "Kevin Viveros",
+      "number": 9,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Right winger"
+    },
+    {
+      "id": 21394,
+      "apiName": "S. Mendoza",
+      "apiPos": "Attacker",
+      "apiNumber": 7,
+      "photo": "/players/athletico-pr/21394.webp",
+      "name": "Stiven Mendoza",
+      "number": 7,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Forward"
+    },
+    {
+      "id": 545020,
+      "apiName": "Vitinho",
+      "apiPos": "Attacker",
+      "apiNumber": 14,
+      "photo": null,
+      "name": "Vitinho",
+      "number": 14,
+      "pos": "ATA",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 323800,
+      "apiName": "K. Vargas",
+      "apiPos": "Attacker",
+      "apiNumber": 18,
+      "photo": "/players/athletico-pr/323800.webp",
+      "name": "Kerwin Vargas",
+      "number": 18,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Forward"
+    },
+    {
+      "id": 576771,
+      "apiName": "Daniel",
+      "apiPos": "Attacker",
+      "apiNumber": 19,
+      "photo": null,
+      "name": "Daniel",
+      "number": 19,
+      "pos": "ATA",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 393877,
+      "apiName": "Jorge Luis Rivaldo Pinto",
+      "apiPos": "Attacker",
+      "apiNumber": 19,
+      "photo": null,
+      "name": "Jorge Luis Rivaldo Pinto",
+      "number": 19,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Forward"
+    },
+    {
+      "id": 408145,
+      "apiName": "Leozinho",
+      "apiPos": "Attacker",
+      "apiNumber": 21,
+      "photo": "/players/athletico-pr/408145.webp",
+      "name": "Leozinho",
+      "number": 21,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Forward"
+    },
+    {
+      "id": 195435,
+      "apiName": "Renan",
+      "apiPos": "Attacker",
+      "apiNumber": 70,
+      "photo": "/players/athletico-pr/195435.webp",
+      "name": "Renan",
+      "number": 70,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Forward"
+    }
+  ]
+}

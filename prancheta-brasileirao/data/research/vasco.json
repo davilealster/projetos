@@ -1,0 +1,174 @@
+{
+ "club": "Club de Regatas Vasco da Gama",
+ "template": "Predefinição:Elenco CR Vasco da Gama",
+ "players": [
+  {
+   "number": 1,
+   "title": "Léo Jardim",
+   "label": "L. Jardim",
+   "positions_raw": "goleiro"
+  },
+  {
+   "number": 2,
+   "title": "Puma Rodríguez",
+   "label": "P. Rodríguez",
+   "positions_raw": "lateral e atacante"
+  },
+  {
+   "number": 3,
+   "title": "Tchê Tchê",
+   "label": "Tchê Tchê",
+   "positions_raw": "meio-campista"
+  },
+  {
+   "number": 4,
+   "title": "Alan Saldivia",
+   "label": "A. Saldivia",
+   "positions_raw": "zagueiro"
+  },
+  {
+   "number": 5,
+   "title": "Santiago Sosa",
+   "label": "S. Sosa",
+   "positions_raw": "volante e zagueiro"
+  },
+  {
+   "number": 6,
+   "title": "Lucas Piton",
+   "label": "L. Piton",
+   "positions_raw": "lateral-esquerdo"
+  },
+  {
+   "number": 7,
+   "title": "David Corrêa da Fonseca",
+   "label": "David",
+   "positions_raw": "atacante"
+  },
+  {
+   "number": 8,
+   "title": "Jair (futebolista)",
+   "label": "Jair",
+   "positions_raw": "volante"
+  },
+  {
+   "number": 9,
+   "title": "Facundo Colidio",
+   "label": "F. Colidio",
+   "positions_raw": "atacante"
+  },
+  {
+   "number": 10,
+   "title": "Johan Rojas",
+   "label": "J. Rojas",
+   "positions_raw": "meio-campista"
+  },
+  {
+   "number": 11,
+   "title": "Andrés Gómez (futebolista)",
+   "label": "A. Gómez",
+   "positions_raw": "ponta"
+  },
+  {
+   "number": 13,
+   "title": "Daniel Fuzato",
+   "label": "D. Fuzato",
+   "positions_raw": "goleiro"
+  },
+  {
+   "number": 17,
+   "title": "Nuno Moreira",
+   "label": "N. Moreira",
+   "positions_raw": "ponta e meio-campista"
+  },
+  {
+   "number": 18,
+   "title": "Marino Hinestroza",
+   "label": "M. Hinestroza",
+   "positions_raw": "ponta"
+  },
+  {
+   "number": 19,
+   "title": "Bruno Duarte",
+   "label": "B. Duarte",
+   "positions_raw": "atacante"
+  },
+  {
+   "number": 20,
+   "title": "Brenner Souza da Silva",
+   "label": "Brenner",
+   "positions_raw": "atacante"
+  },
+  {
+   "number": 22,
+   "title": "Alan Lescano",
+   "label": "A. Lescano",
+   "positions_raw": "meio-campista"
+  },
+  {
+   "number": 23,
+   "title": "Thiago Mendes",
+   "label": "T. Mendes",
+   "positions_raw": "meio-campista"
+  },
+  {
+   "number": 28,
+   "title": "Adson Ferreira Soares",
+   "label": "Adson",
+   "positions_raw": "ponta e meio-campista"
+  },
+  {
+   "number": 30,
+   "title": "Robert Renan",
+   "label": "R. Renan",
+   "positions_raw": "zagueiro"
+  },
+  {
+   "number": 43,
+   "title": "Lucas Freitas",
+   "label": "L. Freitas",
+   "positions_raw": "zagueiro"
+  },
+  {
+   "number": 45,
+   "title": "Loide Augusto",
+   "label": "L. Augusto",
+   "positions_raw": "ponta"
+  },
+  {
+   "number": 46,
+   "title": "Carlos Cuesta",
+   "label": "C. Cuesta",
+   "positions_raw": "zagueiro"
+  },
+  {
+   "number": 55,
+   "title": "Gabriel Pereira Magalhães dos Santos",
+   "label": "G. Pereira",
+   "positions_raw": "zagueiro"
+  },
+  {
+   "number": 66,
+   "title": "Cuiabano (futebolista)",
+   "label": "Cuiabano",
+   "positions_raw": "lateral-esquerdo"
+  },
+  {
+   "number": 77,
+   "title": "Claudio Spinelli",
+   "label": "C. Spinelli",
+   "positions_raw": "centroavante"
+  },
+  {
+   "number": 88,
+   "title": "Cauan Barros",
+   "label": "C. Barros",
+   "positions_raw": "volante"
+  },
+  {
+   "number": 96,
+   "title": "Paulo Henrique (futebolista)",
+   "label": "P. Henrique",
+   "positions_raw": "lateral-direito"
+  }
+ ]
+}

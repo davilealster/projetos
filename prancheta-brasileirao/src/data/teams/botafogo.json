@@ -43,28 +43,22 @@
       "name": "Arthur Chaves",
       "number": 3,
       "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
       "photo": "/players/botafogo/304686.webp"
     },
     {
-      "id": 297687,
-      "name": "M. Ponte",
-      "number": 4,
-      "pos": "ZAG",
-      "photo": "/players/botafogo/297687.webp"
-    },
-    {
       "id": 2440,
-      "name": "N. Ferraresi",
+      "name": "Nahuel Ferraresi",
       "number": 5,
       "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
       "photo": "/players/botafogo/2440.webp"
-    },
-    {
-      "id": 652,
-      "name": "Marçal",
-      "number": 21,
-      "pos": "ZAG",
-      "photo": "/players/botafogo/652.webp"
     },
     {
       "id": 454519,
@@ -109,45 +103,113 @@
       "photo": null
     },
     {
+      "id": 8661,
+      "name": "Vitinho",
+      "number": 2,
+      "pos": "LD",
+      "alt": [
+        "ZAG",
+        "LE"
+      ],
+      "photo": "/players/botafogo/8661.webp"
+    },
+    {
+      "id": 297687,
+      "name": "Mateo Ponte",
+      "number": 4,
+      "pos": "LD",
+      "alt": [
+        "ZAG",
+        "LE"
+      ],
+      "photo": "/players/botafogo/297687.webp"
+    },
+    {
       "id": 378,
       "name": "Alex Telles",
       "number": 13,
       "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
       "photo": "/players/botafogo/378.webp"
+    },
+    {
+      "id": 652,
+      "name": "Marçal",
+      "number": 21,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "photo": "/players/botafogo/652.webp"
+    },
+    {
+      "id": 10016,
+      "name": "Paulinho",
+      "number": 29,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "photo": "/players/botafogo/10016.webp"
+    },
+    {
+      "id": 275170,
+      "name": "Danilo Santos",
+      "number": 8,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "photo": "/players/botafogo/275170.webp"
     },
     {
       "id": 326,
       "name": "Allan",
       "number": 25,
       "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
       "photo": "/players/botafogo/326.webp"
     },
     {
-      "id": 8661,
-      "name": "Vitinho",
-      "number": 2,
-      "pos": "MEI",
-      "photo": "/players/botafogo/8661.webp"
+      "id": 10387,
+      "name": "Edenílson",
+      "number": 88,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "photo": "/players/botafogo/10387.webp"
     },
     {
       "id": 237186,
-      "name": "C. Medina",
+      "name": "Cristian Medina",
       "number": 6,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": "/players/botafogo/237186.webp"
-    },
-    {
-      "id": 275170,
-      "name": "Danilo Santos",
-      "number": 8,
-      "pos": "MEI",
-      "photo": "/players/botafogo/275170.webp"
     },
     {
       "id": 455130,
       "name": "Álvaro Montoro",
       "number": 10,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": "/players/botafogo/455130.webp"
     },
     {
@@ -159,9 +221,13 @@
     },
     {
       "id": 410843,
-      "name": "J. Barrera",
+      "name": "Jordan Barrera",
       "number": 14,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": "/players/botafogo/410843.webp"
     },
     {
@@ -173,17 +239,14 @@
     },
     {
       "id": 548,
-      "name": "H. Ziyech",
+      "name": "Hakim Ziyech",
       "number": 22,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": "/players/botafogo/548.webp"
-    },
-    {
-      "id": 10016,
-      "name": "Paulinho",
-      "number": 29,
-      "pos": "MEI",
-      "photo": "/players/botafogo/10016.webp"
     },
     {
       "id": 668276,
@@ -207,13 +270,6 @@
       "photo": "/players/botafogo/505409.webp"
     },
     {
-      "id": 10387,
-      "name": "Edenílson",
-      "number": 88,
-      "pos": "MEI",
-      "photo": "/players/botafogo/10387.webp"
-    },
-    {
       "id": 237165,
       "name": "Domingos Andrade",
       "number": 91,
@@ -225,6 +281,10 @@
       "name": "Júnior Santos",
       "number": 7,
       "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
       "photo": "/players/botafogo/10432.webp"
     },
     {
@@ -232,6 +292,10 @@
       "name": "Tiquinho Soares",
       "number": 9,
       "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
       "photo": "/players/botafogo/390.webp"
     },
     {
@@ -239,6 +303,10 @@
       "name": "Matheus Martins",
       "number": 11,
       "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
       "photo": "/players/botafogo/305821.webp"
     },
     {
@@ -246,13 +314,21 @@
       "name": "Arthur Cabral",
       "number": 19,
       "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
       "photo": "/players/botafogo/9938.webp"
     },
     {
       "id": 544681,
-      "name": "K. Barria",
+      "name": "Kadir Barría",
       "number": 37,
       "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
       "photo": null
     },
     {
@@ -274,6 +350,10 @@
       "name": "Danilo",
       "number": 90,
       "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
       "photo": "/players/botafogo/553.webp"
     }
   ]

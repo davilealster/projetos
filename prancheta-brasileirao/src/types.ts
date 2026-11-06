@@ -12,6 +12,8 @@ export interface Player {
   name: string;
   number: number | null;
   pos: Pos;
+  /** até 2 posições alternativas */
+  alt?: Pos[];
   photo: string | null;
 }
 
@@ -43,6 +45,8 @@ export type TokenKind = "player" | "opp" | "oppPlayer" | "ball";
 export interface Token extends Point {
   kind: TokenKind;
   ref: number;
+  /** posição em que o jogador está atuando nesta escalação (se diferente do padrão) */
+  as?: Pos;
 }
 
 export type DrawTool = "pen" | "arrow" | "pass" | "circle" | "zone";

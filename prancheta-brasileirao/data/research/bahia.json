@@ -1,0 +1,121 @@
+{
+ "club": "bahia",
+ "template": "bah.html",
+ "lang": "pt",
+ "players": [
+  {
+   "number": 1,
+   "title": "Ronaldo Strada",
+   "label": "Ronaldo",
+   "positions_raw": "goleiro"
+  },
+  {
+   "number": 4,
+   "title": "Kanu",
+   "label": "Kanu",
+   "positions_raw": "zagueiro"
+  },
+  {
+   "number": 5,
+   "title": "Nicolás Acevedo",
+   "label": "Acevedo",
+   "positions_raw": "volante"
+  },
+  {
+   "number": 6,
+   "title": "Jean Lucas",
+   "label": "Jean Lucas",
+   "positions_raw": "volante"
+  },
+  {
+   "number": 7,
+   "title": "Ademir da Silva Santos Júnior",
+   "label": "Ademir",
+   "positions_raw": "atacante"
+  },
+  {
+   "number": 8,
+   "title": "Caio Alexandre",
+   "label": "Caio Alexandre",
+   "positions_raw": "volante"
+  },
+  {
+   "number": 9,
+   "title": "Alejo Véliz",
+   "label": "Véliz",
+   "positions_raw": null
+  },
+  {
+   "number": 11,
+   "title": "Rodrigo Nestor",
+   "label": "Rodrigo Nestor",
+   "positions_raw": "meio-campista"
+  },
+  {
+   "number": 12,
+   "title": "Willian José",
+   "label": "Willian José",
+   "positions_raw": "atacante"
+  },
+  {
+   "number": 14,
+   "title": "Erick Luis Conrado Carvalho",
+   "label": "Erick",
+   "positions_raw": "volante"
+  },
+  {
+   "number": 15,
+   "title": "Michel Araújo",
+   "label": "Araújo",
+   "positions_raw": "meia-atacante"
+  },
+  {
+   "number": 16,
+   "title": "Erick Pulga",
+   "label": "Erick Pulga",
+   "positions_raw": "ponta"
+  },
+  {
+   "number": 17,
+   "title": "Guido Herrera",
+   "label": "Herrera",
+   "positions_raw": "goleiro"
+  },
+  {
+   "number": 23,
+   "title": "Mateo Sanabria",
+   "label": "Sanabria",
+   "positions_raw": "ponta"
+  },
+  {
+   "number": 27,
+   "title": "Everaldo Stum",
+   "label": "Everaldo",
+   "positions_raw": "atacante"
+  },
+  {
+   "number": 31,
+   "title": "Román Gómez",
+   "label": "Gómez",
+   "positions_raw": "lateral-direito"
+  },
+  {
+   "number": 34,
+   "title": "João Paulo Silva Martins",
+   "label": "João Paulo",
+   "positions_raw": "goleiro"
+  },
+  {
+   "number": 46,
+   "title": "Luciano Juba",
+   "label": "Luciano Juba",
+   "positions_raw": "lateral-esquerdo, meio-campista ou ponta-esquerda"
+  },
+  {
+   "number": 99,
+   "title": "Cristian Olivera",
+   "label": "Olivera",
+   "positions_raw": "ponta-direita"
+  }
+ ]
+}

@@ -1,1 +1,175 @@
-{}
+{
+  "692": {
+    "pos": "MEI",
+    "alt": [
+      "VOL",
+      "PON"
+    ],
+    "draft": true,
+    "source": "wikipedia: meio-campista"
+  },
+  "2044": {
+    "pos": "ZAG",
+    "alt": [
+      "LD",
+      "VOL"
+    ],
+    "draft": true,
+    "source": "wikipedia: zagueiro e lateral direito",
+    "displayName": "Gabriel Mercado"
+  },
+  "2522": {
+    "pos": "ATA",
+    "alt": [
+      "PON",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: atacante",
+    "displayName": "Antonio Sanabria"
+  },
+  "2553": {
+    "pos": "ZAG",
+    "alt": [
+      "VOL",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: zagueiro",
+    "displayName": "Guillermo Maripán"
+  },
+  "6519": {
+    "pos": "MEI",
+    "alt": [
+      "VOL",
+      "PON"
+    ],
+    "draft": true,
+    "source": "wikipedia: Meio-campista",
+    "displayName": "Rodrigo Villagra"
+  },
+  "9893": {
+    "pos": "ATA",
+    "alt": [
+      "PON",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: centroavante"
+  },
+  "9912": {
+    "pos": "ZAG",
+    "alt": [
+      "VOL",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: zagueiro"
+  },
+  "9921": {
+    "pos": "VOL",
+    "alt": [
+      "MEI",
+      "ZAG"
+    ],
+    "draft": true,
+    "source": "wikipedia: volante"
+  },
+  "10147": {
+    "pos": "PON",
+    "alt": [
+      "ATA",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: ponta-esquerda"
+  },
+  "10167": {
+    "pos": "VOL",
+    "alt": [
+      "MEI",
+      "ZAG"
+    ],
+    "draft": true,
+    "source": "wikipedia: Volante"
+  },
+  "13691": {
+    "pos": "ATA",
+    "alt": [
+      "PON",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: Atacante",
+    "displayName": "Johan Carbonero"
+  },
+  "22231": {
+    "pos": "VOL",
+    "alt": [
+      "MEI",
+      "ZAG"
+    ],
+    "draft": true,
+    "source": "wikipedia: volante"
+  },
+  "50077": {
+    "pos": "GOL",
+    "alt": [],
+    "draft": true,
+    "source": "wikipedia: goleiro",
+    "displayName": "Sergio Rochet"
+  },
+  "63964": {
+    "pos": "ZAG",
+    "alt": [
+      "VOL",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: zagueiro",
+    "displayName": "Félix Torres"
+  },
+  "129902": {
+    "pos": "LE",
+    "alt": [
+      "ZAG",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: Lateral-esquerdo",
+    "displayName": "Alexandro Bernabei"
+  },
+  "143368": {
+    "pos": "VOL",
+    "alt": [
+      "LD",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: Volante e Lateral-direito"
+  },
+  "197051": {
+    "pos": "LE",
+    "alt": [
+      "ZAG",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: Lateral-esquerdo"
+  },
+  "266658": {
+    "pos": "MEI",
+    "alt": [
+      "VOL",
+      "PON"
+    ],
+    "draft": true,
+    "source": "wikipedia: meia-atacante"
+  },
+  "306210": {
+    "pos": "GOL",
+    "alt": [],
+    "draft": true,
+    "source": "wikipedia: goleiro"
+  }
+}

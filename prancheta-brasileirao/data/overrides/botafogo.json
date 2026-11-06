@@ -1,1 +1,188 @@
-{}
+{
+  "326": {
+    "pos": "VOL",
+    "alt": [
+      "MEI",
+      "ZAG"
+    ],
+    "draft": true,
+    "source": "wikipedia: volante"
+  },
+  "378": {
+    "pos": "LE",
+    "alt": [
+      "ZAG",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: lateral-esquerdo"
+  },
+  "390": {
+    "pos": "ATA",
+    "alt": [
+      "PON",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: centroavante"
+  },
+  "548": {
+    "pos": "MEI",
+    "alt": [
+      "VOL",
+      "PON"
+    ],
+    "draft": true,
+    "source": "wikipedia: Meia-atacante",
+    "displayName": "Hakim Ziyech"
+  },
+  "553": {
+    "pos": "ATA",
+    "alt": [
+      "PON",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: atacante"
+  },
+  "652": {
+    "pos": "LE",
+    "alt": [
+      "ZAG",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: lateral-esquerdo"
+  },
+  "2440": {
+    "pos": "ZAG",
+    "alt": [
+      "VOL",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: zagueiro",
+    "displayName": "Nahuel Ferraresi"
+  },
+  "8661": {
+    "pos": "LD",
+    "alt": [
+      "ZAG",
+      "LE"
+    ],
+    "draft": true,
+    "source": "wikipedia: lateral-direito"
+  },
+  "9938": {
+    "pos": "ATA",
+    "alt": [
+      "PON",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: centroavante"
+  },
+  "10016": {
+    "pos": "LE",
+    "alt": [
+      "ZAG",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: lateral-esquerdo"
+  },
+  "10387": {
+    "pos": "VOL",
+    "alt": [
+      "MEI",
+      "ZAG"
+    ],
+    "draft": true,
+    "source": "wikipedia: volante"
+  },
+  "10432": {
+    "pos": "ATA",
+    "alt": [
+      "PON",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: atacante"
+  },
+  "237186": {
+    "pos": "MEI",
+    "alt": [
+      "VOL",
+      "PON"
+    ],
+    "draft": true,
+    "source": "wikipedia: meio-campista",
+    "displayName": "Cristian Medina"
+  },
+  "275170": {
+    "pos": "VOL",
+    "alt": [
+      "MEI",
+      "ZAG"
+    ],
+    "draft": true,
+    "source": "wikipedia: volante"
+  },
+  "297687": {
+    "pos": "LD",
+    "alt": [
+      "ZAG",
+      "LE"
+    ],
+    "draft": true,
+    "source": "wikipedia: lateral-direito",
+    "displayName": "Mateo Ponte"
+  },
+  "304686": {
+    "pos": "ZAG",
+    "alt": [
+      "VOL",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: zagueiro"
+  },
+  "305821": {
+    "pos": "ATA",
+    "alt": [
+      "PON",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: Atacante"
+  },
+  "410843": {
+    "pos": "MEI",
+    "alt": [
+      "VOL",
+      "PON"
+    ],
+    "draft": true,
+    "source": "wikipedia: Meia-atacante",
+    "displayName": "Jordan Barrera"
+  },
+  "455130": {
+    "pos": "MEI",
+    "alt": [
+      "VOL",
+      "PON"
+    ],
+    "draft": true,
+    "source": "wikipedia: meia-atacante"
+  },
+  "544681": {
+    "pos": "ATA",
+    "alt": [
+      "PON",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: atacante",
+    "displayName": "Kadir Barría"
+  }
+}

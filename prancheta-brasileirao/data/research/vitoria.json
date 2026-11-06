@@ -1,0 +1,120 @@
+{
+ "club": "Esporte Clube Vitória",
+ "template": "Predefinição:Elenco EC Vitória",
+ "players": [
+  {
+   "number": 1,
+   "title": "Lucas Arcanjo",
+   "label": "Lucas Arcanjo",
+   "positions_raw": "Goleiro"
+  },
+  {
+   "number": 2,
+   "title": "Emanuel Brítez",
+   "label": "Brítez",
+   "positions_raw": "lateral-direito e zagueiro"
+  },
+  {
+   "number": 6,
+   "title": "Emmanuel Martínez",
+   "label": "Martínez",
+   "positions_raw": "Meio-campo"
+  },
+  {
+   "number": 7,
+   "title": "Mário Sérgio Santos Costa",
+   "label": "Marinho",
+   "positions_raw": "Atacante"
+  },
+  {
+   "number": 8,
+   "title": "Tomás Pochettino",
+   "label": "Pochettino",
+   "positions_raw": "Volante"
+  },
+  {
+   "number": 10,
+   "title": "Matheuzinho (futebolista, 1997)",
+   "label": "Matheuzinho",
+   "positions_raw": "Meia-atacante"
+  },
+  {
+   "number": 11,
+   "title": "Osvaldo Filho",
+   "label": "Osvaldo",
+   "positions_raw": "Atacante"
+  },
+  {
+   "number": 12,
+   "title": "Ramon Ramos Lima",
+   "label": "Ramon",
+   "positions_raw": "lateral-esquerdo"
+  },
+  {
+   "number": 15,
+   "title": "Walace",
+   "label": "Walace",
+   "positions_raw": "volante"
+  },
+  {
+   "number": 16,
+   "title": "Kike Saverio",
+   "label": "Saverio",
+   "positions_raw": "Ponta-esquerda"
+  },
+  {
+   "number": 20,
+   "title": "Gabriel Vasconcellos",
+   "label": "Gabriel",
+   "positions_raw": "goleiro"
+  },
+  {
+   "number": 23,
+   "title": "Cacá (futebolista de 1999)",
+   "label": "Cacá",
+   "positions_raw": "zagueiro"
+  },
+  {
+   "number": 28,
+   "title": "Erick de Arruda Serafim",
+   "label": "Erick",
+   "positions_raw": "ponta-direita"
+  },
+  {
+   "number": 35,
+   "title": "Gabriel Baralhas",
+   "label": "Baralhas",
+   "positions_raw": "Volante"
+  },
+  {
+   "number": 45,
+   "title": "Nathan (futebolista, 2002)",
+   "label": "Nathan",
+   "positions_raw": "lateral-direito"
+  },
+  {
+   "number": 55,
+   "title": "Ignacio Laquintana",
+   "label": "Laquintana",
+   "positions_raw": "ponta-direita ou meio-campista"
+  },
+  {
+   "number": 79,
+   "title": "Renato Kayzer",
+   "label": "Renato Kayzer",
+   "positions_raw": "Centroavante"
+  },
+  {
+   "number": 83,
+   "title": "Renê Sousa",
+   "label": "Renê",
+   "positions_raw": "atacante"
+  },
+  {
+   "number": 95,
+   "title": "Jair Ventura",
+   "label": "Jair Ventura",
+   "positions_raw": "ex-atacante"
+  }
+ ]
+}

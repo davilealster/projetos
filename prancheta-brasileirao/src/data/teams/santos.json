@@ -25,13 +25,6 @@
       "photo": null
     },
     {
-      "id": 9949,
-      "name": "Igor Vinicius",
-      "number": 18,
-      "pos": "GOL",
-      "photo": "/players/santos/9949.webp"
-    },
-    {
       "id": 9979,
       "name": "João Paulo",
       "number": 34,
@@ -57,6 +50,10 @@
       "name": "Lucas Veríssimo",
       "number": 4,
       "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
       "photo": "/players/santos/9991.webp"
     },
     {
@@ -64,34 +61,21 @@
       "name": "Luan Peres",
       "number": 14,
       "pos": "ZAG",
+      "alt": [
+        "LE",
+        "VOL"
+      ],
       "photo": "/players/santos/71.webp"
-    },
-    {
-      "id": 10157,
-      "name": "Rodinei",
-      "number": 23,
-      "pos": "ZAG",
-      "photo": "/players/santos/10157.webp"
     },
     {
       "id": 527683,
       "name": "João Paulo Ananias",
       "number": 26,
       "pos": "ZAG",
-      "photo": null
-    },
-    {
-      "id": 6637,
-      "name": "G. Escobar",
-      "number": 31,
-      "pos": "ZAG",
-      "photo": "/players/santos/6637.webp"
-    },
-    {
-      "id": 609540,
-      "name": "Rafael Gonzaga",
-      "number": 38,
-      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
       "photo": null
     },
     {
@@ -99,167 +83,318 @@
       "name": "João Alencar",
       "number": 42,
       "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
       "photo": "/players/santos/522702.webp"
+    },
+    {
+      "id": 9949,
+      "name": "Igor Vinicius",
+      "number": 18,
+      "pos": "LD",
+      "alt": [
+        "ZAG",
+        "LE"
+      ],
+      "photo": "/players/santos/9949.webp"
+    },
+    {
+      "id": 10157,
+      "name": "Rodinei",
+      "number": 23,
+      "pos": "LD",
+      "alt": [
+        "ZAG",
+        "LE"
+      ],
+      "photo": "/players/santos/10157.webp"
+    },
+    {
+      "id": 195111,
+      "name": "Gabriel Menino",
+      "number": 25,
+      "pos": "LD",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "photo": "/players/santos/195111.webp"
+    },
+    {
+      "id": 609619,
+      "name": "Davi Fernandes",
+      "number": 27,
+      "pos": "LD",
+      "alt": [
+        "PON",
+        "ZAG"
+      ],
+      "photo": null
+    },
+    {
+      "id": 6637,
+      "name": "Gonzalo Escobar",
+      "number": 31,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "photo": "/players/santos/6637.webp"
+    },
+    {
+      "id": 609540,
+      "name": "Rafael Gonzaga",
+      "number": 38,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "photo": null
     },
     {
       "id": 32901,
       "name": "João Schmidt",
       "number": 5,
-      "pos": "MEI",
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
       "photo": "/players/santos/32901.webp"
+    },
+    {
+      "id": 10173,
+      "name": "Willian Arão",
+      "number": 15,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "photo": "/players/santos/10173.webp"
+    },
+    {
+      "id": 30568,
+      "name": "Christian Oliva",
+      "number": 28,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "photo": "/players/santos/30568.webp"
+    },
+    {
+      "id": 506480,
+      "name": "Gustavo Henrique Pereira",
+      "number": 48,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "photo": "/players/santos/506480.webp"
     },
     {
       "id": 150,
       "name": "Arthur",
       "number": 6,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": "/players/santos/150.webp"
-    },
-    {
-      "id": 2414,
-      "name": "Everton",
-      "number": 7,
-      "pos": "MEI",
-      "photo": "/players/santos/2414.webp"
     },
     {
       "id": 506275,
       "name": "Gabriel Bontempo",
       "number": 8,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": "/players/santos/506275.webp"
     },
     {
-      "id": 474261,
-      "name": "Mateus Xavier",
-      "number": 11,
+      "id": 276,
+      "name": "Neymar",
+      "number": 10,
       "pos": "MEI",
-      "photo": "/players/santos/474261.webp"
+      "alt": [
+        "ATA",
+        "VOL"
+      ],
+      "photo": "/players/santos/276.webp"
     },
     {
       "id": 147,
       "name": "Philippe Coutinho",
       "number": 11,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": "/players/santos/147.webp"
-    },
-    {
-      "id": 10173,
-      "name": "Willian Arão",
-      "number": 15,
-      "pos": "MEI",
-      "photo": "/players/santos/10173.webp"
     },
     {
       "id": 10492,
       "name": "Thaciano",
       "number": 16,
       "pos": "MEI",
+      "alt": [
+        "ATA",
+        "VOL"
+      ],
       "photo": "/players/santos/10492.webp"
     },
     {
       "id": 632455,
-      "name": "P. Fermino",
+      "name": "Pepê Fermino",
       "number": 20,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": null
     },
     {
-      "id": 195111,
-      "name": "Gabriel Menino",
-      "number": 25,
-      "pos": "MEI",
-      "photo": "/players/santos/195111.webp"
-    },
-    {
-      "id": 30568,
-      "name": "Christian Oliva",
-      "number": 28,
-      "pos": "MEI",
-      "photo": "/players/santos/30568.webp"
-    },
-    {
       "id": 345756,
-      "name": "M. Terceros",
+      "name": "Miguel Terceros",
       "number": 30,
       "pos": "MEI",
+      "alt": [
+        "PON",
+        "VOL"
+      ],
       "photo": "/players/santos/345756.webp"
+    },
+    {
+      "id": 119485,
+      "name": "Benjamín Rollheiser",
+      "number": 32,
+      "pos": "MEI",
+      "alt": [
+        "PON",
+        "VOL"
+      ],
+      "photo": "/players/santos/119485.webp"
     },
     {
       "id": 50532,
       "name": "Lima",
       "number": 45,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": "/players/santos/50532.webp"
     },
     {
-      "id": 506480,
-      "name": "Gustavo Henrique Pereira",
-      "number": 48,
-      "pos": "MEI",
-      "photo": "/players/santos/506480.webp"
-    },
-    {
       "id": 609523,
-      "name": "S. Pierri",
+      "name": "Samuel Pierri",
       "number": 81,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": null
     },
     {
-      "id": 6052,
-      "name": "Álvaro Barreal",
-      "number": 22,
+      "id": 2414,
+      "name": "Everton",
+      "number": 7,
       "pos": "PON",
-      "photo": "/players/santos/6052.webp"
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "photo": "/players/santos/2414.webp"
     },
     {
-      "id": 10174,
-      "name": "Gabriel Barbosa",
-      "number": 9,
-      "pos": "ATA",
-      "photo": "/players/santos/10174.webp"
-    },
-    {
-      "id": 276,
-      "name": "Neymar",
-      "number": 10,
-      "pos": "ATA",
-      "photo": "/players/santos/276.webp"
+      "id": 474261,
+      "name": "Mateus Xavier",
+      "number": 11,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "photo": "/players/santos/474261.webp"
     },
     {
       "id": 119128,
-      "name": "G. Caballero",
+      "name": "Gustavo Caballero",
       "number": 17,
-      "pos": "ATA",
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
       "photo": "/players/santos/119128.webp"
     },
     {
       "id": 153454,
       "name": "Moisés",
       "number": 21,
-      "pos": "ATA",
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
       "photo": "/players/santos/153454.webp"
     },
     {
-      "id": 609619,
-      "name": "D. Fernandes",
-      "number": 27,
-      "pos": "ATA",
+      "id": 6052,
+      "name": "Álvaro Barreal",
+      "number": 22,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "photo": "/players/santos/6052.webp"
+    },
+    {
+      "id": 609501,
+      "name": "Nadson",
+      "number": 57,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
       "photo": null
     },
     {
-      "id": 119485,
-      "name": "Benjamín Rollheiser",
-      "number": 32,
+      "id": 10174,
+      "name": "Gabriel Barbosa",
+      "number": 9,
       "pos": "ATA",
-      "photo": "/players/santos/119485.webp"
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "photo": "/players/santos/10174.webp"
     },
     {
       "id": 10143,
       "name": "Rony",
       "number": 33,
       "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
       "photo": "/players/santos/10143.webp"
     },
     {
@@ -267,13 +402,10 @@
       "name": "Pedro Assis",
       "number": 39,
       "pos": "ATA",
-      "photo": null
-    },
-    {
-      "id": 609501,
-      "name": "Nadson",
-      "number": 57,
-      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
       "photo": null
     }
   ]

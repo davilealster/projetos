@@ -1,0 +1,205 @@
+{
+ "club": "gremio",
+ "template": "en_Grêmio_FBPA_squad.html",
+ "lang": "en",
+ "players": [
+  {
+   "number": 1,
+   "title": "Weverton (footballer, born 1987)",
+   "label": "Weverton",
+   "positions_raw": "Goalkeeper"
+  },
+  {
+   "number": 2,
+   "title": "Fabián Balbuena",
+   "label": "Balbuena",
+   "positions_raw": "Centre-back"
+  },
+  {
+   "number": 3,
+   "title": "Wagner Leonardo",
+   "label": "Wagner Leonardo",
+   "positions_raw": "Centre back"
+  },
+  {
+   "number": 4,
+   "title": "Walter Kannemann",
+   "label": "Kannemann",
+   "positions_raw": "Centre-back"
+  },
+  {
+   "number": 5,
+   "title": "Juan Nardoni",
+   "label": "Nardoni",
+   "positions_raw": "Central midfielder"
+  },
+  {
+   "number": 6,
+   "title": "Gustavo Martins",
+   "label": "Gustavo Martins",
+   "positions_raw": "Centre-back"
+  },
+  {
+   "number": 7,
+   "title": "Cristian Pavon",
+   "label": "Pavon",
+   "positions_raw": "Winger, Right-back"
+  },
+  {
+   "number": 8,
+   "title": "Erick Noriega",
+   "label": "Noriega",
+   "positions_raw": "Defensive midfielder, centre-back"
+  },
+  {
+   "number": 9,
+   "title": "Francis Amuzu",
+   "label": "Amuzu",
+   "positions_raw": "Winger"
+  },
+  {
+   "number": 10,
+   "title": "Filip Krovinović",
+   "label": "Krovinović",
+   "positions_raw": "Midfielder"
+  },
+  {
+   "number": 11,
+   "title": "Tetê",
+   "label": "Tetê",
+   "positions_raw": "Right winger"
+  },
+  {
+   "number": 12,
+   "title": "Gabriel Grando",
+   "label": "G. Grando",
+   "positions_raw": "Goalkeeper"
+  },
+  {
+   "number": 14,
+   "title": "Marcos Rocha",
+   "label": "Marcos Rocha",
+   "positions_raw": "Right-back"
+  },
+  {
+   "number": 15,
+   "title": "Danilo Barbosa",
+   "label": "Danilo",
+   "positions_raw": "Defensive midfielder"
+  },
+  {
+   "number": 17,
+   "title": "Dodi (footballer)",
+   "label": "Dodi",
+   "positions_raw": "Defensive midfielder"
+  },
+  {
+   "number": 18,
+   "title": "João Pedro (footballer, born 15 November 1996)",
+   "label": "João Pedro",
+   "positions_raw": "Right-back"
+  },
+  {
+   "number": 20,
+   "title": "Mathías Villasanti",
+   "label": "Villasanti",
+   "positions_raw": "Midfielder"
+  },
+  {
+   "number": 22,
+   "title": "Martin Braithwaite",
+   "label": "Braithwaite",
+   "positions_raw": "Striker, winger"
+  },
+  {
+   "number": 23,
+   "title": "Marlon (footballer, born May 1997)",
+   "label": "Marlon",
+   "positions_raw": "Left-back"
+  },
+  {
+   "number": 24,
+   "title": "Thiago Beltrame",
+   "label": "T. Beltrame",
+   "positions_raw": "Goalkeeper"
+  },
+  {
+   "number": 27,
+   "title": "Diego Caito",
+   "label": "Diego Caito",
+   "positions_raw": "Right-back"
+  },
+  {
+   "number": 30,
+   "title": "Matheus Nascimento (footballer, born 2004)",
+   "label": "M. Nascimento",
+   "positions_raw": "Striker"
+  },
+  {
+   "number": 31,
+   "title": "Gabriel Menegon",
+   "label": "G. Menegon",
+   "positions_raw": "Goalkeeper"
+  },
+  {
+   "number": 38,
+   "title": "Caio Paulista",
+   "label": "Caio Paulista",
+   "positions_raw": "Left-back, winger"
+  },
+  {
+   "number": 39,
+   "title": "Tiaguinho (footballer, born 2008)",
+   "label": "Tiago",
+   "positions_raw": "Midfielder"
+  },
+  {
+   "number": 43,
+   "title": "Luis Eduardo",
+   "label": "Luis Eduardo",
+   "positions_raw": "Centre-back"
+  },
+  {
+   "number": 47,
+   "title": "Roger (footballer, born 2008)",
+   "label": "Roger",
+   "positions_raw": "Attacking midfielder"
+  },
+  {
+   "number": 54,
+   "title": "Pedro Gabriel",
+   "label": "Pedro Gabriel",
+   "positions_raw": "Left-back"
+  },
+  {
+   "number": 65,
+   "title": "Riquelme (footballer, born August 2006)",
+   "label": "Riquelme",
+   "positions_raw": "Midfielder"
+  },
+  {
+   "number": 77,
+   "title": "Jovane Cabral",
+   "label": "Jovane",
+   "positions_raw": "Winger"
+  },
+  {
+   "number": 82,
+   "title": "Wallace (footballer, born 2004)",
+   "label": "Wallace",
+   "positions_raw": "Centre-back"
+  },
+  {
+   "number": 95,
+   "title": "Carlos Vinícius",
+   "label": "Carlos Vinícius",
+   "positions_raw": "Striker"
+  },
+  {
+   "number": 99,
+   "title": "José Enamorado",
+   "label": "Enamorado",
+   "positions_raw": "Winger"
+  }
+ ]
+}

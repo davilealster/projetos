@@ -1,0 +1,84 @@
+{
+ "club": "Associação Chapecoense de Futebol",
+ "template": "Predefinição:Elenco AF Chapecoense",
+ "players": [
+  {
+   "number": 1,
+   "title": "Rafael Santos (futebolista)",
+   "label": "Rafael Santos",
+   "positions_raw": "goleiro"
+  },
+  {
+   "number": 7,
+   "title": "Marcio Antonio de Sousa Junior",
+   "label": "Marcinho",
+   "positions_raw": "ponta"
+  },
+  {
+   "number": 9,
+   "title": "Pedro Perotti",
+   "label": "Perotti",
+   "positions_raw": "centroavante"
+  },
+  {
+   "number": 10,
+   "title": "Giovanni Augusto",
+   "label": "Giovanni Augusto",
+   "positions_raw": "meio-campista"
+  },
+  {
+   "number": 11,
+   "title": "Yannick Bolasie",
+   "label": "Bolasie",
+   "positions_raw": "ponta"
+  },
+  {
+   "number": 15,
+   "title": "Rafael Thyere",
+   "label": "Rafael Thyere",
+   "positions_raw": "zagueiro"
+  },
+  {
+   "number": 17,
+   "title": "Vinicius Balieiro",
+   "label": "Vinicius Balieiro",
+   "positions_raw": "volante"
+  },
+  {
+   "number": 20,
+   "title": "Bruno Tubarão",
+   "label": "Bruno Tubarão",
+   "positions_raw": "ponta-esquerda, meia-atacante e lateral direito"
+  },
+  {
+   "number": 23,
+   "title": "Dudu (futebolista, 1997)",
+   "label": "Dudu",
+   "positions_raw": "lateral-direito"
+  },
+  {
+   "number": 27,
+   "title": "Camilo Reijers",
+   "label": "Camilo",
+   "positions_raw": "volante"
+  },
+  {
+   "number": 77,
+   "title": "Dylan Borrero",
+   "label": "Borrero",
+   "positions_raw": "meio-campista ou ponta"
+  },
+  {
+   "number": 80,
+   "title": "Miguel Carvalho (futebolista)",
+   "label": "Miguel Carvalho",
+   "positions_raw": "meio-campista"
+  },
+  {
+   "number": 88,
+   "title": "Yago Felipe",
+   "label": "Yago",
+   "positions_raw": "meio-campista"
+  }
+ ]
+}

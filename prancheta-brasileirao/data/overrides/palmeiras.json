@@ -1,1 +1,208 @@
-{}
+{
+  "899": {
+    "pos": "MEI",
+    "alt": [
+      "VOL",
+      "PON"
+    ],
+    "draft": true,
+    "source": "wikipedia: meio-campista"
+  },
+  "987": {
+    "pos": "ATA",
+    "alt": [
+      "PON",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: atacante"
+  },
+  "2412": {
+    "pos": "MEI",
+    "alt": [
+      "PON",
+      "VOL"
+    ],
+    "draft": true,
+    "source": "wikipedia: meio-campista ou ponta-direita"
+  },
+  "2502": {
+    "pos": "ZAG",
+    "alt": [
+      "VOL",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: zagueiro",
+    "displayName": "Gustavo Gómez"
+  },
+  "5933": {
+    "pos": "ZAG",
+    "alt": [
+      "VOL",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: zagueiro",
+    "displayName": "Alexander Barboza"
+  },
+  "9218": {
+    "pos": "VOL",
+    "alt": [
+      "MEI",
+      "ZAG"
+    ],
+    "draft": true,
+    "source": "wikipedia: volante"
+  },
+  "10083": {
+    "pos": "ZAG",
+    "alt": [
+      "VOL",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: zagueiro"
+  },
+  "10125": {
+    "pos": "LD",
+    "alt": [
+      "ZAG",
+      "LE"
+    ],
+    "draft": true,
+    "source": "wikipedia: lateral-direito"
+  },
+  "10372": {
+    "pos": "GOL",
+    "alt": [],
+    "draft": true,
+    "source": "wikipedia: goleiro"
+  },
+  "10373": {
+    "pos": "GOL",
+    "alt": [],
+    "draft": true,
+    "source": "wikipedia: goleiro"
+  },
+  "10379": {
+    "pos": "ZAG",
+    "alt": [
+      "VOL",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: zagueiro"
+  },
+  "13708": {
+    "pos": "MEI",
+    "alt": [
+      "PON",
+      "VOL"
+    ],
+    "draft": true,
+    "source": "wikipedia: meio-campista ou ponta",
+    "displayName": "Jhon Arias"
+  },
+  "21095": {
+    "pos": "MEI",
+    "alt": [
+      "VOL",
+      "PON"
+    ],
+    "draft": true,
+    "source": "wikipedia: Meio-campo"
+  },
+  "31353": {
+    "pos": "GOL",
+    "alt": [],
+    "draft": true,
+    "source": "wikipedia: goleiro"
+  },
+  "51466": {
+    "pos": "LE",
+    "alt": [
+      "ZAG",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: lateral-esquerdo",
+    "displayName": "Joaquín Piquerez"
+  },
+  "106485": {
+    "pos": "MEI",
+    "alt": [
+      "VOL",
+      "PON"
+    ],
+    "draft": true,
+    "source": "wikipedia: meio-campista"
+  },
+  "153083": {
+    "pos": "MEI",
+    "alt": [
+      "VOL",
+      "PON"
+    ],
+    "draft": true,
+    "source": "wikipedia: Meio-campista",
+    "displayName": "Emiliano Martínez"
+  },
+  "196298": {
+    "pos": "ATA",
+    "alt": [
+      "PON",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: atacante",
+    "displayName": "Ramón Sosa"
+  },
+  "295513": {
+    "pos": "ATA",
+    "alt": [
+      "PON",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: atacante",
+    "displayName": "Flaco López"
+  },
+  "306706": {
+    "pos": "LD",
+    "alt": [
+      "ZAG",
+      "LE"
+    ],
+    "draft": true,
+    "source": "wikipedia: lateral-direito",
+    "displayName": "Agustín Giay"
+  },
+  "311384": {
+    "pos": "LE",
+    "alt": [
+      "ZAG",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: lateral-esquerdo"
+  },
+  "340279": {
+    "pos": "ATA",
+    "alt": [
+      "PON",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: atacante"
+  },
+  "425715": {
+    "pos": "LE",
+    "alt": [
+      "ZAG",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: lateral-esquerdo"
+  }
+}

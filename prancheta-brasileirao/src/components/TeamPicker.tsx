@@ -2,15 +2,20 @@ import { useMemo, useState } from "react";
 import { TEAMS } from "../data";
 import { navigate } from "../router";
 import { clubVars } from "../lib/color";
+import { applyTeamSummary, useOverrides } from "../lib/overrides";
 import { Footer } from "./Footer";
 
 const norm = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
 
 export function TeamPicker() {
   const [q, setQ] = useState("");
+  const doc = useOverrides();
   const list = useMemo(
-    () => TEAMS.filter((t) => norm(`${t.name} ${t.shortName} ${t.slug}`).includes(norm(q.trim()))),
-    [q],
+    () =>
+      TEAMS.map((t) => applyTeamSummary(t, doc)).filter((t) =>
+        norm(`${t.name} ${t.shortName} ${t.slug}`).includes(norm(q.trim())),
+      ),
+    [q, doc],
   );
   return (
     <div className="home">

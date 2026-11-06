@@ -131,12 +131,23 @@ export function applyFormation(opts: {
 
   const assigned = new Map<number, number>(); // slot index -> player id
   const used = new Set<number>();
+  // nota de encaixe: posição principal > alternativas > parentes da função (FALLBACK)
+  const fit = (p: Player, role: Pos): number => {
+    if (p.pos === role) return 0;
+    const a = p.alt?.indexOf(role) ?? -1;
+    if (a >= 0) return 1 + a;
+    const f = FALLBACK[role].indexOf(p.pos);
+    return f >= 0 ? 3 + f : Infinity;
+  };
   const pick = (pool: number[], role: Pos): number | undefined => {
-    for (const want of FALLBACK[role]) {
-      const hit = pool.find((id) => !used.has(id) && byId.get(id)!.pos === want);
-      if (hit !== undefined) return hit;
+    let best: number | undefined;
+    let bestScore = Infinity;
+    for (const id of pool) {
+      if (used.has(id)) continue;
+      const sc = fit(byId.get(id)!, role);
+      if (sc < bestScore) [best, bestScore] = [id, sc];
     }
-    return undefined;
+    return best;
   };
   const order = slots.map((s, i) => [s, i] as const).sort(
     (a, b) => FILL_ORDER.indexOf(a[0].role) - FILL_ORDER.indexOf(b[0].role),
@@ -162,8 +173,10 @@ export function applyFormation(opts: {
 
   const out: Token[] = [];
   for (const [i, id] of assigned) {
-    const pt = opts.mirrored ? mirror(slots[i]) : slots[i];
-    out.push({ kind: opts.kind, ref: id, ...pt });
+    const { role, ...pt } = opts.mirrored ? { ...slots[i], ...mirror(slots[i]) } : slots[i];
+    // marca a função só quando o jogador está fora da posição principal
+    const as = byId.get(id)!.pos !== role ? role : undefined;
+    out.push({ kind: opts.kind, ref: id, ...pt, ...(as ? { as } : {}) });
   }
   // extras além de 11 continuam onde estavam
   for (const t of opts.current) if (t.kind === opts.kind && !used.has(t.ref) && byId.has(t.ref)) out.push(t);

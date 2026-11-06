@@ -1,1 +1,289 @@
-{}
+{
+  "104": {
+    "pos": "ATA",
+    "alt": [
+      "PON",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: Striker"
+  },
+  "374": {
+    "pos": "LD",
+    "alt": [
+      "ZAG",
+      "LE"
+    ],
+    "draft": true,
+    "source": "wikipedia: Right-back"
+  },
+  "574": {
+    "pos": "MEI",
+    "alt": [
+      "VOL",
+      "PON"
+    ],
+    "draft": true,
+    "source": "wikipedia: Midfielder",
+    "displayName": "Filip Krovinović"
+  },
+  "691": {
+    "pos": "PON",
+    "alt": [
+      "ATA",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: Right winger"
+  },
+  "1431": {
+    "pos": "PON",
+    "alt": [
+      "ATA",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: Winger",
+    "displayName": "Francis Amuzu"
+  },
+  "1494": {
+    "pos": "PON",
+    "alt": [
+      "ATA",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: Winger"
+  },
+  "2410": {
+    "pos": "GOL",
+    "alt": [],
+    "draft": true,
+    "source": "wikipedia: Goalkeeper"
+  },
+  "2466": {
+    "pos": "ZAG",
+    "alt": [
+      "VOL",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: Centre-back",
+    "displayName": "Walter Kannemann"
+  },
+  "2500": {
+    "pos": "ZAG",
+    "alt": [
+      "VOL",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: Centre-back",
+    "displayName": "Fabián Balbuena"
+  },
+  "2737": {
+    "pos": "ATA",
+    "alt": [
+      "PON",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: Striker, winger",
+    "displayName": "Martin Braithwaite"
+  },
+  "5981": {
+    "pos": "PON",
+    "alt": [
+      "LD",
+      "ATA"
+    ],
+    "draft": true,
+    "source": "wikipedia: Winger, Right-back",
+    "displayName": "Cristian Pavon"
+  },
+  "9916": {
+    "pos": "LD",
+    "alt": [
+      "ZAG",
+      "LE"
+    ],
+    "draft": true,
+    "source": "wikipedia: Right-back"
+  },
+  "9993": {
+    "pos": "ZAG",
+    "alt": [
+      "VOL",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: Centre back"
+  },
+  "10309": {
+    "pos": "LE",
+    "alt": [
+      "ZAG",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: Left-back"
+  },
+  "10314": {
+    "pos": "VOL",
+    "alt": [
+      "MEI",
+      "ZAG"
+    ],
+    "draft": true,
+    "source": "wikipedia: Defensive midfielder"
+  },
+  "10527": {
+    "pos": "LE",
+    "alt": [
+      "PON",
+      "ZAG"
+    ],
+    "draft": true,
+    "source": "wikipedia: Left-back, winger"
+  },
+  "13616": {
+    "pos": "PON",
+    "alt": [
+      "ATA",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: Winger",
+    "displayName": "José Enamorado"
+  },
+  "22167": {
+    "pos": "VOL",
+    "alt": [
+      "MEI",
+      "ZAG"
+    ],
+    "draft": true,
+    "source": "wikipedia: Defensive midfielder"
+  },
+  "70566": {
+    "pos": "MEI",
+    "alt": [
+      "VOL",
+      "PON"
+    ],
+    "draft": true,
+    "source": "wikipedia: Midfielder",
+    "displayName": "Mathías Villasanti"
+  },
+  "129882": {
+    "pos": "MEI",
+    "alt": [
+      "VOL",
+      "PON"
+    ],
+    "draft": true,
+    "source": "wikipedia: Central midfielder",
+    "displayName": "Juan Nardoni"
+  },
+  "199141": {
+    "pos": "VOL",
+    "alt": [
+      "ZAG",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: Defensive midfielder, centre-back",
+    "displayName": "Erick Noriega"
+  },
+  "269441": {
+    "pos": "ATA",
+    "alt": [
+      "PON",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: Striker"
+  },
+  "304867": {
+    "pos": "ZAG",
+    "alt": [
+      "VOL",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: Centre-back"
+  },
+  "309634": {
+    "pos": "GOL",
+    "alt": [],
+    "draft": true,
+    "source": "wikipedia: Goalkeeper"
+  },
+  "405703": {
+    "pos": "LD",
+    "alt": [
+      "ZAG",
+      "LE"
+    ],
+    "draft": true,
+    "source": "wikipedia: Right-back"
+  },
+  "454135": {
+    "pos": "GOL",
+    "alt": [],
+    "draft": true,
+    "source": "wikipedia: Goalkeeper"
+  },
+  "454925": {
+    "pos": "ZAG",
+    "alt": [
+      "VOL",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: Centre-back"
+  },
+  "457508": {
+    "pos": "MEI",
+    "alt": [
+      "VOL",
+      "PON"
+    ],
+    "draft": true,
+    "source": "wikipedia: Midfielder"
+  },
+  "502998": {
+    "pos": "MEI",
+    "alt": [
+      "VOL",
+      "PON"
+    ],
+    "draft": true,
+    "source": "wikipedia: Midfielder"
+  },
+  "510552": {
+    "pos": "ZAG",
+    "alt": [
+      "VOL",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: Centre-back"
+  },
+  "635023": {
+    "pos": "GOL",
+    "alt": [],
+    "draft": true,
+    "source": "wikipedia: Goalkeeper",
+    "displayName": "Gabriel Menegon"
+  },
+  "647516": {
+    "pos": "LE",
+    "alt": [
+      "ZAG",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: Left-back"
+  }
+}

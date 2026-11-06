@@ -15,11 +15,14 @@
     "fetch:sportsdb": "tsx scripts/enrich-sportsdb.ts",
     "build:data": "tsx scripts/build-data.ts",
     "review": "tsx scripts/review-positions.ts",
+    "import:research": "tsx scripts/import-research.ts",
     "sync": "tsx scripts/sync.ts"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",
+    "@vercel/blob": "^2.8.2",
     "html-to-image": "^1.11.13",
+    "jose": "^6.2.15",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },

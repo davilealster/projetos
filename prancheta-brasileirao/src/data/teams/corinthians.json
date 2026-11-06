@@ -43,6 +43,10 @@
       "name": "Gabriel Paulista",
       "number": 3,
       "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
       "photo": "/players/corinthians/915.webp"
     },
     {
@@ -50,6 +54,10 @@
       "name": "João Pedro",
       "number": 4,
       "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
       "photo": "/players/corinthians/415085.webp"
     },
     {
@@ -57,6 +65,10 @@
       "name": "André Ramalho",
       "number": 5,
       "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
       "photo": "/players/corinthians/1085.webp"
     },
     {
@@ -64,28 +76,11 @@
       "name": "Gustavo Henrique",
       "number": 13,
       "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
       "photo": "/players/corinthians/9992.webp"
-    },
-    {
-      "id": 182025,
-      "name": "P. Milans",
-      "number": 20,
-      "pos": "ZAG",
-      "photo": "/players/corinthians/182025.webp"
-    },
-    {
-      "id": 5987,
-      "name": "F. Angileri",
-      "number": 26,
-      "pos": "ZAG",
-      "photo": "/players/corinthians/5987.webp"
-    },
-    {
-      "id": 54093,
-      "name": "Hugo",
-      "number": 46,
-      "pos": "ZAG",
-      "photo": "/players/corinthians/54093.webp"
     },
     {
       "id": 570402,
@@ -102,81 +97,147 @@
       "photo": null
     },
     {
+      "id": 182025,
+      "name": "Pedro Milans",
+      "number": 20,
+      "pos": "LD",
+      "alt": [
+        "ZAG",
+        "LE"
+      ],
+      "photo": "/players/corinthians/182025.webp"
+    },
+    {
+      "id": 9742,
+      "name": "Matheus Bidu",
+      "number": 21,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "photo": "/players/corinthians/9742.webp"
+    },
+    {
+      "id": 5987,
+      "name": "Fabrizio Angileri",
+      "number": 26,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "photo": "/players/corinthians/5987.webp"
+    },
+    {
+      "id": 54093,
+      "name": "Hugo",
+      "number": 46,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "photo": "/players/corinthians/54093.webp"
+    },
+    {
+      "id": 160436,
+      "name": "Raniele",
+      "number": 14,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "photo": "/players/corinthians/160436.webp"
+    },
+    {
       "id": 10319,
       "name": "Allan",
       "number": 29,
       "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
       "photo": "/players/corinthians/10319.webp"
+    },
+    {
+      "id": 9577,
+      "name": "Charles",
+      "number": 35,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "photo": "/players/corinthians/9577.webp"
+    },
+    {
+      "id": 544679,
+      "name": "Andre",
+      "number": 49,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "photo": null
+    },
+    {
+      "id": 10067,
+      "name": "Alex Santana",
+      "number": 80,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "photo": "/players/corinthians/10067.webp"
     },
     {
       "id": 363693,
       "name": "Breno",
       "number": 7,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": "/players/corinthians/363693.webp"
     },
     {
       "id": 5794,
-      "name": "R. Garro",
+      "name": "Rodrigo Garro",
       "number": 8,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": "/players/corinthians/5794.webp"
-    },
-    {
-      "id": 160436,
-      "name": "Raniele",
-      "number": 14,
-      "pos": "MEI",
-      "photo": "/players/corinthians/160436.webp"
     },
     {
       "id": 2426,
       "name": "André Carrillo",
       "number": 19,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": "/players/corinthians/2426.webp"
-    },
-    {
-      "id": 9742,
-      "name": "Matheus Bidu",
-      "number": 21,
-      "pos": "MEI",
-      "photo": "/players/corinthians/9742.webp"
     },
     {
       "id": 871,
       "name": "Matheus Pereira",
       "number": 23,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": "/players/corinthians/871.webp"
-    },
-    {
-      "id": 9577,
-      "name": "Charles",
-      "number": 35,
-      "pos": "MEI",
-      "photo": "/players/corinthians/9577.webp"
-    },
-    {
-      "id": 380435,
-      "name": "Kaio César",
-      "number": 37,
-      "pos": "MEI",
-      "photo": "/players/corinthians/380435.webp"
-    },
-    {
-      "id": 544679,
-      "name": "Andre",
-      "number": 49,
-      "pos": "MEI",
-      "photo": null
-    },
-    {
-      "id": 543,
-      "name": "Z. Labyad",
-      "number": 52,
-      "pos": "MEI",
-      "photo": "/players/corinthians/543.webp"
     },
     {
       "id": 414353,
@@ -190,34 +251,54 @@
       "name": "Dieguinho",
       "number": 61,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": "/players/corinthians/463975.webp"
     },
     {
       "id": 900,
-      "name": "J. Lingard",
+      "name": "Jesse Lingard",
       "number": 77,
       "pos": "MEI",
+      "alt": [
+        "ATA",
+        "VOL"
+      ],
       "photo": "/players/corinthians/900.webp"
     },
     {
-      "id": 10067,
-      "name": "Alex Santana",
-      "number": 80,
-      "pos": "MEI",
-      "photo": "/players/corinthians/10067.webp"
+      "id": 380435,
+      "name": "Kaio César",
+      "number": 37,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "photo": "/players/corinthians/380435.webp"
     },
     {
       "id": 10007,
       "name": "Yuri Alberto",
       "number": 9,
       "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
       "photo": "/players/corinthians/10007.webp"
     },
     {
       "id": 667,
-      "name": "M. Depay",
+      "name": "Memphis Depay",
       "number": 10,
       "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
       "photo": "/players/corinthians/667.webp"
     },
     {
@@ -225,6 +306,10 @@
       "name": "Vitinho",
       "number": 11,
       "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
       "photo": "/players/corinthians/10177.webp"
     },
     {
@@ -239,7 +324,22 @@
       "name": "Pedro Raul",
       "number": 18,
       "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
       "photo": "/players/corinthians/9329.webp"
+    },
+    {
+      "id": 543,
+      "name": "Zakaria Labyad",
+      "number": 52,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "photo": "/players/corinthians/543.webp"
     },
     {
       "id": 463979,

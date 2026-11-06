@@ -1,0 +1,193 @@
+{
+ "club": "athletico-pr",
+ "template": "en_Club_Athletico_Paranaense_squad.html",
+ "lang": "en",
+ "players": [
+  {
+   "number": 1,
+   "title": "Mycael",
+   "label": "Mycael",
+   "positions_raw": "Goalkeeper"
+  },
+  {
+   "number": 2,
+   "title": "Gilberto (footballer, born 2005)",
+   "label": "Gilberto Jr.",
+   "positions_raw": "Right-back"
+  },
+  {
+   "number": 3,
+   "title": "Léo Pelé",
+   "label": "Léo",
+   "positions_raw": "Centre-back"
+  },
+  {
+   "number": 4,
+   "title": "Arthur Dias",
+   "label": "Arthur Dias",
+   "positions_raw": "Centre-back"
+  },
+  {
+   "number": 5,
+   "title": "Felipinho (footballer, born 2001)",
+   "label": "Felipinho",
+   "positions_raw": "Defensive midfielder"
+  },
+  {
+   "number": 6,
+   "title": "Léo Derik",
+   "label": "Léo Derik",
+   "positions_raw": "Left-back"
+  },
+  {
+   "number": 7,
+   "title": "Stiven Mendoza",
+   "label": "Mendoza",
+   "positions_raw": "Forward"
+  },
+  {
+   "number": 8,
+   "title": "João Cruz (footballer, born 2006)",
+   "label": "João Cruz",
+   "positions_raw": "Midfielder"
+  },
+  {
+   "number": 9,
+   "title": "Kevin Viveros",
+   "label": "Viveros",
+   "positions_raw": "Right winger"
+  },
+  {
+   "number": 10,
+   "title": "Bruno Zapelli",
+   "label": "Zapelli",
+   "positions_raw": "Midfielder"
+  },
+  {
+   "number": 12,
+   "title": "Gilberto (footballer, born 1993)",
+   "label": "Gilberto M.",
+   "positions_raw": "Right back"
+  },
+  {
+   "number": 14,
+   "title": "Luiz Gustavo",
+   "label": "Luiz Gustavo",
+   "positions_raw": "Defensive midfielder"
+  },
+  {
+   "number": 16,
+   "title": "Jadson (footballer, born 1993)",
+   "label": "Jadson",
+   "positions_raw": "Defensive midfielder"
+  },
+  {
+   "number": 17,
+   "title": "Alejandro García (footballer, born 2001)",
+   "label": "García",
+   "positions_raw": "Midfielder"
+  },
+  {
+   "number": 18,
+   "title": "Kerwin Vargas",
+   "label": "Vargas",
+   "positions_raw": "Forward"
+  },
+  {
+   "number": 19,
+   "title": "Jorge Rivaldo",
+   "label": "Rivaldo",
+   "positions_raw": "Forward"
+  },
+  {
+   "number": 21,
+   "title": "Leozinho (footballer, born 1998)",
+   "label": "Leozinho",
+   "positions_raw": "Forward"
+  },
+  {
+   "number": 22,
+   "title": "Carlos Terán",
+   "label": "Terán",
+   "positions_raw": "Centre-back"
+  },
+  {
+   "number": 23,
+   "title": "Santos (footballer, born 1990)",
+   "label": "Santos",
+   "positions_raw": "Goalkeeper"
+  },
+  {
+   "number": 25,
+   "title": "Dantas (footballer)",
+   "label": "Dantas",
+   "positions_raw": "Centre-back, defensive midfielder"
+  },
+  {
+   "number": 26,
+   "title": "Claudinho (footballer, born 2005)",
+   "label": "Claudinho",
+   "positions_raw": "Left-back"
+  },
+  {
+   "number": 27,
+   "title": "Juan Portilla",
+   "label": "Portilla",
+   "positions_raw": "Midfielder"
+  },
+  {
+   "number": 29,
+   "title": "Gastón Benavídez",
+   "label": "Benavídez",
+   "positions_raw": "Right-back"
+  },
+  {
+   "number": 33,
+   "title": "Juan Felipe Aguirre",
+   "label": "Aguirre",
+   "positions_raw": "Central defender"
+  },
+  {
+   "number": 37,
+   "title": "Lucas Esquivel",
+   "label": "Esquivel",
+   "positions_raw": "Left-back"
+  },
+  {
+   "number": 42,
+   "title": "Matheus Soares Rocha",
+   "label": "M. Soares",
+   "positions_raw": null
+  },
+  {
+   "number": 47,
+   "title": "Felipe Chiqueti",
+   "label": "Chiqueti",
+   "positions_raw": "Attacking midfielder"
+  },
+  {
+   "number": 50,
+   "title": "Renan Rodrigues Fonseca Viana",
+   "label": "R. Viana",
+   "positions_raw": null
+  },
+  {
+   "number": 53,
+   "title": "Dudu (footballer, born 2006)",
+   "label": "Dudu",
+   "positions_raw": "Midfielder"
+  },
+  {
+   "number": 63,
+   "title": "Riquelme (footballer, born 2005)",
+   "label": "Riquelme",
+   "positions_raw": "Midfielder"
+  },
+  {
+   "number": 70,
+   "title": "Renan Peixoto",
+   "label": "R. Peixoto",
+   "positions_raw": "Forward"
+  }
+ ]
+}

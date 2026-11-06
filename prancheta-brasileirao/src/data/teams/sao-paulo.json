@@ -33,38 +33,25 @@
     },
     {
       "id": 30429,
-      "name": "R. Tolói",
+      "name": "Rafael Tolói",
       "number": 2,
       "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
       "photo": "/players/sao-paulo/30429.webp"
     },
     {
       "id": 2571,
-      "name": "R. Arboleda",
+      "name": "Robert Arboleda",
       "number": 5,
       "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
       "photo": "/players/sao-paulo/2571.webp"
-    },
-    {
-      "id": 10375,
-      "name": "Iago",
-      "number": 12,
-      "pos": "ZAG",
-      "photo": "/players/sao-paulo/10375.webp"
-    },
-    {
-      "id": 970,
-      "name": "Wendell",
-      "number": 18,
-      "pos": "ZAG",
-      "photo": "/players/sao-paulo/970.webp"
-    },
-    {
-      "id": 9451,
-      "name": "Lucas Ramon",
-      "number": 19,
-      "pos": "ZAG",
-      "photo": "/players/sao-paulo/9451.webp"
     },
     {
       "id": 8451,
@@ -78,6 +65,10 @@
       "name": "Domingos Duarte",
       "number": 22,
       "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
       "photo": "/players/sao-paulo/46795.webp"
     },
     {
@@ -92,6 +83,10 @@
       "name": "Sabino",
       "number": 35,
       "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
       "photo": "/players/sao-paulo/9340.webp"
     },
     {
@@ -123,24 +118,80 @@
       "photo": "/players/sao-paulo/516821.webp"
     },
     {
+      "id": 9451,
+      "name": "Lucas Ramon",
+      "number": 19,
+      "pos": "LD",
+      "alt": [
+        "ZAG",
+        "LE"
+      ],
+      "photo": "/players/sao-paulo/9451.webp"
+    },
+    {
       "id": 190,
       "name": "Cédric Soares",
       "number": 21,
       "pos": "LD",
+      "alt": [
+        "ZAG",
+        "LE"
+      ],
       "photo": "/players/sao-paulo/190.webp"
+    },
+    {
+      "id": 10375,
+      "name": "Iago",
+      "number": 12,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "photo": "/players/sao-paulo/10375.webp"
     },
     {
       "id": 6237,
       "name": "Enzo Díaz",
       "number": 13,
       "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
       "photo": "/players/sao-paulo/6237.webp"
+    },
+    {
+      "id": 970,
+      "name": "Wendell",
+      "number": 18,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "photo": "/players/sao-paulo/970.webp"
+    },
+    {
+      "id": 313732,
+      "name": "Pablo Maia",
+      "number": 29,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "photo": "/players/sao-paulo/313732.webp"
     },
     {
       "id": 178,
       "name": "Lucas Moura",
       "number": 7,
       "pos": "MEI",
+      "alt": [
+        "PON",
+        "VOL"
+      ],
       "photo": "/players/sao-paulo/178.webp"
     },
     {
@@ -148,6 +199,10 @@
       "name": "Marcos Antônio",
       "number": 8,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": "/players/sao-paulo/696.webp"
     },
     {
@@ -155,6 +210,10 @@
       "name": "Damián Bobadilla",
       "number": 16,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": "/players/sao-paulo/195107.webp"
     },
     {
@@ -163,13 +222,6 @@
       "number": 28,
       "pos": "MEI",
       "photo": "/players/sao-paulo/277169.webp"
-    },
-    {
-      "id": 313732,
-      "name": "Pablo Maia",
-      "number": 29,
-      "pos": "MEI",
-      "photo": "/players/sao-paulo/313732.webp"
     },
     {
       "id": 505992,
@@ -197,6 +249,10 @@
       "name": "Cauly",
       "number": 80,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": "/players/sao-paulo/25272.webp"
     },
     {
@@ -204,20 +260,54 @@
       "name": "Danielzinho",
       "number": 94,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": "/players/sao-paulo/77754.webp"
+    },
+    {
+      "id": 106510,
+      "name": "Ferreira",
+      "number": 11,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "photo": "/players/sao-paulo/106510.webp"
+    },
+    {
+      "id": 7541,
+      "name": "Victor Sá",
+      "number": 27,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "photo": "/players/sao-paulo/7541.webp"
     },
     {
       "id": 10040,
       "name": "Artur",
       "number": 37,
       "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
       "photo": "/players/sao-paulo/10040.webp"
     },
     {
       "id": 47368,
-      "name": "J. Calleri",
+      "name": "Jonathan Calleri",
       "number": 9,
       "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
       "photo": "/players/sao-paulo/47368.webp"
     },
     {
@@ -225,14 +315,11 @@
       "name": "Luciano",
       "number": 10,
       "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
       "photo": "/players/sao-paulo/10323.webp"
-    },
-    {
-      "id": 106510,
-      "name": "Ferreira",
-      "number": 11,
-      "pos": "ATA",
-      "photo": "/players/sao-paulo/106510.webp"
     },
     {
       "id": 41188,
@@ -240,13 +327,6 @@
       "number": 17,
       "pos": "ATA",
       "photo": "/players/sao-paulo/41188.webp"
-    },
-    {
-      "id": 7541,
-      "name": "Victor Sá",
-      "number": 27,
-      "pos": "ATA",
-      "photo": "/players/sao-paulo/7541.webp"
     },
     {
       "id": 607350,

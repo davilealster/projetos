@@ -1,0 +1,150 @@
+{
+ "club": "São Paulo Futebol Clube",
+ "template": "Predefinição:Elenco São Paulo Futebol Clube",
+ "players": [
+  {
+   "number": 2,
+   "title": "Rafael Tolói",
+   "label": "Rafael Tolói",
+   "positions_raw": "zagueiro"
+  },
+  {
+   "number": 4,
+   "title": "Dória (futebolista)",
+   "label": "Dória",
+   "positions_raw": "zagueiro"
+  },
+  {
+   "number": 5,
+   "title": "Robert Arboleda",
+   "label": "Arboleda",
+   "positions_raw": "zagueiro"
+  },
+  {
+   "number": 7,
+   "title": "Lucas Moura",
+   "label": "Lucas",
+   "positions_raw": "meia ou ponta"
+  },
+  {
+   "number": 8,
+   "title": "Marcos Antônio (futebolista)",
+   "label": "Marcos Antônio",
+   "positions_raw": "meio-campista"
+  },
+  {
+   "number": 9,
+   "title": "Jonathan Calleri",
+   "label": "Calleri",
+   "positions_raw": "centro-avante"
+  },
+  {
+   "number": 10,
+   "title": "Luciano da Rocha Neves",
+   "label": "Luciano",
+   "positions_raw": "atacante"
+  },
+  {
+   "number": 11,
+   "title": "Ferreirinha (futebolista)",
+   "label": "Ferreira",
+   "positions_raw": "ponta"
+  },
+  {
+   "number": 12,
+   "title": "Iago Borduchi",
+   "label": "Iago",
+   "positions_raw": "lateral-esquerdo"
+  },
+  {
+   "number": 13,
+   "title": "Enzo Díaz",
+   "label": "Enzo Díaz",
+   "positions_raw": "lateral-esquerdo"
+  },
+  {
+   "number": 16,
+   "title": "Damián Bobadilla",
+   "label": "Bobadilla",
+   "positions_raw": "meio-campista"
+  },
+  {
+   "number": 18,
+   "title": "Wendell Nascimento Borges",
+   "label": "Wendell",
+   "positions_raw": "lateral-esquerdo"
+  },
+  {
+   "number": 19,
+   "title": "Lucas Ramon",
+   "label": "Lucas Ramon",
+   "positions_raw": "lateral-direito"
+  },
+  {
+   "number": 21,
+   "title": "Cédric Soares",
+   "label": "Cédric",
+   "positions_raw": "lateral-direito"
+  },
+  {
+   "number": 22,
+   "title": "Domingos Duarte",
+   "label": "Duarte",
+   "positions_raw": "zagueiro"
+  },
+  {
+   "number": 23,
+   "title": "Rafael Pires Monteiro",
+   "label": "Rafael",
+   "positions_raw": "goleiro"
+  },
+  {
+   "number": 27,
+   "title": "Victor Sá",
+   "label": "Victor Sá",
+   "positions_raw": "ponta-esquerda"
+  },
+  {
+   "number": 29,
+   "title": "Pablo Maia",
+   "label": "Pablo Maia",
+   "positions_raw": "volante"
+  },
+  {
+   "number": 33,
+   "title": "Luan Vinícius da Silva Santos",
+   "label": "Luan",
+   "positions_raw": "volante"
+  },
+  {
+   "number": 35,
+   "title": "Sabino (futebolista, 1996)",
+   "label": "Sabino",
+   "positions_raw": "zagueiro"
+  },
+  {
+   "number": 36,
+   "title": "Patryck Lanza",
+   "label": "Patryck",
+   "positions_raw": "lateral-esquerdo"
+  },
+  {
+   "number": 37,
+   "title": "Artur Victor",
+   "label": "Artur",
+   "positions_raw": "ponta-direita"
+  },
+  {
+   "number": 49,
+   "title": "Cauly",
+   "label": "Cauly",
+   "positions_raw": "meio-campo"
+  },
+  {
+   "number": 94,
+   "title": "Danielzinho",
+   "label": "Danielzinho",
+   "positions_raw": "meio-campista"
+  }
+ ]
+}

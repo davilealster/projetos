@@ -37,6 +37,34 @@ export function buildTeam(slug: string): { players: BuiltPlayerWithMeta[]; repor
     hasPhoto: (id) => existsSync(PATHS.photo(slug, id)),
   });
 
+  // dados do painel admin: todos os jogadores (inclusive ocultos), com a origem de cada valor
+  const visible = { ...overrides };
+  for (const k of Object.keys(visible)) if (visible[k].hide) visible[k] = { ...visible[k], hide: false };
+  const all = mergePlayers({ slug, raw: raw.players, overrides: visible, suggestions, hasPhoto: (id) => existsSync(PATHS.photo(slug, id)) });
+  const rawById = new Map(raw.players.map((x) => [x.id, x]));
+  writeJson(PATHS.adminOut(slug), {
+    slug,
+    updatedAt: raw.fetchedAt,
+    players: all.map((x) => {
+      const r = rawById.get(x.id)!;
+      const ov = overrides[String(x.id)] ?? {};
+      return {
+        id: x.id,
+        apiName: r.name,
+        apiPos: r.position,
+        apiNumber: r.number,
+        photo: x.photo,
+        name: x.name,
+        number: x.number,
+        pos: x.pos,
+        alt: x.alt ?? [],
+        hidden: !!ov.hide,
+        source: x.posSource,
+        note: ov.source ?? suggestions[String(x.id)]?.strPosition ?? null,
+      };
+    }),
+  });
+
   const t = map[slug];
   writeJson(PATHS.teamOut(slug), {
     slug,

@@ -1,0 +1,144 @@
+{
+ "club": "Sociedade Esportiva Palmeiras",
+ "template": "Predefinição:Elenco SE Palmeiras",
+ "players": [
+  {
+   "number": 1,
+   "title": "Carlos Miguel",
+   "label": "Carlos Miguel",
+   "positions_raw": "goleiro"
+  },
+  {
+   "number": 2,
+   "title": "Alexander Barboza",
+   "label": "Barboza",
+   "positions_raw": "zagueiro"
+  },
+  {
+   "number": 3,
+   "title": "Bruno Fuchs",
+   "label": "Fuchs",
+   "positions_raw": "zagueiro"
+  },
+  {
+   "number": 4,
+   "title": "Agustín Giay",
+   "label": "Giay",
+   "positions_raw": "lateral-direito"
+  },
+  {
+   "number": 6,
+   "title": "Jefté (futebolista)",
+   "label": "Jefté",
+   "positions_raw": "lateral-esquerdo"
+  },
+  {
+   "number": 7,
+   "title": "Felipe Anderson",
+   "label": "Felipe Anderson",
+   "positions_raw": "meio-campista ou ponta-direita"
+  },
+  {
+   "number": 8,
+   "title": "Andreas Pereira",
+   "label": "Andreas",
+   "positions_raw": "meio-campista"
+  },
+  {
+   "number": 9,
+   "title": "Vitor Roque",
+   "label": "Vitor Roque",
+   "positions_raw": "atacante"
+  },
+  {
+   "number": 10,
+   "title": "Paulinho (futebolista, 2000)",
+   "label": "Paulinho",
+   "positions_raw": "atacante"
+  },
+  {
+   "number": 11,
+   "title": "Jhon Arias",
+   "label": "Arias",
+   "positions_raw": "meio-campista ou ponta"
+  },
+  {
+   "number": 12,
+   "title": "Khellven",
+   "label": "Khellven",
+   "positions_raw": "lateral-direito"
+  },
+  {
+   "number": 14,
+   "title": "Marcelo Lomba",
+   "label": "Lomba",
+   "positions_raw": "goleiro"
+  },
+  {
+   "number": 15,
+   "title": "Gustavo Gómez",
+   "label": "Gómez",
+   "positions_raw": "zagueiro"
+  },
+  {
+   "number": 18,
+   "title": "Maurício (futebolista)",
+   "label": "Maurício",
+   "positions_raw": "meio-campista"
+  },
+  {
+   "number": 19,
+   "title": "Ramón Sosa",
+   "label": "Sosa",
+   "positions_raw": "atacante"
+  },
+  {
+   "number": 21,
+   "title": "Bruno Bertinato",
+   "label": "Bertinato",
+   "positions_raw": "goleiro"
+  },
+  {
+   "number": 22,
+   "title": "Joaquín Piquerez",
+   "label": "Piquerez",
+   "positions_raw": "lateral-esquerdo"
+  },
+  {
+   "number": 26,
+   "title": "Murilo Cerqueira",
+   "label": "Murilo",
+   "positions_raw": "zagueiro"
+  },
+  {
+   "number": 27,
+   "title": "Marlon Freitas",
+   "label": "Marlon Freitas",
+   "positions_raw": "volante"
+  },
+  {
+   "number": 30,
+   "title": "Lucas Evangelista (futebolista)",
+   "label": "Evangelista",
+   "positions_raw": "Meio-campo"
+  },
+  {
+   "number": 32,
+   "title": "Emiliano Martínez (futebolista)",
+   "label": "Martínez",
+   "positions_raw": "Meio-campista"
+  },
+  {
+   "number": 42,
+   "title": "Flaco López",
+   "label": "López",
+   "positions_raw": "atacante"
+  },
+  {
+   "number": 56,
+   "title": "Arthur Gabriel",
+   "label": "Arthur",
+   "positions_raw": "lateral-esquerdo"
+  }
+ ]
+}

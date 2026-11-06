@@ -4,10 +4,8 @@ Atualizado em 06/11/2026. O que está feito vai no fim do arquivo.
 
 ## Precisam de você
 
-1. **Posições detalhadas (o maior buraco dos dados).** 523 dos 735 jogadores estão com posição genérica (ZAG/MEI/ATA), porque a API-Football só informa Defender/Midfielder/Attacker e o TheSportsDB gratuito cobre ~9 jogadores por time. Na prática: laterais aparecem como ZAG, volantes e pontas como MEI/ATA, e as formações automáticas escalam errado (no Vasco, o Lucas Piton entra de zagueiro).
-   - Opção A: você preenche `data/overrides/{slug}.json` (o `npm run review -- --team=vasco` lista id, nome e posição atual).
-   - Opção B: eu monto um rascunho de LD/LE/VOL/PON e apelidos por time e você só revisa. Recomendo começar pelos times das lives que você já tem em vista.
-2. **134 nomes abreviados** ("J. Rojas", "A. Gómez"). Corrige no mesmo override com `displayName`.
+1. **Revisar o rascunho de posições no `/admin`.** 443 jogadores têm posição principal + 2 alternativas tiradas da Wikipédia (marcados "Wikipédia" no painel). As alternativas padrão por posição (ex.: zagueiro → volante e lateral) são palpite e merecem um olhar. Use o filtro "Não revisados" e marque "Revisado" conforme for conferindo.
+2. **216 jogadores ainda com posição genérica** (filtro "Posição genérica" no painel): quase todos da base/reservas, que a Wikipédia não lista. 37 nomes ainda abreviados.
 3. **Domínio e nome do site.** A marca d'água usa o endereço em que o site está rodando. Falta decidir o nome/domínio definitivo (ex.: `pranchetabrasileirao.com.br`). "Prancheta Brasileirão" é provisório.
 4. **Deploy automático a cada push.** O site está publicado em https://prancheta-brasileirao.vercel.app (deploy manual pelo CLI em 06/11/2026). Para cada push publicar sozinho, conecte o repositório no painel da Vercel (Settings → Git, Root Directory = `prancheta-brasileirao`).
 5. **Secret `API_FOOTBALL_KEY` no GitHub** (Settings → Secrets → Actions) para a sincronização semanal funcionar.
@@ -22,6 +20,9 @@ Atualizado em 06/11/2026. O que está feito vai no fim do arquivo.
 
 ## Ainda não feito
 
+- Trocar a senha padrão do admin (botão "Trocar senha" no painel).
+- Os ajustes do admin vivem no Vercel Blob. Para guardá-los também no git, use "Exportar JSON" de vez em quando (backup).
+
 - Votação da torcida (5.2, fora do MVP por precisar de backend).
 - GIF/vídeo curto na página `/creator` e kit de divulgação por clube (thumbnails, frames).
 - Ranking interno de influenciadores por acessos (depende do analytics no ar).
@@ -31,6 +32,9 @@ Atualizado em 06/11/2026. O que está feito vai no fim do arquivo.
 
 ## Feito
 
+- Pesquisa de posições na Wikipédia para os 20 clubes, importada como rascunho (principal + 2 alternativas).
+- Posição principal + 2 alternativas; clique no jogador em campo escolhe a posição na escalação.
+- Painel `/admin` com login (Vercel Blob privado): edição por clube e jogador, troca de senha, exportação.
 - Pipeline de dados (fase 1) com os 20 times, relatório de lacunas e overrides vazios.
 - Home com os 20 escudos e busca.
 - Prancheta: elenco com filtro por posição, adversário em fichas 1–32 com cor ou com o elenco real de outro clube, arrastar e soltar (mouse e toque), substituição soltando o reserva em cima do titular, 6 formações com transição animada, modo compacto, telestrador, desfazer, atalhos, setas do teclado, localStorage por clube.

@@ -1,0 +1,102 @@
+{
+ "club": "Red Bull Bragantino",
+ "template": "Predefinição:Elenco Bragantino",
+ "players": [
+  {
+   "number": 1,
+   "title": "Cleiton Schwengber",
+   "label": "Cleiton",
+   "positions_raw": "goleiro"
+  },
+  {
+   "number": 2,
+   "title": "Guzmán Rodríguez",
+   "label": "Guzmán Rodríguez",
+   "positions_raw": "zagueiro"
+  },
+  {
+   "number": 3,
+   "title": "Eduardo Santos",
+   "label": "Eduardo Santos",
+   "positions_raw": "zagueiro"
+  },
+  {
+   "number": 5,
+   "title": "Fabinho (futebolista, 2002)",
+   "label": "Fabinho",
+   "positions_raw": "volante"
+  },
+  {
+   "number": 6,
+   "title": "Gabriel Girotto Franco",
+   "label": "Gabriel",
+   "positions_raw": "volante"
+  },
+  {
+   "number": 8,
+   "title": "Eduardo Sasha",
+   "label": "Sasha",
+   "positions_raw": "atacante"
+  },
+  {
+   "number": 9,
+   "title": "Isidro Pitta",
+   "label": "Pitta",
+   "positions_raw": "atacante"
+  },
+  {
+   "number": 11,
+   "title": "Fernando dos Santos Pedro",
+   "label": "Fernando",
+   "positions_raw": "ponta-esquerda"
+  },
+  {
+   "number": 12,
+   "title": "Vanderlan",
+   "label": "Vanderlan",
+   "positions_raw": "lateral-esquerdo"
+  },
+  {
+   "number": 16,
+   "title": "Gustavo Marques",
+   "label": "Gustavo Marques",
+   "positions_raw": "zagueiro"
+  },
+  {
+   "number": 18,
+   "title": "Tiago Volpi",
+   "label": "Tiago Volpi",
+   "positions_raw": "goleiro"
+  },
+  {
+   "number": 20,
+   "title": "Rodriguinho (futebolista, 2004)",
+   "label": "Rodriguinho",
+   "positions_raw": "meia-atacante"
+  },
+  {
+   "number": 23,
+   "title": "Agustín Sant'Anna",
+   "label": "Agustín Sant'Anna",
+   "positions_raw": "lateral-direito"
+  },
+  {
+   "number": 29,
+   "title": "Juninho Capixaba",
+   "label": "Juninho Capixaba",
+   "positions_raw": "lateral-esquerdo"
+  },
+  {
+   "number": 34,
+   "title": "Andrés Hurtado",
+   "label": "Andrés Hurtado",
+   "positions_raw": "lateral-direito"
+  },
+  {
+   "number": 35,
+   "title": "Matheus Fernandes (futebolista)",
+   "label": "Matheus Fernandes",
+   "positions_raw": "volante"
+  }
+ ]
+}

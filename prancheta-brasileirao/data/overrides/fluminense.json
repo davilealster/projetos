@@ -1,1 +1,272 @@
-{}
+{
+  "259": {
+    "pos": "ZAG",
+    "alt": [
+      "VOL",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: Centre-back"
+  },
+  "1262": {
+    "pos": "VOL",
+    "alt": [
+      "MEI",
+      "ZAG"
+    ],
+    "draft": true,
+    "source": "wikipedia: Defensive midfielder"
+  },
+  "2038": {
+    "pos": "LE",
+    "alt": [
+      "ZAG",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: Left-back"
+  },
+  "2454": {
+    "pos": "PON",
+    "alt": [
+      "MEI",
+      "ATA"
+    ],
+    "draft": true,
+    "source": "wikipedia: Winger, attacking midfielder",
+    "displayName": "Yeferson Soteldo"
+  },
+  "6337": {
+    "pos": "ZAG",
+    "alt": [
+      "VOL",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: Centre-back",
+    "displayName": "Juan Pablo Freytes"
+  },
+  "9872": {
+    "pos": "ZAG",
+    "alt": [
+      "VOL",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: Centre back"
+  },
+  "9874": {
+    "pos": "LD",
+    "alt": [
+      "ZAG",
+      "LE"
+    ],
+    "draft": true,
+    "source": "wikipedia: Right back"
+  },
+  "10017": {
+    "pos": "ZAG",
+    "alt": [
+      "VOL",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: Centre-back"
+  },
+  "10079": {
+    "pos": "GOL",
+    "alt": [],
+    "draft": true,
+    "source": "wikipedia: Goalkeeper"
+  },
+  "10080": {
+    "pos": "GOL",
+    "alt": [],
+    "draft": true,
+    "source": "wikipedia: Goalkeeper"
+  },
+  "10163": {
+    "pos": "LE",
+    "alt": [
+      "ZAG",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: Left back"
+  },
+  "10267": {
+    "pos": "LD",
+    "alt": [
+      "ZAG",
+      "LE"
+    ],
+    "draft": true,
+    "source": "wikipedia: Right back"
+  },
+  "10311": {
+    "pos": "MEI",
+    "alt": [
+      "VOL",
+      "PON"
+    ],
+    "draft": true,
+    "source": "wikipedia: Attacking midfielder"
+  },
+  "10396": {
+    "pos": "MEI",
+    "alt": [
+      "VOL",
+      "PON"
+    ],
+    "draft": true,
+    "source": "wikipedia: Midfielder"
+  },
+  "10501": {
+    "pos": "MEI",
+    "alt": [
+      "VOL",
+      "PON"
+    ],
+    "draft": true,
+    "source": "wikipedia: Midfielder"
+  },
+  "12705": {
+    "pos": "ATA",
+    "alt": [
+      "PON",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: Striker"
+  },
+  "13523": {
+    "pos": "ATA",
+    "alt": [
+      "PON",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: Striker",
+    "displayName": "Germán Cano"
+  },
+  "13715": {
+    "pos": "ZAG",
+    "alt": [
+      "VOL",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: Centre-back",
+    "displayName": "Julián Millán"
+  },
+  "50763": {
+    "pos": "MEI",
+    "alt": [
+      "VOL",
+      "PON"
+    ],
+    "draft": true,
+    "source": "wikipedia: Attacking midfielder",
+    "displayName": "Luciano Acosta"
+  },
+  "51214": {
+    "pos": "MEI",
+    "alt": [
+      "PON",
+      "VOL"
+    ],
+    "draft": true,
+    "source": "wikipedia: Attacking midfielder, winger",
+    "displayName": "Jefferson Savarino"
+  },
+  "51603": {
+    "pos": "MEI",
+    "alt": [
+      "PON",
+      "VOL"
+    ],
+    "draft": true,
+    "source": "wikipedia: Attacking midfielder, winger",
+    "displayName": "Agustín Canobbio"
+  },
+  "70849": {
+    "pos": "ATA",
+    "alt": [
+      "PON",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: Forward",
+    "displayName": "Kevin Serna"
+  },
+  "180866": {
+    "pos": "GOL",
+    "alt": [],
+    "draft": true,
+    "source": "wikipedia: Goalkeeper"
+  },
+  "266267": {
+    "pos": "MEI",
+    "alt": [
+      "VOL",
+      "PON"
+    ],
+    "draft": true,
+    "source": "wikipedia: Midfielder"
+  },
+  "280245": {
+    "pos": "MEI",
+    "alt": [
+      "VOL",
+      "PON"
+    ],
+    "draft": true,
+    "source": "wikipedia: Midfielder"
+  },
+  "282692": {
+    "pos": "ZAG",
+    "alt": [
+      "VOL",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: Centre-back"
+  },
+  "297522": {
+    "pos": "ATA",
+    "alt": [
+      "PON",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: Forward"
+  },
+  "304048": {
+    "pos": "ATA",
+    "alt": [
+      "PON",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: Forward",
+    "displayName": "Rodrigo Castillo"
+  },
+  "443088": {
+    "pos": "LD",
+    "alt": [
+      "ZAG",
+      "LE"
+    ],
+    "draft": true,
+    "source": "wikipedia: Right-back"
+  },
+  "502726": {
+    "pos": "PON",
+    "alt": [
+      "ATA",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: Right winger"
+  }
+}

@@ -32,17 +32,14 @@
       "photo": "/players/flamengo/372083.webp"
     },
     {
-      "id": 1290,
-      "name": "G. Varela",
-      "number": 2,
-      "pos": "ZAG",
-      "photo": "/players/flamengo/1290.webp"
-    },
-    {
       "id": 9458,
       "name": "Léo Ortiz",
       "number": 3,
       "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
       "photo": "/players/flamengo/9458.webp"
     },
     {
@@ -50,6 +47,10 @@
       "name": "Léo Pereira",
       "number": 4,
       "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
       "photo": "/players/flamengo/10124.webp"
     },
     {
@@ -57,6 +58,10 @@
       "name": "Danilo",
       "number": 13,
       "pos": "ZAG",
+      "alt": [
+        "LD",
+        "VOL"
+      ],
       "photo": "/players/flamengo/618.webp"
     },
     {
@@ -64,6 +69,10 @@
       "name": "Vitão",
       "number": 44,
       "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
       "photo": "/players/flamengo/9909.webp"
     },
     {
@@ -71,6 +80,10 @@
       "name": "João Victor Cunha",
       "number": 61,
       "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
       "photo": "/players/flamengo/449253.webp"
     },
     {
@@ -78,6 +91,10 @@
       "name": "Johnny Góes",
       "number": 77,
       "pos": "ZAG",
+      "alt": [
+        "LE",
+        "VOL"
+      ],
       "photo": null
     },
     {
@@ -86,6 +103,17 @@
       "number": 87,
       "pos": "ZAG",
       "photo": null
+    },
+    {
+      "id": 1290,
+      "name": "Guillermo Varela",
+      "number": 2,
+      "pos": "LD",
+      "alt": [
+        "ZAG",
+        "LE"
+      ],
+      "photo": "/players/flamengo/1290.webp"
     },
     {
       "id": 1566,
@@ -99,6 +127,10 @@
       "name": "Daniel Sales",
       "number": 51,
       "pos": "LD",
+      "alt": [
+        "ZAG",
+        "LE"
+      ],
       "photo": "/players/flamengo/403299.webp"
     },
     {
@@ -106,6 +138,10 @@
       "name": "Ayrton Lucas",
       "number": 6,
       "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
       "photo": "/players/flamengo/1771.webp"
     },
     {
@@ -113,27 +149,54 @@
       "name": "Alex Sandro",
       "number": 26,
       "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
       "photo": "/players/flamengo/860.webp"
     },
     {
       "id": 2560,
-      "name": "E. Pulgar",
+      "name": "Erick Pulgar",
       "number": 5,
-      "pos": "MEI",
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
       "photo": "/players/flamengo/2560.webp"
+    },
+    {
+      "id": 2289,
+      "name": "Jorginho",
+      "number": 21,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "photo": "/players/flamengo/2289.webp"
     },
     {
       "id": 48,
       "name": "Saúl",
       "number": 8,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": "/players/flamengo/48.webp"
     },
     {
       "id": 2612,
-      "name": "G. de Arrascaeta",
+      "name": "Giorgian de Arrascaeta",
       "number": 10,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": "/players/flamengo/2612.webp"
     },
     {
@@ -141,41 +204,54 @@
       "name": "Lucas Paquetá",
       "number": 11,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": "/players/flamengo/1646.webp"
     },
     {
-      "id": 126936,
-      "name": "Samuel Lino",
-      "number": 16,
+      "id": 198347,
+      "name": "Anthony Valencia",
+      "number": 14,
       "pos": "MEI",
-      "photo": "/players/flamengo/126936.webp"
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "photo": "/players/flamengo/198347.webp"
+    },
+    {
+      "id": 5994,
+      "name": "Jorge Carrascal",
+      "number": 15,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "photo": "/players/flamengo/5994.webp"
     },
     {
       "id": 5995,
       "name": "N. de la Cruz",
       "number": 18,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": "/players/flamengo/5995.webp"
-    },
-    {
-      "id": 16369,
-      "name": "G. Plata",
-      "number": 19,
-      "pos": "MEI",
-      "photo": "/players/flamengo/16369.webp"
-    },
-    {
-      "id": 2289,
-      "name": "Jorginho",
-      "number": 21,
-      "pos": "MEI",
-      "photo": "/players/flamengo/2289.webp"
     },
     {
       "id": 332654,
       "name": "Evertton Araújo",
       "number": 52,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": "/players/flamengo/332654.webp"
     },
     {
@@ -190,48 +266,76 @@
       "name": "Joshua",
       "number": 79,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": null
     },
     {
       "id": 22238,
       "name": "Luiz Araújo",
       "number": 7,
-      "pos": "ATA",
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
       "photo": "/players/flamengo/22238.webp"
+    },
+    {
+      "id": 126936,
+      "name": "Samuel Lino",
+      "number": 16,
+      "pos": "PON",
+      "alt": [
+        "LE",
+        "ATA"
+      ],
+      "photo": "/players/flamengo/126936.webp"
+    },
+    {
+      "id": 16369,
+      "name": "Gonzalo Plata",
+      "number": 19,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "photo": "/players/flamengo/16369.webp"
+    },
+    {
+      "id": 10180,
+      "name": "Bruno Henrique",
+      "number": 27,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "photo": "/players/flamengo/10180.webp"
     },
     {
       "id": 10321,
       "name": "Pedro",
       "number": 9,
       "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
       "photo": "/players/flamengo/10321.webp"
     },
     {
-      "id": 198347,
-      "name": "A. Valencia",
-      "number": 14,
-      "pos": "ATA",
-      "photo": "/players/flamengo/198347.webp"
-    },
-    {
-      "id": 5994,
-      "name": "J. Carrascal",
-      "number": 15,
-      "pos": "ATA",
-      "photo": "/players/flamengo/5994.webp"
-    },
-    {
-      "id": 10180,
-      "name": "Bruno Henrique",
-      "number": 27,
-      "pos": "ATA",
-      "photo": "/players/flamengo/10180.webp"
-    },
-    {
       "id": 560314,
-      "name": "J. Freitas",
+      "name": "Joaquín Freitas",
       "number": 30,
       "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
       "photo": null
     },
     {

@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import {
   isAbbreviated, mapApiPosition, mapSportsDbPosition, matchPlayerName, matchTeamSlug,
-  mergePlayers, needsPositionReview, sortPlayers, stripMeta, type Pos, type RawPlayer,
+  mergePlayers, needsPositionReview, parsePtPositions, sortPlayers, stripMeta, type Pos, type RawPlayer,
 } from "../scripts/lib/core";
 
 const raw = (o: Partial<RawPlayer> & { id: number }): RawPlayer => ({
@@ -113,4 +113,48 @@ describe("mergePlayers", () => {
   it("stripMeta tira os campos internos", () => {
     expect(Object.keys(stripMeta(out[0])).sort()).toEqual(["id", "name", "number", "photo", "pos"]);
   });
+});
+
+describe("parsePtPositions (pesquisa)", () => {
+  it.each([
+    ["goleiro", 1, "GOL", []],
+    ["lateral-esquerdo", 6, "LE", ["ZAG", "LD"]],
+    ["lateral-direito", 96, "LD", ["ZAG", "LE"]],
+    ["volante e zagueiro", 5, "VOL", ["ZAG", "MEI"]],
+    ["ponta e meio-campista", 28, "PON", ["MEI", "ATA"]],
+    ["meio-campista", 10, "MEI", ["VOL", "PON"]],
+    ["centroavante", 77, "ATA", ["PON", "MEI"]],
+    ["lateral e atacante", 2, "LD", ["ATA", "ZAG"]],
+    ["meia / ponta", 10, "MEI", ["PON", "VOL"]],
+    ["Right-back", 2, "LD", ["ZAG", "LE"]],
+    ["Centre-back, right-back", 13, "ZAG", ["LD", "VOL"]],
+    ["Defensive midfielder", 5, "VOL", ["MEI", "ZAG"]],
+    ["Attacking midfielder", 10, "MEI", ["VOL", "PON"]],
+    ["Winger", 7, "PON", ["ATA", "MEI"]],
+    ["Striker", 9, "ATA", ["PON", "MEI"]],
+    ["Left back", 6, "LE", ["ZAG", "LD"]],
+    ["Left winger, wing-back", 16, "PON", ["LE", "ATA"]],
+  ])("%s (nº %s) → %s %j", (txt, n, pos, alt) => {
+    expect(parsePtPositions(txt, n)).toMatchObject({ pos, alt });
+  });
+  it("lateral sem lado e sem número típico fica ambíguo (LD, alternativa LE)", () => {
+    expect(parsePtPositions("lateral", 33)).toMatchObject({ pos: "LD", alt: ["LE", "ZAG"], ambiguous: true });
+  });
+  it("texto desconhecido retorna null", () => {
+    expect(parsePtPositions("treinador")).toBeNull();
+    expect(parsePtPositions(null)).toBeNull();
+  });
+});
+
+describe("compatible (casamento da pesquisa)", async () => {
+  const { compatible } = await import("../scripts/import-research");
+  it.each([
+    ["Igor Vinicius", "Igor Vinícius", true],
+    ["Igor Vinicius", "Vinicius Lira", false],
+    ["J. Rojas", "Johan Rojas", true],
+    ["J. Rojas", "Pedro Rojas", false],
+    ["Neymar", "Neymar", true],
+    ["Danilo", "Danilo Luiz da Silva", true],
+    ["G. de Arrascaeta", "Giorgian de Arrascaeta", true],
+  ])("%s ~ %s = %s", (a, w, ok) => expect(compatible(a, w)).toBe(ok));
 });

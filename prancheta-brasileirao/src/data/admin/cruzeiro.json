@@ -1,0 +1,576 @@
+{
+  "slug": "cruzeiro",
+  "updatedAt": "2026-11-06",
+  "players": [
+    {
+      "id": 10229,
+      "apiName": "Cássio",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 1,
+      "photo": "/players/cruzeiro/10229.webp",
+      "name": "Cássio",
+      "number": 1,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: goleiro"
+    },
+    {
+      "id": 631005,
+      "apiName": "Eraclito Marcelo",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 12,
+      "photo": null,
+      "name": "Eraclito Marcelo",
+      "number": 12,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 306178,
+      "apiName": "Leo Aragão",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 41,
+      "photo": "/players/cruzeiro/306178.webp",
+      "name": "Leo Aragão",
+      "number": 41,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 522974,
+      "apiName": "Vitor Lamounier",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 51,
+      "photo": "/players/cruzeiro/522974.webp",
+      "name": "Vitor Lamounier",
+      "number": 51,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 360306,
+      "apiName": "Otávio Eleodoro Rezende Costa",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 81,
+      "photo": "/players/cruzeiro/360306.webp",
+      "name": "Otávio Eleodoro Rezende Costa",
+      "number": 81,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: goleiro"
+    },
+    {
+      "id": 522246,
+      "apiName": "Kauã Moraes",
+      "apiPos": "Defender",
+      "apiNumber": 2,
+      "photo": "/players/cruzeiro/522246.webp",
+      "name": "Kauã Moraes",
+      "number": 2,
+      "pos": "ZAG",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 10089,
+      "apiName": "Fabrício Bruno",
+      "apiPos": "Defender",
+      "apiNumber": 15,
+      "photo": "/players/cruzeiro/10089.webp",
+      "name": "Fabrício Bruno",
+      "number": 15,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: zagueiro"
+    },
+    {
+      "id": 422150,
+      "apiName": "Jonathan",
+      "apiPos": "Defender",
+      "apiNumber": 34,
+      "photo": "/players/cruzeiro/422150.webp",
+      "name": "Jonathan",
+      "number": 34,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: zagueiro"
+    },
+    {
+      "id": 54866,
+      "apiName": "João Marcelo",
+      "apiPos": "Defender",
+      "apiNumber": 43,
+      "photo": "/players/cruzeiro/54866.webp",
+      "name": "João Marcelo",
+      "number": 43,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: zagueiro"
+    },
+    {
+      "id": 631006,
+      "apiName": "Kelvin Barbosa",
+      "apiPos": "Defender",
+      "apiNumber": 84,
+      "photo": null,
+      "name": "Kelvin Barbosa",
+      "number": 84,
+      "pos": "ZAG",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 25398,
+      "apiName": "William",
+      "apiPos": "Defender",
+      "apiNumber": 12,
+      "photo": "/players/cruzeiro/25398.webp",
+      "name": "William",
+      "number": 12,
+      "pos": "LD",
+      "alt": [
+        "ZAG",
+        "LE"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: lateral-direito"
+    },
+    {
+      "id": 2411,
+      "apiName": "Fágner",
+      "apiPos": "Defender",
+      "apiNumber": 23,
+      "photo": "/players/cruzeiro/2411.webp",
+      "name": "Fágner",
+      "number": 23,
+      "pos": "LD",
+      "alt": [
+        "ZAG",
+        "LE"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: lateral-direito"
+    },
+    {
+      "id": 51572,
+      "apiName": "M. Viña",
+      "apiPos": "Defender",
+      "apiNumber": 6,
+      "photo": "/players/cruzeiro/51572.webp",
+      "name": "Matías Viña",
+      "number": 6,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: lateral-esquerdo"
+    },
+    {
+      "id": 6268,
+      "apiName": "L. Villalba",
+      "apiPos": "Defender",
+      "apiNumber": 25,
+      "photo": "/players/cruzeiro/6268.webp",
+      "name": "Lucas Villalba",
+      "number": 25,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: lateral-esquerdo ou zagueiro"
+    },
+    {
+      "id": 6608,
+      "apiName": "G. Rojas",
+      "apiPos": "Defender",
+      "apiNumber": 27,
+      "photo": "/players/cruzeiro/6608.webp",
+      "name": "Gabriel Rojas",
+      "number": 27,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: lateral-esquerdo"
+    },
+    {
+      "id": 504950,
+      "apiName": "Zé Lucas",
+      "apiPos": "Midfielder",
+      "apiNumber": 5,
+      "photo": "/players/cruzeiro/504950.webp",
+      "name": "Zé Lucas",
+      "number": 5,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: volante"
+    },
+    {
+      "id": 10494,
+      "apiName": "Matheus Henrique",
+      "apiPos": "Midfielder",
+      "apiNumber": 7,
+      "photo": "/players/cruzeiro/10494.webp",
+      "name": "Matheus Henrique",
+      "number": 7,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: volante"
+    },
+    {
+      "id": 10100,
+      "apiName": "L. Romero",
+      "apiPos": "Midfielder",
+      "apiNumber": 29,
+      "photo": "/players/cruzeiro/10100.webp",
+      "name": "Lucas Romero",
+      "number": 29,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: volante"
+    },
+    {
+      "id": 30408,
+      "apiName": "Gerson",
+      "apiPos": "Midfielder",
+      "apiNumber": 8,
+      "photo": "/players/cruzeiro/30408.webp",
+      "name": "Gerson",
+      "number": 8,
+      "pos": "MEI",
+      "alt": [
+        "PON",
+        "VOL"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: meio-campista e ponta-direita"
+    },
+    {
+      "id": 25618,
+      "apiName": "Matheus Pereira",
+      "apiPos": "Midfielder",
+      "apiNumber": 10,
+      "photo": "/players/cruzeiro/25618.webp",
+      "name": "Matheus Pereira",
+      "number": 10,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: meio-campista"
+    },
+    {
+      "id": 10102,
+      "apiName": "Lucas Silva",
+      "apiPos": "Midfielder",
+      "apiNumber": 16,
+      "photo": "/players/cruzeiro/10102.webp",
+      "name": "Lucas Silva",
+      "number": 16,
+      "pos": "MEI",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 439566,
+      "apiName": "N. Villareal",
+      "apiPos": "Midfielder",
+      "apiNumber": 22,
+      "photo": "/players/cruzeiro/439566.webp",
+      "name": "N. Villareal",
+      "number": 22,
+      "pos": "MEI",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 554485,
+      "apiName": "Rhuan Gabriel",
+      "apiPos": "Midfielder",
+      "apiNumber": 40,
+      "photo": null,
+      "name": "Rhuan Gabriel",
+      "number": 40,
+      "pos": "MEI",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 9445,
+      "apiName": "Bruno Rodrigues",
+      "apiPos": "Attacker",
+      "apiNumber": 9,
+      "photo": "/players/cruzeiro/9445.webp",
+      "name": "Bruno Rodrigues",
+      "number": 9,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: ponta-esquerda"
+    },
+    {
+      "id": 311520,
+      "apiName": "Marquinhos",
+      "apiPos": "Attacker",
+      "apiNumber": 11,
+      "photo": "/players/cruzeiro/311520.webp",
+      "name": "Marquinhos",
+      "number": 11,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: ponta-direita"
+    },
+    {
+      "id": 37161,
+      "apiName": "L. Sinisterra",
+      "apiPos": "Attacker",
+      "apiNumber": 17,
+      "photo": "/players/cruzeiro/37161.webp",
+      "name": "Luis Sinisterra",
+      "number": 17,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: ponta-esquerda"
+    },
+    {
+      "id": 365287,
+      "apiName": "Wesley Gassova",
+      "apiPos": "Attacker",
+      "apiNumber": 20,
+      "photo": "/players/cruzeiro/365287.webp",
+      "name": "Wesley Gassova",
+      "number": 20,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: ponta-esquerda"
+    },
+    {
+      "id": 143367,
+      "apiName": "Gabriel Pec",
+      "apiPos": "Attacker",
+      "apiNumber": 77,
+      "photo": "/players/cruzeiro/143367.webp",
+      "name": "Gabriel Pec",
+      "number": 77,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: ponta-direita"
+    },
+    {
+      "id": 2083,
+      "apiName": "Wanderson",
+      "apiPos": "Attacker",
+      "apiNumber": 94,
+      "photo": "/players/cruzeiro/2083.webp",
+      "name": "Wanderson",
+      "number": 94,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: ponta"
+    },
+    {
+      "id": 414405,
+      "apiName": "K. Arroyo",
+      "apiPos": "Midfielder",
+      "apiNumber": 99,
+      "photo": "/players/cruzeiro/414405.webp",
+      "name": "Keny Arroyo",
+      "number": 99,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: ponta-direita"
+    },
+    {
+      "id": 10008,
+      "apiName": "Kaio Jorge",
+      "apiPos": "Attacker",
+      "apiNumber": 19,
+      "photo": "/players/cruzeiro/10008.webp",
+      "name": "Kaio Jorge",
+      "number": 19,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: centroavante"
+    },
+    {
+      "id": 606701,
+      "apiName": "Felipe Morais",
+      "apiPos": "Attacker",
+      "apiNumber": 38,
+      "photo": null,
+      "name": "Felipe Morais",
+      "number": 38,
+      "pos": "ATA",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 610497,
+      "apiName": "R. Lelis",
+      "apiPos": "Attacker",
+      "apiNumber": 57,
+      "photo": null,
+      "name": "R. Lelis",
+      "number": 57,
+      "pos": "ATA",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 368096,
+      "apiName": "João Gabriel e Costa Cesco",
+      "apiPos": "Attacker",
+      "apiNumber": 67,
+      "photo": "/players/cruzeiro/368096.webp",
+      "name": "João Gabriel e Costa Cesco",
+      "number": 67,
+      "pos": "ATA",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 465165,
+      "apiName": "Kenji",
+      "apiPos": "Attacker",
+      "apiNumber": 70,
+      "photo": "/players/cruzeiro/465165.webp",
+      "name": "Kenji",
+      "number": 70,
+      "pos": "ATA",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 297749,
+      "apiName": "L. Rodríguez",
+      "apiPos": "Attacker",
+      "apiNumber": 97,
+      "photo": "/players/cruzeiro/297749.webp",
+      "name": "Luciano Rodríguez",
+      "number": 97,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: atacante"
+    }
+  ]
+}

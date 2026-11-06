@@ -1,0 +1,84 @@
+{
+ "club": "Clube do Remo",
+ "template": "Predefinição:Elenco CD Remo",
+ "players": [
+  {
+   "number": 1,
+   "title": "Patrick (futebolista)",
+   "label": "Patrick",
+   "positions_raw": "meio-campista e atacante"
+  },
+  {
+   "number": 10,
+   "title": "Jáderson Flores dos Reis",
+   "label": "Jáderson",
+   "positions_raw": "ponta"
+  },
+  {
+   "number": 11,
+   "title": "Alef Manga",
+   "label": "Alef Manga",
+   "positions_raw": "ponta-esquerda"
+  },
+  {
+   "number": 13,
+   "title": "Marllon Borges",
+   "label": "Marllon",
+   "positions_raw": "zagueiro"
+  },
+  {
+   "number": 14,
+   "title": "Leonel Picco",
+   "label": "Picco",
+   "positions_raw": "volante"
+  },
+  {
+   "number": 15,
+   "title": "Vitor Bueno",
+   "label": "Vitor Bueno",
+   "positions_raw": "meio-campista"
+  },
+  {
+   "number": 17,
+   "title": "Gabriel Taliari",
+   "label": "Taliari",
+   "positions_raw": "centroavante"
+  },
+  {
+   "number": 21,
+   "title": "Yago Pikachu",
+   "label": "Yago Pikachu",
+   "positions_raw": "lateral-direito, meia e ponta-direita"
+  },
+  {
+   "number": 23,
+   "title": "Zé Ivaldo",
+   "label": "Zé Ivaldo",
+   "positions_raw": "zagueiro"
+  },
+  {
+   "number": 28,
+   "title": "José Welison",
+   "label": "Zé Welison",
+   "positions_raw": "volante"
+  },
+  {
+   "number": 30,
+   "title": "Marcelo Rangel (futebolista)",
+   "label": "Marcelo Rangel",
+   "positions_raw": "goleiro"
+  },
+  {
+   "number": 94,
+   "title": "Ivan Quaresma da Silva",
+   "label": "Ivan",
+   "positions_raw": "goleiro"
+  },
+  {
+   "number": 99,
+   "title": "Gabriel Poveda",
+   "label": "Poveda",
+   "positions_raw": "centroavante"
+  }
+ ]
+}

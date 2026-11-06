@@ -1,1 +1,144 @@
-{}
+{
+  "6078": {
+    "pos": "LD",
+    "alt": [
+      "ZAG",
+      "LE"
+    ],
+    "draft": true,
+    "source": "wikipedia: lateral-direito e zagueiro",
+    "displayName": "Emanuel Brítez"
+  },
+  "6242": {
+    "pos": "VOL",
+    "alt": [
+      "MEI",
+      "ZAG"
+    ],
+    "draft": true,
+    "source": "wikipedia: Volante",
+    "displayName": "Tomás Pochettino"
+  },
+  "9460": {
+    "pos": "GOL",
+    "alt": [],
+    "draft": true,
+    "source": "wikipedia: goleiro"
+  },
+  "9510": {
+    "pos": "GOL",
+    "alt": [],
+    "draft": true,
+    "source": "wikipedia: Goleiro"
+  },
+  "9549": {
+    "pos": "PON",
+    "alt": [
+      "ATA",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: ponta-direita"
+  },
+  "9726": {
+    "pos": "ATA",
+    "alt": [
+      "PON",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: Centroavante"
+  },
+  "10085": {
+    "pos": "ZAG",
+    "alt": [
+      "VOL",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: zagueiro"
+  },
+  "10434": {
+    "pos": "ATA",
+    "alt": [
+      "PON",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: Atacante"
+  },
+  "10506": {
+    "pos": "ATA",
+    "alt": [
+      "PON",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: Atacante"
+  },
+  "16637": {
+    "pos": "MEI",
+    "alt": [
+      "VOL",
+      "PON"
+    ],
+    "draft": true,
+    "source": "wikipedia: Meio-campo",
+    "displayName": "Emmanuel Martínez"
+  },
+  "25387": {
+    "pos": "VOL",
+    "alt": [
+      "MEI",
+      "ZAG"
+    ],
+    "draft": true,
+    "source": "wikipedia: volante"
+  },
+  "51464": {
+    "pos": "PON",
+    "alt": [
+      "MEI",
+      "ATA"
+    ],
+    "draft": true,
+    "source": "wikipedia: ponta-direita ou meio-campista",
+    "displayName": "Ignacio Laquintana"
+  },
+  "67944": {
+    "pos": "LE",
+    "alt": [
+      "ZAG",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: lateral-esquerdo"
+  },
+  "114436": {
+    "pos": "MEI",
+    "alt": [
+      "VOL",
+      "PON"
+    ],
+    "draft": true,
+    "source": "wikipedia: Meia-atacante"
+  },
+  "311518": {
+    "pos": "LD",
+    "alt": [
+      "ZAG",
+      "LE"
+    ],
+    "draft": true,
+    "source": "wikipedia: lateral-direito"
+  },
+  "442404": {
+    "pos": "ATA",
+    "alt": [
+      "PON",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: atacante"
+  }
+}

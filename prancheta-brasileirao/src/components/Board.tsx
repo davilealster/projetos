@@ -7,11 +7,13 @@ import { FORMATION_NAMES, applyFormation, applyOppNumbers, mirror, slotsFor } fr
 import { emptyState, encodeState, getPref, loadSaved, readHashState, save, setPref } from "../lib/state";
 import { exportImage } from "../lib/exportImage";
 import { cleanHandle, referral, trackEvent } from "../lib/analytics";
-import type { BoardState, Drawing, DrawTool, Player, Point, Team, Token } from "../types";
+import { applyTeam, loadOverrides } from "../lib/overrides";
+import type { BoardState, Drawing, DrawTool, Player, Point, Pos, Team, Token } from "../types";
 import { Avatar } from "./Avatar";
 import { DrawControls, FormationButtons } from "./Controls";
 import { ExportCard, type ExportFormat } from "./ExportCard";
 import { Footer } from "./Footer";
+import { RolePicker } from "./RolePicker";
 import { OpponentPanel } from "./OpponentPanel";
 import { Pitch, type PitchHandle, type TokenRender } from "./Pitch";
 import { Scoreboard } from "./Scoreboard";
@@ -51,6 +53,9 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
   const [tab, setTab] = useState<"squad" | "opp">("squad");
   const [toast, setToast] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
+  const [picker, setPicker] = useState<number | null>(null);
+  const tokenCount = state?.tokens.length;
+  useEffect(() => setPicker(null), [tokenCount]);
   const undoStack = useRef<Snap[]>([]);
   const dragSnap = useRef<Snap | null>(null);
   const pitchRef = useRef<PitchHandle>(null);
@@ -85,8 +90,9 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
     setTeam(null);
     setState(null);
     undoStack.current = [];
-    const p = loadTeam(slug);
-    if (!p) return;
+    const loading = loadTeam(slug);
+    if (!loading) return;
+    const p = Promise.all([loading, loadOverrides()]).then(([t, doc]) => applyTeam(t, doc));
     p.then((t) => {
       if (!alive) return;
       const ids = new Set(t.players.map((x) => x.id));
@@ -111,7 +117,7 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
     const p = state?.oppSlug ? loadTeam(state.oppSlug) : null;
     if (!p) return setOpp(null);
     let alive = true;
-    p.then((t) => alive && setOpp(t));
+    Promise.all([p, loadOverrides()]).then(([t, doc]) => alive && setOpp(applyTeam(t, doc)));
     return () => {
       alive = false;
     };
@@ -327,7 +333,7 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
     );
   }
 
-  const vars = clubVars(summary.colors) as React.CSSProperties;
+  const vars = clubVars((team ?? summary).colors) as React.CSSProperties;
   if (!team || !state) {
     return <div className={live ? `live live--bg-${bg}` : "board"} style={vars}><p className="loading">Carregando elenco…</p></div>;
   }
@@ -337,9 +343,10 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
   const onFieldOppPlayers = new Set(state.tokens.filter((t) => t.kind === "oppPlayer").map((t) => t.ref));
   const onFieldOpp = new Set(state.tokens.filter((t) => t.kind === "opp").map((t) => t.ref));
 
-  const playerNode = (p: Player, colors: Team["colors"]) => (
+  const playerNode = (p: Player, colors: Team["colors"], as?: Pos) => (
     <>
       <span className="token__avatar">
+        <span className={`token__pos pos-badge--${as ?? p.pos} ${as ? "is-alt" : ""}`}>{as ?? p.pos}</span>
         <Avatar player={p} colors={colors} size={64} safe={safe} />
         {p.number != null && (
           <span className="token__num" style={{ background: colors.primary, color: textOn(colors.primary), borderColor: colors.secondary }}>
@@ -366,13 +373,42 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
     const colors = t.kind === "player" ? team.colors : opp?.colors;
     const p = src.get(t.ref);
     if (!p || !colors) return [];
-    return [{ key, token: t, label: `${p.name}, ${p.pos}${p.number != null ? `, ${p.number}` : ""}`, node: playerNode(p, colors) }];
+    return [{ key, token: t, label: `${p.name}, ${t.as ?? p.pos}${p.number != null ? `, ${p.number}` : ""}`, node: playerNode(p, colors, t.as) }];
   });
 
   const tokenScale = live ? SIZE_SCALE[size] : state.compact ? 0.72 : 1;
   const vertical = live ? ratio === "9x16" : narrow;
   const oppSummary = teamSummary(state.oppSlug);
   const host = location.host.replace(/^www\./, "");
+
+  const pickTok = picker !== null ? state.tokens[picker] : undefined;
+  const pickPlayer = pickTok ? (pickTok.kind === "player" ? playersById : oppById).get(pickTok.ref) : undefined;
+  const pickerNode = pickTok && pickPlayer && (
+    <RolePicker
+      key={`${pickTok.kind}-${pickTok.ref}`}
+      player={pickPlayer}
+      token={pickTok}
+      vertical={vertical}
+      onClose={() => setPicker(null)}
+      onRemove={() => {
+        const i = picker!;
+        setPicker(null);
+        onRemoveToken(i);
+      }}
+      onPick={(pos) => {
+        const i = picker!;
+        setPicker(null);
+        commit((s) => ({
+          ...s,
+          tokens: s.tokens.map((t, j) => {
+            if (j !== i) return t;
+            const { as: _old, ...rest } = t;
+            return pos === pickPlayer.pos ? rest : { ...rest, as: pos };
+          }),
+        }));
+      }}
+    />
+  );
 
   const pitch = (
     <Pitch
@@ -387,7 +423,13 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
       onMoveToken={onMoveToken}
       onRemoveToken={onRemoveToken}
       onDropToken={onDropToken}
-    />
+      onTapToken={(i) => {
+        const t = state.tokens[i];
+        if (t && (t.kind === "player" || t.kind === "oppPlayer")) setPicker(i);
+      }}
+    >
+      {pickerNode}
+    </Pitch>
   );
 
   const subsList = showSubs && state.subs.length > 0 && (

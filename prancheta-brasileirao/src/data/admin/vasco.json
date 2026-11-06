@@ -1,0 +1,686 @@
+{
+  "slug": "vasco",
+  "updatedAt": "2026-11-06",
+  "players": [
+    {
+      "id": 41169,
+      "apiName": "Léo Jardim",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 1,
+      "photo": "/players/vasco/41169.webp",
+      "name": "Léo Jardim",
+      "number": 1,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: goleiro"
+    },
+    {
+      "id": 763,
+      "apiName": "Daniel Fuzato",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 13,
+      "photo": "/players/vasco/763.webp",
+      "name": "Daniel Fuzato",
+      "number": 13,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: goleiro"
+    },
+    {
+      "id": 454136,
+      "apiName": "Pablo",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 37,
+      "photo": "/players/vasco/454136.webp",
+      "name": "Pablo",
+      "number": 37,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 310774,
+      "apiName": "A. Saldivia",
+      "apiPos": "Defender",
+      "apiNumber": 4,
+      "photo": "/players/vasco/310774.webp",
+      "name": "Alan Saldivia",
+      "number": 4,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: zagueiro"
+    },
+    {
+      "id": 505138,
+      "apiName": "Alison",
+      "apiPos": "Defender",
+      "apiNumber": 16,
+      "photo": null,
+      "name": "Alison",
+      "number": 16,
+      "pos": "ZAG",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 415160,
+      "apiName": "Paulinho",
+      "apiPos": "Defender",
+      "apiNumber": 29,
+      "photo": "/players/vasco/415160.webp",
+      "name": "Paulinho",
+      "number": 29,
+      "pos": "ZAG",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 359372,
+      "apiName": "Robert Renan",
+      "apiPos": "Defender",
+      "apiNumber": 30,
+      "photo": "/players/vasco/359372.webp",
+      "name": "Robert Renan",
+      "number": 30,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: zagueiro"
+    },
+    {
+      "id": 286962,
+      "apiName": "Lucas Freitas",
+      "apiPos": "Defender",
+      "apiNumber": 43,
+      "photo": "/players/vasco/286962.webp",
+      "name": "Lucas Freitas",
+      "number": 43,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: zagueiro"
+    },
+    {
+      "id": 13283,
+      "apiName": "C. Cuesta",
+      "apiPos": "Defender",
+      "apiNumber": 46,
+      "photo": "/players/vasco/13283.webp",
+      "name": "Carlos Cuesta",
+      "number": 46,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: zagueiro"
+    },
+    {
+      "id": 159511,
+      "apiName": "Gabriel Pereira",
+      "apiPos": "Defender",
+      "apiNumber": 55,
+      "photo": "/players/vasco/159511.webp",
+      "name": "Gabriel Pereira",
+      "number": 55,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: zagueiro"
+    },
+    {
+      "id": 505139,
+      "apiName": "Walace",
+      "apiPos": "Defender",
+      "apiNumber": 64,
+      "photo": "/players/vasco/505139.webp",
+      "name": "Walace",
+      "number": 64,
+      "pos": "ZAG",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 588652,
+      "apiName": "Bruno Andre",
+      "apiPos": "Defender",
+      "apiNumber": 80,
+      "photo": null,
+      "name": "Bruno Andre",
+      "number": 80,
+      "pos": "ZAG",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 505408,
+      "apiName": "Avellar",
+      "apiPos": "Defender",
+      "apiNumber": 82,
+      "photo": null,
+      "name": "Avellar",
+      "number": 82,
+      "pos": "ZAG",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 516810,
+      "apiName": "Breno Vereza",
+      "apiPos": "Defender",
+      "apiNumber": 87,
+      "photo": null,
+      "name": "Breno Vereza",
+      "number": 87,
+      "pos": "ZAG",
+      "alt": [],
+      "hidden": false,
+      "source": "sportsdb",
+      "note": "Defender"
+    },
+    {
+      "id": 51426,
+      "apiName": "J. Rodríguez",
+      "apiPos": "Defender",
+      "apiNumber": 2,
+      "photo": "/players/vasco/51426.webp",
+      "name": "Puma Rodríguez",
+      "number": 2,
+      "pos": "LD",
+      "alt": [
+        "ATA",
+        "ZAG"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: lateral e atacante"
+    },
+    {
+      "id": 133910,
+      "apiName": "Paulo Henrique",
+      "apiPos": "Defender",
+      "apiNumber": 96,
+      "photo": "/players/vasco/133910.webp",
+      "name": "Paulo Henrique",
+      "number": 96,
+      "pos": "LD",
+      "alt": [
+        "ZAG",
+        "LE"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: lateral-direito"
+    },
+    {
+      "id": 10234,
+      "apiName": "Lucas Piton",
+      "apiPos": "Defender",
+      "apiNumber": 6,
+      "photo": "/players/vasco/10234.webp",
+      "name": "Lucas Piton",
+      "number": 6,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: lateral-esquerdo"
+    },
+    {
+      "id": 353034,
+      "apiName": "Cuiabano",
+      "apiPos": "Defender",
+      "apiNumber": 66,
+      "photo": "/players/vasco/353034.webp",
+      "name": "Cuiabano",
+      "number": 66,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: lateral-esquerdo"
+    },
+    {
+      "id": 6006,
+      "apiName": "S. Sosa",
+      "apiPos": "Midfielder",
+      "apiNumber": 5,
+      "photo": "/players/vasco/6006.webp",
+      "name": "Santiago Sosa",
+      "number": 5,
+      "pos": "VOL",
+      "alt": [
+        "ZAG",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: volante e zagueiro"
+    },
+    {
+      "id": 9890,
+      "apiName": "Jair",
+      "apiPos": "Midfielder",
+      "apiNumber": 8,
+      "photo": "/players/vasco/9890.webp",
+      "name": "Jair",
+      "number": 8,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: volante"
+    },
+    {
+      "id": 404753,
+      "apiName": "Cauan Barros",
+      "apiPos": "Midfielder",
+      "apiNumber": 88,
+      "photo": "/players/vasco/404753.webp",
+      "name": "Cauan Barros",
+      "number": 88,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: volante"
+    },
+    {
+      "id": 9958,
+      "apiName": "Tchê Tchê",
+      "apiPos": "Midfielder",
+      "apiNumber": 3,
+      "photo": "/players/vasco/9958.webp",
+      "name": "Tchê Tchê",
+      "number": 3,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: meio-campista"
+    },
+    {
+      "id": 615186,
+      "apiName": "Guimaraes Gustavo",
+      "apiPos": "Midfielder",
+      "apiNumber": 5,
+      "photo": null,
+      "name": "Guimaraes Gustavo",
+      "number": 5,
+      "pos": "MEI",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 606272,
+      "apiName": "Samuel",
+      "apiPos": "Midfielder",
+      "apiNumber": 8,
+      "photo": null,
+      "name": "Samuel",
+      "number": 8,
+      "pos": "MEI",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 351920,
+      "apiName": "J. Rojas",
+      "apiPos": "Midfielder",
+      "apiNumber": 10,
+      "photo": "/players/vasco/351920.webp",
+      "name": "Johan Rojas",
+      "number": 10,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: meio-campista"
+    },
+    {
+      "id": 358383,
+      "apiName": "A. Lescano",
+      "apiPos": "Midfielder",
+      "apiNumber": 22,
+      "photo": "/players/vasco/358383.webp",
+      "name": "Alan Lescano",
+      "number": 22,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: meio-campista"
+    },
+    {
+      "id": 22232,
+      "apiName": "Thiago Mendes",
+      "apiPos": "Midfielder",
+      "apiNumber": 23,
+      "photo": "/players/vasco/22232.webp",
+      "name": "Thiago Mendes",
+      "number": 23,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: meio-campista"
+    },
+    {
+      "id": 452887,
+      "apiName": "Euder Galdino da Silva",
+      "apiPos": "Midfielder",
+      "apiNumber": 70,
+      "photo": "/players/vasco/452887.webp",
+      "name": "Euder Galdino da Silva",
+      "number": 70,
+      "pos": "MEI",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 614200,
+      "apiName": "Ramon Rique",
+      "apiPos": "Midfielder",
+      "apiNumber": 83,
+      "photo": null,
+      "name": "Ramon Rique",
+      "number": 83,
+      "pos": "MEI",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 454458,
+      "apiName": "Lukas Zuccarello",
+      "apiPos": "Midfielder",
+      "apiNumber": 86,
+      "photo": "/players/vasco/454458.webp",
+      "name": "Lukas Zuccarello",
+      "number": 86,
+      "pos": "MEI",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 345748,
+      "apiName": "A. Gómez",
+      "apiPos": "Attacker",
+      "apiNumber": 11,
+      "photo": "/players/vasco/345748.webp",
+      "name": "Andrés Gómez",
+      "number": 11,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: ponta"
+    },
+    {
+      "id": 163260,
+      "apiName": "Nuno Moreira",
+      "apiPos": "Midfielder",
+      "apiNumber": 17,
+      "photo": "/players/vasco/163260.webp",
+      "name": "Nuno Moreira",
+      "number": 17,
+      "pos": "PON",
+      "alt": [
+        "MEI",
+        "ATA"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: ponta e meio-campista"
+    },
+    {
+      "id": 64134,
+      "apiName": "M. Hinestroza",
+      "apiPos": "Attacker",
+      "apiNumber": 18,
+      "photo": "/players/vasco/64134.webp",
+      "name": "Marino Hinestroza",
+      "number": 18,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: ponta"
+    },
+    {
+      "id": 306261,
+      "apiName": "Adson",
+      "apiPos": "Midfielder",
+      "apiNumber": 28,
+      "photo": "/players/vasco/306261.webp",
+      "name": "Adson",
+      "number": 28,
+      "pos": "PON",
+      "alt": [
+        "MEI",
+        "ATA"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: ponta e meio-campista"
+    },
+    {
+      "id": 289306,
+      "apiName": "Loide Augusto",
+      "apiPos": "Attacker",
+      "apiNumber": 45,
+      "photo": "/players/vasco/289306.webp",
+      "name": "Loide Augusto",
+      "number": 45,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: ponta"
+    },
+    {
+      "id": 10105,
+      "apiName": "David",
+      "apiPos": "Attacker",
+      "apiNumber": 7,
+      "photo": "/players/vasco/10105.webp",
+      "name": "David",
+      "number": 7,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: atacante"
+    },
+    {
+      "id": 454139,
+      "apiName": "Bruno Lopes",
+      "apiPos": "Attacker",
+      "apiNumber": 9,
+      "photo": "/players/vasco/454139.webp",
+      "name": "Bruno Lopes",
+      "number": 9,
+      "pos": "ATA",
+      "alt": [],
+      "hidden": false,
+      "source": "sportsdb",
+      "note": "Attacker"
+    },
+    {
+      "id": 214,
+      "apiName": "F. Colidio",
+      "apiPos": "Midfielder",
+      "apiNumber": 9,
+      "photo": "/players/vasco/214.webp",
+      "name": "Facundo Colidio",
+      "number": 9,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: atacante"
+    },
+    {
+      "id": 63475,
+      "apiName": "Bruno Duarte",
+      "apiPos": "Attacker",
+      "apiNumber": 19,
+      "photo": "/players/vasco/63475.webp",
+      "name": "Bruno Duarte",
+      "number": 19,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: atacante"
+    },
+    {
+      "id": 9975,
+      "apiName": "Brenner",
+      "apiPos": "Attacker",
+      "apiNumber": 20,
+      "photo": "/players/vasco/9975.webp",
+      "name": "Brenner",
+      "number": 20,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: atacante"
+    },
+    {
+      "id": 607352,
+      "apiName": "Joao Vitor",
+      "apiPos": "Attacker",
+      "apiNumber": 60,
+      "photo": null,
+      "name": "Joao Vitor",
+      "number": 60,
+      "pos": "ATA",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 505407,
+      "apiName": "Andrey",
+      "apiPos": "Attacker",
+      "apiNumber": 74,
+      "photo": "/players/vasco/505407.webp",
+      "name": "Andrey",
+      "number": 74,
+      "pos": "ATA",
+      "alt": [],
+      "hidden": false,
+      "source": "sportsdb",
+      "note": "Attacker"
+    },
+    {
+      "id": 6735,
+      "apiName": "C. Spinelli",
+      "apiPos": "Attacker",
+      "apiNumber": 77,
+      "photo": "/players/vasco/6735.webp",
+      "name": "Claudio Spinelli",
+      "number": 77,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: centroavante"
+    }
+  ]
+}

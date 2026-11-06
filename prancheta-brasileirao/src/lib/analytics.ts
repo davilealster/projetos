@@ -6,7 +6,7 @@ export const cleanHandle = (h: string | null | undefined) =>
   (h ?? "").trim().replace(/^@+/, "").replace(/[^\w.]/g, "").slice(0, 30);
 
 export function initAnalytics(): void {
-  inject();
+  if (import.meta.env.PROD) inject();
   // ?creator=@fulano em qualquer página: guarda como origem da visita e registra o evento.
   const ref = cleanHandle(new URLSearchParams(location.search).get("creator"));
   if (ref && !location.pathname.endsWith("/live")) {

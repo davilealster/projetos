@@ -1,0 +1,132 @@
+{
+ "club": "Sport Club Internacional",
+ "template": "Predefinição:Elenco SC Internacional",
+ "players": [
+  {
+   "number": 1,
+   "title": "Sergio Rochet",
+   "label": "Rochet",
+   "positions_raw": "goleiro"
+  },
+  {
+   "number": 3,
+   "title": "Guillermo Maripán",
+   "label": "Maripán",
+   "positions_raw": "zagueiro"
+  },
+  {
+   "number": 4,
+   "title": "Félix Torres",
+   "label": "Félix Torres",
+   "positions_raw": "zagueiro"
+  },
+  {
+   "number": 5,
+   "title": "Rodrigo Villagra",
+   "label": "Villagra",
+   "positions_raw": "Meio-campista"
+  },
+  {
+   "number": 6,
+   "title": "Matheus Bahia Santos",
+   "label": "Matheus Bahia",
+   "positions_raw": "Lateral-esquerdo"
+  },
+  {
+   "number": 7,
+   "title": "Johan Carbonero",
+   "label": "Carbonero",
+   "positions_raw": "Atacante"
+  },
+  {
+   "number": 8,
+   "title": "Bruno Henrique Corsini",
+   "label": "B. Henrique",
+   "positions_raw": "volante"
+  },
+  {
+   "number": 9,
+   "title": "Alerrandro",
+   "label": "Alerrandro",
+   "positions_raw": "centroavante"
+  },
+  {
+   "number": 10,
+   "title": "Alan Patrick",
+   "label": "Alan Patrick",
+   "positions_raw": "meio-campista"
+  },
+  {
+   "number": 12,
+   "title": "Ivan Quaresma da Silva",
+   "label": "Ivan",
+   "positions_raw": "goleiro"
+  },
+  {
+   "number": 15,
+   "title": "Bruno Gomes da Silva Clevelário",
+   "label": "Bruno Gomes",
+   "positions_raw": "Volante e Lateral-direito"
+  },
+  {
+   "number": 16,
+   "title": "Ronaldo da Silva Souza",
+   "label": "Ronaldo",
+   "positions_raw": "Volante"
+  },
+  {
+   "number": 18,
+   "title": "José Carlos Ferreira Júnior",
+   "label": "Juninho",
+   "positions_raw": "zagueiro"
+  },
+  {
+   "number": 19,
+   "title": "Antonio Sanabria",
+   "label": "Sanabria",
+   "positions_raw": "atacante"
+  },
+  {
+   "number": 23,
+   "title": "Matheus Cunha Queiroz",
+   "label": "Matheus Cunha",
+   "positions_raw": "goleiro"
+  },
+  {
+   "number": 25,
+   "title": "Gabriel Mercado",
+   "label": "Mercado",
+   "positions_raw": "zagueiro e lateral direito"
+  },
+  {
+   "number": 26,
+   "title": "Alexandro Bernabei",
+   "label": "Bernabei",
+   "positions_raw": "Lateral-esquerdo"
+  },
+  {
+   "number": 28,
+   "title": "Vitor Hugo Naum dos Santos",
+   "label": "Vitinho",
+   "positions_raw": "ponta-esquerda"
+  },
+  {
+   "number": 29,
+   "title": "Thiago Maia",
+   "label": "Thiago Maia",
+   "positions_raw": "volante"
+  },
+  {
+   "number": 30,
+   "title": "Calebe (futebolista)",
+   "label": "Calebe",
+   "positions_raw": "meia-atacante"
+  },
+  {
+   "number": 36,
+   "title": "Richard Candido Coelho",
+   "label": "Richard",
+   "positions_raw": "volante"
+  }
+ ]
+}

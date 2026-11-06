@@ -1,0 +1,132 @@
+{
+ "club": "Botafogo de Futebol e Regatas",
+ "template": "Predefinição:Elenco Botafogo de Futebol e Regatas",
+ "players": [
+  {
+   "number": 2,
+   "title": "Victor Alexander da Silva",
+   "label": "Vitinho",
+   "positions_raw": "lateral-direito"
+  },
+  {
+   "number": 3,
+   "title": "Arthur Chaves",
+   "label": "Arthur Chaves",
+   "positions_raw": "zagueiro"
+  },
+  {
+   "number": 4,
+   "title": "Mateo Ponte",
+   "label": "Ponte",
+   "positions_raw": "lateral-direito"
+  },
+  {
+   "number": 5,
+   "title": "Nahuel Ferraresi",
+   "label": "Ferraresi",
+   "positions_raw": "zagueiro"
+  },
+  {
+   "number": 6,
+   "title": "Cristian Medina",
+   "label": "Medina",
+   "positions_raw": "meio-campista"
+  },
+  {
+   "number": 7,
+   "title": "Júnior Santos",
+   "label": "Júnior Santos",
+   "positions_raw": "atacante"
+  },
+  {
+   "number": 8,
+   "title": "Danilo (futebolista, 2001)",
+   "label": "Danilo Santos",
+   "positions_raw": "volante"
+  },
+  {
+   "number": 9,
+   "title": "Tiquinho Soares",
+   "label": "Tiquinho Soares",
+   "positions_raw": "centroavante"
+  },
+  {
+   "number": 10,
+   "title": "Álvaro Montoro",
+   "label": "Montoro",
+   "positions_raw": "meia-atacante"
+  },
+  {
+   "number": 11,
+   "title": "Matheus Martins",
+   "label": "Matheus Martins",
+   "positions_raw": "Atacante"
+  },
+  {
+   "number": 13,
+   "title": "Alex Telles",
+   "label": "Alex Telles",
+   "positions_raw": "lateral-esquerdo"
+  },
+  {
+   "number": 14,
+   "title": "Jordan Barrera",
+   "label": "Barrera",
+   "positions_raw": "Meia-atacante"
+  },
+  {
+   "number": 19,
+   "title": "Arthur Cabral",
+   "label": "Arthur Cabral",
+   "positions_raw": "centroavante"
+  },
+  {
+   "number": 21,
+   "title": "Marçal (futebolista)",
+   "label": "Marçal",
+   "positions_raw": "lateral-esquerdo"
+  },
+  {
+   "number": 22,
+   "title": "Hakim Ziyech",
+   "label": "Ziyech",
+   "positions_raw": "Meia-atacante"
+  },
+  {
+   "number": 25,
+   "title": "Allan Marques Loureiro",
+   "label": "Allan",
+   "positions_raw": "volante"
+  },
+  {
+   "number": 29,
+   "title": "Paulinho (futebolista, 1995)",
+   "label": "Paulinho",
+   "positions_raw": "lateral-esquerdo"
+  },
+  {
+   "number": 37,
+   "title": "Kadir Barría",
+   "label": "Kadir",
+   "positions_raw": "atacante"
+  },
+  {
+   "number": 40,
+   "title": "Cristhian Loor",
+   "label": "Loor",
+   "positions_raw": "goleiro"
+  },
+  {
+   "number": 88,
+   "title": "Edenilson",
+   "label": "Edenilson",
+   "positions_raw": "volante"
+  },
+  {
+   "number": 90,
+   "title": "Danilo (futebolista, 1999)",
+   "label": "Danilo Pereira",
+   "positions_raw": "atacante"
+  }
+ ]
+}

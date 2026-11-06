@@ -19,7 +19,7 @@
     },
     {
       "id": 6225,
-      "name": "G. Herrera",
+      "name": "Guido Herrera",
       "number": 17,
       "pos": "GOL",
       "photo": "/players/bahia/6225.webp"
@@ -57,14 +57,11 @@
       "name": "Kanu",
       "number": 4,
       "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
       "photo": "/players/bahia/10059.webp"
-    },
-    {
-      "id": 459837,
-      "name": "Roman Gomez",
-      "number": 31,
-      "pos": "ZAG",
-      "photo": "/players/bahia/459837.webp"
     },
     {
       "id": 10351,
@@ -88,13 +85,6 @@
       "photo": "/players/bahia/350808.webp"
     },
     {
-      "id": 197383,
-      "name": "Luciano Juba",
-      "number": 46,
-      "pos": "ZAG",
-      "photo": "/players/bahia/197383.webp"
-    },
-    {
       "id": 411433,
       "name": "Zé Guilherme",
       "number": 66,
@@ -109,10 +99,58 @@
       "photo": "/players/bahia/505598.webp"
     },
     {
+      "id": 459837,
+      "name": "Roman Gomez",
+      "number": 31,
+      "pos": "LD",
+      "alt": [
+        "ZAG",
+        "LE"
+      ],
+      "photo": "/players/bahia/459837.webp"
+    },
+    {
+      "id": 197383,
+      "name": "Luciano Juba",
+      "number": 46,
+      "pos": "LE",
+      "alt": [
+        "MEI",
+        "PON"
+      ],
+      "photo": "/players/bahia/197383.webp"
+    },
+    {
+      "id": 51545,
+      "name": "Nicolás Acevedo",
+      "number": 5,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "photo": "/players/bahia/51545.webp"
+    },
+    {
+      "id": 9994,
+      "name": "Jean Lucas",
+      "number": 6,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "photo": "/players/bahia/9994.webp"
+    },
+    {
       "id": 180236,
       "name": "Caio Alexandre",
       "number": 8,
       "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
       "photo": "/players/bahia/180236.webp"
     },
     {
@@ -120,21 +158,11 @@
       "name": "Erick",
       "number": 14,
       "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
       "photo": "/players/bahia/10130.webp"
-    },
-    {
-      "id": 51545,
-      "name": "N. Acevedo",
-      "number": 5,
-      "pos": "MEI",
-      "photo": "/players/bahia/51545.webp"
-    },
-    {
-      "id": 9994,
-      "name": "Jean Lucas",
-      "number": 6,
-      "pos": "MEI",
-      "photo": "/players/bahia/9994.webp"
     },
     {
       "id": 10168,
@@ -148,13 +176,21 @@
       "name": "Rodrigo Nestor",
       "number": 11,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": "/players/bahia/9954.webp"
     },
     {
       "id": 51701,
-      "name": "M. Araújo",
+      "name": "Michel Araújo",
       "number": 15,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": "/players/bahia/51701.webp"
     },
     {
@@ -193,25 +229,48 @@
       "photo": "/players/bahia/454145.webp"
     },
     {
-      "id": 9854,
-      "name": "Ademir",
-      "number": 7,
-      "pos": "PON",
-      "photo": "/players/bahia/9854.webp"
-    },
-    {
       "id": 303127,
       "name": "Erick Pulga",
       "number": 16,
       "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
       "photo": "/players/bahia/303127.webp"
+    },
+    {
+      "id": 355253,
+      "name": "Mateo Sanabria",
+      "number": 23,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "photo": "/players/bahia/355253.webp"
     },
     {
       "id": 67902,
       "name": "Cristian Olivera",
       "number": 99,
       "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
       "photo": "/players/bahia/67902.webp"
+    },
+    {
+      "id": 9854,
+      "name": "Ademir",
+      "number": 7,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "photo": "/players/bahia/9854.webp"
     },
     {
       "id": 311344,
@@ -225,20 +284,21 @@
       "name": "Willian José",
       "number": 12,
       "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
       "photo": "/players/bahia/47319.webp"
-    },
-    {
-      "id": 355253,
-      "name": "M. Sanabria",
-      "number": 23,
-      "pos": "ATA",
-      "photo": "/players/bahia/355253.webp"
     },
     {
       "id": 10222,
       "name": "Everaldo",
       "number": 27,
       "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
       "photo": "/players/bahia/10222.webp"
     },
     {

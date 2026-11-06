@@ -19,6 +19,7 @@ export const PATHS = {
   photo: (slug: string, id: number) => p("public/players", slug, `${id}.webp`),
   teamOut: (slug: string) => p("src/data/teams", `${slug}.json`),
   indexOut: p("src/data/teams/index.json"),
+  adminOut: (slug: string) => p("src/data/admin", `${slug}.json`),
 };
 
 export function readJson<T>(file: string, fallback?: T): T {

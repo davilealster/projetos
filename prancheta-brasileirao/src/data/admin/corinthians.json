@@ -1,0 +1,571 @@
+{
+  "slug": "corinthians",
+  "updatedAt": "2026-11-06",
+  "players": [
+    {
+      "id": 123759,
+      "apiName": "Hugo Souza",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 1,
+      "photo": "/players/corinthians/123759.webp",
+      "name": "Hugo Souza",
+      "number": 1,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: goleiro"
+    },
+    {
+      "id": 415084,
+      "apiName": "Felipe Longo",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 40,
+      "photo": "/players/corinthians/415084.webp",
+      "name": "Felipe Longo",
+      "number": 40,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Goleiro"
+    },
+    {
+      "id": 415083,
+      "apiName": "Kauê Camargo",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 51,
+      "photo": "/players/corinthians/415083.webp",
+      "name": "Kauê Camargo",
+      "number": 51,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: goleiro"
+    },
+    {
+      "id": 10161,
+      "apiName": "Matheuzinho",
+      "apiPos": "Defender",
+      "apiNumber": 2,
+      "photo": "/players/corinthians/10161.webp",
+      "name": "Matheuzinho",
+      "number": 2,
+      "pos": "ZAG",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 915,
+      "apiName": "Gabriel Paulista",
+      "apiPos": "Defender",
+      "apiNumber": 3,
+      "photo": "/players/corinthians/915.webp",
+      "name": "Gabriel Paulista",
+      "number": 3,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: zagueiro"
+    },
+    {
+      "id": 415085,
+      "apiName": "João Pedro",
+      "apiPos": "Defender",
+      "apiNumber": 4,
+      "photo": "/players/corinthians/415085.webp",
+      "name": "João Pedro",
+      "number": 4,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Zagueiro"
+    },
+    {
+      "id": 1085,
+      "apiName": "André Ramalho",
+      "apiPos": "Defender",
+      "apiNumber": 5,
+      "photo": "/players/corinthians/1085.webp",
+      "name": "André Ramalho",
+      "number": 5,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Zagueiro"
+    },
+    {
+      "id": 9992,
+      "apiName": "Gustavo Henrique",
+      "apiPos": "Defender",
+      "apiNumber": 13,
+      "photo": "/players/corinthians/9992.webp",
+      "name": "Gustavo Henrique",
+      "number": 13,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: zagueiro"
+    },
+    {
+      "id": 570402,
+      "apiName": "I. Machado",
+      "apiPos": "Defender",
+      "apiNumber": 55,
+      "photo": null,
+      "name": "I. Machado",
+      "number": 55,
+      "pos": "ZAG",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 589365,
+      "apiName": "Melo Yago",
+      "apiPos": "Defender",
+      "apiNumber": 84,
+      "photo": null,
+      "name": "Melo Yago",
+      "number": 84,
+      "pos": "ZAG",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 182025,
+      "apiName": "P. Milans",
+      "apiPos": "Defender",
+      "apiNumber": 20,
+      "photo": "/players/corinthians/182025.webp",
+      "name": "Pedro Milans",
+      "number": 20,
+      "pos": "LD",
+      "alt": [
+        "ZAG",
+        "LE"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Lateral-direito"
+    },
+    {
+      "id": 9742,
+      "apiName": "Matheus Bidu",
+      "apiPos": "Midfielder",
+      "apiNumber": 21,
+      "photo": "/players/corinthians/9742.webp",
+      "name": "Matheus Bidu",
+      "number": 21,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: lateral-esquerdo"
+    },
+    {
+      "id": 5987,
+      "apiName": "F. Angileri",
+      "apiPos": "Defender",
+      "apiNumber": 26,
+      "photo": "/players/corinthians/5987.webp",
+      "name": "Fabrizio Angileri",
+      "number": 26,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: lateral-esquerdo"
+    },
+    {
+      "id": 54093,
+      "apiName": "Hugo",
+      "apiPos": "Defender",
+      "apiNumber": 46,
+      "photo": "/players/corinthians/54093.webp",
+      "name": "Hugo",
+      "number": 46,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: lateral-esquerdo"
+    },
+    {
+      "id": 160436,
+      "apiName": "Raniele",
+      "apiPos": "Midfielder",
+      "apiNumber": 14,
+      "photo": "/players/corinthians/160436.webp",
+      "name": "Raniele",
+      "number": 14,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: volante"
+    },
+    {
+      "id": 10319,
+      "apiName": "Allan",
+      "apiPos": "Midfielder",
+      "apiNumber": 29,
+      "photo": "/players/corinthians/10319.webp",
+      "name": "Allan",
+      "number": 29,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: volante"
+    },
+    {
+      "id": 9577,
+      "apiName": "Charles",
+      "apiPos": "Midfielder",
+      "apiNumber": 35,
+      "photo": "/players/corinthians/9577.webp",
+      "name": "Charles",
+      "number": 35,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: volante"
+    },
+    {
+      "id": 544679,
+      "apiName": "Andre",
+      "apiPos": "Midfielder",
+      "apiNumber": 49,
+      "photo": null,
+      "name": "Andre",
+      "number": 49,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: volante"
+    },
+    {
+      "id": 10067,
+      "apiName": "Alex Santana",
+      "apiPos": "Midfielder",
+      "apiNumber": 80,
+      "photo": "/players/corinthians/10067.webp",
+      "name": "Alex Santana",
+      "number": 80,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: volante"
+    },
+    {
+      "id": 363693,
+      "apiName": "Breno",
+      "apiPos": "Midfielder",
+      "apiNumber": 7,
+      "photo": "/players/corinthians/363693.webp",
+      "name": "Breno",
+      "number": 7,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: meio-campista"
+    },
+    {
+      "id": 5794,
+      "apiName": "R. Garro",
+      "apiPos": "Midfielder",
+      "apiNumber": 8,
+      "photo": "/players/corinthians/5794.webp",
+      "name": "Rodrigo Garro",
+      "number": 8,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: meio-campista"
+    },
+    {
+      "id": 2426,
+      "apiName": "A. Carrillo",
+      "apiPos": "Midfielder",
+      "apiNumber": 19,
+      "photo": "/players/corinthians/2426.webp",
+      "name": "André Carrillo",
+      "number": 19,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Meia"
+    },
+    {
+      "id": 871,
+      "apiName": "Matheus Pereira",
+      "apiPos": "Midfielder",
+      "apiNumber": 23,
+      "photo": "/players/corinthians/871.webp",
+      "name": "Matheus Pereira",
+      "number": 23,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Meio-campista"
+    },
+    {
+      "id": 414353,
+      "apiName": "Luiz Gustavo",
+      "apiPos": "Midfielder",
+      "apiNumber": 54,
+      "photo": "/players/corinthians/414353.webp",
+      "name": "Luiz Gustavo",
+      "number": 54,
+      "pos": "MEI",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 463975,
+      "apiName": "Dieguinho",
+      "apiPos": "Midfielder",
+      "apiNumber": 61,
+      "photo": "/players/corinthians/463975.webp",
+      "name": "Dieguinho",
+      "number": 61,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Meio-campista"
+    },
+    {
+      "id": 900,
+      "apiName": "J. Lingard",
+      "apiPos": "Midfielder",
+      "apiNumber": 77,
+      "photo": "/players/corinthians/900.webp",
+      "name": "Jesse Lingard",
+      "number": 77,
+      "pos": "MEI",
+      "alt": [
+        "ATA",
+        "VOL"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: meio-campista ou atacante"
+    },
+    {
+      "id": 380435,
+      "apiName": "Kaio César",
+      "apiPos": "Midfielder",
+      "apiNumber": 37,
+      "photo": "/players/corinthians/380435.webp",
+      "name": "Kaio César",
+      "number": 37,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Ponta-direita"
+    },
+    {
+      "id": 10007,
+      "apiName": "Yuri Alberto",
+      "apiPos": "Attacker",
+      "apiNumber": 9,
+      "photo": "/players/corinthians/10007.webp",
+      "name": "Yuri Alberto",
+      "number": 9,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: centroavante"
+    },
+    {
+      "id": 667,
+      "apiName": "M. Depay",
+      "apiPos": "Attacker",
+      "apiNumber": 10,
+      "photo": "/players/corinthians/667.webp",
+      "name": "Memphis Depay",
+      "number": 10,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: atacante"
+    },
+    {
+      "id": 10177,
+      "apiName": "Vitinho",
+      "apiPos": "Attacker",
+      "apiNumber": 11,
+      "photo": "/players/corinthians/10177.webp",
+      "name": "Vitinho",
+      "number": 11,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: atacante"
+    },
+    {
+      "id": 609581,
+      "apiName": "Nicollas",
+      "apiPos": "Attacker",
+      "apiNumber": 18,
+      "photo": null,
+      "name": "Nicollas",
+      "number": 18,
+      "pos": "ATA",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 9329,
+      "apiName": "Pedro Raul",
+      "apiPos": "Attacker",
+      "apiNumber": 18,
+      "photo": "/players/corinthians/9329.webp",
+      "name": "Pedro Raul",
+      "number": 18,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: centroavante"
+    },
+    {
+      "id": 543,
+      "apiName": "Z. Labyad",
+      "apiPos": "Midfielder",
+      "apiNumber": 52,
+      "photo": "/players/corinthians/543.webp",
+      "name": "Zakaria Labyad",
+      "number": 52,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: atacante"
+    },
+    {
+      "id": 463979,
+      "apiName": "Guilherme Inácio",
+      "apiPos": "Attacker",
+      "apiNumber": 56,
+      "photo": "/players/corinthians/463979.webp",
+      "name": "Guilherme Inácio",
+      "number": 56,
+      "pos": "ATA",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 662884,
+      "apiName": "Luiz Fernando",
+      "apiPos": "Attacker",
+      "apiNumber": 64,
+      "photo": null,
+      "name": "Luiz Fernando",
+      "number": 64,
+      "pos": "ATA",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    }
+  ]
+}

@@ -1,0 +1,556 @@
+{
+  "slug": "palmeiras",
+  "updatedAt": "2026-11-06",
+  "players": [
+    {
+      "id": 10373,
+      "apiName": "Carlos Miguel",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 1,
+      "photo": "/players/palmeiras/10373.webp",
+      "name": "Carlos Miguel",
+      "number": 1,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: goleiro"
+    },
+    {
+      "id": 580796,
+      "apiName": "K. Lima",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 1,
+      "photo": null,
+      "name": "K. Lima",
+      "number": 1,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 10372,
+      "apiName": "Marcelo Lomba",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 14,
+      "photo": "/players/palmeiras/10372.webp",
+      "name": "Marcelo Lomba",
+      "number": 14,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: goleiro"
+    },
+    {
+      "id": 31353,
+      "apiName": "Bruno",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 21,
+      "photo": "/players/palmeiras/31353.webp",
+      "name": "Bruno",
+      "number": 21,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: goleiro"
+    },
+    {
+      "id": 5933,
+      "apiName": "A. Barboza",
+      "apiPos": "Defender",
+      "apiNumber": 2,
+      "photo": "/players/palmeiras/5933.webp",
+      "name": "Alexander Barboza",
+      "number": 2,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: zagueiro"
+    },
+    {
+      "id": 10379,
+      "apiName": "Bruno Fuchs",
+      "apiPos": "Defender",
+      "apiNumber": 3,
+      "photo": "/players/palmeiras/10379.webp",
+      "name": "Bruno Fuchs",
+      "number": 3,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: zagueiro"
+    },
+    {
+      "id": 646348,
+      "apiName": "M. Kone",
+      "apiPos": "Defender",
+      "apiNumber": 4,
+      "photo": null,
+      "name": "M. Kone",
+      "number": 4,
+      "pos": "ZAG",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 630907,
+      "apiName": "Lucas Andre",
+      "apiPos": "Defender",
+      "apiNumber": 6,
+      "photo": null,
+      "name": "Lucas Andre",
+      "number": 6,
+      "pos": "ZAG",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 2502,
+      "apiName": "G. Gómez",
+      "apiPos": "Defender",
+      "apiNumber": 15,
+      "photo": "/players/palmeiras/2502.webp",
+      "name": "Gustavo Gómez",
+      "number": 15,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: zagueiro"
+    },
+    {
+      "id": 10083,
+      "apiName": "Murilo",
+      "apiPos": "Defender",
+      "apiNumber": 26,
+      "photo": "/players/palmeiras/10083.webp",
+      "name": "Murilo",
+      "number": 26,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: zagueiro"
+    },
+    {
+      "id": 415068,
+      "apiName": "Benedetti",
+      "apiPos": "Defender",
+      "apiNumber": 43,
+      "photo": "/players/palmeiras/415068.webp",
+      "name": "Benedetti",
+      "number": 43,
+      "pos": "ZAG",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 306706,
+      "apiName": "A. Giay",
+      "apiPos": "Midfielder",
+      "apiNumber": 4,
+      "photo": "/players/palmeiras/306706.webp",
+      "name": "Agustín Giay",
+      "number": 4,
+      "pos": "LD",
+      "alt": [
+        "ZAG",
+        "LE"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: lateral-direito"
+    },
+    {
+      "id": 10125,
+      "apiName": "Khellven",
+      "apiPos": "Defender",
+      "apiNumber": 12,
+      "photo": "/players/palmeiras/10125.webp",
+      "name": "Khellven",
+      "number": 12,
+      "pos": "LD",
+      "alt": [
+        "ZAG",
+        "LE"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: lateral-direito"
+    },
+    {
+      "id": 311384,
+      "apiName": "Jefté",
+      "apiPos": "Defender",
+      "apiNumber": 6,
+      "photo": "/players/palmeiras/311384.webp",
+      "name": "Jefté",
+      "number": 6,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: lateral-esquerdo"
+    },
+    {
+      "id": 51466,
+      "apiName": "J. Piquerez",
+      "apiPos": "Midfielder",
+      "apiNumber": 22,
+      "photo": "/players/palmeiras/51466.webp",
+      "name": "Joaquín Piquerez",
+      "number": 22,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: lateral-esquerdo"
+    },
+    {
+      "id": 425715,
+      "apiName": "Arthur",
+      "apiPos": "Defender",
+      "apiNumber": 56,
+      "photo": "/players/palmeiras/425715.webp",
+      "name": "Arthur",
+      "number": 56,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: lateral-esquerdo"
+    },
+    {
+      "id": 9218,
+      "apiName": "Marlon Freitas",
+      "apiPos": "Midfielder",
+      "apiNumber": 17,
+      "photo": "/players/palmeiras/9218.webp",
+      "name": "Marlon Freitas",
+      "number": 17,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: volante"
+    },
+    {
+      "id": 464021,
+      "apiName": "Rafael Coutinho",
+      "apiPos": "Midfielder",
+      "apiNumber": 5,
+      "photo": "/players/palmeiras/464021.webp",
+      "name": "Rafael Coutinho",
+      "number": 5,
+      "pos": "MEI",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 2412,
+      "apiName": "Felipe Anderson",
+      "apiPos": "Midfielder",
+      "apiNumber": 7,
+      "photo": "/players/palmeiras/2412.webp",
+      "name": "Felipe Anderson",
+      "number": 7,
+      "pos": "MEI",
+      "alt": [
+        "PON",
+        "VOL"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: meio-campista ou ponta-direita"
+    },
+    {
+      "id": 899,
+      "apiName": "Andreas Pereira",
+      "apiPos": "Midfielder",
+      "apiNumber": 8,
+      "photo": "/players/palmeiras/899.webp",
+      "name": "Andreas Pereira",
+      "number": 8,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: meio-campista"
+    },
+    {
+      "id": 13708,
+      "apiName": "J. Arias",
+      "apiPos": "Midfielder",
+      "apiNumber": 11,
+      "photo": "/players/palmeiras/13708.webp",
+      "name": "Jhon Arias",
+      "number": 11,
+      "pos": "MEI",
+      "alt": [
+        "PON",
+        "VOL"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: meio-campista ou ponta"
+    },
+    {
+      "id": 106485,
+      "apiName": "Maurício",
+      "apiPos": "Midfielder",
+      "apiNumber": 18,
+      "photo": "/players/palmeiras/106485.webp",
+      "name": "Maurício",
+      "number": 18,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: meio-campista"
+    },
+    {
+      "id": 21095,
+      "apiName": "Lucas Evangelista",
+      "apiPos": "Midfielder",
+      "apiNumber": 30,
+      "photo": "/players/palmeiras/21095.webp",
+      "name": "Lucas Evangelista",
+      "number": 30,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Meio-campo"
+    },
+    {
+      "id": 153083,
+      "apiName": "E. Martínez",
+      "apiPos": "Midfielder",
+      "apiNumber": 32,
+      "photo": "/players/palmeiras/153083.webp",
+      "name": "Emiliano Martínez",
+      "number": 32,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Meio-campista"
+    },
+    {
+      "id": 512522,
+      "apiName": "Erick Machado",
+      "apiPos": "Midfielder",
+      "apiNumber": 45,
+      "photo": "/players/palmeiras/512522.webp",
+      "name": "Erick Machado",
+      "number": 45,
+      "pos": "MEI",
+      "alt": [],
+      "hidden": false,
+      "source": "sportsdb",
+      "note": "Midfielder"
+    },
+    {
+      "id": 575323,
+      "apiName": "Larson",
+      "apiPos": "Midfielder",
+      "apiNumber": 48,
+      "photo": null,
+      "name": "Larson",
+      "number": 48,
+      "pos": "MEI",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 574837,
+      "apiName": "Luis Felipe",
+      "apiPos": "Midfielder",
+      "apiNumber": 50,
+      "photo": null,
+      "name": "Luis Felipe",
+      "number": 50,
+      "pos": "MEI",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 340279,
+      "apiName": "Vitor Roque",
+      "apiPos": "Attacker",
+      "apiNumber": 9,
+      "photo": "/players/palmeiras/340279.webp",
+      "name": "Vitor Roque",
+      "number": 9,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: atacante"
+    },
+    {
+      "id": 987,
+      "apiName": "Paulinho",
+      "apiPos": "Attacker",
+      "apiNumber": 10,
+      "photo": "/players/palmeiras/987.webp",
+      "name": "Paulinho",
+      "number": 10,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: atacante"
+    },
+    {
+      "id": 196298,
+      "apiName": "R. Sosa",
+      "apiPos": "Midfielder",
+      "apiNumber": 19,
+      "photo": "/players/palmeiras/196298.webp",
+      "name": "Ramón Sosa",
+      "number": 19,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: atacante"
+    },
+    {
+      "id": 570417,
+      "apiName": "Eduardo",
+      "apiPos": "Attacker",
+      "apiNumber": 20,
+      "photo": null,
+      "name": "Eduardo",
+      "number": 20,
+      "pos": "ATA",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 669472,
+      "apiName": "M. C. Bilong",
+      "apiPos": "Attacker",
+      "apiNumber": 29,
+      "photo": null,
+      "name": "M. C. Bilong",
+      "number": 29,
+      "pos": "ATA",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 415631,
+      "apiName": "Fabiano",
+      "apiPos": "Attacker",
+      "apiNumber": 37,
+      "photo": "/players/palmeiras/415631.webp",
+      "name": "Fabiano",
+      "number": 37,
+      "pos": "ATA",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 575324,
+      "apiName": "Heittor",
+      "apiPos": "Attacker",
+      "apiNumber": 39,
+      "photo": null,
+      "name": "Heittor",
+      "number": 39,
+      "pos": "ATA",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 295513,
+      "apiName": "J. López",
+      "apiPos": "Attacker",
+      "apiNumber": 42,
+      "photo": "/players/palmeiras/295513.webp",
+      "name": "Flaco López",
+      "number": 42,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: atacante"
+    }
+  ]
+}

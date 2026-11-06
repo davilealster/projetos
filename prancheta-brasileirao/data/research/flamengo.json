@@ -1,0 +1,283 @@
+{
+ "club": "flamengo",
+ "template": "en_CR_Flamengo_squad.html",
+ "lang": "en",
+ "players": [
+  {
+   "number": 1,
+   "title": "Agustín Rossi (footballer)",
+   "label": "Rossi",
+   "positions_raw": "Goalkeeper"
+  },
+  {
+   "number": 2,
+   "title": "Guillermo Varela",
+   "label": "Varela",
+   "positions_raw": "Right-back"
+  },
+  {
+   "number": 3,
+   "title": "Léo Ortiz",
+   "label": "L. Ortiz",
+   "positions_raw": "Centre back"
+  },
+  {
+   "number": 4,
+   "title": "Léo Pereira (footballer, born 1996)",
+   "label": "L. Pereira",
+   "positions_raw": "Centre back"
+  },
+  {
+   "number": 5,
+   "title": "Erick Pulgar",
+   "label": "Pulgar",
+   "positions_raw": "Defensive midfielder"
+  },
+  {
+   "number": 6,
+   "title": "Ayrton Lucas",
+   "label": "Ayrton Lucas",
+   "positions_raw": "Left back"
+  },
+  {
+   "number": 7,
+   "title": "Luiz Araújo (footballer)",
+   "label": "L. Araújo",
+   "positions_raw": "Winger"
+  },
+  {
+   "number": 8,
+   "title": "Saúl (footballer, born 1994)",
+   "label": "Saúl",
+   "positions_raw": "Midfielder"
+  },
+  {
+   "number": 9,
+   "title": "Pedro (footballer, born 1997)",
+   "label": "Pedro",
+   "positions_raw": "Striker"
+  },
+  {
+   "number": 10,
+   "title": "Giorgian de Arrascaeta",
+   "label": "de Arrascaeta",
+   "positions_raw": "Attacking midfielder"
+  },
+  {
+   "number": 11,
+   "title": "Lucas Paquetá",
+   "label": "Paquetá",
+   "positions_raw": "Attacking midfielder"
+  },
+  {
+   "number": 13,
+   "title": "Danilo (footballer, born July 1991)",
+   "label": "Danilo",
+   "positions_raw": "Centre-back, right-back"
+  },
+  {
+   "number": 14,
+   "title": "Anthony Valencia",
+   "label": "Valencia",
+   "positions_raw": "Midfielder"
+  },
+  {
+   "number": 15,
+   "title": "Jorge Carrascal",
+   "label": "Carrascal",
+   "positions_raw": "Attacking midfielder"
+  },
+  {
+   "number": 16,
+   "title": "Samuel Lino",
+   "label": "S. Lino",
+   "positions_raw": "Left winger, wing-back"
+  },
+  {
+   "number": 17,
+   "title": "Matías Viña",
+   "label": "Viña",
+   "positions_raw": "Left-back, left wing-back"
+  },
+  {
+   "number": 18,
+   "title": "Nicolás de la Cruz",
+   "label": "de la Cruz",
+   "positions_raw": "Central midfielder"
+  },
+  {
+   "number": 19,
+   "title": "Gonzalo Plata",
+   "label": "Plata",
+   "positions_raw": "Right winger"
+  },
+  {
+   "number": 21,
+   "title": "Jorginho (footballer, born December 1991)",
+   "label": "Jorginho",
+   "positions_raw": "Defensive midfielder"
+  },
+  {
+   "number": 22,
+   "title": "Emerson Royal",
+   "label": "Emerson",
+   "positions_raw": ""
+  },
+  {
+   "number": 24,
+   "title": "Lucas Furtado",
+   "label": "L. Furtado",
+   "positions_raw": null
+  },
+  {
+   "number": 26,
+   "title": "Alex Sandro",
+   "label": "Alex Sandro",
+   "positions_raw": "Left-back"
+  },
+  {
+   "number": 27,
+   "title": "Bruno Henrique (footballer, born 1990)",
+   "label": "Bruno Henrique",
+   "positions_raw": "Winger / Forward"
+  },
+  {
+   "number": 28,
+   "title": "Carlinhos (footballer, born 1997)",
+   "label": "Carlinhos",
+   "positions_raw": "Forward"
+  },
+  {
+   "number": 29,
+   "title": "Allan (footballer, born 1997)",
+   "label": "Allan",
+   "positions_raw": "Midfielder"
+  },
+  {
+   "number": 30,
+   "title": "Joaquín Freitas",
+   "label": "Freitas",
+   "positions_raw": "Forward"
+  },
+  {
+   "number": 39,
+   "title": "Josmar",
+   "label": "Josmar",
+   "positions_raw": null
+  },
+  {
+   "number": 42,
+   "title": "Andrew Ventura",
+   "label": "Andrew",
+   "positions_raw": "Goalkeeper"
+  },
+  {
+   "number": 44,
+   "title": "Vitão (footballer, born February 2000)",
+   "label": "Vitão",
+   "positions_raw": "Centre-back"
+  },
+  {
+   "number": 44,
+   "title": "João Victor Carbone",
+   "label": "Carbone",
+   "positions_raw": null
+  },
+  {
+   "number": 46,
+   "title": "Antônio Germano da Silva Neto",
+   "label": "Germano",
+   "positions_raw": null
+  },
+  {
+   "number": 49,
+   "title": "Dyogo Alves",
+   "label": "D. Alves",
+   "positions_raw": "Goalkeeper"
+  },
+  {
+   "number": 51,
+   "title": "Daniel Sales (footballer)",
+   "label": "D. Sales",
+   "positions_raw": "Right-back"
+  },
+  {
+   "number": 52,
+   "title": "Evertton Araújo",
+   "label": "E. Araújo",
+   "positions_raw": "Midfielder"
+  },
+  {
+   "number": 55,
+   "title": "Caio Vinicius Garcia Guilhen",
+   "label": "C. Garcia",
+   "positions_raw": null
+  },
+  {
+   "number": 56,
+   "title": "Pablo Lúcio",
+   "label": "Pablo Lúcio",
+   "positions_raw": "Midfielder"
+  },
+  {
+   "number": 58,
+   "title": "Léo Nannetti",
+   "label": "L. Nannetti",
+   "positions_raw": "Goalkeeper"
+  },
+  {
+   "number": 61,
+   "title": "João Victor (footballer, born January 2007)",
+   "label": "João Victor",
+   "positions_raw": "Centre-back"
+  },
+  {
+   "number": 72,
+   "title": "Lucas Vieira dos Santos",
+   "label": "L. Vieira",
+   "positions_raw": null
+  },
+  {
+   "number": 74,
+   "title": "Gusttavo de Sousa Oliveira",
+   "label": "Gusttavo",
+   "positions_raw": null
+  },
+  {
+   "number": 75,
+   "title": "Luiz Felipe Mariano dos Santos",
+   "label": "Luiz Felipe",
+   "positions_raw": null
+  },
+  {
+   "number": 77,
+   "title": "Johnny Góes",
+   "label": "Johnny",
+   "positions_raw": "Centre-back, left-back"
+  },
+  {
+   "number": 79,
+   "title": "Joshua (footballer, born 2007)",
+   "label": "Joshua",
+   "positions_raw": "Attacking midfielder"
+  },
+  {
+   "number": 80,
+   "title": "João Paulo Camargo de Barros",
+   "label": "Camargo",
+   "positions_raw": null
+  },
+  {
+   "number": 81,
+   "title": "Douglas Telles",
+   "label": "D. Telles",
+   "positions_raw": "Forward"
+  },
+  {
+   "number": 82,
+   "title": "Jheferson Vinicius Medino Rufino",
+   "label": "Jheferson",
+   "positions_raw": null
+  }
+ ]
+}

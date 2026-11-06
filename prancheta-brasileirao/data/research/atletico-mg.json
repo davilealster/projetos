@@ -1,0 +1,138 @@
+{
+ "club": "Clube Atlético Mineiro",
+ "template": "Predefinição:Elenco Clube Atlético Mineiro",
+ "players": [
+  {
+   "number": 1,
+   "title": "Gabriel Delfim",
+   "label": "Gabriel Delfim",
+   "positions_raw": "goleiro"
+  },
+  {
+   "number": 2,
+   "title": "Natanael Moreira Milouski",
+   "label": "Natanael",
+   "positions_raw": "lateral-direito"
+  },
+  {
+   "number": 3,
+   "title": "Leonardo Campos Duarte da Silva",
+   "label": "Léo Duarte",
+   "positions_raw": "zagueiro"
+  },
+  {
+   "number": 4,
+   "title": "Alexsander Christian Gomes da Costa",
+   "label": "Alexsander",
+   "positions_raw": "volante"
+  },
+  {
+   "number": 6,
+   "title": "Renan Lodi",
+   "label": "Renan Lodi",
+   "positions_raw": "lateral-esquerdo"
+  },
+  {
+   "number": 7,
+   "title": "Frederico Rodrigues Santos",
+   "label": "Fred",
+   "positions_raw": "volante"
+  },
+  {
+   "number": 8,
+   "title": "Maycon de Andrade Barberan",
+   "label": "Maycon",
+   "positions_raw": "volante"
+  },
+  {
+   "number": 9,
+   "title": "Mateo Cassierra",
+   "label": "Cassierra",
+   "positions_raw": "centroavante"
+  },
+  {
+   "number": 10,
+   "title": "Gustavo Scarpa",
+   "label": "Gustavo Scarpa",
+   "positions_raw": "meio-campista"
+  },
+  {
+   "number": 11,
+   "title": "Bernard Anício Caldeira Duarte",
+   "label": "Bernard",
+   "positions_raw": "ponta ou meio-campista"
+  },
+  {
+   "number": 13,
+   "title": "Lyanco",
+   "label": "Lyanco",
+   "positions_raw": "zagueiro"
+  },
+  {
+   "number": 14,
+   "title": "Vitor Hugo Franchescoli de Souza",
+   "label": "Vitor Hugo",
+   "positions_raw": "zagueiro"
+  },
+  {
+   "number": 15,
+   "title": "Kevin Castaño",
+   "label": "Kevin Castaño",
+   "positions_raw": "volante"
+  },
+  {
+   "number": 17,
+   "title": "Thiago Borbas",
+   "label": "Thiago Borbas",
+   "positions_raw": "atacante"
+  },
+  {
+   "number": 19,
+   "title": "Reinier",
+   "label": "Reinier",
+   "positions_raw": "meio-campista"
+  },
+  {
+   "number": 21,
+   "title": "Alan Steven Franco Palma",
+   "label": "Alan Franco",
+   "positions_raw": "meio-campista"
+  },
+  {
+   "number": 22,
+   "title": "Éverson",
+   "label": "Éverson",
+   "positions_raw": "goleiro"
+  },
+  {
+   "number": 23,
+   "title": "Ángelo Preciado",
+   "label": "Preciado",
+   "positions_raw": "lateral-direito"
+  },
+  {
+   "number": 25,
+   "title": "Alan Minda",
+   "label": "Alan Minda",
+   "positions_raw": "ponta-direita"
+  },
+  {
+   "number": 28,
+   "title": "Tomás Cuello",
+   "label": "Cuello",
+   "positions_raw": "ponta"
+  },
+  {
+   "number": 29,
+   "title": "Victor Hugo Gomes Silva",
+   "label": "Victor Hugo",
+   "positions_raw": "meio-campista"
+  },
+  {
+   "number": 31,
+   "title": "Eduardo Pereira Rodrigues",
+   "label": "Dudu",
+   "positions_raw": "ponta ou meio-campista"
+  }
+ ]
+}

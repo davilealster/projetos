@@ -16,9 +16,15 @@ export interface RawPlayer {
 /** Correção manual em data/overrides/{slug}.json, indexada pelo id da API. */
 export interface Override {
   pos?: Pos;
+  /** até 2 posições alternativas, em ordem de preferência */
+  alt?: Pos[];
   displayName?: string;
   number?: number | null;
   hide?: boolean;
+  /** true = veio da pesquisa automática (Wikipédia) e ainda não foi revisado à mão */
+  draft?: boolean;
+  /** origem do rascunho, ex.: "wikipedia: lateral-esquerdo" */
+  source?: string;
 }
 
 /** Sugestão vinda do TheSportsDB (data/sportsdb/{slug}.json). */
@@ -28,13 +34,14 @@ export interface Suggestion {
   fullName?: string;
 }
 
-export type PosSource = "override" | "sportsdb" | "api";
+export type PosSource = "override" | "draft" | "sportsdb" | "api";
 
 export interface BuiltPlayer {
   id: number;
   name: string;
   number: number | null;
   pos: Pos;
+  alt?: Pos[];
   photo: string | null;
 }
 
@@ -165,7 +172,7 @@ export function mergePlayers(opts: {
 
     let pos: Pos;
     let posSource: PosSource;
-    if (ov.pos) [pos, posSource] = [ov.pos, "override"];
+    if (ov.pos) [pos, posSource] = [ov.pos, ov.draft ? "draft" : "override"];
     else if (sg.pos) [pos, posSource] = [sg.pos, "sportsdb"];
     else [pos, posSource] = [mapApiPosition(p.position), "api"];
 
@@ -176,12 +183,14 @@ export function mergePlayers(opts: {
     else [name, nameSource] = [p.name.trim(), "api"];
 
     const number = ov.number !== undefined ? ov.number : p.number ?? null;
+    const alt = (ov.alt ?? []).filter((a, i, arr) => a !== pos && arr.indexOf(a) === i).slice(0, 2);
 
     out.push({
       id: p.id,
       name,
       number,
       pos,
+      ...(alt.length ? { alt } : {}),
       photo: hasPhoto(p.id) ? `/players/${slug}/${p.id}.webp` : null,
       posSource,
       nameSource,
@@ -199,4 +208,70 @@ export function needsPositionReview(p: BuiltPlayerWithMeta): boolean {
 export function stripMeta(p: BuiltPlayerWithMeta): BuiltPlayer {
   const { posSource: _a, nameSource: _b, ...rest } = p;
   return rest;
+}
+
+// ---------- pesquisa (texto de posição em português) ----------
+
+// português (Wikipédia pt) e inglês (Wikipédia en); a ordem importa: o mais específico primeiro
+const PT_TABLE: [RegExp, Pos | "LAT"][] = [
+  [/goleiro|guarda redes|goalkeeper/, "GOL"],
+  [/lateral direit|ala direit|right back|right wing back|right full back/, "LD"],
+  [/lateral esquerd|ala esquerd|left back|left wing back|left full back/, "LE"],
+  [/^lateral$|^ala$|^lateral ala$|^full back$|^wing back$/, "LAT"],
+  [/volante|medio defensivo|primeiro volante|defensive midfield|holding midfield/, "VOL"],
+  [/zagueiro|defensor|defesa central|beque|^central$|centre back|center back|central defender|^defender$/, "ZAG"],
+  [/ponta|extremo|ponteiro|winger|^wing$|wide midfield|right midfield|left midfield/, "PON"],
+  [/meia atacante|meia ofensiv|meio campista|meia|armador|medio|meio campo|midfield|playmaker/, "MEI"],
+  [/centroavante|centro avante|atacante|avancado|segundo atacante|ponta de lanca|^ataque$|striker|forward/, "ATA"],
+];
+
+/** Alternativas padrão por posição principal, usadas para completar até 2. */
+export const DEFAULT_ALT: Record<Pos, Pos[]> = {
+  GOL: [],
+  ZAG: ["VOL", "LD"],
+  LD: ["ZAG", "LE"],
+  LE: ["ZAG", "LD"],
+  VOL: ["MEI", "ZAG"],
+  MEI: ["VOL", "PON"],
+  PON: ["ATA", "MEI"],
+  ATA: ["PON", "MEI"],
+};
+
+/**
+ * "volante e zagueiro" → { pos: "VOL", alt: ["ZAG", "MEI"] }.
+ * "lateral" sem lado usa o número (2 = LD, 6 = LE); sem pista, LD com LE de alternativa.
+ */
+export function parsePtPositions(
+  text: string | null | undefined,
+  number: number | null = null,
+): { pos: Pos; alt: Pos[]; ambiguous: boolean } | null {
+  if (!text) return null;
+  // separa antes de normalizar: normalize() troca "/" e "," por espaço
+  const parts = text
+    .split(/\s+e\s+|\s+ou\s+|[,/;|]/i)
+    .map((x) => normalize(x))
+    .filter(Boolean);
+  const found: Pos[] = [];
+  let ambiguous = false;
+  for (const part of parts) {
+    for (const [re, code] of PT_TABLE) {
+      if (!re.test(part)) continue;
+      if (code === "LAT") {
+        // lado: pelo texto inteiro ("left winger, wing-back") ou pelo número (2 = LD, 6 = LE)
+        const all = normalize(text);
+        const side = /esquerd|\bleft\b/.test(all) ? "LE" : /direit|\bright\b/.test(all) ? "LD" : number === 6 ? "LE" : number === 2 ? "LD" : null;
+        if (side) found.push(side);
+        else {
+          ambiguous = true;
+          found.push("LD", "LE");
+        }
+      } else found.push(code);
+      break;
+    }
+  }
+  const uniq = found.filter((p, i) => found.indexOf(p) === i);
+  if (!uniq.length) return null;
+  const [pos, ...rest] = uniq;
+  const alt = [...rest, ...DEFAULT_ALT[pos]].filter((p, i, a) => p !== pos && a.indexOf(p) === i).slice(0, 2);
+  return { pos, alt: pos === "GOL" ? [] : alt, ambiguous };
 }

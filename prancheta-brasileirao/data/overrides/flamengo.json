@@ -1,1 +1,262 @@
-{}
+{
+  "48": {
+    "pos": "MEI",
+    "alt": [
+      "VOL",
+      "PON"
+    ],
+    "draft": true,
+    "source": "wikipedia: Midfielder"
+  },
+  "618": {
+    "pos": "ZAG",
+    "alt": [
+      "LD",
+      "VOL"
+    ],
+    "draft": true,
+    "source": "wikipedia: Centre-back, right-back"
+  },
+  "860": {
+    "pos": "LE",
+    "alt": [
+      "ZAG",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: Left-back"
+  },
+  "1290": {
+    "pos": "LD",
+    "alt": [
+      "ZAG",
+      "LE"
+    ],
+    "draft": true,
+    "source": "wikipedia: Right-back",
+    "displayName": "Guillermo Varela"
+  },
+  "1646": {
+    "pos": "MEI",
+    "alt": [
+      "VOL",
+      "PON"
+    ],
+    "draft": true,
+    "source": "wikipedia: Attacking midfielder"
+  },
+  "1771": {
+    "pos": "LE",
+    "alt": [
+      "ZAG",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: Left back"
+  },
+  "2289": {
+    "pos": "VOL",
+    "alt": [
+      "MEI",
+      "ZAG"
+    ],
+    "draft": true,
+    "source": "wikipedia: Defensive midfielder"
+  },
+  "2560": {
+    "pos": "VOL",
+    "alt": [
+      "MEI",
+      "ZAG"
+    ],
+    "draft": true,
+    "source": "wikipedia: Defensive midfielder",
+    "displayName": "Erick Pulgar"
+  },
+  "2612": {
+    "pos": "MEI",
+    "alt": [
+      "VOL",
+      "PON"
+    ],
+    "draft": true,
+    "source": "wikipedia: Attacking midfielder",
+    "displayName": "Giorgian de Arrascaeta"
+  },
+  "5994": {
+    "pos": "MEI",
+    "alt": [
+      "VOL",
+      "PON"
+    ],
+    "draft": true,
+    "source": "wikipedia: Attacking midfielder",
+    "displayName": "Jorge Carrascal"
+  },
+  "5995": {
+    "pos": "MEI",
+    "alt": [
+      "VOL",
+      "PON"
+    ],
+    "draft": true,
+    "source": "wikipedia: Central midfielder"
+  },
+  "9458": {
+    "pos": "ZAG",
+    "alt": [
+      "VOL",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: Centre back"
+  },
+  "9909": {
+    "pos": "ZAG",
+    "alt": [
+      "VOL",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: Centre-back"
+  },
+  "10124": {
+    "pos": "ZAG",
+    "alt": [
+      "VOL",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: Centre back"
+  },
+  "10180": {
+    "pos": "PON",
+    "alt": [
+      "ATA",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: Winger / Forward"
+  },
+  "10321": {
+    "pos": "ATA",
+    "alt": [
+      "PON",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: Striker"
+  },
+  "11756": {
+    "pos": "GOL",
+    "alt": [],
+    "draft": true,
+    "source": "wikipedia: Goalkeeper",
+    "displayName": "Agustín Rossi"
+  },
+  "16369": {
+    "pos": "PON",
+    "alt": [
+      "ATA",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: Right winger",
+    "displayName": "Gonzalo Plata"
+  },
+  "22238": {
+    "pos": "PON",
+    "alt": [
+      "ATA",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: Winger"
+  },
+  "80528": {
+    "pos": "GOL",
+    "alt": [],
+    "draft": true,
+    "source": "wikipedia: Goalkeeper"
+  },
+  "126936": {
+    "pos": "PON",
+    "alt": [
+      "LE",
+      "ATA"
+    ],
+    "draft": true,
+    "source": "wikipedia: Left winger, wing-back"
+  },
+  "198347": {
+    "pos": "MEI",
+    "alt": [
+      "VOL",
+      "PON"
+    ],
+    "draft": true,
+    "source": "wikipedia: Midfielder",
+    "displayName": "Anthony Valencia"
+  },
+  "332654": {
+    "pos": "MEI",
+    "alt": [
+      "VOL",
+      "PON"
+    ],
+    "draft": true,
+    "source": "wikipedia: Midfielder"
+  },
+  "372083": {
+    "pos": "GOL",
+    "alt": [],
+    "draft": true,
+    "source": "wikipedia: Goalkeeper"
+  },
+  "403299": {
+    "pos": "LD",
+    "alt": [
+      "ZAG",
+      "LE"
+    ],
+    "draft": true,
+    "source": "wikipedia: Right-back"
+  },
+  "449253": {
+    "pos": "ZAG",
+    "alt": [
+      "VOL",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: Centre-back"
+  },
+  "512740": {
+    "pos": "ZAG",
+    "alt": [
+      "LE",
+      "VOL"
+    ],
+    "draft": true,
+    "source": "wikipedia: Centre-back, left-back"
+  },
+  "544685": {
+    "pos": "MEI",
+    "alt": [
+      "VOL",
+      "PON"
+    ],
+    "draft": true,
+    "source": "wikipedia: Attacking midfielder"
+  },
+  "560314": {
+    "pos": "ATA",
+    "alt": [
+      "PON",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: Forward",
+    "displayName": "Joaquín Freitas"
+  }
+}

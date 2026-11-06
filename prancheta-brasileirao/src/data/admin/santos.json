@@ -1,0 +1,637 @@
+{
+  "slug": "santos",
+  "updatedAt": "2026-11-06",
+  "players": [
+    {
+      "id": 321454,
+      "apiName": "Diógenes",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 1,
+      "photo": "/players/santos/321454.webp",
+      "name": "Diógenes",
+      "number": 1,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Goalkeeper"
+    },
+    {
+      "id": 606900,
+      "apiName": "Joao Lucio",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 1,
+      "photo": null,
+      "name": "Joao Lucio",
+      "number": 1,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 9979,
+      "apiName": "João Paulo",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 34,
+      "photo": "/players/santos/9979.webp",
+      "name": "João Paulo",
+      "number": 34,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Goalkeeper"
+    },
+    {
+      "id": 653531,
+      "apiName": "Rodrigo Falcao",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 67,
+      "photo": null,
+      "name": "Rodrigo Falcao",
+      "number": 67,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Goalkeeper"
+    },
+    {
+      "id": 31007,
+      "apiName": "Gabriel Brazão",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 77,
+      "photo": "/players/santos/31007.webp",
+      "name": "Gabriel Brazão",
+      "number": 77,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Goalkeeper"
+    },
+    {
+      "id": 9991,
+      "apiName": "Lucas Veríssimo",
+      "apiPos": "Defender",
+      "apiNumber": 4,
+      "photo": "/players/santos/9991.webp",
+      "name": "Lucas Veríssimo",
+      "number": 4,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Centre-back"
+    },
+    {
+      "id": 71,
+      "apiName": "Luan Peres",
+      "apiPos": "Defender",
+      "apiNumber": 14,
+      "photo": "/players/santos/71.webp",
+      "name": "Luan Peres",
+      "number": 14,
+      "pos": "ZAG",
+      "alt": [
+        "LE",
+        "VOL"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Centre-back, left-back"
+    },
+    {
+      "id": 527683,
+      "apiName": "João Paulo Ananias",
+      "apiPos": "Defender",
+      "apiNumber": 26,
+      "photo": null,
+      "name": "João Paulo Ananias",
+      "number": 26,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Centre-back"
+    },
+    {
+      "id": 522702,
+      "apiName": "João Alencar",
+      "apiPos": "Defender",
+      "apiNumber": 42,
+      "photo": "/players/santos/522702.webp",
+      "name": "João Alencar",
+      "number": 42,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Centre-back"
+    },
+    {
+      "id": 9949,
+      "apiName": "Igor Vinicius",
+      "apiPos": "Defender",
+      "apiNumber": 18,
+      "photo": "/players/santos/9949.webp",
+      "name": "Igor Vinicius",
+      "number": 18,
+      "pos": "LD",
+      "alt": [
+        "ZAG",
+        "LE"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Right-back"
+    },
+    {
+      "id": 10157,
+      "apiName": "Rodinei",
+      "apiPos": "Defender",
+      "apiNumber": 23,
+      "photo": "/players/santos/10157.webp",
+      "name": "Rodinei",
+      "number": 23,
+      "pos": "LD",
+      "alt": [
+        "ZAG",
+        "LE"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Right-back"
+    },
+    {
+      "id": 195111,
+      "apiName": "Gabriel Menino",
+      "apiPos": "Midfielder",
+      "apiNumber": 25,
+      "photo": "/players/santos/195111.webp",
+      "name": "Gabriel Menino",
+      "number": 25,
+      "pos": "LD",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Right-back, midfielder"
+    },
+    {
+      "id": 609619,
+      "apiName": "D. Fernandes",
+      "apiPos": "Attacker",
+      "apiNumber": 27,
+      "photo": null,
+      "name": "Davi Fernandes",
+      "number": 27,
+      "pos": "LD",
+      "alt": [
+        "PON",
+        "ZAG"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Right-back, winger"
+    },
+    {
+      "id": 6637,
+      "apiName": "G. Escobar",
+      "apiPos": "Defender",
+      "apiNumber": 31,
+      "photo": "/players/santos/6637.webp",
+      "name": "Gonzalo Escobar",
+      "number": 31,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Left-back"
+    },
+    {
+      "id": 609540,
+      "apiName": "Rafael Gonzaga",
+      "apiPos": "Defender",
+      "apiNumber": 38,
+      "photo": null,
+      "name": "Rafael Gonzaga",
+      "number": 38,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Left-back"
+    },
+    {
+      "id": 32901,
+      "apiName": "João Schmidt",
+      "apiPos": "Midfielder",
+      "apiNumber": 5,
+      "photo": "/players/santos/32901.webp",
+      "name": "João Schmidt",
+      "number": 5,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Defensive midfielder"
+    },
+    {
+      "id": 10173,
+      "apiName": "Willian Arão",
+      "apiPos": "Midfielder",
+      "apiNumber": 15,
+      "photo": "/players/santos/10173.webp",
+      "name": "Willian Arão",
+      "number": 15,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Defensive midfielder"
+    },
+    {
+      "id": 30568,
+      "apiName": "C. Oliva",
+      "apiPos": "Midfielder",
+      "apiNumber": 28,
+      "photo": "/players/santos/30568.webp",
+      "name": "Christian Oliva",
+      "number": 28,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Defensive midfielder"
+    },
+    {
+      "id": 506480,
+      "apiName": "Gustavo Henrique Pereira",
+      "apiPos": "Midfielder",
+      "apiNumber": 48,
+      "photo": "/players/santos/506480.webp",
+      "name": "Gustavo Henrique Pereira",
+      "number": 48,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Defensive midfielder"
+    },
+    {
+      "id": 150,
+      "apiName": "Arthur",
+      "apiPos": "Midfielder",
+      "apiNumber": 6,
+      "photo": "/players/santos/150.webp",
+      "name": "Arthur",
+      "number": 6,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Midfielder"
+    },
+    {
+      "id": 506275,
+      "apiName": "Gabriel Bontempo",
+      "apiPos": "Midfielder",
+      "apiNumber": 8,
+      "photo": "/players/santos/506275.webp",
+      "name": "Gabriel Bontempo",
+      "number": 8,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Attacking midfielder"
+    },
+    {
+      "id": 276,
+      "apiName": "Neymar",
+      "apiPos": "Attacker",
+      "apiNumber": 10,
+      "photo": "/players/santos/276.webp",
+      "name": "Neymar",
+      "number": 10,
+      "pos": "MEI",
+      "alt": [
+        "ATA",
+        "VOL"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Attacking midfielder, forward"
+    },
+    {
+      "id": 147,
+      "apiName": "Philippe Coutinho",
+      "apiPos": "Midfielder",
+      "apiNumber": 11,
+      "photo": "/players/santos/147.webp",
+      "name": "Philippe Coutinho",
+      "number": 11,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Attacking midfielder"
+    },
+    {
+      "id": 10492,
+      "apiName": "Thaciano",
+      "apiPos": "Midfielder",
+      "apiNumber": 16,
+      "photo": "/players/santos/10492.webp",
+      "name": "Thaciano",
+      "number": 16,
+      "pos": "MEI",
+      "alt": [
+        "ATA",
+        "VOL"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Midfielder, forward"
+    },
+    {
+      "id": 632455,
+      "apiName": "P. Fermino",
+      "apiPos": "Midfielder",
+      "apiNumber": 20,
+      "photo": null,
+      "name": "Pepê Fermino",
+      "number": 20,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Midfielder"
+    },
+    {
+      "id": 345756,
+      "apiName": "M. Terceros",
+      "apiPos": "Midfielder",
+      "apiNumber": 30,
+      "photo": "/players/santos/345756.webp",
+      "name": "Miguel Terceros",
+      "number": 30,
+      "pos": "MEI",
+      "alt": [
+        "PON",
+        "VOL"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Attacking midfielder, winger"
+    },
+    {
+      "id": 119485,
+      "apiName": "B. Rollheiser",
+      "apiPos": "Attacker",
+      "apiNumber": 32,
+      "photo": "/players/santos/119485.webp",
+      "name": "Benjamín Rollheiser",
+      "number": 32,
+      "pos": "MEI",
+      "alt": [
+        "PON",
+        "VOL"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Attacking Midfielder, Winger"
+    },
+    {
+      "id": 50532,
+      "apiName": "Lima",
+      "apiPos": "Midfielder",
+      "apiNumber": 45,
+      "photo": "/players/santos/50532.webp",
+      "name": "Lima",
+      "number": 45,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Attacking midfielder"
+    },
+    {
+      "id": 609523,
+      "apiName": "S. Pierri",
+      "apiPos": "Midfielder",
+      "apiNumber": 81,
+      "photo": null,
+      "name": "Samuel Pierri",
+      "number": 81,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Midfielder"
+    },
+    {
+      "id": 2414,
+      "apiName": "Everton",
+      "apiPos": "Midfielder",
+      "apiNumber": 7,
+      "photo": "/players/santos/2414.webp",
+      "name": "Everton",
+      "number": 7,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Winger / Forward"
+    },
+    {
+      "id": 474261,
+      "apiName": "Mateus Xavier",
+      "apiPos": "Midfielder",
+      "apiNumber": 11,
+      "photo": "/players/santos/474261.webp",
+      "name": "Mateus Xavier",
+      "number": 11,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Winger"
+    },
+    {
+      "id": 119128,
+      "apiName": "G. Caballero",
+      "apiPos": "Attacker",
+      "apiNumber": 17,
+      "photo": "/players/santos/119128.webp",
+      "name": "Gustavo Caballero",
+      "number": 17,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Winger"
+    },
+    {
+      "id": 153454,
+      "apiName": "Moisés",
+      "apiPos": "Attacker",
+      "apiNumber": 21,
+      "photo": "/players/santos/153454.webp",
+      "name": "Moisés",
+      "number": 21,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Winger"
+    },
+    {
+      "id": 6052,
+      "apiName": "Á. Barreal",
+      "apiPos": "Defender",
+      "apiNumber": 22,
+      "photo": "/players/santos/6052.webp",
+      "name": "Álvaro Barreal",
+      "number": 22,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Winger"
+    },
+    {
+      "id": 609501,
+      "apiName": "Nadson",
+      "apiPos": "Attacker",
+      "apiNumber": 57,
+      "photo": null,
+      "name": "Nadson",
+      "number": 57,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Winger"
+    },
+    {
+      "id": 10174,
+      "apiName": "Gabriel Barbosa",
+      "apiPos": "Attacker",
+      "apiNumber": 9,
+      "photo": "/players/santos/10174.webp",
+      "name": "Gabriel Barbosa",
+      "number": 9,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Striker"
+    },
+    {
+      "id": 10143,
+      "apiName": "Rony",
+      "apiPos": "Attacker",
+      "apiNumber": 33,
+      "photo": "/players/santos/10143.webp",
+      "name": "Rony",
+      "number": 33,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Forward"
+    },
+    {
+      "id": 631334,
+      "apiName": "Pedro Assis",
+      "apiPos": "Attacker",
+      "apiNumber": 39,
+      "photo": null,
+      "name": "Pedro Assis",
+      "number": 39,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Forward"
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+ "club": "Sport Club Corinthians Paulista",
+ "template": "Predefinição:Elenco SC Corinthians Paulista",
+ "players": [
+  {
+   "number": 1,
+   "title": "Hugo Souza",
+   "label": "H. Souza",
+   "positions_raw": "goleiro"
+  },
+  {
+   "number": 2,
+   "title": "Matheuzinho",
+   "label": "Matheuzinho",
+   "positions_raw": null
+  },
+  {
+   "number": 3,
+   "title": "Gabriel Paulista",
+   "label": "G. Paulista",
+   "positions_raw": "zagueiro"
+  },
+  {
+   "number": 4,
+   "title": "João Pedro de Sousa Rodrigues",
+   "label": "J. Pedro",
+   "positions_raw": "Zagueiro"
+  },
+  {
+   "number": 5,
+   "title": "André Ramalho",
+   "label": "A. Ramalho",
+   "positions_raw": "Zagueiro"
+  },
+  {
+   "number": 7,
+   "title": "Breno Bidon",
+   "label": "B. Bidon",
+   "positions_raw": "meio-campista"
+  },
+  {
+   "number": 8,
+   "title": "Rodrigo Garro",
+   "label": "Garro",
+   "positions_raw": "meio-campista"
+  },
+  {
+   "number": 9,
+   "title": "Yuri Alberto",
+   "label": "Y. Alberto",
+   "positions_raw": "centroavante"
+  },
+  {
+   "number": 10,
+   "title": "Memphis Depay",
+   "label": "Memphis",
+   "positions_raw": "atacante"
+  },
+  {
+   "number": 11,
+   "title": "Vitinho (futebolista)",
+   "label": "Vitinho",
+   "positions_raw": "atacante"
+  },
+  {
+   "number": 13,
+   "title": "Gustavo Henrique",
+   "label": "G. Henrique",
+   "positions_raw": "zagueiro"
+  },
+  {
+   "number": 14,
+   "title": "Raniele",
+   "label": "Raniele",
+   "positions_raw": "volante"
+  },
+  {
+   "number": 18,
+   "title": "Pedro Raul",
+   "label": "P. Raul",
+   "positions_raw": "centroavante"
+  },
+  {
+   "number": 19,
+   "title": "André Carrillo",
+   "label": "Carrillo",
+   "positions_raw": "Meia"
+  },
+  {
+   "number": 20,
+   "title": "Pedro Milans",
+   "label": "P. Milans",
+   "positions_raw": "Lateral-direito"
+  },
+  {
+   "number": 21,
+   "title": "Matheus Bidu",
+   "label": "M. Bidu",
+   "positions_raw": "lateral-esquerdo"
+  },
+  {
+   "number": 23,
+   "title": "Matheus Pereira da Silva",
+   "label": "M. Pereira",
+   "positions_raw": "Meio-campista"
+  },
+  {
+   "number": 26,
+   "title": "Fabrizio Angileri",
+   "label": "Angileri",
+   "positions_raw": "lateral-esquerdo"
+  },
+  {
+   "number": 29,
+   "title": "Allan (futebolista)",
+   "label": "Allan",
+   "positions_raw": "volante"
+  },
+  {
+   "number": 31,
+   "title": "Kayke Ferrari",
+   "label": "Kayke",
+   "positions_raw": "Ponta-esquerda"
+  },
+  {
+   "number": 35,
+   "title": "Charles Rigon Matos",
+   "label": "Charles",
+   "positions_raw": "volante"
+  },
+  {
+   "number": 37,
+   "title": "Kaio César",
+   "label": "K. César",
+   "positions_raw": "Ponta-direita"
+  },
+  {
+   "number": 40,
+   "title": "Felipe Longo",
+   "label": "F. Longo",
+   "positions_raw": "Goleiro"
+  },
+  {
+   "number": 46,
+   "title": "Hugo Ferreira",
+   "label": "Hugo",
+   "positions_raw": "lateral-esquerdo"
+  },
+  {
+   "number": 49,
+   "title": "André Luiz Santos Dias",
+   "label": "André",
+   "positions_raw": "volante"
+  },
+  {
+   "number": 51,
+   "title": "Kauê Camargo",
+   "label": "Kauê",
+   "positions_raw": "goleiro"
+  },
+  {
+   "number": 52,
+   "title": "Zakaria Labyad",
+   "label": "Labyad",
+   "positions_raw": "atacante"
+  },
+  {
+   "number": 56,
+   "title": "Gui Negão",
+   "label": "Gui Negão",
+   "positions_raw": "centroavante"
+  },
+  {
+   "number": 61,
+   "title": "Diego da Cruz Lopes",
+   "label": "Dieguinho",
+   "positions_raw": "Meio-campista"
+  },
+  {
+   "number": 77,
+   "title": "Jesse Lingard",
+   "label": "Lingard",
+   "positions_raw": "meio-campista ou atacante"
+  },
+  {
+   "number": 80,
+   "title": "Alex Santana (futebolista)",
+   "label": "Alex Santana",
+   "positions_raw": "volante"
+  }
+ ]
+}

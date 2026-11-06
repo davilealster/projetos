@@ -1,0 +1,84 @@
+{
+ "club": "Mirassol Futebol Clube",
+ "template": "Predefinição:Elenco Mirassol FC",
+ "players": [
+  {
+   "number": 6,
+   "title": "Reinaldo Manoel da Silva",
+   "label": "Reinaldo",
+   "positions_raw": "lateral-esquerdo"
+  },
+  {
+   "number": 10,
+   "title": "Francisco Hyun-sol Kim",
+   "label": "Chico Kim",
+   "positions_raw": "meio-campista"
+  },
+  {
+   "number": 11,
+   "title": "Negueba (futebolista, 1999)",
+   "label": "Negueba",
+   "positions_raw": "atacante"
+  },
+  {
+   "number": 12,
+   "title": "Victor Luis",
+   "label": "Victor Luis",
+   "positions_raw": "lateral-esquerdo"
+  },
+  {
+   "number": 17,
+   "title": "Fernando José Marques Maciel",
+   "label": "Fernandinho",
+   "positions_raw": "ponta-direita"
+  },
+  {
+   "number": 22,
+   "title": "Walter Leandro Capeloza Artune",
+   "label": "Walter",
+   "positions_raw": "goleiro"
+  },
+  {
+   "number": 23,
+   "title": "Alex Muralha",
+   "label": "Alex Muralha",
+   "positions_raw": "goleiro"
+  },
+  {
+   "number": 25,
+   "title": "Neto Moura",
+   "label": "Neto Moura",
+   "positions_raw": "meio-campista"
+  },
+  {
+   "number": 30,
+   "title": "Bruno Santos (futebolista)",
+   "label": "Bruno Santos",
+   "positions_raw": "Atacante"
+  },
+  {
+   "number": 33,
+   "title": "Carlos Eduardo de Oliveira Alves",
+   "label": "Eduardo",
+   "positions_raw": "meio-campista"
+  },
+  {
+   "number": 77,
+   "title": "Alesson",
+   "label": "Alesson",
+   "positions_raw": "meia-atacante, atacante"
+  },
+  {
+   "number": 96,
+   "title": "Carlos Eduardo Ferreira de Souza",
+   "label": "Carlos Eduardo",
+   "positions_raw": "atacante"
+  },
+  {
+   "number": 99,
+   "title": "André Luis Silva de Aguiar",
+   "label": "André Luis",
+   "positions_raw": "atacante"
+  }
+ ]
+}

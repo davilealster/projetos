@@ -53,13 +53,6 @@
       "photo": "/players/mirassol/80654.webp"
     },
     {
-      "id": 9946,
-      "name": "Reinaldo",
-      "number": 6,
-      "pos": "ZAG",
-      "photo": "/players/mirassol/9946.webp"
-    },
-    {
       "id": 9573,
       "name": "Elias",
       "number": 18,
@@ -95,6 +88,28 @@
       "photo": "/players/mirassol/9771.webp"
     },
     {
+      "id": 9946,
+      "name": "Reinaldo",
+      "number": 6,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "photo": "/players/mirassol/9946.webp"
+    },
+    {
+      "id": 9907,
+      "name": "Victor Luís",
+      "number": 12,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "photo": "/players/mirassol/9907.webp"
+    },
+    {
       "id": 405353,
       "name": "Japa",
       "number": 5,
@@ -113,6 +128,10 @@
       "name": "Chico",
       "number": 10,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": "/players/mirassol/80474.webp"
     },
     {
@@ -134,6 +153,10 @@
       "name": "Neto",
       "number": 25,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": null
     },
     {
@@ -148,6 +171,10 @@
       "name": "Eduardo",
       "number": 33,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": "/players/mirassol/44348.webp"
     },
     {
@@ -156,6 +183,17 @@
       "number": 55,
       "pos": "MEI",
       "photo": "/players/mirassol/96385.webp"
+    },
+    {
+      "id": 9429,
+      "name": "Alesson",
+      "number": 77,
+      "pos": "MEI",
+      "alt": [
+        "ATA",
+        "VOL"
+      ],
+      "photo": "/players/mirassol/9429.webp"
     },
     {
       "id": 159493,
@@ -172,45 +210,47 @@
       "photo": "/players/mirassol/54238.webp"
     },
     {
+      "id": 77680,
+      "name": "Fernandinho",
+      "number": 17,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "photo": "/players/mirassol/77680.webp"
+    },
+    {
       "id": 41430,
       "name": "André Luís",
       "number": 9,
       "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
       "photo": "/players/mirassol/41430.webp"
-    },
-    {
-      "id": 9907,
-      "name": "Victor Luís",
-      "number": 12,
-      "pos": "ATA",
-      "photo": "/players/mirassol/9907.webp"
-    },
-    {
-      "id": 77680,
-      "name": "Fernandinho",
-      "number": 17,
-      "pos": "ATA",
-      "photo": "/players/mirassol/77680.webp"
     },
     {
       "id": 159843,
       "name": "Bruno Santos",
       "number": 30,
       "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
       "photo": "/players/mirassol/159843.webp"
-    },
-    {
-      "id": 9429,
-      "name": "Alesson",
-      "number": 77,
-      "pos": "ATA",
-      "photo": "/players/mirassol/9429.webp"
     },
     {
       "id": 520668,
       "name": "Carlos Eduardo de Barros",
       "number": 96,
       "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
       "photo": "/players/mirassol/520668.webp"
     },
     {

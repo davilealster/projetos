@@ -26,6 +26,8 @@ interface Props {
   onMoveToken: (index: number, p: Point, commit: boolean) => void;
   onRemoveToken: (index: number) => void;
   onDropToken: (index: number, p: Point) => void;
+  /** toque/clique simples numa peça (sem arrastar) */
+  onTapToken?: (index: number) => void;
   stripes?: boolean;
   className?: string;
   children?: React.ReactNode;
@@ -87,6 +89,7 @@ export const Pitch = forwardRef<PitchHandle, Props>(function Pitch(props, ref) {
             onMove={props.onMoveToken}
             onRemove={props.onRemoveToken}
             onDrop={props.onDropToken}
+            onTap={props.onTapToken}
           />
         ))}
         {props.children}
@@ -96,8 +99,9 @@ export const Pitch = forwardRef<PitchHandle, Props>(function Pitch(props, ref) {
 });
 
 function TokenView({
-  index, item, vertical, disabled, toCanon, onMove, onRemove, onDrop,
+  index, item, vertical, disabled, toCanon, onMove, onRemove, onDrop, onTap,
 }: {
+  onTap?: (index: number) => void;
   index: number;
   item: TokenRender;
   vertical: boolean;
@@ -109,6 +113,20 @@ function TokenView({
 }) {
   const [dragging, setDragging] = useState(false);
   const drag = useRef<{ moved: boolean; timer: number; sx: number; sy: number } | null>(null);
+  const tapTimer = useRef<number | null>(null);
+  // um toque = onTap (com atraso para não confundir com o duplo); dois toques = remover
+  const tap = () => {
+    if (tapTimer.current) {
+      clearTimeout(tapTimer.current);
+      tapTimer.current = null;
+      onRemove(index);
+      return;
+    }
+    tapTimer.current = window.setTimeout(() => {
+      tapTimer.current = null;
+      onTap?.(index);
+    }, 260);
+  };
   const { token } = item;
   const left = vertical ? token.v : token.u;
   const top = vertical ? 1 - token.u : token.v;
@@ -144,7 +162,7 @@ function TokenView({
     setDragging(false);
     if (!d) return;
     clearTimeout(d.timer);
-    if (!d.moved) return;
+    if (!d.moved) return tap();
     const p = toCanon(e.clientX, e.clientY, 0.02);
     if (!p) onRemove(index); // soltou fora do campo: volta ao painel
     else onDrop(index, p);
@@ -163,6 +181,9 @@ function TokenView({
     } else if (e.key === "Delete" || e.key === "Backspace") {
       e.preventDefault();
       onRemove(index);
+    } else if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      onTap?.(index);
     }
   };
 
@@ -178,7 +199,6 @@ function TokenView({
         drag.current = null;
         setDragging(false);
       }}
-      onDoubleClick={() => onRemove(index)}
       onKeyDown={onKeyDown}
       tabIndex={0}
       role="button"

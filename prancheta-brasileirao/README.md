@@ -22,6 +22,24 @@ npm run dev
 | `/{slug}` | Prancheta do clube (ex.: `/vasco`). Escalação compartilhada vem em `#s=...` |
 | `/{slug}/live` | Modo Live para OBS: `?bg=grass\|solid\|chroma\|transparent&ratio=16x9\|9x16&size=P\|M\|G&safe=1&creator=@handle&ui=0&score=1` |
 | `/creator` | Página para influenciadores: gerador de URL do OBS, atalhos e aviso de imagens |
+| `/admin` | Painel com login: editar nome, número, posição principal, 2 alternativas, ocultar e marcar revisado, por clube; editar nome e cores do clube; trocar senha; exportar backup |
+
+## Posições: principal + 2 alternativas
+
+Cada jogador tem uma posição principal e até duas alternativas. Na prancheta, **um clique** no jogador em campo abre um seletor para escolher em que posição ele joga naquela escalação (o selo na peça mostra a escolha); **dois cliques** tiram do campo. As formações automáticas usam as alternativas para encaixar o jogador.
+
+De onde vêm as posições, em ordem de prioridade:
+
+1. **Painel admin** (`/admin`): grava no Vercel Blob privado e vale na hora, sem deploy. Indexado pelo id do jogador na API-Football, então acompanha o jogador entre temporadas e clubes.
+2. **Overrides do repositório** (`data/overrides/{slug}.json`): correções manuais e o rascunho da pesquisa (`"draft": true`).
+3. **TheSportsDB** e, por último, a **API-Football** (só GOL/ZAG/MEI/ATA).
+
+O rascunho veio da Wikipédia (fichas dos jogadores, pt e en), guardado em `data/research/{slug}.json` e convertido por `npm run import:research`. A importação nunca sobrescreve um override manual.
+
+## Admin
+
+- Login padrão: usuário e senha nas variáveis de ambiente da Vercel `ADMIN_USER` / `ADMIN_PASSWORD`. Depois de trocar a senha no painel, vale a nova (hash scrypt no Blob privado). `ADMIN_SECRET` assina o cookie da sessão (7 dias).
+- Local: `npm run dev` atende `/api/*` com os mesmos arquivos de `api/`, guardando em `.cache/admin-store`. Senha local: `prancheta-dev`.
 
 Atalhos: `1`–`6` formações, `D` desenhar, `E` apagar desenhos, `C` limpar campo, `H` esconder controles, `S` lista de substituições, `Ctrl+Z` desfazer.
 

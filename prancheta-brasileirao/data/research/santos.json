@@ -1,0 +1,253 @@
+{
+ "club": "santos",
+ "template": "en_Santos_FC_squad.html",
+ "lang": "en",
+ "players": [
+  {
+   "number": 1,
+   "title": "Diógenes (footballer, born 2001)",
+   "label": "Diógenes",
+   "positions_raw": "Goalkeeper"
+  },
+  {
+   "number": 3,
+   "title": "Vinicius Lira",
+   "label": "V. Lira",
+   "positions_raw": "Left-back"
+  },
+  {
+   "number": 4,
+   "title": "Lucas Veríssimo",
+   "label": "L. Veríssimo",
+   "positions_raw": "Centre-back"
+  },
+  {
+   "number": 5,
+   "title": "João Schmidt",
+   "label": "J. Schmidt",
+   "positions_raw": "Defensive midfielder"
+  },
+  {
+   "number": 6,
+   "title": "Arthur Melo",
+   "label": "Arthur",
+   "positions_raw": "Midfielder"
+  },
+  {
+   "number": 7,
+   "title": "Everton Soares",
+   "label": "Everton",
+   "positions_raw": "Winger / Forward"
+  },
+  {
+   "number": 8,
+   "title": "Gabriel Bontempo",
+   "label": "G. Bontempo",
+   "positions_raw": "Attacking midfielder"
+  },
+  {
+   "number": 9,
+   "title": "Gabriel Barbosa",
+   "label": "Gabriel B.",
+   "positions_raw": "Striker"
+  },
+  {
+   "number": 10,
+   "title": "Neymar",
+   "label": "Neymar Jr.",
+   "positions_raw": "Attacking midfielder, forward"
+  },
+  {
+   "number": 11,
+   "title": "Philippe Coutinho",
+   "label": "Coutinho",
+   "positions_raw": "Attacking midfielder"
+  },
+  {
+   "number": 14,
+   "title": "Luan Peres",
+   "label": "Luan Peres",
+   "positions_raw": "Centre-back, left-back"
+  },
+  {
+   "number": 15,
+   "title": "Willian Arão",
+   "label": "Willian Arão",
+   "positions_raw": "Defensive midfielder"
+  },
+  {
+   "number": 16,
+   "title": "Thaciano",
+   "label": "Thaciano",
+   "positions_raw": "Midfielder, forward"
+  },
+  {
+   "number": 17,
+   "title": "Gustavo Caballero",
+   "label": "Caballero",
+   "positions_raw": "Winger"
+  },
+  {
+   "number": 18,
+   "title": "Igor Vinícius",
+   "label": "Igor V.",
+   "positions_raw": "Right-back"
+  },
+  {
+   "number": 20,
+   "title": "Pepê Fermino",
+   "label": "Pepê Fermino",
+   "positions_raw": "Midfielder"
+  },
+  {
+   "number": 21,
+   "title": "Moisés (footballer, born 1996)",
+   "label": "Moisés",
+   "positions_raw": "Winger"
+  },
+  {
+   "number": 22,
+   "title": "Álvaro Barreal",
+   "label": "Barreal",
+   "positions_raw": "Winger"
+  },
+  {
+   "number": 23,
+   "title": "Rodinei",
+   "label": "Rodinei",
+   "positions_raw": "Right-back"
+  },
+  {
+   "number": 25,
+   "title": "Gabriel Menino",
+   "label": "G. Menino",
+   "positions_raw": "Right-back, midfielder"
+  },
+  {
+   "number": 26,
+   "title": "João Ananias (footballer, born 2007)",
+   "label": "J. Ananias",
+   "positions_raw": "Centre-back"
+  },
+  {
+   "number": 27,
+   "title": "Davi Fernandes",
+   "label": "Davi F.",
+   "positions_raw": "Right-back, winger"
+  },
+  {
+   "number": 28,
+   "title": "Christian Oliva",
+   "label": "Oliva",
+   "positions_raw": "Defensive midfielder"
+  },
+  {
+   "number": 30,
+   "title": "Miguel Terceros",
+   "label": "Miguelito",
+   "positions_raw": "Attacking midfielder, winger"
+  },
+  {
+   "number": 31,
+   "title": "Gonzalo Escobar (footballer)",
+   "label": "Escobar",
+   "positions_raw": "Left-back"
+  },
+  {
+   "number": 32,
+   "title": "Benjamín Rollheiser",
+   "label": "Rollheiser",
+   "positions_raw": "Attacking Midfielder, Winger"
+  },
+  {
+   "number": 33,
+   "title": "Rony (footballer)",
+   "label": "Rony",
+   "positions_raw": "Forward"
+  },
+  {
+   "number": 34,
+   "title": "João Paulo (footballer, born 1995)",
+   "label": "João Paulo",
+   "positions_raw": "Goalkeeper"
+  },
+  {
+   "number": 38,
+   "title": "Rafael Gonzaga",
+   "label": "Rafael G.",
+   "positions_raw": "Left-back"
+  },
+  {
+   "number": 39,
+   "title": "Pedro Assis",
+   "label": "Pedro Assis",
+   "positions_raw": "Forward"
+  },
+  {
+   "number": 42,
+   "title": "João Alencar",
+   "label": "Alencar",
+   "positions_raw": "Centre-back"
+  },
+  {
+   "number": 45,
+   "title": "Lima (footballer, born 1996)",
+   "label": "Lima",
+   "positions_raw": "Attacking midfielder"
+  },
+  {
+   "number": 47,
+   "title": "Mateus Xavier",
+   "label": "M. Xavier",
+   "positions_raw": "Winger"
+  },
+  {
+   "number": 48,
+   "title": "Gustavo Henrique (footballer, born 2005)",
+   "label": "Gustavo H.",
+   "positions_raw": "Defensive midfielder"
+  },
+  {
+   "number": 55,
+   "title": "Fernando Pradella",
+   "label": "Pradella",
+   "positions_raw": "Forward"
+  },
+  {
+   "number": 67,
+   "title": "Rodrigo Falcão",
+   "label": "R. Falcão",
+   "positions_raw": "Goalkeeper"
+  },
+  {
+   "number": 57,
+   "title": "Nadson (footballer, born 2009)",
+   "label": "Nadson J.",
+   "positions_raw": "Winger"
+  },
+  {
+   "number": 76,
+   "title": "Vinicius Freitas Fabri",
+   "label": "Fabri",
+   "positions_raw": null
+  },
+  {
+   "number": 77,
+   "title": "Gabriel Brazão",
+   "label": "G. Brazão",
+   "positions_raw": "Goalkeeper"
+  },
+  {
+   "number": 79,
+   "title": "João Pedro (footballer, born 2008)",
+   "label": "João Pedro",
+   "positions_raw": "Goalkeeper"
+  },
+  {
+   "number": 81,
+   "title": "Samuel Pierri",
+   "label": "S. Pierri",
+   "positions_raw": "Midfielder"
+  }
+ ]
+}

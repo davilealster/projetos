@@ -1,0 +1,108 @@
+{
+ "club": "Coritiba Foot Ball Club",
+ "template": "Predefinição:Elenco Coritiba FBC",
+ "players": [
+  {
+   "number": 1,
+   "title": "Pedro Morisco",
+   "label": "Pedro Morisco",
+   "positions_raw": "goleiro"
+  },
+  {
+   "number": 2,
+   "title": "Guilherme de Jesus da Silva",
+   "label": "Tinga",
+   "positions_raw": "lateral-direito e zagueiro"
+  },
+  {
+   "number": 3,
+   "title": "Maicon Pereira Roque",
+   "label": "Maicon",
+   "positions_raw": "zagueiro"
+  },
+  {
+   "number": 4,
+   "title": "Rodrigo Moledo",
+   "label": "Moledo",
+   "positions_raw": "zagueiro"
+  },
+  {
+   "number": 6,
+   "title": "Joaquín Lavega",
+   "label": "Lavega",
+   "positions_raw": "atacante"
+  },
+  {
+   "number": 8,
+   "title": "Josué Filipe Soares Pesqueira",
+   "label": "Josué",
+   "positions_raw": "médio-ofensivo"
+  },
+  {
+   "number": 11,
+   "title": "Lucas Ronier",
+   "label": "Lucas Ronier",
+   "positions_raw": "atacante"
+  },
+  {
+   "number": 13,
+   "title": "Fabricio Bustos",
+   "label": "Bustos",
+   "positions_raw": "lateral-direto"
+  },
+  {
+   "number": 16,
+   "title": "Sebastián Gómez",
+   "label": "Gómez",
+   "positions_raw": "meio-campista"
+  },
+  {
+   "number": 20,
+   "title": "Keno (futebolista)",
+   "label": "Keno",
+   "positions_raw": "ponta-esquerda"
+  },
+  {
+   "number": 21,
+   "title": "Thiago Santos (futebolista)",
+   "label": "Thiago Santos",
+   "positions_raw": "volante e zagueiro"
+  },
+  {
+   "number": 22,
+   "title": "Pedro Rangel (futebolista)",
+   "label": "Pedro Rangel",
+   "positions_raw": "Goleiro"
+  },
+  {
+   "number": 23,
+   "title": "Richard Candido Coelho",
+   "label": "Richard",
+   "positions_raw": "volante"
+  },
+  {
+   "number": 26,
+   "title": "Bruno Melo",
+   "label": "Bruno Melo",
+   "positions_raw": "Zagueiro e Lateral-esquerdo"
+  },
+  {
+   "number": 28,
+   "title": "Pedro Rocha Neves",
+   "label": "Pedro Rocha",
+   "positions_raw": "atacante"
+  },
+  {
+   "number": 36,
+   "title": "Jacy",
+   "label": "Jacy",
+   "positions_raw": "zagueiro"
+  },
+  {
+   "number": 67,
+   "title": "Breno Lopes",
+   "label": "Breno Lopes",
+   "positions_raw": "Atacante"
+  }
+ ]
+}

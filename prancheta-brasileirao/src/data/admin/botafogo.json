@@ -1,0 +1,598 @@
+{
+  "slug": "botafogo",
+  "updatedAt": "2026-11-06",
+  "players": [
+    {
+      "id": 10152,
+      "apiName": "Gabriel Batista",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 12,
+      "photo": "/players/botafogo/10152.webp",
+      "name": "Gabriel Batista",
+      "number": 12,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 80367,
+      "apiName": "Warleson",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 17,
+      "photo": "/players/botafogo/80367.webp",
+      "name": "Warleson",
+      "number": 17,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 458374,
+      "apiName": "Rhyan",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 32,
+      "photo": "/players/botafogo/458374.webp",
+      "name": "Rhyan",
+      "number": 32,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 668274,
+      "apiName": "Cleber",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 62,
+      "photo": null,
+      "name": "Cleber",
+      "number": 62,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 304686,
+      "apiName": "Arthur Chaves",
+      "apiPos": "Defender",
+      "apiNumber": 3,
+      "photo": "/players/botafogo/304686.webp",
+      "name": "Arthur Chaves",
+      "number": 3,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: zagueiro"
+    },
+    {
+      "id": 2440,
+      "apiName": "N. Ferraresi",
+      "apiPos": "Defender",
+      "apiNumber": 5,
+      "photo": "/players/botafogo/2440.webp",
+      "name": "Nahuel Ferraresi",
+      "number": 5,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: zagueiro"
+    },
+    {
+      "id": 454519,
+      "apiName": "Anthony",
+      "apiPos": "Defender",
+      "apiNumber": 26,
+      "photo": "/players/botafogo/454519.webp",
+      "name": "Anthony",
+      "number": 26,
+      "pos": "ZAG",
+      "alt": [],
+      "hidden": false,
+      "source": "sportsdb",
+      "note": "Defender"
+    },
+    {
+      "id": 265954,
+      "apiName": "L. Monzón",
+      "apiPos": "Defender",
+      "apiNumber": 33,
+      "photo": "/players/botafogo/265954.webp",
+      "name": "L. Monzón",
+      "number": 33,
+      "pos": "ZAG",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 544707,
+      "apiName": "G. Justino",
+      "apiPos": "Defender",
+      "apiNumber": 34,
+      "photo": null,
+      "name": "G. Justino",
+      "number": 34,
+      "pos": "ZAG",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 561346,
+      "apiName": "Gabriel Abdias",
+      "apiPos": "Defender",
+      "apiNumber": 36,
+      "photo": null,
+      "name": "Gabriel Abdias",
+      "number": 36,
+      "pos": "ZAG",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 613321,
+      "apiName": "Kadu Santos",
+      "apiPos": "Defender",
+      "apiNumber": 42,
+      "photo": null,
+      "name": "Kadu Santos",
+      "number": 42,
+      "pos": "ZAG",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 668275,
+      "apiName": "Garcia da Silva Neves Herick",
+      "apiPos": "Defender",
+      "apiNumber": 63,
+      "photo": null,
+      "name": "Garcia da Silva Neves Herick",
+      "number": 63,
+      "pos": "ZAG",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 8661,
+      "apiName": "Vitinho",
+      "apiPos": "Midfielder",
+      "apiNumber": 2,
+      "photo": "/players/botafogo/8661.webp",
+      "name": "Vitinho",
+      "number": 2,
+      "pos": "LD",
+      "alt": [
+        "ZAG",
+        "LE"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: lateral-direito"
+    },
+    {
+      "id": 297687,
+      "apiName": "M. Ponte",
+      "apiPos": "Defender",
+      "apiNumber": 4,
+      "photo": "/players/botafogo/297687.webp",
+      "name": "Mateo Ponte",
+      "number": 4,
+      "pos": "LD",
+      "alt": [
+        "ZAG",
+        "LE"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: lateral-direito"
+    },
+    {
+      "id": 378,
+      "apiName": "Alex Telles",
+      "apiPos": "Defender",
+      "apiNumber": 13,
+      "photo": "/players/botafogo/378.webp",
+      "name": "Alex Telles",
+      "number": 13,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: lateral-esquerdo"
+    },
+    {
+      "id": 652,
+      "apiName": "Marçal",
+      "apiPos": "Defender",
+      "apiNumber": 21,
+      "photo": "/players/botafogo/652.webp",
+      "name": "Marçal",
+      "number": 21,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: lateral-esquerdo"
+    },
+    {
+      "id": 10016,
+      "apiName": "Paulinho",
+      "apiPos": "Midfielder",
+      "apiNumber": 29,
+      "photo": "/players/botafogo/10016.webp",
+      "name": "Paulinho",
+      "number": 29,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: lateral-esquerdo"
+    },
+    {
+      "id": 275170,
+      "apiName": "Danilo Santos",
+      "apiPos": "Midfielder",
+      "apiNumber": 8,
+      "photo": "/players/botafogo/275170.webp",
+      "name": "Danilo Santos",
+      "number": 8,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: volante"
+    },
+    {
+      "id": 326,
+      "apiName": "Allan",
+      "apiPos": "Midfielder",
+      "apiNumber": 25,
+      "photo": "/players/botafogo/326.webp",
+      "name": "Allan",
+      "number": 25,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: volante"
+    },
+    {
+      "id": 10387,
+      "apiName": "Edenílson",
+      "apiPos": "Midfielder",
+      "apiNumber": 88,
+      "photo": "/players/botafogo/10387.webp",
+      "name": "Edenílson",
+      "number": 88,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: volante"
+    },
+    {
+      "id": 237186,
+      "apiName": "C. Medina",
+      "apiPos": "Midfielder",
+      "apiNumber": 6,
+      "photo": "/players/botafogo/237186.webp",
+      "name": "Cristian Medina",
+      "number": 6,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: meio-campista"
+    },
+    {
+      "id": 455130,
+      "apiName": "Álvaro Montoro",
+      "apiPos": "Midfielder",
+      "apiNumber": 10,
+      "photo": "/players/botafogo/455130.webp",
+      "name": "Álvaro Montoro",
+      "number": 10,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: meia-atacante"
+    },
+    {
+      "id": 506276,
+      "apiName": "Caio Valle",
+      "apiPos": "Midfielder",
+      "apiNumber": 10,
+      "photo": "/players/botafogo/506276.webp",
+      "name": "Caio Valle",
+      "number": 10,
+      "pos": "MEI",
+      "alt": [],
+      "hidden": false,
+      "source": "sportsdb",
+      "note": "Midfielder"
+    },
+    {
+      "id": 410843,
+      "apiName": "J. Barrera",
+      "apiPos": "Midfielder",
+      "apiNumber": 14,
+      "photo": "/players/botafogo/410843.webp",
+      "name": "Jordan Barrera",
+      "number": 14,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Meia-atacante"
+    },
+    {
+      "id": 463987,
+      "apiName": "Wallace II",
+      "apiPos": "Midfielder",
+      "apiNumber": 15,
+      "photo": "/players/botafogo/463987.webp",
+      "name": "Wallace II",
+      "number": 15,
+      "pos": "MEI",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 548,
+      "apiName": "H. Ziyech",
+      "apiPos": "Midfielder",
+      "apiNumber": 22,
+      "photo": "/players/botafogo/548.webp",
+      "name": "Hakim Ziyech",
+      "number": 22,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Meia-atacante"
+    },
+    {
+      "id": 668276,
+      "apiName": "Hugo Goncalves dos Santos Victor",
+      "apiPos": "Midfielder",
+      "apiNumber": 38,
+      "photo": null,
+      "name": "Hugo Goncalves dos Santos Victor",
+      "number": 38,
+      "pos": "MEI",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 413140,
+      "apiName": "Kauan Toledo",
+      "apiPos": "Midfielder",
+      "apiNumber": 59,
+      "photo": "/players/botafogo/413140.webp",
+      "name": "Kauan Toledo",
+      "number": 59,
+      "pos": "MEI",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 505409,
+      "apiName": "Huguinho",
+      "apiPos": "Midfielder",
+      "apiNumber": 75,
+      "photo": "/players/botafogo/505409.webp",
+      "name": "Huguinho",
+      "number": 75,
+      "pos": "MEI",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 237165,
+      "apiName": "Domingos Andrade",
+      "apiPos": "Midfielder",
+      "apiNumber": 91,
+      "photo": null,
+      "name": "Domingos Andrade",
+      "number": 91,
+      "pos": "MEI",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 10432,
+      "apiName": "Júnior Santos",
+      "apiPos": "Attacker",
+      "apiNumber": 7,
+      "photo": "/players/botafogo/10432.webp",
+      "name": "Júnior Santos",
+      "number": 7,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: atacante"
+    },
+    {
+      "id": 390,
+      "apiName": "Tiquinho Soares",
+      "apiPos": "Attacker",
+      "apiNumber": 9,
+      "photo": "/players/botafogo/390.webp",
+      "name": "Tiquinho Soares",
+      "number": 9,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: centroavante"
+    },
+    {
+      "id": 305821,
+      "apiName": "Matheus Martins",
+      "apiPos": "Attacker",
+      "apiNumber": 11,
+      "photo": "/players/botafogo/305821.webp",
+      "name": "Matheus Martins",
+      "number": 11,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Atacante"
+    },
+    {
+      "id": 9938,
+      "apiName": "Arthur Cabral",
+      "apiPos": "Attacker",
+      "apiNumber": 19,
+      "photo": "/players/botafogo/9938.webp",
+      "name": "Arthur Cabral",
+      "number": 19,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: centroavante"
+    },
+    {
+      "id": 544681,
+      "apiName": "K. Barria",
+      "apiPos": "Attacker",
+      "apiNumber": 37,
+      "photo": null,
+      "name": "Kadir Barría",
+      "number": 37,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: atacante"
+    },
+    {
+      "id": 308798,
+      "apiName": "L. Villalba",
+      "apiPos": "Attacker",
+      "apiNumber": 77,
+      "photo": "/players/botafogo/308798.webp",
+      "name": "L. Villalba",
+      "number": 77,
+      "pos": "ATA",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 668278,
+      "apiName": "Lucas Emanuel",
+      "apiPos": "Attacker",
+      "apiNumber": 79,
+      "photo": null,
+      "name": "Lucas Emanuel",
+      "number": 79,
+      "pos": "ATA",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 553,
+      "apiName": "Danilo",
+      "apiPos": "Attacker",
+      "apiNumber": 90,
+      "photo": "/players/botafogo/553.webp",
+      "name": "Danilo",
+      "number": 90,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: atacante"
+    }
+  ]
+}

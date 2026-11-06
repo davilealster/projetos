@@ -32,10 +32,21 @@
       "photo": "/players/palmeiras/10372.webp"
     },
     {
+      "id": 31353,
+      "name": "Bruno",
+      "number": 21,
+      "pos": "GOL",
+      "photo": "/players/palmeiras/31353.webp"
+    },
+    {
       "id": 5933,
       "name": "Alexander Barboza",
       "number": 2,
       "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
       "photo": "/players/palmeiras/5933.webp"
     },
     {
@@ -43,14 +54,11 @@
       "name": "Bruno Fuchs",
       "number": 3,
       "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
       "photo": "/players/palmeiras/10379.webp"
-    },
-    {
-      "id": 306706,
-      "name": "Agustín Giay",
-      "number": 4,
-      "pos": "ZAG",
-      "photo": "/players/palmeiras/306706.webp"
     },
     {
       "id": 646348,
@@ -60,13 +68,6 @@
       "photo": null
     },
     {
-      "id": 311384,
-      "name": "Jefté",
-      "number": 6,
-      "pos": "ZAG",
-      "photo": "/players/palmeiras/311384.webp"
-    },
-    {
       "id": 630907,
       "name": "Lucas Andre",
       "number": 6,
@@ -74,31 +75,25 @@
       "photo": null
     },
     {
-      "id": 10125,
-      "name": "Khellven",
-      "number": 12,
-      "pos": "ZAG",
-      "photo": "/players/palmeiras/10125.webp"
-    },
-    {
       "id": 2502,
-      "name": "G. Gómez",
+      "name": "Gustavo Gómez",
       "number": 15,
       "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
       "photo": "/players/palmeiras/2502.webp"
-    },
-    {
-      "id": 31353,
-      "name": "Bruno",
-      "number": 21,
-      "pos": "ZAG",
-      "photo": "/players/palmeiras/31353.webp"
     },
     {
       "id": 10083,
       "name": "Murilo",
       "number": 26,
       "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
       "photo": "/players/palmeiras/10083.webp"
     },
     {
@@ -109,18 +104,70 @@
       "photo": "/players/palmeiras/415068.webp"
     },
     {
+      "id": 306706,
+      "name": "Agustín Giay",
+      "number": 4,
+      "pos": "LD",
+      "alt": [
+        "ZAG",
+        "LE"
+      ],
+      "photo": "/players/palmeiras/306706.webp"
+    },
+    {
+      "id": 10125,
+      "name": "Khellven",
+      "number": 12,
+      "pos": "LD",
+      "alt": [
+        "ZAG",
+        "LE"
+      ],
+      "photo": "/players/palmeiras/10125.webp"
+    },
+    {
+      "id": 311384,
+      "name": "Jefté",
+      "number": 6,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "photo": "/players/palmeiras/311384.webp"
+    },
+    {
+      "id": 51466,
+      "name": "Joaquín Piquerez",
+      "number": 22,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "photo": "/players/palmeiras/51466.webp"
+    },
+    {
       "id": 425715,
       "name": "Arthur",
       "number": 56,
-      "pos": "ZAG",
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
       "photo": "/players/palmeiras/425715.webp"
     },
     {
-      "id": 153083,
-      "name": "Emiliano Martínez",
-      "number": 32,
+      "id": 9218,
+      "name": "Marlon Freitas",
+      "number": 17,
       "pos": "VOL",
-      "photo": "/players/palmeiras/153083.webp"
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "photo": "/players/palmeiras/9218.webp"
     },
     {
       "id": 464021,
@@ -134,6 +181,10 @@
       "name": "Felipe Anderson",
       "number": 7,
       "pos": "MEI",
+      "alt": [
+        "PON",
+        "VOL"
+      ],
       "photo": "/players/palmeiras/2412.webp"
     },
     {
@@ -141,49 +192,55 @@
       "name": "Andreas Pereira",
       "number": 8,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": "/players/palmeiras/899.webp"
     },
     {
       "id": 13708,
-      "name": "J. Arias",
+      "name": "Jhon Arias",
       "number": 11,
       "pos": "MEI",
+      "alt": [
+        "PON",
+        "VOL"
+      ],
       "photo": "/players/palmeiras/13708.webp"
-    },
-    {
-      "id": 9218,
-      "name": "Marlon Freitas",
-      "number": 17,
-      "pos": "MEI",
-      "photo": "/players/palmeiras/9218.webp"
     },
     {
       "id": 106485,
       "name": "Maurício",
       "number": 18,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": "/players/palmeiras/106485.webp"
-    },
-    {
-      "id": 196298,
-      "name": "R. Sosa",
-      "number": 19,
-      "pos": "MEI",
-      "photo": "/players/palmeiras/196298.webp"
-    },
-    {
-      "id": 51466,
-      "name": "J. Piquerez",
-      "number": 22,
-      "pos": "MEI",
-      "photo": "/players/palmeiras/51466.webp"
     },
     {
       "id": 21095,
       "name": "Lucas Evangelista",
       "number": 30,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": "/players/palmeiras/21095.webp"
+    },
+    {
+      "id": 153083,
+      "name": "Emiliano Martínez",
+      "number": 32,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "photo": "/players/palmeiras/153083.webp"
     },
     {
       "id": 512522,
@@ -211,6 +268,10 @@
       "name": "Vitor Roque",
       "number": 9,
       "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
       "photo": "/players/palmeiras/340279.webp"
     },
     {
@@ -218,7 +279,22 @@
       "name": "Paulinho",
       "number": 10,
       "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
       "photo": "/players/palmeiras/987.webp"
+    },
+    {
+      "id": 196298,
+      "name": "Ramón Sosa",
+      "number": 19,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "photo": "/players/palmeiras/196298.webp"
     },
     {
       "id": 570417,
@@ -250,9 +326,13 @@
     },
     {
       "id": 295513,
-      "name": "J. López",
+      "name": "Flaco López",
       "number": 42,
       "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
       "photo": "/players/palmeiras/295513.webp"
     }
   ]

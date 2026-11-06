@@ -1,1 +1,332 @@
-{}
+{
+  "71": {
+    "pos": "ZAG",
+    "alt": [
+      "LE",
+      "VOL"
+    ],
+    "draft": true,
+    "source": "wikipedia: Centre-back, left-back"
+  },
+  "147": {
+    "pos": "MEI",
+    "alt": [
+      "VOL",
+      "PON"
+    ],
+    "draft": true,
+    "source": "wikipedia: Attacking midfielder"
+  },
+  "150": {
+    "pos": "MEI",
+    "alt": [
+      "VOL",
+      "PON"
+    ],
+    "draft": true,
+    "source": "wikipedia: Midfielder"
+  },
+  "276": {
+    "pos": "MEI",
+    "alt": [
+      "ATA",
+      "VOL"
+    ],
+    "draft": true,
+    "source": "wikipedia: Attacking midfielder, forward"
+  },
+  "2414": {
+    "pos": "PON",
+    "alt": [
+      "ATA",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: Winger / Forward"
+  },
+  "6052": {
+    "pos": "PON",
+    "alt": [
+      "ATA",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: Winger",
+    "displayName": "Álvaro Barreal"
+  },
+  "6637": {
+    "pos": "LE",
+    "alt": [
+      "ZAG",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: Left-back",
+    "displayName": "Gonzalo Escobar"
+  },
+  "9949": {
+    "pos": "LD",
+    "alt": [
+      "ZAG",
+      "LE"
+    ],
+    "draft": true,
+    "source": "wikipedia: Right-back"
+  },
+  "9979": {
+    "pos": "GOL",
+    "alt": [],
+    "draft": true,
+    "source": "wikipedia: Goalkeeper"
+  },
+  "9991": {
+    "pos": "ZAG",
+    "alt": [
+      "VOL",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: Centre-back"
+  },
+  "10143": {
+    "pos": "ATA",
+    "alt": [
+      "PON",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: Forward"
+  },
+  "10157": {
+    "pos": "LD",
+    "alt": [
+      "ZAG",
+      "LE"
+    ],
+    "draft": true,
+    "source": "wikipedia: Right-back"
+  },
+  "10173": {
+    "pos": "VOL",
+    "alt": [
+      "MEI",
+      "ZAG"
+    ],
+    "draft": true,
+    "source": "wikipedia: Defensive midfielder"
+  },
+  "10174": {
+    "pos": "ATA",
+    "alt": [
+      "PON",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: Striker"
+  },
+  "10492": {
+    "pos": "MEI",
+    "alt": [
+      "ATA",
+      "VOL"
+    ],
+    "draft": true,
+    "source": "wikipedia: Midfielder, forward"
+  },
+  "30568": {
+    "pos": "VOL",
+    "alt": [
+      "MEI",
+      "ZAG"
+    ],
+    "draft": true,
+    "source": "wikipedia: Defensive midfielder",
+    "displayName": "Christian Oliva"
+  },
+  "31007": {
+    "pos": "GOL",
+    "alt": [],
+    "draft": true,
+    "source": "wikipedia: Goalkeeper"
+  },
+  "32901": {
+    "pos": "VOL",
+    "alt": [
+      "MEI",
+      "ZAG"
+    ],
+    "draft": true,
+    "source": "wikipedia: Defensive midfielder"
+  },
+  "50532": {
+    "pos": "MEI",
+    "alt": [
+      "VOL",
+      "PON"
+    ],
+    "draft": true,
+    "source": "wikipedia: Attacking midfielder"
+  },
+  "119128": {
+    "pos": "PON",
+    "alt": [
+      "ATA",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: Winger",
+    "displayName": "Gustavo Caballero"
+  },
+  "119485": {
+    "pos": "MEI",
+    "alt": [
+      "PON",
+      "VOL"
+    ],
+    "draft": true,
+    "source": "wikipedia: Attacking Midfielder, Winger",
+    "displayName": "Benjamín Rollheiser"
+  },
+  "153454": {
+    "pos": "PON",
+    "alt": [
+      "ATA",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: Winger"
+  },
+  "195111": {
+    "pos": "LD",
+    "alt": [
+      "MEI",
+      "ZAG"
+    ],
+    "draft": true,
+    "source": "wikipedia: Right-back, midfielder"
+  },
+  "321454": {
+    "pos": "GOL",
+    "alt": [],
+    "draft": true,
+    "source": "wikipedia: Goalkeeper"
+  },
+  "345756": {
+    "pos": "MEI",
+    "alt": [
+      "PON",
+      "VOL"
+    ],
+    "draft": true,
+    "source": "wikipedia: Attacking midfielder, winger",
+    "displayName": "Miguel Terceros"
+  },
+  "474261": {
+    "pos": "PON",
+    "alt": [
+      "ATA",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: Winger"
+  },
+  "506275": {
+    "pos": "MEI",
+    "alt": [
+      "VOL",
+      "PON"
+    ],
+    "draft": true,
+    "source": "wikipedia: Attacking midfielder"
+  },
+  "506480": {
+    "pos": "VOL",
+    "alt": [
+      "MEI",
+      "ZAG"
+    ],
+    "draft": true,
+    "source": "wikipedia: Defensive midfielder"
+  },
+  "522702": {
+    "pos": "ZAG",
+    "alt": [
+      "VOL",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: Centre-back"
+  },
+  "527683": {
+    "pos": "ZAG",
+    "alt": [
+      "VOL",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: Centre-back"
+  },
+  "609501": {
+    "pos": "PON",
+    "alt": [
+      "ATA",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: Winger"
+  },
+  "609523": {
+    "pos": "MEI",
+    "alt": [
+      "VOL",
+      "PON"
+    ],
+    "draft": true,
+    "source": "wikipedia: Midfielder",
+    "displayName": "Samuel Pierri"
+  },
+  "609540": {
+    "pos": "LE",
+    "alt": [
+      "ZAG",
+      "LD"
+    ],
+    "draft": true,
+    "source": "wikipedia: Left-back"
+  },
+  "609619": {
+    "pos": "LD",
+    "alt": [
+      "PON",
+      "ZAG"
+    ],
+    "draft": true,
+    "source": "wikipedia: Right-back, winger",
+    "displayName": "Davi Fernandes"
+  },
+  "631334": {
+    "pos": "ATA",
+    "alt": [
+      "PON",
+      "MEI"
+    ],
+    "draft": true,
+    "source": "wikipedia: Forward"
+  },
+  "632455": {
+    "pos": "MEI",
+    "alt": [
+      "VOL",
+      "PON"
+    ],
+    "draft": true,
+    "source": "wikipedia: Midfielder",
+    "displayName": "Pepê Fermino"
+  },
+  "653531": {
+    "pos": "GOL",
+    "alt": [],
+    "draft": true,
+    "source": "wikipedia: Goalkeeper"
+  }
+}

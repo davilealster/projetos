@@ -18,6 +18,13 @@
       "photo": "/players/athletico-pr/321646.webp"
     },
     {
+      "id": 10112,
+      "name": "Santos",
+      "number": 23,
+      "pos": "GOL",
+      "photo": "/players/athletico-pr/10112.webp"
+    },
+    {
       "id": 415111,
       "name": "Matheus Soares",
       "number": 42,
@@ -32,17 +39,14 @@
       "photo": null
     },
     {
-      "id": 415066,
-      "name": "Gilberto",
-      "number": 2,
-      "pos": "ZAG",
-      "photo": "/players/athletico-pr/415066.webp"
-    },
-    {
       "id": 9951,
       "name": "Léo",
       "number": 3,
       "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
       "photo": "/players/athletico-pr/9951.webp"
     },
     {
@@ -50,21 +54,11 @@
       "name": "Arthur Dias",
       "number": 4,
       "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
       "photo": "/players/athletico-pr/457420.webp"
-    },
-    {
-      "id": 362716,
-      "name": "Derik",
-      "number": 6,
-      "pos": "ZAG",
-      "photo": "/players/athletico-pr/362716.webp"
-    },
-    {
-      "id": 10305,
-      "name": "Gilberto",
-      "number": 12,
-      "pos": "ZAG",
-      "photo": "/players/athletico-pr/10305.webp"
     },
     {
       "id": 632456,
@@ -78,6 +72,10 @@
       "name": "Carlos Terán",
       "number": 22,
       "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
       "photo": "/players/athletico-pr/13493.webp"
     },
     {
@@ -85,13 +83,21 @@
       "name": "Dantas",
       "number": 25,
       "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
       "photo": "/players/athletico-pr/408987.webp"
     },
     {
       "id": 36258,
-      "name": "J. Aguirre",
+      "name": "Juan Felipe Aguirre",
       "number": 33,
       "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
       "photo": "/players/athletico-pr/36258.webp"
     },
     {
@@ -109,38 +115,113 @@
       "photo": null
     },
     {
-      "id": 10112,
-      "name": "Santos",
-      "number": 23,
+      "id": 415066,
+      "name": "Gilberto",
+      "number": 2,
       "pos": "LD",
-      "photo": "/players/athletico-pr/10112.webp"
+      "alt": [
+        "ZAG",
+        "LE"
+      ],
+      "photo": "/players/athletico-pr/415066.webp"
+    },
+    {
+      "id": 10305,
+      "name": "Gilberto",
+      "number": 12,
+      "pos": "LD",
+      "alt": [
+        "ZAG",
+        "LE"
+      ],
+      "photo": "/players/athletico-pr/10305.webp"
     },
     {
       "id": 58577,
       "name": "Gastón Benavídez",
       "number": 29,
       "pos": "LD",
+      "alt": [
+        "ZAG",
+        "LE"
+      ],
       "photo": "/players/athletico-pr/58577.webp"
+    },
+    {
+      "id": 362716,
+      "name": "Derik",
+      "number": 6,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "photo": "/players/athletico-pr/362716.webp"
     },
     {
       "id": 630991,
       "name": "Claudinho",
       "number": 26,
       "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
       "photo": null
+    },
+    {
+      "id": 288704,
+      "name": "Lucas Esquivel",
+      "number": 37,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "photo": "/players/athletico-pr/288704.webp"
     },
     {
       "id": 140507,
       "name": "Felipinho",
       "number": 5,
-      "pos": "MEI",
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
       "photo": "/players/athletico-pr/140507.webp"
+    },
+    {
+      "id": 1909,
+      "name": "Luiz Gustavo",
+      "number": 14,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "photo": "/players/athletico-pr/1909.webp"
+    },
+    {
+      "id": 10091,
+      "name": "Jádson",
+      "number": 16,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "photo": "/players/athletico-pr/10091.webp"
     },
     {
       "id": 414661,
       "name": "João Cruz",
       "number": 8,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": "/players/athletico-pr/414661.webp"
     },
     {
@@ -148,27 +229,21 @@
       "name": "Bruno Zapelli",
       "number": 10,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": "/players/athletico-pr/152931.webp"
     },
     {
-      "id": 1909,
-      "name": "Luiz Gustavo",
-      "number": 14,
-      "pos": "MEI",
-      "photo": "/players/athletico-pr/1909.webp"
-    },
-    {
-      "id": 10091,
-      "name": "Jádson",
-      "number": 16,
-      "pos": "MEI",
-      "photo": "/players/athletico-pr/10091.webp"
-    },
-    {
       "id": 13669,
-      "name": "A. García",
+      "name": "Alejandro García",
       "number": 20,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": "/players/athletico-pr/13669.webp"
     },
     {
@@ -180,17 +255,14 @@
     },
     {
       "id": 13151,
-      "name": "J. Portilla",
+      "name": "Juan Portilla",
       "number": 27,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": "/players/athletico-pr/13151.webp"
-    },
-    {
-      "id": 288704,
-      "name": "L. Esquivel",
-      "number": 37,
-      "pos": "MEI",
-      "photo": "/players/athletico-pr/288704.webp"
     },
     {
       "id": 653949,
@@ -204,6 +276,10 @@
       "name": "Chiqueti",
       "number": 47,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": null
     },
     {
@@ -211,6 +287,10 @@
       "name": "Dudu",
       "number": 53,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": "/players/athletico-pr/414399.webp"
     },
     {
@@ -218,21 +298,33 @@
       "name": "Diogo Riquelme",
       "number": 63,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": "/players/athletico-pr/457593.webp"
     },
     {
-      "id": 21394,
-      "name": "S. Mendoza",
-      "number": 7,
-      "pos": "ATA",
-      "photo": "/players/athletico-pr/21394.webp"
+      "id": 13198,
+      "name": "Kevin Viveros",
+      "number": 9,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "photo": "/players/athletico-pr/13198.webp"
     },
     {
-      "id": 13198,
-      "name": "K. Viveros",
-      "number": 9,
+      "id": 21394,
+      "name": "Stiven Mendoza",
+      "number": 7,
       "pos": "ATA",
-      "photo": "/players/athletico-pr/13198.webp"
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "photo": "/players/athletico-pr/21394.webp"
     },
     {
       "id": 545020,
@@ -243,9 +335,13 @@
     },
     {
       "id": 323800,
-      "name": "K. Vargas",
+      "name": "Kerwin Vargas",
       "number": 18,
       "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
       "photo": "/players/athletico-pr/323800.webp"
     },
     {
@@ -260,6 +356,10 @@
       "name": "Jorge Luis Rivaldo Pinto",
       "number": 19,
       "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
       "photo": null
     },
     {
@@ -267,6 +367,10 @@
       "name": "Leozinho",
       "number": 21,
       "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
       "photo": "/players/athletico-pr/408145.webp"
     },
     {
@@ -274,6 +378,10 @@
       "name": "Renan",
       "number": 70,
       "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
       "photo": "/players/athletico-pr/195435.webp"
     }
   ]

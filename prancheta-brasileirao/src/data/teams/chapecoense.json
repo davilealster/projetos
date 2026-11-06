@@ -11,6 +11,13 @@
   "updatedAt": "2026-11-06",
   "players": [
     {
+      "id": 9589,
+      "name": "Rafael Santos",
+      "number": 1,
+      "pos": "GOL",
+      "photo": "/players/chapecoense/9589.webp"
+    },
+    {
       "id": 352217,
       "name": "Gabriel Werner",
       "number": 14,
@@ -78,6 +85,10 @@
       "name": "Rafael Thyere",
       "number": 15,
       "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
       "photo": "/players/chapecoense/9560.webp"
     },
     {
@@ -88,23 +99,9 @@
       "photo": null
     },
     {
-      "id": 9468,
-      "name": "Bruno Tubarão",
-      "number": 20,
-      "pos": "ZAG",
-      "photo": "/players/chapecoense/9468.webp"
-    },
-    {
       "id": 352220,
       "name": "Kauan Faria Gomes",
       "number": 21,
-      "pos": "ZAG",
-      "photo": null
-    },
-    {
-      "id": 544973,
-      "name": "Dudu Marques",
-      "number": 23,
       "pos": "ZAG",
       "photo": null
     },
@@ -137,6 +134,17 @@
       "photo": null
     },
     {
+      "id": 544973,
+      "name": "Dudu Marques",
+      "number": 23,
+      "pos": "LD",
+      "alt": [
+        "ZAG",
+        "LE"
+      ],
+      "photo": null
+    },
+    {
       "id": 10192,
       "name": "Bruno Pacheco",
       "number": 91,
@@ -144,18 +152,26 @@
       "photo": "/players/chapecoense/10192.webp"
     },
     {
+      "id": 278496,
+      "name": "Vinicius Balieiro",
+      "number": 17,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "photo": "/players/chapecoense/278496.webp"
+    },
+    {
       "id": 63998,
       "name": "Camilo",
       "number": 27,
       "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
       "photo": "/players/chapecoense/63998.webp"
-    },
-    {
-      "id": 9589,
-      "name": "Rafael Santos",
-      "number": 1,
-      "pos": "MEI",
-      "photo": "/players/chapecoense/9589.webp"
     },
     {
       "id": 632420,
@@ -165,25 +181,15 @@
       "photo": null
     },
     {
-      "id": 10363,
-      "name": "Marcinho",
-      "number": 7,
-      "pos": "MEI",
-      "photo": "/players/chapecoense/10363.webp"
-    },
-    {
       "id": 10356,
       "name": "Giovanni Augusto",
       "number": 10,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": "/players/chapecoense/10356.webp"
-    },
-    {
-      "id": 1432,
-      "name": "Y. Bolasie",
-      "number": 11,
-      "pos": "MEI",
-      "photo": "/players/chapecoense/1432.webp"
     },
     {
       "id": 80626,
@@ -198,13 +204,6 @@
       "number": 17,
       "pos": "MEI",
       "photo": null
-    },
-    {
-      "id": 278496,
-      "name": "Vinicius Balieiro",
-      "number": 17,
-      "pos": "MEI",
-      "photo": "/players/chapecoense/278496.webp"
     },
     {
       "id": 544990,
@@ -250,9 +249,13 @@
     },
     {
       "id": 13771,
-      "name": "D. Borrero",
+      "name": "Dylan Borrero",
       "number": 77,
       "pos": "MEI",
+      "alt": [
+        "PON",
+        "VOL"
+      ],
       "photo": "/players/chapecoense/13771.webp"
     },
     {
@@ -260,6 +263,10 @@
       "name": "Miguel Carvalho",
       "number": 80,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": "/players/chapecoense/337009.webp"
     },
     {
@@ -267,6 +274,10 @@
       "name": "Yago Felipe",
       "number": 88,
       "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
       "photo": "/players/chapecoense/10348.webp"
     },
     {
@@ -275,6 +286,39 @@
       "number": 99,
       "pos": "MEI",
       "photo": "/players/chapecoense/106495.webp"
+    },
+    {
+      "id": 10363,
+      "name": "Marcinho",
+      "number": 7,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "photo": "/players/chapecoense/10363.webp"
+    },
+    {
+      "id": 1432,
+      "name": "Yannick Bolasie",
+      "number": 11,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "photo": "/players/chapecoense/1432.webp"
+    },
+    {
+      "id": 9468,
+      "name": "Bruno Tubarão",
+      "number": 20,
+      "pos": "PON",
+      "alt": [
+        "MEI",
+        "LD"
+      ],
+      "photo": "/players/chapecoense/9468.webp"
     },
     {
       "id": 403060,

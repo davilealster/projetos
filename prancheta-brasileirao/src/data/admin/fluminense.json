@@ -1,0 +1,591 @@
+{
+  "slug": "fluminense",
+  "updatedAt": "2026-11-06",
+  "players": [
+    {
+      "id": 10080,
+      "apiName": "Fábio",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 1,
+      "photo": "/players/fluminense/10080.webp",
+      "name": "Fábio",
+      "number": 1,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Goalkeeper"
+    },
+    {
+      "id": 180866,
+      "apiName": "Marcelo",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 27,
+      "photo": "/players/fluminense/180866.webp",
+      "name": "Marcelo",
+      "number": 27,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Goalkeeper"
+    },
+    {
+      "id": 10079,
+      "apiName": "Vitor Eudes",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 98,
+      "photo": "/players/fluminense/10079.webp",
+      "name": "Vitor Eudes",
+      "number": 98,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Goalkeeper"
+    },
+    {
+      "id": 667869,
+      "apiName": "Gustavo Felix",
+      "apiPos": "Goalkeeper",
+      "apiNumber": null,
+      "photo": null,
+      "name": "Gustavo Felix",
+      "number": null,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 259,
+      "apiName": "Thiago Silva",
+      "apiPos": "Defender",
+      "apiNumber": 3,
+      "photo": "/players/fluminense/259.webp",
+      "name": "Thiago Silva",
+      "number": 3,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Centre-back"
+    },
+    {
+      "id": 10017,
+      "apiName": "Ignacio",
+      "apiPos": "Defender",
+      "apiNumber": 4,
+      "photo": "/players/fluminense/10017.webp",
+      "name": "Ignacio",
+      "number": 4,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Centre-back"
+    },
+    {
+      "id": 9872,
+      "apiName": "Igor Rabello",
+      "apiPos": "Defender",
+      "apiNumber": 21,
+      "photo": "/players/fluminense/9872.webp",
+      "name": "Igor Rabello",
+      "number": 21,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Centre back"
+    },
+    {
+      "id": 6337,
+      "apiName": "J. Freytes",
+      "apiPos": "Defender",
+      "apiNumber": 22,
+      "photo": "/players/fluminense/6337.webp",
+      "name": "Juan Pablo Freytes",
+      "number": 22,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Centre-back"
+    },
+    {
+      "id": 13715,
+      "apiName": "J. Millán",
+      "apiPos": "Defender",
+      "apiNumber": 29,
+      "photo": "/players/fluminense/13715.webp",
+      "name": "Julián Millán",
+      "number": 29,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Centre-back"
+    },
+    {
+      "id": 519811,
+      "apiName": "Vagno",
+      "apiPos": "Defender",
+      "apiNumber": 36,
+      "photo": "/players/fluminense/519811.webp",
+      "name": "Vagno",
+      "number": 36,
+      "pos": "ZAG",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 282692,
+      "apiName": "Jemmes",
+      "apiPos": "Defender",
+      "apiNumber": 44,
+      "photo": "/players/fluminense/282692.webp",
+      "name": "Jemmes",
+      "number": 44,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Centre-back"
+    },
+    {
+      "id": 10267,
+      "apiName": "Samuel Xavier",
+      "apiPos": "Defender",
+      "apiNumber": 2,
+      "photo": "/players/fluminense/10267.webp",
+      "name": "Samuel Xavier",
+      "number": 2,
+      "pos": "LD",
+      "alt": [
+        "ZAG",
+        "LE"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Right back"
+    },
+    {
+      "id": 9874,
+      "apiName": "Guga",
+      "apiPos": "Defender",
+      "apiNumber": 23,
+      "photo": "/players/fluminense/9874.webp",
+      "name": "Guga",
+      "number": 23,
+      "pos": "LD",
+      "alt": [
+        "ZAG",
+        "LE"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Right back"
+    },
+    {
+      "id": 443088,
+      "apiName": "Julio Fidelis",
+      "apiPos": "Defender",
+      "apiNumber": 46,
+      "photo": "/players/fluminense/443088.webp",
+      "name": "Julio Fidelis",
+      "number": 46,
+      "pos": "LD",
+      "alt": [
+        "ZAG",
+        "LE"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Right-back"
+    },
+    {
+      "id": 10163,
+      "apiName": "Renê",
+      "apiPos": "Defender",
+      "apiNumber": 6,
+      "photo": "/players/fluminense/10163.webp",
+      "name": "Renê",
+      "number": 6,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Left back"
+    },
+    {
+      "id": 2038,
+      "apiName": "Guilherme Arana",
+      "apiPos": "Defender",
+      "apiNumber": 13,
+      "photo": "/players/fluminense/2038.webp",
+      "name": "Guilherme Arana",
+      "number": 13,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Left-back"
+    },
+    {
+      "id": 1262,
+      "apiName": "Otávio",
+      "apiPos": "Midfielder",
+      "apiNumber": 94,
+      "photo": "/players/fluminense/1262.webp",
+      "name": "Otávio",
+      "number": 94,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Defensive midfielder"
+    },
+    {
+      "id": 280245,
+      "apiName": "Martinelli",
+      "apiPos": "Midfielder",
+      "apiNumber": 8,
+      "photo": "/players/fluminense/280245.webp",
+      "name": "Martinelli",
+      "number": 8,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Midfielder"
+    },
+    {
+      "id": 10311,
+      "apiName": "PH Ganso",
+      "apiPos": "Midfielder",
+      "apiNumber": 10,
+      "photo": "/players/fluminense/10311.webp",
+      "name": "PH Ganso",
+      "number": 10,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Attacking midfielder"
+    },
+    {
+      "id": 51214,
+      "apiName": "J. Savarino",
+      "apiPos": "Midfielder",
+      "apiNumber": 11,
+      "photo": "/players/fluminense/51214.webp",
+      "name": "Jefferson Savarino",
+      "number": 11,
+      "pos": "MEI",
+      "alt": [
+        "PON",
+        "VOL"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Attacking midfielder, winger"
+    },
+    {
+      "id": 10396,
+      "apiName": "Nonato",
+      "apiPos": "Midfielder",
+      "apiNumber": 16,
+      "photo": "/players/fluminense/10396.webp",
+      "name": "Nonato",
+      "number": 16,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Midfielder"
+    },
+    {
+      "id": 51603,
+      "apiName": "A. Canobbio",
+      "apiPos": "Midfielder",
+      "apiNumber": 17,
+      "photo": "/players/fluminense/51603.webp",
+      "name": "Agustín Canobbio",
+      "number": 17,
+      "pos": "MEI",
+      "alt": [
+        "PON",
+        "VOL"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Attacking midfielder, winger"
+    },
+    {
+      "id": 10501,
+      "apiName": "Alisson",
+      "apiPos": "Midfielder",
+      "apiNumber": 25,
+      "photo": "/players/fluminense/10501.webp",
+      "name": "Alisson",
+      "number": 25,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Midfielder"
+    },
+    {
+      "id": 50763,
+      "apiName": "L. Acosta",
+      "apiPos": "Midfielder",
+      "apiNumber": 32,
+      "photo": "/players/fluminense/50763.webp",
+      "name": "Luciano Acosta",
+      "number": 32,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Attacking midfielder"
+    },
+    {
+      "id": 266267,
+      "apiName": "Hércules",
+      "apiPos": "Midfielder",
+      "apiNumber": 35,
+      "photo": "/players/fluminense/266267.webp",
+      "name": "Hércules",
+      "number": 35,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Midfielder"
+    },
+    {
+      "id": 667326,
+      "apiName": "Ruan",
+      "apiPos": "Midfielder",
+      "apiNumber": 41,
+      "photo": null,
+      "name": "Ruan",
+      "number": 41,
+      "pos": "MEI",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 681309,
+      "apiName": "Sales Ruan",
+      "apiPos": "Midfielder",
+      "apiNumber": 41,
+      "photo": null,
+      "name": "Sales Ruan",
+      "number": 41,
+      "pos": "MEI",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 502726,
+      "apiName": "Riquelme",
+      "apiPos": "Midfielder",
+      "apiNumber": 28,
+      "photo": "/players/fluminense/502726.webp",
+      "name": "Riquelme",
+      "number": 28,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Right winger"
+    },
+    {
+      "id": 2454,
+      "apiName": "Y. Soteldo",
+      "apiPos": "Attacker",
+      "apiNumber": 30,
+      "photo": "/players/fluminense/2454.webp",
+      "name": "Yeferson Soteldo",
+      "number": 30,
+      "pos": "PON",
+      "alt": [
+        "MEI",
+        "ATA"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Winger, attacking midfielder"
+    },
+    {
+      "id": 12705,
+      "apiName": "Hulk",
+      "apiPos": "Attacker",
+      "apiNumber": 7,
+      "photo": "/players/fluminense/12705.webp",
+      "name": "Hulk",
+      "number": 7,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Striker"
+    },
+    {
+      "id": 297522,
+      "apiName": "John Kennedy",
+      "apiPos": "Attacker",
+      "apiNumber": 9,
+      "photo": "/players/fluminense/297522.webp",
+      "name": "John Kennedy",
+      "number": 9,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Forward"
+    },
+    {
+      "id": 13523,
+      "apiName": "G. Cano",
+      "apiPos": "Attacker",
+      "apiNumber": 14,
+      "photo": "/players/fluminense/13523.webp",
+      "name": "Germán Cano",
+      "number": 14,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Striker"
+    },
+    {
+      "id": 304048,
+      "apiName": "R. Castillo",
+      "apiPos": "Attacker",
+      "apiNumber": 19,
+      "photo": "/players/fluminense/304048.webp",
+      "name": "Rodrigo Castillo",
+      "number": 19,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Forward"
+    },
+    {
+      "id": 568706,
+      "apiName": "Wesley Nata",
+      "apiPos": "Attacker",
+      "apiNumber": 34,
+      "photo": null,
+      "name": "Wesley Nata",
+      "number": 34,
+      "pos": "ATA",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 519809,
+      "apiName": "Keven Samuel",
+      "apiPos": "Attacker",
+      "apiNumber": 39,
+      "photo": "/players/fluminense/519809.webp",
+      "name": "Keven Samuel",
+      "number": 39,
+      "pos": "ATA",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 70849,
+      "apiName": "K. Serna",
+      "apiPos": "Attacker",
+      "apiNumber": 90,
+      "photo": "/players/fluminense/70849.webp",
+      "name": "Kevin Serna",
+      "number": 90,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: Forward"
+    }
+  ]
+}

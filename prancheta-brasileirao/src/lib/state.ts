@@ -1,4 +1,4 @@
-import type { BoardState, Drawing, DrawTool, Token, TokenKind } from "../types";
+import { POSITIONS, type BoardState, type Drawing, type DrawTool, type Token, type TokenKind } from "../types";
 
 export const DEFAULT_OPP_COLOR = "#E8E8E8";
 
@@ -54,7 +54,7 @@ const TOOLS: DrawTool[] = ["pen", "arrow", "pass", "circle", "zone"];
 const q = (n: number) => Math.round(n * 1000);
 
 interface Packed {
-  t: [number, number, number, number][];
+  t: ([number, number, number, number] | [number, number, number, number, number])[];
   d?: [number, string, number[]][];
   c?: string;
   o?: string;
@@ -74,7 +74,9 @@ function b64urlDecode(s: string): string {
 
 export function encodeState(s: BoardState): string {
   const p: Packed = {
-    t: s.tokens.map((t) => [KINDS.indexOf(t.kind), t.ref, q(t.u), q(t.v)]),
+    t: s.tokens.map((t) =>
+      t.as ? [KINDS.indexOf(t.kind), t.ref, q(t.u), q(t.v), POSITIONS.indexOf(t.as)] : [KINDS.indexOf(t.kind), t.ref, q(t.u), q(t.v)],
+    ),
   };
   if (s.drawings.length)
     p.d = s.drawings.map((d) => [TOOLS.indexOf(d.tool), d.color, d.pts.flatMap(([u, v]) => [q(u), q(v)])]);
@@ -90,7 +92,13 @@ export function decodeState(code: string): BoardState | null {
     if (!Array.isArray(p.t)) return null;
     const tokens: Token[] = p.t
       .filter(([k]) => KINDS[k])
-      .map(([k, ref, u, v]) => ({ kind: KINDS[k], ref, u: u / 1000, v: v / 1000 }));
+      .map(([k, ref, u, v, as]) => ({
+        kind: KINDS[k],
+        ref,
+        u: u / 1000,
+        v: v / 1000,
+        ...(as !== undefined && POSITIONS[as] ? { as: POSITIONS[as] } : {}),
+      }));
     const drawings: Drawing[] = (p.d ?? [])
       .filter(([tool]) => TOOLS[tool])
       .map(([tool, color, flat], i) => {

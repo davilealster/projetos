@@ -1,0 +1,570 @@
+{
+  "slug": "atletico-mg",
+  "updatedAt": "2026-11-06",
+  "players": [
+    {
+      "id": 311275,
+      "apiName": "Gabriel Delfim",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 1,
+      "photo": "/players/atletico-mg/311275.webp",
+      "name": "Gabriel Delfim",
+      "number": 1,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: goleiro"
+    },
+    {
+      "id": 9978,
+      "apiName": "Everson",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 22,
+      "photo": "/players/atletico-mg/9978.webp",
+      "name": "Everson",
+      "number": 22,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: goleiro"
+    },
+    {
+      "id": 465184,
+      "apiName": "Robert",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 31,
+      "photo": "/players/atletico-mg/465184.webp",
+      "name": "Robert",
+      "number": 31,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 449252,
+      "apiName": "Pedro Cobra",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 46,
+      "photo": "/players/atletico-mg/449252.webp",
+      "name": "Pedro Cobra",
+      "number": 46,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 686214,
+      "apiName": "Guilherme Pires",
+      "apiPos": "Goalkeeper",
+      "apiNumber": 64,
+      "photo": null,
+      "name": "Guilherme Pires",
+      "number": 64,
+      "pos": "GOL",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 10160,
+      "apiName": "Léo Duarte",
+      "apiPos": "Defender",
+      "apiNumber": 3,
+      "photo": "/players/atletico-mg/10160.webp",
+      "name": "Léo Duarte",
+      "number": 3,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: zagueiro"
+    },
+    {
+      "id": 152857,
+      "apiName": "Ruan Tressoldi",
+      "apiPos": "Defender",
+      "apiNumber": 4,
+      "photo": "/players/atletico-mg/152857.webp",
+      "name": "Ruan Tressoldi",
+      "number": 4,
+      "pos": "ZAG",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 30476,
+      "apiName": "Lyanco",
+      "apiPos": "Defender",
+      "apiNumber": 13,
+      "photo": "/players/atletico-mg/30476.webp",
+      "name": "Lyanco",
+      "number": 13,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: zagueiro"
+    },
+    {
+      "id": 30398,
+      "apiName": "Vitor Hugo",
+      "apiPos": "Defender",
+      "apiNumber": 14,
+      "photo": "/players/atletico-mg/30398.webp",
+      "name": "Vitor Hugo",
+      "number": 14,
+      "pos": "ZAG",
+      "alt": [
+        "VOL",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: zagueiro"
+    },
+    {
+      "id": 633527,
+      "apiName": "Samuel",
+      "apiPos": "Defender",
+      "apiNumber": 34,
+      "photo": null,
+      "name": "Samuel",
+      "number": 34,
+      "pos": "ZAG",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 609544,
+      "apiName": "K. Pascini",
+      "apiPos": "Defender",
+      "apiNumber": 36,
+      "photo": null,
+      "name": "K. Pascini",
+      "number": 36,
+      "pos": "ZAG",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 515668,
+      "apiName": "Vitão",
+      "apiPos": "Defender",
+      "apiNumber": 40,
+      "photo": "/players/atletico-mg/515668.webp",
+      "name": "Vitão",
+      "number": 40,
+      "pos": "ZAG",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 675445,
+      "apiName": "Pedro Lemos",
+      "apiPos": "Defender",
+      "apiNumber": 53,
+      "photo": null,
+      "name": "Pedro Lemos",
+      "number": 53,
+      "pos": "ZAG",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 197450,
+      "apiName": "Natanael",
+      "apiPos": "Defender",
+      "apiNumber": 2,
+      "photo": "/players/atletico-mg/197450.webp",
+      "name": "Natanael",
+      "number": 2,
+      "pos": "LD",
+      "alt": [
+        "ZAG",
+        "LE"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: lateral-direito"
+    },
+    {
+      "id": 2583,
+      "apiName": "A. Preciado",
+      "apiPos": "Defender",
+      "apiNumber": 23,
+      "photo": "/players/atletico-mg/2583.webp",
+      "name": "Ángelo Preciado",
+      "number": 23,
+      "pos": "LD",
+      "alt": [
+        "ZAG",
+        "LE"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: lateral-direito"
+    },
+    {
+      "id": 10122,
+      "apiName": "Renan Lodi",
+      "apiPos": "Defender",
+      "apiNumber": 6,
+      "photo": "/players/atletico-mg/10122.webp",
+      "name": "Renan Lodi",
+      "number": 6,
+      "pos": "LE",
+      "alt": [
+        "ZAG",
+        "LD"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: lateral-esquerdo"
+    },
+    {
+      "id": 363323,
+      "apiName": "Alexsander",
+      "apiPos": "Midfielder",
+      "apiNumber": 5,
+      "photo": "/players/atletico-mg/363323.webp",
+      "name": "Alexsander",
+      "number": 5,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: volante"
+    },
+    {
+      "id": 905,
+      "apiName": "Fred",
+      "apiPos": "Midfielder",
+      "apiNumber": 7,
+      "photo": "/players/atletico-mg/905.webp",
+      "name": "Fred",
+      "number": 7,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: volante"
+    },
+    {
+      "id": 687,
+      "apiName": "Maycon",
+      "apiPos": "Midfielder",
+      "apiNumber": 8,
+      "photo": "/players/atletico-mg/687.webp",
+      "name": "Maycon",
+      "number": 8,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: volante"
+    },
+    {
+      "id": 289592,
+      "apiName": "K. Castaño",
+      "apiPos": "Midfielder",
+      "apiNumber": 15,
+      "photo": "/players/atletico-mg/289592.webp",
+      "name": "Kevin Castaño",
+      "number": 15,
+      "pos": "VOL",
+      "alt": [
+        "MEI",
+        "ZAG"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: volante"
+    },
+    {
+      "id": 9926,
+      "apiName": "Gustavo Scarpa",
+      "apiPos": "Midfielder",
+      "apiNumber": 10,
+      "photo": "/players/atletico-mg/9926.webp",
+      "name": "Gustavo Scarpa",
+      "number": 10,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: meio-campista"
+    },
+    {
+      "id": 9967,
+      "apiName": "Igor Gomes",
+      "apiPos": "Midfielder",
+      "apiNumber": 17,
+      "photo": "/players/atletico-mg/9967.webp",
+      "name": "Igor Gomes",
+      "number": 17,
+      "pos": "MEI",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 10166,
+      "apiName": "Reinier",
+      "apiPos": "Attacker",
+      "apiNumber": 19,
+      "photo": "/players/atletico-mg/10166.webp",
+      "name": "Reinier",
+      "number": 19,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: meio-campista"
+    },
+    {
+      "id": 16360,
+      "apiName": "A. Franco",
+      "apiPos": "Midfielder",
+      "apiNumber": 21,
+      "photo": "/players/atletico-mg/16360.webp",
+      "name": "Alan Franco",
+      "number": 21,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: meio-campista"
+    },
+    {
+      "id": 414544,
+      "apiName": "T. Pérez",
+      "apiPos": "Midfielder",
+      "apiNumber": 25,
+      "photo": "/players/atletico-mg/414544.webp",
+      "name": "T. Pérez",
+      "number": 25,
+      "pos": "MEI",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 352371,
+      "apiName": "Victor Hugo",
+      "apiPos": "Attacker",
+      "apiNumber": 30,
+      "photo": "/players/atletico-mg/352371.webp",
+      "name": "Victor Hugo",
+      "number": 30,
+      "pos": "MEI",
+      "alt": [
+        "VOL",
+        "PON"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: meio-campista"
+    },
+    {
+      "id": 506034,
+      "apiName": "Índio",
+      "apiPos": "Midfielder",
+      "apiNumber": 38,
+      "photo": null,
+      "name": "Índio",
+      "number": 38,
+      "pos": "MEI",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 615196,
+      "apiName": "Mamady Cisse",
+      "apiPos": "Midfielder",
+      "apiNumber": 39,
+      "photo": null,
+      "name": "Mamady Cisse",
+      "number": 39,
+      "pos": "MEI",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 570399,
+      "apiName": "Gutte",
+      "apiPos": "Midfielder",
+      "apiNumber": 48,
+      "photo": null,
+      "name": "Gutte",
+      "number": 48,
+      "pos": "MEI",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    },
+    {
+      "id": 18761,
+      "apiName": "Bernard",
+      "apiPos": "Midfielder",
+      "apiNumber": 11,
+      "photo": "/players/atletico-mg/18761.webp",
+      "name": "Bernard",
+      "number": 11,
+      "pos": "PON",
+      "alt": [
+        "MEI",
+        "ATA"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: ponta ou meio-campista"
+    },
+    {
+      "id": 280695,
+      "apiName": "A. Minda",
+      "apiPos": "Attacker",
+      "apiNumber": 27,
+      "photo": "/players/atletico-mg/280695.webp",
+      "name": "Alan Minda",
+      "number": 27,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: ponta-direita"
+    },
+    {
+      "id": 6031,
+      "apiName": "T. Cuello",
+      "apiPos": "Midfielder",
+      "apiNumber": 28,
+      "photo": "/players/atletico-mg/6031.webp",
+      "name": "Tomás Cuello",
+      "number": 28,
+      "pos": "PON",
+      "alt": [
+        "ATA",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: ponta"
+    },
+    {
+      "id": 9939,
+      "apiName": "Dudu",
+      "apiPos": "Attacker",
+      "apiNumber": 92,
+      "photo": "/players/atletico-mg/9939.webp",
+      "name": "Dudu",
+      "number": 92,
+      "pos": "PON",
+      "alt": [
+        "MEI",
+        "ATA"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: ponta ou meio-campista"
+    },
+    {
+      "id": 5923,
+      "apiName": "M. Cassierra",
+      "apiPos": "Attacker",
+      "apiNumber": 9,
+      "photo": "/players/atletico-mg/5923.webp",
+      "name": "Mateo Cassierra",
+      "number": 9,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: centroavante"
+    },
+    {
+      "id": 197513,
+      "apiName": "T. Borbas",
+      "apiPos": "Attacker",
+      "apiNumber": 18,
+      "photo": "/players/atletico-mg/197513.webp",
+      "name": "Thiago Borbas",
+      "number": 18,
+      "pos": "ATA",
+      "alt": [
+        "PON",
+        "MEI"
+      ],
+      "hidden": false,
+      "source": "draft",
+      "note": "wikipedia: atacante"
+    },
+    {
+      "id": 609519,
+      "apiName": "Caua",
+      "apiPos": "Attacker",
+      "apiNumber": 29,
+      "photo": null,
+      "name": "Caua",
+      "number": 29,
+      "pos": "ATA",
+      "alt": [],
+      "hidden": false,
+      "source": "api",
+      "note": null
+    }
+  ]
+}
