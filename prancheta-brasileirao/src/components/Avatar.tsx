@@ -21,7 +21,7 @@ export function Avatar({
     height: size,
     background: colors.primary,
     color: colors.secondary === colors.primary ? "#fff" : colors.secondary,
-    borderColor: colors.secondary,
+    borderColor: colors.primary,
     fontSize: size * 0.36,
   };
   if (blank) return <span className="avatar avatar--blank" style={style} />;

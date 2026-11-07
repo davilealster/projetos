@@ -411,7 +411,8 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
     return [{ key, token: t, label: `${p.name}, ${t.as ?? p.pos}${p.number != null ? `, ${p.number}` : ""}`, node: playerNode(p, colors, t.as) }];
   });
 
-  const tokenScale = live ? SIZE_SCALE[size] : state.compact ? 0.72 : 1;
+  // no celular o campo é estreito: peças maiores (compacto lá equivale ao normal do computador)
+  const tokenScale = live ? SIZE_SCALE[size] : narrow ? (state.compact ? 1 : 1.4) : state.compact ? 0.72 : 1;
   const vertical = live ? ratio === "9x16" : narrow;
   const oppSummary = teamSummary(state.oppSlug);
   const host = location.host.replace(/^www\./, "");
