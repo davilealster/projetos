@@ -80,4 +80,6 @@ export interface BoardState {
   formation: string;
   subs: SubEvent[];
   show: ShowOptions;
+  /** ligações entre jogadores (linhas e áreas) */
+  links: import("./lib/links").Link[];
 }

@@ -105,3 +105,59 @@ describe("pickSlot (clique para escalar)", async () => {
     expect(pickSlot(slots, [], null, 6)).toBe(slots[6]);
   });
 });
+
+describe("ligações entre jogadores", async () => {
+  const { computeLinkShapes, convexHull, toggleAutoLink } = await import("../src/lib/links");
+  const players = new Map<number, Player>([
+    [1, { id: 1, name: "G", number: 1, pos: "GOL", photo: null }],
+    [2, { id: 2, name: "Z1", number: 3, pos: "ZAG", photo: null }],
+    [3, { id: 3, name: "Z2", number: 4, pos: "ZAG", photo: null }],
+    [4, { id: 4, name: "LD", number: 2, pos: "LD", photo: null }],
+    [5, { id: 5, name: "M", number: 8, pos: "MEI", photo: null }],
+    [6, { id: 6, name: "A", number: 9, pos: "ATA", photo: null }],
+  ]);
+  const tok = (ref: number, u: number, v: number, as?: Pos) => ({ kind: "player" as const, ref, u, v, ...(as ? { as } : {}) });
+  const tokens = [tok(1, 0.05, 0.5), tok(2, 0.2, 0.6), tok(3, 0.2, 0.4), tok(4, 0.25, 0.85), tok(5, 0.4, 0.5), tok(6, 0.6, 0.5)];
+  const ctx = { players, opp: new Map(), formation: "4-3-3" };
+
+  it("envoltória convexa descarta pontos internos", () => {
+    expect(convexHull([[0, 0], [10, 0], [10, 10], [0, 10], [5, 5]]).sort()).toEqual([0, 1, 2, 3]);
+  });
+  it("linha de defesa liga zagueiros e lateral pela largura, sem o goleiro", () => {
+    const links = toggleAutoLink([], "home", "def", "#fff");
+    const [s] = computeLinkShapes(links, tokens, ctx);
+    expect(s.pts).toEqual([[0.2, 0.4], [0.2, 0.6], [0.25, 0.85]]);
+    expect(s.closed).toBe(false);
+  });
+  it("as linhas seguem as peças quando elas se movem", () => {
+    const links = toggleAutoLink([], "home", "def", "#fff");
+    const moved = tokens.map((t) => (t.ref === 4 ? { ...t, u: 0.3, v: 0.9 } : t));
+    expect(computeLinkShapes(links, moved, ctx)[0].pts.at(-1)).toEqual([0.3, 0.9]);
+  });
+  it("a posição escolhida na escalação (as) muda o setor", () => {
+    const links = toggleAutoLink([], "home", "att", "#fff");
+    const asAta = tokens.map((t) => (t.ref === 5 ? { ...t, as: "ATA" as Pos } : t));
+    expect(computeLinkShapes(links, asAta, ctx)[0].pts.length).toBe(2);
+  });
+  it("bloco do time é uma área fechada sem o goleiro", () => {
+    const [s] = computeLinkShapes(toggleAutoLink([], "home", "hull", "#fff"), tokens, ctx);
+    expect(s.closed && s.fill).toBe(true);
+    expect(s.pts).not.toContainEqual([0.05, 0.5]);
+  });
+  it("o mesmo botão liga e desliga", () => {
+    const on = toggleAutoLink([], "opp", "mid", "#fff");
+    expect(toggleAutoLink(on, "opp", "mid", "#fff")).toEqual([]);
+  });
+  it("ligação manual segue os membros; some com menos de 2 em campo", () => {
+    const manual = [{ id: "m", source: { type: "manual" as const, members: [{ kind: "player" as const, ref: 2 }, { kind: "player" as const, ref: 6 }, { kind: "player" as const, ref: 99 }] }, closed: true, fill: true, dashed: true, color: "#FFD400" }];
+    const [s] = computeLinkShapes(manual, tokens, ctx);
+    expect(s.pts.length).toBe(2);
+    expect(s.closed).toBe(false); // área precisa de 3+ jogadores em campo
+    expect(computeLinkShapes(manual, tokens.filter((t) => t.ref !== 6), ctx)).toEqual([]);
+  });
+  it("ligações vão no link compartilhado", () => {
+    const s = { ...emptyState(), links: toggleAutoLink([], "home", "hull", "#C6F24E") };
+    const back = decodeState(encodeState(s))!;
+    expect(back.links[0]).toMatchObject({ source: { type: "auto", team: "home", group: "hull" }, closed: true, fill: true, color: "#C6F24E" });
+  });
+});

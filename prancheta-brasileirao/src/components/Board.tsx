@@ -1,13 +1,14 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { loadTeam, teamSummary } from "../data";
 import { navigate, params } from "../router";
-import { clubVars, labelName, textOn } from "../lib/color";
+import { clubVars, distinctColor, labelName, textOn, uiAccent } from "../lib/color";
 import type { DragPayload } from "../lib/drag";
 import { FORMATION_NAMES, applyFormation, applyOppNumbers, mirror, pickSlot, slotsFor } from "../lib/formations";
 import { emptyState, encodeState, getPref, loadSaved, readHashState, save, setPref } from "../lib/state";
 import { exportImage } from "../lib/exportImage";
 import { cleanHandle, referral, trackEvent } from "../lib/analytics";
 import { applyTeam, loadOverrides } from "../lib/overrides";
+import { computeLinkShapes, newLinkId, toggleAutoLink, type Link, type LinkGroup, type LinkShape, type LinkTeam, type TokenRef } from "../lib/links";
 import type { BoardState, Drawing, DrawTool, Player, Point, Pos, Team, Token } from "../types";
 import { Avatar } from "./Avatar";
 import { DrawControls, FormationButtons, ShowControls } from "./Controls";
@@ -17,12 +18,13 @@ import { Footer } from "./Footer";
 import { DrawBubble } from "./DrawBubble";
 import { MobileShell } from "./MobileShell";
 import { RolePicker } from "./RolePicker";
+import { LinkDraftBar, LinkEditor, LinkMenu, LinkPresets } from "./LinkControls";
 import { OpponentPanel } from "./OpponentPanel";
 import { Pitch, type PitchHandle, type TokenRender } from "./Pitch";
 import { Scoreboard } from "./Scoreboard";
 import { SquadPanel } from "./SquadPanel";
 
-type Snap = Pick<BoardState, "tokens" | "drawings" | "subs">;
+type Snap = Pick<BoardState, "tokens" | "drawings" | "subs" | "links">;
 type Bg = "grass" | "solid" | "chroma" | "transparent";
 type Ratio = "16x9" | "9x16";
 type Size = "P" | "M" | "G";
@@ -52,6 +54,9 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
   const [shared, setShared] = useState(false);
   const [drawTool, setDrawTool] = useState<TeleTool>(null);
   const [selDrawing, setSelDrawing] = useState<string | null>(null);
+  // ligações: a que está sendo montada (modo "Ligar") e a selecionada para editar
+  const [linkDraft, setLinkDraft] = useState<TokenRef[] | null>(null);
+  const [selLink, setSelLink] = useState<string | null>(null);
   const [lastTool, setLastTool] = useState<DrawTool>("arrow");
   const [drawColor, setDrawColor] = useState("#FFD400");
   const [toast, setToast] = useState<string | null>(null);
@@ -142,7 +147,7 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
   }, [toast]);
 
   // ---- mutações com histórico ----
-  const snap = (s: BoardState): Snap => ({ tokens: s.tokens, drawings: s.drawings, subs: s.subs });
+  const snap = (s: BoardState): Snap => ({ tokens: s.tokens, drawings: s.drawings, subs: s.subs, links: s.links });
   const commit = useCallback((fn: (s: BoardState) => BoardState) => {
     setState((s) => {
       if (!s) return s;
@@ -272,6 +277,29 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
     commit((s) => ({ ...s, drawings: s.drawings.filter((d) => d.id !== id) }));
   }, [commit]);
 
+  // ---- ligações entre jogadores ----
+  const finishDraft = (closed: boolean) => {
+    const d = linkDraft;
+    setLinkDraft(null);
+    if (!d || d.length < 2) return;
+    const area = closed && d.length >= 3;
+    const link: Link = { id: newLinkId(), source: { type: "manual", members: d }, closed: area, fill: area, dashed: false, color: drawColor };
+    commit((s) => ({ ...s, links: [...s.links, link] }));
+    setSelLink(link.id);
+  };
+  // ao sair do modo "Ligar", o que estava sendo montado vira uma linha aberta
+  useEffect(() => {
+    if (drawTool !== "link" && linkDraft) finishDraft(false);
+    if (drawTool === "link") setSelLink(null);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [drawTool]);
+  const updateLink = (id: string, patch: Partial<Link>) =>
+    commit((s) => ({ ...s, links: s.links.map((l) => (l.id === id ? { ...l, ...patch } : l)) }));
+  const removeLink = useCallback((id: string) => {
+    setSelLink(null);
+    commit((s) => ({ ...s, links: s.links.filter((l) => l.id !== id) }));
+  }, [commit]);
+
   // ---- atalhos de teclado ----
   useEffect(() => {
     const on = (e: KeyboardEvent) => {
@@ -287,11 +315,15 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
       if (n >= 1 && n <= FORMATION_NAMES.length) setFormation(FORMATION_NAMES[n - 1]);
       else if (k === "d") setDrawTool((t) => (t && t !== "eraser" ? null : lastTool));
       else if (k === "b") setDrawTool((t) => (t === "eraser" ? null : "eraser"));
+      else if (k === "l") setDrawTool((t) => (t === "link" ? null : "link"));
       else if (k === "e") eraseDrawings();
       else if (k === "c") clearField();
       else if (k === "h") setUiHidden((h) => !h);
       else if (k === "s") setShowSubs((v) => !v);
-      else if (k === "escape") setDrawTool(null);
+      else if (k === "escape") {
+        setLinkDraft(null);
+        setDrawTool(null);
+      }
       else return;
       e.preventDefault();
     };
@@ -302,8 +334,8 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
   const pickTool = (t: TeleTool) => {
     setDrawTool(t);
     setSelDrawing(null);
-    if (t && t !== "eraser") setLastTool(t);
-  };;
+    if (t && t !== "eraser" && t !== "link") setLastTool(t);
+  };;;
 
   // ---- compartilhar / exportar ----
   const shareUrl = () => {
@@ -417,6 +449,49 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
   const oppSummary = teamSummary(state.oppSlug);
   const host = location.host.replace(/^www\./, "");
 
+  // ---- ligações: formas calculadas a partir das peças atuais ----
+  const linkCtx = { players: playersById, opp: oppById, formation: state.formation };
+  const linkShapes: LinkShape[] = computeLinkShapes(state.links, state.tokens, linkCtx);
+  const draftShape: LinkShape | null = linkDraft && {
+    id: "draft",
+    pts: linkDraft.flatMap((m) => {
+      const t = state.tokens.find((x) => x.kind === m.kind && x.ref === m.ref);
+      return t ? [[t.u, t.v] as [number, number]] : [];
+    }),
+    closed: false,
+    fill: false,
+    dashed: true,
+    color: drawColor,
+  };
+  // cor das linhas automáticas: a do clube; o adversário troca para uma cor contrastante se ficar parecida
+  const homeLinkColor = uiAccent(team.colors);
+  const autoColor = (t: LinkTeam) =>
+    t === "home"
+      ? homeLinkColor
+      : distinctColor(homeLinkColor, opp ? [uiAccent(opp.colors), opp.colors.secondary, opp.colors.accent] : [state.oppColor]);
+  const toggleAuto = (t: LinkTeam, g: LinkGroup) => commit((s) => ({ ...s, links: toggleAutoLink(s.links, t, g, autoColor(t)) }));
+  const clearLinks = () => {
+    setSelLink(null);
+    commit((s) => ({ ...s, links: [] }));
+  };
+  const onLinkTap = (i: number) => {
+    const t = state.tokens[i];
+    if (!t || t.kind === "ball") return;
+    navigator.vibrate?.(6);
+    const d = linkDraft ?? [];
+    if (d.length >= 3 && d[0].kind === t.kind && d[0].ref === t.ref) return finishDraft(true);
+    if (d.some((m) => m.kind === t.kind && m.ref === t.ref)) return;
+    setLinkDraft([...d, { kind: t.kind, ref: t.ref }]);
+  };
+  const presetsProps = {
+    links: state.links,
+    oppName: opp?.shortName ?? "Adversário",
+    onToggle: toggleAuto,
+    onClearAll: clearLinks,
+  };
+  const selLinkObj = state.links.find((l) => l.id === selLink);
+  const selLinkShape = linkShapes.find((l) => l.id === selLink);
+
   const pickTok = picker !== null ? state.tokens[picker] : undefined;
   const pickPlayer = pickTok ? (pickTok.kind === "player" ? playersById : oppById).get(pickTok.ref) : undefined;
   const pickerNode = pickTok && pickPlayer && (
@@ -460,6 +535,15 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
       onSelectDrawing={setSelDrawing}
       onMoveDrawing={onMoveDrawing}
       onRemoveDrawing={onRemoveDrawing}
+      links={linkShapes}
+      linkDraft={draftShape}
+      selectedLink={selLink}
+      onSelectLink={(id) => {
+        setSelLink(id);
+        setSelDrawing(null);
+      }}
+      onRemoveLink={removeLink}
+      onLinkTap={onLinkTap}
       onMoveToken={onMoveToken}
       onRemoveToken={onRemoveToken}
       onDropToken={onDropToken}
@@ -469,6 +553,19 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
       }}
     >
       {pickerNode}
+      {selLinkObj && selLinkShape && drawTool === null && (
+        <LinkEditor
+          link={selLinkObj}
+          shape={selLinkShape}
+          vertical={vertical}
+          onChange={(patch) => updateLink(selLinkObj.id, patch)}
+          onRemove={() => removeLink(selLinkObj.id)}
+          onClose={() => setSelLink(null)}
+        />
+      )}
+      {drawTool === "link" && (
+        <LinkDraftBar count={linkDraft?.length ?? 0} onDone={() => finishDraft(false)} onCancel={() => setLinkDraft(null)} />
+      )}
     </Pitch>
   );
 
@@ -547,6 +644,7 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
             <FormationButtons value={state.formation} onPick={setFormation} />
             <ShowControls value={state.show} onChange={(v) => setState((s) => (s ? { ...s, show: v } : s))} />
             <DrawControls tool={drawTool} color={drawColor} onTool={pickTool} onColor={setDrawColor} onErase={eraseDrawings} />
+            <LinkMenu {...presetsProps} />
             <button className="icon-btn" onClick={undo} title="Desfazer (Ctrl+Z)">↶</button>
             <button className="icon-btn" onClick={clearField} title="Limpar campo (C)">⟲</button>
             <label className="field">
@@ -638,6 +736,7 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
       formation={state.formation}
       tokens={renders}
       drawings={state.drawings}
+      links={linkShapes}
       creator={creator}
       host={host}
     />
@@ -667,6 +766,8 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
             <div className="m-tactic">
               <h3>Formação</h3>
               <FormationButtons value={state.formation} onPick={setFormation} />
+              <h3>Linhas da tática</h3>
+              <LinkPresets {...presetsProps} />
               <h3>Mostrar nas peças</h3>
               <ShowControls value={state.show} onChange={setShow} />
               <label className="switch">
@@ -748,6 +849,7 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
         </button>
         <FormationButtons value={state.formation} onPick={setFormation} />
         <DrawControls tool={drawTool} color={drawColor} onTool={pickTool} onColor={setDrawColor} onErase={eraseDrawings} />
+            <LinkMenu {...presetsProps} />
         <div className="toolbar__end">
           <ShowControls value={state.show} onChange={(v) => setState((s) => (s ? { ...s, show: v } : s))} />
           <label className="switch">
@@ -781,7 +883,7 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
       {exportNode}
       <p className="hint">
         O campo é seu. Arraste do elenco para o campo; solte um reserva em cima de um titular para substituir. Duplo clique
-        (ou toque longo) remove. Atalhos: 1–6 formações · D desenhar · B borracha · E apagar · C limpar · H esconder painéis · Ctrl+Z desfazer.
+        (ou toque longo) remove. Atalhos: 1–6 formações · D desenhar · B borracha · L ligar jogadores · E apagar · C limpar · H esconder painéis · Ctrl+Z desfazer.
       </p>
       <Footer updatedAt={team.updatedAt} />
       {toast && <div className="toast">{toast}</div>}

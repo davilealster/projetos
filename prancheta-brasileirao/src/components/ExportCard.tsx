@@ -21,9 +21,10 @@ export const ExportCard = forwardRef<HTMLDivElement, {
   formation: string;
   tokens: TokenRender[];
   drawings: Parameters<typeof Pitch>[0]["drawings"];
+  links?: Parameters<typeof Pitch>[0]["links"];
   creator: string;
   host: string;
-}>(function ExportCard({ format, team, opp, formation, tokens, drawings, creator, host }, ref) {
+}>(function ExportCard({ format, team, opp, formation, tokens, drawings, links, creator, host }, ref) {
   const { w, h } = EXPORT_SIZE[format];
   // altura útil para o campo (cabeçalho + rodapé + margens ≈ 150 px na escala de 540)
   const ph = Math.min(h / 2 - 150, ((w / 2 - 32) * 109) / 72);
@@ -44,6 +45,7 @@ export const ExportCard = forwardRef<HTMLDivElement, {
             tokens={tokens}
             tokenScale={1}
             drawings={drawings}
+            links={links}
             drawTool={null}
             drawColor="#fff"
             onAddDrawing={noop}

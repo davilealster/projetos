@@ -43,3 +43,19 @@ export function labelName(name: string): string {
   const parts = name.split(/\s+/);
   return parts[parts.length - 1].length >= 3 ? parts[parts.length - 1] : parts[0];
 }
+
+const rgb = (hex: string) => [0, 2, 4].map((i) => parseInt(hex.replace("#", "").slice(i, i + 2), 16));
+/** Distância simples entre duas cores (0 a ~441). */
+export const colorDistance = (a: string, b: string) => {
+  const [x, y] = [rgb(a), rgb(b)];
+  return Math.hypot(x[0] - y[0], x[1] - y[1], x[2] - y[2]);
+};
+
+/** Primeira cor das candidatas que contrasta com `base` e aparece sobre o gramado; senão `fallback`. */
+export function distinctColor(base: string, candidates: string[], fallback = "#00D1FF"): string {
+  for (const c of candidates) {
+    const l = lum(c);
+    if (colorDistance(c, base) > 150 && l > 0.06 && l < 0.9) return c;
+  }
+  return fallback;
+}

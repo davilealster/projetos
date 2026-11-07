@@ -1,6 +1,7 @@
 import { FORMATION_NAMES } from "../lib/formations";
 import type { DrawTool, ShowOptions } from "../types";
 import type { TeleTool } from "./Telestrator";
+import { LinkIcon } from "./LinkControls";
 
 export const DRAW_COLORS = ["#FFD400", "#FFFFFF", "#FF3B30", "#00D1FF", "#111111"];
 
@@ -68,6 +69,15 @@ export function DrawControls({
         aria-pressed={tool === "eraser"}
       >
         <EraserIcon />
+      </button>
+      <button
+        className={`icon-btn ${tool === "link" ? "is-on" : ""}`}
+        onClick={() => onTool(tool === "link" ? null : "link")}
+        title="Ligar jogadores: toque nos jogadores em sequência; tocar no 1º fecha a área (L)"
+        aria-label="Ligar jogadores"
+        aria-pressed={tool === "link"}
+      >
+        <LinkIcon />
       </button>
       <span className="draw__sep" />
       {DRAW_COLORS.map((c) => (

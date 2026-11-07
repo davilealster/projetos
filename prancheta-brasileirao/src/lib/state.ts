@@ -1,4 +1,5 @@
 import { POSITIONS, type BoardState, type Drawing, type DrawTool, type Token, type TokenKind } from "../types";
+import type { Link, LinkGroup, LinkTeam } from "./links";
 
 export const DEFAULT_OPP_COLOR = "#E8E8E8";
 
@@ -11,6 +12,7 @@ export const emptyState = (): BoardState => ({
   formation: "4-3-3",
   subs: [],
   show: { ...SHOW_ALL },
+  links: [],
 });
 
 export const SHOW_ALL = { pos: true, name: true, num: true, photo: true } as const;
@@ -66,6 +68,34 @@ interface Packed {
   f?: string;
   /** opções de exibição como bits (pos, name, num, photo); ausente = tudo ligado */
   h?: number;
+  /** ligações: [flags(fechada 1, área 2, pontilhada 4), cor, 0 = manual + (tipo, ref)... | 1 = auto + time + grupo] */
+  k?: (number | string)[][];
+}
+
+const TEAMS_K: LinkTeam[] = ["home", "opp"];
+const GROUPS_K: LinkGroup[] = ["hull", "def", "mid", "att"];
+
+function packLink(l: Link): (number | string)[] {
+  const flags = (l.closed ? 1 : 0) | (l.fill ? 2 : 0) | (l.dashed ? 4 : 0);
+  if (l.source.type === "auto") return [flags, l.color, 1, TEAMS_K.indexOf(l.source.team), GROUPS_K.indexOf(l.source.group)];
+  return [flags, l.color, 0, ...l.source.members.flatMap((m) => [KINDS.indexOf(m.kind), m.ref])];
+}
+
+function unpackLink(a: (number | string)[], i: number): Link | null {
+  const [flags, color, type, ...rest] = a;
+  if (typeof flags !== "number" || typeof color !== "string" || !/^#[0-9a-fA-F]{6}$/.test(color)) return null;
+  const base = { id: `k${i}`, closed: !!(flags & 1), fill: !!(flags & 2), dashed: !!(flags & 4), color };
+  if (type === 1) {
+    const team = TEAMS_K[rest[0] as number];
+    const group = GROUPS_K[rest[1] as number];
+    return team && group ? { ...base, source: { type: "auto", team, group } } : null;
+  }
+  const members = [];
+  for (let j = 0; j + 1 < rest.length; j += 2) {
+    const kind = KINDS[rest[j] as number];
+    if (kind) members.push({ kind, ref: Number(rest[j + 1]) });
+  }
+  return members.length >= 2 ? { ...base, source: { type: "manual", members } } : null;
 }
 
 function b64urlEncode(s: string): string {
@@ -92,6 +122,7 @@ export function encodeState(s: BoardState): string {
   p.f = s.formation;
   const bits = SHOW_KEYS.reduce((n, k, i) => n | (s.show[k] ? 1 << i : 0), 0);
   if (bits !== 15) p.h = bits;
+  if (s.links.length) p.k = s.links.map(packLink);
   return b64urlEncode(JSON.stringify(p));
 }
 
@@ -122,6 +153,7 @@ export function decodeState(code: string): BoardState | null {
       oppColor: p.c ?? DEFAULT_OPP_COLOR,
       oppSlug: p.o ?? null,
       formation: p.f ?? "4-3-3",
+      links: (p.k ?? []).map(unpackLink).filter((l): l is Link => !!l),
       show:
         p.h === undefined
           ? { ...SHOW_ALL }

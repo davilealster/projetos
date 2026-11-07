@@ -2,6 +2,8 @@ import { forwardRef, useImperativeHandle, useLayoutEffect, useRef, useState } fr
 import type { Drawing, Point, Token } from "../types";
 import { PitchMarkings } from "./PitchMarkings";
 import { Telestrator, type TeleTool } from "./Telestrator";
+import { LinkLayer } from "./LinkLayer";
+import type { LinkShape } from "../lib/links";
 
 export interface PitchHandle {
   /** Converte posição na tela para coordenada canônica; null se fora do campo (com folga). */
@@ -32,6 +34,14 @@ interface Props {
   onDropToken: (index: number, p: Point) => void;
   /** toque/clique simples numa peça (sem arrastar) */
   onTapToken?: (index: number) => void;
+  /** ligações entre jogadores já calculadas, e a que está sendo montada */
+  links?: LinkShape[];
+  linkDraft?: LinkShape | null;
+  selectedLink?: string | null;
+  onSelectLink?: (id: string | null) => void;
+  onRemoveLink?: (id: string) => void;
+  /** modo "Ligar": toque numa peça adiciona à ligação */
+  onLinkTap?: (index: number) => void;
   stripes?: boolean;
   className?: string;
   children?: React.ReactNode;
@@ -71,11 +81,20 @@ export const Pitch = forwardRef<PitchHandle, Props>(function Pitch(props, ref) {
 
   return (
     <div
-      className={`pitch ${vertical ? "pitch--vertical" : ""} ${props.drawTool ? "pitch--tool" : ""} ${tiny ? "pitch--tiny" : ""} ${props.className ?? ""}`}
+      className={`pitch ${vertical ? "pitch--vertical" : ""} ${props.drawTool && props.drawTool !== "link" ? "pitch--tool" : ""} ${props.drawTool === "link" ? "pitch--linking" : ""} ${tiny ? "pitch--tiny" : ""} ${props.className ?? ""}`}
       style={{ "--tok": `${tok}px` } as React.CSSProperties}
     >
       <PitchMarkings vertical={vertical} stripes={props.stripes} />
       <div className="pitch__field" ref={fieldRef}>
+        <LinkLayer
+          shapes={props.links ?? []}
+          draft={props.linkDraft}
+          vertical={vertical}
+          tool={props.drawTool}
+          selectedId={props.selectedLink}
+          onSelect={props.onSelectLink}
+          onRemove={props.onRemoveLink}
+        />
         <Telestrator
           vertical={vertical}
           drawings={props.drawings}
@@ -94,7 +113,8 @@ export const Pitch = forwardRef<PitchHandle, Props>(function Pitch(props, ref) {
             index={i}
             item={t}
             vertical={vertical}
-            disabled={!!props.drawTool}
+            disabled={!!props.drawTool && props.drawTool !== "link"}
+            onLinkTap={props.drawTool === "link" ? props.onLinkTap : undefined}
             toCanon={toCanon}
             onMove={props.onMoveToken}
             onRemove={props.onRemoveToken}
@@ -109,8 +129,9 @@ export const Pitch = forwardRef<PitchHandle, Props>(function Pitch(props, ref) {
 });
 
 function TokenView({
-  index, item, vertical, disabled, toCanon, onMove, onRemove, onDrop, onTap,
+  index, item, vertical, disabled, toCanon, onMove, onRemove, onDrop, onTap, onLinkTap,
 }: {
+  onLinkTap?: (index: number) => void;
   onTap?: (index: number) => void;
   index: number;
   item: TokenRender;
@@ -143,6 +164,11 @@ function TokenView({
 
   const onPointerDown = (e: React.PointerEvent<HTMLDivElement>) => {
     if (disabled || e.button !== 0) return;
+    if (onLinkTap) {
+      e.stopPropagation();
+      onLinkTap(index);
+      return;
+    }
     e.currentTarget.setPointerCapture(e.pointerId);
     const timer = window.setTimeout(() => {
       // toque longo sem mover = remover

@@ -11,7 +11,8 @@ const Icon = ({ d, size = 20 }: { d: string; size?: number }) => (
   </svg>
 );
 
-const ICONS: Record<DrawTool | "eraser" | "hand" | "trash" | "undo", string> = {
+const ICONS: Record<DrawTool | "eraser" | "link" | "hand" | "trash" | "undo", string> = {
+  link: "M5 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM12 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM19 17a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM6 15.5 11 7.5M13.5 7l4.2 6.2M7 17.6l10-1.4",
   pen: "M4 20l4-1 10-10-3-3L5 16l-1 4ZM14 7l3 3",
   arrow: "M5 19 19 5M10 5h9v9",
   pass: "M4 12h2m3 0h2m3 0h2m2 0h2M16 8l4 4-4 4",
@@ -31,6 +32,7 @@ const TOOLS: { id: TeleTool; key: keyof typeof ICONS; label: string }[] = [
   { id: "circle", key: "circle", label: "Círculo" },
   { id: "zone", key: "zone", label: "Zona" },
   { id: "eraser", key: "eraser", label: "Borracha" },
+  { id: "link", key: "link", label: "Ligar jogadores" },
 ];
 
 /**

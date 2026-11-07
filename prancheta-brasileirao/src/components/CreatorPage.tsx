@@ -8,7 +8,8 @@ import { Footer } from "./Footer";
 const SHORTCUTS: [string, string][] = [
   ["1 a 6", "Formações 4-3-3, 4-4-2, 4-2-3-1, 3-5-2, 3-4-3, 5-3-2 (as peças deslizam)"],
   ["D", "Liga/desliga o desenho (seta, passe, círculo, zona, caneta)"],
-  ["B", "Borracha: clique num desenho para apagar"],
+  ["B", "Borracha: clique num desenho ou numa ligação para apagar"],
+  ["L", "Ligar jogadores: toque neles em sequência; tocar no 1º fecha a área"],
   ["E", "Apaga todos os desenhos"],
   ["C", "Limpa o campo"],
   ["H", "Esconde/mostra os controles"],

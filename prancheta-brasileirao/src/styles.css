@@ -308,6 +308,48 @@ a { color: inherit; }
 .telestrator.is-erasing .telestrator__hit { cursor: not-allowed; }
 .telestrator.is-erasing .telestrator__item:hover { opacity: .4; }
 .telestrator__item.is-selected { filter: drop-shadow(0 0 2px rgba(0,0,0,.6)); }
+/* ---- ligações entre jogadores: camada mais baixa (abaixo dos desenhos e das peças) ---- */
+.links { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 1; overflow: visible; }
+.links__hit { pointer-events: stroke; cursor: pointer; }
+.links.is-erasing .links__hit { cursor: not-allowed; }
+.links.is-erasing .links__item:hover { opacity: .4; }
+.links__draft { pointer-events: none; }
+.pitch--linking .token { cursor: copy; }
+.pitch--linking .token:hover .avatar { box-shadow: 0 0 0 3px #fff; }
+.link-draftbar {
+  position: absolute; left: 50%; top: 8px; transform: translateX(-50%); z-index: 25;
+  display: flex; align-items: center; gap: 8px; padding: 6px 6px 6px 12px; border-radius: 999px;
+  background: rgba(8,13,10,.94); box-shadow: 0 6px 20px rgba(0,0,0,.45); font-size: 13px; font-weight: 700; white-space: nowrap;
+}
+.link-editor {
+  position: absolute; z-index: 22; width: 230px; transform: translate(-50%, -50%); display: grid; gap: 10px;
+  background: rgba(11,16,13,.97); border: 1px solid rgba(255,255,255,.14); border-radius: 12px; padding: 12px;
+  box-shadow: 0 14px 40px rgba(0,0,0,.55); animation: pop .14s ease-out;
+}
+.link-editor__title { margin: 0; font-weight: 800; font-size: 13px; }
+.link-editor .seg { display: flex; }
+.link-editor .seg__btn { flex: 1; }
+.link-editor .switch { color: var(--text); }
+.link-editor__colors { display: flex; gap: 6px; align-items: center; }
+.dot--custom { position: relative; overflow: hidden; background: conic-gradient(red, yellow, lime, cyan, blue, magenta, red); }
+.dot--custom input { position: absolute; inset: 0; opacity: 0; cursor: pointer; }
+.link-editor__remove { border: 0; background: transparent; color: #ff8a8a; font-size: 12px; cursor: pointer; padding: 2px; justify-self: start; }
+.link-menu { position: relative; }
+.link-menu > .btn { gap: 6px; }
+.link-menu__pop {
+  position: absolute; left: 0; top: calc(100% + 6px); z-index: 60; width: 340px; padding: 12px;
+  background: var(--panel); border: 1px solid var(--line); border-radius: 12px; box-shadow: 0 14px 40px rgba(0,0,0,.5);
+}
+.livebar .link-menu__pop { top: auto; bottom: calc(100% + 8px); }
+.link-presets { display: grid; gap: 10px; }
+.link-presets__row { display: grid; gap: 6px; }
+.link-presets__team { font-size: 12px; font-weight: 800; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
+.link-presets__btns { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
+.chip-btn { border: 1px solid var(--line); background: var(--bg-2); border-radius: 10px; padding: 8px 4px; font-size: 13px; font-weight: 700; cursor: pointer; }
+.chip-btn.is-on { background: var(--club-ui); color: #0b0f0c; border-color: transparent; }
+.link-presets__hint { margin: 0; font-size: 12px; color: var(--muted); line-height: 1.5; }
+.link-presets__clear { justify-self: start; color: #ff8a8a; }
+
 /* enquanto desenha ou apaga, as peças não pegam o clique */
 .pitch--tool .token { pointer-events: none; }
 

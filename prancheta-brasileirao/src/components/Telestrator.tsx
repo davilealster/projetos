@@ -5,7 +5,7 @@ const W = 105;
 const H = 68;
 
 /** Ferramenta ativa: desenhar (DrawTool), apagar com clique ("eraser") ou nenhuma (selecionar e arrastar). */
-export type TeleTool = DrawTool | "eraser" | null;
+export type TeleTool = DrawTool | "eraser" | "link" | null;
 
 interface Props {
   vertical: boolean;
@@ -29,7 +29,7 @@ export function Telestrator({ vertical, drawings, tool, color, selectedId, onSel
   const [draft, setDraft] = useState<Drawing | null>(null);
   const [drag, setDrag] = useState<{ id: string; su: number; sv: number; du: number; dv: number } | null>(null);
   const drawing = useRef(false);
-  const drawMode = !!tool && tool !== "eraser";
+  const drawMode = !!tool && tool !== "eraser" && tool !== "link";
 
   // (u, v) -> unidades do SVG (metros)
   const xy = ([u, v]: [number, number]): [number, number] => (vertical ? [v * H, (1 - u) * W] : [u * W, v * H]);
@@ -145,7 +145,7 @@ export function Telestrator({ vertical, drawings, tool, color, selectedId, onSel
   const colors = [...new Set([...drawings, ...(draft ? [draft] : [])].map((d) => d.color))];
   return (
     <svg
-      className={`telestrator ${drawMode ? "is-drawing" : ""} ${tool === "eraser" ? "is-erasing" : ""}`}
+      className={`telestrator ${drawMode ? "is-drawing" : ""} ${tool === "eraser" ? "is-erasing" : ""} ${tool === "link" ? "is-linking" : ""}`}
       viewBox={vb}
       preserveAspectRatio="none"
       onPointerDown={down}

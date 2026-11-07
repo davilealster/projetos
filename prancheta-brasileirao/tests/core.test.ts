@@ -158,3 +158,13 @@ describe("compatible (casamento da pesquisa)", async () => {
     ["G. de Arrascaeta", "Giorgian de Arrascaeta", true],
   ])("%s ~ %s = %s", (a, w, ok) => expect(compatible(a, w)).toBe(ok));
 });
+
+describe("cor contrastante para as linhas do adversário", async () => {
+  const { distinctColor } = await import("../src/lib/color");
+  it("vermelho x vermelho troca para outra cor", () => {
+    expect(distinctColor("#E30613", ["#C8102E", "#000000", "#FFFFFF"])).toBe("#00D1FF");
+  });
+  it("vermelho x azul mantém o azul", () => {
+    expect(distinctColor("#E30613", ["#0055A4"])).toBe("#0055A4");
+  });
+});
