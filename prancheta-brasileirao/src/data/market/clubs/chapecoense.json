@@ -817,6 +817,28 @@
         "date": "2026-01-11"
       },
       "joined": "2026-01-11"
+    },
+    {
+      "id": "432959",
+      "name": "Perotti",
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 28,
+      "value": 900000,
+      "contract": null,
+      "nat": "Brazil",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Sport Club do Recife",
+      "loanUntil": "2026-11-30",
+      "arrival": {
+        "type": "freeTransfer",
+        "from": "Radomiak Radom",
+        "fee": null,
+        "date": "2025-07-01"
+      },
+      "joined": null
     }
   ]
 }

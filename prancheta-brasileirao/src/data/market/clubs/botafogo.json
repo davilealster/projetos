@@ -817,6 +817,72 @@
         "date": "2025-01-20"
       },
       "joined": null
+    },
+    {
+      "id": "1222625",
+      "name": "Kauan Lindes",
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 22,
+      "value": 350000,
+      "contract": null,
+      "nat": "Brazil",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Athletic Club",
+      "loanUntil": "2026-03-31",
+      "arrival": {
+        "type": "transfer",
+        "from": "Coimbra Esporte Clube Ltda U20 (MG)",
+        "fee": 160000,
+        "date": "2025-01-11"
+      },
+      "joined": null
+    },
+    {
+      "id": "718307",
+      "name": "Matías Segovia",
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 23,
+      "value": 700000,
+      "contract": null,
+      "nat": "Paraguay",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "América Futebol Clube (MG)",
+      "loanUntil": "2026-12-31",
+      "arrival": {
+        "type": "transfer",
+        "from": "Club Guaraní",
+        "fee": 1400000,
+        "date": "2023-04-04"
+      },
+      "joined": null
+    },
+    {
+      "id": "742034",
+      "name": "Léo Linck",
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": null,
+      "value": null,
+      "contract": null,
+      "nat": "Brazil",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "CF Estrela Amadora",
+      "loanUntil": "2027-06-30",
+      "arrival": {
+        "type": "transfer",
+        "from": "Club Athletico Paranaense",
+        "fee": 1700000,
+        "date": "2025-01-29"
+      },
+      "joined": null
     }
   ]
 }

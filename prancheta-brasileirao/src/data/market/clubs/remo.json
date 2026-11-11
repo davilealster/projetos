@@ -707,6 +707,72 @@
         "date": "2025-02-01"
       },
       "joined": null
+    },
+    {
+      "id": "911994",
+      "name": "Alexis Alvariño",
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 25,
+      "value": 450000,
+      "contract": null,
+      "nat": "Argentina",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Grêmio Novorizontino",
+      "loanUntil": "2026-12-31",
+      "arrival": {
+        "type": "freeTransfer",
+        "from": "CA Boca Juniors",
+        "fee": null,
+        "date": "2025-01-01"
+      },
+      "joined": null
+    },
+    {
+      "id": "281837",
+      "name": "Dodô",
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 32,
+      "value": 75000,
+      "contract": null,
+      "nat": "Brazil",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Vila Nova Futebol Clube (GO)",
+      "loanUntil": "2026-12-31",
+      "arrival": {
+        "type": "freeTransfer",
+        "from": "Kazma SC",
+        "fee": null,
+        "date": "2025-01-01"
+      },
+      "joined": null
+    },
+    {
+      "id": "599879",
+      "name": "Marrony",
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 27,
+      "value": 700000,
+      "contract": null,
+      "nat": "Brazil",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Atlético Clube Goianiense",
+      "loanUntil": "2026-12-31",
+      "arrival": {
+        "type": "freeTransfer",
+        "from": "FC Midtjylland",
+        "fee": null,
+        "date": "2025-06-10"
+      },
+      "joined": null
     }
   ]
 }

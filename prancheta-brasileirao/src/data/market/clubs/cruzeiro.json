@@ -795,6 +795,116 @@
         "date": "2024-01-01"
       },
       "joined": null
+    },
+    {
+      "id": "977463",
+      "name": "Rodriguinho",
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 23,
+      "value": 900000,
+      "contract": null,
+      "nat": "Brazil",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Fortaleza Esporte Clube",
+      "loanUntil": "2026-12-31",
+      "arrival": {
+        "type": "freeTransfer",
+        "from": "América Futebol Clube (MG)",
+        "fee": null,
+        "date": "2025-01-01"
+      },
+      "joined": null
+    },
+    {
+      "id": "559602",
+      "name": "Chico da Costa",
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 31,
+      "value": 1000000,
+      "contract": null,
+      "nat": "Brazil",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Fortaleza Esporte Clube",
+      "loanUntil": "2026-11-30",
+      "arrival": {
+        "type": "transfer",
+        "from": "Club Cerro Porteño",
+        "fee": 850000,
+        "date": "2026-01-09"
+      },
+      "joined": null
+    },
+    {
+      "id": "1083245",
+      "name": "Murilo Rhikman",
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 20,
+      "value": 500000,
+      "contract": null,
+      "nat": "Brazil",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Sport Club do Recife",
+      "loanUntil": "2026-11-30",
+      "arrival": {
+        "type": "youth",
+        "from": "Cruzeiro EC U20",
+        "fee": null,
+        "date": "2025-04-08"
+      },
+      "joined": null
+    },
+    {
+      "id": "720294",
+      "name": "Lautaro Díaz",
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": null,
+      "value": null,
+      "contract": null,
+      "nat": "Argentina",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Racing Club",
+      "loanUntil": "2027-06-30",
+      "arrival": {
+        "type": "transfer",
+        "from": "Independiente del Valle",
+        "fee": 2700000,
+        "date": "2024-07-10"
+      },
+      "joined": null
+    },
+    {
+      "id": "879217",
+      "name": "Kaiki",
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 23,
+      "value": 14000000,
+      "contract": null,
+      "nat": "Brazil",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Como 1907",
+      "loanUntil": "2027-06-30",
+      "arrival": {
+        "type": "youth",
+        "from": "Cruzeiro EC U20",
+        "fee": null,
+        "date": "2022-01-01"
+      },
+      "joined": null
     }
   ]
 }

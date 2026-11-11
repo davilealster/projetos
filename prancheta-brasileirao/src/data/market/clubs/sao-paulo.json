@@ -905,6 +905,160 @@
         "date": "2022-01-21"
       },
       "joined": null
+    },
+    {
+      "id": "607210",
+      "name": "Maílton",
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 28,
+      "value": 2300000,
+      "contract": null,
+      "nat": "Brazil",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Fortaleza Esporte Clube",
+      "loanUntil": "2026-12-31",
+      "arrival": {
+        "type": "freeTransfer",
+        "from": "Metalist Kharkiv",
+        "fee": null,
+        "date": "2025-09-01"
+      },
+      "joined": null
+    },
+    {
+      "id": "512344",
+      "name": "Jandrei",
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 33,
+      "value": 200000,
+      "contract": null,
+      "nat": "Brazil",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Esporte Clube Juventude",
+      "loanUntil": "2026-12-31",
+      "arrival": {
+        "type": "freeTransfer",
+        "from": "Santos FC",
+        "fee": null,
+        "date": "2022-01-01"
+      },
+      "joined": null
+    },
+    {
+      "id": "662326",
+      "name": "Patryck",
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 23,
+      "value": 1200000,
+      "contract": null,
+      "nat": "Brazil",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Esporte Clube Juventude",
+      "loanUntil": "2026-12-31",
+      "arrival": {
+        "type": "youth",
+        "from": "São Paulo FC U20",
+        "fee": null,
+        "date": "2023-01-01"
+      },
+      "joined": null
+    },
+    {
+      "id": "1127817",
+      "name": "Iba Ly",
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 23,
+      "value": 250000,
+      "contract": null,
+      "nat": "Senegal",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Esporte Clube Juventude",
+      "loanUntil": "2026-12-31",
+      "arrival": {
+        "type": "youth",
+        "from": "São Paulo FC U20",
+        "fee": null,
+        "date": "2024-04-15"
+      },
+      "joined": null
+    },
+    {
+      "id": "980837",
+      "name": "Felipe Negrucci",
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 22,
+      "value": 1000000,
+      "contract": null,
+      "nat": "Brazil",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Athletic Club",
+      "loanUntil": "2026-12-31",
+      "arrival": {
+        "type": "youth",
+        "from": "São Paulo FC U20",
+        "fee": null,
+        "date": "2025-02-26"
+      },
+      "joined": null
+    },
+    {
+      "id": "662739",
+      "name": "Gonzalo Tapia",
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 24,
+      "value": 3500000,
+      "contract": null,
+      "nat": "Chile",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Columbus Crew",
+      "loanUntil": "2027-06-30",
+      "arrival": {
+        "type": "transfer",
+        "from": "CA River Plate",
+        "fee": 2000000,
+        "date": "2026-01-01"
+      },
+      "joined": null
+    },
+    {
+      "id": "503343",
+      "name": "Alan Franco",
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 30,
+      "value": 4000000,
+      "contract": null,
+      "nat": "Argentina",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Tigres UANL",
+      "loanUntil": "2027-06-30",
+      "arrival": {
+        "type": "transfer",
+        "from": "Atlanta United FC",
+        "fee": 1500000,
+        "date": "2023-01-05"
+      },
+      "joined": null
     }
   ]
 }

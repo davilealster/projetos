@@ -8,6 +8,160 @@
       "group": "Brasil",
       "clubs": 20,
       "players": 672
+    },
+    {
+      "id": "BRA2",
+      "name": "Brasileirão Série B",
+      "group": "Brasil",
+      "clubs": 20,
+      "players": 661
+    },
+    {
+      "id": "AR1N",
+      "name": "Liga Profesional (Argentina)",
+      "group": "América do Sul",
+      "clubs": 28,
+      "players": 830
+    },
+    {
+      "id": "URU1",
+      "name": "Primera División (Uruguai)",
+      "group": "América do Sul",
+      "clubs": 16,
+      "players": 458
+    },
+    {
+      "id": "COLP",
+      "name": "Liga BetPlay (Colômbia)",
+      "group": "América do Sul",
+      "clubs": 20,
+      "players": 528
+    },
+    {
+      "id": "CLPD",
+      "name": "Primera División (Chile)",
+      "group": "América do Sul",
+      "clubs": 16,
+      "players": 429
+    },
+    {
+      "id": "PR1A",
+      "name": "Primera División (Paraguai)",
+      "group": "América do Sul",
+      "clubs": 12,
+      "players": 383
+    },
+    {
+      "id": "EC1N",
+      "name": "LigaPro (Equador)",
+      "group": "América do Sul",
+      "clubs": 16,
+      "players": 462
+    },
+    {
+      "id": "GB1",
+      "name": "Premier League (Inglaterra)",
+      "group": "Top 5 da Europa",
+      "clubs": 20,
+      "players": 547
+    },
+    {
+      "id": "ES1",
+      "name": "LaLiga (Espanha)",
+      "group": "Top 5 da Europa",
+      "clubs": 20,
+      "players": 519
+    },
+    {
+      "id": "IT1",
+      "name": "Serie A (Itália)",
+      "group": "Top 5 da Europa",
+      "clubs": 20,
+      "players": 579
+    },
+    {
+      "id": "L1",
+      "name": "Bundesliga (Alemanha)",
+      "group": "Top 5 da Europa",
+      "clubs": 18,
+      "players": 512
+    },
+    {
+      "id": "FR1",
+      "name": "Ligue 1 (França)",
+      "group": "Top 5 da Europa",
+      "clubs": 18,
+      "players": 486
+    },
+    {
+      "id": "PO1",
+      "name": "Liga Portugal",
+      "group": "Outros europeus",
+      "clubs": 18,
+      "players": 519
+    },
+    {
+      "id": "NL1",
+      "name": "Eredivisie (Holanda)",
+      "group": "Outros europeus",
+      "clubs": 18,
+      "players": 512
+    },
+    {
+      "id": "BE1",
+      "name": "Pro League (Bélgica)",
+      "group": "Outros europeus",
+      "clubs": 18,
+      "players": 533
+    },
+    {
+      "id": "TR1",
+      "name": "Süper Lig (Turquia)",
+      "group": "Outros europeus",
+      "clubs": 18,
+      "players": 524
+    },
+    {
+      "id": "RU1",
+      "name": "Premier Liga (Rússia)",
+      "group": "Outros europeus",
+      "clubs": 16,
+      "players": 438
+    },
+    {
+      "id": "MLS1",
+      "name": "MLS (EUA)",
+      "group": "MLS, México e Oriente Médio",
+      "clubs": 30,
+      "players": 884
+    },
+    {
+      "id": "MEX1",
+      "name": "Liga MX (México)",
+      "group": "MLS, México e Oriente Médio",
+      "clubs": 18,
+      "players": 485
+    },
+    {
+      "id": "SA1",
+      "name": "Saudi Pro League",
+      "group": "MLS, México e Oriente Médio",
+      "clubs": 18,
+      "players": 508
+    },
+    {
+      "id": "QSL",
+      "name": "Stars League (Catar)",
+      "group": "MLS, México e Oriente Médio",
+      "clubs": 12,
+      "players": 358
+    },
+    {
+      "id": "UAE1",
+      "name": "UAE Pro League (Emirados)",
+      "group": "MLS, México e Oriente Médio",
+      "clubs": 14,
+      "players": 452
     }
   ],
   "clubs": {

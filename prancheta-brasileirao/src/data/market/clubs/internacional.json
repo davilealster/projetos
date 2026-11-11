@@ -729,6 +729,50 @@
         "date": "2020-01-01"
       },
       "joined": null
+    },
+    {
+      "id": "465817",
+      "name": "Alan Rodríguez",
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 26,
+      "value": 2300000,
+      "contract": null,
+      "nat": "Uruguay",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "CA Rosario Central",
+      "loanUntil": "2027-06-30",
+      "arrival": {
+        "type": "transfer",
+        "from": "AA Argentinos Juniors",
+        "fee": 4300000,
+        "date": "2025-07-30"
+      },
+      "joined": null
+    },
+    {
+      "id": "371968",
+      "name": "Clayton",
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 26,
+      "value": 700000,
+      "contract": null,
+      "nat": "Brazil",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Fakel Voronezh",
+      "loanUntil": "2027-06-30",
+      "arrival": {
+        "type": "transfer",
+        "from": "Avs Futebol",
+        "fee": 1200000,
+        "date": "2024-08-30"
+      },
+      "joined": null
     }
   ]
 }

@@ -883,6 +883,138 @@
         "date": "2023-01-01"
       },
       "joined": null
+    },
+    {
+      "id": "480686",
+      "name": "Gabriel Fuentes",
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 29,
+      "value": 1700000,
+      "contract": null,
+      "nat": "Colombia",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Fortaleza Esporte Clube",
+      "loanUntil": "2026-12-31",
+      "arrival": {
+        "type": "transfer",
+        "from": "Junior FC",
+        "fee": 1000000,
+        "date": "2024-09-02"
+      },
+      "joined": null
+    },
+    {
+      "id": "1089609",
+      "name": "Kayky Almeida",
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 21,
+      "value": 800000,
+      "contract": null,
+      "nat": "Brazil",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Sport Club do Recife",
+      "loanUntil": "2026-11-30",
+      "arrival": {
+        "type": "youth",
+        "from": "Fluminense FC U20",
+        "fee": null,
+        "date": "2025-05-29"
+      },
+      "joined": null
+    },
+    {
+      "id": "875339",
+      "name": "João Neto",
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 23,
+      "value": 150000,
+      "contract": null,
+      "nat": "Brazil",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Clube de Regatas Brasil (AL)",
+      "loanUntil": "2026-12-31",
+      "arrival": {
+        "type": "youth",
+        "from": "Fluminense FC U20",
+        "fee": null,
+        "date": "2024-01-01"
+      },
+      "joined": null
+    },
+    {
+      "id": "261309",
+      "name": "David Terans",
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 32,
+      "value": 1000000,
+      "contract": null,
+      "nat": "Uruguay",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Atlético Clube Goianiense",
+      "loanUntil": "2026-11-30",
+      "arrival": {
+        "type": "transfer",
+        "from": "CF Pachuca",
+        "fee": 2600000,
+        "date": "2024-01-24"
+      },
+      "joined": null
+    },
+    {
+      "id": "1039533",
+      "name": "Rubén Lezcano",
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 22,
+      "value": 3500000,
+      "contract": null,
+      "nat": "Paraguay",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Club Olimpia",
+      "loanUntil": "2026-12-31",
+      "arrival": {
+        "type": "transfer",
+        "from": "Club Libertad Asunción",
+        "fee": 4750000,
+        "date": "2025-02-28"
+      },
+      "joined": null
+    },
+    {
+      "id": "654766",
+      "name": "Santiago Moreno",
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 26,
+      "value": 3000000,
+      "contract": null,
+      "nat": "Colombia",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "FC Dallas",
+      "loanUntil": "2026-12-31",
+      "arrival": {
+        "type": "transfer",
+        "from": "Portland Timbers",
+        "fee": 5150000,
+        "date": "2025-08-12"
+      },
+      "joined": null
     }
   ]
 }

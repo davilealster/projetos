@@ -817,6 +817,50 @@
         "date": "2025-01-09"
       },
       "joined": null
+    },
+    {
+      "id": "1005642",
+      "name": "Ryan",
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 23,
+      "value": 3000000,
+      "contract": null,
+      "nat": "Brazil",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Fortaleza Esporte Clube",
+      "loanUntil": "2026-12-31",
+      "arrival": {
+        "type": "youth",
+        "from": "SC Corinthians U20",
+        "fee": null,
+        "date": "2024-02-01"
+      },
+      "joined": null
+    },
+    {
+      "id": "708723",
+      "name": "Matheus Donelli",
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 24,
+      "value": 1000000,
+      "contract": null,
+      "nat": "Brazil",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Shabab Al-Ahli Club",
+      "loanUntil": "2026-12-31",
+      "arrival": {
+        "type": "youth",
+        "from": "SC Corinthians U20",
+        "fee": null,
+        "date": "2021-03-01"
+      },
+      "joined": null
     }
   ]
 }

@@ -817,6 +817,116 @@
         "date": "2023-04-04"
       },
       "joined": null
+    },
+    {
+      "id": "678502",
+      "name": "Guilherme Lopes",
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 24,
+      "value": 800000,
+      "contract": null,
+      "nat": "Brazil",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Atlético Clube Goianiense",
+      "loanUntil": "2026-12-31",
+      "arrival": {
+        "type": "youth",
+        "from": "RB Bragantino B",
+        "fee": null,
+        "date": "2023-01-01"
+      },
+      "joined": null
+    },
+    {
+      "id": "1082603",
+      "name": "André Cardoso",
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 23,
+      "value": null,
+      "contract": null,
+      "nat": "Brazil",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Londrina Esporte Clube (PR)",
+      "loanUntil": "2026-12-31",
+      "arrival": {
+        "type": "youth",
+        "from": "RB Bragantino U20",
+        "fee": null,
+        "date": "2025-01-01"
+      },
+      "joined": null
+    },
+    {
+      "id": "1090856",
+      "name": "Vitinho Mota",
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 23,
+      "value": 250000,
+      "contract": null,
+      "nat": "Brazil",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Londrina Esporte Clube (PR)",
+      "loanUntil": "2026-12-31",
+      "arrival": {
+        "type": "transfer",
+        "from": "Desportivo Brasil Ltda (SP)",
+        "fee": null,
+        "date": "2025-01-13"
+      },
+      "joined": null
+    },
+    {
+      "id": "355496",
+      "name": "Lucas Cunha",
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 29,
+      "value": 1200000,
+      "contract": null,
+      "nat": "Brazil",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Associação Atlética Ponte Preta",
+      "loanUntil": "2026-11-30",
+      "arrival": {
+        "type": "transfer",
+        "from": "Gil Vicente FC",
+        "fee": 1500000,
+        "date": "2023-02-01"
+      },
+      "joined": null
+    },
+    {
+      "id": "1174214",
+      "name": "Sergio Palacios",
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 21,
+      "value": 900000,
+      "contract": null,
+      "nat": "Colombia",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Associação Atlética Ponte Preta",
+      "loanUntil": "2026-07-27",
+      "arrival": {
+        "type": "youth",
+        "from": "RB Bragantino U20",
+        "fee": null,
+        "date": "2026-01-01"
+      },
+      "joined": null
     }
   ]
 }

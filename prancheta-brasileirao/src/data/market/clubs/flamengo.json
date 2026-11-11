@@ -641,6 +641,28 @@
         "date": "2023-07-01"
       },
       "joined": null
+    },
+    {
+      "id": "363173",
+      "name": "Carlinhos",
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 29,
+      "value": 900000,
+      "contract": null,
+      "nat": "Brazil",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Athletic Club",
+      "loanUntil": "2026-11-30",
+      "arrival": {
+        "type": "transfer",
+        "from": "Nova Iguaçu FC (RJ)",
+        "fee": 600000,
+        "date": "2024-04-08"
+      },
+      "joined": null
     }
   ]
 }

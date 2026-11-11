@@ -817,6 +817,94 @@
         "date": "2025-02-11"
       },
       "joined": null
+    },
+    {
+      "id": "959092",
+      "name": "Ronald",
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 23,
+      "value": 2500000,
+      "contract": null,
+      "nat": "Brazil",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Fortaleza Esporte Clube",
+      "loanUntil": "2026-12-31",
+      "arrival": {
+        "type": "youth",
+        "from": "Grêmio FBPA U20",
+        "fee": null,
+        "date": "2023-01-01"
+      },
+      "joined": null
+    },
+    {
+      "id": "839031",
+      "name": "Leonel Pérez",
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": null,
+      "value": null,
+      "contract": null,
+      "nat": "Argentina",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Racing Club",
+      "loanUntil": "2027-06-30",
+      "arrival": {
+        "type": "transfer",
+        "from": "CA Huracán",
+        "fee": 2383000,
+        "date": "2026-02-10"
+      },
+      "joined": null
+    },
+    {
+      "id": "828045",
+      "name": "Miguel Monsalve",
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 22,
+      "value": 3500000,
+      "contract": null,
+      "nat": "Colombia",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Club Estudiantes de La Plata",
+      "loanUntil": "2027-06-30",
+      "arrival": {
+        "type": "transfer",
+        "from": "Independiente Medellín",
+        "fee": 2300000,
+        "date": "2024-07-14"
+      },
+      "joined": null
+    },
+    {
+      "id": "662742",
+      "name": "Alexander Aravena",
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 24,
+      "value": 3500000,
+      "contract": null,
+      "nat": "Chile",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Portland Timbers",
+      "loanUntil": "2026-12-31",
+      "arrival": {
+        "type": "transfer",
+        "from": "CD Universidad Católica",
+        "fee": 3200000,
+        "date": "2024-07-14"
+      },
+      "joined": null
     }
   ]
 }

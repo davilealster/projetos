@@ -817,6 +817,72 @@
         "date": "2026-02-09"
       },
       "joined": "2026-02-09"
+    },
+    {
+      "id": "1083974",
+      "name": "Ray Breno",
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 22,
+      "value": null,
+      "contract": null,
+      "nat": "Brazil",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Esporte Clube Juventude",
+      "loanUntil": "2026-12-31",
+      "arrival": {
+        "type": "youth",
+        "from": "CR Vasco da Gama U20",
+        "fee": null,
+        "date": "2025-01-01"
+      },
+      "joined": null
+    },
+    {
+      "id": "1083889",
+      "name": "Lyncon",
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 21,
+      "value": 100000,
+      "contract": null,
+      "nat": "Brazil",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Clube de Regatas Brasil (AL)",
+      "loanUntil": "2026-11-30",
+      "arrival": {
+        "type": "youth",
+        "from": "CR Vasco da Gama U20",
+        "fee": null,
+        "date": "2026-01-01"
+      },
+      "joined": null
+    },
+    {
+      "id": "659264",
+      "name": "Juan Sforza",
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": null,
+      "value": null,
+      "contract": null,
+      "nat": "Argentina",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "CA Talleres",
+      "loanUntil": "2026-12-31",
+      "arrival": {
+        "type": "transfer",
+        "from": "CA Newell's Old Boys",
+        "fee": 4600000,
+        "date": "2024-02-19"
+      },
+      "joined": null
     }
   ]
 }

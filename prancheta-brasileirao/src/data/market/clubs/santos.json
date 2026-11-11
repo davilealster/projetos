@@ -883,6 +883,138 @@
         "date": "2024-04-19"
       },
       "joined": null
+    },
+    {
+      "id": "740273",
+      "name": "Nathan",
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 25,
+      "value": 1200000,
+      "contract": null,
+      "nat": "Brazil",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Esporte Clube Juventude",
+      "loanUntil": "2026-12-31",
+      "arrival": {
+        "type": "transfer",
+        "from": "Boavista FC",
+        "fee": 2000000,
+        "date": "2022-08-05"
+      },
+      "joined": null
+    },
+    {
+      "id": "1093922",
+      "name": "Luisão",
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 23,
+      "value": 500000,
+      "contract": null,
+      "nat": "Brazil",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Goiás EC",
+      "loanUntil": "2026-12-31",
+      "arrival": {
+        "type": "transfer",
+        "from": "Grêmio Novorizontino",
+        "fee": null,
+        "date": "2025-01-11"
+      },
+      "joined": null
+    },
+    {
+      "id": "389942",
+      "name": "Hayner",
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 31,
+      "value": 350000,
+      "contract": null,
+      "nat": "Brazil",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Vila Nova Futebol Clube (GO)",
+      "loanUntil": "2026-12-31",
+      "arrival": {
+        "type": "freeTransfer",
+        "from": "Azuriz FC",
+        "fee": null,
+        "date": "2025-01-01"
+      },
+      "joined": null
+    },
+    {
+      "id": "1082852",
+      "name": "Hyan",
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 22,
+      "value": 300000,
+      "contract": null,
+      "nat": "Brazil",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Avaí FC",
+      "loanUntil": "2026-12-31",
+      "arrival": {
+        "type": "youth",
+        "from": "Santos FC U20",
+        "fee": null,
+        "date": "2024-04-01"
+      },
+      "joined": null
+    },
+    {
+      "id": "1032891",
+      "name": "Kevyson",
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 22,
+      "value": 800000,
+      "contract": null,
+      "nat": "Brazil",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Associação Atlética Ponte Preta",
+      "loanUntil": "2026-12-31",
+      "arrival": {
+        "type": "youth",
+        "from": "Santos FC U20",
+        "fee": null,
+        "date": "2023-04-01"
+      },
+      "joined": null
+    },
+    {
+      "id": "1355385",
+      "name": "Robinho Junior",
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 18,
+      "value": 5000000,
+      "contract": null,
+      "nat": "Brazil",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Genoa CFC",
+      "loanUntil": "2027-06-30",
+      "arrival": {
+        "type": "youth",
+        "from": "Santos FC U20",
+        "fee": null,
+        "date": "2025-07-01"
+      },
+      "joined": null
     }
   ]
 }

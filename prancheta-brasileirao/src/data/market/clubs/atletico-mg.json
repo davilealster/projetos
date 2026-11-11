@@ -795,6 +795,182 @@
         "date": "2025-01-01"
       },
       "joined": null
+    },
+    {
+      "id": "1083073",
+      "name": "Cadu",
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 22,
+      "value": 600000,
+      "contract": null,
+      "nat": "Brazil",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Goiás EC",
+      "loanUntil": "2026-12-31",
+      "arrival": {
+        "type": "youth",
+        "from": "Atlético Mineiro U20",
+        "fee": null,
+        "date": "2023-01-01"
+      },
+      "joined": null
+    },
+    {
+      "id": "1220181",
+      "name": "Maykon Jesus",
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 20,
+      "value": 500000,
+      "contract": null,
+      "nat": "Brazil",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Grêmio Novorizontino",
+      "loanUntil": "2026-12-31",
+      "arrival": {
+        "type": "youth",
+        "from": "Atlético Mineiro U20",
+        "fee": null,
+        "date": "2025-01-01"
+      },
+      "joined": null
+    },
+    {
+      "id": "743588",
+      "name": "Rômulo",
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 22,
+      "value": 450000,
+      "contract": null,
+      "nat": "Brazil",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Criciúma EC",
+      "loanUntil": "2027-03-31",
+      "arrival": {
+        "type": "youth",
+        "from": "Atlético Mineiro U20",
+        "fee": null,
+        "date": "2024-04-01"
+      },
+      "joined": null
+    },
+    {
+      "id": "1116366",
+      "name": "Paulo Vitor",
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 22,
+      "value": 800000,
+      "contract": null,
+      "nat": "Brazil",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Avaí FC",
+      "loanUntil": "2026-12-31",
+      "arrival": {
+        "type": "transfer",
+        "from": "Boston City Futebol Clube Brasil",
+        "fee": 95000,
+        "date": "2024-02-01"
+      },
+      "joined": null
+    },
+    {
+      "id": "491701",
+      "name": "Fausto Vera",
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 26,
+      "value": 4500000,
+      "contract": null,
+      "nat": "Argentina",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "CA River Plate",
+      "loanUntil": "2026-12-31",
+      "arrival": {
+        "type": "transfer",
+        "from": "Sport Club Corinthians Paulista",
+        "fee": 4500000,
+        "date": "2024-07-16"
+      },
+      "joined": null
+    },
+    {
+      "id": "1101447",
+      "name": "Iván Román",
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 20,
+      "value": 1500000,
+      "contract": null,
+      "nat": "Chile",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "CSD Colo-Colo",
+      "loanUntil": "2027-12-31",
+      "arrival": {
+        "type": "transfer",
+        "from": "CD Palestino",
+        "fee": 1920000,
+        "date": "2025-02-28"
+      },
+      "joined": null
+    },
+    {
+      "id": "1220180",
+      "name": "Mateus Iseppe",
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": null,
+      "value": null,
+      "contract": null,
+      "nat": "Brazil",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "CD Nacional",
+      "loanUntil": "2027-06-30",
+      "arrival": {
+        "type": "youth",
+        "from": "Atlético Mineiro U20",
+        "fee": null,
+        "date": "2025-09-01"
+      },
+      "joined": null
+    },
+    {
+      "id": "1344099",
+      "name": "João Marcelo",
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 21,
+      "value": 1800000,
+      "contract": null,
+      "nat": "Brazil",
+      "num": null,
+      "photo": null,
+      "status": "loanOut",
+      "loanClub": "Shabab Al-Ahli Club",
+      "loanUntil": null,
+      "arrival": {
+        "type": "transfer",
+        "from": "Guarani Futebol Clube (SP)",
+        "fee": 430000,
+        "date": "2025-03-06"
+      },
+      "joined": null
     }
   ]
 }
