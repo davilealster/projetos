@@ -25,6 +25,9 @@ export function TeamPicker() {
           Prancheta <span>Brasileirão</span>
         </h1>
         <p className="home__lead">Escolha o seu time, arraste os jogadores e monte a escalação. Sem cadastro.</p>
+        <a className="home__module" href="/mercado" onClick={(e) => (e.preventDefault(), navigate("/mercado"))}>
+          <b>Novo: Mercado da bola</b> · monte o elenco da próxima temporada com orçamento, vendas e contratações →
+        </a>
         <input
           className="home__search"
           type="search"

@@ -1,0 +1,68 @@
+name: Mercado · coletar dados do Transfermarkt
+
+# Toda terça às 6h UTC (ou manualmente): coleta valores de mercado, contratos e empréstimos
+# e abre um PR com os dados do módulo /mercado. Os DADOS são do Transfermarkt: confira os termos
+# de uso dele antes de publicar ou monetizar. O Transfermarkt pode bloquear IPs de servidores;
+# se a coleta falhar aqui, rode o coletor na sua máquina (README, seção "Mercado da bola").
+on:
+  schedule:
+    - cron: "0 6 * * 2"
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Só estas ligas (ex.: BRA1,GB1). Vazio = todas."
+        required: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    defaults:
+      run:
+        working-directory: prancheta-brasileirao
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install "transfermarkt-api==5.*"
+
+      # cache das chamadas: se a coleta for interrompida, a próxima execução continua
+      - uses: actions/cache@v4
+        with:
+          path: prancheta-brasileirao/.cache/tm
+          key: tm-${{ github.run_id }}
+          restore-keys: tm-
+
+      - name: Coletar Transfermarkt
+        run: python scripts/market/collect_transfermarkt.py ${{ inputs.only && format('--only {0}', inputs.only) || '' }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: prancheta-brasileirao/package-lock.json
+
+      - run: npm ci
+      - run: npm run build:market
+      - run: npm test
+
+      - name: Abrir PR com os dados do mercado
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: prancheta/mercado-dados
+          delete-branch: true
+          commit-message: "Atualiza dados do mercado (Transfermarkt)"
+          title: "Mercado: dados do Transfermarkt atualizados"
+          body: |
+            Coleta automática de valores de mercado, contratos e empréstimos (Transfermarkt).
+            Confira alguns clubes em /mercado antes do merge.
+          add-paths: |
+            prancheta-brasileirao/src/data/market
+            prancheta-brasileirao/data/market/competitions.lock.json

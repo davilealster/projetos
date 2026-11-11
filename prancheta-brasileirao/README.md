@@ -24,6 +24,29 @@ npm run dev
 | `/creator` | Página para influenciadores: gerador de URL do OBS, atalhos e aviso de imagens |
 | `/admin` | Painel com login: editar nome, número, posição principal, 2 alternativas, ocultar e marcar revisado, por clube; editar nome e cores do clube; trocar senha; exportar backup |
 
+## Mercado da bola (`/mercado`)
+
+Módulo separado da prancheta: o usuário escolhe um clube da Série A, define o orçamento (em euros, com conversão para reais), decide o destino de cada jogador e contrata nos outros mercados para montar o elenco da próxima temporada. As decisões ficam salvas no navegador.
+
+- **Elenco atual:** valor de mercado, fim de contrato, situação (do clube, emprestado ao clube, emprestado fora) e como chegou (comprado de X por €, livre, empréstimo, base).
+- **Decisões:** do clube → mantém, vende, empresta ou dispensa; contrato terminando → renova, deixa sair livre ou vende; chegou emprestado → mantém o empréstimo, devolve ou compra em definitivo; emprestado fora → traz de volta, segue emprestado ou vende. Vendas e compras aceitam valor próprio.
+- **Mercado:** 23 ligas (Brasil, América do Sul, top 5 da Europa, outros europeus, MLS, México, Arábia, Catar, Emirados). Filtros por liga, nome, posição, idade, valor e "só livres" (contrato terminando). Compra, empréstimo ou contratação livre.
+- **Resumo:** receitas, gastos, saldo, valor e idade média do elenco, chegadas, saídas, decisões pendentes e alertas de elenco (goleiros, laterais etc.).
+
+### Dados (Transfermarkt)
+
+Os dados vêm do Transfermarkt pelo pacote aberto [transfermarkt-api](https://github.com/felipeall/transfermarkt-api) (MIT). **O código é livre, os dados são do Transfermarkt**: confira os termos de uso dele antes de publicar ou monetizar.
+
+```bash
+pip install "transfermarkt-api==5.*"          # Python 3.12 ou 3.13
+python scripts/market/collect_transfermarkt.py  # todas as ligas (~1 a 2 h); --only BRA1,GB1 para algumas
+npm run build:market                            # gera src/data/market
+```
+
+O coletor guarda cada chamada em `.cache/tm/`: se o Transfermarkt bloquear no meio, rodar de novo continua de onde parou. As ligas estão em `scripts/market/competitions.json` (as sem código são procuradas pelo nome e travadas em `data/market/competitions.lock.json`). Há também a GitHub Action semanal "Mercado" (`.github/workflows/mercado-sync.yml`), que coleta e abre um PR. O Transfermarkt pode bloquear IPs de servidores; nesse caso, rode na sua máquina.
+
+Como a situação é deduzida (`scripts/lib/market.ts`): a última transferência concluída diz se o jogador chegou emprestado ("loan" para o clube) ou está emprestado fora ("loan" saindo do clube); a chegada é a última entrada no clube que não seja retorno de empréstimo; sem entrada no histórico = cria da base. Emprestados fora só aparecem se estiverem num clube das ligas coletadas. "Terminando" = contrato (ou empréstimo) que acaba antes de 01/01/2027 (`MARKET_NEXT_SEASON` muda a data).
+
 ## Posições: principal + 2 alternativas
 
 Cada jogador tem uma posição principal e até duas alternativas. Na prancheta, **um clique** no jogador em campo abre um seletor para escolher em que posição ele joga naquela escalação (o selo na peça mostra a escolha); **dois cliques** tiram do campo. As formações automáticas usam as alternativas para encaixar o jogador.

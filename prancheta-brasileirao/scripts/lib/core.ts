@@ -222,7 +222,7 @@ const PT_TABLE: [RegExp, Pos | "LAT"][] = [
   [/zagueiro|defensor|defesa central|beque|^central$|centre back|center back|central defender|^defender$/, "ZAG"],
   [/ponta|extremo|ponteiro|winger|^wing$|wide midfield|right midfield|left midfield/, "PON"],
   [/meia atacante|meia ofensiv|meio campista|meia|armador|medio|meio campo|midfield|playmaker/, "MEI"],
-  [/centroavante|centro avante|atacante|avancado|segundo atacante|ponta de lanca|^ataque$|striker|forward/, "ATA"],
+  [/centroavante|centro avante|atacante|avancado|segundo atacante|ponta de lanca|^ataque$|^attack$|striker|forward/, "ATA"],
 ];
 
 /** Alternativas padrão por posição principal, usadas para completar até 2. */

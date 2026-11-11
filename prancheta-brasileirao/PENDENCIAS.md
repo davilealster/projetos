@@ -12,6 +12,14 @@ Atualizado em 06/11/2026. O que está feito vai no fim do arquivo.
 6. **Revisar as cores dos clubes** em `data/team-colors.json` (preenchidas de memória).
 7. **Termos da API-Football sobre exibir as fotos publicamente** (seção 8 do plano). Não verifiquei. Se houver restrição, deixo "sem fotos" como padrão em tudo, não só no `?safe=1`.
 
+## Mercado da bola
+
+- **Rodar a primeira coleta do Transfermarkt** (README, seção "Mercado da bola"). Até lá o `/mercado` mostra "aguardando coleta". Depois, a Action semanal "Mercado" pode assumir; se o Transfermarkt bloquear o GitHub, rode localmente.
+- **Termos de uso do Transfermarkt.** Os dados são deles. Para um site público, e principalmente monetizado, o ideal é licença ou outra fonte. Decisão sua.
+- **Conferir as ligas sem código fixo** (Uruguai, Colômbia, Chile, Paraguai, Equador, Catar, Emirados): o coletor escolhe pela busca; confira em `data/market/competitions.lock.json` se pegou a 1ª divisão.
+- **Limites conhecidos:** jogador emprestado a um clube de liga não coletada (ex.: Série C, Portugal 2) não aparece como "emprestado fora"; para quem está emprestado fora, o fim do contrato com o clube dono não vem nesse dado; não há salários (dispensa/rescisão custa zero).
+- **Próximos passos possíveis:** levar o elenco montado para a prancheta; compartilhar a janela por link e imagem (feed/story); vendas para clubes específicos com contraproposta.
+
 ## Decisões técnicas a confirmar
 
 - **Open Graph dinâmico (5.3).** O estado da escalação está no `#hash` da URL, que o navegador não envia ao servidor, então a prévia do WhatsApp não consegue ler a escalação. Para o OG dinâmico, o link precisa usar `?s=` em vez de `#s=` e ter uma função na Vercel (`@vercel/og`). Dá para fazer junto com o deploy.

@@ -16,7 +16,8 @@
     "build:data": "tsx scripts/build-data.ts",
     "review": "tsx scripts/review-positions.ts",
     "import:research": "tsx scripts/import-research.ts",
-    "sync": "tsx scripts/sync.ts"
+    "sync": "tsx scripts/sync.ts",
+    "build:market": "tsx scripts/build-market.ts"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",

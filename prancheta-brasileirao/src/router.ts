@@ -4,6 +4,7 @@ export type Route =
   | { page: "home" }
   | { page: "creator" }
   | { page: "admin" }
+  | { page: "market"; slug: string | null }
   | { page: "board"; slug: string; live: boolean }
   | { page: "notfound" };
 
@@ -12,6 +13,7 @@ export function parseRoute(path: string): Route {
   if (parts.length === 0) return { page: "home" };
   if (parts.length === 1 && parts[0] === "creator") return { page: "creator" };
   if (parts.length === 1 && parts[0] === "admin") return { page: "admin" };
+  if (parts[0] === "mercado" && parts.length <= 2) return { page: "market", slug: parts[1] ?? null };
   if (parts.length === 1) return { page: "board", slug: parts[0], live: false };
   if (parts.length === 2 && parts[1] === "live") return { page: "board", slug: parts[0], live: true };
   return { page: "notfound" };

@@ -6,3 +6,6 @@ dist
 .vercel
 *.tsbuildinfo
 .env*
+
+# mercado: dados brutos do Transfermarkt (grandes); o site usa src/data/market
+data/market/tm/
