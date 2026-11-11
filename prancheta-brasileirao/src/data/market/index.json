@@ -1,6 +1,35 @@
 {
-  "collectedAt": null,
+  "collectedAt": "2026-11-11",
   "nextSeasonStart": "2027-01-01",
-  "leagues": [],
-  "clubs": {}
+  "leagues": [
+    {
+      "id": "BRA1",
+      "name": "Brasileirão Série A",
+      "group": "Brasil",
+      "clubs": 20,
+      "players": 672
+    }
+  ],
+  "clubs": {
+    "palmeiras": "1023",
+    "flamengo": "614",
+    "cruzeiro": "609",
+    "corinthians": "199",
+    "vasco": "978",
+    "botafogo": "537",
+    "bahia": "10010",
+    "fluminense": "2462",
+    "santos": "221",
+    "atletico-mg": "330",
+    "athletico-pr": "679",
+    "bragantino": "8793",
+    "sao-paulo": "585",
+    "gremio": "210",
+    "internacional": "6600",
+    "vitoria": "2125",
+    "coritiba": "776",
+    "mirassol": "3876",
+    "remo": "10997",
+    "chapecoense": "17776"
+  }
 }

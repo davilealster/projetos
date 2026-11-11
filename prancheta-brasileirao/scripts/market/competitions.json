@@ -6,7 +6,7 @@
     { "id": "AR1N", "name": "Liga Profesional (Argentina)", "group": "América do Sul", "transfers": "from-serie-a" },
     { "id": "", "search": "Liga AUF Uruguaya", "country": "Uruguay", "name": "Primera División (Uruguai)", "group": "América do Sul", "transfers": "from-serie-a" },
     { "id": "", "search": "Liga BetPlay", "country": "Colombia", "name": "Liga BetPlay (Colômbia)", "group": "América do Sul", "transfers": "from-serie-a" },
-    { "id": "", "search": "Primera División Chile", "country": "Chile", "name": "Primera División (Chile)", "group": "América do Sul", "transfers": "from-serie-a" },
+    { "id": "", "search": "Liga de Primera", "country": "Chile", "name": "Primera División (Chile)", "group": "América do Sul", "transfers": "from-serie-a" },
     { "id": "", "search": "Primera División Paraguay", "country": "Paraguay", "name": "Primera División (Paraguai)", "group": "América do Sul", "transfers": "from-serie-a" },
     { "id": "", "search": "LigaPro Serie A", "country": "Ecuador", "name": "LigaPro (Equador)", "group": "América do Sul", "transfers": "from-serie-a" },
     { "id": "GB1", "name": "Premier League (Inglaterra)", "group": "Top 5 da Europa", "transfers": "from-serie-a" },
