@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { aggregate, buildLeague, maxMinutes, pickSeason, value12m, valuePeak, type RawScoutPlayer, type TmStat } from "../scripts/scout/lib";
+import { aggregate, buildLeague, leagueComps, maxMinutes, pickSeason, value12m, valuePeak, type RawScoutPlayer, type TmStat } from "../scripts/scout/lib";
 
 const row = (o: Partial<TmStat> & { competitionId: string; seasonId: string }): TmStat => ({
   clubId: "1",
@@ -22,11 +22,11 @@ describe("temporada da liga", () => {
       player("1", [row({ competitionId: "BRA1", seasonId: "2024" }), row({ competitionId: "CLI", seasonId: "2026" })]),
       player("2", [row({ competitionId: "BRA1", seasonId: "2025" })]),
     ];
-    expect(pickSeason("BRA1", ps)).toBe("2025");
-    expect(pickSeason("GB1", ps)).toBeNull();
+    expect(pickSeason(["BRA1"], ps)).toBe("2025");
+    expect(pickSeason(["GB1"], ps)).toBeNull();
   });
   it("compara numericamente", () => {
-    expect(pickSeason("X", [player("1", [row({ competitionId: "X", seasonId: "999" }), row({ competitionId: "X", seasonId: "1000" })])])).toBe("1000");
+    expect(pickSeason(["X"], [player("1", [row({ competitionId: "X", seasonId: "999" }), row({ competitionId: "X", seasonId: "1000" })])])).toBe("1000");
   });
 });
 
@@ -49,7 +49,7 @@ describe("agregação", () => {
   );
 
   it("soma só a liga na temporada; minAll soma todas as competições da temporada", () => {
-    expect(aggregate(p, "BRA1", "2025", "2026-11-12")).toEqual({
+    expect(aggregate(p, ["BRA1"], "2025", "2026-11-12")).toEqual({
       id: "7",
       apps: 15,
       min: 1200,
@@ -66,8 +66,8 @@ describe("agregação", () => {
   });
 
   it("omite quem não jogou a liga na temporada", () => {
-    expect(aggregate(p, "BRA1", "2026", "2026-11-12")).toBeNull();
-    expect(aggregate(player("8", [row({ competitionId: "BRA1", seasonId: "2025", appearances: 0, minutesPlayed: 0 })]), "BRA1", "2025", "2026-11-12")).toBeNull();
+    expect(aggregate(p, ["BRA1"], "2026", "2026-11-12")).toBeNull();
+    expect(aggregate(player("8", [row({ competitionId: "BRA1", seasonId: "2025", appearances: 0, minutesPlayed: 0 })]), ["BRA1"], "2025", "2026-11-12")).toBeNull();
   });
 });
 
@@ -90,8 +90,9 @@ describe("valores", () => {
 
 describe("arquivo da liga", () => {
   it("maxMin = jogos de quem mais jogou × 90", () => {
-    expect(maxMinutes([{ apps: 12 }, { apps: 30 }, { apps: 7 }])).toBe(2700);
-    expect(maxMinutes([])).toBe(0);
+    const ps = [12, 30, 7].map((a, i) => player(String(i), [row({ competitionId: "BRA1", seasonId: "2025", appearances: a })]));
+    expect(maxMinutes(ps, ["BRA1"], "2025")).toBe(2700);
+    expect(maxMinutes([], ["BRA1"], "2025")).toBe(0);
   });
   it("monta o arquivo, sem duplicatas e sem quem não tem dados", () => {
     const a = player("1", [row({ competitionId: "AR1N", seasonId: "2026", appearances: 20 })]);
@@ -108,5 +109,34 @@ describe("arquivo da liga", () => {
     const moved = player("4", [row({ competitionId: "AR1N", seasonId: "2026", appearances: 12 }), row({ competitionId: "AR1N", seasonId: "2026", clubId: "2", appearances: 15 })]);
     expect(buildLeague({ ...raw, players: [a, moved] })!.maxMin).toBe(1800);
     expect(buildLeague({ id: "X", collectedAt: "2026-11-12", players: [] })).toBeNull();
+  });
+});
+
+describe("ligas com Apertura e Clausura", () => {
+  it("junta os torneios da liga (ids diferentes no Transfermarkt)", () => {
+    const comps = leagueComps("AR1N", { AR1N: ["ARG1", "ARGC"] });
+    expect(comps).toEqual(["AR1N", "ARG1", "ARGC"]);
+    expect(leagueComps("GB1", { AR1N: ["ARG1"] })).toEqual(["GB1"]);
+    const raw = {
+      id: "AR1N",
+      collectedAt: "2026-11-12",
+      players: [
+        player("1", [
+          row({ competitionId: "AR1N", seasonId: "2023", appearances: 27 }),
+          row({ competitionId: "ARG1", seasonId: "2025", appearances: 16, goals: 4, minutesPlayed: 1400 }),
+          row({ competitionId: "ARGC", seasonId: "2025", appearances: 15, goals: 3, minutesPlayed: 1300 }),
+          row({ competitionId: "A1P1", seasonId: "2025", appearances: 3, minutesPlayed: 270 }),
+        ]),
+        // trocou de clube entre Apertura e Clausura
+        player("2", [
+          row({ competitionId: "ARG1", seasonId: "2025", clubId: "1", appearances: 16 }),
+          row({ competitionId: "ARGC", seasonId: "2025", clubId: "2", appearances: 16 }),
+        ]),
+      ],
+    };
+    const f = buildLeague(raw, comps)!;
+    expect(f.season).toBe("2025");
+    expect(f.players[0]).toMatchObject({ apps: 31, goals: 7, min: 2700, minAll: 2970 });
+    expect(f.maxMin).toBe(31 * 90);
   });
 });

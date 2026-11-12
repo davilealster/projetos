@@ -3,7 +3,7 @@
 import { existsSync, mkdirSync, readdirSync, rmSync, writeFileSync } from "node:fs";
 import { p, readJson, runIfMain } from "../lib/io";
 import type { ScoutIndex } from "../../src/scout/types";
-import { buildLeague, type RawScoutLeague } from "./lib";
+import { buildLeague, leagueComps, type RawScoutLeague } from "./lib";
 
 const IN = process.env.SCOUT_IN ?? p("data/scout/tm");
 const OUT = p("src/data/scout");
@@ -20,11 +20,13 @@ export function buildScout(): ScoutIndex {
   };
   const raws = files.map((f) => readJson<RawScoutLeague>(`${IN}/${f}`)).sort((a, b) => rank(a.id) - rank(b.id));
 
+  const compMap = readJson<{ leagues: Record<string, string[]> }>(p("scripts/scout/league-comps.json")).leagues;
+
   rmSync(OUT, { recursive: true, force: true });
   mkdirSync(`${OUT}/leagues`, { recursive: true });
   const index: ScoutIndex = { collectedAt: null, leagues: [] };
   for (const raw of raws) {
-    const league = buildLeague(raw);
+    const league = buildLeague(raw, leagueComps(raw.id, compMap));
     if (!league) {
       console.log(`  ${raw.id}: sem dados da liga, pulando`);
       continue;
