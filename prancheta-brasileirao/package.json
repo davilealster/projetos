@@ -17,7 +17,9 @@
     "review": "tsx scripts/review-positions.ts",
     "import:research": "tsx scripts/import-research.ts",
     "sync": "tsx scripts/sync.ts",
-    "build:market": "tsx scripts/build-market.ts"
+    "build:market": "tsx scripts/build-market.ts",
+    "collect:scout": "python3 scripts/scout/collect_stats.py",
+    "build:scout": "tsx scripts/scout/build-scout.ts"
   },
   "dependencies": {
     "@fontsource-variable/hanken-grotesk": "^5.3.0",
