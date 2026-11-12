@@ -7,7 +7,7 @@ Atualizado em 06/11/2026. O que está feito vai no fim do arquivo.
 1. **Revisar o rascunho de posições no `/admin`.** 443 jogadores têm posição principal + 2 alternativas tiradas da Wikipédia (marcados "Wikipédia" no painel). As alternativas padrão por posição (ex.: zagueiro → volante e lateral) são palpite e merecem um olhar. Use o filtro "Não revisados" e marque "Revisado" conforme for conferindo.
 2. **216 jogadores ainda com posição genérica** (filtro "Posição genérica" no painel): quase todos da base/reservas, que a Wikipédia não lista. 37 nomes ainda abreviados.
 3. **Domínio e nome do site.** A marca d'água usa o endereço em que o site está rodando. Falta decidir o nome/domínio definitivo (ex.: `pranchetabrasileirao.com.br`). "Prancheta Brasileirão" é provisório.
-4. **Deploy automático a cada push.** O site está publicado em https://prancheta-brasileirao.vercel.app (deploy manual pelo CLI em 06/11/2026). Para cada push publicar sozinho, conecte o repositório no painel da Vercel (Settings → Git, Root Directory = `prancheta-brasileirao`).
+4. **Deploy automático a cada push.** O site está publicado em https://meuelencofc.vercel.app (o endereço antigo prancheta-brasileirao.vercel.app redireciona para ele; deploy manual pelo CLI). Para cada push publicar sozinho, conecte o repositório no painel da Vercel (Settings → Git, Root Directory = `prancheta-brasileirao`).
 5. **Secret `API_FOOTBALL_KEY` no GitHub** (Settings → Secrets → Actions) para a sincronização semanal funcionar.
 6. **Revisar as cores dos clubes** em `data/team-colors.json` (preenchidas de memória).
 7. **Termos da API-Football sobre exibir as fotos publicamente** (seção 8 do plano). Não verifiquei. Se houver restrição, deixo "sem fotos" como padrão em tudo, não só no `?safe=1`.
