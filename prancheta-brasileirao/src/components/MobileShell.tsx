@@ -24,7 +24,7 @@ interface Props {
 }
 
 /**
- * Layout de app no celular: cabeçalho comum (Mando), campo vertical ocupando a tela, painel deslizante
+ * Layout de app no celular: cabeçalho comum (Meu Elenco FC), campo vertical ocupando a tela, painel deslizante
  * (bottom sheet) e barra de abas embaixo. Com o painel aberto, o campo encolhe para caber acima dele.
  */
 export const MobileShell = forwardRef<HTMLDivElement, Props>(function MobileShell(p, captureRef) {

@@ -110,7 +110,7 @@ const ICON = {
 
 export default function MarketApp({ slug }: { slug: string | null }) {
   useEffect(() => {
-    document.title = "Mercado da bola · Mando";
+    document.title = "Mercado da bola · Meu Elenco FC";
     document.documentElement.classList.add("is-market");
     return () => document.documentElement.classList.remove("is-market");
   }, []);

@@ -1,4 +1,4 @@
-/* Mando — sistema visual compartilhado (Home + Mercado). Fontes são importadas em BrandMark.tsx. */
+/* Meu Elenco FC — sistema visual compartilhado (Home + Mercado). Fontes são importadas em BrandMark.tsx. */
 .brand, .tm {
   --felt: #0f2a23;
   --felt-deep: #0a1f1a;
@@ -73,7 +73,9 @@ html.is-brand, html.is-brand body { background: #0f2a23; }
   display: inline-flex; align-items: center; gap: 8px; color: var(--brand-cream); text-decoration: none; line-height: 1;
   border-radius: 4px; -webkit-tap-highlight-color: transparent;
 }
-.mando-mark__glyph { flex: none; color: var(--brand-brass); transition: transform 0.25s cubic-bezier(0.2, 1.2, 0.4, 1); }
+.mando-mark__glyph { flex: none; display: block; width: auto; height: 32px; filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3)); transition: transform 0.25s cubic-bezier(0.2, 1.2, 0.4, 1); }
+.mando-mark--lg .mando-mark__glyph { height: 44px; }
+.mando-mark__word em { font-style: normal; color: var(--brand-brass); }
 .mando-mark__word {
   font-family: "Big Shoulders Display", "Arial Narrow", sans-serif; font-weight: 900; text-transform: uppercase;
   letter-spacing: 0.02em; font-size: 24px; transform: translateY(1px);
@@ -81,5 +83,5 @@ html.is-brand, html.is-brand body { background: #0f2a23; }
 .mando-mark--lg { gap: 10px; }
 .mando-mark--lg .mando-mark__word { font-size: 34px; }
 .mando-mark:focus-visible { outline: 2px solid var(--brand-brass); outline-offset: 3px; }
-@media (hover: hover) { .mando-mark:hover .mando-mark__glyph { transform: rotate(-18deg); } }
+@media (hover: hover) { .mando-mark:hover .mando-mark__glyph { transform: rotate(-6deg) scale(1.05); } }
 @media (prefers-reduced-motion: reduce) { .mando-mark__glyph { transition: none; } }

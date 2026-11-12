@@ -25,7 +25,7 @@
   text-wrap: balance;
 }
 .mh-title em { font-style: normal; color: var(--brass); }
-.mh-sub { margin: 16px auto 0; max-width: 52ch; font-size: 17px; line-height: 1.5; color: var(--cream-soft); text-wrap: pretty; }
+.mh-sub { margin: 16px auto 0; max-width: 66ch; font-size: 17px; line-height: 1.5; color: var(--cream-soft); text-wrap: pretty; }
 
 /* ---- crachás ---- */
 .mh-cards { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr 0.62fr; gap: 20px; }

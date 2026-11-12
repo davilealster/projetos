@@ -17,25 +17,11 @@ export function spaLink(href: string) {
   };
 }
 
-/** Chave de latão: o anel é o círculo central do campo, cortado pela linha do meio. */
-function KeyGlyph({ size }: { size: number }) {
-  return (
-    <svg className="mando-mark__glyph" width={size} height={size} viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-      <g fill="none" stroke="currentColor" strokeWidth="2.3" strokeLinecap="round" strokeLinejoin="round">
-        <circle cx="7.5" cy="12" r="5.25" />
-        <path d="M7.5 6.75v10.5" />
-        <path d="M12.75 12H22" />
-        <path d="M18.5 12v3.5M21.5 12v2.5" />
-      </g>
-    </svg>
-  );
-}
-
 export function BrandMark({ size = "sm", href = "/" }: { size?: "sm" | "lg"; href?: string }) {
   return (
-    <a className={`mando-mark mando-mark--${size}`} href={href} onClick={spaLink(href)} aria-label="Mando — início">
-      <KeyGlyph size={size === "lg" ? 30 : 22} />
-      <span className="mando-mark__word" aria-hidden="true">Mando</span>
+    <a className={`mando-mark mando-mark--${size}`} href={href} onClick={spaLink(href)} aria-label="Meu Elenco FC — início">
+      <img className="mando-mark__glyph" src="/brand/escudo.png" srcSet="/brand/escudo.png 1x, /brand/escudo@2x.png 2x" alt="" height={size === "lg" ? 44 : 32} />
+      <span className="mando-mark__word" aria-hidden="true"><em>Meu</em> Elenco <em>FC</em></span>
     </a>
   );
 }

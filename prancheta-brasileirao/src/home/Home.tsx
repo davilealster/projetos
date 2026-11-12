@@ -71,7 +71,7 @@ export function Home() {
   });
 
   useEffect(() => {
-    document.title = "Mando — o clube é seu";
+    document.title = "Meu Elenco FC — o clube é seu";
     if (location.search) replace("/");
   }, []);
 
@@ -115,7 +115,9 @@ export function Home() {
             <em>Você decide.</em>
           </h1>
           <p className="mh-sub">
-            Escolha o seu papel: no campo como técnico ou no mercado como diretor de futebol. Sem cadastro.
+            Chega de só cornetar. Assuma a cadeira, monte a barca, desenhe a tática e mostre como se faz.
+            <br />
+            Escolha seu papel: no campo como técnico ou no mercado como diretor de futebol.
           </p>
         </section>
 

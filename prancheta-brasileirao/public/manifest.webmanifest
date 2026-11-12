@@ -1,6 +1,6 @@
 {
-  "name": "Mando",
-  "short_name": "Mando",
+  "name": "Meu Elenco FC",
+  "short_name": "Meu Elenco",
   "description": "Assuma o seu clube da Série A: monte a escalação na prancheta tática como técnico e comande a janela de transferências como diretor de futebol. Sem cadastro.",
   "start_url": "/",
   "display": "standalone",
@@ -12,6 +12,6 @@
     { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
     { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" },
     { "src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
-    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+    { "src": "/favicon.png", "sizes": "64x64", "type": "image/png" }
   ]
 }

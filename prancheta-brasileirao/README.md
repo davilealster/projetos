@@ -1,4 +1,4 @@
-# Mando
+# Meu Elenco FC
 
 **O clube é seu. Você decide.** Assuma um dos 20 clubes da Série A 2026 e escolha o seu papel: no campo como técnico (Prancheta tática) ou no mercado como diretor de futebol (Mercado da bola). Sem cadastro. Projeto independente, sem vínculo com CBF ou clubes.
 
@@ -28,7 +28,7 @@ npm run dev
 
 | Rota | O que é |
 | --- | --- |
-| `/` | Home do Mando: papéis (técnico, diretor de futebol) e escolha do clube |
+| `/` | Home do Meu Elenco FC: papéis (técnico, diretor de futebol) e escolha do clube |
 | `/prancheta` | Prancheta tática: os 20 clubes, com busca |
 | `/{slug}` | Prancheta do clube (ex.: `/vasco`). Escalação compartilhada vem em `#s=...` |
 | `/{slug}/live` | Modo Live para OBS: `?bg=grass\|solid\|chroma\|transparent&ratio=16x9\|9x16&size=P\|M\|G&safe=1&creator=@handle&ui=0&score=1` |

@@ -11,7 +11,7 @@ import { adminApi, loadAdminTeam, type AdminPlayer } from "./api";
 export default function AdminApp() {
   const [user, setUser] = useState<string | null | undefined>(undefined);
   useEffect(() => {
-    document.title = "Admin · Mando";
+    document.title = "Admin · Meu Elenco FC";
     adminApi.me().then((r) => setUser(r.user)).catch(() => setUser(null));
   }, []);
   if (user === undefined) return <div className="admin-loading">Carregando…</div>;
@@ -41,7 +41,7 @@ function Login({ onLogin }: { onLogin: (u: string) => void }) {
           }
         }}
       >
-        <p className="home__kicker">Mando</p>
+        <p className="home__kicker">Meu Elenco FC</p>
         <h1>Painel admin</h1>
         <label>
           Usuário
