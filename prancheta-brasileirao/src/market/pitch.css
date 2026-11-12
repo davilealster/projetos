@@ -282,8 +282,13 @@ button.pv-stamp:hover { opacity: 0.8; }
 
 /* no celular o campo vai de borda a borda, mesmo dentro de um container com padding */
 @media (max-width: 760px) {
-  html:has(.pv) { scroll-padding-top: 56px; }
-  .pv { --pv-top: 56px; margin-inline: calc(50% - 50vw); }
+  /* altura do cabeçalho comum (ModuleHeader): 60px na barra, 52px no app */
+  html:has(.pv) { scroll-padding-top: 60px; }
+  .pv { --pv-top: 60px; margin-inline: calc(50% - 50vw); }
+}
+@media (max-width: 640px) {
+  html:has(.pv) { scroll-padding-top: 52px; }
+  .pv { --pv-top: 52px; }
 }
 
 /* fundo claro: as fotos têm fundo branco, então o retrato se funde ao cartão */

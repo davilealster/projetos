@@ -12,11 +12,8 @@ const TAB_LABEL: Record<SheetTab, string> = { squad: "Elenco", opp: "Adversário
 
 interface Props {
   style: React.CSSProperties;
-  title: string;
-  crest: string | null;
-  onBack: () => void;
-  onLive: () => void;
-  onUndo: () => void;
+  /** cabeçalho comum (ModuleHeader variant="app") */
+  header: React.ReactNode;
   banner: React.ReactNode;
   pitch: React.ReactNode;
   overlay: React.ReactNode;
@@ -27,7 +24,7 @@ interface Props {
 }
 
 /**
- * Layout de app no celular: barra superior, campo vertical ocupando a tela, painel deslizante
+ * Layout de app no celular: cabeçalho comum (Mando), campo vertical ocupando a tela, painel deslizante
  * (bottom sheet) e barra de abas embaixo. Com o painel aberto, o campo encolhe para caber acima dele.
  */
 export const MobileShell = forwardRef<HTMLDivElement, Props>(function MobileShell(p, captureRef) {
@@ -60,18 +57,8 @@ export const MobileShell = forwardRef<HTMLDivElement, Props>(function MobileShel
   };
 
   return (
-    <div className={`m-app ${sheet ? "has-sheet" : ""}`} style={p.style}>
-      <header className="m-top">
-        <button className="m-icon" onClick={p.onBack} aria-label="Voltar aos clubes">
-          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round"><path d="M15 5l-7 7 7 7" /></svg>
-        </button>
-        {p.crest && <img src={p.crest} alt="" width={30} height={30} />}
-        <h1>{p.title}</h1>
-        <button className="m-icon" onClick={p.onUndo} aria-label="Desfazer">
-          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9 14 4 9l5-5M4 9h10a6 6 0 0 1 0 12h-3" /></svg>
-        </button>
-        <button className="m-live" onClick={p.onLive}>● Live</button>
-      </header>
+    <div className={`m-app mando-skin ${sheet ? "has-sheet" : ""}`} style={p.style}>
+      {p.header}
       {p.banner}
 
       <main className="m-stage" ref={stageRef}>

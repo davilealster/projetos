@@ -4,6 +4,7 @@ import {
   mergePlayers, needsPositionReview, parsePtPositions, sortPlayers, stripMeta, type Pos, type RawPlayer,
 } from "../scripts/lib/core";
 import { TEAMS } from "../src/data";
+import { moduleHref, redirectTarget } from "../src/brand/nav";
 import { parseRoute } from "../src/router";
 
 const raw = (o: Partial<RawPlayer> & { id: number }): RawPlayer => ({
@@ -172,13 +173,35 @@ describe("cor contrastante para as linhas do adversário", async () => {
 });
 
 describe("parseRoute (Mando)", () => {
-  it("separa home, seletor da prancheta, prancheta do clube e mercado", () => {
+  it("separa home, prancheta do clube, live e mercado", () => {
     expect(parseRoute("/")).toEqual({ page: "home" });
-    expect(parseRoute("/prancheta")).toEqual({ page: "picker" });
     expect(parseRoute("/vasco")).toEqual({ page: "board", slug: "vasco", live: false });
     expect(parseRoute("/vasco/live")).toEqual({ page: "board", slug: "vasco", live: true });
-    expect(parseRoute("/mercado")).toEqual({ page: "market", slug: null });
     expect(parseRoute("/mercado/vasco")).toEqual({ page: "market", slug: "vasco" });
+    expect(parseRoute("/creator")).toEqual({ page: "creator" });
+    expect(parseRoute("/admin")).toEqual({ page: "admin" });
+    expect(parseRoute("/vasco/live/x")).toEqual({ page: "notfound" });
+    expect(parseRoute("/mercado/vasco/x")).toEqual({ page: "notfound" });
+  });
+
+  it("/prancheta e /mercado viram redirecionamento (sem página própria)", () => {
+    expect(parseRoute("/prancheta")).toEqual({ page: "redirect", module: "prancheta" });
+    expect(parseRoute("/mercado")).toEqual({ page: "redirect", module: "mercado" });
+    expect(parseRoute("/mercado/")).toEqual({ page: "redirect", module: "mercado" });
+  });
+
+  it("moduleHref mantém o clube ao trocar de módulo", () => {
+    expect(moduleHref("prancheta", "vasco")).toBe("/vasco");
+    expect(moduleHref("mercado", "vasco")).toBe("/mercado/vasco");
+  });
+
+  it("redirectTarget usa o clube salvo só se for válido", () => {
+    expect(redirectTarget("prancheta", "palmeiras")).toBe("/palmeiras");
+    expect(redirectTarget("mercado", "palmeiras")).toBe("/mercado/palmeiras");
+    expect(redirectTarget("prancheta", null)).toBe("/?modulo=prancheta&trocar=1");
+    expect(redirectTarget("mercado", "time-que-nao-existe")).toBe("/?modulo=mercado&trocar=1");
+    for (const r of [redirectTarget("prancheta", "flamengo"), redirectTarget("mercado", "flamengo")])
+      expect(parseRoute(r).page).not.toBe("redirect");
   });
 
   it("nenhum slug de clube colide com rotas reservadas", () => {

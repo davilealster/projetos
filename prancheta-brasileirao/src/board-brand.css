@@ -1,0 +1,153 @@
+/* Prancheta na identidade Mando (feltro / papel / latão).
+   Tudo escopado em .mando-skin — :root, .live e .export-card continuam como antes. */
+.mando-skin {
+  --bg: #0f2a23;
+  --bg-2: #0a1f1a;
+  --panel: #14342b;
+  --panel-2: #1a4034;
+  --line: rgba(239, 230, 210, 0.12);
+  --text: #efe6d2;
+  --muted: #a9b5a8;
+  --brand: #e0b95a;
+  --radius: 6px;
+  --font: "Hanken Grotesk Variable", system-ui, sans-serif;
+  --font-display: "Big Shoulders Display", "Arial Narrow", sans-serif;
+  /* tokens próprios (nomes sem colisão com --ink do DrawBubble) */
+  --mk-brass: #e0b95a;
+  --mk-paper: #efe6d2;
+  --mk-paper-edge: #d9cdb2;
+  --mk-ink: #1d1b16;
+  --mk-ink-soft: #5f584b;
+  --mk-felt-deep: #0a1f1a;
+  --mk-data: "DM Mono", ui-monospace, monospace;
+  color: var(--text);
+  font-family: var(--font);
+}
+
+/* superfície: feltro com trama */
+.mando-skin.board-page {
+  min-height: 100vh;
+  background:
+    radial-gradient(120% 60% at 50% -10%, #1a4636 0%, transparent 60%),
+    repeating-linear-gradient(115deg, rgba(255, 255, 255, 0.012) 0 2px, transparent 2px 5px),
+    var(--bg);
+}
+.mando-skin.m-app {
+  background:
+    repeating-linear-gradient(115deg, rgba(255, 255, 255, 0.012) 0 2px, transparent 2px 5px),
+    var(--bg);
+}
+.mando-skin .board { padding-top: 16px; }
+
+/* ---- botões ---- */
+.mando-skin :focus-visible { outline-color: var(--mk-brass); }
+.mando-skin .btn { border-radius: 4px; background: transparent; border-color: rgba(239, 230, 210, 0.3); }
+.mando-skin .btn:hover { border-color: rgba(239, 230, 210, 0.55); background: rgba(239, 230, 210, 0.06); }
+.mando-skin .btn--primary { background: var(--mk-brass); color: var(--mk-ink); border-color: var(--mk-brass); }
+.mando-skin .btn--primary:hover { background: #ecc973; border-color: #ecc973; }
+.mando-skin .btn.is-on { background: var(--club-ui); color: #0b0f0c; border-color: transparent; }
+.mando-skin .icon-btn { border-radius: 6px; background: transparent; border-color: rgba(239, 230, 210, 0.22); }
+.mando-skin .icon-btn:hover { border-color: rgba(239, 230, 210, 0.5); }
+.mando-skin .icon-btn.is-on { background: var(--club-ui); border-color: transparent; }
+.mando-skin .seg { background: var(--mk-felt-deep); border-radius: 6px; }
+.mando-skin .seg__btn { border-radius: 4px; font-family: var(--mk-data); font-weight: 500; letter-spacing: 0.02em; }
+.mando-skin .chip { border-radius: 4px; font-family: var(--mk-data); font-weight: 500; letter-spacing: 0.06em; }
+.mando-skin .opp-select { border-radius: 4px; }
+.mando-skin .chip-btn { border-radius: 4px; }
+
+/* ação Live no cabeçalho */
+.mk-live {
+  display: inline-flex; align-items: center; gap: 7px; height: 34px; padding: 0 12px; border-radius: 4px;
+  border: 1px solid rgba(239, 230, 210, 0.3); background: transparent; color: var(--cream, #efe6d2); cursor: pointer;
+  font-family: var(--f-data, monospace); font-size: 12px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none;
+}
+.mk-live::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: #e0603f; box-shadow: 0 0 0 3px rgba(224, 96, 63, 0.22); }
+.mk-live:hover { border-color: rgba(239, 230, 210, 0.55); background: rgba(239, 230, 210, 0.06); }
+.mk-icon {
+  display: grid; place-items: center; width: 36px; height: 36px; border-radius: 6px; border: 1px solid transparent;
+  background: transparent; color: var(--cream, #efe6d2); cursor: pointer;
+}
+.mk-icon:hover, .mk-icon:active { background: rgba(239, 230, 210, 0.08); border-color: rgba(239, 230, 210, 0.12); }
+.mhd--app .mk-live { height: 32px; padding: 0 10px; }
+.mhd--app .mhd-actions { gap: 4px; }
+
+/* ---- painéis ---- */
+.mando-skin .panel { background: var(--panel); border-color: var(--line); border-radius: 6px; }
+.mando-skin .panel__head h2 {
+  font-family: var(--mk-data); font-size: 11px; font-weight: 500; letter-spacing: 0.14em; color: var(--mk-brass);
+}
+.mando-skin .panel__count, .mando-skin .squad__num { font-family: var(--mk-data); font-weight: 500; }
+.mando-skin .squad__item { border-radius: 6px; }
+.mando-skin .squad__item:hover { background: rgba(239, 230, 210, 0.06); }
+.mando-skin .hint { color: var(--muted); }
+.mando-skin .cta__group { border-radius: 6px; }
+.mando-skin .link-menu__pop { border-radius: 6px; }
+
+/* ---- campo: só o contêiner ---- */
+.mando-skin .capture {
+  background: var(--mk-felt-deep); border-radius: 6px; box-shadow: 0 0 0 1px rgba(224, 185, 90, 0.35);
+}
+.mando-skin .capture__title { font-family: var(--font-display); font-weight: 900; font-size: 18px; letter-spacing: 0.03em; }
+.mando-skin .capture__brand { font-family: var(--mk-data); }
+.mando-skin .m-pitch .pitch { border-radius: 6px; box-shadow: 0 0 0 1px rgba(224, 185, 90, 0.35); }
+
+/* ---- papel: faixa de escalação recebida, seletor de posição, painel do celular ---- */
+.mando-skin .banner {
+  position: relative; background: var(--mk-paper); color: var(--mk-ink); border: 0; border-radius: 3px;
+  box-shadow: 0 1px 0 var(--mk-paper-edge), 0 6px 14px rgba(0, 0, 0, 0.28); padding: 12px 14px;
+}
+.mk-stamp {
+  display: inline-block; font-family: "Big Shoulders Stencil Display", "Big Shoulders Display", sans-serif; font-weight: 800;
+  font-size: 15px; line-height: 1; letter-spacing: 0.07em; text-transform: uppercase; color: #1d4fa3;
+  padding: 4px 8px 3px; border: 2px solid currentColor; border-radius: 4px; transform: rotate(-4deg); opacity: 0.9; mix-blend-mode: multiply;
+  margin-right: 10px; white-space: nowrap;
+}
+.mando-skin .banner .btn--primary { background: var(--mk-ink); color: var(--mk-paper); border-color: var(--mk-ink); }
+
+.mando-skin .role-picker {
+  background: var(--mk-paper); color: var(--mk-ink); border: 0; border-radius: 4px;
+  box-shadow: 0 0 0 1px var(--mk-paper-edge), 0 14px 40px rgba(0, 0, 0, 0.55);
+}
+.mando-skin .role-btn { background: rgba(29, 27, 22, 0.05); border-color: rgba(29, 27, 22, 0.18); border-radius: 4px; color: var(--mk-ink); }
+.mando-skin .role-btn span { color: var(--mk-ink); }
+.mando-skin .role-btn--main::after, .mando-skin .role-btn--alt::after { color: var(--mk-ink-soft); font-family: var(--mk-data); }
+.mando-skin .role-btn.is-on { border-color: var(--mk-ink); background: rgba(29, 27, 22, 0.1); }
+.mando-skin .role-picker__others { border-top-color: rgba(29, 27, 22, 0.18); }
+.mando-skin .role-picker__remove { color: #c2331f; }
+
+.mando-skin .m-sheet { background: var(--panel); border-top: 0; border-radius: 10px 10px 0 0; }
+.mando-skin .m-sheet__handle { background: var(--mk-paper); }
+.mando-skin .m-sheet__handle::after { background: rgba(29, 27, 22, 0.3); }
+.mando-skin .m-sheet__body { padding-top: 10px; }
+.mando-skin .m-sheet__body h3 { font-family: var(--mk-data); font-weight: 500; font-size: 11px; letter-spacing: 0.14em; color: var(--mk-brass); }
+.mando-skin .m-tactic .show-ctl .seg__btn { border-radius: 4px; }
+
+/* ---- barra de abas do celular (métricas do Mercado) ---- */
+.mando-skin .m-tabbar {
+  padding: 6px 4px calc(6px + env(safe-area-inset-bottom)); background: var(--mk-felt-deep);
+  border-top: 1px solid var(--line); box-shadow: 0 -8px 24px rgba(0, 0, 0, 0.35);
+}
+.mando-skin .m-tab { min-height: 54px; padding: 2px 0; gap: 3px; justify-content: center; color: var(--muted); }
+.mando-skin .m-tab__label { font-size: 11.5px; font-weight: 650; }
+.mando-skin .m-tab__icon { height: 30px; border-radius: 15px; }
+.mando-skin .m-tab__icon em { background: var(--mk-brass); color: var(--mk-ink); font-family: var(--mk-data); font-weight: 500; }
+.mando-skin .m-tab.is-on { color: var(--mk-brass); }
+.mando-skin .m-tab.is-on .m-tab__icon { background: rgba(224, 185, 90, 0.16); }
+
+/* ---- guarda: o cartão exportado ignora a pele (PNG idêntico) ---- */
+.mando-skin .export-card {
+  --bg: #0b120e;
+  --bg-2: #111b15;
+  --panel: #15211a;
+  --panel-2: #1b2a21;
+  --line: rgba(255, 255, 255, 0.09);
+  --text: #eef3ef;
+  --muted: #93a49a;
+  --brand: #c6f24e;
+  --radius: 14px;
+  --font: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-display: "Arial Narrow", "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
+}
+.mando-skin .export-host { color: #eef3ef; font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+
+.mando-skin .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }

@@ -146,28 +146,28 @@
 
 /* ---- seletor de clube ---- */
 .mh-clubs { margin-top: 30px; }
-.mh-clubs__head { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 4px 16px; margin-bottom: 12px; }
-.mh-clubs h2 { margin: 0; font-family: var(--f-display); font-weight: 700; font-size: 22px; line-height: 1.1; text-transform: uppercase; letter-spacing: 0.02em; }
-.mh-clubs__current { margin: 0; font-size: 14px; color: var(--cream-soft); display: flex; align-items: baseline; gap: 6px; flex-wrap: wrap; }
-.mh-clubs__current b { color: var(--cream); font-weight: 650; }
-.mh-clubs__clear {
-  border: 0; background: none; padding: 2px 4px; margin-left: 2px; cursor: pointer; color: var(--brass); font-size: 13px;
-  text-decoration: underline; text-underline-offset: 3px; border-radius: 3px;
+.mh-clubs { display: flex; flex-direction: column; align-items: center; text-align: center; }
+.mh-clubs__pick { min-height: 46px; padding: 0 26px; font-size: 15px; }
+
+/* ---- faixa "Continuar com o clube" ---- */
+.mh-continue {
+  display: flex; align-items: center; gap: 12px; margin: 0 0 16px; padding: 10px 10px 10px 12px;
+  border: 1px solid var(--felt-line); border-left: 3px solid var(--club-ui, var(--brass)); border-radius: 6px;
+  background: rgba(10, 31, 26, 0.6);
 }
-.mh-clubs__clear:hover { color: #ecc973; }
-.mh-crests { display: grid; grid-template-columns: repeat(10, minmax(0, 1fr)); gap: 6px; }
-.mh-crest {
-  height: 48px; min-width: 0; display: grid; place-items: center; padding: 0; cursor: pointer; border-radius: 6px;
-  border: 1px solid rgba(239, 230, 210, 0.07); background: rgba(239, 230, 210, 0.03);
-  transition: background 0.15s, box-shadow 0.15s, transform 0.12s;
-  -webkit-tap-highlight-color: transparent;
+.mh-continue__crest { flex: none; display: grid; place-items: center; width: 40px; height: 40px; border-radius: 50%; background: rgba(239, 230, 210, 0.06); }
+.mh-continue__crest img { width: 30px; height: 30px; object-fit: contain; filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.35)); }
+.mh-continue__text { flex: 1; min-width: 0; margin: 0; display: flex; flex-direction: column; gap: 2px; }
+.mh-continue__eyebrow { font-family: var(--f-data); font-size: 10.5px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--brass); }
+.mh-continue__name {
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  font-family: var(--f-display); font-weight: 900; font-size: 22px; line-height: 1.05; text-transform: uppercase; letter-spacing: 0.01em;
 }
-.mh-crest img { width: 34px; height: 34px; object-fit: contain; filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.35)); transition: opacity 0.15s, transform 0.15s; }
-.mh-crest:hover { background: rgba(239, 230, 210, 0.08); }
-.mh-crest:hover img { transform: scale(1.08); }
-.mh-crest:active { transform: scale(0.94); }
-.mh-crest.is-on { background: var(--felt-deep); border-color: transparent; box-shadow: 0 0 0 2px var(--brass), 0 4px 12px rgba(0, 0, 0, 0.35); }
-.mh-crests:has(.is-on) .mh-crest:not(.is-on):not(:hover) img { opacity: 0.5; }
+.mh-continue__swap {
+  flex: none; min-height: 40px; padding: 0 12px; border: 0; border-radius: 4px; background: none; cursor: pointer;
+  color: var(--brass) !important; font-size: 14px; font-weight: 650; text-decoration: underline; text-underline-offset: 3px;
+}
+.mh-continue__swap:hover { background: rgba(224, 185, 90, 0.1); }
 .mh-crest__initials {
   display: grid; place-items: center; border-radius: 50%; background: rgba(239, 230, 210, 0.12); color: var(--cream);
   font-family: var(--f-data); font-size: 11px;
@@ -241,8 +241,10 @@
   .mh-card--soon .mh-card__text { display: none; }
   .mh-card--soon .mh-card__soon { margin: 0 0 0 auto; font-size: 14px; padding: 3px 8px 2px; border-width: 2px; }
 
-  .mh-clubs { margin-top: 24px; }
-  .mh-crests { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+  .mh-clubs { margin-top: 22px; }
+  .mh-clubs__pick { width: 100%; }
+  .mh-continue { margin-bottom: 12px; padding: 8px 6px 8px 10px; gap: 10px; }
+  .mh-continue__name { font-size: 19px; white-space: normal; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
   .mh-foot { flex-direction: column; gap: 8px; margin-top: 24px; }
 }
 @media (max-width: 380px) {
@@ -254,5 +256,5 @@
   .mh-card, .mh-cards > li .mh-card { transform: none !important; transition: none; }
   .mh-stamp, .mh-card:hover .mh-stamp { animation: none !important; }
   .mh-tok--brass, .mh-card:hover .mh-tok--brass { transition: none; transform: translate(-50%, -50%) !important; }
-  .mh-crest, .mh-crest img, .mh-card__arrow { transition: none; }
+  .mh-card__arrow { transition: none; }
 }

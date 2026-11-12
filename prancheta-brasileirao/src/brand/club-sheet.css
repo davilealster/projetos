@@ -1,0 +1,92 @@
+/* ClubSheet — folha de papel com os escudos. Raiz tem .brand (tokens) mas não é página. */
+.brand.mcs {
+  position: fixed; inset: 0; z-index: 1000; min-height: 0; background: none;
+  display: flex; align-items: flex-end; justify-content: center;
+}
+.mcs-scrim {
+  position: absolute; inset: 0; background: rgba(6, 16, 13, 0.62);
+  -webkit-backdrop-filter: blur(2px); backdrop-filter: blur(2px);
+  animation: mcs-fade 0.18s ease-out;
+}
+.mcs-panel {
+  position: relative; width: 100%; max-height: min(86vh, 86dvh); display: flex; flex-direction: column;
+  color: var(--ink); border-radius: 14px 14px 0 0; outline: none;
+  background:
+    repeating-linear-gradient(0deg, transparent 0 27px, rgba(29, 27, 22, 0.045) 27px 28px),
+    linear-gradient(180deg, #f3ebd9, var(--paper));
+  box-shadow: 0 -1px 0 var(--paper-edge), 0 -18px 50px rgba(0, 0, 0, 0.45);
+  padding: 8px 16px calc(16px + env(safe-area-inset-bottom));
+  animation: mcs-up 0.26s cubic-bezier(0.2, 0.9, 0.3, 1);
+}
+.mcs-grip { display: block; width: 40px; height: 4px; border-radius: 2px; background: rgba(29, 27, 22, 0.22); margin: 2px auto 10px; }
+
+.mcs-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+.mcs-eyebrow { margin: 0 0 2px; font-family: var(--f-data); font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-soft); }
+.mcs-title {
+  margin: 0; font-family: var(--f-display); font-weight: 900; text-transform: uppercase; letter-spacing: 0.01em;
+  font-size: 28px; line-height: 1; color: var(--ink);
+}
+.mcs-close {
+  flex: none; display: grid; place-items: center; width: 40px; height: 40px; margin: -4px -8px 0 0; border: 0; border-radius: 6px;
+  background: transparent; color: var(--ink-soft); cursor: pointer;
+}
+.mcs-close:hover { background: rgba(29, 27, 22, 0.07); color: var(--ink); }
+
+.mcs-search {
+  display: flex; align-items: center; gap: 8px; margin: 14px 0 12px; padding: 0 12px; height: 44px;
+  border: 1px solid rgba(29, 27, 22, 0.22); border-radius: 6px; background: rgba(255, 255, 255, 0.55); color: var(--ink-soft);
+}
+.mcs-search:focus-within { border-color: var(--ink); background: #fffaf0; }
+.mcs-search input {
+  flex: 1; min-width: 0; height: 100%; border: 0; background: transparent; outline: none; color: var(--ink) !important;
+  font-size: 16px; /* evita zoom no iOS */
+}
+.brand .mcs-search input:focus-visible { outline: none; }
+.mcs-search:has(input:focus-visible) { box-shadow: 0 0 0 2px var(--brass); }
+.mcs-search input::placeholder { color: rgba(29, 27, 22, 0.45); }
+.mcs-search input::-webkit-search-cancel-button { filter: grayscale(1); }
+
+.mcs-body { overflow-y: auto; overscroll-behavior: contain; margin: 0 -6px; padding: 2px 6px 4px; }
+.mcs-grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; }
+.mcs-club {
+  width: 100%; display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 10px 4px 8px; min-height: 78px;
+  border: 1px solid transparent; border-radius: 8px; background: transparent; color: var(--ink) !important; cursor: pointer;
+  transition: background 0.12s, border-color 0.12s, transform 0.1s; -webkit-tap-highlight-color: transparent;
+}
+.mcs-club:hover { background: rgba(29, 27, 22, 0.06); border-color: rgba(29, 27, 22, 0.12); }
+.mcs-club:active { transform: scale(0.97); }
+.brand .mcs-club:focus-visible { outline: 2px solid var(--ink); outline-offset: 0; }
+.mcs-club__crest { position: relative; display: grid; place-items: center; width: 48px; height: 48px; border-radius: 50%; }
+.mcs-club__crest img { width: 38px; height: 38px; object-fit: contain; filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.18)); }
+.mcs-club__initials {
+  display: grid; place-items: center; width: 38px; height: 38px; border-radius: 50%; background: var(--ink); color: var(--paper);
+  font-family: var(--f-display); font-weight: 900; font-size: 15px;
+}
+.mcs-club__name {
+  max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  font-size: 12px; font-weight: 650; line-height: 1.15; color: var(--ink-soft);
+}
+/* clube atual: anel de latão */
+.mcs-club.is-current { background: rgba(224, 185, 90, 0.16); border-color: rgba(168, 106, 16, 0.35); }
+.mcs-club.is-current .mcs-club__crest { box-shadow: 0 0 0 2.5px var(--brass), 0 0 0 4px rgba(168, 106, 16, 0.35); background: #fff8e6; }
+.mcs-club.is-current .mcs-club__name { color: var(--ink); font-weight: 750; }
+.mcs-empty { margin: 18px 0 22px; text-align: center; color: var(--ink-soft); font-size: 14px; }
+
+@media (min-width: 640px) {
+  .brand.mcs { align-items: center; padding: 24px; }
+  .mcs-panel {
+    max-width: 560px; max-height: min(720px, calc(100vh - 48px)); border-radius: 10px; padding: 22px 22px 20px;
+    box-shadow: 0 0 0 1px var(--paper-edge), 0 30px 80px rgba(0, 0, 0, 0.55);
+    animation: mcs-pop 0.2s cubic-bezier(0.2, 0.9, 0.3, 1);
+  }
+  .mcs-grip { display: none; }
+  .mcs-title { font-size: 32px; }
+  .mcs-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+}
+
+@keyframes mcs-fade { from { opacity: 0; } }
+@keyframes mcs-up { from { transform: translateY(100%); } }
+@keyframes mcs-pop { from { opacity: 0; transform: translateY(8px) scale(0.98); } }
+@media (prefers-reduced-motion: reduce) {
+  .mcs-scrim, .mcs-panel { animation: none; }
+}

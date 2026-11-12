@@ -1,27 +1,44 @@
 import { Suspense, lazy, useEffect } from "react";
+import { spaLink } from "./brand/BrandMark";
+import { redirectTarget } from "./brand/nav";
 import { Board } from "./components/Board";
 import { CreatorPage } from "./components/CreatorPage";
-import { TeamPicker } from "./components/TeamPicker";
 import { teamSummary } from "./data";
 import { Home } from "./home/Home";
-import { setLastClub } from "./lib/lastClub";
-import { navigate, useRoute } from "./router";
+import { getLastClub, setLastClub } from "./lib/lastClub";
+import { replace, useRoute, type Route } from "./router";
 
 const AdminApp = lazy(() => import("./admin/AdminApp"));
 const MarketApp = lazy(() => import("./market/MarketApp"));
+
+/** Link do bloco "não encontrado": volta para escolher um clube. */
+function NotFound({ message = "Página não encontrada." }: { message?: string }) {
+  return (
+    <div className="notfound">
+      <p>{message}</p>
+      <a href="/?trocar=1" onClick={spaLink("/?trocar=1")}>Escolher um clube</a>
+    </div>
+  );
+}
+
+const isBrandPage = (r: Route) => r.page === "home" || r.page === "redirect" || (r.page === "board" && !r.live);
 
 export function App() {
   const route = useRoute();
   useEffect(() => {
     const html = document.documentElement;
     html.classList.toggle("is-live", route.page === "board" && route.live);
-    html.classList.toggle("is-brand", route.page === "home");
+    html.classList.toggle("is-brand", isBrandPage(route));
+    if (route.page === "redirect") {
+      replace(redirectTarget(route.module, getLastClub()));
+      return;
+    }
     const slug = route.page === "board" && !route.live ? route.slug : route.page === "market" ? route.slug : null;
     if (slug && teamSummary(slug)) setLastClub(slug);
   }, [route]);
 
   if (route.page === "home") return <Home />;
-  if (route.page === "picker") return <TeamPicker />;
+  if (route.page === "redirect") return null;
   if (route.page === "creator") return <CreatorPage />;
   if (route.page === "market")
     return (
@@ -36,10 +53,5 @@ export function App() {
       </Suspense>
     );
   if (route.page === "board") return <Board key={route.slug} slug={route.slug} live={route.live} />;
-  return (
-    <div className="notfound">
-      <p>Página não encontrada.</p>
-      <a href="/" onClick={(e) => (e.preventDefault(), navigate("/"))}>Voltar ao início</a>
-    </div>
-  );
+  return <NotFound />;
 }

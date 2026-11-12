@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { TEAMS } from "../data";
-import { navigate } from "../router";
+import { BrandMark } from "../brand/BrandMark";
 import { applyTeamSummary, type OverridesDoc, type PlayerOverride, type TeamOverride } from "../lib/overrides";
 import { POSITIONS, type Colors, type Pos } from "../types";
 import { Avatar } from "../components/Avatar";
@@ -53,7 +53,7 @@ function Login({ onLogin }: { onLogin: (u: string) => void }) {
         </label>
         {error && <p className="admin-error">{error}</p>}
         <button className="btn btn--primary btn--lg" disabled={busy}>{busy ? "Entrando…" : "Entrar"}</button>
-        <a className="back" href="/" onClick={(e) => (e.preventDefault(), navigate("/"))}>← Voltar ao site</a>
+        <BrandMark size="sm" />
       </form>
     </div>
   );
@@ -103,7 +103,7 @@ function Panel({ user, onUser }: { user: string; onUser: (u: string | null) => v
   return (
     <div className="admin">
       <header className="admin__top">
-        <a className="back" href="/" onClick={(e) => (e.preventDefault(), navigate("/"))}>← Site</a>
+        <BrandMark size="sm" />
         <h1>Painel admin</h1>
         <span className="admin__meta">
           {doc.updatedAt ? `Última alteração: ${new Date(doc.updatedAt).toLocaleString("pt-BR")}` : "Nenhuma alteração ainda"}

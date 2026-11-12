@@ -1,10 +1,13 @@
-import { useEffect, useState, type CSSProperties } from "react";
+import { useEffect, useState, type CSSProperties, type MouseEvent } from "react";
 import { BrandMark, spaLink } from "../brand/BrandMark";
 import "../brand/brand.css";
+import { ClubSheet } from "../brand/ClubSheet";
+import { moduleHref, type ModuleId } from "../brand/nav";
 import "./home.css";
 import { TEAMS } from "../data";
 import { clubVars, initials } from "../lib/color";
 import { getLastClub, setLastClub } from "../lib/lastClub";
+import { navigate, params, replace } from "../router";
 import type { TeamSummary } from "../types";
 
 const findClub = (slug: string | null) => TEAMS.find((t) => t.slug === slug) ?? null;
@@ -56,20 +59,42 @@ function Crest({ club, size }: { club: TeamSummary; size: number }) {
   );
 }
 
+const isModule = (m: string | null): m is ModuleId => m === "prancheta" || m === "mercado";
+
 export function Home() {
   const [club, setClub] = useState<TeamSummary | null>(() => findClub(getLastClub()));
+  // Folha de clubes: `module` = para onde ir depois da escolha (null = só salvar o clube).
+  const [sheet, setSheet] = useState<{ module: ModuleId | null } | null>(() => {
+    const q = params();
+    const m = q.get("modulo");
+    return q.get("trocar") === "1" ? { module: isModule(m) ? m : null } : null;
+  });
 
   useEffect(() => {
     document.title = "Mando — o clube é seu";
+    if (location.search) replace("/");
   }, []);
 
-  const choose = (next: TeamSummary | null) => {
+  const pick = (slug: string) => {
+    const next = findClub(slug);
+    const target = sheet?.module ?? null;
+    setSheet(null);
+    if (!next) return;
     setClub(next);
-    setLastClub(next?.slug ?? null);
+    setLastClub(next.slug);
+    if (target) navigate(moduleHref(target, next.slug));
   };
 
-  const boardHref = club ? `/${club.slug}` : "/prancheta";
-  const marketHref = club ? `/mercado/${club.slug}` : "/mercado";
+  /** Crachá sem clube salvo: abre a folha e segue para o módulo depois da escolha. */
+  const enter = (module: ModuleId) => (e: MouseEvent<HTMLAnchorElement>) => {
+    if (club) return spaLink(moduleHref(module, club.slug))(e);
+    if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+    e.preventDefault();
+    setSheet({ module });
+  };
+
+  const boardHref = club ? moduleHref("prancheta", club.slug) : "/?modulo=prancheta&trocar=1";
+  const marketHref = club ? moduleHref("mercado", club.slug) : "/?modulo=mercado&trocar=1";
   const clubStyle = (club ? clubVars(club.colors) : undefined) as CSSProperties | undefined;
 
   return (
@@ -94,9 +119,24 @@ export function Home() {
           </p>
         </section>
 
+        {club && (
+          <div className="mh-continue" style={clubStyle} aria-live="polite">
+            <span className="mh-continue__crest">
+              <Crest club={club} size={30} />
+            </span>
+            <p className="mh-continue__text">
+              <span className="mh-continue__eyebrow">Seu clube</span>
+              <span className="mh-continue__name">Continuar com o {club.shortName}</span>
+            </p>
+            <button type="button" className="mh-continue__swap" onClick={() => setSheet({ module: null })} aria-haspopup="dialog">
+              Trocar
+            </button>
+          </div>
+        )}
+
         <ul className="mh-cards" style={clubStyle}>
           <li>
-            <a className="mh-card mh-card--coach" href={boardHref} onClick={spaLink(boardHref)}>
+            <a className="mh-card mh-card--coach" href={boardHref} onClick={enter("prancheta")} aria-haspopup={club ? undefined : "dialog"}>
               <span className="mh-card__label">Crachá 01 · Comissão técnica</span>
               <PitchArt />
               <span className="mh-card__body">
@@ -106,13 +146,13 @@ export function Home() {
               </span>
               <span className="mh-card__cta">
                 {club && <Crest club={club} size={20} />}
-                <span>{club ? `Escalar o ${club.shortName}` : "Abrir a prancheta"}</span>
+                <span>{club ? `Abrir a prancheta do ${club.shortName}` : "Abrir a prancheta"}</span>
                 <span className="mh-card__arrow" aria-hidden="true">→</span>
               </span>
             </a>
           </li>
           <li>
-            <a className="mh-card mh-card--director" href={marketHref} onClick={spaLink(marketHref)}>
+            <a className="mh-card mh-card--director" href={marketHref} onClick={enter("mercado")} aria-haspopup={club ? undefined : "dialog"}>
               <span className="mh-card__label">Crachá 02 · Diretoria</span>
               <FichaArt />
               <span className="mh-card__body">
@@ -122,7 +162,7 @@ export function Home() {
               </span>
               <span className="mh-card__cta">
                 {club && <Crest club={club} size={20} />}
-                <span>{club ? `Abrir a janela do ${club.shortName}` : "Abrir o mercado"}</span>
+                <span>{club ? `Abrir o mercado do ${club.shortName}` : "Abrir o mercado"}</span>
                 <span className="mh-card__arrow" aria-hidden="true">→</span>
               </span>
             </a>
@@ -139,44 +179,28 @@ export function Home() {
           </li>
         </ul>
 
-        <section className="mh-clubs" aria-labelledby="mh-clubs-title">
-          <div className="mh-clubs__head">
-            <h2 id="mh-clubs-title">Qual é o seu clube?</h2>
-            {club && (
-              <p className="mh-clubs__current" aria-live="polite">
-                Seu clube: <b>{club.name}</b>
-                <button type="button" className="mh-clubs__clear" onClick={() => choose(null)}>
-                  trocar
-                </button>
-              </p>
-            )}
-          </div>
-          <div className="mh-crests">
-            {TEAMS.map((t) => {
-              const on = club?.slug === t.slug;
-              return (
-                <button
-                  key={t.slug}
-                  type="button"
-                  className={`mh-crest${on ? " is-on" : ""}`}
-                  aria-pressed={on}
-                  aria-label={t.name}
-                  title={t.name}
-                  onClick={() => choose(on ? null : t)}
-                >
-                  <Crest club={t} size={34} />
-                </button>
-              );
-            })}
-          </div>
-          <p className="mh-clubs__help">Opcional — você também pode escolher depois.</p>
-        </section>
+        {!club && (
+          <section className="mh-clubs" aria-label="Seu clube">
+            <button type="button" className="brand-btn brand-btn--brass mh-clubs__pick" onClick={() => setSheet({ module: null })} aria-haspopup="dialog">
+              Escolher meu clube
+            </button>
+            <p className="mh-clubs__help">Opcional — você também pode escolher ao abrir a prancheta ou o mercado.</p>
+          </section>
+        )}
       </main>
 
       <footer className="mh-wrap mh-foot">
         <p>Projeto independente, sem vínculo com CBF ou clubes. Imagens pertencem aos respectivos detentores.</p>
         <a href="/creator" onClick={spaLink("/creator")}>Faz live? Use a prancheta na transmissão</a>
       </footer>
+
+      <ClubSheet
+        open={sheet !== null}
+        current={club?.slug ?? null}
+        title={club ? "Trocar de clube" : "Qual é o seu clube?"}
+        onPick={pick}
+        onClose={() => setSheet(null)}
+      />
     </div>
   );
 }

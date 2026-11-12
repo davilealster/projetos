@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { TEAMS } from "../data";
-import { navigate } from "../router";
+import { BrandMark } from "../brand/BrandMark";
 import { cleanHandle } from "../lib/analytics";
 import { getPref, setPref } from "../lib/state";
 import { Footer } from "./Footer";
@@ -45,7 +45,7 @@ export function CreatorPage() {
 
   return (
     <div className="creator">
-      <a className="back" href="/prancheta" onClick={(e) => (e.preventDefault(), navigate("/prancheta"))}>← Clubes</a>
+      <BrandMark size="sm" />
       <header className="creator__hero">
         <p className="home__kicker">Para quem faz live</p>
         <h1 className="home__title">Prancheta <span>na sua live</span></h1>

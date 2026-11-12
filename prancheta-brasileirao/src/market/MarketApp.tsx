@@ -1,9 +1,9 @@
 import { useEffect, useMemo, useState } from "react";
 import "../brand/brand.css";
 import "./market.css";
-import { BrandMark } from "../brand/BrandMark";
-import { TEAMS, teamSummary } from "../data";
+import { teamSummary } from "../data";
 import { navigate } from "../router";
+import { ModuleHeader } from "../brand/ModuleHeader";
 import { clubVars, initials } from "../lib/color";
 import { applyTeamSummary, useOverrides } from "../lib/overrides";
 import { POSITIONS, type Pos } from "../types";
@@ -105,12 +105,12 @@ export default function MarketApp({ slug }: { slug: string | null }) {
     document.documentElement.classList.add("is-market");
     return () => document.documentElement.classList.remove("is-market");
   }, []);
-  if (!slug) return <MarketHome />;
+  if (!slug) return null; // o App redireciona /mercado
   if (!teamSummary(slug)) {
     return (
       <div className="tm tm-center">
         <p>Esse clube não está na Série A {Number(SEASON) - 1}.</p>
-        <a className="tm-btn" href="/mercado" onClick={go("/mercado")}>Escolher outro clube</a>
+        <a className="tm-btn" href="/?trocar=1" onClick={go("/?trocar=1")}>Escolher um clube</a>
       </div>
     );
   }
@@ -131,78 +131,12 @@ function NoData() {
   );
 }
 
-// ============ home ============
-
 function Stamp({ text, ink, onClick, title }: { text: string; ink: "green" | "red" | "blue" | "amber"; onClick?: () => void; title?: string }) {
   const cls = `tm-stamp tm-stamp--${ink}`;
   return onClick ? (
     <button className={cls} onClick={onClick} title={title}>{text}</button>
   ) : (
     <span className={cls}>{text}</span>
-  );
-}
-
-function MarketHome() {
-  const doc = useOverrides();
-  const [q, setQ] = useState("");
-  const norm = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
-  const teams = TEAMS.map((t) => applyTeamSummary(t, doc)).filter((t) => norm(t.name + t.shortName).includes(norm(q.trim())));
-  const total = MARKET_INDEX.leagues.reduce((a, l) => a + l.players, 0);
-  return (
-    <div className="tm tm-home">
-      <nav className="tm-nav">
-        <BrandMark size="sm" />
-        {MARKET_INDEX.collectedAt && <span>Dados de {new Date(`${MARKET_INDEX.collectedAt}T12:00:00`).toLocaleDateString("pt-BR")}</span>}
-      </nav>
-      <header className="tm-hero">
-        <div className="tm-hero__text">
-          <p className="tm-eyebrow">Janela de transferências {SEASON}</p>
-          <h1>Quem fica.<br />Quem sai.<br /><em>Quem chega.</em></h1>
-          <p className="tm-hero__lead">
-            Sente na cadeira do dirigente: defina o orçamento, carimbe o destino de cada jogador do seu elenco e vá às compras
-            em {MARKET_INDEX.leagues.length || 23} ligas{total ? `, com ${total.toLocaleString("pt-BR")} jogadores` : ""}.
-          </p>
-          <a className="tm-btn tm-btn--brass" href="#clubes">Escolher meu clube</a>
-        </div>
-        {/* a ficha sendo carimbada: o gesto central do módulo */}
-        <div className="tm-hero__demo" aria-hidden="true">
-          <div className="tm-ficha tm-ficha--demo">
-            <span className="tm-ficha__photo tm-ficha__photo--ini">10</span>
-            <div className="tm-ficha__main">
-              <p className="tm-ficha__name">Seu camisa 10 <span className="tm-pos tm-pos--MEI">MEI</span></p>
-              <p className="tm-ficha__meta">27 anos · contrato até 12/{Number(SEASON) - 1}</p>
-              <p className="tm-ficha__value">€ 8,5 mi</p>
-            </div>
-            <span className="tm-stamp tm-stamp--green tm-demo-stamp tm-demo-stamp--1">Renovado</span>
-            <span className="tm-stamp tm-stamp--red tm-demo-stamp tm-demo-stamp--2">Vendido</span>
-            <span className="tm-stamp tm-stamp--blue tm-demo-stamp tm-demo-stamp--3">Emprestado</span>
-          </div>
-        </div>
-      </header>
-
-      {!hasMarketData && <NoData />}
-
-      <section id="clubes" className="tm-pick">
-        <div className="tm-pick__head">
-          <h2>De qual clube você é o dirigente?</h2>
-          <input type="search" placeholder="Buscar clube" value={q} onChange={(e) => setQ(e.target.value)} aria-label="Buscar clube" />
-        </div>
-        <ul className="tm-clubs">
-          {teams.map((t) => (
-            <li key={t.slug}>
-              <a href={`/mercado/${t.slug}`} onClick={go(`/mercado/${t.slug}`)} style={clubVars(t.colors) as React.CSSProperties}>
-                {t.crest && <img src={t.crest} alt="" width={56} height={56} loading="lazy" />}
-                <span>{t.shortName}</span>
-              </a>
-            </li>
-          ))}
-          {!teams.length && <li className="tm-muted">Nenhum clube com “{q}”.</li>}
-        </ul>
-      </section>
-      <footer className="tm-foot">
-        Projeto independente, sem vínculo com CBF ou clubes. Valores de mercado e contratos: Transfermarkt. Imagens pertencem aos respectivos detentores.
-      </footer>
-    </div>
   );
 }
 
@@ -224,7 +158,6 @@ function MarketClub({ slug }: { slug: string }) {
   const [sheet, setSheet] = useState(false);
   const [toast, setToast] = useState<string | null>(null);
   const [studio, setStudio] = useState<Lineup | null>(null);
-  const [menu, setMenu] = useState(false);
   const isMobile = useIsMobile();
   const [view, setViewState] = useState<SquadView>(() => {
     try {
@@ -300,44 +233,23 @@ function MarketClub({ slug }: { slug: string }) {
 
   return (
     <div className={`tm tm-club ${isMobile ? "is-app" : ""}`} style={clubVars(team.colors) as React.CSSProperties}>
-      {isMobile ? (
-        // celular: cabeçalho compacto fixo; o saldo vira um chip que abre o balancete
-        <header className="tm-apphead">
-          <a className="tm-apphead__back" href="/mercado" onClick={go("/mercado")} aria-label="Trocar de clube">
-            <Ico d="M15 5l-7 7 7 7" />
-          </a>
-          {team.crest && <img src={team.crest} alt="" width={30} height={30} />}
-          <h1>{team.shortName}</h1>
-          {ready && (
+      {/* cabeçalho comum dos módulos; no celular o saldo vira um chip que abre o balancete */}
+      <ModuleHeader
+        module="mercado"
+        slug={slug}
+        clubName={team.shortName}
+        crest={team.crest}
+        variant={isMobile ? "app" : "bar"}
+        actions={
+          isMobile && ready ? (
             <button className={`tm-chip ${sum.balance < 0 ? "is-neg" : ""}`} onClick={() => setSheet(true)} aria-label={`Saldo ${fmtEur(sum.balance)}. Abrir o balancete`}>
               {fmtEur(sum.balance)}
               {fmtRef(sum.balance) && <small className="tm-chip__ref">{fmtRef(sum.balance)}</small>}
             </button>
-          )}
-          <button className="tm-apphead__more" aria-label="Mais opções" aria-expanded={menu} onClick={() => setMenu(!menu)}>⋯</button>
-          {menu && (
-            <>
-              <div className="tm-menu__scrim" onClick={() => setMenu(false)} />
-              <div className="tm-menu" role="menu">
-                <button role="menuitem" onClick={() => (setMenu(false), setGuide(true))}>Como funciona</button>
-                <a role="menuitem" href={`/${slug}`} onClick={go(`/${slug}`)}>Prancheta tática</a>
-                <a role="menuitem" href="/mercado" onClick={go("/mercado")}>Trocar de clube</a>
-              </div>
-            </>
-          )}
-        </header>
-      ) : (
-        <header className="tm-top">
-          <a className="tm-top__back" href="/mercado" onClick={go("/mercado")} aria-label="Trocar de clube">←</a>
-          {team.crest && <img src={team.crest} alt="" width={44} height={44} />}
-          <div className="tm-top__title">
-            <h1>{team.shortName}</h1>
-            <p>Janela {SEASON}</p>
-          </div>
-          <button className="tm-btn tm-btn--ghost" onClick={() => setGuide(true)}>Como funciona</button>
-          <a className="tm-btn tm-btn--ghost tm-hide-s" href={`/${slug}`} onClick={go(`/${slug}`)}>Prancheta</a>
-        </header>
-      )}
+          ) : undefined
+        }
+        menuItems={[{ label: "Como funciona", onSelect: () => setGuide(true) }]}
+      />
 
       {/* as quatro etapas são uma sequência real: decidir o elenco, comprar, fechar, escalar */}
       {isMobile ? (

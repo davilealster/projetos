@@ -1,0 +1,88 @@
+/* ModuleHeader — barra comum da Prancheta e do Mercado. Raiz tem .brand (tokens), mas não é página. */
+.brand.mhd {
+  position: sticky; top: 0; z-index: 50; min-height: 0; flex: none;
+  background: var(--felt-deep); border-bottom: 1px solid var(--felt-line);
+  font-size: 14px; line-height: 1.2;
+}
+.mhd-in {
+  display: flex; align-items: center; gap: 14px; height: 60px; padding: 0 20px;
+  max-width: 100%; min-width: 0;
+}
+.mhd .mando-mark { flex: none; padding: 4px 2px; }
+.mhd-spacer { flex: 1 1 0; min-width: 0; }
+
+/* ---- crachá do clube ---- */
+.mhd-club {
+  display: inline-flex; align-items: center; gap: 8px; min-width: 0; height: 38px; padding: 0 10px 0 6px;
+  border: 1px solid rgba(239, 230, 210, 0.22); border-radius: 6px; background: rgba(239, 230, 210, 0.04);
+  color: var(--cream); cursor: pointer; transition: background 0.15s, border-color 0.15s; -webkit-tap-highlight-color: transparent;
+}
+.mhd-club:hover { background: rgba(239, 230, 210, 0.09); border-color: rgba(239, 230, 210, 0.36); }
+.mhd-club:active { transform: translateY(1px); }
+.mhd-club__crest { flex: none; display: grid; place-items: center; width: 26px; height: 26px; }
+.mhd-club__crest img { width: 22px; height: 22px; object-fit: contain; }
+.mhd-club__crest span {
+  display: grid; place-items: center; width: 24px; height: 24px; border-radius: 50%; background: var(--cream); color: var(--ink);
+  font-family: var(--f-display); font-weight: 900; font-size: 11px;
+}
+.mhd-club__name {
+  min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  font-family: var(--f-display); font-weight: 900; font-size: 18px; letter-spacing: 0.02em; text-transform: uppercase;
+  transform: translateY(1px);
+}
+.mhd-club__caret { flex: none; color: var(--brass); }
+
+/* ---- chave de módulo ---- */
+.mhd-seg {
+  flex: none; display: inline-flex; padding: 3px; gap: 2px; border-radius: 6px;
+  background: rgba(0, 0, 0, 0.28); box-shadow: inset 0 0 0 1px var(--felt-line);
+}
+.mhd-seg__item {
+  display: inline-flex; align-items: center; height: 30px; padding: 0 14px; border-radius: 4px;
+  font-family: var(--f-data); font-size: 12px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--cream-soft); text-decoration: none; transition: color 0.15s, background 0.15s;
+}
+.mhd-seg__item:hover { color: var(--cream); background: rgba(239, 230, 210, 0.06); }
+.mhd-seg__item.is-on { background: var(--brass); color: var(--ink); cursor: default; }
+
+/* ---- ações e menu ---- */
+.mhd-actions { flex: none; display: flex; align-items: center; gap: 8px; }
+.mhd-more { position: relative; flex: none; }
+.mhd-more__btn {
+  display: grid; place-items: center; width: 40px; height: 40px; border: 1px solid transparent; border-radius: 6px;
+  background: transparent; color: var(--cream); cursor: pointer; -webkit-tap-highlight-color: transparent;
+}
+.mhd-more__btn:hover, .mhd-more__btn.is-open { background: rgba(239, 230, 210, 0.08); border-color: var(--felt-line); }
+.mhd-menu {
+  position: absolute; top: calc(100% + 6px); right: 0; z-index: 60; min-width: 210px; max-width: calc(100vw - 24px);
+  padding: 6px; border-radius: 8px; color: var(--ink);
+  background: linear-gradient(180deg, #f3ebd9, var(--paper));
+  box-shadow: 0 0 0 1px var(--paper-edge), 0 14px 34px rgba(0, 0, 0, 0.45);
+  animation: mhd-drop 0.14s ease-out; transform-origin: top right;
+}
+.mhd-menu__item {
+  display: flex; align-items: center; width: 100%; min-height: 40px; padding: 0 12px; border: 0; border-radius: 5px;
+  background: transparent; color: var(--ink) !important; font-size: 14px; font-weight: 600; text-align: left; cursor: pointer;
+}
+.mhd-menu__item:hover, .mhd-menu__item:focus { background: rgba(29, 27, 22, 0.08); outline: none; }
+.brand .mhd-menu__item:focus-visible { outline: 2px solid var(--ink); outline-offset: -2px; }
+.mhd-menu__sep { display: block; height: 1px; margin: 5px 6px; background: rgba(29, 27, 22, 0.14); }
+
+/* ---- variante "app" (celular) ---- */
+.mhd--app .mhd-in { height: 52px; gap: 8px; padding: 0 8px 0 12px; padding-left: max(12px, env(safe-area-inset-left)); padding-right: max(8px, env(safe-area-inset-right)); }
+.mhd--app .mando-mark__word { display: none; }
+.mhd--app .mando-mark { padding: 6px 4px; }
+.mhd--app .mhd-club { flex: 0 1 auto; height: 36px; border-color: transparent; background: transparent; padding: 0 6px 0 4px; }
+.mhd--app .mhd-club:hover { background: rgba(239, 230, 210, 0.07); }
+.mhd--app .mhd-club__name { font-size: 18px; }
+.mhd--app .mhd-actions { gap: 4px; }
+.mhd--app .mhd-more__btn { width: 38px; height: 38px; }
+
+@media (max-width: 760px) {
+  .mhd--bar .mhd-in { gap: 10px; padding: 0 12px; }
+  .mhd--bar .mando-mark__word { display: none; }
+  .mhd--bar .mhd-seg__item { padding: 0 10px; }
+}
+
+@keyframes mhd-drop { from { opacity: 0; transform: translateY(-4px) scale(0.98); } }
+@media (prefers-reduced-motion: reduce) { .mhd-menu { animation: none; } }

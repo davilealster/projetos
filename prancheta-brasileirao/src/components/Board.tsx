@@ -1,6 +1,8 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { loadTeam, teamSummary } from "../data";
 import { navigate, params } from "../router";
+import { spaLink } from "../brand/BrandMark";
+import { ModuleHeader } from "../brand/ModuleHeader";
 import { clubVars, distinctColor, labelName, textOn, uiAccent } from "../lib/color";
 import type { DragPayload } from "../lib/drag";
 import { FORMATION_NAMES, applyFormation, applyOppNumbers, mirror, pickSlot, slotsFor } from "../lib/formations";
@@ -385,14 +387,14 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
     return (
       <div className="notfound">
         <p>Clube não encontrado.</p>
-        <a href="/prancheta" onClick={(e) => (e.preventDefault(), navigate("/prancheta"))}>Ver os 20 clubes</a>
+        <a href="/?trocar=1" onClick={spaLink("/?trocar=1")}>Escolher um clube</a>
       </div>
     );
   }
 
   const vars = clubVars((team ?? summary).colors) as React.CSSProperties;
   if (!team || !state) {
-    return <div className={live ? `live live--bg-${bg}` : "board"} style={vars}><p className="loading">Carregando elenco…</p></div>;
+    return <div className={live ? `live live--bg-${bg}` : "board mando-skin board-page"} style={vars}><p className="loading">Carregando elenco…</p></div>;
   }
 
   // ---- render das peças ----
@@ -713,7 +715,7 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
 
   const bannerNode = shared && (
     <div className="banner">
-          Você está vendo uma escalação compartilhada.
+          <span><span className="mk-stamp">Escalação recebida</span>Você está vendo uma escalação compartilhada.</span>
           <button
             className="btn btn--primary btn--sm"
             onClick={() => {
@@ -749,11 +751,23 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
       <MobileShell
         ref={captureRef}
         style={vars}
-        title={team.shortName}
-        crest={team.crest}
-        onBack={() => navigate("/prancheta")}
-        onLive={() => navigate(`/${slug}/live?ratio=9x16`)}
-        onUndo={undo}
+        header={
+          <ModuleHeader
+            module="prancheta"
+            slug={slug}
+            clubName={team.shortName}
+            crest={team.crest}
+            variant="app"
+            actions={
+              <>
+                <button className="mk-icon" onClick={undo} aria-label="Desfazer" title="Desfazer">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9 14 4 9l5-5M4 9h10a6 6 0 0 1 0 12h-3" /></svg>
+                </button>
+                <a className="mk-live" href={`/${slug}/live?ratio=9x16`} onClick={spaLink(`/${slug}/live?ratio=9x16`)}>Live</a>
+              </>
+            }
+          />
+        }
         banner={bannerNode}
         pitch={pitch}
         overlay={subsList}
@@ -814,17 +828,17 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
 
   // =================== PRANCHETA NORMAL ===================
   return (
-    <div className={`board ${uiHidden ? "is-focus" : ""}`} style={vars}>
-      <header className="board__head">
-        <a className="back" href="/prancheta" onClick={(e) => (e.preventDefault(), navigate("/prancheta"))}>← Clubes</a>
-        <div className="board__club">
-          {team.crest && <img src={team.crest} alt="" width={40} height={40} />}
-          <h1>{team.name}</h1>
-        </div>
-        <div className="board__actions">
-          <a className="btn" href={`/${slug}/live`} onClick={(e) => (e.preventDefault(), navigate(`/${slug}/live`))}>● Modo Live</a>
-        </div>
-      </header>
+    <div className="mando-skin board-page" style={vars}>
+    <ModuleHeader
+      module="prancheta"
+      slug={slug}
+      clubName={team.name}
+      crest={team.crest}
+      variant="bar"
+      actions={<a className="mk-live" href={`/${slug}/live`} onClick={spaLink(`/${slug}/live`)}>Modo Live</a>}
+    />
+    <div className={`board ${uiHidden ? "is-focus" : ""}`}>
+      <h1 className="sr-only">Prancheta · {team.name}</h1>
 
       {bannerNode}
 
@@ -887,6 +901,7 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
       </p>
       <Footer updatedAt={team.updatedAt} />
       {toast && <div className="toast">{toast}</div>}
+    </div>
     </div>
   );
 }
