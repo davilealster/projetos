@@ -366,6 +366,8 @@ function MarketClub({ slug }: { slug: string }) {
       {showGuide && (
         <Guide
           team={team.shortName}
+          crest={team.crest}
+          squadSize={squad.filter((p) => p.status !== "loanOut").length}
           st={st}
           setSt={setSt}
           pending={sum.pending.length}
@@ -394,10 +396,11 @@ const BUDGET_OPTIONS: [number, string, string][] = [
   [80, "Cofre aberto", "Dá para sonhar alto"],
 ];
 
-function Guide({ team, st, setSt, pending, loans, onDone }: {
-  team: string; st: MarketState; setSt: SetSt; pending: number; loans: number; onDone: () => void;
+function Guide({ team, crest, squadSize, st, setSt, pending, loans, onDone }: {
+  team: string; crest: string | null; squadSize: number; st: MarketState; setSt: SetSt; pending: number; loans: number; onDone: () => void;
 }) {
-  const [i, setI] = useState(0);
+  // primeira visita começa pela missão; "Como funciona" abre direto no orçamento
+  const [i, setI] = useState(st.onboarded ? 1 : 0);
   useEffect(() => {
     const k = (e: KeyboardEvent) => e.key === "Escape" && onDone();
     window.addEventListener("keydown", k);
@@ -406,8 +409,25 @@ function Guide({ team, st, setSt, pending, loans, onDone }: {
   return (
     <div className="tm-modal" role="dialog" aria-modal="true" aria-label="Como funciona a janela">
       <div className="tm-guide">
-        <div className="tm-guide__dots" aria-hidden="true">{[0, 1, 2].map((n) => <i key={n} className={n === i ? "is-on" : ""} />)}</div>
+        <div className="tm-guide__dots" aria-hidden="true">{[0, 1, 2, 3].map((n) => <i key={n} className={n === i ? "is-on" : ""} />)}</div>
         {i === 0 && (
+          <div className="tm-mission">
+            {crest && <img className="tm-mission__crest" src={crest} alt="" width={84} height={84} />}
+            <p className="tm-eyebrow">Janela de transferências {SEASON}</p>
+            <h2>Você é o novo diretor de futebol do {team}.</h2>
+            <p>
+              A diretoria te entregou as chaves do elenco. Sua missão: decidir quem fica, quem sai e quem chega
+              para a temporada {SEASON}, sem estourar o orçamento.
+            </p>
+            <ol className="tm-mission__steps">
+              <li><b>1</b> Defina o orçamento</li>
+              <li><b>2</b> Carimbe o destino dos {squadSize} jogadores</li>
+              <li><b>3</b> Vá às compras e monte o time ideal</li>
+            </ol>
+            <span className="tm-stamp tm-stamp--green tm-mission__stamp">Contratado</span>
+          </div>
+        )}
+        {i === 1 && (
           <>
             <p className="tm-eyebrow">Passo 1 de 3</p>
             <h2>Quanto a diretoria do {team} liberou?</h2>
@@ -433,7 +453,7 @@ function Guide({ team, st, setSt, pending, loans, onDone }: {
             </label>
           </>
         )}
-        {i === 1 && (
+        {i === 2 && (
           <>
             <p className="tm-eyebrow">Passo 2 de 3</p>
             <h2>Carimbe o destino de cada jogador</h2>
@@ -448,7 +468,7 @@ function Guide({ team, st, setSt, pending, loans, onDone }: {
             </ul>
           </>
         )}
-        {i === 2 && (
+        {i === 3 && (
           <>
             <p className="tm-eyebrow">Passo 3 de 3</p>
             <h2>Vá às compras e feche a janela</h2>
@@ -465,7 +485,9 @@ function Guide({ team, st, setSt, pending, loans, onDone }: {
         )}
         <div className="tm-guide__nav">
           {i > 0 ? <button className="tm-btn tm-btn--ghost" onClick={() => setI(i - 1)}>Voltar</button> : <button className="tm-btn tm-btn--ghost" onClick={onDone}>Pular</button>}
-          {i < 2 ? <button className="tm-btn tm-btn--brass" onClick={() => setI(i + 1)}>Continuar</button> : <button className="tm-btn tm-btn--brass" onClick={onDone}>Abrir a janela</button>}
+          {i === 0 ? <button className="tm-btn tm-btn--brass" onClick={() => setI(1)}>Vamos pro desafio →</button>
+            : i < 3 ? <button className="tm-btn tm-btn--brass" onClick={() => setI(i + 1)}>Continuar</button>
+            : <button className="tm-btn tm-btn--brass" onClick={onDone}>Abrir a janela</button>}
         </div>
       </div>
     </div>
