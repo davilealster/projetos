@@ -526,3 +526,9 @@ button.lu-slot:hover .lu-slot__photo { transform: translateY(-2px); }
 }
 .sty__formation--coach { font-family: var(--f-body); letter-spacing: 0; font-size: 16px; }
 .sty__formation--coach b { font-weight: 750; color: #fff; }
+/* como sai / como chega, no quadro do story */
+.sty-sec h3 small { margin-left: 4px; font-family: var(--f-body); font-weight: 600; font-size: 12.5px; letter-spacing: 0; text-transform: none; color: rgba(255, 255, 255, 0.82); }
+.sty-card { --how: #555; }
+.sty-card__how { position: absolute; left: 2px; right: 2px; bottom: 19px; top: auto; padding: 1px 0; border-radius: 0 0 4px 4px; background: var(--how); color: #fff; font-family: var(--f-display); font-weight: 900; font-size: 8.5px; letter-spacing: 0.04em; line-height: 1.2; text-align: center; text-transform: uppercase; white-space: nowrap; overflow: hidden; }
+.sty-how--sell { --how: #1c7a45; } .sty-how--loanOut, .sty-how--loan { --how: #1d4fa3; } .sty-how--release { --how: #c2331f; }
+.sty-how--letGo, .sty-how--returnLoan { --how: #5f584b; } .sty-how--buy { --how: #1c7a45; } .sty-how--free { --how: #a86a10; }

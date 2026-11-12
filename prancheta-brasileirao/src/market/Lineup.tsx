@@ -5,7 +5,7 @@ import { initials, isLight } from "../lib/color";
 import { FORMATION_NAMES, fitScore, slotsFor } from "../lib/formations";
 import type { Pos } from "../types";
 import {
-  FOREIGN_LIMIT, MAX_BENCH, MAX_SUBS, benchSize, autoLineup, cleanLineup, fmtEur, lineupStats, placeInLineup, posRank, removeFromLineup,
+  FOREIGN_LIMIT, HOW_TAG, MAX_BENCH, MAX_SUBS, benchSize, autoLineup, cleanLineup, fmtEur, lineupStats, placeInLineup, posRank, removeFromLineup,
   type Lineup, type MarketState, type NextPlayer,
 } from "./logic";
 import { loadCoaches } from "./data";
@@ -358,19 +358,26 @@ export const StorySummary = forwardRef<HTMLDivElement, StoryProps & { arrivals: 
     let cols = 5;
     for (; cols < 10; cols++) {
       const cell = (540 - 40 - (cols - 1) * 6) / cols;
-      const h = groups.reduce((a, g) => a + Math.ceil(g.length / cols) * (cell + 26), 0);
+      const h = groups.reduce((a, g) => a + Math.ceil(g.length / cols) * (cell + 26), 0); // nome embaixo
       if (h <= avail) break;
     }
+    // "6 vendidos · 4 emprestados · 8 dispensados"
+    const breakdown = (list: NextPlayer[]) => {
+      const n = new Map<string, number>();
+      for (const p of list) if (p.how && HOW_TAG[p.how]) n.set(HOW_TAG[p.how]!, (n.get(HOW_TAG[p.how]!) ?? 0) + 1);
+      return n.size ? [...n].map(([k, v]) => `${v} ${(v > 1 && !k.includes(" ") ? `${k}s` : k).toLowerCase()}`).join(" · ") : null;
+    };
     const sorted = (g: NextPlayer[]) => [...g].sort((a, b) => posRank(a.pos) - posRank(b.pos) || (b.value ?? 0) - (a.value ?? 0));
     const section = (title: string, list: NextPlayer[], kind: string) =>
       list.length > 0 && (
         <section className={`sty-sec sty-sec--${kind}`}>
-          <h3>{title} <span>{list.length}</span></h3>
+          <h3>{title} <span>{list.length}</span>{breakdown(list) && <small>{breakdown(list)}</small>}</h3>
           <div className="sty-grid" style={{ gridTemplateColumns: `repeat(${cols}, 1fr)` }}>
             {sorted(list).map((p) => (
               <div key={p.id} className="sty-card">
                 <span className="sty-card__photo"><Face name={p.name} photo={p.photo} story /></span>
                 <span className={`tm-pos tm-pos--${p.pos}`}>{p.pos}</span>
+                {p.how && HOW_TAG[p.how] && <span className={`sty-card__how sty-how--${p.how}`}>{HOW_TAG[p.how]}</span>}
                 <span className="sty-card__name">{shortName(p.name)}</span>
               </div>
             ))}
@@ -409,7 +416,8 @@ async function settle(el: HTMLElement) {
 
 export async function renderStory(el: HTMLElement): Promise<Blob> {
   await settle(el);
-  const blob = await toBlob(el, { pixelRatio: 2, cacheBust: false, width: 540, height: 960 });
+  // includeQueryParams: sem isso o html-to-image usa a mesma foto para todo /api/img?u=…
+  const blob = await toBlob(el, { pixelRatio: 2, cacheBust: false, includeQueryParams: true, width: 540, height: 960 });
   if (!blob) throw new Error("falha ao gerar a imagem");
   return blob;
 }
