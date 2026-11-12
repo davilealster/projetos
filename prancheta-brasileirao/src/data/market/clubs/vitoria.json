@@ -3,6 +3,14 @@
   "tmId": "2125",
   "name": "Esporte Clube Vitória",
   "collectedAt": "2026-11-12",
+  "coach": {
+    "id": "138471",
+    "name": "Cleber dos Santos",
+    "since": "2026-11-05",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/138471-1747446957.jpg",
+    "age": 47,
+    "nat": "Brasil"
+  },
   "squad": [
     {
       "id": "645602",

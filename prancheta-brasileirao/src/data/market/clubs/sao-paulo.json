@@ -3,6 +3,14 @@
   "tmId": "585",
   "name": "São Paulo Futebol Clube",
   "collectedAt": "2026-11-12",
+  "coach": {
+    "id": "4724",
+    "name": "Dorival Júnior",
+    "since": "2026-05-15",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/4724-1725987510.jpg",
+    "age": 64,
+    "nat": "Brasil"
+  },
   "squad": [
     {
       "id": "378871",

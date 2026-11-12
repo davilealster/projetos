@@ -3,6 +3,14 @@
   "tmId": "2462",
   "name": "Fluminense Football Club",
   "collectedAt": "2026-11-12",
+  "coach": {
+    "id": "38610",
+    "name": "Marcão",
+    "since": "2026-08-14",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/38610-1610006043.jpg",
+    "age": 54,
+    "nat": "Brasil"
+  },
   "squad": [
     {
       "id": "590039",

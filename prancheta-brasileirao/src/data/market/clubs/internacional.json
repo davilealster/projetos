@@ -3,6 +3,14 @@
   "tmId": "6600",
   "name": "Sport Club Internacional",
   "collectedAt": "2026-11-12",
+  "coach": {
+    "id": "34959",
+    "name": "Eduardo Baptista",
+    "since": "2026-09-24",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/34959-1493989448.jpg",
+    "age": 56,
+    "nat": "Brasil"
+  },
   "squad": [
     {
       "id": "869437",

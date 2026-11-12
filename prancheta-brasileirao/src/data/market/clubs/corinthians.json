@@ -3,6 +3,14 @@
   "tmId": "199",
   "name": "Sport Club Corinthians Paulista",
   "collectedAt": "2026-11-12",
+  "coach": {
+    "id": "32998",
+    "name": "Clarence Seedorf",
+    "since": "2026-10-11",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/32998-1794052815.jpg",
+    "age": 50,
+    "nat": "Holanda"
+  },
   "squad": [
     {
       "id": "574901",

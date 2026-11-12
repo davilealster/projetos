@@ -177,3 +177,42 @@ describe("gráficos e resumo da janela", () => {
     expect(txt).toContain("Saldo: € 15 mi");
   });
 });
+
+describe("escalação ideal", async () => {
+  const { autoLineup, placeInLineup, lineupStats, cleanLineup, FOREIGN_LIMIT } = await import("../src/market/logic");
+  const mk = (id: string, pos: Pos, value = 1) => ({ id, pos, value });
+  type Pos = import("../src/types").Pos;
+  const squad = [
+    mk("g1", "GOL", 5), mk("g2", "GOL", 1), mk("g3", "GOL", 0.5),
+    mk("ld", "LD"), mk("le", "LE"), mk("z1", "ZAG", 3), mk("z2", "ZAG", 2), mk("z3", "ZAG", 1),
+    mk("v1", "VOL"), mk("m1", "MEI", 4), mk("m2", "MEI", 3), mk("m3", "MEI", 1),
+    mk("p1", "PON"), mk("p2", "PON"), mk("a1", "ATA", 9), mk("a2", "ATA", 2),
+  ];
+  const l = autoLineup("4-3-3", squad);
+
+  it("11 titulares na posição certa, o goleiro mais valioso no gol", () => {
+    expect(l.starters.filter(Boolean)).toHaveLength(11);
+    expect(l.starters[0]).toBe("g1");
+    expect(new Set(l.starters).size).toBe(11);
+  });
+  it("reservas até 2 por vaga, goleiros reservas no gol", () => {
+    expect(l.subs.every((s) => s.length <= 2)).toBe(true);
+    expect(l.subs[0]).toEqual(["g2", "g3"]);
+    const all = [...l.starters, ...l.subs.flat()];
+    expect(new Set(all).size).toBe(all.length); // ninguém repetido
+  });
+  it("trocar titular: o antigo vai para a reserva da vaga", () => {
+    const base = { ...l, subs: l.subs.map((s, i) => (i === 0 ? [] : s)) };
+    const n = placeInLineup(base, "g3", 0, "starter");
+    expect(n.starters[0]).toBe("g3");
+    expect(n.subs[0]).toEqual(["g1"]);
+  });
+  it("limpa quem saiu e conta estrangeiros relacionados", () => {
+    const c = cleanLineup(l, new Set(squad.filter((p) => p.id !== "a1").map((p) => p.id)));
+    expect(c.starters.includes("a1")).toBe(false);
+    const byId = new Map(squad.map((p) => [p.id, { foreign: p.pos === "ZAG", value: p.value }]));
+    const st = lineupStats(l, byId);
+    expect(st.foreign).toBe(3);
+    expect(FOREIGN_LIMIT).toBe(8);
+  });
+});

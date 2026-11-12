@@ -3,6 +3,14 @@
   "tmId": "978",
   "name": "Clube de Regatas Vasco da Gama",
   "collectedAt": "2026-11-12",
+  "coach": {
+    "id": "14217",
+    "name": "Pedro Emanuel",
+    "since": "2026-07-10",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/14217-1489051114.jpg",
+    "age": 51,
+    "nat": "Portugal"
+  },
   "squad": [
     {
       "id": "288415",

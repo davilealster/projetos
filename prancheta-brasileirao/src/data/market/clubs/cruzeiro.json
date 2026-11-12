@@ -3,6 +3,14 @@
   "tmId": "609",
   "name": "Cruzeiro Esporte Clube",
   "collectedAt": "2026-11-12",
+  "coach": {
+    "id": "24055",
+    "name": "Artur Jorge",
+    "since": "2026-03-23",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/24055-1762261521.jpg",
+    "age": 54,
+    "nat": "Portugal"
+  },
   "squad": [
     {
       "id": "997947",

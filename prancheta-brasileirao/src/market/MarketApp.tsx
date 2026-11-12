@@ -16,9 +16,10 @@ import { MARKET_INDEX, hasMarketData, loadClubMarket, loadLeague, loadMarketStat
 import {
   ACTION_LABEL, PRICED, SIGNING_LABEL, actionsFor, contractYears, decisionOf, depthChart, emptyMarketState, fmtBrl, fmtDate,
   FOREIGN_LIMIT, fmtEur, isEnding, isFreeAgent, moneyOf, nextSeason, posRank, shareText, staysWith, summarize, waterfall,
-  type Decision, type MarketState, type SigningType, type SquadAction,
+  type Decision, type Lineup, type MarketState, type SigningType, type SquadAction,
 } from "./logic";
 import type { ClubMarket, MarketLeague, MarketPlayer, SquadPlayer } from "./types";
+import { CoachCard, LineupTab, StoryStudio, useNextCoach } from "./Lineup";
 
 const CUTOFF = MARKET_INDEX.nextSeasonStart;
 const SEASON = CUTOFF.slice(0, 4);
@@ -157,7 +158,7 @@ function MarketHome() {
 
 // ============ clube ============
 
-type Tab = "squad" | "market" | "close";
+type Tab = "squad" | "market" | "close" | "lineup";
 
 function MarketClub({ slug }: { slug: string }) {
   const doc = useOverrides();
@@ -169,6 +170,7 @@ function MarketClub({ slug }: { slug: string }) {
   const [guide, setGuide] = useState(false);
   const [sheet, setSheet] = useState(false);
   const [toast, setToast] = useState<string | null>(null);
+  const [studio, setStudio] = useState<Lineup | null>(null);
 
   useEffect(() => void loadClubMarket(slug).then(setClub), [slug]);
   useEffect(() => saveMarketState(slug, st), [slug, st]);
@@ -196,6 +198,7 @@ function MarketClub({ slug }: { slug: string }) {
   const depth = depthChart(next);
   const foreigners = next.filter((x) => x.kind !== "leave" && x.foreign).length;
   const steps = waterfall(st, sum);
+  const nextCoach = useNextCoach(club?.coach ?? null, st);
 
   const setDecision = (id: string, d: Decision | null) =>
     setSt((s) => {
@@ -211,10 +214,12 @@ function MarketClub({ slug }: { slug: string }) {
     ["squad", "Elenco", sum.pending.length ? `${sum.pending.length} a decidir` : "resolvido"],
     ["market", "Mercado", arrivals.length ? `${arrivals.length} chegada${arrivals.length > 1 ? "s" : ""}` : "nenhuma chegada"],
     ["close", "Fechamento", sum.balance < 0 ? "saldo negativo" : null],
+    ["lineup", "Escalação", st.formation],
   ];
+  const NEXT: Record<Tab, [Tab, string] | null> = { squad: ["market", "Ir às compras"], market: ["close", "Fechar a janela"], close: ["lineup", "Escalar o time ideal"], lineup: null };
 
   const rail = (
-    <Ledger st={st} setSt={setSt} sum={sum} steps={steps} depth={depth} foreigners={foreigners} onNext={tab === "close" ? null : () => (setTab(tab === "squad" ? "market" : "close"), setSheet(false), window.scrollTo({ top: 0 }))} nextLabel={tab === "squad" ? "Ir às compras" : "Fechar a janela"} />
+    <Ledger st={st} setSt={setSt} sum={sum} steps={steps} depth={depth} foreigners={foreigners} onNext={NEXT[tab] ? () => (setTab(NEXT[tab]![0]), setSheet(false), window.scrollTo({ top: 0 })) : null} nextLabel={NEXT[tab]?.[1] ?? ""} />
   );
 
   return (
@@ -230,7 +235,7 @@ function MarketClub({ slug }: { slug: string }) {
         <a className="tm-btn tm-btn--ghost tm-hide-s" href={`/${slug}`} onClick={go(`/${slug}`)}>Prancheta</a>
       </header>
 
-      {/* as três etapas são uma sequência real: decidir o elenco, comprar, fechar */}
+      {/* as quatro etapas são uma sequência real: decidir o elenco, comprar, fechar, escalar */}
       <nav className="tm-steps" role="tablist" aria-label="Etapas da janela">
         {tabs.map(([t, label, note], i) => (
           <button key={t} role="tab" aria-selected={tab === t} className={`tm-step ${tab === t ? "is-on" : ""}`} onClick={() => setTab(t)}>
@@ -250,7 +255,13 @@ function MarketClub({ slug }: { slug: string }) {
       ) : (
         <div className="tm-layout">
           <main className="tm-main">
-            {tab === "squad" && <SquadTab squad={squad} st={st} setSt={setSt} setDecision={setDecision} colors={team.colors} />}
+            {tab === "squad" && (
+              <>
+                <CoachCard coach={club!.coach ?? null} st={st} setSt={setSt} />
+                <SquadTab squad={squad} st={st} setSt={setSt} setDecision={setDecision} colors={team.colors} />
+              </>
+            )}
+            {tab === "lineup" && <LineupTab next={next} st={st} setSt={setSt} team={team} coach={nextCoach} onGenerate={setStudio} />}
             {tab === "market" && (
               <MarketTab st={st} setSt={setSt} balance={sum.balance} ownIds={new Set(squad.map((p) => p.id))} depth={depth} onLeague={(l) => setLeagues((x) => ({ ...x, [l.id]: l }))} />
             )}
@@ -312,6 +323,13 @@ function MarketClub({ slug }: { slug: string }) {
           pending={sum.pending.length}
           loans={squad.filter((p) => p.status !== "owned").length}
           onDone={() => (setSt((s) => ({ ...s, onboarded: true })), setGuide(false))}
+        />
+      )}
+      {studio && (
+        <StoryStudio
+          props={{ team, lineup: studio, byId: new Map(next.map((p) => [p.id, p])), coach: nextCoach, budget: st.budget, balance: sum.balance, host: location.host }}
+          summary={{ arrivals: next.filter((p) => p.kind === "new"), leaves: next.filter((p) => p.kind === "leave"), stays: next.filter((p) => p.kind === "stay") }}
+          onClose={() => setStudio(null)}
         />
       )}
       {toast && <div className="tm-toast">{toast}</div>}
@@ -389,7 +407,8 @@ function Guide({ team, st, setSt, pending, loans, onDone }: {
             </p>
             <p>
               O <b>balancete</b> acompanha tudo: saldo, e quantos jogadores você tem em cada posição. No
-              <b> Fechamento</b>, veja os gráficos do elenco {SEASON} e copie o resumo para mandar no grupo.
+              <b> Fechamento</b>, veja os gráficos do elenco {SEASON}. Por fim, na <b>Escalação</b>, monte o time ideal e
+              gere as imagens para o story.
             </p>
           </>
         )}

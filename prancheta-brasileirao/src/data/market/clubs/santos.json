@@ -3,6 +3,14 @@
   "tmId": "221",
   "name": "Santos FC",
   "collectedAt": "2026-11-12",
+  "coach": {
+    "id": "4732",
+    "name": "Cuca",
+    "since": "2026-03-19",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/4732-1756394612.jpg",
+    "age": 63,
+    "nat": "Brasil"
+  },
   "squad": [
     {
       "id": "371247",

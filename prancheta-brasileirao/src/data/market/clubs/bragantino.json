@@ -3,6 +3,14 @@
   "tmId": "8793",
   "name": "Red Bull Bragantino",
   "collectedAt": "2026-11-12",
+  "coach": {
+    "id": "5667",
+    "name": "Vagner Mancini",
+    "since": "2025-10-30",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/5667-1499239587.jpg",
+    "age": 60,
+    "nat": "Brasil"
+  },
   "squad": [
     {
       "id": "468247",

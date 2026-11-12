@@ -3,6 +3,14 @@
   "tmId": "776",
   "name": "Coritiba Foot Ball Club",
   "collectedAt": "2026-11-12",
+  "coach": {
+    "id": "124852",
+    "name": "Guila Bossle",
+    "since": "2026-10-30",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/124852-1769213634.png",
+    "age": 42,
+    "nat": "Brasil"
+  },
   "squad": [
     {
       "id": "974488",

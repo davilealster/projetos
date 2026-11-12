@@ -30,12 +30,14 @@ Módulo separado da prancheta: o usuário escolhe um clube da Série A, define o
 
 - **Elenco atual:** valor de mercado, fim de contrato, situação (do clube, emprestado ao clube, emprestado fora) e como chegou (comprado de X por €, livre, empréstimo, base).
 - **Decisões:** do clube → mantém, vende, empresta ou dispensa; contrato terminando → renova, deixa sair livre ou vende; chegou emprestado → mantém o empréstimo, devolve ou compra em definitivo; emprestado fora → traz de volta, segue emprestado ou vende. Vendas e compras aceitam valor próprio.
+- **Técnico:** mantém ou demite; se demitir, contrata um dos técnicos das 23 ligas coletadas.
 - **Mercado:** 23 ligas (Brasil, América do Sul, top 5 da Europa, outros europeus, MLS, México, Arábia, Catar, Emirados). Filtros por liga, nome, posição, idade, valor e "só livres" (contrato terminando). Compra, empréstimo ou contratação livre.
 - **Resumo:** receitas, gastos, saldo, valor e idade média do elenco, chegadas, saídas, decisões pendentes e alertas de elenco (goleiros, laterais etc.).
+- **Escalação:** escolhe a formação e monta o time ideal num campo em perspectiva (titulares com foto, até 2 reservas por posição e 12 no banco). Avisa quando há mais de 8 estrangeiros entre os relacionados (limite de 2027). Gera duas imagens verticais para o story (1080×1920): o campinho "Meu elenco ideal 2027" nas cores do clube e o quadro de quem chega, quem sai e quem fica. As fotos do Transfermarkt passam pelo `/api/img` para poderem entrar na imagem.
 
 ### Design do módulo
 
-O Mercado tem identidade própria (`src/market/market.css`): a mesa do dirigente em feltro verde, cada jogador numa ficha de papel e cada decisão num carimbo (clicar no carimbo desfaz). Fontes embutidas via `@fontsource`: Big Shoulders (títulos e carimbos), Hanken Grotesk (texto) e DM Mono (valores). O fluxo é em três etapas (Elenco → Mercado → Fechamento), com passo a passo na primeira visita, balancete lateral sempre visível (barra fixa no celular) e quatro gráficos no fechamento: cascata do dinheiro, profundidade por posição, fim dos contratos por ano e idade × valor. As cores dos gráficos foram validadas para daltonismo, e quem sai/chega também se distingue pela forma.
+O Mercado tem identidade própria (`src/market/market.css`): a mesa do dirigente em feltro verde, cada jogador numa ficha de papel e cada decisão num carimbo (clicar no carimbo desfaz). Fontes embutidas via `@fontsource`: Big Shoulders (títulos e carimbos), Hanken Grotesk (texto) e DM Mono (valores). O fluxo é em quatro etapas (Elenco → Mercado → Fechamento → Escalação), com passo a passo na primeira visita, balancete lateral sempre visível (barra fixa no celular) e quatro gráficos no fechamento: cascata do dinheiro, profundidade por posição, fim dos contratos por ano e idade × valor. As cores dos gráficos foram validadas para daltonismo, e quem sai/chega também se distingue pela forma.
 
 ### Dados (Transfermarkt)
 

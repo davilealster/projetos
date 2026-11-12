@@ -3,6 +3,14 @@
   "tmId": "3876",
   "name": "Mirassol Futebol Clube (SP)",
   "collectedAt": "2026-11-12",
+  "coach": {
+    "id": "65455",
+    "name": "Rafael Guanaes",
+    "since": "2025-03-18",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/65455-1674928354.jpg",
+    "age": 45,
+    "nat": "Brasil"
+  },
   "squad": [
     {
       "id": "269860",

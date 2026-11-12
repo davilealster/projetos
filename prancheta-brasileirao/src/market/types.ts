@@ -37,11 +37,25 @@ export interface SquadPlayer {
   joined: string | null;
 }
 
+/** Técnico (do clube ou disponível para contratar). */
+export interface MarketCoach {
+  id: string;
+  name: string;
+  since: string | null;
+  photo: string | null;
+  age: number | null;
+  nat: string | null;
+  /** clube atual e liga (na lista de técnicos para contratar) */
+  club?: string;
+  league?: string;
+}
+
 export interface ClubMarket {
   slug: string;
   tmId: string;
   name: string;
   collectedAt: string;
+  coach: MarketCoach | null;
   squad: SquadPlayer[];
 }
 

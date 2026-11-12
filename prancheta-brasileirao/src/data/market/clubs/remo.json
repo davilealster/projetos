@@ -3,6 +3,14 @@
   "tmId": "10997",
   "name": "Clube do Remo (PA)",
   "collectedAt": "2026-11-12",
+  "coach": {
+    "id": "72121",
+    "name": "Thiago Carpini",
+    "since": "2026-09-16",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/72121-1760492660.jpg",
+    "age": 42,
+    "nat": "Brasil"
+  },
   "squad": [
     {
       "id": "364257",

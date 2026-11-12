@@ -131,6 +131,22 @@ class Collector:
         done = await asyncio.gather(*(one(p) for p in players))
         return [p for p in done if p]
 
+    async def coach(self, club_id: str) -> dict | None:
+        """Técnico atual do clube (ficha do clube + ficha do técnico, para foto e nacionalidade)."""
+        prof = await self.cached(f"clubprofile_{club_id}", lambda: self.tm.club_profile(club_id))
+        c = (prof or {}).get("coach")
+        if not c or not c.get("id"):
+            return None
+        det = await self.cached(f"coach_{c['id']}", lambda: self.tm.coach_profile(c["id"])) or {}
+        return {
+            "id": c["id"],
+            "name": c.get("name") or det.get("name"),
+            "since": c.get("since"),
+            "imageUrl": det.get("imageUrl"),
+            "age": det.get("age"),
+            "citizenship": det.get("citizenship") or [],
+        }
+
     async def competition(self, comp: dict, comp_id: str, serie_a_clubs: set[str]) -> dict:
         clubs = await self.cached(f"comp_{comp_id}", lambda: self.tm.competition_clubs(comp_id))
         out = {
@@ -139,12 +155,16 @@ class Collector:
             "seasonId": (clubs or {}).get("seasonId"),
             "clubs": [],
             "transfers": {},
+            "coaches": {},
         }
         for club in (clubs or {}).get("clubs", []):
             squad = await self.cached(f"club_{club['id']}", lambda cid=club["id"]: self.tm.club_players(cid))
             players = (squad or {}).get("players", [])
             players = await self.complete(club["id"], players)
             out["clubs"].append({"id": club["id"], "name": club.get("name"), "players": players})
+            coach = await self.coach(club["id"])
+            if coach:
+                out["coaches"][club["id"]] = coach
             print(f"  {club.get('name')}: {len(players)} jogadores", flush=True)
             for p in players:
                 want = comp["transfers"] == "all" or norm(p.get("signedFrom")) in serie_a_clubs

@@ -61,9 +61,24 @@ export interface MarketState {
   onboarded: boolean;
   /** jogadores observados no mercado ("liga:id") */
   watch: string[];
+  /** técnico: mantém ou demite (e quem contrata) */
+  coach: { action: "keep" | "fire"; hire: string | null };
+  /** escalação ideal; null = montada automaticamente */
+  lineup: Lineup | null;
+  /** formação escolhida (vale também para a montagem automática) */
+  formation: string;
 }
 
-export const emptyMarketState = (): MarketState => ({ budget: 20_000_000, useSales: true, rate: 6.2, decisions: {}, signings: [], onboarded: false, watch: [] });
+export interface Lineup {
+  formation: string;
+  /** id do titular de cada vaga da formação */
+  starters: (string | null)[];
+  /** reservas de cada vaga (até 2) */
+  subs: string[][];
+}
+
+export const emptyMarketState = (): MarketState => ({ budget: 20_000_000, useSales: true, rate: 6.2, decisions: {}, signings: [], onboarded: false, watch: [],
+  coach: { action: "keep", hire: null }, lineup: null, formation: "4-3-3" });
 
 const ends = (date: string | null | undefined, cutoff: string) => !!date && date < cutoff;
 
@@ -188,6 +203,7 @@ export type NextKind = "stay" | "new" | "leave";
 export interface NextPlayer {
   id: string;
   name: string;
+  photo: string | null;
   pos: Pos;
   age: number | null;
   value: number | null;
@@ -198,8 +214,8 @@ export interface NextPlayer {
   foreign: boolean;
 }
 
-/** Limite de estrangeiros relacionados por jogo no Brasileirão (CBF). */
-export const FOREIGN_LIMIT = 9;
+/** Limite de estrangeiros relacionados por jogo no Brasileirão em 2027 (CBF). */
+export const FOREIGN_LIMIT = 8;
 
 /** Ordem de exibição: goleiro, zagueiro, laterais, volante, meia, ponta, atacante. */
 export const posRank = (p: Pos) => POS_ORDER.indexOf(p);
@@ -212,9 +228,9 @@ export function nextSeason(squad: SquadPlayer[], st: MarketState, cutoff: string
     const stays = staysWith(d.action);
     if (!stays && p.status === "loanOut" && d.action !== "sell") continue; // já está fora e segue fora
     const contract = d.action === "renew" ? "renew" : d.action === "extendLoan" ? p.loanUntil ?? null : p.contract;
-    out.push({ id: p.id, name: p.name, pos: p.pos, age: p.age, value: p.value, contract, kind: stays ? "stay" : "leave", pending: isEnding(p, cutoff) && !st.decisions[p.id], foreign: p.foreign });
+    out.push({ id: p.id, name: p.name, photo: p.photo, pos: p.pos, age: p.age, value: p.value, contract, kind: stays ? "stay" : "leave", pending: isEnding(p, cutoff) && !st.decisions[p.id], foreign: p.foreign });
   }
-  for (const a of arrivals) out.push({ id: a.id, name: a.name, pos: a.pos, age: a.age, value: a.value, contract: a.contract, kind: "new", pending: false, foreign: a.foreign });
+  for (const a of arrivals) out.push({ id: a.id, name: a.name, photo: a.photo, pos: a.pos, age: a.age, value: a.value, contract: a.contract, kind: "new", pending: false, foreign: a.foreign });
   return out;
 }
 
@@ -296,4 +312,96 @@ export function shareText(opts: {
   }
   lines.push(`Saldo: ${fmtEur(opts.balance)}`, `Monte a sua: ${opts.url}`);
   return lines.join("\n");
+}
+
+// ---------- escalação ideal ----------
+
+import { fitScore, slotsFor } from "../lib/formations";
+
+export const MAX_SUBS = 2;
+/** Banco do Brasileirão: até 12 reservas (23 relacionados). */
+export const MAX_BENCH = 12;
+export const benchSize = (subs: string[][]) => subs.reduce((a, s) => a + s.length, 0);
+
+/**
+ * Escalação automática: titular de cada vaga pela posição (principal > parentes da função),
+ * depois reservas, cada um na vaga em que melhor encaixa, até 2 por vaga.
+ * Vagas específicas (GOL, laterais, volante, pontas) são preenchidas antes das genéricas.
+ */
+export function autoLineup(formation: string, players: { id: string; pos: Pos; value: number | null }[]): Lineup {
+  const slots = slotsFor(formation, true);
+  const order: Pos[] = ["GOL", "LD", "LE", "VOL", "PON", "ATA", "ZAG", "MEI"];
+  const byValue = [...players].sort((a, b) => (b.value ?? 0) - (a.value ?? 0));
+  const used = new Set<string>();
+  const starters: (string | null)[] = slots.map(() => null);
+  const idx = slots.map((s, i) => [s, i] as const).sort((a, b) => order.indexOf(a[0].role) - order.indexOf(b[0].role));
+  for (const [s, i] of idx) {
+    let best: string | null = null;
+    let score = Infinity;
+    for (const p of byValue) {
+      if (used.has(p.id)) continue;
+      const f = fitScore({ pos: p.pos }, s.role);
+      if (f < score) [best, score] = [p.id, f];
+    }
+    if (best && score < Infinity) {
+      starters[i] = best;
+      used.add(best);
+    }
+  }
+  // reservas: primeiro um por vaga, depois o segundo, até completar o banco (12)
+  const subs: string[][] = slots.map(() => []);
+  for (const cap of [1, MAX_SUBS]) {
+    for (const p of byValue) {
+      if (used.has(p.id) || benchSize(subs) >= MAX_BENCH) continue;
+      let bi = -1;
+      let bs = Infinity;
+      slots.forEach((s, i) => {
+        if (subs[i].length >= cap) return;
+        const f = fitScore({ pos: p.pos }, s.role) * 10 + subs[i].length;
+        if (f < bs) [bi, bs] = [i, f];
+      });
+      if (bi >= 0 && bs < (cap === 1 ? 30 : Infinity)) {
+        subs[bi].push(p.id);
+        used.add(p.id);
+      }
+    }
+  }
+  return { formation, starters, subs };
+}
+
+/** Remove da escalação quem não está mais no elenco (vendido, devolvido…). */
+export function cleanLineup(l: Lineup, ids: Set<string>): Lineup {
+  return {
+    ...l,
+    starters: l.starters.map((id) => (id && ids.has(id) ? id : null)),
+    subs: l.subs.map((s) => s.filter((id) => ids.has(id))),
+  };
+}
+
+/** Coloca um jogador numa vaga (titular ou reserva), tirando-o de onde estava. */
+export function placeInLineup(l: Lineup, id: string, slot: number, as: "starter" | "sub"): Lineup {
+  const starters = l.starters.map((x) => (x === id ? null : x));
+  const subs = l.subs.map((s) => s.filter((x) => x !== id));
+  if (as === "starter") {
+    const prev = starters[slot];
+    starters[slot] = id;
+    // o antigo titular vira reserva da mesma vaga, se couber
+    if (prev && subs[slot].length < MAX_SUBS && benchSize(subs) < MAX_BENCH) subs[slot] = [prev, ...subs[slot]];
+  } else if (subs[slot].length < MAX_SUBS && benchSize(subs) < MAX_BENCH) subs[slot] = [...subs[slot], id];
+  return { ...l, starters, subs };
+}
+
+export function removeFromLineup(l: Lineup, id: string): Lineup {
+  return { ...l, starters: l.starters.map((x) => (x === id ? null : x)), subs: l.subs.map((s) => s.filter((x) => x !== id)) };
+}
+
+/** Relacionados (titulares + reservas) e quantos são estrangeiros. */
+export function lineupStats(l: Lineup, byId: Map<string, { foreign: boolean; value: number | null }>) {
+  const starters = l.starters.filter((x): x is string => !!x);
+  const listed = [...starters, ...l.subs.flat()];
+  return {
+    listed: listed.length,
+    foreign: listed.filter((id) => byId.get(id)?.foreign).length,
+    xiValue: starters.reduce((a, id) => a + (byId.get(id)?.value ?? 0), 0),
+  };
 }

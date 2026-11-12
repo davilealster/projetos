@@ -5,7 +5,13 @@ import type { Pos } from "./lib/core";
 import { PATHS, loadTeamMap, p, readJson, runIfMain, writeJson } from "./lib/io";
 import { arrivalOf, countryPt, isForeign, loanStatus, matchClubSlug, tmPhoto, tmPosition, type TmCompetitionFile, type TmPlayer } from "./lib/market";
 import { compatible } from "./import-research";
-import type { ClubMarket, MarketIndex, MarketLeague, MarketPlayer, SquadPlayer } from "../src/market/types";
+import type { ClubMarket, MarketCoach, MarketIndex, MarketLeague, MarketPlayer, SquadPlayer } from "../src/market/types";
+import type { TmCoach } from "./lib/market";
+
+const coachOf = (c: TmCoach | undefined, extra: Partial<MarketCoach> = {}): MarketCoach | null =>
+  c?.name
+    ? { id: c.id, name: c.name, since: c.since, photo: tmPhoto(c.imageUrl), age: c.age, nat: countryPt(c.citizenship?.[0]), ...extra }
+    : null;
 
 const IN = process.env.MARKET_IN ?? p("data/market/tm");
 const OUT = p("src/data/market");
@@ -120,7 +126,7 @@ export function buildMarket(): { leagues: number; players: number; clubs: number
         joined: pl.joinedOn,
       };
     });
-    clubs[slug] = { slug, tmId: club.id, name: club.name ?? slug, collectedAt: bra1!.collectedAt, squad };
+    clubs[slug] = { slug, tmId: club.id, name: club.name ?? slug, collectedAt: bra1!.collectedAt, coach: coachOf(bra1!.coaches?.[club.id]), squad };
   }
 
   // ---- emprestados fora: jogadores de outros clubes/ligas cuja última transferência é empréstimo de um clube da Série A ----
@@ -165,6 +171,15 @@ export function buildMarket(): { leagues: number; players: number; clubs: number
     for (const pl of lg.players) if (ourPhoto.has(pl.id)) pl.photo = ourPhoto.get(pl.id)!;
     writeJson(`${OUT}/leagues/BRA1.json`, lg);
   }
+  // técnicos disponíveis para contratar: os de todos os clubes coletados
+  const coaches: MarketCoach[] = [];
+  for (const c of comps) {
+    for (const club of c.clubs) {
+      const co = coachOf(c.coaches?.[club.id], { club: club.name ?? "", league: c.competition.name });
+      if (co) coaches.push(co);
+    }
+  }
+  writeJson(`${OUT}/coaches.json`, coaches);
   writeJson(`${OUT}/index.json`, index);
   const missing = Object.keys(map).filter((s) => !clubs[s]);
   if (bra1 && missing.length) console.warn(`⚠ clubes da Série A sem dados do Transfermarkt: ${missing.join(", ")}`);

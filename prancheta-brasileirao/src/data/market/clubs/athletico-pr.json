@@ -3,6 +3,14 @@
   "tmId": "679",
   "name": "Club Athletico Paranaense",
   "collectedAt": "2026-11-12",
+  "coach": {
+    "id": "41640",
+    "name": "Odair Hellmann",
+    "since": "2025-05-22",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/41640-1593786299.jpg",
+    "age": 49,
+    "nat": "Brasil"
+  },
   "squad": [
     {
       "id": "743586",

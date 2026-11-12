@@ -3,6 +3,14 @@
   "tmId": "210",
   "name": "Grêmio Foot-Ball Porto Alegrense",
   "collectedAt": "2026-11-12",
+  "coach": {
+    "id": "4728",
+    "name": "Renato Gaúcho",
+    "since": "2026-09-14",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/4728-1731016916.jpg",
+    "age": 64,
+    "nat": "Brasil"
+  },
   "squad": [
     {
       "id": "878037",

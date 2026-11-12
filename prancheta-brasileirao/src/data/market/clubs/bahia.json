@@ -3,6 +3,14 @@
   "tmId": "10010",
   "name": "Esporte Clube Bahia",
   "collectedAt": "2026-11-12",
+  "coach": {
+    "id": "50290",
+    "name": "Rogério Ceni",
+    "since": "2023-09-09",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/50290-1499162635.jpg",
+    "age": 53,
+    "nat": "Brasil"
+  },
   "squad": [
     {
       "id": "387925",

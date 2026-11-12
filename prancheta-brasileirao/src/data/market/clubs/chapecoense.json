@@ -3,6 +3,14 @@
   "tmId": "17776",
   "name": "Associação Chapecoense de Futebol",
   "collectedAt": "2026-11-12",
+  "coach": {
+    "id": "83174",
+    "name": "Rafael Lacerda",
+    "since": "2026-05-30",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/83174-1705675705.jpg",
+    "age": 42,
+    "nat": "Brasil"
+  },
   "squad": [
     {
       "id": "598974",

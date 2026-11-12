@@ -1,0 +1,4152 @@
+[
+  {
+    "id": "23009",
+    "name": "Abel Ferreira",
+    "since": "2020-11-04",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/23009-1765225207.jpg",
+    "age": 47,
+    "nat": "Portugal",
+    "club": "Sociedade Esportiva Palmeiras",
+    "league": "Brasileirão Série A"
+  },
+  {
+    "id": "10682",
+    "name": "Leonardo Jardim",
+    "since": "2026-03-04",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/10682-1448025497.jpg",
+    "age": 52,
+    "nat": "Portugal",
+    "club": "CR Flamengo",
+    "league": "Brasileirão Série A"
+  },
+  {
+    "id": "24055",
+    "name": "Artur Jorge",
+    "since": "2026-03-23",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/24055-1762261521.jpg",
+    "age": 54,
+    "nat": "Portugal",
+    "club": "Cruzeiro Esporte Clube",
+    "league": "Brasileirão Série A"
+  },
+  {
+    "id": "32998",
+    "name": "Clarence Seedorf",
+    "since": "2026-10-11",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/32998-1794052815.jpg",
+    "age": 50,
+    "nat": "Holanda",
+    "club": "Sport Club Corinthians Paulista",
+    "league": "Brasileirão Série A"
+  },
+  {
+    "id": "14217",
+    "name": "Pedro Emanuel",
+    "since": "2026-07-10",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/14217-1489051114.jpg",
+    "age": 51,
+    "nat": "Portugal",
+    "club": "Clube de Regatas Vasco da Gama",
+    "league": "Brasileirão Série A"
+  },
+  {
+    "id": "6623",
+    "name": "Tite",
+    "since": "2026-09-17",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/6623-1448023024.jpg",
+    "age": 65,
+    "nat": "Brasil",
+    "club": "Botafogo de Futebol e Regatas",
+    "league": "Brasileirão Série A"
+  },
+  {
+    "id": "50290",
+    "name": "Rogério Ceni",
+    "since": "2023-09-09",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/50290-1499162635.jpg",
+    "age": 53,
+    "nat": "Brasil",
+    "club": "Esporte Clube Bahia",
+    "league": "Brasileirão Série A"
+  },
+  {
+    "id": "38610",
+    "name": "Marcão",
+    "since": "2026-08-14",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/38610-1610006043.jpg",
+    "age": 54,
+    "nat": "Brasil",
+    "club": "Fluminense Football Club",
+    "league": "Brasileirão Série A"
+  },
+  {
+    "id": "4732",
+    "name": "Cuca",
+    "since": "2026-03-19",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/4732-1756394612.jpg",
+    "age": 63,
+    "nat": "Brasil",
+    "club": "Santos FC",
+    "league": "Brasileirão Série A"
+  },
+  {
+    "id": "42453",
+    "name": "Eduardo Domínguez",
+    "since": "2026-02-27",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/42453-1739830365.jpg",
+    "age": 48,
+    "nat": "Argentina",
+    "club": "Clube Atlético Mineiro",
+    "league": "Brasileirão Série A"
+  },
+  {
+    "id": "41640",
+    "name": "Odair Hellmann",
+    "since": "2025-05-22",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/41640-1593786299.jpg",
+    "age": 49,
+    "nat": "Brasil",
+    "club": "Club Athletico Paranaense",
+    "league": "Brasileirão Série A"
+  },
+  {
+    "id": "5667",
+    "name": "Vagner Mancini",
+    "since": "2025-10-30",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/5667-1499239587.jpg",
+    "age": 60,
+    "nat": "Brasil",
+    "club": "Red Bull Bragantino",
+    "league": "Brasileirão Série A"
+  },
+  {
+    "id": "4724",
+    "name": "Dorival Júnior",
+    "since": "2026-05-15",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/4724-1725987510.jpg",
+    "age": 64,
+    "nat": "Brasil",
+    "club": "São Paulo Futebol Clube",
+    "league": "Brasileirão Série A"
+  },
+  {
+    "id": "4728",
+    "name": "Renato Gaúcho",
+    "since": "2026-09-14",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/4728-1731016916.jpg",
+    "age": 64,
+    "nat": "Brasil",
+    "club": "Grêmio Foot-Ball Porto Alegrense",
+    "league": "Brasileirão Série A"
+  },
+  {
+    "id": "34959",
+    "name": "Eduardo Baptista",
+    "since": "2026-09-24",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/34959-1493989448.jpg",
+    "age": 56,
+    "nat": "Brasil",
+    "club": "Sport Club Internacional",
+    "league": "Brasileirão Série A"
+  },
+  {
+    "id": "138471",
+    "name": "Cleber dos Santos",
+    "since": "2026-11-05",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/138471-1747446957.jpg",
+    "age": 47,
+    "nat": "Brasil",
+    "club": "Esporte Clube Vitória",
+    "league": "Brasileirão Série A"
+  },
+  {
+    "id": "124852",
+    "name": "Guila Bossle",
+    "since": "2026-10-30",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/124852-1769213634.png",
+    "age": 42,
+    "nat": "Brasil",
+    "club": "Coritiba Foot Ball Club",
+    "league": "Brasileirão Série A"
+  },
+  {
+    "id": "65455",
+    "name": "Rafael Guanaes",
+    "since": "2025-03-18",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/65455-1674928354.jpg",
+    "age": 45,
+    "nat": "Brasil",
+    "club": "Mirassol Futebol Clube (SP)",
+    "league": "Brasileirão Série A"
+  },
+  {
+    "id": "72121",
+    "name": "Thiago Carpini",
+    "since": "2026-09-16",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/72121-1760492660.jpg",
+    "age": 42,
+    "nat": "Brasil",
+    "club": "Clube do Remo (PA)",
+    "league": "Brasileirão Série A"
+  },
+  {
+    "id": "83174",
+    "name": "Rafael Lacerda",
+    "since": "2026-05-30",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/83174-1705675705.jpg",
+    "age": 42,
+    "nat": "Brasil",
+    "club": "Associação Chapecoense de Futebol",
+    "league": "Brasileirão Série A"
+  },
+  {
+    "id": "45679",
+    "name": "Juan Pablo Vojvoda",
+    "since": "2026-11-10",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/45679-1756950351.jpg",
+    "age": 51,
+    "nat": "Argentina",
+    "club": "Fortaleza Esporte Clube",
+    "league": "Brasileirão Série B"
+  },
+  {
+    "id": "38746",
+    "name": "Mariano Soso",
+    "since": "2026-09-09",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/38746-1770654738.jpg",
+    "age": 45,
+    "nat": "Argentina",
+    "club": "Sport Club do Recife",
+    "league": "Brasileirão Série B"
+  },
+  {
+    "id": "58565",
+    "name": "Maurício Barbieri",
+    "since": "2025-12-11",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/58565-1625876800.jpg",
+    "age": 45,
+    "nat": "Brasil",
+    "club": "Esporte Clube Juventude",
+    "league": "Brasileirão Série B"
+  },
+  {
+    "id": "41321",
+    "name": "Daniel Paulista",
+    "since": "2026-06-25",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/41321-1752878158.jpg",
+    "age": 44,
+    "nat": "Brasil",
+    "club": "Ceará Sporting Club",
+    "league": "Brasileirão Série B"
+  },
+  {
+    "id": "82979",
+    "name": "Mozart",
+    "since": "2026-06-25",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/82979-1717543703.jpg",
+    "age": 47,
+    "nat": "Brasil",
+    "club": "Goiás EC",
+    "league": "Brasileirão Série B"
+  },
+  {
+    "id": "8226",
+    "name": "Enderson Moreira",
+    "since": "2025-08-26",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/8226-1544195185.jpg",
+    "age": 55,
+    "nat": "Brasil",
+    "club": "Grêmio Novorizontino",
+    "league": "Brasileirão Série B"
+  },
+  {
+    "id": "91297",
+    "name": "Alex",
+    "since": "2026-02-21",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/91297-1726689384.jpg",
+    "age": 49,
+    "nat": "Brasil",
+    "club": "Athletic Club",
+    "league": "Brasileirão Série B"
+  },
+  {
+    "id": "57012",
+    "name": "Umberto Louzer",
+    "since": "2026-09-24",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/57012-1645546587.jpg",
+    "age": 46,
+    "nat": "Brasil",
+    "club": "Criciúma EC",
+    "league": "Brasileirão Série B"
+  },
+  {
+    "id": "100616",
+    "name": "Fábio Matias",
+    "since": "2026-07-05",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/100616-1713629207.jpg",
+    "age": 47,
+    "nat": "Brasil",
+    "club": "Clube de Regatas Brasil (AL)",
+    "league": "Brasileirão Série B"
+  },
+  {
+    "id": "19584",
+    "name": "Guto Ferreira",
+    "since": "2026-03-27",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/19584-1680876392.jpeg",
+    "age": 61,
+    "nat": "Brasil",
+    "club": "Vila Nova Futebol Clube (GO)",
+    "league": "Brasileirão Série B"
+  },
+  {
+    "id": "68225",
+    "name": "Eduardo Barros",
+    "since": "2025-08-13",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/68225-1600242869.jpg",
+    "age": 41,
+    "nat": "Brasil",
+    "club": "Cuiabá Esporte Clube (MT)",
+    "league": "Brasileirão Série B"
+  },
+  {
+    "id": "92548",
+    "name": "Roger Silva",
+    "since": "2026-07-07",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/92548-1713923163.jpg",
+    "age": 41,
+    "nat": "Brasil",
+    "club": "Atlético Clube Goianiense",
+    "league": "Brasileirão Série B"
+  },
+  {
+    "id": "35052",
+    "name": "Alberto Valentim",
+    "since": "2026-10-08",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/35052-1649644119.jpg",
+    "age": 51,
+    "nat": "Brasil",
+    "club": "Operário Ferroviário Esporte Clube (PR)",
+    "league": "Brasileirão Série B"
+  },
+  {
+    "id": "82173",
+    "name": "Vinícius",
+    "since": "2026-08-06",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/82173-1754005937.jpg",
+    "age": 46,
+    "nat": "Brasil",
+    "club": "São Bernardo FC",
+    "league": "Brasileirão Série B"
+  },
+  {
+    "id": "38445",
+    "name": "Claudio Tencati",
+    "since": "2025-11-24",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/38445-1663428748.jpg",
+    "age": 52,
+    "nat": "Brasil",
+    "club": "Botafogo FC",
+    "league": "Brasileirão Série B"
+  },
+  {
+    "id": "37124",
+    "name": "Moacir Júnior",
+    "since": "2026-10-07",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/37124-1634635563.jpg",
+    "age": 59,
+    "nat": "Brasil",
+    "club": "América Futebol Clube (MG)",
+    "league": "Brasileirão Série B"
+  },
+  {
+    "id": "99688",
+    "name": "Hugo Chacon",
+    "since": "2026-10-12",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/99688-1770072844.JPG",
+    "age": 33,
+    "nat": "Brasil",
+    "club": "Londrina Esporte Clube (PR)",
+    "league": "Brasileirão Série B"
+  },
+  {
+    "id": "4981",
+    "name": "Gilson Kleina",
+    "since": "2026-08-28",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/t_4981_1023_2012_1.jpg",
+    "age": 58,
+    "nat": "Brasil",
+    "club": "Associação Atlética Ponte Preta",
+    "league": "Brasileirão Série B"
+  },
+  {
+    "id": "61015",
+    "name": "Bruno Pivetti",
+    "since": "2026-09-25",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/61015-1669480662.jpg",
+    "age": 42,
+    "nat": "Brasil",
+    "club": "Clube Náutico Capibaribe",
+    "league": "Brasileirão Série B"
+  },
+  {
+    "id": "125977",
+    "name": "Leonardo Ponzio",
+    "since": "2026-09-18",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/125977-1789581250.jpg",
+    "age": 44,
+    "nat": "Argentina",
+    "club": "CA River Plate",
+    "league": "Liga Profesional (Argentina)"
+  },
+  {
+    "id": "17428",
+    "name": "Rodolfo Arruabarrena",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/17428-1605107807.jpg",
+    "age": 51,
+    "nat": "Argentina",
+    "club": "CA Boca Juniors",
+    "league": "Liga Profesional (Argentina)"
+  },
+  {
+    "id": "10227",
+    "name": "Jorge Almirón",
+    "since": "2026-01-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/10227-1731598088.jpg",
+    "age": 55,
+    "nat": "Argentina",
+    "club": "CA Rosario Central",
+    "league": "Liga Profesional (Argentina)"
+  },
+  {
+    "id": "111794",
+    "name": "Sebastián Romero",
+    "since": "2026-09-29",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/111794-1752790416.jpg",
+    "age": 48,
+    "nat": "Argentina",
+    "club": "Racing Club",
+    "league": "Liga Profesional (Argentina)"
+  },
+  {
+    "id": "47797",
+    "name": "Alexander Medina",
+    "since": "2026-02-23",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/47797-1701100630.jpg",
+    "age": 48,
+    "nat": "Uruguai",
+    "club": "Club Estudiantes de La Plata",
+    "league": "Liga Profesional (Argentina)"
+  },
+  {
+    "id": "29842",
+    "name": "Alfredo Berti",
+    "since": "2024-08-27",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/29842-1781279048.jpg",
+    "age": 55,
+    "nat": "Argentina",
+    "club": "CS Independiente Rivadavia",
+    "league": "Liga Profesional (Argentina)"
+  },
+  {
+    "id": "24556",
+    "name": "Guillermo Barros Schelotto",
+    "since": "2025-03-19",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/24556-1583575854.JPG",
+    "age": 53,
+    "nat": "Argentina",
+    "club": "CA Vélez Sarsfield",
+    "league": "Liga Profesional (Argentina)"
+  },
+  {
+    "id": "22168",
+    "name": "Diego Dabove",
+    "since": "2025-01-02",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/22168-1600586397.jpg",
+    "age": 53,
+    "nat": "Argentina",
+    "club": "Club Atlético Tigre",
+    "league": "Liga Profesional (Argentina)"
+  },
+  {
+    "id": "9293",
+    "name": "Rubén Insúa",
+    "since": "2026-09-07",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/9293-1654520126.JPG",
+    "age": 65,
+    "nat": "Argentina",
+    "club": "CA San Lorenzo de Almagro",
+    "league": "Liga Profesional (Argentina)"
+  },
+  {
+    "id": "11496",
+    "name": "Omar De Felippe",
+    "since": "2026-09-02",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/11496-1649671704.JPG",
+    "age": 64,
+    "nat": "Argentina",
+    "club": "CA Talleres",
+    "league": "Liga Profesional (Argentina)"
+  },
+  {
+    "id": "7827",
+    "name": "Mauricio Pellegrino",
+    "since": "2025-01-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/7827-1541162827.jpg",
+    "age": 55,
+    "nat": "Argentina",
+    "club": "CA Lanús",
+    "league": "Liga Profesional (Argentina)"
+  },
+  {
+    "id": "34081",
+    "name": "Nicolás Diez",
+    "since": "2025-01-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/34081-1776781128.jpg",
+    "age": 49,
+    "nat": "Argentina",
+    "club": "AA Argentinos Juniors",
+    "league": "Liga Profesional (Argentina)"
+  },
+  {
+    "id": "12865",
+    "name": "Frank Darío Kudelka",
+    "since": "2026-02-26",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/12865-1755537294.jpg",
+    "age": 65,
+    "nat": "Argentina",
+    "club": "CA Newell's Old Boys",
+    "league": "Liga Profesional (Argentina)"
+  },
+  {
+    "id": "26842",
+    "name": "Martín Palermo",
+    "since": "2026-08-05",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/26842-1637752423.jpg",
+    "age": 53,
+    "nat": "Argentina",
+    "club": "Club Atlético Platense",
+    "league": "Liga Profesional (Argentina)"
+  },
+  {
+    "id": "58348",
+    "name": "Jádson Viera",
+    "since": "2026-08-18",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/58348-1741356631.jpg",
+    "age": 45,
+    "nat": "Brasil",
+    "club": "CA Independiente",
+    "league": "Liga Profesional (Argentina)"
+  },
+  {
+    "id": "102554",
+    "name": "Julio Vaccari",
+    "since": "2026-05-27",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/102554-1720465097.png",
+    "age": 46,
+    "nat": "Argentina",
+    "club": "Defensa y Justicia",
+    "league": "Liga Profesional (Argentina)"
+  },
+  {
+    "id": "75985",
+    "name": "Ariel Pereyra",
+    "since": "2026-05-19",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/75985-1583575734.JPG",
+    "age": 53,
+    "nat": "Argentina",
+    "club": "Club de Gimnasia y Esgrima La Plata",
+    "league": "Liga Profesional (Argentina)"
+  },
+  {
+    "id": "11405",
+    "name": "Ricardo Zielinski",
+    "since": "2025-02-11",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/11405-1721936139.jpg",
+    "age": 67,
+    "nat": "Argentina",
+    "club": "Club Atlético Belgrano",
+    "league": "Liga Profesional (Argentina)"
+  },
+  {
+    "id": "70683",
+    "name": "Diego Martínez",
+    "since": "2026-01-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/70683-1769439086.png",
+    "age": 47,
+    "nat": "Argentina",
+    "club": "CA Huracán",
+    "league": "Liga Profesional (Argentina)"
+  },
+  {
+    "id": "115313",
+    "name": "Damián Ayude",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/115313-1752249907.jpg",
+    "age": 44,
+    "nat": "Argentina",
+    "club": "CA Barracas Central",
+    "league": "Liga Profesional (Argentina)"
+  },
+  {
+    "id": "66206",
+    "name": "Diego Flores",
+    "since": "2026-02-12",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/66206-1637446060.JPG",
+    "age": 45,
+    "nat": "Argentina",
+    "club": "Instituto ACC",
+    "league": "Liga Profesional (Argentina)"
+  },
+  {
+    "id": "7837",
+    "name": "Leonardo Madelón",
+    "since": "2025-04-29",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/7837-1647952943.JPG",
+    "age": 63,
+    "nat": "Argentina",
+    "club": "CA Unión (Santa Fe)",
+    "league": "Liga Profesional (Argentina)"
+  },
+  {
+    "id": "5163",
+    "name": "Julio César Falcioni",
+    "since": "2026-03-05",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/_1355240789.jpg",
+    "age": 70,
+    "nat": "Argentina",
+    "club": "Club Atlético Tucumán",
+    "league": "Liga Profesional (Argentina)"
+  },
+  {
+    "id": "23781",
+    "name": "Facundo Sava",
+    "since": "2025-08-06",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/23781-1707927108.JPG",
+    "age": 52,
+    "nat": "Argentina",
+    "club": "CA Sarmiento (Junin)",
+    "league": "Liga Profesional (Argentina)"
+  },
+  {
+    "id": "4885",
+    "name": "Pedro Troglio",
+    "since": "2025-04-29",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/4885-1755788974.jpg",
+    "age": 61,
+    "nat": "Argentina",
+    "club": "CA Banfield",
+    "league": "Liga Profesional (Argentina)"
+  },
+  {
+    "id": "139830",
+    "name": "Gustavo Benítez",
+    "since": "2026-10-28",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/139830-1771012687.JPG",
+    "age": 40,
+    "nat": "Argentina",
+    "club": "Club Deportivo Riestra",
+    "league": "Liga Profesional (Argentina)"
+  },
+  {
+    "id": "127975",
+    "name": "Juan Carlos Roldán",
+    "since": "2026-11-05",
+    "photo": null,
+    "age": 63,
+    "nat": "Argentina",
+    "club": "CA Central Córdoba (SdE)",
+    "league": "Liga Profesional (Argentina)"
+  },
+  {
+    "id": "57542",
+    "name": "Pablo de Muner",
+    "since": "2026-05-04",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/57542-1701896465.jpg",
+    "age": 45,
+    "nat": "Argentina",
+    "club": "CD Godoy Cruz Antonio Tomba",
+    "league": "Liga Profesional (Argentina)"
+  },
+  {
+    "id": "11780",
+    "name": "Diego Aguirre",
+    "since": "2023-11-21",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/11780-1656493532.jpg",
+    "age": 61,
+    "nat": "Uruguai",
+    "club": "CA Peñarol",
+    "league": "Primera División (Uruguai)"
+  },
+  {
+    "id": "16111",
+    "name": "Daniel Carreño",
+    "since": "2026-08-17",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/16111-1792613994.jpg",
+    "age": 63,
+    "nat": "Uruguai",
+    "club": "Club Nacional",
+    "league": "Primera División (Uruguai)"
+  },
+  {
+    "id": "53066",
+    "name": "Marcelo Méndez",
+    "since": "2025-07-10",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/53066-1627315853.jpg",
+    "age": 45,
+    "nat": "Uruguai",
+    "club": "Montevideo City Torque",
+    "league": "Primera División (Uruguai)"
+  },
+  {
+    "id": "126829",
+    "name": "Andrés Rodríguez",
+    "since": "2026-10-11",
+    "photo": null,
+    "age": 43,
+    "nat": "Uruguai",
+    "club": "Defensor Sporting Club",
+    "league": "Primera División (Uruguai)"
+  },
+  {
+    "id": "102348",
+    "name": "Sergio Blanco",
+    "since": "2026-04-06",
+    "photo": null,
+    "age": 44,
+    "nat": "Uruguai",
+    "club": "CA Juventud",
+    "league": "Primera División (Uruguai)"
+  },
+  {
+    "id": "94241",
+    "name": "Jorge Cazulo",
+    "since": "2026-09-29",
+    "photo": null,
+    "age": 44,
+    "nat": "Uruguai",
+    "club": "CA Boston River",
+    "league": "Primera División (Uruguai)"
+  },
+  {
+    "id": "2066",
+    "name": "Jorge Fossati",
+    "since": "2026-04-26",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/2066-1732476544.JPG",
+    "age": 73,
+    "nat": "Uruguai",
+    "club": "Liverpool FC Montevideo",
+    "league": "Primera División (Uruguai)"
+  },
+  {
+    "id": "104049",
+    "name": "Diego Franco",
+    "since": "2026-09-30",
+    "photo": null,
+    "age": 37,
+    "nat": "Uruguai",
+    "club": "Albion FC",
+    "league": "Primera División (Uruguai)"
+  },
+  {
+    "id": "139915",
+    "name": "Cristian Chambian",
+    "since": "2025-03-06",
+    "photo": null,
+    "age": 36,
+    "nat": "Uruguai",
+    "club": "Racing Club de Montevideo",
+    "league": "Primera División (Uruguai)"
+  },
+  {
+    "id": "126962",
+    "name": "Antonio Pacheco",
+    "since": "2026-08-24",
+    "photo": null,
+    "age": 50,
+    "nat": "Uruguai",
+    "club": "Central Español FC",
+    "league": "Primera División (Uruguai)"
+  },
+  {
+    "id": "93570",
+    "name": "Gabriel Di Noia",
+    "since": "2025-09-10",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/93570-1757612423.jpeg",
+    "age": 44,
+    "nat": "Argentina",
+    "club": "Club Deportivo Maldonado",
+    "league": "Primera División (Uruguai)"
+  },
+  {
+    "id": "17941",
+    "name": "Tabaré Silva",
+    "since": "2026-04-14",
+    "photo": null,
+    "age": 52,
+    "nat": "Uruguai",
+    "club": "CA Progreso",
+    "league": "Primera División (Uruguai)"
+  },
+  {
+    "id": "124245",
+    "name": "Mathías Corujo",
+    "since": "2025-12-13",
+    "photo": null,
+    "age": 40,
+    "nat": "Uruguai",
+    "club": "Montevideo Wanderers",
+    "league": "Primera División (Uruguai)"
+  },
+  {
+    "id": "126198",
+    "name": "Bruno Silva",
+    "since": "2026-10-06",
+    "photo": null,
+    "age": 46,
+    "nat": "Uruguai",
+    "club": "Cerro Largo FC",
+    "league": "Primera División (Uruguai)"
+  },
+  {
+    "id": "47294",
+    "name": "Leonel Rocco",
+    "since": "2026-08-17",
+    "photo": null,
+    "age": 60,
+    "nat": "Uruguai",
+    "club": "Danubio FC",
+    "league": "Primera División (Uruguai)"
+  },
+  {
+    "id": "62784",
+    "name": "Alejandro Cappuccio",
+    "since": "2026-05-18",
+    "photo": null,
+    "age": 50,
+    "nat": "Uruguai",
+    "club": "CA Cerro",
+    "league": "Primera División (Uruguai)"
+  },
+  {
+    "id": "111501",
+    "name": "Lucas González Vélez",
+    "since": "2026-06-27",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/111501-1792087113.jpg",
+    "age": 45,
+    "nat": "Colômbia",
+    "club": "Atlético Nacional",
+    "league": "Liga BetPlay (Colômbia)"
+  },
+  {
+    "id": "105297",
+    "name": "David González",
+    "since": "2025-09-09",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/105297-1660790349.JPG",
+    "age": 44,
+    "nat": "Colômbia",
+    "club": "CD América de Cali",
+    "league": "Liga BetPlay (Colômbia)"
+  },
+  {
+    "id": "9496",
+    "name": "Alberto Gamero",
+    "since": "2026-09-04",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/9496-1659450345.jpg",
+    "age": 62,
+    "nat": "Colômbia",
+    "club": "Millonarios FC",
+    "league": "Liga BetPlay (Colômbia)"
+  },
+  {
+    "id": "118865",
+    "name": "Sebastián Viera",
+    "since": "2026-09-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/118865-1724249327.jpg",
+    "age": 43,
+    "nat": "Uruguai",
+    "club": "Junior FC",
+    "league": "Liga BetPlay (Colômbia)"
+  },
+  {
+    "id": "64788",
+    "name": "Luis Amaranto Perea",
+    "since": "2026-07-13",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/64788-1654242128.jpg",
+    "age": 47,
+    "nat": "Colômbia",
+    "club": "Independiente Medellín",
+    "league": "Liga BetPlay (Colômbia)"
+  },
+  {
+    "id": "23984",
+    "name": "Rafael Dudamel",
+    "since": "2026-03-09",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/23984-1542038074.jpg",
+    "age": 53,
+    "nat": "Venezuela",
+    "club": "Deportivo Cali",
+    "league": "Liga BetPlay (Colômbia)"
+  },
+  {
+    "id": "2782",
+    "name": "Luis Fernando Suárez",
+    "since": "2026-09-29",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/2782-1662411210.jpg",
+    "age": 66,
+    "nat": "Colômbia",
+    "club": "Deportes Tolima",
+    "league": "Liga BetPlay (Colômbia)"
+  },
+  {
+    "id": "15809",
+    "name": "Pablo Repetto",
+    "since": "2026-01-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/15809-1769099327.JPG",
+    "age": 52,
+    "nat": "Uruguai",
+    "club": "Independiente Santa Fe",
+    "league": "Liga BetPlay (Colômbia)"
+  },
+  {
+    "id": "53258",
+    "name": "Pablo Peirano",
+    "since": "2026-05-27",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/53258-1716772945.JPG",
+    "age": 51,
+    "nat": "Uruguai",
+    "club": "Atlético Bucaramanga",
+    "league": "Liga BetPlay (Colômbia)"
+  },
+  {
+    "id": "64670",
+    "name": "Flavio Robatto",
+    "since": "2026-06-16",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/64670-1772545194.jpg",
+    "age": 52,
+    "nat": "Argentina",
+    "club": "Rionegro Águilas",
+    "league": "Liga BetPlay (Colômbia)"
+  },
+  {
+    "id": "21925",
+    "name": "Ricardo Valiño",
+    "since": "2025-12-21",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/21925-1768703768.JPG",
+    "age": 55,
+    "nat": "Argentina",
+    "club": "Internacional de Bogotá",
+    "league": "Liga BetPlay (Colômbia)"
+  },
+  {
+    "id": "57783",
+    "name": "Nicolás Chiesa",
+    "since": "2026-08-17",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/57783-1770340240.jpeg",
+    "age": 46,
+    "nat": "Argentina",
+    "club": "Cúcuta Deportivo",
+    "league": "Liga BetPlay (Colômbia)"
+  },
+  {
+    "id": "121452",
+    "name": "Diego Arias",
+    "since": "2026-07-08",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/121452-1759026189.JPG",
+    "age": 41,
+    "nat": "Colômbia",
+    "club": "Fortaleza CEIF",
+    "league": "Liga BetPlay (Colômbia)"
+  },
+  {
+    "id": "47175",
+    "name": "Diego Merino",
+    "since": "2026-10-12",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/47175-1732934188.JPEG",
+    "age": 38,
+    "nat": "Espanha",
+    "club": "Asociación Deportivo Pasto",
+    "league": "Liga BetPlay (Colômbia)"
+  },
+  {
+    "id": "60179",
+    "name": "Diego Corredor",
+    "since": "2026-11-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/60179-1632494272.jpg",
+    "age": 45,
+    "nat": "Colômbia",
+    "club": "Llaneros FC",
+    "league": "Liga BetPlay (Colômbia)"
+  },
+  {
+    "id": "22746",
+    "name": "Flabio Torres",
+    "since": "2026-09-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/22746-1680200366.JPG",
+    "age": 55,
+    "nat": "Colômbia",
+    "club": "Alianza FC",
+    "league": "Liga BetPlay (Colômbia)"
+  },
+  {
+    "id": "88417",
+    "name": "Alexis Márquez",
+    "since": "2026-10-07",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/88417-1688753092.JPG",
+    "age": 50,
+    "nat": "Colômbia",
+    "club": "Deportivo Pereira",
+    "league": "Liga BetPlay (Colômbia)"
+  },
+  {
+    "id": "59286",
+    "name": "Jhon Jaime Gómez",
+    "since": "2026-02-20",
+    "photo": null,
+    "age": 59,
+    "nat": "Colômbia",
+    "club": "Boyacá Chicó FC",
+    "league": "Liga BetPlay (Colômbia)"
+  },
+  {
+    "id": "6802",
+    "name": "Daniel Garnero",
+    "since": "2025-06-16",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/6802-1712338892.jpg",
+    "age": 57,
+    "nat": "Argentina",
+    "club": "CD Universidad Católica",
+    "league": "Primera División (Chile)"
+  },
+  {
+    "id": "53794",
+    "name": "Fernando Ortiz",
+    "since": "2025-09-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/53794-1650396951.jpg",
+    "age": 48,
+    "nat": "Argentina",
+    "club": "CSD Colo-Colo",
+    "league": "Primera División (Chile)"
+  },
+  {
+    "id": "88413",
+    "name": "Fernando Gago",
+    "since": "2026-03-21",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/88413-1792088670.jpg",
+    "age": 40,
+    "nat": "Argentina",
+    "club": "Club Universidad de Chile",
+    "league": "Primera División (Chile)"
+  },
+  {
+    "id": "55059",
+    "name": "Lucas Bovaglio",
+    "since": "2026-01-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/55059-1739894882.jpg",
+    "age": 47,
+    "nat": "Argentina",
+    "club": "CD O'Higgins",
+    "league": "Primera División (Chile)"
+  },
+  {
+    "id": "41404",
+    "name": "Hernán Caputto",
+    "since": "2026-01-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/41404-1773429503.png",
+    "age": 52,
+    "nat": "Argentina",
+    "club": "Coquimbo Unido",
+    "league": "Primera División (Chile)"
+  },
+  {
+    "id": "55843",
+    "name": "Patricio Graff",
+    "since": "2026-07-02",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/55843-1707524897.jpg",
+    "age": 50,
+    "nat": "Argentina",
+    "club": "Audax Italiano",
+    "league": "Primera División (Chile)"
+  },
+  {
+    "id": "72692",
+    "name": "Walter Ribonetto",
+    "since": "2026-03-10",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/72692-1731341674.jpg",
+    "age": 52,
+    "nat": "Argentina",
+    "club": "CD Everton",
+    "league": "Primera División (Chile)"
+  },
+  {
+    "id": "93327",
+    "name": "Guillermo Farré",
+    "since": "2026-04-27",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/93327-1721832408.png",
+    "age": 45,
+    "nat": "Argentina",
+    "club": "CD Palestino",
+    "league": "Primera División (Chile)"
+  },
+  {
+    "id": "56195",
+    "name": "Víctor Rivero",
+    "since": "2023-01-15",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/56195-1711468447.jpg",
+    "age": 46,
+    "nat": "Chile",
+    "club": "Deportes Limache",
+    "league": "Primera División (Chile)"
+  },
+  {
+    "id": "138584",
+    "name": "Felipe Gutiérrez",
+    "since": "2026-01-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/138584-1768308884.jpg",
+    "age": 36,
+    "nat": "Chile",
+    "club": "Deportes La Serena",
+    "league": "Primera División (Chile)"
+  },
+  {
+    "id": "107837",
+    "name": "Cristián Muñoz",
+    "since": "2026-08-06",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/107837-1711469727.jpg",
+    "age": 43,
+    "nat": "Chile",
+    "club": "Universidad de Concepción",
+    "league": "Primera División (Chile)"
+  },
+  {
+    "id": "132197",
+    "name": "Vicente Núñez",
+    "since": "2026-10-14",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/132197-1793709077.jpg",
+    "age": 51,
+    "nat": "Chile",
+    "club": "CD Ñublense",
+    "league": "Primera División (Chile)"
+  },
+  {
+    "id": "89477",
+    "name": "John Armijo",
+    "since": "2026-09-16",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/89477-1711468763.jpg",
+    "age": 45,
+    "nat": "Chile",
+    "club": "Unión La Calera",
+    "league": "Primera División (Chile)"
+  },
+  {
+    "id": "56197",
+    "name": "Jaime García",
+    "since": "2025-01-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/56197-1752682404.jpg",
+    "age": 49,
+    "nat": "Chile",
+    "club": "Huachipato FC",
+    "league": "Primera División (Chile)"
+  },
+  {
+    "id": "11717",
+    "name": "Gustavo Huerta",
+    "since": "2017-10-03",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/11717-1652967547.jpg",
+    "age": 69,
+    "nat": "Chile",
+    "club": "CD Cobresal",
+    "league": "Primera División (Chile)"
+  },
+  {
+    "id": "7602",
+    "name": "Fernando Díaz",
+    "since": "2026-05-25",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/7602-1792172156.JPEG",
+    "age": 64,
+    "nat": "Chile",
+    "club": "Deportes Concepción",
+    "league": "Primera División (Chile)"
+  },
+  {
+    "id": "6729",
+    "name": "Pablo Sánchez",
+    "since": "2026-01-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/6729-1715823228.jpg",
+    "age": 53,
+    "nat": "Argentina",
+    "club": "Club Olimpia",
+    "league": "Primera División (Paraguai)"
+  },
+  {
+    "id": "4876",
+    "name": "Gustavo Costas",
+    "since": "2026-08-28",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/4876-1724348896.png",
+    "age": 63,
+    "nat": "Argentina",
+    "club": "Club Cerro Porteño",
+    "league": "Primera División (Paraguai)"
+  },
+  {
+    "id": "87110",
+    "name": "Ariel Galeano",
+    "since": "2026-11-02",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/87110-1747337792.jpg",
+    "age": 30,
+    "nat": "Paraguai",
+    "club": "Club Libertad Asunción",
+    "league": "Primera División (Paraguai)"
+  },
+  {
+    "id": "22557",
+    "name": "Francisco Arce",
+    "since": "2026-08-31",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/22557-1772119900.jpg",
+    "age": 55,
+    "nat": "Paraguai",
+    "club": "Club Guaraní",
+    "league": "Primera División (Paraguai)"
+  },
+  {
+    "id": "22247",
+    "name": "Víctor Bernay",
+    "since": "2026-04-09",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/22247-1773352506.jpg",
+    "age": 56,
+    "nat": "Argentina",
+    "club": "Club Nacional Asunción",
+    "league": "Primera División (Paraguai)"
+  },
+  {
+    "id": "148902",
+    "name": "Lucas Barrios",
+    "since": "2026-09-15",
+    "photo": null,
+    "age": 41,
+    "nat": "Paraguai",
+    "club": "Sportivo Luqueño",
+    "league": "Primera División (Paraguai)"
+  },
+  {
+    "id": "108417",
+    "name": "José Arrúa",
+    "since": "2021-05-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/108417-1770916899.jpg",
+    "age": 38,
+    "nat": "Paraguai",
+    "club": "Club Sportivo Trinidense",
+    "league": "Primera División (Paraguai)"
+  },
+  {
+    "id": "134674",
+    "name": "Jorge González",
+    "since": "2024-07-09",
+    "photo": null,
+    "age": 51,
+    "nat": "Paraguai",
+    "club": "Recoleta FC",
+    "league": "Primera División (Paraguai)"
+  },
+  {
+    "id": "74348",
+    "name": "Roberto Nanni",
+    "since": "2025-09-30",
+    "photo": null,
+    "age": 45,
+    "nat": "Argentina",
+    "club": "Sportivo Ameliano",
+    "league": "Primera División (Paraguai)"
+  },
+  {
+    "id": "114351",
+    "name": "Eduardo Ledesma",
+    "since": "2025-12-05",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/114351-1772032734.png",
+    "age": 41,
+    "nat": "Paraguai",
+    "club": "Club Sportivo 2 de Mayo",
+    "league": "Primera División (Paraguai)"
+  },
+  {
+    "id": "8621",
+    "name": "Javier Torrente",
+    "since": "2026-08-13",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/8621-1638170540.jpg",
+    "age": 57,
+    "nat": "Argentina",
+    "club": "Club Rubio Ñu",
+    "league": "Primera División (Paraguai)"
+  },
+  {
+    "id": "143050",
+    "name": "Pablo Fornasari",
+    "since": "2026-08-31",
+    "photo": null,
+    "age": 42,
+    "nat": "Argentina",
+    "club": "Club Sportivo San Lorenzo",
+    "league": "Primera División (Paraguai)"
+  },
+  {
+    "id": "112209",
+    "name": "Joaquín Papa",
+    "since": "2025-12-23",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/112209-1785978058.jpg",
+    "age": 40,
+    "nat": "Uruguai",
+    "club": "Independiente del Valle",
+    "league": "LigaPro (Equador)"
+  },
+  {
+    "id": "50437",
+    "name": "Gustavo Álvarez",
+    "since": "2026-07-28",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/50437-1709659162.jpg",
+    "age": 53,
+    "nat": "Argentina",
+    "club": "LDU Quito",
+    "league": "LigaPro (Equador)"
+  },
+  {
+    "id": "109590",
+    "name": "Diego Martínez",
+    "since": "2025-01-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/109590-1770821955.jpeg",
+    "age": 39,
+    "nat": "Equador",
+    "club": "CD Universidad Católica",
+    "league": "LigaPro (Equador)"
+  },
+  {
+    "id": "102454",
+    "name": "Ezequiel Medrán",
+    "since": "2026-08-27",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/102454-1745532144.jpg",
+    "age": 45,
+    "nat": "Argentina",
+    "club": "CS Emelec",
+    "league": "LigaPro (Equador)"
+  },
+  {
+    "id": "74353",
+    "name": "Pablo Trobbiani",
+    "since": "2026-08-11",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/74353-1770562838.jpg",
+    "age": 49,
+    "nat": "Espanha",
+    "club": "Barcelona SC Guayaquil",
+    "league": "LigaPro (Equador)"
+  },
+  {
+    "id": "108401",
+    "name": "Norberto Araujo",
+    "since": "2026-01-09",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/108401-1752073345.png",
+    "age": 48,
+    "nat": "Equador",
+    "club": "SD Aucas",
+    "league": "LigaPro (Equador)"
+  },
+  {
+    "id": "6285",
+    "name": "Guillermo Sanguinetti",
+    "since": "2025-04-14",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/6285-1704818493.jpg",
+    "age": 60,
+    "nat": "Uruguai",
+    "club": "CD Macará",
+    "league": "LigaPro (Equador)"
+  },
+  {
+    "id": "107564",
+    "name": "Juan Pablo Buch",
+    "since": "2026-09-24",
+    "photo": null,
+    "age": 39,
+    "nat": "Colômbia",
+    "club": "Orense SC",
+    "league": "LigaPro (Equador)"
+  },
+  {
+    "id": "22268",
+    "name": "Andrés Yllana",
+    "since": "2026-09-17",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/22268-1732812950.JPG",
+    "age": 52,
+    "nat": "Argentina",
+    "club": "Deportivo Cuenca",
+    "league": "LigaPro (Equador)"
+  },
+  {
+    "id": "56591",
+    "name": "Pool Gavilánez",
+    "since": "2017-09-11",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/56591-1681415584.jpg",
+    "age": 45,
+    "nat": "Equador",
+    "club": "Guayaquil City FC",
+    "league": "LigaPro (Equador)"
+  },
+  {
+    "id": "136308",
+    "name": "Matías Córdoba",
+    "since": "2026-07-01",
+    "photo": null,
+    "age": 42,
+    "nat": "Argentina",
+    "club": "Leones FC",
+    "league": "LigaPro (Equador)"
+  },
+  {
+    "id": "9105",
+    "name": "Jorge Célico",
+    "since": "2026-09-25",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/9105-1736517217.jpg",
+    "age": 62,
+    "nat": "Argentina",
+    "club": "Libertad FC",
+    "league": "LigaPro (Equador)"
+  },
+  {
+    "id": "23673",
+    "name": "Paúl Vélez",
+    "since": "2025-08-08",
+    "photo": null,
+    "age": 55,
+    "nat": "Equador",
+    "club": "Mushuc Runa SC",
+    "league": "LigaPro (Equador)"
+  },
+  {
+    "id": "48312",
+    "name": "Juan Carlos León",
+    "since": "2026-06-09",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/48312-1741019187.png",
+    "age": 51,
+    "nat": "Equador",
+    "club": "Delfín SC",
+    "league": "LigaPro (Equador)"
+  },
+  {
+    "id": "126911",
+    "name": "Francisco Usúcar",
+    "since": "2026-10-22",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/126911-1776215580.png",
+    "age": 40,
+    "nat": "Uruguai",
+    "club": "Técnico Universitario",
+    "league": "LigaPro (Equador)"
+  },
+  {
+    "id": "28252",
+    "name": "Raúl Duarte",
+    "since": "2026-08-11",
+    "photo": null,
+    "age": 57,
+    "nat": "Paraguai",
+    "club": "Manta FC",
+    "league": "LigaPro (Equador)"
+  },
+  {
+    "id": "53749",
+    "name": "Enzo Maresca",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/53749-1717428745.jpg",
+    "age": 46,
+    "nat": "Itália",
+    "club": "Manchester City",
+    "league": "Premier League (Inglaterra)"
+  },
+  {
+    "id": "47620",
+    "name": "Mikel Arteta",
+    "since": "2019-12-22",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/47620-1758796375.jpg",
+    "age": 44,
+    "nat": "Espanha",
+    "club": "Arsenal FC",
+    "league": "Premier League (Inglaterra)"
+  },
+  {
+    "id": "63052",
+    "name": "Xabi Alonso",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/63052-1665057370.jpg",
+    "age": 44,
+    "nat": "Espanha",
+    "club": "Chelsea FC",
+    "league": "Premier League (Inglaterra)"
+  },
+  {
+    "id": "60677",
+    "name": "Andoni Iraola",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/60677-1737451260.jpg",
+    "age": 44,
+    "nat": "Espanha",
+    "club": "Liverpool FC",
+    "league": "Premier League (Inglaterra)"
+  },
+  {
+    "id": "65647",
+    "name": "Michael Carrick",
+    "since": "2026-05-22",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/65647-1788427327.jpg",
+    "age": 45,
+    "nat": "Inglaterra",
+    "club": "Manchester United",
+    "league": "Premier League (Inglaterra)"
+  },
+  {
+    "id": "32157",
+    "name": "Roberto De Zerbi",
+    "since": "2026-03-31",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/32157-1683271864.jpg",
+    "age": 47,
+    "nat": "Itália",
+    "club": "Tottenham Hotspur",
+    "league": "Premier League (Inglaterra)"
+  },
+  {
+    "id": "45555",
+    "name": "Matthias Jaissle",
+    "since": "2026-08-05",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/45555-1793375372.jpg",
+    "age": 38,
+    "nat": "Alemanha",
+    "club": "Newcastle United",
+    "league": "Premier League (Inglaterra)"
+  },
+  {
+    "id": "48076",
+    "name": "Fabian Hürzeler",
+    "since": "2024-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/48076-1767006283.jpg",
+    "age": 33,
+    "nat": "Alemanha",
+    "club": "Brighton & Hove Albion",
+    "league": "Premier League (Inglaterra)"
+  },
+  {
+    "id": "68347",
+    "name": "Keith Andrews",
+    "since": "2025-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/68347-1755768943.png",
+    "age": 46,
+    "nat": "Irlanda",
+    "club": "Brentford FC",
+    "league": "Premier League (Inglaterra)"
+  },
+  {
+    "id": "5075",
+    "name": "Unai Emery",
+    "since": "2022-11-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/5075-1696964165.jpg",
+    "age": 55,
+    "nat": "Espanha",
+    "club": "Aston Villa",
+    "league": "Premier League (Inglaterra)"
+  },
+  {
+    "id": "24197",
+    "name": "Marco Rose",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/24197-1793375663.jpg",
+    "age": 50,
+    "nat": "Alemanha",
+    "club": "AFC Bournemouth",
+    "league": "Premier League (Inglaterra)"
+  },
+  {
+    "id": "110443",
+    "name": "Pierre Sage",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/110443-1669325355.jpg",
+    "age": 47,
+    "nat": "França",
+    "club": "Crystal Palace",
+    "league": "Premier League (Inglaterra)"
+  },
+  {
+    "id": "22891",
+    "name": "Oliver Glasner",
+    "since": "2026-07-06",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/22891-1663064999.jpg",
+    "age": 52,
+    "nat": "Áustria",
+    "club": "Nottingham Forest",
+    "league": "Premier League (Inglaterra)"
+  },
+  {
+    "id": "40910",
+    "name": "Régis Le Bris",
+    "since": "2024-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/40910-1748348845.jpg",
+    "age": 50,
+    "nat": "França",
+    "club": "Sunderland AFC",
+    "league": "Premier League (Inglaterra)"
+  },
+  {
+    "id": "10939",
+    "name": "Daniel Farke",
+    "since": "2023-07-04",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/10939-1756844030.jpg",
+    "age": 50,
+    "nat": "Alemanha",
+    "club": "Leeds United",
+    "league": "Premier League (Inglaterra)"
+  },
+  {
+    "id": "450",
+    "name": "David Moyes",
+    "since": "2025-01-11",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/450-1667898089.jpg",
+    "age": 63,
+    "nat": "Escócia",
+    "club": "Everton FC",
+    "league": "Premier League (Inglaterra)"
+  },
+  {
+    "id": "87908",
+    "name": "Álvaro Arbeloa",
+    "since": "2026-07-07",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/87908-1726582252.jpg",
+    "age": 43,
+    "nat": "Espanha",
+    "club": "Fulham FC",
+    "league": "Premier League (Inglaterra)"
+  },
+  {
+    "id": "82647",
+    "name": "Gary O'Neil",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/82647-1661847171.jpg",
+    "age": 43,
+    "nat": "Inglaterra",
+    "club": "Ipswich Town",
+    "league": "Premier League (Inglaterra)"
+  },
+  {
+    "id": "60805",
+    "name": "Frank Lampard",
+    "since": "2024-11-28",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/60805-1674474858.jpg",
+    "age": 48,
+    "nat": "Inglaterra",
+    "club": "Coventry City",
+    "league": "Premier League (Inglaterra)"
+  },
+  {
+    "id": "55762",
+    "name": "Sergej Jakirović",
+    "since": "2025-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/55762-1747549431.jpg",
+    "age": 49,
+    "nat": "Croácia",
+    "club": "Hull City",
+    "league": "Premier League (Inglaterra)"
+  },
+  {
+    "id": "781",
+    "name": "José Mourinho",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/781-1717168225.jpg",
+    "age": 63,
+    "nat": "Portugal",
+    "club": "Real Madrid",
+    "league": "LaLiga (Espanha)"
+  },
+  {
+    "id": "67",
+    "name": "Hansi Flick",
+    "since": "2024-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/67-1730118788.jpg",
+    "age": 61,
+    "nat": "Alemanha",
+    "club": "FC Barcelona",
+    "league": "LaLiga (Espanha)"
+  },
+  {
+    "id": "2868",
+    "name": "Diego Simeone",
+    "since": "2011-12-23",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/2868-1666861792.jpg",
+    "age": 56,
+    "nat": "Argentina",
+    "club": "Atlético de Madrid",
+    "league": "LaLiga (Espanha)"
+  },
+  {
+    "id": "107085",
+    "name": "Iñigo Pérez",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/107085-1761725177.jpg",
+    "age": 38,
+    "nat": "Espanha",
+    "club": "Villarreal CF",
+    "league": "LaLiga (Espanha)"
+  },
+  {
+    "id": "10906",
+    "name": "Pellegrino Matarazzo",
+    "since": "2025-12-21",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/10906-1675845687.jpg",
+    "age": 48,
+    "nat": "Estados Unidos",
+    "club": "Real Sociedad",
+    "league": "LaLiga (Espanha)"
+  },
+  {
+    "id": "1558",
+    "name": "Manuel Pellegrini",
+    "since": "2020-08-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/1558-1762430406.jpg",
+    "age": 73,
+    "nat": "Chile",
+    "club": "Real Betis Balompié",
+    "league": "LaLiga (Espanha)"
+  },
+  {
+    "id": "14226",
+    "name": "Edin Terzic",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/14226-1600678827.jpg",
+    "age": 44,
+    "nat": "Alemanha",
+    "club": "Athletic Bilbao",
+    "league": "LaLiga (Espanha)"
+  },
+  {
+    "id": "97955",
+    "name": "Claudio Giráldez",
+    "since": "2024-03-12",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/97955-1713535765.jpg",
+    "age": 38,
+    "nat": "Espanha",
+    "club": "Celta de Vigo",
+    "league": "LaLiga (Espanha)"
+  },
+  {
+    "id": "6444",
+    "name": "Luis García",
+    "since": "2026-03-24",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/6444-1548770370.jpg",
+    "age": 53,
+    "nat": "Espanha",
+    "club": "Sevilla FC",
+    "league": "LaLiga (Espanha)"
+  },
+  {
+    "id": "1548",
+    "name": "Javier Aguirre",
+    "since": "2026-09-23",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/1548-1583334311.jpg",
+    "age": 67,
+    "nat": "México",
+    "club": "Valencia CF",
+    "league": "LaLiga (Espanha)"
+  },
+  {
+    "id": "49401",
+    "name": "Eder Sarabia",
+    "since": "2026-10-28",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/49401-1764081549.jpg",
+    "age": 46,
+    "nat": "Espanha",
+    "club": "RCD Espanyol Barcelona",
+    "league": "LaLiga (Espanha)"
+  },
+  {
+    "id": "68884",
+    "name": "Antonio Hidalgo",
+    "since": "2025-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/68884-1725657240.png",
+    "age": 47,
+    "nat": "Espanha",
+    "club": "Deportivo A Coruña",
+    "league": "LaLiga (Espanha)"
+  },
+  {
+    "id": "54421",
+    "name": "José Alberto López",
+    "since": "2022-12-13",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/54421-1682084430.jpg",
+    "age": 44,
+    "nat": "Espanha",
+    "club": "Racing Santander",
+    "league": "LaLiga (Espanha)"
+  },
+  {
+    "id": "28835",
+    "name": "Beñat San José",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/28835-1510608033.jpeg",
+    "age": 47,
+    "nat": "Espanha",
+    "club": "Rayo Vallecano",
+    "league": "LaLiga (Espanha)"
+  },
+  {
+    "id": "6440",
+    "name": "José Bordalás",
+    "since": "2023-04-29",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/6440-1696863140.jpg",
+    "age": 62,
+    "nat": "Espanha",
+    "club": "Getafe CF",
+    "league": "LaLiga (Espanha)"
+  },
+  {
+    "id": "69945",
+    "name": "Luís Castro",
+    "since": "2025-12-20",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/69945-1735775913.jpg",
+    "age": 46,
+    "nat": "Portugal",
+    "club": "Levante UD",
+    "league": "LaLiga (Espanha)"
+  },
+  {
+    "id": "29192",
+    "name": "Jagoba Arrasate",
+    "since": "2026-10-12",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/29192-1793375216.jpg",
+    "age": 48,
+    "nat": "Espanha",
+    "club": "CA Osasuna",
+    "league": "LaLiga (Espanha)"
+  },
+  {
+    "id": "99471",
+    "name": "Martín Anselmi",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/99471-1737974393.jpg",
+    "age": 41,
+    "nat": "Argentina",
+    "club": "Elche CF",
+    "league": "LaLiga (Espanha)"
+  },
+  {
+    "id": "1553",
+    "name": "Quique Sánchez Flores",
+    "since": "2026-03-03",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/1553-1772611204.jpg",
+    "age": 61,
+    "nat": "Espanha",
+    "club": "Deportivo Alavés",
+    "league": "LaLiga (Espanha)"
+  },
+  {
+    "id": "92247",
+    "name": "Juan Funes",
+    "since": "2025-11-19",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/92247-1768404342.jpg",
+    "age": 43,
+    "nat": "Espanha",
+    "club": "Málaga CF",
+    "league": "LaLiga (Espanha)"
+  },
+  {
+    "id": "56780",
+    "name": "Cristian Chivu",
+    "since": "2025-06-09",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/56780-1626163546.jpg",
+    "age": 46,
+    "nat": "Romênia",
+    "club": "Inter Milan",
+    "league": "Serie A (Itália)"
+  },
+  {
+    "id": "517",
+    "name": "Luciano Spalletti",
+    "since": "2025-10-30",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/517-1663926783.jpg",
+    "age": 67,
+    "nat": "Itália",
+    "club": "Juventus FC",
+    "league": "Serie A (Itália)"
+  },
+  {
+    "id": "117406",
+    "name": "Cesc Fàbregas",
+    "since": "2024-07-19",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/117406-1699867535.jpg",
+    "age": 39,
+    "nat": "Espanha",
+    "club": "Como 1907",
+    "league": "Serie A (Itália)"
+  },
+  {
+    "id": "65202",
+    "name": "Ruben Amorim",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/65202-1681307647.jpg",
+    "age": 41,
+    "nat": "Portugal",
+    "club": "AC Milan",
+    "league": "Serie A (Itália)"
+  },
+  {
+    "id": "3436",
+    "name": "Gian Piero Gasperini",
+    "since": "2025-06-06",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/3436-1663862210.jpg",
+    "age": 68,
+    "nat": "Itália",
+    "club": "AS Roma",
+    "league": "Serie A (Itália)"
+  },
+  {
+    "id": "10073",
+    "name": "Maurizio Sarri",
+    "since": "2026-06-15",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/10073-1757678301.jpg",
+    "age": 67,
+    "nat": "Itália",
+    "club": "Atalanta BC",
+    "league": "Serie A (Itália)"
+  },
+  {
+    "id": "7671",
+    "name": "Massimiliano Allegri",
+    "since": "2026-07-03",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/7671-1663973141.jpg",
+    "age": 59,
+    "nat": "Itália",
+    "club": "SSC Napoli",
+    "league": "Serie A (Itália)"
+  },
+  {
+    "id": "31876",
+    "name": "Paolo Vanoli",
+    "since": "2026-09-07",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/31876-1677440290.jpg",
+    "age": 54,
+    "nat": "Itália",
+    "club": "ACF Fiorentina",
+    "league": "Serie A (Itália)"
+  },
+  {
+    "id": "27803",
+    "name": "Gennaro Gattuso",
+    "since": "2026-06-23",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/27803-1674640396.jpg",
+    "age": 48,
+    "nat": "Itália",
+    "club": "SS Lazio",
+    "league": "Serie A (Itália)"
+  },
+  {
+    "id": "95674",
+    "name": "Raffaele Palladino",
+    "since": "2026-09-16",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/95674-1663872108.jpg",
+    "age": 42,
+    "nat": "Itália",
+    "club": "Bologna FC 1909",
+    "league": "Serie A (Itália)"
+  },
+  {
+    "id": "35782",
+    "name": "Roberto D'Aversa",
+    "since": "2026-11-10",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/35782-1443173493.jpg",
+    "age": 51,
+    "nat": "Itália",
+    "club": "US Sassuolo",
+    "league": "Serie A (Itália)"
+  },
+  {
+    "id": "107292",
+    "name": "Ignazio Abate",
+    "since": "2026-06-12",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/107292-1660897052.jpg",
+    "age": 40,
+    "nat": "Itália",
+    "club": "Torino FC",
+    "league": "Serie A (Itália)"
+  },
+  {
+    "id": "90748",
+    "name": "Daniele De Rossi",
+    "since": "2025-11-06",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/90748-1724686902.jpg",
+    "age": 43,
+    "nat": "Itália",
+    "club": "Genoa CFC",
+    "league": "Serie A (Itália)"
+  },
+  {
+    "id": "52249",
+    "name": "Paolo Zanetti",
+    "since": "2026-11-02",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/52249-1663930060.jpg",
+    "age": 43,
+    "nat": "Itália",
+    "club": "Udinese Calcio",
+    "league": "Serie A (Itália)"
+  },
+  {
+    "id": "64045",
+    "name": "Alberto Gilardino",
+    "since": "2026-09-29",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/64045-1757678938.jpg",
+    "age": 44,
+    "nat": "Itália",
+    "club": "Parma Calcio 1913",
+    "league": "Serie A (Itália)"
+  },
+  {
+    "id": "106055",
+    "name": "Fabio Pisacane",
+    "since": "2025-06-11",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/106055-1749636398.jpg",
+    "age": 40,
+    "nat": "Itália",
+    "club": "Cagliari Calcio",
+    "league": "Serie A (Itália)"
+  },
+  {
+    "id": "14892",
+    "name": "Davide Nicola",
+    "since": "2026-10-14",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/14892-1644914474.png",
+    "age": 53,
+    "nat": "Itália",
+    "club": "Venezia FC",
+    "league": "Serie A (Itália)"
+  },
+  {
+    "id": "35804",
+    "name": "Massimiliano Alvini",
+    "since": "2025-07-02",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/35804-1658757763.jpg",
+    "age": 56,
+    "nat": "Itália",
+    "club": "Frosinone Calcio",
+    "league": "Serie A (Itália)"
+  },
+  {
+    "id": "16508",
+    "name": "Ivan Jurić",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/16508-1594718677.jpg",
+    "age": 51,
+    "nat": "Croácia",
+    "club": "AC Monza",
+    "league": "Serie A (Itália)"
+  },
+  {
+    "id": "12924",
+    "name": "Eusebio Di Francesco",
+    "since": "2025-06-26",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/12924-1631177386.jpg",
+    "age": 57,
+    "nat": "Itália",
+    "club": "US Lecce",
+    "league": "Serie A (Itália)"
+  },
+  {
+    "id": "69681",
+    "name": "Vincent Kompany",
+    "since": "2024-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/69681-1757939467.jpg",
+    "age": 40,
+    "nat": "Bélgica",
+    "club": "FC Bayern Munich",
+    "league": "Bundesliga (Alemanha)"
+  },
+  {
+    "id": "10463",
+    "name": "Niko Kovac",
+    "since": "2025-02-02",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/10463-1790592795.jpg",
+    "age": 55,
+    "nat": "Croácia",
+    "club": "Borussia Dortmund",
+    "league": "Bundesliga (Alemanha)"
+  },
+  {
+    "id": "40683",
+    "name": "Carles Martínez",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/40683-1690565095.jpg",
+    "age": 42,
+    "nat": "Espanha",
+    "club": "Bayer 04 Leverkusen",
+    "league": "Bundesliga (Alemanha)"
+  },
+  {
+    "id": "70585",
+    "name": "Martín Demichelis",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/70585-1788868938.jpg",
+    "age": 45,
+    "nat": "Argentina",
+    "club": "RB Leipzig",
+    "league": "Bundesliga (Alemanha)"
+  },
+  {
+    "id": "20940",
+    "name": "Sebastian Hoeneß",
+    "since": "2023-04-03",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/20940-1723706842.jpg",
+    "age": 44,
+    "nat": "Alemanha",
+    "club": "VfB Stuttgart",
+    "league": "Bundesliga (Alemanha)"
+  },
+  {
+    "id": "5018",
+    "name": "Adi Hütter",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/5018-1716792912.jpg",
+    "age": 56,
+    "nat": "Áustria",
+    "club": "Eintracht Frankfurt",
+    "league": "Bundesliga (Alemanha)"
+  },
+  {
+    "id": "4855",
+    "name": "Christian Ilzer",
+    "since": "2024-11-15",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/4855-1736776979.jpg",
+    "age": 49,
+    "nat": "Áustria",
+    "club": "TSG 1899 Hoffenheim",
+    "league": "Bundesliga (Alemanha)"
+  },
+  {
+    "id": "61575",
+    "name": "Julian Schuster",
+    "since": "2024-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/61575-1723190205.jpg",
+    "age": 41,
+    "nat": "Alemanha",
+    "club": "SC Freiburg",
+    "league": "Bundesliga (Alemanha)"
+  },
+  {
+    "id": "10070",
+    "name": "Manuel Baum",
+    "since": "2026-05-20",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/10070-1787058365.jpg",
+    "age": 47,
+    "nat": "Alemanha",
+    "club": "FC Augsburg",
+    "league": "Bundesliga (Alemanha)"
+  },
+  {
+    "id": "5965",
+    "name": "Urs Fischer",
+    "since": "2025-12-07",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/5965-1691615085.jpg",
+    "age": 60,
+    "nat": "Suíça",
+    "club": "1.FSV Mainz 05",
+    "league": "Bundesliga (Alemanha)"
+  },
+  {
+    "id": "73659",
+    "name": "René Wagner",
+    "since": "2026-05-22",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/73659-1691268896.jpg",
+    "age": 38,
+    "nat": "Alemanha",
+    "club": "1.FC Köln",
+    "league": "Bundesliga (Alemanha)"
+  },
+  {
+    "id": "37595",
+    "name": "Merlin Polzin",
+    "since": "2024-12-23",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/37595-1758187870.jpg",
+    "age": 36,
+    "nat": "Alemanha",
+    "club": "Hamburger SV",
+    "league": "Bundesliga (Alemanha)"
+  },
+  {
+    "id": "26099",
+    "name": "Alexander Blessin",
+    "since": "2026-09-22",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/26099-1790166600.jpg",
+    "age": 53,
+    "nat": "Alemanha",
+    "club": "Borussia Mönchengladbach",
+    "league": "Bundesliga (Alemanha)"
+  },
+  {
+    "id": "15452",
+    "name": "Daniel Thioune",
+    "since": "2026-02-04",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/15452-1776428014.jpg",
+    "age": 52,
+    "nat": "Alemanha",
+    "club": "SV Werder Bremen",
+    "league": "Bundesliga (Alemanha)"
+  },
+  {
+    "id": "22822",
+    "name": "Mauro Lustrinelli",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/22822-1789548931.jpg",
+    "age": 50,
+    "nat": "Suíça",
+    "club": "1.FC Union Berlin",
+    "league": "Bundesliga (Alemanha)"
+  },
+  {
+    "id": "55100",
+    "name": "Miron Muslic",
+    "since": "2025-05-31",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/55100-1753386427.jpg",
+    "age": 44,
+    "nat": "Áustria",
+    "club": "FC Schalke 04",
+    "league": "Bundesliga (Alemanha)"
+  },
+  {
+    "id": "54392",
+    "name": "Vincent Wagner",
+    "since": "2025-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/54392-1793440539.jpg",
+    "age": 40,
+    "nat": "Alemanha",
+    "club": "SV 07 Elversberg",
+    "league": "Bundesliga (Alemanha)"
+  },
+  {
+    "id": "44169",
+    "name": "Ralf Kettemann",
+    "since": "2025-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/44169-1786978054.jpg",
+    "age": 40,
+    "nat": "Alemanha",
+    "club": "SC Paderborn 07",
+    "league": "Bundesliga (Alemanha)"
+  },
+  {
+    "id": "6499",
+    "name": "Luis Enrique",
+    "since": "2023-07-05",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/6499-1746692948.jpg",
+    "age": 56,
+    "nat": "Espanha",
+    "club": "Paris Saint-Germain",
+    "league": "Ligue 1 (França)"
+  },
+  {
+    "id": "128436",
+    "name": "Filipe Luís",
+    "since": "2026-07-06",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/128436-1726688811.jpg",
+    "age": 41,
+    "nat": "Brasil",
+    "club": "AS Monaco",
+    "league": "Ligue 1 (França)"
+  },
+  {
+    "id": "19790",
+    "name": "Hugo Oliveira",
+    "since": "2026-07-12",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/19790-1688126438.jpg",
+    "age": 47,
+    "nat": "Portugal",
+    "club": "RC Strasbourg Alsace",
+    "league": "Ligue 1 (França)"
+  },
+  {
+    "id": "83288",
+    "name": "Carlos Vicens",
+    "since": "2026-11-09",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/83288-1778180729.jpg",
+    "age": 43,
+    "nat": "Espanha",
+    "club": "Olympique Lyon",
+    "league": "Ligue 1 (França)"
+  },
+  {
+    "id": "27176",
+    "name": "Franck Haise",
+    "since": "2026-02-18",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/27176-1594322896.jpg",
+    "age": 55,
+    "nat": "França",
+    "club": "Stade Rennais FC",
+    "league": "Ligue 1 (França)"
+  },
+  {
+    "id": "47370",
+    "name": "Davide Ancelotti",
+    "since": "2026-07-08",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/47370-1766180304.jpg",
+    "age": 37,
+    "nat": "Itália",
+    "club": "LOSC Lille",
+    "league": "Ligue 1 (França)"
+  },
+  {
+    "id": "105082",
+    "name": "Yannick Cahuzac",
+    "since": "2026-09-15",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/105082-1791887652.jpg",
+    "age": 41,
+    "nat": "França",
+    "club": "RC Lens",
+    "league": "Ligue 1 (França)"
+  },
+  {
+    "id": "62134",
+    "name": "Liam Rosenior",
+    "since": "2026-07-07",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/62134-1682083745.jpg",
+    "age": 42,
+    "nat": "Inglaterra",
+    "club": "Paris FC",
+    "league": "Ligue 1 (França)"
+  },
+  {
+    "id": "5036",
+    "name": "Bruno Genesio",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/5036-1668528980.jpg",
+    "age": 60,
+    "nat": "França",
+    "club": "Olympique Marseille",
+    "league": "Ligue 1 (França)"
+  },
+  {
+    "id": "5769",
+    "name": "Olivier Pantaloni",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/5769-1594844008.jpg",
+    "age": 59,
+    "nat": "França",
+    "club": "OGC Nice",
+    "league": "Ligue 1 (França)"
+  },
+  {
+    "id": "38063",
+    "name": "Jens Berthel Askou",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/38063-1724892805.jpg",
+    "age": 44,
+    "nat": "Dinamarca",
+    "club": "FC Toulouse",
+    "league": "Ligue 1 (França)"
+  },
+  {
+    "id": "24061",
+    "name": "Alexandre Dujeux",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/24061-1678271164.jpg",
+    "age": 50,
+    "nat": "França",
+    "club": "FC Lorient",
+    "league": "Ligue 1 (França)"
+  },
+  {
+    "id": "53316",
+    "name": "Will Still",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/53316-1785748429.jpg",
+    "age": 34,
+    "nat": "Inglaterra",
+    "club": "AJ Auxerre",
+    "league": "Ligue 1 (França)"
+  },
+  {
+    "id": "18856",
+    "name": "Julien Lachuer",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/18856-1712364606.jpg",
+    "age": 49,
+    "nat": "França",
+    "club": "Stade Brestois 29",
+    "league": "Ligue 1 (França)"
+  },
+  {
+    "id": "5750",
+    "name": "Stéphane Gilli",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/5750-1701875345.jpg",
+    "age": 52,
+    "nat": "França",
+    "club": "Angers SCO",
+    "league": "Ligue 1 (França)"
+  },
+  {
+    "id": "35338",
+    "name": "Jaïr Karam",
+    "since": "2026-11-01",
+    "photo": null,
+    "age": 50,
+    "nat": "French Guiana",
+    "club": "Le Havre AC",
+    "league": "Ligue 1 (França)"
+  },
+  {
+    "id": "75226",
+    "name": "Stéphane Dumont",
+    "since": "2024-08-12",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/75226-1656331316.png",
+    "age": 44,
+    "nat": "França",
+    "club": "ESTAC Troyes",
+    "league": "Ligue 1 (França)"
+  },
+  {
+    "id": "89468",
+    "name": "Patrick Videira",
+    "since": "2024-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/89468-1738716181.jpg",
+    "age": 49,
+    "nat": "França",
+    "club": "Le Mans FC",
+    "league": "Ligue 1 (França)"
+  },
+  {
+    "id": "73923",
+    "name": "Francesco Farioli",
+    "since": "2025-07-06",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/73923-1772616892.jpg",
+    "age": 37,
+    "nat": "Itália",
+    "club": "FC Porto",
+    "league": "Liga Portugal"
+  },
+  {
+    "id": "19631",
+    "name": "Marco Silva",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/19631-1756844231.jpg",
+    "age": 49,
+    "nat": "Portugal",
+    "club": "SL Benfica",
+    "league": "Liga Portugal"
+  },
+  {
+    "id": "19944",
+    "name": "Paulo Fonseca",
+    "since": "2026-11-04",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/19944-1502877907.jpg",
+    "age": 53,
+    "nat": "Portugal",
+    "club": "Sporting CP",
+    "league": "Liga Portugal"
+  },
+  {
+    "id": "79726",
+    "name": "Franclim Carvalho",
+    "since": "2026-10-20",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/79726-1779755099.jpg",
+    "age": 39,
+    "nat": "Portugal",
+    "club": "SC Braga",
+    "league": "Liga Portugal"
+  },
+  {
+    "id": "92891",
+    "name": "Ricardo Silva",
+    "since": "2026-11-11",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/92891-1791470543.jpg",
+    "age": 46,
+    "nat": "Cabo Verde",
+    "club": "FC Famalicão",
+    "league": "Liga Portugal"
+  },
+  {
+    "id": "75365",
+    "name": "Tiago Margarido",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/75365-1723035898.jpg",
+    "age": 37,
+    "nat": "Portugal",
+    "club": "Vitória Guimarães SC",
+    "league": "Liga Portugal"
+  },
+  {
+    "id": "104423",
+    "name": "Sérgio Ferreira",
+    "since": "2026-07-01",
+    "photo": null,
+    "age": 39,
+    "nat": "Portugal",
+    "club": "FC Alverca",
+    "league": "Liga Portugal"
+  },
+  {
+    "id": "17520",
+    "name": "Pepa",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/17520-1791303478.jpg",
+    "age": 45,
+    "nat": "Portugal",
+    "club": "CF Estrela Amadora",
+    "league": "Liga Portugal"
+  },
+  {
+    "id": "40671",
+    "name": "Sérgio Raimundo",
+    "since": "2026-10-16",
+    "photo": null,
+    "age": 42,
+    "nat": "Portugal",
+    "club": "GD Estoril Praia",
+    "league": "Liga Portugal"
+  },
+  {
+    "id": "50474",
+    "name": "Vasco Seabra",
+    "since": "2026-10-04",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/50474-1714979008.jpg",
+    "age": 43,
+    "nat": "Portugal",
+    "club": "Rio Ave FC",
+    "league": "Liga Portugal"
+  },
+  {
+    "id": "66277",
+    "name": "Vítor Severino",
+    "since": "2026-10-04",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/66277-1569591819.png",
+    "age": 43,
+    "nat": "Portugal",
+    "club": "FC Arouca",
+    "league": "Liga Portugal"
+  },
+  {
+    "id": "120083",
+    "name": "Filipe Coelho",
+    "since": "2026-07-05",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/120083-1767549453.jpg",
+    "age": 41,
+    "nat": "Portugal",
+    "club": "Casa Pia AC",
+    "league": "Liga Portugal"
+  },
+  {
+    "id": "76522",
+    "name": "Vasco Botelho da Costa",
+    "since": "2025-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/76522-1792249988.jpg",
+    "age": 37,
+    "nat": "Portugal",
+    "club": "Moreirense FC",
+    "league": "Liga Portugal"
+  },
+  {
+    "id": "51375",
+    "name": "Luís Pinto",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/51375-1791466707.png",
+    "age": 37,
+    "nat": "Portugal",
+    "club": "Gil Vicente FC",
+    "league": "Liga Portugal"
+  },
+  {
+    "id": "31291",
+    "name": "Petit",
+    "since": "2026-02-03",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/31291-1737126114.jpg",
+    "age": 50,
+    "nat": "Portugal",
+    "club": "CD Santa Clara",
+    "league": "Liga Portugal"
+  },
+  {
+    "id": "55787",
+    "name": "João Henriques",
+    "since": "2026-10-26",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/55787-1537534122.png",
+    "age": 54,
+    "nat": "Portugal",
+    "club": "CD Nacional",
+    "league": "Liga Portugal"
+  },
+  {
+    "id": "64830",
+    "name": "Bruno Pinheiro",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/64830-1639573121.jpg",
+    "age": 50,
+    "nat": "Portugal",
+    "club": "Académico Viseu FC",
+    "league": "Liga Portugal"
+  },
+  {
+    "id": "11774",
+    "name": "Mitchell van der Gaag",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/11774-1754377507.png",
+    "age": 55,
+    "nat": "Holanda",
+    "club": "CS Marítimo",
+    "league": "Liga Portugal"
+  },
+  {
+    "id": "1269",
+    "name": "Peter Bosz",
+    "since": "2023-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/1269-1502447980.jpg",
+    "age": 62,
+    "nat": "Holanda",
+    "club": "PSV Eindhoven",
+    "league": "Eredivisie (Holanda)"
+  },
+  {
+    "id": "20014",
+    "name": "Giovanni van Bronckhorst",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/20014-1727354261.png",
+    "age": 51,
+    "nat": "Holanda",
+    "club": "Feyenoord Rotterdam",
+    "league": "Eredivisie (Holanda)"
+  },
+  {
+    "id": "33636",
+    "name": "Míchel Sánchez",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/33636-1696963408.jpg",
+    "age": 51,
+    "nat": "Espanha",
+    "club": "Ajax Amsterdam",
+    "league": "Eredivisie (Holanda)"
+  },
+  {
+    "id": "39640",
+    "name": "Lee-Roy Echteld",
+    "since": "2026-01-18",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/39640-1785495052.jpg",
+    "age": 58,
+    "nat": "Holanda",
+    "club": "AZ Alkmaar",
+    "league": "Eredivisie (Holanda)"
+  },
+  {
+    "id": "1886",
+    "name": "John van den Brom",
+    "since": "2025-09-15",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/1886-1671295620.png",
+    "age": 60,
+    "nat": "Holanda",
+    "club": "FC Twente Enschede",
+    "league": "Eredivisie (Holanda)"
+  },
+  {
+    "id": "56262",
+    "name": "Anthony Correia",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/56262-1745233317.jpg",
+    "age": 44,
+    "nat": "Holanda",
+    "club": "FC Utrecht",
+    "league": "Eredivisie (Holanda)"
+  },
+  {
+    "id": "33196",
+    "name": "Dick Schreuder",
+    "since": "2025-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/33196-1785595777.jpg",
+    "age": 55,
+    "nat": "Holanda",
+    "club": "NEC Nijmegen",
+    "league": "Eredivisie (Holanda)"
+  },
+  {
+    "id": "77172",
+    "name": "Robin Veldman",
+    "since": "2025-03-21",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/77172-1764068460.png",
+    "age": 40,
+    "nat": "Holanda",
+    "club": "SC Heerenveen",
+    "league": "Eredivisie (Holanda)"
+  },
+  {
+    "id": "2208",
+    "name": "Dick Lukkien",
+    "since": "2023-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/2208-1764059450.png",
+    "age": 54,
+    "nat": "Holanda",
+    "club": "FC Groningen",
+    "league": "Eredivisie (Holanda)"
+  },
+  {
+    "id": "49162",
+    "name": "Rogier Meijer",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/49162-1758704406.jpg",
+    "age": 45,
+    "nat": "Holanda",
+    "club": "Sparta Rotterdam",
+    "league": "Eredivisie (Holanda)"
+  },
+  {
+    "id": "3801",
+    "name": "Alex Pastoor",
+    "since": "2026-11-07",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/3801-1606486604.png",
+    "age": 60,
+    "nat": "Holanda",
+    "club": "PEC Zwolle",
+    "league": "Eredivisie (Holanda)"
+  },
+  {
+    "id": "10694",
+    "name": "Joseph Oosting",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/10694-1718021552.jpg",
+    "age": 54,
+    "nat": "Holanda",
+    "club": "Go Ahead Eagles",
+    "league": "Eredivisie (Holanda)"
+  },
+  {
+    "id": "7032",
+    "name": "Jürgen Streppel",
+    "since": "2026-10-28",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/7032-1418926230.jpg",
+    "age": 57,
+    "nat": "Holanda",
+    "club": "Willem II Tilburg",
+    "league": "Eredivisie (Holanda)"
+  },
+  {
+    "id": "143335",
+    "name": "Darren Maatsen",
+    "since": "2025-07-01",
+    "photo": null,
+    "age": 35,
+    "nat": "Holanda",
+    "club": "Excelsior Rotterdam",
+    "league": "Eredivisie (Holanda)"
+  },
+  {
+    "id": "104831",
+    "name": "Levi Schwiebbe",
+    "since": "2026-11-02",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/104831-1764667374.png",
+    "age": 40,
+    "nat": "Holanda",
+    "club": "ADO Den Haag",
+    "league": "Eredivisie (Holanda)"
+  },
+  {
+    "id": "37630",
+    "name": "Danny Buijs",
+    "since": "2023-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/37630-1764160861.png",
+    "age": 44,
+    "nat": "Holanda",
+    "club": "Fortuna Sittard",
+    "league": "Eredivisie (Holanda)"
+  },
+  {
+    "id": "50839",
+    "name": "Johan Plat",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/50839-1726738292.jpg",
+    "age": 39,
+    "nat": "Holanda",
+    "club": "SC Cambuur Leeuwarden",
+    "league": "Eredivisie (Holanda)"
+  },
+  {
+    "id": "49076",
+    "name": "Henk Brugge",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/49076-1764068393.png",
+    "age": 49,
+    "nat": "Holanda",
+    "club": "SC Telstar",
+    "league": "Eredivisie (Holanda)"
+  },
+  {
+    "id": "34157",
+    "name": "Ivan Leko",
+    "since": "2025-12-08",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/34157-1674833197.jpg",
+    "age": 48,
+    "nat": "Croácia",
+    "club": "Club Brugge KV",
+    "league": "Pro League (Bélgica)"
+  },
+  {
+    "id": "134366",
+    "name": "David Hubert",
+    "since": "2025-10-13",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/134366-1772108042.jpg",
+    "age": 38,
+    "nat": "Bélgica",
+    "club": "Union Saint-Gilloise",
+    "league": "Pro League (Bélgica)"
+  },
+  {
+    "id": "36963",
+    "name": "Vítor Bruno",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/36963-1725016255.png",
+    "age": 43,
+    "nat": "Portugal",
+    "club": "RSC Anderlecht",
+    "league": "Pro League (Bélgica)"
+  },
+  {
+    "id": "59108",
+    "name": "Rik De Mil",
+    "since": "2025-12-10",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/59108-1598635920.jpg",
+    "age": 45,
+    "nat": "Bélgica",
+    "club": "KAA Gent",
+    "league": "Pro League (Bélgica)"
+  },
+  {
+    "id": "44033",
+    "name": "Vincent Euvrard",
+    "since": "2025-08-27",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/44033-1709899705.jpg",
+    "age": 44,
+    "nat": "Bélgica",
+    "club": "Standard Liège",
+    "league": "Pro League (Bélgica)"
+  },
+  {
+    "id": "82895",
+    "name": "Marvin Compper",
+    "since": "2026-08-03",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/82895-1785928439.jpg",
+    "age": 41,
+    "nat": "Alemanha",
+    "club": "Royal Antwerp FC",
+    "league": "Pro League (Bélgica)"
+  },
+  {
+    "id": "47865",
+    "name": "Issame Charaï",
+    "since": "2025-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/47865-1688220434.jpg",
+    "age": 44,
+    "nat": "Bélgica",
+    "club": "KVC Westerlo",
+    "league": "Pro League (Bélgica)"
+  },
+  {
+    "id": "53051",
+    "name": "Jonas De Roeck",
+    "since": "2026-11-06",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/53051-1503068860.jpg",
+    "age": 46,
+    "nat": "Bélgica",
+    "club": "Sint-Truidense VV",
+    "league": "Pro League (Bélgica)"
+  },
+  {
+    "id": "18053",
+    "name": "Frederik Vanderbiest",
+    "since": "2025-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/18053-1617043314.jpg",
+    "age": 49,
+    "nat": "Bélgica",
+    "club": "KV Mechelen",
+    "league": "Pro League (Bélgica)"
+  },
+  {
+    "id": "6175",
+    "name": "Pedro Caixinha",
+    "since": "2026-11-02",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/6175-1737506650.jpg",
+    "age": 56,
+    "nat": "Portugal",
+    "club": "Cercle Brugge ",
+    "league": "Pro League (Bélgica)"
+  },
+  {
+    "id": "101170",
+    "name": "Mario Kohnen",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/101170-1644836040.jpg",
+    "age": 40,
+    "nat": "Bélgica",
+    "club": "Royal Charleroi SC",
+    "league": "Pro League (Bélgica)"
+  },
+  {
+    "id": "60821",
+    "name": "Timmy Simons",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/60821-1611993837.jpg",
+    "age": 49,
+    "nat": "Bélgica",
+    "club": "Oud-Heverlee Leuven",
+    "league": "Pro League (Bélgica)"
+  },
+  {
+    "id": "36468",
+    "name": "Michael Beale",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/36468-1666269752.jpg",
+    "age": 46,
+    "nat": "Inglaterra",
+    "club": "Zulte Waregem",
+    "league": "Pro League (Bélgica)"
+  },
+  {
+    "id": "28097",
+    "name": "Lee Johnson",
+    "since": "2025-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/28097-1547133294.jpg",
+    "age": 45,
+    "nat": "Inglaterra",
+    "club": "Lommel SK",
+    "league": "Pro League (Bélgica)"
+  },
+  {
+    "id": "88138",
+    "name": "Daniel Beichler",
+    "since": "2026-10-07",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/88138-1724160788.jpg",
+    "age": 38,
+    "nat": "Áustria",
+    "club": "KV Kortrijk",
+    "league": "Pro League (Bélgica)"
+  },
+  {
+    "id": "55458",
+    "name": "Tim Bakens",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/55458-1787317432.jpg",
+    "age": 44,
+    "nat": "Holanda",
+    "club": "SK Beveren",
+    "league": "Pro League (Bélgica)"
+  },
+  {
+    "id": "23531",
+    "name": "Okan Buruk",
+    "since": "2022-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/23531-1660089259.png",
+    "age": 53,
+    "nat": "Turquia",
+    "club": "Galatasaray",
+    "league": "Süper Lig (Turquia)"
+  },
+  {
+    "id": "47288",
+    "name": "Vincenzo Italiano",
+    "since": "2026-06-06",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/47288-1788353926.jpg",
+    "age": 48,
+    "nat": "Itália",
+    "club": "Beşiktaş JK",
+    "league": "Süper Lig (Turquia)"
+  },
+  {
+    "id": "82796",
+    "name": "Emre Belözoğlu",
+    "since": "2026-11-05",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/82796-1757670593.jpg",
+    "age": 46,
+    "nat": "Turquia",
+    "club": "Fenerbahce",
+    "league": "Süper Lig (Turquia)"
+  },
+  {
+    "id": "19735",
+    "name": "Thomas Reis",
+    "since": "2026-09-17",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/19735-1785003586.png",
+    "age": 53,
+    "nat": "Alemanha",
+    "club": "Trabzonspor",
+    "league": "Süper Lig (Turquia)"
+  },
+  {
+    "id": "96813",
+    "name": "Nuri Şahin",
+    "since": "2025-09-15",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/96813-1789980113.jpg",
+    "age": 38,
+    "nat": "Turquia",
+    "club": "Basaksehir FK",
+    "league": "Süper Lig (Turquia)"
+  },
+  {
+    "id": "2934",
+    "name": "Stanimir Stoilov",
+    "since": "2023-11-21",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/2934-1715433152.png",
+    "age": 59,
+    "nat": "Bulgaria",
+    "club": "Göztepe",
+    "league": "Süper Lig (Turquia)"
+  },
+  {
+    "id": "117405",
+    "name": "Burak Yılmaz",
+    "since": "2026-09-25",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/117405-1790327653.jpeg",
+    "age": 41,
+    "nat": "Turquia",
+    "club": "Corum FK",
+    "league": "Süper Lig (Turquia)"
+  },
+  {
+    "id": "5197",
+    "name": "Nenad Bjelica",
+    "since": "2026-10-14",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/5197-1563606930.jpg",
+    "age": 55,
+    "nat": "Croácia",
+    "club": "Samsunspor",
+    "league": "Süper Lig (Turquia)"
+  },
+  {
+    "id": "22369",
+    "name": "Recep Uçar",
+    "since": "2025-12-03",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/22369-1705402717.jpg",
+    "age": 51,
+    "nat": "Turquia",
+    "club": "Caykur Rizespor",
+    "league": "Süper Lig (Turquia)"
+  },
+  {
+    "id": "10267",
+    "name": "Alfred Schreuder",
+    "since": "2026-11-04",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/10267-1794217042.png",
+    "age": 54,
+    "nat": "Holanda",
+    "club": "Kasimpasa",
+    "league": "Süper Lig (Turquia)"
+  },
+  {
+    "id": "114189",
+    "name": "Uğur Uçar",
+    "since": "2026-11-10",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/114189-1790255094.jpeg",
+    "age": 39,
+    "nat": "Turquia",
+    "club": "Alanyaspor",
+    "league": "Süper Lig (Turquia)"
+  },
+  {
+    "id": "41916",
+    "name": "İlhan Palut",
+    "since": "2026-02-06",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/41916-1789738574.jpg",
+    "age": 50,
+    "nat": "Turquia",
+    "club": "Konyaspor",
+    "league": "Süper Lig (Turquia)"
+  },
+  {
+    "id": "6408",
+    "name": "Besnik Hasi",
+    "since": "2026-06-10",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/6408-1789900137.jpeg",
+    "age": 54,
+    "nat": "Albania",
+    "club": "Amed SK",
+    "league": "Süper Lig (Turquia)"
+  },
+  {
+    "id": "694",
+    "name": "Bernd Storck",
+    "since": "2026-10-09",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/694-1791548382.jpg",
+    "age": 63,
+    "nat": "Alemanha",
+    "club": "Genclerbirligi Ankara",
+    "league": "Süper Lig (Turquia)"
+  },
+  {
+    "id": "83535",
+    "name": "Selçuk İnan",
+    "since": "2025-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/83535-1790773266.jpg",
+    "age": 41,
+    "nat": "Turquia",
+    "club": "Kocaelispor",
+    "league": "Süper Lig (Turquia)"
+  },
+  {
+    "id": "59420",
+    "name": "Serkan Özbalta",
+    "since": "2025-08-05",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/59420-1771454778.png",
+    "age": 47,
+    "nat": "Turquia",
+    "club": "Erzurumspor FK",
+    "league": "Süper Lig (Turquia)"
+  },
+  {
+    "id": "63323",
+    "name": "Mustafa Dalcı",
+    "since": "2026-10-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/63323-1708944224.png",
+    "age": 53,
+    "nat": "Turquia",
+    "club": "Eyüpspor",
+    "league": "Süper Lig (Turquia)"
+  },
+  {
+    "id": "34354",
+    "name": "Sergey Semak",
+    "since": "2018-05-29",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/34354-1756747347.png",
+    "age": 50,
+    "nat": "Rússia",
+    "club": "Zenit St. Petersburg",
+    "league": "Premier Liga (Rússia)"
+  },
+  {
+    "id": "5145",
+    "name": "Juan Carlos Carcedo",
+    "since": "2026-01-05",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/5145-1789564043.png",
+    "age": 53,
+    "nat": "Espanha",
+    "club": "Spartak Moscow",
+    "league": "Premier Liga (Rússia)"
+  },
+  {
+    "id": "66123",
+    "name": "Dmitriy Igdisamov",
+    "since": "2026-06-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/66123-1777649343.png",
+    "age": 40,
+    "nat": "Rússia",
+    "club": "CSKA Moscow",
+    "league": "Premier Liga (Rússia)"
+  },
+  {
+    "id": "9570",
+    "name": "Sandro Schwarz",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/9570-1757584917.jpg",
+    "age": 48,
+    "nat": "Alemanha",
+    "club": "Dynamo Moscow",
+    "league": "Premier Liga (Rússia)"
+  },
+  {
+    "id": "49366",
+    "name": "Murad Musaev",
+    "since": "2024-03-14",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/49366-1721724231.png",
+    "age": 43,
+    "nat": "Rússia",
+    "club": "FC Krasnodar",
+    "league": "Premier Liga (Rússia)"
+  },
+  {
+    "id": "35088",
+    "name": "Mikhail Galaktionov",
+    "since": "2022-11-13",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/35088-1669631593.png",
+    "age": 42,
+    "nat": "Rússia",
+    "club": "Lokomotiv Moscow",
+    "league": "Premier Liga (Rússia)"
+  },
+  {
+    "id": "68895",
+    "name": "Oleg Kuzmin",
+    "since": "2026-10-24",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/68895-1690299303.png",
+    "age": 45,
+    "nat": "Rússia",
+    "club": "Rubin Kazan",
+    "league": "Premier Liga (Rússia)"
+  },
+  {
+    "id": "10358",
+    "name": "Andrey Talalaev",
+    "since": "2024-09-06",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/10358-1754203507.png",
+    "age": 54,
+    "nat": "Rússia",
+    "club": "Baltika Kaliningrad",
+    "league": "Premier Liga (Rússia)"
+  },
+  {
+    "id": "36818",
+    "name": "Dmitriy Kirichenko",
+    "since": "2026-09-26",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/36818-1771914764.png",
+    "age": 49,
+    "nat": "Rússia",
+    "club": "FC Rostov",
+    "league": "Premier Liga (Rússia)"
+  },
+  {
+    "id": "66142",
+    "name": "Rolan Gusev",
+    "since": "2026-11-02",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/66142-1693159785.png",
+    "age": 49,
+    "nat": "Rússia",
+    "club": "Akhmat Grozny",
+    "league": "Premier Liga (Rússia)"
+  },
+  {
+    "id": "41750",
+    "name": "Srdjan Blagojevic",
+    "since": "2026-06-08",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/41750-1648300119.png",
+    "age": 53,
+    "nat": "Sérvia",
+    "club": "Akron Tolyatti",
+    "league": "Premier Liga (Rússia)"
+  },
+  {
+    "id": "66400",
+    "name": "Jonatan Alba",
+    "since": "2026-10-08",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/66400-1606810096.png",
+    "age": 44,
+    "nat": "Espanha",
+    "club": "Rodina Moscow",
+    "league": "Premier Liga (Rússia)"
+  },
+  {
+    "id": "23592",
+    "name": "Sergey Bulatov",
+    "since": "2026-04-28",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/23592-1775203902.png",
+    "age": 54,
+    "nat": "Rússia",
+    "club": "Krylya Sovetov Samara",
+    "league": "Premier Liga (Rússia)"
+  },
+  {
+    "id": "65660",
+    "name": "Ildar Akhmetzyanov",
+    "since": "2025-10-09",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/65660-1760083483.png",
+    "age": 42,
+    "nat": "Rússia",
+    "club": "FC Orenburg",
+    "league": "Premier Liga (Rússia)"
+  },
+  {
+    "id": "29380",
+    "name": "Vadim Evseev",
+    "since": "2025-12-29",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/29380-1740639544.png",
+    "age": 50,
+    "nat": "Rússia",
+    "club": "Dinamo Makhachkala",
+    "league": "Premier Liga (Rússia)"
+  },
+  {
+    "id": "33297",
+    "name": "Khasanbi Bidzhiev",
+    "since": "2026-11-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/33297-1754041475.png",
+    "age": 60,
+    "nat": "Rússia",
+    "club": "Fakel Voronezh",
+    "league": "Premier Liga (Rússia)"
+  },
+  {
+    "id": "81288",
+    "name": "Kily González",
+    "since": "2026-09-15",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/81288-1637443105.JPG",
+    "age": 52,
+    "nat": "Argentina",
+    "club": "Inter Miami CF",
+    "league": "MLS (EUA)"
+  },
+  {
+    "id": "27429",
+    "name": "Pat Noonan",
+    "since": "2021-12-14",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/27429-1775231266.jpg",
+    "age": 46,
+    "nat": "Estados Unidos",
+    "club": "FC Cincinnati",
+    "league": "MLS (EUA)"
+  },
+  {
+    "id": "100654",
+    "name": "Laurent Courtois",
+    "since": "2026-05-17",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/100654-1715448539.jpg",
+    "age": 48,
+    "nat": "França",
+    "club": "Columbus Crew",
+    "league": "MLS (EUA)"
+  },
+  {
+    "id": "10705",
+    "name": "Jesper Sørensen",
+    "since": "2025-01-14",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/10705-1757576779.jpg",
+    "age": 53,
+    "nat": "Dinamarca",
+    "club": "Vancouver Whitecaps FC",
+    "league": "MLS (EUA)"
+  },
+  {
+    "id": "5616",
+    "name": "Tata Martino",
+    "since": "2026-01-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/5616-1774687728.jpg",
+    "age": 63,
+    "nat": "Argentina",
+    "club": "Atlanta United FC",
+    "league": "MLS (EUA)"
+  },
+  {
+    "id": "94117",
+    "name": "Martín Perelman",
+    "since": "2026-03-11",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/94117-1775234065.jpg",
+    "age": 40,
+    "nat": "Argentina",
+    "club": "Orlando City SC",
+    "league": "MLS (EUA)"
+  },
+  {
+    "id": "25212",
+    "name": "Xavi Tamarit",
+    "since": "2026-10-01",
+    "photo": null,
+    "age": 44,
+    "nat": "Espanha",
+    "club": "Los Angeles FC",
+    "league": "MLS (EUA)"
+  },
+  {
+    "id": "32926",
+    "name": "Pablo Mastroeni",
+    "since": "2021-12-13",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/32926-1775235861.jpg",
+    "age": 50,
+    "nat": "Estados Unidos",
+    "club": "Real Salt Lake City",
+    "league": "MLS (EUA)"
+  },
+  {
+    "id": "22272",
+    "name": "Gregg Berhalter",
+    "since": "2024-10-20",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/22272-1757579265.jpg",
+    "age": 53,
+    "nat": "Estados Unidos",
+    "club": "Chicago Fire FC",
+    "league": "MLS (EUA)"
+  },
+  {
+    "id": "34166",
+    "name": "Martí Cifuentes",
+    "since": "2026-07-21",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/34166-1792681180.jpg",
+    "age": 44,
+    "nat": "Espanha",
+    "club": "Portland Timbers",
+    "league": "MLS (EUA)"
+  },
+  {
+    "id": "8116",
+    "name": "Brian Schmetzer",
+    "since": "2016-11-02",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/8116-1775236368.jpg",
+    "age": 64,
+    "nat": "Estados Unidos",
+    "club": "Seattle Sounders FC",
+    "league": "MLS (EUA)"
+  },
+  {
+    "id": "100369",
+    "name": "Ryan Richter",
+    "since": "2026-05-27",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/100369-1785938355.jpg",
+    "age": 36,
+    "nat": "Estados Unidos",
+    "club": "Philadelphia Union",
+    "league": "MLS (EUA)"
+  },
+  {
+    "id": "53314",
+    "name": "Matt Wells",
+    "since": "2025-12-23",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/53314-1774730634.jpg",
+    "age": 38,
+    "nat": "Inglaterra",
+    "club": "Colorado Rapids",
+    "league": "MLS (EUA)"
+  },
+  {
+    "id": "122177",
+    "name": "Michael Bradley",
+    "since": "2025-12-15",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/122177-1775235759.jpg",
+    "age": 39,
+    "nat": "Estados Unidos",
+    "club": "Red Bull New York",
+    "league": "MLS (EUA)"
+  },
+  {
+    "id": "75877",
+    "name": "Mikey Varas",
+    "since": "2024-09-18",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/75877-1775236083.jpg",
+    "age": 43,
+    "nat": "Estados Unidos",
+    "club": "San Diego FC",
+    "league": "MLS (EUA)"
+  },
+  {
+    "id": "24972",
+    "name": "Marko Mitrovic",
+    "since": "2025-11-07",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/24972-1775233292.jpg",
+    "age": 48,
+    "nat": "Sérvia",
+    "club": "New England Revolution",
+    "league": "MLS (EUA)"
+  },
+  {
+    "id": "66798",
+    "name": "Eric Quill",
+    "since": "2024-11-20",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/66798-1757774436.jpg",
+    "age": 48,
+    "nat": "Estados Unidos",
+    "club": "FC Dallas",
+    "league": "MLS (EUA)"
+  },
+  {
+    "id": "116289",
+    "name": "B.J. Callaghan",
+    "since": "2024-07-22",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/116289-1757771791.jpg",
+    "age": 45,
+    "nat": "Estados Unidos",
+    "club": "Nashville SC",
+    "league": "MLS (EUA)"
+  },
+  {
+    "id": "17495",
+    "name": "Greg Vanney",
+    "since": "2021-01-05",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/17495-1774731449.jpg",
+    "age": 52,
+    "nat": "Estados Unidos",
+    "club": "Los Angeles Galaxy",
+    "league": "MLS (EUA)"
+  },
+  {
+    "id": "15315",
+    "name": "Dean Smith",
+    "since": "2023-12-12",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/15315-1775231772.jpg",
+    "age": 55,
+    "nat": "Inglaterra",
+    "club": "Charlotte FC",
+    "league": "MLS (EUA)"
+  },
+  {
+    "id": "69476",
+    "name": "Yoann Damet",
+    "since": "2025-12-16",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/69476-1618656745.jpg",
+    "age": 36,
+    "nat": "França",
+    "club": "St. Louis CITY SC",
+    "league": "MLS (EUA)"
+  },
+  {
+    "id": "22827",
+    "name": "Cameron Knowles",
+    "since": "2026-01-12",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/22827-1583013214.jpg",
+    "age": 44,
+    "nat": "New Zealand",
+    "club": "Minnesota United FC",
+    "league": "MLS (EUA)"
+  },
+  {
+    "id": "2544",
+    "name": "Bruce Arena",
+    "since": "2025-01-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/2544-1774652508.jpg",
+    "age": 75,
+    "nat": "Estados Unidos",
+    "club": "San Jose Earthquakes",
+    "league": "MLS (EUA)"
+  },
+  {
+    "id": "50267",
+    "name": "Davy Arnaud",
+    "since": "2026-05-18",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/50267-1607287864.jpg",
+    "age": 46,
+    "nat": "Estados Unidos",
+    "club": "Austin FC",
+    "league": "MLS (EUA)"
+  },
+  {
+    "id": "39618",
+    "name": "Philippe Eullaffroy",
+    "since": "2026-04-12",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/39618-1778846254.jpg",
+    "age": 58,
+    "nat": "França",
+    "club": "CF Montréal",
+    "league": "MLS (EUA)"
+  },
+  {
+    "id": "15012",
+    "name": "Ben Olsen",
+    "since": "2022-11-08",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/15012-1773860816.jpg",
+    "age": 49,
+    "nat": "Estados Unidos",
+    "club": "Houston Dynamo FC",
+    "league": "MLS (EUA)"
+  },
+  {
+    "id": "5311",
+    "name": "René Weiler",
+    "since": "2025-07-16",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/5311-1774731065.jpg",
+    "age": 53,
+    "nat": "Suíça",
+    "club": "D.C. United",
+    "league": "MLS (EUA)"
+  },
+  {
+    "id": "11452",
+    "name": "Guillermo Almada",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/11452-1734595724.jpg",
+    "age": 57,
+    "nat": "Uruguai",
+    "club": "CF América",
+    "league": "Liga MX (México)"
+  },
+  {
+    "id": "94917",
+    "name": "Joel Huiqui",
+    "since": "2026-04-23",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/94917-1787085845.jpg",
+    "age": 43,
+    "nat": "México",
+    "club": "CD Cruz Azul",
+    "league": "Liga MX (México)"
+  },
+  {
+    "id": "39953",
+    "name": "Gabriel Milito",
+    "since": "2025-05-26",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/39953-1634947021.JPG",
+    "age": 46,
+    "nat": "Argentina",
+    "club": "Deportivo Guadalajara",
+    "league": "Liga MX (México)"
+  },
+  {
+    "id": "4882",
+    "name": "Antonio Mohamed",
+    "since": "2024-12-16",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/4882-1425460569.jpg",
+    "age": 56,
+    "nat": "Argentina",
+    "club": "Deportivo Toluca",
+    "league": "Liga MX (México)"
+  },
+  {
+    "id": "5106",
+    "name": "Víctor Manuel Vucetich",
+    "since": "2026-08-20",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/_1379053621.jpg",
+    "age": 71,
+    "nat": "México",
+    "club": "Tigres UANL",
+    "league": "Liga MX (México)"
+  },
+  {
+    "id": "19768",
+    "name": "Matías Almeyda",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/19768-1550690122.JPG",
+    "age": 52,
+    "nat": "Argentina",
+    "club": "CF Monterrey",
+    "league": "Liga MX (México)"
+  },
+  {
+    "id": "69287",
+    "name": "Sebastián Abreu",
+    "since": "2025-04-30",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/69287-1688335082.jpg",
+    "age": 50,
+    "nat": "Uruguai",
+    "club": "Club Tijuana",
+    "league": "Liga MX (México)"
+  },
+  {
+    "id": "100741",
+    "name": "Esteban Solari",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/100741-1679836342.jpg",
+    "age": 46,
+    "nat": "Argentina",
+    "club": "UNAM Pumas",
+    "league": "Liga MX (México)"
+  },
+  {
+    "id": "35676",
+    "name": "Hernán Crespo",
+    "since": "2026-07-16",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/35676-1743944933.jpg",
+    "age": 51,
+    "nat": "Argentina",
+    "club": "Atlas Guadalajara",
+    "league": "Liga MX (México)"
+  },
+  {
+    "id": "100312",
+    "name": "Javier Gandolfi",
+    "since": "2026-03-20",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/100312-1740348480.jpg",
+    "age": 45,
+    "nat": "Argentina",
+    "club": "Club León FC",
+    "league": "Liga MX (México)"
+  },
+  {
+    "id": "63611",
+    "name": "Renato Paiva",
+    "since": "2026-05-19",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/63611-1581680344.jpg",
+    "age": 56,
+    "nat": "Portugal",
+    "club": "Santos Laguna",
+    "league": "Liga MX (México)"
+  },
+  {
+    "id": "70088",
+    "name": "Tomás Campos",
+    "since": "2024-11-25",
+    "photo": null,
+    "age": 51,
+    "nat": "México",
+    "club": "FC Juárez",
+    "league": "Liga MX (México)"
+  },
+  {
+    "id": "9499",
+    "name": "Juan Reynoso",
+    "since": "2026-09-14",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/9499-1687142730.jpg",
+    "age": 56,
+    "nat": "Peru",
+    "club": "Club Necaxa",
+    "league": "Liga MX (México)"
+  },
+  {
+    "id": "105699",
+    "name": "Diego Mejía",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/105699-1762771843.jpg",
+    "age": 43,
+    "nat": "México",
+    "club": "Atlético de San Luis",
+    "league": "Liga MX (México)"
+  },
+  {
+    "id": "51256",
+    "name": "Benjamín Mora",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/51256-1653653174.jpg",
+    "age": 47,
+    "nat": "México",
+    "club": "CF Pachuca",
+    "league": "Liga MX (México)"
+  },
+  {
+    "id": "115049",
+    "name": "Esteban González",
+    "since": "2026-01-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/115049-1757521305.jpg",
+    "age": 44,
+    "nat": "Chile",
+    "club": "Querétaro FC",
+    "league": "Liga MX (México)"
+  },
+  {
+    "id": "48230",
+    "name": "Gerardo Espinoza",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/48230-1672517185.jpg",
+    "age": 45,
+    "nat": "México",
+    "club": "Puebla FC",
+    "league": "Liga MX (México)"
+  },
+  {
+    "id": "5957",
+    "name": "Miguel Herrera",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/5957-1670012971.jpg",
+    "age": 58,
+    "nat": "México",
+    "club": "CF Atlante",
+    "league": "Liga MX (México)"
+  },
+  {
+    "id": "21624",
+    "name": "Simone Inzaghi",
+    "since": "2025-06-05",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/21624-1663979865.jpg",
+    "age": 50,
+    "nat": "Itália",
+    "club": "Al-Hilal SFC",
+    "league": "Saudi Pro League"
+  },
+  {
+    "id": "28942",
+    "name": "Marino Pusic",
+    "since": "2026-08-06",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/28942-1701192579.png",
+    "age": 55,
+    "nat": "Holanda",
+    "club": "Al-Ahli SFC",
+    "league": "Saudi Pro League"
+  },
+  {
+    "id": "1366",
+    "name": "Brendan Rodgers",
+    "since": "2025-12-16",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/1366-1472034735.jpg",
+    "age": 53,
+    "nat": "Northern Ireland",
+    "club": "Al-Qadsiah FC",
+    "league": "Saudi Pro League"
+  },
+  {
+    "id": "34760",
+    "name": "Jens Wissing",
+    "since": "2026-07-10",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/34760-1789505165.jpeg",
+    "age": 38,
+    "nat": "Alemanha",
+    "club": "Al-Ittihad Club",
+    "league": "Saudi Pro League"
+  },
+  {
+    "id": "11929",
+    "name": "Ange Postecoglou",
+    "since": "2026-07-03",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/11929-1686044503.jpg",
+    "age": 61,
+    "nat": "Austrália",
+    "club": "Al-Nassr FC",
+    "league": "Saudi Pro League"
+  },
+  {
+    "id": "5035",
+    "name": "Christophe Galtier",
+    "since": "2025-07-05",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/5035-1737911778.jpg",
+    "age": 60,
+    "nat": "França",
+    "club": "NEOM SC",
+    "league": "Saudi Pro League"
+  },
+  {
+    "id": "61477",
+    "name": "Bruno Lage",
+    "since": "2026-07-06",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/61477-1737498162.jpg",
+    "age": 50,
+    "nat": "Portugal",
+    "club": "Al-Diriyah FC",
+    "league": "Saudi Pro League"
+  },
+  {
+    "id": "335",
+    "name": "Thomas Letsch",
+    "since": "2026-07-10",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/335-1754993069.png",
+    "age": 58,
+    "nat": "Alemanha",
+    "club": "Al-Shabab FC",
+    "league": "Saudi Pro League"
+  },
+  {
+    "id": "63229",
+    "name": "Arthur Papas",
+    "since": "2026-07-03",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/63229-1789494673.png",
+    "age": 46,
+    "nat": "Austrália",
+    "club": "Al-Ettifaq FC",
+    "league": "Saudi Pro League"
+  },
+  {
+    "id": "5790",
+    "name": "Vuk Rasovic",
+    "since": "2026-09-21",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/5790-1760036272.png",
+    "age": 53,
+    "nat": "Sérvia",
+    "club": "Al-Taawoun FC",
+    "league": "Saudi Pro League"
+  },
+  {
+    "id": "25573",
+    "name": "Jamal Sellami",
+    "since": "2026-10-08",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/25573-1646818554.png",
+    "age": 56,
+    "nat": "Marrocos",
+    "club": "Al-Fateh SC",
+    "league": "Saudi Pro League"
+  },
+  {
+    "id": "2462",
+    "name": "José Gomes",
+    "since": "2026-05-28",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/2462-1532682476.jpg",
+    "age": 56,
+    "nat": "Portugal",
+    "club": "Al-Khaleej FC",
+    "league": "Saudi Pro League"
+  },
+  {
+    "id": "84329",
+    "name": "Teo Pirija",
+    "since": "2026-10-28",
+    "photo": null,
+    "age": 53,
+    "nat": "Croácia",
+    "club": "Abha Club",
+    "league": "Saudi Pro League"
+  },
+  {
+    "id": "51006",
+    "name": "Des Buckingham",
+    "since": "2025-08-14",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/51006-1660506472.jpg",
+    "age": 41,
+    "nat": "Inglaterra",
+    "club": "Al-Kholood Club",
+    "league": "Saudi Pro League"
+  },
+  {
+    "id": "47350",
+    "name": "Fábio Carille",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/47350-1599573408.jpg",
+    "age": 53,
+    "nat": "Brasil",
+    "club": "Al-Fayha FC",
+    "league": "Saudi Pro League"
+  },
+  {
+    "id": "122595",
+    "name": "Maurício Dulac",
+    "since": "2026-02-11",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/122595-1774127482.jpeg",
+    "age": 47,
+    "nat": "Brasil",
+    "club": "Al-Riyadh SC",
+    "league": "Saudi Pro League"
+  },
+  {
+    "id": "17509",
+    "name": "Giovanni Solinas",
+    "since": "2025-07-27",
+    "photo": null,
+    "age": 58,
+    "nat": "Itália",
+    "club": "Al-Faisaly FC",
+    "league": "Saudi Pro League"
+  },
+  {
+    "id": "22056",
+    "name": "Jalel Kadri",
+    "since": "2025-04-14",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/22056-1649409534.jpg",
+    "age": 54,
+    "nat": "Tunísia",
+    "club": "Al-Hazem SC",
+    "league": "Saudi Pro League"
+  },
+  {
+    "id": "2599",
+    "name": "Răzvan Lucescu",
+    "since": "2026-07-05",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/2599-1762638114.png",
+    "age": 57,
+    "nat": "Romênia",
+    "club": "Al-Sadd SC",
+    "league": "Stars League (Catar)"
+  },
+  {
+    "id": "19601",
+    "name": "Vicente Moreno",
+    "since": "2026-03-24",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/19601-1761864760.jpg",
+    "age": 52,
+    "nat": "Espanha",
+    "club": "Al-Rayyan SC",
+    "league": "Stars League (Catar)"
+  },
+  {
+    "id": "14645",
+    "name": "Djamel Belmadi",
+    "since": "2025-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/14645-1762259639.jpg",
+    "age": 50,
+    "nat": "Argélia",
+    "club": "Al-Duhail SC",
+    "league": "Stars League (Catar)"
+  },
+  {
+    "id": "16027",
+    "name": "Pedro Martins",
+    "since": "2022-11-05",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/16027-1762259916.jpg",
+    "age": 56,
+    "nat": "Portugal",
+    "club": "Al-Gharafa SC",
+    "league": "Stars League (Catar)"
+  },
+  {
+    "id": "97071",
+    "name": "David Prats",
+    "since": "2024-12-19",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/97071-1739290553.png",
+    "age": 47,
+    "nat": "Espanha",
+    "club": "Al-Shamal SC",
+    "league": "Stars League (Catar)"
+  },
+  {
+    "id": "16059",
+    "name": "Cosmin Contra",
+    "since": "2025-10-15",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/t_16059_9465_2012_2.jpg",
+    "age": 50,
+    "nat": "Romênia",
+    "club": "Al-Arabi SC",
+    "league": "Stars League (Catar)"
+  },
+  {
+    "id": "39188",
+    "name": "Nebojsa Jovovic",
+    "since": "2026-10-26",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/39188-1567271497.jpg",
+    "age": 52,
+    "nat": "Montenegro",
+    "club": "Al-Ahli SC",
+    "league": "Stars League (Catar)"
+  },
+  {
+    "id": "16447",
+    "name": "José Luis Sierra",
+    "since": "2026-03-27",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/16447-1613732039.jpg",
+    "age": 57,
+    "nat": "Chile",
+    "club": "Al-Wakrah SC",
+    "league": "Stars League (Catar)"
+  },
+  {
+    "id": "5365",
+    "name": "Tintín Márquez",
+    "since": "2025-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/5365-1743952765.png",
+    "age": 64,
+    "nat": "Espanha",
+    "club": "Qatar SC",
+    "league": "Stars League (Catar)"
+  },
+  {
+    "id": "84584",
+    "name": "Younes Ali",
+    "since": "2026-07-09",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/84584-1725823952.png",
+    "age": 43,
+    "nat": "Catar",
+    "club": "Al-Shahania SC",
+    "league": "Stars League (Catar)"
+  },
+  {
+    "id": "115933",
+    "name": "Mirghany Al-Zein",
+    "since": "2023-03-26",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/115933-1762264606.jpg",
+    "age": 48,
+    "nat": "Catar",
+    "club": "Al-Sailiya SC",
+    "league": "Stars League (Catar)"
+  },
+  {
+    "id": "104895",
+    "name": "Emanuel Mesquita",
+    "since": "2026-01-21",
+    "photo": null,
+    "age": 42,
+    "nat": "Portugal",
+    "club": "Lusail SC",
+    "league": "Stars League (Catar)"
+  },
+  {
+    "id": "1623",
+    "name": "Cosmin Olăroiu",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/1623-1522159300.jpg",
+    "age": 57,
+    "nat": "Romênia",
+    "club": "Al-Jazira Club",
+    "league": "UAE Pro League (Emirados)"
+  },
+  {
+    "id": "48597",
+    "name": "André Jardine",
+    "since": "2026-06-18",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/48597-1576577024.jpg",
+    "age": 47,
+    "nat": "Brasil",
+    "club": "Shabab Al-Ahli Club",
+    "league": "UAE Pro League (Emirados)"
+  },
+  {
+    "id": "5638",
+    "name": "Rui Vitória",
+    "since": "2026-02-08",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/5638-1793303868.jpg",
+    "age": 56,
+    "nat": "Portugal",
+    "club": "Al-Wasl SC",
+    "league": "UAE Pro League (Emirados)"
+  },
+  {
+    "id": "434",
+    "name": "José Morais",
+    "since": "2025-12-17",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/434-1755380571.jpg",
+    "age": 61,
+    "nat": "Portugal",
+    "club": "Sharjah FC",
+    "league": "UAE Pro League (Emirados)"
+  },
+  {
+    "id": "35944",
+    "name": "Vladimir Ivic",
+    "since": "2025-02-04",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/35944-1673880088.png",
+    "age": 49,
+    "nat": "Sérvia",
+    "club": "Al-Ain FC",
+    "league": "UAE Pro League (Emirados)"
+  },
+  {
+    "id": "7580",
+    "name": "Péricles Chamusca",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/7580-1747985989.jpg",
+    "age": 61,
+    "nat": "Brasil",
+    "club": "Al-Wahda FC",
+    "league": "UAE Pro League (Emirados)"
+  },
+  {
+    "id": "41893",
+    "name": "Milos Milojevic",
+    "since": "2026-06-05",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/41893-1663925281.jpg",
+    "age": 44,
+    "nat": "Sérvia",
+    "club": "Al-Nasr SC (UAE)",
+    "league": "UAE Pro League (Emirados)"
+  },
+  {
+    "id": "17324",
+    "name": "Víctor Sánchez",
+    "since": "2026-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/17324-1727377226.jpg",
+    "age": 50,
+    "nat": "Espanha",
+    "club": "Kalba FC",
+    "league": "UAE Pro League (Emirados)"
+  },
+  {
+    "id": "17547",
+    "name": "Goran Tufegdzic",
+    "since": "2024-07-01",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/17547-1741724750.jpg",
+    "age": 54,
+    "nat": "Sérvia",
+    "club": "Ajman Club",
+    "league": "UAE Pro League (Emirados)"
+  },
+  {
+    "id": "72035",
+    "name": "Kresimir Rezic",
+    "since": "2026-09-02",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/72035-1671532498.png",
+    "age": 45,
+    "nat": "Croácia",
+    "club": "Khor Fakkan SSC",
+    "league": "UAE Pro League (Emirados)"
+  },
+  {
+    "id": "62049",
+    "name": "Andrea Pirlo",
+    "since": "2025-07-24",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/62049-1764954573.jpg",
+    "age": 47,
+    "nat": "Itália",
+    "club": "United FC (UAE)",
+    "league": "UAE Pro League (Emirados)"
+  },
+  {
+    "id": "60143",
+    "name": "Hassan Al-Abdooli",
+    "since": "2026-09-08",
+    "photo": null,
+    "age": 52,
+    "nat": "Emirados Árabes",
+    "club": "FC Baniyas",
+    "league": "UAE Pro League (Emirados)"
+  },
+  {
+    "id": "49314",
+    "name": "Waleed Obaid",
+    "since": "2026-10-22",
+    "photo": null,
+    "age": 50,
+    "nat": "Emirados Árabes",
+    "club": "Hatta Club",
+    "league": "UAE Pro League (Emirados)"
+  },
+  {
+    "id": "10574",
+    "name": "Patrice Carteron",
+    "since": "2026-09-23",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/10574-1757880902.jpeg",
+    "age": 56,
+    "nat": "França",
+    "club": "Al-Dhafra FC",
+    "league": "UAE Pro League (Emirados)"
+  }
+]

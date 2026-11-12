@@ -3,6 +3,14 @@
   "tmId": "330",
   "name": "Clube Atlético Mineiro",
   "collectedAt": "2026-11-12",
+  "coach": {
+    "id": "42453",
+    "name": "Eduardo Domínguez",
+    "since": "2026-02-27",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/42453-1739830365.jpg",
+    "age": 48,
+    "nat": "Argentina"
+  },
   "squad": [
     {
       "id": "978121",

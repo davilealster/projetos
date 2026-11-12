@@ -3,6 +3,14 @@
   "tmId": "537",
   "name": "Botafogo de Futebol e Regatas",
   "collectedAt": "2026-11-12",
+  "coach": {
+    "id": "6623",
+    "name": "Tite",
+    "since": "2026-09-17",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/6623-1448023024.jpg",
+    "age": 65,
+    "nat": "Brasil"
+  },
   "squad": [
     {
       "id": "401535",

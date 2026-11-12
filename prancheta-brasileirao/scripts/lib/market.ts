@@ -29,12 +29,23 @@ export interface TmTransfer {
   contractUntil: string | null;
 }
 
+export interface TmCoach {
+  id: string;
+  name: string | null;
+  since: string | null;
+  imageUrl: string | null;
+  age: number | null;
+  citizenship: string[];
+}
+
 export interface TmCompetitionFile {
   competition: { id: string; name: string; group: string };
   collectedAt: string;
   seasonId: string | null;
   clubs: { id: string; name: string | null; players: TmPlayer[] }[];
   transfers: Record<string, TmTransfer[]>;
+  /** técnico atual por id de clube (coletas a partir de 13/11/2026) */
+  coaches?: Record<string, TmCoach>;
 }
 
 /** Transferências concluídas, da mais recente para a mais antiga. */

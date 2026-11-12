@@ -3,6 +3,14 @@
   "tmId": "1023",
   "name": "Sociedade Esportiva Palmeiras",
   "collectedAt": "2026-11-12",
+  "coach": {
+    "id": "23009",
+    "name": "Abel Ferreira",
+    "since": "2020-11-04",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/23009-1765225207.jpg",
+    "age": 47,
+    "nat": "Portugal"
+  },
   "squad": [
     {
       "id": "641458",
