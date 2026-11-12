@@ -500,20 +500,34 @@ button.lu-slot:hover .lu-slot__photo { transform: translateY(-2px); }
 .sty__url b { font-family: var(--f-display); font-size: 17px; letter-spacing: 0.02em; color: #fff; }
 .sty__url span { font-family: var(--f-display); font-weight: 900; font-size: 15px; text-transform: uppercase; color: #fff; padding: 1px 8px; border: 1.5px solid #fff; border-radius: 3px; }
 /* quadro resumo */
-.sty--summary .sty__head { padding-bottom: 14px; }
-.sty--summary .sty__team { font-size: 46px; }
-.sty-sec { position: relative; margin: 0 20px 8px; }
-.sty-sec h3 { margin: 0 0 6px; display: flex; align-items: center; gap: 8px; font-family: var(--f-display); font-weight: 900; font-size: 20px; text-transform: uppercase; letter-spacing: 0.04em; }
+.sty--summary .sty__head { padding: 26px 24px 16px; }
+.sty--summary .sty__chip { font-size: 15px; }
+.sty--summary .sty__crest { top: 22px; right: 24px; width: 64px; height: 64px; }
+.sty--summary .sty__team { font-size: 40px; margin-top: 6px; }
+.sty--summary .sty__formation--coach { margin-top: 2px; font-size: 14px; }
+.sty--summary .sty__foot { bottom: 20px; padding-top: 9px; }
+.sty--summary .sty__foot p { font-size: 11px; }
+.sty--summary .sty__url b { font-size: 15px; }
+.sty--summary .sty__url span { font-size: 13px; }
+.sty-sec { position: relative; margin: 0 24px 10px; }
+.sty-sec h3 { margin: 0 0 8px; display: flex; align-items: baseline; flex-wrap: wrap; column-gap: 8px; row-gap: 0; font-family: var(--f-display); font-weight: 900; font-size: 19px; line-height: 1.1; text-transform: uppercase; letter-spacing: 0.04em; }
 .sty-sec h3 span { font-family: var(--f-data); font-size: 13px; padding: 1px 7px; border-radius: 999px; background: rgba(0, 0, 0, 0.35); }
 .sty-sec h3::before { content: ""; width: 10px; height: 10px; border-radius: 2px; background: var(--k); }
 .sty-sec--in { --k: #5fd18a; } .sty-sec--out { --k: #ff7a5c; } .sty-sec--stay { --k: #fff; }
-.sty-grid { display: grid; gap: 6px; }
-.sty-card { position: relative; display: grid; justify-items: center; gap: 2px; min-width: 0; }
-.sty-card__photo { width: 100%; aspect-ratio: 1; border-radius: 5px; overflow: hidden; background: #d6cbb2; box-shadow: inset 0 0 0 2px var(--k); }
+.sty-grid { display: grid; column-gap: 8px; row-gap: 10px; justify-content: center; }
+.sty-card { position: relative; display: grid; justify-items: center; align-content: start; gap: 3px; min-width: 0; }
+.sty-card__photo { width: var(--pw); height: var(--ph); border-radius: 5px; overflow: hidden; background: #d6cbb2; box-shadow: inset 0 0 0 2px var(--k); }
+.sty-card__photo .lu-face { object-position: top center; }
 .sty-card .lu-face--ini { font-size: 18px; }
-.sty-card .tm-pos { position: absolute; top: 3px; left: 3px; font-size: 9px; padding: 1px 4px; }
-.sty-card__name { max-width: 100%; font-family: var(--f-display); font-weight: 900; font-size: 11px; line-height: 1.1; text-transform: uppercase; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.sty-sec--out .sty-card__photo img { filter: grayscale(0.7); }
+/* posição no canto, saindo da foto */
+.sty-card .tm-pos { position: absolute; top: -5px; left: -5px; font-size: 9px; padding: 2px 4px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.45); }
+.sty-card__name { max-width: 100%; font-family: var(--f-display); font-weight: 900; font-size: clamp(11px, calc(var(--pw) * 0.2), 15px); line-height: 1.15; text-transform: uppercase; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sty-sec--out .sty-card__photo img { filter: grayscale(0.6); }
+.sty-sec h3 small { margin-left: 2px; font-family: var(--f-body); font-weight: 600; font-size: 11.5px; letter-spacing: 0; text-transform: none; color: rgba(255, 255, 255, 0.82); }
+/* como sai / como chega: etiqueta embaixo do nome */
+.sty-card__how { max-width: calc(100% + 8px); padding: 1px 3px; border-radius: 3px; background: var(--how, #555); color: #fff; font-family: var(--f-display); font-weight: 800; font-size: clamp(9px, calc(var(--pw) * 0.17), 12px); letter-spacing: 0; line-height: 1.25; text-transform: uppercase; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sty-how--sell { --how: #d0321e; } .sty-how--release { --how: #8e2a5a; } .sty-how--loanOut, .sty-how--loan { --how: #2860c4; }
+.sty-how--letGo, .sty-how--returnLoan { --how: #6b6458; } .sty-how--buy { --how: #1f8a4c; } .sty-how--free { --how: #b07612; }
 
 @media (max-width: 640px) {
   .lu-foot b { font-size: 19px; }
@@ -526,9 +540,3 @@ button.lu-slot:hover .lu-slot__photo { transform: translateY(-2px); }
 }
 .sty__formation--coach { font-family: var(--f-body); letter-spacing: 0; font-size: 16px; }
 .sty__formation--coach b { font-weight: 750; color: #fff; }
-/* como sai / como chega, no quadro do story */
-.sty-sec h3 small { margin-left: 4px; font-family: var(--f-body); font-weight: 600; font-size: 12.5px; letter-spacing: 0; text-transform: none; color: rgba(255, 255, 255, 0.82); }
-.sty-card { --how: #555; }
-.sty-card__how { position: absolute; left: 2px; right: 2px; bottom: 19px; top: auto; padding: 1px 0; border-radius: 0 0 4px 4px; background: var(--how); color: #fff; font-family: var(--f-display); font-weight: 900; font-size: 8.5px; letter-spacing: 0.04em; line-height: 1.2; text-align: center; text-transform: uppercase; white-space: nowrap; overflow: hidden; }
-.sty-how--sell { --how: #1c7a45; } .sty-how--loanOut, .sty-how--loan { --how: #1d4fa3; } .sty-how--release { --how: #c2331f; }
-.sty-how--letGo, .sty-how--returnLoan { --how: #5f584b; } .sty-how--buy { --how: #1c7a45; } .sty-how--free { --how: #a86a10; }

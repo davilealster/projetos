@@ -218,7 +218,7 @@ export interface NextPlayer {
 
 /** Etiqueta curta para a imagem do story: como o jogador sai ou chega. */
 export const HOW_TAG: Partial<Record<SquadAction | SigningType, string>> = {
-  sell: "Vendido", loanOut: "Emprestado", release: "Dispensado", letGo: "Fim de contrato", returnLoan: "Devolvido",
+  sell: "Vendido", loanOut: "Emprestado", release: "Dispensado", letGo: "Fim contrato", returnLoan: "Devolvido",
   buy: "Compra", loan: "Empréstimo", free: "Livre",
 };
 

@@ -1,5 +1,5 @@
 // Etapa 4 do Mercado: técnico, escalação ideal em campo projetado e imagens para o story.
-import { forwardRef, useEffect, useMemo, useRef, useState } from "react";
+import { forwardRef, useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import { toBlob } from "html-to-image";
 import { initials, isLight } from "../lib/color";
 import { FORMATION_NAMES, fitScore, slotsFor } from "../lib/formations";
@@ -352,15 +352,28 @@ export const StoryField = forwardRef<HTMLDivElement, StoryProps>(function StoryF
 
 export const StorySummary = forwardRef<HTMLDivElement, StoryProps & { arrivals: NextPlayer[]; leaves: NextPlayer[]; stays: NextPlayer[] }>(
   function StorySummary({ team, coach, budget, balance, host, arrivals, leaves, stays }, ref) {
-    // tamanho das fichas para caber tudo em 960 px de altura
-    const groups = [arrivals, leaves, stays];
-    const avail = 960 - 150 - 92 - groups.filter((g) => g.length).length * 34;
-    let cols = 5;
-    for (; cols < 10; cols++) {
-      const cell = (540 - 40 - (cols - 1) * 6) / cols;
-      const h = groups.reduce((a, g) => a + Math.ceil(g.length / cols) * (cell + 26), 0); // nome embaixo
-      if (h <= avail) break;
-    }
+    // ordem do quadro: quem sai, quem fica, quem chega
+    const groups = [leaves, stays, arrivals].filter((g) => g.length);
+    // maior foto que cabe: começa com poucas colunas e aumenta até o quadro não invadir o rodapé
+    const [cols, setCols] = useState(4);
+    const pw = Math.floor((540 - 48 - (cols - 1) * 8) / cols);
+    const ph = Math.round(pw * 1.15);
+    const root = useRef<HTMLDivElement | null>(null);
+    const setRoot = (el: HTMLDivElement | null) => {
+      root.current = el;
+      if (typeof ref === "function") ref(el);
+      else if (ref) ref.current = el;
+    };
+    const sig = groups.map((g) => g.length).join(",");
+    useLayoutEffect(() => setCols(4), [sig]);
+    useLayoutEffect(() => {
+      const el = root.current;
+      const secs = el?.querySelectorAll<HTMLElement>(".sty-sec");
+      const foot = el?.querySelector<HTMLElement>(".sty__foot");
+      if (!secs?.length || !foot) return;
+      const last = secs[secs.length - 1];
+      if (last.offsetTop + last.offsetHeight > foot.offsetTop - 10 && cols < 12) setCols(cols + 1);
+    });
     // "6 vendidos · 4 emprestados · 8 dispensados"
     const breakdown = (list: NextPlayer[]) => {
       const n = new Map<string, number>();
@@ -372,29 +385,29 @@ export const StorySummary = forwardRef<HTMLDivElement, StoryProps & { arrivals: 
       list.length > 0 && (
         <section className={`sty-sec sty-sec--${kind}`}>
           <h3>{title} <span>{list.length}</span>{breakdown(list) && <small>{breakdown(list)}</small>}</h3>
-          <div className="sty-grid" style={{ gridTemplateColumns: `repeat(${cols}, 1fr)` }}>
+          <div className="sty-grid" style={{ gridTemplateColumns: `repeat(${cols}, ${pw}px)`, "--ph": `${ph}px`, "--pw": `${pw}px` } as React.CSSProperties}>
             {sorted(list).map((p) => (
               <div key={p.id} className="sty-card">
                 <span className="sty-card__photo"><Face name={p.name} photo={p.photo} story /></span>
                 <span className={`tm-pos tm-pos--${p.pos}`}>{p.pos}</span>
-                {p.how && HOW_TAG[p.how] && <span className={`sty-card__how sty-how--${p.how}`}>{HOW_TAG[p.how]}</span>}
                 <span className="sty-card__name">{shortName(p.name)}</span>
+                {p.how && HOW_TAG[p.how] && <span className={`sty-card__how sty-how--${p.how}`}>{HOW_TAG[p.how]}</span>}
               </div>
             ))}
           </div>
         </section>
       );
     return (
-      <div ref={ref} className="sty sty--summary" style={{ "--sty-bg": storyBg(team.colors) } as React.CSSProperties}>
+      <div ref={setRoot} className="sty sty--summary" style={{ "--sty-bg": storyBg(team.colors) } as React.CSSProperties}>
         {team.crest && <img className="sty__crest" src={team.crest} alt="" />}
         <header className="sty__head sty__head--left">
           <p className="sty__chip">JANELA DE TRANSFERÊNCIAS <em>2027</em></p>
           <h2 className="sty__team">{team.shortName}</h2>
           <p className="sty__formation sty__formation--coach">Técnico: <b>{coach?.name ?? "a definir"}</b></p>
         </header>
-        {section("Chegam", arrivals, "in")}
         {section("Saem", leaves, "out")}
         {section("Ficam", stays, "stay")}
+        {section("Chegam", arrivals, "in")}
         <footer className="sty__foot">
           <p>ORÇAMENTO {fmtEur(budget).replace(" mi", "M").replace("€ ", "€")} · CAIXA FINAL {fmtEur(balance).replace(" mi", "M").replace("€ ", "€")}</p>
           <p className="sty__url"><b>{host}/mercado</b><span>monte o seu</span></p>
