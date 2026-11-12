@@ -20,7 +20,7 @@ import { CoachCard, LineupTab, StoryStudio, shortName, useNextCoach } from "./Li
 import { Tour, tourSeen, type TourStep } from "./Tour";
 
 const TOUR: TourStep[] = [
-  { target: [".tm-steps", ".tm-tabbar"], title: "As quatro etapas da janela", text: "Elenco → Mercado → Fechamento → Escalação. Siga na ordem; dá para voltar a qualquer uma." },
+  { target: [".tm-steps", ".tm-tabbar"], title: "As quatro etapas da janela", text: "Elenco → Mercado → Fechamento → Compartilhe. Siga na ordem; dá para voltar a qualquer uma." },
   { target: [".tm-view"], title: "Lista ou Campo", text: "Na Lista, o elenco inteiro com filtros. No Campo, setor por setor, com o rosto grande e um toque por decisão." },
   { target: [".tm-callout"], title: "Comece por aqui", text: "Esses contratos acabam antes da próxima temporada. Decida um a um ou aplique o padrão a todos." },
   { target: [".tm-rail .tm-ledger", ".tm-chip"], title: "Balancete", text: "Saldo, vendas, gastos e o elenco por posição, sempre à vista. No celular, toque no saldo para abrir." },
@@ -233,9 +233,9 @@ function MarketClub({ slug }: { slug: string }) {
     ["squad", "Elenco", sum.pending.length ? `${sum.pending.length} a decidir` : "resolvido"],
     ["market", "Mercado", arrivals.length ? `${arrivals.length} chegada${arrivals.length > 1 ? "s" : ""}` : "nenhuma chegada"],
     ["close", "Fechamento", sum.balance < 0 ? "saldo negativo" : null],
-    ["lineup", "Escalação", st.formation],
+    ["lineup", "Compartilhe", "escale e poste"],
   ];
-  const NEXT: Record<Tab, [Tab, string] | null> = { squad: ["market", "Ir às compras"], market: ["close", "Fechar a janela"], close: ["lineup", "Escalar o time ideal"], lineup: null };
+  const NEXT: Record<Tab, [Tab, string] | null> = { squad: ["market", "Ir às compras"], market: ["close", "Fechar a janela"], close: ["lineup", "Compartilhar a janela"], lineup: null };
 
   const rail = (
     <Ledger st={st} setSt={setSt} sum={sum} steps={steps} depth={depth} foreigners={foreigners} next={next} onNext={NEXT[tab] ? () => (setTab(NEXT[tab]![0]), setSheet(false), window.scrollTo({ top: 0 })) : null} nextLabel={NEXT[tab]?.[1] ?? ""} />
@@ -322,7 +322,7 @@ function MarketClub({ slug }: { slug: string }) {
                 )}
               </>
             )}
-            {tab === "lineup" && <LineupTab next={next} st={st} setSt={setSt} team={team} coach={nextCoach} onGenerate={setStudio} />}
+            {tab === "lineup" && <LineupTab next={next} st={st} setSt={setSt} team={team} coach={nextCoach} balance={sum.balance} onGenerate={setStudio} />}
             {tab === "market" && (
               <MarketTab st={st} setSt={setSt} balance={sum.balance} ownIds={new Set(squad.map((p) => p.id))} depth={depth} onLeague={(l) => setLeagues((x) => ({ ...x, [l.id]: l }))} isMobile={isMobile} />
             )}
@@ -497,7 +497,7 @@ function Guide({ team, crest, squadSize, st, setSt, pending, loans, onDone }: {
             </p>
             <p>
               O <b>balancete</b> acompanha tudo: saldo, e quantos jogadores você tem em cada posição. No
-              <b> Fechamento</b>, veja os gráficos do elenco {SEASON}. Por fim, na <b>Escalação</b>, monte o time ideal e
+              <b> Fechamento</b>, veja os gráficos do elenco {SEASON}. Por fim, em <b>Compartilhe</b>, monte o time ideal e
               gere as imagens para o story.
             </p>
           </>

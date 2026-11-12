@@ -186,14 +186,16 @@ export function Field({ lineup, byId, story = false, onSlot, selected = null }: 
 
 // ============ etapa: escalação ============
 
-export function LineupTab({ next, st, setSt, team, coach, onGenerate }: {
+export function LineupTab({ next, st, setSt, team, coach, balance, onGenerate }: {
   next: NextPlayer[];
   st: MarketState;
   setSt: SetSt;
   team: Team;
   coach: MarketCoach | null;
+  balance: number;
   onGenerate: (lineup: Lineup) => void;
 }) {
+  const [view, setView] = useState<"summary" | "field">("summary");
   const players = useMemo(() => next.filter((p) => p.kind !== "leave"), [next]);
   const byId = useMemo(() => new Map(players.map((p) => [p.id, p])), [players]);
   const lineup = useMemo(() => {
@@ -209,6 +211,28 @@ export function LineupTab({ next, st, setSt, team, coach, onGenerate }: {
 
   return (
     <section className="lu">
+      <div className="lu-bar">
+        <div className="lu-views" role="tablist" aria-label="O que compartilhar">
+          <button role="tab" aria-selected={view === "summary"} className={view === "summary" ? "is-on" : ""} onClick={() => setView("summary")}>Resumo da janela</button>
+          <button role="tab" aria-selected={view === "field"} className={view === "field" ? "is-on" : ""} onClick={() => setView("field")}>Meu elenco ideal</button>
+        </div>
+        <button
+          className="lu-share"
+          disabled={empty > 0}
+          onClick={() => onGenerate(lineup)}
+          title={empty ? `Faltam ${empty} titular${empty > 1 ? "es" : ""} no elenco ideal` : "Gerar as 2 imagens com legenda"}
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M7 8l5-5 5 5M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6" /></svg>
+          <span>{empty ? `Faltam ${empty}` : "Compartilhar"}</span>
+        </button>
+      </div>
+      {view === "summary" && (
+        <SummaryPreview
+          props={{ team, lineup, byId: new Map(next.map((p) => [p.id, p])), coach, budget: st.budget, balance, host: location.host }}
+          summary={{ arrivals: next.filter((p) => p.kind === "new"), leaves: next.filter((p) => p.kind === "leave"), stays: next.filter((p) => p.kind === "stay") }}
+        />
+      )}
+      {view === "field" && <>
       <div className="lu-formations" role="group" aria-label="Formação">
         {FORMATION_NAMES.map((f) => (
           <button key={f} className={st.formation === f ? "is-on" : ""} aria-pressed={st.formation === f} onClick={() => setSt((s) => ({ ...s, formation: f, lineup: null }))}>{f}</button>
@@ -224,15 +248,6 @@ export function LineupTab({ next, st, setSt, team, coach, onGenerate }: {
       <div className="lu-board" style={{ "--lu-bg": storyBg(team.colors) } as React.CSSProperties}>
         {team.crest && <img className="lu-board__mark" src={team.crest} alt="" aria-hidden="true" />}
         <p className="lu-board__title">Meu elenco ideal <em>2027</em></p>
-        <button
-          className="lu-share"
-          disabled={empty > 0}
-          onClick={() => onGenerate(lineup)}
-          title={empty ? `Faltam ${empty} titular${empty > 1 ? "es" : ""} para compartilhar` : "Compartilhar a escalação e a janela"}
-        >
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M7 8l5-5 5 5M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6" /></svg>
-          <span>{empty ? `Faltam ${empty}` : "Compartilhar"}</span>
-        </button>
         <Field lineup={lineup} byId={byId} onSlot={setSlot} selected={slot} />
         <div className="lu-board__coach">
           <small>Técnico</small>
@@ -247,6 +262,7 @@ export function LineupTab({ next, st, setSt, team, coach, onGenerate }: {
       {outside.length > 0 && (
         <p className="lu-outside"><b>Fora da lista ({outside.length}):</b> {outside.map((p) => shortName(p.name)).join(", ")}</p>
       )}
+      </>}
 
       {slot !== null && (
         <SlotPicker
@@ -473,6 +489,28 @@ export async function renderStory(el: HTMLElement): Promise<Blob> {
   return blob;
 }
 
+/** A arte do resumo da janela, na tela, do jeito que vai sair na imagem (escala para caber). */
+function SummaryPreview({ props, summary }: { props: StoryProps; summary: { arrivals: NextPlayer[]; leaves: NextPlayer[]; stays: NextPlayer[] } }) {
+  const box = useRef<HTMLDivElement>(null);
+  const [scale, setScale] = useState(0.6);
+  useLayoutEffect(() => {
+    const el = box.current;
+    if (!el) return;
+    const fit = () => setScale(Math.min(1, el.clientWidth / 540));
+    fit();
+    const ro = new ResizeObserver(fit);
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, []);
+  return (
+    <div className="lu-preview" ref={box} style={{ height: 960 * scale }}>
+      <div className="lu-preview__art" style={{ transform: `scale(${scale})` }}>
+        <StorySummary {...props} {...summary} />
+      </div>
+    </div>
+  );
+}
+
 /** Monta as duas imagens fora da tela e mostra a prévia com salvar/compartilhar. */
 export function StoryStudio({ props, summary, onClose }: {
   props: StoryProps;
@@ -502,12 +540,12 @@ export function StoryStudio({ props, summary, onClose }: {
     let alive = true;
     (async () => {
       try {
-        const a = await renderStory(fieldRef.current!);
         const b = await renderStory(sumRef.current!);
+        const a = await renderStory(fieldRef.current!);
         if (!alive) return;
         setFiles([
-          { name: `elenco-ideal-2027-${slug}.png`, url: URL.createObjectURL(a), blob: a },
           { name: `janela-2027-${slug}.png`, url: URL.createObjectURL(b), blob: b },
+          { name: `elenco-ideal-2027-${slug}.png`, url: URL.createObjectURL(a), blob: a },
         ]);
       } catch (e) {
         console.error(e);
