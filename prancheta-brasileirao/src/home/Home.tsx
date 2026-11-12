@@ -169,10 +169,10 @@ export function Home() {
           </li>
           <li>
             <div className="mh-card mh-card--soon" aria-disabled="true">
-              <span className="mh-card__label">Crachá 03</span>
+              <span className="mh-card__label">Crachá 03 · Scout</span>
               <span className="mh-card__body">
-                <span className="mh-card__title">Presidente</span>
-                <span className="mh-card__text">Novos módulos a caminho.</span>
+                <span className="mh-card__title">Olheiro</span>
+                <span className="mh-card__text">Faça o papel de scout: monitore o mercado e encontre oportunidades antes dos outros.</span>
               </span>
               <span className="brand-stamp brand-stamp--amber mh-stamp mh-card__soon">Em breve</span>
             </div>
