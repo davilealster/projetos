@@ -86,6 +86,17 @@
   ],
   "players": [
     {
+      "id": "943837",
+      "name": "Vitor Roque",
+      "club": 0,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 21,
+      "value": 38000000,
+      "contract": "2029-12-31",
+      "nat": "Brazil"
+    },
+    {
       "id": "808509",
       "name": "Danilo",
       "club": 5,
@@ -94,6 +105,28 @@
       "age": 25,
       "value": 32000000,
       "contract": "2029-06-30",
+      "nat": "Brazil"
+    },
+    {
+      "id": "844797",
+      "name": "José Manuel López",
+      "club": 0,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 25,
+      "value": 30000000,
+      "contract": "2030-12-31",
+      "nat": "Argentina"
+    },
+    {
+      "id": "444523",
+      "name": "Lucas Paquetá",
+      "club": 1,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 29,
+      "value": 27000000,
+      "contract": "2030-12-31",
       "nat": "Brazil"
     },
     {
@@ -108,6 +141,50 @@
       "nat": "Brazil"
     },
     {
+      "id": "1029227",
+      "name": "Breno Bidon",
+      "club": 3,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 21,
+      "value": 25000000,
+      "contract": "2029-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "489893",
+      "name": "Yuri Alberto",
+      "club": 3,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 25,
+      "value": 23000000,
+      "contract": "2030-06-30",
+      "nat": "Brazil"
+    },
+    {
+      "id": "432895",
+      "name": "Pedro",
+      "club": 1,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 29,
+      "value": 22000000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "694928",
+      "name": "Samuel Lino",
+      "club": 1,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 26,
+      "value": 20000000,
+      "contract": "2029-12-31",
+      "nat": "Brazil"
+    },
+    {
       "id": "580461",
       "name": "Kevin Viveros",
       "club": 10,
@@ -117,6 +194,17 @@
       "value": 20000000,
       "contract": "2028-06-30",
       "nat": "Colombia"
+    },
+    {
+      "id": "678439",
+      "name": "Mauricio",
+      "club": 0,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 25,
+      "value": 18000000,
+      "contract": "2028-12-31",
+      "nat": "Paraguay"
     },
     {
       "id": "341705",
@@ -130,6 +218,61 @@
       "nat": "Brazil"
     },
     {
+      "id": "815558",
+      "name": "Martinelli",
+      "club": 7,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 25,
+      "value": 18000000,
+      "contract": "2030-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "1221818",
+      "name": "André",
+      "club": 3,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 20,
+      "value": 16000000,
+      "contract": "2029-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "676035",
+      "name": "Luciano Juba",
+      "club": 6,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 27,
+      "value": 16000000,
+      "contract": "2029-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "588989",
+      "name": "Jhon Arias",
+      "club": 0,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 29,
+      "value": 15000000,
+      "contract": "2029-12-31",
+      "nat": "Colombia"
+    },
+    {
+      "id": "354145",
+      "name": "Jorge Carrascal",
+      "club": 1,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 28,
+      "value": 15000000,
+      "contract": "2029-06-30",
+      "nat": "Colombia"
+    },
+    {
       "id": "957461",
       "name": "Andrés Gómez",
       "club": 4,
@@ -141,6 +284,28 @@
       "nat": "Colombia"
     },
     {
+      "id": "578872",
+      "name": "Jean Lucas",
+      "club": 6,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 28,
+      "value": 15000000,
+      "contract": "2028-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "982617",
+      "name": "Hércules",
+      "club": 7,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 26,
+      "value": 15000000,
+      "contract": "2029-12-31",
+      "nat": "Brazil"
+    },
+    {
       "id": "1233473",
       "name": "Arthur Dias",
       "club": 10,
@@ -150,6 +315,39 @@
       "value": 15000000,
       "contract": "2028-12-31",
       "nat": "Brazil"
+    },
+    {
+      "id": "203394",
+      "name": "Andreas Pereira",
+      "club": 0,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 30,
+      "value": 14000000,
+      "contract": "2028-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "931007",
+      "name": "Evertton Araújo",
+      "club": 1,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 23,
+      "value": 14000000,
+      "contract": "2028-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "248410",
+      "name": "Giorgian de Arrascaeta",
+      "club": 1,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 32,
+      "value": 14000000,
+      "contract": "2028-12-31",
+      "nat": "Uruguay"
     },
     {
       "id": "225984",
@@ -174,6 +372,61 @@
       "nat": "Argentina"
     },
     {
+      "id": "468301",
+      "name": "Marcos Antônio",
+      "club": 12,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 26,
+      "value": 14000000,
+      "contract": "2030-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "936544",
+      "name": "Erick Pulga",
+      "club": 6,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 26,
+      "value": 13000000,
+      "contract": "2029-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "496268",
+      "name": "Joaquín Piquerez",
+      "club": 0,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 28,
+      "value": 12000000,
+      "contract": "2030-12-31",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "374136",
+      "name": "Léo Ortiz",
+      "club": 1,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 30,
+      "value": 12000000,
+      "contract": "2028-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "288431",
+      "name": "Léo Pereira",
+      "club": 1,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 30,
+      "value": 12000000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
+    },
+    {
       "id": "1083207",
       "name": "Jonathan Jesus",
       "club": 2,
@@ -194,6 +447,28 @@
       "value": 12000000,
       "contract": "2029-12-31",
       "nat": "Ecuador"
+    },
+    {
+      "id": "574901",
+      "name": "Hugo Souza",
+      "club": 3,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 27,
+      "value": 12000000,
+      "contract": "2030-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "565009",
+      "name": "Rodrigo Garro",
+      "club": 3,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 28,
+      "value": 12000000,
+      "contract": "2028-12-31",
+      "nat": "Argentina"
     },
     {
       "id": "958598",
@@ -220,6 +495,50 @@
       "loanFrom": "Nottingham Forest"
     },
     {
+      "id": "856085",
+      "name": "John Kennedy",
+      "club": 7,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 24,
+      "value": 12000000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "371247",
+      "name": "Gabriel Brazão",
+      "club": 8,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 26,
+      "value": 12000000,
+      "contract": "2028-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "1089958",
+      "name": "Gabriel Bontempo",
+      "club": 8,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 21,
+      "value": 12000000,
+      "contract": "2030-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "849582",
+      "name": "Agustín Giay",
+      "club": 0,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 22,
+      "value": 11000000,
+      "contract": "2030-12-31",
+      "nat": "Argentina"
+    },
+    {
       "id": "512385",
       "name": "Luis Sinisterra",
       "club": 2,
@@ -231,6 +550,17 @@
       "nat": "Colombia"
     },
     {
+      "id": "491704",
+      "name": "Benjamín Rollheiser",
+      "club": 8,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 26,
+      "value": 11000000,
+      "contract": "2028-12-31",
+      "nat": "Argentina"
+    },
+    {
       "id": "476352",
       "name": "Renan Lodi",
       "club": 9,
@@ -239,6 +569,39 @@
       "age": 28,
       "value": 11000000,
       "contract": "2030-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "745191",
+      "name": "Ramón Sosa",
+      "club": 0,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 27,
+      "value": 10000000,
+      "contract": "2030-06-30",
+      "nat": "Paraguay"
+    },
+    {
+      "id": "352324",
+      "name": "Agustín Rossi",
+      "club": 1,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 31,
+      "value": 10000000,
+      "contract": "2027-12-31",
+      "nat": "Argentina"
+    },
+    {
+      "id": "428783",
+      "name": "Vitão",
+      "club": 1,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 26,
+      "value": 10000000,
+      "contract": "2029-12-31",
       "nat": "Brazil"
     },
     {
@@ -262,6 +625,50 @@
       "value": 10000000,
       "contract": "2030-12-31",
       "nat": "Brazil"
+    },
+    {
+      "id": "594226",
+      "name": "Matheuzinho",
+      "club": 3,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 26,
+      "value": 10000000,
+      "contract": "2028-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "625569",
+      "name": "Nicolás Acevedo",
+      "club": 6,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 27,
+      "value": 10000000,
+      "contract": "2031-12-31",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "641458",
+      "name": "Carlos Miguel",
+      "club": 0,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 28,
+      "value": 9000000,
+      "contract": "2030-07-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "592735",
+      "name": "Gonzalo Plata",
+      "club": 1,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 26,
+      "value": 9000000,
+      "contract": "2029-06-30",
+      "nat": "Ecuador"
     },
     {
       "id": "856143",
@@ -298,6 +705,39 @@
       "nat": "Brazil"
     },
     {
+      "id": "468304",
+      "name": "Rodrigo Nestor",
+      "club": 6,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 26,
+      "value": 9000000,
+      "contract": "2030-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "457533",
+      "name": "Agustín Canobbio",
+      "club": 7,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 28,
+      "value": 9000000,
+      "contract": "2028-12-31",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "974488",
+      "name": "Pedro Morisco",
+      "club": 16,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 22,
+      "value": 9000000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
+    },
+    {
       "id": "1365897",
       "name": "Zé Lucas",
       "club": 2,
@@ -306,6 +746,17 @@
       "age": 18,
       "value": 8000000,
       "contract": "2031-06-30",
+      "nat": "Brazil"
+    },
+    {
+      "id": "670021",
+      "name": "Matheus Bidu",
+      "club": 3,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 27,
+      "value": 8000000,
+      "contract": "2027-12-31",
       "nat": "Brazil"
     },
     {
@@ -341,6 +792,39 @@
       "value": 8000000,
       "contract": "2029-12-31",
       "nat": "Argentina"
+    },
+    {
+      "id": "1220614",
+      "name": "Ruan Pablo",
+      "club": 6,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 18,
+      "value": 8000000,
+      "contract": "2030-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "309193",
+      "name": "Jefferson Savarino",
+      "club": 7,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 30,
+      "value": 8000000,
+      "contract": "2029-12-31",
+      "nat": "Venezuela"
+    },
+    {
+      "id": "68290",
+      "name": "Neymar",
+      "club": 8,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 34,
+      "value": 8000000,
+      "contract": "2026-12-31",
+      "nat": "Brazil"
     },
     {
       "id": "749559",
@@ -420,6 +904,29 @@
       "nat": "Brazil"
     },
     {
+      "id": "861852",
+      "name": "Damián Bobadilla",
+      "club": 12,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 25,
+      "value": 8000000,
+      "contract": "2027-12-31",
+      "nat": "Paraguay"
+    },
+    {
+      "id": "440658",
+      "name": "Artur",
+      "club": 12,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 28,
+      "value": 8000000,
+      "contract": "2026-12-31",
+      "nat": "Brazil",
+      "loanFrom": "Botafogo de Futebol e Regatas"
+    },
+    {
       "id": "423604",
       "name": "Francis Amuzu",
       "club": 13,
@@ -429,6 +936,17 @@
       "value": 8000000,
       "contract": "2026-12-31",
       "nat": "Ghana"
+    },
+    {
+      "id": "719635",
+      "name": "Alexandro Bernabei",
+      "club": 14,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 26,
+      "value": 8000000,
+      "contract": "2028-12-31",
+      "nat": "Argentina"
     },
     {
       "id": "991134",
@@ -451,6 +969,39 @@
       "value": 7500000,
       "contract": "2028-12-31",
       "nat": "Paraguay"
+    },
+    {
+      "id": "428791",
+      "name": "Paulinho",
+      "club": 0,
+      "pos": "ATA",
+      "posName": "Second Striker",
+      "age": 26,
+      "value": 7000000,
+      "contract": "2029-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "397458",
+      "name": "Nicolás de la Cruz",
+      "club": 1,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 29,
+      "value": 7000000,
+      "contract": "2028-06-30",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "435485",
+      "name": "Luiz Araújo",
+      "club": 1,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 30,
+      "value": 7000000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
     },
     {
       "id": "703321",
@@ -495,6 +1046,51 @@
       "value": 7000000,
       "contract": "2027-12-31",
       "nat": "Portugal"
+    },
+    {
+      "id": "727751",
+      "name": "Caio Alexandre",
+      "club": 6,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 27,
+      "value": 7000000,
+      "contract": "2028-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "888493",
+      "name": "Alejo Veliz",
+      "club": 6,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 23,
+      "value": 7000000,
+      "contract": "2031-12-31",
+      "nat": "Argentina"
+    },
+    {
+      "id": "608216",
+      "name": "Gabriel Menino",
+      "club": 8,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 26,
+      "value": 7000000,
+      "contract": "2026-12-31",
+      "nat": "Brazil",
+      "loanFrom": "Clube Atlético Mineiro"
+    },
+    {
+      "id": "613873",
+      "name": "Álvaro Barreal",
+      "club": 8,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 26,
+      "value": 7000000,
+      "contract": "2028-12-31",
+      "nat": "Argentina"
     },
     {
       "id": "1004728",
@@ -552,6 +1148,50 @@
       "nat": "Brazil"
     },
     {
+      "id": "703322",
+      "name": "Bruno Gomes",
+      "club": 14,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 25,
+      "value": 7000000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "572042",
+      "name": "Johan Carbonero",
+      "club": 14,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 27,
+      "value": 7000000,
+      "contract": "2029-12-31",
+      "nat": "Colombia"
+    },
+    {
+      "id": "653348",
+      "name": "Khellven",
+      "club": 0,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 25,
+      "value": 6000000,
+      "contract": "2030-06-30",
+      "nat": "Brazil"
+    },
+    {
+      "id": "364972",
+      "name": "Marlon Freitas",
+      "club": 0,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 31,
+      "value": 6000000,
+      "contract": "2028-12-31",
+      "nat": "Brazil"
+    },
+    {
       "id": "552549",
       "name": "Matheus Henrique",
       "club": 2,
@@ -560,6 +1200,28 @@
       "age": 28,
       "value": 6000000,
       "contract": "2029-06-30",
+      "nat": "Brazil"
+    },
+    {
+      "id": "167850",
+      "name": "Memphis Depay",
+      "club": 3,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 32,
+      "value": 6000000,
+      "contract": "2028-06-30",
+      "nat": "Netherlands"
+    },
+    {
+      "id": "1257133",
+      "name": "Gui Negão",
+      "club": 3,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 19,
+      "value": 6000000,
+      "contract": "2030-06-30",
       "nat": "Brazil"
     },
     {
@@ -619,6 +1281,50 @@
       "nat": "Brazil"
     },
     {
+      "id": "346766",
+      "name": "Guilherme Arana",
+      "club": 7,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 29,
+      "value": 6000000,
+      "contract": "2029-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "1219749",
+      "name": "Riquelme",
+      "club": 7,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 19,
+      "value": 6000000,
+      "contract": "2030-08-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "984416",
+      "name": "Rodrigo Castillo",
+      "club": 7,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 27,
+      "value": 6000000,
+      "contract": "2030-12-31",
+      "nat": "Argentina"
+    },
+    {
+      "id": "321239",
+      "name": "Everton",
+      "club": 8,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 30,
+      "value": 6000000,
+      "contract": "2026-12-31",
+      "nat": "Brazil"
+    },
+    {
       "id": "897051",
       "name": "Alan Minda",
       "club": 9,
@@ -649,6 +1355,96 @@
       "age": 31,
       "value": 6000000,
       "contract": "2026-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "895926",
+      "name": "Joaquín Lavega",
+      "club": 16,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 21,
+      "value": 6000000,
+      "contract": "2026-12-31",
+      "nat": "Uruguay",
+      "loanFrom": "Fluminense Football Club"
+    },
+    {
+      "id": "1090819",
+      "name": "Lucas Ronier",
+      "club": 16,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 21,
+      "value": 6000000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "458710",
+      "name": "Murilo",
+      "club": 0,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 29,
+      "value": 5000000,
+      "contract": "2029-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "707447",
+      "name": "Emiliano Martínez",
+      "club": 0,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 27,
+      "value": 5000000,
+      "contract": "2029-12-31",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "610417",
+      "name": "Andrew",
+      "club": 1,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 25,
+      "value": 5000000,
+      "contract": "2029-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "476344",
+      "name": "Emerson Royal",
+      "club": 1,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 27,
+      "value": 5000000,
+      "contract": "2028-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "766258",
+      "name": "Kaio César",
+      "club": 3,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 22,
+      "value": 5000000,
+      "contract": "2026-12-31",
+      "nat": "Brazil",
+      "loanFrom": "Al-Hilal SFC"
+    },
+    {
+      "id": "1257132",
+      "name": "Dieguinho",
+      "club": 3,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 19,
+      "value": 5000000,
+      "contract": "2029-12-31",
       "nat": "Brazil"
     },
     {
@@ -684,6 +1480,84 @@
       "value": 5000000,
       "contract": "2029-12-31",
       "nat": "Venezuela"
+    },
+    {
+      "id": "633212",
+      "name": "Erick",
+      "club": 6,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 28,
+      "value": 5000000,
+      "contract": "2029-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "657746",
+      "name": "Cristian Olivera",
+      "club": 6,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 24,
+      "value": 5000000,
+      "contract": "2026-12-31",
+      "nat": "Uruguay",
+      "loanFrom": "Grêmio Foot-Ball Porto Alegrense"
+    },
+    {
+      "id": "628750",
+      "name": "Juan Pablo Freytes",
+      "club": 7,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 26,
+      "value": 5000000,
+      "contract": "2028-12-31",
+      "nat": "Argentina"
+    },
+    {
+      "id": "315169",
+      "name": "Luciano Acosta",
+      "club": 7,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 32,
+      "value": 5000000,
+      "contract": "2029-12-31",
+      "nat": "Argentina"
+    },
+    {
+      "id": "745927",
+      "name": "Kevin Serna",
+      "club": 7,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 28,
+      "value": 5000000,
+      "contract": "2028-12-31",
+      "nat": "Colombia"
+    },
+    {
+      "id": "1256755",
+      "name": "João Ananias",
+      "club": 8,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 19,
+      "value": 5000000,
+      "contract": "2030-06-30",
+      "nat": "Brazil"
+    },
+    {
+      "id": "1063811",
+      "name": "Miguelito",
+      "club": 8,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 22,
+      "value": 5000000,
+      "contract": "2029-05-31",
+      "nat": "Bolivia"
     },
     {
       "id": "997714",
@@ -786,6 +1660,28 @@
       "nat": "Brazil"
     },
     {
+      "id": "379752",
+      "name": "Alexander Barboza",
+      "club": 0,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 31,
+      "value": 4500000,
+      "contract": "2028-12-31",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "215616",
+      "name": "Erick Pulgar",
+      "club": 1,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 32,
+      "value": 4500000,
+      "contract": "2029-12-31",
+      "nat": "Chile"
+    },
+    {
       "id": "379807",
       "name": "Lyanco",
       "club": 9,
@@ -852,6 +1748,72 @@
       "nat": "Argentina"
     },
     {
+      "id": "563692",
+      "name": "Bruno Fuchs",
+      "club": 0,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 27,
+      "value": 4000000,
+      "contract": "2029-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "1253807",
+      "name": "Luis Benedetti",
+      "club": 0,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 20,
+      "value": 4000000,
+      "contract": "2029-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "851595",
+      "name": "Jefté",
+      "club": 0,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 22,
+      "value": 4000000,
+      "contract": "2030-07-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "1115722",
+      "name": "Arthur Gabriel",
+      "club": 0,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 21,
+      "value": 4000000,
+      "contract": "2030-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "270188",
+      "name": "Lucas Evangelista",
+      "club": 0,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 31,
+      "value": 4000000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "349585",
+      "name": "Ayrton Lucas",
+      "club": 1,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 29,
+      "value": 4000000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
+    },
+    {
       "id": "471639",
       "name": "Gabriel Rojas",
       "club": 2,
@@ -884,6 +1846,28 @@
       "value": 4000000,
       "contract": "2030-12-31",
       "nat": "Colombia"
+    },
+    {
+      "id": "1005650",
+      "name": "João Pedro Tchoca",
+      "club": 3,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 22,
+      "value": 4000000,
+      "contract": "2030-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "546530",
+      "name": "Raniele",
+      "club": 3,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 29,
+      "value": 4000000,
+      "contract": "2028-12-31",
+      "nat": "Brazil"
     },
     {
       "id": "809716",
@@ -941,6 +1925,62 @@
       "nat": "Brazil"
     },
     {
+      "id": "1328021",
+      "name": "Dell",
+      "club": 6,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 18,
+      "value": 4000000,
+      "contract": "2028-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "495689",
+      "name": "Julián Millán",
+      "club": 7,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 28,
+      "value": 4000000,
+      "contract": "2029-12-31",
+      "nat": "Colombia"
+    },
+    {
+      "id": "411662",
+      "name": "Lucas Veríssimo",
+      "club": 8,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 31,
+      "value": 4000000,
+      "contract": "2028-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "1253844",
+      "name": "Vinicius Lira",
+      "club": 8,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 19,
+      "value": 4000000,
+      "contract": "2027-03-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "244275",
+      "name": "Gabriel Barbosa",
+      "club": 8,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 30,
+      "value": 4000000,
+      "contract": "2026-12-31",
+      "nat": "Brazil",
+      "loanFrom": "Cruzeiro Esporte Clube"
+    },
+    {
       "id": "555015",
       "name": "Ruan",
       "club": 9,
@@ -996,6 +2036,40 @@
       "nat": "Brazil"
     },
     {
+      "id": "1193867",
+      "name": "Pedro Lima",
+      "club": 12,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 20,
+      "value": 4000000,
+      "contract": "2027-06-30",
+      "nat": "Brazil",
+      "loanFrom": "Wolverhampton Wanderers"
+    },
+    {
+      "id": "892089",
+      "name": "Pablo Maia",
+      "club": 12,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 24,
+      "value": 4000000,
+      "contract": "2029-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "1202387",
+      "name": "Ryan Francisco",
+      "club": 12,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 19,
+      "value": 4000000,
+      "contract": "2029-12-31",
+      "nat": "Brazil"
+    },
+    {
       "id": "436385",
       "name": "Mathías Villasanti",
       "club": 13,
@@ -1005,6 +2079,40 @@
       "value": 4000000,
       "contract": "2029-12-31",
       "nat": "Paraguay"
+    },
+    {
+      "id": "834444",
+      "name": "Victor Gabriel",
+      "club": 14,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 22,
+      "value": 4000000,
+      "contract": "2029-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "670965",
+      "name": "Vitinho",
+      "club": 14,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 27,
+      "value": 4000000,
+      "contract": "2030-06-30",
+      "nat": "Brazil"
+    },
+    {
+      "id": "668265",
+      "name": "Kayky",
+      "club": 14,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 23,
+      "value": 4000000,
+      "contract": "2026-12-31",
+      "nat": "Brazil",
+      "loanFrom": "Esporte Clube Bahia"
     },
     {
       "id": "645602",
@@ -1050,6 +2158,61 @@
       "contract": "2026-12-31",
       "nat": "Colombia",
       "loanFrom": "CF Monterrey"
+    },
+    {
+      "id": "215390",
+      "name": "Gustavo Gómez",
+      "club": 0,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 33,
+      "value": 3500000,
+      "contract": "2030-12-31",
+      "nat": "Paraguay"
+    },
+    {
+      "id": "102017",
+      "name": "Jorginho",
+      "club": 1,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 34,
+      "value": 3500000,
+      "contract": "2028-06-30",
+      "nat": "Italy"
+    },
+    {
+      "id": "1423021",
+      "name": "Kauê Furquim",
+      "club": 6,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 17,
+      "value": 3500000,
+      "contract": "2028-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "624291",
+      "name": "Ignácio",
+      "club": 7,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 29,
+      "value": 3500000,
+      "contract": "2028-06-30",
+      "nat": "Brazil"
+    },
+    {
+      "id": "362842",
+      "name": "Arthur Melo",
+      "club": 8,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 30,
+      "value": 3500000,
+      "contract": "2026-12-31",
+      "nat": "Brazil"
     },
     {
       "id": "450241",
@@ -1174,6 +2337,18 @@
       "nat": "Brazil"
     },
     {
+      "id": "657220",
+      "name": "Rodrigo Villagra",
+      "club": 14,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 25,
+      "value": 3500000,
+      "contract": "2026-12-31",
+      "nat": "Argentina",
+      "loanFrom": "CSKA Moscow"
+    },
+    {
       "id": "744024",
       "name": "João Marcelo",
       "club": 2,
@@ -1215,6 +2390,17 @@
       "age": 32,
       "value": 3000000,
       "contract": "2027-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "1497709",
+      "name": "Iago Machado",
+      "club": 3,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 17,
+      "value": 3000000,
+      "contract": "2028-04-16",
       "nat": "Brazil"
     },
     {
@@ -1261,6 +2447,39 @@
       "contract": "2026-12-31",
       "nat": "Brazil",
       "loanFrom": "Clube Atlético Mineiro"
+    },
+    {
+      "id": "1141364",
+      "name": "Jemmes",
+      "club": 7,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 26,
+      "value": 3000000,
+      "contract": "2030-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "312294",
+      "name": "Yeferson Soteldo",
+      "club": 7,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 29,
+      "value": 3000000,
+      "contract": "2028-12-31",
+      "nat": "Venezuela"
+    },
+    {
+      "id": "371009",
+      "name": "Rony",
+      "club": 8,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 31,
+      "value": 3000000,
+      "contract": "2029-12-31",
+      "nat": "Brazil"
     },
     {
       "id": "978121",
@@ -1341,6 +2560,62 @@
       "nat": "Ecuador"
     },
     {
+      "id": "520468",
+      "name": "Iago",
+      "club": 12,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 29,
+      "value": 3000000,
+      "contract": "2026-12-31",
+      "nat": "Brazil",
+      "loanFrom": "Esporte Clube Bahia"
+    },
+    {
+      "id": "540458",
+      "name": "Enzo Díaz",
+      "club": 12,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 30,
+      "value": 3000000,
+      "contract": "2028-12-31",
+      "nat": "Argentina"
+    },
+    {
+      "id": "811219",
+      "name": "Newton",
+      "club": 12,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 26,
+      "value": 3000000,
+      "contract": "2029-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "689017",
+      "name": "Ferreirinha",
+      "club": 12,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 28,
+      "value": 3000000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "1269378",
+      "name": "Lucca",
+      "club": 12,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 19,
+      "value": 3000000,
+      "contract": "2028-04-30",
+      "nat": "Brazil"
+    },
+    {
       "id": "1219466",
       "name": "Wallace",
       "club": 13,
@@ -1350,6 +2625,29 @@
       "value": 3000000,
       "contract": "2031-06-30",
       "nat": "Brazil"
+    },
+    {
+      "id": "869437",
+      "name": "Anthoni",
+      "club": 14,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 24,
+      "value": 3000000,
+      "contract": "2029-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "251813",
+      "name": "Niclas Eliasson",
+      "club": 14,
+      "pos": "PON",
+      "posName": "Right Midfield",
+      "age": 30,
+      "value": 3000000,
+      "contract": "2027-06-30",
+      "nat": "Sweden",
+      "loanFrom": "AEK Athens"
     },
     {
       "id": "432166",
@@ -1370,6 +2668,40 @@
       "pos": "MEI",
       "posName": "Attacking Midfield",
       "age": 29,
+      "value": 3000000,
+      "contract": "2029-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "593382",
+      "name": "Jacy",
+      "club": 16,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 29,
+      "value": 3000000,
+      "contract": "2028-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "462070",
+      "name": "Nicolás Fonseca",
+      "club": 16,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 28,
+      "value": 3000000,
+      "contract": "2027-08-31",
+      "nat": "Uruguay",
+      "loanFrom": "Club León FC"
+    },
+    {
+      "id": "542598",
+      "name": "Breno Lopes",
+      "club": 16,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 30,
       "value": 3000000,
       "contract": "2029-12-31",
       "nat": "Brazil"
@@ -1476,6 +2808,39 @@
       "nat": "Colombia"
     },
     {
+      "id": "524446",
+      "name": "Kanu",
+      "club": 6,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 29,
+      "value": 2500000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "482144",
+      "name": "Michel Araújo",
+      "club": 6,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 30,
+      "value": 2500000,
+      "contract": "2028-12-31",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "80444",
+      "name": "Philippe Coutinho",
+      "club": 8,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 34,
+      "value": 2500000,
+      "contract": "2026-12-31",
+      "nat": "Brazil"
+    },
+    {
       "id": "1355484",
       "name": "Kauã Pascini",
       "club": 9,
@@ -1532,6 +2897,17 @@
       "nat": "Argentina"
     },
     {
+      "id": "565232",
+      "name": "André Silva",
+      "club": 12,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 29,
+      "value": 2500000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
+    },
+    {
       "id": "373170",
       "name": "Cristian Pavón",
       "club": 13,
@@ -1552,6 +2928,52 @@
       "value": 2500000,
       "contract": "2028-12-31",
       "nat": "Colombia"
+    },
+    {
+      "id": "876739",
+      "name": "Matheus Cunha",
+      "club": 14,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 25,
+      "value": 2500000,
+      "contract": "2027-06-30",
+      "nat": "Brazil",
+      "loanFrom": "Cruzeiro Esporte Clube"
+    },
+    {
+      "id": "741021",
+      "name": "Matheus Bahia",
+      "club": 14,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 27,
+      "value": 2500000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "829378",
+      "name": "Braian Aguirre",
+      "club": 14,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 26,
+      "value": 2500000,
+      "contract": "2028-12-31",
+      "nat": "Argentina"
+    },
+    {
+      "id": "371996",
+      "name": "Alerrandro",
+      "club": 14,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 26,
+      "value": 2500000,
+      "contract": "2026-12-31",
+      "nat": "Brazil",
+      "loanFrom": "CSKA Moscow"
     },
     {
       "id": "552242",
@@ -1655,6 +3077,17 @@
       "nat": "Brazil"
     },
     {
+      "id": "1324003",
+      "name": "Joaquín Freitas",
+      "club": 1,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 19,
+      "value": 2000000,
+      "contract": "2031-12-31",
+      "nat": "Argentina"
+    },
+    {
       "id": "1360820",
       "name": "Felipe Morais",
       "club": 2,
@@ -1664,6 +3097,18 @@
       "value": 2000000,
       "contract": "2029-03-31",
       "nat": "Brazil"
+    },
+    {
+      "id": "385271",
+      "name": "Allan",
+      "club": 3,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 29,
+      "value": 2000000,
+      "contract": "2026-12-31",
+      "nat": "Brazil",
+      "loanFrom": "CR Flamengo"
     },
     {
       "id": "430339",
@@ -1710,6 +3155,106 @@
       "nat": "Brazil"
     },
     {
+      "id": "387925",
+      "name": "Ronaldo",
+      "club": 6,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 30,
+      "value": 2000000,
+      "contract": "2029-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "984480",
+      "name": "Mateo Sanabria",
+      "club": 6,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 22,
+      "value": 2000000,
+      "contract": "2030-12-31",
+      "nat": "Argentina"
+    },
+    {
+      "id": "592344",
+      "name": "Guga",
+      "club": 7,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 28,
+      "value": 2000000,
+      "contract": "2029-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "546172",
+      "name": "Nonato",
+      "club": 7,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 28,
+      "value": 2000000,
+      "contract": "2028-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "275412",
+      "name": "João Paulo",
+      "club": 8,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 31,
+      "value": 2000000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "552240",
+      "name": "Igor Vinícius",
+      "club": 8,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 29,
+      "value": 2000000,
+      "contract": "2028-06-30",
+      "nat": "Brazil"
+    },
+    {
+      "id": "1101124",
+      "name": "Gustavinho",
+      "club": 8,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 21,
+      "value": 2000000,
+      "contract": "2028-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "387611",
+      "name": "Lima",
+      "club": 8,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 30,
+      "value": 2000000,
+      "contract": "2026-12-31",
+      "nat": "Brazil",
+      "loanFrom": "Fluminense Football Club"
+    },
+    {
+      "id": "788361",
+      "name": "Moisés",
+      "club": 8,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 30,
+      "value": 2000000,
+      "contract": "2028-12-31",
+      "nat": "Brazil"
+    },
+    {
       "id": "312678",
       "name": "Léo Duarte",
       "club": 9,
@@ -1752,6 +3297,51 @@
       "value": 2000000,
       "contract": "2030-06-30",
       "nat": "Colombia"
+    },
+    {
+      "id": "1383716",
+      "name": "Djhordney",
+      "club": 12,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 19,
+      "value": 2000000,
+      "contract": "2030-01-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "162812",
+      "name": "Cauly",
+      "club": 12,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 31,
+      "value": 2000000,
+      "contract": "2026-12-31",
+      "nat": "Brazil",
+      "loanFrom": "Esporte Clube Bahia"
+    },
+    {
+      "id": "381724",
+      "name": "Victor Sá",
+      "club": 12,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 32,
+      "value": 2000000,
+      "contract": "2029-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "77100",
+      "name": "Lucas Moura",
+      "club": 12,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 34,
+      "value": 2000000,
+      "contract": "2026-12-31",
+      "nat": "Brazil"
     },
     {
       "id": "671572",
@@ -1809,6 +3399,50 @@
       "nat": "Brazil"
     },
     {
+      "id": "249730",
+      "name": "Guillermo Maripán",
+      "club": 14,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 32,
+      "value": 2000000,
+      "contract": "2028-06-30",
+      "nat": "Chile"
+    },
+    {
+      "id": "405768",
+      "name": "Ronaldo",
+      "club": 14,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 30,
+      "value": 2000000,
+      "contract": "2026-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "294873",
+      "name": "Thiago Maia",
+      "club": 14,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 29,
+      "value": 2000000,
+      "contract": "2026-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "104505",
+      "name": "Alan Patrick",
+      "club": 14,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 35,
+      "value": 2000000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
+    },
+    {
       "id": "663578",
       "name": "Ramon",
       "club": 15,
@@ -1831,6 +3465,17 @@
       "contract": "2026-12-31",
       "nat": "Brazil",
       "loanFrom": "Cruzeiro Esporte Clube"
+    },
+    {
+      "id": "587786",
+      "name": "Felipe Jonatan",
+      "club": 16,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 28,
+      "value": 2000000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
     },
     {
       "id": "592340",
@@ -1867,6 +3512,17 @@
       "loanFrom": "Grêmio Foot-Ball Porto Alegrense"
     },
     {
+      "id": "974374",
+      "name": "Anthony Valencia",
+      "club": 1,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 23,
+      "value": 1800000,
+      "contract": "2031-12-31",
+      "nat": "Ecuador"
+    },
+    {
       "id": "523363",
       "name": "Kaio",
       "club": 5,
@@ -1876,6 +3532,39 @@
       "value": 1800000,
       "contract": "2028-06-30",
       "nat": "Brazil"
+    },
+    {
+      "id": "491587",
+      "name": "Alexis Duarte",
+      "club": 8,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 26,
+      "value": 1800000,
+      "contract": "2029-06-30",
+      "nat": "Paraguay"
+    },
+    {
+      "id": "264014",
+      "name": "Sergio Rochet",
+      "club": 14,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 33,
+      "value": 1800000,
+      "contract": "2026-12-31",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "234523",
+      "name": "Antonio Sanabria",
+      "club": 14,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 30,
+      "value": 1800000,
+      "contract": "2029-12-31",
+      "nat": "Paraguay"
     },
     {
       "id": "646677",
@@ -1888,6 +3577,28 @@
       "contract": "2026-12-31",
       "nat": "Brazil",
       "loanFrom": "FC Famalicão"
+    },
+    {
+      "id": "275381",
+      "name": "Fabricio Bustos",
+      "club": 16,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 30,
+      "value": 1800000,
+      "contract": "2026-12-31",
+      "nat": "Argentina"
+    },
+    {
+      "id": "570522",
+      "name": "Sebastián Gómez",
+      "club": 16,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 30,
+      "value": 1800000,
+      "contract": "2028-12-31",
+      "nat": "Colombia"
     },
     {
       "id": "329843",
@@ -1910,6 +3621,84 @@
       "value": 1700000,
       "contract": "2026-12-31",
       "nat": "Argentina"
+    },
+    {
+      "id": "1268048",
+      "name": "Luis Pacheco",
+      "club": 0,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 18,
+      "value": 1500000,
+      "contract": "2031-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "145707",
+      "name": "Danilo",
+      "club": 1,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 35,
+      "value": 1500000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "657743",
+      "name": "Pedro Milans",
+      "club": 3,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 24,
+      "value": 1500000,
+      "contract": "2029-12-31",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "323934",
+      "name": "Matheus Pereira",
+      "club": 3,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 28,
+      "value": 1500000,
+      "contract": "2026-12-31",
+      "nat": "Brazil",
+      "loanFrom": "Fortaleza Esporte Clube"
+    },
+    {
+      "id": "141660",
+      "name": "Jesse Lingard",
+      "club": 3,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 33,
+      "value": 1500000,
+      "contract": "2026-12-31",
+      "nat": "England"
+    },
+    {
+      "id": "1082700",
+      "name": "Kayke",
+      "club": 3,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 22,
+      "value": 1500000,
+      "contract": "2027-06-30",
+      "nat": "Brazil"
+    },
+    {
+      "id": "547443",
+      "name": "Pedro Raul",
+      "club": 3,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 30,
+      "value": 1500000,
+      "contract": "2028-12-31",
+      "nat": "Brazil"
     },
     {
       "id": "373189",
@@ -1979,6 +3768,39 @@
       "loanFrom": "Rangers FC"
     },
     {
+      "id": "230014",
+      "name": "Guido Herrera",
+      "club": 6,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 34,
+      "value": 1500000,
+      "contract": "2027-12-31",
+      "nat": "Argentina"
+    },
+    {
+      "id": "373446",
+      "name": "David Duarte",
+      "club": 6,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 31,
+      "value": 1500000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "1241022",
+      "name": "Román Gómez",
+      "club": 6,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 22,
+      "value": 1500000,
+      "contract": "2030-12-31",
+      "nat": "Argentina"
+    },
+    {
       "id": "1355486",
       "name": "Vitão",
       "club": 9,
@@ -2033,6 +3855,39 @@
       "value": 1500000,
       "contract": "2028-12-31",
       "nat": "Brazil"
+    },
+    {
+      "id": "378871",
+      "name": "Carlos Coronel",
+      "club": 12,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 29,
+      "value": 1500000,
+      "contract": "2028-12-31",
+      "nat": "Paraguay"
+    },
+    {
+      "id": "258039",
+      "name": "Aurélio Buta",
+      "club": 12,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 29,
+      "value": 1500000,
+      "contract": "2027-06-30",
+      "nat": "Portugal"
+    },
+    {
+      "id": "284727",
+      "name": "Jonathan Calleri",
+      "club": 12,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 33,
+      "value": 1500000,
+      "contract": "2028-12-31",
+      "nat": "Argentina"
     },
     {
       "id": "878037",
@@ -2092,6 +3947,18 @@
       "nat": "Cape Verde"
     },
     {
+      "id": "798114",
+      "name": "Calebe",
+      "club": 14,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 26,
+      "value": 1500000,
+      "contract": "2027-06-30",
+      "nat": "Brazil",
+      "loanFrom": "Fortaleza Esporte Clube"
+    },
+    {
       "id": "603122",
       "name": "Cacá",
       "club": 15,
@@ -2126,6 +3993,39 @@
       "contract": "2027-06-30",
       "nat": "Brazil",
       "loanFrom": "Moreirense FC"
+    },
+    {
+      "id": "834443",
+      "name": "Tiago Cóser",
+      "club": 16,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 22,
+      "value": 1500000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "1089181",
+      "name": "Paulo Roberto",
+      "club": 16,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 21,
+      "value": 1500000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "362844",
+      "name": "Pedro Rocha",
+      "club": 16,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 32,
+      "value": 1500000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
     },
     {
       "id": "626110",
@@ -2218,6 +4118,28 @@
       "loanFrom": "Deportivo Toluca"
     },
     {
+      "id": "341701",
+      "name": "Igor Rabello",
+      "club": 7,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 31,
+      "value": 1400000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "563812",
+      "name": "Christian Oliva",
+      "club": 8,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 30,
+      "value": 1400000,
+      "contract": "2028-12-31",
+      "nat": "Uruguay"
+    },
+    {
       "id": "406766",
       "name": "Bruno Rodrigues",
       "club": 2,
@@ -2263,6 +4185,28 @@
       "nat": "Angola"
     },
     {
+      "id": "544259",
+      "name": "Ademir",
+      "club": 6,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 31,
+      "value": 1200000,
+      "contract": "2026-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "122155",
+      "name": "Willian José",
+      "club": 6,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 34,
+      "value": 1200000,
+      "contract": "2026-12-31",
+      "nat": "Brazil"
+    },
+    {
       "id": "403296",
       "name": "Léo",
       "club": 10,
@@ -2271,6 +4215,17 @@
       "age": 30,
       "value": 1200000,
       "contract": "2028-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "228433",
+      "name": "Wendell",
+      "club": 12,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 33,
+      "value": 1200000,
+      "contract": "2027-12-31",
       "nat": "Brazil"
     },
     {
@@ -2315,6 +4270,83 @@
       "age": 31,
       "value": 1200000,
       "contract": "2026-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "1116605",
+      "name": "Larson",
+      "club": 0,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 21,
+      "value": 1000000,
+      "contract": "2030-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "159372",
+      "name": "Felipe Anderson",
+      "club": 0,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 33,
+      "value": 1000000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "79960",
+      "name": "Alex Sandro",
+      "club": 1,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 35,
+      "value": 1000000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "188862",
+      "name": "Guillermo Varela",
+      "club": 1,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 33,
+      "value": 1000000,
+      "contract": "2027-12-31",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "148928",
+      "name": "Saúl Ñíguez",
+      "club": 1,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 31,
+      "value": 1000000,
+      "contract": "2028-12-31",
+      "nat": "Spain"
+    },
+    {
+      "id": "1005653",
+      "name": "Kauê",
+      "club": 3,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 22,
+      "value": 1000000,
+      "contract": "2029-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "219835",
+      "name": "Alex Santana",
+      "club": 3,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 31,
+      "value": 1000000,
+      "contract": "2027-12-31",
       "nat": "Brazil"
     },
     {
@@ -2371,6 +4403,61 @@
       "value": 1000000,
       "contract": "2029-12-31",
       "nat": "Brazil"
+    },
+    {
+      "id": "52896",
+      "name": "Everton Ribeiro",
+      "club": 6,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 37,
+      "value": 1000000,
+      "contract": "2026-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "312314",
+      "name": "Otávio",
+      "club": 7,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 32,
+      "value": 1000000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "80562",
+      "name": "Hulk",
+      "club": 7,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 40,
+      "value": 1000000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "392487",
+      "name": "Thaciano",
+      "club": 8,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 31,
+      "value": 1000000,
+      "contract": "2028-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "891672",
+      "name": "Gustavo Caballero",
+      "club": 8,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 25,
+      "value": 1000000,
+      "contract": "2028-12-31",
+      "nat": "Paraguay"
     },
     {
       "id": "1221388",
@@ -2439,6 +4526,61 @@
       "nat": "Brazil"
     },
     {
+      "id": "546033",
+      "name": "Sabino",
+      "club": 12,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 30,
+      "value": 1000000,
+      "contract": "2028-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "292731",
+      "name": "Danielzinho",
+      "club": 12,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 32,
+      "value": 1000000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "1355277",
+      "name": "Tetê",
+      "club": 12,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 19,
+      "value": 1000000,
+      "contract": "2029-09-30",
+      "nat": "Brazil"
+    },
+    {
+      "id": "223560",
+      "name": "Luciano",
+      "club": 12,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 33,
+      "value": 1000000,
+      "contract": "2028-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "1095834",
+      "name": "Gustavo Santana",
+      "club": 12,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 21,
+      "value": 1000000,
+      "contract": "2028-10-31",
+      "nat": "Brazil"
+    },
+    {
       "id": "342024",
       "name": "João Pedro",
       "club": 13,
@@ -2447,6 +4589,39 @@
       "age": 29,
       "value": 1000000,
       "contract": "2027-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "534473",
+      "name": "Paulinho Paula",
+      "club": 14,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 29,
+      "value": 1000000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "1220008",
+      "name": "Allex",
+      "club": 14,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 20,
+      "value": 1000000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "1355429",
+      "name": "Raykkonen",
+      "club": 14,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 18,
+      "value": 1000000,
+      "contract": "2029-02-01",
       "nat": "Brazil"
     },
     {
@@ -2482,6 +4657,51 @@
       "value": 1000000,
       "contract": "2027-03-31",
       "nat": "Brazil"
+    },
+    {
+      "id": "841263",
+      "name": "Pedro Rangel",
+      "club": 16,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 26,
+      "value": 1000000,
+      "contract": "2028-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "598765",
+      "name": "Brian Ocampo",
+      "club": 16,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 27,
+      "value": 1000000,
+      "contract": "2029-06-30",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "704558",
+      "name": "Fabinho",
+      "club": 16,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 26,
+      "value": 1000000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "985351",
+      "name": "Renato Marques",
+      "club": 16,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 22,
+      "value": 1000000,
+      "contract": "2026-12-31",
+      "nat": "Brazil",
+      "loanFrom": "Mirassol Futebol Clube (SP)"
     },
     {
       "id": "592373",
@@ -2619,6 +4839,17 @@
       "nat": "Brazil"
     },
     {
+      "id": "534376",
+      "name": "Marco Moreno",
+      "club": 6,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 25,
+      "value": 900000,
+      "contract": "2031-06-30",
+      "nat": "Spain"
+    },
+    {
       "id": "106032",
       "name": "Everson",
       "club": 9,
@@ -2696,6 +4927,17 @@
       "nat": "Paraguay"
     },
     {
+      "id": "135057",
+      "name": "André Carrillo",
+      "club": 3,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 35,
+      "value": 800000,
+      "contract": "2026-12-31",
+      "nat": "Peru"
+    },
+    {
       "id": "364261",
       "name": "Tchê Tchê",
       "club": 4,
@@ -2718,6 +4960,51 @@
       "nat": "Brazil"
     },
     {
+      "id": "229736",
+      "name": "Alisson",
+      "club": 7,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 33,
+      "value": 800000,
+      "contract": "2026-12-31",
+      "nat": "Brazil",
+      "loanFrom": "São Paulo Futebol Clube"
+    },
+    {
+      "id": "210747",
+      "name": "Willian Arão",
+      "club": 8,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 34,
+      "value": 800000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "440377",
+      "name": "Gonzalo Escobar",
+      "club": 8,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 29,
+      "value": 800000,
+      "contract": "2027-12-31",
+      "nat": "Argentina"
+    },
+    {
+      "id": "185966",
+      "name": "Rodinei",
+      "club": 8,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 34,
+      "value": 800000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
+    },
+    {
       "id": "114937",
       "name": "Dudu",
       "club": 9,
@@ -2727,6 +5014,51 @@
       "value": 800000,
       "contract": "2027-12-31",
       "nat": "Brazil"
+    },
+    {
+      "id": "980825",
+      "name": "Matheus Belém",
+      "club": 12,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 23,
+      "value": 800000,
+      "contract": "2026-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "72441",
+      "name": "Rafael Tolói",
+      "club": 12,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 36,
+      "value": 800000,
+      "contract": "2026-12-31",
+      "nat": "Italy"
+    },
+    {
+      "id": "257376",
+      "name": "Domingos Duarte",
+      "club": 12,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 31,
+      "value": 800000,
+      "contract": "2028-07-31",
+      "nat": "Portugal"
+    },
+    {
+      "id": "468174",
+      "name": "Félix Torres",
+      "club": 14,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 29,
+      "value": 800000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador",
+      "loanFrom": "Sport Club Corinthians Paulista"
     },
     {
       "id": "371250",
@@ -2774,6 +5106,28 @@
       "nat": "Brazil"
     },
     {
+      "id": "353108",
+      "name": "Bruno Henrique",
+      "club": 1,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 35,
+      "value": 750000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "486078",
+      "name": "Charles",
+      "club": 3,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 30,
+      "value": 750000,
+      "contract": "2028-12-31",
+      "nat": "Brazil"
+    },
+    {
       "id": "564546",
       "name": "Eduardo",
       "club": 11,
@@ -2808,6 +5162,28 @@
       "loanFrom": "Maringá FC"
     },
     {
+      "id": "730708",
+      "name": "Hugo",
+      "club": 3,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 29,
+      "value": 700000,
+      "contract": "2026-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "213605",
+      "name": "Vitinho",
+      "club": 3,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 33,
+      "value": 700000,
+      "contract": "2026-12-31",
+      "nat": "Brazil"
+    },
+    {
       "id": "643119",
       "name": "Riquelme",
       "club": 4,
@@ -2816,6 +5192,28 @@
       "age": 24,
       "value": 700000,
       "contract": "2026-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "347913",
+      "name": "Luan Peres",
+      "club": 8,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 32,
+      "value": 700000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "198859",
+      "name": "João Schmidt",
+      "club": 8,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 33,
+      "value": 700000,
+      "contract": "2027-12-31",
       "nat": "Brazil"
     },
     {
@@ -2842,6 +5240,17 @@
       "nat": "Colombia"
     },
     {
+      "id": "378189",
+      "name": "Lucas Ramon",
+      "club": 12,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 32,
+      "value": 700000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
+    },
+    {
       "id": "69400",
       "name": "Weverton",
       "club": 13,
@@ -2862,6 +5271,17 @@
       "value": 700000,
       "contract": "2027-06-30",
       "nat": "Paraguay"
+    },
+    {
+      "id": "383638",
+      "name": "Juninho",
+      "club": 14,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 31,
+      "value": 700000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
     },
     {
       "id": "608943",
@@ -2956,6 +5376,28 @@
       "nat": "Brazil"
     },
     {
+      "id": "175792",
+      "name": "André Ramalho",
+      "club": 3,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 34,
+      "value": 600000,
+      "contract": "2026-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "208681",
+      "name": "Gustavo Henrique",
+      "club": 3,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 33,
+      "value": 600000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
+    },
+    {
       "id": "1082692",
       "name": "Paulinho",
       "club": 4,
@@ -2975,6 +5417,17 @@
       "age": 32,
       "value": 600000,
       "contract": "2026-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "1220468",
+      "name": "Luiz Gustavo",
+      "club": 6,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 20,
+      "value": 600000,
+      "contract": "2030-12-31",
       "nat": "Brazil"
     },
     {
@@ -3019,6 +5472,17 @@
       "age": 27,
       "value": 600000,
       "contract": "2026-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "1365157",
+      "name": "Tissi",
+      "club": 16,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 19,
+      "value": 600000,
+      "contract": "2029-04-10",
       "nat": "Brazil"
     },
     {
@@ -3112,6 +5576,39 @@
       "loanFrom": "Vila Nova Futebol Clube (GO)"
     },
     {
+      "id": "1005656",
+      "name": "Felipe Longo",
+      "club": 3,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 21,
+      "value": 500000,
+      "contract": "2029-03-30",
+      "nat": "Brazil"
+    },
+    {
+      "id": "149498",
+      "name": "Gabriel Paulista",
+      "club": 3,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 35,
+      "value": 500000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "838387",
+      "name": "Léo Mana",
+      "club": 3,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 22,
+      "value": 500000,
+      "contract": "2029-12-31",
+      "nat": "Brazil"
+    },
+    {
       "id": "1355262",
       "name": "João Mutano",
       "club": 4,
@@ -3121,6 +5618,39 @@
       "value": 500000,
       "contract": "2028-12-31",
       "nat": "Brazil"
+    },
+    {
+      "id": "29241",
+      "name": "Thiago Silva",
+      "club": 7,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 42,
+      "value": 500000,
+      "contract": "2026-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "1119008",
+      "name": "Julio Fidelis",
+      "club": 7,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 20,
+      "value": 500000,
+      "contract": "2031-04-30",
+      "nat": "Brazil"
+    },
+    {
+      "id": "54590",
+      "name": "Germán Cano",
+      "club": 7,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 38,
+      "value": 500000,
+      "contract": "2026-12-31",
+      "nat": "Argentina"
     },
     {
       "id": "149752",
@@ -3154,6 +5684,28 @@
       "value": 500000,
       "contract": "2027-12-31",
       "nat": "Brazil"
+    },
+    {
+      "id": "1221747",
+      "name": "Luis Osorio",
+      "club": 12,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 20,
+      "value": 500000,
+      "contract": "2030-02-28",
+      "nat": "Brazil"
+    },
+    {
+      "id": "112988",
+      "name": "Cédric Soares",
+      "club": 12,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 35,
+      "value": 500000,
+      "contract": "2027-12-31",
+      "nat": "Portugal"
     },
     {
       "id": "1355268",
@@ -3219,6 +5771,51 @@
       "age": 31,
       "value": 500000,
       "contract": "2027-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "417084",
+      "name": "Keiller",
+      "club": 16,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 30,
+      "value": 500000,
+      "contract": "2026-12-30",
+      "nat": "Brazil",
+      "loanFrom": "Sport Club Internacional"
+    },
+    {
+      "id": "530737",
+      "name": "Richard",
+      "club": 16,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 32,
+      "value": 500000,
+      "contract": "2026-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "840431",
+      "name": "Gustavo",
+      "club": 16,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 24,
+      "value": 500000,
+      "contract": "2028-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "638262",
+      "name": "Rodrigo Rodrigues",
+      "club": 16,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 30,
+      "value": 500000,
+      "contract": "2027-06-30",
       "nat": "Brazil"
     },
     {
@@ -3299,6 +5896,28 @@
       "nat": "Brazil"
     },
     {
+      "id": "980463",
+      "name": "Marcos Victor",
+      "club": 6,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 24,
+      "value": 450000,
+      "contract": "2029-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "273442",
+      "name": "Tinga",
+      "club": 16,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 33,
+      "value": 450000,
+      "contract": "2026-12-31",
+      "nat": "Brazil"
+    },
+    {
       "id": "520457",
       "name": "Gustavo Cazonatti",
       "club": 17,
@@ -3332,12 +5951,101 @@
       "nat": "Brazil"
     },
     {
+      "id": "1082543",
+      "name": "Dyogo Alves",
+      "club": 1,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 22,
+      "value": 400000,
+      "contract": "2026-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "268506",
+      "name": "Fabrizio Angileri",
+      "club": 3,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 32,
+      "value": 400000,
+      "contract": "2026-12-31",
+      "nat": "Argentina"
+    },
+    {
+      "id": "123349",
+      "name": "Zakaria Labyad",
+      "club": 3,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 33,
+      "value": 400000,
+      "contract": "2027-12-31",
+      "nat": "Morocco"
+    },
+    {
       "id": "520492",
       "name": "Paulinho",
       "club": 5,
       "pos": "LE",
       "posName": "Left-Back",
       "age": 31,
+      "value": 400000,
+      "contract": "2028-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "1084816",
+      "name": "Zé Guilherme",
+      "club": 6,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 21,
+      "value": 400000,
+      "contract": "2029-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "1036450",
+      "name": "Lautaro López",
+      "club": 6,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 21,
+      "value": 400000,
+      "contract": "2026-12-31",
+      "nat": "Argentina",
+      "loanFrom": "Montevideo City Torque"
+    },
+    {
+      "id": "590039",
+      "name": "Vitor Eudes",
+      "club": 7,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 28,
+      "value": 400000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "212209",
+      "name": "Renê",
+      "club": 7,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 34,
+      "value": 400000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "1220141",
+      "name": "Mateus Xavier",
+      "club": 8,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 19,
       "value": 400000,
       "contract": "2028-12-31",
       "nat": "Brazil"
@@ -3385,6 +6093,17 @@
       "age": 18,
       "value": 400000,
       "contract": "2028-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "876874",
+      "name": "Vini Paulista",
+      "club": 16,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 25,
+      "value": 400000,
+      "contract": "2027-12-31",
       "nat": "Brazil"
     },
     {
@@ -3503,6 +6222,29 @@
       "loanFrom": "Clube do Remo (PA)"
     },
     {
+      "id": "205041",
+      "name": "Everaldo",
+      "club": 6,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 35,
+      "value": 350000,
+      "contract": "2026-12-31",
+      "nat": "Brazil",
+      "loanFrom": "Fluminense Football Club"
+    },
+    {
+      "id": "992534",
+      "name": "Jhonny",
+      "club": 7,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 24,
+      "value": 350000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
+    },
+    {
       "id": "145400",
       "name": "Walter Kannemann",
       "club": 13,
@@ -3512,6 +6254,17 @@
       "value": 350000,
       "contract": "2027-12-31",
       "nat": "Argentina"
+    },
+    {
+      "id": "72772",
+      "name": "Josué",
+      "club": 16,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 36,
+      "value": 350000,
+      "contract": "2026-12-31",
+      "nat": "Portugal"
     },
     {
       "id": "225617",
@@ -3591,6 +6344,50 @@
       "nat": "Brazil"
     },
     {
+      "id": "67920",
+      "name": "Ganso",
+      "club": 7,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 37,
+      "value": 300000,
+      "contract": "2026-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "68097",
+      "name": "Rafael",
+      "club": 12,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 37,
+      "value": 300000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "139867",
+      "name": "Robert Arboleda",
+      "club": 12,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 35,
+      "value": 300000,
+      "contract": "2027-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "277335",
+      "name": "Bruno Henrique",
+      "club": 14,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 37,
+      "value": 300000,
+      "contract": "2026-12-31",
+      "nat": "Brazil"
+    },
+    {
       "id": "979994",
       "name": "Alex Bruno",
       "club": 15,
@@ -3601,6 +6398,29 @@
       "contract": "2026-12-31",
       "nat": "Brazil",
       "loanFrom": "Agremiação Sportiva Arapiraquense (AL)"
+    },
+    {
+      "id": "1014555",
+      "name": "Rodrigo Gelado",
+      "club": 16,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 23,
+      "value": 300000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "346065",
+      "name": "Keno",
+      "club": 16,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 37,
+      "value": 300000,
+      "contract": "2026-12-31",
+      "nat": "Brazil",
+      "loanFrom": "Fluminense Football Club"
     },
     {
       "id": "234538",
@@ -3713,6 +6533,28 @@
       "nat": "Brazil"
     },
     {
+      "id": "538230",
+      "name": "Bruno Melo",
+      "club": 16,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 34,
+      "value": 250000,
+      "contract": "2026-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "1090820",
+      "name": "Éberth",
+      "club": 16,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 23,
+      "value": 250000,
+      "contract": "2026-12-31",
+      "nat": "Brazil"
+    },
+    {
       "id": "646676",
       "name": "Matheus Aurélio",
       "club": 19,
@@ -3777,6 +6619,50 @@
       "age": 37,
       "value": 200000,
       "contract": "2026-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "67144",
+      "name": "Léo Vieira",
+      "club": 6,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 36,
+      "value": 200000,
+      "contract": "2026-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "662334",
+      "name": "Marcelo Pitaluga",
+      "club": 7,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 23,
+      "value": 200000,
+      "contract": "2028-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "198250",
+      "name": "Samuel Xavier",
+      "club": 7,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 36,
+      "value": 200000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "907359",
+      "name": "Diógenes",
+      "club": 8,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 25,
+      "value": 200000,
+      "contract": "2028-12-31",
       "nat": "Brazil"
     },
     {
@@ -3902,6 +6788,28 @@
       "nat": "Brazil"
     },
     {
+      "id": "894532",
+      "name": "Young",
+      "club": 12,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 24,
+      "value": 100000,
+      "contract": "2026-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "45319",
+      "name": "Gabriel Mercado",
+      "club": 14,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 39,
+      "value": 100000,
+      "contract": "2026-12-31",
+      "nat": "Argentina"
+    },
+    {
       "id": "740272",
       "name": "Fintelman",
       "club": 15,
@@ -3913,6 +6821,39 @@
       "nat": "Brazil"
     },
     {
+      "id": "84695",
+      "name": "Maicon",
+      "club": 16,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 38,
+      "value": 100000,
+      "contract": "2026-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "119434",
+      "name": "Rodrigo Moledo",
+      "club": 16,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 39,
+      "value": 100000,
+      "contract": "2026-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "346922",
+      "name": "Thiago Santos",
+      "club": 16,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 37,
+      "value": 100000,
+      "contract": "2026-12-31",
+      "nat": "Brazil"
+    },
+    {
       "id": "837534",
       "name": "Luiz Filipe",
       "club": 17,
@@ -3921,6 +6862,28 @@
       "age": 25,
       "value": 100000,
       "contract": "2027-03-30",
+      "nat": "Brazil"
+    },
+    {
+      "id": "53015",
+      "name": "Marcelo Lomba",
+      "club": 0,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 39,
+      "value": 75000,
+      "contract": "2026-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "22415",
+      "name": "Fábio",
+      "club": 7,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 46,
+      "value": 75000,
+      "contract": "2027-12-31",
       "nat": "Brazil"
     },
     {
@@ -3979,6 +6942,17 @@
       "nat": "Brazil"
     },
     {
+      "id": "1095547",
+      "name": "Benassi",
+      "club": 16,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 22,
+      "value": 50000,
+      "contract": "2027-12-31",
+      "nat": "Brazil"
+    },
+    {
       "id": "258369",
       "name": "Georgemy",
       "club": 17,
@@ -4012,685 +6986,14 @@
       "nat": "Brazil"
     },
     {
-      "id": "641458",
-      "name": "Carlos Miguel",
-      "club": 0,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "53015",
-      "name": "Marcelo Lomba",
-      "club": 0,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
       "id": "323929",
       "name": "Bruno Bertinato",
       "club": 0,
       "pos": "GOL",
       "posName": "Goalkeeper",
-      "age": null,
+      "age": 28,
       "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "458710",
-      "name": "Murilo",
-      "club": 0,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "379752",
-      "name": "Alexander Barboza",
-      "club": 0,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "563692",
-      "name": "Bruno Fuchs",
-      "club": 0,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1253807",
-      "name": "Luis Benedetti",
-      "club": 0,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "215390",
-      "name": "Gustavo Gómez",
-      "club": 0,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Paraguay"
-    },
-    {
-      "id": "496268",
-      "name": "Joaquín Piquerez",
-      "club": 0,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "851595",
-      "name": "Jefté",
-      "club": 0,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1115722",
-      "name": "Arthur Gabriel",
-      "club": 0,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "849582",
-      "name": "Agustín Giay",
-      "club": 0,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "653348",
-      "name": "Khellven",
-      "club": 0,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "364972",
-      "name": "Marlon Freitas",
-      "club": 0,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "707447",
-      "name": "Emiliano Martínez",
-      "club": 0,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "1268048",
-      "name": "Luis Pacheco",
-      "club": 0,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "203394",
-      "name": "Andreas Pereira",
-      "club": 0,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "270188",
-      "name": "Lucas Evangelista",
-      "club": 0,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1116605",
-      "name": "Larson",
-      "club": 0,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "678439",
-      "name": "Mauricio",
-      "club": 0,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Paraguay"
-    },
-    {
-      "id": "1180021",
-      "name": "Erick Belé",
-      "club": 0,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "745191",
-      "name": "Ramón Sosa",
-      "club": 0,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Paraguay"
-    },
-    {
-      "id": "159372",
-      "name": "Felipe Anderson",
-      "club": 0,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "588989",
-      "name": "Jhon Arias",
-      "club": 0,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "428791",
-      "name": "Paulinho",
-      "club": 0,
-      "pos": "ATA",
-      "posName": "Second Striker",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "943837",
-      "name": "Vitor Roque",
-      "club": 0,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "844797",
-      "name": "José Manuel López",
-      "club": 0,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "352324",
-      "name": "Agustín Rossi",
-      "club": 1,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "610417",
-      "name": "Andrew",
-      "club": 1,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1082543",
-      "name": "Dyogo Alves",
-      "club": 1,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "374136",
-      "name": "Léo Ortiz",
-      "club": 1,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "288431",
-      "name": "Léo Pereira",
-      "club": 1,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "428783",
-      "name": "Vitão",
-      "club": 1,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "145707",
-      "name": "Danilo",
-      "club": 1,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1193868",
-      "name": "João Souza",
-      "club": 1,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "349585",
-      "name": "Ayrton Lucas",
-      "club": 1,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "79960",
-      "name": "Alex Sandro",
-      "club": 1,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "476344",
-      "name": "Emerson Royal",
-      "club": 1,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "188862",
-      "name": "Guillermo Varela",
-      "club": 1,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "931007",
-      "name": "Evertton Araújo",
-      "club": 1,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "215616",
-      "name": "Erick Pulgar",
-      "club": 1,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Chile"
-    },
-    {
-      "id": "102017",
-      "name": "Jorginho",
-      "club": 1,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Italy"
-    },
-    {
-      "id": "397458",
-      "name": "Nicolás de la Cruz",
-      "club": 1,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "148928",
-      "name": "Saúl Ñíguez",
-      "club": 1,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Spain"
-    },
-    {
-      "id": "444523",
-      "name": "Lucas Paquetá",
-      "club": 1,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "354145",
-      "name": "Jorge Carrascal",
-      "club": 1,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "248410",
-      "name": "Giorgian de Arrascaeta",
-      "club": 1,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "694928",
-      "name": "Samuel Lino",
-      "club": 1,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "592735",
-      "name": "Gonzalo Plata",
-      "club": 1,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "435485",
-      "name": "Luiz Araújo",
-      "club": 1,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "974374",
-      "name": "Anthony Valencia",
-      "club": 1,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "432895",
-      "name": "Pedro",
-      "club": 1,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1324003",
-      "name": "Joaquín Freitas",
-      "club": 1,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "353108",
-      "name": "Bruno Henrique",
-      "club": 1,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "574901",
-      "name": "Hugo Souza",
-      "club": 3,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1005653",
-      "name": "Kauê",
-      "club": 3,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1005656",
-      "name": "Felipe Longo",
-      "club": 3,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1005650",
-      "name": "João Pedro Tchoca",
-      "club": 3,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1497709",
-      "name": "Iago Machado",
-      "club": 3,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "175792",
-      "name": "André Ramalho",
-      "club": 3,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "208681",
-      "name": "Gustavo Henrique",
-      "club": 3,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "149498",
-      "name": "Gabriel Paulista",
-      "club": 3,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
+      "contract": "2026-12-31",
       "nat": "Brazil"
     },
     {
@@ -4699,298 +7002,9 @@
       "club": 3,
       "pos": "ZAG",
       "posName": "Centre-Back",
-      "age": null,
+      "age": 22,
       "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "670021",
-      "name": "Matheus Bidu",
-      "club": 3,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "730708",
-      "name": "Hugo",
-      "club": 3,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "268506",
-      "name": "Fabrizio Angileri",
-      "club": 3,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "594226",
-      "name": "Matheuzinho",
-      "club": 3,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "657743",
-      "name": "Pedro Milans",
-      "club": 3,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "838387",
-      "name": "Léo Mana",
-      "club": 3,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "546530",
-      "name": "Raniele",
-      "club": 3,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "385271",
-      "name": "Allan",
-      "club": 3,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil",
-      "loanFrom": "CR Flamengo"
-    },
-    {
-      "id": "486078",
-      "name": "Charles",
-      "club": 3,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1029227",
-      "name": "Breno Bidon",
-      "club": 3,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1221818",
-      "name": "André",
-      "club": 3,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "323934",
-      "name": "Matheus Pereira",
-      "club": 3,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil",
-      "loanFrom": "Fortaleza Esporte Clube"
-    },
-    {
-      "id": "219835",
-      "name": "Alex Santana",
-      "club": 3,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "135057",
-      "name": "André Carrillo",
-      "club": 3,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Peru"
-    },
-    {
-      "id": "1004739",
-      "name": "Bahia",
-      "club": 3,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "565009",
-      "name": "Rodrigo Garro",
-      "club": 3,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "141660",
-      "name": "Jesse Lingard",
-      "club": 3,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "England"
-    },
-    {
-      "id": "123349",
-      "name": "Zakaria Labyad",
-      "club": 3,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Morocco"
-    },
-    {
-      "id": "1082700",
-      "name": "Kayke",
-      "club": 3,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "213605",
-      "name": "Vitinho",
-      "club": 3,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "766258",
-      "name": "Kaio César",
-      "club": 3,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil",
-      "loanFrom": "Al-Hilal SFC"
-    },
-    {
-      "id": "1257132",
-      "name": "Dieguinho",
-      "club": 3,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "489893",
-      "name": "Yuri Alberto",
-      "club": 3,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "167850",
-      "name": "Memphis Depay",
-      "club": 3,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Netherlands"
-    },
-    {
-      "id": "1257133",
-      "name": "Gui Negão",
-      "club": 3,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "547443",
-      "name": "Pedro Raul",
-      "club": 3,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
+      "contract": "2027-07-31",
       "nat": "Brazil"
     },
     {
@@ -5027,100 +7041,12 @@
       "nat": "Brazil"
     },
     {
-      "id": "387925",
-      "name": "Ronaldo",
-      "club": 6,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "230014",
-      "name": "Guido Herrera",
-      "club": 6,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "67144",
-      "name": "Léo Vieira",
-      "club": 6,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
       "id": "1109027",
       "name": "Victor",
       "club": 6,
       "pos": "GOL",
       "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "524446",
-      "name": "Kanu",
-      "club": 6,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "373446",
-      "name": "David Duarte",
-      "club": 6,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "534376",
-      "name": "Marco Moreno",
-      "club": 6,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Spain"
-    },
-    {
-      "id": "1220468",
-      "name": "Luiz Gustavo",
-      "club": 6,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "980463",
-      "name": "Marcos Victor",
-      "club": 6,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
+      "age": 20,
       "value": null,
       "contract": null,
       "nat": "Brazil"
@@ -5131,131 +7057,9 @@
       "club": 6,
       "pos": "ZAG",
       "posName": "Centre-Back",
-      "age": null,
+      "age": 20,
       "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "676035",
-      "name": "Luciano Juba",
-      "club": 6,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1084816",
-      "name": "Zé Guilherme",
-      "club": 6,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1241022",
-      "name": "Román Gómez",
-      "club": 6,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "625569",
-      "name": "Nicolás Acevedo",
-      "club": 6,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "727751",
-      "name": "Caio Alexandre",
-      "club": 6,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "633212",
-      "name": "Erick",
-      "club": 6,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1036450",
-      "name": "Lautaro López",
-      "club": 6,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina",
-      "loanFrom": "Montevideo City Torque"
-    },
-    {
-      "id": "578872",
-      "name": "Jean Lucas",
-      "club": 6,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "468304",
-      "name": "Rodrigo Nestor",
-      "club": 6,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "52896",
-      "name": "Everton Ribeiro",
-      "club": 6,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1255012",
-      "name": "David Martins",
-      "club": 6,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
+      "contract": "2027-12-31",
       "nat": "Brazil"
     },
     {
@@ -5264,253 +7068,9 @@
       "club": 6,
       "pos": "MEI",
       "posName": "Attacking Midfield",
-      "age": null,
+      "age": 19,
       "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "936544",
-      "name": "Erick Pulga",
-      "club": 6,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1220614",
-      "name": "Ruan Pablo",
-      "club": 6,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "984480",
-      "name": "Mateo Sanabria",
-      "club": 6,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "657746",
-      "name": "Cristian Olivera",
-      "club": 6,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay",
-      "loanFrom": "Grêmio Foot-Ball Porto Alegrense"
-    },
-    {
-      "id": "1423021",
-      "name": "Kauê Furquim",
-      "club": 6,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "482144",
-      "name": "Michel Araújo",
-      "club": 6,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "544259",
-      "name": "Ademir",
-      "club": 6,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "888493",
-      "name": "Alejo Veliz",
-      "club": 6,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "1328021",
-      "name": "Dell",
-      "club": 6,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "122155",
-      "name": "Willian José",
-      "club": 6,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "205041",
-      "name": "Everaldo",
-      "club": 6,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil",
-      "loanFrom": "Fluminense Football Club"
-    },
-    {
-      "id": "590039",
-      "name": "Vitor Eudes",
-      "club": 7,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "662334",
-      "name": "Marcelo Pitaluga",
-      "club": 7,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "22415",
-      "name": "Fábio",
-      "club": 7,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "628750",
-      "name": "Juan Pablo Freytes",
-      "club": 7,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "495689",
-      "name": "Julián Millán",
-      "club": 7,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "624291",
-      "name": "Ignácio",
-      "club": 7,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1141364",
-      "name": "Jemmes",
-      "club": 7,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "341701",
-      "name": "Igor Rabello",
-      "club": 7,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "29241",
-      "name": "Thiago Silva",
-      "club": 7,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "346766",
-      "name": "Guilherme Arana",
-      "club": 7,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "212209",
-      "name": "Renê",
-      "club": 7,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
+      "contract": "2027-01-31",
       "nat": "Brazil"
     },
     {
@@ -5519,75 +7079,9 @@
       "club": 7,
       "pos": "LE",
       "posName": "Left-Back",
-      "age": null,
+      "age": 21,
       "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "592344",
-      "name": "Guga",
-      "club": 7,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1119008",
-      "name": "Julio Fidelis",
-      "club": 7,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "992534",
-      "name": "Jhonny",
-      "club": 7,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "198250",
-      "name": "Samuel Xavier",
-      "club": 7,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "815558",
-      "name": "Martinelli",
-      "club": 7,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "312314",
-      "name": "Otávio",
-      "club": 7,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
+      "contract": "2027-06-30",
       "nat": "Brazil"
     },
     {
@@ -5596,65 +7090,9 @@
       "club": 7,
       "pos": "VOL",
       "posName": "Defensive Midfield",
-      "age": null,
+      "age": 21,
       "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "982617",
-      "name": "Hércules",
-      "club": 7,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "546172",
-      "name": "Nonato",
-      "club": 7,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "229736",
-      "name": "Alisson",
-      "club": 7,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil",
-      "loanFrom": "São Paulo Futebol Clube"
-    },
-    {
-      "id": "315169",
-      "name": "Luciano Acosta",
-      "club": 7,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "67920",
-      "name": "Ganso",
-      "club": 7,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
+      "contract": "2027-12-31",
       "nat": "Brazil"
     },
     {
@@ -5663,42 +7101,9 @@
       "club": 7,
       "pos": "MEI",
       "posName": "Attacking Midfield",
-      "age": null,
+      "age": 25,
       "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "309193",
-      "name": "Jefferson Savarino",
-      "club": 7,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Venezuela"
-    },
-    {
-      "id": "312294",
-      "name": "Yeferson Soteldo",
-      "club": 7,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Venezuela"
-    },
-    {
-      "id": "1339559",
-      "name": "Wesley Natã",
-      "club": 7,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
+      "contract": "2027-04-14",
       "nat": "Brazil"
     },
     {
@@ -5707,120 +7112,10 @@
       "club": 7,
       "pos": "PON",
       "posName": "Left Winger",
-      "age": null,
+      "age": 19,
       "value": null,
-      "contract": null,
+      "contract": "2030-12-31",
       "nat": "Mexico"
-    },
-    {
-      "id": "457533",
-      "name": "Agustín Canobbio",
-      "club": 7,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "1219749",
-      "name": "Riquelme",
-      "club": 7,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "745927",
-      "name": "Kevin Serna",
-      "club": 7,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "856085",
-      "name": "John Kennedy",
-      "club": 7,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "984416",
-      "name": "Rodrigo Castillo",
-      "club": 7,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "80562",
-      "name": "Hulk",
-      "club": 7,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "54590",
-      "name": "Germán Cano",
-      "club": 7,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "371247",
-      "name": "Gabriel Brazão",
-      "club": 8,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "275412",
-      "name": "João Paulo",
-      "club": 8,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "907359",
-      "name": "Diógenes",
-      "club": 8,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
     },
     {
       "id": "1116832",
@@ -5828,9 +7123,9 @@
       "club": 8,
       "pos": "GOL",
       "posName": "Goalkeeper",
-      "age": null,
+      "age": 22,
       "value": null,
-      "contract": null,
+      "contract": "2028-12-31",
       "nat": "Brazil"
     },
     {
@@ -5839,64 +7134,9 @@
       "club": 8,
       "pos": "GOL",
       "posName": "Goalkeeper",
-      "age": null,
+      "age": 21,
       "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1256755",
-      "name": "João Ananias",
-      "club": 8,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "411662",
-      "name": "Lucas Veríssimo",
-      "club": 8,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "491587",
-      "name": "Alexis Duarte",
-      "club": 8,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Paraguay"
-    },
-    {
-      "id": "210747",
-      "name": "Willian Arão",
-      "club": 8,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "347913",
-      "name": "Luan Peres",
-      "club": 8,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
+      "contract": "2029-01-31",
       "nat": "Brazil"
     },
     {
@@ -5905,187 +7145,9 @@
       "club": 8,
       "pos": "ZAG",
       "posName": "Centre-Back",
-      "age": null,
+      "age": 19,
       "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1253844",
-      "name": "Vinicius Lira",
-      "club": 8,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "440377",
-      "name": "Gonzalo Escobar",
-      "club": 8,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "608216",
-      "name": "Gabriel Menino",
-      "club": 8,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil",
-      "loanFrom": "Clube Atlético Mineiro"
-    },
-    {
-      "id": "552240",
-      "name": "Igor Vinícius",
-      "club": 8,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "185966",
-      "name": "Rodinei",
-      "club": 8,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "362842",
-      "name": "Arthur Melo",
-      "club": 8,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1101124",
-      "name": "Gustavinho",
-      "club": 8,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "563812",
-      "name": "Christian Oliva",
-      "club": 8,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "198859",
-      "name": "João Schmidt",
-      "club": 8,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1089958",
-      "name": "Gabriel Bontempo",
-      "club": 8,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "68290",
-      "name": "Neymar",
-      "club": 8,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1063811",
-      "name": "Miguelito",
-      "club": 8,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Bolivia"
-    },
-    {
-      "id": "80444",
-      "name": "Philippe Coutinho",
-      "club": 8,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "387611",
-      "name": "Lima",
-      "club": 8,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil",
-      "loanFrom": "Fluminense Football Club"
-    },
-    {
-      "id": "392487",
-      "name": "Thaciano",
-      "club": 8,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1355386",
-      "name": "Nadson",
-      "club": 8,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
+      "contract": "2030-06-30",
       "nat": "Brazil"
     },
     {
@@ -6094,76 +7156,10 @@
       "club": 8,
       "pos": "MEI",
       "posName": "Attacking Midfield",
-      "age": null,
+      "age": 19,
       "value": null,
-      "contract": null,
+      "contract": "2030-06-30",
       "nat": "Brazil"
-    },
-    {
-      "id": "613873",
-      "name": "Álvaro Barreal",
-      "club": 8,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "321239",
-      "name": "Everton",
-      "club": 8,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "788361",
-      "name": "Moisés",
-      "club": 8,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "891672",
-      "name": "Gustavo Caballero",
-      "club": 8,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Paraguay"
-    },
-    {
-      "id": "1220141",
-      "name": "Mateus Xavier",
-      "club": 8,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "491704",
-      "name": "Benjamín Rollheiser",
-      "club": 8,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
     },
     {
       "id": "816149",
@@ -6171,9 +7167,9 @@
       "club": 8,
       "pos": "PON",
       "posName": "Right Winger",
-      "age": null,
+      "age": 24,
       "value": null,
-      "contract": null,
+      "contract": "2026-12-31",
       "nat": "Brazil"
     },
     {
@@ -6182,32 +7178,9 @@
       "club": 8,
       "pos": "PON",
       "posName": "Right Winger",
-      "age": null,
+      "age": 21,
       "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "244275",
-      "name": "Gabriel Barbosa",
-      "club": 8,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil",
-      "loanFrom": "Cruzeiro Esporte Clube"
-    },
-    {
-      "id": "371009",
-      "name": "Rony",
-      "club": 8,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
+      "contract": "2026-12-31",
       "nat": "Brazil"
     },
     {
@@ -6266,47 +7239,14 @@
       "nat": "Brazil"
     },
     {
-      "id": "378871",
-      "name": "Carlos Coronel",
-      "club": 12,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Paraguay"
-    },
-    {
-      "id": "68097",
-      "name": "Rafael",
-      "club": 12,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "894532",
-      "name": "Young",
-      "club": 12,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
       "id": "1202380",
       "name": "João Pedro",
       "club": 12,
       "pos": "GOL",
       "posName": "Goalkeeper",
-      "age": null,
+      "age": 20,
       "value": null,
-      "contract": null,
+      "contract": "2028-06-30",
       "nat": "Brazil"
     },
     {
@@ -6315,76 +7255,10 @@
       "club": 12,
       "pos": "GOL",
       "posName": "Goalkeeper",
-      "age": null,
+      "age": 20,
       "value": null,
-      "contract": null,
+      "contract": "2026-12-31",
       "nat": "Brazil"
-    },
-    {
-      "id": "546033",
-      "name": "Sabino",
-      "club": 12,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "980825",
-      "name": "Matheus Belém",
-      "club": 12,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "72441",
-      "name": "Rafael Tolói",
-      "club": 12,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Italy"
-    },
-    {
-      "id": "257376",
-      "name": "Domingos Duarte",
-      "club": 12,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Portugal"
-    },
-    {
-      "id": "1221747",
-      "name": "Luis Osorio",
-      "club": 12,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "139867",
-      "name": "Robert Arboleda",
-      "club": 12,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
     },
     {
       "id": "1096506",
@@ -6392,43 +7266,9 @@
       "club": 12,
       "pos": "ZAG",
       "posName": "Centre-Back",
-      "age": null,
+      "age": 20,
       "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "520468",
-      "name": "Iago",
-      "club": 12,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil",
-      "loanFrom": "Esporte Clube Bahia"
-    },
-    {
-      "id": "540458",
-      "name": "Enzo Díaz",
-      "club": 12,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "228433",
-      "name": "Wendell",
-      "club": 12,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
+      "contract": "2027-12-31",
       "nat": "Brazil"
     },
     {
@@ -6437,144 +7277,10 @@
       "club": 12,
       "pos": "LE",
       "posName": "Left-Back",
-      "age": null,
+      "age": 19,
       "value": null,
-      "contract": null,
+      "contract": "2029-12-31",
       "nat": "Brazil"
-    },
-    {
-      "id": "1193867",
-      "name": "Pedro Lima",
-      "club": 12,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil",
-      "loanFrom": "Wolverhampton Wanderers"
-    },
-    {
-      "id": "258039",
-      "name": "Aurélio Buta",
-      "club": 12,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Portugal"
-    },
-    {
-      "id": "378189",
-      "name": "Lucas Ramon",
-      "club": 12,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "112988",
-      "name": "Cédric Soares",
-      "club": 12,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Portugal"
-    },
-    {
-      "id": "1219848",
-      "name": "Igor Felisberto",
-      "club": 12,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "892089",
-      "name": "Pablo Maia",
-      "club": 12,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "811219",
-      "name": "Newton",
-      "club": 12,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "468301",
-      "name": "Marcos Antônio",
-      "club": 12,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "861852",
-      "name": "Damián Bobadilla",
-      "club": 12,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Paraguay"
-    },
-    {
-      "id": "1383716",
-      "name": "Djhordney",
-      "club": 12,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "292731",
-      "name": "Danielzinho",
-      "club": 12,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "162812",
-      "name": "Cauly",
-      "club": 12,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil",
-      "loanFrom": "Esporte Clube Bahia"
     },
     {
       "id": "1362701",
@@ -6582,131 +7288,9 @@
       "club": 12,
       "pos": "MEI",
       "posName": "Attacking Midfield",
-      "age": null,
+      "age": 19,
       "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "689017",
-      "name": "Ferreirinha",
-      "club": 12,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1269378",
-      "name": "Lucca",
-      "club": 12,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "381724",
-      "name": "Victor Sá",
-      "club": 12,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1355277",
-      "name": "Tetê",
-      "club": 12,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "440658",
-      "name": "Artur",
-      "club": 12,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil",
-      "loanFrom": "Botafogo de Futebol e Regatas"
-    },
-    {
-      "id": "77100",
-      "name": "Lucas Moura",
-      "club": 12,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1202387",
-      "name": "Ryan Francisco",
-      "club": 12,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "565232",
-      "name": "André Silva",
-      "club": 12,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "284727",
-      "name": "Jonathan Calleri",
-      "club": 12,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "223560",
-      "name": "Luciano",
-      "club": 12,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1095834",
-      "name": "Gustavo Santana",
-      "club": 12,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
+      "contract": "2029-04-30",
       "nat": "Brazil"
     },
     {
@@ -6743,48 +7327,14 @@
       "nat": "Brazil"
     },
     {
-      "id": "869437",
-      "name": "Anthoni",
-      "club": 14,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "876739",
-      "name": "Matheus Cunha",
-      "club": 14,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil",
-      "loanFrom": "Cruzeiro Esporte Clube"
-    },
-    {
-      "id": "264014",
-      "name": "Sergio Rochet",
-      "club": 14,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
       "id": "1094530",
       "name": "Kauan",
       "club": 14,
       "pos": "GOL",
       "posName": "Goalkeeper",
-      "age": null,
+      "age": 23,
       "value": null,
-      "contract": null,
+      "contract": "2027-12-31",
       "nat": "Brazil"
     },
     {
@@ -6793,301 +7343,9 @@
       "club": 14,
       "pos": "GOL",
       "posName": "Goalkeeper",
-      "age": null,
+      "age": 21,
       "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "834444",
-      "name": "Victor Gabriel",
-      "club": 14,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "249730",
-      "name": "Guillermo Maripán",
-      "club": 14,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Chile"
-    },
-    {
-      "id": "468174",
-      "name": "Félix Torres",
-      "club": 14,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador",
-      "loanFrom": "Sport Club Corinthians Paulista"
-    },
-    {
-      "id": "383638",
-      "name": "Juninho",
-      "club": 14,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "45319",
-      "name": "Gabriel Mercado",
-      "club": 14,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "719635",
-      "name": "Alexandro Bernabei",
-      "club": 14,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "741021",
-      "name": "Matheus Bahia",
-      "club": 14,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "703322",
-      "name": "Bruno Gomes",
-      "club": 14,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "829378",
-      "name": "Braian Aguirre",
-      "club": 14,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "657220",
-      "name": "Rodrigo Villagra",
-      "club": 14,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina",
-      "loanFrom": "CSKA Moscow"
-    },
-    {
-      "id": "405768",
-      "name": "Ronaldo",
-      "club": 14,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "294873",
-      "name": "Thiago Maia",
-      "club": 14,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1312046",
-      "name": "Benjamin",
-      "club": 14,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ghana"
-    },
-    {
-      "id": "534473",
-      "name": "Paulinho Paula",
-      "club": 14,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "277335",
-      "name": "Bruno Henrique",
-      "club": 14,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "251813",
-      "name": "Niclas Eliasson",
-      "club": 14,
-      "pos": "PON",
-      "posName": "Right Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Sweden",
-      "loanFrom": "AEK Athens"
-    },
-    {
-      "id": "104505",
-      "name": "Alan Patrick",
-      "club": 14,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "798114",
-      "name": "Calebe",
-      "club": 14,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil",
-      "loanFrom": "Fortaleza Esporte Clube"
-    },
-    {
-      "id": "1220008",
-      "name": "Allex",
-      "club": 14,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1220010",
-      "name": "Yago Noal",
-      "club": 14,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "572042",
-      "name": "Johan Carbonero",
-      "club": 14,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "670965",
-      "name": "Vitinho",
-      "club": 14,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "668265",
-      "name": "Kayky",
-      "club": 14,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil",
-      "loanFrom": "Esporte Clube Bahia"
-    },
-    {
-      "id": "371996",
-      "name": "Alerrandro",
-      "club": 14,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil",
-      "loanFrom": "CSKA Moscow"
-    },
-    {
-      "id": "234523",
-      "name": "Antonio Sanabria",
-      "club": 14,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Paraguay"
-    },
-    {
-      "id": "1355429",
-      "name": "Raykkonen",
-      "club": 14,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
+      "contract": "2026-12-31",
       "nat": "Brazil"
     },
     {
@@ -7112,374 +7370,6 @@
       "contract": "2026-12-31",
       "nat": "Brazil",
       "loanFrom": "GE Anápolis"
-    },
-    {
-      "id": "974488",
-      "name": "Pedro Morisco",
-      "club": 16,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "841263",
-      "name": "Pedro Rangel",
-      "club": 16,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "417084",
-      "name": "Keiller",
-      "club": 16,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil",
-      "loanFrom": "Sport Club Internacional"
-    },
-    {
-      "id": "1095547",
-      "name": "Benassi",
-      "club": 16,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "593382",
-      "name": "Jacy",
-      "club": 16,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "834443",
-      "name": "Tiago Cóser",
-      "club": 16,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "84695",
-      "name": "Maicon",
-      "club": 16,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "119434",
-      "name": "Rodrigo Moledo",
-      "club": 16,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "346922",
-      "name": "Thiago Santos",
-      "club": 16,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "587786",
-      "name": "Felipe Jonatan",
-      "club": 16,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1014555",
-      "name": "Rodrigo Gelado",
-      "club": 16,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "538230",
-      "name": "Bruno Melo",
-      "club": 16,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "275381",
-      "name": "Fabricio Bustos",
-      "club": 16,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "1365159",
-      "name": "Lucas Taverna",
-      "club": 16,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "273442",
-      "name": "Tinga",
-      "club": 16,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "462070",
-      "name": "Nicolás Fonseca",
-      "club": 16,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay",
-      "loanFrom": "Club León FC"
-    },
-    {
-      "id": "1365157",
-      "name": "Tissi",
-      "club": 16,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "530737",
-      "name": "Richard",
-      "club": 16,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "570522",
-      "name": "Sebastián Gómez",
-      "club": 16,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "876874",
-      "name": "Vini Paulista",
-      "club": 16,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "840431",
-      "name": "Gustavo",
-      "club": 16,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "72772",
-      "name": "Josué",
-      "club": 16,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Portugal"
-    },
-    {
-      "id": "895926",
-      "name": "Joaquín Lavega",
-      "club": 16,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay",
-      "loanFrom": "Fluminense Football Club"
-    },
-    {
-      "id": "542598",
-      "name": "Breno Lopes",
-      "club": 16,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "598765",
-      "name": "Brian Ocampo",
-      "club": 16,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "346065",
-      "name": "Keno",
-      "club": 16,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil",
-      "loanFrom": "Fluminense Football Club"
-    },
-    {
-      "id": "1090819",
-      "name": "Lucas Ronier",
-      "club": 16,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "704558",
-      "name": "Fabinho",
-      "club": 16,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1089181",
-      "name": "Paulo Roberto",
-      "club": 16,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "362844",
-      "name": "Pedro Rocha",
-      "club": 16,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "985351",
-      "name": "Renato Marques",
-      "club": 16,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil",
-      "loanFrom": "Mirassol Futebol Clube (SP)"
-    },
-    {
-      "id": "638262",
-      "name": "Rodrigo Rodrigues",
-      "club": 16,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1090820",
-      "name": "Éberth",
-      "club": 16,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
     },
     {
       "id": "143855",

@@ -14,7 +14,7 @@ Atualizado em 06/11/2026. O que está feito vai no fim do arquivo.
 
 ## Mercado da bola
 
-- **Rodar a primeira coleta do Transfermarkt** (README, seção "Mercado da bola"). Até lá o `/mercado` mostra "aguardando coleta". Depois, a Action semanal "Mercado" pode assumir; se o Transfermarkt bloquear o GitHub, rode localmente.
+- **Atualizar os dados de tempos em tempos.** A coleta de 12/11/2026 está publicada (23 ligas, 12.152 jogadores). Cerca de 5% dos jogadores não têm valor e 10% não têm data de contrato no próprio Transfermarkt. A Action semanal "Mercado" pode assumir as atualizações; se o Transfermarkt bloquear o GitHub, rode localmente.
 - **Termos de uso do Transfermarkt.** Os dados são deles. Para um site público, e principalmente monetizado, o ideal é licença ou outra fonte. Decisão sua.
 - **Conferir as ligas sem código fixo** (Uruguai, Colômbia, Chile, Paraguai, Equador, Catar, Emirados): o coletor escolhe pela busca; confira em `data/market/competitions.lock.json` se pegou a 1ª divisão.
 - **Limites conhecidos:** jogador emprestado a um clube de liga não coletada (ex.: Série C, Portugal 2) não aparece como "emprestado fora"; para quem está emprestado fora, o fim do contrato com o clube dono não vem nesse dado; não há salários (dispensa/rescisão custa zero).

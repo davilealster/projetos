@@ -33,6 +33,10 @@ Módulo separado da prancheta: o usuário escolhe um clube da Série A, define o
 - **Mercado:** 23 ligas (Brasil, América do Sul, top 5 da Europa, outros europeus, MLS, México, Arábia, Catar, Emirados). Filtros por liga, nome, posição, idade, valor e "só livres" (contrato terminando). Compra, empréstimo ou contratação livre.
 - **Resumo:** receitas, gastos, saldo, valor e idade média do elenco, chegadas, saídas, decisões pendentes e alertas de elenco (goleiros, laterais etc.).
 
+### Design do módulo
+
+O Mercado tem identidade própria (`src/market/market.css`): a mesa do dirigente em feltro verde, cada jogador numa ficha de papel e cada decisão num carimbo (clicar no carimbo desfaz). Fontes embutidas via `@fontsource`: Big Shoulders (títulos e carimbos), Hanken Grotesk (texto) e DM Mono (valores). O fluxo é em três etapas (Elenco → Mercado → Fechamento), com passo a passo na primeira visita, balancete lateral sempre visível (barra fixa no celular) e quatro gráficos no fechamento: cascata do dinheiro, profundidade por posição, fim dos contratos por ano e idade × valor. As cores dos gráficos foram validadas para daltonismo, e quem sai/chega também se distingue pela forma.
+
 ### Dados (Transfermarkt)
 
 Os dados vêm do Transfermarkt pelo pacote aberto [transfermarkt-api](https://github.com/felipeall/transfermarkt-api) (MIT). **O código é livre, os dados são do Transfermarkt**: confira os termos de uso dele antes de publicar ou monetizar.

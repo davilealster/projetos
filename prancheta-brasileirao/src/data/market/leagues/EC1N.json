@@ -70,6 +70,83 @@
   ],
   "players": [
     {
+      "id": "981674",
+      "name": "Patrik Mercado",
+      "club": 0,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 23,
+      "value": 5000000,
+      "contract": "2028-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "981673",
+      "name": "Emerson Pata",
+      "club": 0,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 22,
+      "value": 3000000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "1257387",
+      "name": "Edwin Quintero",
+      "club": 0,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 17,
+      "value": 3000000,
+      "contract": null,
+      "nat": "Ecuador"
+    },
+    {
+      "id": "1383137",
+      "name": "Luis Fragozo",
+      "club": 3,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 16,
+      "value": 3000000,
+      "contract": null,
+      "nat": "Ecuador"
+    },
+    {
+      "id": "643255",
+      "name": "Hugo Quintana",
+      "club": 0,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 25,
+      "value": 2500000,
+      "contract": "2030-06-30",
+      "nat": "Paraguay"
+    },
+    {
+      "id": "1070369",
+      "name": "Matías Perelló",
+      "club": 0,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 24,
+      "value": 2500000,
+      "contract": "2029-12-31",
+      "nat": "Argentina"
+    },
+    {
+      "id": "598145",
+      "name": "Jordy Alcívar",
+      "club": 0,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 27,
+      "value": 2000000,
+      "contract": "2029-12-31",
+      "nat": "Ecuador"
+    },
+    {
       "id": "351941",
       "name": "Gonzalo Valle",
       "club": 1,
@@ -101,6 +178,50 @@
       "value": 1700000,
       "contract": "2027-06-30",
       "nat": "Argentina"
+    },
+    {
+      "id": "914327",
+      "name": "Layan Loor",
+      "club": 0,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 25,
+      "value": 1500000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "842520",
+      "name": "Daykol Romero",
+      "club": 0,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 25,
+      "value": 1500000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "1257396",
+      "name": "Hólger Quintero",
+      "club": 0,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 17,
+      "value": 1500000,
+      "contract": null,
+      "nat": "Ecuador"
+    },
+    {
+      "id": "881816",
+      "name": "Ronald Briones",
+      "club": 0,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 26,
+      "value": 1500000,
+      "contract": "2028-12-31",
+      "nat": "Ecuador"
     },
     {
       "id": "627920",
@@ -147,6 +268,17 @@
       "nat": "Ecuador"
     },
     {
+      "id": "473346",
+      "name": "Djorkaeff Reasco",
+      "club": 0,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 27,
+      "value": 1200000,
+      "contract": "2028-12-31",
+      "nat": "Ecuador"
+    },
+    {
       "id": "844176",
       "name": "Gabriel Villamíl",
       "club": 1,
@@ -180,6 +312,50 @@
       "nat": "Ecuador"
     },
     {
+      "id": "690837",
+      "name": "Estalin Segura",
+      "club": 3,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 26,
+      "value": 1200000,
+      "contract": "2029-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "465816",
+      "name": "Gonzalo Nápoli",
+      "club": 3,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 26,
+      "value": 1200000,
+      "contract": "2026-12-31",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "213122",
+      "name": "Francisco Pizzini",
+      "club": 3,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 33,
+      "value": 1200000,
+      "contract": "2026-12-31",
+      "nat": "Argentina"
+    },
+    {
+      "id": "348039",
+      "name": "Ronie Carrillo",
+      "club": 3,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 30,
+      "value": 1200000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
       "id": "1221349",
       "name": "Mateo Viera",
       "club": 6,
@@ -200,6 +376,50 @@
       "value": 1200000,
       "contract": "2026-12-31",
       "nat": "Uruguay"
+    },
+    {
+      "id": "872775",
+      "name": "Agustín Herrera",
+      "club": 7,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 28,
+      "value": 1200000,
+      "contract": "2028-12-31",
+      "nat": "Argentina"
+    },
+    {
+      "id": "407168",
+      "name": "Aldair Quintana",
+      "club": 0,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 32,
+      "value": 1000000,
+      "contract": "2028-12-31",
+      "nat": "Colombia"
+    },
+    {
+      "id": "567796",
+      "name": "Guido Villar",
+      "club": 0,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 28,
+      "value": 1000000,
+      "contract": "2027-12-31",
+      "nat": "Argentina"
+    },
+    {
+      "id": "722748",
+      "name": "Aron Rodríguez",
+      "club": 0,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 27,
+      "value": 1000000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
     },
     {
       "id": "385639",
@@ -276,6 +496,17 @@
       "age": 31,
       "value": 1000000,
       "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "690603",
+      "name": "Angelo Mina",
+      "club": 3,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 27,
+      "value": 1000000,
+      "contract": "2028-12-31",
       "nat": "Ecuador"
     },
     {
@@ -376,6 +607,61 @@
       "value": 1000000,
       "contract": "2027-12-31",
       "nat": "Ecuador"
+    },
+    {
+      "id": "578757",
+      "name": "Mateo Carabajal",
+      "club": 0,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 29,
+      "value": 900000,
+      "contract": "2027-12-31",
+      "nat": "Argentina"
+    },
+    {
+      "id": "370174",
+      "name": "Gustavo Cortez",
+      "club": 0,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 29,
+      "value": 900000,
+      "contract": "2027-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "330682",
+      "name": "Jhegson Méndez",
+      "club": 0,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 29,
+      "value": 900000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "189488",
+      "name": "Júnior Sornoza",
+      "club": 0,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 32,
+      "value": 900000,
+      "contract": "2028-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "366620",
+      "name": "Carlos González",
+      "club": 0,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 33,
+      "value": 900000,
+      "contract": "2027-12-31",
+      "nat": "Paraguay"
     },
     {
       "id": "556727",
@@ -499,6 +785,17 @@
       "nat": "Ecuador"
     },
     {
+      "id": "1198161",
+      "name": "Luca Klimowicz",
+      "club": 3,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 22,
+      "value": 800000,
+      "contract": "2026-12-31",
+      "nat": "Argentina"
+    },
+    {
       "id": "391486",
       "name": "Bryan Carabalí",
       "club": 4,
@@ -565,6 +862,28 @@
       "nat": "Venezuela"
     },
     {
+      "id": "718989",
+      "name": "Rolando Silva",
+      "club": 7,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 31,
+      "value": 800000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "1165987",
+      "name": "Erick Zambrano",
+      "club": 7,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 18,
+      "value": 800000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
       "id": "352552",
       "name": "José Juan Manríquez",
       "club": 2,
@@ -587,6 +906,17 @@
       "nat": "Argentina"
     },
     {
+      "id": "1074488",
+      "name": "Michael Bermúdez",
+      "club": 7,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 20,
+      "value": 750000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
       "id": "747543",
       "name": "Junior Ayoví",
       "club": 9,
@@ -607,6 +937,17 @@
       "value": 750000,
       "contract": "2029-12-31",
       "nat": "Uruguay"
+    },
+    {
+      "id": "633793",
+      "name": "Sergio Quintero",
+      "club": 3,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 27,
+      "value": 700000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
     },
     {
       "id": "545547",
@@ -675,6 +1016,28 @@
       "nat": "Ecuador"
     },
     {
+      "id": "514380",
+      "name": "Jhon Espinoza",
+      "club": 0,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 27,
+      "value": 600000,
+      "contract": "2027-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "1113772",
+      "name": "Eduardo Bores",
+      "club": 3,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 24,
+      "value": 600000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
       "id": "400961",
       "name": "Byron Castillo",
       "club": 4,
@@ -717,6 +1080,50 @@
       "value": 600000,
       "contract": null,
       "nat": "Argentina"
+    },
+    {
+      "id": "342792",
+      "name": "Renny Jaramillo",
+      "club": 7,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 28,
+      "value": 600000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "563719",
+      "name": "Valentín Burgoa",
+      "club": 7,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 26,
+      "value": 600000,
+      "contract": "2027-06-30",
+      "nat": "Argentina"
+    },
+    {
+      "id": "242444",
+      "name": "Miguel Parrales",
+      "club": 7,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 30,
+      "value": 600000,
+      "contract": "2027-06-30",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "1074489",
+      "name": "Matías Klimowicz",
+      "club": 8,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 19,
+      "value": 600000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
     },
     {
       "id": "1002670",
@@ -774,6 +1181,50 @@
       "nat": "Panama"
     },
     {
+      "id": "424289",
+      "name": "Juan Viacava",
+      "club": 0,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 27,
+      "value": 500000,
+      "contract": "2029-12-31",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "1066795",
+      "name": "Andy Velasco",
+      "club": 0,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 28,
+      "value": 500000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "981675",
+      "name": "Youri Ochoa",
+      "club": 0,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 21,
+      "value": 500000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "910005",
+      "name": "Jean Arroyo",
+      "club": 0,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 23,
+      "value": 500000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
       "id": "582303",
       "name": "Jesús Pretell",
       "club": 1,
@@ -823,6 +1274,50 @@
       "club": 2,
       "pos": "MEI",
       "posName": "Attacking Midfield",
+      "age": 23,
+      "value": 500000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "857297",
+      "name": "Ignacio Guerrico",
+      "club": 3,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 28,
+      "value": 500000,
+      "contract": "2026-12-31",
+      "nat": "Argentina"
+    },
+    {
+      "id": "750442",
+      "name": "Luis Gómez",
+      "club": 3,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 26,
+      "value": 500000,
+      "contract": "2027-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "1528036",
+      "name": "Reixon Saya",
+      "club": 3,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 18,
+      "value": 500000,
+      "contract": "2028-06-30",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "941416",
+      "name": "Ariel Mina",
+      "club": 3,
+      "pos": "PON",
+      "posName": "Left Winger",
       "age": 23,
       "value": 500000,
       "contract": "2026-12-31",
@@ -890,6 +1385,61 @@
       "pos": "ATA",
       "posName": "Centre-Forward",
       "age": 23,
+      "value": 500000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "666148",
+      "name": "Bryan Viñán",
+      "club": 7,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 26,
+      "value": 500000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "267677",
+      "name": "Facundo Ferrero",
+      "club": 8,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 31,
+      "value": 500000,
+      "contract": "2026-12-31",
+      "nat": "Argentina"
+    },
+    {
+      "id": "1250616",
+      "name": "Jeremy Chacón",
+      "club": 8,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 23,
+      "value": 500000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "1171408",
+      "name": "David González",
+      "club": 8,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 23,
+      "value": 500000,
+      "contract": "2026-12-31",
+      "nat": "Argentina"
+    },
+    {
+      "id": "1285117",
+      "name": "Jeremy Mejía",
+      "club": 8,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 20,
       "value": 500000,
       "contract": "2026-12-31",
       "nat": "Ecuador"
@@ -1005,6 +1555,28 @@
       "nat": "Ecuador"
     },
     {
+      "id": "580636",
+      "name": "Matheo Castaño",
+      "club": 14,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 27,
+      "value": 450000,
+      "contract": "2026-12-31",
+      "nat": "Colombia"
+    },
+    {
+      "id": "648172",
+      "name": "Luis Estupiñán",
+      "club": 14,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 27,
+      "value": 450000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
       "id": "407582",
       "name": "Gian Franco Allala",
       "club": 1,
@@ -1014,6 +1586,39 @@
       "value": 400000,
       "contract": "2027-06-30",
       "nat": "Uruguay"
+    },
+    {
+      "id": "242992",
+      "name": "Fernando León",
+      "club": 3,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 33,
+      "value": 400000,
+      "contract": "2027-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "847202",
+      "name": "Stalin Valencia",
+      "club": 3,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 23,
+      "value": 400000,
+      "contract": "2029-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "129725",
+      "name": "José Francisco Cevallos Jr.",
+      "club": 3,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 31,
+      "value": 400000,
+      "contract": "2027-12-31",
+      "nat": "Ecuador"
     },
     {
       "id": "278796",
@@ -1058,6 +1663,28 @@
       "value": 400000,
       "contract": "2026-12-31",
       "nat": "Uruguay"
+    },
+    {
+      "id": "659801",
+      "name": "Erick Plúas",
+      "club": 7,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 24,
+      "value": 400000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "474262",
+      "name": "Jorge Ordóñez",
+      "club": 8,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 31,
+      "value": 400000,
+      "contract": null,
+      "nat": "Ecuador"
     },
     {
       "id": "682687",
@@ -1159,6 +1786,39 @@
       "nat": "Ecuador"
     },
     {
+      "id": "496062",
+      "name": "Víctor Griffith",
+      "club": 3,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 25,
+      "value": 350000,
+      "contract": "2026-12-31",
+      "nat": "Panama"
+    },
+    {
+      "id": "1107048",
+      "name": "Jefferson Valverde",
+      "club": 3,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 27,
+      "value": 350000,
+      "contract": "2027-06-30",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "745896",
+      "name": "Teodoro Arce",
+      "club": 3,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 26,
+      "value": 350000,
+      "contract": "2027-06-30",
+      "nat": "Paraguay"
+    },
+    {
       "id": "591965",
       "name": "José Angulo",
       "club": 4,
@@ -1201,6 +1861,83 @@
       "value": 350000,
       "contract": "2026-12-31",
       "nat": "Ecuador"
+    },
+    {
+      "id": "556300",
+      "name": "Stefano Callegari",
+      "club": 7,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 29,
+      "value": 350000,
+      "contract": "2026-12-31",
+      "nat": "Argentina"
+    },
+    {
+      "id": "891999",
+      "name": "Óscar Quiñónez",
+      "club": 7,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 25,
+      "value": 350000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "719226",
+      "name": "Nixon Molina",
+      "club": 7,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 33,
+      "value": 350000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "687631",
+      "name": "Mateo Piedra",
+      "club": 8,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 26,
+      "value": 350000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "981654",
+      "name": "Yeltzin Erique",
+      "club": 8,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 23,
+      "value": 350000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "927108",
+      "name": "Ignacio Mosquera",
+      "club": 8,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 22,
+      "value": 350000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "723699",
+      "name": "Mateo Maccari",
+      "club": 8,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 25,
+      "value": 350000,
+      "contract": "2026-12-31",
+      "nat": "Argentina"
     },
     {
       "id": "872996",
@@ -1313,6 +2050,50 @@
       "nat": "Argentina"
     },
     {
+      "id": "888781",
+      "name": "Santiago Razzeto",
+      "club": 14,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 25,
+      "value": 350000,
+      "contract": "2026-12-31",
+      "nat": "Argentina"
+    },
+    {
+      "id": "653439",
+      "name": "Julián Anaya",
+      "club": 14,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 27,
+      "value": 350000,
+      "contract": "2026-12-31",
+      "nat": "Colombia"
+    },
+    {
+      "id": "1297886",
+      "name": "Yorlin Arce",
+      "club": 14,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 26,
+      "value": 350000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "569221",
+      "name": "Johan Bocanegra",
+      "club": 14,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 28,
+      "value": 350000,
+      "contract": "2026-12-31",
+      "nat": "Colombia"
+    },
+    {
       "id": "891682",
       "name": "Braian Ramírez",
       "club": 15,
@@ -1390,6 +2171,28 @@
       "nat": "Nigeria"
     },
     {
+      "id": "430042",
+      "name": "Pedro Ortiz",
+      "club": 3,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 36,
+      "value": 300000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "310003",
+      "name": "Mario Valero",
+      "club": 3,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 31,
+      "value": 300000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
       "id": "473096",
       "name": "Willian Vargas",
       "club": 4,
@@ -1432,6 +2235,72 @@
       "value": 300000,
       "contract": "2026-12-31",
       "nat": "Argentina"
+    },
+    {
+      "id": "653330",
+      "name": "Sixto Mina",
+      "club": 7,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 27,
+      "value": 300000,
+      "contract": "2028-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "883618",
+      "name": "Steeven Quiñónez",
+      "club": 7,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 25,
+      "value": 300000,
+      "contract": null,
+      "nat": "Ecuador"
+    },
+    {
+      "id": "201420",
+      "name": "Pedro Velasco",
+      "club": 7,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 33,
+      "value": 300000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "1207137",
+      "name": "Santiago Postel",
+      "club": 8,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 23,
+      "value": 300000,
+      "contract": "2026-12-31",
+      "nat": "Argentina"
+    },
+    {
+      "id": "212653",
+      "name": "Andrés López",
+      "club": 8,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 33,
+      "value": 300000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "739496",
+      "name": "Bryan García",
+      "club": 8,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 25,
+      "value": 300000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
     },
     {
       "id": "682079",
@@ -1610,6 +2479,39 @@
       "nat": "Argentina"
     },
     {
+      "id": "988945",
+      "name": "Edwin Mesa",
+      "club": 14,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 28,
+      "value": 300000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "892026",
+      "name": "Jonathan Majao",
+      "club": 14,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 23,
+      "value": 300000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "882954",
+      "name": "Heuyín Guardia",
+      "club": 14,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 25,
+      "value": 300000,
+      "contract": "2026-12-31",
+      "nat": "Panama"
+    },
+    {
       "id": "555674",
       "name": "Dagner Quintero",
       "club": 15,
@@ -1676,6 +2578,50 @@
       "nat": "Uruguay"
     },
     {
+      "id": "830853",
+      "name": "Gian Nardelli",
+      "club": 8,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 26,
+      "value": 275000,
+      "contract": "2026-12-31",
+      "nat": "Argentina"
+    },
+    {
+      "id": "491585",
+      "name": "Luis Zárate",
+      "club": 0,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 26,
+      "value": 250000,
+      "contract": "2027-12-31",
+      "nat": "Paraguay"
+    },
+    {
+      "id": "440015",
+      "name": "Richard Schunke",
+      "club": 0,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 34,
+      "value": 250000,
+      "contract": null,
+      "nat": "Argentina"
+    },
+    {
+      "id": "1185506",
+      "name": "Yandri Vásquez",
+      "club": 0,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 20,
+      "value": 250000,
+      "contract": null,
+      "nat": "Ecuador"
+    },
+    {
       "id": "903610",
       "name": "Sebastián González",
       "club": 1,
@@ -1696,6 +2642,28 @@
       "value": 250000,
       "contract": "2026-12-31",
       "nat": "Ecuador"
+    },
+    {
+      "id": "1521836",
+      "name": "Ibrain Cuero",
+      "club": 3,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 21,
+      "value": 250000,
+      "contract": "2028-06-30",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "441856",
+      "name": "Juan Pablo Ruíz",
+      "club": 3,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 32,
+      "value": 250000,
+      "contract": "2027-12-31",
+      "nat": "Argentina"
     },
     {
       "id": "87360",
@@ -1773,6 +2741,39 @@
       "value": 250000,
       "contract": "2026-12-31",
       "nat": "Argentina"
+    },
+    {
+      "id": "421091",
+      "name": "Beder Caicedo",
+      "club": 7,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 34,
+      "value": 250000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "697057",
+      "name": "Patricio Boolsen",
+      "club": 8,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 28,
+      "value": 250000,
+      "contract": "2026-12-31",
+      "nat": "Argentina"
+    },
+    {
+      "id": "820099",
+      "name": "Melvin Díaz",
+      "club": 8,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 24,
+      "value": 250000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
     },
     {
       "id": "1127431",
@@ -1874,6 +2875,39 @@
       "nat": "Ecuador"
     },
     {
+      "id": "981485",
+      "name": "Luis Córdova",
+      "club": 14,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 23,
+      "value": 250000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "412883",
+      "name": "Adrian Cela",
+      "club": 14,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 29,
+      "value": 250000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "349600",
+      "name": "Bagner Delgado",
+      "club": 14,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 30,
+      "value": 250000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
       "id": "719281",
       "name": "Alexander Medina",
       "club": 15,
@@ -1907,6 +2941,17 @@
       "nat": "Argentina"
     },
     {
+      "id": "263605",
+      "name": "Romario Ibarra",
+      "club": 8,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 32,
+      "value": 225000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
       "id": "682082",
       "name": "Esnáider Cabezas",
       "club": 9,
@@ -1936,6 +2981,17 @@
       "posName": "Right Winger",
       "age": 35,
       "value": 225000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "1088057",
+      "name": "Steven Góngora",
+      "club": 0,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 23,
+      "value": 200000,
       "contract": "2026-12-31",
       "nat": "Ecuador"
     },
@@ -1990,6 +3046,39 @@
       "pos": "LE",
       "posName": "Left-Back",
       "age": 27,
+      "value": 200000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "544037",
+      "name": "Alan Lorenzo",
+      "club": 7,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 28,
+      "value": 200000,
+      "contract": "2026-12-31",
+      "nat": "Argentina"
+    },
+    {
+      "id": "212323",
+      "name": "Edison Vega",
+      "club": 8,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 36,
+      "value": 200000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "256975",
+      "name": "Carlos Arboleda",
+      "club": 8,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 35,
       "value": 200000,
       "contract": "2026-12-31",
       "nat": "Ecuador"
@@ -2160,6 +3249,28 @@
       "nat": "Ecuador"
     },
     {
+      "id": "1022668",
+      "name": "Mauricio Cagua",
+      "club": 14,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 22,
+      "value": 200000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "312725",
+      "name": "Carlos Cuero",
+      "club": 14,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 30,
+      "value": 200000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
       "id": "1240916",
       "name": "Josué Chalá",
       "club": 15,
@@ -2215,6 +3326,28 @@
       "nat": "Colombia"
     },
     {
+      "id": "123609",
+      "name": "Ángel Mena",
+      "club": 7,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 38,
+      "value": 175000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "337592",
+      "name": "Eddie Guevara",
+      "club": 8,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 36,
+      "value": 175000,
+      "contract": null,
+      "nat": "Ecuador"
+    },
+    {
       "id": "264290",
       "name": "Elvis Patta",
       "club": 11,
@@ -2235,6 +3368,17 @@
       "value": 175000,
       "contract": "2026-12-31",
       "nat": "Argentina"
+    },
+    {
+      "id": "146367",
+      "name": "Juan Cazares",
+      "club": 0,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 34,
+      "value": 150000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
     },
     {
       "id": "491612",
@@ -2355,6 +3499,28 @@
       "age": 31,
       "value": 150000,
       "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "1252761",
+      "name": "Gonzalo Rostagno",
+      "club": 7,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 24,
+      "value": 150000,
+      "contract": "2026-12-31",
+      "nat": "Argentina"
+    },
+    {
+      "id": "1387027",
+      "name": "Cristhian Benalcazar",
+      "club": 8,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 25,
+      "value": 150000,
+      "contract": null,
       "nat": "Ecuador"
     },
     {
@@ -2490,6 +3656,17 @@
       "nat": "Ecuador"
     },
     {
+      "id": "1099020",
+      "name": "José Caicedo",
+      "club": 14,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 22,
+      "value": 150000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
       "id": "189471",
       "name": "Wálter Chávez",
       "club": 15,
@@ -2521,6 +3698,17 @@
       "value": 150000,
       "contract": "2026-12-31",
       "nat": "Colombia"
+    },
+    {
+      "id": "1185496",
+      "name": "Aníbal Gómez",
+      "club": 0,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 20,
+      "value": 125000,
+      "contract": null,
+      "nat": "Ecuador"
     },
     {
       "id": "1087320",
@@ -2556,6 +3744,17 @@
       "nat": "Argentina"
     },
     {
+      "id": "202761",
+      "name": "Lucas Mancinelli",
+      "club": 8,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 37,
+      "value": 125000,
+      "contract": "2026-12-31",
+      "nat": "Argentina"
+    },
+    {
       "id": "103246",
       "name": "Miler Bolaños",
       "club": 9,
@@ -2586,6 +3785,17 @@
       "age": 24,
       "value": 125000,
       "contract": "2026-11-30",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "556725",
+      "name": "Diego Armas",
+      "club": 14,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 36,
+      "value": 125000,
+      "contract": null,
       "nat": "Ecuador"
     },
     {
@@ -2628,6 +3838,28 @@
       "pos": "VOL",
       "posName": "Defensive Midfield",
       "age": 20,
+      "value": 100000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "610333",
+      "name": "Aníbal Leguizamón",
+      "club": 3,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 34,
+      "value": 100000,
+      "contract": "2027-12-31",
+      "nat": "Argentina"
+    },
+    {
+      "id": "893648",
+      "name": "Orlando Herrera",
+      "club": 3,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 22,
       "value": 100000,
       "contract": "2026-12-31",
       "nat": "Ecuador"
@@ -2716,6 +3948,50 @@
       "pos": "ZAG",
       "posName": "Centre-Back",
       "age": 31,
+      "value": 100000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "983013",
+      "name": "Bryan Quiñónez",
+      "club": 7,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 23,
+      "value": 100000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "1371078",
+      "name": "Carlos Barrio",
+      "club": 7,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 25,
+      "value": 100000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "1116428",
+      "name": "Jhon Valencia",
+      "club": 7,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 24,
+      "value": 100000,
+      "contract": "2026-12-31",
+      "nat": "Colombia"
+    },
+    {
+      "id": "903613",
+      "name": "Ethan Minda",
+      "club": 8,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 22,
       "value": 100000,
       "contract": "2026-12-31",
       "nat": "Ecuador"
@@ -2886,6 +4162,61 @@
       "nat": "Ecuador"
     },
     {
+      "id": "460895",
+      "name": "Stiwar Mena",
+      "club": 14,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 32,
+      "value": 100000,
+      "contract": "2026-12-31",
+      "nat": "Colombia"
+    },
+    {
+      "id": "819710",
+      "name": "Liberman Torres",
+      "club": 14,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 24,
+      "value": 100000,
+      "contract": "2027-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "1234956",
+      "name": "Cristopher Arteaga",
+      "club": 14,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 26,
+      "value": 100000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "1417571",
+      "name": "Anthony Castillo",
+      "club": 14,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 19,
+      "value": 100000,
+      "contract": null,
+      "nat": "Ecuador"
+    },
+    {
+      "id": "717124",
+      "name": "Wagner Caicedo",
+      "club": 14,
+      "pos": "MEI",
+      "posName": null,
+      "age": 26,
+      "value": 100000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
       "id": "716802",
       "name": "Jefferson Nazareno",
       "club": 15,
@@ -2939,6 +4270,17 @@
       "value": 75000,
       "contract": "2027-12-31",
       "nat": "Ecuador"
+    },
+    {
+      "id": "396869",
+      "name": "Germán Rivero",
+      "club": 8,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 34,
+      "value": 75000,
+      "contract": "2026-12-31",
+      "nat": "Argentina"
     },
     {
       "id": "79767",
@@ -3018,6 +4360,17 @@
       "nat": "Argentina"
     },
     {
+      "id": "139494",
+      "name": "Jaime Ayoví",
+      "club": 3,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 38,
+      "value": 50000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
       "id": "1235130",
       "name": "Klever Caicedo",
       "club": 4,
@@ -3068,6 +4421,61 @@
       "pos": "ATA",
       "posName": "Centre-Forward",
       "age": 22,
+      "value": 50000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "1003045",
+      "name": "Jordy Ortiz",
+      "club": 7,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 23,
+      "value": 50000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "123475",
+      "name": "Gabriel Achilier",
+      "club": 7,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 41,
+      "value": 50000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "1000705",
+      "name": "David Quintero",
+      "club": 7,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 22,
+      "value": 50000,
+      "contract": "2026-12-31",
+      "nat": "Colombia"
+    },
+    {
+      "id": "323927",
+      "name": "David Noboa",
+      "club": 8,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 31,
+      "value": 50000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "941417",
+      "name": "Mathías Solís",
+      "club": 8,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 21,
       "value": 50000,
       "contract": "2026-12-31",
       "nat": "Ecuador"
@@ -3205,6 +4613,61 @@
       "nat": "Ecuador"
     },
     {
+      "id": "274901",
+      "name": "Marco Carrasco",
+      "club": 14,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 33,
+      "value": 50000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "213303",
+      "name": "Kener Arce",
+      "club": 14,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 38,
+      "value": 50000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "1484864",
+      "name": "Rafael Chila",
+      "club": 14,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 20,
+      "value": 50000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "1052848",
+      "name": "Carlos Estupiñán",
+      "club": 14,
+      "pos": "MEI",
+      "posName": null,
+      "age": 32,
+      "value": 50000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "264389",
+      "name": "Bryan Oña",
+      "club": 14,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 32,
+      "value": 50000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
       "id": "747496",
       "name": "Feyiseitan Asagidigbi",
       "club": 15,
@@ -3238,6 +4701,17 @@
       "nat": "Ecuador"
     },
     {
+      "id": "1074509",
+      "name": "Jheremy Gonzaga",
+      "club": 3,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 20,
+      "value": 25000,
+      "contract": "2027-12-31",
+      "nat": "Ecuador"
+    },
+    {
       "id": "1143336",
       "name": "Ronald Perlaza",
       "club": 4,
@@ -3266,6 +4740,28 @@
       "pos": "ATA",
       "posName": "Centre-Forward",
       "age": 20,
+      "value": 25000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
+      "id": "1525010",
+      "name": "Luis Miguel Garcés",
+      "club": 7,
+      "pos": "MEI",
+      "posName": null,
+      "age": 19,
+      "value": 25000,
+      "contract": null,
+      "nat": "Ecuador"
+    },
+    {
+      "id": "1305706",
+      "name": "Félix Angüisaca",
+      "club": 8,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 21,
       "value": 25000,
       "contract": "2026-12-31",
       "nat": "Ecuador"
@@ -3348,6 +4844,17 @@
       "nat": "Ecuador"
     },
     {
+      "id": "345903",
+      "name": "Ayrton Morales",
+      "club": 14,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 31,
+      "value": 25000,
+      "contract": "2026-12-31",
+      "nat": "Ecuador"
+    },
+    {
       "id": "1233993",
       "name": "Estefano Pico",
       "club": 15,
@@ -3370,344 +4877,14 @@
       "nat": "Argentina"
     },
     {
-      "id": "407168",
-      "name": "Aldair Quintana",
-      "club": 0,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "567796",
-      "name": "Guido Villar",
-      "club": 0,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "1262011",
-      "name": "Miguel Peralta",
-      "club": 0,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "578757",
-      "name": "Mateo Carabajal",
-      "club": 0,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "424289",
-      "name": "Juan Viacava",
-      "club": 0,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "1066795",
-      "name": "Andy Velasco",
-      "club": 0,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "491585",
-      "name": "Luis Zárate",
-      "club": 0,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Paraguay"
-    },
-    {
-      "id": "440015",
-      "name": "Richard Schunke",
-      "club": 0,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "1185496",
-      "name": "Aníbal Gómez",
-      "club": 0,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "914327",
-      "name": "Layan Loor",
-      "club": 0,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "370174",
-      "name": "Gustavo Cortez",
-      "club": 0,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "842520",
-      "name": "Daykol Romero",
-      "club": 0,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "514380",
-      "name": "Jhon Espinoza",
-      "club": 0,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "598145",
-      "name": "Jordy Alcívar",
-      "club": 0,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "330682",
-      "name": "Jhegson Méndez",
-      "club": 0,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "981675",
-      "name": "Youri Ochoa",
-      "club": 0,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "643255",
-      "name": "Hugo Quintana",
-      "club": 0,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Paraguay"
-    },
-    {
-      "id": "981674",
-      "name": "Patrik Mercado",
-      "club": 0,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "1257396",
-      "name": "Hólger Quintero",
-      "club": 0,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "189488",
-      "name": "Júnior Sornoza",
-      "club": 0,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "910005",
-      "name": "Jean Arroyo",
-      "club": 0,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "146367",
-      "name": "Juan Cazares",
-      "club": 0,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "981673",
-      "name": "Emerson Pata",
-      "club": 0,
+      "id": "1287296",
+      "name": "Andrés Viteri",
+      "club": 3,
       "pos": "PON",
       "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "881816",
-      "name": "Ronald Briones",
-      "club": 0,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "722748",
-      "name": "Aron Rodríguez",
-      "club": 0,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "1088057",
-      "name": "Steven Góngora",
-      "club": 0,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "1257387",
-      "name": "Edwin Quintero",
-      "club": 0,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "1070369",
-      "name": "Matías Perelló",
-      "club": 0,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "473346",
-      "name": "Djorkaeff Reasco",
-      "club": 0,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "366620",
-      "name": "Carlos González",
-      "club": 0,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Paraguay"
-    },
-    {
-      "id": "1185506",
-      "name": "Yandri Vásquez",
-      "club": 0,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
+      "age": 21,
+      "value": 10000,
+      "contract": "2026-12-31",
       "nat": "Ecuador"
     },
     {
@@ -3722,333 +4899,14 @@
       "nat": "Ecuador"
     },
     {
-      "id": "1113772",
-      "name": "Eduardo Bores",
-      "club": 3,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "430042",
-      "name": "Pedro Ortiz",
-      "club": 3,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "310003",
-      "name": "Mario Valero",
-      "club": 3,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
       "id": "1546493",
       "name": "Ezequiel Castañeda",
       "club": 3,
       "pos": "GOL",
       "posName": "Goalkeeper",
-      "age": null,
+      "age": 22,
       "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "690837",
-      "name": "Estalin Segura",
-      "club": 3,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "242992",
-      "name": "Fernando León",
-      "club": 3,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "847202",
-      "name": "Stalin Valencia",
-      "club": 3,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "610333",
-      "name": "Aníbal Leguizamón",
-      "club": 3,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "857297",
-      "name": "Ignacio Guerrico",
-      "club": 3,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "750442",
-      "name": "Luis Gómez",
-      "club": 3,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "1521836",
-      "name": "Ibrain Cuero",
-      "club": 3,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "893648",
-      "name": "Orlando Herrera",
-      "club": 3,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "690603",
-      "name": "Angelo Mina",
-      "club": 3,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "633793",
-      "name": "Sergio Quintero",
-      "club": 3,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "496062",
-      "name": "Víctor Griffith",
-      "club": 3,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Panama"
-    },
-    {
-      "id": "1107048",
-      "name": "Jefferson Valverde",
-      "club": 3,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "465816",
-      "name": "Gonzalo Nápoli",
-      "club": 3,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "1257425",
-      "name": "Bolívar Tobar",
-      "club": 3,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "1528036",
-      "name": "Reixon Saya",
-      "club": 3,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "129725",
-      "name": "José Francisco Cevallos Jr.",
-      "club": 3,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "941416",
-      "name": "Ariel Mina",
-      "club": 3,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "745896",
-      "name": "Teodoro Arce",
-      "club": 3,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Paraguay"
-    },
-    {
-      "id": "1287296",
-      "name": "Andrés Viteri",
-      "club": 3,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "1383137",
-      "name": "Luis Fragozo",
-      "club": 3,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "213122",
-      "name": "Francisco Pizzini",
-      "club": 3,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "441856",
-      "name": "Juan Pablo Ruíz",
-      "club": 3,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "348039",
-      "name": "Ronie Carrillo",
-      "club": 3,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "1198161",
-      "name": "Luca Klimowicz",
-      "club": 3,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "139494",
-      "name": "Jaime Ayoví",
-      "club": 3,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "1074509",
-      "name": "Jheremy Gonzaga",
-      "club": 3,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
+      "contract": "2026-12-31",
       "nat": "Ecuador"
     },
     {
@@ -4085,331 +4943,12 @@
       "nat": "Ecuador"
     },
     {
-      "id": "718989",
-      "name": "Rolando Silva",
-      "club": 7,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "1003045",
-      "name": "Jordy Ortiz",
-      "club": 7,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "556300",
-      "name": "Stefano Callegari",
-      "club": 7,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "891999",
-      "name": "Óscar Quiñónez",
-      "club": 7,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "653330",
-      "name": "Sixto Mina",
-      "club": 7,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "544037",
-      "name": "Alan Lorenzo",
-      "club": 7,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "983013",
-      "name": "Bryan Quiñónez",
-      "club": 7,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "123475",
-      "name": "Gabriel Achilier",
-      "club": 7,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "666148",
-      "name": "Bryan Viñán",
-      "club": 7,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "421091",
-      "name": "Beder Caicedo",
-      "club": 7,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "883618",
-      "name": "Steeven Quiñónez",
-      "club": 7,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "201420",
-      "name": "Pedro Velasco",
-      "club": 7,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "342792",
-      "name": "Renny Jaramillo",
-      "club": 7,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "659801",
-      "name": "Erick Plúas",
-      "club": 7,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "719226",
-      "name": "Nixon Molina",
-      "club": 7,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "1371078",
-      "name": "Carlos Barrio",
-      "club": 7,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "1000705",
-      "name": "David Quintero",
-      "club": 7,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "1257424",
-      "name": "Cristhian Ortiz",
-      "club": 7,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "1252761",
-      "name": "Gonzalo Rostagno",
-      "club": 7,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "563719",
-      "name": "Valentín Burgoa",
-      "club": 7,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "1165987",
-      "name": "Erick Zambrano",
-      "club": 7,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "123609",
-      "name": "Ángel Mena",
-      "club": 7,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "1116428",
-      "name": "Jhon Valencia",
-      "club": 7,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "872775",
-      "name": "Agustín Herrera",
-      "club": 7,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "1074488",
-      "name": "Michael Bermúdez",
-      "club": 7,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "242444",
-      "name": "Miguel Parrales",
-      "club": 7,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
       "id": "983025",
       "name": "Wilson Chuchuca",
       "club": 7,
       "pos": "ATA",
       "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "1525010",
-      "name": "Luis Miguel Garcés",
-      "club": 7,
-      "pos": "MEI",
-      "posName": null,
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "267677",
-      "name": "Facundo Ferrero",
-      "club": 8,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "903613",
-      "name": "Ethan Minda",
-      "club": 8,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
+      "age": 23,
       "value": null,
       "contract": null,
       "nat": "Ecuador"
@@ -4420,141 +4959,9 @@
       "club": 8,
       "pos": "GOL",
       "posName": "Goalkeeper",
-      "age": null,
+      "age": 20,
       "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "1207137",
-      "name": "Santiago Postel",
-      "club": 8,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "830853",
-      "name": "Gian Nardelli",
-      "club": 8,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "697057",
-      "name": "Patricio Boolsen",
-      "club": 8,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "337592",
-      "name": "Eddie Guevara",
-      "club": 8,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "1305706",
-      "name": "Félix Angüisaca",
-      "club": 8,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "687631",
-      "name": "Mateo Piedra",
-      "club": 8,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "981654",
-      "name": "Yeltzin Erique",
-      "club": 8,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "927108",
-      "name": "Ignacio Mosquera",
-      "club": 8,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "212653",
-      "name": "Andrés López",
-      "club": 8,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "723699",
-      "name": "Mateo Maccari",
-      "club": 8,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "212323",
-      "name": "Edison Vega",
-      "club": 8,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "323927",
-      "name": "David Noboa",
-      "club": 8,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
+      "contract": "2026-12-31",
       "nat": "Ecuador"
     },
     {
@@ -4563,164 +4970,10 @@
       "club": 8,
       "pos": "VOL",
       "posName": "Defensive Midfield",
-      "age": null,
+      "age": 21,
       "value": null,
       "contract": null,
       "nat": "Ecuador"
-    },
-    {
-      "id": "1250616",
-      "name": "Jeremy Chacón",
-      "club": 8,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "739496",
-      "name": "Bryan García",
-      "club": 8,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "1253582",
-      "name": "Paulo Uruchima",
-      "club": 8,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "1171408",
-      "name": "David González",
-      "club": 8,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "820099",
-      "name": "Melvin Díaz",
-      "club": 8,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "263605",
-      "name": "Romario Ibarra",
-      "club": 8,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "256975",
-      "name": "Carlos Arboleda",
-      "club": 8,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "941417",
-      "name": "Mathías Solís",
-      "club": 8,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "1285117",
-      "name": "Jeremy Mejía",
-      "club": 8,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "474262",
-      "name": "Jorge Ordóñez",
-      "club": 8,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "202761",
-      "name": "Lucas Mancinelli",
-      "club": 8,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "1074489",
-      "name": "Matías Klimowicz",
-      "club": 8,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "1387027",
-      "name": "Cristhian Benalcazar",
-      "club": 8,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "396869",
-      "name": "Germán Rivero",
-      "club": 8,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
     },
     {
       "id": "1405381",
@@ -4811,312 +5064,15 @@
       "nat": "Ecuador"
     },
     {
-      "id": "888781",
-      "name": "Santiago Razzeto",
-      "club": 14,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "345903",
-      "name": "Ayrton Morales",
-      "club": 14,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
       "id": "1267538",
       "name": "Juan López",
       "club": 14,
       "pos": "GOL",
       "posName": "Goalkeeper",
-      "age": null,
+      "age": 21,
       "value": null,
       "contract": null,
       "nat": "Ecuador"
-    },
-    {
-      "id": "653439",
-      "name": "Julián Anaya",
-      "club": 14,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "981485",
-      "name": "Luis Córdova",
-      "club": 14,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "1022668",
-      "name": "Mauricio Cagua",
-      "club": 14,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "460895",
-      "name": "Stiwar Mena",
-      "club": 14,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "312725",
-      "name": "Carlos Cuero",
-      "club": 14,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "1099020",
-      "name": "José Caicedo",
-      "club": 14,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "988945",
-      "name": "Edwin Mesa",
-      "club": 14,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "274901",
-      "name": "Marco Carrasco",
-      "club": 14,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "1297886",
-      "name": "Yorlin Arce",
-      "club": 14,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "892026",
-      "name": "Jonathan Majao",
-      "club": 14,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "412883",
-      "name": "Adrian Cela",
-      "club": 14,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "819710",
-      "name": "Liberman Torres",
-      "club": 14,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "1345833",
-      "name": "Felipe Castillo",
-      "club": 14,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "213303",
-      "name": "Kener Arce",
-      "club": 14,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "1484864",
-      "name": "Rafael Chila",
-      "club": 14,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "580636",
-      "name": "Matheo Castaño",
-      "club": 14,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "569221",
-      "name": "Johan Bocanegra",
-      "club": 14,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "556725",
-      "name": "Diego Armas",
-      "club": 14,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "1234956",
-      "name": "Cristopher Arteaga",
-      "club": 14,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "1052848",
-      "name": "Carlos Estupiñán",
-      "club": 14,
-      "pos": "MEI",
-      "posName": null,
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "648172",
-      "name": "Luis Estupiñán",
-      "club": 14,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "349600",
-      "name": "Bagner Delgado",
-      "club": 14,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "1417571",
-      "name": "Anthony Castillo",
-      "club": 14,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "264389",
-      "name": "Bryan Oña",
-      "club": 14,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "882954",
-      "name": "Heuyín Guardia",
-      "club": 14,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Panama"
     },
     {
       "id": "1459899",
@@ -5124,20 +5080,9 @@
       "club": 14,
       "pos": "ATA",
       "posName": "Centre-Forward",
-      "age": null,
+      "age": 22,
       "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "717124",
-      "name": "Wagner Caicedo",
-      "club": 14,
-      "pos": "MEI",
-      "posName": null,
-      "age": null,
-      "value": null,
-      "contract": null,
+      "contract": "2026-12-31",
       "nat": "Ecuador"
     },
     {

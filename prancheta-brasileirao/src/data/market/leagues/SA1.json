@@ -639,6 +639,17 @@
       "nat": "Cote d'Ivoire"
     },
     {
+      "id": "229004",
+      "name": "Moussa Dembélé",
+      "club": 8,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 30,
+      "value": 7000000,
+      "contract": "2027-06-30",
+      "nat": "France"
+    },
+    {
       "id": "901181",
       "name": "Musab Al-Juwayr",
       "club": 2,
@@ -659,6 +670,17 @@
       "value": 6000000,
       "contract": "2027-06-30",
       "nat": "Senegal"
+    },
+    {
+      "id": "401475",
+      "name": "Oscar",
+      "club": 9,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 28,
+      "value": 6000000,
+      "contract": "2028-06-30",
+      "nat": "Liberia"
     },
     {
       "id": "471582",
@@ -683,6 +705,17 @@
       "nat": "Slovakia"
     },
     {
+      "id": "486624",
+      "name": "Musa Barrow",
+      "club": 11,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 27,
+      "value": 6000000,
+      "contract": "2027-06-30",
+      "nat": "The Gambia"
+    },
+    {
       "id": "1235583",
       "name": "Suleman Sani",
       "club": 2,
@@ -703,6 +736,39 @@
       "value": 5000000,
       "contract": "2027-06-30",
       "nat": "Belgium"
+    },
+    {
+      "id": "1091219",
+      "name": "Abdoulaye Kanté",
+      "club": 8,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 21,
+      "value": 5000000,
+      "contract": "2030-06-30",
+      "nat": "Cote d'Ivoire"
+    },
+    {
+      "id": "624913",
+      "name": "Parfait Guiagon",
+      "club": 9,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 25,
+      "value": 5000000,
+      "contract": "2029-06-30",
+      "nat": "Cote d'Ivoire"
+    },
+    {
+      "id": "250013",
+      "name": "Angelo Fulgini",
+      "club": 11,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 30,
+      "value": 5000000,
+      "contract": "2028-06-30",
+      "nat": "New Caledonia"
     },
     {
       "id": "203496",
@@ -848,6 +914,17 @@
       "nat": "DR Congo"
     },
     {
+      "id": "515496",
+      "name": "Mailson",
+      "club": 9,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 30,
+      "value": 3800000,
+      "contract": "2028-06-30",
+      "nat": "Brazil"
+    },
+    {
       "id": "485729",
       "name": "Fashion Sakala",
       "club": 14,
@@ -903,6 +980,28 @@
       "nat": "France"
     },
     {
+      "id": "329720",
+      "name": "Pedro Henrique",
+      "club": 8,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 31,
+      "value": 3500000,
+      "contract": "2028-06-30",
+      "nat": "Brazil"
+    },
+    {
+      "id": "308552",
+      "name": "Jordan Larsson",
+      "club": 8,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 29,
+      "value": 3500000,
+      "contract": "2029-06-30",
+      "nat": "Sweden"
+    },
+    {
       "id": "367464",
       "name": "Luís Maximiano",
       "club": 5,
@@ -912,6 +1011,28 @@
       "value": 3200000,
       "contract": "2029-06-30",
       "nat": "Portugal"
+    },
+    {
+      "id": "253839",
+      "name": "Álvaro Medrán",
+      "club": 8,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 32,
+      "value": 3200000,
+      "contract": "2027-06-30",
+      "nat": "Spain"
+    },
+    {
+      "id": "675946",
+      "name": "Marin Petkov",
+      "club": 9,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 23,
+      "value": 3200000,
+      "contract": "2028-06-30",
+      "nat": "Bulgaria"
     },
     {
       "id": "207834",
@@ -958,6 +1079,28 @@
       "nat": "France"
     },
     {
+      "id": "232418",
+      "name": "Ondrej Duda",
+      "club": 8,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 31,
+      "value": 3000000,
+      "contract": "2027-06-30",
+      "nat": "Slovakia"
+    },
+    {
+      "id": "295764",
+      "name": "Aschraf El Mahdioui",
+      "club": 9,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 30,
+      "value": 3000000,
+      "contract": "2028-06-30",
+      "nat": "Morocco"
+    },
+    {
       "id": "395523",
       "name": "Wilfried Kanga",
       "club": 10,
@@ -980,6 +1123,28 @@
       "nat": "DR Congo"
     },
     {
+      "id": "186901",
+      "name": "Marek Rodák",
+      "club": 8,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 29,
+      "value": 2800000,
+      "contract": "2027-06-30",
+      "nat": "Slovakia"
+    },
+    {
+      "id": "1075590",
+      "name": "Rayane Messi",
+      "club": 8,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 19,
+      "value": 2800000,
+      "contract": "2027-06-30",
+      "nat": "France"
+    },
+    {
       "id": "1238031",
       "name": "Sabri Dahal",
       "club": 0,
@@ -989,6 +1154,39 @@
       "value": 2500000,
       "contract": "2031-06-30",
       "nat": "Saudi Arabia"
+    },
+    {
+      "id": "363223",
+      "name": "Jack Hendry",
+      "club": 8,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 31,
+      "value": 2500000,
+      "contract": "2028-06-30",
+      "nat": "Scotland"
+    },
+    {
+      "id": "631923",
+      "name": "Khalid Al-Ghannam",
+      "club": 8,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 26,
+      "value": 2500000,
+      "contract": "2028-06-30",
+      "nat": "Saudi Arabia"
+    },
+    {
+      "id": "390177",
+      "name": "Nedim Bajrami",
+      "club": 9,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 27,
+      "value": 2500000,
+      "contract": "2027-06-30",
+      "nat": "Albania"
     },
     {
       "id": "215679",
@@ -1044,6 +1242,28 @@
       "value": 2000000,
       "contract": "2027-06-30",
       "nat": "Ghana"
+    },
+    {
+      "id": "229695",
+      "name": "Bersant Celina",
+      "club": 8,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 30,
+      "value": 2000000,
+      "contract": "2029-06-30",
+      "nat": "Kosovo"
+    },
+    {
+      "id": "498529",
+      "name": "Miguel Crespo",
+      "club": 11,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 30,
+      "value": 2000000,
+      "contract": "2028-06-30",
+      "nat": "Portugal"
     },
     {
       "id": "179184",
@@ -1178,6 +1398,17 @@
       "nat": "Spain"
     },
     {
+      "id": "625142",
+      "name": "Zineddine Belaid",
+      "club": 9,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 27,
+      "value": 1800000,
+      "contract": "2029-06-30",
+      "nat": "Algeria"
+    },
+    {
       "id": "317057",
       "name": "Adrian Semper",
       "club": 10,
@@ -1264,6 +1495,17 @@
       "value": 1500000,
       "contract": "2027-06-30",
       "nat": "Colombia"
+    },
+    {
+      "id": "211637",
+      "name": "Kiki Kouyaté",
+      "club": 11,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 29,
+      "value": 1500000,
+      "contract": "2028-06-30",
+      "nat": "Mali"
     },
     {
       "id": "435492",
@@ -1464,6 +1706,28 @@
       "nat": "Togo"
     },
     {
+      "id": "78570",
+      "name": "Anthony Moris",
+      "club": 11,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 36,
+      "value": 1200000,
+      "contract": "2027-06-30",
+      "nat": "Luxembourg"
+    },
+    {
+      "id": "91059",
+      "name": "Joshua King",
+      "club": 11,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 34,
+      "value": 1200000,
+      "contract": "2027-06-30",
+      "nat": "Norway"
+    },
+    {
       "id": "174733",
       "name": "Omar Colley",
       "club": 14,
@@ -1517,6 +1781,17 @@
       "value": 1000000,
       "contract": null,
       "nat": "Senegal"
+    },
+    {
+      "id": "235052",
+      "name": "Abderrazak Hamdallah",
+      "club": 9,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 35,
+      "value": 1000000,
+      "contract": "2027-06-30",
+      "nat": "Morocco"
     },
     {
       "id": "1074351",
@@ -1605,6 +1880,17 @@
       "value": 900000,
       "contract": null,
       "nat": "Senegal"
+    },
+    {
+      "id": "1145312",
+      "name": "Talal Haji",
+      "club": 8,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 19,
+      "value": 900000,
+      "contract": null,
+      "nat": "Saudi Arabia"
     },
     {
       "id": "824915",
@@ -1827,6 +2113,28 @@
       "nat": "Saudi Arabia"
     },
     {
+      "id": "197860",
+      "name": "Pedro Rebocho",
+      "club": 11,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 31,
+      "value": 700000,
+      "contract": "2027-06-30",
+      "nat": "Portugal"
+    },
+    {
+      "id": "142031",
+      "name": "Omar Mascarell",
+      "club": 11,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 33,
+      "value": 700000,
+      "contract": "2027-06-30",
+      "nat": "Equatorial Guinea"
+    },
+    {
       "id": "402979",
       "name": "Orlando Mosquera",
       "club": 14,
@@ -1915,6 +2223,17 @@
       "nat": "Saudi Arabia"
     },
     {
+      "id": "698540",
+      "name": "Matija Gluscevic",
+      "club": 8,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 22,
+      "value": 650000,
+      "contract": "2028-06-30",
+      "nat": "Serbia"
+    },
+    {
       "id": "1169184",
       "name": "Mohammed Mahzari",
       "club": 0,
@@ -1957,6 +2276,17 @@
       "value": 600000,
       "contract": "2029-06-30",
       "nat": "Saudi Arabia"
+    },
+    {
+      "id": "1262531",
+      "name": "Younes El Bahraoui",
+      "club": 9,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 21,
+      "value": 600000,
+      "contract": "2029-06-30",
+      "nat": "Morocco"
     },
     {
       "id": "514927",
@@ -2190,6 +2520,28 @@
       "nat": "Saudi Arabia"
     },
     {
+      "id": "265940",
+      "name": "Abdullah Madu",
+      "club": 8,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 33,
+      "value": 450000,
+      "contract": "2028-06-30",
+      "nat": "Saudi Arabia"
+    },
+    {
+      "id": "631917",
+      "name": "Muteb Al-Mufarrij",
+      "club": 9,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 30,
+      "value": 450000,
+      "contract": "2029-06-30",
+      "nat": "Saudi Arabia"
+    },
+    {
       "id": "141805",
       "name": "Ali Al-Hassan",
       "club": 10,
@@ -2198,6 +2550,17 @@
       "age": 29,
       "value": 450000,
       "contract": "2029-06-30",
+      "nat": "Saudi Arabia"
+    },
+    {
+      "id": "364450",
+      "name": "Fawaz Al-Sqoor",
+      "club": 11,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 30,
+      "value": 450000,
+      "contract": "2027-06-30",
       "nat": "Saudi Arabia"
     },
     {
@@ -2234,6 +2597,17 @@
       "nat": "Saudi Arabia"
     },
     {
+      "id": "264888",
+      "name": "Mohammed Al-Kuwaykibi",
+      "club": 9,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 31,
+      "value": 400000,
+      "contract": "2027-06-30",
+      "nat": "Saudi Arabia"
+    },
+    {
       "id": "210009",
       "name": "Marwane Saadane",
       "club": 10,
@@ -2254,6 +2628,17 @@
       "value": 400000,
       "contract": "2027-06-30",
       "nat": "Morocco"
+    },
+    {
+      "id": "229940",
+      "name": "Saleh Al-Amri",
+      "club": 11,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 33,
+      "value": 400000,
+      "contract": "2028-06-30",
+      "nat": "Saudi Arabia"
     },
     {
       "id": "1040825",
@@ -2476,6 +2861,39 @@
       "nat": "Saudi Arabia"
     },
     {
+      "id": "462162",
+      "name": "Abdullah Khateeb",
+      "club": 8,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 31,
+      "value": 350000,
+      "contract": null,
+      "nat": "Saudi Arabia"
+    },
+    {
+      "id": "672388",
+      "name": "Radhi Al-Otaibi",
+      "club": 8,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 26,
+      "value": 350000,
+      "contract": "2027-06-30",
+      "nat": "Saudi Arabia"
+    },
+    {
+      "id": "593334",
+      "name": "Ibrahim Mahnashi",
+      "club": 9,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 26,
+      "value": 350000,
+      "contract": "2029-06-30",
+      "nat": "Saudi Arabia"
+    },
+    {
       "id": "1169016",
       "name": "Abdulelah Al-Khaibri",
       "club": 10,
@@ -2517,6 +2935,28 @@
       "age": 29,
       "value": 325000,
       "contract": "2027-06-30",
+      "nat": "Saudi Arabia"
+    },
+    {
+      "id": "264729",
+      "name": "Madallah Al-Olayan",
+      "club": 8,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 32,
+      "value": 325000,
+      "contract": "2028-06-30",
+      "nat": "Saudi Arabia"
+    },
+    {
+      "id": "369090",
+      "name": "Abdullah Al-Ammar",
+      "club": 11,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 32,
+      "value": 325000,
+      "contract": "2028-06-30",
       "nat": "Saudi Arabia"
     },
     {
@@ -2641,6 +3081,17 @@
       "nat": "Saudi Arabia"
     },
     {
+      "id": "901076",
+      "name": "Bassam Al-Hurayji",
+      "club": 9,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 26,
+      "value": 300000,
+      "contract": "2028-06-30",
+      "nat": "Saudi Arabia"
+    },
+    {
       "id": "1474898",
       "name": "Abdulaziz Al-Suwailem",
       "club": 10,
@@ -2752,6 +3203,28 @@
       "nat": "Saudi Arabia"
     },
     {
+      "id": "1439224",
+      "name": "Abdulrahman Hindi",
+      "club": 9,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 23,
+      "value": 275000,
+      "contract": "2029-06-30",
+      "nat": "Saudi Arabia"
+    },
+    {
+      "id": "1307216",
+      "name": "Mateo Benegas",
+      "club": 11,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 20,
+      "value": 275000,
+      "contract": "2027-06-30",
+      "nat": "Argentina"
+    },
+    {
       "id": "1060930",
       "name": "Faisal Al-Subiani",
       "club": 12,
@@ -2851,6 +3324,28 @@
       "nat": "Saudi Arabia"
     },
     {
+      "id": "1168837",
+      "name": "Abdalellah Hawsawi",
+      "club": 8,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 25,
+      "value": 250000,
+      "contract": "2027-06-30",
+      "nat": "Saudi Arabia"
+    },
+    {
+      "id": "1074505",
+      "name": "Jair Collahuazo",
+      "club": 9,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 20,
+      "value": 250000,
+      "contract": "2027-06-30",
+      "nat": "Ecuador"
+    },
+    {
       "id": "901211",
       "name": "Ziyad Al-Jari",
       "club": 10,
@@ -2870,6 +3365,28 @@
       "age": 18,
       "value": 250000,
       "contract": null,
+      "nat": "Saudi Arabia"
+    },
+    {
+      "id": "264826",
+      "name": "Mohammed Al-Khabrani",
+      "club": 11,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 33,
+      "value": 250000,
+      "contract": "2028-06-30",
+      "nat": "Saudi Arabia"
+    },
+    {
+      "id": "1180693",
+      "name": "Thamer Al-Khaibri",
+      "club": 11,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 20,
+      "value": 250000,
+      "contract": "2027-06-30",
       "nat": "Saudi Arabia"
     },
     {
@@ -3027,6 +3544,72 @@
       "nat": "Saudi Arabia"
     },
     {
+      "id": "1244173",
+      "name": "Marzouq Tambakti",
+      "club": 8,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 23,
+      "value": 225000,
+      "contract": "2028-06-30",
+      "nat": "Saudi Arabia"
+    },
+    {
+      "id": "509893",
+      "name": "Awn Al-Saluli",
+      "club": 9,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 28,
+      "value": 225000,
+      "contract": "2027-06-30",
+      "nat": "Saudi Arabia"
+    },
+    {
+      "id": "1190454",
+      "name": "Faris Al-Ghamdi",
+      "club": 9,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 23,
+      "value": 225000,
+      "contract": "2029-06-30",
+      "nat": "Saudi Arabia"
+    },
+    {
+      "id": "141976",
+      "name": "Saeed Al-Hamsl",
+      "club": 11,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 30,
+      "value": 225000,
+      "contract": "2027-06-30",
+      "nat": "Saudi Arabia"
+    },
+    {
+      "id": "901132",
+      "name": "Nawaf Al-Saadi",
+      "club": 11,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 26,
+      "value": 225000,
+      "contract": "2028-06-30",
+      "nat": "Saudi Arabia"
+    },
+    {
+      "id": "509912",
+      "name": "Fahad Al-Rashidi",
+      "club": 11,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 29,
+      "value": 225000,
+      "contract": "2027-06-30",
+      "nat": "Saudi Arabia"
+    },
+    {
       "id": "478534",
       "name": "Nasser Al-Daajani",
       "club": 12,
@@ -3167,6 +3750,17 @@
       "age": 30,
       "value": 200000,
       "contract": null,
+      "nat": "Saudi Arabia"
+    },
+    {
+      "id": "1143173",
+      "name": "Mishal Al-Alaeli",
+      "club": 8,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 22,
+      "value": 200000,
+      "contract": "2028-06-30",
       "nat": "Saudi Arabia"
     },
     {
@@ -3368,6 +3962,50 @@
       "nat": "Saudi Arabia"
     },
     {
+      "id": "1060912",
+      "name": "Turki Baaljawsh",
+      "club": 8,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 22,
+      "value": 175000,
+      "contract": null,
+      "nat": "Saudi Arabia"
+    },
+    {
+      "id": "1501596",
+      "name": "Sultan Harun",
+      "club": 8,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 20,
+      "value": 175000,
+      "contract": "2027-06-30",
+      "nat": "Saudi Arabia"
+    },
+    {
+      "id": "1003583",
+      "name": "Rakan Al-Tulayhi",
+      "club": 9,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 23,
+      "value": 175000,
+      "contract": null,
+      "nat": "Saudi Arabia"
+    },
+    {
+      "id": "1181090",
+      "name": "Saif Rajab",
+      "club": 9,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 22,
+      "value": 175000,
+      "contract": "2029-06-30",
+      "nat": "Saudi Arabia"
+    },
+    {
       "id": "1071852",
       "name": "Safwan Al-Johani",
       "club": 12,
@@ -3533,6 +4171,61 @@
       "nat": "Saudi Arabia"
     },
     {
+      "id": "187951",
+      "name": "Riyadh Sharahili",
+      "club": 8,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 33,
+      "value": 150000,
+      "contract": "2027-06-30",
+      "nat": "Saudi Arabia"
+    },
+    {
+      "id": "1479969",
+      "name": "Yasir Al-Shammari",
+      "club": 8,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 22,
+      "value": 150000,
+      "contract": "2028-06-30",
+      "nat": "Saudi Arabia"
+    },
+    {
+      "id": "1211641",
+      "name": "Jalal Al-Salem",
+      "club": 8,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 21,
+      "value": 150000,
+      "contract": "2028-06-30",
+      "nat": "Saudi Arabia"
+    },
+    {
+      "id": "1180570",
+      "name": "Nasser Al-Haleel",
+      "club": 9,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 26,
+      "value": 150000,
+      "contract": "2029-06-30",
+      "nat": "Saudi Arabia"
+    },
+    {
+      "id": "1242097",
+      "name": "Mustapha Samb",
+      "club": 9,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 21,
+      "value": 150000,
+      "contract": "2028-06-30",
+      "nat": "Senegal"
+    },
+    {
       "id": "1161126",
       "name": "Abdulrahman Talal Al-Khaibari",
       "club": 10,
@@ -3552,6 +4245,28 @@
       "age": 25,
       "value": 150000,
       "contract": "2028-06-30",
+      "nat": "Saudi Arabia"
+    },
+    {
+      "id": "193151",
+      "name": "Abdullah Al-Hafith",
+      "club": 11,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 33,
+      "value": 150000,
+      "contract": "2028-06-30",
+      "nat": "Saudi Arabia"
+    },
+    {
+      "id": "901095",
+      "name": "Bader Munshi",
+      "club": 11,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 27,
+      "value": 150000,
+      "contract": "2027-06-30",
       "nat": "Saudi Arabia"
     },
     {
@@ -3786,6 +4501,39 @@
       "nat": "Saudi Arabia"
     },
     {
+      "id": "264720",
+      "name": "Meshal Al-Sibyani",
+      "club": 8,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 25,
+      "value": 125000,
+      "contract": "2027-06-30",
+      "nat": "Saudi Arabia"
+    },
+    {
+      "id": "1180065",
+      "name": "Ziyad Al-Ghamdi",
+      "club": 8,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 21,
+      "value": 125000,
+      "contract": "2028-06-30",
+      "nat": "Saudi Arabia"
+    },
+    {
+      "id": "1145325",
+      "name": "Abdulrahman Al-Ghamdi",
+      "club": 9,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 20,
+      "value": 125000,
+      "contract": "2029-06-30",
+      "nat": "Saudi Arabia"
+    },
+    {
       "id": "537979",
       "name": "Faisal Darsi",
       "club": 10,
@@ -3838,6 +4586,50 @@
       "age": 22,
       "value": 125000,
       "contract": null,
+      "nat": "Saudi Arabia"
+    },
+    {
+      "id": "821378",
+      "name": "Marwan Al-Haidari",
+      "club": 11,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 30,
+      "value": 125000,
+      "contract": "2028-06-30",
+      "nat": "Saudi Arabia"
+    },
+    {
+      "id": "1207309",
+      "name": "Ali Al-Shaafi",
+      "club": 11,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 24,
+      "value": 125000,
+      "contract": "2027-06-30",
+      "nat": "Saudi Arabia"
+    },
+    {
+      "id": "364445",
+      "name": "Hamad Al-Jayzani",
+      "club": 11,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 33,
+      "value": 125000,
+      "contract": "2027-06-30",
+      "nat": "Saudi Arabia"
+    },
+    {
+      "id": "209515",
+      "name": "Majed Kanabah",
+      "club": 11,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 34,
+      "value": 125000,
+      "contract": "2027-06-30",
       "nat": "Saudi Arabia"
     },
     {
@@ -3940,6 +4732,28 @@
       "nat": "Saudi Arabia"
     },
     {
+      "id": "922459",
+      "name": "Mohammed Al-Aqel",
+      "club": 9,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 26,
+      "value": 100000,
+      "contract": null,
+      "nat": "Saudi Arabia"
+    },
+    {
+      "id": "1311420",
+      "name": "Bassem Al-Oraini",
+      "club": 9,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 22,
+      "value": 100000,
+      "contract": "2028-06-30",
+      "nat": "Saudi Arabia"
+    },
+    {
       "id": "1180062",
       "name": "Mehdi Al-Aboud",
       "club": 10,
@@ -3960,6 +4774,28 @@
       "value": 100000,
       "contract": null,
       "nat": "Cape Verde"
+    },
+    {
+      "id": "498115",
+      "name": "Hussain Al-Eissa",
+      "club": 11,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 25,
+      "value": 100000,
+      "contract": "2027-06-30",
+      "nat": "Saudi Arabia"
+    },
+    {
+      "id": "315050",
+      "name": "Mansour Hamzi",
+      "club": 11,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 34,
+      "value": 100000,
+      "contract": "2027-06-30",
+      "nat": "Saudi Arabia"
     },
     {
       "id": "1199798",
@@ -4116,6 +4952,28 @@
       "nat": "Saudi Arabia"
     },
     {
+      "id": "901307",
+      "name": "Abdulbasit Hawsawi",
+      "club": 8,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 25,
+      "value": 75000,
+      "contract": "2028-06-30",
+      "nat": "Saudi Arabia"
+    },
+    {
+      "id": "352715",
+      "name": "Ahmad Al-Rehaili",
+      "club": 8,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 32,
+      "value": 75000,
+      "contract": "2028-06-30",
+      "nat": "Saudi Arabia"
+    },
+    {
       "id": "939942",
       "name": "Walid Al-Enezi",
       "club": 10,
@@ -4135,6 +4993,17 @@
       "age": 21,
       "value": 75000,
       "contract": null,
+      "nat": "Saudi Arabia"
+    },
+    {
+      "id": "209499",
+      "name": "Ahmed Asiri",
+      "club": 11,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 34,
+      "value": 75000,
+      "contract": "2027-06-30",
       "nat": "Saudi Arabia"
     },
     {
@@ -4265,6 +5134,39 @@
       "pos": "LE",
       "posName": "Left-Back",
       "age": 23,
+      "value": 50000,
+      "contract": "2028-06-30",
+      "nat": "Saudi Arabia"
+    },
+    {
+      "id": "250825",
+      "name": "Abdullah Al-Jadani",
+      "club": 9,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 35,
+      "value": 50000,
+      "contract": "2028-06-30",
+      "nat": "Saudi Arabia"
+    },
+    {
+      "id": "1486200",
+      "name": "Abdoulie Mboge",
+      "club": 11,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 19,
+      "value": 50000,
+      "contract": null,
+      "nat": "The Gambia"
+    },
+    {
+      "id": "1370951",
+      "name": "Ali Abdulraouf",
+      "club": 11,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 22,
       "value": 50000,
       "contract": "2028-06-30",
       "nat": "Saudi Arabia"
@@ -4413,6 +5315,17 @@
       "nat": "Saudi Arabia"
     },
     {
+      "id": "1369904",
+      "name": "Mohammed Al-Saedi",
+      "club": 9,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 20,
+      "value": 25000,
+      "contract": "2029-06-30",
+      "nat": "Saudi Arabia"
+    },
+    {
       "id": "469595",
       "name": "Habib Al-Watyan",
       "club": 10,
@@ -4523,641 +5436,14 @@
       "nat": "Saudi Arabia"
     },
     {
-      "id": "186901",
-      "name": "Marek Rodák",
-      "club": 8,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Slovakia"
-    },
-    {
-      "id": "1060912",
-      "name": "Turki Baaljawsh",
-      "club": 8,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "901307",
-      "name": "Abdulbasit Hawsawi",
-      "club": 8,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "352715",
-      "name": "Ahmad Al-Rehaili",
-      "club": 8,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "329720",
-      "name": "Pedro Henrique",
-      "club": 8,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "363223",
-      "name": "Jack Hendry",
-      "club": 8,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Scotland"
-    },
-    {
-      "id": "265940",
-      "name": "Abdullah Madu",
-      "club": 8,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "462162",
-      "name": "Abdullah Khateeb",
-      "club": 8,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "1244173",
-      "name": "Marzouq Tambakti",
-      "club": 8,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "264720",
-      "name": "Meshal Al-Sibyani",
-      "club": 8,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "1143173",
-      "name": "Mishal Al-Alaeli",
-      "club": 8,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "672388",
-      "name": "Radhi Al-Otaibi",
-      "club": 8,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "264729",
-      "name": "Madallah Al-Olayan",
-      "club": 8,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "1091219",
-      "name": "Abdoulaye Kanté",
-      "club": 8,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Cote d'Ivoire"
-    },
-    {
-      "id": "187951",
-      "name": "Riyadh Sharahili",
-      "club": 8,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "253839",
-      "name": "Álvaro Medrán",
-      "club": 8,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Spain"
-    },
-    {
-      "id": "232418",
-      "name": "Ondrej Duda",
-      "club": 8,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Slovakia"
-    },
-    {
-      "id": "1168837",
-      "name": "Abdalellah Hawsawi",
-      "club": 8,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "1180685",
-      "name": "Abdulrahman Nabza",
-      "club": 8,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "229695",
-      "name": "Bersant Celina",
-      "club": 8,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Kosovo"
-    },
-    {
-      "id": "1479969",
-      "name": "Yasir Al-Shammari",
-      "club": 8,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "1075590",
-      "name": "Rayane Messi",
-      "club": 8,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "France"
-    },
-    {
-      "id": "631923",
-      "name": "Khalid Al-Ghannam",
-      "club": 8,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "698540",
-      "name": "Matija Gluscevic",
-      "club": 8,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Serbia"
-    },
-    {
-      "id": "308552",
-      "name": "Jordan Larsson",
-      "club": 8,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Sweden"
-    },
-    {
-      "id": "1211641",
-      "name": "Jalal Al-Salem",
-      "club": 8,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "1180065",
-      "name": "Ziyad Al-Ghamdi",
-      "club": 8,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "229004",
-      "name": "Moussa Dembélé",
-      "club": 8,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "France"
-    },
-    {
-      "id": "1145312",
-      "name": "Talal Haji",
-      "club": 8,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "1501596",
-      "name": "Sultan Harun",
-      "club": 8,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "515496",
-      "name": "Mailson",
-      "club": 9,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1145325",
-      "name": "Abdulrahman Al-Ghamdi",
-      "club": 9,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "250825",
-      "name": "Abdullah Al-Jadani",
-      "club": 9,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "625142",
-      "name": "Zineddine Belaid",
-      "club": 9,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Algeria"
-    },
-    {
-      "id": "1074505",
-      "name": "Jair Collahuazo",
-      "club": 9,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ecuador"
-    },
-    {
-      "id": "509893",
-      "name": "Awn Al-Saluli",
-      "club": 9,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "1180570",
-      "name": "Nasser Al-Haleel",
-      "club": 9,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "1343319",
-      "name": "Nawaf Al-Huwairi",
-      "club": 9,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "631917",
-      "name": "Muteb Al-Mufarrij",
-      "club": 9,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
       "id": "1309529",
       "name": "Adeeb Al-Hassan",
       "club": 9,
       "pos": "LE",
       "posName": "Left-Back",
-      "age": null,
+      "age": 21,
       "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "901076",
-      "name": "Bassam Al-Hurayji",
-      "club": 9,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "295764",
-      "name": "Aschraf El Mahdioui",
-      "club": 9,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Morocco"
-    },
-    {
-      "id": "593334",
-      "name": "Ibrahim Mahnashi",
-      "club": 9,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "1242097",
-      "name": "Mustapha Samb",
-      "club": 9,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Senegal"
-    },
-    {
-      "id": "401475",
-      "name": "Oscar",
-      "club": 9,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Liberia"
-    },
-    {
-      "id": "1439224",
-      "name": "Abdulrahman Hindi",
-      "club": 9,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "1190454",
-      "name": "Faris Al-Ghamdi",
-      "club": 9,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "1369904",
-      "name": "Mohammed Al-Saedi",
-      "club": 9,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "390177",
-      "name": "Nedim Bajrami",
-      "club": 9,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Albania"
-    },
-    {
-      "id": "1003583",
-      "name": "Rakan Al-Tulayhi",
-      "club": 9,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "624913",
-      "name": "Parfait Guiagon",
-      "club": 9,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Cote d'Ivoire"
-    },
-    {
-      "id": "1181090",
-      "name": "Saif Rajab",
-      "club": 9,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "675946",
-      "name": "Marin Petkov",
-      "club": 9,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Bulgaria"
-    },
-    {
-      "id": "264888",
-      "name": "Mohammed Al-Kuwaykibi",
-      "club": 9,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "922459",
-      "name": "Mohammed Al-Aqel",
-      "club": 9,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "235052",
-      "name": "Abderrazak Hamdallah",
-      "club": 9,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Morocco"
-    },
-    {
-      "id": "1262531",
-      "name": "Younes El Bahraoui",
-      "club": 9,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Morocco"
-    },
-    {
-      "id": "1311420",
-      "name": "Bassem Al-Oraini",
-      "club": 9,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
+      "contract": "2029-06-30",
       "nat": "Saudi Arabia"
     },
     {
@@ -5183,333 +5469,14 @@
       "nat": "France"
     },
     {
-      "id": "78570",
-      "name": "Anthony Moris",
-      "club": 11,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Luxembourg"
-    },
-    {
-      "id": "821378",
-      "name": "Marwan Al-Haidari",
-      "club": 11,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
       "id": "1373792",
       "name": "Mohammed Al-Ibrahim",
       "club": 11,
       "pos": "GOL",
       "posName": "Goalkeeper",
-      "age": null,
+      "age": 21,
       "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "211637",
-      "name": "Kiki Kouyaté",
-      "club": 11,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mali"
-    },
-    {
-      "id": "264826",
-      "name": "Mohammed Al-Khabrani",
-      "club": 11,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "193151",
-      "name": "Abdullah Al-Hafith",
-      "club": 11,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "209499",
-      "name": "Ahmed Asiri",
-      "club": 11,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "197860",
-      "name": "Pedro Rebocho",
-      "club": 11,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Portugal"
-    },
-    {
-      "id": "369090",
-      "name": "Abdullah Al-Ammar",
-      "club": 11,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "1207309",
-      "name": "Ali Al-Shaafi",
-      "club": 11,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "364450",
-      "name": "Fawaz Al-Sqoor",
-      "club": 11,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "141976",
-      "name": "Saeed Al-Hamsl",
-      "club": 11,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "364445",
-      "name": "Hamad Al-Jayzani",
-      "club": 11,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "142031",
-      "name": "Omar Mascarell",
-      "club": 11,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Equatorial Guinea"
-    },
-    {
-      "id": "901095",
-      "name": "Bader Munshi",
-      "club": 11,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "209515",
-      "name": "Majed Kanabah",
-      "club": 11,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "1486200",
-      "name": "Abdoulie Mboge",
-      "club": 11,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "The Gambia"
-    },
-    {
-      "id": "498529",
-      "name": "Miguel Crespo",
-      "club": 11,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Portugal"
-    },
-    {
-      "id": "250013",
-      "name": "Angelo Fulgini",
-      "club": 11,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "New Caledonia"
-    },
-    {
-      "id": "1370951",
-      "name": "Ali Abdulraouf",
-      "club": 11,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "486624",
-      "name": "Musa Barrow",
-      "club": 11,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "The Gambia"
-    },
-    {
-      "id": "229940",
-      "name": "Saleh Al-Amri",
-      "club": 11,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "498115",
-      "name": "Hussain Al-Eissa",
-      "club": 11,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "1574244",
-      "name": "Witcha",
-      "club": 11,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Cape Verde"
-    },
-    {
-      "id": "901132",
-      "name": "Nawaf Al-Saadi",
-      "club": 11,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "509912",
-      "name": "Fahad Al-Rashidi",
-      "club": 11,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "315050",
-      "name": "Mansour Hamzi",
-      "club": 11,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Saudi Arabia"
-    },
-    {
-      "id": "91059",
-      "name": "Joshua King",
-      "club": 11,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Norway"
-    },
-    {
-      "id": "1307216",
-      "name": "Mateo Benegas",
-      "club": 11,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "1180693",
-      "name": "Thamer Al-Khaibri",
-      "club": 11,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
+      "contract": "2030-06-30",
       "nat": "Saudi Arabia"
     },
     {

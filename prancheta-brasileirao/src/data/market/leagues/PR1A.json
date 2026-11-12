@@ -650,6 +650,17 @@
       "nat": "Paraguay"
     },
     {
+      "id": "809082",
+      "name": "Lucas Morales",
+      "club": 5,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 26,
+      "value": 750000,
+      "contract": "2026-12-31",
+      "nat": "Uruguay"
+    },
+    {
       "id": "273012",
       "name": "Cecilio Domínguez",
       "club": 1,
@@ -689,6 +700,17 @@
       "pos": "PON",
       "posName": "Left Winger",
       "age": 29,
+      "value": 700000,
+      "contract": "2026-12-31",
+      "nat": "Paraguay"
+    },
+    {
+      "id": "980773",
+      "name": "Alexis Cantero",
+      "club": 5,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 23,
       "value": 700000,
       "contract": "2026-12-31",
       "nat": "Paraguay"
@@ -948,6 +970,17 @@
       "nat": "Venezuela"
     },
     {
+      "id": "708874",
+      "name": "Iván Maggi",
+      "club": 5,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 27,
+      "value": 500000,
+      "contract": "2026-12-31",
+      "nat": "Argentina"
+    },
+    {
       "id": "589524",
       "name": "Matías Dufour",
       "club": 6,
@@ -1102,6 +1135,17 @@
       "nat": "Paraguay"
     },
     {
+      "id": "738247",
+      "name": "Aldo Maíz",
+      "club": 5,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 26,
+      "value": 400000,
+      "contract": "2026-12-31",
+      "nat": "Paraguay"
+    },
+    {
       "id": "1423864",
       "name": "Junior Gamarra",
       "club": 6,
@@ -1251,6 +1295,17 @@
       "pos": "VOL",
       "posName": "Defensive Midfield",
       "age": 26,
+      "value": 350000,
+      "contract": "2026-12-31",
+      "nat": "Paraguay"
+    },
+    {
+      "id": "1375809",
+      "name": "Jonathan Ramos",
+      "club": 5,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 19,
       "value": 350000,
       "contract": "2026-12-31",
       "nat": "Paraguay"
@@ -1460,6 +1515,28 @@
       "pos": "ATA",
       "posName": "Centre-Forward",
       "age": 29,
+      "value": 300000,
+      "contract": "2026-12-31",
+      "nat": "Paraguay"
+    },
+    {
+      "id": "491597",
+      "name": "Giovanni Bogado",
+      "club": 5,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 25,
+      "value": 300000,
+      "contract": "2026-12-31",
+      "nat": "Paraguay"
+    },
+    {
+      "id": "811982",
+      "name": "Marcelo Pérez",
+      "club": 5,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 25,
       "value": 300000,
       "contract": "2026-12-31",
       "nat": "Paraguay"
@@ -1806,6 +1883,28 @@
       "nat": "Paraguay"
     },
     {
+      "id": "1413727",
+      "name": "Jonathan Díaz",
+      "club": 5,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 21,
+      "value": 250000,
+      "contract": "2026-12-31",
+      "nat": "Paraguay"
+    },
+    {
+      "id": "984869",
+      "name": "Tomás Muro",
+      "club": 5,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 24,
+      "value": 250000,
+      "contract": "2027-06-30",
+      "nat": "Argentina"
+    },
+    {
       "id": "868524",
       "name": "Agustín Da Silveira",
       "club": 6,
@@ -2004,6 +2103,28 @@
       "nat": "Argentina"
     },
     {
+      "id": "1118350",
+      "name": "Facundo Wiechniak",
+      "club": 5,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 24,
+      "value": 225000,
+      "contract": "2026-12-31",
+      "nat": "Argentina"
+    },
+    {
+      "id": "603898",
+      "name": "Santiago Ocampos",
+      "club": 5,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 24,
+      "value": 225000,
+      "contract": "2026-12-31",
+      "nat": "Paraguay"
+    },
+    {
       "id": "577119",
       "name": "Ronaldo Báez",
       "club": 6,
@@ -2120,6 +2241,50 @@
       "pos": "LD",
       "posName": "Right-Back",
       "age": 32,
+      "value": 200000,
+      "contract": "2026-12-31",
+      "nat": "Paraguay"
+    },
+    {
+      "id": "878395",
+      "name": "Miguel Barreto",
+      "club": 5,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 28,
+      "value": 200000,
+      "contract": "2026-12-31",
+      "nat": "Paraguay"
+    },
+    {
+      "id": "1016847",
+      "name": "Álvaro Martínez",
+      "club": 5,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 24,
+      "value": 200000,
+      "contract": "2026-12-31",
+      "nat": "Paraguay"
+    },
+    {
+      "id": "1249399",
+      "name": "Marcelo Ojeda",
+      "club": 5,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 22,
+      "value": 200000,
+      "contract": "2028-12-31",
+      "nat": "Paraguay"
+    },
+    {
+      "id": "353047",
+      "name": "Walter González",
+      "club": 5,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 31,
       "value": 200000,
       "contract": "2026-12-31",
       "nat": "Paraguay"
@@ -2268,6 +2433,50 @@
       "nat": "Paraguay"
     },
     {
+      "id": "745925",
+      "name": "Nicolás Campisi",
+      "club": 5,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 30,
+      "value": 175000,
+      "contract": "2026-12-31",
+      "nat": "Argentina"
+    },
+    {
+      "id": "745928",
+      "name": "Fernando Benitez",
+      "club": 5,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 27,
+      "value": 175000,
+      "contract": "2026-12-31",
+      "nat": "Paraguay"
+    },
+    {
+      "id": "878394",
+      "name": "Kevin Pereira",
+      "club": 5,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 22,
+      "value": 175000,
+      "contract": "2026-12-31",
+      "nat": "Paraguay"
+    },
+    {
+      "id": "267734",
+      "name": "Lautaro Comas",
+      "club": 5,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 31,
+      "value": 175000,
+      "contract": "2026-12-31",
+      "nat": "Argentina"
+    },
+    {
       "id": "436381",
       "name": "Diego Melgarejo",
       "club": 6,
@@ -2351,6 +2560,28 @@
       "pos": "ZAG",
       "posName": "Centre-Back",
       "age": 24,
+      "value": 150000,
+      "contract": "2026-12-31",
+      "nat": "Paraguay"
+    },
+    {
+      "id": "1142296",
+      "name": "Adrián Brizuela",
+      "club": 5,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 22,
+      "value": 150000,
+      "contract": "2026-12-31",
+      "nat": "Paraguay"
+    },
+    {
+      "id": "1124293",
+      "name": "Axel Balbuena",
+      "club": 5,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 20,
       "value": 150000,
       "contract": "2026-12-31",
       "nat": "Paraguay"
@@ -2576,6 +2807,17 @@
       "nat": "Paraguay"
     },
     {
+      "id": "897762",
+      "name": "Sebastián Maldonado",
+      "club": 5,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 26,
+      "value": 125000,
+      "contract": "2026-12-31",
+      "nat": "Paraguay"
+    },
+    {
       "id": "1149323",
       "name": "Alan Cano",
       "club": 6,
@@ -2769,6 +3011,39 @@
       "pos": "ATA",
       "posName": "Centre-Forward",
       "age": 45,
+      "value": 100000,
+      "contract": "2026-12-31",
+      "nat": "Paraguay"
+    },
+    {
+      "id": "1107736",
+      "name": "Francisco Mongelos",
+      "club": 5,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 21,
+      "value": 100000,
+      "contract": "2026-12-31",
+      "nat": "Paraguay"
+    },
+    {
+      "id": "1255337",
+      "name": "Angel Espinola",
+      "club": 5,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 23,
+      "value": 100000,
+      "contract": "2026-12-31",
+      "nat": "Paraguay"
+    },
+    {
+      "id": "1431793",
+      "name": "Fernando Bobadilla",
+      "club": 5,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 22,
       "value": 100000,
       "contract": "2026-12-31",
       "nat": "Paraguay"
@@ -3209,6 +3484,28 @@
       "pos": "PON",
       "posName": "Right Winger",
       "age": 36,
+      "value": 50000,
+      "contract": "2026-12-31",
+      "nat": "Paraguay"
+    },
+    {
+      "id": "1240054",
+      "name": "Samuel Beltrán",
+      "club": 5,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 22,
+      "value": 50000,
+      "contract": "2026-12-31",
+      "nat": "Argentina"
+    },
+    {
+      "id": "336390",
+      "name": "Óscar Ruiz",
+      "club": 5,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 35,
       "value": 50000,
       "contract": "2026-12-31",
       "nat": "Paraguay"
@@ -3871,314 +4168,6 @@
       "age": 34,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Paraguay"
-    },
-    {
-      "id": "745925",
-      "name": "Nicolás Campisi",
-      "club": 5,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "1107736",
-      "name": "Francisco Mongelos",
-      "club": 5,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Paraguay"
-    },
-    {
-      "id": "1255337",
-      "name": "Angel Espinola",
-      "club": 5,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Paraguay"
-    },
-    {
-      "id": "1413727",
-      "name": "Jonathan Díaz",
-      "club": 5,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Paraguay"
-    },
-    {
-      "id": "1118350",
-      "name": "Facundo Wiechniak",
-      "club": 5,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "878395",
-      "name": "Miguel Barreto",
-      "club": 5,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Paraguay"
-    },
-    {
-      "id": "1142296",
-      "name": "Adrián Brizuela",
-      "club": 5,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Paraguay"
-    },
-    {
-      "id": "980773",
-      "name": "Alexis Cantero",
-      "club": 5,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Paraguay"
-    },
-    {
-      "id": "1016847",
-      "name": "Álvaro Martínez",
-      "club": 5,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Paraguay"
-    },
-    {
-      "id": "1124293",
-      "name": "Axel Balbuena",
-      "club": 5,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Paraguay"
-    },
-    {
-      "id": "809082",
-      "name": "Lucas Morales",
-      "club": 5,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "603898",
-      "name": "Santiago Ocampos",
-      "club": 5,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Paraguay"
-    },
-    {
-      "id": "745928",
-      "name": "Fernando Benitez",
-      "club": 5,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Paraguay"
-    },
-    {
-      "id": "738247",
-      "name": "Aldo Maíz",
-      "club": 5,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Paraguay"
-    },
-    {
-      "id": "491597",
-      "name": "Giovanni Bogado",
-      "club": 5,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Paraguay"
-    },
-    {
-      "id": "984869",
-      "name": "Tomás Muro",
-      "club": 5,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "897762",
-      "name": "Sebastián Maldonado",
-      "club": 5,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Paraguay"
-    },
-    {
-      "id": "1431793",
-      "name": "Fernando Bobadilla",
-      "club": 5,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Paraguay"
-    },
-    {
-      "id": "1240054",
-      "name": "Samuel Beltrán",
-      "club": 5,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "1318011",
-      "name": "Matías Riveros",
-      "club": 5,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Paraguay"
-    },
-    {
-      "id": "1375809",
-      "name": "Jonathan Ramos",
-      "club": 5,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Paraguay"
-    },
-    {
-      "id": "1249399",
-      "name": "Marcelo Ojeda",
-      "club": 5,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Paraguay"
-    },
-    {
-      "id": "336390",
-      "name": "Óscar Ruiz",
-      "club": 5,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Paraguay"
-    },
-    {
-      "id": "878394",
-      "name": "Kevin Pereira",
-      "club": 5,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Paraguay"
-    },
-    {
-      "id": "267734",
-      "name": "Lautaro Comas",
-      "club": 5,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "708874",
-      "name": "Iván Maggi",
-      "club": 5,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "811982",
-      "name": "Marcelo Pérez",
-      "club": 5,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Paraguay"
-    },
-    {
-      "id": "353047",
-      "name": "Walter González",
-      "club": 5,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
       "nat": "Paraguay"
     },
     {

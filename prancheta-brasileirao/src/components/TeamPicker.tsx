@@ -26,7 +26,7 @@ export function TeamPicker() {
         </h1>
         <p className="home__lead">Escolha o seu time, arraste os jogadores e monte a escalação. Sem cadastro.</p>
         <a className="home__module" href="/mercado" onClick={(e) => (e.preventDefault(), navigate("/mercado"))}>
-          <b>Novo: Mercado da bola</b> · monte o elenco da próxima temporada com orçamento, vendas e contratações →
+          <b>Novo: Mercado da bola</b> · sente na cadeira do dirigente e monte o elenco de 2027 →
         </a>
         <input
           className="home__search"

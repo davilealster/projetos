@@ -265,6 +265,28 @@
       "nat": "Belgium"
     },
     {
+      "id": "1064871",
+      "name": "Joaquín Panichelli",
+      "club": 2,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 24,
+      "value": 35000000,
+      "contract": "2030-06-30",
+      "nat": "Argentina"
+    },
+    {
+      "id": "653610",
+      "name": "Igor Paixão",
+      "club": 8,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 26,
+      "value": 35000000,
+      "contract": "2030-06-30",
+      "nat": "Brazil"
+    },
+    {
       "id": "318470",
       "name": "Matvey Safonov",
       "club": 0,
@@ -285,6 +307,17 @@
       "value": 30000000,
       "contract": "2028-06-30",
       "nat": "Spain"
+    },
+    {
+      "id": "618494",
+      "name": "Tyler Morton",
+      "club": 3,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 24,
+      "value": 30000000,
+      "contract": "2030-06-30",
+      "nat": "England"
     },
     {
       "id": "652275",
@@ -320,6 +353,17 @@
       "nat": "France"
     },
     {
+      "id": "418659",
+      "name": "Amine Gouiri",
+      "club": 8,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 26,
+      "value": 30000000,
+      "contract": "2029-06-30",
+      "nat": "Algeria"
+    },
+    {
       "id": "181767",
       "name": "Marquinhos",
       "club": 0,
@@ -329,6 +373,17 @@
       "value": 28000000,
       "contract": "2028-06-30",
       "nat": "Brazil"
+    },
+    {
+      "id": "1084638",
+      "name": "Karim Coulibaly",
+      "club": 2,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 19,
+      "value": 28000000,
+      "contract": "2031-06-30",
+      "nat": "Germany"
     },
     {
       "id": "540664",
@@ -362,6 +417,17 @@
       "value": 25000000,
       "contract": "2031-06-30",
       "nat": "France"
+    },
+    {
+      "id": "368887",
+      "name": "Loïs Openda",
+      "club": 3,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 26,
+      "value": 25000000,
+      "contract": "2027-06-30",
+      "nat": "Belgium"
     },
     {
       "id": "597659",
@@ -419,6 +485,28 @@
       "nat": "Brazil"
     },
     {
+      "id": "1130514",
+      "name": "Samir El Mourabet",
+      "club": 2,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 21,
+      "value": 22000000,
+      "contract": "2031-06-30",
+      "nat": "Morocco"
+    },
+    {
+      "id": "992686",
+      "name": "Martial Godo",
+      "club": 2,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 23,
+      "value": 22000000,
+      "contract": "2030-06-30",
+      "nat": "Cote d'Ivoire"
+    },
+    {
       "id": "605184",
       "name": "Jean-Clair Todibo",
       "club": 6,
@@ -450,6 +538,39 @@
       "value": 20000000,
       "contract": "2027-06-30",
       "nat": "France"
+    },
+    {
+      "id": "786436",
+      "name": "Ismaël Doukouré",
+      "club": 2,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 23,
+      "value": 20000000,
+      "contract": "2028-06-30",
+      "nat": "France"
+    },
+    {
+      "id": "1151929",
+      "name": "Gessime Yassine",
+      "club": 2,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 20,
+      "value": 20000000,
+      "contract": "2030-06-30",
+      "nat": "Morocco"
+    },
+    {
+      "id": "500053",
+      "name": "Pavel Sulc",
+      "club": 3,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 25,
+      "value": 20000000,
+      "contract": "2029-06-30",
+      "nat": "Czech Republic"
     },
     {
       "id": "1134251",
@@ -518,6 +639,17 @@
       "nat": "France"
     },
     {
+      "id": "370846",
+      "name": "Timothy Weah",
+      "club": 8,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 26,
+      "value": 20000000,
+      "contract": "2030-06-30",
+      "nat": "United States"
+    },
+    {
       "id": "746910",
       "name": "Mohamed Amoura",
       "club": 9,
@@ -538,6 +670,17 @@
       "value": 20000000,
       "contract": "2027-06-30",
       "nat": "Cameroon"
+    },
+    {
+      "id": "743496",
+      "name": "Kévin Danois",
+      "club": 12,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 22,
+      "value": 20000000,
+      "contract": "2029-06-30",
+      "nat": "France"
     },
     {
       "id": "281963",
@@ -571,6 +714,17 @@
       "value": 18000000,
       "contract": "2029-06-30",
       "nat": "Russia"
+    },
+    {
+      "id": "926978",
+      "name": "Lucas Høgsberg",
+      "club": 2,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 20,
+      "value": 18000000,
+      "contract": "2030-06-30",
+      "nat": "Denmark"
     },
     {
       "id": "967346",
@@ -615,6 +769,17 @@
       "value": 18000000,
       "contract": "2028-06-30",
       "nat": "France"
+    },
+    {
+      "id": "807386",
+      "name": "Conrad Harder",
+      "club": 2,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 21,
+      "value": 17000000,
+      "contract": "2027-06-30",
+      "nat": "Denmark"
     },
     {
       "id": "1071596",
@@ -683,6 +848,94 @@
       "nat": "Germany"
     },
     {
+      "id": "585323",
+      "name": "Filip Jørgensen",
+      "club": 2,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 24,
+      "value": 15000000,
+      "contract": "2027-06-30",
+      "nat": "Denmark"
+    },
+    {
+      "id": "670717",
+      "name": "Dário Essugo",
+      "club": 2,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 21,
+      "value": 15000000,
+      "contract": "2027-06-30",
+      "nat": "Portugal"
+    },
+    {
+      "id": "579928",
+      "name": "Sebastian Nanasi",
+      "club": 2,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 24,
+      "value": 15000000,
+      "contract": "2029-06-30",
+      "nat": "Sweden"
+    },
+    {
+      "id": "291200",
+      "name": "Moussa Niakhaté",
+      "club": 3,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 30,
+      "value": 15000000,
+      "contract": "2028-06-30",
+      "nat": "Senegal"
+    },
+    {
+      "id": "990637",
+      "name": "Zachary Athekame",
+      "club": 3,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 21,
+      "value": 15000000,
+      "contract": "2027-06-30",
+      "nat": "Switzerland"
+    },
+    {
+      "id": "462832",
+      "name": "Mads Bidstrup",
+      "club": 3,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 25,
+      "value": 15000000,
+      "contract": "2031-06-30",
+      "nat": "Denmark"
+    },
+    {
+      "id": "1187942",
+      "name": "Khalis Merah",
+      "club": 3,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 19,
+      "value": 15000000,
+      "contract": "2029-06-30",
+      "nat": "France"
+    },
+    {
+      "id": "802515",
+      "name": "Noah Nartey",
+      "club": 3,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 21,
+      "value": 15000000,
+      "contract": "2030-06-30",
+      "nat": "Denmark"
+    },
+    {
       "id": "557613",
       "name": "Quentin Merlin",
       "club": 4,
@@ -749,6 +1002,28 @@
       "nat": "Mali"
     },
     {
+      "id": "361914",
+      "name": "Nayef Aguerd",
+      "club": 8,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 30,
+      "value": 15000000,
+      "contract": "2030-06-30",
+      "nat": "Morocco"
+    },
+    {
+      "id": "167799",
+      "name": "Pierre-Emile Højbjerg",
+      "club": 8,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 31,
+      "value": 15000000,
+      "contract": "2028-06-30",
+      "nat": "Denmark"
+    },
+    {
       "id": "569389",
       "name": "Sofiane Diop",
       "club": 9,
@@ -802,6 +1077,28 @@
       "value": 12000000,
       "contract": "2031-06-30",
       "nat": "Senegal"
+    },
+    {
+      "id": "405397",
+      "name": "Keito Nakamura",
+      "club": 3,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 26,
+      "value": 12000000,
+      "contract": "2030-06-30",
+      "nat": "Japan"
+    },
+    {
+      "id": "955070",
+      "name": "Ernest Nuamah",
+      "club": 3,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 23,
+      "value": 12000000,
+      "contract": "2028-06-30",
+      "nat": "Ghana"
     },
     {
       "id": "690799",
@@ -958,6 +1255,61 @@
       "nat": "Japan"
     },
     {
+      "id": "1032280",
+      "name": "Oso",
+      "club": 2,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 23,
+      "value": 10000000,
+      "contract": "2031-06-30",
+      "nat": "Spain"
+    },
+    {
+      "id": "937729",
+      "name": "Diogo Sousa",
+      "club": 2,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 20,
+      "value": 10000000,
+      "contract": "2031-06-30",
+      "nat": "Portugal"
+    },
+    {
+      "id": "646402",
+      "name": "Abner",
+      "club": 3,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 26,
+      "value": 10000000,
+      "contract": "2029-06-30",
+      "nat": "Brazil"
+    },
+    {
+      "id": "670096",
+      "name": "Tanner Tessmann",
+      "club": 3,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 25,
+      "value": 10000000,
+      "contract": "2029-06-30",
+      "nat": "United States"
+    },
+    {
+      "id": "190393",
+      "name": "Corentin Tolisso",
+      "club": 3,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 32,
+      "value": 10000000,
+      "contract": "2029-06-30",
+      "nat": "France"
+    },
+    {
       "id": "1176345",
       "name": "Mahamadou Nagida",
       "club": 4,
@@ -1079,6 +1431,17 @@
       "nat": "Italy"
     },
     {
+      "id": "392770",
+      "name": "Angel Gomes",
+      "club": 8,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 26,
+      "value": 10000000,
+      "contract": "2028-06-30",
+      "nat": "England"
+    },
+    {
       "id": "891998",
       "name": "Antoine Mendy",
       "club": 9,
@@ -1088,6 +1451,28 @@
       "value": 10000000,
       "contract": "2028-06-30",
       "nat": "Senegal"
+    },
+    {
+      "id": "949113",
+      "name": "Pape Demba Diop",
+      "club": 2,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 23,
+      "value": 9000000,
+      "contract": "2030-06-30",
+      "nat": "Senegal"
+    },
+    {
+      "id": "316884",
+      "name": "Dominik Greif",
+      "club": 3,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 29,
+      "value": 9000000,
+      "contract": "2029-06-30",
+      "nat": "Slovakia"
     },
     {
       "id": "631927",
@@ -1112,6 +1497,28 @@
       "nat": "Algeria"
     },
     {
+      "id": "581669",
+      "name": "CJ Egan-Riley",
+      "club": 8,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 23,
+      "value": 9000000,
+      "contract": "2029-06-30",
+      "nat": "England"
+    },
+    {
+      "id": "181778",
+      "name": "Emerson",
+      "club": 8,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 32,
+      "value": 9000000,
+      "contract": "2027-06-30",
+      "nat": "Italy"
+    },
+    {
       "id": "1010854",
       "name": "Mathis Amougou",
       "club": 10,
@@ -1121,6 +1528,72 @@
       "value": 9000000,
       "contract": "2027-06-30",
       "nat": "France"
+    },
+    {
+      "id": "806793",
+      "name": "Clément Akpa",
+      "club": 12,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 24,
+      "value": 9000000,
+      "contract": "2028-06-30",
+      "nat": "Cote d'Ivoire"
+    },
+    {
+      "id": "856068",
+      "name": "Jeyland Mitchell",
+      "club": 2,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 22,
+      "value": 8000000,
+      "contract": "2031-06-30",
+      "nat": "Costa Rica"
+    },
+    {
+      "id": "933900",
+      "name": "Samuel Amo-Ameyaw",
+      "club": 2,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 20,
+      "value": 8000000,
+      "contract": "2029-06-30",
+      "nat": "England"
+    },
+    {
+      "id": "578421",
+      "name": "Ruben Kluivert",
+      "club": 3,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 25,
+      "value": 8000000,
+      "contract": "2030-06-30",
+      "nat": "Netherlands"
+    },
+    {
+      "id": "1200423",
+      "name": "Rémi Himbert",
+      "club": 3,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 18,
+      "value": 8000000,
+      "contract": "2028-06-30",
+      "nat": "France"
+    },
+    {
+      "id": "1097113",
+      "name": "Kaïl Boudache",
+      "club": 3,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 20,
+      "value": 8000000,
+      "contract": "2031-06-30",
+      "nat": "Algeria"
     },
     {
       "id": "332889",
@@ -1266,6 +1739,28 @@
       "nat": "Denmark"
     },
     {
+      "id": "504215",
+      "name": "Giovanni Reyna",
+      "club": 2,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 23,
+      "value": 7000000,
+      "contract": "2031-06-30",
+      "nat": "United States"
+    },
+    {
+      "id": "1186237",
+      "name": "Jacobo Ortega",
+      "club": 2,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 20,
+      "value": 7000000,
+      "contract": "2031-06-30",
+      "nat": "Spain"
+    },
+    {
       "id": "191056",
       "name": "Brice Samba",
       "club": 4,
@@ -1332,6 +1827,17 @@
       "nat": "Nigeria"
     },
     {
+      "id": "807165",
+      "name": "Bamo Meïté",
+      "club": 8,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 24,
+      "value": 7000000,
+      "contract": "2028-06-30",
+      "nat": "Cote d'Ivoire"
+    },
+    {
       "id": "448632",
       "name": "Yehvann Diouf",
       "club": 9,
@@ -1387,6 +1893,17 @@
       "nat": "Guadeloupe"
     },
     {
+      "id": "533662",
+      "name": "Cameron Archer",
+      "club": 12,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 24,
+      "value": 7000000,
+      "contract": "2027-06-30",
+      "nat": "England"
+    },
+    {
       "id": "624037",
       "name": "Joris Chotard",
       "club": 13,
@@ -1429,6 +1946,28 @@
       "value": 6000000,
       "contract": "2028-06-30",
       "nat": "France"
+    },
+    {
+      "id": "394134",
+      "name": "Felix Bacher",
+      "club": 3,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 26,
+      "value": 6000000,
+      "contract": "2031-06-30",
+      "nat": "Austria"
+    },
+    {
+      "id": "819215",
+      "name": "Julien Duranville",
+      "club": 3,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 20,
+      "value": 6000000,
+      "contract": "2031-06-30",
+      "nat": "Belgium"
     },
     {
       "id": "239743",
@@ -1484,6 +2023,28 @@
       "value": 6000000,
       "contract": "2027-06-30",
       "nat": "France"
+    },
+    {
+      "id": "702441",
+      "name": "Sinaly Diomandé",
+      "club": 12,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 25,
+      "value": 6000000,
+      "contract": "2027-06-30",
+      "nat": "Cote d'Ivoire"
+    },
+    {
+      "id": "392767",
+      "name": "Danny Namaso",
+      "club": 12,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 26,
+      "value": 6000000,
+      "contract": "2029-06-30",
+      "nat": "Cameroon"
     },
     {
       "id": "805908",
@@ -1550,6 +2111,50 @@
       "value": 5000000,
       "contract": "2031-06-30",
       "nat": "France"
+    },
+    {
+      "id": "984529",
+      "name": "Mateo Del Blanco",
+      "club": 2,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 23,
+      "value": 5000000,
+      "contract": "2031-06-30",
+      "nat": "Argentina"
+    },
+    {
+      "id": "863204",
+      "name": "Maxi Oyedele",
+      "club": 2,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 22,
+      "value": 5000000,
+      "contract": "2030-06-30",
+      "nat": "Poland"
+    },
+    {
+      "id": "910541",
+      "name": "Fábio Baldé",
+      "club": 2,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 21,
+      "value": 5000000,
+      "contract": "2031-06-30",
+      "nat": "Portugal"
+    },
+    {
+      "id": "1082850",
+      "name": "Deivid Washington",
+      "club": 2,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 21,
+      "value": 5000000,
+      "contract": "2031-06-30",
+      "nat": "Brazil"
     },
     {
       "id": "626913",
@@ -1627,6 +2232,39 @@
       "value": 5000000,
       "contract": "2027-06-30",
       "nat": "France"
+    },
+    {
+      "id": "592979",
+      "name": "Himad Abdelli",
+      "club": 8,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 26,
+      "value": 5000000,
+      "contract": "2030-06-30",
+      "nat": "Algeria"
+    },
+    {
+      "id": "1183719",
+      "name": "Keyliane Abdallah",
+      "club": 8,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 20,
+      "value": 5000000,
+      "contract": "2028-06-30",
+      "nat": "France"
+    },
+    {
+      "id": "372711",
+      "name": "Amine Harit",
+      "club": 8,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 29,
+      "value": 5000000,
+      "contract": "2027-06-30",
+      "nat": "Morocco"
     },
     {
       "id": "798404",
@@ -1728,6 +2366,28 @@
       "nat": "Denmark"
     },
     {
+      "id": "342046",
+      "name": "Axel Tuanzebe",
+      "club": 12,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 28,
+      "value": 5000000,
+      "contract": "2027-06-30",
+      "nat": "DR Congo"
+    },
+    {
+      "id": "775981",
+      "name": "Arthur Piedfort",
+      "club": 12,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 21,
+      "value": 5000000,
+      "contract": "2030-06-30",
+      "nat": "Belgium"
+    },
+    {
       "id": "922685",
       "name": "Giovani Versini",
       "club": 13,
@@ -1805,6 +2465,17 @@
       "nat": "France"
     },
     {
+      "id": "920470",
+      "name": "Tochukwu Nnadi",
+      "club": 8,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 23,
+      "value": 4500000,
+      "contract": "2030-06-30",
+      "nat": "Nigeria"
+    },
+    {
       "id": "770436",
       "name": "Simon Ebonog",
       "club": 15,
@@ -1836,6 +2507,39 @@
       "value": 4000000,
       "contract": "2028-06-30",
       "nat": "England"
+    },
+    {
+      "id": "926135",
+      "name": "Omari Kellyman",
+      "club": 2,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 21,
+      "value": 4000000,
+      "contract": "2031-06-30",
+      "nat": "England"
+    },
+    {
+      "id": "557612",
+      "name": "Sékou Mara",
+      "club": 2,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 24,
+      "value": 4000000,
+      "contract": "2029-06-30",
+      "nat": "France"
+    },
+    {
+      "id": "131225",
+      "name": "Nicolás Tagliafico",
+      "club": 3,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 34,
+      "value": 4000000,
+      "contract": "2027-06-30",
+      "nat": "Argentina"
     },
     {
       "id": "475208",
@@ -1915,6 +2619,17 @@
       "nat": "France"
     },
     {
+      "id": "217115",
+      "name": "Neal Maupay",
+      "club": 8,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 30,
+      "value": 4000000,
+      "contract": "2028-06-30",
+      "nat": "France"
+    },
+    {
       "id": "175639",
       "name": "Jonathan Clauss",
       "club": 9,
@@ -1946,6 +2661,39 @@
       "value": 4000000,
       "contract": null,
       "nat": "Canada"
+    },
+    {
+      "id": "539795",
+      "name": "Bryan Okoh",
+      "club": 12,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 23,
+      "value": 4000000,
+      "contract": "2029-06-30",
+      "nat": "Switzerland"
+    },
+    {
+      "id": "555076",
+      "name": "Romain Faivre",
+      "club": 12,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 28,
+      "value": 4000000,
+      "contract": "2027-06-30",
+      "nat": "France"
+    },
+    {
+      "id": "917778",
+      "name": "Rémy Labeau Lascary",
+      "club": 12,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 23,
+      "value": 4000000,
+      "contract": "2027-06-30",
+      "nat": "France"
     },
     {
       "id": "250779",
@@ -2036,6 +2784,17 @@
       "nat": "Cote d'Ivoire"
     },
     {
+      "id": "599663",
+      "name": "Faris Moumbagna",
+      "club": 8,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 26,
+      "value": 3500000,
+      "contract": "2028-06-30",
+      "nat": "Cameroon"
+    },
+    {
       "id": "629588",
       "name": "Nathan Ngoumou",
       "club": 9,
@@ -2113,6 +2872,28 @@
       "nat": "France"
     },
     {
+      "id": "1045121",
+      "name": "Genesis Antwi",
+      "club": 2,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 19,
+      "value": 3000000,
+      "contract": "2027-06-30",
+      "nat": "Sweden"
+    },
+    {
+      "id": "1275040",
+      "name": "Noham Kamara",
+      "club": 3,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 19,
+      "value": 3000000,
+      "contract": "2030-06-30",
+      "nat": "France"
+    },
+    {
       "id": "1078918",
       "name": "Gonçalo Oliveira",
       "club": 4,
@@ -2155,6 +2936,17 @@
       "value": 3000000,
       "contract": "2030-06-30",
       "nat": "Mali"
+    },
+    {
+      "id": "192616",
+      "name": "Ulisses Garcia",
+      "club": 8,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 30,
+      "value": 3000000,
+      "contract": "2028-06-30",
+      "nat": "Switzerland"
     },
     {
       "id": "174094",
@@ -2229,6 +3021,28 @@
       "pos": "ATA",
       "posName": "Centre-Forward",
       "age": 23,
+      "value": 3000000,
+      "contract": "2027-06-30",
+      "nat": "France"
+    },
+    {
+      "id": "830890",
+      "name": "Marvin Senaya",
+      "club": 12,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 25,
+      "value": 3000000,
+      "contract": "2029-06-30",
+      "nat": "Ghana"
+    },
+    {
+      "id": "538971",
+      "name": "Naouirou Ahamada",
+      "club": 12,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 24,
       "value": 3000000,
       "contract": "2027-06-30",
       "nat": "France"
@@ -2344,6 +3158,17 @@
       "nat": "France"
     },
     {
+      "id": "187718",
+      "name": "Clinton Mata",
+      "club": 3,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 34,
+      "value": 2500000,
+      "contract": "2028-06-30",
+      "nat": "Angola"
+    },
+    {
       "id": "1160753",
       "name": "Isaac Cossier",
       "club": 5,
@@ -2399,6 +3224,39 @@
       "nat": "France"
     },
     {
+      "id": "315253",
+      "name": "Jeffrey de Lange",
+      "club": 8,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 28,
+      "value": 2500000,
+      "contract": "2027-06-30",
+      "nat": "Netherlands"
+    },
+    {
+      "id": "328609",
+      "name": "Derek Cornelius",
+      "club": 8,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 28,
+      "value": 2500000,
+      "contract": "2028-06-30",
+      "nat": "Canada"
+    },
+    {
+      "id": "127189",
+      "name": "Geoffrey Kondogbia",
+      "club": 8,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 33,
+      "value": 2500000,
+      "contract": "2027-06-30",
+      "nat": "Central African Republic"
+    },
+    {
       "id": "566025",
       "name": "Mohamed Abdelmonem",
       "club": 9,
@@ -2430,6 +3288,28 @@
       "value": 2500000,
       "contract": "2027-06-30",
       "nat": "Switzerland"
+    },
+    {
+      "id": "796865",
+      "name": "Lamine Sy",
+      "club": 12,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 24,
+      "value": 2500000,
+      "contract": "2030-06-30",
+      "nat": "Senegal"
+    },
+    {
+      "id": "1310513",
+      "name": "Aristide Zossou",
+      "club": 12,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 21,
+      "value": 2500000,
+      "contract": "2030-06-30",
+      "nat": "Cote d'Ivoire"
     },
     {
       "id": "979551",
@@ -2564,6 +3444,28 @@
       "nat": "Morocco"
     },
     {
+      "id": "1172441",
+      "name": "Benjamin Brantlind",
+      "club": 2,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 18,
+      "value": 2000000,
+      "contract": "2031-06-30",
+      "nat": "Sweden"
+    },
+    {
+      "id": "1107570",
+      "name": "Mohamed Ouédraogo",
+      "club": 3,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 23,
+      "value": 2000000,
+      "contract": "2031-06-30",
+      "nat": "Burkina Faso"
+    },
+    {
       "id": "713787",
       "name": "Jhoanner Chávez",
       "club": 6,
@@ -2672,6 +3574,50 @@
       "value": 2000000,
       "contract": "2030-06-30",
       "nat": "Cote d'Ivoire"
+    },
+    {
+      "id": "917147",
+      "name": "Mamadou Diop",
+      "club": 12,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 26,
+      "value": 2000000,
+      "contract": "2030-06-30",
+      "nat": "Mauritania"
+    },
+    {
+      "id": "1113528",
+      "name": "Christ Makosso",
+      "club": 12,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 22,
+      "value": 2000000,
+      "contract": "2030-06-30",
+      "nat": "Congo"
+    },
+    {
+      "id": "1291928",
+      "name": "Elikya Legros",
+      "club": 12,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 18,
+      "value": 2000000,
+      "contract": "2030-06-30",
+      "nat": "France"
+    },
+    {
+      "id": "538994",
+      "name": "Pierre Ekwah",
+      "club": 12,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 24,
+      "value": 2000000,
+      "contract": "2027-06-30",
+      "nat": "France"
     },
     {
       "id": "748807",
@@ -2828,6 +3774,17 @@
       "nat": "Finland"
     },
     {
+      "id": "282028",
+      "name": "Rémy Descamps",
+      "club": 3,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 30,
+      "value": 1500000,
+      "contract": "2029-06-30",
+      "nat": "France"
+    },
+    {
       "id": "297070",
       "name": "Hamari Traoré",
       "club": 7,
@@ -2936,6 +3893,17 @@
       "value": 1500000,
       "contract": "2028-06-30",
       "nat": "Guinea"
+    },
+    {
+      "id": "539665",
+      "name": "Fredrik Oppegård",
+      "club": 12,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 24,
+      "value": 1500000,
+      "contract": "2028-06-30",
+      "nat": "Norway"
     },
     {
       "id": "380744",
@@ -3125,6 +4093,28 @@
       "nat": "France"
     },
     {
+      "id": "189744",
+      "name": "Paul Nardi",
+      "club": 12,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 32,
+      "value": 1200000,
+      "contract": "2028-06-30",
+      "nat": "France"
+    },
+    {
+      "id": "668941",
+      "name": "Sékou Fofana",
+      "club": 12,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 23,
+      "value": 1200000,
+      "contract": "2030-06-30",
+      "nat": "France"
+    },
+    {
       "id": "1144999",
       "name": "Luck Zogbé",
       "club": 13,
@@ -3191,6 +4181,28 @@
       "nat": "Belgium"
     },
     {
+      "id": "1170718",
+      "name": "Tyrese Noubissie",
+      "club": 2,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 17,
+      "value": 1000000,
+      "contract": "2028-06-30",
+      "nat": "England"
+    },
+    {
+      "id": "1119391",
+      "name": "Steeve Kango",
+      "club": 3,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 19,
+      "value": 1000000,
+      "contract": "2029-06-30",
+      "nat": "France"
+    },
+    {
       "id": "1227106",
       "name": "Elías Legendre Quiñónez",
       "club": 4,
@@ -3221,6 +4233,39 @@
       "age": 20,
       "value": 1000000,
       "contract": "2027-06-30",
+      "nat": "France"
+    },
+    {
+      "id": "1183715",
+      "name": "Kelyann Bezahaf",
+      "club": 8,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 20,
+      "value": 1000000,
+      "contract": "2028-06-30",
+      "nat": "Algeria"
+    },
+    {
+      "id": "1206824",
+      "name": "Tadjidine Mmadi",
+      "club": 8,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 19,
+      "value": 1000000,
+      "contract": "2029-06-30",
+      "nat": "France"
+    },
+    {
+      "id": "1091353",
+      "name": "Telli Siwe",
+      "club": 12,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 21,
+      "value": 1000000,
+      "contract": "2029-06-30",
       "nat": "France"
     },
     {
@@ -3356,6 +4401,17 @@
       "nat": "Martinique"
     },
     {
+      "id": "1108478",
+      "name": "Alejandro Gomes Rodríguez",
+      "club": 3,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 18,
+      "value": 800000,
+      "contract": "2028-06-30",
+      "nat": "England"
+    },
+    {
       "id": "1004479",
       "name": "Zoumana Diallo",
       "club": 9,
@@ -3466,6 +4522,17 @@
       "nat": "France"
     },
     {
+      "id": "965043",
+      "name": "Milosz Piekutowski",
+      "club": 2,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 20,
+      "value": 600000,
+      "contract": "2031-06-30",
+      "nat": "Poland"
+    },
+    {
       "id": "977877",
       "name": "Ayanda Sishuba",
       "club": 4,
@@ -3554,6 +4621,17 @@
       "nat": "France"
     },
     {
+      "id": "287635",
+      "name": "Assane Dioussé",
+      "club": 12,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 29,
+      "value": 500000,
+      "contract": "2027-06-30",
+      "nat": "Senegal"
+    },
+    {
       "id": "1207432",
       "name": "Lamine N'Diaye",
       "club": 15,
@@ -3596,6 +4674,28 @@
       "value": 500000,
       "contract": "2027-06-30",
       "nat": "Central African Republic"
+    },
+    {
+      "id": "429901",
+      "name": "Paul Akouokou",
+      "club": 3,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 28,
+      "value": 400000,
+      "contract": "2027-06-30",
+      "nat": "Cote d'Ivoire"
+    },
+    {
+      "id": "1119338",
+      "name": "Rayan Mandengue",
+      "club": 12,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 20,
+      "value": 400000,
+      "contract": "2028-06-30",
+      "nat": "Cameroon"
     },
     {
       "id": "986286",
@@ -3720,6 +4820,17 @@
       "nat": "Gabon"
     },
     {
+      "id": "620912",
+      "name": "Théo Vermot",
+      "club": 8,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 29,
+      "value": 300000,
+      "contract": "2027-06-30",
+      "nat": "France"
+    },
+    {
       "id": "789419",
       "name": "Teddy Boulhendi",
       "club": 9,
@@ -3740,6 +4851,39 @@
       "value": 300000,
       "contract": "2028-06-30",
       "nat": "Morocco"
+    },
+    {
+      "id": "1291922",
+      "name": "Lamfia Dioubaté",
+      "club": 12,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 19,
+      "value": 300000,
+      "contract": "2029-06-30",
+      "nat": "France"
+    },
+    {
+      "id": "1174032",
+      "name": "Tidiane Devernois",
+      "club": 12,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 19,
+      "value": 300000,
+      "contract": "2030-06-30",
+      "nat": "France"
+    },
+    {
+      "id": "1265965",
+      "name": "Xiangxin Wei",
+      "club": 12,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 18,
+      "value": 300000,
+      "contract": "2031-06-30",
+      "nat": "China"
     },
     {
       "id": "548347",
@@ -3819,6 +4963,17 @@
       "nat": "France"
     },
     {
+      "id": "802986",
+      "name": "Justin Bengui",
+      "club": 3,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 21,
+      "value": 250000,
+      "contract": "2028-06-30",
+      "nat": "France"
+    },
+    {
       "id": "1180835",
       "name": "Issiaga Camara",
       "club": 9,
@@ -3838,6 +4993,28 @@
       "age": 36,
       "value": 200000,
       "contract": "2027-06-30",
+      "nat": "France"
+    },
+    {
+      "id": "1164662",
+      "name": "Nouhoum Kamissoko",
+      "club": 8,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 21,
+      "value": 200000,
+      "contract": "2029-06-30",
+      "nat": "Mali"
+    },
+    {
+      "id": "1367596",
+      "name": "Mamoudou Cissokho",
+      "club": 12,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 18,
+      "value": 200000,
+      "contract": "2029-06-30",
       "nat": "France"
     },
     {
@@ -4017,653 +5194,15 @@
       "nat": "France"
     },
     {
-      "id": "585323",
-      "name": "Filip Jørgensen",
-      "club": 2,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Denmark"
-    },
-    {
-      "id": "965043",
-      "name": "Milosz Piekutowski",
-      "club": 2,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Poland"
-    },
-    {
-      "id": "1084638",
-      "name": "Karim Coulibaly",
-      "club": 2,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Germany"
-    },
-    {
-      "id": "786436",
-      "name": "Ismaël Doukouré",
-      "club": 2,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "France"
-    },
-    {
-      "id": "926978",
-      "name": "Lucas Høgsberg",
-      "club": 2,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Denmark"
-    },
-    {
-      "id": "856068",
-      "name": "Jeyland Mitchell",
-      "club": 2,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Costa Rica"
-    },
-    {
       "id": "1185890",
       "name": "Hermann Malonga",
       "club": 2,
       "pos": "ZAG",
       "posName": "Centre-Back",
-      "age": null,
+      "age": 18,
       "value": null,
-      "contract": null,
+      "contract": "2031-06-30",
       "nat": "France"
-    },
-    {
-      "id": "1032280",
-      "name": "Oso",
-      "club": 2,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Spain"
-    },
-    {
-      "id": "984529",
-      "name": "Mateo Del Blanco",
-      "club": 2,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "1045121",
-      "name": "Genesis Antwi",
-      "club": 2,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Sweden"
-    },
-    {
-      "id": "670717",
-      "name": "Dário Essugo",
-      "club": 2,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Portugal"
-    },
-    {
-      "id": "937729",
-      "name": "Diogo Sousa",
-      "club": 2,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Portugal"
-    },
-    {
-      "id": "863204",
-      "name": "Maxi Oyedele",
-      "club": 2,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Poland"
-    },
-    {
-      "id": "1130514",
-      "name": "Samir El Mourabet",
-      "club": 2,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Morocco"
-    },
-    {
-      "id": "949113",
-      "name": "Pape Demba Diop",
-      "club": 2,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Senegal"
-    },
-    {
-      "id": "1170718",
-      "name": "Tyrese Noubissie",
-      "club": 2,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "England"
-    },
-    {
-      "id": "504215",
-      "name": "Giovanni Reyna",
-      "club": 2,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "United States"
-    },
-    {
-      "id": "926135",
-      "name": "Omari Kellyman",
-      "club": 2,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "England"
-    },
-    {
-      "id": "1172441",
-      "name": "Benjamin Brantlind",
-      "club": 2,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Sweden"
-    },
-    {
-      "id": "992686",
-      "name": "Martial Godo",
-      "club": 2,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Cote d'Ivoire"
-    },
-    {
-      "id": "579928",
-      "name": "Sebastian Nanasi",
-      "club": 2,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Sweden"
-    },
-    {
-      "id": "910541",
-      "name": "Fábio Baldé",
-      "club": 2,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Portugal"
-    },
-    {
-      "id": "1151929",
-      "name": "Gessime Yassine",
-      "club": 2,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Morocco"
-    },
-    {
-      "id": "933900",
-      "name": "Samuel Amo-Ameyaw",
-      "club": 2,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "England"
-    },
-    {
-      "id": "1133733",
-      "name": "Yaya Diémé",
-      "club": 2,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Senegal"
-    },
-    {
-      "id": "1064871",
-      "name": "Joaquín Panichelli",
-      "club": 2,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "807386",
-      "name": "Conrad Harder",
-      "club": 2,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Denmark"
-    },
-    {
-      "id": "1186237",
-      "name": "Jacobo Ortega",
-      "club": 2,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Spain"
-    },
-    {
-      "id": "1082850",
-      "name": "Deivid Washington",
-      "club": 2,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "557612",
-      "name": "Sékou Mara",
-      "club": 2,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "France"
-    },
-    {
-      "id": "316884",
-      "name": "Dominik Greif",
-      "club": 3,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Slovakia"
-    },
-    {
-      "id": "282028",
-      "name": "Rémy Descamps",
-      "club": 3,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "France"
-    },
-    {
-      "id": "802986",
-      "name": "Justin Bengui",
-      "club": 3,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "France"
-    },
-    {
-      "id": "1071430",
-      "name": "Lassine Diarra",
-      "club": 3,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mali"
-    },
-    {
-      "id": "291200",
-      "name": "Moussa Niakhaté",
-      "club": 3,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Senegal"
-    },
-    {
-      "id": "578421",
-      "name": "Ruben Kluivert",
-      "club": 3,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Netherlands"
-    },
-    {
-      "id": "394134",
-      "name": "Felix Bacher",
-      "club": 3,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Austria"
-    },
-    {
-      "id": "1275040",
-      "name": "Noham Kamara",
-      "club": 3,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "France"
-    },
-    {
-      "id": "187718",
-      "name": "Clinton Mata",
-      "club": 3,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Angola"
-    },
-    {
-      "id": "646402",
-      "name": "Abner",
-      "club": 3,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "131225",
-      "name": "Nicolás Tagliafico",
-      "club": 3,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "1107570",
-      "name": "Mohamed Ouédraogo",
-      "club": 3,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Burkina Faso"
-    },
-    {
-      "id": "990637",
-      "name": "Zachary Athekame",
-      "club": 3,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Switzerland"
-    },
-    {
-      "id": "1119391",
-      "name": "Steeve Kango",
-      "club": 3,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "France"
-    },
-    {
-      "id": "618494",
-      "name": "Tyler Morton",
-      "club": 3,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "England"
-    },
-    {
-      "id": "670096",
-      "name": "Tanner Tessmann",
-      "club": 3,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "United States"
-    },
-    {
-      "id": "429901",
-      "name": "Paul Akouokou",
-      "club": 3,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Cote d'Ivoire"
-    },
-    {
-      "id": "462832",
-      "name": "Mads Bidstrup",
-      "club": 3,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Denmark"
-    },
-    {
-      "id": "1187942",
-      "name": "Khalis Merah",
-      "club": 3,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "France"
-    },
-    {
-      "id": "802515",
-      "name": "Noah Nartey",
-      "club": 3,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Denmark"
-    },
-    {
-      "id": "190393",
-      "name": "Corentin Tolisso",
-      "club": 3,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "France"
-    },
-    {
-      "id": "500053",
-      "name": "Pavel Sulc",
-      "club": 3,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Czech Republic"
-    },
-    {
-      "id": "405397",
-      "name": "Keito Nakamura",
-      "club": 3,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Japan"
-    },
-    {
-      "id": "1200423",
-      "name": "Rémi Himbert",
-      "club": 3,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "France"
-    },
-    {
-      "id": "819215",
-      "name": "Julien Duranville",
-      "club": 3,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Belgium"
-    },
-    {
-      "id": "955070",
-      "name": "Ernest Nuamah",
-      "club": 3,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ghana"
-    },
-    {
-      "id": "1097113",
-      "name": "Kaïl Boudache",
-      "club": 3,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Algeria"
-    },
-    {
-      "id": "368887",
-      "name": "Loïs Openda",
-      "club": 3,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Belgium"
-    },
-    {
-      "id": "1108478",
-      "name": "Alejandro Gomes Rodríguez",
-      "club": 3,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "England"
     },
     {
       "id": "1169721",
@@ -4688,279 +5227,15 @@
       "nat": "France"
     },
     {
-      "id": "315253",
-      "name": "Jeffrey de Lange",
-      "club": 8,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Netherlands"
-    },
-    {
-      "id": "620912",
-      "name": "Théo Vermot",
-      "club": 8,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "France"
-    },
-    {
       "id": "727086",
       "name": "Jelle Van Neck",
       "club": 8,
       "pos": "GOL",
       "posName": "Goalkeeper",
-      "age": null,
+      "age": 22,
       "value": null,
-      "contract": null,
+      "contract": "2027-06-30",
       "nat": "Belgium"
-    },
-    {
-      "id": "361914",
-      "name": "Nayef Aguerd",
-      "club": 8,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Morocco"
-    },
-    {
-      "id": "581669",
-      "name": "CJ Egan-Riley",
-      "club": 8,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "England"
-    },
-    {
-      "id": "807165",
-      "name": "Bamo Meïté",
-      "club": 8,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Cote d'Ivoire"
-    },
-    {
-      "id": "328609",
-      "name": "Derek Cornelius",
-      "club": 8,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Canada"
-    },
-    {
-      "id": "181778",
-      "name": "Emerson",
-      "club": 8,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Italy"
-    },
-    {
-      "id": "192616",
-      "name": "Ulisses Garcia",
-      "club": 8,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Switzerland"
-    },
-    {
-      "id": "955449",
-      "name": "Alexi Koum",
-      "club": 8,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Cameroon"
-    },
-    {
-      "id": "370846",
-      "name": "Timothy Weah",
-      "club": 8,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "United States"
-    },
-    {
-      "id": "1183715",
-      "name": "Kelyann Bezahaf",
-      "club": 8,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Algeria"
-    },
-    {
-      "id": "167799",
-      "name": "Pierre-Emile Højbjerg",
-      "club": 8,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Denmark"
-    },
-    {
-      "id": "920470",
-      "name": "Tochukwu Nnadi",
-      "club": 8,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Nigeria"
-    },
-    {
-      "id": "127189",
-      "name": "Geoffrey Kondogbia",
-      "club": 8,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Central African Republic"
-    },
-    {
-      "id": "1164662",
-      "name": "Nouhoum Kamissoko",
-      "club": 8,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mali"
-    },
-    {
-      "id": "592979",
-      "name": "Himad Abdelli",
-      "club": 8,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Algeria"
-    },
-    {
-      "id": "392770",
-      "name": "Angel Gomes",
-      "club": 8,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "England"
-    },
-    {
-      "id": "653610",
-      "name": "Igor Paixão",
-      "club": 8,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1206824",
-      "name": "Tadjidine Mmadi",
-      "club": 8,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "France"
-    },
-    {
-      "id": "1183719",
-      "name": "Keyliane Abdallah",
-      "club": 8,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "France"
-    },
-    {
-      "id": "372711",
-      "name": "Amine Harit",
-      "club": 8,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Morocco"
-    },
-    {
-      "id": "418659",
-      "name": "Amine Gouiri",
-      "club": 8,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Algeria"
-    },
-    {
-      "id": "217115",
-      "name": "Neal Maupay",
-      "club": 8,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "France"
-    },
-    {
-      "id": "599663",
-      "name": "Faris Moumbagna",
-      "club": 8,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Cameroon"
     },
     {
       "id": "1297633",
@@ -4996,378 +5271,15 @@
       "nat": "France"
     },
     {
-      "id": "917147",
-      "name": "Mamadou Diop",
-      "club": 12,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mauritania"
-    },
-    {
-      "id": "189744",
-      "name": "Paul Nardi",
-      "club": 12,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "France"
-    },
-    {
-      "id": "1167216",
-      "name": "Louis Mezerette",
-      "club": 12,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "France"
-    },
-    {
-      "id": "806793",
-      "name": "Clément Akpa",
-      "club": 12,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Cote d'Ivoire"
-    },
-    {
-      "id": "702441",
-      "name": "Sinaly Diomandé",
-      "club": 12,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Cote d'Ivoire"
-    },
-    {
-      "id": "342046",
-      "name": "Axel Tuanzebe",
-      "club": 12,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "DR Congo"
-    },
-    {
-      "id": "539795",
-      "name": "Bryan Okoh",
-      "club": 12,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Switzerland"
-    },
-    {
-      "id": "1113528",
-      "name": "Christ Makosso",
-      "club": 12,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Congo"
-    },
-    {
-      "id": "1291928",
-      "name": "Elikya Legros",
-      "club": 12,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "France"
-    },
-    {
-      "id": "1091353",
-      "name": "Telli Siwe",
-      "club": 12,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "France"
-    },
-    {
-      "id": "1144938",
-      "name": "Alvin Petit Dol",
-      "club": 12,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "France"
-    },
-    {
-      "id": "1353597",
-      "name": "Mohamed Coulibaly",
-      "club": 12,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "France"
-    },
-    {
-      "id": "539665",
-      "name": "Fredrik Oppegård",
-      "club": 12,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Norway"
-    },
-    {
-      "id": "668941",
-      "name": "Sékou Fofana",
-      "club": 12,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "France"
-    },
-    {
       "id": "1205629",
       "name": "Ackah-Tidiane Zoukrou",
       "club": 12,
       "pos": "LE",
       "posName": "Left-Back",
-      "age": null,
+      "age": 18,
       "value": null,
-      "contract": null,
+      "contract": "2029-06-30",
       "nat": "France"
-    },
-    {
-      "id": "830890",
-      "name": "Marvin Senaya",
-      "club": 12,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ghana"
-    },
-    {
-      "id": "796865",
-      "name": "Lamine Sy",
-      "club": 12,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Senegal"
-    },
-    {
-      "id": "775981",
-      "name": "Arthur Piedfort",
-      "club": 12,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Belgium"
-    },
-    {
-      "id": "538994",
-      "name": "Pierre Ekwah",
-      "club": 12,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "France"
-    },
-    {
-      "id": "287635",
-      "name": "Assane Dioussé",
-      "club": 12,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Senegal"
-    },
-    {
-      "id": "1291922",
-      "name": "Lamfia Dioubaté",
-      "club": 12,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "France"
-    },
-    {
-      "id": "1291929",
-      "name": "Yvan Zaddy",
-      "club": 12,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Cote d'Ivoire"
-    },
-    {
-      "id": "743496",
-      "name": "Kévin Danois",
-      "club": 12,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "France"
-    },
-    {
-      "id": "538971",
-      "name": "Naouirou Ahamada",
-      "club": 12,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "France"
-    },
-    {
-      "id": "1174032",
-      "name": "Tidiane Devernois",
-      "club": 12,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "France"
-    },
-    {
-      "id": "555076",
-      "name": "Romain Faivre",
-      "club": 12,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "France"
-    },
-    {
-      "id": "392767",
-      "name": "Danny Namaso",
-      "club": 12,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Cameroon"
-    },
-    {
-      "id": "1310513",
-      "name": "Aristide Zossou",
-      "club": 12,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Cote d'Ivoire"
-    },
-    {
-      "id": "1119338",
-      "name": "Rayan Mandengue",
-      "club": 12,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Cameroon"
-    },
-    {
-      "id": "1367596",
-      "name": "Mamoudou Cissokho",
-      "club": 12,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "France"
-    },
-    {
-      "id": "533662",
-      "name": "Cameron Archer",
-      "club": 12,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "England"
-    },
-    {
-      "id": "917778",
-      "name": "Rémy Labeau Lascary",
-      "club": 12,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "France"
-    },
-    {
-      "id": "1010856",
-      "name": "Ryan Rodin",
-      "club": 12,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "France"
-    },
-    {
-      "id": "1265965",
-      "name": "Xiangxin Wei",
-      "club": 12,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "China"
     },
     {
       "id": "272619",

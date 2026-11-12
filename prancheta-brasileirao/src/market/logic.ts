@@ -57,9 +57,13 @@ export interface MarketState {
   rate: number;
   decisions: Record<string, Decision>;
   signings: Signing[];
+  /** já passou pelo passo a passo inicial */
+  onboarded: boolean;
+  /** jogadores observados no mercado ("liga:id") */
+  watch: string[];
 }
 
-export const emptyMarketState = (): MarketState => ({ budget: 20_000_000, useSales: true, rate: 6.2, decisions: {}, signings: [] });
+export const emptyMarketState = (): MarketState => ({ budget: 20_000_000, useSales: true, rate: 6.2, decisions: {}, signings: [], onboarded: false, watch: [] });
 
 const ends = (date: string | null | undefined, cutoff: string) => !!date && date < cutoff;
 
@@ -175,3 +179,114 @@ export const fmtDate = (d: string | null | undefined) => {
   const [y, m] = d.split("-");
   return `${m}/${y}`;
 };
+
+// ---------- elenco da próxima temporada e gráficos ----------
+
+import type { Pos } from "../types";
+
+export type NextKind = "stay" | "new" | "leave";
+export interface NextPlayer {
+  id: string;
+  name: string;
+  pos: Pos;
+  age: number | null;
+  value: number | null;
+  /** fim do vínculo que vale na próxima temporada; "renew" = renovado (data nova a definir) */
+  contract: string | null | "renew";
+  kind: NextKind;
+  pending: boolean;
+}
+
+/** Todos os envolvidos na janela: quem fica, quem chega e quem sai. */
+export function nextSeason(squad: SquadPlayer[], st: MarketState, cutoff: string, arrivals: MarketPlayer[]): NextPlayer[] {
+  const out: NextPlayer[] = [];
+  for (const p of squad) {
+    const d = decisionOf(p, st, cutoff);
+    const stays = staysWith(d.action);
+    if (!stays && p.status === "loanOut" && d.action !== "sell") continue; // já está fora e segue fora
+    const contract = d.action === "renew" ? "renew" : d.action === "extendLoan" ? p.loanUntil ?? null : p.contract;
+    out.push({ id: p.id, name: p.name, pos: p.pos, age: p.age, value: p.value, contract, kind: stays ? "stay" : "leave", pending: isEnding(p, cutoff) && !st.decisions[p.id] });
+  }
+  for (const a of arrivals) out.push({ id: a.id, name: a.name, pos: a.pos, age: a.age, value: a.value, contract: a.contract, kind: "new", pending: false });
+  return out;
+}
+
+/** Mínimo recomendado por posição para uma temporada (dois por posição, mais nos setores com mais vagas). */
+export const DEPTH_MIN: Record<Pos, number> = { GOL: 3, ZAG: 4, LD: 2, LE: 2, VOL: 3, MEI: 4, PON: 4, ATA: 3 };
+const POS_ORDER: Pos[] = ["GOL", "ZAG", "LD", "LE", "VOL", "MEI", "PON", "ATA"];
+
+export interface DepthRow {
+  pos: Pos;
+  stay: NextPlayer[];
+  fresh: NextPlayer[];
+  leave: NextPlayer[];
+  min: number;
+  short: number;
+}
+
+export function depthChart(list: NextPlayer[]): DepthRow[] {
+  return POS_ORDER.map((pos) => {
+    const of = (k: NextKind) => list.filter((x) => x.pos === pos && x.kind === k);
+    const stay = of("stay");
+    const fresh = of("new");
+    return { pos, stay, fresh, leave: of("leave"), min: DEPTH_MIN[pos], short: Math.max(0, DEPTH_MIN[pos] - stay.length - fresh.length) };
+  });
+}
+
+/** Quantos vínculos do elenco da próxima temporada acabam em cada ano. */
+export function contractYears(list: NextPlayer[]): { label: string; count: number; names: string[] }[] {
+  const next = list.filter((x) => x.kind !== "leave");
+  const map = new Map<string, string[]>();
+  for (const x of next) {
+    const key = x.contract === "renew" ? "Renovados" : x.contract ? x.contract.slice(0, 4) : "Sem data";
+    map.set(key, [...(map.get(key) ?? []), x.name]);
+  }
+  const rank = (k: string) => (k === "Renovados" ? 9998 : k === "Sem data" ? 9999 : Number(k));
+  return [...map.entries()].sort((a, b) => rank(a[0]) - rank(b[0])).map(([label, names]) => ({ label, count: names.length, names }));
+}
+
+export interface WaterfallStep {
+  label: string;
+  /** início e fim da barra na escala (euros) */
+  from: number;
+  to: number;
+  value: number;
+  kind: "base" | "in" | "out" | "total";
+}
+
+/** Orçamento + vendas − gastos = saldo, como barras encadeadas. */
+export function waterfall(st: MarketState, sum: Pick<Summary, "income" | "spend" | "balance">): WaterfallStep[] {
+  const steps: WaterfallStep[] = [{ label: "Orçamento", from: 0, to: st.budget, value: st.budget, kind: "base" }];
+  let top = st.budget;
+  if (st.useSales) {
+    steps.push({ label: "Vendas", from: top, to: top + sum.income, value: sum.income, kind: "in" });
+    top += sum.income;
+  }
+  steps.push({ label: "Gastos", from: top - sum.spend, to: top, value: -sum.spend, kind: "out" });
+  steps.push({ label: "Saldo", from: Math.min(0, sum.balance), to: Math.max(0, sum.balance), value: sum.balance, kind: "total" });
+  return steps;
+}
+
+/** Resumo em texto para colar no WhatsApp / X. */
+export function shareText(opts: {
+  club: string;
+  season: string;
+  arrivals: { name: string; from: string; type: SigningType; price: number }[];
+  leaves: { name: string; action: SquadAction; money: number }[];
+  balance: number;
+  url: string;
+}): string {
+  const lines = [`Minha janela do ${opts.club} para ${opts.season}`, ""];
+  if (opts.arrivals.length) {
+    lines.push("CHEGAM");
+    for (const a of opts.arrivals) lines.push(`+ ${a.name} (${a.from}) · ${a.type === "buy" ? fmtEur(a.price) : SIGNING_LABEL[a.type].toLowerCase()}`);
+    lines.push("");
+  }
+  if (opts.leaves.length) {
+    lines.push("SAEM");
+    for (const l of opts.leaves) lines.push(`- ${l.name} · ${ACTION_LABEL[l.action].toLowerCase()}${l.money ? ` por ${fmtEur(l.money)}` : ""}`);
+    lines.push("");
+  }
+  lines.push(`Saldo: ${fmtEur(opts.balance)}`, `Monte a sua: ${opts.url}`);
+  return lines.join("\n");
+}

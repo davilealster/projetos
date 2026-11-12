@@ -70,6 +70,50 @@
   ],
   "players": [
     {
+      "id": "651580",
+      "name": "Matvey Kislyak",
+      "club": 2,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 21,
+      "value": 25000000,
+      "contract": "2029-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "800175",
+      "name": "Luiz Henrique",
+      "club": 0,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 25,
+      "value": 24000000,
+      "contract": "2028-12-31",
+      "nat": "Brazil"
+    },
+    {
+      "id": "1004741",
+      "name": "Pedro",
+      "club": 0,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 20,
+      "value": 20000000,
+      "contract": "2030-06-30",
+      "nat": "Brazil"
+    },
+    {
+      "id": "337800",
+      "name": "Gedson Fernandes",
+      "club": 1,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 27,
+      "value": 18000000,
+      "contract": "2029-06-30",
+      "nat": "Portugal"
+    },
+    {
       "id": "532676",
       "name": "Konstantin Tyukavin",
       "club": 3,
@@ -79,6 +123,61 @@
       "value": 17000000,
       "contract": "2030-06-30",
       "nat": "Russia"
+    },
+    {
+      "id": "456623",
+      "name": "Esequiel Barco",
+      "club": 1,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 27,
+      "value": 16000000,
+      "contract": "2030-06-30",
+      "nat": "Argentina"
+    },
+    {
+      "id": "499721",
+      "name": "Wendel",
+      "club": 0,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 29,
+      "value": 15000000,
+      "contract": "2029-06-30",
+      "nat": "Brazil"
+    },
+    {
+      "id": "964582",
+      "name": "Jhon Jhon",
+      "club": 0,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 24,
+      "value": 15000000,
+      "contract": "2031-06-30",
+      "nat": "Brazil"
+    },
+    {
+      "id": "448981",
+      "name": "Maksim Glushenkov",
+      "club": 0,
+      "pos": "ATA",
+      "posName": "Second Striker",
+      "age": 27,
+      "value": 15000000,
+      "contract": "2028-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "834899",
+      "name": "Felipe Augusto",
+      "club": 0,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 22,
+      "value": 15000000,
+      "contract": "2030-06-30",
+      "nat": "Brazil"
     },
     {
       "id": "703497",
@@ -92,6 +191,138 @@
       "nat": "Brazil"
     },
     {
+      "id": "645173",
+      "name": "Manfred Ugalde",
+      "club": 1,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 24,
+      "value": 12000000,
+      "contract": "2028-06-30",
+      "nat": "Costa Rica"
+    },
+    {
+      "id": "617520",
+      "name": "Stanislav Agkatsev",
+      "club": 4,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 24,
+      "value": 12000000,
+      "contract": "2029-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "658678",
+      "name": "Christian",
+      "club": 4,
+      "pos": "PON",
+      "posName": "Right Midfield",
+      "age": 25,
+      "value": 12000000,
+      "contract": "2030-06-30",
+      "nat": "Brazil"
+    },
+    {
+      "id": "532732",
+      "name": "Igor Diveev",
+      "club": 0,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 27,
+      "value": 10000000,
+      "contract": "2029-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "521872",
+      "name": "Mirlind Daku",
+      "club": 1,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 28,
+      "value": 10000000,
+      "contract": "2029-06-30",
+      "nat": "Albania"
+    },
+    {
+      "id": "419845",
+      "name": "Ivan Oblyakov",
+      "club": 2,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 28,
+      "value": 10000000,
+      "contract": "2030-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "865414",
+      "name": "Kirill Glebov",
+      "club": 2,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 21,
+      "value": 10000000,
+      "contract": "2028-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "520454",
+      "name": "Nino",
+      "club": 0,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 29,
+      "value": 9000000,
+      "contract": "2028-06-30",
+      "nat": "Brazil"
+    },
+    {
+      "id": "516722",
+      "name": "Marquinhos",
+      "club": 1,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 27,
+      "value": 9000000,
+      "contract": "2029-06-30",
+      "nat": "Brazil"
+    },
+    {
+      "id": "746180",
+      "name": "Nikita Krivtsov",
+      "club": 4,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 24,
+      "value": 9000000,
+      "contract": "2029-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "185245",
+      "name": "Jhon Córdoba",
+      "club": 4,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 33,
+      "value": 9000000,
+      "contract": "2027-06-30",
+      "nat": "Colombia"
+    },
+    {
+      "id": "756991",
+      "name": "Pablo Solari",
+      "club": 1,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 25,
+      "value": 8000000,
+      "contract": "2029-06-30",
+      "nat": "Argentina"
+    },
+    {
       "id": "843397",
       "name": "Rubens",
       "club": 3,
@@ -103,6 +334,39 @@
       "nat": "Brazil"
     },
     {
+      "id": "517300",
+      "name": "Vítor Tormena",
+      "club": 4,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 30,
+      "value": 8000000,
+      "contract": "2029-06-30",
+      "nat": "Brazil"
+    },
+    {
+      "id": "432112",
+      "name": "Aleksandr Chernikov",
+      "club": 4,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 26,
+      "value": 8000000,
+      "contract": "2029-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "514256",
+      "name": "João Batxi",
+      "club": 4,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 28,
+      "value": 8000000,
+      "contract": "2029-06-30",
+      "nat": "Angola"
+    },
+    {
       "id": "515051",
       "name": "Aleksandr Silyanov",
       "club": 5,
@@ -110,6 +374,39 @@
       "posName": "Right-Back",
       "age": 25,
       "value": 8000000,
+      "contract": "2029-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "220793",
+      "name": "Douglas Santos",
+      "club": 0,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 32,
+      "value": 7500000,
+      "contract": "2027-06-30",
+      "nat": "Brazil"
+    },
+    {
+      "id": "464259",
+      "name": "Aleksandr Sobolev",
+      "club": 0,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 29,
+      "value": 7500000,
+      "contract": "2027-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "381833",
+      "name": "Nail Umyarov",
+      "club": 1,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 26,
+      "value": 7500000,
       "contract": "2029-06-30",
       "nat": "Russia"
     },
@@ -134,6 +431,50 @@
       "value": 7500000,
       "contract": "2028-06-30",
       "nat": "Russia"
+    },
+    {
+      "id": "691920",
+      "name": "Artem Karpukas",
+      "club": 0,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 24,
+      "value": 7000000,
+      "contract": "2031-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "1131030",
+      "name": "Kirill Danilov",
+      "club": 2,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 19,
+      "value": 7000000,
+      "contract": "2029-12-31",
+      "nat": "Russia"
+    },
+    {
+      "id": "263905",
+      "name": "Dmitriy Barinov",
+      "club": 2,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 30,
+      "value": 7000000,
+      "contract": "2029-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "851111",
+      "name": "Luciano Gondou",
+      "club": 2,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 25,
+      "value": 7000000,
+      "contract": "2030-06-30",
+      "nat": "Argentina"
     },
     {
       "id": "985172",
@@ -180,6 +521,72 @@
       "nat": "Russia"
     },
     {
+      "id": "393621",
+      "name": "Douglas Augusto",
+      "club": 4,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 29,
+      "value": 7000000,
+      "contract": "2028-06-30",
+      "nat": "Brazil"
+    },
+    {
+      "id": "370287",
+      "name": "Dmitriy Vorobyov",
+      "club": 4,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 28,
+      "value": 7000000,
+      "contract": "2030-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "520073",
+      "name": "Ruslan Litvinov",
+      "club": 1,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 25,
+      "value": 6000000,
+      "contract": "2029-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "381714",
+      "name": "Danil Prutsev",
+      "club": 1,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 26,
+      "value": 6000000,
+      "contract": "2028-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "372535",
+      "name": "Danil Krugovoy",
+      "club": 2,
+      "pos": "PON",
+      "posName": "Left Midfield",
+      "age": 28,
+      "value": 6000000,
+      "contract": "2029-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "1127813",
+      "name": "Matheus Alves",
+      "club": 2,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 21,
+      "value": 6000000,
+      "contract": "2030-06-30",
+      "nat": "Brazil"
+    },
+    {
       "id": "331059",
       "name": "Luis Chávez",
       "club": 3,
@@ -202,6 +609,50 @@
       "nat": "Chile"
     },
     {
+      "id": "875947",
+      "name": "Román Vega",
+      "club": 0,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 22,
+      "value": 5000000,
+      "contract": "2030-06-30",
+      "nat": "Argentina"
+    },
+    {
+      "id": "814269",
+      "name": "Gustavo Mantuan",
+      "club": 0,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 25,
+      "value": 5000000,
+      "contract": "2030-06-30",
+      "nat": "Brazil"
+    },
+    {
+      "id": "257668",
+      "name": "Wilmar Barrios",
+      "club": 0,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 33,
+      "value": 5000000,
+      "contract": "2027-06-30",
+      "nat": "Colombia"
+    },
+    {
+      "id": "572326",
+      "name": "Christopher Wooh",
+      "club": 1,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 25,
+      "value": 5000000,
+      "contract": "2029-06-30",
+      "nat": "Cameroon"
+    },
+    {
       "id": "852980",
       "name": "Nicolás Marichal",
       "club": 3,
@@ -211,6 +662,17 @@
       "value": 5000000,
       "contract": "2029-06-30",
       "nat": "Uruguay"
+    },
+    {
+      "id": "544586",
+      "name": "Kevin Pina",
+      "club": 4,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 29,
+      "value": 5000000,
+      "contract": "2029-06-30",
+      "nat": "Cape Verde"
     },
     {
       "id": "729266",
@@ -246,6 +708,83 @@
       "nat": "El Salvador"
     },
     {
+      "id": "351419",
+      "name": "Aleksandr Maksimenko",
+      "club": 1,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 28,
+      "value": 4000000,
+      "contract": "2027-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "222805",
+      "name": "Srdjan Babic",
+      "club": 1,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 30,
+      "value": 4000000,
+      "contract": "2027-06-30",
+      "nat": "Serbia"
+    },
+    {
+      "id": "591957",
+      "name": "Victor Parada",
+      "club": 1,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 24,
+      "value": 4000000,
+      "contract": "2030-06-30",
+      "nat": "Spain"
+    },
+    {
+      "id": "649303",
+      "name": "Daniil Denisov",
+      "club": 1,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 24,
+      "value": 4000000,
+      "contract": "2030-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "671145",
+      "name": "João Victor",
+      "club": 2,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 28,
+      "value": 4000000,
+      "contract": "2029-06-30",
+      "nat": "Brazil"
+    },
+    {
+      "id": "624340",
+      "name": "Matvey Lukin",
+      "club": 2,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 22,
+      "value": 4000000,
+      "contract": "2029-06-01",
+      "nat": "Russia"
+    },
+    {
+      "id": "368468",
+      "name": "Moisés",
+      "club": 2,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 31,
+      "value": 4000000,
+      "contract": "2029-06-30",
+      "nat": "Brazil"
+    },
+    {
       "id": "652270",
       "name": "Evgeniy Morozov",
       "club": 5,
@@ -266,6 +805,17 @@
       "value": 4000000,
       "contract": "2028-06-30",
       "nat": "Kosovo"
+    },
+    {
+      "id": "866001",
+      "name": "Viktor Melekhin",
+      "club": 8,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 22,
+      "value": 4000000,
+      "contract": "2027-06-30",
+      "nat": "Russia"
     },
     {
       "id": "623553",
@@ -290,6 +840,83 @@
       "nat": "Kazakhstan"
     },
     {
+      "id": "334477",
+      "name": "Denis Adamov",
+      "club": 0,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 28,
+      "value": 3500000,
+      "contract": "2027-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "614898",
+      "name": "Kevin Andrade",
+      "club": 0,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 27,
+      "value": 3500000,
+      "contract": "2031-06-30",
+      "nat": "Colombia"
+    },
+    {
+      "id": "250844",
+      "name": "Alexander Djiku",
+      "club": 1,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 32,
+      "value": 3500000,
+      "contract": "2027-06-30",
+      "nat": "Ghana"
+    },
+    {
+      "id": "248054",
+      "name": "Christopher Martins",
+      "club": 1,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 29,
+      "value": 3500000,
+      "contract": "2028-06-30",
+      "nat": "Luxembourg"
+    },
+    {
+      "id": "817700",
+      "name": "Igor Dmitriev",
+      "club": 1,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 22,
+      "value": 3500000,
+      "contract": "2030-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "245030",
+      "name": "Milan Gajic",
+      "club": 2,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 30,
+      "value": 3500000,
+      "contract": "2027-06-30",
+      "nat": "Serbia"
+    },
+    {
+      "id": "1009031",
+      "name": "Henrique Carmo",
+      "club": 2,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 20,
+      "value": 3500000,
+      "contract": "2030-06-30",
+      "nat": "Brazil"
+    },
+    {
       "id": "673114",
       "name": "Yaroslav Gladyshev",
       "club": 3,
@@ -299,6 +926,17 @@
       "value": 3500000,
       "contract": "2030-06-30",
       "nat": "Russia"
+    },
+    {
+      "id": "216240",
+      "name": "Lucas Olaza",
+      "club": 4,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 32,
+      "value": 3500000,
+      "contract": "2028-06-30",
+      "nat": "Uruguay"
     },
     {
       "id": "260677",
@@ -334,6 +972,28 @@
       "nat": "France"
     },
     {
+      "id": "866670",
+      "name": "Ronaldo",
+      "club": 8,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 25,
+      "value": 3500000,
+      "contract": "2028-06-30",
+      "nat": "Brazil"
+    },
+    {
+      "id": "720287",
+      "name": "Danila Kozlov",
+      "club": 2,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 21,
+      "value": 3000000,
+      "contract": "2029-06-30",
+      "nat": "Russia"
+    },
+    {
       "id": "293829",
       "name": "Maksim Osipenko",
       "club": 3,
@@ -365,6 +1025,39 @@
       "value": 3000000,
       "contract": "2027-06-30",
       "nat": "Haiti"
+    },
+    {
+      "id": "1049831",
+      "name": "Maizon Rodríguez",
+      "club": 4,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 23,
+      "value": 3000000,
+      "contract": "2030-06-30",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "615650",
+      "name": "Valentin Paltsev",
+      "club": 4,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 25,
+      "value": 3000000,
+      "contract": "2030-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "515050",
+      "name": "Ilya Vakhania",
+      "club": 4,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 25,
+      "value": 3000000,
+      "contract": "2030-06-30",
+      "nat": "Russia"
     },
     {
       "id": "362570",
@@ -499,6 +1192,50 @@
       "nat": "Colombia"
     },
     {
+      "id": "1109232",
+      "name": "Daniil Kondakov",
+      "club": 0,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 18,
+      "value": 2500000,
+      "contract": "2031-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "863190",
+      "name": "Mohamed Azzi",
+      "club": 2,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 24,
+      "value": 2500000,
+      "contract": "2030-06-30",
+      "nat": "Algeria"
+    },
+    {
+      "id": "371627",
+      "name": "Ivan Oleynikov",
+      "club": 2,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 28,
+      "value": 2500000,
+      "contract": "2029-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "1012421",
+      "name": "Matija Popović",
+      "club": 2,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 20,
+      "value": 2500000,
+      "contract": "2028-06-30",
+      "nat": "Serbia"
+    },
+    {
       "id": "281917",
       "name": "Dmitriy Skopintsev",
       "club": 3,
@@ -609,6 +1346,28 @@
       "nat": "Mali"
     },
     {
+      "id": "640692",
+      "name": "Oumar Sako",
+      "club": 8,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 30,
+      "value": 2500000,
+      "contract": "2027-06-30",
+      "nat": "Niger"
+    },
+    {
+      "id": "666616",
+      "name": "Olakunle Olusegun",
+      "club": 8,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 24,
+      "value": 2500000,
+      "contract": "2029-06-30",
+      "nat": "Nigeria"
+    },
+    {
       "id": "501769",
       "name": "Kirill Shchetinin",
       "club": 9,
@@ -629,6 +1388,116 @@
       "value": 2500000,
       "contract": "2028-06-30",
       "nat": "Brazil"
+    },
+    {
+      "id": "465408",
+      "name": "Nuraly Alip",
+      "club": 0,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 26,
+      "value": 2000000,
+      "contract": "2028-06-30",
+      "nat": "Kazakhstan"
+    },
+    {
+      "id": "170620",
+      "name": "Vyacheslav Karavaev",
+      "club": 0,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 31,
+      "value": 2000000,
+      "contract": "2028-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "166277",
+      "name": "Roman Zobnin",
+      "club": 1,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 32,
+      "value": 2000000,
+      "contract": "2027-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "706618",
+      "name": "Vladislav Saus",
+      "club": 1,
+      "pos": "PON",
+      "posName": "Right Midfield",
+      "age": 23,
+      "value": 2000000,
+      "contract": "2030-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "263962",
+      "name": "Anton Zinkovskiy",
+      "club": 1,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 30,
+      "value": 2000000,
+      "contract": "2027-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "526448",
+      "name": "Maksim Borisko",
+      "club": 2,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 26,
+      "value": 2000000,
+      "contract": "2029-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "555146",
+      "name": "Vladislav Torop",
+      "club": 2,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 23,
+      "value": 2000000,
+      "contract": "2030-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "379249",
+      "name": "Matheus Reis",
+      "club": 2,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 31,
+      "value": 2000000,
+      "contract": "2029-06-30",
+      "nat": "Brazil"
+    },
+    {
+      "id": "654117",
+      "name": "Tamerlan Musaev",
+      "club": 2,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 25,
+      "value": 2000000,
+      "contract": "2028-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "1141473",
+      "name": "Maksim Voronov",
+      "club": 2,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 19,
+      "value": 2000000,
+      "contract": "2030-06-30",
+      "nat": "Russia"
     },
     {
       "id": "918327",
@@ -730,6 +1599,50 @@
       "nat": "Nigeria"
     },
     {
+      "id": "424022",
+      "name": "Rustam Yatimov",
+      "club": 8,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 28,
+      "value": 2000000,
+      "contract": "2029-06-30",
+      "nat": "Tajikistan"
+    },
+    {
+      "id": "621436",
+      "name": "Daniil Khlusevich",
+      "club": 8,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 25,
+      "value": 2000000,
+      "contract": "2028-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "402625",
+      "name": "Aleksey Mironov",
+      "club": 8,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 26,
+      "value": 2000000,
+      "contract": "2030-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "381834",
+      "name": "Konstantin Kuchaev",
+      "club": 8,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 28,
+      "value": 2000000,
+      "contract": "2029-06-30",
+      "nat": "Russia"
+    },
+    {
       "id": "629585",
       "name": "Kalidou Sidibé",
       "club": 9,
@@ -763,6 +1676,28 @@
       "nat": "Brazil"
     },
     {
+      "id": "1106216",
+      "name": "Damián Puebla",
+      "club": 13,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 24,
+      "value": 2000000,
+      "contract": "2029-06-30",
+      "nat": "Argentina"
+    },
+    {
+      "id": "1160957",
+      "name": "Andrey Kasadzhikov",
+      "club": 13,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 19,
+      "value": 2000000,
+      "contract": "2027-06-30",
+      "nat": "Russia"
+    },
+    {
       "id": "842780",
       "name": "Houssem Mrezigue",
       "club": 14,
@@ -785,6 +1720,17 @@
       "nat": "Russia"
     },
     {
+      "id": "375667",
+      "name": "Daniil Utkin",
+      "club": 4,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 27,
+      "value": 1800000,
+      "contract": "2029-06-30",
+      "nat": "Russia"
+    },
+    {
       "id": "312891",
       "name": "Evgeniy Latyshonok",
       "club": 7,
@@ -804,6 +1750,39 @@
       "age": 30,
       "value": 1800000,
       "contract": "2028-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "727569",
+      "name": "Andrey Langovich",
+      "club": 8,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 23,
+      "value": 1800000,
+      "contract": "2028-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "787305",
+      "name": "Ivan Komarov",
+      "club": 8,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 23,
+      "value": 1800000,
+      "contract": "2029-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "582074",
+      "name": "Timur Suleymanov",
+      "club": 8,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 26,
+      "value": 1800000,
+      "contract": "2030-06-30",
       "nat": "Russia"
     },
     {
@@ -882,6 +1861,50 @@
       "value": 1800000,
       "contract": "2029-06-30",
       "nat": "Russia"
+    },
+    {
+      "id": "520060",
+      "name": "Sergey Volkov",
+      "club": 0,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 24,
+      "value": 1500000,
+      "contract": "2028-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "917402",
+      "name": "Dzhamalutdin Abdulkadyrov",
+      "club": 2,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 21,
+      "value": 1500000,
+      "contract": "2028-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "149928",
+      "name": "Jubal",
+      "club": 4,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 33,
+      "value": 1500000,
+      "contract": "2028-06-30",
+      "nat": "Brazil"
+    },
+    {
+      "id": "487421",
+      "name": "Juan Manuel Boselli",
+      "club": 4,
+      "pos": "ATA",
+      "posName": "Second Striker",
+      "age": 27,
+      "value": 1500000,
+      "contract": "2028-06-30",
+      "nat": "Uruguay"
     },
     {
       "id": "230946",
@@ -1126,6 +2149,39 @@
       "nat": "Russia"
     },
     {
+      "id": "918827",
+      "name": "Aleksandr Degtev",
+      "club": 13,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 21,
+      "value": 1500000,
+      "contract": "2027-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "461903",
+      "name": "João Silva",
+      "club": 13,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 27,
+      "value": 1500000,
+      "contract": "2028-06-30",
+      "nat": "Portugal"
+    },
+    {
+      "id": "889462",
+      "name": "Jordhy Thompson",
+      "club": 13,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 22,
+      "value": 1500000,
+      "contract": "2030-06-30",
+      "nat": "Chile"
+    },
+    {
       "id": "654591",
       "name": "Temirkan Sundukov",
       "club": 14,
@@ -1192,6 +2248,17 @@
       "nat": "Russia"
     },
     {
+      "id": "137206",
+      "name": "Magomed Ozdoev",
+      "club": 4,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 34,
+      "value": 1200000,
+      "contract": "2028-06-30",
+      "nat": "Russia"
+    },
+    {
       "id": "189485",
       "name": "Cristian Ramírez",
       "club": 5,
@@ -1255,6 +2322,17 @@
       "age": 31,
       "value": 1200000,
       "contract": "2027-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "623274",
+      "name": "Maksim Mukhin",
+      "club": 8,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 25,
+      "value": 1200000,
+      "contract": "2029-06-30",
       "nat": "Russia"
     },
     {
@@ -1467,6 +2545,17 @@
       "nat": "Russia"
     },
     {
+      "id": "575408",
+      "name": "Evgeniy Bolotov",
+      "club": 13,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 25,
+      "value": 1200000,
+      "contract": "2028-06-30",
+      "nat": "Russia"
+    },
+    {
       "id": "1102540",
       "name": "Andrés Alarcón",
       "club": 14,
@@ -1485,6 +2574,28 @@
       "posName": "Left Winger",
       "age": 28,
       "value": 1200000,
+      "contract": "2027-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "217686",
+      "name": "Ilya Pomazun",
+      "club": 1,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 30,
+      "value": 1000000,
+      "contract": "2029-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "15570",
+      "name": "Igor Akinfeev",
+      "club": 2,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 40,
+      "value": 1000000,
       "contract": "2027-06-30",
       "nat": "Russia"
     },
@@ -1566,6 +2677,17 @@
       "nat": "Bosnia-Herzegovina"
     },
     {
+      "id": "486083",
+      "name": "Danila Prokhin",
+      "club": 8,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 25,
+      "value": 1000000,
+      "contract": "2027-06-30",
+      "nat": "Russia"
+    },
+    {
       "id": "457743",
       "name": "Mohamed Konaté",
       "club": 9,
@@ -1630,6 +2752,39 @@
       "value": 1000000,
       "contract": "2027-06-30",
       "nat": "Chile"
+    },
+    {
+      "id": "534477",
+      "name": "Bogdan Ovsyannikov",
+      "club": 13,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 27,
+      "value": 1000000,
+      "contract": "2028-06-09",
+      "nat": "Russia"
+    },
+    {
+      "id": "653408",
+      "name": "Jhon Alex Palacios",
+      "club": 13,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 27,
+      "value": 1000000,
+      "contract": "2029-06-30",
+      "nat": "Colombia"
+    },
+    {
+      "id": "628049",
+      "name": "Emil Tsenov",
+      "club": 13,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 24,
+      "value": 1000000,
+      "contract": "2029-06-30",
+      "nat": "Bulgaria"
     },
     {
       "id": "702149",
@@ -1731,6 +2886,17 @@
       "nat": "Russia"
     },
     {
+      "id": "817604",
+      "name": "David Semenchuk",
+      "club": 8,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 22,
+      "value": 900000,
+      "contract": "2028-06-30",
+      "nat": "Russia"
+    },
+    {
       "id": "799095",
       "name": "Vadim Ulyanov",
       "club": 9,
@@ -1797,6 +2963,50 @@
       "nat": "Slovenia"
     },
     {
+      "id": "529870",
+      "name": "Danila Khotulev",
+      "club": 13,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 24,
+      "value": 900000,
+      "contract": "2028-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "312502",
+      "name": "Aleksey Tataev",
+      "club": 13,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 28,
+      "value": 900000,
+      "contract": "2028-06-15",
+      "nat": "Russia"
+    },
+    {
+      "id": "580715",
+      "name": "Maxime Sivis",
+      "club": 13,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 28,
+      "value": 900000,
+      "contract": "2029-06-30",
+      "nat": "France"
+    },
+    {
+      "id": "649343",
+      "name": "Dmitriy Vasiljev",
+      "club": 13,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 22,
+      "value": 900000,
+      "contract": "2030-06-30",
+      "nat": "Russia"
+    },
+    {
       "id": "334425",
       "name": "Mutalip Alibekov",
       "club": 14,
@@ -1805,6 +3015,17 @@
       "age": 29,
       "value": 900000,
       "contract": "2027-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "1109229",
+      "name": "Vadim Shilov",
+      "club": 0,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 18,
+      "value": 800000,
+      "contract": "2031-06-30",
       "nat": "Russia"
     },
     {
@@ -1839,6 +3060,17 @@
       "value": 800000,
       "contract": "2030-06-30",
       "nat": "Russia"
+    },
+    {
+      "id": "187211",
+      "name": "Ygor Nogueira",
+      "club": 8,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 31,
+      "value": 800000,
+      "contract": "2028-06-30",
+      "nat": "Brazil"
     },
     {
       "id": "1059814",
@@ -1929,6 +3161,17 @@
       "nat": "Russia"
     },
     {
+      "id": "601456",
+      "name": "Ruslan Kul",
+      "club": 13,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 26,
+      "value": 800000,
+      "contract": "2028-06-15",
+      "nat": "Russia"
+    },
+    {
       "id": "451244",
       "name": "David Volk",
       "club": 14,
@@ -1984,6 +3227,28 @@
       "nat": "Russia"
     },
     {
+      "id": "917403",
+      "name": "Artem Bandikyan",
+      "club": 2,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 21,
+      "value": 750000,
+      "contract": "2028-06-30",
+      "nat": "Armenia"
+    },
+    {
+      "id": "687463",
+      "name": "Aleksandr Koryakin",
+      "club": 4,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 24,
+      "value": 750000,
+      "contract": "2029-06-30",
+      "nat": "Russia"
+    },
+    {
       "id": "379634",
       "name": "Aleksey Gritsaenko",
       "club": 6,
@@ -2028,6 +3293,28 @@
       "nat": "Bosnia-Herzegovina"
     },
     {
+      "id": "235339",
+      "name": "Dmitriy Chistyakov",
+      "club": 8,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 32,
+      "value": 750000,
+      "contract": "2027-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "817607",
+      "name": "Daniil Shantaliy",
+      "club": 8,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 22,
+      "value": 750000,
+      "contract": "2027-06-30",
+      "nat": "Russia"
+    },
+    {
       "id": "519567",
       "name": "Vyacheslav Bardybakhin",
       "club": 10,
@@ -2061,6 +3348,17 @@
       "nat": "Bosnia-Herzegovina"
     },
     {
+      "id": "574930",
+      "name": "Danila Vedernikov",
+      "club": 13,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 25,
+      "value": 750000,
+      "contract": "2027-06-30",
+      "nat": "Russia"
+    },
+    {
       "id": "715359",
       "name": "Egor Smelov",
       "club": 14,
@@ -2069,6 +3367,17 @@
       "age": 21,
       "value": 750000,
       "contract": "2030-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "726445",
+      "name": "Daniil Zorin",
+      "club": 1,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 22,
+      "value": 700000,
+      "contract": "2028-06-30",
       "nat": "Russia"
     },
     {
@@ -2091,6 +3400,17 @@
       "age": 20,
       "value": 700000,
       "contract": "2030-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "701937",
+      "name": "Yaroslav Mikhailov",
+      "club": 8,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 23,
+      "value": 700000,
+      "contract": "2029-06-30",
       "nat": "Russia"
     },
     {
@@ -2147,6 +3467,83 @@
       "value": 700000,
       "contract": "2028-06-30",
       "nat": "Costa Rica"
+    },
+    {
+      "id": "751099",
+      "name": "Artem Kasimov",
+      "club": 13,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 23,
+      "value": 700000,
+      "contract": "2028-06-15",
+      "nat": "Russia"
+    },
+    {
+      "id": "572818",
+      "name": "Robert Mejía",
+      "club": 13,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 26,
+      "value": 700000,
+      "contract": "2030-06-30",
+      "nat": "Colombia"
+    },
+    {
+      "id": "362572",
+      "name": "Dmitriy Rybchinskiy",
+      "club": 13,
+      "pos": "PON",
+      "posName": "Right Midfield",
+      "age": 28,
+      "value": 700000,
+      "contract": "2027-06-12",
+      "nat": "Russia"
+    },
+    {
+      "id": "697958",
+      "name": "Egor Nazarenko",
+      "club": 13,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 21,
+      "value": 700000,
+      "contract": "2027-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "772843",
+      "name": "Jersson González",
+      "club": 13,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 25,
+      "value": 700000,
+      "contract": "2027-06-30",
+      "nat": "Colombia"
+    },
+    {
+      "id": "501777",
+      "name": "Maksim Saveljev",
+      "club": 13,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 24,
+      "value": 700000,
+      "contract": "2029-06-15",
+      "nat": "Russia"
+    },
+    {
+      "id": "739439",
+      "name": "Alexandre Jesus",
+      "club": 13,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 25,
+      "value": 700000,
+      "contract": "2029-06-08",
+      "nat": "Brazil"
     },
     {
       "id": "621586",
@@ -2216,6 +3613,28 @@
       "nat": "Russia"
     },
     {
+      "id": "718755",
+      "name": "Bogdan Moskvichev",
+      "club": 0,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 22,
+      "value": 600000,
+      "contract": "2029-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "555135",
+      "name": "Daniil Odoevskiy",
+      "club": 0,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 23,
+      "value": 600000,
+      "contract": "2027-06-30",
+      "nat": "Russia"
+    },
+    {
       "id": "168527",
       "name": "Igor Leshchuk",
       "club": 3,
@@ -2244,6 +3663,17 @@
       "pos": "ATA",
       "posName": "Centre-Forward",
       "age": 22,
+      "value": 600000,
+      "contract": "2027-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "918332",
+      "name": "German Ignatov",
+      "club": 8,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 21,
       "value": 600000,
       "contract": "2027-06-30",
       "nat": "Russia"
@@ -2392,6 +3822,17 @@
       "nat": "Russia"
     },
     {
+      "id": "1242657",
+      "name": "Imran Firov",
+      "club": 2,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 18,
+      "value": 500000,
+      "contract": "2029-06-30",
+      "nat": "Russia"
+    },
+    {
       "id": "1037572",
       "name": "Daniil Chevardin",
       "club": 5,
@@ -2433,6 +3874,28 @@
       "age": 24,
       "value": 500000,
       "contract": "2030-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "1244877",
+      "name": "Artem Petrov",
+      "club": 8,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 18,
+      "value": 500000,
+      "contract": "2028-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "817967",
+      "name": "Imran Aznaurov",
+      "club": 8,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 22,
+      "value": 500000,
+      "contract": "2029-06-30",
       "nat": "Russia"
     },
     {
@@ -2524,6 +3987,17 @@
       "nat": "France"
     },
     {
+      "id": "993437",
+      "name": "Anton Lukashov",
+      "club": 13,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 22,
+      "value": 450000,
+      "contract": "2029-06-30",
+      "nat": "Belarus"
+    },
+    {
       "id": "231724",
       "name": "Igor Yurganov",
       "club": 15,
@@ -2565,6 +4039,28 @@
       "age": 22,
       "value": 450000,
       "contract": "2029-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "1180777",
+      "name": "Nikita Massalyga",
+      "club": 1,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 19,
+      "value": 400000,
+      "contract": "2028-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "1052493",
+      "name": "Artem Khmarin",
+      "club": 4,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 19,
+      "value": 400000,
+      "contract": "2028-06-30",
       "nat": "Russia"
     },
     {
@@ -2678,6 +4174,17 @@
       "nat": "Russia"
     },
     {
+      "id": "919358",
+      "name": "Renat Golybin",
+      "club": 13,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 21,
+      "value": 400000,
+      "contract": "2028-06-30",
+      "nat": "Russia"
+    },
+    {
       "id": "989071",
       "name": "Makhmud Makhamadzhonov",
       "club": 14,
@@ -2766,6 +4273,17 @@
       "nat": "Belarus"
     },
     {
+      "id": "917991",
+      "name": "Anton Shamonin",
+      "club": 8,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 21,
+      "value": 350000,
+      "contract": "2027-06-30",
+      "nat": "Russia"
+    },
+    {
       "id": "743010",
       "name": "Rasul Mitsaev",
       "club": 9,
@@ -2808,6 +4326,17 @@
       "value": 350000,
       "contract": null,
       "nat": "Peru"
+    },
+    {
+      "id": "447462",
+      "name": "Gedeon Guzina",
+      "club": 13,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 32,
+      "value": 350000,
+      "contract": "2027-06-11",
+      "nat": "Bosnia-Herzegovina"
     },
     {
       "id": "864621",
@@ -2865,6 +4394,17 @@
       "nat": "Russia"
     },
     {
+      "id": "939879",
+      "name": "Nikita Babakin",
+      "club": 8,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 20,
+      "value": 300000,
+      "contract": "2027-06-30",
+      "nat": "Russia"
+    },
+    {
       "id": "591862",
       "name": "Kerfala Cissoko",
       "club": 11,
@@ -2876,6 +4416,17 @@
       "nat": "Guinea"
     },
     {
+      "id": "817822",
+      "name": "Stanislav Poroykov",
+      "club": 13,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 22,
+      "value": 300000,
+      "contract": "2028-06-09",
+      "nat": "Russia"
+    },
+    {
       "id": "698931",
       "name": "Nikita Karabashev",
       "club": 14,
@@ -2883,6 +4434,17 @@
       "posName": "Goalkeeper",
       "age": 24,
       "value": 300000,
+      "contract": "2027-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "102581",
+      "name": "Sergey Petrov",
+      "club": 4,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 35,
+      "value": 250000,
       "contract": "2027-06-30",
       "nat": "Russia"
     },
@@ -2898,12 +4460,56 @@
       "nat": "Russia"
     },
     {
+      "id": "697721",
+      "name": "Daniil Golikov",
+      "club": 8,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 22,
+      "value": 250000,
+      "contract": "2027-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "817830",
+      "name": "Ilya Zhbanov",
+      "club": 8,
+      "pos": "PON",
+      "posName": "Left Midfield",
+      "age": 22,
+      "value": 250000,
+      "contract": "2027-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "1369649",
+      "name": "Denis Titov",
+      "club": 8,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 20,
+      "value": 250000,
+      "contract": "2027-06-30",
+      "nat": "Turkmenistan"
+    },
+    {
       "id": "576743",
       "name": "Kirill Ushatov",
       "club": 11,
       "pos": "MEI",
       "posName": "Attacking Midfield",
       "age": 26,
+      "value": 250000,
+      "contract": "2027-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "235347",
+      "name": "Maksim Rudakov",
+      "club": 13,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 30,
       "value": 250000,
       "contract": "2027-06-30",
       "nat": "Russia"
@@ -2916,6 +4522,17 @@
       "posName": "Centre-Forward",
       "age": 32,
       "value": 250000,
+      "contract": "2027-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "715357",
+      "name": "Aleksey Baranovskiy",
+      "club": 13,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 21,
+      "value": 225000,
       "contract": "2027-06-30",
       "nat": "Russia"
     },
@@ -2953,6 +4570,17 @@
       "nat": "Russia"
     },
     {
+      "id": "1240383",
+      "name": "Benjamín Bosch",
+      "club": 13,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 21,
+      "value": 200000,
+      "contract": "2027-06-30",
+      "nat": "Argentina"
+    },
+    {
       "id": "798664",
       "name": "Vyacheslav Dorovskikh",
       "club": 15,
@@ -2962,6 +4590,17 @@
       "value": 175000,
       "contract": "2027-06-30",
       "nat": "Russia"
+    },
+    {
+      "id": "1339250",
+      "name": "Ibraheem Mahfus Ajasa",
+      "club": 8,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 20,
+      "value": 150000,
+      "contract": "2027-06-30",
+      "nat": "Nigeria"
     },
     {
       "id": "58971",
@@ -2986,6 +4625,17 @@
       "nat": "Russia"
     },
     {
+      "id": "825725",
+      "name": "Maksim Syshchenko",
+      "club": 13,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 22,
+      "value": 150000,
+      "contract": "2028-06-30",
+      "nat": "Russia"
+    },
+    {
       "id": "616035",
       "name": "Dmitriy Begun",
       "club": 7,
@@ -2994,6 +4644,39 @@
       "age": 23,
       "value": 125000,
       "contract": "2029-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "84483",
+      "name": "Aleksandr Erokhin",
+      "club": 0,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 37,
+      "value": 100000,
+      "contract": "2027-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "715339",
+      "name": "Grigoriy Lovtsov",
+      "club": 4,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 21,
+      "value": 100000,
+      "contract": "2028-06-30",
+      "nat": "Russia"
+    },
+    {
+      "id": "797594",
+      "name": "Timur Abdrashitov",
+      "club": 4,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 24,
+      "value": 100000,
+      "contract": "2027-06-30",
       "nat": "Russia"
     },
     {
@@ -3019,6 +4702,17 @@
       "nat": "Russia"
     },
     {
+      "id": "47004",
+      "name": "Aleksandr Dovbnya",
+      "club": 1,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 39,
+      "value": 50000,
+      "contract": "2027-06-30",
+      "nat": "Russia"
+    },
+    {
       "id": "1309944",
       "name": "Nikita Platon",
       "club": 10,
@@ -3041,608 +4735,14 @@
       "nat": "Russia"
     },
     {
-      "id": "334477",
-      "name": "Denis Adamov",
-      "club": 0,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "718755",
-      "name": "Bogdan Moskvichev",
-      "club": 0,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "555135",
-      "name": "Daniil Odoevskiy",
-      "club": 0,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "532732",
-      "name": "Igor Diveev",
-      "club": 0,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "520454",
-      "name": "Nino",
-      "club": 0,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "614898",
-      "name": "Kevin Andrade",
-      "club": 0,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "465408",
-      "name": "Nuraly Alip",
-      "club": 0,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Kazakhstan"
-    },
-    {
-      "id": "220793",
-      "name": "Douglas Santos",
-      "club": 0,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "875947",
-      "name": "Román Vega",
-      "club": 0,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "814269",
-      "name": "Gustavo Mantuan",
-      "club": 0,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "170620",
-      "name": "Vyacheslav Karavaev",
-      "club": 0,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "520060",
-      "name": "Sergey Volkov",
-      "club": 0,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "691920",
-      "name": "Artem Karpukas",
-      "club": 0,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "257668",
-      "name": "Wilmar Barrios",
-      "club": 0,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "499721",
-      "name": "Wendel",
-      "club": 0,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1202358",
-      "name": "Amir Musaev",
-      "club": 0,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "964582",
-      "name": "Jhon Jhon",
-      "club": 0,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1109232",
-      "name": "Daniil Kondakov",
-      "club": 0,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "84483",
-      "name": "Aleksandr Erokhin",
-      "club": 0,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "1004741",
-      "name": "Pedro",
-      "club": 0,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "800175",
-      "name": "Luiz Henrique",
-      "club": 0,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1109229",
-      "name": "Vadim Shilov",
-      "club": 0,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "448981",
-      "name": "Maksim Glushenkov",
-      "club": 0,
-      "pos": "ATA",
-      "posName": "Second Striker",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "834899",
-      "name": "Felipe Augusto",
-      "club": 0,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "464259",
-      "name": "Aleksandr Sobolev",
-      "club": 0,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "351419",
-      "name": "Aleksandr Maksimenko",
-      "club": 1,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "217686",
-      "name": "Ilya Pomazun",
-      "club": 1,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "47004",
-      "name": "Aleksandr Dovbnya",
-      "club": 1,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "520073",
-      "name": "Ruslan Litvinov",
-      "club": 1,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "572326",
-      "name": "Christopher Wooh",
-      "club": 1,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Cameroon"
-    },
-    {
-      "id": "222805",
-      "name": "Srdjan Babic",
-      "club": 1,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Serbia"
-    },
-    {
-      "id": "250844",
-      "name": "Alexander Djiku",
-      "club": 1,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Ghana"
-    },
-    {
-      "id": "591957",
-      "name": "Victor Parada",
-      "club": 1,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Spain"
-    },
-    {
-      "id": "649303",
-      "name": "Daniil Denisov",
-      "club": 1,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "381833",
-      "name": "Nail Umyarov",
-      "club": 1,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "248054",
-      "name": "Christopher Martins",
-      "club": 1,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Luxembourg"
-    },
-    {
-      "id": "337800",
-      "name": "Gedson Fernandes",
-      "club": 1,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Portugal"
-    },
-    {
-      "id": "381714",
-      "name": "Danil Prutsev",
-      "club": 1,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "166277",
-      "name": "Roman Zobnin",
-      "club": 1,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "1244676",
-      "name": "Ivan Sorokin",
-      "club": 1,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "706618",
-      "name": "Vladislav Saus",
-      "club": 1,
-      "pos": "PON",
-      "posName": "Right Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "456623",
-      "name": "Esequiel Barco",
-      "club": 1,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "726445",
-      "name": "Daniil Zorin",
-      "club": 1,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "516722",
-      "name": "Marquinhos",
-      "club": 1,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "817700",
-      "name": "Igor Dmitriev",
-      "club": 1,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "263962",
-      "name": "Anton Zinkovskiy",
-      "club": 1,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "1384080",
-      "name": "Pavel Polekh",
-      "club": 1,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "756991",
-      "name": "Pablo Solari",
-      "club": 1,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "1180777",
-      "name": "Nikita Massalyga",
-      "club": 1,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "645173",
-      "name": "Manfred Ugalde",
-      "club": 1,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Costa Rica"
-    },
-    {
-      "id": "521872",
-      "name": "Mirlind Daku",
-      "club": 1,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Albania"
-    },
-    {
-      "id": "526448",
-      "name": "Maksim Borisko",
-      "club": 2,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "555146",
-      "name": "Vladislav Torop",
-      "club": 2,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "15570",
-      "name": "Igor Akinfeev",
-      "club": 2,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
       "id": "864314",
       "name": "Egor Besaev",
       "club": 2,
       "pos": "GOL",
       "posName": "Goalkeeper",
-      "age": null,
+      "age": 20,
       "value": null,
-      "contract": null,
+      "contract": "2027-06-30",
       "nat": "Russia"
     },
     {
@@ -3651,1220 +4751,10 @@
       "club": 2,
       "pos": "GOL",
       "posName": "Goalkeeper",
-      "age": null,
+      "age": 20,
       "value": null,
-      "contract": null,
+      "contract": "2027-06-30",
       "nat": "Russia"
-    },
-    {
-      "id": "1131030",
-      "name": "Kirill Danilov",
-      "club": 2,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "671145",
-      "name": "João Victor",
-      "club": 2,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "624340",
-      "name": "Matvey Lukin",
-      "club": 2,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "917402",
-      "name": "Dzhamalutdin Abdulkadyrov",
-      "club": 2,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "368468",
-      "name": "Moisés",
-      "club": 2,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "379249",
-      "name": "Matheus Reis",
-      "club": 2,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "245030",
-      "name": "Milan Gajic",
-      "club": 2,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Serbia"
-    },
-    {
-      "id": "863190",
-      "name": "Mohamed Azzi",
-      "club": 2,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Algeria"
-    },
-    {
-      "id": "263905",
-      "name": "Dmitriy Barinov",
-      "club": 2,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "917403",
-      "name": "Artem Bandikyan",
-      "club": 2,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Armenia"
-    },
-    {
-      "id": "651580",
-      "name": "Matvey Kislyak",
-      "club": 2,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "419845",
-      "name": "Ivan Oblyakov",
-      "club": 2,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "372535",
-      "name": "Danil Krugovoy",
-      "club": 2,
-      "pos": "PON",
-      "posName": "Left Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "1127813",
-      "name": "Matheus Alves",
-      "club": 2,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "720287",
-      "name": "Danila Kozlov",
-      "club": 2,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "371627",
-      "name": "Ivan Oleynikov",
-      "club": 2,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "1012421",
-      "name": "Matija Popović",
-      "club": 2,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Serbia"
-    },
-    {
-      "id": "1242657",
-      "name": "Imran Firov",
-      "club": 2,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "865414",
-      "name": "Kirill Glebov",
-      "club": 2,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "1009031",
-      "name": "Henrique Carmo",
-      "club": 2,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1052489",
-      "name": "Artem Serikov",
-      "club": 2,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "851111",
-      "name": "Luciano Gondou",
-      "club": 2,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "654117",
-      "name": "Tamerlan Musaev",
-      "club": 2,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "1141473",
-      "name": "Maksim Voronov",
-      "club": 2,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "617520",
-      "name": "Stanislav Agkatsev",
-      "club": 4,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "687463",
-      "name": "Aleksandr Koryakin",
-      "club": 4,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "517300",
-      "name": "Vítor Tormena",
-      "club": 4,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1049831",
-      "name": "Maizon Rodríguez",
-      "club": 4,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "615650",
-      "name": "Valentin Paltsev",
-      "club": 4,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "149928",
-      "name": "Jubal",
-      "club": 4,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "216240",
-      "name": "Lucas Olaza",
-      "club": 4,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "1052493",
-      "name": "Artem Khmarin",
-      "club": 4,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "515050",
-      "name": "Ilya Vakhania",
-      "club": 4,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "102581",
-      "name": "Sergey Petrov",
-      "club": 4,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "432112",
-      "name": "Aleksandr Chernikov",
-      "club": 4,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "544586",
-      "name": "Kevin Pina",
-      "club": 4,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Cape Verde"
-    },
-    {
-      "id": "137206",
-      "name": "Magomed Ozdoev",
-      "club": 4,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "393621",
-      "name": "Douglas Augusto",
-      "club": 4,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "375667",
-      "name": "Daniil Utkin",
-      "club": 4,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "715339",
-      "name": "Grigoriy Lovtsov",
-      "club": 4,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "658678",
-      "name": "Christian",
-      "club": 4,
-      "pos": "PON",
-      "posName": "Right Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "746180",
-      "name": "Nikita Krivtsov",
-      "club": 4,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "1109231",
-      "name": "Efim Burkin",
-      "club": 4,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "1244035",
-      "name": "Eldar Guseynov",
-      "club": 4,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "514256",
-      "name": "João Batxi",
-      "club": 4,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Angola"
-    },
-    {
-      "id": "797594",
-      "name": "Timur Abdrashitov",
-      "club": 4,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "487421",
-      "name": "Juan Manuel Boselli",
-      "club": 4,
-      "pos": "ATA",
-      "posName": "Second Striker",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "185245",
-      "name": "Jhon Córdoba",
-      "club": 4,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "370287",
-      "name": "Dmitriy Vorobyov",
-      "club": 4,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "424022",
-      "name": "Rustam Yatimov",
-      "club": 8,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Tajikistan"
-    },
-    {
-      "id": "1244877",
-      "name": "Artem Petrov",
-      "club": 8,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "697721",
-      "name": "Daniil Golikov",
-      "club": 8,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "866001",
-      "name": "Viktor Melekhin",
-      "club": 8,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "640692",
-      "name": "Oumar Sako",
-      "club": 8,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Niger"
-    },
-    {
-      "id": "486083",
-      "name": "Danila Prokhin",
-      "club": 8,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "817604",
-      "name": "David Semenchuk",
-      "club": 8,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "187211",
-      "name": "Ygor Nogueira",
-      "club": 8,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "235339",
-      "name": "Dmitriy Chistyakov",
-      "club": 8,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "918332",
-      "name": "German Ignatov",
-      "club": 8,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "939879",
-      "name": "Nikita Babakin",
-      "club": 8,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "621436",
-      "name": "Daniil Khlusevich",
-      "club": 8,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "727569",
-      "name": "Andrey Langovich",
-      "club": 8,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "623274",
-      "name": "Maksim Mukhin",
-      "club": 8,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "402625",
-      "name": "Aleksey Mironov",
-      "club": 8,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "817607",
-      "name": "Daniil Shantaliy",
-      "club": 8,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "701937",
-      "name": "Yaroslav Mikhailov",
-      "club": 8,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "817830",
-      "name": "Ilya Zhbanov",
-      "club": 8,
-      "pos": "PON",
-      "posName": "Left Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "381834",
-      "name": "Konstantin Kuchaev",
-      "club": 8,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "787305",
-      "name": "Ivan Komarov",
-      "club": 8,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "666616",
-      "name": "Olakunle Olusegun",
-      "club": 8,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Nigeria"
-    },
-    {
-      "id": "817967",
-      "name": "Imran Aznaurov",
-      "club": 8,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "1369649",
-      "name": "Denis Titov",
-      "club": 8,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Turkmenistan"
-    },
-    {
-      "id": "1339250",
-      "name": "Ibraheem Mahfus Ajasa",
-      "club": 8,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Nigeria"
-    },
-    {
-      "id": "866670",
-      "name": "Ronaldo",
-      "club": 8,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1244873",
-      "name": "Karim Madrakhimov",
-      "club": 8,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "582074",
-      "name": "Timur Suleymanov",
-      "club": 8,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "917991",
-      "name": "Anton Shamonin",
-      "club": 8,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "918827",
-      "name": "Aleksandr Degtev",
-      "club": 13,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "534477",
-      "name": "Bogdan Ovsyannikov",
-      "club": 13,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "235347",
-      "name": "Maksim Rudakov",
-      "club": 13,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "461903",
-      "name": "João Silva",
-      "club": 13,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Portugal"
-    },
-    {
-      "id": "653408",
-      "name": "Jhon Alex Palacios",
-      "club": 13,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "628049",
-      "name": "Emil Tsenov",
-      "club": 13,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Bulgaria"
-    },
-    {
-      "id": "529870",
-      "name": "Danila Khotulev",
-      "club": 13,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "312502",
-      "name": "Aleksey Tataev",
-      "club": 13,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "751099",
-      "name": "Artem Kasimov",
-      "club": 13,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "825725",
-      "name": "Maksim Syshchenko",
-      "club": 13,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "574930",
-      "name": "Danila Vedernikov",
-      "club": 13,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "580715",
-      "name": "Maxime Sivis",
-      "club": 13,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "France"
-    },
-    {
-      "id": "993437",
-      "name": "Anton Lukashov",
-      "club": 13,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Belarus"
-    },
-    {
-      "id": "817822",
-      "name": "Stanislav Poroykov",
-      "club": 13,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "575408",
-      "name": "Evgeniy Bolotov",
-      "club": 13,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "649343",
-      "name": "Dmitriy Vasiljev",
-      "club": 13,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "572818",
-      "name": "Robert Mejía",
-      "club": 13,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "1155741",
-      "name": "Ivan Ivashchenko",
-      "club": 13,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "929155",
-      "name": "Mikhail Pykhcheev",
-      "club": 13,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "601456",
-      "name": "Ruslan Kul",
-      "club": 13,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "1164454",
-      "name": "Omar Minatulaev",
-      "club": 13,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "362572",
-      "name": "Dmitriy Rybchinskiy",
-      "club": 13,
-      "pos": "PON",
-      "posName": "Right Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "1106216",
-      "name": "Damián Puebla",
-      "club": 13,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "697958",
-      "name": "Egor Nazarenko",
-      "club": 13,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "919358",
-      "name": "Renat Golybin",
-      "club": 13,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "715357",
-      "name": "Aleksey Baranovskiy",
-      "club": 13,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "1160957",
-      "name": "Andrey Kasadzhikov",
-      "club": 13,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "889462",
-      "name": "Jordhy Thompson",
-      "club": 13,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Chile"
-    },
-    {
-      "id": "772843",
-      "name": "Jersson González",
-      "club": 13,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "1240383",
-      "name": "Benjamín Bosch",
-      "club": 13,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "501777",
-      "name": "Maksim Saveljev",
-      "club": 13,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Russia"
-    },
-    {
-      "id": "739439",
-      "name": "Alexandre Jesus",
-      "club": 13,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "447462",
-      "name": "Gedeon Guzina",
-      "club": 13,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Bosnia-Herzegovina"
     },
     {
       "id": "909229",

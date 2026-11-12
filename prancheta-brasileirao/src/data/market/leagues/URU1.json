@@ -125,6 +125,17 @@
       "nat": "Argentina"
     },
     {
+      "id": "1106327",
+      "name": "Lucas Agazzi",
+      "club": 3,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 21,
+      "value": 2300000,
+      "contract": "2027-12-31",
+      "nat": "Uruguay"
+    },
+    {
       "id": "400677",
       "name": "Nicolás Fernández",
       "club": 0,
@@ -147,6 +158,17 @@
       "nat": "Uruguay"
     },
     {
+      "id": "745670",
+      "name": "Salomón Rodríguez",
+      "club": 2,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 26,
+      "value": 2000000,
+      "contract": "2026-12-31",
+      "nat": "Uruguay"
+    },
+    {
       "id": "365827",
       "name": "Maximiliano Silvera",
       "club": 1,
@@ -156,6 +178,17 @@
       "value": 1700000,
       "contract": "2028-12-31",
       "nat": "Uruguay"
+    },
+    {
+      "id": "830315",
+      "name": "Esteban Obregón",
+      "club": 2,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 25,
+      "value": 1600000,
+      "contract": "2027-12-31",
+      "nat": "Argentina"
     },
     {
       "id": "750733",
@@ -241,6 +274,17 @@
       "pos": "LD",
       "posName": "Right-Back",
       "age": 27,
+      "value": 1000000,
+      "contract": "2027-12-31",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "1072710",
+      "name": "Eduardo Agüero",
+      "club": 2,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 22,
       "value": 1000000,
       "contract": "2027-12-31",
       "nat": "Uruguay"
@@ -334,6 +378,28 @@
       "nat": "Uruguay"
     },
     {
+      "id": "1319377",
+      "name": "Axel Frugone",
+      "club": 3,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 21,
+      "value": 800000,
+      "contract": "2027-12-31",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "971205",
+      "name": "Xavier Biscayzacú",
+      "club": 3,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 21,
+      "value": 800000,
+      "contract": "2028-06-30",
+      "nat": "Mexico"
+    },
+    {
       "id": "1290507",
       "name": "Felipe Álvarez",
       "club": 8,
@@ -365,6 +431,17 @@
       "value": 750000,
       "contract": "2026-12-31",
       "nat": "Argentina"
+    },
+    {
+      "id": "1042134",
+      "name": "Nahuel Da Silva",
+      "club": 2,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 21,
+      "value": 700000,
+      "contract": "2028-12-31",
+      "nat": "Uruguay"
     },
     {
       "id": "750753",
@@ -441,6 +518,17 @@
       "age": 27,
       "value": 600000,
       "contract": "2027-12-31",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "928851",
+      "name": "Germán Barrios",
+      "club": 3,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 22,
+      "value": 600000,
+      "contract": "2028-12-31",
       "nat": "Uruguay"
     },
     {
@@ -585,6 +673,61 @@
       "value": 500000,
       "contract": "2026-12-31",
       "nat": "Argentina"
+    },
+    {
+      "id": "294889",
+      "name": "Franco Pizzichillo",
+      "club": 2,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 30,
+      "value": 500000,
+      "contract": "2026-12-31",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "1339033",
+      "name": "Ramiro Lecchini",
+      "club": 2,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 19,
+      "value": 500000,
+      "contract": "2029-12-31",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "911183",
+      "name": "Lucas Paul de los Santos",
+      "club": 3,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 25,
+      "value": 500000,
+      "contract": "2026-12-31",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "960981",
+      "name": "Nicolás Wunsch",
+      "club": 3,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 23,
+      "value": 500000,
+      "contract": "2028-06-30",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "492315",
+      "name": "José Neris",
+      "club": 3,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 26,
+      "value": 500000,
+      "contract": "2026-12-31",
+      "nat": "Uruguay"
     },
     {
       "id": "1030317",
@@ -760,6 +903,28 @@
       "age": 22,
       "value": 450000,
       "contract": "2027-12-31",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "511336",
+      "name": "Facundo Silvera",
+      "club": 2,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 29,
+      "value": 450000,
+      "contract": "2026-12-31",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "511289",
+      "name": "Pablo Siles",
+      "club": 2,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 29,
+      "value": 450000,
+      "contract": "2026-12-31",
       "nat": "Uruguay"
     },
     {
@@ -981,6 +1146,39 @@
       "value": 400000,
       "contract": "2028-06-30",
       "nat": "Costa Rica"
+    },
+    {
+      "id": "1022384",
+      "name": "Kevin Silva",
+      "club": 2,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 23,
+      "value": 400000,
+      "contract": "2026-12-31",
+      "nat": "Argentina"
+    },
+    {
+      "id": "821903",
+      "name": "Sebastián Cáceres",
+      "club": 2,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 26,
+      "value": 400000,
+      "contract": "2026-12-31",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "198143",
+      "name": "Brian Montenegro",
+      "club": 3,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 33,
+      "value": 400000,
+      "contract": "2026-12-31",
+      "nat": "Paraguay"
     },
     {
       "id": "365941",
@@ -1214,6 +1412,39 @@
       "nat": "Uruguay"
     },
     {
+      "id": "589687",
+      "name": "Ezequiel Busquets",
+      "club": 2,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 26,
+      "value": 350000,
+      "contract": "2026-12-31",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "227096",
+      "name": "Gonzalo Montes",
+      "club": 2,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 31,
+      "value": 350000,
+      "contract": "2026-12-31",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "1472988",
+      "name": "Mateo Caballero",
+      "club": 3,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 19,
+      "value": 350000,
+      "contract": "2028-07-31",
+      "nat": "Uruguay"
+    },
+    {
       "id": "411202",
       "name": "Renzo Rabino",
       "club": 4,
@@ -1401,6 +1632,17 @@
       "nat": "Uruguay"
     },
     {
+      "id": "1065197",
+      "name": "Alex Perdomo",
+      "club": 3,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 24,
+      "value": 325000,
+      "contract": null,
+      "nat": "Uruguay"
+    },
+    {
       "id": "1246365",
       "name": "Sebastián Tormo",
       "club": 10,
@@ -1486,6 +1728,83 @@
       "age": 20,
       "value": 300000,
       "contract": "2027-12-31",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "1203762",
+      "name": "Diogo Guzmán",
+      "club": 2,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 20,
+      "value": 300000,
+      "contract": "2028-12-31",
+      "nat": "Argentina"
+    },
+    {
+      "id": "1074956",
+      "name": "Luka Andrade",
+      "club": 2,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 19,
+      "value": 300000,
+      "contract": "2027-12-31",
+      "nat": "Argentina"
+    },
+    {
+      "id": "743952",
+      "name": "Juan Quintana",
+      "club": 2,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 26,
+      "value": 300000,
+      "contract": "2026-12-31",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "465677",
+      "name": "Edgar Elizalde",
+      "club": 3,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 26,
+      "value": 300000,
+      "contract": "2026-12-31",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "1379673",
+      "name": "Francisco Sorondo",
+      "club": 3,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 18,
+      "value": 300000,
+      "contract": "2027-12-31",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "325590",
+      "name": "Martín Rabuñal",
+      "club": 3,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 32,
+      "value": 300000,
+      "contract": "2026-12-31",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "1276028",
+      "name": "Alan Torterolo",
+      "club": 3,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 18,
+      "value": 300000,
+      "contract": "2027-07-31",
       "nat": "Uruguay"
     },
     {
@@ -2149,6 +2468,83 @@
       "nat": "Uruguay"
     },
     {
+      "id": "1240000",
+      "name": "José Tarán",
+      "club": 2,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 21,
+      "value": 250000,
+      "contract": null,
+      "nat": "Uruguay"
+    },
+    {
+      "id": "999077",
+      "name": "Nahuel Leivas",
+      "club": 2,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 20,
+      "value": 250000,
+      "contract": "2027-12-31",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "1240474",
+      "name": "Lucas Duré",
+      "club": 2,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 21,
+      "value": 250000,
+      "contract": "2026-12-31",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "651855",
+      "name": "Lucas Machado",
+      "club": 3,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 28,
+      "value": 250000,
+      "contract": "2026-12-31",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "131110",
+      "name": "Kevin Dawson",
+      "club": 3,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 34,
+      "value": 250000,
+      "contract": "2027-12-31",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "838796",
+      "name": "Tomás Pozzo",
+      "club": 3,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 26,
+      "value": 250000,
+      "contract": "2027-06-30",
+      "nat": "Argentina"
+    },
+    {
+      "id": "318843",
+      "name": "Facundo Castro",
+      "club": 3,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 31,
+      "value": 250000,
+      "contract": "2026-12-31",
+      "nat": "Uruguay"
+    },
+    {
       "id": "264116",
       "name": "Gastón Pereiro",
       "club": 4,
@@ -2553,6 +2949,28 @@
       "age": 34,
       "value": 200000,
       "contract": "2026-12-31",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "1332567",
+      "name": "Santiago Zampieri",
+      "club": 2,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 19,
+      "value": 200000,
+      "contract": "2027-06-30",
+      "nat": "Argentina"
+    },
+    {
+      "id": "1241876",
+      "name": "Lautaro Navarro",
+      "club": 3,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 18,
+      "value": 200000,
+      "contract": "2027-07-31",
       "nat": "Uruguay"
     },
     {
@@ -2994,6 +3412,61 @@
       "value": 150000,
       "contract": "2027-12-31",
       "nat": "Uruguay"
+    },
+    {
+      "id": "189422",
+      "name": "Gastón Rodríguez",
+      "club": 2,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 32,
+      "value": 150000,
+      "contract": "2026-12-31",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "1467150",
+      "name": "Valentino Würth",
+      "club": 2,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 19,
+      "value": 150000,
+      "contract": "2028-12-31",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "1237377",
+      "name": "Geanfranco Rodríguez",
+      "club": 3,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 20,
+      "value": 150000,
+      "contract": "2027-12-31",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "987582",
+      "name": "Juan Manuel Jorge",
+      "club": 3,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 22,
+      "value": 150000,
+      "contract": "2026-12-31",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "1039040",
+      "name": "Nicolás Medina",
+      "club": 3,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 23,
+      "value": 150000,
+      "contract": "2026-12-31",
+      "nat": "Argentina"
     },
     {
       "id": "1390125",
@@ -3458,6 +3931,28 @@
       "nat": "Argentina"
     },
     {
+      "id": "240891",
+      "name": "Franco Torgnascioli",
+      "club": 2,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 36,
+      "value": 100000,
+      "contract": "2026-12-31",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "1339036",
+      "name": "Nicolás Pérez",
+      "club": 2,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 18,
+      "value": 100000,
+      "contract": null,
+      "nat": "Uruguay"
+    },
+    {
       "id": "389538",
       "name": "Martín Boselli",
       "club": 4,
@@ -3744,6 +4239,28 @@
       "nat": "Argentina"
     },
     {
+      "id": "1106326",
+      "name": "Erico Cuello",
+      "club": 3,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 21,
+      "value": 75000,
+      "contract": "2027-12-31",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "1425952",
+      "name": "Nicolás Scotti",
+      "club": 3,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 16,
+      "value": 75000,
+      "contract": null,
+      "nat": "Uruguay"
+    },
+    {
       "id": "77153",
       "name": "Emmanuel Más",
       "club": 4,
@@ -3873,6 +4390,28 @@
       "age": 18,
       "value": 50000,
       "contract": "2028-12-31",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "58890",
+      "name": "Gary Kagelmacher",
+      "club": 2,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 38,
+      "value": 50000,
+      "contract": "2026-12-31",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "179276",
+      "name": "Guillermo de los Santos",
+      "club": 3,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 35,
+      "value": 50000,
+      "contract": "2026-12-31",
       "nat": "Uruguay"
     },
     {
@@ -4360,576 +4899,15 @@
       "nat": "Uruguay"
     },
     {
-      "id": "189422",
-      "name": "Gastón Rodríguez",
-      "club": 2,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "240891",
-      "name": "Franco Torgnascioli",
-      "club": 2,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "1022384",
-      "name": "Kevin Silva",
-      "club": 2,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "1240000",
-      "name": "José Tarán",
-      "club": 2,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "1339036",
-      "name": "Nicolás Pérez",
-      "club": 2,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "58890",
-      "name": "Gary Kagelmacher",
-      "club": 2,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
       "id": "1428936",
       "name": "Brian Gutiérrez",
       "club": 2,
       "pos": "ZAG",
       "posName": "Centre-Back",
-      "age": null,
+      "age": 19,
       "value": null,
-      "contract": null,
+      "contract": "2027-06-30",
       "nat": "Argentina"
-    },
-    {
-      "id": "511336",
-      "name": "Facundo Silvera",
-      "club": 2,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "999077",
-      "name": "Nahuel Leivas",
-      "club": 2,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "1332567",
-      "name": "Santiago Zampieri",
-      "club": 2,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "1072710",
-      "name": "Eduardo Agüero",
-      "club": 2,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "589687",
-      "name": "Ezequiel Busquets",
-      "club": 2,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "1467150",
-      "name": "Valentino Würth",
-      "club": 2,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "511289",
-      "name": "Pablo Siles",
-      "club": 2,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "294889",
-      "name": "Franco Pizzichillo",
-      "club": 2,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "821903",
-      "name": "Sebastián Cáceres",
-      "club": 2,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "227096",
-      "name": "Gonzalo Montes",
-      "club": 2,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "1240474",
-      "name": "Lucas Duré",
-      "club": 2,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "1203762",
-      "name": "Diogo Guzmán",
-      "club": 2,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "1074956",
-      "name": "Luka Andrade",
-      "club": 2,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "1248273",
-      "name": "Facundo Martínez",
-      "club": 2,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "830315",
-      "name": "Esteban Obregón",
-      "club": 2,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "1339033",
-      "name": "Ramiro Lecchini",
-      "club": 2,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "743952",
-      "name": "Juan Quintana",
-      "club": 2,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "745670",
-      "name": "Salomón Rodríguez",
-      "club": 2,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "1042134",
-      "name": "Nahuel Da Silva",
-      "club": 2,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "651855",
-      "name": "Lucas Machado",
-      "club": 3,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "131110",
-      "name": "Kevin Dawson",
-      "club": 3,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "1147663",
-      "name": "Bruno Simone",
-      "club": 3,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "1472988",
-      "name": "Mateo Caballero",
-      "club": 3,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "465677",
-      "name": "Edgar Elizalde",
-      "club": 3,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "1379673",
-      "name": "Francisco Sorondo",
-      "club": 3,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "1237377",
-      "name": "Geanfranco Rodríguez",
-      "club": 3,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "179276",
-      "name": "Guillermo de los Santos",
-      "club": 3,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "1319377",
-      "name": "Axel Frugone",
-      "club": 3,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "911183",
-      "name": "Lucas Paul de los Santos",
-      "club": 3,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "928851",
-      "name": "Germán Barrios",
-      "club": 3,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "960981",
-      "name": "Nicolás Wunsch",
-      "club": 3,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "325590",
-      "name": "Martín Rabuñal",
-      "club": 3,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "987582",
-      "name": "Juan Manuel Jorge",
-      "club": 3,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "1106326",
-      "name": "Erico Cuello",
-      "club": 3,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "971205",
-      "name": "Xavier Biscayzacú",
-      "club": 3,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "838796",
-      "name": "Tomás Pozzo",
-      "club": 3,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "1425952",
-      "name": "Nicolás Scotti",
-      "club": 3,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "1106327",
-      "name": "Lucas Agazzi",
-      "club": 3,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "1065197",
-      "name": "Alex Perdomo",
-      "club": 3,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "1276028",
-      "name": "Alan Torterolo",
-      "club": 3,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "318843",
-      "name": "Facundo Castro",
-      "club": 3,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "1039040",
-      "name": "Nicolás Medina",
-      "club": 3,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "492315",
-      "name": "José Neris",
-      "club": 3,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "198143",
-      "name": "Brian Montenegro",
-      "club": 3,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Paraguay"
-    },
-    {
-      "id": "1241876",
-      "name": "Lautaro Navarro",
-      "club": 3,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
     },
     {
       "id": "1377261",

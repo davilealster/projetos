@@ -152,6 +152,17 @@
       "nat": "Colombia"
     },
     {
+      "id": "1166097",
+      "name": "Joel Canchimbo",
+      "club": 3,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 21,
+      "value": 1800000,
+      "contract": "2028-12-31",
+      "nat": "Colombia"
+    },
+    {
       "id": "122582",
       "name": "Juan Fernando Quintero",
       "club": 4,
@@ -306,6 +317,17 @@
       "nat": "Argentina"
     },
     {
+      "id": "587296",
+      "name": "Cristian Barrios",
+      "club": 3,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 28,
+      "value": 1200000,
+      "contract": "2028-12-31",
+      "nat": "Colombia"
+    },
+    {
       "id": "984904",
       "name": "Kevin Mantilla",
       "club": 4,
@@ -370,6 +392,17 @@
       "value": 1000000,
       "contract": "2028-12-30",
       "nat": "Colombia"
+    },
+    {
+      "id": "465682",
+      "name": "Mauro Silveira",
+      "club": 3,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 26,
+      "value": 1000000,
+      "contract": "2028-06-30",
+      "nat": "Uruguay"
     },
     {
       "id": "911337",
@@ -515,6 +548,39 @@
       "nat": "Colombia"
     },
     {
+      "id": "572076",
+      "name": "Jean Carlos Pestaña",
+      "club": 3,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 29,
+      "value": 900000,
+      "contract": "2027-12-31",
+      "nat": "Colombia"
+    },
+    {
+      "id": "783526",
+      "name": "Jermein Peña",
+      "club": 3,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 27,
+      "value": 900000,
+      "contract": "2029-12-31",
+      "nat": "Colombia"
+    },
+    {
+      "id": "610651",
+      "name": "Jesús Rivas",
+      "club": 3,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 29,
+      "value": 900000,
+      "contract": "2028-06-30",
+      "nat": "Colombia"
+    },
+    {
       "id": "1045952",
       "name": "Jhojan Torres",
       "club": 7,
@@ -644,6 +710,17 @@
       "age": 38,
       "value": 800000,
       "contract": "2027-06-30",
+      "nat": "Colombia"
+    },
+    {
+      "id": "388287",
+      "name": "Yeison Suárez",
+      "club": 3,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 29,
+      "value": 800000,
+      "contract": "2029-06-30",
       "nat": "Colombia"
     },
     {
@@ -788,6 +865,39 @@
       "value": 700000,
       "contract": "2026-12-31",
       "nat": "Brazil"
+    },
+    {
+      "id": "602036",
+      "name": "Edwin Herrera",
+      "club": 3,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 28,
+      "value": 700000,
+      "contract": "2026-12-31",
+      "nat": "Colombia"
+    },
+    {
+      "id": "1026053",
+      "name": "Jannenson Sarmiento",
+      "club": 3,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 27,
+      "value": 700000,
+      "contract": "2028-12-31",
+      "nat": "Colombia"
+    },
+    {
+      "id": "543467",
+      "name": "Deiber Caicedo",
+      "club": 3,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 26,
+      "value": 700000,
+      "contract": "2027-12-31",
+      "nat": "Colombia"
     },
     {
       "id": "439626",
@@ -1010,6 +1120,39 @@
       "nat": "Ecuador"
     },
     {
+      "id": "585420",
+      "name": "Bryan Castrillón",
+      "club": 3,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 27,
+      "value": 600000,
+      "contract": "2027-06-30",
+      "nat": "Colombia"
+    },
+    {
+      "id": "480422",
+      "name": "Guillermo Paiva",
+      "club": 3,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 29,
+      "value": 600000,
+      "contract": "2028-12-31",
+      "nat": "Paraguay"
+    },
+    {
+      "id": "119228",
+      "name": "Luis Muriel",
+      "club": 3,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 35,
+      "value": 600000,
+      "contract": "2027-12-31",
+      "nat": "Colombia"
+    },
+    {
       "id": "732507",
       "name": "Agustín Martegani",
       "club": 4,
@@ -1139,6 +1282,17 @@
       "age": 28,
       "value": 550000,
       "contract": "2026-12-31",
+      "nat": "Colombia"
+    },
+    {
+      "id": "650832",
+      "name": "Daniel Rivera",
+      "club": 3,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 27,
+      "value": 550000,
+      "contract": "2027-12-31",
       "nat": "Colombia"
     },
     {
@@ -1515,6 +1669,28 @@
       "value": 450000,
       "contract": "2027-12-31",
       "nat": "Chile"
+    },
+    {
+      "id": "746582",
+      "name": "Kevin Pérez",
+      "club": 3,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 29,
+      "value": 450000,
+      "contract": "2028-12-31",
+      "nat": "Colombia"
+    },
+    {
+      "id": "337921",
+      "name": "Francisco Fydriszewski",
+      "club": 3,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 33,
+      "value": 450000,
+      "contract": "2029-06-30",
+      "nat": "Argentina"
     },
     {
       "id": "312731",
@@ -2089,6 +2265,17 @@
       "nat": "Colombia"
     },
     {
+      "id": "491546",
+      "name": "Fabián Ángel",
+      "club": 3,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 25,
+      "value": 350000,
+      "contract": "2027-12-31",
+      "nat": "Colombia"
+    },
+    {
       "id": "906620",
       "name": "Alfonso Simarra",
       "club": 4,
@@ -2372,6 +2559,28 @@
       "age": 29,
       "value": 300000,
       "contract": null,
+      "nat": "Colombia"
+    },
+    {
+      "id": "417780",
+      "name": "Juan David Ríos",
+      "club": 3,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 35,
+      "value": 300000,
+      "contract": "2026-12-31",
+      "nat": "Colombia"
+    },
+    {
+      "id": "255944",
+      "name": "Guillermo Celis",
+      "club": 3,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 33,
+      "value": 300000,
+      "contract": "2028-06-30",
       "nat": "Colombia"
     },
     {
@@ -2826,6 +3035,28 @@
       "nat": "Colombia"
     },
     {
+      "id": "254122",
+      "name": "Jefersson Martínez",
+      "club": 3,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 33,
+      "value": 250000,
+      "contract": "2026-12-31",
+      "nat": "Colombia"
+    },
+    {
+      "id": "814306",
+      "name": "Pablo Ortiz",
+      "club": 3,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 26,
+      "value": 250000,
+      "contract": "2027-06-30",
+      "nat": "Colombia"
+    },
+    {
       "id": "1418579",
       "name": "Jhan Mena",
       "club": 4,
@@ -3219,6 +3450,17 @@
       "age": 20,
       "value": 200000,
       "contract": "2027-12-31",
+      "nat": "Colombia"
+    },
+    {
+      "id": "165361",
+      "name": "Yimmi Chará",
+      "club": 3,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 35,
+      "value": 200000,
+      "contract": "2026-12-31",
       "nat": "Colombia"
     },
     {
@@ -4113,6 +4355,17 @@
       "nat": "Argentina"
     },
     {
+      "id": "211391",
+      "name": "Harold Rivera",
+      "club": 3,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 33,
+      "value": 100000,
+      "contract": "2026-12-31",
+      "nat": "Colombia"
+    },
+    {
       "id": "156561",
       "name": "Frank Fabra",
       "club": 4,
@@ -4740,6 +4993,28 @@
       "nat": "Colombia"
     },
     {
+      "id": "716275",
+      "name": "Jaime Acosta",
+      "club": 3,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 24,
+      "value": 50000,
+      "contract": null,
+      "nat": "Colombia"
+    },
+    {
+      "id": "77066",
+      "name": "Teófilo Gutiérrez",
+      "club": 3,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 41,
+      "value": 50000,
+      "contract": "2026-12-31",
+      "nat": "Colombia"
+    },
+    {
       "id": "148713",
       "name": "Avilés Hurtado",
       "club": 5,
@@ -5341,292 +5616,6 @@
       "posName": "Centre-Forward",
       "age": 22,
       "value": 25000,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "465682",
-      "name": "Mauro Silveira",
-      "club": 3,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "254122",
-      "name": "Jefersson Martínez",
-      "club": 3,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "716275",
-      "name": "Jaime Acosta",
-      "club": 3,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "572076",
-      "name": "Jean Carlos Pestaña",
-      "club": 3,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "783526",
-      "name": "Jermein Peña",
-      "club": 3,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "650832",
-      "name": "Daniel Rivera",
-      "club": 3,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "814306",
-      "name": "Pablo Ortiz",
-      "club": 3,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "388287",
-      "name": "Yeison Suárez",
-      "club": 3,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "602036",
-      "name": "Edwin Herrera",
-      "club": 3,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "417780",
-      "name": "Juan David Ríos",
-      "club": 3,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "255944",
-      "name": "Guillermo Celis",
-      "club": 3,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "1398548",
-      "name": "Andrés Shmalbach",
-      "club": 3,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "610651",
-      "name": "Jesús Rivas",
-      "club": 3,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "491546",
-      "name": "Fabián Ángel",
-      "club": 3,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "211391",
-      "name": "Harold Rivera",
-      "club": 3,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "1026053",
-      "name": "Jannenson Sarmiento",
-      "club": 3,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "543467",
-      "name": "Deiber Caicedo",
-      "club": 3,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "585420",
-      "name": "Bryan Castrillón",
-      "club": 3,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "1166097",
-      "name": "Joel Canchimbo",
-      "club": 3,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "587296",
-      "name": "Cristian Barrios",
-      "club": 3,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "746582",
-      "name": "Kevin Pérez",
-      "club": 3,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "165361",
-      "name": "Yimmi Chará",
-      "club": 3,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "480422",
-      "name": "Guillermo Paiva",
-      "club": 3,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Paraguay"
-    },
-    {
-      "id": "119228",
-      "name": "Luis Muriel",
-      "club": 3,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "337921",
-      "name": "Francisco Fydriszewski",
-      "club": 3,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "77066",
-      "name": "Teófilo Gutiérrez",
-      "club": 3,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
       "contract": null,
       "nat": "Colombia"
     },

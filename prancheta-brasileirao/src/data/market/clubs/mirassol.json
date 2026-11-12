@@ -2,7 +2,7 @@
   "slug": "mirassol",
   "tmId": "3876",
   "name": "Mirassol Futebol Clube (SP)",
-  "collectedAt": "2026-11-11",
+  "collectedAt": "2026-11-12",
   "squad": [
     {
       "id": "269860",
@@ -713,8 +713,8 @@
       "name": "Renato Marques",
       "pos": "ATA",
       "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
+      "age": 22,
+      "value": 1000000,
       "contract": null,
       "nat": "Brazil",
       "num": null,

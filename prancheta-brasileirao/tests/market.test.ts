@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { arrivalOf, loanStatus, matchClubSlug, tmPosition, type TmTransfer } from "../scripts/lib/market";
-import { actionsFor, emptyMarketState, fmtEur, isEnding, isFreeAgent, moneyOf, summarize } from "../src/market/logic";
+import { actionsFor, contractYears, depthChart, emptyMarketState, fmtEur, isEnding, isFreeAgent, moneyOf, nextSeason, shareText, summarize, waterfall } from "../src/market/logic";
 import type { MarketPlayer, SquadPlayer } from "../src/market/types";
 
 const VASCO = "978";
@@ -126,5 +126,43 @@ describe("regras do mercado", () => {
     expect(fmtEur(12_500_000)).toBe("€ 12,5 mi");
     expect(fmtEur(800_000)).toBe("€ 800 mil");
     expect(fmtEur(null)).toBe("—");
+  });
+});
+
+describe("gráficos e resumo da janela", () => {
+  const squad = [
+    sp({ id: "g1", pos: "GOL" }),
+    sp({ id: "z1", pos: "ZAG", contract: "2027-12-31" }),
+    sp({ id: "z2", pos: "ZAG", contract: "2026-12-31" }),
+    sp({ id: "a1", pos: "ATA", value: 9_000_000 }),
+    sp({ id: "fora", pos: "MEI", status: "loanOut", loanUntil: "2028-01-01" }),
+  ];
+  const st = { ...emptyMarketState(), budget: 10_000_000, decisions: { a1: { action: "sell" as const }, z2: { action: "renew" as const } } };
+  const novo = { id: "n", name: "Novo", club: 0, pos: "ATA", posName: null, age: 21, value: 4_000_000, contract: "2029-06-30", nat: null } as MarketPlayer;
+  const list = nextSeason(squad, st, CUT, [novo]);
+
+  it("elenco da próxima temporada: fica, sai, chega; emprestado fora que segue fora não entra", () => {
+    expect(list.map((x) => `${x.id}:${x.kind}`)).toEqual(["g1:stay", "z1:stay", "z2:stay", "a1:leave", "n:new"]);
+    expect(list.find((x) => x.id === "z2")!.contract).toBe("renew");
+  });
+  it("profundidade por posição aponta carências", () => {
+    const d = depthChart(list);
+    const ata = d.find((r) => r.pos === "ATA")!;
+    expect([ata.stay.length, ata.fresh.length, ata.leave.length, ata.short]).toEqual([0, 1, 1, 2]);
+    expect(d.find((r) => r.pos === "GOL")!.short).toBe(2);
+  });
+  it("contratos por ano, com renovados separados e sem contar quem sai", () => {
+    expect(contractYears(list).map((y) => [y.label, y.count])).toEqual([["2027", 1], ["2029", 2], ["Renovados", 1]]);
+  });
+  it("cascata fecha no saldo", () => {
+    const w = waterfall(st, { income: 9_000_000, spend: 4_000_000, balance: 15_000_000 });
+    expect(w.map((s) => [s.label, s.from, s.to])).toEqual([["Orçamento", 0, 10e6], ["Vendas", 10e6, 19e6], ["Gastos", 15e6, 19e6], ["Saldo", 0, 15e6]]);
+    expect(waterfall({ ...st, useSales: false }, { income: 9e6, spend: 12e6, balance: -2e6 }).at(-1)).toMatchObject({ from: -2e6, to: 0 });
+  });
+  it("texto para compartilhar", () => {
+    const txt = shareText({ club: "Vasco", season: "2027", arrivals: [{ name: "Novo", from: "Clube X", type: "buy", price: 4e6 }], leaves: [{ name: "a1", action: "sell", money: 9e6 }], balance: 15e6, url: "https://x/mercado/vasco" });
+    expect(txt).toContain("+ Novo (Clube X) · € 4 mi");
+    expect(txt).toContain("- a1 · vende por € 9 mi");
+    expect(txt).toContain("Saldo: € 15 mi");
   });
 });

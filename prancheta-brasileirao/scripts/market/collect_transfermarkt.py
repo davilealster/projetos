@@ -103,6 +103,34 @@ class Collector:
         print(f"  {key} → {cands[0]['id']} ({cands[0].get('name')})")
         return cands[0]["id"]
 
+    async def complete(self, club_id: str, players: list[dict]) -> list[dict]:
+        """
+        Quando o elenco inclui alguém que já saiu, o pacote devolve valor, idade e contrato vazios para o clube
+        inteiro. Nesse caso busca a ficha de cada jogador, preenche os campos e descarta quem já está em outro clube.
+        """
+        if not players or any(p.get("marketValue") is not None or p.get("contract") for p in players):
+            return players
+        sem = asyncio.Semaphore(6)
+
+        async def one(p: dict) -> dict | None:
+            async with sem:
+                prof = await self.cached(f"profile_{p['id']}", lambda: self.tm.player_profile(p["id"]))
+            if not prof:
+                return p
+            club = prof.get("club") or {}
+            if club.get("id") and str(club["id"]) != str(club_id):
+                return None  # já saiu do clube
+            return {
+                **p,
+                "age": prof.get("age"),
+                "marketValue": prof.get("marketValue"),
+                "contract": club.get("contractExpires"),
+                "joinedOn": club.get("joined") or p.get("joinedOn"),
+            }
+
+        done = await asyncio.gather(*(one(p) for p in players))
+        return [p for p in done if p]
+
     async def competition(self, comp: dict, comp_id: str, serie_a_clubs: set[str]) -> dict:
         clubs = await self.cached(f"comp_{comp_id}", lambda: self.tm.competition_clubs(comp_id))
         out = {
@@ -115,6 +143,7 @@ class Collector:
         for club in (clubs or {}).get("clubs", []):
             squad = await self.cached(f"club_{club['id']}", lambda cid=club["id"]: self.tm.club_players(cid))
             players = (squad or {}).get("players", [])
+            players = await self.complete(club["id"], players)
             out["clubs"].append({"id": club["id"], "name": club.get("name"), "players": players})
             print(f"  {club.get('name')}: {len(players)} jogadores", flush=True)
             for p in players:

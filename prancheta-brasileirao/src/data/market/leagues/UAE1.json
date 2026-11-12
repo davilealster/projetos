@@ -458,6 +458,17 @@
       "nat": "Cote d'Ivoire"
     },
     {
+      "id": "471776",
+      "name": "Walid Azaro",
+      "club": 8,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 31,
+      "value": 3000000,
+      "contract": "2028-06-30",
+      "nat": "Morocco"
+    },
+    {
       "id": "1156563",
       "name": "Igor Serrote",
       "club": 0,
@@ -1273,6 +1284,17 @@
       "nat": "Iran"
     },
     {
+      "id": "432960",
+      "name": "Lourency",
+      "club": 8,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 30,
+      "value": 1200000,
+      "contract": null,
+      "nat": "Brazil"
+    },
+    {
       "id": "377219",
       "name": "Selim Amallah",
       "club": 9,
@@ -1571,6 +1593,39 @@
       "nat": "Senegal"
     },
     {
+      "id": "205849",
+      "name": "Gjoko Zajkov",
+      "club": 8,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 31,
+      "value": 800000,
+      "contract": null,
+      "nat": "North Macedonia"
+    },
+    {
+      "id": "443612",
+      "name": "Yuri Matias",
+      "club": 8,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 31,
+      "value": 800000,
+      "contract": "2030-06-30",
+      "nat": "Brazil"
+    },
+    {
+      "id": "927076",
+      "name": "Lithierry",
+      "club": 8,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 25,
+      "value": 800000,
+      "contract": null,
+      "nat": "United Arab Emirates"
+    },
+    {
       "id": "825683",
       "name": "Nemanja Djekovic",
       "club": 11,
@@ -1679,6 +1734,28 @@
       "value": 700000,
       "contract": "2027-06-30",
       "nat": "Serbia"
+    },
+    {
+      "id": "864109",
+      "name": "Fradj Ben Njima",
+      "club": 8,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 22,
+      "value": 700000,
+      "contract": "2029-06-30",
+      "nat": "Tunisia"
+    },
+    {
+      "id": "226155",
+      "name": "Carlinhos",
+      "club": 8,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 32,
+      "value": 700000,
+      "contract": null,
+      "nat": "Brazil"
     },
     {
       "id": "677706",
@@ -1857,6 +1934,17 @@
       "nat": "Brazil"
     },
     {
+      "id": "519875",
+      "name": "Jobson",
+      "club": 8,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 31,
+      "value": 600000,
+      "contract": null,
+      "nat": "Brazil"
+    },
+    {
       "id": "481198",
       "name": "Ramiro Vaca",
       "club": 9,
@@ -1965,6 +2053,28 @@
       "value": 500000,
       "contract": null,
       "nat": "Brazil"
+    },
+    {
+      "id": "708811",
+      "name": "Bilal Yousif",
+      "club": 8,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 31,
+      "value": 500000,
+      "contract": "2027-06-30",
+      "nat": "United Arab Emirates"
+    },
+    {
+      "id": "1058758",
+      "name": "Sékou Gassama",
+      "club": 8,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 25,
+      "value": 500000,
+      "contract": "2027-06-30",
+      "nat": "Mali"
     },
     {
       "id": "742834",
@@ -2330,6 +2440,39 @@
       "nat": "Albania"
     },
     {
+      "id": "712045",
+      "name": "Ahmed Sulaiman",
+      "club": 8,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 30,
+      "value": 350000,
+      "contract": null,
+      "nat": "United Arab Emirates"
+    },
+    {
+      "id": "1188391",
+      "name": "Mohammad Nasser",
+      "club": 8,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 22,
+      "value": 350000,
+      "contract": "2030-06-30",
+      "nat": "United Arab Emirates"
+    },
+    {
+      "id": "1160358",
+      "name": "Ismail Moumen",
+      "club": 8,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 23,
+      "value": 350000,
+      "contract": null,
+      "nat": "Morocco"
+    },
+    {
       "id": "978053",
       "name": "Kayque Campos",
       "club": 9,
@@ -2424,6 +2567,17 @@
       "pos": "LD",
       "posName": "Right-Back",
       "age": 24,
+      "value": 325000,
+      "contract": null,
+      "nat": "United Arab Emirates"
+    },
+    {
+      "id": "421313",
+      "name": "Mohammed Jumaa",
+      "club": 8,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 29,
       "value": 325000,
       "contract": null,
       "nat": "United Arab Emirates"
@@ -2792,6 +2946,17 @@
       "nat": "United Arab Emirates"
     },
     {
+      "id": "732142",
+      "name": "Abdulrahman Rakan",
+      "club": 8,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 26,
+      "value": 250000,
+      "contract": "2027-06-30",
+      "nat": "United Arab Emirates"
+    },
+    {
       "id": "1029170",
       "name": "Ahmadou Ama Camara",
       "club": 9,
@@ -2878,6 +3043,28 @@
       "value": 225000,
       "contract": null,
       "nat": "Iran"
+    },
+    {
+      "id": "1045599",
+      "name": "Victor Hugo",
+      "club": 8,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 22,
+      "value": 225000,
+      "contract": null,
+      "nat": "Brazil"
+    },
+    {
+      "id": "1094955",
+      "name": "Victor Henrique",
+      "club": 8,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 23,
+      "value": 225000,
+      "contract": "2030-06-30",
+      "nat": "United Arab Emirates"
     },
     {
       "id": "574420",
@@ -2990,6 +3177,17 @@
       "nat": "United Arab Emirates"
     },
     {
+      "id": "1093085",
+      "name": "Salem Suliman",
+      "club": 8,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 29,
+      "value": 200000,
+      "contract": null,
+      "nat": "United Arab Emirates"
+    },
+    {
       "id": "630138",
       "name": "Salam Khairi",
       "club": 10,
@@ -3098,6 +3296,28 @@
       "value": 175000,
       "contract": "2027-06-30",
       "nat": "Palestine"
+    },
+    {
+      "id": "1172783",
+      "name": "Anas Mtitache",
+      "club": 8,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 24,
+      "value": 175000,
+      "contract": null,
+      "nat": "Morocco"
+    },
+    {
+      "id": "1270437",
+      "name": "Saad Hadani",
+      "club": 8,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 21,
+      "value": 175000,
+      "contract": null,
+      "nat": "Morocco"
     },
     {
       "id": "884146",
@@ -3252,6 +3472,17 @@
       "value": 150000,
       "contract": null,
       "nat": "Spain"
+    },
+    {
+      "id": "1112448",
+      "name": "Vitor Vargas",
+      "club": 8,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 22,
+      "value": 150000,
+      "contract": null,
+      "nat": "Brazil"
     },
     {
       "id": "131956",
@@ -3573,6 +3804,17 @@
       "nat": "Senegal"
     },
     {
+      "id": "744960",
+      "name": "Mohamed Souboul",
+      "club": 8,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 24,
+      "value": 100000,
+      "contract": null,
+      "nat": "Morocco"
+    },
+    {
       "id": "523000",
       "name": "Adeel Al-Chadli",
       "club": 10,
@@ -3694,6 +3936,28 @@
       "nat": "United Arab Emirates"
     },
     {
+      "id": "690488",
+      "name": "Aleksandar Vasiljevic",
+      "club": 8,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 25,
+      "value": 75000,
+      "contract": "2027-06-30",
+      "nat": "Serbia"
+    },
+    {
+      "id": "1500536",
+      "name": "Yassine Jabri",
+      "club": 8,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 23,
+      "value": 75000,
+      "contract": null,
+      "nat": "Morocco"
+    },
+    {
       "id": "706855",
       "name": "Ahmed Mahmoud",
       "club": 9,
@@ -3802,6 +4066,61 @@
       "value": 50000,
       "contract": null,
       "nat": "Yemen"
+    },
+    {
+      "id": "619612",
+      "name": "Abdulla Al-Tamimi",
+      "club": 8,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 33,
+      "value": 50000,
+      "contract": null,
+      "nat": "United Arab Emirates"
+    },
+    {
+      "id": "185495",
+      "name": "Ali Al-Hosani",
+      "club": 8,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 38,
+      "value": 50000,
+      "contract": null,
+      "nat": "United Arab Emirates"
+    },
+    {
+      "id": "269648",
+      "name": "Abdalla Al-Junaibi",
+      "club": 8,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 38,
+      "value": 50000,
+      "contract": null,
+      "nat": "United Arab Emirates"
+    },
+    {
+      "id": "1089738",
+      "name": "Obaid Al-Zaabi",
+      "club": 8,
+      "pos": "MEI",
+      "posName": null,
+      "age": 26,
+      "value": 50000,
+      "contract": null,
+      "nat": "United Arab Emirates"
+    },
+    {
+      "id": "1002265",
+      "name": "Abdulla Abdelaziz",
+      "club": 8,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 24,
+      "value": 50000,
+      "contract": null,
+      "nat": "United Arab Emirates"
     },
     {
       "id": "269175",
@@ -4255,136 +4574,15 @@
       "nat": "United Arab Emirates"
     },
     {
-      "id": "619612",
-      "name": "Abdulla Al-Tamimi",
-      "club": 8,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "United Arab Emirates"
-    },
-    {
-      "id": "185495",
-      "name": "Ali Al-Hosani",
-      "club": 8,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "United Arab Emirates"
-    },
-    {
       "id": "272372",
       "name": "Yousuf Ahmed",
       "club": 8,
       "pos": "GOL",
       "posName": "Goalkeeper",
-      "age": null,
+      "age": 37,
       "value": null,
       "contract": null,
       "nat": "United Arab Emirates"
-    },
-    {
-      "id": "1401767",
-      "name": "Alioune Sarr Ndao",
-      "club": 8,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Senegal"
-    },
-    {
-      "id": "205849",
-      "name": "Gjoko Zajkov",
-      "club": 8,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "North Macedonia"
-    },
-    {
-      "id": "443612",
-      "name": "Yuri Matias",
-      "club": 8,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "732142",
-      "name": "Abdulrahman Rakan",
-      "club": 8,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "United Arab Emirates"
-    },
-    {
-      "id": "690488",
-      "name": "Aleksandar Vasiljevic",
-      "club": 8,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Serbia"
-    },
-    {
-      "id": "269648",
-      "name": "Abdalla Al-Junaibi",
-      "club": 8,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "United Arab Emirates"
-    },
-    {
-      "id": "712045",
-      "name": "Ahmed Sulaiman",
-      "club": 8,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "United Arab Emirates"
-    },
-    {
-      "id": "1112448",
-      "name": "Vitor Vargas",
-      "club": 8,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "744960",
-      "name": "Mohamed Souboul",
-      "club": 8,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Morocco"
     },
     {
       "id": "1195203",
@@ -4392,219 +4590,10 @@
       "club": 8,
       "pos": "LE",
       "posName": "Left-Back",
-      "age": null,
+      "age": 22,
       "value": null,
       "contract": null,
       "nat": "England"
-    },
-    {
-      "id": "864109",
-      "name": "Fradj Ben Njima",
-      "club": 8,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Tunisia"
-    },
-    {
-      "id": "1188391",
-      "name": "Mohammad Nasser",
-      "club": 8,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "United Arab Emirates"
-    },
-    {
-      "id": "1093085",
-      "name": "Salem Suliman",
-      "club": 8,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "United Arab Emirates"
-    },
-    {
-      "id": "708811",
-      "name": "Bilal Yousif",
-      "club": 8,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "United Arab Emirates"
-    },
-    {
-      "id": "519875",
-      "name": "Jobson",
-      "club": 8,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1160358",
-      "name": "Ismail Moumen",
-      "club": 8,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Morocco"
-    },
-    {
-      "id": "1045599",
-      "name": "Victor Hugo",
-      "club": 8,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1172783",
-      "name": "Anas Mtitache",
-      "club": 8,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Morocco"
-    },
-    {
-      "id": "226155",
-      "name": "Carlinhos",
-      "club": 8,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "1089738",
-      "name": "Obaid Al-Zaabi",
-      "club": 8,
-      "pos": "MEI",
-      "posName": null,
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "United Arab Emirates"
-    },
-    {
-      "id": "432960",
-      "name": "Lourency",
-      "club": 8,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "927076",
-      "name": "Lithierry",
-      "club": 8,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "United Arab Emirates"
-    },
-    {
-      "id": "421313",
-      "name": "Mohammed Jumaa",
-      "club": 8,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "United Arab Emirates"
-    },
-    {
-      "id": "1094955",
-      "name": "Victor Henrique",
-      "club": 8,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "United Arab Emirates"
-    },
-    {
-      "id": "1500536",
-      "name": "Yassine Jabri",
-      "club": 8,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Morocco"
-    },
-    {
-      "id": "1058758",
-      "name": "Sékou Gassama",
-      "club": 8,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mali"
-    },
-    {
-      "id": "1002265",
-      "name": "Abdulla Abdelaziz",
-      "club": 8,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "United Arab Emirates"
-    },
-    {
-      "id": "471776",
-      "name": "Walid Azaro",
-      "club": 8,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Morocco"
-    },
-    {
-      "id": "1270437",
-      "name": "Saad Hadani",
-      "club": 8,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Morocco"
     },
     {
       "id": "1584823",

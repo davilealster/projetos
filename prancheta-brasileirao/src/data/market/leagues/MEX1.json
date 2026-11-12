@@ -89,6 +89,50 @@
       "nat": "Mexico"
     },
     {
+      "id": "668179",
+      "name": "Carlos Álvarez",
+      "club": 0,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 23,
+      "value": 15000000,
+      "contract": null,
+      "nat": "Spain"
+    },
+    {
+      "id": "602324",
+      "name": "Érik Lira",
+      "club": 1,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 26,
+      "value": 14000000,
+      "contract": "2029-06-30",
+      "nat": "Mexico"
+    },
+    {
+      "id": "688593",
+      "name": "Santiago Ramos Mingo",
+      "club": 0,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 24,
+      "value": 12000000,
+      "contract": null,
+      "nat": "Argentina"
+    },
+    {
+      "id": "465818",
+      "name": "Brian Rodríguez",
+      "club": 0,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 26,
+      "value": 12000000,
+      "contract": "2030-06-30",
+      "nat": "Uruguay"
+    },
+    {
       "id": "353583",
       "name": "Roberto Alvarado",
       "club": 2,
@@ -98,6 +142,50 @@
       "value": 12000000,
       "contract": "2029-06-30",
       "nat": "Mexico"
+    },
+    {
+      "id": "438001",
+      "name": "Santiago Bueno",
+      "club": 0,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 28,
+      "value": 10000000,
+      "contract": "2027-06-30",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "420884",
+      "name": "Hugo Cuypers",
+      "club": 5,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 29,
+      "value": 10000000,
+      "contract": "2029-06-30",
+      "nat": "Belgium"
+    },
+    {
+      "id": "351505",
+      "name": "Álex Zendejas",
+      "club": 0,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 28,
+      "value": 9000000,
+      "contract": "2027-06-30",
+      "nat": "United States"
+    },
+    {
+      "id": "639152",
+      "name": "José Paradela",
+      "club": 1,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 27,
+      "value": 9000000,
+      "contract": "2029-06-30",
+      "nat": "Argentina"
     },
     {
       "id": "466268",
@@ -177,6 +265,61 @@
       "nat": "Mexico"
     },
     {
+      "id": "636784",
+      "name": "Luca Orellano",
+      "club": 5,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 26,
+      "value": 7500000,
+      "contract": "2030-12-31",
+      "nat": "Argentina"
+    },
+    {
+      "id": "317454",
+      "name": "Diego Rossi",
+      "club": 5,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 28,
+      "value": 7500000,
+      "contract": "2029-06-30",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "491542",
+      "name": "Kevin Mier",
+      "club": 1,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 26,
+      "value": 7000000,
+      "contract": "2029-06-30",
+      "nat": "Colombia"
+    },
+    {
+      "id": "609255",
+      "name": "Willer Ditta",
+      "club": 1,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 28,
+      "value": 7000000,
+      "contract": "2028-06-30",
+      "nat": "Colombia"
+    },
+    {
+      "id": "737125",
+      "name": "Jeremy Márquez",
+      "club": 1,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 26,
+      "value": 7000000,
+      "contract": "2029-06-30",
+      "nat": "Mexico"
+    },
+    {
       "id": "671479",
       "name": "Federico Pereira",
       "club": 3,
@@ -230,6 +373,17 @@
       "value": 7000000,
       "contract": "2026-12-31",
       "nat": "Paraguay"
+    },
+    {
+      "id": "687558",
+      "name": "Israel Reyes",
+      "club": 0,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 26,
+      "value": 6500000,
+      "contract": "2028-12-31",
+      "nat": "Mexico"
     },
     {
       "id": "1260851",
@@ -287,6 +441,17 @@
       "nat": "Mexico"
     },
     {
+      "id": "334042",
+      "name": "Orbelín Pineda",
+      "club": 5,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 30,
+      "value": 6500000,
+      "contract": null,
+      "nat": "Mexico"
+    },
+    {
       "id": "659806",
       "name": "Pedro Vite",
       "club": 7,
@@ -296,6 +461,62 @@
       "value": 6500000,
       "contract": "2029-07-18",
       "nat": "Ecuador"
+    },
+    {
+      "id": "370875",
+      "name": "Érick Sánchez",
+      "club": 0,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 27,
+      "value": 6000000,
+      "contract": "2028-06-30",
+      "nat": "Mexico"
+    },
+    {
+      "id": "432953",
+      "name": "Raphael Veiga",
+      "club": 0,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 31,
+      "value": 6000000,
+      "contract": "2026-12-31",
+      "nat": "Brazil",
+      "loanFrom": "Sociedade Esportiva Palmeiras"
+    },
+    {
+      "id": "668496",
+      "name": "Isaías Violante",
+      "club": 0,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 23,
+      "value": 6000000,
+      "contract": "2028-06-30",
+      "nat": "Mexico"
+    },
+    {
+      "id": "915155",
+      "name": "Jesús Orozco Chiquete",
+      "club": 1,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 24,
+      "value": 6000000,
+      "contract": "2029-12-31",
+      "nat": "Mexico"
+    },
+    {
+      "id": "534620",
+      "name": "Carlos Rodríguez",
+      "club": 1,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 29,
+      "value": 6000000,
+      "contract": "2029-12-31",
+      "nat": "Mexico"
     },
     {
       "id": "802857",
@@ -386,6 +607,39 @@
       "nat": "Colombia"
     },
     {
+      "id": "699797",
+      "name": "Ramón Juárez",
+      "club": 0,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 25,
+      "value": 5500000,
+      "contract": "2027-06-30",
+      "nat": "Mexico"
+    },
+    {
+      "id": "686444",
+      "name": "Víctor Guzmán",
+      "club": 5,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 24,
+      "value": 5500000,
+      "contract": "2028-06-30",
+      "nat": "Mexico"
+    },
+    {
+      "id": "873981",
+      "name": "Diego González",
+      "club": 10,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 23,
+      "value": 5500000,
+      "contract": null,
+      "nat": "Paraguay"
+    },
+    {
       "id": "997057",
       "name": "Denzell García",
       "club": 11,
@@ -406,6 +660,28 @@
       "value": 5500000,
       "contract": "2028-06-30",
       "nat": "Morocco"
+    },
+    {
+      "id": "423619",
+      "name": "Luis Malagón",
+      "club": 0,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 29,
+      "value": 5000000,
+      "contract": "2027-06-30",
+      "nat": "Mexico"
+    },
+    {
+      "id": "854454",
+      "name": "Omar Campos",
+      "club": 1,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 24,
+      "value": 5000000,
+      "contract": "2028-12-31",
+      "nat": "Mexico"
     },
     {
       "id": "552912",
@@ -463,6 +739,17 @@
       "nat": "Argentina"
     },
     {
+      "id": "627068",
+      "name": "Ezequiel Bullaude",
+      "club": 10,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 26,
+      "value": 5000000,
+      "contract": "2026-12-31",
+      "nat": "Argentina"
+    },
+    {
       "id": "282727",
       "name": "Monchu",
       "club": 11,
@@ -474,6 +761,61 @@
       "nat": "Spain"
     },
     {
+      "id": "491707",
+      "name": "Julián Carranza",
+      "club": 12,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 26,
+      "value": 5000000,
+      "contract": null,
+      "nat": "Argentina"
+    },
+    {
+      "id": "959193",
+      "name": "Dagoberto Espinoza",
+      "club": 0,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 22,
+      "value": 4500000,
+      "contract": "2026-12-31",
+      "nat": "Mexico"
+    },
+    {
+      "id": "400173",
+      "name": "Alan Cervantes",
+      "club": 0,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 28,
+      "value": 4500000,
+      "contract": "2028-12-31",
+      "nat": "Mexico"
+    },
+    {
+      "id": "610590",
+      "name": "Agustín Palavecino",
+      "club": 1,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 30,
+      "value": 4500000,
+      "contract": "2028-12-31",
+      "nat": "Argentina"
+    },
+    {
+      "id": "769063",
+      "name": "Luka Romero",
+      "club": 1,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 21,
+      "value": 4500000,
+      "contract": "2030-06-30",
+      "nat": "Argentina"
+    },
+    {
       "id": "599732",
       "name": "Kevin Castañeda",
       "club": 2,
@@ -482,6 +824,17 @@
       "age": 27,
       "value": 4500000,
       "contract": "2031-06-30",
+      "nat": "Mexico"
+    },
+    {
+      "id": "1095326",
+      "name": "Iker Fimbres",
+      "club": 5,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 21,
+      "value": 4500000,
+      "contract": null,
       "nat": "Mexico"
     },
     {
@@ -525,6 +878,28 @@
       "posName": "Right Winger",
       "age": 21,
       "value": 4500000,
+      "contract": "2029-06-30",
+      "nat": "Mexico"
+    },
+    {
+      "id": "895679",
+      "name": "Santiago Homenchenko",
+      "club": 15,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 23,
+      "value": 4500000,
+      "contract": "2029-06-30",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "371171",
+      "name": "Alexis Gutiérrez",
+      "club": 0,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 26,
+      "value": 4000000,
       "contract": "2029-06-30",
       "nat": "Mexico"
     },
@@ -651,6 +1026,28 @@
       "nat": "Brazil"
     },
     {
+      "id": "964591",
+      "name": "Naves",
+      "club": 12,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 24,
+      "value": 4000000,
+      "contract": "2030-06-30",
+      "nat": "Brazil"
+    },
+    {
+      "id": "652470",
+      "name": "Edwin Cerrillo",
+      "club": 0,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 26,
+      "value": 3500000,
+      "contract": "2028-06-30",
+      "nat": "United States"
+    },
+    {
       "id": "400194",
       "name": "Ricardo Marín",
       "club": 2,
@@ -673,6 +1070,28 @@
       "nat": "Mexico"
     },
     {
+      "id": "723240",
+      "name": "Fidel Ambríz",
+      "club": 5,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 23,
+      "value": 3500000,
+      "contract": "2029-06-30",
+      "nat": "Mexico"
+    },
+    {
+      "id": "189441",
+      "name": "Lucas Ocampos",
+      "club": 5,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 32,
+      "value": 3500000,
+      "contract": "2027-06-30",
+      "nat": "Argentina"
+    },
+    {
       "id": "694157",
       "name": "Diego Abreu",
       "club": 6,
@@ -693,6 +1112,28 @@
       "value": 3500000,
       "contract": "2027-06-30",
       "nat": "Mexico"
+    },
+    {
+      "id": "589363",
+      "name": "Agustín Oliveros",
+      "club": 12,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 28,
+      "value": 3500000,
+      "contract": "2027-06-30",
+      "nat": "Uruguay"
+    },
+    {
+      "id": "1160106",
+      "name": "Javier Ruiz",
+      "club": 12,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 22,
+      "value": 3500000,
+      "contract": "2030-12-31",
+      "nat": "Argentina"
     },
     {
       "id": "1035924",
@@ -726,6 +1167,28 @@
       "value": 3500000,
       "contract": "2030-06-30",
       "nat": "Mexico"
+    },
+    {
+      "id": "704557",
+      "name": "Alí Ávila",
+      "club": 15,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 23,
+      "value": 3500000,
+      "contract": "2030-06-30",
+      "nat": "Mexico"
+    },
+    {
+      "id": "553422",
+      "name": "Carlos Rotondi",
+      "club": 1,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 29,
+      "value": 3000000,
+      "contract": "2028-06-30",
+      "nat": "Argentina"
     },
     {
       "id": "310744",
@@ -816,6 +1279,17 @@
       "nat": "Mexico"
     },
     {
+      "id": "685179",
+      "name": "Mateo Coronel",
+      "club": 15,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 28,
+      "value": 3000000,
+      "contract": "2026-12-31",
+      "nat": "Argentina"
+    },
+    {
       "id": "983609",
       "name": "Jordan García",
       "club": 17,
@@ -846,6 +1320,72 @@
       "age": 29,
       "value": 2800000,
       "contract": "2027-12-31",
+      "nat": "Mexico"
+    },
+    {
+      "id": "356042",
+      "name": "Carlos Acevedo",
+      "club": 10,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 30,
+      "value": 2800000,
+      "contract": "2027-06-30",
+      "nat": "Mexico"
+    },
+    {
+      "id": "572705",
+      "name": "Kevin Álvarez",
+      "club": 0,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 27,
+      "value": 2500000,
+      "contract": "2027-06-30",
+      "nat": "Mexico"
+    },
+    {
+      "id": "1015624",
+      "name": "Óscar Perea",
+      "club": 0,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 21,
+      "value": 2500000,
+      "contract": "2031-06-30",
+      "nat": "Colombia"
+    },
+    {
+      "id": "366143",
+      "name": "Víctor Dávila",
+      "club": 0,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 29,
+      "value": 2500000,
+      "contract": "2027-06-30",
+      "nat": "Chile"
+    },
+    {
+      "id": "397003",
+      "name": "Alan Mozo",
+      "club": 1,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 29,
+      "value": 2500000,
+      "contract": "2027-06-30",
+      "nat": "Mexico"
+    },
+    {
+      "id": "1118326",
+      "name": "Amaury Morales",
+      "club": 1,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 20,
+      "value": 2500000,
+      "contract": "2029-06-30",
       "nat": "Mexico"
     },
     {
@@ -891,6 +1431,39 @@
       "value": 2500000,
       "contract": null,
       "nat": "Uruguay"
+    },
+    {
+      "id": "1171460",
+      "name": "César Garza",
+      "club": 5,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 21,
+      "value": 2500000,
+      "contract": null,
+      "nat": "Mexico"
+    },
+    {
+      "id": "333760",
+      "name": "Jorge Rodríguez",
+      "club": 5,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 31,
+      "value": 2500000,
+      "contract": "2027-06-30",
+      "nat": "Argentina"
+    },
+    {
+      "id": "214775",
+      "name": "Óliver Torres",
+      "club": 5,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 32,
+      "value": 2500000,
+      "contract": "2027-06-30",
+      "nat": "Spain"
     },
     {
       "id": "491616",
@@ -1003,6 +1576,39 @@
       "nat": "Mexico"
     },
     {
+      "id": "644676",
+      "name": "Bruno Amione",
+      "club": 10,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 24,
+      "value": 2500000,
+      "contract": "2027-12-31",
+      "nat": "Argentina"
+    },
+    {
+      "id": "690024",
+      "name": "Aldo López",
+      "club": 10,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 26,
+      "value": 2500000,
+      "contract": null,
+      "nat": "Mexico"
+    },
+    {
+      "id": "829434",
+      "name": "Facundo Cáseres",
+      "club": 10,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 25,
+      "value": 2500000,
+      "contract": "2030-06-30",
+      "nat": "Argentina"
+    },
+    {
       "id": "726005",
       "name": "Guilherme Castilho",
       "club": 11,
@@ -1036,6 +1642,28 @@
       "nat": "Colombia"
     },
     {
+      "id": "704868",
+      "name": "Pedro Pedraza",
+      "club": 12,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 26,
+      "value": 2500000,
+      "contract": null,
+      "nat": "Mexico"
+    },
+    {
+      "id": "1087262",
+      "name": "Emilio Rodríguez",
+      "club": 12,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 23,
+      "value": 2500000,
+      "contract": null,
+      "nat": "Mexico"
+    },
+    {
       "id": "458715",
       "name": "Robson Bambu",
       "club": 13,
@@ -1058,6 +1686,17 @@
       "nat": "Mexico"
     },
     {
+      "id": "569088",
+      "name": "Enzo Giménez",
+      "club": 15,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 28,
+      "value": 2500000,
+      "contract": "2030-06-30",
+      "nat": "Paraguay"
+    },
+    {
       "id": "249543",
       "name": "Ryan Mmaee",
       "club": 8,
@@ -1067,6 +1706,83 @@
       "value": 2200000,
       "contract": null,
       "nat": "Morocco"
+    },
+    {
+      "id": "1100594",
+      "name": "Franco Rossano",
+      "club": 0,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 21,
+      "value": 2000000,
+      "contract": null,
+      "nat": "Mexico"
+    },
+    {
+      "id": "421920",
+      "name": "Andrés Gudiño",
+      "club": 1,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 29,
+      "value": 2000000,
+      "contract": "2027-06-30",
+      "nat": "Mexico"
+    },
+    {
+      "id": "796063",
+      "name": "Alán Montes",
+      "club": 1,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 26,
+      "value": 2000000,
+      "contract": "2027-06-30",
+      "nat": "Mexico"
+    },
+    {
+      "id": "284120",
+      "name": "Gonzalo Piovi",
+      "club": 1,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 32,
+      "value": 2000000,
+      "contract": "2028-12-31",
+      "nat": "Argentina"
+    },
+    {
+      "id": "1041475",
+      "name": "Ralph Orquin",
+      "club": 1,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 23,
+      "value": 2000000,
+      "contract": "2029-06-30",
+      "nat": "Mexico"
+    },
+    {
+      "id": "993722",
+      "name": "Andrés Montaño",
+      "club": 1,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 24,
+      "value": 2000000,
+      "contract": "2029-06-30",
+      "nat": "Mexico"
+    },
+    {
+      "id": "267753",
+      "name": "Nicolás Ibáñez",
+      "club": 1,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 32,
+      "value": 2000000,
+      "contract": "2028-12-31",
+      "nat": "Argentina"
     },
     {
       "id": "686445",
@@ -1133,6 +1849,28 @@
       "value": 2000000,
       "contract": "2029-12-31",
       "nat": "Uruguay"
+    },
+    {
+      "id": "469718",
+      "name": "Gerardo Arteaga",
+      "club": 5,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 28,
+      "value": 2000000,
+      "contract": "2027-12-31",
+      "nat": "Mexico"
+    },
+    {
+      "id": "833268",
+      "name": "Alonso Aceves",
+      "club": 5,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 25,
+      "value": 2000000,
+      "contract": "2029-12-31",
+      "nat": "Mexico"
     },
     {
       "id": "646297",
@@ -1223,6 +1961,61 @@
       "nat": "Mexico"
     },
     {
+      "id": "720716",
+      "name": "Franco Pardo",
+      "club": 10,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 29,
+      "value": 2000000,
+      "contract": "2030-06-30",
+      "nat": "Argentina"
+    },
+    {
+      "id": "830112",
+      "name": "Ramiro Sordo",
+      "club": 10,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 26,
+      "value": 2000000,
+      "contract": "2027-12-31",
+      "nat": "Argentina"
+    },
+    {
+      "id": "439108",
+      "name": "Lucas Di Yorio",
+      "club": 10,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 29,
+      "value": 2000000,
+      "contract": "2028-12-31",
+      "nat": "Argentina"
+    },
+    {
+      "id": "400171",
+      "name": "Eduardo Aguirre",
+      "club": 10,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 28,
+      "value": 2000000,
+      "contract": null,
+      "nat": "Mexico"
+    },
+    {
+      "id": "797702",
+      "name": "Esteban Lozano",
+      "club": 10,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 23,
+      "value": 2000000,
+      "contract": "2026-12-31",
+      "nat": "Mexico"
+    },
+    {
       "id": "596929",
       "name": "Gilberto Sepúlveda",
       "club": 11,
@@ -1254,6 +2047,28 @@
       "value": 2000000,
       "contract": "2027-06-30",
       "nat": "Brazil"
+    },
+    {
+      "id": "397680",
+      "name": "Alexis Peña",
+      "club": 12,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 30,
+      "value": 2000000,
+      "contract": "2028-06-30",
+      "nat": "Mexico"
+    },
+    {
+      "id": "623444",
+      "name": "Danny Leyva",
+      "club": 12,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 23,
+      "value": 2000000,
+      "contract": "2028-12-31",
+      "nat": "United States"
     },
     {
       "id": "599331",
@@ -1311,6 +2126,28 @@
       "nat": "Uruguay"
     },
     {
+      "id": "686449",
+      "name": "Emilio Lara",
+      "club": 0,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 24,
+      "value": 1800000,
+      "contract": null,
+      "nat": "Mexico"
+    },
+    {
+      "id": "286339",
+      "name": "Henry Martin",
+      "club": 0,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 33,
+      "value": 1800000,
+      "contract": "2027-06-30",
+      "nat": "Mexico"
+    },
+    {
       "id": "282927",
       "name": "Omar Govea",
       "club": 2,
@@ -1319,6 +2156,28 @@
       "age": 30,
       "value": 1800000,
       "contract": "2027-06-30",
+      "nat": "Mexico"
+    },
+    {
+      "id": "347577",
+      "name": "Ricardo Chávez",
+      "club": 5,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 31,
+      "value": 1800000,
+      "contract": "2027-12-31",
+      "nat": "Mexico"
+    },
+    {
+      "id": "371168",
+      "name": "Roberto de la Rosa",
+      "club": 5,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 26,
+      "value": 1800000,
+      "contract": null,
       "nat": "Mexico"
     },
     {
@@ -1476,6 +2335,83 @@
       "nat": "Argentina"
     },
     {
+      "id": "819874",
+      "name": "Fernando Tapia",
+      "club": 0,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 25,
+      "value": 1500000,
+      "contract": "2028-12-31",
+      "nat": "Mexico"
+    },
+    {
+      "id": "1019485",
+      "name": "Miguel Vázquez",
+      "club": 0,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 22,
+      "value": 1500000,
+      "contract": null,
+      "nat": "Mexico"
+    },
+    {
+      "id": "211397",
+      "name": "Miguel Borja",
+      "club": 0,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 33,
+      "value": 1500000,
+      "contract": "2027-06-30",
+      "nat": "Colombia"
+    },
+    {
+      "id": "1103745",
+      "name": "Jorge Rodarte",
+      "club": 1,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 22,
+      "value": 1500000,
+      "contract": null,
+      "nat": "Mexico"
+    },
+    {
+      "id": "690469",
+      "name": "Amaury García",
+      "club": 1,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 24,
+      "value": 1500000,
+      "contract": "2030-06-30",
+      "nat": "Mexico"
+    },
+    {
+      "id": "401932",
+      "name": "Christian Ebere",
+      "club": 1,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 28,
+      "value": 1500000,
+      "contract": "2028-12-31",
+      "nat": "Nigeria"
+    },
+    {
+      "id": "259930",
+      "name": "Gabriel Fernández",
+      "club": 1,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 32,
+      "value": 1500000,
+      "contract": "2026-12-31",
+      "nat": "Uruguay"
+    },
+    {
       "id": "325598",
       "name": "Víctor Guzmán",
       "club": 3,
@@ -1517,6 +2453,17 @@
       "age": 25,
       "value": 1500000,
       "contract": "2030-06-30",
+      "nat": "Mexico"
+    },
+    {
+      "id": "295373",
+      "name": "Érick Aguirre",
+      "club": 5,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 29,
+      "value": 1500000,
+      "contract": "2026-12-31",
       "nat": "Mexico"
     },
     {
@@ -1597,6 +2544,28 @@
       "nat": "Mexico"
     },
     {
+      "id": "1087365",
+      "name": "Emmanuel Echeverría",
+      "club": 10,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 23,
+      "value": 1500000,
+      "contract": null,
+      "nat": "Mexico"
+    },
+    {
+      "id": "311680",
+      "name": "Fran Villalba",
+      "club": 10,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 28,
+      "value": 1500000,
+      "contract": "2027-06-30",
+      "nat": "Spain"
+    },
+    {
       "id": "364058",
       "name": "Jesús Murillo",
       "club": 11,
@@ -1606,6 +2575,28 @@
       "value": 1500000,
       "contract": "2027-12-31",
       "nat": "Colombia"
+    },
+    {
+      "id": "1031802",
+      "name": "Juan Torres",
+      "club": 12,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 22,
+      "value": 1500000,
+      "contract": "2029-06-30",
+      "nat": "Colombia"
+    },
+    {
+      "id": "992527",
+      "name": "Matías Espíndola",
+      "club": 12,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 22,
+      "value": 1500000,
+      "contract": "2030-06-30",
+      "nat": "Argentina"
     },
     {
       "id": "129129",
@@ -1696,6 +2687,28 @@
       "nat": "Argentina"
     },
     {
+      "id": "1086869",
+      "name": "Bernardo Parra",
+      "club": 15,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 21,
+      "value": 1500000,
+      "contract": "2029-12-31",
+      "nat": "Mexico"
+    },
+    {
+      "id": "710679",
+      "name": "Iker Benito",
+      "club": 15,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 24,
+      "value": 1500000,
+      "contract": null,
+      "nat": "Spain"
+    },
+    {
       "id": "639390",
       "name": "Facundo Almada",
       "club": 16,
@@ -1738,6 +2751,17 @@
       "value": 1500000,
       "contract": null,
       "nat": "Ecuador"
+    },
+    {
+      "id": "356099",
+      "name": "Cristián Borja",
+      "club": 0,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 33,
+      "value": 1300000,
+      "contract": "2027-06-30",
+      "nat": "Colombia"
     },
     {
       "id": "401340",
@@ -1784,6 +2808,17 @@
       "nat": "Mexico"
     },
     {
+      "id": "125165",
+      "name": "Jesús Corona",
+      "club": 5,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 33,
+      "value": 1300000,
+      "contract": "2027-06-30",
+      "nat": "Mexico"
+    },
+    {
       "id": "408534",
       "name": "Cristian Calderón",
       "club": 7,
@@ -1815,6 +2850,17 @@
       "value": 1300000,
       "contract": "2028-12-31",
       "nat": "Colombia"
+    },
+    {
+      "id": "689230",
+      "name": "Lucas Abascia",
+      "club": 15,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 30,
+      "value": 1300000,
+      "contract": "2028-12-31",
+      "nat": "Argentina"
     },
     {
       "id": "555194",
@@ -1905,6 +2951,17 @@
       "nat": "Colombia"
     },
     {
+      "id": "886304",
+      "name": "Salvador Mariscal",
+      "club": 10,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 23,
+      "value": 1200000,
+      "contract": null,
+      "nat": "Mexico"
+    },
+    {
       "id": "371169",
       "name": "Haret Ortega",
       "club": 11,
@@ -1924,6 +2981,17 @@
       "age": 29,
       "value": 1200000,
       "contract": "2028-12-31",
+      "nat": "Mexico"
+    },
+    {
+      "id": "838928",
+      "name": "Emilio Martínez",
+      "club": 12,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 23,
+      "value": 1200000,
+      "contract": "2027-06-30",
       "nat": "Mexico"
     },
     {
@@ -1958,6 +3026,50 @@
       "value": 1200000,
       "contract": "2029-06-30",
       "nat": "Argentina"
+    },
+    {
+      "id": "690681",
+      "name": "José Raúl Zúñiga",
+      "club": 0,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 32,
+      "value": 1000000,
+      "contract": "2027-06-30",
+      "nat": "Colombia"
+    },
+    {
+      "id": "820227",
+      "name": "Ricardo Rodríguez",
+      "club": 1,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 25,
+      "value": 1000000,
+      "contract": null,
+      "nat": "Mexico"
+    },
+    {
+      "id": "723386",
+      "name": "Emmanuel Ochoa",
+      "club": 1,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 21,
+      "value": 1000000,
+      "contract": null,
+      "nat": "Mexico"
+    },
+    {
+      "id": "354330",
+      "name": "Juan Calero",
+      "club": 1,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 28,
+      "value": 1000000,
+      "contract": "2028-06-30",
+      "nat": "Colombia"
     },
     {
       "id": "274963",
@@ -2002,6 +3114,17 @@
       "value": 1000000,
       "contract": null,
       "nat": "Mexico"
+    },
+    {
+      "id": "190804",
+      "name": "Uros Djurdjevic",
+      "club": 5,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 32,
+      "value": 1000000,
+      "contract": "2028-06-30",
+      "nat": "Montenegro"
     },
     {
       "id": "175445",
@@ -2125,6 +3248,39 @@
       "nat": "Mexico"
     },
     {
+      "id": "370868",
+      "name": "Efraín Orona",
+      "club": 10,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 27,
+      "value": 1000000,
+      "contract": "2026-12-31",
+      "nat": "Mexico"
+    },
+    {
+      "id": "1066358",
+      "name": "Kevin Picón",
+      "club": 10,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 22,
+      "value": 1000000,
+      "contract": null,
+      "nat": "Mexico"
+    },
+    {
+      "id": "1193298",
+      "name": "Tahiel Jiménez",
+      "club": 10,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 20,
+      "value": 1000000,
+      "contract": null,
+      "nat": "Mexico"
+    },
+    {
       "id": "1235196",
       "name": "Eder López",
       "club": 11,
@@ -2180,6 +3336,72 @@
       "nat": "Mexico"
     },
     {
+      "id": "694156",
+      "name": "Raúl Martínez",
+      "club": 12,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 23,
+      "value": 1000000,
+      "contract": "2028-12-31",
+      "nat": "Mexico"
+    },
+    {
+      "id": "181706",
+      "name": "Lorenzo Faravelli",
+      "club": 12,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 33,
+      "value": 1000000,
+      "contract": "2026-12-31",
+      "nat": "Argentina"
+    },
+    {
+      "id": "630032",
+      "name": "Kevin Rosero",
+      "club": 12,
+      "pos": "PON",
+      "posName": "Right Midfield",
+      "age": 27,
+      "value": 1000000,
+      "contract": "2027-06-30",
+      "nat": "Colombia"
+    },
+    {
+      "id": "971631",
+      "name": "Mauro Zaleta",
+      "club": 12,
+      "pos": "PON",
+      "posName": "Left Midfield",
+      "age": 24,
+      "value": 1000000,
+      "contract": "2027-06-30",
+      "nat": "Mexico"
+    },
+    {
+      "id": "1094384",
+      "name": "Owen González",
+      "club": 12,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 23,
+      "value": 1000000,
+      "contract": "2027-06-30",
+      "nat": "Mexico"
+    },
+    {
+      "id": "1106878",
+      "name": "Juan Valencia",
+      "club": 12,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 22,
+      "value": 1000000,
+      "contract": null,
+      "nat": "Colombia"
+    },
+    {
       "id": "552960",
       "name": "Aldo Cruz",
       "club": 13,
@@ -2222,6 +3444,17 @@
       "value": 1000000,
       "contract": null,
       "nat": "Paraguay"
+    },
+    {
+      "id": "627287",
+      "name": "Carlo García",
+      "club": 15,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 25,
+      "value": 1000000,
+      "contract": "2029-06-30",
+      "nat": "Spain"
     },
     {
       "id": "597727",
@@ -2389,6 +3622,28 @@
       "nat": "Mexico"
     },
     {
+      "id": "256866",
+      "name": "Carlos Salcedo",
+      "club": 5,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 33,
+      "value": 800000,
+      "contract": "2027-12-31",
+      "nat": "Mexico"
+    },
+    {
+      "id": "131093",
+      "name": "Stefan Medina",
+      "club": 5,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 34,
+      "value": 800000,
+      "contract": "2027-12-31",
+      "nat": "Colombia"
+    },
+    {
       "id": "798507",
       "name": "Ángel Zapata",
       "club": 6,
@@ -2488,11 +3743,77 @@
       "nat": "Mexico"
     },
     {
+      "id": "1103940",
+      "name": "Felipe Sánchez",
+      "club": 10,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 22,
+      "value": 800000,
+      "contract": "2027-06-30",
+      "nat": "Argentina"
+    },
+    {
+      "id": "670800",
+      "name": "Mauricio Cuevas",
+      "club": 10,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 23,
+      "value": 800000,
+      "contract": "2029-06-30",
+      "nat": "United States"
+    },
+    {
+      "id": "906775",
+      "name": "Kevin Palacios",
+      "club": 10,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 26,
+      "value": 800000,
+      "contract": "2029-06-30",
+      "nat": "Colombia"
+    },
+    {
+      "id": "432225",
+      "name": "Diego Medina",
+      "club": 10,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 25,
+      "value": 800000,
+      "contract": null,
+      "nat": "Mexico"
+    },
+    {
       "id": "552948",
       "name": "Benjamín Galindo",
       "club": 13,
       "pos": "ZAG",
       "posName": "Centre-Back",
+      "age": 27,
+      "value": 800000,
+      "contract": null,
+      "nat": "Mexico"
+    },
+    {
+      "id": "875511",
+      "name": "Paulo Victor",
+      "club": 15,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 25,
+      "value": 800000,
+      "contract": "2030-06-30",
+      "nat": "Brazil"
+    },
+    {
+      "id": "370869",
+      "name": "Daniel Parra",
+      "club": 15,
+      "pos": "LE",
+      "posName": "Left-Back",
       "age": 27,
       "value": 800000,
       "contract": null,
@@ -2565,6 +3886,17 @@
       "nat": "Mexico"
     },
     {
+      "id": "243580",
+      "name": "José Abella",
+      "club": 10,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 32,
+      "value": 750000,
+      "contract": "2026-12-31",
+      "nat": "Mexico"
+    },
+    {
       "id": "234918",
       "name": "Rodolfo Pizarro",
       "club": 14,
@@ -2620,6 +3952,17 @@
       "nat": "Colombia"
     },
     {
+      "id": "971399",
+      "name": "Misael Pedroza",
+      "club": 12,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 23,
+      "value": 700000,
+      "contract": null,
+      "nat": "Mexico"
+    },
+    {
       "id": "950874",
       "name": "Heriberto Jurado",
       "club": 16,
@@ -2653,6 +3996,17 @@
       "nat": "Brazil"
     },
     {
+      "id": "668487",
+      "name": "Juan Robles",
+      "club": 15,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 23,
+      "value": 650000,
+      "contract": null,
+      "nat": "Mexico"
+    },
+    {
       "id": "955283",
       "name": "Ángel Rico",
       "club": 7,
@@ -2684,6 +4038,17 @@
       "value": 600000,
       "contract": null,
       "nat": "United States"
+    },
+    {
+      "id": "1053536",
+      "name": "Rogelio Cortéz",
+      "club": 12,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 22,
+      "value": 600000,
+      "contract": null,
+      "nat": "Mexico"
     },
     {
       "id": "654144",
@@ -2807,6 +4172,28 @@
       "nat": "Mexico"
     },
     {
+      "id": "1064285",
+      "name": "Francisco Méndez",
+      "club": 12,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 21,
+      "value": 500000,
+      "contract": "2026-12-31",
+      "nat": "Mexico"
+    },
+    {
+      "id": "508257",
+      "name": "Carlos Vargas",
+      "club": 12,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 27,
+      "value": 500000,
+      "contract": null,
+      "nat": "Mexico"
+    },
+    {
       "id": "920968",
       "name": "Ronaldo Nájera",
       "club": 13,
@@ -2816,6 +4203,28 @@
       "value": 500000,
       "contract": null,
       "nat": "Mexico"
+    },
+    {
+      "id": "131090",
+      "name": "Diego Reyes",
+      "club": 15,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 34,
+      "value": 500000,
+      "contract": null,
+      "nat": "Mexico"
+    },
+    {
+      "id": "1186946",
+      "name": "Bayron Duarte",
+      "club": 15,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 23,
+      "value": 500000,
+      "contract": "2028-12-31",
+      "nat": "Colombia"
     },
     {
       "id": "674500",
@@ -2928,6 +4337,28 @@
       "nat": "Mexico"
     },
     {
+      "id": "264133",
+      "name": "Luis Reyes",
+      "club": 5,
+      "pos": "LE",
+      "posName": "Left-Back",
+      "age": 35,
+      "value": 400000,
+      "contract": "2026-12-31",
+      "nat": "Mexico"
+    },
+    {
+      "id": "923204",
+      "name": "Javier Casillas",
+      "club": 5,
+      "pos": "LD",
+      "posName": "Right-Back",
+      "age": 25,
+      "value": 400000,
+      "contract": null,
+      "nat": "Mexico"
+    },
+    {
       "id": "74113",
       "name": "Camilo Vargas",
       "club": 8,
@@ -2958,6 +4389,28 @@
       "age": 35,
       "value": 400000,
       "contract": null,
+      "nat": "Mexico"
+    },
+    {
+      "id": "1064246",
+      "name": "Geovanni Pérez",
+      "club": 10,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 21,
+      "value": 400000,
+      "contract": null,
+      "nat": "Mexico"
+    },
+    {
+      "id": "164749",
+      "name": "Javier Güemez",
+      "club": 10,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 35,
+      "value": 400000,
+      "contract": "2026-12-31",
       "nat": "Mexico"
     },
     {
@@ -2994,6 +4447,39 @@
       "nat": "Uruguay"
     },
     {
+      "id": "432222",
+      "name": "Héctor Holguín",
+      "club": 10,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 25,
+      "value": 350000,
+      "contract": "2026-12-31",
+      "nat": "Mexico"
+    },
+    {
+      "id": "273638",
+      "name": "Pedro Aquino",
+      "club": 10,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 31,
+      "value": 350000,
+      "contract": "2027-12-31",
+      "nat": "Peru"
+    },
+    {
+      "id": "1127597",
+      "name": "Luis Gómez",
+      "club": 10,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 19,
+      "value": 350000,
+      "contract": null,
+      "nat": "Mexico"
+    },
+    {
       "id": "1127335",
       "name": "Lucas Romero",
       "club": 11,
@@ -3025,6 +4511,17 @@
       "value": 350000,
       "contract": "2029-12-31",
       "nat": "Venezuela"
+    },
+    {
+      "id": "792335",
+      "name": "Érik Dueñas",
+      "club": 15,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 22,
+      "value": 350000,
+      "contract": null,
+      "nat": "Mexico"
     },
     {
       "id": "480892",
@@ -3099,6 +4596,17 @@
       "pos": "GOL",
       "posName": "Goalkeeper",
       "age": 32,
+      "value": 300000,
+      "contract": null,
+      "nat": "Mexico"
+    },
+    {
+      "id": "401349",
+      "name": "José Hernández",
+      "club": 15,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 29,
       "value": 300000,
       "contract": null,
       "nat": "Mexico"
@@ -3181,6 +4689,17 @@
       "nat": "United States"
     },
     {
+      "id": "234242",
+      "name": "Carlos Villanueva",
+      "club": 15,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 32,
+      "value": 250000,
+      "contract": null,
+      "nat": "Mexico"
+    },
+    {
       "id": "784509",
       "name": "Óscar Villa",
       "club": 16,
@@ -3236,6 +4755,17 @@
       "nat": "Mexico"
     },
     {
+      "id": "280379",
+      "name": "Luis Cárdenas",
+      "club": 5,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 33,
+      "value": 200000,
+      "contract": "2028-06-30",
+      "nat": "Mexico"
+    },
+    {
       "id": "858660",
       "name": "José Eulogio",
       "club": 14,
@@ -3244,6 +4774,39 @@
       "age": 22,
       "value": 200000,
       "contract": "2030-06-30",
+      "nat": "Mexico"
+    },
+    {
+      "id": "1055320",
+      "name": "Waldo Madrid",
+      "club": 15,
+      "pos": "PON",
+      "posName": "Right Winger",
+      "age": 23,
+      "value": 200000,
+      "contract": "2026-12-31",
+      "nat": "Mexico"
+    },
+    {
+      "id": "71401",
+      "name": "Rodolfo Cota",
+      "club": 0,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 39,
+      "value": 180000,
+      "contract": "2027-06-30",
+      "nat": "Mexico"
+    },
+    {
+      "id": "905089",
+      "name": "Raymundo Rubio",
+      "club": 1,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 25,
+      "value": 175000,
+      "contract": null,
       "nat": "Mexico"
     },
     {
@@ -3256,6 +4819,83 @@
       "value": 175000,
       "contract": "2027-06-30",
       "nat": "Argentina"
+    },
+    {
+      "id": "1097734",
+      "name": "Denilson Muñoz",
+      "club": 15,
+      "pos": "PON",
+      "posName": "Left Winger",
+      "age": 22,
+      "value": 175000,
+      "contract": null,
+      "nat": "Mexico"
+    },
+    {
+      "id": "1051694",
+      "name": "Fernando Sámano",
+      "club": 1,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 24,
+      "value": 150000,
+      "contract": null,
+      "nat": "Mexico"
+    },
+    {
+      "id": "105888",
+      "name": "Esteban Andrada",
+      "club": 5,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 35,
+      "value": 150000,
+      "contract": "2027-06-30",
+      "nat": "Argentina"
+    },
+    {
+      "id": "540306",
+      "name": "César Ramos",
+      "club": 5,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 26,
+      "value": 150000,
+      "contract": "2028-06-30",
+      "nat": "Mexico"
+    },
+    {
+      "id": "1026933",
+      "name": "Christopher Andrade",
+      "club": 12,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 25,
+      "value": 150000,
+      "contract": "2027-06-30",
+      "nat": "Mexico"
+    },
+    {
+      "id": "838925",
+      "name": "Álex Alcalá",
+      "club": 15,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 21,
+      "value": 150000,
+      "contract": null,
+      "nat": "Mexico"
+    },
+    {
+      "id": "1244463",
+      "name": "Mono Martínez",
+      "club": 15,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 16,
+      "value": 150000,
+      "contract": null,
+      "nat": "Mexico"
     },
     {
       "id": "1004726",
@@ -3277,6 +4917,17 @@
       "age": 21,
       "value": 150000,
       "contract": null,
+      "nat": "Mexico"
+    },
+    {
+      "id": "881350",
+      "name": "Cristian Jiménez",
+      "club": 1,
+      "pos": "VOL",
+      "posName": "Defensive Midfield",
+      "age": 24,
+      "value": 100000,
+      "contract": "2027-06-30",
       "nat": "Mexico"
     },
     {
@@ -3302,12 +4953,34 @@
       "nat": "United States"
     },
     {
+      "id": "944086",
+      "name": "César Bustos",
+      "club": 5,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 21,
+      "value": 100000,
+      "contract": "2029-06-30",
+      "nat": "Mexico"
+    },
+    {
       "id": "988440",
       "name": "Abraham Villegas",
       "club": 9,
       "pos": "LE",
       "posName": "Left-Back",
       "age": 23,
+      "value": 100000,
+      "contract": null,
+      "nat": "Mexico"
+    },
+    {
+      "id": "959194",
+      "name": "Joshua Mancha",
+      "club": 10,
+      "pos": "MEI",
+      "posName": "Attacking Midfield",
+      "age": 22,
       "value": 100000,
       "contract": null,
       "nat": "Mexico"
@@ -3344,6 +5017,17 @@
       "value": 100000,
       "contract": null,
       "nat": "Lebanon"
+    },
+    {
+      "id": "73523",
+      "name": "Guillermo Allison",
+      "club": 15,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 36,
+      "value": 100000,
+      "contract": null,
+      "nat": "Mexico"
     },
     {
       "id": "1174453",
@@ -3390,6 +5074,28 @@
       "nat": "Canada"
     },
     {
+      "id": "1091807",
+      "name": "Luis Jiménez",
+      "club": 12,
+      "pos": "GOL",
+      "posName": "Goalkeeper",
+      "age": 22,
+      "value": 75000,
+      "contract": "2031-06-30",
+      "nat": "Mexico"
+    },
+    {
+      "id": "955298",
+      "name": "Diego Ochoa",
+      "club": 12,
+      "pos": "ZAG",
+      "posName": "Centre-Back",
+      "age": 21,
+      "value": 75000,
+      "contract": null,
+      "nat": "Mexico"
+    },
+    {
       "id": "993723",
       "name": "Ronaldo Beltrán",
       "club": 3,
@@ -3409,6 +5115,17 @@
       "age": 22,
       "value": 50000,
       "contract": "2029-06-30",
+      "nat": "Mexico"
+    },
+    {
+      "id": "291262",
+      "name": "Eduardo Pérez",
+      "club": 15,
+      "pos": "ATA",
+      "posName": "Centre-Forward",
+      "age": 33,
+      "value": 50000,
+      "contract": "2026-12-31",
       "nat": "Mexico"
     },
     {
@@ -3478,6 +5195,17 @@
       "nat": "Mexico"
     },
     {
+      "id": "1015089",
+      "name": "Sebastián Rodríguez",
+      "club": 5,
+      "pos": "MEI",
+      "posName": "Central Midfield",
+      "age": 19,
+      "value": 25000,
+      "contract": "2026-12-31",
+      "nat": "Mexico"
+    },
+    {
       "id": "1094395",
       "name": "Luis Valadez",
       "club": 9,
@@ -3511,684 +5239,12 @@
       "nat": "Mexico"
     },
     {
-      "id": "423619",
-      "name": "Luis Malagón",
-      "club": 0,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "819874",
-      "name": "Fernando Tapia",
-      "club": 0,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "71401",
-      "name": "Rodolfo Cota",
-      "club": 0,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
       "id": "1091755",
       "name": "César Lugo",
       "club": 0,
       "pos": "GOL",
       "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "688593",
-      "name": "Santiago Ramos Mingo",
-      "club": 0,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "438001",
-      "name": "Santiago Bueno",
-      "club": 0,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "687558",
-      "name": "Israel Reyes",
-      "club": 0,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "699797",
-      "name": "Ramón Juárez",
-      "club": 0,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "1019485",
-      "name": "Miguel Vázquez",
-      "club": 0,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "1100594",
-      "name": "Franco Rossano",
-      "club": 0,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "356099",
-      "name": "Cristián Borja",
-      "club": 0,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "959193",
-      "name": "Dagoberto Espinoza",
-      "club": 0,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "572705",
-      "name": "Kevin Álvarez",
-      "club": 0,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "686449",
-      "name": "Emilio Lara",
-      "club": 0,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "400173",
-      "name": "Alan Cervantes",
-      "club": 0,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "652470",
-      "name": "Edwin Cerrillo",
-      "club": 0,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "United States"
-    },
-    {
-      "id": "1223877",
-      "name": "Ícaro da Conceição",
-      "club": 0,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "370875",
-      "name": "Érick Sánchez",
-      "club": 0,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "668179",
-      "name": "Carlos Álvarez",
-      "club": 0,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Spain"
-    },
-    {
-      "id": "432953",
-      "name": "Raphael Veiga",
-      "club": 0,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil",
-      "loanFrom": "Sociedade Esportiva Palmeiras"
-    },
-    {
-      "id": "371171",
-      "name": "Alexis Gutiérrez",
-      "club": 0,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "1095597",
-      "name": "Diego Arriaga",
-      "club": 0,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "465818",
-      "name": "Brian Rodríguez",
-      "club": 0,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "1015624",
-      "name": "Óscar Perea",
-      "club": 0,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "351505",
-      "name": "Álex Zendejas",
-      "club": 0,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "United States"
-    },
-    {
-      "id": "668496",
-      "name": "Isaías Violante",
-      "club": 0,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "366143",
-      "name": "Víctor Dávila",
-      "club": 0,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Chile"
-    },
-    {
-      "id": "286339",
-      "name": "Henry Martin",
-      "club": 0,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "211397",
-      "name": "Miguel Borja",
-      "club": 0,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "690681",
-      "name": "José Raúl Zúñiga",
-      "club": 0,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "1232584",
-      "name": "Alejandro Cárdenas",
-      "club": 0,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "491542",
-      "name": "Kevin Mier",
-      "club": 1,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "421920",
-      "name": "Andrés Gudiño",
-      "club": 1,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "820227",
-      "name": "Ricardo Rodríguez",
-      "club": 1,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "723386",
-      "name": "Emmanuel Ochoa",
-      "club": 1,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "609255",
-      "name": "Willer Ditta",
-      "club": 1,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "915155",
-      "name": "Jesús Orozco Chiquete",
-      "club": 1,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "796063",
-      "name": "Alán Montes",
-      "club": 1,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "284120",
-      "name": "Gonzalo Piovi",
-      "club": 1,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "1103745",
-      "name": "Jorge Rodarte",
-      "club": 1,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "905089",
-      "name": "Raymundo Rubio",
-      "club": 1,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "854454",
-      "name": "Omar Campos",
-      "club": 1,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "1041475",
-      "name": "Ralph Orquin",
-      "club": 1,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "397003",
-      "name": "Alan Mozo",
-      "club": 1,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "602324",
-      "name": "Érik Lira",
-      "club": 1,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "690469",
-      "name": "Amaury García",
-      "club": 1,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "881350",
-      "name": "Cristian Jiménez",
-      "club": 1,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "737125",
-      "name": "Jeremy Márquez",
-      "club": 1,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "534620",
-      "name": "Carlos Rodríguez",
-      "club": 1,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "610590",
-      "name": "Agustín Palavecino",
-      "club": 1,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "639152",
-      "name": "José Paradela",
-      "club": 1,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "769063",
-      "name": "Luka Romero",
-      "club": 1,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "993722",
-      "name": "Andrés Montaño",
-      "club": 1,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "1051694",
-      "name": "Fernando Sámano",
-      "club": 1,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "553422",
-      "name": "Carlos Rotondi",
-      "club": 1,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "1118326",
-      "name": "Amaury Morales",
-      "club": 1,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "1233182",
-      "name": "Rogelio González",
-      "club": 1,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "267753",
-      "name": "Nicolás Ibáñez",
-      "club": 1,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "401932",
-      "name": "Christian Ebere",
-      "club": 1,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Nigeria"
-    },
-    {
-      "id": "259930",
-      "name": "Gabriel Fernández",
-      "club": 1,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "354330",
-      "name": "Juan Calero",
-      "club": 1,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "1154123",
-      "name": "Mateo Levy",
-      "club": 1,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
+      "age": 23,
       "value": null,
       "contract": null,
       "nat": "Mexico"
@@ -4199,7 +5255,7 @@
       "club": 1,
       "pos": "ATA",
       "posName": "Centre-Forward",
-      "age": null,
+      "age": 24,
       "value": null,
       "contract": null,
       "nat": "Mexico"
@@ -4216,639 +5272,12 @@
       "nat": "Mexico"
     },
     {
-      "id": "280379",
-      "name": "Luis Cárdenas",
-      "club": 5,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "105888",
-      "name": "Esteban Andrada",
-      "club": 5,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "540306",
-      "name": "César Ramos",
-      "club": 5,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "686444",
-      "name": "Víctor Guzmán",
-      "club": 5,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "256866",
-      "name": "Carlos Salcedo",
-      "club": 5,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "944086",
-      "name": "César Bustos",
-      "club": 5,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "469718",
-      "name": "Gerardo Arteaga",
-      "club": 5,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "833268",
-      "name": "Alonso Aceves",
-      "club": 5,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "264133",
-      "name": "Luis Reyes",
-      "club": 5,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "347577",
-      "name": "Ricardo Chávez",
-      "club": 5,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "295373",
-      "name": "Érick Aguirre",
-      "club": 5,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "131093",
-      "name": "Stefan Medina",
-      "club": 5,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "923204",
-      "name": "Javier Casillas",
-      "club": 5,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "723240",
-      "name": "Fidel Ambríz",
-      "club": 5,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "1171460",
-      "name": "César Garza",
-      "club": 5,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "333760",
-      "name": "Jorge Rodríguez",
-      "club": 5,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "334042",
-      "name": "Orbelín Pineda",
-      "club": 5,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "1095326",
-      "name": "Iker Fimbres",
-      "club": 5,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "214775",
-      "name": "Óliver Torres",
-      "club": 5,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Spain"
-    },
-    {
-      "id": "1015089",
-      "name": "Sebastián Rodríguez",
-      "club": 5,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "1427169",
-      "name": "Paxon Ruffin",
-      "club": 5,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "United States"
-    },
-    {
-      "id": "189441",
-      "name": "Lucas Ocampos",
-      "club": 5,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "636784",
-      "name": "Luca Orellano",
-      "club": 5,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "125165",
-      "name": "Jesús Corona",
-      "club": 5,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "420884",
-      "name": "Hugo Cuypers",
-      "club": 5,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Belgium"
-    },
-    {
-      "id": "317454",
-      "name": "Diego Rossi",
-      "club": 5,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "371168",
-      "name": "Roberto de la Rosa",
-      "club": 5,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "190804",
-      "name": "Uros Djurdjevic",
-      "club": 5,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Montenegro"
-    },
-    {
       "id": "1091871",
       "name": "Miguel Paul",
       "club": 7,
       "pos": "GOL",
       "posName": "Goalkeeper",
       "age": 23,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "356042",
-      "name": "Carlos Acevedo",
-      "club": 10,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "432222",
-      "name": "Héctor Holguín",
-      "club": 10,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "644676",
-      "name": "Bruno Amione",
-      "club": 10,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "720716",
-      "name": "Franco Pardo",
-      "club": 10,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "370868",
-      "name": "Efraín Orona",
-      "club": 10,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "1103940",
-      "name": "Felipe Sánchez",
-      "club": 10,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "1064246",
-      "name": "Geovanni Pérez",
-      "club": 10,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "1087365",
-      "name": "Emmanuel Echeverría",
-      "club": 10,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "1066358",
-      "name": "Kevin Picón",
-      "club": 10,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "670800",
-      "name": "Mauricio Cuevas",
-      "club": 10,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "United States"
-    },
-    {
-      "id": "243580",
-      "name": "José Abella",
-      "club": 10,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "690024",
-      "name": "Aldo López",
-      "club": 10,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "886304",
-      "name": "Salvador Mariscal",
-      "club": 10,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "164749",
-      "name": "Javier Güemez",
-      "club": 10,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "273638",
-      "name": "Pedro Aquino",
-      "club": 10,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Peru"
-    },
-    {
-      "id": "829434",
-      "name": "Facundo Cáseres",
-      "club": 10,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "1243357",
-      "name": "Nelson Cedillo",
-      "club": 10,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "627068",
-      "name": "Ezequiel Bullaude",
-      "club": 10,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "311680",
-      "name": "Fran Villalba",
-      "club": 10,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Spain"
-    },
-    {
-      "id": "1127597",
-      "name": "Luis Gómez",
-      "club": 10,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "959194",
-      "name": "Joshua Mancha",
-      "club": 10,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "906775",
-      "name": "Kevin Palacios",
-      "club": 10,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "873981",
-      "name": "Diego González",
-      "club": 10,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Paraguay"
-    },
-    {
-      "id": "830112",
-      "name": "Ramiro Sordo",
-      "club": 10,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "432225",
-      "name": "Diego Medina",
-      "club": 10,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "439108",
-      "name": "Lucas Di Yorio",
-      "club": 10,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "400171",
-      "name": "Eduardo Aguirre",
-      "club": 10,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "797702",
-      "name": "Esteban Lozano",
-      "club": 10,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "1193298",
-      "name": "Tahiel Jiménez",
-      "club": 10,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
       "value": null,
       "contract": null,
       "nat": "Mexico"
@@ -4865,551 +5294,12 @@
       "nat": "Spain"
     },
     {
-      "id": "955312",
-      "name": "Javier Orantes",
-      "club": 12,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "1026933",
-      "name": "Christopher Andrade",
-      "club": 12,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "1091807",
-      "name": "Luis Jiménez",
-      "club": 12,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "964591",
-      "name": "Naves",
-      "club": 12,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "589363",
-      "name": "Agustín Oliveros",
-      "club": 12,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "397680",
-      "name": "Alexis Peña",
-      "club": 12,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "694156",
-      "name": "Raúl Martínez",
-      "club": 12,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "1064285",
-      "name": "Francisco Méndez",
-      "club": 12,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "955298",
-      "name": "Diego Ochoa",
-      "club": 12,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "508257",
-      "name": "Carlos Vargas",
-      "club": 12,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "838928",
-      "name": "Emilio Martínez",
-      "club": 12,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "704868",
-      "name": "Pedro Pedraza",
-      "club": 12,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "623444",
-      "name": "Danny Leyva",
-      "club": 12,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "United States"
-    },
-    {
-      "id": "181706",
-      "name": "Lorenzo Faravelli",
-      "club": 12,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "630032",
-      "name": "Kevin Rosero",
-      "club": 12,
-      "pos": "PON",
-      "posName": "Right Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "971631",
-      "name": "Mauro Zaleta",
-      "club": 12,
-      "pos": "PON",
-      "posName": "Left Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "1160106",
-      "name": "Javier Ruiz",
-      "club": 12,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "1031802",
-      "name": "Juan Torres",
-      "club": 12,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "992527",
-      "name": "Matías Espíndola",
-      "club": 12,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "1105436",
-      "name": "Israel Tello",
-      "club": 12,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "1053536",
-      "name": "Rogelio Cortéz",
-      "club": 12,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "1087262",
-      "name": "Emilio Rodríguez",
-      "club": 12,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "1094384",
-      "name": "Owen González",
-      "club": 12,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "491707",
-      "name": "Julián Carranza",
-      "club": 12,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "1106878",
-      "name": "Juan Valencia",
-      "club": 12,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "971399",
-      "name": "Misael Pedroza",
-      "club": 12,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "401349",
-      "name": "José Hernández",
-      "club": 15,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "73523",
-      "name": "Guillermo Allison",
-      "club": 15,
-      "pos": "GOL",
-      "posName": "Goalkeeper",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "689230",
-      "name": "Lucas Abascia",
-      "club": 15,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "131090",
-      "name": "Diego Reyes",
-      "club": 15,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "234242",
-      "name": "Carlos Villanueva",
-      "club": 15,
-      "pos": "ZAG",
-      "posName": "Centre-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "875511",
-      "name": "Paulo Victor",
-      "club": 15,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Brazil"
-    },
-    {
-      "id": "370869",
-      "name": "Daniel Parra",
-      "club": 15,
-      "pos": "LE",
-      "posName": "Left-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "1186946",
-      "name": "Bayron Duarte",
-      "club": 15,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Colombia"
-    },
-    {
-      "id": "1364024",
-      "name": "Sergio Garcia Brothers",
-      "club": 15,
-      "pos": "LD",
-      "posName": "Right-Back",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "895679",
-      "name": "Santiago Homenchenko",
-      "club": 15,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Uruguay"
-    },
-    {
-      "id": "1086869",
-      "name": "Bernardo Parra",
-      "club": 15,
-      "pos": "VOL",
-      "posName": "Defensive Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "627287",
-      "name": "Carlo García",
-      "club": 15,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Spain"
-    },
-    {
-      "id": "792335",
-      "name": "Érik Dueñas",
-      "club": 15,
-      "pos": "MEI",
-      "posName": "Central Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "838925",
-      "name": "Álex Alcalá",
-      "club": 15,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "1244463",
-      "name": "Mono Martínez",
-      "club": 15,
-      "pos": "MEI",
-      "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
       "id": "1182550",
       "name": "Jesús Arellano",
       "club": 15,
       "pos": "MEI",
       "posName": "Attacking Midfield",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "668487",
-      "name": "Juan Robles",
-      "club": 15,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "1097734",
-      "name": "Denilson Muñoz",
-      "club": 15,
-      "pos": "PON",
-      "posName": "Left Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "569088",
-      "name": "Enzo Giménez",
-      "club": 15,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Paraguay"
-    },
-    {
-      "id": "710679",
-      "name": "Iker Benito",
-      "club": 15,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Spain"
-    },
-    {
-      "id": "1055320",
-      "name": "Waldo Madrid",
-      "club": 15,
-      "pos": "PON",
-      "posName": "Right Winger",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "704557",
-      "name": "Alí Ávila",
-      "club": 15,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Mexico"
-    },
-    {
-      "id": "685179",
-      "name": "Mateo Coronel",
-      "club": 15,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
-      "value": null,
-      "contract": null,
-      "nat": "Argentina"
-    },
-    {
-      "id": "291262",
-      "name": "Eduardo Pérez",
-      "club": 15,
-      "pos": "ATA",
-      "posName": "Centre-Forward",
-      "age": null,
+      "age": 21,
       "value": null,
       "contract": null,
       "nat": "Mexico"
