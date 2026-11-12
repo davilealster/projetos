@@ -147,6 +147,40 @@ interface CarouselProps {
   trackRef: React.RefObject<HTMLDivElement>;
 }
 
+/**
+ * Roda do mouse sobre os cartões: rolar para baixo passa para o próximo cartão; no último,
+ * vai para o setor de baixo. Rolar para cima volta; no primeiro, a página rola normalmente.
+ */
+function useWheelCarousel(trackRef: React.RefObject<HTMLDivElement>, count: number, indexRef: React.MutableRefObject<number>, onEnd: () => void) {
+  const endRef = useRef(onEnd);
+  endRef.current = onEnd;
+  useEffect(() => {
+    const el = trackRef.current;
+    if (!el) return;
+    let lock = 0;
+    let acc = 0;
+    const onWheel = (e: WheelEvent) => {
+      if (e.ctrlKey || Math.abs(e.deltaX) > Math.abs(e.deltaY)) return; // gesto horizontal: deixa o navegador rolar
+      const down = e.deltaY > 0;
+      const i = indexRef.current;
+      if (!down && i <= 0) return; // no primeiro cartão, rolar para cima sobe a página
+      e.preventDefault();
+      const now = Date.now();
+      if (now < lock) return;
+      acc += e.deltaY;
+      if (Math.abs(acc) < 30) return; // ignora toques mínimos do trackpad
+      acc = 0;
+      lock = now + 420;
+      if (down && i >= count - 1) {
+        lock = now + 900;
+        endRef.current();
+      } else scrollToCard(el, i + (down ? 1 : -1));
+    };
+    el.addEventListener("wheel", onWheel, { passive: false });
+    return () => el.removeEventListener("wheel", onWheel);
+  }, [trackRef, count, indexRef]);
+}
+
 function Track({ count, label, children, onIndex, trackRef }: CarouselProps) {
   const raf = useRef(0);
   const onScroll = () => {
@@ -172,6 +206,30 @@ function scrollToCard(track: HTMLDivElement | null, i: number) {
   if (!track || !card) return;
   const left = card.offsetLeft - (track.clientWidth - card.offsetWidth) / 2;
   track.scrollTo({ left, behavior: reduced() ? "auto" : "smooth" });
+}
+
+/** Setas laterais (computador): anterior/próximo; no último cartão, a seta aponta para baixo (próximo setor). */
+function Arrows({ index, count, onGo, onNext, nextName }: { index: number; count: number; onGo: (i: number) => void; onNext: (() => void) | null; nextName: string | null }) {
+  const last = index >= count - 1;
+  return (
+    <>
+      {index > 0 && (
+        <button className="pv-arrow pv-arrow--prev" onClick={() => onGo(index - 1)} aria-label="Cartão anterior">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" /></svg>
+        </button>
+      )}
+      {!last ? (
+        <button className="pv-arrow pv-arrow--next" onClick={() => onGo(index + 1)} aria-label="Próximo cartão">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" /></svg>
+        </button>
+      ) : onNext ? (
+        <button className="pv-arrow pv-arrow--next pv-arrow--down" onClick={onNext} aria-label={nextName ? `Ir para ${nextName}` : "Próximo setor"}>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 9l7 7 7-7" /></svg>
+          {nextName && <span>{nextName}</span>}
+        </button>
+      ) : null}
+    </>
+  );
 }
 
 function Dots({ count, index, done, onPick }: { count: number; index: number; done: boolean[]; onPick: (i: number) => void }) {
@@ -332,11 +390,15 @@ function CoachSector({ coach, st, setSt }: Pick<PitchViewProps, "coach" | "st" |
 
 // ---------- setor de jogadores ----------
 
-function Sector({ def, n, players, st, cutoff, setDecision, onSectorDone }: {
+function Sector({ def, n, players, st, cutoff, setDecision, onSectorDone, onNext, nextName }: {
   def: SectorDef; n: number; players: SquadPlayer[]; st: MarketState; cutoff: string; setDecision: PitchViewProps["setDecision"]; onSectorDone: () => void;
+  onNext: () => void; nextName: string | null;
 }) {
   const [index, setIndex] = useState(0);
   const trackRef = useRef<HTMLDivElement>(null);
+  const indexRef = useRef(0);
+  indexRef.current = index;
+  useWheelCarousel(trackRef, players.length, indexRef, onNext);
   const stRef = useRef(st);
   stRef.current = st;
   const timer = useRef<number>();
@@ -363,6 +425,7 @@ function Sector({ def, n, players, st, cutoff, setDecision, onSectorDone }: {
             <PlayerCard key={p.id} p={p} st={st} cutoff={cutoff} setDecision={setDecision} active={i === index} onChose={(a) => choose(i, p, a)} />
           ))}
         </Track>
+        <Arrows index={index} count={players.length} onGo={(i) => scrollToCard(trackRef.current, i)} onNext={onNext} nextName={nextName} />
         <Dots count={players.length} index={index} done={done} onPick={(i) => scrollToCard(trackRef.current, i)} />
       </div>
     </>
@@ -404,6 +467,7 @@ export function PitchView({ squad, coach, st, setSt, setDecision, cutoff, colors
 
   const order: SectorId[] = [...groups.map((g) => g.def.id), "FIM"];
   const next = (id: SectorId) => order[order.indexOf(id) + 1] ?? "FIM";
+  const nameOf = (id: SectorId) => (id === "FIM" ? "Resumo" : SECTORS.find((x) => x.id === id)?.name ?? null);
 
   const sectorOk = (players: SquadPlayer[]) => players.every((p) => !!st.decisions[p.id] || !isEnding(p, cutoff));
   const cam = active === "FIM" ? END : SECTORS.find((s) => s.id === active) ?? SECTORS[0];
@@ -448,10 +512,13 @@ export function PitchView({ squad, coach, st, setSt, setDecision, cutoff, colors
           {g.def.id === "TEC" ? (
             <>
               <SectorHead n={1} name="Técnico" index={0} count={1} decided={1} />
-              <div className="pv-stage"><CoachSector coach={coach} st={st} setSt={setSt} /></div>
+              <div className="pv-stage">
+                <CoachSector coach={coach} st={st} setSt={setSt} />
+                <Arrows index={0} count={1} onGo={() => {}} onNext={() => jump(next("TEC"))} nextName={nameOf(next("TEC"))} />
+              </div>
             </>
           ) : (
-            <Sector def={g.def} n={i + 1} players={g.players} st={st} cutoff={cutoff} setDecision={setDecision} onSectorDone={() => window.setTimeout(() => jump(next(g.def.id)), 250)} />
+            <Sector def={g.def} n={i + 1} players={g.players} st={st} cutoff={cutoff} setDecision={setDecision} onSectorDone={() => window.setTimeout(() => jump(next(g.def.id)), 250)} onNext={() => jump(next(g.def.id))} nextName={nameOf(next(g.def.id))} />
           )}
         </section>
       ))}

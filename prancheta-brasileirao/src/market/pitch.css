@@ -291,3 +291,34 @@ button.pv-stamp:hover { opacity: 0.8; }
 .pv-photo::after { background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.06)); }
 .pv-num { color: var(--ink); text-shadow: none; opacity: 0.85; }
 .pv-face--ini { color: rgba(29, 27, 22, 0.55); text-shadow: none; }
+
+/* setas laterais: só com mouse (computador); no celular o gesto de arrastar já resolve */
+.pv-stage { position: relative; }
+.pv-arrow { display: none; }
+@media (hover: hover) and (pointer: fine) {
+  .pv-arrow {
+    position: absolute; top: calc(50% - 14px); z-index: 4; transform: translateY(-50%);
+    display: inline-flex; align-items: center; gap: 6px; height: 52px; min-width: 52px; padding: 0 14px; justify-content: center;
+    border-radius: 999px; border: 1px solid rgba(239, 230, 210, 0.28); cursor: pointer;
+    background: rgba(10, 31, 26, 0.82); color: var(--cream); backdrop-filter: blur(6px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35); transition: background 0.15s, transform 0.15s;
+  }
+  .pv-arrow:hover { background: var(--brass); color: var(--ink); border-color: var(--brass); }
+  .pv-arrow:active { transform: translateY(-50%) scale(0.94); }
+  .pv-arrow svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 2.6; stroke-linecap: round; stroke-linejoin: round; }
+  .pv-arrow--prev { left: -70px; }
+  .pv-arrow--next { right: -70px; }
+  /* fim da fila: seta para baixo, em latão, com o nome do próximo setor */
+  .pv-arrow--down { right: auto; left: calc(100% + 18px); background: var(--brass); color: var(--ink); border-color: var(--brass); animation: pv-nudge 1.6s ease-in-out infinite; }
+  .pv-arrow--down span { font-family: var(--f-display); font-weight: 800; font-size: 16px; letter-spacing: 0.03em; text-transform: uppercase; white-space: nowrap; }
+  .pv-arrow--down:hover { background: #ecc973; }
+}
+/* janelas estreitas de computador: setas por dentro do cartão */
+@media (hover: hover) and (pointer: fine) and (max-width: 760px) {
+  .pv-arrow--prev { left: 6px; }
+  .pv-arrow--next { right: 6px; }
+  .pv-arrow--down { left: auto; right: 6px; }
+  .pv-arrow--down span { display: none; }
+}
+@keyframes pv-nudge { 0%, 100% { translate: 0 0; } 50% { translate: 0 5px; } }
+@media (prefers-reduced-motion: reduce) { .pv-arrow--down { animation: none; } }
