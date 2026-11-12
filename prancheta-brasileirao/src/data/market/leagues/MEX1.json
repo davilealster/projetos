@@ -86,7 +86,9 @@
       "age": 18,
       "value": 25000000,
       "contract": "2029-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1155723-1751873501.jpg"
     },
     {
       "id": "668179",
@@ -97,7 +99,9 @@
       "age": 23,
       "value": 15000000,
       "contract": null,
-      "nat": "Spain"
+      "nat": "Espanha",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/668179-1726053882.jpg"
     },
     {
       "id": "602324",
@@ -108,7 +112,9 @@
       "age": 26,
       "value": 14000000,
       "contract": "2029-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/602324-1751873784.jpg"
     },
     {
       "id": "688593",
@@ -119,7 +125,9 @@
       "age": 24,
       "value": 12000000,
       "contract": null,
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/688593-1746577939.jpg"
     },
     {
       "id": "465818",
@@ -130,7 +138,9 @@
       "age": 26,
       "value": 12000000,
       "contract": "2030-06-30",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/465818-1646496779.jpg"
     },
     {
       "id": "353583",
@@ -141,7 +151,9 @@
       "age": 28,
       "value": 12000000,
       "contract": "2029-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/353583-1668454179.jpg"
     },
     {
       "id": "438001",
@@ -152,7 +164,9 @@
       "age": 28,
       "value": 10000000,
       "contract": "2027-06-30",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/438001-1738823992.jpg"
     },
     {
       "id": "420884",
@@ -163,7 +177,9 @@
       "age": 29,
       "value": 10000000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/420884-1771695761.jpg"
     },
     {
       "id": "351505",
@@ -174,7 +190,9 @@
       "age": 28,
       "value": 9000000,
       "contract": "2027-06-30",
-      "nat": "United States"
+      "nat": "Estados Unidos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/351505-1735980931.jpg"
     },
     {
       "id": "639152",
@@ -185,7 +203,9 @@
       "age": 27,
       "value": 9000000,
       "contract": "2029-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/639152-1625771604.png"
     },
     {
       "id": "466268",
@@ -196,7 +216,9 @@
       "age": 29,
       "value": 9000000,
       "contract": "2029-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/466268-1698780385.jpeg"
     },
     {
       "id": "597728",
@@ -207,7 +229,9 @@
       "age": 26,
       "value": 8500000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/597728-1751873527.jpg"
     },
     {
       "id": "802855",
@@ -218,7 +242,9 @@
       "age": 26,
       "value": 8000000,
       "contract": "2028-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/802855-1751874010.jpg"
     },
     {
       "id": "424689",
@@ -229,7 +255,9 @@
       "age": 28,
       "value": 8000000,
       "contract": "2028-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/424689-1666538728.jpg"
     },
     {
       "id": "578419",
@@ -240,7 +268,9 @@
       "age": 28,
       "value": 8000000,
       "contract": "2030-06-30",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/578419-1763542136.jpg"
     },
     {
       "id": "1125592",
@@ -251,7 +281,9 @@
       "age": 21,
       "value": 8000000,
       "contract": "2030-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1125592-1696344955.jpeg"
     },
     {
       "id": "704556",
@@ -262,7 +294,9 @@
       "age": 23,
       "value": 7500000,
       "contract": "2029-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/704556-1572342247.png"
     },
     {
       "id": "636784",
@@ -273,7 +307,9 @@
       "age": 26,
       "value": 7500000,
       "contract": "2030-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/636784-1741201039.jpg"
     },
     {
       "id": "317454",
@@ -284,7 +320,9 @@
       "age": 28,
       "value": 7500000,
       "contract": "2029-06-30",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/317454-1771600111.jpg"
     },
     {
       "id": "491542",
@@ -295,7 +333,9 @@
       "age": 26,
       "value": 7000000,
       "contract": "2029-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/491542-1693600544.JPG"
     },
     {
       "id": "609255",
@@ -306,7 +346,9 @@
       "age": 28,
       "value": 7000000,
       "contract": "2028-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/609255-1612186900.jpg"
     },
     {
       "id": "737125",
@@ -317,7 +359,9 @@
       "age": 26,
       "value": 7000000,
       "contract": "2029-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/737125-1634665873.jpg"
     },
     {
       "id": "671479",
@@ -328,7 +372,9 @@
       "age": 26,
       "value": 7000000,
       "contract": "2028-06-30",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/671479-1683117674.JPG"
     },
     {
       "id": "833115",
@@ -339,7 +385,9 @@
       "age": 26,
       "value": 7000000,
       "contract": "2027-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/833115-1724872719.JPG"
     },
     {
       "id": "860857",
@@ -350,7 +398,9 @@
       "age": 27,
       "value": 7000000,
       "contract": "2027-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/860857-1659145874.jpg"
     },
     {
       "id": "371174",
@@ -361,7 +411,9 @@
       "age": 26,
       "value": 7000000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/371174-1714931805.jpg"
     },
     {
       "id": "832340",
@@ -372,7 +424,9 @@
       "age": 27,
       "value": 7000000,
       "contract": "2026-12-31",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/832340-1691601933.jpg"
     },
     {
       "id": "687558",
@@ -383,7 +437,9 @@
       "age": 26,
       "value": 6500000,
       "contract": "2028-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/687558-1751873902.jpg"
     },
     {
       "id": "1260851",
@@ -394,7 +450,9 @@
       "age": 19,
       "value": 6500000,
       "contract": "2029-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1260851-1778776961.jpg"
     },
     {
       "id": "955223",
@@ -405,7 +463,9 @@
       "age": 19,
       "value": 6500000,
       "contract": "2028-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/955223-1736706102.jpg"
     },
     {
       "id": "412365",
@@ -416,7 +476,9 @@
       "age": 26,
       "value": 6500000,
       "contract": "2029-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/412365-1558599995.png"
     },
     {
       "id": "687359",
@@ -427,7 +489,9 @@
       "age": 26,
       "value": 6500000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/687359-1659140020.jpg"
     },
     {
       "id": "629006",
@@ -438,7 +502,9 @@
       "age": 25,
       "value": 6500000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/629006-1639416912.jpg"
     },
     {
       "id": "334042",
@@ -449,7 +515,9 @@
       "age": 30,
       "value": 6500000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/334042-1754429262.png"
     },
     {
       "id": "659806",
@@ -460,7 +528,9 @@
       "age": 24,
       "value": 6500000,
       "contract": "2029-07-18",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/659806-1740766130.jpg"
     },
     {
       "id": "370875",
@@ -471,7 +541,9 @@
       "age": 27,
       "value": 6000000,
       "contract": "2028-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/370875-1718927223.jpg"
     },
     {
       "id": "432953",
@@ -482,7 +554,9 @@
       "age": 31,
       "value": 6000000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/432953-1706144797.jpg",
       "loanFrom": "Sociedade Esportiva Palmeiras"
     },
     {
@@ -494,7 +568,9 @@
       "age": 23,
       "value": 6000000,
       "contract": "2028-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/668496-1733870819.jpg"
     },
     {
       "id": "915155",
@@ -505,7 +581,9 @@
       "age": 24,
       "value": 6000000,
       "contract": "2029-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/915155-1734275451.jpg"
     },
     {
       "id": "534620",
@@ -516,7 +594,9 @@
       "age": 29,
       "value": 6000000,
       "contract": "2029-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/534620-1668453921.jpg"
     },
     {
       "id": "802857",
@@ -527,7 +607,9 @@
       "age": 25,
       "value": 6000000,
       "contract": "2026-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/802857-1668620973.jpg"
     },
     {
       "id": "575367",
@@ -538,7 +620,9 @@
       "age": 26,
       "value": 6000000,
       "contract": "2029-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/575367-1693459190.jpg"
     },
     {
       "id": "504113",
@@ -549,7 +633,9 @@
       "age": 24,
       "value": 6000000,
       "contract": "2029-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/504113-1678024839.jpg"
     },
     {
       "id": "724443",
@@ -560,7 +646,9 @@
       "age": 23,
       "value": 6000000,
       "contract": "2030-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/724443-1740682013.jpg"
     },
     {
       "id": "740574",
@@ -571,7 +659,9 @@
       "age": 24,
       "value": 6000000,
       "contract": "2030-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/740574-1779130080.jpg"
     },
     {
       "id": "565899",
@@ -582,7 +672,9 @@
       "age": 26,
       "value": 6000000,
       "contract": "2029-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/565899-1635921664.JPG"
     },
     {
       "id": "609518",
@@ -593,7 +685,9 @@
       "age": 28,
       "value": 6000000,
       "contract": "2030-06-30",
-      "nat": "Portugal"
+      "nat": "Portugal",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/609518-1547567442.png"
     },
     {
       "id": "741963",
@@ -604,7 +698,9 @@
       "age": 28,
       "value": 6000000,
       "contract": "2030-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/741963-1749582480.jpg"
     },
     {
       "id": "699797",
@@ -615,7 +711,9 @@
       "age": 25,
       "value": 5500000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/699797-1672188822.jpg"
     },
     {
       "id": "686444",
@@ -626,7 +724,9 @@
       "age": 24,
       "value": 5500000,
       "contract": "2028-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/686444-1572342031.png"
     },
     {
       "id": "873981",
@@ -637,7 +737,9 @@
       "age": 23,
       "value": 5500000,
       "contract": null,
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/873981-1695026273.jpg"
     },
     {
       "id": "997057",
@@ -648,7 +750,9 @@
       "age": 23,
       "value": 5500000,
       "contract": "2029-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/997057-1676564808.jpg"
     },
     {
       "id": "241391",
@@ -659,7 +763,9 @@
       "age": 30,
       "value": 5500000,
       "contract": "2028-06-30",
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/241391-1685101552.jpg"
     },
     {
       "id": "423619",
@@ -670,7 +776,9 @@
       "age": 29,
       "value": 5000000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/423619-1697614474.jpg"
     },
     {
       "id": "854454",
@@ -681,7 +789,9 @@
       "age": 24,
       "value": 5000000,
       "contract": "2028-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/854454-1709932126.jpg"
     },
     {
       "id": "552912",
@@ -692,7 +802,9 @@
       "age": 27,
       "value": 5000000,
       "contract": "2027-06-30",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/552912-1558943297.png"
     },
     {
       "id": "411709",
@@ -703,7 +815,9 @@
       "age": 29,
       "value": 5000000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/411709-1579697816.png"
     },
     {
       "id": "211072",
@@ -714,7 +828,9 @@
       "age": 34,
       "value": 5000000,
       "contract": "2027-06-30",
-      "nat": "Portugal"
+      "nat": "Portugal",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/211072-1612359887.jpg"
     },
     {
       "id": "691075",
@@ -725,7 +841,9 @@
       "age": 26,
       "value": 5000000,
       "contract": "2029-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/691075-1671122063.jpg"
     },
     {
       "id": "829966",
@@ -736,7 +854,9 @@
       "age": 25,
       "value": 5000000,
       "contract": "2030-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/829966-1739898834.jpg"
     },
     {
       "id": "627068",
@@ -747,7 +867,9 @@
       "age": 26,
       "value": 5000000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/627068-1662984188.jpg"
     },
     {
       "id": "282727",
@@ -758,7 +880,9 @@
       "age": 27,
       "value": 5000000,
       "contract": "2026-12-31",
-      "nat": "Spain"
+      "nat": "Espanha",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/282727-1696516454.jpg"
     },
     {
       "id": "491707",
@@ -769,7 +893,9 @@
       "age": 26,
       "value": 5000000,
       "contract": null,
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/491707-1711203825.jpg"
     },
     {
       "id": "959193",
@@ -780,7 +906,9 @@
       "age": 22,
       "value": 4500000,
       "contract": "2026-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/959193-1661610389.jpeg"
     },
     {
       "id": "400173",
@@ -791,7 +919,9 @@
       "age": 28,
       "value": 4500000,
       "contract": "2028-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/400173-1666783494.jpg"
     },
     {
       "id": "610590",
@@ -802,7 +932,9 @@
       "age": 30,
       "value": 4500000,
       "contract": "2028-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/610590-1625772025.png"
     },
     {
       "id": "769063",
@@ -813,7 +945,9 @@
       "age": 21,
       "value": 4500000,
       "contract": "2030-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/769063-1695024330.jpg"
     },
     {
       "id": "599732",
@@ -824,7 +958,9 @@
       "age": 27,
       "value": 4500000,
       "contract": "2031-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/599732-1580383081.jpg"
     },
     {
       "id": "1095326",
@@ -835,7 +971,9 @@
       "age": 21,
       "value": 4500000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1095326-1729528728.jpg"
     },
     {
       "id": "1030003",
@@ -846,7 +984,9 @@
       "age": 24,
       "value": 4500000,
       "contract": "2026-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1030003-1657826943.jpg"
     },
     {
       "id": "1087243",
@@ -857,7 +997,9 @@
       "age": 23,
       "value": 4500000,
       "contract": "2029-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1087243-1774858390.jpg"
     },
     {
       "id": "650861",
@@ -868,7 +1010,9 @@
       "age": 30,
       "value": 4500000,
       "contract": "2028-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/650861-1692206129.jpg"
     },
     {
       "id": "955338",
@@ -879,7 +1023,9 @@
       "age": 21,
       "value": 4500000,
       "contract": "2029-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/955338-1710190771.jpg"
     },
     {
       "id": "895679",
@@ -890,7 +1036,9 @@
       "age": 23,
       "value": 4500000,
       "contract": "2029-06-30",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/895679-1688497587.jpg"
     },
     {
       "id": "371171",
@@ -901,7 +1049,9 @@
       "age": 26,
       "value": 4000000,
       "contract": "2029-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/371171-1580830356.jpg"
     },
     {
       "id": "811373",
@@ -912,7 +1062,9 @@
       "age": 24,
       "value": 4000000,
       "contract": "2027-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/811373-1671651714.jpg"
     },
     {
       "id": "636066",
@@ -923,7 +1075,9 @@
       "age": 27,
       "value": 4000000,
       "contract": "2030-06-30",
-      "nat": "United States"
+      "nat": "Estados Unidos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/636066-1709930958.jpg"
     },
     {
       "id": "955303",
@@ -934,7 +1088,9 @@
       "age": 21,
       "value": 4000000,
       "contract": "2030-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/955303-1758759795.jpg"
     },
     {
       "id": "661131",
@@ -945,7 +1101,9 @@
       "age": 24,
       "value": 4000000,
       "contract": "2029-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/661131-1625772151.png"
     },
     {
       "id": "503343",
@@ -957,6 +1115,8 @@
       "value": 4000000,
       "contract": "2027-06-30",
       "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/503343-1645994651.JPG",
       "loanFrom": "São Paulo Futebol Clube"
     },
     {
@@ -968,7 +1128,9 @@
       "age": 25,
       "value": 4000000,
       "contract": "2029-06-30",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/690533-1740779724.jpg"
     },
     {
       "id": "668495",
@@ -979,7 +1141,9 @@
       "age": 23,
       "value": 4000000,
       "contract": "2027-06-30",
-      "nat": "Canada"
+      "nat": "Canadá",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/668495-1780063155.jpg"
     },
     {
       "id": "1087349",
@@ -990,7 +1154,9 @@
       "age": 22,
       "value": 4000000,
       "contract": "2027-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1087349-1722609455.jpg"
     },
     {
       "id": "440652",
@@ -1001,7 +1167,9 @@
       "age": 29,
       "value": 4000000,
       "contract": "2027-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/440652-1553780957.jpg"
     },
     {
       "id": "375300",
@@ -1012,7 +1180,9 @@
       "age": 27,
       "value": 4000000,
       "contract": "2027-12-31",
-      "nat": "Panama"
+      "nat": "Panamá",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/375300-1709581138.jpg"
     },
     {
       "id": "424676",
@@ -1023,7 +1193,9 @@
       "age": 29,
       "value": 4000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/424676-1751371131.jpg"
     },
     {
       "id": "964591",
@@ -1034,7 +1206,9 @@
       "age": 24,
       "value": 4000000,
       "contract": "2030-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/964591-1670983137.jpg"
     },
     {
       "id": "652470",
@@ -1045,7 +1219,9 @@
       "age": 26,
       "value": 3500000,
       "contract": "2028-06-30",
-      "nat": "United States"
+      "nat": "Estados Unidos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/652470-1771690982.jpg"
     },
     {
       "id": "400194",
@@ -1056,7 +1232,9 @@
       "age": 28,
       "value": 3500000,
       "contract": "2029-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/400194-1686615307.jpg"
     },
     {
       "id": "312568",
@@ -1067,7 +1245,9 @@
       "age": 28,
       "value": 3500000,
       "contract": "2028-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/312568-1560927405.jpg"
     },
     {
       "id": "723240",
@@ -1078,7 +1258,9 @@
       "age": 23,
       "value": 3500000,
       "contract": "2029-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/723240-1642809518.jpeg"
     },
     {
       "id": "189441",
@@ -1089,7 +1271,9 @@
       "age": 32,
       "value": 3500000,
       "contract": "2027-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/189441-1693305399.jpg"
     },
     {
       "id": "694157",
@@ -1100,7 +1284,9 @@
       "age": 23,
       "value": 3500000,
       "contract": "2030-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/694157-1743017191.jpg"
     },
     {
       "id": "553816",
@@ -1111,7 +1297,9 @@
       "age": 28,
       "value": 3500000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/553816-1678216809.jpg"
     },
     {
       "id": "589363",
@@ -1122,7 +1310,9 @@
       "age": 28,
       "value": 3500000,
       "contract": "2027-06-30",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/589363-1623093589.jpg"
     },
     {
       "id": "1160106",
@@ -1133,7 +1323,9 @@
       "age": 22,
       "value": 3500000,
       "contract": "2030-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1160106-1720465983.png"
     },
     {
       "id": "1035924",
@@ -1144,7 +1336,9 @@
       "age": 24,
       "value": 3500000,
       "contract": "2027-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1035924-1672189101.jpg"
     },
     {
       "id": "661481",
@@ -1155,7 +1349,9 @@
       "age": 28,
       "value": 3500000,
       "contract": "2030-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/661481-1734594823.jpg"
     },
     {
       "id": "1094383",
@@ -1166,7 +1362,9 @@
       "age": 24,
       "value": 3500000,
       "contract": "2030-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1094383-1734595165.jpg"
     },
     {
       "id": "704557",
@@ -1177,7 +1375,9 @@
       "age": 23,
       "value": 3500000,
       "contract": "2030-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/704557-1684205786.jpg"
     },
     {
       "id": "553422",
@@ -1188,7 +1388,9 @@
       "age": 29,
       "value": 3000000,
       "contract": "2028-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/553422-1621170208.jpg"
     },
     {
       "id": "310744",
@@ -1199,7 +1401,9 @@
       "age": 31,
       "value": 3000000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/310744-1581594167.png"
     },
     {
       "id": "504104",
@@ -1210,7 +1414,9 @@
       "age": 24,
       "value": 3000000,
       "contract": "2028-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/504104-1572342145.png"
     },
     {
       "id": "923213",
@@ -1221,7 +1427,9 @@
       "age": 26,
       "value": 3000000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/923213-1672433198.jpg"
     },
     {
       "id": "540315",
@@ -1232,7 +1440,9 @@
       "age": 25,
       "value": 3000000,
       "contract": "2029-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/540315-1785849236.jpg"
     },
     {
       "id": "356044",
@@ -1243,7 +1453,9 @@
       "age": 28,
       "value": 3000000,
       "contract": "2030-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/356044-1777755351.png"
     },
     {
       "id": "371185",
@@ -1254,7 +1466,9 @@
       "age": 26,
       "value": 3000000,
       "contract": "2028-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/371185-1678136232.jpg"
     },
     {
       "id": "556047",
@@ -1265,7 +1479,9 @@
       "age": 27,
       "value": 3000000,
       "contract": "2027-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/556047-1635922941.JPG"
     },
     {
       "id": "803608",
@@ -1276,7 +1492,9 @@
       "age": 24,
       "value": 3000000,
       "contract": "2030-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/803608-1673379947.jpg"
     },
     {
       "id": "685179",
@@ -1287,7 +1505,9 @@
       "age": 28,
       "value": 3000000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/685179-1724864673.jpg"
     },
     {
       "id": "983609",
@@ -1298,7 +1518,9 @@
       "age": 21,
       "value": 3000000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/983609-1740844253.jpeg"
     },
     {
       "id": "532938",
@@ -1309,7 +1531,9 @@
       "age": 31,
       "value": 2800000,
       "contract": "2028-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/532938-1780508976.jpg"
     },
     {
       "id": "431533",
@@ -1320,7 +1544,9 @@
       "age": 29,
       "value": 2800000,
       "contract": "2027-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/431533-1565165081.png"
     },
     {
       "id": "356042",
@@ -1331,7 +1557,9 @@
       "age": 30,
       "value": 2800000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/356042-1666549577.jpg"
     },
     {
       "id": "572705",
@@ -1342,7 +1570,9 @@
       "age": 27,
       "value": 2500000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/572705-1558702093.jpg"
     },
     {
       "id": "1015624",
@@ -1353,7 +1583,9 @@
       "age": 21,
       "value": 2500000,
       "contract": "2031-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1015624-1732575943.png"
     },
     {
       "id": "366143",
@@ -1364,7 +1596,9 @@
       "age": 29,
       "value": 2500000,
       "contract": "2027-06-30",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/366143-1692736569.png"
     },
     {
       "id": "397003",
@@ -1375,7 +1609,9 @@
       "age": 29,
       "value": 2500000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/397003-1589878901.jpg"
     },
     {
       "id": "1118326",
@@ -1386,7 +1622,9 @@
       "age": 20,
       "value": 2500000,
       "contract": "2029-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1118326-1733785214.jpg"
     },
     {
       "id": "471988",
@@ -1397,7 +1635,9 @@
       "age": 29,
       "value": 2500000,
       "contract": "2028-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/471988-1671214577.jpg"
     },
     {
       "id": "344854",
@@ -1408,7 +1648,9 @@
       "age": 32,
       "value": 2500000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/344854-1668453242.jpg"
     },
     {
       "id": "786000",
@@ -1419,7 +1661,9 @@
       "age": 28,
       "value": 2500000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/786000-1650477692.jpeg"
     },
     {
       "id": "577489",
@@ -1430,7 +1674,9 @@
       "age": 25,
       "value": 2500000,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/577489-1721317803.png"
     },
     {
       "id": "1171460",
@@ -1441,7 +1687,9 @@
       "age": 21,
       "value": 2500000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1171460-1758534359.jpg"
     },
     {
       "id": "333760",
@@ -1452,7 +1700,9 @@
       "age": 31,
       "value": 2500000,
       "contract": "2027-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/333760-1636585193.JPG"
     },
     {
       "id": "214775",
@@ -1463,7 +1713,9 @@
       "age": 32,
       "value": 2500000,
       "contract": "2027-06-30",
-      "nat": "Spain"
+      "nat": "Espanha",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/214775-1702411864.jpg"
     },
     {
       "id": "491616",
@@ -1474,7 +1726,9 @@
       "age": 26,
       "value": 2500000,
       "contract": "2027-06-30",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/491616-1706871948.jpg"
     },
     {
       "id": "715428",
@@ -1485,7 +1739,9 @@
       "age": 26,
       "value": 2500000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/715428-1670273677.jpeg"
     },
     {
       "id": "527972",
@@ -1496,7 +1752,9 @@
       "age": 28,
       "value": 2500000,
       "contract": null,
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/527972-1675802710.jpg"
     },
     {
       "id": "366324",
@@ -1507,7 +1765,9 @@
       "age": 29,
       "value": 2500000,
       "contract": "2028-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/366324-1714417407.JPG"
     },
     {
       "id": "355998",
@@ -1518,7 +1778,9 @@
       "age": 29,
       "value": 2500000,
       "contract": "2029-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/355998-1719229988.jpg"
     },
     {
       "id": "598838",
@@ -1529,7 +1791,9 @@
       "age": 28,
       "value": 2500000,
       "contract": "2029-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/598838-1621100803.jpg"
     },
     {
       "id": "1094366",
@@ -1540,7 +1804,9 @@
       "age": 22,
       "value": 2500000,
       "contract": "2028-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1094366-1785862576.jpg"
     },
     {
       "id": "756993",
@@ -1551,7 +1817,9 @@
       "age": 25,
       "value": 2500000,
       "contract": "2029-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/756993-1727450774.jpg"
     },
     {
       "id": "549294",
@@ -1562,7 +1830,9 @@
       "age": 28,
       "value": 2500000,
       "contract": "2028-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/549294-1564488371.png"
     },
     {
       "id": "915016",
@@ -1573,7 +1843,9 @@
       "age": 28,
       "value": 2500000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/915016-1656041175.jpg"
     },
     {
       "id": "644676",
@@ -1584,7 +1856,9 @@
       "age": 24,
       "value": 2500000,
       "contract": "2027-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/644676-1661523950.jpg"
     },
     {
       "id": "690024",
@@ -1595,7 +1869,9 @@
       "age": 26,
       "value": 2500000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/690024-1671124259.jpg"
     },
     {
       "id": "829434",
@@ -1606,7 +1882,9 @@
       "age": 25,
       "value": 2500000,
       "contract": "2030-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/829434-1646598800.png"
     },
     {
       "id": "726005",
@@ -1617,7 +1895,9 @@
       "age": 27,
       "value": 2500000,
       "contract": "2028-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/726005-1706875843.jpg"
     },
     {
       "id": "425028",
@@ -1628,7 +1908,9 @@
       "age": 28,
       "value": 2500000,
       "contract": "2028-06-30",
-      "nat": "Panama"
+      "nat": "Panamá",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/425028-1719229010.jpg"
     },
     {
       "id": "388266",
@@ -1639,7 +1921,9 @@
       "age": 29,
       "value": 2500000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/388266-1697465934.png"
     },
     {
       "id": "704868",
@@ -1650,7 +1934,9 @@
       "age": 26,
       "value": 2500000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/704868-1717797869.JPG"
     },
     {
       "id": "1087262",
@@ -1661,7 +1947,9 @@
       "age": 23,
       "value": 2500000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1087262-1720638368.jpeg"
     },
     {
       "id": "458715",
@@ -1672,7 +1960,9 @@
       "age": 28,
       "value": 2500000,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/458715-1543927750.jpg"
     },
     {
       "id": "660990",
@@ -1683,7 +1973,9 @@
       "age": 25,
       "value": 2500000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/660990-1638896590.png"
     },
     {
       "id": "569088",
@@ -1694,7 +1986,9 @@
       "age": 28,
       "value": 2500000,
       "contract": "2030-06-30",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/569088-1742570867.png"
     },
     {
       "id": "249543",
@@ -1705,7 +1999,9 @@
       "age": 29,
       "value": 2200000,
       "contract": null,
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/249543-1762903727.jpg"
     },
     {
       "id": "1100594",
@@ -1716,7 +2012,9 @@
       "age": 21,
       "value": 2000000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "421920",
@@ -1727,7 +2025,9 @@
       "age": 29,
       "value": 2000000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/421920-1580829752.jpg"
     },
     {
       "id": "796063",
@@ -1738,7 +2038,9 @@
       "age": 26,
       "value": 2000000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/796063-1757774332.jpg"
     },
     {
       "id": "284120",
@@ -1749,7 +2051,9 @@
       "age": 32,
       "value": 2000000,
       "contract": "2028-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/284120-1694003846.JPG"
     },
     {
       "id": "1041475",
@@ -1760,7 +2064,9 @@
       "age": 23,
       "value": 2000000,
       "contract": "2029-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1041475-1727136841.jpg"
     },
     {
       "id": "993722",
@@ -1771,7 +2077,9 @@
       "age": 24,
       "value": 2000000,
       "contract": "2029-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/993722-1670615757.jpg"
     },
     {
       "id": "267753",
@@ -1782,7 +2090,9 @@
       "age": 32,
       "value": 2000000,
       "contract": "2028-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/267753-1611773421.jpg"
     },
     {
       "id": "686445",
@@ -1793,7 +2103,9 @@
       "age": 24,
       "value": 2000000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/686445-1785862206.jpg"
     },
     {
       "id": "416083",
@@ -1804,7 +2116,9 @@
       "age": 30,
       "value": 2000000,
       "contract": "2028-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/416083-1639416761.jpg"
     },
     {
       "id": "370861",
@@ -1815,7 +2129,9 @@
       "age": 27,
       "value": 2000000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/370861-1670618683.jpg"
     },
     {
       "id": "560312",
@@ -1826,7 +2142,9 @@
       "age": 28,
       "value": 2000000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/560312-1756755589.jpg"
     },
     {
       "id": "429443",
@@ -1837,7 +2155,9 @@
       "age": 27,
       "value": 2000000,
       "contract": "2028-06-30",
-      "nat": "United States"
+      "nat": "Estados Unidos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/429443-1740506232.jpg"
     },
     {
       "id": "189410",
@@ -1848,7 +2168,9 @@
       "age": 32,
       "value": 2000000,
       "contract": "2029-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/189410-1449133224.jpg"
     },
     {
       "id": "469718",
@@ -1859,7 +2181,9 @@
       "age": 28,
       "value": 2000000,
       "contract": "2027-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/469718-1666640629.jpg"
     },
     {
       "id": "833268",
@@ -1870,7 +2194,9 @@
       "age": 25,
       "value": 2000000,
       "contract": "2029-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/833268-1688713697.jpg"
     },
     {
       "id": "646297",
@@ -1881,7 +2207,9 @@
       "age": 26,
       "value": 2000000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/646297-1684205703.jpg"
     },
     {
       "id": "703564",
@@ -1892,7 +2220,9 @@
       "age": 25,
       "value": 2000000,
       "contract": "2029-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/703564-1773869034.jpg"
     },
     {
       "id": "354666",
@@ -1903,7 +2233,9 @@
       "age": 29,
       "value": 2000000,
       "contract": null,
-      "nat": "Jamaica"
+      "nat": "Jamaica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/354666-1778187658.png"
     },
     {
       "id": "177046",
@@ -1914,7 +2246,9 @@
       "age": 31,
       "value": 2000000,
       "contract": "2027-06-30",
-      "nat": "Spain"
+      "nat": "Espanha",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/177046-1783966414.jpeg"
     },
     {
       "id": "535959",
@@ -1925,7 +2259,9 @@
       "age": 26,
       "value": 2000000,
       "contract": null,
-      "nat": "Cape Verde"
+      "nat": "Cabo Verde",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/535959-1681745685.jpg"
     },
     {
       "id": "265726",
@@ -1936,7 +2272,9 @@
       "age": 31,
       "value": 2000000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/265726-1718987073.jpg"
     },
     {
       "id": "857491",
@@ -1947,7 +2285,9 @@
       "age": 25,
       "value": 2000000,
       "contract": "2028-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/857491-1680553472.JPG"
     },
     {
       "id": "570431",
@@ -1958,7 +2298,9 @@
       "age": 26,
       "value": 2000000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/570431-1642812036.jpeg"
     },
     {
       "id": "720716",
@@ -1969,7 +2311,9 @@
       "age": 29,
       "value": 2000000,
       "contract": "2030-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/720716-1721137782.png"
     },
     {
       "id": "830112",
@@ -1980,7 +2324,9 @@
       "age": 26,
       "value": 2000000,
       "contract": "2027-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/830112-1644586966.JPG"
     },
     {
       "id": "439108",
@@ -1991,7 +2337,9 @@
       "age": 29,
       "value": 2000000,
       "contract": "2028-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/439108-1725382590.jpg"
     },
     {
       "id": "400171",
@@ -2002,7 +2350,9 @@
       "age": 28,
       "value": 2000000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/400171-1691697407.jpg"
     },
     {
       "id": "797702",
@@ -2013,7 +2363,9 @@
       "age": 23,
       "value": 2000000,
       "contract": "2026-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/797702-1676340579.jpg"
     },
     {
       "id": "596929",
@@ -2024,7 +2376,9 @@
       "age": 27,
       "value": 2000000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/596929-1558514353.png"
     },
     {
       "id": "181780",
@@ -2035,7 +2389,9 @@
       "age": 32,
       "value": 2000000,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/181780-1611222548.jpg"
     },
     {
       "id": "554300",
@@ -2046,7 +2402,9 @@
       "age": 27,
       "value": 2000000,
       "contract": "2027-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/554300-1705665101.png"
     },
     {
       "id": "397680",
@@ -2057,7 +2415,9 @@
       "age": 30,
       "value": 2000000,
       "contract": "2028-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/397680-1579698167.png"
     },
     {
       "id": "623444",
@@ -2068,7 +2428,9 @@
       "age": 23,
       "value": 2000000,
       "contract": "2028-12-31",
-      "nat": "United States"
+      "nat": "Estados Unidos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/623444-1740863021.jpg"
     },
     {
       "id": "599331",
@@ -2079,7 +2441,9 @@
       "age": 29,
       "value": 2000000,
       "contract": "2026-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/599331-1627315706.jpg"
     },
     {
       "id": "1027076",
@@ -2090,7 +2454,9 @@
       "age": 25,
       "value": 2000000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1027076-1681660520.jpg"
     },
     {
       "id": "984107",
@@ -2101,7 +2467,9 @@
       "age": 22,
       "value": 2000000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/984107-1759370502.jpg"
     },
     {
       "id": "288251",
@@ -2112,7 +2480,9 @@
       "age": 30,
       "value": 2000000,
       "contract": "2028-06-30",
-      "nat": "France"
+      "nat": "França",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/288251-1644082782.jpg"
     },
     {
       "id": "928648",
@@ -2123,7 +2493,9 @@
       "age": 22,
       "value": 2000000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/928648-1721081277.jpg"
     },
     {
       "id": "686449",
@@ -2134,7 +2506,9 @@
       "age": 24,
       "value": 1800000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/686449-1572341977.png"
     },
     {
       "id": "286339",
@@ -2145,7 +2519,9 @@
       "age": 33,
       "value": 1800000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/286339-1565165533.png"
     },
     {
       "id": "282927",
@@ -2156,7 +2532,9 @@
       "age": 30,
       "value": 1800000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/282927-1704269657.jpg"
     },
     {
       "id": "347577",
@@ -2167,7 +2545,9 @@
       "age": 31,
       "value": 1800000,
       "contract": "2027-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/347577-1579703709.png"
     },
     {
       "id": "371168",
@@ -2178,7 +2558,9 @@
       "age": 26,
       "value": 1800000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/371168-1717624916.JPG"
     },
     {
       "id": "822164",
@@ -2189,7 +2571,9 @@
       "age": 25,
       "value": 1800000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/822164-1617737065.jpg"
     },
     {
       "id": "955756",
@@ -2200,7 +2584,9 @@
       "age": 20,
       "value": 1800000,
       "contract": "2029-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/955756-1688488413.jpg"
     },
     {
       "id": "813044",
@@ -2211,7 +2597,9 @@
       "age": 24,
       "value": 1800000,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/813044-1710581617.jpg"
     },
     {
       "id": "716750",
@@ -2222,7 +2610,9 @@
       "age": 24,
       "value": 1800000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/716750-1672433265.jpg"
     },
     {
       "id": "185012",
@@ -2233,7 +2623,9 @@
       "age": 32,
       "value": 1800000,
       "contract": "2028-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/185012-1666783411.jpg"
     },
     {
       "id": "597092",
@@ -2244,7 +2636,9 @@
       "age": 28,
       "value": 1800000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/597092-1649982728.jpeg"
     },
     {
       "id": "243298",
@@ -2255,7 +2649,9 @@
       "age": 29,
       "value": 1800000,
       "contract": "2028-06-30",
-      "nat": "Panama"
+      "nat": "Panamá",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/243298-1741625334.png"
     },
     {
       "id": "450406",
@@ -2266,7 +2662,9 @@
       "age": 29,
       "value": 1800000,
       "contract": "2027-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/450406-1580829653.jpg"
     },
     {
       "id": "600905",
@@ -2277,7 +2675,9 @@
       "age": 26,
       "value": 1800000,
       "contract": "2028-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/600905-1645039950.jpg"
     },
     {
       "id": "688668",
@@ -2288,7 +2688,9 @@
       "age": 26,
       "value": 1800000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/688668-1647191911.jpg"
     },
     {
       "id": "370864",
@@ -2299,7 +2701,9 @@
       "age": 27,
       "value": 1800000,
       "contract": "2027-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/370864-1558702121.jpg"
     },
     {
       "id": "936956",
@@ -2310,7 +2714,9 @@
       "age": 23,
       "value": 1800000,
       "contract": "2028-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/936956-1672861249.jpg"
     },
     {
       "id": "353037",
@@ -2321,7 +2727,9 @@
       "age": 29,
       "value": 1800000,
       "contract": "2026-12-31",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/353037-1689010173.png"
     },
     {
       "id": "881010",
@@ -2332,7 +2740,9 @@
       "age": 25,
       "value": 1800000,
       "contract": "2027-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/881010-1771509888.jpg"
     },
     {
       "id": "819874",
@@ -2343,7 +2753,9 @@
       "age": 25,
       "value": 1500000,
       "contract": "2028-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/819874-1713478828.jpg"
     },
     {
       "id": "1019485",
@@ -2354,7 +2766,9 @@
       "age": 22,
       "value": 1500000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "211397",
@@ -2365,7 +2779,9 @@
       "age": 33,
       "value": 1500000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/211397-1693315161.png"
     },
     {
       "id": "1103745",
@@ -2376,7 +2792,9 @@
       "age": 22,
       "value": 1500000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "690469",
@@ -2387,7 +2805,9 @@
       "age": 24,
       "value": 1500000,
       "contract": "2030-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/690469-1672516415.jpg"
     },
     {
       "id": "401932",
@@ -2398,7 +2818,9 @@
       "age": 28,
       "value": 1500000,
       "contract": "2028-12-31",
-      "nat": "Nigeria"
+      "nat": "Nigéria",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/401932-1719947765.png"
     },
     {
       "id": "259930",
@@ -2409,7 +2831,9 @@
       "age": 32,
       "value": 1500000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/259930-1583507513.jpg"
     },
     {
       "id": "325598",
@@ -2420,7 +2844,9 @@
       "age": 31,
       "value": 1500000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/325598-1579014254.jpg"
     },
     {
       "id": "1087293",
@@ -2431,7 +2857,9 @@
       "age": 21,
       "value": 1500000,
       "contract": "2026-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1087293-1758534353.jpg"
     },
     {
       "id": "1094408",
@@ -2442,7 +2870,9 @@
       "age": 21,
       "value": 1500000,
       "contract": "2027-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1094408-1758536387.jpg"
     },
     {
       "id": "532240",
@@ -2453,7 +2883,9 @@
       "age": 25,
       "value": 1500000,
       "contract": "2030-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/532240-1579706564.png"
     },
     {
       "id": "295373",
@@ -2464,7 +2896,9 @@
       "age": 29,
       "value": 1500000,
       "contract": "2026-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/295373-1579700788.jpg"
     },
     {
       "id": "448414",
@@ -2475,7 +2909,9 @@
       "age": 29,
       "value": 1500000,
       "contract": "2028-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/448414-1580381916.jpg"
     },
     {
       "id": "1087210",
@@ -2486,7 +2922,9 @@
       "age": 24,
       "value": 1500000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1094369",
@@ -2497,7 +2935,9 @@
       "age": 22,
       "value": 1500000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1027438",
@@ -2508,7 +2948,9 @@
       "age": 23,
       "value": 1500000,
       "contract": "2029-06-30",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1027438-1689712480.jpg"
     },
     {
       "id": "557070",
@@ -2519,7 +2961,9 @@
       "age": 28,
       "value": 1500000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/557070-1611670957.jpg"
     },
     {
       "id": "1006054",
@@ -2530,7 +2974,9 @@
       "age": 24,
       "value": 1500000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1006054-1753455325.JPG"
     },
     {
       "id": "430021",
@@ -2541,7 +2987,9 @@
       "age": 30,
       "value": 1500000,
       "contract": "2028-07-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/430021-1692204794.jpg"
     },
     {
       "id": "1087365",
@@ -2552,7 +3000,9 @@
       "age": 23,
       "value": 1500000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "311680",
@@ -2563,7 +3013,9 @@
       "age": 28,
       "value": 1500000,
       "contract": "2027-06-30",
-      "nat": "Spain"
+      "nat": "Espanha",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/311680-1447246696.jpg"
     },
     {
       "id": "364058",
@@ -2574,7 +3026,9 @@
       "age": 32,
       "value": 1500000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/364058-1709932423.jpg"
     },
     {
       "id": "1031802",
@@ -2585,7 +3039,9 @@
       "age": 22,
       "value": 1500000,
       "contract": "2029-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1031802-1768786303.jpg"
     },
     {
       "id": "992527",
@@ -2596,7 +3052,9 @@
       "age": 22,
       "value": 1500000,
       "contract": "2030-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/992527-1750347883.jpg"
     },
     {
       "id": "129129",
@@ -2607,7 +3065,9 @@
       "age": 34,
       "value": 1500000,
       "contract": "2027-06-30",
-      "nat": "Italy"
+      "nat": "Itália",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/129129-1665589260.png"
     },
     {
       "id": "704554",
@@ -2618,7 +3078,9 @@
       "age": 24,
       "value": 1500000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/704554-1757774364.jpg"
     },
     {
       "id": "1011115",
@@ -2629,7 +3091,9 @@
       "age": 23,
       "value": 1500000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1011115-1709932196.jpg"
     },
     {
       "id": "176927",
@@ -2640,7 +3104,9 @@
       "age": 33,
       "value": 1500000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/176927-1771715263.jpg"
     },
     {
       "id": "1087253",
@@ -2651,7 +3117,9 @@
       "age": 23,
       "value": 1500000,
       "contract": "2030-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "400208",
@@ -2662,7 +3130,9 @@
       "age": 28,
       "value": 1500000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/400208-1671121806.jpg"
     },
     {
       "id": "1087247",
@@ -2673,7 +3143,9 @@
       "age": 23,
       "value": 1500000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1087247-1676340367.jpg"
     },
     {
       "id": "1040204",
@@ -2684,7 +3156,9 @@
       "age": 22,
       "value": 1500000,
       "contract": "2027-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1040204-1674736201.JPG"
     },
     {
       "id": "1086869",
@@ -2695,7 +3169,9 @@
       "age": 21,
       "value": 1500000,
       "contract": "2029-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "710679",
@@ -2706,7 +3182,9 @@
       "age": 24,
       "value": 1500000,
       "contract": null,
-      "nat": "Spain"
+      "nat": "Espanha",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/710679-1732219683.jpg"
     },
     {
       "id": "639390",
@@ -2717,7 +3195,9 @@
       "age": 28,
       "value": 1500000,
       "contract": null,
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/639390-1636413846.JPG"
     },
     {
       "id": "1150565",
@@ -2728,7 +3208,9 @@
       "age": 22,
       "value": 1500000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "833270",
@@ -2739,7 +3221,9 @@
       "age": 23,
       "value": 1500000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "390926",
@@ -2750,7 +3234,9 @@
       "age": 28,
       "value": 1500000,
       "contract": null,
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/390926-1718722080.jpg"
     },
     {
       "id": "356099",
@@ -2761,7 +3247,9 @@
       "age": 33,
       "value": 1300000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/356099-1625844231.jpg"
     },
     {
       "id": "401340",
@@ -2772,7 +3260,9 @@
       "age": 29,
       "value": 1300000,
       "contract": "2027-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/401340-1710095280.jpg"
     },
     {
       "id": "298796",
@@ -2783,7 +3273,9 @@
       "age": 31,
       "value": 1300000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/298796-1613229788.jpg"
     },
     {
       "id": "295426",
@@ -2794,7 +3286,9 @@
       "age": 30,
       "value": 1300000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/295426-1582819628.jpg"
     },
     {
       "id": "347932",
@@ -2805,7 +3299,9 @@
       "age": 31,
       "value": 1300000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/347932-1780520014.jpg"
     },
     {
       "id": "125165",
@@ -2816,7 +3312,9 @@
       "age": 33,
       "value": 1300000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/125165-1606396675.png"
     },
     {
       "id": "408534",
@@ -2827,7 +3325,9 @@
       "age": 29,
       "value": 1300000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/408534-1579698129.png"
     },
     {
       "id": "294804",
@@ -2838,7 +3338,9 @@
       "age": 30,
       "value": 1300000,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/294804-1694441373.PNG"
     },
     {
       "id": "426324",
@@ -2849,7 +3351,9 @@
       "age": 30,
       "value": 1300000,
       "contract": "2028-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/426324-1633314171.jpg"
     },
     {
       "id": "689230",
@@ -2860,7 +3364,9 @@
       "age": 30,
       "value": 1300000,
       "contract": "2028-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/689230-1760988326.jpg"
     },
     {
       "id": "555194",
@@ -2871,7 +3377,9 @@
       "age": 25,
       "value": 1300000,
       "contract": "2028-06-30",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/555194-1730218054.jpg"
     },
     {
       "id": "832308",
@@ -2882,7 +3390,9 @@
       "age": 24,
       "value": 1200000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/832308-1736707263.jpg"
     },
     {
       "id": "349150",
@@ -2893,7 +3403,9 @@
       "age": 29,
       "value": 1200000,
       "contract": "2027-06-30",
-      "nat": "United States"
+      "nat": "Estados Unidos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/349150-1579703957.png"
     },
     {
       "id": "599569",
@@ -2904,7 +3416,9 @@
       "age": 27,
       "value": 1200000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/599569-1760255405.jpg"
     },
     {
       "id": "656389",
@@ -2915,7 +3429,9 @@
       "age": 29,
       "value": 1200000,
       "contract": "2028-06-30",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/656389-1717292823.jpg"
     },
     {
       "id": "923688",
@@ -2926,7 +3442,9 @@
       "age": 24,
       "value": 1200000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/923688-1672516591.jpg"
     },
     {
       "id": "687559",
@@ -2937,7 +3455,9 @@
       "age": 28,
       "value": 1200000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/687559-1671123725.jpg"
     },
     {
       "id": "857638",
@@ -2948,7 +3468,9 @@
       "age": 25,
       "value": 1200000,
       "contract": "2029-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/857638-1762880996.png"
     },
     {
       "id": "886304",
@@ -2959,7 +3481,9 @@
       "age": 23,
       "value": 1200000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/886304-1676339980.jpg"
     },
     {
       "id": "371169",
@@ -2970,7 +3494,9 @@
       "age": 26,
       "value": 1200000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/371169-1565160491.png"
     },
     {
       "id": "401344",
@@ -2981,7 +3507,9 @@
       "age": 29,
       "value": 1200000,
       "contract": "2028-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/401344-1564488416.png"
     },
     {
       "id": "838928",
@@ -2992,7 +3520,9 @@
       "age": 23,
       "value": 1200000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/838928-1713816482.jpg"
     },
     {
       "id": "799707",
@@ -3003,7 +3533,9 @@
       "age": 25,
       "value": 1200000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/799707-1663767863.jpeg"
     },
     {
       "id": "662458",
@@ -3014,7 +3546,9 @@
       "age": 24,
       "value": 1200000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/662458-1674259293.jpg"
     },
     {
       "id": "505002",
@@ -3025,7 +3559,9 @@
       "age": 29,
       "value": 1200000,
       "contract": "2029-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/505002-1751381973.png"
     },
     {
       "id": "690681",
@@ -3036,7 +3572,9 @@
       "age": 32,
       "value": 1000000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/690681-1617737169.jpg"
     },
     {
       "id": "820227",
@@ -3047,7 +3585,9 @@
       "age": 25,
       "value": 1000000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/820227-1670612731.jpg"
     },
     {
       "id": "723386",
@@ -3058,7 +3598,9 @@
       "age": 21,
       "value": 1000000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/723386-1711615410.jpg"
     },
     {
       "id": "354330",
@@ -3069,7 +3611,9 @@
       "age": 28,
       "value": 1000000,
       "contract": "2028-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/354330-1488121891.jpg"
     },
     {
       "id": "274963",
@@ -3080,7 +3624,9 @@
       "age": 32,
       "value": 1000000,
       "contract": "2028-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/274963-1565164823.png"
     },
     {
       "id": "178984",
@@ -3091,7 +3637,9 @@
       "age": 33,
       "value": 1000000,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/178984-1543835678.jpg"
     },
     {
       "id": "971630",
@@ -3102,7 +3650,9 @@
       "age": 23,
       "value": 1000000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/971630-1657826563.jpg"
     },
     {
       "id": "611018",
@@ -3113,7 +3663,9 @@
       "age": 28,
       "value": 1000000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/611018-1677777458.jpg"
     },
     {
       "id": "190804",
@@ -3124,7 +3676,9 @@
       "age": 32,
       "value": 1000000,
       "contract": "2028-06-30",
-      "nat": "Montenegro"
+      "nat": "Montenegro",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/190804-1664207492.jpg"
     },
     {
       "id": "175445",
@@ -3135,7 +3689,9 @@
       "age": 32,
       "value": 1000000,
       "contract": "2027-06-30",
-      "nat": "Spain"
+      "nat": "Espanha",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/175445-1617673339.jpg"
     },
     {
       "id": "857897",
@@ -3146,7 +3702,9 @@
       "age": 26,
       "value": 1000000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/857897-1683225914.jpg"
     },
     {
       "id": "1086814",
@@ -3157,7 +3715,9 @@
       "age": 24,
       "value": 1000000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "221805",
@@ -3168,7 +3728,9 @@
       "age": 34,
       "value": 1000000,
       "contract": "2028-06-30",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/221805-1565169333.png"
     },
     {
       "id": "1086815",
@@ -3179,7 +3741,9 @@
       "age": 22,
       "value": 1000000,
       "contract": "2029-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1087306",
@@ -3190,7 +3754,9 @@
       "age": 24,
       "value": 1000000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1087306-1689791140.jpg"
     },
     {
       "id": "1091863",
@@ -3201,7 +3767,9 @@
       "age": 22,
       "value": 1000000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "730802",
@@ -3212,7 +3780,9 @@
       "age": 30,
       "value": 1000000,
       "contract": "2027-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/730802-1722343786.jpg"
     },
     {
       "id": "288609",
@@ -3223,7 +3793,9 @@
       "age": 29,
       "value": 1000000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/288609-1666783607.jpg"
     },
     {
       "id": "378351",
@@ -3234,7 +3806,9 @@
       "age": 29,
       "value": 1000000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/378351-1662853398.jpeg"
     },
     {
       "id": "384368",
@@ -3245,7 +3819,9 @@
       "age": 30,
       "value": 1000000,
       "contract": "2027-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/384368-1611672873.jpg"
     },
     {
       "id": "370868",
@@ -3256,7 +3832,9 @@
       "age": 27,
       "value": 1000000,
       "contract": "2026-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/370868-1670614166.jpg"
     },
     {
       "id": "1066358",
@@ -3267,7 +3845,9 @@
       "age": 22,
       "value": 1000000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1193298",
@@ -3278,7 +3858,9 @@
       "age": 20,
       "value": 1000000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1193298-1744122800.jpg"
     },
     {
       "id": "1235196",
@@ -3289,7 +3871,9 @@
       "age": 20,
       "value": 1000000,
       "contract": "2027-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "600956",
@@ -3300,7 +3884,9 @@
       "age": 25,
       "value": 1000000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/600956-1713048189.JPG"
     },
     {
       "id": "671657",
@@ -3311,7 +3897,9 @@
       "age": 28,
       "value": 1000000,
       "contract": "2028-06-30",
-      "nat": "Portugal"
+      "nat": "Portugal",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/671657-1729962874.jpg"
     },
     {
       "id": "831110",
@@ -3322,7 +3910,9 @@
       "age": 25,
       "value": 1000000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/831110-1645731283.png"
     },
     {
       "id": "945935",
@@ -3333,7 +3923,9 @@
       "age": 25,
       "value": 1000000,
       "contract": "2026-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/945935-1670275196.jpeg"
     },
     {
       "id": "694156",
@@ -3344,7 +3936,9 @@
       "age": 23,
       "value": 1000000,
       "contract": "2028-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/694156-1672517218.jpg"
     },
     {
       "id": "181706",
@@ -3355,7 +3949,9 @@
       "age": 33,
       "value": 1000000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/181706-1582877741.jpg"
     },
     {
       "id": "630032",
@@ -3366,7 +3962,9 @@
       "age": 27,
       "value": 1000000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "971631",
@@ -3377,7 +3975,9 @@
       "age": 24,
       "value": 1000000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1094384",
@@ -3388,7 +3988,9 @@
       "age": 23,
       "value": 1000000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1094384-1787085713.jpg"
     },
     {
       "id": "1106878",
@@ -3399,7 +4001,9 @@
       "age": 22,
       "value": 1000000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1106878-1704392289.jpg"
     },
     {
       "id": "552960",
@@ -3410,7 +4014,9 @@
       "age": 29,
       "value": 1000000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/552960-1672189167.jpg"
     },
     {
       "id": "959197",
@@ -3421,7 +4027,9 @@
       "age": 21,
       "value": 1000000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "549419",
@@ -3432,7 +4040,9 @@
       "age": 28,
       "value": 1000000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/549419-1672519267.jpg"
     },
     {
       "id": "975188",
@@ -3443,7 +4053,9 @@
       "age": 27,
       "value": 1000000,
       "contract": null,
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/975188-1751557494.jpeg"
     },
     {
       "id": "627287",
@@ -3454,7 +4066,9 @@
       "age": 25,
       "value": 1000000,
       "contract": "2029-06-30",
-      "nat": "Spain"
+      "nat": "Espanha",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/627287-1698947041.jpg"
     },
     {
       "id": "597727",
@@ -3465,7 +4079,9 @@
       "age": 29,
       "value": 1000000,
       "contract": "2028-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/597727-1670613155.jpg"
     },
     {
       "id": "1150567",
@@ -3476,7 +4092,9 @@
       "age": 21,
       "value": 1000000,
       "contract": "2028-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1150567-1758759840.jpg"
     },
     {
       "id": "644271",
@@ -3487,7 +4105,9 @@
       "age": 27,
       "value": 1000000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1002127",
@@ -3498,7 +4118,9 @@
       "age": 23,
       "value": 1000000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1002127-1744357179.jpg"
     },
     {
       "id": "1087352",
@@ -3509,7 +4131,9 @@
       "age": 21,
       "value": 1000000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1087352-1676340753.jpg"
     },
     {
       "id": "560325",
@@ -3520,7 +4144,9 @@
       "age": 29,
       "value": 1000000,
       "contract": "2029-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/560325-1671737174.jpg"
     },
     {
       "id": "644272",
@@ -3531,7 +4157,9 @@
       "age": 26,
       "value": 1000000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/644272-1672189924.jpg"
     },
     {
       "id": "600857",
@@ -3542,7 +4170,9 @@
       "age": 29,
       "value": 1000000,
       "contract": "2028-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/600857-1637856671.jpg"
     },
     {
       "id": "401311",
@@ -3553,7 +4183,9 @@
       "age": 30,
       "value": 1000000,
       "contract": "2027-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/401311-1671215226.jpg"
     },
     {
       "id": "1132762",
@@ -3564,7 +4196,9 @@
       "age": 21,
       "value": 1000000,
       "contract": null,
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1132762-1718912803.jpg"
     },
     {
       "id": "725791",
@@ -3575,7 +4209,9 @@
       "age": 26,
       "value": 1000000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/725791-1676563543.jpg"
     },
     {
       "id": "668528",
@@ -3586,7 +4222,9 @@
       "age": 23,
       "value": 1000000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/668528-1704389997.jpeg"
     },
     {
       "id": "419457",
@@ -3597,7 +4235,9 @@
       "age": 30,
       "value": 900000,
       "contract": "2026-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/419457-1469548240.png"
     },
     {
       "id": "495116",
@@ -3608,7 +4248,9 @@
       "age": 28,
       "value": 900000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/495116-1670616720.jpg"
     },
     {
       "id": "694158",
@@ -3619,7 +4261,9 @@
       "age": 23,
       "value": 800000,
       "contract": "2029-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/694158-1771709574.jpg"
     },
     {
       "id": "256866",
@@ -3630,7 +4274,9 @@
       "age": 33,
       "value": 800000,
       "contract": "2027-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/256866-1645891058.jpg"
     },
     {
       "id": "131093",
@@ -3641,7 +4287,9 @@
       "age": 34,
       "value": 800000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/131093-1714677569.jpg"
     },
     {
       "id": "798507",
@@ -3652,7 +4300,9 @@
       "age": 25,
       "value": 800000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/798507-1691696990.jpg"
     },
     {
       "id": "473201",
@@ -3663,7 +4313,9 @@
       "age": 30,
       "value": 800000,
       "contract": "2027-06-30",
-      "nat": "Cameroon"
+      "nat": "Camarões",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/473201-1608909322.jpg"
     },
     {
       "id": "1097847",
@@ -3674,7 +4326,9 @@
       "age": 22,
       "value": 800000,
       "contract": "2027-12-31",
-      "nat": "Venezuela"
+      "nat": "Venezuela",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "546047",
@@ -3685,7 +4339,9 @@
       "age": 27,
       "value": 800000,
       "contract": "2027-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/546047-1666549774.jpg"
     },
     {
       "id": "854360",
@@ -3696,7 +4352,9 @@
       "age": 25,
       "value": 800000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/854360-1661099829.jpeg"
     },
     {
       "id": "427203",
@@ -3707,7 +4365,9 @@
       "age": 30,
       "value": 800000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/427203-1469548525.png"
     },
     {
       "id": "322174",
@@ -3718,7 +4378,9 @@
       "age": 30,
       "value": 800000,
       "contract": "2027-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/322174-1753278663.jpg"
     },
     {
       "id": "549361",
@@ -3729,7 +4391,9 @@
       "age": 30,
       "value": 800000,
       "contract": "2028-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/549361-1558355022.png"
     },
     {
       "id": "829063",
@@ -3740,7 +4404,9 @@
       "age": 23,
       "value": 800000,
       "contract": "2026-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1103940",
@@ -3751,7 +4417,9 @@
       "age": 22,
       "value": 800000,
       "contract": "2027-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1103940-1727085352.jpg"
     },
     {
       "id": "670800",
@@ -3762,7 +4430,9 @@
       "age": 23,
       "value": 800000,
       "contract": "2029-06-30",
-      "nat": "United States"
+      "nat": "Estados Unidos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/670800-1771691101.jpg"
     },
     {
       "id": "906775",
@@ -3773,7 +4443,9 @@
       "age": 26,
       "value": 800000,
       "contract": "2029-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/906775-1743377008.jpg"
     },
     {
       "id": "432225",
@@ -3784,7 +4456,9 @@
       "age": 25,
       "value": 800000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/432225-1581594575.png"
     },
     {
       "id": "552948",
@@ -3795,7 +4469,9 @@
       "age": 27,
       "value": 800000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/552948-1756753873.jpg"
     },
     {
       "id": "875511",
@@ -3806,7 +4482,9 @@
       "age": 25,
       "value": 800000,
       "contract": "2030-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/875511-1631628777.jpg"
     },
     {
       "id": "370869",
@@ -3817,7 +4495,9 @@
       "age": 27,
       "value": 800000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/370869-1714919540.jpg"
     },
     {
       "id": "271907",
@@ -3828,7 +4508,9 @@
       "age": 31,
       "value": 800000,
       "contract": "2027-12-31",
-      "nat": "Costa Rica"
+      "nat": "Costa Rica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/271907-1717448724.JPG"
     },
     {
       "id": "945134",
@@ -3839,7 +4521,9 @@
       "age": 25,
       "value": 800000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/945134-1672514980.jpg"
     },
     {
       "id": "663290",
@@ -3850,7 +4534,9 @@
       "age": 25,
       "value": 800000,
       "contract": "2027-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/663290-1672515183.jpg"
     },
     {
       "id": "670185",
@@ -3861,7 +4547,9 @@
       "age": 26,
       "value": 800000,
       "contract": "2027-05-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/670185-1670900543.jpg"
     },
     {
       "id": "803587",
@@ -3872,7 +4560,9 @@
       "age": 26,
       "value": 800000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/803587-1673380045.jpg"
     },
     {
       "id": "704555",
@@ -3883,7 +4573,9 @@
       "age": 24,
       "value": 750000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/704555-1572342002.png"
     },
     {
       "id": "243580",
@@ -3894,7 +4586,9 @@
       "age": 32,
       "value": 750000,
       "contract": "2026-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/243580-1506682088.jpg"
     },
     {
       "id": "234918",
@@ -3905,7 +4599,9 @@
       "age": 32,
       "value": 750000,
       "contract": "2028-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/234918-1678566039.jpg"
     },
     {
       "id": "107444",
@@ -3916,7 +4612,9 @@
       "age": 32,
       "value": 700000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/107444-1564488481.png"
     },
     {
       "id": "79422",
@@ -3927,7 +4625,9 @@
       "age": 39,
       "value": 700000,
       "contract": "2027-06-30",
-      "nat": "Costa Rica"
+      "nat": "Costa Rica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/79422-1672304953.jpg"
     },
     {
       "id": "242303",
@@ -3938,7 +4638,9 @@
       "age": 34,
       "value": 700000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/242303-1692205150.jpg"
     },
     {
       "id": "1124128",
@@ -3949,7 +4651,9 @@
       "age": 18,
       "value": 700000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1124128-1745250014.jpg"
     },
     {
       "id": "971399",
@@ -3960,7 +4664,9 @@
       "age": 23,
       "value": 700000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "950874",
@@ -3971,7 +4677,9 @@
       "age": 21,
       "value": 700000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/950874-1660074499.jpg"
     },
     {
       "id": "1086870",
@@ -3982,7 +4690,9 @@
       "age": 25,
       "value": 650000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1086870-1785862369.jpg"
     },
     {
       "id": "281404",
@@ -3993,7 +4703,9 @@
       "age": 30,
       "value": 650000,
       "contract": "2029-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/281404-1455120897.jpg"
     },
     {
       "id": "668487",
@@ -4004,7 +4716,9 @@
       "age": 23,
       "value": 650000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "955283",
@@ -4015,7 +4729,9 @@
       "age": 21,
       "value": 600000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/955283-1785858483.jpg"
     },
     {
       "id": "653152",
@@ -4026,7 +4742,9 @@
       "age": 30,
       "value": 600000,
       "contract": "2028-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/653152-1715628946.jpg"
     },
     {
       "id": "433962",
@@ -4037,7 +4755,9 @@
       "age": 27,
       "value": 600000,
       "contract": null,
-      "nat": "United States"
+      "nat": "Estados Unidos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/433962-1678996373.jpg"
     },
     {
       "id": "1053536",
@@ -4048,7 +4768,9 @@
       "age": 22,
       "value": 600000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "654144",
@@ -4059,7 +4781,9 @@
       "age": 24,
       "value": 600000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/654144-1676565031.jpg"
     },
     {
       "id": "853278",
@@ -4070,7 +4794,9 @@
       "age": 23,
       "value": 600000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/853278-1720465708.png"
     },
     {
       "id": "915017",
@@ -4081,7 +4807,9 @@
       "age": 26,
       "value": 600000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/915017-1681592810.jpg"
     },
     {
       "id": "325600",
@@ -4092,7 +4820,9 @@
       "age": 30,
       "value": 550000,
       "contract": "2028-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/325600-1611672988.jpg"
     },
     {
       "id": "131074",
@@ -4103,7 +4833,9 @@
       "age": 34,
       "value": 550000,
       "contract": "2026-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/131074-1524933958.png"
     },
     {
       "id": "614303",
@@ -4114,7 +4846,9 @@
       "age": 29,
       "value": 550000,
       "contract": "2026-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/614303-1580381186.jpg"
     },
     {
       "id": "422401",
@@ -4125,7 +4859,9 @@
       "age": 28,
       "value": 550000,
       "contract": "2029-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/422401-1738931817.jpg"
     },
     {
       "id": "704867",
@@ -4136,7 +4872,9 @@
       "age": 26,
       "value": 550000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/704867-1661796930.jpeg"
     },
     {
       "id": "634023",
@@ -4147,7 +4885,9 @@
       "age": 25,
       "value": 550000,
       "contract": "2028-06-30",
-      "nat": "Venezuela"
+      "nat": "Venezuela",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/634023-1712733778.png"
     },
     {
       "id": "745454",
@@ -4158,7 +4898,9 @@
       "age": 22,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/745454-1678026475.jpg"
     },
     {
       "id": "1155719",
@@ -4169,7 +4911,9 @@
       "age": 18,
       "value": 500000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1155719-1761793174.jpg"
     },
     {
       "id": "1064285",
@@ -4180,7 +4924,9 @@
       "age": 21,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "508257",
@@ -4191,7 +4937,9 @@
       "age": 27,
       "value": 500000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/508257-1565160438.png"
     },
     {
       "id": "920968",
@@ -4202,7 +4950,9 @@
       "age": 23,
       "value": 500000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/920968-1727118182.jpg"
     },
     {
       "id": "131090",
@@ -4213,7 +4963,9 @@
       "age": 34,
       "value": 500000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/131090-1547029254.jpg"
     },
     {
       "id": "1186946",
@@ -4224,7 +4976,9 @@
       "age": 23,
       "value": 500000,
       "contract": "2028-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1186946-1695752965.JPG"
     },
     {
       "id": "674500",
@@ -4235,7 +4989,9 @@
       "age": 24,
       "value": 500000,
       "contract": null,
-      "nat": "United States"
+      "nat": "Estados Unidos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/674500-1657792093.jpg"
     },
     {
       "id": "804341",
@@ -4246,7 +5002,9 @@
       "age": 22,
       "value": 500000,
       "contract": "2027-12-31",
-      "nat": "United States"
+      "nat": "Estados Unidos",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "704553",
@@ -4257,7 +5015,9 @@
       "age": 24,
       "value": 500000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/704553-1572342214.png"
     },
     {
       "id": "1026942",
@@ -4268,7 +5028,9 @@
       "age": 25,
       "value": 500000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1026942-1681592868.jpg"
     },
     {
       "id": "160700",
@@ -4279,7 +5041,9 @@
       "age": 35,
       "value": 450000,
       "contract": "2029-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/160700-1544359275.png"
     },
     {
       "id": "654326",
@@ -4290,7 +5054,9 @@
       "age": 27,
       "value": 450000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/654326-1681671323.jpg"
     },
     {
       "id": "955776",
@@ -4301,7 +5067,9 @@
       "age": 21,
       "value": 450000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/955776-1758533634.jpg"
     },
     {
       "id": "982627",
@@ -4312,7 +5080,9 @@
       "age": 24,
       "value": 450000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/982627-1773086063.jpg"
     },
     {
       "id": "540305",
@@ -4323,7 +5093,9 @@
       "age": 26,
       "value": 450000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/540305-1681605292.jpg"
     },
     {
       "id": "234227",
@@ -4334,7 +5106,9 @@
       "age": 35,
       "value": 400000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/234227-1453739107.jpg"
     },
     {
       "id": "264133",
@@ -4345,7 +5119,9 @@
       "age": 35,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/264133-1497614769.jpg"
     },
     {
       "id": "923204",
@@ -4356,7 +5132,9 @@
       "age": 25,
       "value": 400000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/923204-1684204946.jpg"
     },
     {
       "id": "74113",
@@ -4367,7 +5145,9 @@
       "age": 37,
       "value": 400000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/74113-1719976171.jpg"
     },
     {
       "id": "833271",
@@ -4378,7 +5158,9 @@
       "age": 26,
       "value": 400000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/833271-1672427015.jpg"
     },
     {
       "id": "158327",
@@ -4389,7 +5171,9 @@
       "age": 35,
       "value": 400000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/158327-1719230149.jpg"
     },
     {
       "id": "1064246",
@@ -4400,7 +5184,9 @@
       "age": 21,
       "value": 400000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "164749",
@@ -4411,7 +5197,9 @@
       "age": 35,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/164749-1580382057.jpg"
     },
     {
       "id": "853299",
@@ -4422,7 +5210,9 @@
       "age": 23,
       "value": 400000,
       "contract": "2028-06-30",
-      "nat": "Spain"
+      "nat": "Espanha",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/853299-1734519875.png"
     },
     {
       "id": "415843",
@@ -4433,7 +5223,9 @@
       "age": 32,
       "value": 400000,
       "contract": "2028-12-31",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/415843-1759511244.jpg"
     },
     {
       "id": "670341",
@@ -4444,7 +5236,9 @@
       "age": 25,
       "value": 400000,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/670341-1739197463.jpg"
     },
     {
       "id": "432222",
@@ -4455,7 +5249,9 @@
       "age": 25,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/432222-1671122563.jpg"
     },
     {
       "id": "273638",
@@ -4466,7 +5262,9 @@
       "age": 31,
       "value": 350000,
       "contract": "2027-12-31",
-      "nat": "Peru"
+      "nat": "Peru",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/273638-1776885543.jpg"
     },
     {
       "id": "1127597",
@@ -4477,7 +5275,9 @@
       "age": 19,
       "value": 350000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1127597-1787085458.jpg"
     },
     {
       "id": "1127335",
@@ -4488,7 +5288,9 @@
       "age": 24,
       "value": 350000,
       "contract": "2029-06-30",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "115333",
@@ -4499,7 +5301,9 @@
       "age": 35,
       "value": 350000,
       "contract": "2027-05-31",
-      "nat": "Spain"
+      "nat": "Espanha",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/115333-1510233713.jpg"
     },
     {
       "id": "80197",
@@ -4510,7 +5314,9 @@
       "age": 37,
       "value": 350000,
       "contract": "2029-12-31",
-      "nat": "Venezuela"
+      "nat": "Venezuela",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/80197-1719230840.jpg"
     },
     {
       "id": "792335",
@@ -4521,7 +5327,9 @@
       "age": 22,
       "value": 350000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/792335-1740864127.jpg"
     },
     {
       "id": "480892",
@@ -4532,7 +5340,9 @@
       "age": 30,
       "value": 350000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/480892-1580398790.png"
     },
     {
       "id": "260662",
@@ -4543,7 +5353,9 @@
       "age": 32,
       "value": 300000,
       "contract": "2027-06-30",
-      "nat": "Spain"
+      "nat": "Espanha",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/260662-1684948157.jpeg"
     },
     {
       "id": "129031",
@@ -4554,7 +5366,9 @@
       "age": 36,
       "value": 300000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/129031-1523620371.jpg"
     },
     {
       "id": "111082",
@@ -4565,7 +5379,9 @@
       "age": 36,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/111082-1671122157.jpg"
     },
     {
       "id": "1101843",
@@ -4576,7 +5392,9 @@
       "age": 22,
       "value": 300000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1101843-1785862480.jpg"
     },
     {
       "id": "1086935",
@@ -4587,7 +5405,9 @@
       "age": 22,
       "value": 300000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "242580",
@@ -4598,7 +5418,9 @@
       "age": 32,
       "value": 300000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/242580-1523620709.jpg"
     },
     {
       "id": "401349",
@@ -4609,7 +5431,9 @@
       "age": 29,
       "value": 300000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/401349-1469548669.png"
     },
     {
       "id": "222010",
@@ -4620,7 +5444,9 @@
       "age": 33,
       "value": 300000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/222010-1647123363.jpg"
     },
     {
       "id": "997056",
@@ -4631,7 +5457,9 @@
       "age": 25,
       "value": 300000,
       "contract": "2028-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1011032",
@@ -4642,7 +5470,9 @@
       "age": 19,
       "value": 300000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1011032-1787085417.jpg"
     },
     {
       "id": "400188",
@@ -4653,7 +5483,9 @@
       "age": 28,
       "value": 300000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/400188-1681667197.jpg"
     },
     {
       "id": "941419",
@@ -4664,7 +5496,9 @@
       "age": 22,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/941419-1718721968.jpg"
     },
     {
       "id": "236710",
@@ -4675,7 +5509,9 @@
       "age": 33,
       "value": 250000,
       "contract": "2027-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/236710-1580380474.jpg"
     },
     {
       "id": "627211",
@@ -4686,7 +5522,9 @@
       "age": 24,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "United States"
+      "nat": "Estados Unidos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/627211-1744357243.jpg"
     },
     {
       "id": "234242",
@@ -4697,7 +5535,9 @@
       "age": 32,
       "value": 250000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/234242-1469098108.png"
     },
     {
       "id": "784509",
@@ -4708,7 +5548,9 @@
       "age": 25,
       "value": 250000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/784509-1672431993.jpg"
     },
     {
       "id": "1353890",
@@ -4719,7 +5561,9 @@
       "age": 27,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1353890-1772032340.png"
     },
     {
       "id": "448641",
@@ -4730,7 +5574,9 @@
       "age": 33,
       "value": 225000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/448641-1681593722.jpg"
     },
     {
       "id": "1127591",
@@ -4741,7 +5587,9 @@
       "age": 19,
       "value": 200000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1127591-1758759739.jpg"
     },
     {
       "id": "1086862",
@@ -4752,7 +5600,9 @@
       "age": 25,
       "value": 200000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "280379",
@@ -4763,7 +5613,9 @@
       "age": 33,
       "value": 200000,
       "contract": "2028-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/280379-1580827417.png"
     },
     {
       "id": "858660",
@@ -4774,7 +5626,9 @@
       "age": 22,
       "value": 200000,
       "contract": "2030-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/858660-1736168693.jpg"
     },
     {
       "id": "1055320",
@@ -4785,7 +5639,9 @@
       "age": 23,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "71401",
@@ -4796,7 +5652,9 @@
       "age": 39,
       "value": 180000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/71401-1668452646.jpg"
     },
     {
       "id": "905089",
@@ -4807,7 +5665,9 @@
       "age": 25,
       "value": 175000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/905089-1785858454.jpg"
     },
     {
       "id": "87859",
@@ -4818,7 +5678,9 @@
       "age": 40,
       "value": 175000,
       "contract": "2027-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/87859-1521646068.jpg"
     },
     {
       "id": "1097734",
@@ -4829,7 +5691,9 @@
       "age": 22,
       "value": 175000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1051694",
@@ -4840,7 +5704,9 @@
       "age": 24,
       "value": 150000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "105888",
@@ -4851,7 +5717,9 @@
       "age": 35,
       "value": 150000,
       "contract": "2027-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/105888-1779143068.jpg"
     },
     {
       "id": "540306",
@@ -4862,7 +5730,9 @@
       "age": 26,
       "value": 150000,
       "contract": "2028-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/540306-1670270528.jpeg"
     },
     {
       "id": "1026933",
@@ -4873,7 +5743,9 @@
       "age": 25,
       "value": 150000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1026933-1756754018.jpg"
     },
     {
       "id": "838925",
@@ -4884,7 +5756,9 @@
       "age": 21,
       "value": 150000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1244463",
@@ -4895,7 +5769,9 @@
       "age": 16,
       "value": 150000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1244463-1784847090.jpeg"
     },
     {
       "id": "1004726",
@@ -4906,7 +5782,9 @@
       "age": 20,
       "value": 150000,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1064679",
@@ -4917,7 +5795,9 @@
       "age": 21,
       "value": 150000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "881350",
@@ -4928,7 +5808,9 @@
       "age": 24,
       "value": 100000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/881350-1787086080.jpg"
     },
     {
       "id": "102699",
@@ -4939,7 +5821,9 @@
       "age": 37,
       "value": 100000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/102699-1672516175.jpg"
     },
     {
       "id": "1288364",
@@ -4950,7 +5834,9 @@
       "age": 19,
       "value": 100000,
       "contract": "2027-06-30",
-      "nat": "United States"
+      "nat": "Estados Unidos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1288364-1771674952.jpg"
     },
     {
       "id": "944086",
@@ -4961,7 +5847,9 @@
       "age": 21,
       "value": 100000,
       "contract": "2029-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/944086-1758759900.jpg"
     },
     {
       "id": "988440",
@@ -4972,7 +5860,9 @@
       "age": 23,
       "value": 100000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/988440-1785862256.jpg"
     },
     {
       "id": "959194",
@@ -4983,7 +5873,9 @@
       "age": 22,
       "value": 100000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/959194-1676340123.jpg"
     },
     {
       "id": "994004",
@@ -4994,7 +5886,9 @@
       "age": 23,
       "value": 100000,
       "contract": "2027-12-31",
-      "nat": "United States"
+      "nat": "Estados Unidos",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1011024",
@@ -5005,7 +5899,9 @@
       "age": 19,
       "value": 100000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1011024-1787085492.jpg"
     },
     {
       "id": "1059499",
@@ -5016,7 +5912,9 @@
       "age": 22,
       "value": 100000,
       "contract": null,
-      "nat": "Lebanon"
+      "nat": "Lebanon",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "73523",
@@ -5027,7 +5925,9 @@
       "age": 36,
       "value": 100000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/73523-1580829714.jpg"
     },
     {
       "id": "1174453",
@@ -5038,7 +5938,9 @@
       "age": 20,
       "value": 100000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "955313",
@@ -5049,7 +5951,9 @@
       "age": 21,
       "value": 100000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/955313-1707450673.jpeg"
     },
     {
       "id": "955306",
@@ -5060,7 +5964,9 @@
       "age": 21,
       "value": 100000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1095864",
@@ -5071,7 +5977,9 @@
       "age": 21,
       "value": 75000,
       "contract": null,
-      "nat": "Canada"
+      "nat": "Canadá",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1091807",
@@ -5082,7 +5990,9 @@
       "age": 22,
       "value": 75000,
       "contract": "2031-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "955298",
@@ -5093,7 +6003,9 @@
       "age": 21,
       "value": 75000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/955298-1758533625.jpg"
     },
     {
       "id": "993723",
@@ -5104,7 +6016,9 @@
       "age": 24,
       "value": 50000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1096706",
@@ -5115,7 +6029,9 @@
       "age": 22,
       "value": 50000,
       "contract": "2029-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "291262",
@@ -5126,7 +6042,9 @@
       "age": 33,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/291262-1564642643.jpg"
     },
     {
       "id": "125275",
@@ -5137,7 +6055,9 @@
       "age": 38,
       "value": 50000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/125275-1565160125.png"
     },
     {
       "id": "1095302",
@@ -5148,7 +6068,9 @@
       "age": 22,
       "value": 50000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1086884",
@@ -5159,7 +6081,9 @@
       "age": 22,
       "value": 50000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1086884-1787085923.jpg"
     },
     {
       "id": "1105435",
@@ -5170,7 +6094,9 @@
       "age": 20,
       "value": 50000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1105435-1744918452.jpg"
     },
     {
       "id": "826462",
@@ -5181,7 +6107,9 @@
       "age": 22,
       "value": 25000,
       "contract": null,
-      "nat": "United States"
+      "nat": "Estados Unidos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/826462-1740506003.jpg"
     },
     {
       "id": "1263461",
@@ -5192,7 +6120,9 @@
       "age": 19,
       "value": 25000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1015089",
@@ -5203,7 +6133,9 @@
       "age": 19,
       "value": 25000,
       "contract": "2026-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1015089-1771689464.jpg"
     },
     {
       "id": "1094395",
@@ -5214,7 +6146,9 @@
       "age": 22,
       "value": 25000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1100057",
@@ -5225,7 +6159,9 @@
       "age": 25,
       "value": 25000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "55303",
@@ -5236,7 +6172,9 @@
       "age": 39,
       "value": 25000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/55303-1488311628.jpg"
     },
     {
       "id": "1091755",
@@ -5247,7 +6185,9 @@
       "age": 23,
       "value": null,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1150510",
@@ -5258,7 +6198,9 @@
       "age": 24,
       "value": null,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1203193",
@@ -5269,7 +6211,9 @@
       "age": 21,
       "value": null,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1091871",
@@ -5280,7 +6224,9 @@
       "age": 23,
       "value": null,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "991158",
@@ -5291,7 +6237,9 @@
       "age": 22,
       "value": null,
       "contract": "2027-06-30",
-      "nat": "Spain"
+      "nat": "Espanha",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1182550",
@@ -5302,7 +6250,9 @@
       "age": 21,
       "value": null,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": null
     }
   ]
 }

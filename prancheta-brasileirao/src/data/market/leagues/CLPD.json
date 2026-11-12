@@ -78,7 +78,9 @@
       "age": 27,
       "value": 3000000,
       "contract": "2029-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/539164-1724864445.jpg"
     },
     {
       "id": "365758",
@@ -89,7 +91,9 @@
       "age": 27,
       "value": 2500000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/365758-1720123798.png"
     },
     {
       "id": "1064191",
@@ -100,7 +104,9 @@
       "age": 22,
       "value": 2500000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1064191-1785160141.jpg"
     },
     {
       "id": "567630",
@@ -111,7 +117,9 @@
       "age": 27,
       "value": 2000000,
       "contract": "2028-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/567630-1792088007.jpg"
     },
     {
       "id": "371988",
@@ -122,7 +130,9 @@
       "age": 30,
       "value": 1800000,
       "contract": "2028-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/371988-1792087901.jpg"
     },
     {
       "id": "728495",
@@ -133,7 +143,9 @@
       "age": 26,
       "value": 1800000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/728495-1757520136.jpg"
     },
     {
       "id": "662737",
@@ -144,7 +156,9 @@
       "age": 24,
       "value": 1500000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/662737-1674044722.jpg"
     },
     {
       "id": "737923",
@@ -155,7 +169,9 @@
       "age": 25,
       "value": 1500000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/737923-1621955673.jpg"
     },
     {
       "id": "1101447",
@@ -167,6 +183,8 @@
       "value": 1500000,
       "contract": "2027-12-31",
       "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1101447-1715820525.jpg",
       "loanFrom": "Clube Atlético Mineiro"
     },
     {
@@ -178,7 +196,9 @@
       "age": 27,
       "value": 1500000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/538281-1726166092.png"
     },
     {
       "id": "841340",
@@ -189,7 +209,9 @@
       "age": 23,
       "value": 1500000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/841340-1792087829.jpg"
     },
     {
       "id": "910815",
@@ -200,7 +222,9 @@
       "age": 23,
       "value": 1500000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/910815-1757521054.jpg"
     },
     {
       "id": "844725",
@@ -211,7 +235,9 @@
       "age": 26,
       "value": 1500000,
       "contract": "2028-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "599482",
@@ -222,7 +248,9 @@
       "age": 28,
       "value": 1300000,
       "contract": "2028-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/599482-1692732635.jpg"
     },
     {
       "id": "388289",
@@ -233,7 +261,9 @@
       "age": 30,
       "value": 1200000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/388289-1709365561.jpg"
     },
     {
       "id": "1172013",
@@ -244,7 +274,9 @@
       "age": 21,
       "value": 1200000,
       "contract": "2028-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1172013-1710428254.jpg"
     },
     {
       "id": "534294",
@@ -255,7 +287,9 @@
       "age": 29,
       "value": 1200000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/534294-1757519499.jpg"
     },
     {
       "id": "600555",
@@ -266,7 +300,9 @@
       "age": 27,
       "value": 1200000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/600555-1757519945.jpg"
     },
     {
       "id": "950593",
@@ -277,7 +313,9 @@
       "age": 21,
       "value": 1200000,
       "contract": "2027-06-30",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/950593-1704212770.jpg"
     },
     {
       "id": "1199053",
@@ -288,7 +326,9 @@
       "age": 21,
       "value": 1200000,
       "contract": "2028-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1199053-1715820390.jpg"
     },
     {
       "id": "217228",
@@ -299,7 +339,9 @@
       "age": 33,
       "value": 1200000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/217228-1772646670.JPG"
     },
     {
       "id": "1380572",
@@ -310,7 +352,9 @@
       "age": 20,
       "value": 1000000,
       "contract": "2028-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "366142",
@@ -321,7 +365,9 @@
       "age": 29,
       "value": 1000000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/366142-1716421557.png"
     },
     {
       "id": "657219",
@@ -332,7 +378,9 @@
       "age": 28,
       "value": 1000000,
       "contract": "2028-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/657219-1757519592.jpg"
     },
     {
       "id": "747716",
@@ -343,7 +391,9 @@
       "age": 25,
       "value": 1000000,
       "contract": "2030-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/747716-1705514807.jpg"
     },
     {
       "id": "1023668",
@@ -354,7 +404,9 @@
       "age": 21,
       "value": 1000000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1023668-1792088184.jpg"
     },
     {
       "id": "540968",
@@ -365,7 +417,9 @@
       "age": 26,
       "value": 1000000,
       "contract": "2028-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/540968-1792087621.jpg"
     },
     {
       "id": "462231",
@@ -376,7 +430,9 @@
       "age": 29,
       "value": 1000000,
       "contract": "2029-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/462231-1751383108.png"
     },
     {
       "id": "749055",
@@ -387,7 +443,9 @@
       "age": 25,
       "value": 1000000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/749055-1773084976.jpg"
     },
     {
       "id": "657742",
@@ -398,7 +456,9 @@
       "age": 24,
       "value": 900000,
       "contract": "2027-06-30",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/657742-1710100383.jpg"
     },
     {
       "id": "737926",
@@ -409,7 +469,9 @@
       "age": 25,
       "value": 800000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "209513",
@@ -420,7 +482,9 @@
       "age": 32,
       "value": 800000,
       "contract": "2028-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/209513-1792088602.jpg"
     },
     {
       "id": "418464",
@@ -431,7 +495,9 @@
       "age": 29,
       "value": 800000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/418464-1792087550.jpg"
     },
     {
       "id": "1119917",
@@ -442,7 +508,9 @@
       "age": 20,
       "value": 800000,
       "contract": "2029-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1119917-1751383474.png"
     },
     {
       "id": "838833",
@@ -453,7 +521,9 @@
       "age": 26,
       "value": 800000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/838833-1757519812.jpg"
     },
     {
       "id": "996686",
@@ -464,7 +534,9 @@
       "age": 27,
       "value": 800000,
       "contract": "2027-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/996686-1757519576.jpg"
     },
     {
       "id": "172562",
@@ -475,7 +547,9 @@
       "age": 26,
       "value": 800000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/172562-1773086443.jpg"
     },
     {
       "id": "889451",
@@ -486,7 +560,9 @@
       "age": 23,
       "value": 800000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/889451-1674746278.jpg"
     },
     {
       "id": "578074",
@@ -497,7 +573,9 @@
       "age": 26,
       "value": 800000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/578074-1774461550.JPEG"
     },
     {
       "id": "981821",
@@ -508,7 +586,9 @@
       "age": 23,
       "value": 750000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/981821-1712842917.jpg"
     },
     {
       "id": "130413",
@@ -519,7 +599,9 @@
       "age": 34,
       "value": 750000,
       "contract": "2027-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/130413-1637605535.JPG"
     },
     {
       "id": "336346",
@@ -530,7 +612,9 @@
       "age": 31,
       "value": 750000,
       "contract": "2028-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/336346-1792087686.jpg"
     },
     {
       "id": "537087",
@@ -541,7 +625,9 @@
       "age": 28,
       "value": 750000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/537087-1751383376.png"
     },
     {
       "id": "334233",
@@ -552,7 +638,9 @@
       "age": 33,
       "value": 750000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/334233-1721936038.png"
     },
     {
       "id": "534293",
@@ -563,7 +651,9 @@
       "age": 28,
       "value": 750000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/534293-1757521017.jpg"
     },
     {
       "id": "573836",
@@ -574,7 +664,9 @@
       "age": 28,
       "value": 750000,
       "contract": "2028-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/573836-1773087102.jpg"
     },
     {
       "id": "369564",
@@ -585,7 +677,9 @@
       "age": 29,
       "value": 750000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/369564-1773867380.JPG"
     },
     {
       "id": "186863",
@@ -596,7 +690,9 @@
       "age": 31,
       "value": 700000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/186863-1535363192.jpeg"
     },
     {
       "id": "454238",
@@ -607,7 +703,9 @@
       "age": 27,
       "value": 700000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/454238-1623406444.jpg"
     },
     {
       "id": "1119923",
@@ -618,7 +716,9 @@
       "age": 20,
       "value": 700000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1119923-1758806733.JPG"
     },
     {
       "id": "613085",
@@ -629,7 +729,9 @@
       "age": 26,
       "value": 700000,
       "contract": "2028-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/613085-1792087463.jpg"
     },
     {
       "id": "1119924",
@@ -640,7 +742,9 @@
       "age": 20,
       "value": 700000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1119924-1792088110.jpg"
     },
     {
       "id": "689465",
@@ -651,7 +755,9 @@
       "age": 29,
       "value": 700000,
       "contract": "2027-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/689465-1773868711.jpg"
     },
     {
       "id": "981701",
@@ -662,7 +768,9 @@
       "age": 23,
       "value": 700000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/981701-1751383368.png"
     },
     {
       "id": "439360",
@@ -673,7 +781,9 @@
       "age": 29,
       "value": 700000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/439360-1773429419.png"
     },
     {
       "id": "534290",
@@ -684,7 +794,9 @@
       "age": 28,
       "value": 700000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/534290-1773086245.jpg"
     },
     {
       "id": "323842",
@@ -695,7 +807,9 @@
       "age": 30,
       "value": 700000,
       "contract": "2028-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/323842-1715819512.jpg"
     },
     {
       "id": "1018421",
@@ -706,7 +820,9 @@
       "age": 22,
       "value": 700000,
       "contract": "2026-12-31",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1018421-1772645554.JPG"
     },
     {
       "id": "573833",
@@ -717,7 +833,9 @@
       "age": 32,
       "value": 700000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/573833-1772646211.JPG"
     },
     {
       "id": "837082",
@@ -728,7 +846,9 @@
       "age": 25,
       "value": 700000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/837082-1773866988.JPG"
     },
     {
       "id": "538774",
@@ -739,7 +859,9 @@
       "age": 28,
       "value": 700000,
       "contract": "2026-12-31",
-      "nat": "Syria"
+      "nat": "Syria",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/538774-1772661912.JPG"
     },
     {
       "id": "881114",
@@ -750,7 +872,9 @@
       "age": 23,
       "value": 700000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/881114-1772650236.JPG"
     },
     {
       "id": "535028",
@@ -761,7 +885,9 @@
       "age": 28,
       "value": 650000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/535028-1751381061.png"
     },
     {
       "id": "1249764",
@@ -772,7 +898,9 @@
       "age": 19,
       "value": 650000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1249764-1757520199.jpg"
     },
     {
       "id": "548467",
@@ -783,7 +911,9 @@
       "age": 27,
       "value": 650000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/548467-1772645588.JPG"
     },
     {
       "id": "699316",
@@ -794,7 +924,9 @@
       "age": 25,
       "value": 650000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/699316-1773426990.png"
     },
     {
       "id": "740261",
@@ -805,7 +937,9 @@
       "age": 26,
       "value": 600000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/740261-1715264981.jpg"
     },
     {
       "id": "271880",
@@ -816,7 +950,9 @@
       "age": 31,
       "value": 600000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/271880-1646918352.JPG"
     },
     {
       "id": "1005969",
@@ -827,7 +963,9 @@
       "age": 24,
       "value": 600000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1005969-1755013662.png"
     },
     {
       "id": "840760",
@@ -838,7 +976,9 @@
       "age": 26,
       "value": 600000,
       "contract": "2027-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/840760-1724876835.jpg"
     },
     {
       "id": "589527",
@@ -849,7 +989,9 @@
       "age": 27,
       "value": 600000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/589527-1773869153.jpg"
     },
     {
       "id": "343504",
@@ -860,7 +1002,9 @@
       "age": 29,
       "value": 600000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/343504-1773429142.png"
     },
     {
       "id": "1192376",
@@ -871,7 +1015,9 @@
       "age": 21,
       "value": 600000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1192376-1773086851.jpg"
     },
     {
       "id": "628970",
@@ -882,7 +1028,9 @@
       "age": 27,
       "value": 600000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/628970-1772662188.JPG"
     },
     {
       "id": "489034",
@@ -893,7 +1041,9 @@
       "age": 31,
       "value": 600000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/489034-1773086255.jpg"
     },
     {
       "id": "538284",
@@ -904,7 +1054,9 @@
       "age": 28,
       "value": 600000,
       "contract": "2028-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/538284-1651649934.jpg"
     },
     {
       "id": "740263",
@@ -915,7 +1067,9 @@
       "age": 26,
       "value": 600000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/740263-1739896035.jpg"
     },
     {
       "id": "456950",
@@ -926,7 +1080,9 @@
       "age": 30,
       "value": 600000,
       "contract": "2028-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/456950-1774461626.JPEG"
     },
     {
       "id": "1237210",
@@ -937,7 +1093,9 @@
       "age": 19,
       "value": 600000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1237210-1772647182.JPG"
     },
     {
       "id": "879231",
@@ -948,7 +1106,9 @@
       "age": 26,
       "value": 600000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/879231-1772662119.JPG"
     },
     {
       "id": "552473",
@@ -959,7 +1119,9 @@
       "age": 27,
       "value": 600000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/552473-1716421659.png"
     },
     {
       "id": "1157122",
@@ -970,7 +1132,9 @@
       "age": 22,
       "value": 550000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1157122-1700509612.png"
     },
     {
       "id": "185665",
@@ -981,7 +1145,9 @@
       "age": 33,
       "value": 500000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/185665-1531258731.jpg"
     },
     {
       "id": "1113154",
@@ -992,7 +1158,9 @@
       "age": 21,
       "value": 500000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "491648",
@@ -1003,7 +1171,9 @@
       "age": 26,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/491648-1653650615.png"
     },
     {
       "id": "1240268",
@@ -1014,7 +1184,9 @@
       "age": 19,
       "value": 500000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1240268-1758806550.png"
     },
     {
       "id": "242277",
@@ -1025,7 +1197,9 @@
       "age": 40,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Cape Verde"
+      "nat": "Cabo Verde",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/242277-1781537413.jpg"
     },
     {
       "id": "749052",
@@ -1036,7 +1210,9 @@
       "age": 24,
       "value": 500000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/749052-1678994852.jpg"
     },
     {
       "id": "141813",
@@ -1047,7 +1223,9 @@
       "age": 35,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/141813-1720647478.jpg"
     },
     {
       "id": "189785",
@@ -1058,7 +1236,9 @@
       "age": 33,
       "value": 500000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/189785-1792088153.jpg"
     },
     {
       "id": "162807",
@@ -1069,7 +1249,9 @@
       "age": 34,
       "value": 500000,
       "contract": "2027-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/162807-1792087918.jpg"
     },
     {
       "id": "929851",
@@ -1080,7 +1262,9 @@
       "age": 23,
       "value": 500000,
       "contract": "2027-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/929851-1715524441.jpg"
     },
     {
       "id": "491642",
@@ -1091,7 +1275,9 @@
       "age": 26,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/491642-1773086647.jpg"
     },
     {
       "id": "1268525",
@@ -1102,7 +1288,9 @@
       "age": 21,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1268525-1790804449.jpeg"
     },
     {
       "id": "1259888",
@@ -1113,7 +1301,9 @@
       "age": 22,
       "value": 500000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1259888-1715820067.jpg"
     },
     {
       "id": "993661",
@@ -1124,7 +1314,9 @@
       "age": 27,
       "value": 500000,
       "contract": "2027-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "660870",
@@ -1135,7 +1327,9 @@
       "age": 26,
       "value": 500000,
       "contract": null,
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/660870-1772053522.jpg"
     },
     {
       "id": "1175410",
@@ -1146,7 +1340,9 @@
       "age": 21,
       "value": 500000,
       "contract": "2027-06-30",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1175410-1757603578.jpg"
     },
     {
       "id": "662749",
@@ -1157,7 +1353,9 @@
       "age": 24,
       "value": 500000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/662749-1773866515.JPG"
     },
     {
       "id": "179308",
@@ -1168,7 +1366,9 @@
       "age": 33,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/179308-1773867889.JPG"
     },
     {
       "id": "661479",
@@ -1179,7 +1379,9 @@
       "age": 28,
       "value": 500000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/661479-1772661761.JPG"
     },
     {
       "id": "1006250",
@@ -1190,7 +1392,9 @@
       "age": 25,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1006250-1772647593.png"
     },
     {
       "id": "843306",
@@ -1201,7 +1405,9 @@
       "age": 24,
       "value": 500000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/843306-1773425746.png"
     },
     {
       "id": "747495",
@@ -1212,7 +1418,9 @@
       "age": 28,
       "value": 500000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/747495-1773425755.png"
     },
     {
       "id": "534910",
@@ -1223,7 +1431,9 @@
       "age": 30,
       "value": 500000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/534910-1773426783.png"
     },
     {
       "id": "43491",
@@ -1234,7 +1444,9 @@
       "age": 32,
       "value": 500000,
       "contract": null,
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/43491-1773426157.png"
     },
     {
       "id": "203150",
@@ -1245,7 +1457,9 @@
       "age": 30,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/203150-1773426397.png"
     },
     {
       "id": "662745",
@@ -1256,7 +1470,9 @@
       "age": 23,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/662745-1773090034.JPG"
     },
     {
       "id": "294876",
@@ -1267,7 +1483,9 @@
       "age": 30,
       "value": 500000,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/294876-1773089750.JPG"
     },
     {
       "id": "1119915",
@@ -1278,7 +1496,9 @@
       "age": 20,
       "value": 500000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1119915-1716420916.png"
     },
     {
       "id": "429960",
@@ -1289,7 +1509,9 @@
       "age": 30,
       "value": 500000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/429960-1716421877.png"
     },
     {
       "id": "623947",
@@ -1300,7 +1522,9 @@
       "age": 26,
       "value": 500000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/623947-1716422075.png"
     },
     {
       "id": "1032491",
@@ -1311,7 +1535,9 @@
       "age": 21,
       "value": 450000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1032491-1758545138.jpg"
     },
     {
       "id": "658849",
@@ -1322,7 +1548,9 @@
       "age": 27,
       "value": 450000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/658849-1773868797.jpg"
     },
     {
       "id": "194493",
@@ -1333,7 +1561,9 @@
       "age": 33,
       "value": 450000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/194493-1751382218.png"
     },
     {
       "id": "160217",
@@ -1344,7 +1574,9 @@
       "age": 32,
       "value": 450000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/160217-1751383524.png"
     },
     {
       "id": "461837",
@@ -1355,7 +1587,9 @@
       "age": 29,
       "value": 450000,
       "contract": "2026-12-31",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/461837-1751383288.png"
     },
     {
       "id": "501536",
@@ -1366,7 +1600,9 @@
       "age": 28,
       "value": 450000,
       "contract": null,
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/501536-1773429073.png"
     },
     {
       "id": "709552",
@@ -1377,7 +1613,9 @@
       "age": 26,
       "value": 450000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/709552-1773086322.jpg"
     },
     {
       "id": "1005970",
@@ -1388,7 +1626,9 @@
       "age": 21,
       "value": 450000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1005970-1758545280.jpg"
     },
     {
       "id": "739995",
@@ -1399,7 +1639,9 @@
       "age": 27,
       "value": 450000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/739995-1652278384.JPG"
     },
     {
       "id": "710779",
@@ -1410,7 +1652,9 @@
       "age": 30,
       "value": 450000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/710779-1773429303.png"
     },
     {
       "id": "491429",
@@ -1421,7 +1665,9 @@
       "age": 31,
       "value": 450000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/491429-1715820634.jpg"
     },
     {
       "id": "668088",
@@ -1432,7 +1678,9 @@
       "age": 25,
       "value": 450000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/668088-1772647169.JPG"
     },
     {
       "id": "844341",
@@ -1443,7 +1691,9 @@
       "age": 25,
       "value": 450000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/844341-1773429207.png"
     },
     {
       "id": "1175376",
@@ -1454,7 +1704,9 @@
       "age": 20,
       "value": 450000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1175376-1772646394.JPG"
     },
     {
       "id": "266795",
@@ -1465,7 +1717,9 @@
       "age": 33,
       "value": 450000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/266795-1773867154.JPG"
     },
     {
       "id": "849617",
@@ -1476,7 +1730,9 @@
       "age": 29,
       "value": 450000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/849617-1773091165.JPG"
     },
     {
       "id": "1105636",
@@ -1487,7 +1743,9 @@
       "age": 29,
       "value": 450000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1105636-1708459292.png"
     },
     {
       "id": "1119919",
@@ -1498,7 +1756,9 @@
       "age": 20,
       "value": 450000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1119919-1716421773.png"
     },
     {
       "id": "266779",
@@ -1509,7 +1769,9 @@
       "age": 34,
       "value": 450000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/266779-1752083911.png"
     },
     {
       "id": "801881",
@@ -1520,7 +1782,9 @@
       "age": 26,
       "value": 450000,
       "contract": "2027-06-30",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/801881-1694726652.jpg"
     },
     {
       "id": "817073",
@@ -1531,7 +1795,9 @@
       "age": 25,
       "value": 450000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/817073-1772664188.JPG"
     },
     {
       "id": "404118",
@@ -1542,7 +1808,9 @@
       "age": 30,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/404118-1683287883.jpg"
     },
     {
       "id": "251047",
@@ -1553,7 +1821,9 @@
       "age": 31,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/251047-1671627622.jpg"
     },
     {
       "id": "1177408",
@@ -1564,7 +1834,9 @@
       "age": 18,
       "value": 400000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1177408-1762854588.jpg"
     },
     {
       "id": "549597",
@@ -1575,7 +1847,9 @@
       "age": 27,
       "value": 400000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/549597-1792087589.jpg"
     },
     {
       "id": "1531997",
@@ -1586,7 +1860,9 @@
       "age": 20,
       "value": 400000,
       "contract": "2030-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1531997-1792088405.jpg"
     },
     {
       "id": "695981",
@@ -1597,7 +1873,9 @@
       "age": 26,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/695981-1773868600.jpg"
     },
     {
       "id": "662748",
@@ -1608,7 +1886,9 @@
       "age": 24,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/662748-1751382714.png"
     },
     {
       "id": "268150",
@@ -1619,7 +1899,9 @@
       "age": 31,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/268150-1751381914.png"
     },
     {
       "id": "600028",
@@ -1630,7 +1912,9 @@
       "age": 25,
       "value": 400000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/600028-1773869026.jpg"
     },
     {
       "id": "745320",
@@ -1641,7 +1925,9 @@
       "age": 27,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/745320-1757519216.jpg"
     },
     {
       "id": "1275715",
@@ -1652,7 +1938,9 @@
       "age": 22,
       "value": 400000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1275715-1757519289.jpg"
     },
     {
       "id": "882846",
@@ -1663,7 +1951,9 @@
       "age": 23,
       "value": 400000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/882846-1773086173.jpg"
     },
     {
       "id": "340102",
@@ -1674,7 +1964,9 @@
       "age": 29,
       "value": 400000,
       "contract": "2028-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/340102-1636333684.JPG"
     },
     {
       "id": "1064213",
@@ -1685,7 +1977,9 @@
       "age": 22,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1064213-1757344398.jpg"
     },
     {
       "id": "534263",
@@ -1696,7 +1990,9 @@
       "age": 27,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/534263-1613725815.jpg"
     },
     {
       "id": "1131928",
@@ -1707,7 +2003,9 @@
       "age": 22,
       "value": 400000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1131928-1715822789.jpg"
     },
     {
       "id": "736118",
@@ -1718,7 +2016,9 @@
       "age": 30,
       "value": 400000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/736118-1774461561.JPEG"
     },
     {
       "id": "622346",
@@ -1729,7 +2029,9 @@
       "age": 28,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/622346-1772647089.JPG"
     },
     {
       "id": "661828",
@@ -1740,7 +2042,9 @@
       "age": 27,
       "value": 400000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/661828-1772647103.JPG"
     },
     {
       "id": "718212",
@@ -1751,7 +2055,9 @@
       "age": 24,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/718212-1773866528.JPG"
     },
     {
       "id": "352339",
@@ -1762,7 +2068,9 @@
       "age": 30,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/352339-1773867204.JPG"
     },
     {
       "id": "491646",
@@ -1773,7 +2081,9 @@
       "age": 26,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/491646-1772662230.JPG"
     },
     {
       "id": "491640",
@@ -1784,7 +2094,9 @@
       "age": 26,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/491640-1772661426.JPG"
     },
     {
       "id": "135082",
@@ -1795,7 +2107,9 @@
       "age": 35,
       "value": 400000,
       "contract": "2027-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/135082-1668454750.jpg"
     },
     {
       "id": "630945",
@@ -1806,7 +2120,9 @@
       "age": 22,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/630945-1773425907.png"
     },
     {
       "id": "1032493",
@@ -1817,7 +2133,9 @@
       "age": 22,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1032493-1751383515.png"
     },
     {
       "id": "319467",
@@ -1828,7 +2146,9 @@
       "age": 31,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/319467-1773090605.JPG"
     },
     {
       "id": "401699",
@@ -1839,7 +2159,9 @@
       "age": 28,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/401699-1773089739.JPG"
     },
     {
       "id": "538282",
@@ -1850,7 +2172,9 @@
       "age": 27,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/538282-1773088155.JPG"
     },
     {
       "id": "367462",
@@ -1861,7 +2185,9 @@
       "age": 31,
       "value": 400000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/367462-1773089850.JPG"
     },
     {
       "id": "1150503",
@@ -1872,7 +2198,9 @@
       "age": 21,
       "value": 400000,
       "contract": "2029-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1150503-1716422407.png"
     },
     {
       "id": "1128625",
@@ -1883,7 +2211,9 @@
       "age": 23,
       "value": 400000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1128625-1752083691.png"
     },
     {
       "id": "741098",
@@ -1894,7 +2224,9 @@
       "age": 30,
       "value": 400000,
       "contract": null,
-      "nat": "Panama"
+      "nat": "Panamá",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/741098-1722908344.png"
     },
     {
       "id": "535208",
@@ -1905,7 +2237,9 @@
       "age": 32,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/535208-1686072652.jpg"
     },
     {
       "id": "858262",
@@ -1916,7 +2250,9 @@
       "age": 24,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/858262-1742329288.jpg"
     },
     {
       "id": "686429",
@@ -1927,7 +2263,9 @@
       "age": 28,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/686429-1772663329.JPG"
     },
     {
       "id": "980152",
@@ -1938,7 +2276,9 @@
       "age": 21,
       "value": 375000,
       "contract": "2029-12-31",
-      "nat": "Venezuela"
+      "nat": "Venezuela",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/980152-1792088463.jpg"
     },
     {
       "id": "1064210",
@@ -1949,7 +2289,9 @@
       "age": 22,
       "value": 375000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1064210-1773868995.jpg"
     },
     {
       "id": "615257",
@@ -1960,7 +2302,9 @@
       "age": 30,
       "value": 375000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/615257-1717080458.png"
     },
     {
       "id": "628976",
@@ -1971,7 +2315,9 @@
       "age": 26,
       "value": 375000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/628976-1773866999.JPG"
     },
     {
       "id": "1173445",
@@ -1982,7 +2328,9 @@
       "age": 23,
       "value": 375000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1173445-1773426001.png"
     },
     {
       "id": "401704",
@@ -1993,7 +2341,9 @@
       "age": 28,
       "value": 375000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/401704-1773090336.JPG"
     },
     {
       "id": "746185",
@@ -2004,7 +2354,9 @@
       "age": 27,
       "value": 375000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/746185-1772035820.jpg"
     },
     {
       "id": "320331",
@@ -2015,7 +2367,9 @@
       "age": 33,
       "value": 375000,
       "contract": "2026-12-31",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/320331-1716421070.png"
     },
     {
       "id": "319463",
@@ -2026,7 +2380,9 @@
       "age": 30,
       "value": 375000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/319463-1757344604.jpg"
     },
     {
       "id": "285772",
@@ -2037,7 +2393,9 @@
       "age": 31,
       "value": 350000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/285772-1721247392.jpg"
     },
     {
       "id": "531286",
@@ -2048,7 +2406,9 @@
       "age": 32,
       "value": 350000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/531286-1656492716.jpg"
     },
     {
       "id": "168259",
@@ -2059,7 +2419,9 @@
       "age": 35,
       "value": 350000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/168259-1792088093.jpg"
     },
     {
       "id": "249211",
@@ -2070,7 +2432,9 @@
       "age": 34,
       "value": 350000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/249211-1792087721.jpg"
     },
     {
       "id": "995585",
@@ -2081,7 +2445,9 @@
       "age": 24,
       "value": 350000,
       "contract": "2029-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/995585-1720465445.png"
     },
     {
       "id": "418169",
@@ -2092,7 +2458,9 @@
       "age": 30,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/418169-1757519931.jpg"
     },
     {
       "id": "319473",
@@ -2103,7 +2471,9 @@
       "age": 31,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/319473-1773086941.jpg"
     },
     {
       "id": "660546",
@@ -2114,7 +2484,9 @@
       "age": 25,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/660546-1684520728.jpg"
     },
     {
       "id": "844690",
@@ -2125,7 +2497,9 @@
       "age": 24,
       "value": 350000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/844690-1772646741.JPG"
     },
     {
       "id": "990936",
@@ -2136,7 +2510,9 @@
       "age": 24,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/990936-1773865856.JPG"
     },
     {
       "id": "504397",
@@ -2147,7 +2523,9 @@
       "age": 29,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/504397-1773866753.JPG"
     },
     {
       "id": "1149104",
@@ -2158,7 +2536,9 @@
       "age": 22,
       "value": 350000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1149104-1773866266.JPG"
     },
     {
       "id": "440380",
@@ -2169,7 +2549,9 @@
       "age": 31,
       "value": 350000,
       "contract": null,
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/440380-1773867142.JPG"
     },
     {
       "id": "431703",
@@ -2180,7 +2562,9 @@
       "age": 33,
       "value": 350000,
       "contract": "2027-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/431703-1771010095.JPG"
     },
     {
       "id": "1204631",
@@ -2191,7 +2575,9 @@
       "age": 23,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1204631-1772661162.JPG"
     },
     {
       "id": "662750",
@@ -2202,7 +2588,9 @@
       "age": 24,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/662750-1772660711.JPG"
     },
     {
       "id": "695979",
@@ -2213,7 +2601,9 @@
       "age": 25,
       "value": 350000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/695979-1772661922.JPG"
     },
     {
       "id": "736529",
@@ -2224,7 +2614,9 @@
       "age": 26,
       "value": 350000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/736529-1772661370.JPG"
     },
     {
       "id": "961389",
@@ -2235,7 +2627,9 @@
       "age": 22,
       "value": 350000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "575970",
@@ -2246,7 +2640,9 @@
       "age": 30,
       "value": 350000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/575970-1742487068.jpg"
     },
     {
       "id": "1001589",
@@ -2257,7 +2653,9 @@
       "age": 19,
       "value": 350000,
       "contract": "2029-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1001589-1773088654.JPG"
     },
     {
       "id": "840865",
@@ -2268,7 +2666,9 @@
       "age": 30,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/840865-1745531972.jpg"
     },
     {
       "id": "739584",
@@ -2279,7 +2679,9 @@
       "age": 26,
       "value": 350000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/739584-1772036240.jpg"
     },
     {
       "id": "536016",
@@ -2290,7 +2692,9 @@
       "age": 32,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "319471",
@@ -2301,7 +2705,9 @@
       "age": 30,
       "value": 350000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/319471-1772646679.JPG"
     },
     {
       "id": "841844",
@@ -2312,7 +2718,9 @@
       "age": 26,
       "value": 350000,
       "contract": "2028-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/841844-1772663867.JPG"
     },
     {
       "id": "491604",
@@ -2323,7 +2731,9 @@
       "age": 26,
       "value": 350000,
       "contract": "2027-06-30",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/491604-1770915097.jpg"
     },
     {
       "id": "879222",
@@ -2334,7 +2744,9 @@
       "age": 25,
       "value": 325000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/879222-1773089903.JPG"
     },
     {
       "id": "269793",
@@ -2345,7 +2757,9 @@
       "age": 34,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/269793-1724349140.png"
     },
     {
       "id": "248763",
@@ -2356,7 +2770,9 @@
       "age": 34,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/248763-1636585115.JPG"
     },
     {
       "id": "402519",
@@ -2367,7 +2783,9 @@
       "age": 31,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/402519-1739215266.png"
     },
     {
       "id": "89701",
@@ -2378,7 +2796,9 @@
       "age": 37,
       "value": 300000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/89701-1792088039.jpg"
     },
     {
       "id": "744278",
@@ -2389,7 +2809,9 @@
       "age": 25,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/744278-1773868810.jpg"
     },
     {
       "id": "1150014",
@@ -2400,7 +2822,9 @@
       "age": 21,
       "value": 300000,
       "contract": "2028-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1150014-1751383136.png"
     },
     {
       "id": "727788",
@@ -2411,7 +2835,9 @@
       "age": 33,
       "value": 300000,
       "contract": null,
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/727788-1773087164.jpg"
     },
     {
       "id": "841065",
@@ -2422,7 +2848,9 @@
       "age": 25,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/841065-1773086731.jpg"
     },
     {
       "id": "365030",
@@ -2433,7 +2861,9 @@
       "age": 32,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "186862",
@@ -2444,7 +2874,9 @@
       "age": 34,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/186862-1774461410.JPEG"
     },
     {
       "id": "1101448",
@@ -2455,7 +2887,9 @@
       "age": 21,
       "value": 300000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1101448-1715821881.jpg"
     },
     {
       "id": "312520",
@@ -2466,7 +2900,9 @@
       "age": 30,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/312520-1772647258.JPG"
     },
     {
       "id": "747810",
@@ -2477,7 +2913,9 @@
       "age": 24,
       "value": 300000,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/747810-1720821120.jpg"
     },
     {
       "id": "491636",
@@ -2488,7 +2926,9 @@
       "age": 26,
       "value": 300000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/491636-1773865910.JPG"
     },
     {
       "id": "189740",
@@ -2499,7 +2939,9 @@
       "age": 32,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/189740-1728394602.png"
     },
     {
       "id": "662752",
@@ -2510,7 +2952,9 @@
       "age": 24,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/662752-1772660892.JPG"
     },
     {
       "id": "209815",
@@ -2521,7 +2965,9 @@
       "age": 33,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/209815-1773427227.png"
     },
     {
       "id": "706577",
@@ -2532,7 +2978,9 @@
       "age": 28,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/706577-1773427187.png"
     },
     {
       "id": "184998",
@@ -2543,7 +2991,9 @@
       "age": 33,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/184998-1773426556.png"
     },
     {
       "id": "850434",
@@ -2554,7 +3004,9 @@
       "age": 22,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/850434-1773426387.png"
     },
     {
       "id": "1175374",
@@ -2565,7 +3017,9 @@
       "age": 20,
       "value": 300000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1175374-1773426822.png"
     },
     {
       "id": "718211",
@@ -2576,7 +3030,9 @@
       "age": 23,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/718211-1673632424.jpg"
     },
     {
       "id": "1162826",
@@ -2587,7 +3043,9 @@
       "age": 23,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1162826-1773088168.JPG"
     },
     {
       "id": "875009",
@@ -2598,7 +3056,9 @@
       "age": 23,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/875009-1716421831.png"
     },
     {
       "id": "737924",
@@ -2609,7 +3069,9 @@
       "age": 26,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Venezuela"
+      "nat": "Venezuela",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "319468",
@@ -2620,7 +3082,9 @@
       "age": 31,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "589854",
@@ -2631,7 +3095,9 @@
       "age": 27,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/589854-1755110666.jpg"
     },
     {
       "id": "270424",
@@ -2642,7 +3108,9 @@
       "age": 31,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/270424-1772663121.JPG"
     },
     {
       "id": "265765",
@@ -2653,7 +3121,9 @@
       "age": 30,
       "value": 275000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/265765-1653054845.jpg"
     },
     {
       "id": "1124285",
@@ -2664,7 +3134,9 @@
       "age": 20,
       "value": 275000,
       "contract": null,
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1124285-1770654069.png"
     },
     {
       "id": "491639",
@@ -2675,7 +3147,9 @@
       "age": 26,
       "value": 275000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/491639-1773427034.png"
     },
     {
       "id": "157766",
@@ -2686,7 +3160,9 @@
       "age": 35,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/157766-1651649678.jpg"
     },
     {
       "id": "1150012",
@@ -2697,7 +3173,9 @@
       "age": 22,
       "value": 250000,
       "contract": "2028-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1150012-1751382040.png"
     },
     {
       "id": "843243",
@@ -2708,7 +3186,9 @@
       "age": 26,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/843243-1757518861.jpg"
     },
     {
       "id": "1375173",
@@ -2719,7 +3199,9 @@
       "age": 20,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "61856",
@@ -2730,7 +3212,9 @@
       "age": 35,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/61856-1772645810.JPG"
     },
     {
       "id": "580093",
@@ -2741,7 +3225,9 @@
       "age": 29,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "889092",
@@ -2752,7 +3238,9 @@
       "age": 23,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/889092-1715812910.jpg"
     },
     {
       "id": "378873",
@@ -2763,7 +3251,9 @@
       "age": 32,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/378873-1715813006.jpg"
     },
     {
       "id": "884310",
@@ -2774,7 +3264,9 @@
       "age": 26,
       "value": 250000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/884310-1772645898.JPG"
     },
     {
       "id": "201318",
@@ -2785,7 +3277,9 @@
       "age": 35,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/201318-1772663113.JPG"
     },
     {
       "id": "333923",
@@ -2796,7 +3290,9 @@
       "age": 31,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/333923-1773868268.jpg"
     },
     {
       "id": "149173",
@@ -2807,7 +3303,9 @@
       "age": 32,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/149173-1772661239.JPG"
     },
     {
       "id": "843307",
@@ -2818,7 +3316,9 @@
       "age": 26,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/843307-1772660557.JPG"
     },
     {
       "id": "177064",
@@ -2829,7 +3329,9 @@
       "age": 35,
       "value": 250000,
       "contract": null,
-      "nat": "Panama"
+      "nat": "Panamá",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/177064-1772650278.JPG"
     },
     {
       "id": "214645",
@@ -2840,7 +3342,9 @@
       "age": 33,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/214645-1773425915.png"
     },
     {
       "id": "1120315",
@@ -2851,7 +3355,9 @@
       "age": 21,
       "value": 250000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1120315-1773426123.png"
     },
     {
       "id": "919184",
@@ -2862,7 +3368,9 @@
       "age": 23,
       "value": 250000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/919184-1778080955.jpg"
     },
     {
       "id": "385104",
@@ -2873,7 +3381,9 @@
       "age": 29,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Canada"
+      "nat": "Canadá",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/385104-1773090129.JPG"
     },
     {
       "id": "849581",
@@ -2884,7 +3394,9 @@
       "age": 22,
       "value": 250000,
       "contract": null,
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/849581-1773090618.JPG"
     },
     {
       "id": "1018697",
@@ -2895,7 +3407,9 @@
       "age": 21,
       "value": 250000,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1018697-1743016411.jpg"
     },
     {
       "id": "894871",
@@ -2906,7 +3420,9 @@
       "age": 23,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/894871-1716421020.png"
     },
     {
       "id": "432561",
@@ -2917,7 +3433,9 @@
       "age": 30,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "696695",
@@ -2928,7 +3446,9 @@
       "age": 27,
       "value": 250000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/696695-1716420447.png"
     },
     {
       "id": "534284",
@@ -2939,7 +3459,9 @@
       "age": 31,
       "value": 250000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/534284-1772664518.JPG"
     },
     {
       "id": "662736",
@@ -2950,7 +3472,9 @@
       "age": 23,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/662736-1651649738.jpg"
     },
     {
       "id": "367230",
@@ -2961,7 +3485,9 @@
       "age": 32,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/367230-1772664117.JPG"
     },
     {
       "id": "661241",
@@ -2972,7 +3498,9 @@
       "age": 23,
       "value": 250000,
       "contract": "2028-12-31",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/661241-1772031351.png"
     },
     {
       "id": "104006",
@@ -2983,7 +3511,9 @@
       "age": 38,
       "value": 225000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/104006-1651653330.jpg"
     },
     {
       "id": "267772",
@@ -2994,7 +3524,9 @@
       "age": 32,
       "value": 225000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/267772-1773087195.jpg"
     },
     {
       "id": "1511759",
@@ -3005,7 +3537,9 @@
       "age": 19,
       "value": 225000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1511759-1773085220.jpg"
     },
     {
       "id": "424673",
@@ -3016,7 +3550,9 @@
       "age": 29,
       "value": 225000,
       "contract": "2027-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/424673-1773086333.jpg"
     },
     {
       "id": "297041",
@@ -3027,7 +3563,9 @@
       "age": 33,
       "value": 225000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/297041-1613727549.jpg"
     },
     {
       "id": "103253",
@@ -3038,7 +3576,9 @@
       "age": 35,
       "value": 225000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/103253-1739895558.jpg"
     },
     {
       "id": "309796",
@@ -3049,7 +3589,9 @@
       "age": 35,
       "value": 225000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/309796-1715820719.jpg"
     },
     {
       "id": "965324",
@@ -3060,7 +3602,9 @@
       "age": 21,
       "value": 225000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/965324-1773866603.JPG"
     },
     {
       "id": "660502",
@@ -3071,7 +3615,9 @@
       "age": 25,
       "value": 225000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/660502-1772648082.JPG"
     },
     {
       "id": "1004286",
@@ -3082,7 +3628,9 @@
       "age": 24,
       "value": 225000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1004286-1773425416.png"
     },
     {
       "id": "270968",
@@ -3093,7 +3641,9 @@
       "age": 33,
       "value": 225000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/270968-1773091175.JPG"
     },
     {
       "id": "838837",
@@ -3104,7 +3654,9 @@
       "age": 24,
       "value": 225000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/838837-1772036912.jpg"
     },
     {
       "id": "844448",
@@ -3115,7 +3667,9 @@
       "age": 25,
       "value": 225000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/844448-1712165363.jpg"
     },
     {
       "id": "542073",
@@ -3126,7 +3680,9 @@
       "age": 28,
       "value": 225000,
       "contract": null,
-      "nat": "Panama"
+      "nat": "Panamá",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/542073-1739892748.png"
     },
     {
       "id": "604551",
@@ -3137,7 +3693,9 @@
       "age": 26,
       "value": 225000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/604551-1772664465.JPG"
     },
     {
       "id": "415845",
@@ -3148,7 +3706,9 @@
       "age": 32,
       "value": 225000,
       "contract": null,
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/415845-1677497803.JPG"
     },
     {
       "id": "1201279",
@@ -3159,7 +3719,9 @@
       "age": 21,
       "value": 200000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1201279-1783456995.jpeg"
     },
     {
       "id": "1119920",
@@ -3170,7 +3732,9 @@
       "age": 20,
       "value": 200000,
       "contract": "2028-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1119920-1792087514.jpg"
     },
     {
       "id": "376781",
@@ -3181,7 +3745,9 @@
       "age": 29,
       "value": 200000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/376781-1773087353.jpg"
     },
     {
       "id": "817052",
@@ -3192,7 +3758,9 @@
       "age": 25,
       "value": 200000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/817052-1773087260.jpg"
     },
     {
       "id": "998206",
@@ -3203,7 +3771,9 @@
       "age": 21,
       "value": 200000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/998206-1773086660.jpg"
     },
     {
       "id": "738852",
@@ -3214,7 +3784,9 @@
       "age": 28,
       "value": 200000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/738852-1712932529.jpg"
     },
     {
       "id": "386478",
@@ -3225,7 +3797,9 @@
       "age": 32,
       "value": 200000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/386478-1715820806.jpg"
     },
     {
       "id": "837133",
@@ -3236,7 +3810,9 @@
       "age": 24,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/837133-1715822389.jpg"
     },
     {
       "id": "1029528",
@@ -3247,7 +3823,9 @@
       "age": 23,
       "value": 200000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1029528-1715824652.jpg"
     },
     {
       "id": "140518",
@@ -3258,7 +3836,9 @@
       "age": 35,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/140518-1774461637.JPEG"
     },
     {
       "id": "1240308",
@@ -3269,7 +3849,9 @@
       "age": 21,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1240308-1772663409.JPG"
     },
     {
       "id": "189794",
@@ -3280,7 +3862,9 @@
       "age": 33,
       "value": 200000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/189794-1772645883.JPG"
     },
     {
       "id": "267906",
@@ -3291,7 +3875,9 @@
       "age": 33,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/267906-1773865007.JPG"
     },
     {
       "id": "1003912",
@@ -3302,7 +3888,9 @@
       "age": 21,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1003912-1792088496.jpg"
     },
     {
       "id": "950629",
@@ -3313,7 +3901,9 @@
       "age": 22,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/950629-1773866612.JPG"
     },
     {
       "id": "662751",
@@ -3324,7 +3914,9 @@
       "age": 23,
       "value": 200000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/662751-1773867800.JPG"
     },
     {
       "id": "102453",
@@ -3335,7 +3927,9 @@
       "age": 36,
       "value": 200000,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/102453-1773427280.png"
     },
     {
       "id": "119537",
@@ -3346,7 +3940,9 @@
       "age": 35,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/119537-1773426670.png"
     },
     {
       "id": "843335",
@@ -3357,7 +3953,9 @@
       "age": 25,
       "value": 200000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/843335-1773088641.JPG"
     },
     {
       "id": "873900",
@@ -3368,7 +3966,9 @@
       "age": 25,
       "value": 200000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/873900-1772036765.jpg"
     },
     {
       "id": "602553",
@@ -3379,7 +3979,9 @@
       "age": 26,
       "value": 200000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/602553-1772035948.jpg"
     },
     {
       "id": "1209282",
@@ -3390,7 +3992,9 @@
       "age": 21,
       "value": 200000,
       "contract": "2028-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1209282-1716422229.png"
     },
     {
       "id": "451859",
@@ -3401,7 +4005,9 @@
       "age": 29,
       "value": 200000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/451859-1537883737.jpg"
     },
     {
       "id": "1064209",
@@ -3412,7 +4018,9 @@
       "age": 22,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1064209-1757345497.jpg"
     },
     {
       "id": "386436",
@@ -3423,7 +4031,9 @@
       "age": 27,
       "value": 200000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/386436-1772662896.JPG"
     },
     {
       "id": "119442",
@@ -3434,7 +4044,9 @@
       "age": 35,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/119442-1772664333.JPG"
     },
     {
       "id": "37666",
@@ -3445,7 +4057,9 @@
       "age": 39,
       "value": 175000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/37666-1686843752.jpg"
     },
     {
       "id": "89718",
@@ -3456,7 +4070,9 @@
       "age": 36,
       "value": 175000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/89718-1792087756.jpg"
     },
     {
       "id": "981498",
@@ -3467,7 +4083,9 @@
       "age": 22,
       "value": 175000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/981498-1772661649.JPG"
     },
     {
       "id": "209822",
@@ -3478,7 +4096,9 @@
       "age": 33,
       "value": 175000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/209822-1752081790.jpg"
     },
     {
       "id": "180019",
@@ -3489,7 +4109,9 @@
       "age": 34,
       "value": 175000,
       "contract": "2028-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/180019-1716420977.png"
     },
     {
       "id": "501241",
@@ -3500,7 +4122,9 @@
       "age": 33,
       "value": 175000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/501241-1653054772.jpg"
     },
     {
       "id": "323422",
@@ -3511,7 +4135,9 @@
       "age": 33,
       "value": 175000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/323422-1772664094.JPG"
     },
     {
       "id": "248331",
@@ -3522,7 +4148,9 @@
       "age": 33,
       "value": 175000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/248331-1772629989.png"
     },
     {
       "id": "1099214",
@@ -3533,7 +4161,9 @@
       "age": 22,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1150009",
@@ -3544,7 +4174,9 @@
       "age": 21,
       "value": 150000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1150009-1751381409.png"
     },
     {
       "id": "749448",
@@ -3555,7 +4187,9 @@
       "age": 24,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/749448-1773869166.jpg"
     },
     {
       "id": "711258",
@@ -3566,7 +4200,9 @@
       "age": 28,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/711258-1757520940.jpg"
     },
     {
       "id": "698322",
@@ -3577,7 +4213,9 @@
       "age": 27,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/698322-1773086058.jpg"
     },
     {
       "id": "1177391",
@@ -3588,7 +4226,9 @@
       "age": 19,
       "value": 150000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1177391-1773086179.jpg"
     },
     {
       "id": "120551",
@@ -3599,7 +4239,9 @@
       "age": 34,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/120551-1774461494.JPEG"
     },
     {
       "id": "128474",
@@ -3610,7 +4252,9 @@
       "age": 35,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/128474-1715813717.jpg"
     },
     {
       "id": "636440",
@@ -3621,7 +4265,9 @@
       "age": 28,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/636440-1772646752.JPG"
     },
     {
       "id": "401560",
@@ -3632,7 +4278,9 @@
       "age": 30,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/401560-1773865170.JPG"
     },
     {
       "id": "908630",
@@ -3643,7 +4291,9 @@
       "age": 26,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1229030",
@@ -3654,7 +4304,9 @@
       "age": 21,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1229030-1772660930.JPG"
     },
     {
       "id": "172561",
@@ -3665,7 +4317,9 @@
       "age": 26,
       "value": 150000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/172561-1773425427.png"
     },
     {
       "id": "1274287",
@@ -3676,7 +4330,9 @@
       "age": 22,
       "value": 150000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1274287-1773425515.png"
     },
     {
       "id": "287696",
@@ -3687,7 +4343,9 @@
       "age": 31,
       "value": 150000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/287696-1773090773.JPG"
     },
     {
       "id": "895510",
@@ -3698,7 +4356,9 @@
       "age": 23,
       "value": 150000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/895510-1752083260.png"
     },
     {
       "id": "737965",
@@ -3709,7 +4369,9 @@
       "age": 24,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/737965-1772036925.jpg"
     },
     {
       "id": "1334883",
@@ -3720,7 +4382,9 @@
       "age": 21,
       "value": 150000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1150506",
@@ -3731,7 +4395,9 @@
       "age": 21,
       "value": 150000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1150506-1772663188.JPG"
     },
     {
       "id": "549235",
@@ -3742,7 +4408,9 @@
       "age": 28,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/549235-1772630017.png"
     },
     {
       "id": "113999",
@@ -3753,7 +4421,9 @@
       "age": 38,
       "value": 125000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/113999-1497615378.jpg"
     },
     {
       "id": "1119916",
@@ -3764,7 +4434,9 @@
       "age": 20,
       "value": 125000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1119916-1751380787.png"
     },
     {
       "id": "984080",
@@ -3775,7 +4447,9 @@
       "age": 24,
       "value": 125000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1018298",
@@ -3786,7 +4460,9 @@
       "age": 22,
       "value": 125000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1369319",
@@ -3797,7 +4473,9 @@
       "age": 22,
       "value": 125000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "119515",
@@ -3808,7 +4486,9 @@
       "age": 35,
       "value": 125000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/119515-1773090415.JPG"
     },
     {
       "id": "189797",
@@ -3819,7 +4499,9 @@
       "age": 33,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/189797-1727801314.jpg"
     },
     {
       "id": "1292317",
@@ -3830,7 +4512,9 @@
       "age": 20,
       "value": 100000,
       "contract": "2027-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1292317-1792088558.jpg"
     },
     {
       "id": "59100",
@@ -3841,7 +4525,9 @@
       "age": 36,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/59100-1757520121.jpg"
     },
     {
       "id": "1323621",
@@ -3852,7 +4538,9 @@
       "age": 18,
       "value": 100000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1323621-1773086741.jpg"
     },
     {
       "id": "53001",
@@ -3863,7 +4551,9 @@
       "age": 36,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/53001-1689713093.jpg"
     },
     {
       "id": "439663",
@@ -3874,7 +4564,9 @@
       "age": 35,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/439663-1582819308.jpg"
     },
     {
       "id": "127271",
@@ -3885,7 +4577,9 @@
       "age": 36,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/127271-1488911924.jpg"
     },
     {
       "id": "844720",
@@ -3896,7 +4590,9 @@
       "age": 25,
       "value": 100000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/844720-1739895566.jpg"
     },
     {
       "id": "84238",
@@ -3907,7 +4603,9 @@
       "age": 37,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/84238-1772645494.JPG"
     },
     {
       "id": "529755",
@@ -3918,7 +4616,9 @@
       "age": 37,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/529755-1772646365.JPG"
     },
     {
       "id": "167314",
@@ -3929,7 +4629,9 @@
       "age": 36,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/167314-1773866278.JPG"
     },
     {
       "id": "1398551",
@@ -3940,7 +4642,9 @@
       "age": 26,
       "value": 100000,
       "contract": "2027-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "55150",
@@ -3951,7 +4655,9 @@
       "age": 40,
       "value": 100000,
       "contract": "2027-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/55150-1742570315.png"
     },
     {
       "id": "1370756",
@@ -3962,7 +4668,9 @@
       "age": 17,
       "value": 100000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1370756-1772661359.JPG"
     },
     {
       "id": "877276",
@@ -3973,7 +4681,9 @@
       "age": 25,
       "value": 100000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/877276-1773426471.png"
     },
     {
       "id": "749048",
@@ -3984,7 +4694,9 @@
       "age": 24,
       "value": 100000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "605818",
@@ -3995,7 +4707,9 @@
       "age": 30,
       "value": 100000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/605818-1763396755.jpeg"
     },
     {
       "id": "534301",
@@ -4006,7 +4720,9 @@
       "age": 28,
       "value": 100000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/534301-1772663694.JPG"
     },
     {
       "id": "179790",
@@ -4017,7 +4733,9 @@
       "age": 35,
       "value": 100000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/179790-1772663528.JPG"
     },
     {
       "id": "1108482",
@@ -4028,7 +4746,9 @@
       "age": 20,
       "value": 100000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1108482-1772664298.JPG"
     },
     {
       "id": "1119921",
@@ -4039,7 +4759,9 @@
       "age": 20,
       "value": 75000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "662755",
@@ -4050,7 +4772,9 @@
       "age": 24,
       "value": 75000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/662755-1773868658.jpg"
     },
     {
       "id": "105890",
@@ -4061,7 +4785,9 @@
       "age": 37,
       "value": 75000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/105890-1757519510.jpg"
     },
     {
       "id": "59596",
@@ -4072,7 +4798,9 @@
       "age": 38,
       "value": 75000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/59596-1773429131.png"
     },
     {
       "id": "1113881",
@@ -4083,7 +4811,9 @@
       "age": 24,
       "value": 75000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1113881-1773086478.jpg"
     },
     {
       "id": "136901",
@@ -4094,7 +4824,9 @@
       "age": 36,
       "value": 75000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/136901-1613738547.jpg"
     },
     {
       "id": "177776",
@@ -4105,7 +4837,9 @@
       "age": 34,
       "value": 75000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/177776-1772662971.JPG"
     },
     {
       "id": "1232505",
@@ -4116,7 +4850,9 @@
       "age": 21,
       "value": 75000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1232505-1773867370.JPG"
     },
     {
       "id": "1415355",
@@ -4127,7 +4863,9 @@
       "age": 21,
       "value": 75000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1415355-1773867576.JPG"
     },
     {
       "id": "1374273",
@@ -4138,7 +4876,9 @@
       "age": 20,
       "value": 75000,
       "contract": "2027-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1374273-1773867876.JPG"
     },
     {
       "id": "567414",
@@ -4149,7 +4889,9 @@
       "age": 34,
       "value": 75000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/567414-1593116607.png"
     },
     {
       "id": "1201278",
@@ -4160,7 +4902,9 @@
       "age": 21,
       "value": 75000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1201278-1773090142.JPG"
     },
     {
       "id": "76388",
@@ -4171,7 +4915,9 @@
       "age": 37,
       "value": 75000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/76388-1752082174.png"
     },
     {
       "id": "138998",
@@ -4182,7 +4928,9 @@
       "age": 37,
       "value": 75000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/138998-1669106774.jpg"
     },
     {
       "id": "1515370",
@@ -4193,7 +4941,9 @@
       "age": 20,
       "value": 75000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "881163",
@@ -4204,7 +4954,9 @@
       "age": 21,
       "value": 75000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "267894",
@@ -4215,7 +4967,9 @@
       "age": 38,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/267894-1686312831.JPG"
     },
     {
       "id": "1375205",
@@ -4226,7 +4980,9 @@
       "age": 20,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "964447",
@@ -4237,7 +4993,9 @@
       "age": 22,
       "value": 50000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/964447-1774871619.JPG"
     },
     {
       "id": "72903",
@@ -4248,7 +5006,9 @@
       "age": 38,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/72903-1792087406.jpg"
     },
     {
       "id": "179532",
@@ -4259,7 +5019,9 @@
       "age": 39,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/179532-1757519825.jpg"
     },
     {
       "id": "195958",
@@ -4270,7 +5032,9 @@
       "age": 37,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/195958-1757519164.jpg"
     },
     {
       "id": "881115",
@@ -4281,7 +5045,9 @@
       "age": 23,
       "value": 50000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/881115-1773085022.jpg"
     },
     {
       "id": "76837",
@@ -4292,7 +5058,9 @@
       "age": 36,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/76837-1774461399.JPEG"
     },
     {
       "id": "1177412",
@@ -4303,7 +5071,9 @@
       "age": 18,
       "value": 50000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "534297",
@@ -4314,7 +5084,9 @@
       "age": 36,
       "value": 50000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/534297-1772645794.JPG"
     },
     {
       "id": "1428874",
@@ -4325,7 +5097,9 @@
       "age": 21,
       "value": 50000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1428874-1772660981.JPG"
     },
     {
       "id": "1512218",
@@ -4336,7 +5110,9 @@
       "age": 21,
       "value": 50000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1512218-1772661750.JPG"
     },
     {
       "id": "844438",
@@ -4347,7 +5123,9 @@
       "age": 26,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/844438-1773090052.JPG"
     },
     {
       "id": "1238948",
@@ -4358,7 +5136,9 @@
       "age": 22,
       "value": 50000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1238948-1773090350.JPG"
     },
     {
       "id": "188792",
@@ -4369,7 +5149,9 @@
       "age": 38,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/188792-1752082275.png"
     },
     {
       "id": "1297917",
@@ -4380,7 +5162,9 @@
       "age": 22,
       "value": 50000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1297917-1752082523.png"
     },
     {
       "id": "1119918",
@@ -4391,7 +5175,9 @@
       "age": 20,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1119918-1680547668.jpg"
     },
     {
       "id": "207393",
@@ -4402,7 +5188,9 @@
       "age": 33,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/207393-1772663752.JPG"
     },
     {
       "id": "1086589",
@@ -4413,7 +5201,9 @@
       "age": 20,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Venezuela"
+      "nat": "Venezuela",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1086589-1772663518.JPG"
     },
     {
       "id": "172369",
@@ -4424,7 +5214,9 @@
       "age": 36,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/172369-1772664200.JPG"
     },
     {
       "id": "60889",
@@ -4435,7 +5227,9 @@
       "age": 39,
       "value": 25000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/60889-1630574292.jpg"
     },
     {
       "id": "83895",
@@ -4446,7 +5240,9 @@
       "age": 39,
       "value": 25000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/83895-1792088073.jpg"
     },
     {
       "id": "1344425",
@@ -4457,7 +5253,9 @@
       "age": 19,
       "value": 25000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1344425-1773868724.jpg"
     },
     {
       "id": "1246355",
@@ -4468,7 +5266,9 @@
       "age": 19,
       "value": 25000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1246355-1773429037.png"
     },
     {
       "id": "1005968",
@@ -4479,7 +5279,9 @@
       "age": 22,
       "value": 25000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1510189",
@@ -4490,7 +5292,9 @@
       "age": 19,
       "value": 25000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1469990",
@@ -4501,7 +5305,9 @@
       "age": 21,
       "value": 25000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1373702",
@@ -4512,7 +5318,9 @@
       "age": 18,
       "value": 25000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1373702-1773868313.JPG"
     },
     {
       "id": "1512214",
@@ -4523,7 +5331,9 @@
       "age": 18,
       "value": 25000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1512214-1773867811.JPG"
     },
     {
       "id": "1266121",
@@ -4534,7 +5344,9 @@
       "age": 21,
       "value": 25000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "529336",
@@ -4545,7 +5357,9 @@
       "age": 38,
       "value": 25000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/529336-1773426232.png"
     },
     {
       "id": "1309229",
@@ -4556,7 +5370,9 @@
       "age": 20,
       "value": 25000,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "89793",
@@ -4567,7 +5383,9 @@
       "age": 39,
       "value": 25000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/89793-1772662906.JPG"
     },
     {
       "id": "1371007",
@@ -4578,7 +5396,9 @@
       "age": 18,
       "value": 25000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1371007-1772660513.JPG"
     },
     {
       "id": "76391",
@@ -4589,7 +5409,9 @@
       "age": 42,
       "value": 10000,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/76391-1772662108.JPG"
     },
     {
       "id": "234238",
@@ -4600,7 +5422,9 @@
       "age": 41,
       "value": 10000,
       "contract": null,
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/234238-1773087867.JPG"
     },
     {
       "id": "52428",
@@ -4611,7 +5435,9 @@
       "age": 42,
       "value": 10000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/52428-1772663685.JPG"
     },
     {
       "id": "950598",
@@ -4622,7 +5448,9 @@
       "age": 22,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1229253",
@@ -4633,7 +5461,9 @@
       "age": 20,
       "value": null,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1229253-1757520560.jpg"
     },
     {
       "id": "1496015",
@@ -4644,7 +5474,9 @@
       "age": 21,
       "value": null,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1496015-1773429311.png"
     },
     {
       "id": "549273",
@@ -4655,7 +5487,9 @@
       "age": 31,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Malaysia"
+      "nat": "Malaysia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/549273-1773429082.png"
     },
     {
       "id": "1269740",
@@ -4666,7 +5500,9 @@
       "age": 21,
       "value": null,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1269740-1774461487.JPEG"
     },
     {
       "id": "1119913",
@@ -4677,7 +5513,9 @@
       "age": 20,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1119913-1772645933.JPG"
     },
     {
       "id": "883591",
@@ -4688,7 +5526,9 @@
       "age": 24,
       "value": null,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/883591-1772648132.JPG"
     },
     {
       "id": "1116585",
@@ -4699,7 +5539,9 @@
       "age": 20,
       "value": null,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1543724",
@@ -4710,7 +5552,9 @@
       "age": 20,
       "value": null,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1290770",
@@ -4721,7 +5565,9 @@
       "age": 21,
       "value": null,
       "contract": null,
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1021161",
@@ -4732,7 +5578,9 @@
       "age": 21,
       "value": null,
       "contract": null,
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1021161-1773091284.JPG"
     },
     {
       "id": "1284959",
@@ -4743,7 +5591,9 @@
       "age": 21,
       "value": null,
       "contract": null,
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1284959-1738419825.png"
     },
     {
       "id": "1393773",
@@ -4754,7 +5604,9 @@
       "age": 20,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": null
     }
   ]
 }

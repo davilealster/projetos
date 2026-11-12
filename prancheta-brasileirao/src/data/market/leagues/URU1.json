@@ -78,7 +78,9 @@
       "age": 28,
       "value": 4000000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/375610-1742487597.jpg"
     },
     {
       "id": "611426",
@@ -89,7 +91,9 @@
       "age": 23,
       "value": 4000000,
       "contract": "2029-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/611426-1758911319.jpg"
     },
     {
       "id": "744324",
@@ -100,7 +104,9 @@
       "age": 26,
       "value": 4000000,
       "contract": "2027-06-30",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/744324-1792612647.jpg"
     },
     {
       "id": "1116154",
@@ -111,7 +117,9 @@
       "age": 21,
       "value": 3000000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1116154-1721247968.jpg"
     },
     {
       "id": "1291054",
@@ -122,7 +130,9 @@
       "age": 20,
       "value": 3000000,
       "contract": "2027-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1291054-1785249343.jpeg"
     },
     {
       "id": "1106327",
@@ -133,7 +143,9 @@
       "age": 21,
       "value": 2300000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1106327-1721082431.jpg"
     },
     {
       "id": "400677",
@@ -144,7 +156,9 @@
       "age": 28,
       "value": 2000000,
       "contract": "2028-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/400677-1739373699.JPG"
     },
     {
       "id": "396894",
@@ -155,7 +169,9 @@
       "age": 30,
       "value": 2000000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/396894-1792612782.jpg"
     },
     {
       "id": "745670",
@@ -166,7 +182,9 @@
       "age": 26,
       "value": 2000000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/745670-1739448874.JPG"
     },
     {
       "id": "365827",
@@ -177,7 +195,9 @@
       "age": 29,
       "value": 1700000,
       "contract": "2028-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/365827-1792612836.jpg"
     },
     {
       "id": "830315",
@@ -188,7 +208,9 @@
       "age": 25,
       "value": 1600000,
       "contract": "2027-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/830315-1742575257.png"
     },
     {
       "id": "750733",
@@ -199,7 +221,9 @@
       "age": 26,
       "value": 1500000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/750733-1720712923.jpg"
     },
     {
       "id": "1049404",
@@ -210,7 +234,9 @@
       "age": 22,
       "value": 1500000,
       "contract": "2027-06-30",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1049404-1749505170.jpg"
     },
     {
       "id": "885301",
@@ -221,7 +247,9 @@
       "age": 22,
       "value": 1500000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/885301-1771863049.jpg"
     },
     {
       "id": "577259",
@@ -232,7 +260,9 @@
       "age": 27,
       "value": 1200000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/577259-1792612357.jpg"
     },
     {
       "id": "362364",
@@ -243,7 +273,9 @@
       "age": 31,
       "value": 1000000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/362364-1742486888.jpg"
     },
     {
       "id": "541253",
@@ -254,7 +286,9 @@
       "age": 28,
       "value": 1000000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/541253-1721246651.jpg"
     },
     {
       "id": "1149380",
@@ -265,7 +299,9 @@
       "age": 22,
       "value": 1000000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1149380-1742487396.jpg"
     },
     {
       "id": "577406",
@@ -276,7 +312,9 @@
       "age": 27,
       "value": 1000000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/577406-1792611612.jpg"
     },
     {
       "id": "1072710",
@@ -287,7 +325,9 @@
       "age": 22,
       "value": 1000000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1072710-1742574066.png"
     },
     {
       "id": "294894",
@@ -298,7 +338,9 @@
       "age": 30,
       "value": 1000000,
       "contract": "2027-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/294894-1536313024.jpg"
     },
     {
       "id": "1343080",
@@ -309,7 +351,9 @@
       "age": 18,
       "value": 1000000,
       "contract": "2028-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1228250",
@@ -320,7 +364,9 @@
       "age": 19,
       "value": 1000000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "624096",
@@ -331,7 +377,9 @@
       "age": 26,
       "value": 900000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/624096-1792613674.jpg"
     },
     {
       "id": "692612",
@@ -342,7 +390,9 @@
       "age": 28,
       "value": 900000,
       "contract": "2028-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/692612-1715705297.jpg"
     },
     {
       "id": "1073078",
@@ -353,7 +403,9 @@
       "age": 24,
       "value": 900000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1073078-1780679394.jpg"
     },
     {
       "id": "1103696",
@@ -364,7 +416,9 @@
       "age": 21,
       "value": 900000,
       "contract": "2028-10-25",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "898318",
@@ -375,7 +429,9 @@
       "age": 22,
       "value": 800000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/898318-1792613485.jpg"
     },
     {
       "id": "1319377",
@@ -386,7 +442,9 @@
       "age": 21,
       "value": 800000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "971205",
@@ -397,7 +455,9 @@
       "age": 21,
       "value": 800000,
       "contract": "2028-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/971205-1721083140.png"
     },
     {
       "id": "1290507",
@@ -408,7 +468,9 @@
       "age": 22,
       "value": 800000,
       "contract": "2028-12-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1290507-1757342212.png"
     },
     {
       "id": "1041546",
@@ -419,7 +481,9 @@
       "age": 23,
       "value": 750000,
       "contract": "2027-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1041546-1780678525.jpg"
     },
     {
       "id": "683807",
@@ -430,7 +494,9 @@
       "age": 28,
       "value": 750000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/683807-1776452426.jpeg"
     },
     {
       "id": "1042134",
@@ -441,7 +507,9 @@
       "age": 21,
       "value": 700000,
       "contract": "2028-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1042134-1742576086.png"
     },
     {
       "id": "750753",
@@ -452,7 +520,9 @@
       "age": 26,
       "value": 700000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/750753-1758833180.png"
     },
     {
       "id": "1066022",
@@ -463,7 +533,9 @@
       "age": 22,
       "value": 700000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1066022-1760626875.jpg"
     },
     {
       "id": "1102014",
@@ -474,7 +546,9 @@
       "age": 24,
       "value": 700000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1102014-1720712588.jpg"
     },
     {
       "id": "369082",
@@ -485,7 +559,9 @@
       "age": 28,
       "value": 700000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/369082-1685062600.jpeg"
     },
     {
       "id": "997829",
@@ -496,7 +572,9 @@
       "age": 20,
       "value": 700000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/997829-1720712694.jpg"
     },
     {
       "id": "531834",
@@ -507,7 +585,9 @@
       "age": 27,
       "value": 650000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/531834-1602508073.png"
     },
     {
       "id": "577260",
@@ -518,7 +598,9 @@
       "age": 27,
       "value": 600000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/577260-1737357228.png"
     },
     {
       "id": "928851",
@@ -529,7 +611,9 @@
       "age": 22,
       "value": 600000,
       "contract": "2028-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/928851-1743016078.jpg"
     },
     {
       "id": "1013852",
@@ -540,7 +624,9 @@
       "age": 22,
       "value": 600000,
       "contract": "2028-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1013852-1780677494.jpg"
     },
     {
       "id": "868491",
@@ -551,7 +637,9 @@
       "age": 26,
       "value": 600000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/868491-1780678846.jpg"
     },
     {
       "id": "1323284",
@@ -562,7 +650,9 @@
       "age": 22,
       "value": 600000,
       "contract": "2028-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1323284-1773752174.png"
     },
     {
       "id": "855489",
@@ -573,7 +663,9 @@
       "age": 26,
       "value": 600000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/855489-1771424082.jpg"
     },
     {
       "id": "411433",
@@ -584,7 +676,9 @@
       "age": 30,
       "value": 600000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/411433-1644262842.jpg"
     },
     {
       "id": "565008",
@@ -595,7 +689,9 @@
       "age": 24,
       "value": 600000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/565008-1760626030.jpeg"
     },
     {
       "id": "741548",
@@ -606,7 +702,9 @@
       "age": 24,
       "value": 600000,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/741548-1710179790.jpg"
     },
     {
       "id": "744282",
@@ -617,7 +715,9 @@
       "age": 27,
       "value": 550000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/744282-1739197346.jpg"
     },
     {
       "id": "538091",
@@ -628,7 +728,9 @@
       "age": 27,
       "value": 550000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/538091-1743018709.png"
     },
     {
       "id": "303140",
@@ -639,7 +741,9 @@
       "age": 30,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/303140-1744073265.jpg"
     },
     {
       "id": "230552",
@@ -650,7 +754,9 @@
       "age": 33,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/230552-1721727675.png"
     },
     {
       "id": "280795",
@@ -661,7 +767,9 @@
       "age": 33,
       "value": 500000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/280795-1740822087.jpg"
     },
     {
       "id": "729356",
@@ -672,7 +780,9 @@
       "age": 29,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/729356-1769438819.png"
     },
     {
       "id": "294889",
@@ -683,7 +793,9 @@
       "age": 30,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/294889-1742572658.png"
     },
     {
       "id": "1339033",
@@ -694,7 +806,9 @@
       "age": 19,
       "value": 500000,
       "contract": "2029-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "911183",
@@ -705,7 +819,9 @@
       "age": 25,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/911183-1676842248.jpg"
     },
     {
       "id": "960981",
@@ -716,7 +832,9 @@
       "age": 23,
       "value": 500000,
       "contract": "2028-06-30",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/960981-1743017864.jpg"
     },
     {
       "id": "492315",
@@ -727,7 +845,9 @@
       "age": 26,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/492315-1773862769.jpg"
     },
     {
       "id": "1030317",
@@ -738,7 +858,9 @@
       "age": 23,
       "value": 500000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1030317-1780678561.jpg"
     },
     {
       "id": "1115612",
@@ -749,7 +871,9 @@
       "age": 25,
       "value": 500000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1115612-1780679183.jpg"
     },
     {
       "id": "982184",
@@ -760,7 +884,9 @@
       "age": 23,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/982184-1742140429.png"
     },
     {
       "id": "1123230",
@@ -771,7 +897,9 @@
       "age": 22,
       "value": 500000,
       "contract": "2028-06-30",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1123230-1742142721.png"
     },
     {
       "id": "619234",
@@ -782,7 +910,9 @@
       "age": 25,
       "value": 500000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "631887",
@@ -793,7 +923,9 @@
       "age": 26,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/631887-1760625595.jpeg"
     },
     {
       "id": "891569",
@@ -804,7 +936,9 @@
       "age": 25,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/891569-1792611116.jpg"
     },
     {
       "id": "802260",
@@ -815,7 +949,9 @@
       "age": 25,
       "value": 500000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "959241",
@@ -826,7 +962,9 @@
       "age": 23,
       "value": 500000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/959241-1713199090.jpg"
     },
     {
       "id": "1066535",
@@ -837,7 +975,9 @@
       "age": 24,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1066535-1705324341.JPG"
     },
     {
       "id": "1288566",
@@ -848,7 +988,9 @@
       "age": 22,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "657747",
@@ -859,7 +1001,9 @@
       "age": 24,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/657747-1750345675.jpg"
     },
     {
       "id": "339979",
@@ -870,7 +1014,9 @@
       "age": 29,
       "value": 500000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/339979-1750346249.jpg"
     },
     {
       "id": "653191",
@@ -881,7 +1027,9 @@
       "age": 28,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/653191-1743018132.jpg"
     },
     {
       "id": "1339507",
@@ -892,7 +1040,9 @@
       "age": 18,
       "value": 450000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1339507-1792610015.jpg"
     },
     {
       "id": "1037724",
@@ -903,7 +1053,9 @@
       "age": 22,
       "value": 450000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1037724-1792614247.jpg"
     },
     {
       "id": "511336",
@@ -914,7 +1066,9 @@
       "age": 29,
       "value": 450000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/511336-1726766095.jpg"
     },
     {
       "id": "511289",
@@ -925,7 +1079,9 @@
       "age": 29,
       "value": 450000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/511289-1742574684.png"
     },
     {
       "id": "856529",
@@ -936,7 +1092,9 @@
       "age": 25,
       "value": 450000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/856529-1720647166.jpg"
     },
     {
       "id": "1285239",
@@ -947,7 +1105,9 @@
       "age": 22,
       "value": 450000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1285239-1780678513.jpg"
     },
     {
       "id": "815382",
@@ -958,7 +1118,9 @@
       "age": 25,
       "value": 450000,
       "contract": "2028-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/815382-1742142709.png"
     },
     {
       "id": "902024",
@@ -969,7 +1131,9 @@
       "age": 25,
       "value": 450000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/902024-1742141356.png"
     },
     {
       "id": "646078",
@@ -980,7 +1144,9 @@
       "age": 24,
       "value": 450000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/646078-1756915819.jpg"
     },
     {
       "id": "463444",
@@ -991,7 +1157,9 @@
       "age": 29,
       "value": 450000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/463444-1742329262.jpg"
     },
     {
       "id": "627296",
@@ -1002,7 +1170,9 @@
       "age": 24,
       "value": 450000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/627296-1724864772.jpg"
     },
     {
       "id": "852961",
@@ -1013,7 +1183,9 @@
       "age": 26,
       "value": 450000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1371375",
@@ -1024,7 +1196,9 @@
       "age": 21,
       "value": 450000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1371375-1793024318.jpeg"
     },
     {
       "id": "1072711",
@@ -1035,7 +1209,9 @@
       "age": 21,
       "value": 450000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1072711-1742573628.png"
     },
     {
       "id": "1029486",
@@ -1046,7 +1222,9 @@
       "age": 24,
       "value": 450000,
       "contract": "2027-07-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1029486-1772241954.jpeg"
     },
     {
       "id": "931404",
@@ -1057,7 +1235,9 @@
       "age": 22,
       "value": 450000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/931404-1772242561.jpeg"
     },
     {
       "id": "855643",
@@ -1068,7 +1248,9 @@
       "age": 25,
       "value": 450000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/855643-1750346673.jpg"
     },
     {
       "id": "421332",
@@ -1079,7 +1261,9 @@
       "age": 29,
       "value": 450000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/421332-1681496857.jpg"
     },
     {
       "id": "1022058",
@@ -1090,7 +1274,9 @@
       "age": 25,
       "value": 450000,
       "contract": "2027-06-30",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1022058-1741212406.jpg"
     },
     {
       "id": "687832",
@@ -1101,7 +1287,9 @@
       "age": 26,
       "value": 450000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/687832-1750607555.jpg"
     },
     {
       "id": "273203",
@@ -1112,7 +1300,9 @@
       "age": 33,
       "value": 400000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/273203-1746485446.jpg"
     },
     {
       "id": "113133",
@@ -1123,7 +1313,9 @@
       "age": 35,
       "value": 400000,
       "contract": "2027-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/113133-1762437810.png"
     },
     {
       "id": "251773",
@@ -1134,7 +1326,9 @@
       "age": 33,
       "value": 400000,
       "contract": "2027-06-30",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/251773-1717332907.jpg"
     },
     {
       "id": "188470",
@@ -1145,7 +1339,9 @@
       "age": 34,
       "value": 400000,
       "contract": "2028-06-30",
-      "nat": "Costa Rica"
+      "nat": "Costa Rica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/188470-1792611870.jpg"
     },
     {
       "id": "1022384",
@@ -1156,7 +1352,9 @@
       "age": 23,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "821903",
@@ -1167,7 +1365,9 @@
       "age": 26,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/821903-1720710918.jpg"
     },
     {
       "id": "198143",
@@ -1178,7 +1378,9 @@
       "age": 33,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/198143-1739819411.jpg"
     },
     {
       "id": "365941",
@@ -1189,7 +1391,9 @@
       "age": 30,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/365941-1780678181.jpg"
     },
     {
       "id": "1118699",
@@ -1200,7 +1404,9 @@
       "age": 26,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "264740",
@@ -1211,7 +1417,9 @@
       "age": 31,
       "value": 400000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/264740-1743017021.jpg"
     },
     {
       "id": "397896",
@@ -1222,7 +1430,9 @@
       "age": 30,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/397896-1776453257.jpeg"
     },
     {
       "id": "831407",
@@ -1233,7 +1443,9 @@
       "age": 23,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "311739",
@@ -1244,7 +1456,9 @@
       "age": 31,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/311739-1554140570.png"
     },
     {
       "id": "1035544",
@@ -1255,7 +1469,9 @@
       "age": 24,
       "value": 400000,
       "contract": "2028-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1035544-1720710966.jpg"
     },
     {
       "id": "976020",
@@ -1266,7 +1482,9 @@
       "age": 23,
       "value": 400000,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/976020-1720713031.jpg"
     },
     {
       "id": "599828",
@@ -1277,7 +1495,9 @@
       "age": 27,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/599828-1663897590.jpg"
     },
     {
       "id": "657754",
@@ -1288,7 +1508,9 @@
       "age": 24,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "876456",
@@ -1299,7 +1521,9 @@
       "age": 26,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/876456-1772241768.jpeg"
     },
     {
       "id": "1115959",
@@ -1310,7 +1534,9 @@
       "age": 24,
       "value": 400000,
       "contract": "2027-07-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "733165",
@@ -1321,7 +1547,9 @@
       "age": 28,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1243378",
@@ -1332,7 +1560,9 @@
       "age": 23,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1243378-1721247826.jpg"
     },
     {
       "id": "486211",
@@ -1343,7 +1573,9 @@
       "age": 30,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/486211-1732149441.jpg"
     },
     {
       "id": "650227",
@@ -1354,7 +1586,9 @@
       "age": 28,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/650227-1705924895.png"
     },
     {
       "id": "1236916",
@@ -1365,7 +1599,9 @@
       "age": 28,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1236916-1739479613.jpg"
     },
     {
       "id": "982198",
@@ -1376,7 +1612,9 @@
       "age": 23,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/982198-1702068956.jpg"
     },
     {
       "id": "1108738",
@@ -1387,7 +1625,9 @@
       "age": 21,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1108738-1743016420.jpg"
     },
     {
       "id": "1149317",
@@ -1398,7 +1638,9 @@
       "age": 23,
       "value": 375000,
       "contract": "2028-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1149317-1792611312.jpg"
     },
     {
       "id": "1310240",
@@ -1409,7 +1651,9 @@
       "age": 20,
       "value": 350000,
       "contract": "2028-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "589687",
@@ -1420,7 +1664,9 @@
       "age": 26,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/589687-1742572729.png"
     },
     {
       "id": "227096",
@@ -1431,7 +1677,9 @@
       "age": 31,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/227096-1716421405.png"
     },
     {
       "id": "1472988",
@@ -1442,7 +1690,9 @@
       "age": 19,
       "value": 350000,
       "contract": "2028-07-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "411202",
@@ -1453,7 +1703,9 @@
       "age": 28,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/411202-1780677858.jpg"
     },
     {
       "id": "672104",
@@ -1464,7 +1716,9 @@
       "age": 26,
       "value": 350000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1339495",
@@ -1475,7 +1729,9 @@
       "age": 17,
       "value": 350000,
       "contract": "2029-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1339495-1773752225.png"
     },
     {
       "id": "573203",
@@ -1486,7 +1742,9 @@
       "age": 27,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/573203-1713199577.jpg"
     },
     {
       "id": "1072712",
@@ -1497,7 +1755,9 @@
       "age": 24,
       "value": 350000,
       "contract": "2027-06-30",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "733323",
@@ -1508,7 +1768,9 @@
       "age": 27,
       "value": 350000,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/733323-1772648073.JPG"
     },
     {
       "id": "457534",
@@ -1519,7 +1781,9 @@
       "age": 30,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/457534-1760625858.jpeg"
     },
     {
       "id": "521235",
@@ -1530,7 +1794,9 @@
       "age": 28,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/521235-1760646392.jpg"
     },
     {
       "id": "1374858",
@@ -1541,7 +1807,9 @@
       "age": 24,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "531609",
@@ -1552,7 +1820,9 @@
       "age": 27,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/531609-1782748859.jpeg"
     },
     {
       "id": "1112896",
@@ -1563,7 +1833,9 @@
       "age": 23,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "657749",
@@ -1574,7 +1846,9 @@
       "age": 24,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/657749-1778861027.jpg"
     },
     {
       "id": "1093254",
@@ -1585,7 +1859,9 @@
       "age": 21,
       "value": 350000,
       "contract": "2027-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "961350",
@@ -1596,7 +1872,9 @@
       "age": 24,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "267433",
@@ -1607,7 +1885,9 @@
       "age": 33,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/267433-1678795205.JPG"
     },
     {
       "id": "1305127",
@@ -1618,7 +1898,9 @@
       "age": 22,
       "value": 350000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1017779",
@@ -1629,7 +1911,9 @@
       "age": 24,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1017779-1721230012.jpg"
     },
     {
       "id": "1065197",
@@ -1640,7 +1924,9 @@
       "age": 24,
       "value": 325000,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1246365",
@@ -1651,7 +1937,9 @@
       "age": 25,
       "value": 325000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1246365-1750346799.jpg"
     },
     {
       "id": "612873",
@@ -1662,7 +1950,9 @@
       "age": 27,
       "value": 325000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/612873-1642603874.JPG"
     },
     {
       "id": "325454",
@@ -1673,7 +1963,9 @@
       "age": 31,
       "value": 300000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/325454-1721946738.jpeg"
     },
     {
       "id": "997820",
@@ -1684,7 +1976,9 @@
       "age": 20,
       "value": 300000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/997820-1773429035.jpeg"
     },
     {
       "id": "456535",
@@ -1695,7 +1989,9 @@
       "age": 29,
       "value": 300000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/456535-1792610094.jpg"
     },
     {
       "id": "382473",
@@ -1706,7 +2002,9 @@
       "age": 31,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/382473-1792611547.jpg"
     },
     {
       "id": "1379671",
@@ -1717,7 +2015,9 @@
       "age": 18,
       "value": 300000,
       "contract": "2028-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1379671-1792613344.jpg"
     },
     {
       "id": "1372201",
@@ -1728,7 +2028,9 @@
       "age": 20,
       "value": 300000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1372201-1792613166.jpg"
     },
     {
       "id": "1203762",
@@ -1739,7 +2041,9 @@
       "age": 20,
       "value": 300000,
       "contract": "2028-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1203762-1742575423.png"
     },
     {
       "id": "1074956",
@@ -1750,7 +2054,9 @@
       "age": 19,
       "value": 300000,
       "contract": "2027-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1074956-1742575933.png"
     },
     {
       "id": "743952",
@@ -1761,7 +2067,9 @@
       "age": 26,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/743952-1673868849.JPG"
     },
     {
       "id": "465677",
@@ -1772,7 +2080,9 @@
       "age": 26,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/465677-1720465251.png"
     },
     {
       "id": "1379673",
@@ -1783,7 +2093,9 @@
       "age": 18,
       "value": 300000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "325590",
@@ -1794,7 +2106,9 @@
       "age": 32,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/325590-1721229451.jpg"
     },
     {
       "id": "1276028",
@@ -1805,7 +2119,9 @@
       "age": 18,
       "value": 300000,
       "contract": "2027-07-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1276028-1743018273.jpg"
     },
     {
       "id": "1511509",
@@ -1816,7 +2132,9 @@
       "age": 23,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1511509-1780677505.jpg"
     },
     {
       "id": "860952",
@@ -1827,7 +2145,9 @@
       "age": 25,
       "value": 300000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/860952-1750008206.png"
     },
     {
       "id": "324946",
@@ -1838,7 +2158,9 @@
       "age": 29,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/324946-1749583521.jpg"
     },
     {
       "id": "1511679",
@@ -1849,7 +2171,9 @@
       "age": 21,
       "value": 300000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1511679-1780678838.jpg"
     },
     {
       "id": "989203",
@@ -1860,7 +2184,9 @@
       "age": 24,
       "value": 300000,
       "contract": "2028-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/989203-1780678887.jpg"
     },
     {
       "id": "1196340",
@@ -1871,7 +2197,9 @@
       "age": 19,
       "value": 300000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1196340-1780679131.jpg"
     },
     {
       "id": "1436259",
@@ -1882,7 +2210,9 @@
       "age": 20,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1436259-1773752312.png"
     },
     {
       "id": "863398",
@@ -1893,7 +2223,9 @@
       "age": 25,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/863398-1708010279.JPG"
     },
     {
       "id": "584427",
@@ -1904,7 +2236,9 @@
       "age": 27,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/584427-1757718727.jpg"
     },
     {
       "id": "898036",
@@ -1915,7 +2249,9 @@
       "age": 26,
       "value": 300000,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/898036-1719942218.png"
     },
     {
       "id": "1065221",
@@ -1926,7 +2262,9 @@
       "age": 22,
       "value": 300000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1432158",
@@ -1937,7 +2275,9 @@
       "age": 17,
       "value": 300000,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1133078",
@@ -1948,7 +2288,9 @@
       "age": 23,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1133078-1724351497.png"
     },
     {
       "id": "1509867",
@@ -1959,7 +2301,9 @@
       "age": 23,
       "value": 300000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1509867-1776451583.jpeg"
     },
     {
       "id": "958329",
@@ -1970,7 +2314,9 @@
       "age": 25,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/958329-1776451900.jpeg"
     },
     {
       "id": "1028020",
@@ -1981,7 +2327,9 @@
       "age": 26,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1028020-1742575242.png"
     },
     {
       "id": "1011556",
@@ -1992,7 +2340,9 @@
       "age": 22,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1011556-1776452930.jpeg"
     },
     {
       "id": "1232131",
@@ -2003,7 +2353,9 @@
       "age": 21,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1232131-1720819416.jpg"
     },
     {
       "id": "1291056",
@@ -2014,7 +2366,9 @@
       "age": 20,
       "value": 300000,
       "contract": "2029-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1390952",
@@ -2025,7 +2379,9 @@
       "age": 21,
       "value": 300000,
       "contract": "2027-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "928644",
@@ -2036,7 +2392,9 @@
       "age": 22,
       "value": 300000,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/928644-1716335359.png"
     },
     {
       "id": "435983",
@@ -2047,7 +2405,9 @@
       "age": 31,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/435983-1689712301.jpg"
     },
     {
       "id": "842772",
@@ -2058,7 +2418,9 @@
       "age": 24,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/842772-1674744905.jpg"
     },
     {
       "id": "959242",
@@ -2069,7 +2431,9 @@
       "age": 22,
       "value": 300000,
       "contract": "2028-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/959242-1750345238.jpg"
     },
     {
       "id": "580142",
@@ -2080,7 +2444,9 @@
       "age": 27,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/580142-1772241801.jpeg"
     },
     {
       "id": "288480",
@@ -2091,7 +2457,9 @@
       "age": 30,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/288480-1772242234.jpeg"
     },
     {
       "id": "1022780",
@@ -2102,7 +2470,9 @@
       "age": 23,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1022780-1772242607.jpeg"
     },
     {
       "id": "1280137",
@@ -2113,7 +2483,9 @@
       "age": 20,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1280137-1791547207.png"
     },
     {
       "id": "421195",
@@ -2124,7 +2496,9 @@
       "age": 30,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/421195-1721318168.png"
     },
     {
       "id": "836662",
@@ -2135,7 +2509,9 @@
       "age": 25,
       "value": 300000,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/836662-1721227781.jpg"
     },
     {
       "id": "665978",
@@ -2146,7 +2522,9 @@
       "age": 27,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "197231",
@@ -2157,7 +2535,9 @@
       "age": 33,
       "value": 300000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/197231-1757345975.jpg"
     },
     {
       "id": "588165",
@@ -2168,7 +2548,9 @@
       "age": 27,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/588165-1751483512.jpg"
     },
     {
       "id": "277349",
@@ -2179,7 +2561,9 @@
       "age": 30,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/277349-1720710503.jpg"
     },
     {
       "id": "382085",
@@ -2190,7 +2574,9 @@
       "age": 30,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/382085-1718915050.jpg"
     },
     {
       "id": "660856",
@@ -2201,7 +2587,9 @@
       "age": 27,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/660856-1720710606.jpg"
     },
     {
       "id": "1000249",
@@ -2212,7 +2600,9 @@
       "age": 24,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1000249-1726767214.jpg"
     },
     {
       "id": "511321",
@@ -2223,7 +2613,9 @@
       "age": 30,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/511321-1710769385.jpg"
     },
     {
       "id": "893585",
@@ -2234,7 +2626,9 @@
       "age": 26,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/893585-1721245350.jpg"
     },
     {
       "id": "881643",
@@ -2245,7 +2639,9 @@
       "age": 24,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/881643-1720710738.jpg"
     },
     {
       "id": "1108315",
@@ -2256,7 +2652,9 @@
       "age": 22,
       "value": 300000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "338889",
@@ -2267,7 +2665,9 @@
       "age": 32,
       "value": 300000,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/338889-1581594232.png"
     },
     {
       "id": "189458",
@@ -2278,7 +2678,9 @@
       "age": 32,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/189458-1719942042.png"
     },
     {
       "id": "440835",
@@ -2289,7 +2691,9 @@
       "age": 27,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/440835-1777787006.png"
     },
     {
       "id": "832090",
@@ -2300,7 +2704,9 @@
       "age": 25,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/832090-1727448972.jpg"
     },
     {
       "id": "1379674",
@@ -2311,7 +2717,9 @@
       "age": 18,
       "value": 300000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "878536",
@@ -2322,7 +2730,9 @@
       "age": 22,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/878536-1783457837.jpeg"
     },
     {
       "id": "552629",
@@ -2333,7 +2743,9 @@
       "age": 28,
       "value": 300000,
       "contract": "2027-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/552629-1781278423.jpg"
     },
     {
       "id": "1054448",
@@ -2344,7 +2756,9 @@
       "age": 22,
       "value": 300000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1158751",
@@ -2355,7 +2769,9 @@
       "age": 21,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "692611",
@@ -2366,7 +2782,9 @@
       "age": 26,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/692611-1777902340.jpg"
     },
     {
       "id": "747238",
@@ -2377,7 +2795,9 @@
       "age": 26,
       "value": 275000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/747238-1750347770.jpg"
     },
     {
       "id": "907578",
@@ -2388,7 +2808,9 @@
       "age": 29,
       "value": 275000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/907578-1682525175.jpeg"
     },
     {
       "id": "1339498",
@@ -2399,7 +2821,9 @@
       "age": 18,
       "value": 250000,
       "contract": "2029-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1339498-1787059334.png"
     },
     {
       "id": "928621",
@@ -2410,7 +2834,9 @@
       "age": 22,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/928621-1738846301.jpg"
     },
     {
       "id": "1342677",
@@ -2421,7 +2847,9 @@
       "age": 19,
       "value": 250000,
       "contract": "2027-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1342677-1770725323.jpg"
     },
     {
       "id": "657760",
@@ -2432,7 +2860,9 @@
       "age": 24,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/657760-1719941506.png"
     },
     {
       "id": "102427",
@@ -2443,7 +2873,9 @@
       "age": 36,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/102427-1792613419.jpg"
     },
     {
       "id": "115507",
@@ -2454,7 +2886,9 @@
       "age": 33,
       "value": 250000,
       "contract": "2028-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/115507-1792611481.jpg"
     },
     {
       "id": "338641",
@@ -2465,7 +2899,9 @@
       "age": 33,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/338641-1792612297.jpg"
     },
     {
       "id": "1240000",
@@ -2476,7 +2912,9 @@
       "age": 21,
       "value": 250000,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1240000-1742574660.png"
     },
     {
       "id": "999077",
@@ -2487,7 +2925,9 @@
       "age": 20,
       "value": 250000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/999077-1742574224.png"
     },
     {
       "id": "1240474",
@@ -2498,7 +2938,9 @@
       "age": 21,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1240474-1742574759.png"
     },
     {
       "id": "651855",
@@ -2509,7 +2951,9 @@
       "age": 28,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/651855-1743015884.jpg"
     },
     {
       "id": "131110",
@@ -2520,7 +2964,9 @@
       "age": 34,
       "value": 250000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/131110-1721082327.jpg"
     },
     {
       "id": "838796",
@@ -2531,7 +2977,9 @@
       "age": 26,
       "value": 250000,
       "contract": "2027-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/838796-1739373908.JPG"
     },
     {
       "id": "318843",
@@ -2542,7 +2990,9 @@
       "age": 31,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/318843-1739896346.jpg"
     },
     {
       "id": "264116",
@@ -2553,7 +3003,9 @@
       "age": 31,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/264116-1630510867.jpg"
     },
     {
       "id": "647295",
@@ -2564,7 +3016,9 @@
       "age": 25,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/647295-1742140501.png"
     },
     {
       "id": "980123",
@@ -2575,7 +3029,9 @@
       "age": 25,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/980123-1742141806.png"
     },
     {
       "id": "425559",
@@ -2586,7 +3042,9 @@
       "age": 33,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/425559-1742147010.png"
     },
     {
       "id": "216375",
@@ -2597,7 +3055,9 @@
       "age": 33,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/216375-1742486661.jpg"
     },
     {
       "id": "815381",
@@ -2608,7 +3068,9 @@
       "age": 22,
       "value": 250000,
       "contract": "2028-06-30",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/815381-1757442565.jpg"
     },
     {
       "id": "537792",
@@ -2619,7 +3081,9 @@
       "age": 29,
       "value": 250000,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/537792-1677497428.JPG"
     },
     {
       "id": "856252",
@@ -2630,7 +3094,9 @@
       "age": 23,
       "value": 250000,
       "contract": "2028-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/856252-1771424128.jpg"
     },
     {
       "id": "259911",
@@ -2641,7 +3107,9 @@
       "age": 33,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/259911-1706846039.jpg"
     },
     {
       "id": "1379676",
@@ -2652,7 +3120,9 @@
       "age": 18,
       "value": 250000,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1379676-1760625340.jpeg"
     },
     {
       "id": "837685",
@@ -2663,7 +3133,9 @@
       "age": 22,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/837685-1719941531.png"
     },
     {
       "id": "480158",
@@ -2674,7 +3146,9 @@
       "age": 25,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "900458",
@@ -2685,7 +3159,9 @@
       "age": 24,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1194695",
@@ -2696,7 +3172,9 @@
       "age": 22,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1000731",
@@ -2707,7 +3185,9 @@
       "age": 23,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1000731-1760625919.jpeg"
     },
     {
       "id": "438014",
@@ -2718,7 +3198,9 @@
       "age": 29,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/438014-1750347420.jpg"
     },
     {
       "id": "799948",
@@ -2729,7 +3211,9 @@
       "age": 25,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/799948-1750346400.jpg"
     },
     {
       "id": "1115964",
@@ -2740,7 +3224,9 @@
       "age": 24,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1115964-1750347779.jpg"
     },
     {
       "id": "227604",
@@ -2751,7 +3237,9 @@
       "age": 32,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/227604-1772242668.jpeg"
     },
     {
       "id": "1038826",
@@ -2762,7 +3250,9 @@
       "age": 27,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1038826-1726762610.jpg"
     },
     {
       "id": "574752",
@@ -2773,7 +3263,9 @@
       "age": 27,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1051537",
@@ -2784,7 +3276,9 @@
       "age": 22,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1051537-1720709547.jpg"
     },
     {
       "id": "1332383",
@@ -2795,7 +3289,9 @@
       "age": 23,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "991767",
@@ -2806,7 +3302,9 @@
       "age": 23,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Honduras"
+      "nat": "Honduras",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "319429",
@@ -2817,7 +3315,9 @@
       "age": 29,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/319429-1620309202.jpg"
     },
     {
       "id": "1247310",
@@ -2828,7 +3328,9 @@
       "age": 21,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "744605",
@@ -2839,7 +3341,9 @@
       "age": 27,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/744605-1726762796.jpg"
     },
     {
       "id": "1171688",
@@ -2850,7 +3354,9 @@
       "age": 21,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1247963",
@@ -2861,7 +3367,9 @@
       "age": 26,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "131114",
@@ -2872,7 +3380,9 @@
       "age": 34,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/131114-1742572942.png"
     },
     {
       "id": "672132",
@@ -2883,7 +3393,9 @@
       "age": 30,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/672132-1778861809.jpg"
     },
     {
       "id": "1323285",
@@ -2894,7 +3406,9 @@
       "age": 23,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1323285-1785166656.jpeg"
     },
     {
       "id": "1149381",
@@ -2905,7 +3419,9 @@
       "age": 22,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1149381-1688497714.jpg"
     },
     {
       "id": "709550",
@@ -2916,7 +3432,9 @@
       "age": 28,
       "value": 225000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/709550-1789422787.jpeg"
     },
     {
       "id": "357126",
@@ -2927,7 +3445,9 @@
       "age": 30,
       "value": 225000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/357126-1720820851.jpg"
     },
     {
       "id": "1013913",
@@ -2938,7 +3458,9 @@
       "age": 22,
       "value": 225000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1013913-1760988280.jpg"
     },
     {
       "id": "147131",
@@ -2949,7 +3471,9 @@
       "age": 34,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/147131-1742487136.jpg"
     },
     {
       "id": "1332567",
@@ -2960,7 +3484,9 @@
       "age": 19,
       "value": 200000,
       "contract": "2027-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1332567-1787673517.png"
     },
     {
       "id": "1241876",
@@ -2971,7 +3497,9 @@
       "age": 18,
       "value": 200000,
       "contract": "2027-07-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1241876-1743017780.jpg"
     },
     {
       "id": "743953",
@@ -2982,7 +3510,9 @@
       "age": 25,
       "value": 200000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/743953-1720819332.jpg"
     },
     {
       "id": "1228248",
@@ -2993,7 +3523,9 @@
       "age": 19,
       "value": 200000,
       "contract": "2027-06-30",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1445320",
@@ -3004,7 +3536,9 @@
       "age": 21,
       "value": 200000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1445320-1773428970.jpeg"
     },
     {
       "id": "745673",
@@ -3015,7 +3549,9 @@
       "age": 25,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/745673-1721318961.png"
     },
     {
       "id": "1298533",
@@ -3026,7 +3562,9 @@
       "age": 20,
       "value": 200000,
       "contract": "2027-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1298533-1787783952.png"
     },
     {
       "id": "1568703",
@@ -3037,7 +3575,9 @@
       "age": 19,
       "value": 200000,
       "contract": "2028-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "671950",
@@ -3048,7 +3588,9 @@
       "age": 29,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/671950-1776452051.jpeg"
     },
     {
       "id": "531608",
@@ -3059,7 +3601,9 @@
       "age": 29,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/531608-1776452184.jpeg"
     },
     {
       "id": "492317",
@@ -3070,7 +3614,9 @@
       "age": 26,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/492317-1488911964.jpg"
     },
     {
       "id": "1239996",
@@ -3081,7 +3627,9 @@
       "age": 22,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "803673",
@@ -3092,7 +3640,9 @@
       "age": 25,
       "value": 200000,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/803673-1716335404.png"
     },
     {
       "id": "188734",
@@ -3103,7 +3653,9 @@
       "age": 33,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/188734-1750345042.jpg"
     },
     {
       "id": "240903",
@@ -3114,7 +3666,9 @@
       "age": 32,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/240903-1708009216.JPG"
     },
     {
       "id": "365942",
@@ -3125,7 +3679,9 @@
       "age": 29,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/365942-1645448343.JPG"
     },
     {
       "id": "373248",
@@ -3136,7 +3692,9 @@
       "age": 31,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/373248-1749562718.jpg"
     },
     {
       "id": "528367",
@@ -3147,7 +3705,9 @@
       "age": 27,
       "value": 200000,
       "contract": null,
-      "nat": "Peru"
+      "nat": "Peru",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/528367-1673786239.jpg"
     },
     {
       "id": "189452",
@@ -3158,7 +3718,9 @@
       "age": 32,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/189452-1742487220.jpg"
     },
     {
       "id": "583822",
@@ -3169,7 +3731,9 @@
       "age": 28,
       "value": 200000,
       "contract": "2027-06-30",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/583822-1771030366.jpg"
     },
     {
       "id": "984710",
@@ -3180,7 +3744,9 @@
       "age": 22,
       "value": 200000,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/984710-1750607338.jpg"
     },
     {
       "id": "196691",
@@ -3191,7 +3757,9 @@
       "age": 32,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/196691-1679595992.jpeg"
     },
     {
       "id": "1371748",
@@ -3202,7 +3770,9 @@
       "age": 22,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "209708",
@@ -3213,7 +3783,9 @@
       "age": 33,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/209708-1678388636.jpg"
     },
     {
       "id": "893963",
@@ -3224,7 +3796,9 @@
       "age": 25,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/893963-1720712026.jpg"
     },
     {
       "id": "1333457",
@@ -3235,7 +3809,9 @@
       "age": 19,
       "value": 200000,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "832977",
@@ -3246,7 +3822,9 @@
       "age": 25,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/832977-1638747305.JPG"
     },
     {
       "id": "189443",
@@ -3257,7 +3835,9 @@
       "age": 32,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/189443-1760646630.jpg"
     },
     {
       "id": "981479",
@@ -3268,7 +3848,9 @@
       "age": 23,
       "value": 200000,
       "contract": "2027-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/981479-1727450296.jpg"
     },
     {
       "id": "197333",
@@ -3279,7 +3861,9 @@
       "age": 33,
       "value": 175000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/197333-1719947790.png"
     },
     {
       "id": "826453",
@@ -3290,7 +3874,9 @@
       "age": 24,
       "value": 175000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/826453-1772242018.jpeg"
     },
     {
       "id": "678966",
@@ -3301,7 +3887,9 @@
       "age": 27,
       "value": 175000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/678966-1751934267.jpg"
     },
     {
       "id": "1147668",
@@ -3312,7 +3900,9 @@
       "age": 22,
       "value": 175000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1147668-1721082605.png"
     },
     {
       "id": "599568",
@@ -3323,7 +3913,9 @@
       "age": 32,
       "value": 175000,
       "contract": "2026-12-31",
-      "nat": "Peru"
+      "nat": "Peru",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/599568-1613697950.jpg"
     },
     {
       "id": "492316",
@@ -3334,7 +3926,9 @@
       "age": 26,
       "value": 175000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/492316-1742142321.png"
     },
     {
       "id": "1196897",
@@ -3345,7 +3939,9 @@
       "age": 25,
       "value": 175000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "189447",
@@ -3356,7 +3952,9 @@
       "age": 32,
       "value": 175000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/189447-1721318660.png"
     },
     {
       "id": "76715",
@@ -3367,7 +3965,9 @@
       "age": 35,
       "value": 150000,
       "contract": "2027-12-31",
-      "nat": "Panama"
+      "nat": "Panamá",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/76715-1719941459.png"
     },
     {
       "id": "360521",
@@ -3378,7 +3978,9 @@
       "age": 34,
       "value": 150000,
       "contract": "2028-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/360521-1772563993.PNG"
     },
     {
       "id": "196187",
@@ -3389,7 +3991,9 @@
       "age": 35,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/196187-1792612975.jpg"
     },
     {
       "id": "1021366",
@@ -3400,7 +4004,9 @@
       "age": 20,
       "value": 150000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1021366-1792612208.jpg"
     },
     {
       "id": "1452523",
@@ -3411,7 +4017,9 @@
       "age": 21,
       "value": 150000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1452523-1781552475.jpg"
     },
     {
       "id": "189422",
@@ -3422,7 +4030,9 @@
       "age": 32,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/189422-1684520621.jpg"
     },
     {
       "id": "1467150",
@@ -3433,7 +4043,9 @@
       "age": 19,
       "value": 150000,
       "contract": "2028-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1237377",
@@ -3444,7 +4056,9 @@
       "age": 20,
       "value": 150000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1237377-1743016134.jpg"
     },
     {
       "id": "987582",
@@ -3455,7 +4069,9 @@
       "age": 22,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/987582-1743017918.jpg"
     },
     {
       "id": "1039040",
@@ -3466,7 +4082,9 @@
       "age": 23,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1390125",
@@ -3477,7 +4095,9 @@
       "age": 20,
       "value": 150000,
       "contract": "2028-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1390125-1780678194.jpg"
     },
     {
       "id": "1411553",
@@ -3488,7 +4108,9 @@
       "age": 22,
       "value": 150000,
       "contract": null,
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1411553-1773752263.png"
     },
     {
       "id": "341100",
@@ -3499,7 +4121,9 @@
       "age": 32,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/341100-1742146978.png"
     },
     {
       "id": "354740",
@@ -3510,7 +4134,9 @@
       "age": 31,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/354740-1742140977.png"
     },
     {
       "id": "177562",
@@ -3521,7 +4147,9 @@
       "age": 35,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/177562-1719947536.png"
     },
     {
       "id": "437998",
@@ -3532,7 +4160,9 @@
       "age": 28,
       "value": 150000,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1344926",
@@ -3543,7 +4173,9 @@
       "age": 19,
       "value": 150000,
       "contract": "2028-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "981057",
@@ -3554,7 +4186,9 @@
       "age": 23,
       "value": 150000,
       "contract": "2028-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/981057-1742142426.png"
     },
     {
       "id": "340103",
@@ -3565,7 +4199,9 @@
       "age": 30,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/340103-1676285038.JPG"
     },
     {
       "id": "1106324",
@@ -3576,7 +4212,9 @@
       "age": 24,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1106324-1720708945.jpg"
     },
     {
       "id": "1054449",
@@ -3587,7 +4225,9 @@
       "age": 22,
       "value": 150000,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "898379",
@@ -3598,7 +4238,9 @@
       "age": 21,
       "value": 150000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "859010",
@@ -3609,7 +4251,9 @@
       "age": 21,
       "value": 150000,
       "contract": "2027-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/859010-1724862117.png"
     },
     {
       "id": "1160147",
@@ -3620,7 +4264,9 @@
       "age": 20,
       "value": 150000,
       "contract": "2028-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1103670",
@@ -3631,7 +4277,9 @@
       "age": 27,
       "value": 150000,
       "contract": "2027-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1234283",
@@ -3642,7 +4290,9 @@
       "age": 22,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1234283-1726767105.jpg"
     },
     {
       "id": "1004683",
@@ -3653,7 +4303,9 @@
       "age": 21,
       "value": 150000,
       "contract": "2027-06-30",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1004683-1750348124.jpg"
     },
     {
       "id": "999081",
@@ -3664,7 +4316,9 @@
       "age": 20,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/999081-1720713204.jpg"
     },
     {
       "id": "548685",
@@ -3675,7 +4329,9 @@
       "age": 26,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/548685-1741807837.png"
     },
     {
       "id": "727821",
@@ -3686,7 +4342,9 @@
       "age": 27,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/727821-1756917295.jpg"
     },
     {
       "id": "1147667",
@@ -3697,7 +4355,9 @@
       "age": 21,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1147667-1743015956.jpg"
     },
     {
       "id": "741102",
@@ -3708,7 +4368,9 @@
       "age": 28,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/741102-1750607969.jpg"
     },
     {
       "id": "202214",
@@ -3719,7 +4381,9 @@
       "age": 33,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/202214-1760627768.png"
     },
     {
       "id": "1237379",
@@ -3730,7 +4394,9 @@
       "age": 22,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1237379-1743018552.jpg"
     },
     {
       "id": "972470",
@@ -3741,7 +4407,9 @@
       "age": 23,
       "value": 125000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1371112",
@@ -3752,7 +4420,9 @@
       "age": 21,
       "value": 125000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1236684",
@@ -3763,7 +4433,9 @@
       "age": 21,
       "value": 125000,
       "contract": "2027-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1236684-1739900223.jpg"
     },
     {
       "id": "1567019",
@@ -3774,7 +4446,9 @@
       "age": 20,
       "value": 125000,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1065167",
@@ -3785,7 +4459,9 @@
       "age": 21,
       "value": 125000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1065167-1721318431.png"
     },
     {
       "id": "900478",
@@ -3796,7 +4472,9 @@
       "age": 26,
       "value": 125000,
       "contract": null,
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/900478-1698753311.JPG"
     },
     {
       "id": "1290995",
@@ -3807,7 +4485,9 @@
       "age": 22,
       "value": 125000,
       "contract": null,
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1290995-1756924651.jpg"
     },
     {
       "id": "227776",
@@ -3818,7 +4498,9 @@
       "age": 32,
       "value": 125000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/227776-1750345987.jpg"
     },
     {
       "id": "837684",
@@ -3829,7 +4511,9 @@
       "age": 22,
       "value": 125000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/837684-1720712403.jpg"
     },
     {
       "id": "1276456",
@@ -3840,7 +4524,9 @@
       "age": 21,
       "value": 125000,
       "contract": "2027-06-30",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "196520",
@@ -3851,7 +4537,9 @@
       "age": 35,
       "value": 125000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/196520-1741359012.jpg"
     },
     {
       "id": "1332993",
@@ -3862,7 +4550,9 @@
       "age": 21,
       "value": 125000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1015627",
@@ -3873,7 +4563,9 @@
       "age": 21,
       "value": 125000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1015627-1792459218.jpeg"
     },
     {
       "id": "1536935",
@@ -3884,7 +4576,9 @@
       "age": 19,
       "value": 100000,
       "contract": "2029-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "179757",
@@ -3895,7 +4589,9 @@
       "age": 34,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/179757-1721246820.jpg"
     },
     {
       "id": "250144",
@@ -3906,7 +4602,9 @@
       "age": 34,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/250144-1721247617.jpg"
     },
     {
       "id": "76608",
@@ -3917,7 +4615,9 @@
       "age": 36,
       "value": 100000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/76608-1623764106.jpg"
     },
     {
       "id": "88542",
@@ -3928,7 +4628,9 @@
       "age": 36,
       "value": 100000,
       "contract": "2027-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/88542-1792611420.jpg"
     },
     {
       "id": "240891",
@@ -3939,7 +4641,9 @@
       "age": 36,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/240891-1653055193.jpg"
     },
     {
       "id": "1339036",
@@ -3950,7 +4654,9 @@
       "age": 18,
       "value": 100000,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "389538",
@@ -3961,7 +4667,9 @@
       "age": 32,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/389538-1780679143.jpg"
     },
     {
       "id": "503219",
@@ -3972,7 +4680,9 @@
       "age": 33,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/503219-1724863451.jpg"
     },
     {
       "id": "1198391",
@@ -3983,7 +4693,9 @@
       "age": 21,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "91755",
@@ -3994,7 +4706,9 @@
       "age": 37,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/91755-1742486340.jpg"
     },
     {
       "id": "296445",
@@ -4005,7 +4719,9 @@
       "age": 33,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/296445-1776453620.jpeg"
     },
     {
       "id": "1236727",
@@ -4016,7 +4732,9 @@
       "age": 20,
       "value": 100000,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1236727-1721227342.jpg"
     },
     {
       "id": "132693",
@@ -4027,7 +4745,9 @@
       "age": 34,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/132693-1776452535.jpeg"
     },
     {
       "id": "197139",
@@ -4038,7 +4758,9 @@
       "age": 34,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "102227",
@@ -4049,7 +4771,9 @@
       "age": 35,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/s_102227_679_2012_1.jpg"
     },
     {
       "id": "972498",
@@ -4060,7 +4784,9 @@
       "age": 23,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1383537",
@@ -4071,7 +4797,9 @@
       "age": 23,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "189425",
@@ -4082,7 +4810,9 @@
       "age": 32,
       "value": 100000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/189425-1752804500.JPG"
     },
     {
       "id": "130197",
@@ -4093,7 +4823,9 @@
       "age": 35,
       "value": 100000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/130197-1721247002.jpg"
     },
     {
       "id": "1305369",
@@ -4104,7 +4836,9 @@
       "age": 20,
       "value": 100000,
       "contract": "2027-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1305369-1789422860.jpeg"
     },
     {
       "id": "468976",
@@ -4115,7 +4849,9 @@
       "age": 27,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/468976-1747242817.jpg"
     },
     {
       "id": "1149379",
@@ -4126,7 +4862,9 @@
       "age": 21,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1149379-1773429065.jpeg"
     },
     {
       "id": "1140724",
@@ -4137,7 +4875,9 @@
       "age": 22,
       "value": 100000,
       "contract": "2027-07-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "970867",
@@ -4148,7 +4888,9 @@
       "age": 22,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/970867-1719947512.png"
     },
     {
       "id": "1240648",
@@ -4159,7 +4901,9 @@
       "age": 22,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1240648-1712339997.jpg"
     },
     {
       "id": "657752",
@@ -4170,7 +4914,9 @@
       "age": 23,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/657752-1780677584.jpg"
     },
     {
       "id": "1512609",
@@ -4181,7 +4927,9 @@
       "age": 21,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "856606",
@@ -4192,7 +4940,9 @@
       "age": 25,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/856606-1669398660.jpg"
     },
     {
       "id": "199856",
@@ -4203,7 +4953,9 @@
       "age": 35,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/199856-1720712074.jpg"
     },
     {
       "id": "1414579",
@@ -4214,7 +4966,9 @@
       "age": 19,
       "value": 100000,
       "contract": "2028-10-01",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "606753",
@@ -4225,7 +4979,9 @@
       "age": 27,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/606753-1747752885.JPG"
     },
     {
       "id": "840884",
@@ -4236,7 +4992,9 @@
       "age": 26,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/840884-1739448500.JPG"
     },
     {
       "id": "1106326",
@@ -4247,7 +5005,9 @@
       "age": 21,
       "value": 75000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1106326-1743018034.jpg"
     },
     {
       "id": "1425952",
@@ -4258,7 +5018,9 @@
       "age": 16,
       "value": 75000,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "77153",
@@ -4269,7 +5031,9 @@
       "age": 37,
       "value": 75000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/77153-1780677863.jpg"
     },
     {
       "id": "1512618",
@@ -4280,7 +5044,9 @@
       "age": 21,
       "value": 75000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1512618-1780678263.jpg"
     },
     {
       "id": "898333",
@@ -4291,7 +5057,9 @@
       "age": 24,
       "value": 75000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/898333-1720712968.jpg"
     },
     {
       "id": "1550865",
@@ -4302,7 +5070,9 @@
       "age": 20,
       "value": 75000,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1006625",
@@ -4313,7 +5083,9 @@
       "age": 27,
       "value": 75000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "403747",
@@ -4324,7 +5096,9 @@
       "age": 34,
       "value": 75000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/403747-1593883386.jpg"
     },
     {
       "id": "997831",
@@ -4335,7 +5109,9 @@
       "age": 20,
       "value": 75000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "159772",
@@ -4346,7 +5122,9 @@
       "age": 38,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/159772-1738284846.png"
     },
     {
       "id": "997823",
@@ -4357,7 +5135,9 @@
       "age": 20,
       "value": 50000,
       "contract": "2028-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/997823-1773429023.jpeg"
     },
     {
       "id": "1268037",
@@ -4368,7 +5148,9 @@
       "age": 22,
       "value": 50000,
       "contract": "2028-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1062319",
@@ -4379,7 +5161,9 @@
       "age": 20,
       "value": 50000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1062319-1721246935.jpg"
     },
     {
       "id": "1339505",
@@ -4390,7 +5174,9 @@
       "age": 18,
       "value": 50000,
       "contract": "2028-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1339505-1792612506.jpg"
     },
     {
       "id": "58890",
@@ -4401,7 +5187,9 @@
       "age": 38,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/58890-1742573469.png"
     },
     {
       "id": "179276",
@@ -4412,7 +5200,9 @@
       "age": 35,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/179276-1743015968.jpg"
     },
     {
       "id": "1134754",
@@ -4423,7 +5213,9 @@
       "age": 22,
       "value": 50000,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1134754-1780622017.jpg"
     },
     {
       "id": "54935",
@@ -4434,7 +5226,9 @@
       "age": 39,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/54935-1780677615.jpg"
     },
     {
       "id": "1023186",
@@ -4445,7 +5239,9 @@
       "age": 22,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1023186-1780677901.jpg"
     },
     {
       "id": "123742",
@@ -4456,7 +5252,9 @@
       "age": 35,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/123742-1721245833.jpg"
     },
     {
       "id": "1382932",
@@ -4467,7 +5265,9 @@
       "age": 25,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1054450",
@@ -4478,7 +5278,9 @@
       "age": 21,
       "value": 50000,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1518437",
@@ -4489,7 +5291,9 @@
       "age": 21,
       "value": 50000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1237430",
@@ -4500,7 +5304,9 @@
       "age": 20,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1237430-1743018311.jpg"
     },
     {
       "id": "74621",
@@ -4511,7 +5317,9 @@
       "age": 36,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/74621-1581879109.jpg"
     },
     {
       "id": "353806",
@@ -4522,7 +5330,9 @@
       "age": 32,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "261182",
@@ -4533,7 +5343,9 @@
       "age": 34,
       "value": 50000,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/261182-1737818357.jpg"
     },
     {
       "id": "1500643",
@@ -4544,7 +5356,9 @@
       "age": 21,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "76886",
@@ -4555,7 +5369,9 @@
       "age": 36,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/76886-1637447334.JPG"
     },
     {
       "id": "1500644",
@@ -4566,7 +5382,9 @@
       "age": 21,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "76592",
@@ -4577,7 +5395,9 @@
       "age": 40,
       "value": 25000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/76592-1780615074.jpg"
     },
     {
       "id": "1198373",
@@ -4588,7 +5408,9 @@
       "age": 22,
       "value": 25000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1198373-1760646500.jpg"
     },
     {
       "id": "1422395",
@@ -4599,7 +5421,9 @@
       "age": 18,
       "value": 25000,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1422395-1760625709.jpeg"
     },
     {
       "id": "202872",
@@ -4610,7 +5434,9 @@
       "age": 37,
       "value": 25000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/202872-1518287706.jpg"
     },
     {
       "id": "1382927",
@@ -4621,7 +5447,9 @@
       "age": 27,
       "value": 25000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1150844",
@@ -4632,7 +5460,9 @@
       "age": 22,
       "value": 25000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1150844-1721082554.png"
     },
     {
       "id": "1272094",
@@ -4643,7 +5473,9 @@
       "age": 19,
       "value": 25000,
       "contract": "2028-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1272094-1750347324.jpg"
     },
     {
       "id": "1001697",
@@ -4654,7 +5486,9 @@
       "age": 21,
       "value": 25000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1001697-1750346810.jpg"
     },
     {
       "id": "424290",
@@ -4665,7 +5499,9 @@
       "age": 28,
       "value": 25000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/424290-1772242472.jpeg"
     },
     {
       "id": "1512182",
@@ -4676,7 +5512,9 @@
       "age": 20,
       "value": 25000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1292834",
@@ -4687,7 +5525,9 @@
       "age": 21,
       "value": 25000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1292834-1729685576.png"
     },
     {
       "id": "146289",
@@ -4698,7 +5538,9 @@
       "age": 37,
       "value": 25000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/146289-1720710426.jpg"
     },
     {
       "id": "1012955",
@@ -4709,7 +5551,9 @@
       "age": 24,
       "value": 25000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "72578",
@@ -4720,7 +5564,9 @@
       "age": 38,
       "value": 25000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/72578-1720714208.jpg"
     },
     {
       "id": "64545",
@@ -4731,7 +5577,9 @@
       "age": 41,
       "value": 25000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/64545-1720713441.jpg"
     },
     {
       "id": "263052",
@@ -4742,7 +5590,9 @@
       "age": 33,
       "value": 25000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/263052-1475692007.jpg"
     },
     {
       "id": "1236473",
@@ -4753,7 +5603,9 @@
       "age": 20,
       "value": 25000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1236473-1720713244.jpg"
     },
     {
       "id": "102439",
@@ -4764,7 +5616,9 @@
       "age": 38,
       "value": 25000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/102439-1720821362.jpg"
     },
     {
       "id": "1304356",
@@ -4775,7 +5629,9 @@
       "age": 23,
       "value": 25000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1434252",
@@ -4786,7 +5642,9 @@
       "age": 22,
       "value": 25000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "76746",
@@ -4797,7 +5655,9 @@
       "age": 38,
       "value": 25000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/76746-1742486493.jpg"
     },
     {
       "id": "1198160",
@@ -4808,7 +5668,9 @@
       "age": 22,
       "value": 25000,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1198160-1720713349.jpg"
     },
     {
       "id": "76707",
@@ -4819,7 +5681,9 @@
       "age": 39,
       "value": 10000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/76707-1776451464.jpeg"
     },
     {
       "id": "142970",
@@ -4830,7 +5694,9 @@
       "age": 38,
       "value": 10000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/142970-1760646176.jpg"
     },
     {
       "id": "147139",
@@ -4841,7 +5707,9 @@
       "age": 38,
       "value": 10000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/147139-1712765570.JPG"
     },
     {
       "id": "76622",
@@ -4852,7 +5720,9 @@
       "age": 39,
       "value": 10000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "125440",
@@ -4863,7 +5733,9 @@
       "age": 39,
       "value": 10000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/125440-1750346240.jpg"
     },
     {
       "id": "184148",
@@ -4874,7 +5746,9 @@
       "age": 37,
       "value": 10000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/184148-1750347315.jpg"
     },
     {
       "id": "1418931",
@@ -4885,7 +5759,9 @@
       "age": 19,
       "value": null,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1372200",
@@ -4896,7 +5772,9 @@
       "age": 19,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1428936",
@@ -4907,7 +5785,9 @@
       "age": 19,
       "value": null,
       "contract": "2027-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1377261",
@@ -4918,7 +5798,9 @@
       "age": 20,
       "value": null,
       "contract": "2027-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1414585",
@@ -4929,7 +5811,9 @@
       "age": 18,
       "value": null,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "997819",
@@ -4940,7 +5824,9 @@
       "age": 20,
       "value": null,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1378285",
@@ -4951,7 +5837,9 @@
       "age": 19,
       "value": null,
       "contract": "2028-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1387965",
@@ -4962,7 +5850,9 @@
       "age": 20,
       "value": null,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1154226",
@@ -4973,7 +5863,9 @@
       "age": 23,
       "value": null,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1154226-1789422824.jpeg"
     },
     {
       "id": "1154228",
@@ -4984,7 +5876,9 @@
       "age": 20,
       "value": null,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1154228-1726764687.jpg"
     },
     {
       "id": "1229012",
@@ -4995,7 +5889,9 @@
       "age": 22,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Spain"
+      "nat": "Espanha",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "657740",
@@ -5006,7 +5902,9 @@
       "age": 24,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/657740-1721060106.jpg"
     },
     {
       "id": "1567497",
@@ -5017,7 +5915,9 @@
       "age": 20,
       "value": null,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1512632",
@@ -5028,7 +5928,9 @@
       "age": 20,
       "value": null,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1198385",
@@ -5039,7 +5941,9 @@
       "age": 28,
       "value": null,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1236474",
@@ -5050,7 +5954,9 @@
       "age": 20,
       "value": null,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1236474-1720713551.jpg"
     },
     {
       "id": "1380214",
@@ -5061,7 +5967,9 @@
       "age": 21,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1380214-1740783437.png"
     },
     {
       "id": "1380229",
@@ -5072,7 +5980,9 @@
       "age": 19,
       "value": null,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1380229-1740783321.png"
     },
     {
       "id": "1513306",
@@ -5083,7 +5993,9 @@
       "age": 20,
       "value": null,
       "contract": "2027-12-31",
-      "nat": "Peru"
+      "nat": "Peru",
+      "foreign": true,
+      "photo": null
     }
   ]
 }

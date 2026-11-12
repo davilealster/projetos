@@ -94,7 +94,9 @@
       "age": 21,
       "value": 38000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/palmeiras/340279.webp"
     },
     {
       "id": "808509",
@@ -105,7 +107,9 @@
       "age": 25,
       "value": 32000000,
       "contract": "2029-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/botafogo/275170.webp"
     },
     {
       "id": "844797",
@@ -116,7 +120,9 @@
       "age": 25,
       "value": 30000000,
       "contract": "2030-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/844797-1739618753.jpg"
     },
     {
       "id": "444523",
@@ -127,7 +133,9 @@
       "age": 29,
       "value": 27000000,
       "contract": "2030-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/flamengo/1646.webp"
     },
     {
       "id": "620477",
@@ -138,7 +146,9 @@
       "age": 24,
       "value": 25000000,
       "contract": "2030-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/cruzeiro/10008.webp"
     },
     {
       "id": "1029227",
@@ -149,7 +159,9 @@
       "age": 21,
       "value": 25000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/corinthians/363693.webp"
     },
     {
       "id": "489893",
@@ -160,7 +172,9 @@
       "age": 25,
       "value": 23000000,
       "contract": "2030-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/corinthians/10007.webp"
     },
     {
       "id": "432895",
@@ -171,7 +185,9 @@
       "age": 29,
       "value": 22000000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/flamengo/10321.webp"
     },
     {
       "id": "694928",
@@ -182,7 +198,9 @@
       "age": 26,
       "value": 20000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/flamengo/126936.webp"
     },
     {
       "id": "580461",
@@ -193,7 +211,9 @@
       "age": 26,
       "value": 20000000,
       "contract": "2028-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "/players/athletico-pr/13198.webp"
     },
     {
       "id": "678439",
@@ -204,7 +224,9 @@
       "age": 25,
       "value": 18000000,
       "contract": "2028-12-31",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": false,
+      "photo": "/players/palmeiras/106485.webp"
     },
     {
       "id": "341705",
@@ -215,7 +237,9 @@
       "age": 29,
       "value": 18000000,
       "contract": "2030-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/cruzeiro/30408.webp"
     },
     {
       "id": "815558",
@@ -226,7 +250,9 @@
       "age": 25,
       "value": 18000000,
       "contract": "2030-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/fluminense/280245.webp"
     },
     {
       "id": "1221818",
@@ -237,7 +263,9 @@
       "age": 20,
       "value": 16000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1221818-1760492908.jpg"
     },
     {
       "id": "676035",
@@ -248,7 +276,9 @@
       "age": 27,
       "value": 16000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/bahia/197383.webp"
     },
     {
       "id": "588989",
@@ -259,7 +289,9 @@
       "age": 29,
       "value": 15000000,
       "contract": "2029-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "/players/palmeiras/13708.webp"
     },
     {
       "id": "354145",
@@ -270,7 +302,9 @@
       "age": 28,
       "value": 15000000,
       "contract": "2029-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "/players/flamengo/5994.webp"
     },
     {
       "id": "957461",
@@ -281,7 +315,9 @@
       "age": 24,
       "value": 15000000,
       "contract": "2031-01-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "/players/vasco/345748.webp"
     },
     {
       "id": "578872",
@@ -292,7 +328,9 @@
       "age": 28,
       "value": 15000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/bahia/9994.webp"
     },
     {
       "id": "982617",
@@ -303,7 +341,9 @@
       "age": 26,
       "value": 15000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/fluminense/266267.webp"
     },
     {
       "id": "1233473",
@@ -314,7 +354,9 @@
       "age": 19,
       "value": 15000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/athletico-pr/457420.webp"
     },
     {
       "id": "203394",
@@ -325,7 +367,9 @@
       "age": 30,
       "value": 14000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/palmeiras/899.webp"
     },
     {
       "id": "931007",
@@ -336,7 +380,9 @@
       "age": 23,
       "value": 14000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/flamengo/332654.webp"
     },
     {
       "id": "248410",
@@ -347,7 +393,9 @@
       "age": 32,
       "value": 14000000,
       "contract": "2028-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "/players/flamengo/2612.webp"
     },
     {
       "id": "225984",
@@ -358,7 +406,9 @@
       "age": 30,
       "value": 14000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/cruzeiro/25618.webp"
     },
     {
       "id": "1228194",
@@ -369,7 +419,9 @@
       "age": 19,
       "value": 14000000,
       "contract": "2030-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/botafogo/455130.webp"
     },
     {
       "id": "468301",
@@ -380,7 +432,9 @@
       "age": 26,
       "value": 14000000,
       "contract": "2030-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/sao-paulo/696.webp"
     },
     {
       "id": "936544",
@@ -391,7 +445,9 @@
       "age": 26,
       "value": 13000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/bahia/303127.webp"
     },
     {
       "id": "496268",
@@ -402,7 +458,9 @@
       "age": 28,
       "value": 12000000,
       "contract": "2030-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "/players/palmeiras/51466.webp"
     },
     {
       "id": "374136",
@@ -413,7 +471,9 @@
       "age": 30,
       "value": 12000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/flamengo/9458.webp"
     },
     {
       "id": "288431",
@@ -424,7 +484,9 @@
       "age": 30,
       "value": 12000000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/flamengo/10124.webp"
     },
     {
       "id": "1083207",
@@ -435,7 +497,9 @@
       "age": 22,
       "value": 12000000,
       "contract": "2029-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/cruzeiro/422150.webp"
     },
     {
       "id": "1074584",
@@ -446,7 +510,9 @@
       "age": 20,
       "value": 12000000,
       "contract": "2029-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "/players/cruzeiro/414405.webp"
     },
     {
       "id": "574901",
@@ -457,7 +523,9 @@
       "age": 27,
       "value": 12000000,
       "contract": "2030-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/corinthians/123759.webp"
     },
     {
       "id": "565009",
@@ -468,7 +536,9 @@
       "age": 28,
       "value": 12000000,
       "contract": "2028-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/corinthians/5794.webp"
     },
     {
       "id": "958598",
@@ -479,7 +549,9 @@
       "age": 23,
       "value": 12000000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/vasco/359372.webp",
       "loanFrom": "Zenit St. Petersburg"
     },
     {
@@ -491,7 +563,9 @@
       "age": 23,
       "value": 12000000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/vasco/353034.webp",
       "loanFrom": "Nottingham Forest"
     },
     {
@@ -503,7 +577,9 @@
       "age": 24,
       "value": 12000000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/fluminense/297522.webp"
     },
     {
       "id": "371247",
@@ -514,7 +590,9 @@
       "age": 26,
       "value": 12000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/santos/31007.webp"
     },
     {
       "id": "1089958",
@@ -525,7 +603,9 @@
       "age": 21,
       "value": 12000000,
       "contract": "2030-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/santos/506275.webp"
     },
     {
       "id": "849582",
@@ -536,7 +616,9 @@
       "age": 22,
       "value": 11000000,
       "contract": "2030-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/palmeiras/306706.webp"
     },
     {
       "id": "512385",
@@ -547,7 +629,9 @@
       "age": 27,
       "value": 11000000,
       "contract": "2028-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "/players/cruzeiro/37161.webp"
     },
     {
       "id": "491704",
@@ -558,7 +642,9 @@
       "age": 26,
       "value": 11000000,
       "contract": "2028-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/santos/119485.webp"
     },
     {
       "id": "476352",
@@ -569,7 +655,9 @@
       "age": 28,
       "value": 11000000,
       "contract": "2030-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/atletico-mg/10122.webp"
     },
     {
       "id": "745191",
@@ -580,7 +668,9 @@
       "age": 27,
       "value": 10000000,
       "contract": "2030-06-30",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "/players/palmeiras/196298.webp"
     },
     {
       "id": "352324",
@@ -591,7 +681,9 @@
       "age": 31,
       "value": 10000000,
       "contract": "2027-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/flamengo/11756.webp"
     },
     {
       "id": "428783",
@@ -602,7 +694,9 @@
       "age": 26,
       "value": 10000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/flamengo/9909.webp"
     },
     {
       "id": "997947",
@@ -613,7 +707,9 @@
       "age": 20,
       "value": 10000000,
       "contract": "2031-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/cruzeiro/360306.webp"
     },
     {
       "id": "432773",
@@ -624,7 +720,9 @@
       "age": 30,
       "value": 10000000,
       "contract": "2030-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/cruzeiro/10089.webp"
     },
     {
       "id": "594226",
@@ -635,7 +733,9 @@
       "age": 26,
       "value": 10000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/corinthians/10161.webp"
     },
     {
       "id": "625569",
@@ -646,7 +746,9 @@
       "age": 27,
       "value": 10000000,
       "contract": "2031-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "/players/bahia/51545.webp"
     },
     {
       "id": "641458",
@@ -657,7 +759,9 @@
       "age": 28,
       "value": 9000000,
       "contract": "2030-07-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/palmeiras/10373.webp"
     },
     {
       "id": "592735",
@@ -668,7 +772,9 @@
       "age": 26,
       "value": 9000000,
       "contract": "2029-06-30",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "/players/flamengo/16369.webp"
     },
     {
       "id": "856143",
@@ -679,7 +785,9 @@
       "age": 23,
       "value": 9000000,
       "contract": "2027-06-30",
-      "nat": "Uruguay",
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "/players/cruzeiro/297749.webp",
       "loanFrom": "NEOM SC"
     },
     {
@@ -691,7 +799,9 @@
       "age": 27,
       "value": 9000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/botafogo/8661.webp"
     },
     {
       "id": "390638",
@@ -702,7 +812,9 @@
       "age": 28,
       "value": 9000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/botafogo/9938.webp"
     },
     {
       "id": "468304",
@@ -713,7 +825,9 @@
       "age": 26,
       "value": 9000000,
       "contract": "2030-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/bahia/9954.webp"
     },
     {
       "id": "457533",
@@ -724,7 +838,9 @@
       "age": 28,
       "value": 9000000,
       "contract": "2028-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "/players/fluminense/51603.webp"
     },
     {
       "id": "974488",
@@ -735,7 +851,9 @@
       "age": 22,
       "value": 9000000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/974488-1706563541.jpg"
     },
     {
       "id": "1365897",
@@ -746,7 +864,9 @@
       "age": 18,
       "value": 8000000,
       "contract": "2031-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/cruzeiro/504950.webp"
     },
     {
       "id": "670021",
@@ -757,7 +877,9 @@
       "age": 27,
       "value": 8000000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/corinthians/9742.webp"
     },
     {
       "id": "474589",
@@ -768,7 +890,9 @@
       "age": 27,
       "value": 8000000,
       "contract": "2026-12-31",
-      "nat": "Colombia",
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "/players/vasco/13283.webp",
       "loanFrom": "Galatasaray"
     },
     {
@@ -780,7 +904,9 @@
       "age": 27,
       "value": 8000000,
       "contract": "2029-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/vasco/6006.webp"
     },
     {
       "id": "661133",
@@ -791,7 +917,9 @@
       "age": 24,
       "value": 8000000,
       "contract": "2029-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/botafogo/237186.webp"
     },
     {
       "id": "1220614",
@@ -802,7 +930,9 @@
       "age": 18,
       "value": 8000000,
       "contract": "2030-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/bahia/454147.webp"
     },
     {
       "id": "309193",
@@ -813,7 +943,9 @@
       "age": 30,
       "value": 8000000,
       "contract": "2029-12-31",
-      "nat": "Venezuela"
+      "nat": "Venezuela",
+      "foreign": true,
+      "photo": "/players/fluminense/51214.webp"
     },
     {
       "id": "68290",
@@ -824,7 +956,9 @@
       "age": 34,
       "value": 8000000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/santos/276.webp"
     },
     {
       "id": "749559",
@@ -835,7 +969,9 @@
       "age": 22,
       "value": 8000000,
       "contract": "2030-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/atletico-mg/352371.webp"
     },
     {
       "id": "503052",
@@ -846,7 +982,9 @@
       "age": 26,
       "value": 8000000,
       "contract": "2028-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/atletico-mg/6031.webp"
     },
     {
       "id": "362667",
@@ -857,7 +995,9 @@
       "age": 29,
       "value": 8000000,
       "contract": "2029-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "/players/atletico-mg/5923.webp"
     },
     {
       "id": "829969",
@@ -868,7 +1008,9 @@
       "age": 25,
       "value": 8000000,
       "contract": "2029-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/athletico-pr/288704.webp"
     },
     {
       "id": "1004738",
@@ -879,7 +1021,9 @@
       "age": 20,
       "value": 8000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/athletico-pr/414661.webp"
     },
     {
       "id": "406676",
@@ -890,7 +1034,9 @@
       "age": 29,
       "value": 8000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/bragantino/10481.webp"
     },
     {
       "id": "816144",
@@ -901,7 +1047,9 @@
       "age": 25,
       "value": 8000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/bragantino/279811.webp"
     },
     {
       "id": "861852",
@@ -912,7 +1060,9 @@
       "age": 25,
       "value": 8000000,
       "contract": "2027-12-31",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "/players/sao-paulo/195107.webp"
     },
     {
       "id": "440658",
@@ -923,7 +1073,9 @@
       "age": 28,
       "value": 8000000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/sao-paulo/10040.webp",
       "loanFrom": "Botafogo de Futebol e Regatas"
     },
     {
@@ -935,7 +1087,9 @@
       "age": 27,
       "value": 8000000,
       "contract": "2026-12-31",
-      "nat": "Ghana"
+      "nat": "Gana",
+      "foreign": true,
+      "photo": "/players/gremio/1431.webp"
     },
     {
       "id": "719635",
@@ -946,7 +1100,9 @@
       "age": 26,
       "value": 8000000,
       "contract": "2028-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/internacional/129902.webp"
     },
     {
       "id": "991134",
@@ -957,7 +1113,9 @@
       "age": 25,
       "value": 7500000,
       "contract": "2029-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/vasco/358383.webp"
     },
     {
       "id": "675178",
@@ -968,7 +1126,9 @@
       "age": 27,
       "value": 7500000,
       "contract": "2028-12-31",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "/players/bragantino/70670.webp"
     },
     {
       "id": "428791",
@@ -979,7 +1139,9 @@
       "age": 26,
       "value": 7000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/palmeiras/987.webp"
     },
     {
       "id": "397458",
@@ -990,7 +1152,9 @@
       "age": 29,
       "value": 7000000,
       "contract": "2028-06-30",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "/players/flamengo/5995.webp"
     },
     {
       "id": "435485",
@@ -1001,7 +1165,9 @@
       "age": 30,
       "value": 7000000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/flamengo/22238.webp"
     },
     {
       "id": "703321",
@@ -1012,7 +1178,9 @@
       "age": 25,
       "value": 7000000,
       "contract": "2031-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/cruzeiro/143367.webp"
     },
     {
       "id": "288415",
@@ -1023,7 +1191,9 @@
       "age": 31,
       "value": 7000000,
       "contract": "2030-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/vasco/41169.webp"
     },
     {
       "id": "1083966",
@@ -1034,7 +1204,9 @@
       "age": 22,
       "value": 7000000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/vasco/404753.webp"
     },
     {
       "id": "461937",
@@ -1045,7 +1217,9 @@
       "age": 27,
       "value": 7000000,
       "contract": "2027-12-31",
-      "nat": "Portugal"
+      "nat": "Portugal",
+      "foreign": true,
+      "photo": "/players/vasco/163260.webp"
     },
     {
       "id": "727751",
@@ -1056,7 +1230,9 @@
       "age": 27,
       "value": 7000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/bahia/180236.webp"
     },
     {
       "id": "888493",
@@ -1067,7 +1243,9 @@
       "age": 23,
       "value": 7000000,
       "contract": "2031-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/bahia/311344.webp"
     },
     {
       "id": "608216",
@@ -1078,7 +1256,9 @@
       "age": 26,
       "value": 7000000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/santos/195111.webp",
       "loanFrom": "Clube Atlético Mineiro"
     },
     {
@@ -1090,7 +1270,9 @@
       "age": 26,
       "value": 7000000,
       "contract": "2028-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/santos/6052.webp"
     },
     {
       "id": "1004728",
@@ -1101,7 +1283,9 @@
       "age": 20,
       "value": 7000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/athletico-pr/414399.webp"
     },
     {
       "id": "977465",
@@ -1112,7 +1296,9 @@
       "age": 25,
       "value": 7000000,
       "contract": "2030-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/bragantino/304827.webp"
     },
     {
       "id": "743593",
@@ -1123,7 +1309,9 @@
       "age": 22,
       "value": 7000000,
       "contract": "2030-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/bragantino/363689.webp"
     },
     {
       "id": "689211",
@@ -1134,7 +1322,9 @@
       "age": 24,
       "value": 7000000,
       "contract": "2029-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/gremio/129882.webp"
     },
     {
       "id": "371256",
@@ -1145,7 +1335,9 @@
       "age": 26,
       "value": 7000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/gremio/691.webp"
     },
     {
       "id": "703322",
@@ -1156,7 +1348,9 @@
       "age": 25,
       "value": 7000000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/internacional/143368.webp"
     },
     {
       "id": "572042",
@@ -1167,7 +1361,9 @@
       "age": 27,
       "value": 7000000,
       "contract": "2029-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "/players/internacional/13691.webp"
     },
     {
       "id": "653348",
@@ -1178,7 +1374,9 @@
       "age": 25,
       "value": 6000000,
       "contract": "2030-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/palmeiras/10125.webp"
     },
     {
       "id": "364972",
@@ -1189,7 +1387,9 @@
       "age": 31,
       "value": 6000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/palmeiras/9218.webp"
     },
     {
       "id": "552549",
@@ -1200,7 +1400,9 @@
       "age": 28,
       "value": 6000000,
       "contract": "2029-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/cruzeiro/10494.webp"
     },
     {
       "id": "167850",
@@ -1211,7 +1413,9 @@
       "age": 32,
       "value": 6000000,
       "contract": "2028-06-30",
-      "nat": "Netherlands"
+      "nat": "Holanda",
+      "foreign": true,
+      "photo": "/players/corinthians/667.webp"
     },
     {
       "id": "1257133",
@@ -1222,7 +1426,9 @@
       "age": 19,
       "value": 6000000,
       "contract": "2030-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1257133-1769005239.png"
     },
     {
       "id": "742095",
@@ -1233,7 +1439,9 @@
       "age": 26,
       "value": 6000000,
       "contract": "2027-06-30",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/vasco/159511.webp",
       "loanFrom": "FC Copenhagen"
     },
     {
@@ -1245,7 +1453,9 @@
       "age": 26,
       "value": 6000000,
       "contract": "2028-12-31",
-      "nat": "Italy"
+      "nat": "Itália",
+      "foreign": false,
+      "photo": "/players/vasco/10234.webp"
     },
     {
       "id": "412594",
@@ -1256,7 +1466,9 @@
       "age": 30,
       "value": 6000000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/vasco/133910.webp"
     },
     {
       "id": "491705",
@@ -1267,7 +1479,9 @@
       "age": 26,
       "value": 6000000,
       "contract": "2029-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/vasco/214.webp"
     },
     {
       "id": "668228",
@@ -1278,7 +1492,9 @@
       "age": 23,
       "value": 6000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/botafogo/305821.webp"
     },
     {
       "id": "346766",
@@ -1289,7 +1505,9 @@
       "age": 29,
       "value": 6000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/fluminense/2038.webp"
     },
     {
       "id": "1219749",
@@ -1300,7 +1518,9 @@
       "age": 19,
       "value": 6000000,
       "contract": "2030-08-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/fluminense/502726.webp"
     },
     {
       "id": "984416",
@@ -1311,7 +1531,9 @@
       "age": 27,
       "value": 6000000,
       "contract": "2030-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/fluminense/304048.webp"
     },
     {
       "id": "321239",
@@ -1322,7 +1544,9 @@
       "age": 30,
       "value": 6000000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/santos/2414.webp"
     },
     {
       "id": "897051",
@@ -1333,7 +1557,9 @@
       "age": 23,
       "value": 6000000,
       "contract": "2030-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "/players/atletico-mg/280695.webp"
     },
     {
       "id": "723853",
@@ -1344,7 +1570,9 @@
       "age": 25,
       "value": 6000000,
       "contract": "2028-12-31",
-      "nat": "Peru"
+      "nat": "Peru",
+      "foreign": true,
+      "photo": "/players/gremio/199141.webp"
     },
     {
       "id": "525287",
@@ -1355,7 +1583,9 @@
       "age": 31,
       "value": 6000000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/gremio/104.webp"
     },
     {
       "id": "895926",
@@ -1366,7 +1596,9 @@
       "age": 21,
       "value": 6000000,
       "contract": "2026-12-31",
-      "nat": "Uruguay",
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "/players/coritiba/315569.webp",
       "loanFrom": "Fluminense Football Club"
     },
     {
@@ -1378,7 +1610,9 @@
       "age": 21,
       "value": 6000000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/coritiba/410449.webp"
     },
     {
       "id": "458710",
@@ -1389,7 +1623,9 @@
       "age": 29,
       "value": 5000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/palmeiras/10083.webp"
     },
     {
       "id": "707447",
@@ -1400,7 +1636,9 @@
       "age": 27,
       "value": 5000000,
       "contract": "2029-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "/players/palmeiras/153083.webp"
     },
     {
       "id": "610417",
@@ -1411,7 +1649,9 @@
       "age": 25,
       "value": 5000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/flamengo/80528.webp"
     },
     {
       "id": "476344",
@@ -1422,7 +1662,9 @@
       "age": 27,
       "value": 5000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/flamengo/1566.webp"
     },
     {
       "id": "766258",
@@ -1433,7 +1675,9 @@
       "age": 22,
       "value": 5000000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/corinthians/380435.webp",
       "loanFrom": "Al-Hilal SFC"
     },
     {
@@ -1445,7 +1689,9 @@
       "age": 19,
       "value": 5000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/corinthians/463975.webp"
     },
     {
       "id": "1221773",
@@ -1456,7 +1702,9 @@
       "age": 19,
       "value": 5000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1221773-1737235140.jpg"
     },
     {
       "id": "875332",
@@ -1467,7 +1715,9 @@
       "age": 25,
       "value": 5000000,
       "contract": "2027-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/botafogo/304686.webp",
       "loanFrom": "TSG 1899 Hoffenheim"
     },
     {
@@ -1479,7 +1729,9 @@
       "age": 27,
       "value": 5000000,
       "contract": "2029-12-31",
-      "nat": "Venezuela"
+      "nat": "Venezuela",
+      "foreign": true,
+      "photo": "/players/botafogo/2440.webp"
     },
     {
       "id": "633212",
@@ -1490,7 +1742,9 @@
       "age": 28,
       "value": 5000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/bahia/10130.webp"
     },
     {
       "id": "657746",
@@ -1501,7 +1755,9 @@
       "age": 24,
       "value": 5000000,
       "contract": "2026-12-31",
-      "nat": "Uruguay",
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "/players/bahia/67902.webp",
       "loanFrom": "Grêmio Foot-Ball Porto Alegrense"
     },
     {
@@ -1513,7 +1769,9 @@
       "age": 26,
       "value": 5000000,
       "contract": "2028-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/fluminense/6337.webp"
     },
     {
       "id": "315169",
@@ -1524,7 +1782,9 @@
       "age": 32,
       "value": 5000000,
       "contract": "2029-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/fluminense/50763.webp"
     },
     {
       "id": "745927",
@@ -1535,7 +1795,9 @@
       "age": 28,
       "value": 5000000,
       "contract": "2028-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "/players/fluminense/70849.webp"
     },
     {
       "id": "1256755",
@@ -1546,7 +1808,9 @@
       "age": 19,
       "value": 5000000,
       "contract": "2030-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1256755-1773445527.png"
     },
     {
       "id": "1063811",
@@ -1557,7 +1821,9 @@
       "age": 22,
       "value": 5000000,
       "contract": "2029-05-31",
-      "nat": "Bolivia"
+      "nat": "Bolívia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1063811-1674435475.jpg"
     },
     {
       "id": "997714",
@@ -1568,7 +1834,9 @@
       "age": 23,
       "value": 5000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/atletico-mg/363323.webp"
     },
     {
       "id": "857948",
@@ -1579,7 +1847,9 @@
       "age": 26,
       "value": 5000000,
       "contract": "2027-06-30",
-      "nat": "Colombia",
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "/players/atletico-mg/289592.webp",
       "loanFrom": "CA River Plate"
     },
     {
@@ -1591,7 +1861,9 @@
       "age": 22,
       "value": 5000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/athletico-pr/321646.webp"
     },
     {
       "id": "585747",
@@ -1602,7 +1874,9 @@
       "age": 28,
       "value": 5000000,
       "contract": "2028-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "/players/athletico-pr/13151.webp"
     },
     {
       "id": "627230",
@@ -1613,7 +1887,9 @@
       "age": 24,
       "value": 5000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/bragantino/279805.webp"
     },
     {
       "id": "881645",
@@ -1624,7 +1900,9 @@
       "age": 23,
       "value": 5000000,
       "contract": "2030-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "/players/bragantino/310307.webp"
     },
     {
       "id": "975191",
@@ -1635,7 +1913,9 @@
       "age": 24,
       "value": 5000000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "/players/bragantino/350927.webp"
     },
     {
       "id": "874223",
@@ -1646,7 +1926,9 @@
       "age": 24,
       "value": 5000000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/gremio/304867.webp"
     },
     {
       "id": "1093951",
@@ -1657,7 +1939,9 @@
       "age": 23,
       "value": 5000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/vitoria/442404.webp"
     },
     {
       "id": "379752",
@@ -1668,7 +1952,9 @@
       "age": 31,
       "value": 4500000,
       "contract": "2028-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "/players/palmeiras/5933.webp"
     },
     {
       "id": "215616",
@@ -1679,7 +1965,9 @@
       "age": 32,
       "value": 4500000,
       "contract": "2029-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "/players/flamengo/2560.webp"
     },
     {
       "id": "379807",
@@ -1690,7 +1978,9 @@
       "age": 29,
       "value": 4500000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/atletico-mg/30476.webp"
     },
     {
       "id": "740295",
@@ -1701,7 +1991,9 @@
       "age": 24,
       "value": 4500000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/atletico-mg/197450.webp"
     },
     {
       "id": "191614",
@@ -1712,7 +2004,9 @@
       "age": 33,
       "value": 4500000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/atletico-mg/905.webp"
     },
     {
       "id": "400960",
@@ -1723,7 +2017,9 @@
       "age": 28,
       "value": 4500000,
       "contract": "2027-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "/players/atletico-mg/16360.webp"
     },
     {
       "id": "330085",
@@ -1734,7 +2030,9 @@
       "age": 32,
       "value": 4500000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/atletico-mg/9926.webp"
     },
     {
       "id": "711600",
@@ -1745,7 +2043,9 @@
       "age": 24,
       "value": 4500000,
       "contract": "2028-07-01",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/athletico-pr/152931.webp"
     },
     {
       "id": "563692",
@@ -1756,7 +2056,9 @@
       "age": 27,
       "value": 4000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/palmeiras/10379.webp"
     },
     {
       "id": "1253807",
@@ -1767,7 +2069,9 @@
       "age": 20,
       "value": 4000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/palmeiras/415068.webp"
     },
     {
       "id": "851595",
@@ -1778,7 +2082,9 @@
       "age": 22,
       "value": 4000000,
       "contract": "2030-07-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/palmeiras/311384.webp"
     },
     {
       "id": "1115722",
@@ -1789,7 +2095,9 @@
       "age": 21,
       "value": 4000000,
       "contract": "2030-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/palmeiras/425715.webp"
     },
     {
       "id": "270188",
@@ -1800,7 +2108,9 @@
       "age": 31,
       "value": 4000000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/palmeiras/21095.webp"
     },
     {
       "id": "349585",
@@ -1811,7 +2121,9 @@
       "age": 29,
       "value": 4000000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/flamengo/1771.webp"
     },
     {
       "id": "471639",
@@ -1822,7 +2134,9 @@
       "age": 29,
       "value": 4000000,
       "contract": "2029-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/cruzeiro/6608.webp"
     },
     {
       "id": "1007378",
@@ -1833,7 +2147,9 @@
       "age": 21,
       "value": 4000000,
       "contract": "2027-06-30",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/cruzeiro/365287.webp",
       "loanFrom": "Al-Nassr FC"
     },
     {
@@ -1845,7 +2161,9 @@
       "age": 21,
       "value": 4000000,
       "contract": "2030-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1182665-1737992293.jpeg"
     },
     {
       "id": "1005650",
@@ -1856,7 +2174,9 @@
       "age": 22,
       "value": 4000000,
       "contract": "2030-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/corinthians/415085.webp"
     },
     {
       "id": "546530",
@@ -1867,7 +2187,9 @@
       "age": 29,
       "value": 4000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/corinthians/160436.webp"
     },
     {
       "id": "809716",
@@ -1878,7 +2200,9 @@
       "age": 25,
       "value": 4000000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/vasco/286962.webp"
     },
     {
       "id": "663319",
@@ -1889,7 +2213,9 @@
       "age": 24,
       "value": 4000000,
       "contract": "2029-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "/players/vasco/64134.webp"
     },
     {
       "id": "598629",
@@ -1900,7 +2226,9 @@
       "age": 30,
       "value": 4000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/vasco/63475.webp"
     },
     {
       "id": "412366",
@@ -1911,7 +2239,9 @@
       "age": 26,
       "value": 4000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/vasco/9975.webp"
     },
     {
       "id": "401535",
@@ -1922,7 +2252,9 @@
       "age": 28,
       "value": 4000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/botafogo/10152.webp"
     },
     {
       "id": "1328021",
@@ -1933,7 +2265,9 @@
       "age": 18,
       "value": 4000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/bahia/510677.webp"
     },
     {
       "id": "495689",
@@ -1944,7 +2278,9 @@
       "age": 28,
       "value": 4000000,
       "contract": "2029-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "/players/fluminense/13715.webp"
     },
     {
       "id": "411662",
@@ -1955,7 +2291,9 @@
       "age": 31,
       "value": 4000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/santos/9991.webp"
     },
     {
       "id": "1253844",
@@ -1966,7 +2304,9 @@
       "age": 19,
       "value": 4000000,
       "contract": "2027-03-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1253844-1744746249.jpg"
     },
     {
       "id": "244275",
@@ -1977,7 +2317,9 @@
       "age": 30,
       "value": 4000000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/santos/10174.webp",
       "loanFrom": "Cruzeiro Esporte Clube"
     },
     {
@@ -1989,7 +2331,9 @@
       "age": 27,
       "value": 4000000,
       "contract": "2030-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/atletico-mg/152857.webp"
     },
     {
       "id": "627226",
@@ -2000,7 +2344,9 @@
       "age": 24,
       "value": 4000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/atletico-mg/10166.webp"
     },
     {
       "id": "649184",
@@ -2011,7 +2357,9 @@
       "age": 26,
       "value": 4000000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "/players/athletico-pr/13493.webp"
     },
     {
       "id": "880217",
@@ -2022,7 +2370,9 @@
       "age": 27,
       "value": 4000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/bragantino/297893.webp"
     },
     {
       "id": "1082602",
@@ -2033,7 +2383,9 @@
       "age": 21,
       "value": 4000000,
       "contract": "2031-08-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/bragantino/405160.webp"
     },
     {
       "id": "1193867",
@@ -2044,7 +2396,9 @@
       "age": 20,
       "value": 4000000,
       "contract": "2027-06-30",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/sao-paulo/449245.webp",
       "loanFrom": "Wolverhampton Wanderers"
     },
     {
@@ -2056,7 +2410,9 @@
       "age": 24,
       "value": 4000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/sao-paulo/313732.webp"
     },
     {
       "id": "1202387",
@@ -2067,7 +2423,9 @@
       "age": 19,
       "value": 4000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/sao-paulo/465196.webp"
     },
     {
       "id": "436385",
@@ -2078,7 +2436,9 @@
       "age": 29,
       "value": 4000000,
       "contract": "2029-12-31",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "/players/gremio/70566.webp"
     },
     {
       "id": "834444",
@@ -2089,7 +2449,9 @@
       "age": 22,
       "value": 4000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/internacional/305042.webp"
     },
     {
       "id": "670965",
@@ -2100,7 +2462,9 @@
       "age": 27,
       "value": 4000000,
       "contract": "2030-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/internacional/10147.webp"
     },
     {
       "id": "668265",
@@ -2111,7 +2475,9 @@
       "age": 23,
       "value": 4000000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/internacional/305819.webp",
       "loanFrom": "Esporte Clube Bahia"
     },
     {
@@ -2123,7 +2489,9 @@
       "age": 28,
       "value": 4000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/vitoria/9510.webp"
     },
     {
       "id": "515638",
@@ -2134,7 +2502,9 @@
       "age": 28,
       "value": 4000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/vitoria/9549.webp"
     },
     {
       "id": "688690",
@@ -2145,7 +2515,9 @@
       "age": 27,
       "value": 4000000,
       "contract": "2027-12-10",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/mirassol/156191.webp"
     },
     {
       "id": "974652",
@@ -2156,7 +2528,9 @@
       "age": 24,
       "value": 3800000,
       "contract": "2026-12-31",
-      "nat": "Colombia",
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "/players/vasco/351920.webp",
       "loanFrom": "CF Monterrey"
     },
     {
@@ -2168,7 +2542,9 @@
       "age": 33,
       "value": 3500000,
       "contract": "2030-12-31",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "/players/palmeiras/2502.webp"
     },
     {
       "id": "102017",
@@ -2179,7 +2555,9 @@
       "age": 34,
       "value": 3500000,
       "contract": "2028-06-30",
-      "nat": "Italy"
+      "nat": "Itália",
+      "foreign": false,
+      "photo": "/players/flamengo/2289.webp"
     },
     {
       "id": "1423021",
@@ -2190,7 +2568,9 @@
       "age": 17,
       "value": 3500000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1423021-1769167065.png"
     },
     {
       "id": "624291",
@@ -2201,7 +2581,9 @@
       "age": 29,
       "value": 3500000,
       "contract": "2028-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/fluminense/10017.webp"
     },
     {
       "id": "362842",
@@ -2212,7 +2594,9 @@
       "age": 30,
       "value": 3500000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/santos/150.webp"
     },
     {
       "id": "450241",
@@ -2223,7 +2607,9 @@
       "age": 28,
       "value": 3500000,
       "contract": "2029-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "/players/atletico-mg/2583.webp"
     },
     {
       "id": "743951",
@@ -2234,7 +2620,9 @@
       "age": 24,
       "value": 3500000,
       "contract": "2026-12-31",
-      "nat": "Uruguay",
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "/players/atletico-mg/197513.webp",
       "loanFrom": "Red Bull Bragantino"
     },
     {
@@ -2246,7 +2634,9 @@
       "age": 31,
       "value": 3500000,
       "contract": "2028-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/athletico-pr/58577.webp"
     },
     {
       "id": "907649",
@@ -2257,7 +2647,9 @@
       "age": 24,
       "value": 3500000,
       "contract": "2030-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "/players/athletico-pr/323800.webp"
     },
     {
       "id": "468247",
@@ -2268,7 +2660,9 @@
       "age": 29,
       "value": 3500000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/bragantino/9862.webp"
     },
     {
       "id": "732899",
@@ -2279,7 +2673,9 @@
       "age": 26,
       "value": 3500000,
       "contract": "2029-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "/players/bragantino/152410.webp"
     },
     {
       "id": "400661",
@@ -2290,7 +2686,9 @@
       "age": 29,
       "value": 3500000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "/players/bragantino/51571.webp"
     },
     {
       "id": "614328",
@@ -2301,7 +2699,9 @@
       "age": 26,
       "value": 3500000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/bragantino/10027.webp"
     },
     {
       "id": "1084081",
@@ -2312,7 +2712,9 @@
       "age": 22,
       "value": 3500000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1084081-1713627870.jpg"
     },
     {
       "id": "1082593",
@@ -2323,7 +2725,9 @@
       "age": 22,
       "value": 3500000,
       "contract": "2029-03-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1082593-1717523580.jpg"
     },
     {
       "id": "406675",
@@ -2334,7 +2738,9 @@
       "age": 29,
       "value": 3500000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/gremio/10309.webp"
     },
     {
       "id": "657220",
@@ -2346,6 +2752,8 @@
       "value": 3500000,
       "contract": "2026-12-31",
       "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/internacional/6519.webp",
       "loanFrom": "CSKA Moscow"
     },
     {
@@ -2357,7 +2765,9 @@
       "age": 26,
       "value": 3000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/cruzeiro/54866.webp"
     },
     {
       "id": "1388409",
@@ -2368,7 +2778,9 @@
       "age": 20,
       "value": 3000000,
       "contract": "2030-08-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/cruzeiro/522246.webp"
     },
     {
       "id": "1253814",
@@ -2379,7 +2791,9 @@
       "age": 20,
       "value": 3000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/cruzeiro/465165.webp"
     },
     {
       "id": "236202",
@@ -2390,7 +2804,9 @@
       "age": 32,
       "value": 3000000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/cruzeiro/2083.webp"
     },
     {
       "id": "1497709",
@@ -2401,7 +2817,9 @@
       "age": 17,
       "value": 3000000,
       "contract": "2028-04-16",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "504882",
@@ -2412,7 +2830,9 @@
       "age": 29,
       "value": 3000000,
       "contract": "2028-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/vasco/6735.webp"
     },
     {
       "id": "856047",
@@ -2423,7 +2843,9 @@
       "age": 23,
       "value": 3000000,
       "contract": "2028-06-30",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "/players/botafogo/297687.webp"
     },
     {
       "id": "1364573",
@@ -2434,7 +2856,9 @@
       "age": 19,
       "value": 3000000,
       "contract": "2030-03-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/botafogo/505409.webp"
     },
     {
       "id": "592347",
@@ -2445,7 +2869,9 @@
       "age": 32,
       "value": 3000000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/botafogo/10432.webp",
       "loanFrom": "Clube Atlético Mineiro"
     },
     {
@@ -2457,7 +2883,9 @@
       "age": 26,
       "value": 3000000,
       "contract": "2030-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/fluminense/282692.webp"
     },
     {
       "id": "312294",
@@ -2468,7 +2896,9 @@
       "age": 29,
       "value": 3000000,
       "contract": "2028-12-31",
-      "nat": "Venezuela"
+      "nat": "Venezuela",
+      "foreign": true,
+      "photo": "/players/fluminense/2454.webp"
     },
     {
       "id": "371009",
@@ -2479,7 +2909,9 @@
       "age": 31,
       "value": 3000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/santos/10143.webp"
     },
     {
       "id": "978121",
@@ -2490,7 +2922,9 @@
       "age": 24,
       "value": 3000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/atletico-mg/311275.webp"
     },
     {
       "id": "1152154",
@@ -2502,6 +2936,8 @@
       "value": 3000000,
       "contract": "2026-12-31",
       "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/atletico-mg/414544.webp",
       "loanFrom": "FC Porto"
     },
     {
@@ -2513,7 +2949,9 @@
       "age": 21,
       "value": 3000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/athletico-pr/362716.webp"
     },
     {
       "id": "1094387",
@@ -2524,7 +2962,9 @@
       "age": 21,
       "value": 3000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1094387-1676082448.jpg"
     },
     {
       "id": "1110658",
@@ -2535,7 +2975,9 @@
       "age": 27,
       "value": 3000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/athletico-pr/408145.webp"
     },
     {
       "id": "816129",
@@ -2546,7 +2988,9 @@
       "age": 24,
       "value": 3000000,
       "contract": "2030-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/bragantino/279800.webp"
     },
     {
       "id": "680506",
@@ -2557,7 +3001,9 @@
       "age": 24,
       "value": 3000000,
       "contract": "2027-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/680506-1623343517.jpg"
     },
     {
       "id": "520468",
@@ -2568,7 +3014,9 @@
       "age": 29,
       "value": 3000000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/sao-paulo/10375.webp",
       "loanFrom": "Esporte Clube Bahia"
     },
     {
@@ -2580,7 +3028,9 @@
       "age": 30,
       "value": 3000000,
       "contract": "2028-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/sao-paulo/6237.webp"
     },
     {
       "id": "811219",
@@ -2591,7 +3041,9 @@
       "age": 26,
       "value": 3000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/sao-paulo/277169.webp"
     },
     {
       "id": "689017",
@@ -2602,7 +3054,9 @@
       "age": 28,
       "value": 3000000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/689017-1757490132.jpg"
     },
     {
       "id": "1269378",
@@ -2613,7 +3067,9 @@
       "age": 19,
       "value": 3000000,
       "contract": "2028-04-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/sao-paulo/505994.webp"
     },
     {
       "id": "1219466",
@@ -2624,7 +3080,9 @@
       "age": 21,
       "value": 3000000,
       "contract": "2031-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/gremio/454925.webp"
     },
     {
       "id": "869437",
@@ -2635,7 +3093,9 @@
       "age": 24,
       "value": 3000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/internacional/306552.webp"
     },
     {
       "id": "251813",
@@ -2646,7 +3106,9 @@
       "age": 30,
       "value": 3000000,
       "contract": "2027-06-30",
-      "nat": "Sweden",
+      "nat": "Suécia",
+      "foreign": false,
+      "photo": "/players/internacional/19270.webp",
       "loanFrom": "AEK Athens"
     },
     {
@@ -2658,7 +3120,9 @@
       "age": 25,
       "value": 3000000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/vitoria/9906.webp",
       "loanFrom": "Red Bull Bragantino"
     },
     {
@@ -2670,7 +3134,9 @@
       "age": 29,
       "value": 3000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/vitoria/114436.webp"
     },
     {
       "id": "593382",
@@ -2681,7 +3147,9 @@
       "age": 29,
       "value": 3000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/coritiba/9633.webp"
     },
     {
       "id": "462070",
@@ -2692,7 +3160,9 @@
       "age": 28,
       "value": 3000000,
       "contract": "2027-08-31",
-      "nat": "Uruguay",
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "/players/coritiba/30690.webp",
       "loanFrom": "Club León FC"
     },
     {
@@ -2704,7 +3174,9 @@
       "age": 30,
       "value": 3000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/coritiba/53966.webp"
     },
     {
       "id": "491599",
@@ -2715,7 +3187,9 @@
       "age": 26,
       "value": 3000000,
       "contract": "2029-12-31",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "/players/remo/95392.webp"
     },
     {
       "id": "255755",
@@ -2726,7 +3200,9 @@
       "age": 33,
       "value": 2800000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/botafogo/378.webp"
     },
     {
       "id": "439072",
@@ -2737,7 +3213,9 @@
       "age": 29,
       "value": 2500000,
       "contract": "2026-12-31",
-      "nat": "Uruguay",
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "/players/cruzeiro/51572.webp",
       "loanFrom": "CR Flamengo"
     },
     {
@@ -2749,7 +3227,9 @@
       "age": 31,
       "value": 2500000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/cruzeiro/25398.webp"
     },
     {
       "id": "242201",
@@ -2760,7 +3240,9 @@
       "age": 32,
       "value": 2500000,
       "contract": "2027-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/cruzeiro/10100.webp"
     },
     {
       "id": "668268",
@@ -2771,7 +3253,9 @@
       "age": 23,
       "value": 2500000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/cruzeiro/311520.webp"
     },
     {
       "id": "936536",
@@ -2783,6 +3267,8 @@
       "value": 2500000,
       "contract": "2027-06-30",
       "nat": "Portugal",
+      "foreign": false,
+      "photo": "/players/cruzeiro/368096.webp",
       "loanFrom": "Al-Ettifaq FC"
     },
     {
@@ -2794,7 +3280,9 @@
       "age": 26,
       "value": 2500000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/vasco/306261.webp"
     },
     {
       "id": "1087334",
@@ -2805,7 +3293,9 @@
       "age": 20,
       "value": 2500000,
       "contract": "2029-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "/players/botafogo/410843.webp"
     },
     {
       "id": "524446",
@@ -2816,7 +3306,9 @@
       "age": 29,
       "value": 2500000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/bahia/10059.webp"
     },
     {
       "id": "482144",
@@ -2827,7 +3319,9 @@
       "age": 30,
       "value": 2500000,
       "contract": "2028-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "/players/bahia/51701.webp"
     },
     {
       "id": "80444",
@@ -2838,7 +3332,9 @@
       "age": 34,
       "value": 2500000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/santos/147.webp"
     },
     {
       "id": "1355484",
@@ -2849,7 +3345,9 @@
       "age": 18,
       "value": 2500000,
       "contract": "2030-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1355484-1768236106.jpg"
     },
     {
       "id": "1410674",
@@ -2860,7 +3358,9 @@
       "age": 19,
       "value": 2500000,
       "contract": "2030-12-31",
-      "nat": "Guinea"
+      "nat": "Guiné",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1410674-1769005827.jpg"
     },
     {
       "id": "553459",
@@ -2871,7 +3371,9 @@
       "age": 27,
       "value": 2500000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/atletico-mg/9967.webp"
     },
     {
       "id": "1093864",
@@ -2882,7 +3384,9 @@
       "age": 21,
       "value": 2500000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/athletico-pr/415066.webp",
       "loanFrom": "Sociedade Esportiva Palmeiras"
     },
     {
@@ -2894,7 +3398,9 @@
       "age": 23,
       "value": 2500000,
       "contract": "2029-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/bragantino/354791.webp"
     },
     {
       "id": "565232",
@@ -2905,7 +3411,9 @@
       "age": 29,
       "value": 2500000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/sao-paulo/41188.webp"
     },
     {
       "id": "373170",
@@ -2916,7 +3424,9 @@
       "age": 30,
       "value": 2500000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/gremio/5981.webp"
     },
     {
       "id": "633428",
@@ -2927,7 +3437,9 @@
       "age": 27,
       "value": 2500000,
       "contract": "2028-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "/players/gremio/13616.webp"
     },
     {
       "id": "876739",
@@ -2938,7 +3450,9 @@
       "age": 25,
       "value": 2500000,
       "contract": "2027-06-30",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/internacional/306210.webp",
       "loanFrom": "Cruzeiro Esporte Clube"
     },
     {
@@ -2950,7 +3464,9 @@
       "age": 27,
       "value": 2500000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/internacional/197051.webp"
     },
     {
       "id": "829378",
@@ -2961,7 +3477,9 @@
       "age": 26,
       "value": 2500000,
       "contract": "2028-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/internacional/288720.webp"
     },
     {
       "id": "371996",
@@ -2972,7 +3490,9 @@
       "age": 26,
       "value": 2500000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/internacional/9893.webp",
       "loanFrom": "CSKA Moscow"
     },
     {
@@ -2984,7 +3504,9 @@
       "age": 28,
       "value": 2500000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/vitoria/9460.webp"
     },
     {
       "id": "348354",
@@ -2996,6 +3518,8 @@
       "value": 2500000,
       "contract": "2026-12-31",
       "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/vitoria/6242.webp",
       "loanFrom": "Fortaleza Esporte Clube"
     },
     {
@@ -3008,6 +3532,8 @@
       "value": 2500000,
       "contract": "2026-12-31",
       "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/vitoria/455047.webp",
       "loanFrom": "CA Independiente"
     },
     {
@@ -3019,7 +3545,9 @@
       "age": 27,
       "value": 2500000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/mirassol/9429.webp"
     },
     {
       "id": "680681",
@@ -3030,7 +3558,9 @@
       "age": 26,
       "value": 2500000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/680681-1682767739.jpg"
     },
     {
       "id": "663077",
@@ -3041,7 +3571,9 @@
       "age": 28,
       "value": 2500000,
       "contract": "2028-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/remo/5211.webp"
     },
     {
       "id": "722133",
@@ -3052,7 +3584,9 @@
       "age": 27,
       "value": 2500000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/chapecoense/106495.webp"
     },
     {
       "id": "217111",
@@ -3063,7 +3597,9 @@
       "age": 33,
       "value": 2200000,
       "contract": "2028-12-31",
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": "/players/botafogo/548.webp"
     },
     {
       "id": "231614",
@@ -3074,7 +3610,9 @@
       "age": 33,
       "value": 2200000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/athletico-pr/10305.webp"
     },
     {
       "id": "1324003",
@@ -3085,7 +3623,9 @@
       "age": 19,
       "value": 2000000,
       "contract": "2031-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1324003-1771857419.jpg"
     },
     {
       "id": "1360820",
@@ -3096,7 +3636,9 @@
       "age": 18,
       "value": 2000000,
       "contract": "2029-03-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1360820-1761612576.png"
     },
     {
       "id": "385271",
@@ -3107,7 +3649,9 @@
       "age": 29,
       "value": 2000000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/corinthians/10319.webp",
       "loanFrom": "CR Flamengo"
     },
     {
@@ -3119,7 +3663,9 @@
       "age": 29,
       "value": 2000000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/430339-1774479262.jpg"
     },
     {
       "id": "477460",
@@ -3130,7 +3676,9 @@
       "age": 30,
       "value": 2000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/botafogo/80367.webp"
     },
     {
       "id": "1464878",
@@ -3141,7 +3689,9 @@
       "age": 19,
       "value": 2000000,
       "contract": "2029-12-31",
-      "nat": "Panama"
+      "nat": "Panamá",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1464878-1780574770.jpg"
     },
     {
       "id": "1568045",
@@ -3152,7 +3702,9 @@
       "age": 17,
       "value": 2000000,
       "contract": "2030-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "387925",
@@ -3163,7 +3715,9 @@
       "age": 30,
       "value": 2000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/bahia/9512.webp"
     },
     {
       "id": "984480",
@@ -3174,7 +3728,9 @@
       "age": 22,
       "value": 2000000,
       "contract": "2030-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/bahia/355253.webp"
     },
     {
       "id": "592344",
@@ -3185,7 +3741,9 @@
       "age": 28,
       "value": 2000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/fluminense/9874.webp"
     },
     {
       "id": "546172",
@@ -3196,7 +3754,9 @@
       "age": 28,
       "value": 2000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/fluminense/10396.webp"
     },
     {
       "id": "275412",
@@ -3207,7 +3767,9 @@
       "age": 31,
       "value": 2000000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/santos/9979.webp"
     },
     {
       "id": "552240",
@@ -3218,7 +3780,9 @@
       "age": 29,
       "value": 2000000,
       "contract": "2028-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/santos/9949.webp"
     },
     {
       "id": "1101124",
@@ -3229,7 +3793,9 @@
       "age": 21,
       "value": 2000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1101124-1774463085.jpg"
     },
     {
       "id": "387611",
@@ -3240,7 +3806,9 @@
       "age": 30,
       "value": 2000000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/santos/50532.webp",
       "loanFrom": "Fluminense Football Club"
     },
     {
@@ -3252,7 +3820,9 @@
       "age": 30,
       "value": 2000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/santos/153454.webp"
     },
     {
       "id": "312678",
@@ -3263,7 +3833,9 @@
       "age": 30,
       "value": 2000000,
       "contract": "2030-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/atletico-mg/10160.webp"
     },
     {
       "id": "421935",
@@ -3274,7 +3846,9 @@
       "age": 29,
       "value": 2000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/atletico-mg/687.webp"
     },
     {
       "id": "570521",
@@ -3285,7 +3859,9 @@
       "age": 30,
       "value": 2000000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "/players/athletico-pr/36258.webp"
     },
     {
       "id": "1071293",
@@ -3296,7 +3872,9 @@
       "age": 23,
       "value": 2000000,
       "contract": "2030-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1071293-1755448001.JPG"
     },
     {
       "id": "1383716",
@@ -3307,7 +3885,9 @@
       "age": 19,
       "value": 2000000,
       "contract": "2030-01-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1383716-1768821019.jpeg"
     },
     {
       "id": "162812",
@@ -3318,7 +3898,9 @@
       "age": 31,
       "value": 2000000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/sao-paulo/25272.webp",
       "loanFrom": "Esporte Clube Bahia"
     },
     {
@@ -3330,7 +3912,9 @@
       "age": 32,
       "value": 2000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/sao-paulo/7541.webp"
     },
     {
       "id": "77100",
@@ -3341,7 +3925,9 @@
       "age": 34,
       "value": 2000000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/sao-paulo/178.webp"
     },
     {
       "id": "671572",
@@ -3352,7 +3938,9 @@
       "age": 27,
       "value": 2000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/gremio/9993.webp"
     },
     {
       "id": "1253927",
@@ -3363,7 +3951,9 @@
       "age": 19,
       "value": 2000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1253927-1769132300.png"
     },
     {
       "id": "273438",
@@ -3374,7 +3964,9 @@
       "age": 30,
       "value": 2000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/gremio/22167.webp"
     },
     {
       "id": "1221317",
@@ -3385,7 +3977,9 @@
       "age": 20,
       "value": 2000000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/gremio/457508.webp"
     },
     {
       "id": "743594",
@@ -3396,7 +3990,9 @@
       "age": 22,
       "value": 2000000,
       "contract": "2030-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/gremio/269441.webp"
     },
     {
       "id": "249730",
@@ -3407,7 +4003,9 @@
       "age": 32,
       "value": 2000000,
       "contract": "2028-06-30",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "/players/internacional/2553.webp"
     },
     {
       "id": "405768",
@@ -3418,7 +4016,9 @@
       "age": 30,
       "value": 2000000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/internacional/10167.webp"
     },
     {
       "id": "294873",
@@ -3429,7 +4029,9 @@
       "age": 29,
       "value": 2000000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/internacional/22231.webp"
     },
     {
       "id": "104505",
@@ -3440,7 +4042,9 @@
       "age": 35,
       "value": 2000000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/internacional/692.webp"
     },
     {
       "id": "663578",
@@ -3451,7 +4055,9 @@
       "age": 25,
       "value": 2000000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/vitoria/67944.webp",
       "loanFrom": "Sport Club Internacional"
     },
     {
@@ -3463,7 +4069,9 @@
       "age": 31,
       "value": 2000000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/vitoria/25387.webp",
       "loanFrom": "Cruzeiro Esporte Clube"
     },
     {
@@ -3475,7 +4083,9 @@
       "age": 28,
       "value": 2000000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/coritiba/9989.webp"
     },
     {
       "id": "592340",
@@ -3486,7 +4096,9 @@
       "age": 29,
       "value": 2000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/mirassol/80654.webp"
     },
     {
       "id": "808507",
@@ -3497,7 +4109,9 @@
       "age": 25,
       "value": 2000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/mirassol/276452.webp"
     },
     {
       "id": "672202",
@@ -3508,7 +4122,9 @@
       "age": 27,
       "value": 2000000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/chapecoense/63998.webp",
       "loanFrom": "Grêmio Foot-Ball Porto Alegrense"
     },
     {
@@ -3520,7 +4136,9 @@
       "age": 23,
       "value": 1800000,
       "contract": "2031-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "/players/flamengo/198347.webp"
     },
     {
       "id": "523363",
@@ -3531,7 +4149,9 @@
       "age": 31,
       "value": 1800000,
       "contract": "2028-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/523363-1721724314.png"
     },
     {
       "id": "491587",
@@ -3542,7 +4162,9 @@
       "age": 26,
       "value": 1800000,
       "contract": "2029-06-30",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/491587-1754041909.png"
     },
     {
       "id": "264014",
@@ -3553,7 +4175,9 @@
       "age": 33,
       "value": 1800000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "/players/internacional/50077.webp"
     },
     {
       "id": "234523",
@@ -3564,7 +4188,9 @@
       "age": 30,
       "value": 1800000,
       "contract": "2029-12-31",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "/players/internacional/2522.webp"
     },
     {
       "id": "646677",
@@ -3575,7 +4201,9 @@
       "age": 28,
       "value": 1800000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/646677-1634205500.jpg",
       "loanFrom": "FC Famalicão"
     },
     {
@@ -3587,7 +4215,9 @@
       "age": 30,
       "value": 1800000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/coritiba/6080.webp"
     },
     {
       "id": "570522",
@@ -3598,7 +4228,9 @@
       "age": 30,
       "value": 1800000,
       "contract": "2028-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "/players/coritiba/13310.webp"
     },
     {
       "id": "329843",
@@ -3609,7 +4241,9 @@
       "age": 30,
       "value": 1800000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/329843-1562328303.jpg"
     },
     {
       "id": "240913",
@@ -3620,7 +4254,9 @@
       "age": 32,
       "value": 1700000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/cruzeiro/6268.webp"
     },
     {
       "id": "1268048",
@@ -3631,7 +4267,9 @@
       "age": 18,
       "value": 1500000,
       "contract": "2031-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1268048-1761612108.png"
     },
     {
       "id": "145707",
@@ -3642,7 +4280,9 @@
       "age": 35,
       "value": 1500000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/flamengo/618.webp"
     },
     {
       "id": "657743",
@@ -3653,7 +4293,9 @@
       "age": 24,
       "value": 1500000,
       "contract": "2029-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "/players/corinthians/182025.webp"
     },
     {
       "id": "323934",
@@ -3664,7 +4306,9 @@
       "age": 28,
       "value": 1500000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/corinthians/871.webp",
       "loanFrom": "Fortaleza Esporte Clube"
     },
     {
@@ -3676,7 +4320,9 @@
       "age": 33,
       "value": 1500000,
       "contract": "2026-12-31",
-      "nat": "England"
+      "nat": "Inglaterra",
+      "foreign": true,
+      "photo": "/players/corinthians/900.webp"
     },
     {
       "id": "1082700",
@@ -3687,7 +4333,9 @@
       "age": 22,
       "value": 1500000,
       "contract": "2027-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1082700-1758160096.jpg"
     },
     {
       "id": "547443",
@@ -3698,7 +4346,9 @@
       "age": 30,
       "value": 1500000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/corinthians/9329.webp"
     },
     {
       "id": "373189",
@@ -3709,7 +4359,9 @@
       "age": 31,
       "value": 1500000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/vasco/10105.webp"
     },
     {
       "id": "796973",
@@ -3720,7 +4372,9 @@
       "age": 25,
       "value": 1500000,
       "contract": "2029-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": false,
+      "photo": "/players/botafogo/265954.webp"
     },
     {
       "id": "1127043",
@@ -3731,7 +4385,9 @@
       "age": 20,
       "value": 1500000,
       "contract": "2028-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1127043-1779824068.jpg"
     },
     {
       "id": "666541",
@@ -3742,7 +4398,9 @@
       "age": 23,
       "value": 1500000,
       "contract": "2029-12-31",
-      "nat": "Angola"
+      "nat": "Angola",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/666541-1777284635.jpg"
     },
     {
       "id": "874844",
@@ -3753,7 +4411,9 @@
       "age": 25,
       "value": 1500000,
       "contract": "2029-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "/players/botafogo/308798.webp"
     },
     {
       "id": "519731",
@@ -3764,7 +4424,9 @@
       "age": 27,
       "value": 1500000,
       "contract": "2027-06-30",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/botafogo/553.webp",
       "loanFrom": "Rangers FC"
     },
     {
@@ -3776,7 +4438,9 @@
       "age": 34,
       "value": 1500000,
       "contract": "2027-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/bahia/6225.webp"
     },
     {
       "id": "373446",
@@ -3787,7 +4451,9 @@
       "age": 31,
       "value": 1500000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/bahia/10351.webp"
     },
     {
       "id": "1241022",
@@ -3798,7 +4464,9 @@
       "age": 22,
       "value": 1500000,
       "contract": "2030-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/bahia/459837.webp"
     },
     {
       "id": "1355486",
@@ -3809,7 +4477,9 @@
       "age": 18,
       "value": 1500000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/atletico-mg/515668.webp"
     },
     {
       "id": "1365061",
@@ -3820,7 +4490,9 @@
       "age": 18,
       "value": 1500000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1365061-1769005493.jpg"
     },
     {
       "id": "883623",
@@ -3831,7 +4503,9 @@
       "age": 26,
       "value": 1500000,
       "contract": "2028-02-29",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/athletico-pr/195435.webp"
     },
     {
       "id": "1082625",
@@ -3842,7 +4516,9 @@
       "age": 22,
       "value": 1500000,
       "contract": "2027-03-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/bragantino/415069.webp",
       "loanFrom": "Clube Atlético Mineiro"
     },
     {
@@ -3854,7 +4530,9 @@
       "age": 27,
       "value": 1500000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/bragantino/688.webp"
     },
     {
       "id": "378871",
@@ -3865,7 +4543,9 @@
       "age": 29,
       "value": 1500000,
       "contract": "2028-12-31",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": false,
+      "photo": "/players/sao-paulo/50726.webp"
     },
     {
       "id": "258039",
@@ -3876,7 +4556,9 @@
       "age": 29,
       "value": 1500000,
       "contract": "2027-06-30",
-      "nat": "Portugal"
+      "nat": "Portugal",
+      "foreign": true,
+      "photo": "/players/sao-paulo/8451.webp"
     },
     {
       "id": "284727",
@@ -3887,7 +4569,9 @@
       "age": 33,
       "value": 1500000,
       "contract": "2028-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/sao-paulo/47368.webp"
     },
     {
       "id": "878037",
@@ -3898,7 +4582,9 @@
       "age": 26,
       "value": 1500000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/gremio/309634.webp"
     },
     {
       "id": "601011",
@@ -3909,7 +4595,9 @@
       "age": 28,
       "value": 1500000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/gremio/10527.webp",
       "loanFrom": "Sociedade Esportiva Palmeiras"
     },
     {
@@ -3921,7 +4609,9 @@
       "age": 22,
       "value": 1500000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/gremio/405703.webp",
       "loanFrom": "Goiás EC"
     },
     {
@@ -3933,7 +4623,9 @@
       "age": 31,
       "value": 1500000,
       "contract": "2028-12-31",
-      "nat": "Croatia"
+      "nat": "Croácia",
+      "foreign": true,
+      "photo": "/players/gremio/574.webp"
     },
     {
       "id": "448466",
@@ -3944,7 +4636,9 @@
       "age": 28,
       "value": 1500000,
       "contract": "2027-12-31",
-      "nat": "Cape Verde"
+      "nat": "Cabo Verde",
+      "foreign": true,
+      "photo": "/players/gremio/1494.webp"
     },
     {
       "id": "798114",
@@ -3955,7 +4649,9 @@
       "age": 26,
       "value": 1500000,
       "contract": "2027-06-30",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/internacional/266658.webp",
       "loanFrom": "Fortaleza Esporte Clube"
     },
     {
@@ -3967,7 +4663,9 @@
       "age": 27,
       "value": 1500000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/vitoria/10085.webp",
       "loanFrom": "Sport Club Corinthians Paulista"
     },
     {
@@ -3979,7 +4677,9 @@
       "age": 24,
       "value": 1500000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/vitoria/311518.webp",
       "loanFrom": "Red Bull Bragantino"
     },
     {
@@ -3991,7 +4691,9 @@
       "age": 26,
       "value": 1500000,
       "contract": "2027-06-30",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/vitoria/187920.webp",
       "loanFrom": "Moreirense FC"
     },
     {
@@ -4003,7 +4705,9 @@
       "age": 22,
       "value": 1500000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/coritiba/305026.webp"
     },
     {
       "id": "1089181",
@@ -4014,7 +4718,9 @@
       "age": 21,
       "value": 1500000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1089181-1769211848.png"
     },
     {
       "id": "362844",
@@ -4025,7 +4731,9 @@
       "age": 32,
       "value": 1500000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/coritiba/10106.webp"
     },
     {
       "id": "626110",
@@ -4036,7 +4744,9 @@
       "age": 29,
       "value": 1500000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/mirassol/115525.webp"
     },
     {
       "id": "644204",
@@ -4047,7 +4757,9 @@
       "age": 28,
       "value": 1500000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/644204-1663032474.jpg"
     },
     {
       "id": "794925",
@@ -4058,7 +4770,9 @@
       "age": 29,
       "value": 1500000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/mirassol/54238.webp"
     },
     {
       "id": "484848",
@@ -4069,7 +4783,9 @@
       "age": 29,
       "value": 1500000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/remo/10114.webp",
       "loanFrom": "Santos FC"
     },
     {
@@ -4081,7 +4797,9 @@
       "age": 27,
       "value": 1500000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/remo/54894.webp"
     },
     {
       "id": "585876",
@@ -4092,7 +4810,9 @@
       "age": 29,
       "value": 1500000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/remo/80273.webp"
     },
     {
       "id": "1102308",
@@ -4103,7 +4823,9 @@
       "age": 22,
       "value": 1500000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/chapecoense/403060.webp"
     },
     {
       "id": "1118587",
@@ -4114,7 +4836,9 @@
       "age": 24,
       "value": 1500000,
       "contract": "2026-12-31",
-      "nat": "Uruguay",
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1118587-1787009325.jpg",
       "loanFrom": "Deportivo Toluca"
     },
     {
@@ -4126,7 +4850,9 @@
       "age": 31,
       "value": 1400000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/fluminense/9872.webp"
     },
     {
       "id": "563812",
@@ -4137,7 +4863,9 @@
       "age": 30,
       "value": 1400000,
       "contract": "2028-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "/players/santos/30568.webp"
     },
     {
       "id": "406766",
@@ -4148,7 +4876,9 @@
       "age": 29,
       "value": 1200000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/cruzeiro/9445.webp",
       "loanFrom": "Sociedade Esportiva Palmeiras"
     },
     {
@@ -4160,7 +4890,9 @@
       "age": 24,
       "value": 1200000,
       "contract": "2028-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "/players/vasco/310774.webp"
     },
     {
       "id": "862574",
@@ -4171,7 +4903,9 @@
       "age": 24,
       "value": 1200000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/862574-1747961226.jpg"
     },
     {
       "id": "696693",
@@ -4182,7 +4916,9 @@
       "age": 26,
       "value": 1200000,
       "contract": "2027-12-31",
-      "nat": "Angola"
+      "nat": "Angola",
+      "foreign": true,
+      "photo": "/players/vasco/289306.webp"
     },
     {
       "id": "544259",
@@ -4193,7 +4929,9 @@
       "age": 31,
       "value": 1200000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/bahia/9854.webp"
     },
     {
       "id": "122155",
@@ -4204,7 +4942,9 @@
       "age": 34,
       "value": 1200000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/bahia/47319.webp"
     },
     {
       "id": "403296",
@@ -4215,7 +4955,9 @@
       "age": 30,
       "value": 1200000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/athletico-pr/9951.webp"
     },
     {
       "id": "228433",
@@ -4226,7 +4968,9 @@
       "age": 33,
       "value": 1200000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/sao-paulo/970.webp"
     },
     {
       "id": "468332",
@@ -4237,7 +4981,9 @@
       "age": 27,
       "value": 1200000,
       "contract": "2028-12-31",
-      "nat": "Portugal"
+      "nat": "Portugal",
+      "foreign": true,
+      "photo": "/players/vitoria/141294.webp"
     },
     {
       "id": "360526",
@@ -4248,7 +4994,9 @@
       "age": 32,
       "value": 1200000,
       "contract": "2027-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/vitoria/16637.webp"
     },
     {
       "id": "698784",
@@ -4259,7 +5007,9 @@
       "age": 28,
       "value": 1200000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/chapecoense/106467.webp"
     },
     {
       "id": "346935",
@@ -4270,7 +5020,9 @@
       "age": 31,
       "value": 1200000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/chapecoense/10348.webp"
     },
     {
       "id": "1116605",
@@ -4281,7 +5033,9 @@
       "age": 21,
       "value": 1000000,
       "contract": "2030-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1116605-1768961167.jpg"
     },
     {
       "id": "159372",
@@ -4292,7 +5046,9 @@
       "age": 33,
       "value": 1000000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/palmeiras/2412.webp"
     },
     {
       "id": "79960",
@@ -4303,7 +5059,9 @@
       "age": 35,
       "value": 1000000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/flamengo/860.webp"
     },
     {
       "id": "188862",
@@ -4314,7 +5072,9 @@
       "age": 33,
       "value": 1000000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "/players/flamengo/1290.webp"
     },
     {
       "id": "148928",
@@ -4325,7 +5085,9 @@
       "age": 31,
       "value": 1000000,
       "contract": "2028-12-31",
-      "nat": "Spain"
+      "nat": "Espanha",
+      "foreign": true,
+      "photo": "/players/flamengo/48.webp"
     },
     {
       "id": "1005653",
@@ -4336,7 +5098,9 @@
       "age": 22,
       "value": 1000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/corinthians/415083.webp"
     },
     {
       "id": "219835",
@@ -4347,7 +5111,9 @@
       "age": 31,
       "value": 1000000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/corinthians/10067.webp"
     },
     {
       "id": "135617",
@@ -4358,7 +5124,9 @@
       "age": 34,
       "value": 1000000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/vasco/22232.webp"
     },
     {
       "id": "1083969",
@@ -4369,7 +5137,9 @@
       "age": 21,
       "value": 1000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1083969-1705781572.jpg"
     },
     {
       "id": "126422",
@@ -4380,7 +5150,9 @@
       "age": 35,
       "value": 1000000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/botafogo/326.webp"
     },
     {
       "id": "1279908",
@@ -4391,7 +5163,9 @@
       "age": 19,
       "value": 1000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1279908-1766773174.png"
     },
     {
       "id": "1096605",
@@ -4402,7 +5176,9 @@
       "age": 20,
       "value": 1000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/botafogo/413140.webp"
     },
     {
       "id": "52896",
@@ -4413,7 +5189,9 @@
       "age": 37,
       "value": 1000000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/bahia/10168.webp"
     },
     {
       "id": "312314",
@@ -4424,7 +5202,9 @@
       "age": 32,
       "value": 1000000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/fluminense/1262.webp"
     },
     {
       "id": "80562",
@@ -4435,7 +5215,9 @@
       "age": 40,
       "value": 1000000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/fluminense/12705.webp"
     },
     {
       "id": "392487",
@@ -4446,7 +5228,9 @@
       "age": 31,
       "value": 1000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/santos/10492.webp"
     },
     {
       "id": "891672",
@@ -4457,7 +5241,9 @@
       "age": 25,
       "value": 1000000,
       "contract": "2028-12-31",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "/players/santos/119128.webp"
     },
     {
       "id": "1221388",
@@ -4468,7 +5254,9 @@
       "age": 21,
       "value": 1000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/athletico-pr/457593.webp"
     },
     {
       "id": "1115489",
@@ -4479,7 +5267,9 @@
       "age": 25,
       "value": 1000000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/athletico-pr/140507.webp"
     },
     {
       "id": "205179",
@@ -4490,7 +5280,9 @@
       "age": 33,
       "value": 1000000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/athletico-pr/10091.webp"
     },
     {
       "id": "1311456",
@@ -4501,7 +5293,9 @@
       "age": 19,
       "value": 1000000,
       "contract": "2029-01-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1311456-1794341155.png"
     },
     {
       "id": "351892",
@@ -4512,7 +5306,9 @@
       "age": 28,
       "value": 1000000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/bragantino/9925.webp"
     },
     {
       "id": "668234",
@@ -4523,7 +5319,9 @@
       "age": 23,
       "value": 1000000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/668234-1662648283.jpg"
     },
     {
       "id": "546033",
@@ -4534,7 +5332,9 @@
       "age": 30,
       "value": 1000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/sao-paulo/9340.webp"
     },
     {
       "id": "292731",
@@ -4545,7 +5345,9 @@
       "age": 32,
       "value": 1000000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/sao-paulo/77754.webp"
     },
     {
       "id": "1355277",
@@ -4556,7 +5358,9 @@
       "age": 19,
       "value": 1000000,
       "contract": "2029-09-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1355277-1759453433.jpeg"
     },
     {
       "id": "223560",
@@ -4567,7 +5371,9 @@
       "age": 33,
       "value": 1000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/sao-paulo/10323.webp"
     },
     {
       "id": "1095834",
@@ -4578,7 +5384,9 @@
       "age": 21,
       "value": 1000000,
       "contract": "2028-10-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1095834-1768821245.jpeg"
     },
     {
       "id": "342024",
@@ -4589,7 +5397,9 @@
       "age": 29,
       "value": 1000000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/gremio/374.webp"
     },
     {
       "id": "534473",
@@ -4600,7 +5410,9 @@
       "age": 29,
       "value": 1000000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/internacional/96353.webp"
     },
     {
       "id": "1220008",
@@ -4611,7 +5423,9 @@
       "age": 20,
       "value": 1000000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1220008-1769161714.jpg"
     },
     {
       "id": "1355429",
@@ -4622,7 +5436,9 @@
       "age": 18,
       "value": 1000000,
       "contract": "2029-02-01",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1355429-1756950929.jpg"
     },
     {
       "id": "323850",
@@ -4633,7 +5449,9 @@
       "age": 28,
       "value": 1000000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/323850-1698671340.jpg"
     },
     {
       "id": "577407",
@@ -4644,7 +5462,9 @@
       "age": 27,
       "value": 1000000,
       "contract": "2026-12-31",
-      "nat": "Uruguay",
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "/players/vitoria/51464.webp",
       "loanFrom": "Red Bull Bragantino"
     },
     {
@@ -4656,7 +5476,9 @@
       "age": 30,
       "value": 1000000,
       "contract": "2027-03-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/vitoria/9726.webp"
     },
     {
       "id": "841263",
@@ -4667,7 +5489,9 @@
       "age": 26,
       "value": 1000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/coritiba/293555.webp"
     },
     {
       "id": "598765",
@@ -4678,7 +5502,9 @@
       "age": 27,
       "value": 1000000,
       "contract": "2029-06-30",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "/players/coritiba/51588.webp"
     },
     {
       "id": "704558",
@@ -4689,7 +5515,9 @@
       "age": 26,
       "value": 1000000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/coritiba/143365.webp"
     },
     {
       "id": "985351",
@@ -4700,7 +5528,9 @@
       "age": 22,
       "value": 1000000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/coritiba/360303.webp",
       "loanFrom": "Mirassol Futebol Clube (SP)"
     },
     {
@@ -4712,7 +5542,9 @@
       "age": 30,
       "value": 1000000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/mirassol/9308.webp"
     },
     {
       "id": "432157",
@@ -4723,7 +5555,9 @@
       "age": 22,
       "value": 1000000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/mirassol/405353.webp",
       "loanFrom": "Cruzeiro Esporte Clube"
     },
     {
@@ -4735,7 +5569,9 @@
       "age": 29,
       "value": 1000000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/mirassol/10025.webp"
     },
     {
       "id": "636314",
@@ -4746,7 +5582,9 @@
       "age": 29,
       "value": 1000000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/mirassol/9620.webp"
     },
     {
       "id": "539203",
@@ -4757,7 +5595,9 @@
       "age": 32,
       "value": 1000000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/mirassol/41430.webp"
     },
     {
       "id": "490760",
@@ -4768,7 +5608,9 @@
       "age": 28,
       "value": 1000000,
       "contract": "2026-12-31",
-      "nat": "Cameroon"
+      "nat": "Camarões",
+      "foreign": true,
+      "photo": "/players/remo/22251.webp"
     },
     {
       "id": "672292",
@@ -4779,7 +5621,9 @@
       "age": 28,
       "value": 1000000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/672292-1662430855.jpg",
       "loanFrom": "Grêmio Foot-Ball Porto Alegrense"
     },
     {
@@ -4791,7 +5635,9 @@
       "age": 31,
       "value": 1000000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/323452-1599563317.jpg"
     },
     {
       "id": "390368",
@@ -4802,7 +5648,9 @@
       "age": 32,
       "value": 1000000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/remo/9962.webp"
     },
     {
       "id": "1051322",
@@ -4813,7 +5661,9 @@
       "age": 23,
       "value": 1000000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1051322-1769019041.jpg",
       "loanFrom": "Clube Atlético Mineiro"
     },
     {
@@ -4825,7 +5675,9 @@
       "age": 24,
       "value": 1000000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "/players/chapecoense/13771.webp"
     },
     {
       "id": "438682",
@@ -4836,7 +5688,9 @@
       "age": 29,
       "value": 900000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/vasco/763.webp"
     },
     {
       "id": "534376",
@@ -4847,7 +5701,9 @@
       "age": 25,
       "value": 900000,
       "contract": "2031-06-30",
-      "nat": "Spain"
+      "nat": "Espanha",
+      "foreign": true,
+      "photo": "/players/bahia/162138.webp"
     },
     {
       "id": "106032",
@@ -4858,7 +5714,9 @@
       "age": 36,
       "value": 900000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/atletico-mg/9978.webp"
     },
     {
       "id": "227671",
@@ -4869,7 +5727,9 @@
       "age": 35,
       "value": 900000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/bragantino/9944.webp"
     },
     {
       "id": "213606",
@@ -4880,7 +5740,9 @@
       "age": 34,
       "value": 900000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/bragantino/10247.webp"
     },
     {
       "id": "642589",
@@ -4891,7 +5753,9 @@
       "age": 26,
       "value": 900000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/642589-1701788278.jpg"
     },
     {
       "id": "742073",
@@ -4902,7 +5766,9 @@
       "age": 29,
       "value": 900000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/mirassol/159493.webp"
     },
     {
       "id": "1022342",
@@ -4913,7 +5779,9 @@
       "age": 24,
       "value": 800000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/cruzeiro/306178.webp"
     },
     {
       "id": "661270",
@@ -4924,7 +5792,9 @@
       "age": 24,
       "value": 800000,
       "contract": "2029-06-30",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/661270-1772565179.PNG"
     },
     {
       "id": "135057",
@@ -4935,7 +5805,9 @@
       "age": 35,
       "value": 800000,
       "contract": "2026-12-31",
-      "nat": "Peru"
+      "nat": "Peru",
+      "foreign": true,
+      "photo": "/players/corinthians/2426.webp"
     },
     {
       "id": "364261",
@@ -4946,7 +5818,9 @@
       "age": 34,
       "value": 800000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/vasco/9958.webp"
     },
     {
       "id": "103381",
@@ -4957,7 +5831,9 @@
       "age": 35,
       "value": 800000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/botafogo/390.webp"
     },
     {
       "id": "229736",
@@ -4968,7 +5844,9 @@
       "age": 33,
       "value": 800000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/fluminense/10501.webp",
       "loanFrom": "São Paulo Futebol Clube"
     },
     {
@@ -4980,7 +5858,9 @@
       "age": 34,
       "value": 800000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/santos/10173.webp"
     },
     {
       "id": "440377",
@@ -4991,7 +5871,9 @@
       "age": 29,
       "value": 800000,
       "contract": "2027-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/santos/6637.webp"
     },
     {
       "id": "185966",
@@ -5002,7 +5884,9 @@
       "age": 34,
       "value": 800000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/santos/10157.webp"
     },
     {
       "id": "114937",
@@ -5013,7 +5897,9 @@
       "age": 34,
       "value": 800000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/atletico-mg/9939.webp"
     },
     {
       "id": "980825",
@@ -5024,7 +5910,9 @@
       "age": 23,
       "value": 800000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/980825-1759448982.png"
     },
     {
       "id": "72441",
@@ -5035,7 +5923,9 @@
       "age": 36,
       "value": 800000,
       "contract": "2026-12-31",
-      "nat": "Italy"
+      "nat": "Itália",
+      "foreign": false,
+      "photo": "/players/sao-paulo/30429.webp"
     },
     {
       "id": "257376",
@@ -5046,7 +5936,9 @@
       "age": 31,
       "value": 800000,
       "contract": "2028-07-31",
-      "nat": "Portugal"
+      "nat": "Portugal",
+      "foreign": true,
+      "photo": "/players/sao-paulo/46795.webp"
     },
     {
       "id": "468174",
@@ -5057,7 +5949,9 @@
       "age": 29,
       "value": 800000,
       "contract": "2026-12-31",
-      "nat": "Ecuador",
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "/players/internacional/63964.webp",
       "loanFrom": "Sport Club Corinthians Paulista"
     },
     {
@@ -5069,7 +5963,9 @@
       "age": 26,
       "value": 800000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/371250-1674432318.jpg"
     },
     {
       "id": "613641",
@@ -5080,7 +5976,9 @@
       "age": 28,
       "value": 800000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/vitoria/41357.webp",
       "loanFrom": "Coritiba Foot Ball Club"
     },
     {
@@ -5092,7 +5990,9 @@
       "age": 28,
       "value": 800000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/870778-1685711841.jpg"
     },
     {
       "id": "802809",
@@ -5103,7 +6003,9 @@
       "age": 29,
       "value": 800000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/chapecoense/201201.webp"
     },
     {
       "id": "353108",
@@ -5114,7 +6016,9 @@
       "age": 35,
       "value": 750000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/flamengo/10180.webp"
     },
     {
       "id": "486078",
@@ -5125,7 +6029,9 @@
       "age": 30,
       "value": 750000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/corinthians/9577.webp"
     },
     {
       "id": "564546",
@@ -5136,7 +6042,9 @@
       "age": 28,
       "value": 750000,
       "contract": "2028-12-29",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/bragantino/41544.webp"
     },
     {
       "id": "95732",
@@ -5147,7 +6055,9 @@
       "age": 35,
       "value": 750000,
       "contract": "2027-12-31",
-      "nat": "Denmark"
+      "nat": "Dinamarca",
+      "foreign": true,
+      "photo": "/players/gremio/2737.webp"
     },
     {
       "id": "825780",
@@ -5158,7 +6068,9 @@
       "age": 26,
       "value": 750000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/vitoria/288230.webp",
       "loanFrom": "Maringá FC"
     },
     {
@@ -5170,7 +6082,9 @@
       "age": 29,
       "value": 700000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/corinthians/54093.webp"
     },
     {
       "id": "213605",
@@ -5181,7 +6095,9 @@
       "age": 33,
       "value": 700000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/corinthians/10177.webp"
     },
     {
       "id": "643119",
@@ -5192,7 +6108,9 @@
       "age": 24,
       "value": 700000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/643119-1638536498.jpg"
     },
     {
       "id": "347913",
@@ -5203,7 +6121,9 @@
       "age": 32,
       "value": 700000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/santos/71.webp"
     },
     {
       "id": "198859",
@@ -5214,7 +6134,9 @@
       "age": 33,
       "value": 700000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/santos/32901.webp"
     },
     {
       "id": "1093926",
@@ -5225,7 +6147,9 @@
       "age": 22,
       "value": 700000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/athletico-pr/408987.webp",
       "loanFrom": "Grêmio Novorizontino"
     },
     {
@@ -5237,7 +6161,9 @@
       "age": 25,
       "value": 700000,
       "contract": "2028-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "/players/athletico-pr/13669.webp"
     },
     {
       "id": "378189",
@@ -5248,7 +6174,9 @@
       "age": 32,
       "value": 700000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/sao-paulo/9451.webp"
     },
     {
       "id": "69400",
@@ -5259,7 +6187,9 @@
       "age": 38,
       "value": 700000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/gremio/2410.webp"
     },
     {
       "id": "285548",
@@ -5270,7 +6200,9 @@
       "age": 35,
       "value": 700000,
       "contract": "2027-06-30",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "/players/gremio/2500.webp"
     },
     {
       "id": "383638",
@@ -5281,7 +6213,9 @@
       "age": 31,
       "value": 700000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/internacional/9912.webp"
     },
     {
       "id": "608943",
@@ -5292,7 +6226,9 @@
       "age": 27,
       "value": 700000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/vitoria/41134.webp",
       "loanFrom": "FC Seoul"
     },
     {
@@ -5304,7 +6240,9 @@
       "age": 23,
       "value": 700000,
       "contract": "2027-06-30",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/mirassol/357888.webp",
       "loanFrom": "Cuiabá Esporte Clube (MT)"
     },
     {
@@ -5316,7 +6254,9 @@
       "age": 29,
       "value": 700000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/remo/9692.webp"
     },
     {
       "id": "617687",
@@ -5327,7 +6267,9 @@
       "age": 27,
       "value": 700000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/remo/9709.webp",
       "loanFrom": "Sport Club do Recife"
     },
     {
@@ -5339,7 +6281,9 @@
       "age": 29,
       "value": 700000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/476362-1598272234.jpg",
       "loanFrom": "Guarani Futebol Clube (SP)"
     },
     {
@@ -5351,7 +6295,9 @@
       "age": 28,
       "value": 650000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/remo/160101.webp"
     },
     {
       "id": "1091022",
@@ -5362,7 +6308,9 @@
       "age": 24,
       "value": 650000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "514500",
@@ -5373,7 +6321,9 @@
       "age": 31,
       "value": 650000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/chapecoense/10363.webp"
     },
     {
       "id": "175792",
@@ -5384,7 +6334,9 @@
       "age": 34,
       "value": 600000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/corinthians/1085.webp"
     },
     {
       "id": "208681",
@@ -5395,7 +6347,9 @@
       "age": 33,
       "value": 600000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/corinthians/9992.webp"
     },
     {
       "id": "1082692",
@@ -5406,7 +6360,9 @@
       "age": 22,
       "value": 600000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/vasco/415160.webp"
     },
     {
       "id": "239294",
@@ -5417,7 +6373,9 @@
       "age": 32,
       "value": 600000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/vasco/9890.webp"
     },
     {
       "id": "1220468",
@@ -5428,7 +6386,9 @@
       "age": 20,
       "value": 600000,
       "contract": "2030-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/bahia/454562.webp"
     },
     {
       "id": "1193865",
@@ -5439,7 +6399,9 @@
       "age": 20,
       "value": 600000,
       "contract": "2030-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/atletico-mg/449252.webp"
     },
     {
       "id": "175169",
@@ -5450,7 +6412,9 @@
       "age": 34,
       "value": 600000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/atletico-mg/18761.webp"
     },
     {
       "id": "131101",
@@ -5461,7 +6425,9 @@
       "age": 34,
       "value": 600000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "/players/athletico-pr/21394.webp"
     },
     {
       "id": "691811",
@@ -5472,7 +6438,9 @@
       "age": 27,
       "value": 600000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/691811-1683397765.jpg"
     },
     {
       "id": "1365157",
@@ -5483,7 +6451,9 @@
       "age": 19,
       "value": 600000,
       "contract": "2029-04-10",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/coritiba/505572.webp"
     },
     {
       "id": "110078",
@@ -5494,7 +6464,9 @@
       "age": 37,
       "value": 600000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/mirassol/44348.webp"
     },
     {
       "id": "442818",
@@ -5505,7 +6477,9 @@
       "age": 29,
       "value": 600000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/mirassol/77680.webp"
     },
     {
       "id": "681494",
@@ -5516,7 +6490,9 @@
       "age": 28,
       "value": 600000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/remo/268877.webp"
     },
     {
       "id": "653349",
@@ -5527,7 +6503,9 @@
       "age": 26,
       "value": 600000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/remo/10146.webp"
     },
     {
       "id": "736652",
@@ -5538,7 +6516,9 @@
       "age": 29,
       "value": 600000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/chapecoense/197064.webp"
     },
     {
       "id": "636507",
@@ -5549,7 +6529,9 @@
       "age": 29,
       "value": 600000,
       "contract": "2027-12-15",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/chapecoense/9666.webp"
     },
     {
       "id": "876343",
@@ -5560,7 +6542,9 @@
       "age": 25,
       "value": 600000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/chapecoense/306213.webp",
       "loanFrom": "Cuiabá Esporte Clube (MT)"
     },
     {
@@ -5572,7 +6556,9 @@
       "age": 27,
       "value": 550000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/mirassol/9573.webp",
       "loanFrom": "Vila Nova Futebol Clube (GO)"
     },
     {
@@ -5584,7 +6570,9 @@
       "age": 21,
       "value": 500000,
       "contract": "2029-03-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/corinthians/415084.webp"
     },
     {
       "id": "149498",
@@ -5595,7 +6583,9 @@
       "age": 35,
       "value": 500000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/corinthians/915.webp"
     },
     {
       "id": "838387",
@@ -5606,7 +6596,9 @@
       "age": 22,
       "value": 500000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/838387-1719453799.jpg"
     },
     {
       "id": "1355262",
@@ -5617,7 +6609,9 @@
       "age": 21,
       "value": 500000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1355262-1791403497.png"
     },
     {
       "id": "29241",
@@ -5628,7 +6622,9 @@
       "age": 42,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/fluminense/259.webp"
     },
     {
       "id": "1119008",
@@ -5639,7 +6635,9 @@
       "age": 20,
       "value": 500000,
       "contract": "2031-04-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/fluminense/443088.webp"
     },
     {
       "id": "54590",
@@ -5650,7 +6648,9 @@
       "age": 38,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/fluminense/13523.webp"
     },
     {
       "id": "149752",
@@ -5661,7 +6661,9 @@
       "age": 35,
       "value": 500000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/atletico-mg/30398.webp"
     },
     {
       "id": "1223728",
@@ -5672,7 +6674,9 @@
       "age": 19,
       "value": 500000,
       "contract": "2029-02-27",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1223728-1769434525.png"
     },
     {
       "id": "162883",
@@ -5683,7 +6687,9 @@
       "age": 34,
       "value": 500000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/bragantino/10004.webp"
     },
     {
       "id": "1221747",
@@ -5694,7 +6700,9 @@
       "age": 20,
       "value": 500000,
       "contract": "2030-02-28",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1221747-1759454472.jpeg"
     },
     {
       "id": "112988",
@@ -5705,7 +6713,9 @@
       "age": 35,
       "value": 500000,
       "contract": "2027-12-31",
-      "nat": "Portugal"
+      "nat": "Portugal",
+      "foreign": true,
+      "photo": "/players/sao-paulo/190.webp"
     },
     {
       "id": "1355268",
@@ -5716,7 +6726,9 @@
       "age": 18,
       "value": 500000,
       "contract": "2028-05-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/gremio/510552.webp"
     },
     {
       "id": "373174",
@@ -5727,7 +6739,9 @@
       "age": 30,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/gremio/10314.webp"
     },
     {
       "id": "1285798",
@@ -5738,7 +6752,9 @@
       "age": 18,
       "value": 500000,
       "contract": "2027-07-13",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/gremio/502998.webp"
     },
     {
       "id": "262851",
@@ -5749,7 +6765,9 @@
       "age": 34,
       "value": 500000,
       "contract": "2027-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/vitoria/6078.webp"
     },
     {
       "id": "1223829",
@@ -5760,7 +6778,9 @@
       "age": 21,
       "value": 500000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/vitoria/456004.webp"
     },
     {
       "id": "555310",
@@ -5771,7 +6791,9 @@
       "age": 31,
       "value": 500000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/vitoria/159653.webp"
     },
     {
       "id": "417084",
@@ -5782,7 +6804,9 @@
       "age": 30,
       "value": 500000,
       "contract": "2026-12-30",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/coritiba/10370.webp",
       "loanFrom": "Sport Club Internacional"
     },
     {
@@ -5794,7 +6818,9 @@
       "age": 32,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/coritiba/10240.webp"
     },
     {
       "id": "840431",
@@ -5805,7 +6831,9 @@
       "age": 24,
       "value": 500000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/coritiba/298041.webp"
     },
     {
       "id": "638262",
@@ -5816,7 +6844,9 @@
       "age": 30,
       "value": 500000,
       "contract": "2027-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/coritiba/54106.webp"
     },
     {
       "id": "363794",
@@ -5827,7 +6857,9 @@
       "age": 30,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/mirassol/520668.webp"
     },
     {
       "id": "600549",
@@ -5838,7 +6870,9 @@
       "age": 27,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/remo/10310.webp"
     },
     {
       "id": "265660",
@@ -5849,7 +6883,9 @@
       "age": 34,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/remo/10581.webp"
     },
     {
       "id": "871650",
@@ -5860,7 +6896,9 @@
       "age": 25,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/chapecoense/306254.webp"
     },
     {
       "id": "671292",
@@ -5871,7 +6909,9 @@
       "age": 27,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/chapecoense/80626.webp"
     },
     {
       "id": "997465",
@@ -5882,7 +6922,9 @@
       "age": 23,
       "value": 500000,
       "contract": "2027-12-10",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/chapecoense/408347.webp"
     },
     {
       "id": "218118",
@@ -5893,7 +6935,9 @@
       "age": 33,
       "value": 450000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/cruzeiro/10102.webp"
     },
     {
       "id": "980463",
@@ -5904,7 +6948,9 @@
       "age": 24,
       "value": 450000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/bahia/350808.webp"
     },
     {
       "id": "273442",
@@ -5915,7 +6961,9 @@
       "age": 33,
       "value": 450000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/coritiba/10413.webp"
     },
     {
       "id": "520457",
@@ -5926,7 +6974,9 @@
       "age": 30,
       "value": 450000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/mirassol/96385.webp"
     },
     {
       "id": "598974",
@@ -5937,7 +6987,9 @@
       "age": 28,
       "value": 450000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/chapecoense/80173.webp"
     },
     {
       "id": "670969",
@@ -5948,7 +7000,9 @@
       "age": 26,
       "value": 450000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/chapecoense/10384.webp"
     },
     {
       "id": "1082543",
@@ -5959,7 +7013,9 @@
       "age": 22,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/flamengo/372083.webp"
     },
     {
       "id": "268506",
@@ -5970,7 +7026,9 @@
       "age": 32,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/corinthians/5987.webp"
     },
     {
       "id": "123349",
@@ -5981,7 +7039,9 @@
       "age": 33,
       "value": 400000,
       "contract": "2027-12-31",
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": "/players/corinthians/543.webp"
     },
     {
       "id": "520492",
@@ -5992,7 +7052,9 @@
       "age": 31,
       "value": 400000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/botafogo/10016.webp"
     },
     {
       "id": "1084816",
@@ -6003,7 +7065,9 @@
       "age": 21,
       "value": 400000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/bahia/411433.webp"
     },
     {
       "id": "1036450",
@@ -6015,6 +7079,8 @@
       "value": 400000,
       "contract": "2026-12-31",
       "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/bahia/427332.webp",
       "loanFrom": "Montevideo City Torque"
     },
     {
@@ -6026,7 +7092,9 @@
       "age": 28,
       "value": 400000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/fluminense/10079.webp"
     },
     {
       "id": "212209",
@@ -6037,7 +7105,9 @@
       "age": 34,
       "value": 400000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/fluminense/10163.webp"
     },
     {
       "id": "1220141",
@@ -6048,7 +7118,9 @@
       "age": 19,
       "value": 400000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/santos/474261.webp"
     },
     {
       "id": "140811",
@@ -6059,7 +7131,9 @@
       "age": 36,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/athletico-pr/10112.webp",
       "loanFrom": "Fortaleza Esporte Clube"
     },
     {
@@ -6071,7 +7145,9 @@
       "age": 22,
       "value": 400000,
       "contract": "2028-05-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1084073-1760494254.png"
     },
     {
       "id": "1222308",
@@ -6082,7 +7158,9 @@
       "age": 21,
       "value": 400000,
       "contract": "2030-03-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1222308-1769434793.png"
     },
     {
       "id": "1260202",
@@ -6093,7 +7171,9 @@
       "age": 18,
       "value": 400000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1260202-1769132777.png"
     },
     {
       "id": "876874",
@@ -6104,7 +7184,9 @@
       "age": 25,
       "value": 400000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/coritiba/309499.webp"
     },
     {
       "id": "603423",
@@ -6115,7 +7197,9 @@
       "age": 27,
       "value": 400000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/remo/80484.webp"
     },
     {
       "id": "686332",
@@ -6126,7 +7210,9 @@
       "age": 28,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/remo/64032.webp",
       "loanFrom": "Karpaty Lviv"
     },
     {
@@ -6138,7 +7224,9 @@
       "age": 34,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/remo/10388.webp",
       "loanFrom": "Santos FC"
     },
     {
@@ -6150,7 +7238,9 @@
       "age": 28,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/remo/10141.webp",
       "loanFrom": "EC Primavera"
     },
     {
@@ -6162,7 +7252,9 @@
       "age": 27,
       "value": 400000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/chapecoense/182015.webp"
     },
     {
       "id": "813108",
@@ -6173,7 +7265,9 @@
       "age": 27,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/chapecoense/278496.webp"
     },
     {
       "id": "311182",
@@ -6184,7 +7278,9 @@
       "age": 32,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Uruguay",
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "/players/chapecoense/51589.webp",
       "loanFrom": "Atlético Clube Goianiense"
     },
     {
@@ -6196,7 +7292,9 @@
       "age": 31,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/chapecoense/9468.webp"
     },
     {
       "id": "1074501",
@@ -6207,7 +7305,9 @@
       "age": 20,
       "value": 350000,
       "contract": "2028-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1074501-1739213776.png"
     },
     {
       "id": "1095624",
@@ -6218,7 +7318,9 @@
       "age": 21,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null,
       "loanFrom": "Clube do Remo (PA)"
     },
     {
@@ -6230,7 +7332,9 @@
       "age": 35,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/bahia/10222.webp",
       "loanFrom": "Fluminense Football Club"
     },
     {
@@ -6242,7 +7346,9 @@
       "age": 24,
       "value": 350000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/992534-1725068315.jpg"
     },
     {
       "id": "145400",
@@ -6253,7 +7359,9 @@
       "age": 35,
       "value": 350000,
       "contract": "2027-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": false,
+      "photo": "/players/gremio/2466.webp"
     },
     {
       "id": "72772",
@@ -6264,7 +7372,9 @@
       "age": 36,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Portugal"
+      "nat": "Portugal",
+      "foreign": true,
+      "photo": "/players/coritiba/2150.webp"
     },
     {
       "id": "225617",
@@ -6275,7 +7385,9 @@
       "age": 37,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/mirassol/9946.webp"
     },
     {
       "id": "539135",
@@ -6286,7 +7398,9 @@
       "age": 28,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/539135-1728393897.png"
     },
     {
       "id": "166032",
@@ -6297,7 +7411,9 @@
       "age": 34,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/remo/10232.webp"
     },
     {
       "id": "358738",
@@ -6308,7 +7424,9 @@
       "age": 30,
       "value": 350000,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "/players/remo/36833.webp"
     },
     {
       "id": "833886",
@@ -6319,7 +7437,9 @@
       "age": 26,
       "value": 350000,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/833886-1731348268.jpeg"
     },
     {
       "id": "931677",
@@ -6330,7 +7450,9 @@
       "age": 21,
       "value": 325000,
       "contract": "2028-12-31",
-      "nat": "Spain"
+      "nat": "Espanha",
+      "foreign": false,
+      "photo": "/players/chapecoense/337009.webp"
     },
     {
       "id": "1092623",
@@ -6341,7 +7463,9 @@
       "age": 21,
       "value": 300000,
       "contract": "2030-03-23",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/botafogo/454519.webp"
     },
     {
       "id": "67920",
@@ -6352,7 +7476,9 @@
       "age": 37,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/fluminense/10311.webp"
     },
     {
       "id": "68097",
@@ -6363,7 +7489,9 @@
       "age": 37,
       "value": 300000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/sao-paulo/10081.webp"
     },
     {
       "id": "139867",
@@ -6374,7 +7502,9 @@
       "age": 35,
       "value": 300000,
       "contract": "2027-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "/players/sao-paulo/2571.webp"
     },
     {
       "id": "277335",
@@ -6385,7 +7515,9 @@
       "age": 37,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/internacional/9921.webp"
     },
     {
       "id": "979994",
@@ -6396,7 +7528,9 @@
       "age": 27,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null,
       "loanFrom": "Agremiação Sportiva Arapiraquense (AL)"
     },
     {
@@ -6408,7 +7542,9 @@
       "age": 23,
       "value": 300000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/coritiba/404085.webp"
     },
     {
       "id": "346065",
@@ -6419,7 +7555,9 @@
       "age": 37,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/coritiba/16847.webp",
       "loanFrom": "Fluminense Football Club"
     },
     {
@@ -6431,7 +7569,9 @@
       "age": 33,
       "value": 300000,
       "contract": "2026-12-10",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/mirassol/9907.webp"
     },
     {
       "id": "276877",
@@ -6442,7 +7582,9 @@
       "age": 33,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/mirassol/9771.webp"
     },
     {
       "id": "305428",
@@ -6453,7 +7595,9 @@
       "age": 33,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/mirassol/9686.webp"
     },
     {
       "id": "443721",
@@ -6464,7 +7608,9 @@
       "age": 32,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/remo/77923.webp"
     },
     {
       "id": "1082707",
@@ -6475,7 +7621,9 @@
       "age": 23,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1082707-1751420372.jpeg"
     },
     {
       "id": "856990",
@@ -6486,7 +7634,9 @@
       "age": 31,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/chapecoense/55185.webp"
     },
     {
       "id": "50144",
@@ -6497,7 +7647,9 @@
       "age": 39,
       "value": 250000,
       "contract": "2027-05-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/cruzeiro/10229.webp"
     },
     {
       "id": "169052",
@@ -6508,7 +7660,9 @@
       "age": 36,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/botafogo/10387.webp"
     },
     {
       "id": "607817",
@@ -6519,7 +7673,9 @@
       "age": 33,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/607817-1678905178.jpg"
     },
     {
       "id": "1519143",
@@ -6530,7 +7686,9 @@
       "age": 24,
       "value": 250000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "538230",
@@ -6541,7 +7699,9 @@
       "age": 34,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/coritiba/10416.webp"
     },
     {
       "id": "1090820",
@@ -6552,7 +7712,9 @@
       "age": 23,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1090820-1706564178.jpg"
     },
     {
       "id": "646676",
@@ -6563,7 +7725,9 @@
       "age": 27,
       "value": 250000,
       "contract": "2026-12-15",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/chapecoense/119847.webp",
       "loanFrom": "Tombense Futebol Clube (MG)"
     },
     {
@@ -6575,7 +7739,9 @@
       "age": 33,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/chapecoense/9560.webp"
     },
     {
       "id": "435163",
@@ -6586,7 +7752,9 @@
       "age": 34,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/chapecoense/10192.webp"
     },
     {
       "id": "869007",
@@ -6597,7 +7765,9 @@
       "age": 23,
       "value": 225000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/869007-1614863671.jpg"
     },
     {
       "id": "47592",
@@ -6608,7 +7778,9 @@
       "age": 37,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/cruzeiro/2411.webp"
     },
     {
       "id": "137745",
@@ -6619,7 +7791,9 @@
       "age": 37,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/botafogo/652.webp"
     },
     {
       "id": "67144",
@@ -6630,7 +7804,9 @@
       "age": 36,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/bahia/10109.webp"
     },
     {
       "id": "662334",
@@ -6641,7 +7817,9 @@
       "age": 23,
       "value": 200000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/fluminense/180866.webp"
     },
     {
       "id": "198250",
@@ -6652,7 +7830,9 @@
       "age": 36,
       "value": 200000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/fluminense/10267.webp"
     },
     {
       "id": "907359",
@@ -6663,7 +7843,9 @@
       "age": 25,
       "value": 200000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/santos/321454.webp"
     },
     {
       "id": "10471",
@@ -6674,7 +7856,9 @@
       "age": 39,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/athletico-pr/1909.webp"
     },
     {
       "id": "74758",
@@ -6685,7 +7869,9 @@
       "age": 36,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/vitoria/10506.webp"
     },
     {
       "id": "871427",
@@ -6696,7 +7882,9 @@
       "age": 29,
       "value": 200000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/mirassol/159843.webp"
     },
     {
       "id": "1084629",
@@ -6707,7 +7895,9 @@
       "age": 21,
       "value": 200000,
       "contract": "2028-12-10",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1084629-1769019946.jpg"
     },
     {
       "id": "1112486",
@@ -6718,7 +7908,9 @@
       "age": 20,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Colombia",
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1112486-1712101124.JPG",
       "loanFrom": "Millonarios FC"
     },
     {
@@ -6730,7 +7922,9 @@
       "age": 37,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/gremio/9916.webp"
     },
     {
       "id": "269860",
@@ -6741,7 +7935,9 @@
       "age": 38,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/mirassol/10226.webp"
     },
     {
       "id": "349166",
@@ -6752,7 +7948,9 @@
       "age": 35,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/mirassol/80474.webp"
     },
     {
       "id": "125513",
@@ -6763,7 +7961,9 @@
       "age": 37,
       "value": 150000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/chapecoense/10356.webp"
     },
     {
       "id": "75471",
@@ -6774,7 +7974,9 @@
       "age": 37,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "DR Congo"
+      "nat": "RD Congo",
+      "foreign": true,
+      "photo": "/players/chapecoense/1432.webp"
     },
     {
       "id": "722457",
@@ -6785,7 +7987,9 @@
       "age": 26,
       "value": 100000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/722457-1682527585.jpg"
     },
     {
       "id": "894532",
@@ -6796,7 +8000,9 @@
       "age": 24,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/894532-1748651972.jpg"
     },
     {
       "id": "45319",
@@ -6807,7 +8013,9 @@
       "age": 39,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "/players/internacional/2044.webp"
     },
     {
       "id": "740272",
@@ -6818,7 +8026,9 @@
       "age": 25,
       "value": 100000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/vitoria/197031.webp"
     },
     {
       "id": "84695",
@@ -6829,7 +8039,9 @@
       "age": 38,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/coritiba/44304.webp"
     },
     {
       "id": "119434",
@@ -6840,7 +8052,9 @@
       "age": 39,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/coritiba/10378.webp"
     },
     {
       "id": "346922",
@@ -6851,7 +8065,9 @@
       "age": 37,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/coritiba/9924.webp"
     },
     {
       "id": "837534",
@@ -6862,7 +8078,9 @@
       "age": 25,
       "value": 100000,
       "contract": "2027-03-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/837534-1660596996.jpg"
     },
     {
       "id": "53015",
@@ -6873,7 +8091,9 @@
       "age": 39,
       "value": 75000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/palmeiras/10372.webp"
     },
     {
       "id": "22415",
@@ -6884,7 +8104,9 @@
       "age": 46,
       "value": 75000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/fluminense/10080.webp"
     },
     {
       "id": "76191",
@@ -6895,7 +8117,9 @@
       "age": 39,
       "value": 75000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/vitoria/10434.webp"
     },
     {
       "id": "277743",
@@ -6906,7 +8130,9 @@
       "age": 37,
       "value": 75000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/mirassol/9337.webp"
     },
     {
       "id": "738503",
@@ -6917,7 +8143,9 @@
       "age": 25,
       "value": 75000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/remo/197073.webp"
     },
     {
       "id": "93243",
@@ -6928,7 +8156,9 @@
       "age": 37,
       "value": 75000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/chapecoense/9589.webp"
     },
     {
       "id": "1083887",
@@ -6939,7 +8169,9 @@
       "age": 23,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/vasco/454136.webp"
     },
     {
       "id": "1095547",
@@ -6950,7 +8182,9 @@
       "age": 22,
       "value": 50000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/coritiba/296061.webp"
     },
     {
       "id": "258369",
@@ -6961,7 +8195,9 @@
       "age": 31,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/mirassol/80649.webp"
     },
     {
       "id": "412610",
@@ -6972,7 +8208,9 @@
       "age": 38,
       "value": 50000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/remo/77812.webp"
     },
     {
       "id": "555201",
@@ -6983,7 +8221,9 @@
       "age": 32,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/remo/9694.webp"
     },
     {
       "id": "323929",
@@ -6994,7 +8234,9 @@
       "age": 28,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/palmeiras/31353.webp"
     },
     {
       "id": "743831",
@@ -7005,7 +8247,9 @@
       "age": 22,
       "value": null,
       "contract": "2027-07-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1221660",
@@ -7016,7 +8260,9 @@
       "age": 21,
       "value": null,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/vasco/505139.webp"
     },
     {
       "id": "1159259",
@@ -7027,7 +8273,9 @@
       "age": 21,
       "value": null,
       "contract": "2027-03-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/vasco/452887.webp"
     },
     {
       "id": "996691",
@@ -7038,7 +8286,9 @@
       "age": 23,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/996691-1747446491.jpg"
     },
     {
       "id": "1109027",
@@ -7049,7 +8299,9 @@
       "age": 20,
       "value": null,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1109027-1769163453.png"
     },
     {
       "id": "1254082",
@@ -7060,7 +8312,9 @@
       "age": 20,
       "value": null,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1254082-1769167388.png"
     },
     {
       "id": "1044131",
@@ -7071,7 +8325,9 @@
       "age": 19,
       "value": null,
       "contract": "2027-01-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1044131-1769176570.png"
     },
     {
       "id": "1219751",
@@ -7082,7 +8338,9 @@
       "age": 21,
       "value": null,
       "contract": "2027-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1084666",
@@ -7093,7 +8351,9 @@
       "age": 21,
       "value": null,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1084666-1775512291.png"
     },
     {
       "id": "984365",
@@ -7104,7 +8364,9 @@
       "age": 25,
       "value": null,
       "contract": "2027-04-14",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/984365-1725068426.jpg"
     },
     {
       "id": "1124296",
@@ -7115,7 +8377,9 @@
       "age": 19,
       "value": null,
       "contract": "2030-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1124296-1682390083.jpg"
     },
     {
       "id": "1116832",
@@ -7126,7 +8390,9 @@
       "age": 22,
       "value": null,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1089956",
@@ -7137,7 +8403,9 @@
       "age": 21,
       "value": null,
       "contract": "2029-01-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1089956-1773445794.png"
     },
     {
       "id": "1117807",
@@ -7148,7 +8416,9 @@
       "age": 19,
       "value": null,
       "contract": "2030-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/santos/522702.webp"
     },
     {
       "id": "1005585",
@@ -7159,7 +8429,9 @@
       "age": 19,
       "value": null,
       "contract": "2030-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "816149",
@@ -7170,7 +8442,9 @@
       "age": 24,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/816149-1678904393.jpg"
     },
     {
       "id": "1088816",
@@ -7181,7 +8455,9 @@
       "age": 21,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1124553",
@@ -7192,7 +8468,9 @@
       "age": 21,
       "value": null,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/atletico-mg/465184.webp"
     },
     {
       "id": "1339551",
@@ -7203,7 +8481,9 @@
       "age": 18,
       "value": null,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1339551-1759166458.jpeg"
     },
     {
       "id": "1122597",
@@ -7214,7 +8494,9 @@
       "age": 21,
       "value": null,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/athletico-pr/415111.webp"
     },
     {
       "id": "1223243",
@@ -7225,7 +8507,9 @@
       "age": 21,
       "value": null,
       "contract": "2030-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1084069",
@@ -7236,7 +8520,9 @@
       "age": 21,
       "value": null,
       "contract": "2028-05-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1084069-1769434460.jpg"
     },
     {
       "id": "1202380",
@@ -7247,7 +8533,9 @@
       "age": 20,
       "value": null,
       "contract": "2028-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/sao-paulo/465204.webp"
     },
     {
       "id": "1202381",
@@ -7258,7 +8546,9 @@
       "age": 20,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1202381-1759491298.jpeg"
     },
     {
       "id": "1096506",
@@ -7269,7 +8559,9 @@
       "age": 20,
       "value": null,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1096506-1768820785.png"
     },
     {
       "id": "1387007",
@@ -7280,7 +8572,9 @@
       "age": 19,
       "value": null,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/sao-paulo/516821.webp"
     },
     {
       "id": "1362701",
@@ -7291,7 +8585,9 @@
       "age": 19,
       "value": null,
       "contract": "2029-04-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1362701-1759491658.jpeg"
     },
     {
       "id": "959088",
@@ -7302,7 +8598,9 @@
       "age": 23,
       "value": null,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/gremio/454135.webp"
     },
     {
       "id": "1446971",
@@ -7313,7 +8611,9 @@
       "age": 18,
       "value": null,
       "contract": "2028-09-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1446971-1794340821.png"
     },
     {
       "id": "1219676",
@@ -7324,7 +8624,9 @@
       "age": 21,
       "value": null,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1219676-1769133717.png"
     },
     {
       "id": "1094530",
@@ -7335,7 +8637,9 @@
       "age": 23,
       "value": null,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/internacional/415046.webp"
     },
     {
       "id": "1116612",
@@ -7346,7 +8650,9 @@
       "age": 21,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1116612-1680880210.jpg"
     },
     {
       "id": "540963",
@@ -7357,7 +8663,9 @@
       "age": 25,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/vitoria/197356.webp"
     },
     {
       "id": "1316690",
@@ -7368,7 +8676,9 @@
       "age": 23,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/vitoria/681367.webp",
       "loanFrom": "GE Anápolis"
     },
     {
@@ -7380,7 +8690,9 @@
       "age": 36,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/mirassol/77966.webp"
     },
     {
       "id": "1095628",
@@ -7391,7 +8703,9 @@
       "age": 22,
       "value": null,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1095630",
@@ -7402,7 +8716,9 @@
       "age": 20,
       "value": null,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "978139",
@@ -7413,7 +8729,9 @@
       "age": 23,
       "value": null,
       "contract": "2027-03-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "/players/chapecoense/352217.webp"
     },
     {
       "id": "1141141",
@@ -7424,7 +8742,9 @@
       "age": 21,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1141141-1685726096.jpeg"
     },
     {
       "id": "1090425",
@@ -7435,7 +8755,9 @@
       "age": 26,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1090425-1787094967.png"
     },
     {
       "id": "939793",
@@ -7446,7 +8768,9 @@
       "age": 26,
       "value": null,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     }
   ]
 }

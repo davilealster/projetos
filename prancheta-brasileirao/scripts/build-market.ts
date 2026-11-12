@@ -3,7 +3,7 @@
 import { existsSync, mkdirSync, readdirSync, rmSync } from "node:fs";
 import type { Pos } from "./lib/core";
 import { PATHS, loadTeamMap, p, readJson, runIfMain, writeJson } from "./lib/io";
-import { arrivalOf, loanStatus, matchClubSlug, tmPosition, type TmCompetitionFile, type TmPlayer } from "./lib/market";
+import { arrivalOf, countryPt, isForeign, loanStatus, matchClubSlug, tmPhoto, tmPosition, type TmCompetitionFile, type TmPlayer } from "./lib/market";
 import { compatible } from "./import-research";
 import type { ClubMarket, MarketIndex, MarketLeague, MarketPlayer, SquadPlayer } from "../src/market/types";
 
@@ -69,7 +69,9 @@ export function buildMarket(): { leagues: number; players: number; clubs: number
           age: pl.age,
           value: pl.marketValue,
           contract: pl.contract,
-          nat: pl.nationality?.[0] ?? null,
+          nat: countryPt(pl.nationality?.[0]),
+          foreign: isForeign(pl.nationality),
+          photo: tmPhoto(pl.imageUrl),
         };
         if (st?.status === "loanIn") mp.loanFrom = st.loanClub;
         league.players.push(mp);
@@ -107,9 +109,10 @@ export function buildMarket(): { leagues: number; players: number; clubs: number
         age: pl.age,
         value: pl.marketValue,
         contract: pl.contract,
-        nat: pl.nationality?.[0] ?? null,
+        nat: countryPt(pl.nationality?.[0]),
+        foreign: isForeign(pl.nationality),
         num: pl.shirtNumber ?? o?.number ?? null,
-        photo: o?.photo ?? null,
+        photo: o?.photo ?? tmPhoto(pl.imageUrl),
         status: st.status === "loanOut" ? "owned" : st.status, // está no elenco, então não está emprestado fora
         loanClub: st.status === "loanIn" ? st.loanClub : null,
         loanUntil: st.status === "loanIn" ? st.loanUntil ?? pl.contract : null,
@@ -140,9 +143,10 @@ export function buildMarket(): { leagues: number; players: number; clubs: number
           age: pl.age,
           value: pl.marketValue,
           contract: null, // contrato com o clube dono não vem nesse dado
-          nat: pl.nationality?.[0] ?? null,
+          nat: countryPt(pl.nationality?.[0]),
+          foreign: isForeign(pl.nationality),
           num: null,
-          photo: null,
+          photo: tmPhoto(pl.imageUrl),
           status: "loanOut",
           loanClub: club.name,
           loanUntil: st.loanUntil ?? pl.contract,
@@ -154,6 +158,13 @@ export function buildMarket(): { leagues: number; players: number; clubs: number
   }
 
   for (const cm of Object.values(clubs)) writeJson(`${OUT}/clubs/${cm.slug}.json`, cm);
+  // no mercado, jogadores da Série A usam as mesmas fotos da prancheta
+  const ourPhoto = new Map(Object.values(clubs).flatMap((cm) => cm.squad.filter((x) => x.photo?.startsWith("/")).map((x) => [x.id, x.photo!] as const)));
+  if (ourPhoto.size && existsSync(`${OUT}/leagues/BRA1.json`)) {
+    const lg = readJson<MarketLeague>(`${OUT}/leagues/BRA1.json`);
+    for (const pl of lg.players) if (ourPhoto.has(pl.id)) pl.photo = ourPhoto.get(pl.id)!;
+    writeJson(`${OUT}/leagues/BRA1.json`, lg);
+  }
   writeJson(`${OUT}/index.json`, index);
   const missing = Object.keys(map).filter((s) => !clubs[s]);
   if (bra1 && missing.length) console.warn(`⚠ clubes da Série A sem dados do Transfermarkt: ${missing.join(", ")}`);

@@ -195,7 +195,14 @@ export interface NextPlayer {
   contract: string | null | "renew";
   kind: NextKind;
   pending: boolean;
+  foreign: boolean;
 }
+
+/** Limite de estrangeiros relacionados por jogo no Brasileirão (CBF). */
+export const FOREIGN_LIMIT = 9;
+
+/** Ordem de exibição: goleiro, zagueiro, laterais, volante, meia, ponta, atacante. */
+export const posRank = (p: Pos) => POS_ORDER.indexOf(p);
 
 /** Todos os envolvidos na janela: quem fica, quem chega e quem sai. */
 export function nextSeason(squad: SquadPlayer[], st: MarketState, cutoff: string, arrivals: MarketPlayer[]): NextPlayer[] {
@@ -205,9 +212,9 @@ export function nextSeason(squad: SquadPlayer[], st: MarketState, cutoff: string
     const stays = staysWith(d.action);
     if (!stays && p.status === "loanOut" && d.action !== "sell") continue; // já está fora e segue fora
     const contract = d.action === "renew" ? "renew" : d.action === "extendLoan" ? p.loanUntil ?? null : p.contract;
-    out.push({ id: p.id, name: p.name, pos: p.pos, age: p.age, value: p.value, contract, kind: stays ? "stay" : "leave", pending: isEnding(p, cutoff) && !st.decisions[p.id] });
+    out.push({ id: p.id, name: p.name, pos: p.pos, age: p.age, value: p.value, contract, kind: stays ? "stay" : "leave", pending: isEnding(p, cutoff) && !st.decisions[p.id], foreign: p.foreign });
   }
-  for (const a of arrivals) out.push({ id: a.id, name: a.name, pos: a.pos, age: a.age, value: a.value, contract: a.contract, kind: "new", pending: false });
+  for (const a of arrivals) out.push({ id: a.id, name: a.name, pos: a.pos, age: a.age, value: a.value, contract: a.contract, kind: "new", pending: false, foreign: a.foreign });
   return out;
 }
 

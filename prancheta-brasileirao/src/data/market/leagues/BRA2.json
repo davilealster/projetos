@@ -94,7 +94,9 @@
       "age": 23,
       "value": 3000000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1005642-1720056608.jpg",
       "loanFrom": "Sport Club Corinthians Paulista"
     },
     {
@@ -106,7 +108,9 @@
       "age": 25,
       "value": 3000000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/813048-1657826743.jpg"
     },
     {
       "id": "959092",
@@ -117,7 +121,9 @@
       "age": 23,
       "value": 2500000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/959092-1721349724.jpg",
       "loanFrom": "Grêmio Foot-Ball Porto Alegrense"
     },
     {
@@ -129,7 +135,9 @@
       "age": 27,
       "value": 2500000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/737821-1726689084.jpg"
     },
     {
       "id": "695232",
@@ -140,7 +148,9 @@
       "age": 25,
       "value": 2500000,
       "contract": "2029-07-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/695232-1706875247.jpg"
     },
     {
       "id": "515068",
@@ -151,7 +161,9 @@
       "age": 29,
       "value": 2500000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/515068-1649678216.jpg"
     },
     {
       "id": "867461",
@@ -162,7 +174,9 @@
       "age": 25,
       "value": 2500000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/867461-1748479663.jpg",
       "loanFrom": "Sociedade Esportiva Palmeiras"
     },
     {
@@ -174,7 +188,9 @@
       "age": 28,
       "value": 2300000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/607210-1629048499.png",
       "loanFrom": "São Paulo Futebol Clube"
     },
     {
@@ -186,7 +202,9 @@
       "age": 27,
       "value": 2300000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/728200-1770650771.jpg"
     },
     {
       "id": "892091",
@@ -197,7 +215,9 @@
       "age": 25,
       "value": 2200000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/892091-1660704111.jpg"
     },
     {
       "id": "646404",
@@ -208,7 +228,9 @@
       "age": 25,
       "value": 2000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/646404-1724846307.jpg"
     },
     {
       "id": "589911",
@@ -219,7 +241,9 @@
       "age": 26,
       "value": 2000000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/589911-1705757257.jpg"
     },
     {
       "id": "711338",
@@ -230,7 +254,9 @@
       "age": 27,
       "value": 2000000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/711338-1618227023.jpg"
     },
     {
       "id": "372013",
@@ -241,7 +267,9 @@
       "age": 30,
       "value": 1800000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/372013-1664555713.jpg"
     },
     {
       "id": "480686",
@@ -252,7 +280,9 @@
       "age": 29,
       "value": 1700000,
       "contract": "2026-12-31",
-      "nat": "Colombia",
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/480686-1751717924.jpg",
       "loanFrom": "Fluminense Football Club"
     },
     {
@@ -264,7 +294,9 @@
       "age": 26,
       "value": 1700000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/697845-1662654759.jpg",
       "loanFrom": "Esporte Clube Vitória"
     },
     {
@@ -276,7 +308,9 @@
       "age": 27,
       "value": 1500000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/592363-1711301093.jpg"
     },
     {
       "id": "350342",
@@ -287,7 +321,9 @@
       "age": 31,
       "value": 1500000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/350342-1743853966.jpg"
     },
     {
       "id": "800732",
@@ -298,7 +334,9 @@
       "age": 26,
       "value": 1500000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/800732-1685126232.jpg"
     },
     {
       "id": "678853",
@@ -309,7 +347,9 @@
       "age": 24,
       "value": 1500000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/678853-1748472309.jpg"
     },
     {
       "id": "668230",
@@ -320,7 +360,9 @@
       "age": 23,
       "value": 1500000,
       "contract": "2028-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/668230-1706146092.jpg"
     },
     {
       "id": "531916",
@@ -331,7 +373,9 @@
       "age": 30,
       "value": 1500000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/531916-1572342801.jpg"
     },
     {
       "id": "612340",
@@ -342,7 +386,9 @@
       "age": 27,
       "value": 1500000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/612340-1787184285.jpg"
     },
     {
       "id": "288496",
@@ -353,7 +399,9 @@
       "age": 30,
       "value": 1500000,
       "contract": "2027-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/288496-1780481442.png"
     },
     {
       "id": "1221826",
@@ -364,7 +412,9 @@
       "age": 20,
       "value": 1300000,
       "contract": "2028-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1221826-1766503809.jpg"
     },
     {
       "id": "896338",
@@ -375,7 +425,9 @@
       "age": 21,
       "value": 1300000,
       "contract": "2027-06-30",
-      "nat": "Venezuela"
+      "nat": "Venezuela",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/896338-1737650041.jpg"
     },
     {
       "id": "863073",
@@ -386,7 +438,9 @@
       "age": 27,
       "value": 1200000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/863073-1663099130.jpg"
     },
     {
       "id": "662326",
@@ -397,7 +451,9 @@
       "age": 23,
       "value": 1200000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/662326-1759449464.png",
       "loanFrom": "São Paulo Futebol Clube"
     },
     {
@@ -409,7 +465,9 @@
       "age": 25,
       "value": 1200000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/740273-1780493380.png",
       "loanFrom": "Santos FC"
     },
     {
@@ -421,7 +479,9 @@
       "age": 25,
       "value": 1200000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/740271-1598861633.jpg"
     },
     {
       "id": "418530",
@@ -432,7 +492,9 @@
       "age": 30,
       "value": 1200000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/418530-1661954354.jpg"
     },
     {
       "id": "606716",
@@ -443,7 +505,9 @@
       "age": 28,
       "value": 1200000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/606716-1772151807.png",
       "loanFrom": "Esporte Clube Vitória"
     },
     {
@@ -455,7 +519,9 @@
       "age": 28,
       "value": 1200000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/401533-1780479895.jpg"
     },
     {
       "id": "355496",
@@ -466,7 +532,9 @@
       "age": 29,
       "value": 1200000,
       "contract": "2026-11-30",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/355496-1717522906.jpg",
       "loanFrom": "Red Bull Bragantino"
     },
     {
@@ -478,7 +546,9 @@
       "age": 24,
       "value": 1000000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/802646-1663640698.jpg"
     },
     {
       "id": "559602",
@@ -489,7 +559,9 @@
       "age": 31,
       "value": 1000000,
       "contract": "2026-11-30",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/559602-1768836095.jpg",
       "loanFrom": "Cruzeiro Esporte Clube"
     },
     {
@@ -501,7 +573,9 @@
       "age": 27,
       "value": 1000000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/594561-1705757591.jpg"
     },
     {
       "id": "335984",
@@ -512,7 +586,9 @@
       "age": 31,
       "value": 1000000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/335984-1780493493.png"
     },
     {
       "id": "553727",
@@ -523,7 +599,9 @@
       "age": 29,
       "value": 1000000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/553727-1694205610.jpg"
     },
     {
       "id": "520629",
@@ -534,7 +612,9 @@
       "age": 30,
       "value": 1000000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/520629-1639251963.jpg"
     },
     {
       "id": "980837",
@@ -545,7 +625,9 @@
       "age": 22,
       "value": 1000000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/980837-1759449203.jpeg",
       "loanFrom": "São Paulo Futebol Clube"
     },
     {
@@ -557,7 +639,9 @@
       "age": 21,
       "value": 1000000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1241278",
@@ -568,7 +652,9 @@
       "age": 20,
       "value": 1000000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1241278-1739971346.jpg"
     },
     {
       "id": "348769",
@@ -579,7 +665,9 @@
       "age": 31,
       "value": 1000000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/348769-1662668636.jpg"
     },
     {
       "id": "627214",
@@ -590,7 +678,9 @@
       "age": 24,
       "value": 1000000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/627214-1572442841.png"
     },
     {
       "id": "458251",
@@ -601,7 +691,9 @@
       "age": 29,
       "value": 1000000,
       "contract": "2027-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/458251-1684808256.jpg"
     },
     {
       "id": "479587",
@@ -612,7 +704,9 @@
       "age": 30,
       "value": 1000000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/479587-1561449428.jpg",
       "loanFrom": "Club Athletico Paranaense"
     },
     {
@@ -624,7 +718,9 @@
       "age": 32,
       "value": 1000000,
       "contract": "2026-11-30",
-      "nat": "Uruguay",
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/261309-1742486760.jpg",
       "loanFrom": "Fluminense Football Club"
     },
     {
@@ -636,7 +732,9 @@
       "age": 26,
       "value": 1000000,
       "contract": "2027-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/468320-1740506045.jpg"
     },
     {
       "id": "525256",
@@ -647,7 +745,9 @@
       "age": 29,
       "value": 1000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/525256-1680551751.jpg"
     },
     {
       "id": "195882",
@@ -658,7 +758,9 @@
       "age": 33,
       "value": 1000000,
       "contract": "2026-11-30",
-      "nat": "Uruguay",
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/195882-1682804477.jpg",
       "loanFrom": "Club Athletico Paranaense"
     },
     {
@@ -670,7 +772,9 @@
       "age": 31,
       "value": 900000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/422700-1657631721.JPG"
     },
     {
       "id": "977463",
@@ -681,7 +785,9 @@
       "age": 23,
       "value": 900000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/977463-1682804235.jpg",
       "loanFrom": "Cruzeiro Esporte Clube"
     },
     {
@@ -693,7 +799,9 @@
       "age": 26,
       "value": 900000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/697848-1662651593.jpg"
     },
     {
       "id": "546217",
@@ -704,7 +812,9 @@
       "age": 27,
       "value": 900000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/546217-1674748988.jpg"
     },
     {
       "id": "476339",
@@ -715,7 +825,9 @@
       "age": 30,
       "value": 900000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/476339-1589359905.jpg"
     },
     {
       "id": "798167",
@@ -726,7 +838,9 @@
       "age": 29,
       "value": 900000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/798167-1682388129.jpg"
     },
     {
       "id": "520467",
@@ -737,7 +851,9 @@
       "age": 30,
       "value": 900000,
       "contract": "2027-02-28",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/520467-1766598046.jpg"
     },
     {
       "id": "432959",
@@ -748,7 +864,9 @@
       "age": 28,
       "value": 900000,
       "contract": "2026-11-30",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/432959-1759510268.jpg",
       "loanFrom": "Associação Chapecoense de Futebol"
     },
     {
@@ -760,7 +878,9 @@
       "age": 30,
       "value": 900000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/432958-1566218178.jpg"
     },
     {
       "id": "258367",
@@ -771,7 +891,9 @@
       "age": 34,
       "value": 900000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/258367-1636983161.jpg"
     },
     {
       "id": "363173",
@@ -782,7 +904,9 @@
       "age": 29,
       "value": 900000,
       "contract": "2026-11-30",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/363173-1756951145.jpg",
       "loanFrom": "CR Flamengo"
     },
     {
@@ -794,7 +918,9 @@
       "age": 26,
       "value": 900000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/689737-1661954146.jpg"
     },
     {
       "id": "670940",
@@ -805,7 +931,9 @@
       "age": 27,
       "value": 900000,
       "contract": "2027-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/670940-1706875516.jpg"
     },
     {
       "id": "978004",
@@ -816,7 +944,9 @@
       "age": 25,
       "value": 900000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/978004-1721349565.jpg"
     },
     {
       "id": "412376",
@@ -827,7 +957,9 @@
       "age": 26,
       "value": 900000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/412376-1780480892.png"
     },
     {
       "id": "935978",
@@ -838,7 +970,9 @@
       "age": 28,
       "value": 900000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/935978-1669159398.jpg"
     },
     {
       "id": "1174214",
@@ -849,7 +983,9 @@
       "age": 21,
       "value": 900000,
       "contract": "2026-11-30",
-      "nat": "Colombia",
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1174214-1722214467.JPG",
       "loanFrom": "Red Bull Bragantino"
     },
     {
@@ -861,7 +997,9 @@
       "age": 27,
       "value": 800000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/853529-1706226602.jpg"
     },
     {
       "id": "965630",
@@ -872,7 +1010,9 @@
       "age": 25,
       "value": 800000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/965630-1686620788.jpg",
       "loanFrom": "Club Athletico Paranaense"
     },
     {
@@ -884,7 +1024,9 @@
       "age": 21,
       "value": 800000,
       "contract": "2026-11-30",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null,
       "loanFrom": "Fluminense Football Club"
     },
     {
@@ -896,7 +1038,9 @@
       "age": 25,
       "value": 800000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/865028-1777759943.png"
     },
     {
       "id": "340531",
@@ -907,7 +1051,9 @@
       "age": 29,
       "value": 800000,
       "contract": "2028-12-31",
-      "nat": "Portugal"
+      "nat": "Portugal",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/340531-1739447654.jpg"
     },
     {
       "id": "634139",
@@ -918,7 +1064,9 @@
       "age": 28,
       "value": 800000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/634139-1743725132.jpg"
     },
     {
       "id": "638305",
@@ -929,7 +1077,9 @@
       "age": 25,
       "value": 800000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/638305-1647978230.jpg"
     },
     {
       "id": "642689",
@@ -940,7 +1090,9 @@
       "age": 27,
       "value": 800000,
       "contract": "2027-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/642689-1643621740.jpg"
     },
     {
       "id": "921863",
@@ -951,7 +1103,9 @@
       "age": 22,
       "value": 800000,
       "contract": "2028-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/921863-1693045320.png"
     },
     {
       "id": "646432",
@@ -962,7 +1116,9 @@
       "age": 32,
       "value": 800000,
       "contract": "2027-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/646432-1627315768.jpg"
     },
     {
       "id": "1129200",
@@ -973,7 +1129,9 @@
       "age": 25,
       "value": 800000,
       "contract": "2028-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "678502",
@@ -984,7 +1142,9 @@
       "age": 24,
       "value": 800000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/678502-1717523962.jpg",
       "loanFrom": "Red Bull Bragantino"
     },
     {
@@ -996,7 +1156,9 @@
       "age": 29,
       "value": 800000,
       "contract": "2027-12-31",
-      "nat": "Guinea-Bissau"
+      "nat": "Guinea-Bissau",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/298410-1582120007.png"
     },
     {
       "id": "1116366",
@@ -1007,7 +1169,9 @@
       "age": 22,
       "value": 800000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1116366-1682801509.jpg",
       "loanFrom": "Clube Atlético Mineiro"
     },
     {
@@ -1019,7 +1183,9 @@
       "age": 27,
       "value": 800000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/681501-1708484102.jpg"
     },
     {
       "id": "430761",
@@ -1030,7 +1196,9 @@
       "age": 29,
       "value": 800000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/430761-1579004659.jpg"
     },
     {
       "id": "1032891",
@@ -1041,7 +1209,9 @@
       "age": 22,
       "value": 800000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1032891-1698358631.jpg",
       "loanFrom": "Santos FC"
     },
     {
@@ -1053,7 +1223,9 @@
       "age": 22,
       "value": 750000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1082523-1671047016.jpg"
     },
     {
       "id": "257740",
@@ -1064,7 +1236,9 @@
       "age": 34,
       "value": 750000,
       "contract": "2026-11-30",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/257740-1612464258.png"
     },
     {
       "id": "443338",
@@ -1075,7 +1249,9 @@
       "age": 31,
       "value": 750000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/443338-1759496710.png"
     },
     {
       "id": "605893",
@@ -1086,7 +1262,9 @@
       "age": 27,
       "value": 750000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/605893-1564584452.jpg"
     },
     {
       "id": "388236",
@@ -1097,7 +1275,9 @@
       "age": 33,
       "value": 750000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/388236-1613847029.jpg"
     },
     {
       "id": "961686",
@@ -1108,7 +1288,9 @@
       "age": 23,
       "value": 750000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/961686-1718912975.jpg"
     },
     {
       "id": "538107",
@@ -1119,7 +1301,9 @@
       "age": 30,
       "value": 750000,
       "contract": "2027-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/538107-1733319292.jpg"
     },
     {
       "id": "816150",
@@ -1130,7 +1314,9 @@
       "age": 26,
       "value": 750000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/816150-1780481790.png"
     },
     {
       "id": "366948",
@@ -1141,7 +1327,9 @@
       "age": 31,
       "value": 700000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/366948-1757574500.jpg"
     },
     {
       "id": "344626",
@@ -1152,7 +1340,9 @@
       "age": 32,
       "value": 700000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/344626-1598017705.jpg"
     },
     {
       "id": "1355323",
@@ -1163,7 +1353,9 @@
       "age": 19,
       "value": 700000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "392809",
@@ -1174,7 +1366,9 @@
       "age": 31,
       "value": 700000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/392809-1766069994.JPG"
     },
     {
       "id": "978146",
@@ -1185,7 +1379,9 @@
       "age": 24,
       "value": 700000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/978146-1682522956.jpeg"
     },
     {
       "id": "442258",
@@ -1196,7 +1392,9 @@
       "age": 29,
       "value": 700000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/442258-1748651858.jpg"
     },
     {
       "id": "634737",
@@ -1207,7 +1405,9 @@
       "age": 28,
       "value": 700000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/634737-1660516322.jpg",
       "loanFrom": "Coritiba Foot Ball Club"
     },
     {
@@ -1219,7 +1419,9 @@
       "age": 29,
       "value": 700000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/544464-1741362388.jpg",
       "loanFrom": "Esporte Clube Vitória"
     },
     {
@@ -1231,7 +1433,9 @@
       "age": 29,
       "value": 700000,
       "contract": "2026-11-30",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/688684-1716603111.jpg",
       "loanFrom": "Esporte Clube Vitória"
     },
     {
@@ -1243,7 +1447,9 @@
       "age": 23,
       "value": 700000,
       "contract": "2028-08-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/814268-1704280505.jpg"
     },
     {
       "id": "699824",
@@ -1254,7 +1460,9 @@
       "age": 29,
       "value": 700000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/699824-1663032916.jpeg"
     },
     {
       "id": "410183",
@@ -1265,7 +1473,9 @@
       "age": 29,
       "value": 700000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/410183-1706144424.jpg"
     },
     {
       "id": "537928",
@@ -1276,7 +1486,9 @@
       "age": 26,
       "value": 700000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/537928-1725061282.jpg",
       "loanFrom": "Mirassol Futebol Clube (SP)"
     },
     {
@@ -1288,7 +1500,9 @@
       "age": 29,
       "value": 700000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/548298-1743526745.jpg"
     },
     {
       "id": "599879",
@@ -1299,7 +1513,9 @@
       "age": 27,
       "value": 700000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/599879-1558040531.jpg",
       "loanFrom": "Clube do Remo (PA)"
     },
     {
@@ -1311,7 +1527,9 @@
       "age": 28,
       "value": 700000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/468256-1613386065.jpg"
     },
     {
       "id": "718307",
@@ -1322,7 +1540,9 @@
       "age": 23,
       "value": 700000,
       "contract": "2026-12-31",
-      "nat": "Paraguay",
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/718307-1756925739.jpg",
       "loanFrom": "Botafogo de Futebol e Regatas"
     },
     {
@@ -1334,7 +1554,9 @@
       "age": 32,
       "value": 650000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/248030-1728573842.png"
     },
     {
       "id": "476336",
@@ -1345,7 +1567,9 @@
       "age": 30,
       "value": 650000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/476336-1791464503.jpg"
     },
     {
       "id": "195810",
@@ -1356,7 +1580,9 @@
       "age": 35,
       "value": 600000,
       "contract": "2026-11-30",
-      "nat": "Angola"
+      "nat": "Angola",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/195810-1633193060.png"
     },
     {
       "id": "874699",
@@ -1367,7 +1593,9 @@
       "age": 25,
       "value": 600000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/874699-1716824444.jpg"
     },
     {
       "id": "910216",
@@ -1378,7 +1606,9 @@
       "age": 24,
       "value": 600000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "592375",
@@ -1389,7 +1619,9 @@
       "age": 26,
       "value": 600000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/592375-1679449962.jpg"
     },
     {
       "id": "1010016",
@@ -1400,7 +1632,9 @@
       "age": 25,
       "value": 600000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1010016-1739282194.jpg"
     },
     {
       "id": "995638",
@@ -1411,7 +1645,9 @@
       "age": 24,
       "value": 600000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/995638-1659890620.jpg"
     },
     {
       "id": "982549",
@@ -1422,7 +1658,9 @@
       "age": 23,
       "value": 600000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/982549-1671024498.jpg"
     },
     {
       "id": "1022057",
@@ -1433,7 +1671,9 @@
       "age": 22,
       "value": 600000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1022057-1660597211.jpg"
     },
     {
       "id": "1083073",
@@ -1444,7 +1684,9 @@
       "age": 22,
       "value": 600000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1083073-1682801227.jpg",
       "loanFrom": "Clube Atlético Mineiro"
     },
     {
@@ -1456,7 +1698,9 @@
       "age": 26,
       "value": 600000,
       "contract": "2026-12-31",
-      "nat": "Peru"
+      "nat": "Peru",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/740464-1683351946.png"
     },
     {
       "id": "859135",
@@ -1467,7 +1711,9 @@
       "age": 25,
       "value": 600000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/859135-1661021238.jpg",
       "loanFrom": "Esporte Clube Vitória"
     },
     {
@@ -1479,7 +1725,9 @@
       "age": 29,
       "value": 600000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/391497-1722258546.png"
     },
     {
       "id": "739272",
@@ -1490,7 +1738,9 @@
       "age": 29,
       "value": 600000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/739272-1720884098.jpg"
     },
     {
       "id": "981666",
@@ -1501,7 +1751,9 @@
       "age": 28,
       "value": 600000,
       "contract": "2026-11-30",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/981666-1715628604.JPG"
     },
     {
       "id": "731531",
@@ -1512,7 +1764,9 @@
       "age": 27,
       "value": 600000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/731531-1780481595.png"
     },
     {
       "id": "357091",
@@ -1523,7 +1777,9 @@
       "age": 31,
       "value": 600000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/357091-1678908837.jpg"
     },
     {
       "id": "538978",
@@ -1534,7 +1790,9 @@
       "age": 27,
       "value": 600000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/538978-1663155209.png"
     },
     {
       "id": "787269",
@@ -1545,7 +1803,9 @@
       "age": 29,
       "value": 600000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/787269-1662691470.jpg"
     },
     {
       "id": "438923",
@@ -1556,7 +1816,9 @@
       "age": 30,
       "value": 600000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/438923-1759500972.jpg"
     },
     {
       "id": "421718",
@@ -1567,7 +1829,9 @@
       "age": 32,
       "value": 600000,
       "contract": "2027-11-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/421718-1717333991.jpg"
     },
     {
       "id": "959171",
@@ -1578,7 +1842,9 @@
       "age": 23,
       "value": 600000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/959171-1768991295.png"
     },
     {
       "id": "476353",
@@ -1589,7 +1855,9 @@
       "age": 30,
       "value": 600000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/476353-1690693766.png"
     },
     {
       "id": "670968",
@@ -1600,7 +1868,9 @@
       "age": 27,
       "value": 550000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/670968-1779755528.jpg"
     },
     {
       "id": "612496",
@@ -1611,7 +1881,9 @@
       "age": 25,
       "value": 550000,
       "contract": "2026-12-31",
-      "nat": "Portugal"
+      "nat": "Portugal",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/612496-1558041274.png"
     },
     {
       "id": "381032",
@@ -1622,7 +1894,9 @@
       "age": 34,
       "value": 550000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/381032-1661955957.jpg"
     },
     {
       "id": "267849",
@@ -1633,7 +1907,9 @@
       "age": 32,
       "value": 550000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/267849-1780494552.jpg"
     },
     {
       "id": "519851",
@@ -1644,7 +1920,9 @@
       "age": 29,
       "value": 550000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/519851-1662431173.jpg"
     },
     {
       "id": "407654",
@@ -1655,7 +1933,9 @@
       "age": 31,
       "value": 550000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/407654-1544694806.jpg"
     },
     {
       "id": "678376",
@@ -1666,7 +1946,9 @@
       "age": 25,
       "value": 500000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/678376-1674434411.jpg"
     },
     {
       "id": "1386991",
@@ -1677,7 +1959,9 @@
       "age": 19,
       "value": 500000,
       "contract": "2029-01-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "869477",
@@ -1688,7 +1972,9 @@
       "age": 26,
       "value": 500000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/869477-1738230763.jpg"
     },
     {
       "id": "555016",
@@ -1699,7 +1985,9 @@
       "age": 27,
       "value": 500000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/555016-1571658296.jpg"
     },
     {
       "id": "1083245",
@@ -1710,7 +1998,9 @@
       "age": 20,
       "value": 500000,
       "contract": "2026-11-30",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1083245-1758248154.png",
       "loanFrom": "Cruzeiro Esporte Clube"
     },
     {
@@ -1722,7 +2012,9 @@
       "age": 23,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1087725-1698494281.jpg"
     },
     {
       "id": "867139",
@@ -1733,7 +2025,9 @@
       "age": 24,
       "value": 500000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/867139-1662693711.jpg"
     },
     {
       "id": "401539",
@@ -1744,7 +2038,9 @@
       "age": 32,
       "value": 500000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/401539-1706143074.jpg"
     },
     {
       "id": "291658",
@@ -1755,7 +2051,9 @@
       "age": 31,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/291658-1772566049.PNG"
     },
     {
       "id": "1093922",
@@ -1766,7 +2064,9 @@
       "age": 23,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1093922-1678906999.jpg",
       "loanFrom": "Santos FC"
     },
     {
@@ -1778,7 +2078,9 @@
       "age": 26,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Venezuela"
+      "nat": "Venezuela",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/486175-1741364414.jpg"
     },
     {
       "id": "936090",
@@ -1789,7 +2091,9 @@
       "age": 27,
       "value": 500000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/936090-1723246731.jpg"
     },
     {
       "id": "1220181",
@@ -1800,7 +2104,9 @@
       "age": 20,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1220181-1738782775.jpg",
       "loanFrom": "Clube Atlético Mineiro"
     },
     {
@@ -1812,7 +2118,9 @@
       "age": 29,
       "value": 500000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/555277-1661761886.jpg"
     },
     {
       "id": "1093927",
@@ -1823,7 +2131,9 @@
       "age": 22,
       "value": 500000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1093927-1780494108.jpg"
     },
     {
       "id": "1093928",
@@ -1834,7 +2144,9 @@
       "age": 21,
       "value": 500000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1093928-1682881050.jpg"
     },
     {
       "id": "976951",
@@ -1845,7 +2157,9 @@
       "age": 21,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/976951-1711569438.jpg"
     },
     {
       "id": "325196",
@@ -1856,7 +2170,9 @@
       "age": 32,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/325196-1666428219.jpg"
     },
     {
       "id": "375532",
@@ -1867,7 +2183,9 @@
       "age": 31,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/375532-1716603430.jpg"
     },
     {
       "id": "377799",
@@ -1878,7 +2196,9 @@
       "age": 32,
       "value": 500000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/377799-1469013097.jpg"
     },
     {
       "id": "191872",
@@ -1889,7 +2209,9 @@
       "age": 31,
       "value": 500000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/191872-1660764504.jpg"
     },
     {
       "id": "169179",
@@ -1900,7 +2222,9 @@
       "age": 32,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/169179-1567668905.jpg"
     },
     {
       "id": "752560",
@@ -1911,7 +2235,9 @@
       "age": 25,
       "value": 500000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/752560-1759502622.jpg"
     },
     {
       "id": "1100029",
@@ -1922,7 +2248,9 @@
       "age": 25,
       "value": 500000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1100029-1780481699.png"
     },
     {
       "id": "729263",
@@ -1933,7 +2261,9 @@
       "age": 24,
       "value": 500000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/729263-1780487975.png"
     },
     {
       "id": "658664",
@@ -1944,7 +2274,9 @@
       "age": 26,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/658664-1780488312.png"
     },
     {
       "id": "800177",
@@ -1955,7 +2287,9 @@
       "age": 26,
       "value": 500000,
       "contract": "2027-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/800177-1751175543.png"
     },
     {
       "id": "258254",
@@ -1966,7 +2300,9 @@
       "age": 34,
       "value": 500000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/258254-1662403773.jpg"
     },
     {
       "id": "411663",
@@ -1977,7 +2313,9 @@
       "age": 29,
       "value": 500000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/411663-1598866252.jpg"
     },
     {
       "id": "688310",
@@ -1988,7 +2326,9 @@
       "age": 26,
       "value": 500000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/688310-1748472580.jpg"
     },
     {
       "id": "539467",
@@ -1999,7 +2339,9 @@
       "age": 30,
       "value": 500000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "435239",
@@ -2010,7 +2352,9 @@
       "age": 29,
       "value": 500000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/435239-1681675828.jpg"
     },
     {
       "id": "338861",
@@ -2021,7 +2365,9 @@
       "age": 33,
       "value": 500000,
       "contract": "2027-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/338861-1543844791.jpg"
     },
     {
       "id": "605326",
@@ -2032,7 +2378,9 @@
       "age": 28,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/605326-1594849422.png"
     },
     {
       "id": "638722",
@@ -2043,7 +2391,9 @@
       "age": 29,
       "value": 500000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/638722-1768994876.jpg"
     },
     {
       "id": "875994",
@@ -2054,7 +2404,9 @@
       "age": 23,
       "value": 500000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/875994-1725327341.jpg"
     },
     {
       "id": "542483",
@@ -2065,7 +2417,9 @@
       "age": 34,
       "value": 450000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/542483-1656980162.jpg",
       "loanFrom": "Esporte Clube Vitória"
     },
     {
@@ -2078,6 +2432,8 @@
       "value": 450000,
       "contract": "2026-12-31",
       "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/911994-1680118503.jpg",
       "loanFrom": "Clube do Remo (PA)"
     },
     {
@@ -2089,7 +2445,9 @@
       "age": 25,
       "value": 450000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/689561-1696948591.png"
     },
     {
       "id": "743588",
@@ -2100,7 +2458,9 @@
       "age": 22,
       "value": 450000,
       "contract": "2027-03-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/743588-1745582685.jpg",
       "loanFrom": "Clube Atlético Mineiro"
     },
     {
@@ -2112,7 +2472,9 @@
       "age": 23,
       "value": 450000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1035650-1754219687.png"
     },
     {
       "id": "435170",
@@ -2123,7 +2485,9 @@
       "age": 29,
       "value": 450000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/435170-1663033829.jpg"
     },
     {
       "id": "1083888",
@@ -2134,7 +2498,9 @@
       "age": 21,
       "value": 400000,
       "contract": "2030-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1083888-1682524452.jpg"
     },
     {
       "id": "213368",
@@ -2145,7 +2511,9 @@
       "age": 36,
       "value": 400000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/213368-1725326618.jpg"
     },
     {
       "id": "635807",
@@ -2156,7 +2524,9 @@
       "age": 29,
       "value": 400000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/635807-1710240411.jpg"
     },
     {
       "id": "167291",
@@ -2167,7 +2537,9 @@
       "age": 33,
       "value": 400000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/167291-1735939818.jpg"
     },
     {
       "id": "685768",
@@ -2178,7 +2550,9 @@
       "age": 26,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/685768-1780493282.png"
     },
     {
       "id": "874307",
@@ -2189,7 +2563,9 @@
       "age": 24,
       "value": 400000,
       "contract": "2026-11-30",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/874307-1662692858.jpg",
       "loanFrom": "Coritiba Foot Ball Club"
     },
     {
@@ -2201,7 +2577,9 @@
       "age": 23,
       "value": 400000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/985345-1682806894.jpg"
     },
     {
       "id": "290388",
@@ -2212,7 +2590,9 @@
       "age": 31,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Portugal"
+      "nat": "Portugal",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/290388-1748479559.jpg"
     },
     {
       "id": "371025",
@@ -2223,7 +2603,9 @@
       "age": 31,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/371025-1706875107.jpg"
     },
     {
       "id": "555672",
@@ -2234,7 +2616,9 @@
       "age": 32,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/555672-1727796438.png"
     },
     {
       "id": "594006",
@@ -2245,7 +2629,9 @@
       "age": 29,
       "value": 400000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/594006-1769019306.jpg"
     },
     {
       "id": "1097843",
@@ -2256,7 +2642,9 @@
       "age": 21,
       "value": 400000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1097843-1741364960.jpg"
     },
     {
       "id": "161188",
@@ -2267,7 +2655,9 @@
       "age": 35,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/161188-1773444472.jpg"
     },
     {
       "id": "273250",
@@ -2278,7 +2668,9 @@
       "age": 33,
       "value": 400000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/273250-1759495035.png"
     },
     {
       "id": "994588",
@@ -2289,7 +2681,9 @@
       "age": 23,
       "value": 400000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/994588-1682776256.jpg"
     },
     {
       "id": "900203",
@@ -2300,7 +2694,9 @@
       "age": 23,
       "value": 400000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/900203-1670980798.jpg"
     },
     {
       "id": "1082637",
@@ -2311,7 +2707,9 @@
       "age": 22,
       "value": 400000,
       "contract": "2029-03-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1082637-1670979051.jpg"
     },
     {
       "id": "800649",
@@ -2322,7 +2720,9 @@
       "age": 25,
       "value": 400000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/800649-1745598782.jpg"
     },
     {
       "id": "269467",
@@ -2333,7 +2733,9 @@
       "age": 33,
       "value": 400000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/269467-1537526476.png"
     },
     {
       "id": "432967",
@@ -2344,7 +2746,9 @@
       "age": 30,
       "value": 400000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/432967-1708625485.png"
     },
     {
       "id": "1151724",
@@ -2355,7 +2759,9 @@
       "age": 27,
       "value": 400000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1151724-1745453161.jpg"
     },
     {
       "id": "405720",
@@ -2366,7 +2772,9 @@
       "age": 32,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/405720-1674432620.jpg"
     },
     {
       "id": "363811",
@@ -2377,7 +2785,9 @@
       "age": 31,
       "value": 400000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/363811-1602181399.png"
     },
     {
       "id": "730982",
@@ -2388,7 +2798,9 @@
       "age": 28,
       "value": 400000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/730982-1663871631.jpg"
     },
     {
       "id": "865572",
@@ -2399,7 +2811,9 @@
       "age": 27,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/865572-1656599586.png"
     },
     {
       "id": "240578",
@@ -2410,7 +2824,9 @@
       "age": 33,
       "value": 400000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/240578-1550829749.jpg"
     },
     {
       "id": "1090843",
@@ -2421,7 +2837,9 @@
       "age": 21,
       "value": 400000,
       "contract": "2027-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "922247",
@@ -2432,7 +2850,9 @@
       "age": 24,
       "value": 400000,
       "contract": "2029-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "868885",
@@ -2443,7 +2863,9 @@
       "age": 25,
       "value": 400000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/868885-1774483555.jpg"
     },
     {
       "id": "372046",
@@ -2454,7 +2876,9 @@
       "age": 25,
       "value": 400000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/372046-1726056890.jpg"
     },
     {
       "id": "982039",
@@ -2465,7 +2889,9 @@
       "age": 26,
       "value": 400000,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/982039-1680055148.jpg"
     },
     {
       "id": "1096475",
@@ -2476,7 +2902,9 @@
       "age": 19,
       "value": 400000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1096475-1744803344.jpg"
     },
     {
       "id": "644210",
@@ -2487,7 +2915,9 @@
       "age": 28,
       "value": 400000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/644210-1631630316.jpg"
     },
     {
       "id": "395060",
@@ -2498,7 +2928,9 @@
       "age": 30,
       "value": 400000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/395060-1780488543.png"
     },
     {
       "id": "262553",
@@ -2509,7 +2941,9 @@
       "age": 33,
       "value": 400000,
       "contract": "2027-11-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/262553-1780488397.png"
     },
     {
       "id": "1090822",
@@ -2520,7 +2954,9 @@
       "age": 22,
       "value": 400000,
       "contract": "2026-11-30",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1090822-1759502196.png",
       "loanFrom": "Coritiba Foot Ball Club"
     },
     {
@@ -2532,7 +2968,9 @@
       "age": 24,
       "value": 400000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/894531-1740145650.png"
     },
     {
       "id": "555374",
@@ -2543,7 +2981,9 @@
       "age": 31,
       "value": 400000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/555374-1723255181.png"
     },
     {
       "id": "520665",
@@ -2554,7 +2994,9 @@
       "age": 29,
       "value": 400000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/520665-1598015743.jpg"
     },
     {
       "id": "199472",
@@ -2565,7 +3007,9 @@
       "age": 32,
       "value": 400000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/199472-1543929744.jpg"
     },
     {
       "id": "752724",
@@ -2576,7 +3020,9 @@
       "age": 26,
       "value": 400000,
       "contract": "2026-11-30",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/752724-1644313308.png",
       "loanFrom": "Coritiba Foot Ball Club"
     },
     {
@@ -2588,7 +3034,9 @@
       "age": 28,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/719251-1576093911.png"
     },
     {
       "id": "540541",
@@ -2599,7 +3047,9 @@
       "age": 29,
       "value": 375000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/540541-1723246846.jpg"
     },
     {
       "id": "1056021",
@@ -2610,7 +3060,9 @@
       "age": 24,
       "value": 375000,
       "contract": "2026-11-30",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1056021-1671195118.jpg",
       "loanFrom": "Coritiba Foot Ball Club"
     },
     {
@@ -2622,7 +3074,9 @@
       "age": 26,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/875338-1737734591.png"
     },
     {
       "id": "639751",
@@ -2633,7 +3087,9 @@
       "age": 32,
       "value": 350000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/639751-1687916350.jpg"
     },
     {
       "id": "363174",
@@ -2644,7 +3100,9 @@
       "age": 31,
       "value": 350000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/363174-1676059834.jpg"
     },
     {
       "id": "607093",
@@ -2655,7 +3113,9 @@
       "age": 31,
       "value": 350000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/607093-1676543356.jpg"
     },
     {
       "id": "976522",
@@ -2666,7 +3126,9 @@
       "age": 29,
       "value": 350000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/976522-1660729813.jpg"
     },
     {
       "id": "1096082",
@@ -2677,7 +3139,9 @@
       "age": 20,
       "value": 350000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1096082-1780479803.jpg"
     },
     {
       "id": "255928",
@@ -2688,7 +3152,9 @@
       "age": 33,
       "value": 350000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/255928-1621587006.jpg"
     },
     {
       "id": "1222625",
@@ -2699,7 +3165,9 @@
       "age": 22,
       "value": 350000,
       "contract": "2026-11-30",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1222625-1739971195.jpg",
       "loanFrom": "Botafogo de Futebol e Regatas"
     },
     {
@@ -2711,7 +3179,9 @@
       "age": 25,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/738502-1716603016.jpg"
     },
     {
       "id": "514298",
@@ -2722,7 +3192,9 @@
       "age": 28,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/514298-1672586295.jpg"
     },
     {
       "id": "1082769",
@@ -2733,7 +3205,9 @@
       "age": 22,
       "value": 350000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "389942",
@@ -2744,7 +3218,9 @@
       "age": 31,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/389942-1673962674.png",
       "loanFrom": "Santos FC"
     },
     {
@@ -2756,7 +3232,9 @@
       "age": 34,
       "value": 350000,
       "contract": "2027-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/184604-1487185880.jpg"
     },
     {
       "id": "148765",
@@ -2767,7 +3245,9 @@
       "age": 34,
       "value": 350000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/148765-1780481139.png"
     },
     {
       "id": "225335",
@@ -2778,7 +3258,9 @@
       "age": 32,
       "value": 350000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/225335-1629973944.png"
     },
     {
       "id": "411563",
@@ -2789,7 +3271,9 @@
       "age": 33,
       "value": 350000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/411563-1561447763.jpg"
     },
     {
       "id": "697401",
@@ -2800,7 +3284,9 @@
       "age": 26,
       "value": 350000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/697401-1655990483.png"
     },
     {
       "id": "102574",
@@ -2811,7 +3297,9 @@
       "age": 34,
       "value": 350000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/102574-1769019126.jpg"
     },
     {
       "id": "270420",
@@ -2822,7 +3310,9 @@
       "age": 38,
       "value": 300000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/270420-1662314871.jpg"
     },
     {
       "id": "1279322",
@@ -2833,7 +3323,9 @@
       "age": 20,
       "value": 300000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "252900",
@@ -2844,7 +3336,9 @@
       "age": 33,
       "value": 300000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/252900-1661906007.jpg"
     },
     {
       "id": "978039",
@@ -2855,7 +3349,9 @@
       "age": 23,
       "value": 300000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/978039-1659564718.png"
     },
     {
       "id": "439460",
@@ -2866,7 +3362,9 @@
       "age": 32,
       "value": 300000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/439460-1678897400.jpg"
     },
     {
       "id": "691861",
@@ -2877,7 +3375,9 @@
       "age": 29,
       "value": 300000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/691861-1754077465.png"
     },
     {
       "id": "636741",
@@ -2888,7 +3388,9 @@
       "age": 29,
       "value": 300000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/636741-1699056087.jpg"
     },
     {
       "id": "524568",
@@ -2899,7 +3401,9 @@
       "age": 30,
       "value": 300000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/524568-1642860455.png"
     },
     {
       "id": "373150",
@@ -2910,7 +3414,9 @@
       "age": 33,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/373150-1530263543.jpg"
     },
     {
       "id": "232847",
@@ -2921,7 +3427,9 @@
       "age": 36,
       "value": 300000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/232847-1743725252.jpg"
     },
     {
       "id": "412685",
@@ -2932,7 +3440,9 @@
       "age": 31,
       "value": 300000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/412685-1733275090.jpg"
     },
     {
       "id": "811949",
@@ -2943,7 +3453,9 @@
       "age": 27,
       "value": 300000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/811949-1791937231.jpg"
     },
     {
       "id": "873528",
@@ -2954,7 +3466,9 @@
       "age": 23,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/873528-1690513055.jpg"
     },
     {
       "id": "544254",
@@ -2965,7 +3479,9 @@
       "age": 30,
       "value": 300000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/544254-1659136244.jpg"
     },
     {
       "id": "642570",
@@ -2976,7 +3492,9 @@
       "age": 29,
       "value": 300000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/642570-1660765867.jpg"
     },
     {
       "id": "546253",
@@ -2987,7 +3505,9 @@
       "age": 29,
       "value": 300000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/546253-1693415989.png"
     },
     {
       "id": "1083089",
@@ -2998,7 +3518,9 @@
       "age": 23,
       "value": 300000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1083089-1745582607.jpg"
     },
     {
       "id": "539183",
@@ -3009,7 +3531,9 @@
       "age": 31,
       "value": 300000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/539183-1705755344.jpg"
     },
     {
       "id": "1367320",
@@ -3020,7 +3544,9 @@
       "age": 18,
       "value": 300000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "733578",
@@ -3031,7 +3557,9 @@
       "age": 28,
       "value": 300000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/733578-1758704758.jpg"
     },
     {
       "id": "752558",
@@ -3042,7 +3570,9 @@
       "age": 26,
       "value": 300000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/752558-1674701303.png"
     },
     {
       "id": "1033501",
@@ -3053,7 +3583,9 @@
       "age": 23,
       "value": 300000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1033501-1759495343.png"
     },
     {
       "id": "218115",
@@ -3064,7 +3596,9 @@
       "age": 33,
       "value": 300000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/218115-1780494841.png"
     },
     {
       "id": "626678",
@@ -3075,7 +3609,9 @@
       "age": 31,
       "value": 300000,
       "contract": "2026-11-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/626678-1780481881.png"
     },
     {
       "id": "1012161",
@@ -3086,7 +3622,9 @@
       "age": 23,
       "value": 300000,
       "contract": "2027-03-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1012161-1674750396.jpg"
     },
     {
       "id": "530032",
@@ -3097,7 +3635,9 @@
       "age": 30,
       "value": 300000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/530032-1638436887.jpg"
     },
     {
       "id": "682134",
@@ -3108,7 +3648,9 @@
       "age": 25,
       "value": 300000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/682134-1604056006.png"
     },
     {
       "id": "742023",
@@ -3119,7 +3661,9 @@
       "age": 26,
       "value": 300000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/742023-1709884571.png"
     },
     {
       "id": "1082852",
@@ -3130,7 +3674,9 @@
       "age": 22,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1082852-1744746424.jpg",
       "loanFrom": "Santos FC"
     },
     {
@@ -3142,7 +3688,9 @@
       "age": 29,
       "value": 300000,
       "contract": "2027-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/425462-1770127864.jpeg"
     },
     {
       "id": "323618",
@@ -3153,7 +3701,9 @@
       "age": 31,
       "value": 300000,
       "contract": "2027-03-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/323618-1703189324.jpg"
     },
     {
       "id": "740162",
@@ -3164,7 +3714,9 @@
       "age": 26,
       "value": 300000,
       "contract": "2026-11-30",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/740162-1663016763.jpg",
       "loanFrom": "Esporte Clube Vitória"
     },
     {
@@ -3176,7 +3728,9 @@
       "age": 20,
       "value": 300000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1223922-1772559929.jpg"
     },
     {
       "id": "224481",
@@ -3187,7 +3741,9 @@
       "age": 34,
       "value": 300000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/224481-1741364357.jpg"
     },
     {
       "id": "348262",
@@ -3198,7 +3754,9 @@
       "age": 30,
       "value": 300000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/348262-1773590222.JPG"
     },
     {
       "id": "524404",
@@ -3209,7 +3767,9 @@
       "age": 28,
       "value": 300000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/524404-1620112005.jpg"
     },
     {
       "id": "481272",
@@ -3220,7 +3780,9 @@
       "age": 27,
       "value": 275000,
       "contract": "2027-11-30",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/481272-1720648045.jpg"
     },
     {
       "id": "818068",
@@ -3231,7 +3793,9 @@
       "age": 26,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/818068-1676542364.jpg"
     },
     {
       "id": "286772",
@@ -3242,7 +3806,9 @@
       "age": 32,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/286772-1543835503.jpg"
     },
     {
       "id": "806150",
@@ -3253,7 +3819,9 @@
       "age": 29,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "728908",
@@ -3264,7 +3832,9 @@
       "age": 28,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/728908-1602153523.png"
     },
     {
       "id": "1127817",
@@ -3276,6 +3846,8 @@
       "value": 250000,
       "contract": "2026-12-31",
       "nat": "Senegal",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1127817-1768992326.png",
       "loanFrom": "São Paulo Futebol Clube"
     },
     {
@@ -3287,7 +3859,9 @@
       "age": 21,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1096275-1747446234.jpg"
     },
     {
       "id": "375690",
@@ -3298,7 +3872,9 @@
       "age": 31,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/375690-1682803573.jpg"
     },
     {
       "id": "106281",
@@ -3309,7 +3885,9 @@
       "age": 35,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/106281-1754471985.png"
     },
     {
       "id": "126239",
@@ -3320,7 +3898,9 @@
       "age": 34,
       "value": 250000,
       "contract": "2026-11-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/126239-1646522984.jpg"
     },
     {
       "id": "349144",
@@ -3331,7 +3911,9 @@
       "age": 34,
       "value": 250000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/349144-1745455965.jpg"
     },
     {
       "id": "336697",
@@ -3342,7 +3924,9 @@
       "age": 32,
       "value": 250000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/336697-1709824804.png"
     },
     {
       "id": "1224595",
@@ -3353,7 +3937,9 @@
       "age": 21,
       "value": 250000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1224595-1759495227.png"
     },
     {
       "id": "868085",
@@ -3364,7 +3950,9 @@
       "age": 27,
       "value": 250000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/868085-1660596273.jpeg"
     },
     {
       "id": "349826",
@@ -3375,7 +3963,9 @@
       "age": 32,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/349826-1659139543.jpg"
     },
     {
       "id": "1360738",
@@ -3386,7 +3976,9 @@
       "age": 20,
       "value": 250000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1360738-1772150854.jpg"
     },
     {
       "id": "898441",
@@ -3397,7 +3989,9 @@
       "age": 22,
       "value": 250000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "518723",
@@ -3408,7 +4002,9 @@
       "age": 28,
       "value": 250000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/518723-1668766095.png"
     },
     {
       "id": "742025",
@@ -3419,7 +4015,9 @@
       "age": 25,
       "value": 250000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/742025-1671107693.png"
     },
     {
       "id": "537386",
@@ -3430,7 +4028,9 @@
       "age": 29,
       "value": 250000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/537386-1569361413.jpg"
     },
     {
       "id": "520484",
@@ -3441,7 +4041,9 @@
       "age": 29,
       "value": 250000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/520484-1772151738.png"
     },
     {
       "id": "1223701",
@@ -3452,7 +4054,9 @@
       "age": 20,
       "value": 250000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1223701-1771071380.png"
     },
     {
       "id": "1273512",
@@ -3463,7 +4067,9 @@
       "age": 23,
       "value": 250000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1273512-1772151541.png"
     },
     {
       "id": "476337",
@@ -3474,7 +4080,9 @@
       "age": 30,
       "value": 250000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "676034",
@@ -3485,7 +4093,9 @@
       "age": 26,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/676034-1680120721.jpg"
     },
     {
       "id": "681627",
@@ -3496,7 +4106,9 @@
       "age": 27,
       "value": 250000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/681627-1772549277.png"
     },
     {
       "id": "484599",
@@ -3507,7 +4119,9 @@
       "age": 32,
       "value": 250000,
       "contract": "2027-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/484599-1780488094.png"
     },
     {
       "id": "596586",
@@ -3518,7 +4132,9 @@
       "age": 29,
       "value": 250000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/596586-1625658205.jpg"
     },
     {
       "id": "599224",
@@ -3529,7 +4145,9 @@
       "age": 26,
       "value": 250000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/599224-1748410778.png"
     },
     {
       "id": "628647",
@@ -3540,7 +4158,9 @@
       "age": 33,
       "value": 250000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/628647-1674700584.jpg"
     },
     {
       "id": "530385",
@@ -3551,7 +4171,9 @@
       "age": 30,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/530385-1733274744.jpg"
     },
     {
       "id": "214701",
@@ -3562,7 +4184,9 @@
       "age": 32,
       "value": 250000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/214701-1743854096.jpg"
     },
     {
       "id": "689521",
@@ -3573,7 +4197,9 @@
       "age": 27,
       "value": 250000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/689521-1625158250.jpg"
     },
     {
       "id": "1007070",
@@ -3584,7 +4210,9 @@
       "age": 26,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1007070-1744759006.jpg"
     },
     {
       "id": "527192",
@@ -3595,7 +4223,9 @@
       "age": 27,
       "value": 250000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/527192-1759510108.jpg"
     },
     {
       "id": "788402",
@@ -3606,7 +4236,9 @@
       "age": 32,
       "value": 250000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/788402-1725226925.jpg"
     },
     {
       "id": "940479",
@@ -3617,7 +4249,9 @@
       "age": 27,
       "value": 250000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/940479-1662691584.jpg"
     },
     {
       "id": "1094414",
@@ -3628,7 +4262,9 @@
       "age": 21,
       "value": 250000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1094414-1739973803.jpg"
     },
     {
       "id": "495109",
@@ -3639,7 +4275,9 @@
       "age": 28,
       "value": 250000,
       "contract": "2026-11-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/495109-1758833778.png"
     },
     {
       "id": "277713",
@@ -3650,7 +4288,9 @@
       "age": 32,
       "value": 250000,
       "contract": "2027-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/277713-1663788353.jpg"
     },
     {
       "id": "223024",
@@ -3661,7 +4301,9 @@
       "age": 35,
       "value": 250000,
       "contract": "2026-11-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/223024-1721081749.jpg"
     },
     {
       "id": "659705",
@@ -3672,7 +4314,9 @@
       "age": 25,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/659705-1663117414.jpg"
     },
     {
       "id": "742855",
@@ -3683,7 +4327,9 @@
       "age": 27,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/742855-1705682510.JPG"
     },
     {
       "id": "530286",
@@ -3694,7 +4340,9 @@
       "age": 28,
       "value": 250000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/530286-1626627079.jpg"
     },
     {
       "id": "580572",
@@ -3705,7 +4353,9 @@
       "age": 27,
       "value": 250000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/580572-1631628939.jpg"
     },
     {
       "id": "375025",
@@ -3716,7 +4366,9 @@
       "age": 31,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/375025-1738335169.jpg"
     },
     {
       "id": "1090856",
@@ -3727,7 +4379,9 @@
       "age": 23,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1090856-1754146223.png",
       "loanFrom": "Red Bull Bragantino"
     },
     {
@@ -3739,7 +4393,9 @@
       "age": 32,
       "value": 250000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/264343-1495716154.png"
     },
     {
       "id": "671539",
@@ -3750,7 +4406,9 @@
       "age": 29,
       "value": 250000,
       "contract": "2027-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/671539-1725067705.jpg"
     },
     {
       "id": "1033571",
@@ -3761,7 +4419,9 @@
       "age": 22,
       "value": 225000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1033571-1745452453.jpg"
     },
     {
       "id": "213619",
@@ -3772,7 +4432,9 @@
       "age": 34,
       "value": 225000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/213619-1650980816.jpg"
     },
     {
       "id": "329845",
@@ -3783,7 +4445,9 @@
       "age": 34,
       "value": 225000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/329845-1754959568.jpg"
     },
     {
       "id": "349513",
@@ -3794,7 +4458,9 @@
       "age": 34,
       "value": 200000,
       "contract": "2027-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/349513-1580201051.jpg"
     },
     {
       "id": "907567",
@@ -3805,7 +4471,9 @@
       "age": 23,
       "value": 200000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/907567-1759503915.jpeg"
     },
     {
       "id": "512344",
@@ -3816,7 +4484,9 @@
       "age": 33,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/512344-1625043006.jpg",
       "loanFrom": "São Paulo Futebol Clube"
     },
     {
@@ -3828,7 +4498,9 @@
       "age": 26,
       "value": 200000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/979677-1780493177.png"
     },
     {
       "id": "167724",
@@ -3839,7 +4511,9 @@
       "age": 34,
       "value": 200000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/167724-1543835837.jpg"
     },
     {
       "id": "148231",
@@ -3850,7 +4524,9 @@
       "age": 34,
       "value": 200000,
       "contract": "2027-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/148231-1706846245.jpg"
     },
     {
       "id": "299596",
@@ -3861,7 +4537,9 @@
       "age": 32,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/299596-1620116004.jpg"
     },
     {
       "id": "940124",
@@ -3872,7 +4550,9 @@
       "age": 29,
       "value": 200000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/940124-1746210983.jpg"
     },
     {
       "id": "683337",
@@ -3883,7 +4563,9 @@
       "age": 31,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/683337-1590247445.jpg"
     },
     {
       "id": "854606",
@@ -3894,7 +4576,9 @@
       "age": 26,
       "value": 200000,
       "contract": "2026-11-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/854606-1720981479.png"
     },
     {
       "id": "177534",
@@ -3905,7 +4589,9 @@
       "age": 35,
       "value": 200000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/177534-1708653884.jpg"
     },
     {
       "id": "1349600",
@@ -3916,7 +4602,9 @@
       "age": 20,
       "value": 200000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1349600-1745452351.jpg"
     },
     {
       "id": "978189",
@@ -3927,7 +4615,9 @@
       "age": 21,
       "value": 200000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/978189-1745452654.jpg"
     },
     {
       "id": "1222029",
@@ -3938,7 +4628,9 @@
       "age": 20,
       "value": 200000,
       "contract": "2028-07-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1222029-1780494330.jpg"
     },
     {
       "id": "177680",
@@ -3949,7 +4641,9 @@
       "age": 34,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Venezuela"
+      "nat": "Venezuela",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/177680-1706142832.jpg"
     },
     {
       "id": "256453",
@@ -3960,7 +4654,9 @@
       "age": 33,
       "value": 200000,
       "contract": "2027-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/256453-1759503303.jpg"
     },
     {
       "id": "214312",
@@ -3971,7 +4667,9 @@
       "age": 33,
       "value": 200000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/214312-1733319396.jpg"
     },
     {
       "id": "1088848",
@@ -3982,7 +4680,9 @@
       "age": 21,
       "value": 200000,
       "contract": "2027-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "175383",
@@ -3993,7 +4693,9 @@
       "age": 36,
       "value": 200000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/175383-1695393680.png"
     },
     {
       "id": "477621",
@@ -4004,7 +4706,9 @@
       "age": 31,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/477621-1510329110.jpg"
     },
     {
       "id": "520480",
@@ -4015,7 +4719,9 @@
       "age": 33,
       "value": 200000,
       "contract": "2026-11-30",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/520480-1682388473.jpg",
       "loanFrom": "Mirassol Futebol Clube (SP)"
     },
     {
@@ -4027,7 +4733,9 @@
       "age": 21,
       "value": 200000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1015962-1684596833.jpg"
     },
     {
       "id": "686333",
@@ -4038,7 +4746,9 @@
       "age": 27,
       "value": 200000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/686333-1771071559.png"
     },
     {
       "id": "1223923",
@@ -4049,7 +4759,9 @@
       "age": 21,
       "value": 200000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1223923-1739974085.jpg"
     },
     {
       "id": "1100070",
@@ -4060,7 +4772,9 @@
       "age": 26,
       "value": 200000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1100070-1725068945.jpg"
     },
     {
       "id": "868810",
@@ -4071,7 +4785,9 @@
       "age": 23,
       "value": 200000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/868810-1772151455.png"
     },
     {
       "id": "867798",
@@ -4082,7 +4798,9 @@
       "age": 26,
       "value": 200000,
       "contract": "2028-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/867798-1764292881.jpg"
     },
     {
       "id": "347090",
@@ -4093,7 +4811,9 @@
       "age": 31,
       "value": 200000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/347090-1580201312.jpg"
     },
     {
       "id": "902135",
@@ -4104,7 +4824,9 @@
       "age": 26,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/902135-1663786688.jpg"
     },
     {
       "id": "139607",
@@ -4115,7 +4837,9 @@
       "age": 35,
       "value": 200000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/139607-1599759874.jpeg"
     },
     {
       "id": "290384",
@@ -4126,7 +4850,9 @@
       "age": 30,
       "value": 200000,
       "contract": "2026-11-30",
-      "nat": "Cape Verde"
+      "nat": "Cabo Verde",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/290384-1780487907.png"
     },
     {
       "id": "532828",
@@ -4137,7 +4863,9 @@
       "age": 31,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/532828-1733312456.jpg"
     },
     {
       "id": "767623",
@@ -4148,7 +4876,9 @@
       "age": 24,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/767623-1733328913.jpg"
     },
     {
       "id": "268572",
@@ -4159,7 +4889,9 @@
       "age": 34,
       "value": 200000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/268572-1510323252.jpg"
     },
     {
       "id": "975509",
@@ -4170,7 +4902,9 @@
       "age": 26,
       "value": 200000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/975509-1725068737.jpg"
     },
     {
       "id": "402734",
@@ -4181,7 +4915,9 @@
       "age": 30,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/402734-1759501782.jpg"
     },
     {
       "id": "667411",
@@ -4192,7 +4928,9 @@
       "age": 33,
       "value": 200000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/667411-1645112882.jpg"
     },
     {
       "id": "206097",
@@ -4203,7 +4941,9 @@
       "age": 34,
       "value": 200000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/206097-1667683807.jpg"
     },
     {
       "id": "1084070",
@@ -4214,7 +4954,9 @@
       "age": 23,
       "value": 200000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1084070-1768990561.png"
     },
     {
       "id": "740299",
@@ -4225,7 +4967,9 @@
       "age": 26,
       "value": 200000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/740299-1620940251.png"
     },
     {
       "id": "689975",
@@ -4236,7 +4980,9 @@
       "age": 27,
       "value": 200000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1090830",
@@ -4247,7 +4993,9 @@
       "age": 22,
       "value": 200000,
       "contract": "2026-11-30",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1090830-1674431523.jpg",
       "loanFrom": "Coritiba Foot Ball Club"
     },
     {
@@ -4259,7 +5007,9 @@
       "age": 31,
       "value": 200000,
       "contract": "2026-11-30",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/266070-1771319132.jpeg"
     },
     {
       "id": "1216411",
@@ -4270,7 +5020,9 @@
       "age": 27,
       "value": 200000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "373299",
@@ -4281,7 +5033,9 @@
       "age": 33,
       "value": 200000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/373299-1598865602.jpg"
     },
     {
       "id": "146020",
@@ -4292,7 +5046,9 @@
       "age": 33,
       "value": 200000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/146020-1706268947.jpg"
     },
     {
       "id": "203323",
@@ -4303,7 +5059,9 @@
       "age": 31,
       "value": 200000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/203323-1518183900.jpg"
     },
     {
       "id": "518080",
@@ -4314,7 +5072,9 @@
       "age": 32,
       "value": 200000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/518080-1543835053.jpg"
     },
     {
       "id": "177845",
@@ -4325,7 +5085,9 @@
       "age": 34,
       "value": 175000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/177845-1515772267.jpg"
     },
     {
       "id": "1226150",
@@ -4336,7 +5098,9 @@
       "age": 24,
       "value": 175000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1226150-1791937009.jpg"
     },
     {
       "id": "121986",
@@ -4347,7 +5111,9 @@
       "age": 36,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/121986-1648631635.png"
     },
     {
       "id": "1257109",
@@ -4358,7 +5124,9 @@
       "age": 19,
       "value": 150000,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1257109-1768991860.jpg"
     },
     {
       "id": "435232",
@@ -4369,7 +5137,9 @@
       "age": 35,
       "value": 150000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/435232-1768830385.jpg"
     },
     {
       "id": "695238",
@@ -4380,7 +5150,9 @@
       "age": 27,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/695238-1663239124.jpg"
     },
     {
       "id": "837444",
@@ -4391,7 +5163,9 @@
       "age": 25,
       "value": 150000,
       "contract": "2026-11-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/837444-1780480803.png"
     },
     {
       "id": "520430",
@@ -4402,7 +5176,9 @@
       "age": 29,
       "value": 150000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/520430-1598272493.jpg"
     },
     {
       "id": "875339",
@@ -4413,7 +5189,9 @@
       "age": 23,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/875339-1698348881.jpg",
       "loanFrom": "Fluminense Football Club"
     },
     {
@@ -4425,7 +5203,9 @@
       "age": 23,
       "value": 150000,
       "contract": "2027-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1083674-1671024086.jpg"
     },
     {
       "id": "1135708",
@@ -4436,7 +5216,9 @@
       "age": 25,
       "value": 150000,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1135708-1767858120.jpg"
     },
     {
       "id": "100091",
@@ -4447,7 +5229,9 @@
       "age": 36,
       "value": 150000,
       "contract": "2027-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/100091-1580198853.jpg"
     },
     {
       "id": "14881",
@@ -4458,7 +5242,9 @@
       "age": 36,
       "value": 150000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/14881-1705756665.jpg"
     },
     {
       "id": "1268054",
@@ -4469,7 +5255,9 @@
       "age": 19,
       "value": 150000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1268054-1744803437.jpg"
     },
     {
       "id": "1362964",
@@ -4480,7 +5268,9 @@
       "age": 19,
       "value": 150000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1362964-1759497505.png"
     },
     {
       "id": "982663",
@@ -4491,7 +5281,9 @@
       "age": 27,
       "value": 150000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/982663-1780480574.png"
     },
     {
       "id": "663523",
@@ -4502,7 +5294,9 @@
       "age": 31,
       "value": 150000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/663523-1706356827.jpg"
     },
     {
       "id": "65937",
@@ -4513,7 +5307,9 @@
       "age": 33,
       "value": 150000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/65937-1733274884.jpg"
     },
     {
       "id": "184109",
@@ -4524,7 +5320,9 @@
       "age": 32,
       "value": 150000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/184109-1733321958.jpg"
     },
     {
       "id": "978269",
@@ -4535,7 +5333,9 @@
       "age": 26,
       "value": 150000,
       "contract": "2029-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/978269-1660703988.jpg"
     },
     {
       "id": "554298",
@@ -4546,7 +5346,9 @@
       "age": 29,
       "value": 150000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/554298-1759509945.jpg"
     },
     {
       "id": "1222735",
@@ -4557,7 +5359,9 @@
       "age": 21,
       "value": 150000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1222735-1768990652.png"
     },
     {
       "id": "164013",
@@ -4568,7 +5372,9 @@
       "age": 37,
       "value": 150000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/164013-1464164132.jpg"
     },
     {
       "id": "271666",
@@ -4579,7 +5385,9 @@
       "age": 35,
       "value": 150000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/271666-1553781376.jpg"
     },
     {
       "id": "552237",
@@ -4590,7 +5398,9 @@
       "age": 31,
       "value": 150000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/552237-1661023365.jpg"
     },
     {
       "id": "250841",
@@ -4601,7 +5411,9 @@
       "age": 34,
       "value": 150000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/250841-1663775844.jpg"
     },
     {
       "id": "877578",
@@ -4612,7 +5424,9 @@
       "age": 28,
       "value": 150000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/877578-1661023249.jpg"
     },
     {
       "id": "1222898",
@@ -4623,7 +5437,9 @@
       "age": 22,
       "value": 150000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1019701",
@@ -4634,7 +5450,9 @@
       "age": 22,
       "value": 125000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1019701-1758222131.jpg"
     },
     {
       "id": "101506",
@@ -4645,7 +5463,9 @@
       "age": 36,
       "value": 100000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/101506-1623761103.jpg"
     },
     {
       "id": "53922",
@@ -4656,7 +5476,9 @@
       "age": 37,
       "value": 100000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/53922-1780493638.png"
     },
     {
       "id": "159893",
@@ -4667,7 +5489,9 @@
       "age": 35,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/159893-1706876081.jpg"
     },
     {
       "id": "145573",
@@ -4678,7 +5502,9 @@
       "age": 35,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/145573-1706875630.jpg"
     },
     {
       "id": "689579",
@@ -4689,7 +5515,9 @@
       "age": 23,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/689579-1680055548.jpg"
     },
     {
       "id": "1092857",
@@ -4700,7 +5528,9 @@
       "age": 21,
       "value": 100000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1092857-1741365043.jpg"
     },
     {
       "id": "538234",
@@ -4711,7 +5541,9 @@
       "age": 36,
       "value": 100000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/538234-1596102388.jpg"
     },
     {
       "id": "345401",
@@ -4722,7 +5554,9 @@
       "age": 29,
       "value": 100000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/345401-1699056786.jpg"
     },
     {
       "id": "265768",
@@ -4733,7 +5567,9 @@
       "age": 31,
       "value": 100000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/265768-1703207217.jpg"
     },
     {
       "id": "129119",
@@ -4744,7 +5580,9 @@
       "age": 34,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/129119-1661355862.jpeg"
     },
     {
       "id": "1136746",
@@ -4755,7 +5593,9 @@
       "age": 21,
       "value": 100000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "140541",
@@ -4766,7 +5606,9 @@
       "age": 37,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/140541-1662691885.jpg"
     },
     {
       "id": "520470",
@@ -4777,7 +5619,9 @@
       "age": 35,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/520470-1662655106.jpg"
     },
     {
       "id": "593071",
@@ -4788,7 +5632,9 @@
       "age": 27,
       "value": 100000,
       "contract": "2027-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/593071-1761653678.jpg"
     },
     {
       "id": "1083889",
@@ -4799,7 +5645,9 @@
       "age": 21,
       "value": 100000,
       "contract": "2026-11-30",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1083889-1684597069.jpg",
       "loanFrom": "Clube de Regatas Vasco da Gama"
     },
     {
@@ -4811,7 +5659,9 @@
       "age": 36,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/346729-1733329602.jpg"
     },
     {
       "id": "419120",
@@ -4822,7 +5672,9 @@
       "age": 37,
       "value": 100000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/419120-1716062701.png"
     },
     {
       "id": "100124",
@@ -4833,7 +5685,9 @@
       "age": 37,
       "value": 100000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/100124-1674702401.jpg"
     },
     {
       "id": "479211",
@@ -4844,7 +5698,9 @@
       "age": 31,
       "value": 100000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/479211-1780481000.png"
     },
     {
       "id": "726096",
@@ -4855,7 +5711,9 @@
       "age": 29,
       "value": 100000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/726096-1780488704.png"
     },
     {
       "id": "538257",
@@ -4866,7 +5724,9 @@
       "age": 34,
       "value": 100000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/538257-1780488468.png"
     },
     {
       "id": "1091710",
@@ -4877,7 +5737,9 @@
       "age": 21,
       "value": 100000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1091710-1780489307.png"
     },
     {
       "id": "157117",
@@ -4888,7 +5750,9 @@
       "age": 40,
       "value": 100000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/157117-1726688702.jpg"
     },
     {
       "id": "688896",
@@ -4899,7 +5763,9 @@
       "age": 26,
       "value": 100000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/688896-1684692391.jpg"
     },
     {
       "id": "628522",
@@ -4910,7 +5776,9 @@
       "age": 34,
       "value": 100000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/628522-1661530492.jpg"
     },
     {
       "id": "638301",
@@ -4921,7 +5789,9 @@
       "age": 25,
       "value": 100000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/638301-1707220276.jpg"
     },
     {
       "id": "147366",
@@ -4932,7 +5802,9 @@
       "age": 34,
       "value": 100000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/147366-1716603236.jpg"
     },
     {
       "id": "419474",
@@ -4943,7 +5815,9 @@
       "age": 34,
       "value": 100000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/419474-1733329388.jpg"
     },
     {
       "id": "1085182",
@@ -4954,7 +5828,9 @@
       "age": 22,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1085182-1745598579.jpg"
     },
     {
       "id": "113586",
@@ -4965,7 +5841,9 @@
       "age": 36,
       "value": 100000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/113586-1580738457.png"
     },
     {
       "id": "543614",
@@ -4976,7 +5854,9 @@
       "age": 36,
       "value": 100000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/543614-1682803984.jpg"
     },
     {
       "id": "55338",
@@ -4987,7 +5867,9 @@
       "age": 39,
       "value": 100000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/55338-1706144240.jpg"
     },
     {
       "id": "438431",
@@ -4998,7 +5880,9 @@
       "age": 35,
       "value": 100000,
       "contract": "2028-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/438431-1596101970.jpg"
     },
     {
       "id": "1083072",
@@ -5009,7 +5893,9 @@
       "age": 21,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1083072-1745582987.jpg"
     },
     {
       "id": "896860",
@@ -5020,7 +5906,9 @@
       "age": 27,
       "value": 100000,
       "contract": "2026-11-28",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/896860-1662692143.jpg"
     },
     {
       "id": "329738",
@@ -5031,7 +5919,9 @@
       "age": 33,
       "value": 100000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/329738-1711909394.png"
     },
     {
       "id": "75080",
@@ -5042,7 +5932,9 @@
       "age": 37,
       "value": 75000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/75080-1623674737.jpg"
     },
     {
       "id": "353722",
@@ -5053,7 +5945,9 @@
       "age": 36,
       "value": 75000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/353722-1674432730.jpeg"
     },
     {
       "id": "186408",
@@ -5064,7 +5958,9 @@
       "age": 37,
       "value": 75000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/186408-1661355519.jpg"
     },
     {
       "id": "281837",
@@ -5075,7 +5971,9 @@
       "age": 32,
       "value": 75000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/281837-1553784332.jpg",
       "loanFrom": "Clube do Remo (PA)"
     },
     {
@@ -5087,7 +5985,9 @@
       "age": 36,
       "value": 75000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/788362-1675710715.jpg"
     },
     {
       "id": "143817",
@@ -5098,7 +5998,9 @@
       "age": 40,
       "value": 75000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/143817-1768995044.jpg"
     },
     {
       "id": "133118",
@@ -5109,7 +6011,9 @@
       "age": 36,
       "value": 75000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/s_133118_17561_2010_1.jpg"
     },
     {
       "id": "286474",
@@ -5120,7 +6024,9 @@
       "age": 33,
       "value": 75000,
       "contract": "2027-03-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "98511",
@@ -5131,7 +6037,9 @@
       "age": 36,
       "value": 75000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/98511-1661916913.jpg"
     },
     {
       "id": "983979",
@@ -5142,7 +6050,9 @@
       "age": 24,
       "value": 75000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/983979-1745585387.jpg"
     },
     {
       "id": "76135",
@@ -5153,7 +6063,9 @@
       "age": 36,
       "value": 75000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/76135-1662001887.jpg"
     },
     {
       "id": "886688",
@@ -5164,7 +6076,9 @@
       "age": 26,
       "value": 50000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/886688-1675119284.jpg"
     },
     {
       "id": "55250",
@@ -5175,7 +6089,9 @@
       "age": 38,
       "value": 50000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/55250-1615775454.jpeg"
     },
     {
       "id": "265693",
@@ -5186,7 +6102,9 @@
       "age": 38,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/265693-1560851549.jpg"
     },
     {
       "id": "271187",
@@ -5197,7 +6115,9 @@
       "age": 39,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/271187-1623673077.jpg"
     },
     {
       "id": "1092628",
@@ -5208,7 +6128,9 @@
       "age": 20,
       "value": 50000,
       "contract": "2027-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1092628-1741364539.jpg"
     },
     {
       "id": "1128780",
@@ -5219,7 +6141,9 @@
       "age": 27,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1128780-1768992147.jpg"
     },
     {
       "id": "347285",
@@ -5230,7 +6154,9 @@
       "age": 35,
       "value": 50000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/347285-1663311070.png"
     },
     {
       "id": "1227001",
@@ -5241,7 +6167,9 @@
       "age": 22,
       "value": 50000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "512127",
@@ -5252,7 +6180,9 @@
       "age": 34,
       "value": 50000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/512127-1563989057.jpg"
     },
     {
       "id": "346923",
@@ -5263,7 +6193,9 @@
       "age": 36,
       "value": 50000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/346923-1661906501.jpg"
     },
     {
       "id": "990156",
@@ -5274,7 +6206,9 @@
       "age": 24,
       "value": 50000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "203643",
@@ -5285,7 +6219,9 @@
       "age": 34,
       "value": 50000,
       "contract": "2027-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/s_203643_210_2012_2.jpg"
     },
     {
       "id": "548258",
@@ -5296,7 +6232,9 @@
       "age": 27,
       "value": 50000,
       "contract": "2028-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/548258-1681673607.jpg"
     },
     {
       "id": "98930",
@@ -5307,7 +6245,9 @@
       "age": 37,
       "value": 50000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/98930-1543927276.jpg"
     },
     {
       "id": "1096866",
@@ -5318,7 +6258,9 @@
       "age": 21,
       "value": 50000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1096866-1705675333.jpg"
     },
     {
       "id": "350766",
@@ -5329,7 +6271,9 @@
       "age": 34,
       "value": 50000,
       "contract": "2027-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/350766-1780480168.png"
     },
     {
       "id": "594650",
@@ -5340,7 +6284,9 @@
       "age": 34,
       "value": 50000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/594650-1780487637.png"
     },
     {
       "id": "973499",
@@ -5351,7 +6297,9 @@
       "age": 25,
       "value": 50000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/973499-1725068146.jpg"
     },
     {
       "id": "346072",
@@ -5362,7 +6310,9 @@
       "age": 35,
       "value": 50000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/346072-1625151770.jpg"
     },
     {
       "id": "555017",
@@ -5373,7 +6323,9 @@
       "age": 27,
       "value": 50000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/555017-1759501361.jpg"
     },
     {
       "id": "178942",
@@ -5384,7 +6336,9 @@
       "age": 35,
       "value": 50000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/178942-1668161710.png"
     },
     {
       "id": "271329",
@@ -5395,7 +6349,9 @@
       "age": 39,
       "value": 50000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/s_271329_17561_2012_1.jpg"
     },
     {
       "id": "347100",
@@ -5406,7 +6362,9 @@
       "age": 35,
       "value": 50000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/347100-1759501854.jpg"
     },
     {
       "id": "27349",
@@ -5417,7 +6375,9 @@
       "age": 39,
       "value": 50000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/27349-1548254489.jpg"
     },
     {
       "id": "978287",
@@ -5428,7 +6388,9 @@
       "age": 30,
       "value": 50000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/978287-1738783202.jpg"
     },
     {
       "id": "75102",
@@ -5439,7 +6401,9 @@
       "age": 39,
       "value": 25000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/s_75102_585_2012_1.jpg"
     },
     {
       "id": "375241",
@@ -5450,7 +6414,9 @@
       "age": 31,
       "value": 25000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/375241-1663004893.jpg"
     },
     {
       "id": "76139",
@@ -5461,7 +6427,9 @@
       "age": 38,
       "value": 25000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/76139-1580200846.jpg"
     },
     {
       "id": "118007",
@@ -5472,7 +6440,9 @@
       "age": 38,
       "value": 25000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/118007-1711624810.jpg"
     },
     {
       "id": "349420",
@@ -5483,7 +6453,9 @@
       "age": 39,
       "value": 25000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/349420-1662655000.jpg"
     },
     {
       "id": "68408",
@@ -5494,7 +6466,9 @@
       "age": 38,
       "value": 25000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/68408-1759500808.jpg"
     },
     {
       "id": "382171",
@@ -5505,7 +6479,9 @@
       "age": 31,
       "value": 25000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/382171-1611042591.jpg"
     },
     {
       "id": "458115",
@@ -5516,7 +6492,9 @@
       "age": 33,
       "value": 25000,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/458115-1552774674.png"
     },
     {
       "id": "738411",
@@ -5527,7 +6505,9 @@
       "age": 23,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "976113",
@@ -5538,7 +6518,9 @@
       "age": 23,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1130054",
@@ -5549,7 +6531,9 @@
       "age": 21,
       "value": null,
       "contract": "2027-01-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "947079",
@@ -5560,7 +6544,9 @@
       "age": 23,
       "value": null,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "740287",
@@ -5571,7 +6557,9 @@
       "age": 28,
       "value": null,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/740287-1730143298.jpg"
     },
     {
       "id": "203822",
@@ -5582,7 +6570,9 @@
       "age": 36,
       "value": null,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/203822-1747446327.jpg"
     },
     {
       "id": "1031409",
@@ -5593,7 +6583,9 @@
       "age": 22,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1031409-1670982750.jpeg"
     },
     {
       "id": "1083974",
@@ -5604,7 +6596,9 @@
       "age": 22,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1083974-1768992421.png",
       "loanFrom": "Clube de Regatas Vasco da Gama"
     },
     {
@@ -5616,7 +6610,9 @@
       "age": 24,
       "value": null,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "408850",
@@ -5627,7 +6623,9 @@
       "age": 31,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/408850-1580199430.jpg"
     },
     {
       "id": "1096081",
@@ -5638,7 +6636,9 @@
       "age": 20,
       "value": null,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1096081-1680450383.jpg"
     },
     {
       "id": "1218994",
@@ -5649,7 +6649,9 @@
       "age": 21,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Ghana"
+      "nat": "Gana",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1218994-1768993018.jpg"
     },
     {
       "id": "1219006",
@@ -5660,7 +6662,9 @@
       "age": 20,
       "value": null,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1223077",
@@ -5671,7 +6675,9 @@
       "age": 20,
       "value": null,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1223077-1780480018.jpg"
     },
     {
       "id": "1092001",
@@ -5682,7 +6688,9 @@
       "age": 25,
       "value": null,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1220334",
@@ -5693,7 +6701,9 @@
       "age": 20,
       "value": null,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1257107",
@@ -5704,7 +6714,9 @@
       "age": 19,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1257107-1741364835.jpg"
     },
     {
       "id": "1115017",
@@ -5715,7 +6727,9 @@
       "age": 24,
       "value": null,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1115017-1780493824.jpg"
     },
     {
       "id": "989599",
@@ -5726,7 +6740,9 @@
       "age": 22,
       "value": null,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/989599-1768991923.jpg"
     },
     {
       "id": "688662",
@@ -5737,7 +6753,9 @@
       "age": 27,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/688662-1779755211.jpg"
     },
     {
       "id": "537866",
@@ -5748,7 +6766,9 @@
       "age": 28,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/537866-1660766493.jpg"
     },
     {
       "id": "1093924",
@@ -5759,7 +6779,9 @@
       "age": 22,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1093924-1682881498.jpg"
     },
     {
       "id": "979473",
@@ -5770,7 +6792,9 @@
       "age": 35,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1500733",
@@ -5781,7 +6805,9 @@
       "age": 21,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1500733-1780494018.jpg"
     },
     {
       "id": "1082968",
@@ -5792,7 +6818,9 @@
       "age": 24,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1082968-1675709680.jpg"
     },
     {
       "id": "730938",
@@ -5803,7 +6831,9 @@
       "age": 26,
       "value": null,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/730938-1626627129.jpg"
     },
     {
       "id": "1137558",
@@ -5814,7 +6844,9 @@
       "age": 21,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1364072",
@@ -5825,7 +6857,9 @@
       "age": 19,
       "value": null,
       "contract": "2027-10-14",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "347017",
@@ -5836,7 +6870,9 @@
       "age": 34,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/347017-1487774190.JPG"
     },
     {
       "id": "1082667",
@@ -5847,7 +6883,9 @@
       "age": 22,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1087844",
@@ -5858,7 +6896,9 @@
       "age": 21,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1139255",
@@ -5869,7 +6909,9 @@
       "age": 24,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "752597",
@@ -5880,7 +6922,9 @@
       "age": 28,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1096507",
@@ -5891,7 +6935,9 @@
       "age": 21,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1367321",
@@ -5902,7 +6948,9 @@
       "age": 24,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "977125",
@@ -5913,7 +6961,9 @@
       "age": 23,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1222017",
@@ -5924,7 +6974,9 @@
       "age": 21,
       "value": null,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1222017-1772150944.jpg"
     },
     {
       "id": "1215637",
@@ -5935,7 +6987,9 @@
       "age": 21,
       "value": null,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1215637-1726701461.jpg"
     },
     {
       "id": "1222015",
@@ -5946,7 +7000,9 @@
       "age": 21,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1222015-1772151043.jpg"
     },
     {
       "id": "1222016",
@@ -5957,7 +7013,9 @@
       "age": 22,
       "value": null,
       "contract": "2027-07-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1222016-1745452757.jpg"
     },
     {
       "id": "1088832",
@@ -5968,7 +7026,9 @@
       "age": 22,
       "value": null,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1149377",
@@ -5979,7 +7039,9 @@
       "age": 22,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1149377-1688497185.jpg"
     },
     {
       "id": "1116611",
@@ -5990,7 +7052,9 @@
       "age": 21,
       "value": null,
       "contract": "2028-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1116611-1769161800.jpg"
     },
     {
       "id": "982552",
@@ -6001,7 +7065,9 @@
       "age": 24,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/982552-1680878273.jpg"
     },
     {
       "id": "591650",
@@ -6012,7 +7078,9 @@
       "age": 31,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/591650-1662495513.jpg"
     },
     {
       "id": "554297",
@@ -6023,7 +7091,9 @@
       "age": 29,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/554297-1745584147.jpg"
     },
     {
       "id": "355471",
@@ -6034,7 +7104,9 @@
       "age": 31,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/355471-1674929116.jpg"
     },
     {
       "id": "999803",
@@ -6045,7 +7117,9 @@
       "age": 24,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "903050",
@@ -6056,7 +7130,9 @@
       "age": 26,
       "value": null,
       "contract": "2027-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/903050-1775512228.png"
     },
     {
       "id": "136574",
@@ -6067,7 +7143,9 @@
       "age": 36,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/136574-1754148905.png"
     },
     {
       "id": "838835",
@@ -6078,7 +7156,9 @@
       "age": 26,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/838835-1675353363.jpg"
     },
     {
       "id": "1387052",
@@ -6089,7 +7169,9 @@
       "age": 20,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1387052-1759497376.png"
     },
     {
       "id": "1083249",
@@ -6100,7 +7182,9 @@
       "age": 23,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "520456",
@@ -6111,7 +7195,9 @@
       "age": 31,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/520456-1759501193.jpg"
     },
     {
       "id": "1092749",
@@ -6122,7 +7208,9 @@
       "age": 22,
       "value": null,
       "contract": "2027-12-10",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1092749-1759497590.png"
     },
     {
       "id": "980022",
@@ -6133,7 +7221,9 @@
       "age": 26,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "285684",
@@ -6144,7 +7234,9 @@
       "age": 32,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/285684-1711599312.jpg"
     },
     {
       "id": "1042363",
@@ -6155,7 +7247,9 @@
       "age": 24,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1042363-1664556764.jpg"
     },
     {
       "id": "1090821",
@@ -6166,7 +7260,9 @@
       "age": 22,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1090821-1769005350.png",
       "loanFrom": "Coritiba Foot Ball Club"
     },
     {
@@ -6178,7 +7274,9 @@
       "age": 29,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/675047-1725225793.jpg"
     },
     {
       "id": "735650",
@@ -6189,7 +7287,9 @@
       "age": 27,
       "value": null,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/735650-1663839454.jpg"
     },
     {
       "id": "978036",
@@ -6200,7 +7300,9 @@
       "age": 28,
       "value": null,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/978036-1707220367.jpg"
     },
     {
       "id": "984512",
@@ -6211,7 +7313,9 @@
       "age": 26,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "739249",
@@ -6222,7 +7326,9 @@
       "age": 27,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/739249-1674702148.jpg"
     },
     {
       "id": "68442",
@@ -6233,7 +7339,9 @@
       "age": 40,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/68442-1780482747.png"
     },
     {
       "id": "797235",
@@ -6244,7 +7352,9 @@
       "age": 26,
       "value": null,
       "contract": "2027-03-01",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/797235-1780480467.png"
     },
     {
       "id": "1091886",
@@ -6255,7 +7365,9 @@
       "age": 21,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "972378",
@@ -6266,7 +7378,9 @@
       "age": 26,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/972378-1681673514.jpg"
     },
     {
       "id": "1223070",
@@ -6277,7 +7391,9 @@
       "age": 20,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1223070-1780480272.png"
     },
     {
       "id": "544469",
@@ -6288,7 +7404,9 @@
       "age": 31,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/544469-1780488621.png"
     },
     {
       "id": "1091709",
@@ -6299,7 +7417,9 @@
       "age": 20,
       "value": null,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1091709-1780489143.png"
     },
     {
       "id": "390695",
@@ -6310,7 +7430,9 @@
       "age": 36,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/390695-1656070279.jpg"
     },
     {
       "id": "514297",
@@ -6321,7 +7443,9 @@
       "age": 29,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/514297-1660595537.jpg"
     },
     {
       "id": "1095742",
@@ -6332,7 +7456,9 @@
       "age": 21,
       "value": null,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1095742-1768992636.jpg"
     },
     {
       "id": "1226336",
@@ -6343,7 +7469,9 @@
       "age": 24,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1226336-1725227025.jpg"
     },
     {
       "id": "997464",
@@ -6354,7 +7482,9 @@
       "age": 24,
       "value": null,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/997464-1675701583.jpg"
     },
     {
       "id": "1273516",
@@ -6365,7 +7495,9 @@
       "age": 22,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1214549",
@@ -6376,7 +7508,9 @@
       "age": 22,
       "value": null,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1082235",
@@ -6387,7 +7521,9 @@
       "age": 26,
       "value": null,
       "contract": "2027-03-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1082235-1791466685.jpg"
     },
     {
       "id": "1091994",
@@ -6398,7 +7534,9 @@
       "age": 20,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1275070",
@@ -6409,7 +7547,9 @@
       "age": 19,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1275070-1769166948.png"
     },
     {
       "id": "373432",
@@ -6420,7 +7560,9 @@
       "age": 36,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "570584",
@@ -6431,7 +7573,9 @@
       "age": 28,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/570584-1768989894.jpg"
     },
     {
       "id": "725053",
@@ -6442,7 +7586,9 @@
       "age": 25,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/725053-1754145668.png"
     },
     {
       "id": "1098654",
@@ -6453,7 +7599,9 @@
       "age": 21,
       "value": null,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "612328",
@@ -6464,7 +7612,9 @@
       "age": 32,
       "value": null,
       "contract": "2027-03-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1362355",
@@ -6475,7 +7625,9 @@
       "age": 21,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1156561",
@@ -6486,7 +7638,9 @@
       "age": 21,
       "value": null,
       "contract": "2027-03-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1362527",
@@ -6497,7 +7651,9 @@
       "age": 21,
       "value": null,
       "contract": "2027-03-22",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "468260",
@@ -6508,7 +7664,9 @@
       "age": 28,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/468260-1613847932.jpg"
     },
     {
       "id": "980681",
@@ -6519,7 +7677,9 @@
       "age": 25,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1090826",
@@ -6530,7 +7690,9 @@
       "age": 22,
       "value": null,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1090826-1674424285.jpg"
     },
     {
       "id": "490613",
@@ -6541,7 +7703,9 @@
       "age": 37,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/490613-1598864077.jpg"
     },
     {
       "id": "823508",
@@ -6552,7 +7716,9 @@
       "age": 28,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/823508-1697560807.jpg"
     },
     {
       "id": "1082829",
@@ -6563,7 +7729,9 @@
       "age": 23,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1082829-1759500433.jpg"
     },
     {
       "id": "997862",
@@ -6574,7 +7742,9 @@
       "age": 22,
       "value": null,
       "contract": "2027-04-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1174129",
@@ -6585,7 +7755,9 @@
       "age": 21,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1174129-1694625076.jpeg"
     },
     {
       "id": "894776",
@@ -6596,7 +7768,9 @@
       "age": 26,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/894776-1675045780.jpg"
     },
     {
       "id": "701485",
@@ -6607,7 +7781,9 @@
       "age": 28,
       "value": null,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1222356",
@@ -6618,7 +7794,9 @@
       "age": 21,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1222356-1759500028.jpg"
     },
     {
       "id": "1097183",
@@ -6629,7 +7807,9 @@
       "age": 20,
       "value": null,
       "contract": "2029-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1097183-1759499913.jpg"
     },
     {
       "id": "816148",
@@ -6640,7 +7820,9 @@
       "age": 26,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "411707",
@@ -6651,7 +7833,9 @@
       "age": 36,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/411707-1759501693.jpg"
     },
     {
       "id": "638060",
@@ -6662,7 +7846,9 @@
       "age": 28,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/638060-1659140558.jpg"
     },
     {
       "id": "1091606",
@@ -6673,7 +7859,9 @@
       "age": 20,
       "value": null,
       "contract": "2028-07-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1091606-1771438419.jpg"
     },
     {
       "id": "1254135",
@@ -6684,7 +7872,9 @@
       "age": 20,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1254135-1745685187.jpg"
     },
     {
       "id": "902123",
@@ -6695,7 +7885,9 @@
       "age": 22,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "980832",
@@ -6706,7 +7898,9 @@
       "age": 25,
       "value": null,
       "contract": "2027-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "539365",
@@ -6717,7 +7911,9 @@
       "age": 33,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/539365-1667568482.jpg"
     },
     {
       "id": "869094",
@@ -6728,7 +7924,9 @@
       "age": 25,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1259352",
@@ -6739,7 +7937,9 @@
       "age": 20,
       "value": null,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1259352-1745683780.jpg"
     },
     {
       "id": "393830",
@@ -6750,7 +7950,9 @@
       "age": 31,
       "value": null,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/393830-1597915349.jpg"
     },
     {
       "id": "1463877",
@@ -6761,7 +7963,9 @@
       "age": 24,
       "value": null,
       "contract": "2027-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "643832",
@@ -6772,7 +7976,9 @@
       "age": 29,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/643832-1757097513.png"
     },
     {
       "id": "1094762",
@@ -6783,7 +7989,9 @@
       "age": 22,
       "value": null,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "68833",
@@ -6794,7 +8002,9 @@
       "age": 38,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/68833-1738334545.jpg"
     },
     {
       "id": "1222362",
@@ -6805,7 +8015,9 @@
       "age": 22,
       "value": null,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1222362-1768991073.png"
     },
     {
       "id": "1083669",
@@ -6816,7 +8028,9 @@
       "age": 22,
       "value": null,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1083669-1768991175.png"
     },
     {
       "id": "296903",
@@ -6827,7 +8041,9 @@
       "age": 32,
       "value": null,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/296903-1521660972.jpg"
     },
     {
       "id": "1082831",
@@ -6838,7 +8054,9 @@
       "age": 21,
       "value": null,
       "contract": "2027-02-01",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1082831-1739972648.jpg"
     },
     {
       "id": "72451",
@@ -6849,7 +8067,9 @@
       "age": 40,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/72451-1759495683.png"
     },
     {
       "id": "1124214",
@@ -6860,7 +8080,9 @@
       "age": 21,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "554431",
@@ -6871,7 +8093,9 @@
       "age": 30,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1056019",
@@ -6882,7 +8106,9 @@
       "age": 22,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1056019-1754146037.png"
     },
     {
       "id": "1082603",
@@ -6893,7 +8119,9 @@
       "age": 23,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1082603-1678908098.jpg",
       "loanFrom": "Red Bull Bragantino"
     },
     {
@@ -6905,7 +8133,9 @@
       "age": 21,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1094386-1768990760.png"
     },
     {
       "id": "986798",
@@ -6916,7 +8146,9 @@
       "age": 27,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/986798-1688484148.jpg"
     },
     {
       "id": "752562",
@@ -6927,7 +8159,9 @@
       "age": 28,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "662337",
@@ -6938,7 +8172,9 @@
       "age": 24,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "483499",
@@ -6949,7 +8185,9 @@
       "age": 28,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/483499-1720984407.png"
     },
     {
       "id": "1082521",
@@ -6960,7 +8198,9 @@
       "age": 22,
       "value": null,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1082521-1671047351.jpg"
     },
     {
       "id": "1093769",
@@ -6971,7 +8211,9 @@
       "age": 22,
       "value": null,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1093769-1768991419.png"
     },
     {
       "id": "978241",
@@ -6982,7 +8224,9 @@
       "age": 27,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/978241-1663902420.jpg"
     },
     {
       "id": "1089147",
@@ -6993,7 +8237,9 @@
       "age": 22,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1089147-1680878824.jpg"
     },
     {
       "id": "1114595",
@@ -7004,7 +8250,9 @@
       "age": 20,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1114595-1769167004.png"
     },
     {
       "id": "941369",
@@ -7015,7 +8263,9 @@
       "age": 33,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "986954",
@@ -7026,7 +8276,9 @@
       "age": 23,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/986954-1645300491.jpeg"
     },
     {
       "id": "1497372",
@@ -7037,7 +8289,9 @@
       "age": 18,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1463940",
@@ -7048,7 +8302,9 @@
       "age": 23,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "938367",
@@ -7059,7 +8315,9 @@
       "age": 28,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/938367-1654630153.jpg"
     },
     {
       "id": "1096542",
@@ -7070,7 +8328,9 @@
       "age": 21,
       "value": null,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1362755",
@@ -7081,7 +8341,9 @@
       "age": 20,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "980980",
@@ -7092,7 +8354,9 @@
       "age": 24,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1097006",
@@ -7103,7 +8367,9 @@
       "age": 21,
       "value": null,
       "contract": "2028-03-02",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1362501",
@@ -7114,7 +8380,9 @@
       "age": 21,
       "value": null,
       "contract": "2027-02-12",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1497361",
@@ -7125,7 +8393,9 @@
       "age": 19,
       "value": null,
       "contract": "2029-07-28",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1363182",
@@ -7136,7 +8406,9 @@
       "age": 20,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1219031",
@@ -7147,7 +8419,9 @@
       "age": 21,
       "value": null,
       "contract": "2028-02-24",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "380483",
@@ -7158,7 +8432,9 @@
       "age": 33,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/380483-1674927088.jpg"
     },
     {
       "id": "1093758",
@@ -7169,7 +8445,9 @@
       "age": 22,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1096519",
@@ -7180,7 +8458,9 @@
       "age": 24,
       "value": null,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1602369",
@@ -7191,7 +8471,9 @@
       "age": 20,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1361961",
@@ -7202,7 +8484,9 @@
       "age": 21,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1042361",
@@ -7213,7 +8497,9 @@
       "age": 23,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1042361-1660705178.jpg"
     },
     {
       "id": "975774",
@@ -7224,7 +8510,9 @@
       "age": 27,
       "value": null,
       "contract": "2027-03-03",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1091488",
@@ -7235,7 +8523,9 @@
       "age": 22,
       "value": null,
       "contract": "2027-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "987945",
@@ -7246,7 +8536,9 @@
       "age": 22,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "550891",
@@ -7257,7 +8549,9 @@
       "age": 32,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/550891-1682598655.jpg"
     },
     {
       "id": "1082701",
@@ -7268,7 +8562,9 @@
       "age": 21,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1091491",
@@ -7279,7 +8575,9 @@
       "age": 21,
       "value": null,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1082832",
@@ -7290,7 +8588,9 @@
       "age": 24,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1082832-1674433950.jpg"
     },
     {
       "id": "448994",
@@ -7301,7 +8601,9 @@
       "age": 33,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/448994-1682966178.jpg"
     },
     {
       "id": "268522",
@@ -7312,7 +8614,9 @@
       "age": 34,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/268522-1524123996.jpg"
     },
     {
       "id": "151505",
@@ -7323,7 +8627,9 @@
       "age": 35,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/151505-1504016360.jpg"
     },
     {
       "id": "1363752",
@@ -7334,7 +8640,9 @@
       "age": 21,
       "value": null,
       "contract": "2027-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "883285",
@@ -7345,7 +8653,9 @@
       "age": 27,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/883285-1749572984.jpg"
     },
     {
       "id": "1083106",
@@ -7356,7 +8666,9 @@
       "age": 23,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1363037",
@@ -7367,7 +8679,9 @@
       "age": 21,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "866830",
@@ -7378,7 +8692,9 @@
       "age": 26,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/866830-1739972262.jpg"
     },
     {
       "id": "53019",
@@ -7389,7 +8705,9 @@
       "age": 37,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/53019-1661913521.jpg"
     },
     {
       "id": "1224552",
@@ -7400,7 +8718,9 @@
       "age": 21,
       "value": null,
       "contract": "2026-11-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "976590",
@@ -7411,7 +8731,9 @@
       "age": 22,
       "value": null,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     }
   ]
 }

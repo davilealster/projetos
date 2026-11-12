@@ -78,7 +78,9 @@
       "age": 23,
       "value": 5000000,
       "contract": "2028-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/981674-1739215138.png"
     },
     {
       "id": "981673",
@@ -89,7 +91,9 @@
       "age": 22,
       "value": 3000000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/981673-1739214086.png"
     },
     {
       "id": "1257387",
@@ -100,7 +104,9 @@
       "age": 17,
       "value": 3000000,
       "contract": null,
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1257387-1764865359.jpeg"
     },
     {
       "id": "1383137",
@@ -111,7 +117,9 @@
       "age": 16,
       "value": 3000000,
       "contract": null,
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1383137-1773863128.jpg"
     },
     {
       "id": "643255",
@@ -122,7 +130,9 @@
       "age": 25,
       "value": 2500000,
       "contract": "2030-06-30",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/643255-1715628495.JPG"
     },
     {
       "id": "1070369",
@@ -133,7 +143,9 @@
       "age": 24,
       "value": 2500000,
       "contract": "2029-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1070369-1794270619.jpeg"
     },
     {
       "id": "598145",
@@ -144,7 +156,9 @@
       "age": 27,
       "value": 2000000,
       "contract": "2029-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/598145-1739214899.png"
     },
     {
       "id": "351941",
@@ -155,7 +169,9 @@
       "age": 30,
       "value": 2000000,
       "contract": "2028-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/351941-1755013846.png"
     },
     {
       "id": "380996",
@@ -166,7 +182,9 @@
       "age": 29,
       "value": 2000000,
       "contract": "2027-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/380996-1551294997.jpg"
     },
     {
       "id": "491690",
@@ -177,7 +195,9 @@
       "age": 26,
       "value": 1700000,
       "contract": "2027-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/491690-1740775551.jpg"
     },
     {
       "id": "914327",
@@ -188,7 +208,9 @@
       "age": 25,
       "value": 1500000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/914327-1739216206.png"
     },
     {
       "id": "842520",
@@ -199,7 +221,9 @@
       "age": 25,
       "value": 1500000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/842520-1741627856.png"
     },
     {
       "id": "1257396",
@@ -210,7 +234,9 @@
       "age": 17,
       "value": 1500000,
       "contract": null,
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1257396-1764865305.jpeg"
     },
     {
       "id": "881816",
@@ -221,7 +247,9 @@
       "age": 26,
       "value": 1500000,
       "contract": "2028-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/881816-1739819424.jpg"
     },
     {
       "id": "627920",
@@ -232,7 +260,9 @@
       "age": 28,
       "value": 1500000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/627920-1741625315.png"
     },
     {
       "id": "563819",
@@ -243,7 +273,9 @@
       "age": 28,
       "value": 1500000,
       "contract": "2028-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/563819-1741628293.png"
     },
     {
       "id": "545371",
@@ -254,7 +286,9 @@
       "age": 26,
       "value": 1500000,
       "contract": "2029-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/545371-1741627683.png"
     },
     {
       "id": "875118",
@@ -265,7 +299,9 @@
       "age": 24,
       "value": 1500000,
       "contract": "2027-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/875118-1717293032.jpg"
     },
     {
       "id": "473346",
@@ -276,7 +312,9 @@
       "age": 27,
       "value": 1200000,
       "contract": "2028-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/473346-1717331520.jpg"
     },
     {
       "id": "844176",
@@ -287,7 +325,9 @@
       "age": 25,
       "value": 1200000,
       "contract": "2027-12-31",
-      "nat": "Bolivia"
+      "nat": "Bolívia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/844176-1718721869.jpg"
     },
     {
       "id": "491627",
@@ -298,7 +338,9 @@
       "age": 26,
       "value": 1200000,
       "contract": "2028-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/491627-1740587808.png"
     },
     {
       "id": "544180",
@@ -309,7 +351,9 @@
       "age": 26,
       "value": 1200000,
       "contract": "2029-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/544180-1717531732.jpg"
     },
     {
       "id": "690837",
@@ -320,7 +364,9 @@
       "age": 26,
       "value": 1200000,
       "contract": "2029-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/690837-1773858900.jpg"
     },
     {
       "id": "465816",
@@ -331,7 +377,9 @@
       "age": 26,
       "value": 1200000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/465816-1773859175.jpg"
     },
     {
       "id": "213122",
@@ -342,7 +390,9 @@
       "age": 33,
       "value": 1200000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/213122-1773859167.jpg"
     },
     {
       "id": "348039",
@@ -353,7 +403,9 @@
       "age": 30,
       "value": 1200000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/348039-1678386669.jpg"
     },
     {
       "id": "1221349",
@@ -364,7 +416,9 @@
       "age": 22,
       "value": 1200000,
       "contract": "2027-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1221349-1739893441.png"
     },
     {
       "id": "873163",
@@ -375,7 +429,9 @@
       "age": 26,
       "value": 1200000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/873163-1751933275.jpg"
     },
     {
       "id": "872775",
@@ -386,7 +442,9 @@
       "age": 28,
       "value": 1200000,
       "contract": "2028-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/872775-1724032823.jpg"
     },
     {
       "id": "407168",
@@ -397,7 +455,9 @@
       "age": 32,
       "value": 1000000,
       "contract": "2028-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/407168-1712080008.JPG"
     },
     {
       "id": "567796",
@@ -408,7 +468,9 @@
       "age": 28,
       "value": 1000000,
       "contract": "2027-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/567796-1739213010.jpg"
     },
     {
       "id": "722748",
@@ -419,7 +481,9 @@
       "age": 27,
       "value": 1000000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/722748-1739212304.jpg"
     },
     {
       "id": "385639",
@@ -430,7 +494,9 @@
       "age": 29,
       "value": 1000000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/385639-1704364344.jpg"
     },
     {
       "id": "1074496",
@@ -441,7 +507,9 @@
       "age": 20,
       "value": 1000000,
       "contract": "2028-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1074496-1760631153.jpg"
     },
     {
       "id": "367700",
@@ -452,7 +520,9 @@
       "age": 30,
       "value": 1000000,
       "contract": "2027-06-30",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/367700-1755013523.png"
     },
     {
       "id": "379838",
@@ -463,7 +533,9 @@
       "age": 27,
       "value": 1000000,
       "contract": "2027-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/379838-1718721413.jpg"
     },
     {
       "id": "670764",
@@ -474,7 +546,9 @@
       "age": 25,
       "value": 1000000,
       "contract": "2028-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/670764-1741023353.png"
     },
     {
       "id": "860998",
@@ -485,7 +559,9 @@
       "age": 25,
       "value": 1000000,
       "contract": "2027-12-31",
-      "nat": "Panama"
+      "nat": "Panamá",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/860998-1741625093.png"
     },
     {
       "id": "627922",
@@ -496,7 +572,9 @@
       "age": 31,
       "value": 1000000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/627922-1741627160.png"
     },
     {
       "id": "690603",
@@ -507,7 +585,9 @@
       "age": 27,
       "value": 1000000,
       "contract": "2028-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/690603-1773858803.jpg"
     },
     {
       "id": "308226",
@@ -518,7 +598,9 @@
       "age": 32,
       "value": 1000000,
       "contract": "2026-12-31",
-      "nat": "Venezuela"
+      "nat": "Venezuela",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/308226-1739569833.png"
     },
     {
       "id": "477041",
@@ -529,7 +611,9 @@
       "age": 27,
       "value": 1000000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/477041-1739572399.JPG"
     },
     {
       "id": "310639",
@@ -540,7 +624,9 @@
       "age": 30,
       "value": 1000000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/310639-1614112375.jpg"
     },
     {
       "id": "569205",
@@ -551,7 +637,9 @@
       "age": 27,
       "value": 1000000,
       "contract": "2029-06-30",
-      "nat": "Panama"
+      "nat": "Panamá",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/569205-1773092753.png"
     },
     {
       "id": "1284964",
@@ -562,7 +650,9 @@
       "age": 22,
       "value": 1000000,
       "contract": "2027-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1284964-1739811377.jpg"
     },
     {
       "id": "1185501",
@@ -573,7 +663,9 @@
       "age": 20,
       "value": 1000000,
       "contract": null,
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1185501-1739810950.jpg"
     },
     {
       "id": "481325",
@@ -584,7 +676,9 @@
       "age": 26,
       "value": 1000000,
       "contract": "2029-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1142661",
@@ -595,7 +689,9 @@
       "age": 23,
       "value": 1000000,
       "contract": "2029-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1142661-1732580229.jpeg"
     },
     {
       "id": "1208233",
@@ -606,7 +702,9 @@
       "age": 22,
       "value": 1000000,
       "contract": "2027-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1208233-1717084945.png"
     },
     {
       "id": "578757",
@@ -617,7 +715,9 @@
       "age": 29,
       "value": 900000,
       "contract": "2027-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/578757-1739213760.png"
     },
     {
       "id": "370174",
@@ -628,7 +728,9 @@
       "age": 29,
       "value": 900000,
       "contract": "2027-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/370174-1739214886.png"
     },
     {
       "id": "330682",
@@ -639,7 +741,9 @@
       "age": 29,
       "value": 900000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/330682-1739213550.jpg"
     },
     {
       "id": "189488",
@@ -650,7 +754,9 @@
       "age": 32,
       "value": 900000,
       "contract": "2028-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/189488-1739212508.jpg"
     },
     {
       "id": "366620",
@@ -661,7 +767,9 @@
       "age": 33,
       "value": 900000,
       "contract": "2027-12-31",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/366620-1780341599.jpg"
     },
     {
       "id": "556727",
@@ -672,7 +780,9 @@
       "age": 29,
       "value": 900000,
       "contract": "2028-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/556727-1741021881.png"
     },
     {
       "id": "265481",
@@ -683,7 +793,9 @@
       "age": 30,
       "value": 900000,
       "contract": "2027-06-30",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/265481-1718722697.jpg"
     },
     {
       "id": "1247694",
@@ -694,7 +806,9 @@
       "age": 23,
       "value": 900000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1247694-1741624782.png"
     },
     {
       "id": "909738",
@@ -705,7 +819,9 @@
       "age": 25,
       "value": 900000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/909738-1751382723.png"
     },
     {
       "id": "680510",
@@ -716,7 +832,9 @@
       "age": 28,
       "value": 900000,
       "contract": "2027-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/680510-1717454237.jpg"
     },
     {
       "id": "729032",
@@ -727,7 +845,9 @@
       "age": 29,
       "value": 850000,
       "contract": "2029-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/729032-1770729545.jpg"
     },
     {
       "id": "592734",
@@ -738,7 +858,9 @@
       "age": 27,
       "value": 800000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/592734-1755014150.png"
     },
     {
       "id": "421698",
@@ -749,7 +871,9 @@
       "age": 31,
       "value": 800000,
       "contract": "2028-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/421698-1717332534.jpg"
     },
     {
       "id": "189470",
@@ -760,7 +884,9 @@
       "age": 31,
       "value": 800000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/189470-1741628391.png"
     },
     {
       "id": "425567",
@@ -771,7 +897,9 @@
       "age": 27,
       "value": 800000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/425567-1678026927.jpg"
     },
     {
       "id": "680511",
@@ -782,7 +910,9 @@
       "age": 31,
       "value": 800000,
       "contract": "2027-06-30",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/680511-1739817286.jpg"
     },
     {
       "id": "1198161",
@@ -793,7 +923,9 @@
       "age": 22,
       "value": 800000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1198161-1773863183.jpg"
     },
     {
       "id": "391486",
@@ -804,7 +936,9 @@
       "age": 28,
       "value": 800000,
       "contract": "2027-06-30",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/391486-1739571860.JPG"
     },
     {
       "id": "437842",
@@ -815,7 +949,9 @@
       "age": 28,
       "value": 800000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/437842-1739572411.JPG"
     },
     {
       "id": "621170",
@@ -826,7 +962,9 @@
       "age": 27,
       "value": 800000,
       "contract": "2029-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/621170-1739819049.jpg"
     },
     {
       "id": "1048975",
@@ -837,7 +975,9 @@
       "age": 27,
       "value": 800000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1048975-1740587459.png"
     },
     {
       "id": "746209",
@@ -848,7 +988,9 @@
       "age": 29,
       "value": 800000,
       "contract": "2027-06-30",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/746209-1739810170.jpg"
     },
     {
       "id": "295058",
@@ -859,7 +1001,9 @@
       "age": 30,
       "value": 800000,
       "contract": "2026-12-15",
-      "nat": "Venezuela"
+      "nat": "Venezuela",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/295058-1739893034.png"
     },
     {
       "id": "718989",
@@ -870,7 +1014,9 @@
       "age": 31,
       "value": 800000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/718989-1678397378.jpg"
     },
     {
       "id": "1165987",
@@ -881,7 +1027,9 @@
       "age": 18,
       "value": 800000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1165987-1778358322.jpg"
     },
     {
       "id": "352552",
@@ -892,7 +1040,9 @@
       "age": 30,
       "value": 750000,
       "contract": "2026-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/352552-1672516445.jpg"
     },
     {
       "id": "878341",
@@ -903,7 +1053,9 @@
       "age": 28,
       "value": 750000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/878341-1789080701.jpg"
     },
     {
       "id": "1074488",
@@ -914,7 +1066,9 @@
       "age": 20,
       "value": 750000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1074488-1718722547.jpg"
     },
     {
       "id": "747543",
@@ -925,7 +1079,9 @@
       "age": 24,
       "value": 750000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/747543-1717453851.jpg"
     },
     {
       "id": "1136740",
@@ -936,7 +1092,9 @@
       "age": 23,
       "value": 750000,
       "contract": "2029-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1136740-1717454080.jpg"
     },
     {
       "id": "633793",
@@ -947,7 +1105,9 @@
       "age": 27,
       "value": 700000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/633793-1773864575.jpg"
     },
     {
       "id": "545547",
@@ -958,7 +1118,9 @@
       "age": 29,
       "value": 700000,
       "contract": "2028-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/545547-1676565700.jpg"
     },
     {
       "id": "1521837",
@@ -969,7 +1131,9 @@
       "age": 20,
       "value": 700000,
       "contract": "2029-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "375867",
@@ -980,7 +1144,9 @@
       "age": 30,
       "value": 700000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "237061",
@@ -991,7 +1157,9 @@
       "age": 32,
       "value": 650000,
       "contract": "2026-12-31",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/237061-1742486962.jpg"
     },
     {
       "id": "690439",
@@ -1002,7 +1170,9 @@
       "age": 30,
       "value": 650000,
       "contract": null,
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/690439-1772544626.jpg"
     },
     {
       "id": "646077",
@@ -1013,7 +1183,9 @@
       "age": 27,
       "value": 650000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/646077-1778267251.png"
     },
     {
       "id": "514380",
@@ -1024,7 +1196,9 @@
       "age": 27,
       "value": 600000,
       "contract": "2027-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/514380-1759930073.jpg"
     },
     {
       "id": "1113772",
@@ -1035,7 +1209,9 @@
       "age": 24,
       "value": 600000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1113772-1741019310.png"
     },
     {
       "id": "400961",
@@ -1046,7 +1222,9 @@
       "age": 28,
       "value": 600000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/400961-1739571352.JPG"
     },
     {
       "id": "1034569",
@@ -1057,7 +1235,9 @@
       "age": 24,
       "value": 600000,
       "contract": null,
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "863981",
@@ -1068,7 +1248,9 @@
       "age": 25,
       "value": 600000,
       "contract": "2027-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/863981-1660051605.JPG"
     },
     {
       "id": "732443",
@@ -1079,7 +1261,9 @@
       "age": 26,
       "value": 600000,
       "contract": null,
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/732443-1739394247.png"
     },
     {
       "id": "342792",
@@ -1090,7 +1274,9 @@
       "age": 28,
       "value": 600000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/342792-1739817295.jpg"
     },
     {
       "id": "563719",
@@ -1101,7 +1287,9 @@
       "age": 26,
       "value": 600000,
       "contract": "2027-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/563719-1739448664.JPG"
     },
     {
       "id": "242444",
@@ -1112,7 +1300,9 @@
       "age": 30,
       "value": 600000,
       "contract": "2027-06-30",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/242444-1718722499.jpg"
     },
     {
       "id": "1074489",
@@ -1123,7 +1313,9 @@
       "age": 19,
       "value": 600000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1002670",
@@ -1134,7 +1326,9 @@
       "age": 27,
       "value": 600000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1002670-1776118096.jpg"
     },
     {
       "id": "488586",
@@ -1145,7 +1339,9 @@
       "age": 31,
       "value": 600000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/488586-1717531570.jpg"
     },
     {
       "id": "189473",
@@ -1156,7 +1352,9 @@
       "age": 31,
       "value": 600000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/189473-1739571342.JPG"
     },
     {
       "id": "682083",
@@ -1167,7 +1365,9 @@
       "age": 24,
       "value": 600000,
       "contract": "2027-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/682083-1716331622.png"
     },
     {
       "id": "546803",
@@ -1178,7 +1378,9 @@
       "age": 33,
       "value": 550000,
       "contract": "2026-12-31",
-      "nat": "Panama"
+      "nat": "Panamá",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/546803-1741626228.png"
     },
     {
       "id": "424289",
@@ -1189,7 +1391,9 @@
       "age": 27,
       "value": 500000,
       "contract": "2029-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/424289-1743016834.jpg"
     },
     {
       "id": "1066795",
@@ -1200,7 +1404,9 @@
       "age": 28,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1066795-1739212629.jpg"
     },
     {
       "id": "981675",
@@ -1211,7 +1417,9 @@
       "age": 21,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/981675-1744040726.JPG"
     },
     {
       "id": "910005",
@@ -1222,7 +1430,9 @@
       "age": 23,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/910005-1739212637.jpg"
     },
     {
       "id": "582303",
@@ -1233,7 +1443,9 @@
       "age": 27,
       "value": 500000,
       "contract": "2028-12-31",
-      "nat": "Peru"
+      "nat": "Peru",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/582303-1619968467.png"
     },
     {
       "id": "594301",
@@ -1244,7 +1456,9 @@
       "age": 27,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/594301-1741626018.png"
     },
     {
       "id": "1163872",
@@ -1255,7 +1469,9 @@
       "age": 22,
       "value": 500000,
       "contract": "2028-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1163872-1721939015.jpg"
     },
     {
       "id": "1163883",
@@ -1266,7 +1482,9 @@
       "age": 21,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1163883-1741626718.png"
     },
     {
       "id": "993037",
@@ -1277,7 +1495,9 @@
       "age": 23,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/993037-1741624623.png"
     },
     {
       "id": "857297",
@@ -1288,7 +1508,9 @@
       "age": 28,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/857297-1773859265.jpg"
     },
     {
       "id": "750442",
@@ -1299,7 +1521,9 @@
       "age": 26,
       "value": 500000,
       "contract": "2027-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/750442-1778267676.png"
     },
     {
       "id": "1528036",
@@ -1310,7 +1534,9 @@
       "age": 18,
       "value": 500000,
       "contract": "2028-06-30",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1528036-1791582251.jpeg"
     },
     {
       "id": "941416",
@@ -1321,7 +1547,9 @@
       "age": 23,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/941416-1773863791.jpg"
     },
     {
       "id": "271438",
@@ -1332,7 +1560,9 @@
       "age": 31,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/271438-1678476082.jpg"
     },
     {
       "id": "1048907",
@@ -1343,7 +1573,9 @@
       "age": 24,
       "value": 500000,
       "contract": "2029-06-30",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1048907-1728997012.jpg"
     },
     {
       "id": "674639",
@@ -1354,7 +1586,9 @@
       "age": 26,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/674639-1741021794.png"
     },
     {
       "id": "1067822",
@@ -1365,7 +1599,9 @@
       "age": 21,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1067822-1744040846.JPG"
     },
     {
       "id": "1088058",
@@ -1376,7 +1612,9 @@
       "age": 32,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1088058-1739891719.png"
     },
     {
       "id": "1292071",
@@ -1387,7 +1625,9 @@
       "age": 23,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1292071-1776117493.jpg"
     },
     {
       "id": "666148",
@@ -1398,7 +1638,9 @@
       "age": 26,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "267677",
@@ -1409,7 +1651,9 @@
       "age": 31,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/267677-1746034811.jpg"
     },
     {
       "id": "1250616",
@@ -1420,7 +1664,9 @@
       "age": 23,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1250616-1740587730.png"
     },
     {
       "id": "1171408",
@@ -1431,7 +1677,9 @@
       "age": 23,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1171408-1724351316.png"
     },
     {
       "id": "1285117",
@@ -1442,7 +1690,9 @@
       "age": 20,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "659810",
@@ -1453,7 +1703,9 @@
       "age": 23,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/659810-1718913876.jpg"
     },
     {
       "id": "443717",
@@ -1464,7 +1716,9 @@
       "age": 30,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/443717-1776118512.jpg"
     },
     {
       "id": "659777",
@@ -1475,7 +1729,9 @@
       "age": 24,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/659777-1776118387.jpg"
     },
     {
       "id": "922233",
@@ -1486,7 +1742,9 @@
       "age": 24,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/922233-1776117349.jpg"
     },
     {
       "id": "666130",
@@ -1497,7 +1755,9 @@
       "age": 25,
       "value": 500000,
       "contract": "2027-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/666130-1739891268.png"
     },
     {
       "id": "715926",
@@ -1508,7 +1768,9 @@
       "age": 26,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/715926-1722443462.jpeg"
     },
     {
       "id": "1248953",
@@ -1519,7 +1781,9 @@
       "age": 19,
       "value": 500000,
       "contract": "2028-07-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1248953-1783880766.jpg"
     },
     {
       "id": "486120",
@@ -1530,7 +1794,9 @@
       "age": 33,
       "value": 450000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/486120-1755014103.png"
     },
     {
       "id": "195852",
@@ -1541,7 +1807,9 @@
       "age": 32,
       "value": 450000,
       "contract": "2027-06-30",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/195852-1722441365.png"
     },
     {
       "id": "868311",
@@ -1552,7 +1820,9 @@
       "age": 27,
       "value": 450000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/868311-1718912452.jpg"
     },
     {
       "id": "580636",
@@ -1563,7 +1833,9 @@
       "age": 27,
       "value": 450000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/580636-1776214400.png"
     },
     {
       "id": "648172",
@@ -1574,7 +1846,9 @@
       "age": 27,
       "value": 450000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/648172-1776214564.png"
     },
     {
       "id": "407582",
@@ -1585,7 +1859,9 @@
       "age": 29,
       "value": 400000,
       "contract": "2027-06-30",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/407582-1755013233.png"
     },
     {
       "id": "242992",
@@ -1596,7 +1872,9 @@
       "age": 33,
       "value": 400000,
       "contract": "2027-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/242992-1773863191.jpg"
     },
     {
       "id": "847202",
@@ -1607,7 +1885,9 @@
       "age": 23,
       "value": 400000,
       "contract": "2029-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/847202-1773864556.jpg"
     },
     {
       "id": "129725",
@@ -1618,7 +1898,9 @@
       "age": 31,
       "value": 400000,
       "contract": "2027-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/129725-1773862758.jpg"
     },
     {
       "id": "278796",
@@ -1629,7 +1911,9 @@
       "age": 30,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/278796-1717293252.jpg"
     },
     {
       "id": "872785",
@@ -1640,7 +1924,9 @@
       "age": 25,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/872785-1742328635.jpg"
     },
     {
       "id": "716804",
@@ -1651,7 +1937,9 @@
       "age": 26,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/716804-1709566155.jpg"
     },
     {
       "id": "242722",
@@ -1662,7 +1950,9 @@
       "age": 30,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/242722-1760625460.jpeg"
     },
     {
       "id": "659801",
@@ -1673,7 +1963,9 @@
       "age": 24,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/659801-1575284228.png"
     },
     {
       "id": "474262",
@@ -1684,7 +1976,9 @@
       "age": 31,
       "value": 400000,
       "contract": null,
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/474262-1752073143.png"
     },
     {
       "id": "682687",
@@ -1695,7 +1989,9 @@
       "age": 25,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/682687-1741022795.png"
     },
     {
       "id": "601648",
@@ -1706,7 +2002,9 @@
       "age": 27,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/601648-1587313404.JPG"
     },
     {
       "id": "669722",
@@ -1717,7 +2015,9 @@
       "age": 27,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/669722-1741626764.png"
     },
     {
       "id": "646375",
@@ -1728,7 +2028,9 @@
       "age": 26,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/646375-1740587641.png"
     },
     {
       "id": "866642",
@@ -1739,7 +2041,9 @@
       "age": 29,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/866642-1739913528.jpg"
     },
     {
       "id": "212655",
@@ -1750,7 +2054,9 @@
       "age": 33,
       "value": 375000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/212655-1739816883.jpg"
     },
     {
       "id": "738573",
@@ -1761,7 +2067,9 @@
       "age": 25,
       "value": 350000,
       "contract": "2028-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/738573-1678998994.jpeg"
     },
     {
       "id": "243541",
@@ -1772,7 +2080,9 @@
       "age": 35,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/243541-1708654324.jpg"
     },
     {
       "id": "872997",
@@ -1783,7 +2093,9 @@
       "age": 25,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/872997-1741627225.png"
     },
     {
       "id": "496062",
@@ -1794,7 +2106,9 @@
       "age": 25,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Panama"
+      "nat": "Panamá",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/496062-1773864641.jpg"
     },
     {
       "id": "1107048",
@@ -1805,7 +2119,9 @@
       "age": 27,
       "value": 350000,
       "contract": "2027-06-30",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1107048-1718677135.jpg"
     },
     {
       "id": "745896",
@@ -1816,7 +2132,9 @@
       "age": 26,
       "value": 350000,
       "contract": "2027-06-30",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/745896-1773844732.png"
     },
     {
       "id": "591965",
@@ -1827,7 +2145,9 @@
       "age": 28,
       "value": 350000,
       "contract": "2028-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/591965-1776117184.jpg"
     },
     {
       "id": "400942",
@@ -1838,7 +2158,9 @@
       "age": 28,
       "value": 350000,
       "contract": "2027-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/400942-1717084651.png"
     },
     {
       "id": "656117",
@@ -1849,7 +2171,9 @@
       "age": 28,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "541879",
@@ -1860,7 +2184,9 @@
       "age": 29,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/541879-1722397361.jpg"
     },
     {
       "id": "556300",
@@ -1871,7 +2197,9 @@
       "age": 29,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/556300-1789389660.jpg"
     },
     {
       "id": "891999",
@@ -1882,7 +2210,9 @@
       "age": 25,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/891999-1739215130.png"
     },
     {
       "id": "719226",
@@ -1893,7 +2223,9 @@
       "age": 33,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/719226-1723503008.jpg"
     },
     {
       "id": "687631",
@@ -1904,7 +2236,9 @@
       "age": 26,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/687631-1740587350.png"
     },
     {
       "id": "981654",
@@ -1915,7 +2249,9 @@
       "age": 23,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/981654-1755013383.png"
     },
     {
       "id": "927108",
@@ -1926,7 +2262,9 @@
       "age": 22,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/927108-1741627345.png"
     },
     {
       "id": "723699",
@@ -1937,7 +2275,9 @@
       "age": 25,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/723699-1752073096.png"
     },
     {
       "id": "872996",
@@ -1948,7 +2288,9 @@
       "age": 26,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/872996-1717453787.jpg"
     },
     {
       "id": "109921",
@@ -1959,7 +2301,9 @@
       "age": 33,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/109921-1776118688.jpg"
     },
     {
       "id": "727934",
@@ -1970,7 +2314,9 @@
       "age": 27,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/727934-1776118586.jpg"
     },
     {
       "id": "1088055",
@@ -1981,7 +2327,9 @@
       "age": 30,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1341641",
@@ -1992,7 +2340,9 @@
       "age": 22,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1341641-1731289360.png"
     },
     {
       "id": "406283",
@@ -2003,7 +2353,9 @@
       "age": 30,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/406283-1716330550.png"
     },
     {
       "id": "1292070",
@@ -2014,7 +2366,9 @@
       "age": 21,
       "value": 350000,
       "contract": "2027-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "634530",
@@ -2025,7 +2379,9 @@
       "age": 30,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/634530-1709563725.jpg"
     },
     {
       "id": "380141",
@@ -2036,7 +2392,9 @@
       "age": 30,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/380141-1739393631.png"
     },
     {
       "id": "728088",
@@ -2047,7 +2405,9 @@
       "age": 23,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/728088-1783880849.jpg"
     },
     {
       "id": "888781",
@@ -2058,7 +2418,9 @@
       "age": 25,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/888781-1776213984.png"
     },
     {
       "id": "653439",
@@ -2069,7 +2431,9 @@
       "age": 27,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/653439-1776214083.png"
     },
     {
       "id": "1297886",
@@ -2080,7 +2444,9 @@
       "age": 26,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1297886-1776215873.png"
     },
     {
       "id": "569221",
@@ -2091,7 +2457,9 @@
       "age": 28,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/569221-1776214411.png"
     },
     {
       "id": "891682",
@@ -2102,7 +2470,9 @@
       "age": 26,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/891682-1739911951.jpg"
     },
     {
       "id": "276925",
@@ -2113,7 +2483,9 @@
       "age": 31,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/276925-1678397444.jpg"
     },
     {
       "id": "1257418",
@@ -2124,7 +2496,9 @@
       "age": 17,
       "value": 300000,
       "contract": "2028-06-30",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "992784",
@@ -2135,7 +2509,9 @@
       "age": 27,
       "value": 300000,
       "contract": null,
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/992784-1742508061.png"
     },
     {
       "id": "213614",
@@ -2146,7 +2522,9 @@
       "age": 34,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Venezuela"
+      "nat": "Venezuela",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/213614-1741625900.png"
     },
     {
       "id": "922205",
@@ -2157,7 +2535,9 @@
       "age": 24,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/922205-1721937738.jpg"
     },
     {
       "id": "801069",
@@ -2168,7 +2548,9 @@
       "age": 27,
       "value": 300000,
       "contract": "2027-06-30",
-      "nat": "Nigeria"
+      "nat": "Nigéria",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "430042",
@@ -2179,7 +2561,9 @@
       "age": 36,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/430042-1773864322.jpg"
     },
     {
       "id": "310003",
@@ -2190,7 +2574,9 @@
       "age": 31,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/310003-1773863770.jpg"
     },
     {
       "id": "473096",
@@ -2201,7 +2587,9 @@
       "age": 29,
       "value": 300000,
       "contract": "2027-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/473096-1717334937.jpg"
     },
     {
       "id": "370203",
@@ -2212,7 +2600,9 @@
       "age": 29,
       "value": 300000,
       "contract": "2027-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/370203-1717333488.jpg"
     },
     {
       "id": "667906",
@@ -2223,7 +2613,9 @@
       "age": 30,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/667906-1716330089.png"
     },
     {
       "id": "840869",
@@ -2234,7 +2626,9 @@
       "age": 30,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/840869-1739891591.png"
     },
     {
       "id": "653330",
@@ -2245,7 +2639,9 @@
       "age": 27,
       "value": 300000,
       "contract": "2028-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/653330-1716331414.png"
     },
     {
       "id": "883618",
@@ -2256,7 +2652,9 @@
       "age": 25,
       "value": 300000,
       "contract": null,
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/883618-1678388084.jpg"
     },
     {
       "id": "201420",
@@ -2267,7 +2665,9 @@
       "age": 33,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/201420-1681497296.jpg"
     },
     {
       "id": "1207137",
@@ -2278,7 +2678,9 @@
       "age": 23,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1207137-1730308225.jpg"
     },
     {
       "id": "212653",
@@ -2289,7 +2691,9 @@
       "age": 33,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/212653-1740587444.png"
     },
     {
       "id": "739496",
@@ -2300,7 +2704,9 @@
       "age": 25,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/739496-1739215938.png"
     },
     {
       "id": "682079",
@@ -2311,7 +2717,9 @@
       "age": 31,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/682079-1717454896.jpg"
     },
     {
       "id": "653327",
@@ -2322,7 +2730,9 @@
       "age": 25,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/653327-1656416594.jpg"
     },
     {
       "id": "355233",
@@ -2333,7 +2743,9 @@
       "age": 28,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/355233-1698941448.jpg"
     },
     {
       "id": "873232",
@@ -2344,7 +2756,9 @@
       "age": 30,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/873232-1776118347.jpg"
     },
     {
       "id": "689467",
@@ -2355,7 +2769,9 @@
       "age": 25,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/689467-1776117836.jpg"
     },
     {
       "id": "1208212",
@@ -2366,7 +2782,9 @@
       "age": 25,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1208212-1776118461.jpg"
     },
     {
       "id": "656406",
@@ -2377,7 +2795,9 @@
       "age": 26,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/656406-1776118445.jpg"
     },
     {
       "id": "1052846",
@@ -2388,7 +2808,9 @@
       "age": 30,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1052846-1739891331.png"
     },
     {
       "id": "400948",
@@ -2399,7 +2821,9 @@
       "age": 28,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/400948-1717531199.jpg"
     },
     {
       "id": "343679",
@@ -2410,7 +2834,9 @@
       "age": 30,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/343679-1733516709.png"
     },
     {
       "id": "720470",
@@ -2421,7 +2847,9 @@
       "age": 26,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/720470-1776214099.png"
     },
     {
       "id": "1222729",
@@ -2432,7 +2860,9 @@
       "age": 26,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1222729-1716328816.png"
     },
     {
       "id": "799596",
@@ -2443,7 +2873,9 @@
       "age": 26,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/799596-1742140860.png"
     },
     {
       "id": "507665",
@@ -2454,7 +2886,9 @@
       "age": 28,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/507665-1755013531.png"
     },
     {
       "id": "275149",
@@ -2465,7 +2899,9 @@
       "age": 31,
       "value": 300000,
       "contract": "2027-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/275149-1709563845.jpg"
     },
     {
       "id": "1173433",
@@ -2476,7 +2912,9 @@
       "age": 21,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1173433-1758834020.png"
     },
     {
       "id": "988945",
@@ -2487,7 +2925,9 @@
       "age": 28,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/988945-1776214211.png"
     },
     {
       "id": "892026",
@@ -2498,7 +2938,9 @@
       "age": 23,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/892026-1776214225.png"
     },
     {
       "id": "882954",
@@ -2509,7 +2951,9 @@
       "age": 25,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Panama"
+      "nat": "Panamá",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "555674",
@@ -2520,7 +2964,9 @@
       "age": 26,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/555674-1739912956.jpg"
     },
     {
       "id": "1002665",
@@ -2531,7 +2977,9 @@
       "age": 25,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "704887",
@@ -2542,7 +2990,9 @@
       "age": 26,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/704887-1739911746.jpg"
     },
     {
       "id": "1048973",
@@ -2553,7 +3003,9 @@
       "age": 26,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1048973-1739913600.jpg"
     },
     {
       "id": "439695",
@@ -2564,7 +3016,9 @@
       "age": 31,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "502487",
@@ -2575,7 +3029,9 @@
       "age": 32,
       "value": 275000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/502487-1751936417.jpg"
     },
     {
       "id": "830853",
@@ -2586,7 +3042,9 @@
       "age": 26,
       "value": 275000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/830853-1739393505.png"
     },
     {
       "id": "491585",
@@ -2597,7 +3055,9 @@
       "age": 26,
       "value": 250000,
       "contract": "2027-12-31",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/491585-1739213028.jpg"
     },
     {
       "id": "440015",
@@ -2608,7 +3068,9 @@
       "age": 34,
       "value": 250000,
       "contract": null,
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/440015-1739212388.jpg"
     },
     {
       "id": "1185506",
@@ -2619,7 +3081,9 @@
       "age": 20,
       "value": 250000,
       "contract": null,
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1185506-1739212787.jpg"
     },
     {
       "id": "903610",
@@ -2630,7 +3094,9 @@
       "age": 23,
       "value": 250000,
       "contract": "2027-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/903610-1718722890.jpg"
     },
     {
       "id": "1244604",
@@ -2641,7 +3107,9 @@
       "age": 24,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1244604-1721938336.jpg"
     },
     {
       "id": "1521836",
@@ -2652,7 +3120,9 @@
       "age": 21,
       "value": 250000,
       "contract": "2028-06-30",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "441856",
@@ -2663,7 +3133,9 @@
       "age": 32,
       "value": 250000,
       "contract": "2027-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/441856-1718914650.jpg"
     },
     {
       "id": "87360",
@@ -2674,7 +3146,9 @@
       "age": 36,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/87360-1748210636.jpg"
     },
     {
       "id": "1051820",
@@ -2685,7 +3159,9 @@
       "age": 26,
       "value": 250000,
       "contract": "2027-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1051820-1717333361.jpg"
     },
     {
       "id": "1241107",
@@ -2696,7 +3172,9 @@
       "age": 20,
       "value": 250000,
       "contract": "2027-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1241107-1717332438.jpg"
     },
     {
       "id": "212310",
@@ -2707,7 +3185,9 @@
       "age": 32,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/212310-1668498541.jpg"
     },
     {
       "id": "885175",
@@ -2718,7 +3198,9 @@
       "age": 22,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/885175-1739810625.jpg"
     },
     {
       "id": "1048909",
@@ -2729,7 +3211,9 @@
       "age": 30,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1048909-1739892263.png"
     },
     {
       "id": "714744",
@@ -2740,7 +3224,9 @@
       "age": 26,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/714744-1637447838.JPG"
     },
     {
       "id": "421091",
@@ -2751,7 +3237,9 @@
       "age": 34,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/421091-1732215335.JPG"
     },
     {
       "id": "697057",
@@ -2762,7 +3250,9 @@
       "age": 28,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/697057-1729684710.png"
     },
     {
       "id": "820099",
@@ -2773,7 +3263,9 @@
       "age": 24,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/820099-1715369232.jpeg"
     },
     {
       "id": "1127431",
@@ -2784,7 +3276,9 @@
       "age": 27,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1127431-1776117099.jpg"
     },
     {
       "id": "1108128",
@@ -2795,7 +3289,9 @@
       "age": 26,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1108128-1776117550.jpg"
     },
     {
       "id": "1065148",
@@ -2806,7 +3302,9 @@
       "age": 25,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "907651",
@@ -2817,7 +3315,9 @@
       "age": 26,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/907651-1741022812.png"
     },
     {
       "id": "746946",
@@ -2828,7 +3328,9 @@
       "age": 28,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/746946-1718914105.jpg"
     },
     {
       "id": "621171",
@@ -2839,7 +3341,9 @@
       "age": 27,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/621171-1591683340.jpg"
     },
     {
       "id": "983018",
@@ -2850,7 +3354,9 @@
       "age": 24,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "367407",
@@ -2861,7 +3367,9 @@
       "age": 29,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/367407-1709589877.jpg"
     },
     {
       "id": "868487",
@@ -2872,7 +3380,9 @@
       "age": 23,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/868487-1678999074.jpeg"
     },
     {
       "id": "981485",
@@ -2883,7 +3393,9 @@
       "age": 23,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/981485-1698697834.png"
     },
     {
       "id": "412883",
@@ -2894,7 +3406,9 @@
       "age": 29,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "349600",
@@ -2905,7 +3419,9 @@
       "age": 30,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/349600-1776215326.png"
     },
     {
       "id": "719281",
@@ -2916,7 +3432,9 @@
       "age": 27,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/719281-1728996771.jpg"
     },
     {
       "id": "395164",
@@ -2927,7 +3445,9 @@
       "age": 31,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/395164-1670275092.jpeg"
     },
     {
       "id": "87845",
@@ -2938,7 +3458,9 @@
       "age": 35,
       "value": 225000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/87845-1741626832.png"
     },
     {
       "id": "263605",
@@ -2949,7 +3471,9 @@
       "age": 32,
       "value": 225000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/263605-1739212401.jpg"
     },
     {
       "id": "682082",
@@ -2960,7 +3484,9 @@
       "age": 27,
       "value": 225000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "491624",
@@ -2971,7 +3497,9 @@
       "age": 26,
       "value": 225000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/491624-1709563951.jpg"
     },
     {
       "id": "191830",
@@ -2982,7 +3510,9 @@
       "age": 35,
       "value": 225000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/191830-1739214222.png"
     },
     {
       "id": "1088057",
@@ -2993,7 +3523,9 @@
       "age": 23,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1088057-1732132687.png"
     },
     {
       "id": "278145",
@@ -3004,7 +3536,9 @@
       "age": 36,
       "value": 200000,
       "contract": "2027-12-31",
-      "nat": "Haiti"
+      "nat": "Haiti",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/278145-1755014221.png"
     },
     {
       "id": "354724",
@@ -3015,7 +3549,9 @@
       "age": 36,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/354724-1718722179.jpg"
     },
     {
       "id": "340179",
@@ -3026,7 +3562,9 @@
       "age": 28,
       "value": 200000,
       "contract": "2028-06-30",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/340179-1738082746.png"
     },
     {
       "id": "242270",
@@ -3037,7 +3575,9 @@
       "age": 33,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/242270-1739893450.png"
     },
     {
       "id": "621164",
@@ -3048,7 +3588,9 @@
       "age": 27,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/621164-1716686796.jpg"
     },
     {
       "id": "544037",
@@ -3059,7 +3601,9 @@
       "age": 28,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/544037-1729684766.png"
     },
     {
       "id": "212323",
@@ -3070,7 +3614,9 @@
       "age": 36,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/212323-1689794367.jpg"
     },
     {
       "id": "256975",
@@ -3081,7 +3627,9 @@
       "age": 35,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/256975-1741020444.png"
     },
     {
       "id": "1119070",
@@ -3092,7 +3640,9 @@
       "age": 25,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "330041",
@@ -3103,7 +3653,9 @@
       "age": 29,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/330041-1708691043.png"
     },
     {
       "id": "298318",
@@ -3114,7 +3666,9 @@
       "age": 32,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/298318-1776118397.jpg"
     },
     {
       "id": "993654",
@@ -3125,7 +3679,9 @@
       "age": 24,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/993654-1776118105.jpg"
     },
     {
       "id": "1051822",
@@ -3136,7 +3692,9 @@
       "age": 26,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1051822-1776117541.jpg"
     },
     {
       "id": "242998",
@@ -3147,7 +3705,9 @@
       "age": 32,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/242998-1741206813.png"
     },
     {
       "id": "213317",
@@ -3158,7 +3718,9 @@
       "age": 33,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/213317-1660516867.jpg"
     },
     {
       "id": "310631",
@@ -3169,7 +3731,9 @@
       "age": 29,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/310631-1732581313.jpeg"
     },
     {
       "id": "354640",
@@ -3180,7 +3744,9 @@
       "age": 29,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/354640-1693848284.png"
     },
     {
       "id": "1473923",
@@ -3191,7 +3757,9 @@
       "age": 27,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "341382",
@@ -3202,7 +3770,9 @@
       "age": 31,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/341382-1783880453.jpg"
     },
     {
       "id": "520498",
@@ -3213,7 +3783,9 @@
       "age": 30,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/520498-1717532207.jpg"
     },
     {
       "id": "835257",
@@ -3224,7 +3796,9 @@
       "age": 24,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/835257-1728996607.jpg"
     },
     {
       "id": "1325432",
@@ -3235,7 +3809,9 @@
       "age": 23,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1325432-1783880601.jpg"
     },
     {
       "id": "747948",
@@ -3246,7 +3822,9 @@
       "age": 25,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/747948-1762958835.jpeg"
     },
     {
       "id": "1022668",
@@ -3257,7 +3835,9 @@
       "age": 22,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1022668-1776206211.png"
     },
     {
       "id": "312725",
@@ -3268,7 +3848,9 @@
       "age": 30,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/312725-1669405196.jpg"
     },
     {
       "id": "1240916",
@@ -3279,7 +3861,9 @@
       "age": 21,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1240916-1709592800.jpg"
     },
     {
       "id": "488017",
@@ -3290,7 +3874,9 @@
       "age": 28,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/488017-1779920946.JPG"
     },
     {
       "id": "653778",
@@ -3301,7 +3887,9 @@
       "age": 30,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/653778-1723502657.png"
     },
     {
       "id": "885177",
@@ -3312,7 +3900,9 @@
       "age": 25,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/885177-1739912741.jpg"
     },
     {
       "id": "119336",
@@ -3323,7 +3913,9 @@
       "age": 34,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/119336-1732581363.jpeg"
     },
     {
       "id": "123609",
@@ -3334,7 +3926,9 @@
       "age": 38,
       "value": 175000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/123609-1668498789.jpg"
     },
     {
       "id": "337592",
@@ -3345,7 +3939,9 @@
       "age": 36,
       "value": 175000,
       "contract": null,
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/337592-1740587086.png"
     },
     {
       "id": "264290",
@@ -3356,7 +3952,9 @@
       "age": 35,
       "value": 175000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/264290-1716686499.jpg"
     },
     {
       "id": "555846",
@@ -3367,7 +3965,9 @@
       "age": 27,
       "value": 175000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/555846-1754533246.JPG"
     },
     {
       "id": "146367",
@@ -3378,7 +3978,9 @@
       "age": 34,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/146367-1644485116.png"
     },
     {
       "id": "491612",
@@ -3389,7 +3991,9 @@
       "age": 25,
       "value": 150000,
       "contract": "2027-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/491612-1755013067.png"
     },
     {
       "id": "653761",
@@ -3400,7 +4004,9 @@
       "age": 25,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/653761-1721937572.jpg"
     },
     {
       "id": "819709",
@@ -3411,7 +4017,9 @@
       "age": 23,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/819709-1739570379.jpg"
     },
     {
       "id": "1257416",
@@ -3422,7 +4030,9 @@
       "age": 18,
       "value": 150000,
       "contract": "2029-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1257416-1764621404.jpg"
     },
     {
       "id": "719256",
@@ -3433,7 +4043,9 @@
       "age": 27,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/719256-1739810727.jpg"
     },
     {
       "id": "1452355",
@@ -3444,7 +4056,9 @@
       "age": 19,
       "value": 150000,
       "contract": null,
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "355331",
@@ -3455,7 +4069,9 @@
       "age": 35,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/355331-1739893127.png"
     },
     {
       "id": "875119",
@@ -3466,7 +4082,9 @@
       "age": 25,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/875119-1732581610.jpeg"
     },
     {
       "id": "893653",
@@ -3477,7 +4095,9 @@
       "age": 22,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/893653-1718915517.jpg"
     },
     {
       "id": "1240386",
@@ -3488,7 +4108,9 @@
       "age": 23,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "507661",
@@ -3499,7 +4121,9 @@
       "age": 31,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/507661-1716687278.jpg"
     },
     {
       "id": "1252761",
@@ -3510,7 +4134,9 @@
       "age": 24,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1252761-1789389641.jpg"
     },
     {
       "id": "1387027",
@@ -3521,7 +4147,9 @@
       "age": 25,
       "value": 150000,
       "contract": null,
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "243656",
@@ -3532,7 +4160,9 @@
       "age": 36,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/243656-1773864314.jpg"
     },
     {
       "id": "193929",
@@ -3543,7 +4173,9 @@
       "age": 34,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/193929-1717331274.jpg"
     },
     {
       "id": "893662",
@@ -3554,7 +4186,9 @@
       "age": 22,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/893662-1776117879.jpg"
     },
     {
       "id": "840963",
@@ -3565,7 +4199,9 @@
       "age": 27,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/840963-1776118170.jpg"
     },
     {
       "id": "1375675",
@@ -3576,7 +4212,9 @@
       "age": 27,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1375675-1771011322.JPG"
     },
     {
       "id": "1174879",
@@ -3587,7 +4225,9 @@
       "age": 21,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1174879-1776117377.jpg"
     },
     {
       "id": "750104",
@@ -3598,7 +4238,9 @@
       "age": 25,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/750104-1717532385.jpg"
     },
     {
       "id": "963976",
@@ -3609,7 +4251,9 @@
       "age": 23,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "830347",
@@ -3620,7 +4264,9 @@
       "age": 29,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "193933",
@@ -3631,7 +4277,9 @@
       "age": 35,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/193933-1739393255.png"
     },
     {
       "id": "1114031",
@@ -3642,7 +4290,9 @@
       "age": 23,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "264375",
@@ -3653,7 +4303,9 @@
       "age": 35,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/264375-1741205775.png"
     },
     {
       "id": "1099020",
@@ -3664,7 +4316,9 @@
       "age": 22,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1099020-1776214683.jpg"
     },
     {
       "id": "189471",
@@ -3675,7 +4329,9 @@
       "age": 32,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/189471-1716685910.jpg"
     },
     {
       "id": "400958",
@@ -3686,7 +4342,9 @@
       "age": 28,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "428933",
@@ -3697,7 +4355,9 @@
       "age": 32,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/428933-1716686585.jpg"
     },
     {
       "id": "1185496",
@@ -3708,7 +4368,9 @@
       "age": 20,
       "value": 125000,
       "contract": null,
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1185496-1733940326.jpg"
     },
     {
       "id": "1087320",
@@ -3719,7 +4381,9 @@
       "age": 23,
       "value": 125000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1087320-1739811256.jpg"
     },
     {
       "id": "653305",
@@ -3730,7 +4394,9 @@
       "age": 35,
       "value": 125000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/653305-1722441411.png"
     },
     {
       "id": "1376227",
@@ -3741,7 +4407,9 @@
       "age": 25,
       "value": 125000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "202761",
@@ -3752,7 +4420,9 @@
       "age": 37,
       "value": 125000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/202761-1740588015.png"
     },
     {
       "id": "103246",
@@ -3763,7 +4433,9 @@
       "age": 36,
       "value": 125000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/103246-1773863928.jpg"
     },
     {
       "id": "541877",
@@ -3774,7 +4446,9 @@
       "age": 34,
       "value": 125000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/541877-1717454129.jpg"
     },
     {
       "id": "714826",
@@ -3785,7 +4459,9 @@
       "age": 24,
       "value": 125000,
       "contract": "2026-11-30",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/714826-1722440105.png"
     },
     {
       "id": "556725",
@@ -3796,7 +4472,9 @@
       "age": 36,
       "value": 125000,
       "contract": null,
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/556725-1716686163.jpg"
     },
     {
       "id": "96204",
@@ -3807,7 +4485,9 @@
       "age": 33,
       "value": 125000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/96204-1781803050.jpg"
     },
     {
       "id": "84310",
@@ -3818,7 +4498,9 @@
       "age": 39,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/84310-1755013100.png"
     },
     {
       "id": "1317617",
@@ -3829,7 +4511,9 @@
       "age": 21,
       "value": 100000,
       "contract": "2027-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1074487",
@@ -3840,7 +4524,9 @@
       "age": 20,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1074487-1721939536.jpg"
     },
     {
       "id": "610333",
@@ -3851,7 +4537,9 @@
       "age": 34,
       "value": 100000,
       "contract": "2027-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/610333-1773858792.jpg"
     },
     {
       "id": "893648",
@@ -3862,7 +4550,9 @@
       "age": 22,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/893648-1669399976.jpg"
     },
     {
       "id": "1234675",
@@ -3873,7 +4563,9 @@
       "age": 26,
       "value": 100000,
       "contract": "2028-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1234675-1718557274.jpg"
     },
     {
       "id": "92693",
@@ -3884,7 +4576,9 @@
       "age": 36,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/92693-1744670377.JPG"
     },
     {
       "id": "1122183",
@@ -3895,7 +4589,9 @@
       "age": 26,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "641728",
@@ -3906,7 +4602,9 @@
       "age": 32,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/641728-1678387771.jpg"
     },
     {
       "id": "212282",
@@ -3917,7 +4615,9 @@
       "age": 33,
       "value": 100000,
       "contract": null,
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/212282-1678388334.jpg"
     },
     {
       "id": "189474",
@@ -3928,7 +4628,9 @@
       "age": 32,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/189474-1716686636.jpg"
     },
     {
       "id": "491610",
@@ -3939,7 +4641,9 @@
       "age": 26,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/491610-1742507007.png"
     },
     {
       "id": "610205",
@@ -3950,7 +4654,9 @@
       "age": 31,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/610205-1739893025.png"
     },
     {
       "id": "983013",
@@ -3961,7 +4667,9 @@
       "age": 23,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1371078",
@@ -3972,7 +4680,9 @@
       "age": 25,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1116428",
@@ -3983,7 +4693,9 @@
       "age": 24,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1116428-1692297791.JPG"
     },
     {
       "id": "903613",
@@ -3994,7 +4706,9 @@
       "age": 22,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/903613-1740586864.png"
     },
     {
       "id": "1019139",
@@ -4005,7 +4719,9 @@
       "age": 24,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "866813",
@@ -4016,7 +4732,9 @@
       "age": 25,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/866813-1721936385.jpg"
     },
     {
       "id": "512247",
@@ -4027,7 +4745,9 @@
       "age": 27,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/512247-1739394263.png"
     },
     {
       "id": "400963",
@@ -4038,7 +4758,9 @@
       "age": 28,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/400963-1721941319.jpg"
     },
     {
       "id": "1386489",
@@ -4049,7 +4771,9 @@
       "age": 23,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1386489-1776117484.jpg"
     },
     {
       "id": "727850",
@@ -4060,7 +4784,9 @@
       "age": 28,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/727850-1776118217.jpg"
     },
     {
       "id": "79758",
@@ -4071,7 +4797,9 @@
       "age": 37,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/79758-1776117142.jpg"
     },
     {
       "id": "500276",
@@ -4082,7 +4810,9 @@
       "age": 33,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/500276-1669404348.jpg"
     },
     {
       "id": "1519243",
@@ -4093,7 +4823,9 @@
       "age": 21,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1393501",
@@ -4104,7 +4836,9 @@
       "age": 21,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "563006",
@@ -4115,7 +4849,9 @@
       "age": 31,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/563006-1722396404.png"
     },
     {
       "id": "345793",
@@ -4126,7 +4862,9 @@
       "age": 31,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/345793-1755013197.png"
     },
     {
       "id": "429726",
@@ -4137,7 +4875,9 @@
       "age": 27,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "621169",
@@ -4148,7 +4888,9 @@
       "age": 25,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/621169-1779921604.JPG"
     },
     {
       "id": "669721",
@@ -4159,7 +4901,9 @@
       "age": 26,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/669721-1717332778.jpg"
     },
     {
       "id": "460895",
@@ -4170,7 +4914,9 @@
       "age": 32,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/460895-1705076589.JPG"
     },
     {
       "id": "819710",
@@ -4181,7 +4927,9 @@
       "age": 24,
       "value": 100000,
       "contract": "2027-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/819710-1776214899.png"
     },
     {
       "id": "1234956",
@@ -4192,7 +4940,9 @@
       "age": 26,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1234956-1718395989.jpeg"
     },
     {
       "id": "1417571",
@@ -4203,7 +4953,9 @@
       "age": 19,
       "value": 100000,
       "contract": null,
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1417571-1776206146.png"
     },
     {
       "id": "717124",
@@ -4214,7 +4966,9 @@
       "age": 26,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/717124-1776215315.png"
     },
     {
       "id": "716802",
@@ -4225,7 +4979,9 @@
       "age": 27,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "847201",
@@ -4236,7 +4992,9 @@
       "age": 25,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/847201-1752600952.jpeg"
     },
     {
       "id": "1277642",
@@ -4247,7 +5005,9 @@
       "age": 18,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1277642-1739912969.jpg"
     },
     {
       "id": "893652",
@@ -4258,7 +5018,9 @@
       "age": 22,
       "value": 100000,
       "contract": "2027-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/893652-1739902629.jpg"
     },
     {
       "id": "55167",
@@ -4269,7 +5031,9 @@
       "age": 40,
       "value": 75000,
       "contract": "2027-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/55167-1724428473.png"
     },
     {
       "id": "396869",
@@ -4280,7 +5044,9 @@
       "age": 34,
       "value": 75000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/396869-1633812288.png"
     },
     {
       "id": "79767",
@@ -4291,7 +5057,9 @@
       "age": 37,
       "value": 75000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/79767-1722396209.jpg"
     },
     {
       "id": "1070835",
@@ -4302,7 +5070,9 @@
       "age": 30,
       "value": 75000,
       "contract": null,
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1070835-1717531890.jpg"
     },
     {
       "id": "639767",
@@ -4313,7 +5083,9 @@
       "age": 28,
       "value": 75000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/639767-1639164626.JPG"
     },
     {
       "id": "1519246",
@@ -4324,7 +5096,9 @@
       "age": 23,
       "value": 75000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "248339",
@@ -4335,7 +5109,9 @@
       "age": 34,
       "value": 75000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/248339-1722440837.png"
     },
     {
       "id": "745187",
@@ -4346,7 +5122,9 @@
       "age": 25,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/745187-1741625213.png"
     },
     {
       "id": "76811",
@@ -4357,7 +5135,9 @@
       "age": 41,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/76811-1741627755.png"
     },
     {
       "id": "139494",
@@ -4368,7 +5148,9 @@
       "age": 38,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/139494-1718914215.jpg"
     },
     {
       "id": "1235130",
@@ -4379,7 +5161,9 @@
       "age": 22,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1292657",
@@ -4390,7 +5174,9 @@
       "age": 22,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1275801",
@@ -4401,7 +5187,9 @@
       "age": 23,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1375945",
@@ -4412,7 +5200,9 @@
       "age": 19,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1375945-1739892106.png"
     },
     {
       "id": "1221348",
@@ -4423,7 +5213,9 @@
       "age": 22,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1221348-1717085084.png"
     },
     {
       "id": "1003045",
@@ -4434,7 +5226,9 @@
       "age": 23,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "123475",
@@ -4445,7 +5239,9 @@
       "age": 41,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/123475-1481649989.jpg"
     },
     {
       "id": "1000705",
@@ -4456,7 +5252,9 @@
       "age": 22,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "323927",
@@ -4467,7 +5265,9 @@
       "age": 31,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/323927-1740587710.png"
     },
     {
       "id": "941417",
@@ -4478,7 +5278,9 @@
       "age": 21,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/941417-1740587928.png"
     },
     {
       "id": "264937",
@@ -4489,7 +5291,9 @@
       "age": 36,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/264937-1717454559.jpg"
     },
     {
       "id": "528313",
@@ -4500,7 +5304,9 @@
       "age": 28,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/528313-1717538189.jpg"
     },
     {
       "id": "522868",
@@ -4511,7 +5317,9 @@
       "age": 34,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/522868-1732283000.png"
     },
     {
       "id": "1375831",
@@ -4522,7 +5330,9 @@
       "age": 20,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1375831-1776117292.jpg"
     },
     {
       "id": "722740",
@@ -4533,7 +5343,9 @@
       "age": 27,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/722740-1684005412.png"
     },
     {
       "id": "1117757",
@@ -4544,7 +5356,9 @@
       "age": 24,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1117757-1722441720.png"
     },
     {
       "id": "989270",
@@ -4555,7 +5369,9 @@
       "age": 27,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/989270-1715370881.jpeg"
     },
     {
       "id": "1253669",
@@ -4566,7 +5382,9 @@
       "age": 21,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1253669-1783880950.jpg"
     },
     {
       "id": "634532",
@@ -4577,7 +5395,9 @@
       "age": 29,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1298375",
@@ -4588,7 +5408,9 @@
       "age": 21,
       "value": 50000,
       "contract": "2027-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1298375-1739830096.jpg"
     },
     {
       "id": "1122155",
@@ -4599,7 +5421,9 @@
       "age": 25,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1244444",
@@ -4610,7 +5434,9 @@
       "age": 33,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1244444-1716478678.jpg"
     },
     {
       "id": "274901",
@@ -4621,7 +5447,9 @@
       "age": 33,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/274901-1776214769.png"
     },
     {
       "id": "213303",
@@ -4632,7 +5460,9 @@
       "age": 38,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/213303-1776214916.png"
     },
     {
       "id": "1484864",
@@ -4643,7 +5473,9 @@
       "age": 20,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1484864-1776215106.png"
     },
     {
       "id": "1052848",
@@ -4654,7 +5486,9 @@
       "age": 32,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1052848-1776214765.png"
     },
     {
       "id": "264389",
@@ -4665,7 +5499,9 @@
       "age": 32,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/264389-1742507808.png"
     },
     {
       "id": "747496",
@@ -4676,7 +5512,9 @@
       "age": 27,
       "value": 50000,
       "contract": "2027-12-31",
-      "nat": "Nigeria"
+      "nat": "Nigéria",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "160208",
@@ -4687,7 +5525,9 @@
       "age": 34,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/160208-1716331716.png"
     },
     {
       "id": "1472878",
@@ -4698,7 +5538,9 @@
       "age": 21,
       "value": 25000,
       "contract": null,
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1074509",
@@ -4709,7 +5551,9 @@
       "age": 20,
       "value": 25000,
       "contract": "2027-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1074509-1773862863.jpg"
     },
     {
       "id": "1143336",
@@ -4720,7 +5564,9 @@
       "age": 21,
       "value": 25000,
       "contract": "2029-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "914002",
@@ -4731,7 +5577,9 @@
       "age": 23,
       "value": 25000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/914002-1732581690.jpeg"
     },
     {
       "id": "1395835",
@@ -4742,7 +5590,9 @@
       "age": 20,
       "value": 25000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1525010",
@@ -4753,7 +5603,9 @@
       "age": 19,
       "value": 25000,
       "contract": null,
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1305706",
@@ -4764,7 +5616,9 @@
       "age": 21,
       "value": 25000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1305706-1740587232.png"
     },
     {
       "id": "850080",
@@ -4775,7 +5629,9 @@
       "age": 25,
       "value": 25000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/850080-1723503766.png"
     },
     {
       "id": "1149561",
@@ -4786,7 +5642,9 @@
       "age": 23,
       "value": 25000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1149561-1776117315.jpg"
     },
     {
       "id": "1086058",
@@ -4797,7 +5655,9 @@
       "age": 24,
       "value": 25000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1086058-1776118617.jpg"
     },
     {
       "id": "1049152",
@@ -4808,7 +5668,9 @@
       "age": 21,
       "value": 25000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1049152-1742506813.png"
     },
     {
       "id": "1368275",
@@ -4819,7 +5681,9 @@
       "age": 28,
       "value": 25000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "569481",
@@ -4830,7 +5694,9 @@
       "age": 31,
       "value": 25000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/569481-1716687115.jpg"
     },
     {
       "id": "1376652",
@@ -4841,7 +5707,9 @@
       "age": 18,
       "value": 25000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "345903",
@@ -4852,7 +5720,9 @@
       "age": 31,
       "value": 25000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/345903-1776214666.png"
     },
     {
       "id": "1233993",
@@ -4863,7 +5733,9 @@
       "age": 25,
       "value": 25000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1233993-1739912879.jpg"
     },
     {
       "id": "715800",
@@ -4874,7 +5746,9 @@
       "age": 27,
       "value": 25000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/715800-1730305024.png"
     },
     {
       "id": "1287296",
@@ -4885,7 +5759,9 @@
       "age": 21,
       "value": 10000,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1287296-1773857820.jpg"
     },
     {
       "id": "1317614",
@@ -4896,7 +5772,9 @@
       "age": 19,
       "value": null,
       "contract": null,
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1546493",
@@ -4907,7 +5785,9 @@
       "age": 22,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1546493-1778509034.jpg"
     },
     {
       "id": "1074462",
@@ -4918,7 +5798,9 @@
       "age": 20,
       "value": null,
       "contract": null,
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1074462-1717331391.jpg"
     },
     {
       "id": "1246951",
@@ -4929,7 +5811,9 @@
       "age": 25,
       "value": null,
       "contract": null,
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1239330",
@@ -4940,7 +5824,9 @@
       "age": 21,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1239330-1739817138.jpg"
     },
     {
       "id": "983025",
@@ -4951,7 +5837,9 @@
       "age": 23,
       "value": null,
       "contract": null,
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1119445",
@@ -4962,7 +5850,9 @@
       "age": 20,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1119445-1740586961.png"
     },
     {
       "id": "1528251",
@@ -4973,7 +5863,9 @@
       "age": 21,
       "value": null,
       "contract": null,
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1405381",
@@ -4984,7 +5876,9 @@
       "age": 23,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "722713",
@@ -4995,7 +5889,9 @@
       "age": 24,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/722713-1776117675.jpg"
     },
     {
       "id": "1234953",
@@ -5006,7 +5902,9 @@
       "age": 30,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1234953-1776117732.jpg"
     },
     {
       "id": "1074500",
@@ -5017,7 +5915,9 @@
       "age": 20,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1119443",
@@ -5028,7 +5928,9 @@
       "age": 20,
       "value": null,
       "contract": null,
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1334458",
@@ -5039,7 +5941,9 @@
       "age": 22,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1334458-1729390968.png"
     },
     {
       "id": "747546",
@@ -5050,7 +5954,9 @@
       "age": 27,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1569822",
@@ -5061,7 +5967,9 @@
       "age": 20,
       "value": null,
       "contract": null,
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1267538",
@@ -5072,7 +5980,9 @@
       "age": 21,
       "value": null,
       "contract": null,
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1267538-1776215779.png"
     },
     {
       "id": "1459899",
@@ -5083,7 +5993,9 @@
       "age": 22,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1550967",
@@ -5094,7 +6006,9 @@
       "age": 29,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": null
     }
   ]
 }

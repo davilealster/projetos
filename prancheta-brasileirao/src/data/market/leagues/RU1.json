@@ -78,7 +78,9 @@
       "age": 21,
       "value": 25000000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/651580-1789567069.png"
     },
     {
       "id": "800175",
@@ -89,7 +91,9 @@
       "age": 25,
       "value": 24000000,
       "contract": "2028-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/800175-1784994926.png"
     },
     {
       "id": "1004741",
@@ -100,7 +104,9 @@
       "age": 20,
       "value": 20000000,
       "contract": "2030-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1004741-1784994983.png"
     },
     {
       "id": "337800",
@@ -111,7 +117,9 @@
       "age": 27,
       "value": 18000000,
       "contract": "2029-06-30",
-      "nat": "Portugal"
+      "nat": "Portugal",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/337800-1789563259.png"
     },
     {
       "id": "532676",
@@ -122,7 +130,9 @@
       "age": 24,
       "value": 17000000,
       "contract": "2030-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/532676-1721727990.png"
     },
     {
       "id": "456623",
@@ -133,7 +143,9 @@
       "age": 27,
       "value": 16000000,
       "contract": "2030-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/456623-1789563294.png"
     },
     {
       "id": "499721",
@@ -144,7 +156,9 @@
       "age": 29,
       "value": 15000000,
       "contract": "2029-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/499721-1784994759.png"
     },
     {
       "id": "964582",
@@ -155,7 +169,9 @@
       "age": 24,
       "value": 15000000,
       "contract": "2031-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/964582-1784994724.png"
     },
     {
       "id": "448981",
@@ -166,7 +182,9 @@
       "age": 27,
       "value": 15000000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/448981-1784995011.png"
     },
     {
       "id": "834899",
@@ -177,7 +195,9 @@
       "age": 22,
       "value": 15000000,
       "contract": "2030-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/834899-1784994006.png"
     },
     {
       "id": "703497",
@@ -188,7 +208,9 @@
       "age": 26,
       "value": 15000000,
       "contract": "2031-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/703497-1694771264.png"
     },
     {
       "id": "645173",
@@ -199,7 +221,9 @@
       "age": 24,
       "value": 12000000,
       "contract": "2028-06-30",
-      "nat": "Costa Rica"
+      "nat": "Costa Rica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/645173-1789563674.png"
     },
     {
       "id": "617520",
@@ -210,7 +234,9 @@
       "age": 24,
       "value": 12000000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/617520-1787135893.png"
     },
     {
       "id": "658678",
@@ -221,7 +247,9 @@
       "age": 25,
       "value": 12000000,
       "contract": "2030-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/658678-1783691372.png"
     },
     {
       "id": "532732",
@@ -232,7 +260,9 @@
       "age": 27,
       "value": 10000000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/532732-1784994408.png"
     },
     {
       "id": "521872",
@@ -243,7 +273,9 @@
       "age": 28,
       "value": 10000000,
       "contract": "2029-06-30",
-      "nat": "Albania"
+      "nat": "Albania",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/521872-1789563737.png"
     },
     {
       "id": "419845",
@@ -254,7 +286,9 @@
       "age": 28,
       "value": 10000000,
       "contract": "2030-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/419845-1789567107.png"
     },
     {
       "id": "865414",
@@ -265,7 +299,9 @@
       "age": 21,
       "value": 10000000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/865414-1789567437.png"
     },
     {
       "id": "520454",
@@ -276,7 +312,9 @@
       "age": 29,
       "value": 9000000,
       "contract": "2028-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/520454-1784994444.png"
     },
     {
       "id": "516722",
@@ -287,7 +325,9 @@
       "age": 27,
       "value": 9000000,
       "contract": "2029-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/516722-1789563821.png"
     },
     {
       "id": "746180",
@@ -298,7 +338,9 @@
       "age": 24,
       "value": 9000000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/746180-1787136516.png"
     },
     {
       "id": "185245",
@@ -309,7 +351,9 @@
       "age": 33,
       "value": 9000000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/185245-1787136744.png"
     },
     {
       "id": "756991",
@@ -320,7 +364,9 @@
       "age": 25,
       "value": 8000000,
       "contract": "2029-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/756991-1789563775.png"
     },
     {
       "id": "843397",
@@ -331,7 +377,9 @@
       "age": 25,
       "value": 8000000,
       "contract": "2030-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/843397-1753953510.png"
     },
     {
       "id": "517300",
@@ -342,7 +390,9 @@
       "age": 30,
       "value": 8000000,
       "contract": "2029-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/517300-1787136044.png"
     },
     {
       "id": "432112",
@@ -353,7 +403,9 @@
       "age": 26,
       "value": 8000000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/432112-1787136466.png"
     },
     {
       "id": "514256",
@@ -364,7 +416,9 @@
       "age": 28,
       "value": 8000000,
       "contract": "2029-06-30",
-      "nat": "Angola"
+      "nat": "Angola",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/514256-1787136788.png"
     },
     {
       "id": "515051",
@@ -375,7 +429,9 @@
       "age": 25,
       "value": 8000000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/515051-1788848455.png"
     },
     {
       "id": "220793",
@@ -386,7 +442,9 @@
       "age": 32,
       "value": 7500000,
       "contract": "2027-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/220793-1784994471.png"
     },
     {
       "id": "464259",
@@ -397,7 +455,9 @@
       "age": 29,
       "value": 7500000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/464259-1784995047.png"
     },
     {
       "id": "381833",
@@ -408,7 +468,9 @@
       "age": 26,
       "value": 7500000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/381833-1789563333.png"
     },
     {
       "id": "387687",
@@ -419,7 +481,9 @@
       "age": 29,
       "value": 7500000,
       "contract": "2029-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/387687-1788848497.png"
     },
     {
       "id": "516751",
@@ -430,7 +494,9 @@
       "age": 22,
       "value": 7500000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/516751-1788849163.png"
     },
     {
       "id": "691920",
@@ -441,7 +507,9 @@
       "age": 24,
       "value": 7000000,
       "contract": "2031-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/691920-1789109908.png"
     },
     {
       "id": "1131030",
@@ -452,7 +520,9 @@
       "age": 19,
       "value": 7000000,
       "contract": "2029-12-31",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1131030-1789566930.png"
     },
     {
       "id": "263905",
@@ -463,7 +533,9 @@
       "age": 30,
       "value": 7000000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/263905-1789567168.png"
     },
     {
       "id": "851111",
@@ -474,7 +546,9 @@
       "age": 25,
       "value": 7000000,
       "contract": "2030-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/851111-1789567482.png"
     },
     {
       "id": "985172",
@@ -485,7 +559,9 @@
       "age": 23,
       "value": 7000000,
       "contract": "2030-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/985172-1769008141.png"
     },
     {
       "id": "756494",
@@ -496,7 +572,9 @@
       "age": 26,
       "value": 7000000,
       "contract": "2029-12-31",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/756494-1740027162.png"
     },
     {
       "id": "570423",
@@ -507,7 +585,9 @@
       "age": 27,
       "value": 7000000,
       "contract": "2031-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/570423-1721922832.png"
     },
     {
       "id": "400713",
@@ -518,7 +598,9 @@
       "age": 29,
       "value": 7000000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/400713-1721727868.png"
     },
     {
       "id": "393621",
@@ -529,7 +611,9 @@
       "age": 29,
       "value": 7000000,
       "contract": "2028-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/393621-1787136559.png"
     },
     {
       "id": "370287",
@@ -540,7 +624,9 @@
       "age": 28,
       "value": 7000000,
       "contract": "2030-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/370287-1787136822.png"
     },
     {
       "id": "520073",
@@ -551,7 +637,9 @@
       "age": 25,
       "value": 6000000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/520073-1789563028.png"
     },
     {
       "id": "381714",
@@ -562,7 +650,9 @@
       "age": 26,
       "value": 6000000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/381714-1789563396.png"
     },
     {
       "id": "372535",
@@ -573,7 +663,9 @@
       "age": 28,
       "value": 6000000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/372535-1789567252.png"
     },
     {
       "id": "1127813",
@@ -584,7 +676,9 @@
       "age": 21,
       "value": 6000000,
       "contract": "2030-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1127813-1789567209.png"
     },
     {
       "id": "331059",
@@ -595,7 +689,9 @@
       "age": 30,
       "value": 6000000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/331059-1693158645.png"
     },
     {
       "id": "965323",
@@ -606,7 +702,9 @@
       "age": 22,
       "value": 6000000,
       "contract": "2031-06-30",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/965323-1789048230.png"
     },
     {
       "id": "875947",
@@ -617,7 +715,9 @@
       "age": 22,
       "value": 5000000,
       "contract": "2030-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/875947-1784994559.png"
     },
     {
       "id": "814269",
@@ -628,7 +728,9 @@
       "age": 25,
       "value": 5000000,
       "contract": "2030-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/814269-1784994535.png"
     },
     {
       "id": "257668",
@@ -639,7 +741,9 @@
       "age": 33,
       "value": 5000000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/257668-1784994785.png"
     },
     {
       "id": "572326",
@@ -650,7 +754,9 @@
       "age": 25,
       "value": 5000000,
       "contract": "2029-06-30",
-      "nat": "Cameroon"
+      "nat": "Camarões",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/572326-1789563061.png"
     },
     {
       "id": "852980",
@@ -661,7 +767,9 @@
       "age": 25,
       "value": 5000000,
       "contract": "2029-06-30",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/852980-1721727640.png"
     },
     {
       "id": "544586",
@@ -672,7 +780,9 @@
       "age": 29,
       "value": 5000000,
       "contract": "2029-06-30",
-      "nat": "Cape Verde"
+      "nat": "Cabo Verde",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/544586-1787136604.png"
     },
     {
       "id": "729266",
@@ -683,7 +793,9 @@
       "age": 25,
       "value": 5000000,
       "contract": "2030-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/729266-1788848531.png"
     },
     {
       "id": "700385",
@@ -694,7 +806,9 @@
       "age": 21,
       "value": 5000000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/700385-1722142150.png"
     },
     {
       "id": "736202",
@@ -705,7 +819,9 @@
       "age": 25,
       "value": 5000000,
       "contract": "2029-05-31",
-      "nat": "El Salvador"
+      "nat": "El Salvador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/736202-1754203365.png"
     },
     {
       "id": "351419",
@@ -716,7 +832,9 @@
       "age": 28,
       "value": 4000000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/351419-1789562914.png"
     },
     {
       "id": "222805",
@@ -727,7 +845,9 @@
       "age": 30,
       "value": 4000000,
       "contract": "2027-06-30",
-      "nat": "Serbia"
+      "nat": "Sérvia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/222805-1789563170.png"
     },
     {
       "id": "591957",
@@ -738,7 +858,9 @@
       "age": 24,
       "value": 4000000,
       "contract": "2030-06-30",
-      "nat": "Spain"
+      "nat": "Espanha",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/591957-1789563134.png"
     },
     {
       "id": "649303",
@@ -749,7 +871,9 @@
       "age": 24,
       "value": 4000000,
       "contract": "2030-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/649303-1789563097.png"
     },
     {
       "id": "671145",
@@ -760,7 +884,9 @@
       "age": 28,
       "value": 4000000,
       "contract": "2029-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/671145-1789566850.png"
     },
     {
       "id": "624340",
@@ -771,7 +897,9 @@
       "age": 22,
       "value": 4000000,
       "contract": "2029-06-01",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/624340-1789566751.png"
     },
     {
       "id": "368468",
@@ -782,7 +910,9 @@
       "age": 31,
       "value": 4000000,
       "contract": "2029-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/368468-1789566675.png"
     },
     {
       "id": "652270",
@@ -793,7 +923,9 @@
       "age": 25,
       "value": 4000000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/652270-1788848571.png"
     },
     {
       "id": "619279",
@@ -804,7 +936,9 @@
       "age": 24,
       "value": 4000000,
       "contract": "2028-06-30",
-      "nat": "Kosovo"
+      "nat": "Kosovo",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/619279-1730038134.png"
     },
     {
       "id": "866001",
@@ -815,7 +949,9 @@
       "age": 22,
       "value": 4000000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/866001-1721922173.png"
     },
     {
       "id": "623553",
@@ -826,7 +962,9 @@
       "age": 26,
       "value": 4000000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/623553-1754769044.png"
     },
     {
       "id": "713071",
@@ -837,7 +975,9 @@
       "age": 24,
       "value": 4000000,
       "contract": "2028-06-30",
-      "nat": "Kazakhstan"
+      "nat": "Kazakhstan",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/713071-1754769077.png"
     },
     {
       "id": "334477",
@@ -848,7 +988,9 @@
       "age": 28,
       "value": 3500000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/334477-1784994324.png"
     },
     {
       "id": "614898",
@@ -859,7 +1001,9 @@
       "age": 27,
       "value": 3500000,
       "contract": "2031-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/614898-1784994585.png"
     },
     {
       "id": "250844",
@@ -870,7 +1014,9 @@
       "age": 32,
       "value": 3500000,
       "contract": "2027-06-30",
-      "nat": "Ghana"
+      "nat": "Gana",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/250844-1789563222.png"
     },
     {
       "id": "248054",
@@ -881,7 +1027,9 @@
       "age": 29,
       "value": 3500000,
       "contract": "2028-06-30",
-      "nat": "Luxembourg"
+      "nat": "Luxembourg",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/248054-1789563432.png"
     },
     {
       "id": "817700",
@@ -892,7 +1040,9 @@
       "age": 22,
       "value": 3500000,
       "contract": "2030-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/817700-1789563865.png"
     },
     {
       "id": "245030",
@@ -903,7 +1053,9 @@
       "age": 30,
       "value": 3500000,
       "contract": "2027-06-30",
-      "nat": "Serbia"
+      "nat": "Sérvia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/245030-1789566792.png"
     },
     {
       "id": "1009031",
@@ -914,7 +1066,9 @@
       "age": 20,
       "value": 3500000,
       "contract": "2030-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1009031-1789567517.png"
     },
     {
       "id": "673114",
@@ -925,7 +1079,9 @@
       "age": 23,
       "value": 3500000,
       "contract": "2030-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/673114-1721728053.png"
     },
     {
       "id": "216240",
@@ -936,7 +1092,9 @@
       "age": 32,
       "value": 3500000,
       "contract": "2028-06-30",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/216240-1787136091.png"
     },
     {
       "id": "260677",
@@ -947,7 +1105,9 @@
       "age": 30,
       "value": 3500000,
       "contract": "2030-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/260677-1788848332.png"
     },
     {
       "id": "378953",
@@ -958,7 +1118,9 @@
       "age": 29,
       "value": 3500000,
       "contract": "2027-06-30",
-      "nat": "Cameroon"
+      "nat": "Camarões",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/378953-1788848607.png"
     },
     {
       "id": "804933",
@@ -969,7 +1131,9 @@
       "age": 25,
       "value": 3500000,
       "contract": "2029-06-30",
-      "nat": "France"
+      "nat": "França",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/804933-1727174964.png"
     },
     {
       "id": "866670",
@@ -980,7 +1144,9 @@
       "age": 25,
       "value": 3500000,
       "contract": "2028-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/866670-1721923370.png"
     },
     {
       "id": "720287",
@@ -991,7 +1157,9 @@
       "age": 21,
       "value": 3000000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/720287-1789567293.png"
     },
     {
       "id": "293829",
@@ -1002,7 +1170,9 @@
       "age": 32,
       "value": 3000000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/293829-1756127683.png"
     },
     {
       "id": "401534",
@@ -1013,7 +1183,9 @@
       "age": 28,
       "value": 3000000,
       "contract": "2029-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/401534-1740027281.png"
     },
     {
       "id": "763182",
@@ -1024,7 +1196,9 @@
       "age": 25,
       "value": 3000000,
       "contract": "2027-06-30",
-      "nat": "Haiti"
+      "nat": "Haiti",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/763182-1789064043.png"
     },
     {
       "id": "1049831",
@@ -1035,7 +1209,9 @@
       "age": 23,
       "value": 3000000,
       "contract": "2030-06-30",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1049831-1792478952.png"
     },
     {
       "id": "615650",
@@ -1046,7 +1222,9 @@
       "age": 25,
       "value": 3000000,
       "contract": "2030-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/615650-1787136200.png"
     },
     {
       "id": "515050",
@@ -1057,7 +1235,9 @@
       "age": 25,
       "value": 3000000,
       "contract": "2030-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/515050-1787136150.png"
     },
     {
       "id": "362570",
@@ -1068,7 +1248,9 @@
       "age": 29,
       "value": 3000000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/362570-1788849199.png"
     },
     {
       "id": "745284",
@@ -1079,7 +1261,9 @@
       "age": 21,
       "value": 3000000,
       "contract": "2030-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/745284-1788849267.png"
     },
     {
       "id": "300538",
@@ -1090,7 +1274,9 @@
       "age": 31,
       "value": 3000000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/300538-1788849304.png"
     },
     {
       "id": "565852",
@@ -1101,7 +1287,9 @@
       "age": 26,
       "value": 3000000,
       "contract": "2028-06-30",
-      "nat": "Armenia"
+      "nat": "Armenia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/565852-1722142255.png"
     },
     {
       "id": "431708",
@@ -1112,7 +1300,9 @@
       "age": 25,
       "value": 3000000,
       "contract": "2030-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/431708-1754203139.png"
     },
     {
       "id": "911400",
@@ -1123,7 +1313,9 @@
       "age": 29,
       "value": 3000000,
       "contract": "2028-06-30",
-      "nat": "Angola"
+      "nat": "Angola",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/911400-1754768803.png"
     },
     {
       "id": "1037971",
@@ -1134,7 +1326,9 @@
       "age": 19,
       "value": 3000000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1037971-1784996776.png"
     },
     {
       "id": "494586",
@@ -1145,7 +1339,9 @@
       "age": 27,
       "value": 3000000,
       "contract": "2027-06-30",
-      "nat": "France"
+      "nat": "França",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/494586-1788093712.png"
     },
     {
       "id": "279570",
@@ -1156,7 +1352,9 @@
       "age": 33,
       "value": 3000000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/279570-1758737579.png"
     },
     {
       "id": "584231",
@@ -1167,7 +1365,9 @@
       "age": 25,
       "value": 2800000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/584231-1722142175.png"
     },
     {
       "id": "227538",
@@ -1178,7 +1378,9 @@
       "age": 32,
       "value": 2800000,
       "contract": "2029-06-30",
-      "nat": "Montenegro"
+      "nat": "Montenegro",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/227538-1722142065.png"
     },
     {
       "id": "426326",
@@ -1189,7 +1391,9 @@
       "age": 27,
       "value": 2800000,
       "contract": "2029-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/426326-1757524711.png"
     },
     {
       "id": "1109232",
@@ -1200,7 +1404,9 @@
       "age": 18,
       "value": 2500000,
       "contract": "2031-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1109232-1784994822.png"
     },
     {
       "id": "863190",
@@ -1211,7 +1417,9 @@
       "age": 24,
       "value": 2500000,
       "contract": "2030-06-30",
-      "nat": "Algeria"
+      "nat": "Argélia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/863190-1790076661.png"
     },
     {
       "id": "371627",
@@ -1222,7 +1430,9 @@
       "age": 28,
       "value": 2500000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/371627-1790076621.png"
     },
     {
       "id": "1012421",
@@ -1233,7 +1443,9 @@
       "age": 20,
       "value": 2500000,
       "contract": "2028-06-30",
-      "nat": "Serbia"
+      "nat": "Sérvia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1012421-1789567336.png"
     },
     {
       "id": "281917",
@@ -1244,7 +1456,9 @@
       "age": 29,
       "value": 2500000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/281917-1721727569.png"
     },
     {
       "id": "395659",
@@ -1255,7 +1469,9 @@
       "age": 31,
       "value": 2500000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/395659-1765037481.png"
     },
     {
       "id": "382535",
@@ -1266,7 +1482,9 @@
       "age": 27,
       "value": 2500000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/382535-1788848648.png"
     },
     {
       "id": "318468",
@@ -1277,7 +1495,9 @@
       "age": 27,
       "value": 2500000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/318468-1788849574.png"
     },
     {
       "id": "279242",
@@ -1288,7 +1508,9 @@
       "age": 30,
       "value": 2500000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/279242-1788849624.png"
     },
     {
       "id": "389624",
@@ -1299,7 +1521,9 @@
       "age": 28,
       "value": 2500000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/389624-1722142040.png"
     },
     {
       "id": "401706",
@@ -1310,7 +1534,9 @@
       "age": 27,
       "value": 2500000,
       "contract": "2029-06-30",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/401706-1774189623.png"
     },
     {
       "id": "355692",
@@ -1321,7 +1547,9 @@
       "age": 29,
       "value": 2500000,
       "contract": "2029-06-30",
-      "nat": "Albania"
+      "nat": "Albania",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/355692-1771532233.png"
     },
     {
       "id": "555159",
@@ -1332,7 +1560,9 @@
       "age": 23,
       "value": 2500000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/555159-1754202640.png"
     },
     {
       "id": "815346",
@@ -1343,7 +1573,9 @@
       "age": 25,
       "value": 2500000,
       "contract": "2028-06-30",
-      "nat": "Mali"
+      "nat": "Mali",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/815346-1754202778.png"
     },
     {
       "id": "640692",
@@ -1354,7 +1586,9 @@
       "age": 30,
       "value": 2500000,
       "contract": "2027-06-30",
-      "nat": "Niger"
+      "nat": "Niger",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/640692-1721922279.png"
     },
     {
       "id": "666616",
@@ -1365,7 +1599,9 @@
       "age": 24,
       "value": 2500000,
       "contract": "2029-06-30",
-      "nat": "Nigeria"
+      "nat": "Nigéria",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/666616-1754202044.png"
     },
     {
       "id": "501769",
@@ -1376,7 +1612,9 @@
       "age": 24,
       "value": 2500000,
       "contract": "2030-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/501769-1721922918.png"
     },
     {
       "id": "524403",
@@ -1387,7 +1625,9 @@
       "age": 27,
       "value": 2500000,
       "contract": "2028-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/524403-1722144479.png"
     },
     {
       "id": "465408",
@@ -1398,7 +1638,9 @@
       "age": 26,
       "value": 2000000,
       "contract": "2028-06-30",
-      "nat": "Kazakhstan"
+      "nat": "Kazakhstan",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/465408-1784994639.png"
     },
     {
       "id": "170620",
@@ -1409,7 +1651,9 @@
       "age": 31,
       "value": 2000000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/170620-1784994611.png"
     },
     {
       "id": "166277",
@@ -1420,7 +1664,9 @@
       "age": 32,
       "value": 2000000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/166277-1789563506.png"
     },
     {
       "id": "706618",
@@ -1431,7 +1677,9 @@
       "age": 23,
       "value": 2000000,
       "contract": "2030-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/706618-1789563470.png"
     },
     {
       "id": "263962",
@@ -1442,7 +1690,9 @@
       "age": 30,
       "value": 2000000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/263962-1789563911.png"
     },
     {
       "id": "526448",
@@ -1453,7 +1703,9 @@
       "age": 26,
       "value": 2000000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/526448-1789566182.png"
     },
     {
       "id": "555146",
@@ -1464,7 +1716,9 @@
       "age": 23,
       "value": 2000000,
       "contract": "2030-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/555146-1789566289.png"
     },
     {
       "id": "379249",
@@ -1475,7 +1729,9 @@
       "age": 31,
       "value": 2000000,
       "contract": "2029-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/379249-1789566889.png"
     },
     {
       "id": "654117",
@@ -1486,7 +1742,9 @@
       "age": 25,
       "value": 2000000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/654117-1789567561.png"
     },
     {
       "id": "1141473",
@@ -1497,7 +1755,9 @@
       "age": 19,
       "value": 2000000,
       "contract": "2030-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1141473-1789567596.png"
     },
     {
       "id": "918327",
@@ -1508,7 +1768,9 @@
       "age": 20,
       "value": 2000000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/918327-1753019011.png"
     },
     {
       "id": "491589",
@@ -1519,7 +1781,9 @@
       "age": 26,
       "value": 2000000,
       "contract": "2029-06-30",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/491589-1721727605.png"
     },
     {
       "id": "344299",
@@ -1530,7 +1794,9 @@
       "age": 28,
       "value": 2000000,
       "contract": "2029-06-30",
-      "nat": "Kazakhstan"
+      "nat": "Kazakhstan",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/344299-1753695532.png"
     },
     {
       "id": "255451",
@@ -1541,7 +1807,9 @@
       "age": 31,
       "value": 2000000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/255451-1756085788.png"
     },
     {
       "id": "622461",
@@ -1552,7 +1820,9 @@
       "age": 24,
       "value": 2000000,
       "contract": "2031-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/622461-1788848875.png"
     },
     {
       "id": "689628",
@@ -1563,7 +1833,9 @@
       "age": 29,
       "value": 2000000,
       "contract": "2028-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/689628-1788848820.png"
     },
     {
       "id": "401769",
@@ -1574,7 +1846,9 @@
       "age": 28,
       "value": 2000000,
       "contract": "2029-06-30",
-      "nat": "Honduras"
+      "nat": "Honduras",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/401769-1754200079.png"
     },
     {
       "id": "522030",
@@ -1585,7 +1859,9 @@
       "age": 28,
       "value": 2000000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/522030-1755614192.png"
     },
     {
       "id": "693412",
@@ -1596,7 +1872,9 @@
       "age": 26,
       "value": 2000000,
       "contract": "2029-06-30",
-      "nat": "Nigeria"
+      "nat": "Nigéria",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/693412-1754203397.png"
     },
     {
       "id": "424022",
@@ -1607,7 +1885,9 @@
       "age": 28,
       "value": 2000000,
       "contract": "2029-06-30",
-      "nat": "Tajikistan"
+      "nat": "Tajikistan",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/424022-1721921468.png"
     },
     {
       "id": "621436",
@@ -1618,7 +1898,9 @@
       "age": 25,
       "value": 2000000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/621436-1774190087.png"
     },
     {
       "id": "402625",
@@ -1629,7 +1911,9 @@
       "age": 26,
       "value": 2000000,
       "contract": "2030-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/402625-1721923128.png"
     },
     {
       "id": "381834",
@@ -1640,7 +1924,9 @@
       "age": 28,
       "value": 2000000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/381834-1721923017.png"
     },
     {
       "id": "629585",
@@ -1651,7 +1937,9 @@
       "age": 27,
       "value": 2000000,
       "contract": "2029-06-30",
-      "nat": "Mali"
+      "nat": "Mali",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/629585-1727174170.png"
     },
     {
       "id": "820252",
@@ -1662,7 +1950,9 @@
       "age": 24,
       "value": 2000000,
       "contract": "2028-06-30",
-      "nat": "Cape Verde"
+      "nat": "Cabo Verde",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/820252-1784996883.png"
     },
     {
       "id": "410158",
@@ -1673,7 +1963,9 @@
       "age": 30,
       "value": 2000000,
       "contract": "2027-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/410158-1789568569.png"
     },
     {
       "id": "1106216",
@@ -1684,7 +1976,9 @@
       "age": 24,
       "value": 2000000,
       "contract": "2029-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1106216-1768399497.png"
     },
     {
       "id": "1160957",
@@ -1695,7 +1989,9 @@
       "age": 19,
       "value": 2000000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1160957-1749124765.png"
     },
     {
       "id": "842780",
@@ -1706,7 +2002,9 @@
       "age": 26,
       "value": 2000000,
       "contract": "2028-06-30",
-      "nat": "Algeria"
+      "nat": "Argélia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/842780-1754041214.png"
     },
     {
       "id": "1080107",
@@ -1717,7 +2015,9 @@
       "age": 18,
       "value": 1800000,
       "contract": "2031-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1080107-1753020485.png"
     },
     {
       "id": "375667",
@@ -1728,7 +2028,9 @@
       "age": 27,
       "value": 1800000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/375667-1787136658.png"
     },
     {
       "id": "312891",
@@ -1739,7 +2041,9 @@
       "age": 28,
       "value": 1800000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/312891-1784994347.png"
     },
     {
       "id": "360451",
@@ -1750,7 +2054,9 @@
       "age": 30,
       "value": 1800000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/360451-1754202736.png"
     },
     {
       "id": "727569",
@@ -1761,7 +2067,9 @@
       "age": 23,
       "value": 1800000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/727569-1721922247.png"
     },
     {
       "id": "787305",
@@ -1772,7 +2080,9 @@
       "age": 23,
       "value": 1800000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/787305-1721923514.png"
     },
     {
       "id": "582074",
@@ -1783,7 +2093,9 @@
       "age": 26,
       "value": 1800000,
       "contract": "2030-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/582074-1754200639.png"
     },
     {
       "id": "486204",
@@ -1794,7 +2106,9 @@
       "age": 27,
       "value": 1800000,
       "contract": "2029-06-30",
-      "nat": "Albania"
+      "nat": "Albania",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/486204-1773760652.png"
     },
     {
       "id": "281552",
@@ -1805,7 +2119,9 @@
       "age": 29,
       "value": 1800000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/281552-1754769203.png"
     },
     {
       "id": "466125",
@@ -1816,7 +2132,9 @@
       "age": 25,
       "value": 1800000,
       "contract": "2027-06-30",
-      "nat": "Serbia"
+      "nat": "Sérvia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/466125-1793200380.png"
     },
     {
       "id": "505652",
@@ -1827,7 +2145,9 @@
       "age": 26,
       "value": 1800000,
       "contract": "2030-06-30",
-      "nat": "Serbia"
+      "nat": "Sérvia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/505652-1784996801.png"
     },
     {
       "id": "332560",
@@ -1838,7 +2158,9 @@
       "age": 33,
       "value": 1800000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/332560-1789568533.png"
     },
     {
       "id": "568318",
@@ -1849,7 +2171,9 @@
       "age": 30,
       "value": 1800000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/568318-1787948333.png"
     },
     {
       "id": "448983",
@@ -1860,7 +2184,9 @@
       "age": 27,
       "value": 1800000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/448983-1784994695.png"
     },
     {
       "id": "520060",
@@ -1871,7 +2197,9 @@
       "age": 24,
       "value": 1500000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/520060-1784994669.png"
     },
     {
       "id": "917402",
@@ -1882,7 +2210,9 @@
       "age": 21,
       "value": 1500000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/917402-1789566973.png"
     },
     {
       "id": "149928",
@@ -1893,7 +2223,9 @@
       "age": 33,
       "value": 1500000,
       "contract": "2028-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/149928-1787136247.png"
     },
     {
       "id": "487421",
@@ -1904,7 +2236,9 @@
       "age": 27,
       "value": 1500000,
       "contract": "2028-06-30",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/487421-1787136887.png"
     },
     {
       "id": "230946",
@@ -1915,7 +2249,9 @@
       "age": 31,
       "value": 1500000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/230946-1788848379.png"
     },
     {
       "id": "697724",
@@ -1926,7 +2262,9 @@
       "age": 22,
       "value": 1500000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/697724-1788848737.png"
     },
     {
       "id": "606526",
@@ -1937,7 +2275,9 @@
       "age": 26,
       "value": 1500000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/606526-1789071284.png"
     },
     {
       "id": "1080109",
@@ -1948,7 +2288,9 @@
       "age": 18,
       "value": 1500000,
       "contract": "2030-12-31",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1080109-1788849103.png"
     },
     {
       "id": "720281",
@@ -1959,7 +2301,9 @@
       "age": 21,
       "value": 1500000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/720281-1757618956.png"
     },
     {
       "id": "459661",
@@ -1970,7 +2314,9 @@
       "age": 25,
       "value": 1500000,
       "contract": "2027-06-30",
-      "nat": "Italy"
+      "nat": "Itália",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/459661-1790342155.png"
     },
     {
       "id": "452464",
@@ -1981,7 +2327,9 @@
       "age": 25,
       "value": 1500000,
       "contract": "2030-06-30",
-      "nat": "Kosovo"
+      "nat": "Kosovo",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/452464-1722142613.png"
     },
     {
       "id": "742858",
@@ -1992,7 +2340,9 @@
       "age": 25,
       "value": 1500000,
       "contract": "2030-06-30",
-      "nat": "Panama"
+      "nat": "Panamá",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/742858-1774189473.png"
     },
     {
       "id": "449722",
@@ -2003,7 +2353,9 @@
       "age": 27,
       "value": 1500000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/449722-1721923420.png"
     },
     {
       "id": "810558",
@@ -2014,7 +2366,9 @@
       "age": 24,
       "value": 1500000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/810558-1754768463.png"
     },
     {
       "id": "455016",
@@ -2025,7 +2379,9 @@
       "age": 27,
       "value": 1500000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/455016-1756746663.png"
     },
     {
       "id": "274694",
@@ -2036,7 +2392,9 @@
       "age": 30,
       "value": 1500000,
       "contract": "2027-06-30",
-      "nat": "Romania"
+      "nat": "Romênia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/274694-1784996291.png"
     },
     {
       "id": "598101",
@@ -2047,7 +2405,9 @@
       "age": 27,
       "value": 1500000,
       "contract": "2030-06-30",
-      "nat": "Bolivia"
+      "nat": "Bolívia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/598101-1784996315.png"
     },
     {
       "id": "636601",
@@ -2058,7 +2418,9 @@
       "age": 23,
       "value": 1500000,
       "contract": "2030-06-30",
-      "nat": "Serbia"
+      "nat": "Sérvia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/636601-1784996554.png"
     },
     {
       "id": "375857",
@@ -2069,7 +2431,9 @@
       "age": 28,
       "value": 1500000,
       "contract": "2028-06-30",
-      "nat": "Croatia"
+      "nat": "Croácia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/375857-1784996526.png"
     },
     {
       "id": "1160366",
@@ -2080,7 +2444,9 @@
       "age": 19,
       "value": 1500000,
       "contract": "2030-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1160366-1784996910.png"
     },
     {
       "id": "445096",
@@ -2091,7 +2457,9 @@
       "age": 26,
       "value": 1500000,
       "contract": "2029-06-30",
-      "nat": "Spain"
+      "nat": "Espanha",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/445096-1789568478.png"
     },
     {
       "id": "310132",
@@ -2102,7 +2470,9 @@
       "age": 28,
       "value": 1500000,
       "contract": null,
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/310132-1752990988.png"
     },
     {
       "id": "214238",
@@ -2113,7 +2483,9 @@
       "age": 30,
       "value": 1500000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/214238-1755684981.png"
     },
     {
       "id": "585082",
@@ -2124,7 +2496,9 @@
       "age": 27,
       "value": 1500000,
       "contract": "2028-06-30",
-      "nat": "Serbia"
+      "nat": "Sérvia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/585082-1754201069.png"
     },
     {
       "id": "334440",
@@ -2135,7 +2509,9 @@
       "age": 28,
       "value": 1500000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/334440-1755685038.png"
     },
     {
       "id": "697728",
@@ -2146,7 +2522,9 @@
       "age": 22,
       "value": 1500000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/697728-1788849665.png"
     },
     {
       "id": "918827",
@@ -2157,7 +2535,9 @@
       "age": 21,
       "value": 1500000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/918827-1757586822.png"
     },
     {
       "id": "461903",
@@ -2168,7 +2548,9 @@
       "age": 27,
       "value": 1500000,
       "contract": "2028-06-30",
-      "nat": "Portugal"
+      "nat": "Portugal",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/461903-1789114437.png"
     },
     {
       "id": "889462",
@@ -2179,7 +2561,9 @@
       "age": 22,
       "value": 1500000,
       "contract": "2030-06-30",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/889462-1754115100.png"
     },
     {
       "id": "654591",
@@ -2190,7 +2574,9 @@
       "age": 25,
       "value": 1500000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/654591-1754040962.png"
     },
     {
       "id": "480139",
@@ -2201,7 +2587,9 @@
       "age": 27,
       "value": 1500000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/480139-1754041155.png"
     },
     {
       "id": "1030739",
@@ -2212,7 +2600,9 @@
       "age": 23,
       "value": 1500000,
       "contract": "2027-06-30",
-      "nat": "Iran"
+      "nat": "Iran",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1030739-1754041179.png"
     },
     {
       "id": "567023",
@@ -2223,7 +2613,9 @@
       "age": 26,
       "value": 1500000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/567023-1754041414.png"
     },
     {
       "id": "673429",
@@ -2234,7 +2626,9 @@
       "age": 21,
       "value": 1200000,
       "contract": "2027-06-30",
-      "nat": "Serbia"
+      "nat": "Sérvia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/673429-1721727767.png"
     },
     {
       "id": "939068",
@@ -2245,7 +2639,9 @@
       "age": 19,
       "value": 1200000,
       "contract": "2030-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/939068-1753020130.png"
     },
     {
       "id": "137206",
@@ -2256,7 +2652,9 @@
       "age": 34,
       "value": 1200000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/137206-1783691404.png"
     },
     {
       "id": "189485",
@@ -2267,7 +2665,9 @@
       "age": 32,
       "value": 1200000,
       "contract": "2027-06-30",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/189485-1788848701.png"
     },
     {
       "id": "811544",
@@ -2278,7 +2678,9 @@
       "age": 23,
       "value": 1200000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/811544-1788848913.png"
     },
     {
       "id": "989069",
@@ -2289,7 +2691,9 @@
       "age": 22,
       "value": 1200000,
       "contract": "2026-12-31",
-      "nat": "Uzbekistan"
+      "nat": "Uzbekistan",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/989069-1745338930.png"
     },
     {
       "id": "799936",
@@ -2300,7 +2704,9 @@
       "age": 25,
       "value": 1200000,
       "contract": "2030-06-30",
-      "nat": "France"
+      "nat": "França",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/799936-1789455813.png"
     },
     {
       "id": "301037",
@@ -2311,7 +2717,9 @@
       "age": 30,
       "value": 1200000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/301037-1754202599.png"
     },
     {
       "id": "297034",
@@ -2322,7 +2730,9 @@
       "age": 31,
       "value": 1200000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/297034-1754203062.png"
     },
     {
       "id": "623274",
@@ -2333,7 +2743,9 @@
       "age": 25,
       "value": 1200000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/623274-1757587577.png"
     },
     {
       "id": "829380",
@@ -2344,7 +2756,9 @@
       "age": 27,
       "value": 1200000,
       "contract": "2028-06-30",
-      "nat": "Senegal"
+      "nat": "Senegal",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/829380-1754768678.png"
     },
     {
       "id": "273945",
@@ -2355,7 +2769,9 @@
       "age": 30,
       "value": 1200000,
       "contract": "2027-06-30",
-      "nat": "Serbia"
+      "nat": "Sérvia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/273945-1754768495.png"
     },
     {
       "id": "645423",
@@ -2366,7 +2782,9 @@
       "age": 28,
       "value": 1200000,
       "contract": "2029-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/645423-1723010198.png"
     },
     {
       "id": "646894",
@@ -2377,7 +2795,9 @@
       "age": 23,
       "value": 1200000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/646894-1774190131.png"
     },
     {
       "id": "352599",
@@ -2388,7 +2808,9 @@
       "age": 30,
       "value": 1200000,
       "contract": "2028-06-30",
-      "nat": "Montenegro"
+      "nat": "Montenegro",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/352599-1784996585.png"
     },
     {
       "id": "1033394",
@@ -2399,7 +2821,9 @@
       "age": 22,
       "value": 1200000,
       "contract": "2030-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1033394-1784996855.png"
     },
     {
       "id": "1083607",
@@ -2410,7 +2834,9 @@
       "age": 24,
       "value": 1200000,
       "contract": "2027-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1083607-1784996829.png"
     },
     {
       "id": "402434",
@@ -2421,7 +2847,9 @@
       "age": 31,
       "value": 1200000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/402434-1789568915.png"
     },
     {
       "id": "380349",
@@ -2432,7 +2860,9 @@
       "age": 30,
       "value": 1200000,
       "contract": null,
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/380349-1752990447.png"
     },
     {
       "id": "413524",
@@ -2443,7 +2873,9 @@
       "age": 29,
       "value": 1200000,
       "contract": null,
-      "nat": "Slovenia"
+      "nat": "Eslovênia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/413524-1789568618.png"
     },
     {
       "id": "391720",
@@ -2454,7 +2886,9 @@
       "age": 30,
       "value": 1200000,
       "contract": "2027-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/391720-1792336912.png"
     },
     {
       "id": "535968",
@@ -2465,7 +2899,9 @@
       "age": 26,
       "value": 1200000,
       "contract": null,
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/535968-1752990695.png"
     },
     {
       "id": "373374",
@@ -2476,7 +2912,9 @@
       "age": 29,
       "value": 1200000,
       "contract": "2027-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/373374-1754769166.png"
     },
     {
       "id": "653776",
@@ -2487,7 +2925,9 @@
       "age": 27,
       "value": 1200000,
       "contract": null,
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/653776-1752990965.png"
     },
     {
       "id": "498015",
@@ -2498,7 +2938,9 @@
       "age": 29,
       "value": 1200000,
       "contract": "2029-06-30",
-      "nat": "Belarus"
+      "nat": "Belarus",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/498015-1722144447.png"
     },
     {
       "id": "285868",
@@ -2509,7 +2951,9 @@
       "age": 28,
       "value": 1200000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/285868-1722144387.png"
     },
     {
       "id": "447101",
@@ -2520,7 +2964,9 @@
       "age": 28,
       "value": 1200000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/447101-1722144537.png"
     },
     {
       "id": "764386",
@@ -2531,7 +2977,9 @@
       "age": 26,
       "value": 1200000,
       "contract": "2027-06-30",
-      "nat": "Kazakhstan"
+      "nat": "Kazakhstan",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/764386-1787065991.png"
     },
     {
       "id": "599203",
@@ -2542,7 +2990,9 @@
       "age": 28,
       "value": 1200000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/599203-1721728027.png"
     },
     {
       "id": "575408",
@@ -2553,7 +3003,9 @@
       "age": 25,
       "value": 1200000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/575408-1754114894.png"
     },
     {
       "id": "1102540",
@@ -2564,7 +3016,9 @@
       "age": 25,
       "value": 1200000,
       "contract": "2029-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1102540-1774189902.png"
     },
     {
       "id": "315252",
@@ -2575,7 +3029,9 @@
       "age": 28,
       "value": 1200000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/315252-1754202081.png"
     },
     {
       "id": "217686",
@@ -2586,7 +3042,9 @@
       "age": 30,
       "value": 1000000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/217686-1789562959.png"
     },
     {
       "id": "15570",
@@ -2597,7 +3055,9 @@
       "age": 40,
       "value": 1000000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/15570-1789566041.png"
     },
     {
       "id": "718759",
@@ -2608,7 +3068,9 @@
       "age": 22,
       "value": 1000000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/718759-1753019353.png"
     },
     {
       "id": "687617",
@@ -2619,7 +3081,9 @@
       "age": 24,
       "value": 1000000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/687617-1721727898.png"
     },
     {
       "id": "185024",
@@ -2630,7 +3094,9 @@
       "age": 32,
       "value": 1000000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/185024-1788848778.png"
     },
     {
       "id": "685854",
@@ -2641,7 +3107,9 @@
       "age": 24,
       "value": 1000000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/685854-1722142287.png"
     },
     {
       "id": "917404",
@@ -2652,7 +3120,9 @@
       "age": 21,
       "value": 1000000,
       "contract": "2029-12-31",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/917404-1774189412.png"
     },
     {
       "id": "593480",
@@ -2663,7 +3133,9 @@
       "age": 26,
       "value": 1000000,
       "contract": "2029-06-05",
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/593480-1754203183.png"
     },
     {
       "id": "376127",
@@ -2674,7 +3146,9 @@
       "age": 27,
       "value": 1000000,
       "contract": "2030-06-30",
-      "nat": "Bosnia-Herzegovina"
+      "nat": "Bósnia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/376127-1754202972.png"
     },
     {
       "id": "486083",
@@ -2685,7 +3159,9 @@
       "age": 25,
       "value": 1000000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/486083-1754200247.png"
     },
     {
       "id": "457743",
@@ -2696,7 +3172,9 @@
       "age": 28,
       "value": 1000000,
       "contract": "2028-06-30",
-      "nat": "Burkina Faso"
+      "nat": "Burkina Faso",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/457743-1754769111.png"
     },
     {
       "id": "700755",
@@ -2707,7 +3185,9 @@
       "age": 25,
       "value": 1000000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/700755-1784996339.png"
     },
     {
       "id": "396428",
@@ -2718,7 +3198,9 @@
       "age": 29,
       "value": 1000000,
       "contract": "2027-06-30",
-      "nat": "Portugal"
+      "nat": "Portugal",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/396428-1784996407.png"
     },
     {
       "id": "391905",
@@ -2729,7 +3211,9 @@
       "age": 28,
       "value": 1000000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/391905-1784996615.png"
     },
     {
       "id": "353559",
@@ -2740,7 +3224,9 @@
       "age": 26,
       "value": 1000000,
       "contract": "2027-06-30",
-      "nat": "Croatia"
+      "nat": "Croácia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/353559-1726166165.png"
     },
     {
       "id": "539469",
@@ -2751,7 +3237,9 @@
       "age": 27,
       "value": 1000000,
       "contract": "2027-06-30",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/539469-1726166131.png"
     },
     {
       "id": "534477",
@@ -2762,7 +3250,9 @@
       "age": 27,
       "value": 1000000,
       "contract": "2028-06-09",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/534477-1754114438.png"
     },
     {
       "id": "653408",
@@ -2773,7 +3263,9 @@
       "age": 27,
       "value": 1000000,
       "contract": "2029-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/653408-1777137666.png"
     },
     {
       "id": "628049",
@@ -2784,7 +3276,9 @@
       "age": 24,
       "value": 1000000,
       "contract": "2029-06-30",
-      "nat": "Bulgaria"
+      "nat": "Bulgaria",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/628049-1679943859.png"
     },
     {
       "id": "702149",
@@ -2795,7 +3289,9 @@
       "age": 27,
       "value": 1000000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/702149-1754040887.png"
     },
     {
       "id": "1043831",
@@ -2806,7 +3302,9 @@
       "age": 23,
       "value": 1000000,
       "contract": "2029-06-30",
-      "nat": "Angola"
+      "nat": "Angola",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1043831-1757608705.png"
     },
     {
       "id": "991180",
@@ -2817,7 +3315,9 @@
       "age": 20,
       "value": 1000000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/991180-1753096734.png"
     },
     {
       "id": "541006",
@@ -2828,7 +3328,9 @@
       "age": 28,
       "value": 1000000,
       "contract": "2027-06-30",
-      "nat": "Albania"
+      "nat": "Albania",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/541006-1754304252.png"
     },
     {
       "id": "574669",
@@ -2839,7 +3341,9 @@
       "age": 25,
       "value": 900000,
       "contract": "2027-06-30",
-      "nat": "Serbia"
+      "nat": "Sérvia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/574669-1722142343.png"
     },
     {
       "id": "393699",
@@ -2850,7 +3354,9 @@
       "age": 26,
       "value": 900000,
       "contract": "2028-06-30",
-      "nat": "Austria"
+      "nat": "Áustria",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/393699-1722142315.png"
     },
     {
       "id": "265589",
@@ -2861,7 +3367,9 @@
       "age": 30,
       "value": 900000,
       "contract": "2028-06-30",
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/265589-1755770790.png"
     },
     {
       "id": "230536",
@@ -2872,7 +3380,9 @@
       "age": 31,
       "value": 900000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/230536-1754203015.png"
     },
     {
       "id": "1247237",
@@ -2883,7 +3393,9 @@
       "age": 22,
       "value": 900000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1247237-1753715555.png"
     },
     {
       "id": "817604",
@@ -2894,7 +3406,9 @@
       "age": 22,
       "value": 900000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/817604-1724335500.png"
     },
     {
       "id": "799095",
@@ -2905,7 +3419,9 @@
       "age": 25,
       "value": 900000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/799095-1754768420.png"
     },
     {
       "id": "456814",
@@ -2916,7 +3432,9 @@
       "age": 28,
       "value": 900000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/456814-1754768638.png"
     },
     {
       "id": "946954",
@@ -2927,7 +3445,9 @@
       "age": 22,
       "value": 900000,
       "contract": "2030-06-30",
-      "nat": "Albania"
+      "nat": "Albania",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/946954-1779711463.png"
     },
     {
       "id": "908807",
@@ -2938,7 +3458,9 @@
       "age": 23,
       "value": 900000,
       "contract": "2029-06-30",
-      "nat": "Bolivia"
+      "nat": "Bolívia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/908807-1784996377.png"
     },
     {
       "id": "535974",
@@ -2949,7 +3471,9 @@
       "age": 26,
       "value": 900000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/535974-1784996643.png"
     },
     {
       "id": "318705",
@@ -2960,7 +3484,9 @@
       "age": 28,
       "value": 900000,
       "contract": "2029-06-30",
-      "nat": "Slovenia"
+      "nat": "Eslovênia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/318705-1757588046.png"
     },
     {
       "id": "529870",
@@ -2971,7 +3497,9 @@
       "age": 24,
       "value": 900000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/529870-1754114612.png"
     },
     {
       "id": "312502",
@@ -2982,7 +3510,9 @@
       "age": 28,
       "value": 900000,
       "contract": "2028-06-15",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/312502-1754114501.png"
     },
     {
       "id": "580715",
@@ -2993,7 +3523,9 @@
       "age": 28,
       "value": 900000,
       "contract": "2029-06-30",
-      "nat": "France"
+      "nat": "França",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/580715-1732263003.png"
     },
     {
       "id": "649343",
@@ -3004,7 +3536,9 @@
       "age": 22,
       "value": 900000,
       "contract": "2030-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/649343-1757587913.png"
     },
     {
       "id": "334425",
@@ -3015,7 +3549,9 @@
       "age": 29,
       "value": 900000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/334425-1754041030.png"
     },
     {
       "id": "1109229",
@@ -3026,7 +3562,9 @@
       "age": 18,
       "value": 800000,
       "contract": "2031-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1109229-1784995115.png"
     },
     {
       "id": "112541",
@@ -3037,7 +3575,9 @@
       "age": 34,
       "value": 800000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/112541-1721727463.png"
     },
     {
       "id": "948363",
@@ -3048,7 +3588,9 @@
       "age": 22,
       "value": 800000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/948363-1788848963.png"
     },
     {
       "id": "637552",
@@ -3059,7 +3601,9 @@
       "age": 22,
       "value": 800000,
       "contract": "2030-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/637552-1754201709.png"
     },
     {
       "id": "187211",
@@ -3070,7 +3614,9 @@
       "age": 31,
       "value": 800000,
       "contract": "2028-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/187211-1745500088.png"
     },
     {
       "id": "1059814",
@@ -3081,7 +3627,9 @@
       "age": 23,
       "value": 800000,
       "contract": "2029-06-30",
-      "nat": "Angola"
+      "nat": "Angola",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1059814-1754768940.png"
     },
     {
       "id": "253734",
@@ -3092,7 +3640,9 @@
       "age": 31,
       "value": 800000,
       "contract": "2027-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/253734-1754768875.png"
     },
     {
       "id": "190188",
@@ -3103,7 +3653,9 @@
       "age": 31,
       "value": 800000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/190188-1784996228.png"
     },
     {
       "id": "817673",
@@ -3114,7 +3666,9 @@
       "age": 22,
       "value": 800000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/817673-1752990392.png"
     },
     {
       "id": "330780",
@@ -3125,7 +3679,9 @@
       "age": 29,
       "value": 800000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/330780-1752990342.png"
     },
     {
       "id": "538954",
@@ -3136,7 +3692,9 @@
       "age": 23,
       "value": 800000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/538954-1754200926.png"
     },
     {
       "id": "697954",
@@ -3147,7 +3705,9 @@
       "age": 21,
       "value": 800000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/697954-1754201017.png"
     },
     {
       "id": "265282",
@@ -3158,7 +3718,9 @@
       "age": 32,
       "value": 800000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/265282-1754200970.png"
     },
     {
       "id": "601456",
@@ -3169,7 +3731,9 @@
       "age": 26,
       "value": 800000,
       "contract": "2028-06-15",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/601456-1777137822.png"
     },
     {
       "id": "451244",
@@ -3180,7 +3744,9 @@
       "age": 25,
       "value": 800000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/451244-1754040775.png"
     },
     {
       "id": "622477",
@@ -3191,7 +3757,9 @@
       "age": 24,
       "value": 800000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/622477-1754040822.png"
     },
     {
       "id": "1317563",
@@ -3202,7 +3770,9 @@
       "age": 19,
       "value": 800000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1317563-1726411474.png"
     },
     {
       "id": "528386",
@@ -3213,7 +3783,9 @@
       "age": 29,
       "value": 800000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/528386-1754303784.png"
     },
     {
       "id": "323710",
@@ -3224,7 +3796,9 @@
       "age": 30,
       "value": 800000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/323710-1754303727.png"
     },
     {
       "id": "917403",
@@ -3235,7 +3809,9 @@
       "age": 21,
       "value": 750000,
       "contract": "2028-06-30",
-      "nat": "Armenia"
+      "nat": "Armenia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/917403-1789567385.png"
     },
     {
       "id": "687463",
@@ -3246,7 +3822,9 @@
       "age": 24,
       "value": 750000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/687463-1787135929.png"
     },
     {
       "id": "379634",
@@ -3257,7 +3835,9 @@
       "age": 31,
       "value": 750000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/379634-1722142093.png"
     },
     {
       "id": "637540",
@@ -3268,7 +3848,9 @@
       "age": 22,
       "value": 750000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/637540-1789070008.png"
     },
     {
       "id": "637545",
@@ -3279,7 +3861,9 @@
       "age": 22,
       "value": 750000,
       "contract": "2030-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/637545-1754305485.png"
     },
     {
       "id": "317764",
@@ -3290,7 +3874,9 @@
       "age": 30,
       "value": 750000,
       "contract": "2028-06-30",
-      "nat": "Bosnia-Herzegovina"
+      "nat": "Bósnia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/317764-1754202704.png"
     },
     {
       "id": "235339",
@@ -3301,7 +3887,9 @@
       "age": 32,
       "value": 750000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/235339-1754200379.png"
     },
     {
       "id": "817607",
@@ -3312,7 +3900,9 @@
       "age": 22,
       "value": 750000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/817607-1611681845.png"
     },
     {
       "id": "519567",
@@ -3323,7 +3913,9 @@
       "age": 24,
       "value": 750000,
       "contract": "2031-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/519567-1784996431.png"
     },
     {
       "id": "1064063",
@@ -3334,7 +3926,9 @@
       "age": 20,
       "value": 750000,
       "contract": "2027-06-30",
-      "nat": "Armenia"
+      "nat": "Armenia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1064063-1754237034.png"
     },
     {
       "id": "166086",
@@ -3345,7 +3939,9 @@
       "age": 32,
       "value": 750000,
       "contract": "2027-06-30",
-      "nat": "Bosnia-Herzegovina"
+      "nat": "Bósnia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/166086-1722144511.png"
     },
     {
       "id": "574930",
@@ -3356,7 +3952,9 @@
       "age": 25,
       "value": 750000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/574930-1754114636.png"
     },
     {
       "id": "715359",
@@ -3367,7 +3965,9 @@
       "age": 21,
       "value": 750000,
       "contract": "2030-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/715359-1753020180.png"
     },
     {
       "id": "726445",
@@ -3378,7 +3978,9 @@
       "age": 22,
       "value": 700000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/726445-1754042274.png"
     },
     {
       "id": "604073",
@@ -3389,7 +3991,9 @@
       "age": 24,
       "value": 700000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/604073-1727460627.png"
     },
     {
       "id": "1151887",
@@ -3400,7 +4004,9 @@
       "age": 20,
       "value": 700000,
       "contract": "2030-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1151887-1688748593.png"
     },
     {
       "id": "701937",
@@ -3411,7 +4017,9 @@
       "age": 23,
       "value": 700000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/701937-1756746833.png"
     },
     {
       "id": "898119",
@@ -3422,7 +4030,9 @@
       "age": 21,
       "value": 700000,
       "contract": "2027-06-30",
-      "nat": "Belarus"
+      "nat": "Belarus",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/898119-1774189834.png"
     },
     {
       "id": "334481",
@@ -3433,7 +4043,9 @@
       "age": 29,
       "value": 700000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/334481-1752990366.png"
     },
     {
       "id": "869527",
@@ -3444,7 +4056,9 @@
       "age": 22,
       "value": 700000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/869527-1752990583.png"
     },
     {
       "id": "403187",
@@ -3455,7 +4069,9 @@
       "age": 29,
       "value": 700000,
       "contract": "2028-06-30",
-      "nat": "Spain"
+      "nat": "Espanha",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/403187-1770830598.png"
     },
     {
       "id": "372730",
@@ -3466,7 +4082,9 @@
       "age": 29,
       "value": 700000,
       "contract": "2028-06-30",
-      "nat": "Costa Rica"
+      "nat": "Costa Rica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/372730-1754201206.png"
     },
     {
       "id": "751099",
@@ -3477,7 +4095,9 @@
       "age": 23,
       "value": 700000,
       "contract": "2028-06-15",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/751099-1754114535.png"
     },
     {
       "id": "572818",
@@ -3488,7 +4108,9 @@
       "age": 26,
       "value": 700000,
       "contract": "2030-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/572818-1726669602.png"
     },
     {
       "id": "362572",
@@ -3499,7 +4121,9 @@
       "age": 28,
       "value": 700000,
       "contract": "2027-06-12",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/362572-1754114857.png"
     },
     {
       "id": "697958",
@@ -3510,7 +4134,9 @@
       "age": 21,
       "value": 700000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/697958-1754236731.png"
     },
     {
       "id": "772843",
@@ -3521,7 +4147,9 @@
       "age": 25,
       "value": 700000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/772843-1784289964.png"
     },
     {
       "id": "501777",
@@ -3532,7 +4160,9 @@
       "age": 24,
       "value": 700000,
       "contract": "2029-06-15",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/501777-1754115044.png"
     },
     {
       "id": "739439",
@@ -3543,7 +4173,9 @@
       "age": 25,
       "value": 700000,
       "contract": "2029-06-08",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/739439-1755770964.png"
     },
     {
       "id": "621586",
@@ -3554,7 +4186,9 @@
       "age": 25,
       "value": 700000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/621586-1754303604.png"
     },
     {
       "id": "462329",
@@ -3565,7 +4199,9 @@
       "age": 27,
       "value": 700000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/462329-1754303633.png"
     },
     {
       "id": "371968",
@@ -3576,7 +4212,9 @@
       "age": 26,
       "value": 700000,
       "contract": "2027-06-30",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/371968-1787818920.png",
       "loanFrom": "Sport Club Internacional"
     },
     {
@@ -3588,7 +4226,9 @@
       "age": 29,
       "value": 700000,
       "contract": "2028-06-30",
-      "nat": "Bosnia-Herzegovina"
+      "nat": "Bósnia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/293231-1754768529.png"
     },
     {
       "id": "448901",
@@ -3599,7 +4239,9 @@
       "age": 29,
       "value": 700000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/448901-1754303944.png"
     },
     {
       "id": "817843",
@@ -3610,7 +4252,9 @@
       "age": 21,
       "value": 700000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/817843-1787137027.png"
     },
     {
       "id": "718755",
@@ -3621,7 +4265,9 @@
       "age": 22,
       "value": 600000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/718755-1784994382.png"
     },
     {
       "id": "555135",
@@ -3632,7 +4278,9 @@
       "age": 23,
       "value": 600000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/555135-1747649006.png"
     },
     {
       "id": "168527",
@@ -3643,7 +4291,9 @@
       "age": 30,
       "value": 600000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/168527-1721727500.png"
     },
     {
       "id": "908186",
@@ -3654,7 +4304,9 @@
       "age": 26,
       "value": 600000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/908186-1754236315.png"
     },
     {
       "id": "726446",
@@ -3665,7 +4317,9 @@
       "age": 22,
       "value": 600000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/726446-1632894860.png"
     },
     {
       "id": "918332",
@@ -3676,7 +4330,9 @@
       "age": 21,
       "value": 600000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/918332-1650301120.png"
     },
     {
       "id": "704593",
@@ -3687,7 +4343,9 @@
       "age": 23,
       "value": 600000,
       "contract": "2030-06-30",
-      "nat": "Kazakhstan"
+      "nat": "Kazakhstan",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/704593-1774190169.png"
     },
     {
       "id": "881024",
@@ -3698,7 +4356,9 @@
       "age": 21,
       "value": 600000,
       "contract": "2031-06-30",
-      "nat": "Armenia"
+      "nat": "Armenia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/881024-1789074882.png"
     },
     {
       "id": "461687",
@@ -3709,7 +4369,9 @@
       "age": 28,
       "value": 600000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/461687-1752990528.png"
     },
     {
       "id": "416704",
@@ -3720,7 +4382,9 @@
       "age": 27,
       "value": 600000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/416704-1757606126.png"
     },
     {
       "id": "718763",
@@ -3731,7 +4395,9 @@
       "age": 22,
       "value": 600000,
       "contract": "2029-12-31",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/718763-1774189755.png"
     },
     {
       "id": "1160724",
@@ -3742,7 +4408,9 @@
       "age": 19,
       "value": 600000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1160724-1787136982.png"
     },
     {
       "id": "516749",
@@ -3753,7 +4421,9 @@
       "age": 23,
       "value": 600000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/516749-1722144724.png"
     },
     {
       "id": "438306",
@@ -3764,7 +4434,9 @@
       "age": 30,
       "value": 600000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/438306-1754041058.png"
     },
     {
       "id": "599046",
@@ -3775,7 +4447,9 @@
       "age": 25,
       "value": 600000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/599046-1722142402.png"
     },
     {
       "id": "235344",
@@ -3786,7 +4460,9 @@
       "age": 30,
       "value": 600000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/235344-1754303566.png"
     },
     {
       "id": "645682",
@@ -3797,7 +4473,9 @@
       "age": 28,
       "value": 600000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/645682-1754303814.png"
     },
     {
       "id": "217033",
@@ -3808,7 +4486,9 @@
       "age": 32,
       "value": 600000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/217033-1754201161.png"
     },
     {
       "id": "395163",
@@ -3819,7 +4499,9 @@
       "age": 28,
       "value": 550000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/395163-1754303841.png"
     },
     {
       "id": "1242657",
@@ -3830,7 +4512,9 @@
       "age": 18,
       "value": 500000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1242657-1789567633.png"
     },
     {
       "id": "1037572",
@@ -3841,7 +4525,9 @@
       "age": 20,
       "value": 500000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1037572-1788849008.png"
     },
     {
       "id": "1244223",
@@ -3852,7 +4538,9 @@
       "age": 18,
       "value": 500000,
       "contract": "2031-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1244223-1788849736.png"
     },
     {
       "id": "522145",
@@ -3863,7 +4551,9 @@
       "age": 23,
       "value": 500000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/522145-1722142658.png"
     },
     {
       "id": "699266",
@@ -3874,7 +4564,9 @@
       "age": 24,
       "value": 500000,
       "contract": "2030-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/699266-1752903630.png"
     },
     {
       "id": "1244877",
@@ -3885,7 +4577,9 @@
       "age": 18,
       "value": 500000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1244877-1787134410.png"
     },
     {
       "id": "817967",
@@ -3896,7 +4590,9 @@
       "age": 22,
       "value": 500000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/817967-1721923581.png"
     },
     {
       "id": "1385364",
@@ -3907,7 +4603,9 @@
       "age": 20,
       "value": 500000,
       "contract": "2030-06-30",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1385364-1784996935.png"
     },
     {
       "id": "673998",
@@ -3918,7 +4616,9 @@
       "age": 23,
       "value": 500000,
       "contract": "2030-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/673998-1784996670.png"
     },
     {
       "id": "375668",
@@ -3929,7 +4629,9 @@
       "age": 27,
       "value": 500000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/375668-1752990766.png"
     },
     {
       "id": "686193",
@@ -3940,7 +4642,9 @@
       "age": 23,
       "value": 500000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/686193-1752991141.png"
     },
     {
       "id": "622454",
@@ -3951,7 +4655,9 @@
       "age": 26,
       "value": 500000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/622454-1754041247.png"
     },
     {
       "id": "627926",
@@ -3962,7 +4668,9 @@
       "age": 26,
       "value": 500000,
       "contract": "2028-06-30",
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/627926-1729711049.png"
     },
     {
       "id": "555837",
@@ -3973,7 +4681,9 @@
       "age": 24,
       "value": 500000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/555837-1754304284.png"
     },
     {
       "id": "825668",
@@ -3984,7 +4694,9 @@
       "age": 25,
       "value": 500000,
       "contract": "2027-06-30",
-      "nat": "France"
+      "nat": "França",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/825668-1768567297.png"
     },
     {
       "id": "993437",
@@ -3995,7 +4707,9 @@
       "age": 22,
       "value": 450000,
       "contract": "2029-06-30",
-      "nat": "Belarus"
+      "nat": "Belarus",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/993437-1778322802.png"
     },
     {
       "id": "231724",
@@ -4006,7 +4720,9 @@
       "age": 32,
       "value": 450000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/231724-1754303753.png"
     },
     {
       "id": "151282",
@@ -4017,7 +4733,9 @@
       "age": 33,
       "value": 450000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/151282-1754303873.png"
     },
     {
       "id": "1021048",
@@ -4028,7 +4746,9 @@
       "age": 20,
       "value": 450000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1021048-1754304086.png"
     },
     {
       "id": "913018",
@@ -4039,7 +4759,9 @@
       "age": 22,
       "value": 450000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/913018-1754304045.png"
     },
     {
       "id": "1180777",
@@ -4050,7 +4772,9 @@
       "age": 19,
       "value": 400000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1180777-1789563942.png"
     },
     {
       "id": "1052493",
@@ -4061,7 +4785,9 @@
       "age": 19,
       "value": 400000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1052493-1787136359.png"
     },
     {
       "id": "148118",
@@ -4072,7 +4798,9 @@
       "age": 34,
       "value": 400000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/148118-1722142201.png"
     },
     {
       "id": "577714",
@@ -4083,7 +4811,9 @@
       "age": 27,
       "value": 400000,
       "contract": "2027-12-31",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/577714-1754202508.png"
     },
     {
       "id": "946394",
@@ -4094,7 +4824,9 @@
       "age": 20,
       "value": 400000,
       "contract": "2027-06-30",
-      "nat": "Belarus"
+      "nat": "Belarus",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/946394-1743506070.png"
     },
     {
       "id": "867082",
@@ -4105,7 +4837,9 @@
       "age": 22,
       "value": 400000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/867082-1754768906.png"
     },
     {
       "id": "1038622",
@@ -4116,7 +4850,9 @@
       "age": 20,
       "value": 400000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1038622-1784996260.png"
     },
     {
       "id": "1243089",
@@ -4127,7 +4863,9 @@
       "age": 20,
       "value": 400000,
       "contract": "2030-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1243089-1784996496.png"
     },
     {
       "id": "1052494",
@@ -4138,7 +4876,9 @@
       "age": 19,
       "value": 400000,
       "contract": "2030-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1052494-1661667486.png"
     },
     {
       "id": "917457",
@@ -4149,7 +4889,9 @@
       "age": 20,
       "value": 400000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/917457-1784996697.png"
     },
     {
       "id": "447257",
@@ -4160,7 +4902,9 @@
       "age": 33,
       "value": 400000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/447257-1752990718.png"
     },
     {
       "id": "334429",
@@ -4171,7 +4915,9 @@
       "age": 29,
       "value": 400000,
       "contract": null,
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/334429-1752990740.png"
     },
     {
       "id": "919358",
@@ -4182,7 +4928,9 @@
       "age": 21,
       "value": 400000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/919358-1777137752.png"
     },
     {
       "id": "989071",
@@ -4193,7 +4941,9 @@
       "age": 23,
       "value": 400000,
       "contract": "2029-06-30",
-      "nat": "Uzbekistan"
+      "nat": "Uzbekistan",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/989071-1745332536.png"
     },
     {
       "id": "649301",
@@ -4204,7 +4954,9 @@
       "age": 24,
       "value": 400000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/649301-1754041104.png"
     },
     {
       "id": "1156870",
@@ -4215,7 +4967,9 @@
       "age": 21,
       "value": 400000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1156870-1754041318.png"
     },
     {
       "id": "430484",
@@ -4226,7 +4980,9 @@
       "age": 25,
       "value": 400000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/430484-1722144803.png"
     },
     {
       "id": "541914",
@@ -4237,7 +4993,9 @@
       "age": 26,
       "value": 400000,
       "contract": "2027-06-30",
-      "nat": "Belarus"
+      "nat": "Belarus",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/541914-1778917194.png"
     },
     {
       "id": "179973",
@@ -4248,7 +5006,9 @@
       "age": 33,
       "value": 400000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/179973-1754304220.png"
     },
     {
       "id": "749186",
@@ -4259,7 +5019,9 @@
       "age": 21,
       "value": 350000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/749186-1788849055.png"
     },
     {
       "id": "946413",
@@ -4270,7 +5032,9 @@
       "age": 20,
       "value": 350000,
       "contract": "2028-06-30",
-      "nat": "Belarus"
+      "nat": "Belarus",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/946413-1788849700.png"
     },
     {
       "id": "917991",
@@ -4281,7 +5045,9 @@
       "age": 21,
       "value": 350000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/917991-1709317808.png"
     },
     {
       "id": "743010",
@@ -4292,7 +5058,9 @@
       "age": 24,
       "value": 350000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/743010-1740637856.png"
     },
     {
       "id": "1038637",
@@ -4303,7 +5071,9 @@
       "age": 20,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1038637-1753089437.png"
     },
     {
       "id": "575401",
@@ -4314,7 +5084,9 @@
       "age": 27,
       "value": 350000,
       "contract": null,
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/575401-1752990502.png"
     },
     {
       "id": "200779",
@@ -4325,7 +5097,9 @@
       "age": 33,
       "value": 350000,
       "contract": null,
-      "nat": "Peru"
+      "nat": "Peru",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/200779-1753107243.png"
     },
     {
       "id": "447462",
@@ -4336,7 +5110,9 @@
       "age": 32,
       "value": 350000,
       "contract": "2027-06-11",
-      "nat": "Bosnia-Herzegovina"
+      "nat": "Bósnia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/447462-1754115078.png"
     },
     {
       "id": "864621",
@@ -4347,7 +5123,9 @@
       "age": 20,
       "value": 350000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/864621-1753020088.png"
     },
     {
       "id": "720936",
@@ -4358,7 +5136,9 @@
       "age": 23,
       "value": 350000,
       "contract": "2027-06-30",
-      "nat": "Belarus"
+      "nat": "Belarus",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/720936-1754041273.png"
     },
     {
       "id": "70074",
@@ -4369,7 +5149,9 @@
       "age": 35,
       "value": 300000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/70074-1722142018.png"
     },
     {
       "id": "954061",
@@ -4380,7 +5162,9 @@
       "age": 19,
       "value": 300000,
       "contract": "2030-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/954061-1789070056.png"
     },
     {
       "id": "692563",
@@ -4391,7 +5175,9 @@
       "age": 24,
       "value": 300000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/692563-1754202535.png"
     },
     {
       "id": "939879",
@@ -4402,7 +5188,9 @@
       "age": 20,
       "value": 300000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/939879-1664539668.png"
     },
     {
       "id": "591862",
@@ -4413,7 +5201,9 @@
       "age": 27,
       "value": 300000,
       "contract": "2027-12-31",
-      "nat": "Guinea"
+      "nat": "Guiné",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/591862-1789568690.png"
     },
     {
       "id": "817822",
@@ -4424,7 +5214,9 @@
       "age": 22,
       "value": 300000,
       "contract": "2028-06-09",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/817822-1754114697.png"
     },
     {
       "id": "698931",
@@ -4435,7 +5227,9 @@
       "age": 24,
       "value": 300000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/698931-1722000857.png"
     },
     {
       "id": "102581",
@@ -4446,7 +5240,9 @@
       "age": 35,
       "value": 250000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/102581-1787136412.png"
     },
     {
       "id": "866924",
@@ -4457,7 +5253,9 @@
       "age": 25,
       "value": 250000,
       "contract": "2029-06-10",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/866924-1757927610.png"
     },
     {
       "id": "697721",
@@ -4468,7 +5266,9 @@
       "age": 22,
       "value": 250000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/697721-1752339482.png"
     },
     {
       "id": "817830",
@@ -4479,7 +5279,9 @@
       "age": 22,
       "value": 250000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/817830-1709317849.png"
     },
     {
       "id": "1369649",
@@ -4490,7 +5292,9 @@
       "age": 20,
       "value": 250000,
       "contract": "2027-06-30",
-      "nat": "Turkmenistan"
+      "nat": "Turkmenistan",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1369649-1739377249.png"
     },
     {
       "id": "576743",
@@ -4501,7 +5305,9 @@
       "age": 26,
       "value": 250000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/576743-1752990791.png"
     },
     {
       "id": "235347",
@@ -4512,7 +5318,9 @@
       "age": 30,
       "value": 250000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/235347-1777137629.png"
     },
     {
       "id": "129103",
@@ -4523,7 +5331,9 @@
       "age": 32,
       "value": 250000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/129103-1754041441.png"
     },
     {
       "id": "715357",
@@ -4534,7 +5344,9 @@
       "age": 21,
       "value": 225000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/715357-1754114966.png"
     },
     {
       "id": "838670",
@@ -4545,7 +5357,9 @@
       "age": 21,
       "value": 200000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/838670-1788848416.png"
     },
     {
       "id": "697943",
@@ -4556,7 +5370,9 @@
       "age": 21,
       "value": 200000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/697943-1754236234.png"
     },
     {
       "id": "61397",
@@ -4567,7 +5383,9 @@
       "age": 37,
       "value": 200000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/61397-1722144241.png"
     },
     {
       "id": "1240383",
@@ -4578,7 +5396,9 @@
       "age": 21,
       "value": 200000,
       "contract": "2027-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1240383-1785180341.png"
     },
     {
       "id": "798664",
@@ -4589,7 +5409,9 @@
       "age": 23,
       "value": 175000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/798664-1753092849.png"
     },
     {
       "id": "1339250",
@@ -4600,7 +5422,9 @@
       "age": 20,
       "value": 150000,
       "contract": "2027-06-30",
-      "nat": "Nigeria"
+      "nat": "Nigéria",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1339250-1754200738.png"
     },
     {
       "id": "58971",
@@ -4611,7 +5435,9 @@
       "age": 37,
       "value": 150000,
       "contract": null,
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/58971-1754768387.png"
     },
     {
       "id": "599150",
@@ -4622,7 +5448,9 @@
       "age": 26,
       "value": 150000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/599150-1752990271.png"
     },
     {
       "id": "825725",
@@ -4633,7 +5461,9 @@
       "age": 22,
       "value": 150000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/825725-1754114666.png"
     },
     {
       "id": "616035",
@@ -4644,7 +5474,9 @@
       "age": 23,
       "value": 125000,
       "contract": "2029-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/616035-1754830901.png"
     },
     {
       "id": "84483",
@@ -4655,7 +5487,9 @@
       "age": 37,
       "value": 100000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/84483-1784994894.png"
     },
     {
       "id": "715339",
@@ -4666,7 +5500,9 @@
       "age": 21,
       "value": 100000,
       "contract": "2028-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/715339-1740935191.png"
     },
     {
       "id": "797594",
@@ -4677,7 +5513,9 @@
       "age": 24,
       "value": 100000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/797594-1610209725.png"
     },
     {
       "id": "1160956",
@@ -4688,7 +5526,9 @@
       "age": 19,
       "value": 100000,
       "contract": "2031-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1160956-1749124775.png"
     },
     {
       "id": "461682",
@@ -4699,7 +5539,9 @@
       "age": 28,
       "value": 100000,
       "contract": null,
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/461682-1752990294.png"
     },
     {
       "id": "47004",
@@ -4710,7 +5552,9 @@
       "age": 39,
       "value": 50000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/47004-1789562994.png"
     },
     {
       "id": "1309944",
@@ -4721,7 +5565,9 @@
       "age": 19,
       "value": 50000,
       "contract": "2030-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1309944-1784996741.png"
     },
     {
       "id": "177350",
@@ -4732,7 +5578,9 @@
       "age": 38,
       "value": 50000,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/177350-1722144264.png"
     },
     {
       "id": "864314",
@@ -4743,7 +5591,9 @@
       "age": 20,
       "value": null,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/864314-1789566633.png"
     },
     {
       "id": "960578",
@@ -4754,7 +5604,9 @@
       "age": 20,
       "value": null,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/960578-1789566352.png"
     },
     {
       "id": "909229",
@@ -4765,7 +5617,9 @@
       "age": 21,
       "value": null,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/909229-1754304873.png"
     },
     {
       "id": "1243095",
@@ -4776,7 +5630,9 @@
       "age": 20,
       "value": null,
       "contract": "2027-06-30",
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1243095-1754305087.png"
     }
   ]
 }

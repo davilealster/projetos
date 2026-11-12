@@ -86,7 +86,9 @@
       "age": 22,
       "value": 35000000,
       "contract": "2029-06-30",
-      "nat": "Germany"
+      "nat": "Alemanha",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/717329-1754510555.jpg"
     },
     {
       "id": "893661",
@@ -97,7 +99,9 @@
       "age": 22,
       "value": 33000000,
       "contract": "2029-06-30",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/893661-1666292051.jpg"
     },
     {
       "id": "981196",
@@ -108,7 +112,9 @@
       "age": 21,
       "value": 27000000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/981196-1754511396.jpg"
     },
     {
       "id": "742451",
@@ -119,7 +125,9 @@
       "age": 22,
       "value": 23000000,
       "contract": "2029-06-30",
-      "nat": "Portugal"
+      "nat": "Portugal",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/742451-1784904294.jpg"
     },
     {
       "id": "1105547",
@@ -130,7 +138,9 @@
       "age": 18,
       "value": 20000000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1105547-1729177232.jpg"
     },
     {
       "id": "1301775",
@@ -141,7 +151,9 @@
       "age": 20,
       "value": 15000000,
       "contract": "2031-06-30",
-      "nat": "Spain"
+      "nat": "Espanha",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1301775-1750759323.jpg"
     },
     {
       "id": "926694",
@@ -152,7 +164,9 @@
       "age": 21,
       "value": 15000000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/926694-1729520583.jpg"
     },
     {
       "id": "743122",
@@ -163,7 +177,9 @@
       "age": 21,
       "value": 13000000,
       "contract": "2030-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/743122-1705056437.jpg"
     },
     {
       "id": "708454",
@@ -174,7 +190,9 @@
       "age": 22,
       "value": 12000000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/708454-1754510947.jpg"
     },
     {
       "id": "428920",
@@ -185,7 +203,9 @@
       "age": 29,
       "value": 12000000,
       "contract": "2031-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/428920-1789480822.jpg"
     },
     {
       "id": "592403",
@@ -196,7 +216,9 @@
       "age": 26,
       "value": 12000000,
       "contract": "2031-06-30",
-      "nat": "Algeria"
+      "nat": "Argélia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/592403-1789480460.jpg"
     },
     {
       "id": "655021",
@@ -207,7 +229,9 @@
       "age": 22,
       "value": 11000000,
       "contract": "2030-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/655021-1789480762.jpg"
     },
     {
       "id": "698164",
@@ -218,7 +242,9 @@
       "age": 23,
       "value": 10000000,
       "contract": "2030-06-30",
-      "nat": "England"
+      "nat": "Inglaterra",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/698164-1766482338.jpg"
     },
     {
       "id": "1019174",
@@ -229,7 +255,9 @@
       "age": 22,
       "value": 10000000,
       "contract": "2030-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1019174-1785247152.jpg"
     },
     {
       "id": "935760",
@@ -240,7 +268,9 @@
       "age": 23,
       "value": 10000000,
       "contract": "2030-06-30",
-      "nat": "Nigeria"
+      "nat": "Nigéria",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/935760-1763134122.jpg"
     },
     {
       "id": "715653",
@@ -251,7 +281,9 @@
       "age": 23,
       "value": 10000000,
       "contract": "2030-06-30",
-      "nat": "Sweden"
+      "nat": "Suécia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/715653-1789480532.jpg"
     },
     {
       "id": "897510",
@@ -262,7 +294,9 @@
       "age": 19,
       "value": 10000000,
       "contract": "2029-06-30",
-      "nat": "Serbia"
+      "nat": "Sérvia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/897510-1790317228.jpg"
     },
     {
       "id": "680218",
@@ -273,7 +307,9 @@
       "age": 21,
       "value": 10000000,
       "contract": "2029-06-30",
-      "nat": "DR Congo"
+      "nat": "RD Congo",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/680218-1785412100.jpg"
     },
     {
       "id": "911736",
@@ -284,7 +320,9 @@
       "age": 19,
       "value": 10000000,
       "contract": "2027-06-30",
-      "nat": "Norway"
+      "nat": "Noruega",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/911736-1743175613.jpg"
     },
     {
       "id": "356081",
@@ -295,7 +333,9 @@
       "age": 29,
       "value": 8000000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/356081-1714037998.png"
     },
     {
       "id": "621993",
@@ -306,7 +346,9 @@
       "age": 24,
       "value": 8000000,
       "contract": "2027-06-30",
-      "nat": "Ireland"
+      "nat": "Irlanda",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/621993-1750770741.png"
     },
     {
       "id": "667995",
@@ -317,7 +359,9 @@
       "age": 24,
       "value": 8000000,
       "contract": "2030-06-30",
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/667995-1741881244.jpg"
     },
     {
       "id": "1019173",
@@ -328,7 +372,9 @@
       "age": 21,
       "value": 8000000,
       "contract": "2030-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1019173-1772694106.jpg"
     },
     {
       "id": "706963",
@@ -339,7 +385,9 @@
       "age": 24,
       "value": 7000000,
       "contract": "2029-06-30",
-      "nat": "Korea, South"
+      "nat": "Coreia do Sul",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/706963-1781248477.jpg"
     },
     {
       "id": "1054839",
@@ -350,7 +398,9 @@
       "age": 21,
       "value": 7000000,
       "contract": "2029-06-30",
-      "nat": "Senegal"
+      "nat": "Senegal",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1054839-1723837204.png"
     },
     {
       "id": "997474",
@@ -361,7 +411,9 @@
       "age": 20,
       "value": 7000000,
       "contract": "2030-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/997474-1714037420.png"
     },
     {
       "id": "810285",
@@ -372,7 +424,9 @@
       "age": 23,
       "value": 7000000,
       "contract": "2030-06-30",
-      "nat": "Germany"
+      "nat": "Alemanha",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/810285-1778592422.jpg"
     },
     {
       "id": "723487",
@@ -383,7 +437,9 @@
       "age": 22,
       "value": 7000000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/723487-1713347909.png"
     },
     {
       "id": "671548",
@@ -394,7 +450,9 @@
       "age": 22,
       "value": 6500000,
       "contract": "2030-06-30",
-      "nat": "Czech Republic"
+      "nat": "Tchéquia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/671548-1785851695.jpg"
     },
     {
       "id": "794749",
@@ -405,7 +463,9 @@
       "age": 19,
       "value": 6000000,
       "contract": "2030-06-30",
-      "nat": "Switzerland"
+      "nat": "Suíça",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/794749-1754377025.png"
     },
     {
       "id": "659518",
@@ -416,7 +476,9 @@
       "age": 23,
       "value": 6000000,
       "contract": "2029-06-30",
-      "nat": "France"
+      "nat": "França",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/659518-1732576183.png"
     },
     {
       "id": "1038348",
@@ -427,7 +489,9 @@
       "age": 22,
       "value": 6000000,
       "contract": "2030-06-30",
-      "nat": "Guinea"
+      "nat": "Guiné",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1038348-1714046294.png"
     },
     {
       "id": "415383",
@@ -438,7 +502,9 @@
       "age": 30,
       "value": 6000000,
       "contract": "2027-06-30",
-      "nat": "Burkina Faso"
+      "nat": "Burkina Faso",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/415383-1672499883.jpg"
     },
     {
       "id": "1150206",
@@ -449,7 +515,9 @@
       "age": 21,
       "value": 6000000,
       "contract": "2030-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1150206-1791381899.jpg"
     },
     {
       "id": "1125037",
@@ -460,7 +528,9 @@
       "age": 22,
       "value": 6000000,
       "contract": "2030-06-30",
-      "nat": "South Africa"
+      "nat": "South Africa",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1125037-1789481059.jpg"
     },
     {
       "id": "684159",
@@ -471,7 +541,9 @@
       "age": 26,
       "value": 6000000,
       "contract": "2029-06-30",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/684159-1772107309.jpg"
     },
     {
       "id": "583899",
@@ -482,7 +554,9 @@
       "age": 23,
       "value": 6000000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/583899-1714046715.png"
     },
     {
       "id": "543302",
@@ -493,7 +567,9 @@
       "age": 26,
       "value": 5500000,
       "contract": "2029-06-30",
-      "nat": "Denmark"
+      "nat": "Dinamarca",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/543302-1785246220.jpg"
     },
     {
       "id": "499758",
@@ -504,7 +580,9 @@
       "age": 26,
       "value": 5000000,
       "contract": "2029-06-30",
-      "nat": "Norway"
+      "nat": "Noruega",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/499758-1754511519.jpg"
     },
     {
       "id": "137576",
@@ -515,7 +593,9 @@
       "age": 34,
       "value": 5000000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/137576-1705414489.jpg"
     },
     {
       "id": "1084539",
@@ -526,7 +606,9 @@
       "age": 18,
       "value": 5000000,
       "contract": "2029-06-30",
-      "nat": "Germany"
+      "nat": "Alemanha",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1084539-1726644985.png"
     },
     {
       "id": "1129950",
@@ -537,7 +619,9 @@
       "age": 19,
       "value": 5000000,
       "contract": "2030-06-30",
-      "nat": "Switzerland"
+      "nat": "Suíça",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1129950-1764843451.jpg"
     },
     {
       "id": "1256870",
@@ -548,7 +632,9 @@
       "age": 21,
       "value": 5000000,
       "contract": "2031-06-30",
-      "nat": "Senegal"
+      "nat": "Senegal",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1256870-1789480887.jpg"
     },
     {
       "id": "839551",
@@ -559,7 +645,9 @@
       "age": 22,
       "value": 5000000,
       "contract": "2030-06-30",
-      "nat": "Czech Republic"
+      "nat": "Tchéquia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/839551-1789480989.jpg"
     },
     {
       "id": "920585",
@@ -570,7 +658,9 @@
       "age": 21,
       "value": 5000000,
       "contract": "2028-06-30",
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/920585-1785850029.jpg"
     },
     {
       "id": "961937",
@@ -581,7 +671,9 @@
       "age": 23,
       "value": 5000000,
       "contract": "2030-06-30",
-      "nat": "Cote d'Ivoire"
+      "nat": "Costa do Marfim",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/961937-1687528312.jpg"
     },
     {
       "id": "417228",
@@ -592,7 +684,9 @@
       "age": 25,
       "value": 5000000,
       "contract": "2030-06-30",
-      "nat": "Ukraine"
+      "nat": "Ucrânia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/417228-1756296842.png"
     },
     {
       "id": "481628",
@@ -603,7 +697,9 @@
       "age": 25,
       "value": 5000000,
       "contract": "2028-06-30",
-      "nat": "Portugal"
+      "nat": "Portugal",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/481628-1781861651.jpg"
     },
     {
       "id": "1291709",
@@ -614,7 +710,9 @@
       "age": 19,
       "value": 5000000,
       "contract": "2031-06-30",
-      "nat": "Panama"
+      "nat": "Panamá",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1291709-1773927100.png"
     },
     {
       "id": "538072",
@@ -625,7 +723,9 @@
       "age": 25,
       "value": 5000000,
       "contract": "2030-06-30",
-      "nat": "France"
+      "nat": "França",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/538072-1785411006.jpg"
     },
     {
       "id": "617377",
@@ -636,7 +736,9 @@
       "age": 23,
       "value": 5000000,
       "contract": "2029-06-30",
-      "nat": "Japan"
+      "nat": "Japão",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/617377-1785927319.jpg"
     },
     {
       "id": "1264666",
@@ -647,7 +749,9 @@
       "age": 17,
       "value": 5000000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1264666-1785921699.jpg"
     },
     {
       "id": "387143",
@@ -658,7 +762,9 @@
       "age": 26,
       "value": 5000000,
       "contract": "2027-06-30",
-      "nat": "Türkiye"
+      "nat": "Turquia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/387143-1762770636.jpg"
     },
     {
       "id": "814491",
@@ -669,7 +775,9 @@
       "age": 23,
       "value": 5000000,
       "contract": "2028-06-30",
-      "nat": "Japan"
+      "nat": "Japão",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/814491-1785836532.jpg"
     },
     {
       "id": "501737",
@@ -680,7 +788,9 @@
       "age": 25,
       "value": 5000000,
       "contract": "2027-06-30",
-      "nat": "Japan"
+      "nat": "Japão",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/501737-1604578645.jpg"
     },
     {
       "id": "671108",
@@ -691,7 +801,9 @@
       "age": 22,
       "value": 5000000,
       "contract": "2027-06-30",
-      "nat": "Japan"
+      "nat": "Japão",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/671108-1745788815.jpg"
     },
     {
       "id": "805484",
@@ -702,7 +814,9 @@
       "age": 22,
       "value": 5000000,
       "contract": "2028-06-30",
-      "nat": "Switzerland"
+      "nat": "Suíça",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/805484-1785930869.jpg"
     },
     {
       "id": "543311",
@@ -713,7 +827,9 @@
       "age": 24,
       "value": 5000000,
       "contract": "2028-06-30",
-      "nat": "Denmark"
+      "nat": "Dinamarca",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/543311-1713785258.jpg"
     },
     {
       "id": "787907",
@@ -724,7 +840,9 @@
       "age": 23,
       "value": 4500000,
       "contract": "2027-06-30",
-      "nat": "Bosnia-Herzegovina"
+      "nat": "Bósnia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/787907-1698670879.jpg"
     },
     {
       "id": "450958",
@@ -735,7 +853,9 @@
       "age": 27,
       "value": 4500000,
       "contract": "2027-06-30",
-      "nat": "England"
+      "nat": "Inglaterra",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/450958-1789481301.jpg"
     },
     {
       "id": "395800",
@@ -746,7 +866,9 @@
       "age": 28,
       "value": 4500000,
       "contract": "2030-06-30",
-      "nat": "Romania"
+      "nat": "Romênia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/395800-1789480568.jpg"
     },
     {
       "id": "685679",
@@ -757,7 +879,9 @@
       "age": 22,
       "value": 4500000,
       "contract": "2030-06-30",
-      "nat": "Denmark"
+      "nat": "Dinamarca",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/685679-1785411272.jpg"
     },
     {
       "id": "852953",
@@ -768,7 +892,9 @@
       "age": 25,
       "value": 4500000,
       "contract": "2028-06-30",
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/852953-1723714225.jpg"
     },
     {
       "id": "650712",
@@ -779,7 +905,9 @@
       "age": 23,
       "value": 4500000,
       "contract": "2029-06-30",
-      "nat": "Netherlands"
+      "nat": "Holanda",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/650712-1660763058.jpg"
     },
     {
       "id": "578680",
@@ -790,7 +918,9 @@
       "age": 24,
       "value": 4000000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/578680-1754510812.jpg"
     },
     {
       "id": "893659",
@@ -801,7 +931,9 @@
       "age": 22,
       "value": 4000000,
       "contract": "2029-06-30",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/893659-1781508465.jpg"
     },
     {
       "id": "944581",
@@ -812,7 +944,9 @@
       "age": 21,
       "value": 4000000,
       "contract": "2031-06-30",
-      "nat": "Montenegro"
+      "nat": "Montenegro",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/944581-1757411321.jpg"
     },
     {
       "id": "446491",
@@ -823,7 +957,9 @@
       "age": 27,
       "value": 4000000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/446491-1672593669.jpg"
     },
     {
       "id": "912436",
@@ -834,7 +970,9 @@
       "age": 21,
       "value": 4000000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/912436-1714038356.png"
     },
     {
       "id": "502247",
@@ -845,7 +983,9 @@
       "age": 25,
       "value": 4000000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/502247-1791458132.jpg"
     },
     {
       "id": "949337",
@@ -856,7 +996,9 @@
       "age": 23,
       "value": 4000000,
       "contract": "2030-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/949337-1789480628.jpg"
     },
     {
       "id": "449444",
@@ -867,7 +1009,9 @@
       "age": 25,
       "value": 4000000,
       "contract": "2029-06-30",
-      "nat": "Austria"
+      "nat": "Áustria",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/449444-1789481020.jpg"
     },
     {
       "id": "486051",
@@ -878,7 +1022,9 @@
       "age": 24,
       "value": 4000000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/486051-1785849321.jpg"
     },
     {
       "id": "574569",
@@ -889,7 +1035,9 @@
       "age": 24,
       "value": 4000000,
       "contract": "2030-06-30",
-      "nat": "Germany"
+      "nat": "Alemanha",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/574569-1657539737.jpg"
     },
     {
       "id": "527896",
@@ -900,7 +1048,9 @@
       "age": 25,
       "value": 4000000,
       "contract": "2030-06-30",
-      "nat": "Finland"
+      "nat": "Finlândia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/527896-1753438658.jpg"
     },
     {
       "id": "1285174",
@@ -911,7 +1061,9 @@
       "age": 21,
       "value": 4000000,
       "contract": "2029-06-30",
-      "nat": "Cote d'Ivoire"
+      "nat": "Costa do Marfim",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1285174-1785244466.jpg"
     },
     {
       "id": "565016",
@@ -922,7 +1074,9 @@
       "age": 24,
       "value": 4000000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/565016-1785411743.jpg"
     },
     {
       "id": "580765",
@@ -933,7 +1087,9 @@
       "age": 25,
       "value": 4000000,
       "contract": "2029-06-30",
-      "nat": "England"
+      "nat": "Inglaterra",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/580765-1785405420.jpg"
     },
     {
       "id": "924610",
@@ -944,7 +1100,9 @@
       "age": 21,
       "value": 4000000,
       "contract": "2030-06-30",
-      "nat": "Spain"
+      "nat": "Espanha",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/924610-1759223668.jpg"
     },
     {
       "id": "1194136",
@@ -955,7 +1113,9 @@
       "age": 21,
       "value": 4000000,
       "contract": "2029-06-30",
-      "nat": "Japan"
+      "nat": "Japão",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1194136-1767004845.jpg"
     },
     {
       "id": "910176",
@@ -966,7 +1126,9 @@
       "age": 21,
       "value": 4000000,
       "contract": "2029-06-30",
-      "nat": "France"
+      "nat": "França",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/910176-1639673934.png"
     },
     {
       "id": "923838",
@@ -977,7 +1139,9 @@
       "age": 21,
       "value": 4000000,
       "contract": "2028-06-30",
-      "nat": "France"
+      "nat": "França",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/923838-1753174730.jpg"
     },
     {
       "id": "952439",
@@ -988,7 +1152,9 @@
       "age": 19,
       "value": 4000000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/952439-1785247002.jpg"
     },
     {
       "id": "509463",
@@ -999,7 +1165,9 @@
       "age": 25,
       "value": 4000000,
       "contract": "2028-06-30",
-      "nat": "Senegal"
+      "nat": "Senegal",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/509463-1772107485.jpg"
     },
     {
       "id": "654918",
@@ -1010,7 +1178,9 @@
       "age": 22,
       "value": 3500000,
       "contract": "2030-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/654918-1726554381.jpg"
     },
     {
       "id": "580434",
@@ -1021,7 +1191,9 @@
       "age": 24,
       "value": 3500000,
       "contract": "2031-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/580434-1785932253.jpg"
     },
     {
       "id": "1122196",
@@ -1032,7 +1204,9 @@
       "age": 22,
       "value": 3500000,
       "contract": "2030-06-30",
-      "nat": "Cameroon"
+      "nat": "Camarões",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1122196-1740776089.jpg"
     },
     {
       "id": "1332184",
@@ -1043,7 +1217,9 @@
       "age": 19,
       "value": 3500000,
       "contract": "2031-06-30",
-      "nat": "Ghana"
+      "nat": "Gana",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1332184-1772796874.png"
     },
     {
       "id": "666131",
@@ -1054,7 +1230,9 @@
       "age": 22,
       "value": 3500000,
       "contract": "2031-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/666131-1666031524.jpg"
     },
     {
       "id": "486039",
@@ -1065,7 +1243,9 @@
       "age": 24,
       "value": 3500000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/486039-1789480497.jpg"
     },
     {
       "id": "536507",
@@ -1076,7 +1256,9 @@
       "age": 26,
       "value": 3500000,
       "contract": "2029-06-30",
-      "nat": "France"
+      "nat": "França",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/536507-1785852793.jpg"
     },
     {
       "id": "1232103",
@@ -1087,7 +1269,9 @@
       "age": 17,
       "value": 3500000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1232103-1760362946.jpg"
     },
     {
       "id": "488298",
@@ -1098,7 +1282,9 @@
       "age": 23,
       "value": 3500000,
       "contract": "2029-06-30",
-      "nat": "Estonia"
+      "nat": "Estonia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/488298-1785239401.jpg"
     },
     {
       "id": "408562",
@@ -1109,7 +1295,9 @@
       "age": 28,
       "value": 3500000,
       "contract": "2027-06-30",
-      "nat": "United States"
+      "nat": "Estados Unidos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/408562-1785411547.jpg"
     },
     {
       "id": "592924",
@@ -1120,7 +1308,9 @@
       "age": 24,
       "value": 3500000,
       "contract": "2028-06-30",
-      "nat": "Denmark"
+      "nat": "Dinamarca",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/592924-1785837262.jpg"
     },
     {
       "id": "563139",
@@ -1131,7 +1321,9 @@
       "age": 24,
       "value": 3500000,
       "contract": "2027-06-30",
-      "nat": "Spain"
+      "nat": "Espanha",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/563139-1666099864.jpg"
     },
     {
       "id": "810909",
@@ -1142,7 +1334,9 @@
       "age": 21,
       "value": 3500000,
       "contract": "2027-06-30",
-      "nat": "France"
+      "nat": "França",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/810909-1693948175.png"
     },
     {
       "id": "820146",
@@ -1153,7 +1347,9 @@
       "age": 23,
       "value": 3500000,
       "contract": "2027-06-30",
-      "nat": "Mali"
+      "nat": "Mali",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/820146-1639673676.png"
     },
     {
       "id": "743381",
@@ -1164,7 +1360,9 @@
       "age": 21,
       "value": 3000000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/743381-1705658468.jpg"
     },
     {
       "id": "1191293",
@@ -1175,7 +1373,9 @@
       "age": 17,
       "value": 3000000,
       "contract": "2029-06-30",
-      "nat": "Slovenia"
+      "nat": "Eslovênia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1191293-1784904336.jpg"
     },
     {
       "id": "579089",
@@ -1186,7 +1386,9 @@
       "age": 24,
       "value": 3000000,
       "contract": "2030-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/579089-1659434250.jpg"
     },
     {
       "id": "1232104",
@@ -1197,7 +1399,9 @@
       "age": 17,
       "value": 3000000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1232104-1785249420.jpg"
     },
     {
       "id": "348791",
@@ -1208,7 +1412,9 @@
       "age": 33,
       "value": 3000000,
       "contract": "2028-06-30",
-      "nat": "Japan"
+      "nat": "Japão",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/348791-1785247236.jpg"
     },
     {
       "id": "570781",
@@ -1219,7 +1425,9 @@
       "age": 23,
       "value": 3000000,
       "contract": "2030-06-30",
-      "nat": "Senegal"
+      "nat": "Senegal",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/570781-1779366722.jpg"
     },
     {
       "id": "534161",
@@ -1230,7 +1438,9 @@
       "age": 25,
       "value": 3000000,
       "contract": "2028-06-30",
-      "nat": "Greece"
+      "nat": "Grécia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/534161-1788197415.jpg"
     },
     {
       "id": "588866",
@@ -1241,7 +1451,9 @@
       "age": 22,
       "value": 3000000,
       "contract": "2028-06-30",
-      "nat": "DR Congo"
+      "nat": "RD Congo",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/588866-1785851167.jpg"
     },
     {
       "id": "1293975",
@@ -1252,7 +1464,9 @@
       "age": 17,
       "value": 3000000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1293975-1785851048.jpg"
     },
     {
       "id": "903513",
@@ -1263,7 +1477,9 @@
       "age": 21,
       "value": 3000000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/903513-1781768273.jpg"
     },
     {
       "id": "922792",
@@ -1274,7 +1490,9 @@
       "age": 26,
       "value": 3000000,
       "contract": "2031-06-30",
-      "nat": "Senegal"
+      "nat": "Senegal",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/922792-1726499852.png"
     },
     {
       "id": "400131",
@@ -1285,7 +1503,9 @@
       "age": 28,
       "value": 3000000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/400131-1642262598.jpg"
     },
     {
       "id": "502239",
@@ -1296,7 +1516,9 @@
       "age": 25,
       "value": 3000000,
       "contract": "2027-06-30",
-      "nat": "DR Congo"
+      "nat": "RD Congo",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/502239-1771532209.jpg"
     },
     {
       "id": "929876",
@@ -1307,7 +1529,9 @@
       "age": 21,
       "value": 3000000,
       "contract": "2028-06-30",
-      "nat": "Sweden"
+      "nat": "Suécia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/929876-1706694287.jpg"
     },
     {
       "id": "1473866",
@@ -1318,7 +1542,9 @@
       "age": 19,
       "value": 3000000,
       "contract": "2028-06-30",
-      "nat": "Senegal"
+      "nat": "Senegal",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1473866-1785244535.jpg"
     },
     {
       "id": "953065",
@@ -1329,7 +1555,9 @@
       "age": 23,
       "value": 3000000,
       "contract": "2029-06-30",
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/953065-1727174322.png"
     },
     {
       "id": "1314671",
@@ -1340,7 +1568,9 @@
       "age": 20,
       "value": 3000000,
       "contract": "2029-06-30",
-      "nat": "Cameroon"
+      "nat": "Camarões",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1314671-1785411917.jpg"
     },
     {
       "id": "706063",
@@ -1351,7 +1581,9 @@
       "age": 24,
       "value": 3000000,
       "contract": "2030-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/706063-1785923147.jpg"
     },
     {
       "id": "1510005",
@@ -1362,7 +1594,9 @@
       "age": 19,
       "value": 3000000,
       "contract": "2030-06-30",
-      "nat": "Cote d'Ivoire"
+      "nat": "Costa do Marfim",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1510005-1785924027.jpg"
     },
     {
       "id": "719456",
@@ -1373,7 +1607,9 @@
       "age": 27,
       "value": 3000000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/719456-1672484378.jpg"
     },
     {
       "id": "1551902",
@@ -1384,7 +1620,9 @@
       "age": 19,
       "value": 3000000,
       "contract": "2030-06-30",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1551902-1785921616.jpg"
     },
     {
       "id": "1001788",
@@ -1395,7 +1633,9 @@
       "age": 23,
       "value": 3000000,
       "contract": "2030-06-30",
-      "nat": "Cote d'Ivoire"
+      "nat": "Costa do Marfim",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1001788-1785835800.jpg"
     },
     {
       "id": "1004327",
@@ -1406,7 +1646,9 @@
       "age": 20,
       "value": 3000000,
       "contract": "2027-06-30",
-      "nat": "Korea, South"
+      "nat": "Coreia do Sul",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1004327-1731558430.jpg"
     },
     {
       "id": "802997",
@@ -1417,7 +1659,9 @@
       "age": 22,
       "value": 3000000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/802997-1726294081.jpg"
     },
     {
       "id": "727528",
@@ -1428,7 +1672,9 @@
       "age": 24,
       "value": 3000000,
       "contract": "2030-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/727528-1713347170.png"
     },
     {
       "id": "710969",
@@ -1439,7 +1685,9 @@
       "age": 22,
       "value": 3000000,
       "contract": "2030-06-30",
-      "nat": "Bosnia-Herzegovina"
+      "nat": "Bósnia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/710969-1732366805.jpg"
     },
     {
       "id": "685106",
@@ -1450,7 +1698,9 @@
       "age": 29,
       "value": 3000000,
       "contract": "2029-06-30",
-      "nat": "Spain"
+      "nat": "Espanha",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/685106-1659605411.jpg"
     },
     {
       "id": "1027253",
@@ -1461,7 +1711,9 @@
       "age": 24,
       "value": 3000000,
       "contract": "2029-06-30",
-      "nat": "France"
+      "nat": "França",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1027253-1785238845.jpg"
     },
     {
       "id": "1229808",
@@ -1472,7 +1724,9 @@
       "age": 22,
       "value": 3000000,
       "contract": "2027-06-30",
-      "nat": "The Gambia"
+      "nat": "The Gambia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1229808-1752740870.jpg"
     },
     {
       "id": "585068",
@@ -1483,7 +1737,9 @@
       "age": 26,
       "value": 3000000,
       "contract": "2028-06-30",
-      "nat": "Syria"
+      "nat": "Syria",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/585068-1697831156.png"
     },
     {
       "id": "869462",
@@ -1494,7 +1750,9 @@
       "age": 21,
       "value": 3000000,
       "contract": "2029-06-30",
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/869462-1753700178.jpg"
     },
     {
       "id": "236168",
@@ -1505,7 +1763,9 @@
       "age": 33,
       "value": 2800000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/236168-1704874625.jpg"
     },
     {
       "id": "647384",
@@ -1516,7 +1776,9 @@
       "age": 24,
       "value": 2800000,
       "contract": "2027-06-30",
-      "nat": "Norway"
+      "nat": "Noruega",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/647384-1645614893.png"
     },
     {
       "id": "1038224",
@@ -1527,7 +1789,9 @@
       "age": 22,
       "value": 2500000,
       "contract": "2031-06-30",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1038224-1780439627.png"
     },
     {
       "id": "835775",
@@ -1538,7 +1802,9 @@
       "age": 23,
       "value": 2500000,
       "contract": "2029-06-30",
-      "nat": "Japan"
+      "nat": "Japão",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/835775-1781791634.jpg"
     },
     {
       "id": "728924",
@@ -1549,7 +1815,9 @@
       "age": 23,
       "value": 2500000,
       "contract": "2029-06-30",
-      "nat": "Denmark"
+      "nat": "Dinamarca",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/728924-1785849667.jpg"
     },
     {
       "id": "461512",
@@ -1560,7 +1828,9 @@
       "age": 28,
       "value": 2500000,
       "contract": "2029-06-30",
-      "nat": "Moldova"
+      "nat": "Moldova",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/461512-1754041836.png"
     },
     {
       "id": "454336",
@@ -1571,7 +1841,9 @@
       "age": 24,
       "value": 2500000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/454336-1785849059.jpg"
     },
     {
       "id": "1232106",
@@ -1582,7 +1854,9 @@
       "age": 17,
       "value": 2500000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1232106-1785849159.jpg"
     },
     {
       "id": "364896",
@@ -1593,7 +1867,9 @@
       "age": 26,
       "value": 2500000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/364896-1785849496.jpg"
     },
     {
       "id": "140808",
@@ -1604,7 +1880,9 @@
       "age": 32,
       "value": 2500000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/140808-1660750049.jpg"
     },
     {
       "id": "781812",
@@ -1615,7 +1893,9 @@
       "age": 24,
       "value": 2500000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/781812-1785239474.jpg"
     },
     {
       "id": "243188",
@@ -1626,7 +1906,9 @@
       "age": 29,
       "value": 2500000,
       "contract": "2030-06-30",
-      "nat": "Slovakia"
+      "nat": "Eslováquia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/243188-1770893430.jpg"
     },
     {
       "id": "348756",
@@ -1637,7 +1919,9 @@
       "age": 27,
       "value": 2500000,
       "contract": "2028-06-30",
-      "nat": "Portugal"
+      "nat": "Portugal",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/348756-1785244619.jpg"
     },
     {
       "id": "705991",
@@ -1648,7 +1932,9 @@
       "age": 24,
       "value": 2500000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/705991-1706020225.jpg"
     },
     {
       "id": "592400",
@@ -1659,7 +1945,9 @@
       "age": 26,
       "value": 2500000,
       "contract": "2029-06-30",
-      "nat": "Algeria"
+      "nat": "Argélia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/592400-1785244124.jpg"
     },
     {
       "id": "805889",
@@ -1670,7 +1958,9 @@
       "age": 22,
       "value": 2500000,
       "contract": "2028-06-30",
-      "nat": "England"
+      "nat": "Inglaterra",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/805889-1785244302.jpg"
     },
     {
       "id": "452584",
@@ -1681,7 +1971,9 @@
       "age": 26,
       "value": 2500000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/452584-1785411181.jpg"
     },
     {
       "id": "1055055",
@@ -1692,7 +1984,9 @@
       "age": 22,
       "value": 2500000,
       "contract": "2030-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1055055-1739176879.jpg"
     },
     {
       "id": "1337038",
@@ -1703,7 +1997,9 @@
       "age": 19,
       "value": 2500000,
       "contract": "2030-06-30",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1337038-1739816791.jpg"
     },
     {
       "id": "543727",
@@ -1714,7 +2010,9 @@
       "age": 24,
       "value": 2500000,
       "contract": "2030-06-30",
-      "nat": "Hungary"
+      "nat": "Hungria",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/543727-1760087992.png"
     },
     {
       "id": "570572",
@@ -1725,7 +2023,9 @@
       "age": 24,
       "value": 2500000,
       "contract": "2028-06-30",
-      "nat": "Japan"
+      "nat": "Japão",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/570572-1654247848.jpg"
     },
     {
       "id": "538970",
@@ -1736,7 +2036,9 @@
       "age": 24,
       "value": 2500000,
       "contract": "2029-06-30",
-      "nat": "France"
+      "nat": "França",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/538970-1713878740.jpg"
     },
     {
       "id": "606967",
@@ -1747,7 +2049,9 @@
       "age": 27,
       "value": 2500000,
       "contract": "2029-06-30",
-      "nat": "Albania"
+      "nat": "Albania",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/606967-1730122770.JPG"
     },
     {
       "id": "504245",
@@ -1758,7 +2062,9 @@
       "age": 25,
       "value": 2500000,
       "contract": "2028-06-30",
-      "nat": "Sweden"
+      "nat": "Suécia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/504245-1723541563.jpg"
     },
     {
       "id": "846826",
@@ -1769,7 +2075,9 @@
       "age": 21,
       "value": 2500000,
       "contract": "2029-06-30",
-      "nat": "Netherlands"
+      "nat": "Holanda",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/846826-1767882519.jpg"
     },
     {
       "id": "1120020",
@@ -1780,7 +2088,9 @@
       "age": 19,
       "value": 2500000,
       "contract": "2027-06-30",
-      "nat": "Cote d'Ivoire"
+      "nat": "Costa do Marfim",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1120020-1753174518.jpg"
     },
     {
       "id": "921829",
@@ -1791,7 +2101,9 @@
       "age": 20,
       "value": 2500000,
       "contract": "2030-06-30",
-      "nat": "England"
+      "nat": "Inglaterra",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/921829-1780558459.png"
     },
     {
       "id": "400680",
@@ -1802,7 +2114,9 @@
       "age": 30,
       "value": 2500000,
       "contract": "2029-06-30",
-      "nat": "Algeria"
+      "nat": "Argélia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/400680-1697464135.png"
     },
     {
       "id": "1200400",
@@ -1813,7 +2127,9 @@
       "age": 19,
       "value": 2500000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1200400-1785929577.jpg"
     },
     {
       "id": "682032",
@@ -1824,7 +2140,9 @@
       "age": 25,
       "value": 2500000,
       "contract": "2028-06-30",
-      "nat": "France"
+      "nat": "França",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/682032-1738847709.jpg"
     },
     {
       "id": "1075575",
@@ -1835,7 +2153,9 @@
       "age": 19,
       "value": 2500000,
       "contract": "2027-06-30",
-      "nat": "France"
+      "nat": "França",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1075575-1750956409.png"
     },
     {
       "id": "1059440",
@@ -1846,7 +2166,9 @@
       "age": 22,
       "value": 2500000,
       "contract": "2029-06-30",
-      "nat": "Nigeria"
+      "nat": "Nigéria",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1059440-1743535901.jpg"
     },
     {
       "id": "667870",
@@ -1857,7 +2179,9 @@
       "age": 25,
       "value": 2500000,
       "contract": "2029-06-30",
-      "nat": "Sweden"
+      "nat": "Suécia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/667870-1764844765.jpg"
     },
     {
       "id": "669632",
@@ -1868,7 +2192,9 @@
       "age": 22,
       "value": 2200000,
       "contract": "2029-06-30",
-      "nat": "Austria"
+      "nat": "Áustria",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/669632-1726050733.jpg"
     },
     {
       "id": "503162",
@@ -1879,7 +2205,9 @@
       "age": 24,
       "value": 2200000,
       "contract": "2028-06-30",
-      "nat": "Germany"
+      "nat": "Alemanha",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/503162-1659086962.jpg"
     },
     {
       "id": "679050",
@@ -1890,7 +2218,9 @@
       "age": 27,
       "value": 2200000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/679050-1704727126.jpg"
     },
     {
       "id": "42205",
@@ -1901,7 +2231,9 @@
       "age": 37,
       "value": 2000000,
       "contract": "2029-06-30",
-      "nat": "Switzerland"
+      "nat": "Suíça",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/42205-1669897427.jpg"
     },
     {
       "id": "129586",
@@ -1912,7 +2244,9 @@
       "age": 32,
       "value": 2000000,
       "contract": "2027-06-30",
-      "nat": "DR Congo"
+      "nat": "RD Congo",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/129586-1714036942.png"
     },
     {
       "id": "1184726",
@@ -1923,7 +2257,9 @@
       "age": 17,
       "value": 2000000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1184726-1785249503.jpg"
     },
     {
       "id": "157396",
@@ -1934,7 +2270,9 @@
       "age": 32,
       "value": 2000000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/157396-1789481096.jpg"
     },
     {
       "id": "412829",
@@ -1945,7 +2283,9 @@
       "age": 29,
       "value": 2000000,
       "contract": "2028-06-30",
-      "nat": "France"
+      "nat": "França",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/412829-1727723239.jpg"
     },
     {
       "id": "412945",
@@ -1956,7 +2296,9 @@
       "age": 25,
       "value": 2000000,
       "contract": "2029-06-30",
-      "nat": "Netherlands"
+      "nat": "Holanda",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/412945-1785852041.jpg"
     },
     {
       "id": "1105542",
@@ -1967,7 +2309,9 @@
       "age": 18,
       "value": 2000000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1105542-1754545603.jpg"
     },
     {
       "id": "1365842",
@@ -1978,7 +2322,9 @@
       "age": 19,
       "value": 2000000,
       "contract": "2030-06-30",
-      "nat": "Senegal"
+      "nat": "Senegal",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1365842-1759920722.jpg"
     },
     {
       "id": "655143",
@@ -1989,7 +2335,9 @@
       "age": 28,
       "value": 2000000,
       "contract": "2027-06-30",
-      "nat": "Togo"
+      "nat": "Togo",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/655143-1732263537.png"
     },
     {
       "id": "620832",
@@ -2000,7 +2348,9 @@
       "age": 24,
       "value": 2000000,
       "contract": "2029-06-30",
-      "nat": "Cameroon"
+      "nat": "Camarões",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/620832-1791816613.jpg"
     },
     {
       "id": "482769",
@@ -2011,7 +2361,9 @@
       "age": 25,
       "value": 2000000,
       "contract": "2028-06-30",
-      "nat": "France"
+      "nat": "França",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/482769-1772558776.png"
     },
     {
       "id": "656141",
@@ -2022,7 +2374,9 @@
       "age": 23,
       "value": 2000000,
       "contract": "2029-06-30",
-      "nat": "The Gambia"
+      "nat": "The Gambia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/656141-1744118209.jpg"
     },
     {
       "id": "345468",
@@ -2033,7 +2387,9 @@
       "age": 27,
       "value": 2000000,
       "contract": "2027-06-30",
-      "nat": "Switzerland"
+      "nat": "Suíça",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/345468-1770132668.jpg"
     },
     {
       "id": "249303",
@@ -2044,7 +2400,9 @@
       "age": 29,
       "value": 2000000,
       "contract": "2028-06-30",
-      "nat": "Iran"
+      "nat": "Iran",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/249303-1785411110.jpg"
     },
     {
       "id": "338637",
@@ -2055,7 +2413,9 @@
       "age": 27,
       "value": 2000000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/338637-1785928231.jpg"
     },
     {
       "id": "1176215",
@@ -2066,7 +2426,9 @@
       "age": 20,
       "value": 2000000,
       "contract": "2027-06-30",
-      "nat": "Mauritania"
+      "nat": "Mauritania",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1176215-1762884807.jpg"
     },
     {
       "id": "1010044",
@@ -2077,7 +2439,9 @@
       "age": 22,
       "value": 2000000,
       "contract": "2030-06-30",
-      "nat": "France"
+      "nat": "França",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1010044-1747252604.png"
     },
     {
       "id": "1183575",
@@ -2088,7 +2452,9 @@
       "age": 20,
       "value": 2000000,
       "contract": "2030-06-30",
-      "nat": "Senegal"
+      "nat": "Senegal",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1183575-1778861876.jpg"
     },
     {
       "id": "632088",
@@ -2099,7 +2465,9 @@
       "age": 22,
       "value": 2000000,
       "contract": "2030-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/632088-1745075831.jpg"
     },
     {
       "id": "418661",
@@ -2110,7 +2478,9 @@
       "age": 28,
       "value": 2000000,
       "contract": "2028-06-30",
-      "nat": "Uganda"
+      "nat": "Uganda",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/418661-1706021061.jpg"
     },
     {
       "id": "557614",
@@ -2121,7 +2491,9 @@
       "age": 24,
       "value": 2000000,
       "contract": "2027-06-30",
-      "nat": "DR Congo"
+      "nat": "RD Congo",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/557614-1787056822.jpg"
     },
     {
       "id": "458734",
@@ -2132,7 +2504,9 @@
       "age": 26,
       "value": 2000000,
       "contract": "2028-06-30",
-      "nat": "Curacao"
+      "nat": "Curacao",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/458734-1718022607.jpg"
     },
     {
       "id": "1233680",
@@ -2143,7 +2517,9 @@
       "age": 21,
       "value": 2000000,
       "contract": "2027-06-30",
-      "nat": "Cote d'Ivoire"
+      "nat": "Costa do Marfim",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1233680-1732867667.jpg"
     },
     {
       "id": "919173",
@@ -2154,7 +2530,9 @@
       "age": 23,
       "value": 2000000,
       "contract": "2028-06-30",
-      "nat": "Guinea"
+      "nat": "Guiné",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/919173-1639671633.png"
     },
     {
       "id": "911985",
@@ -2165,7 +2543,9 @@
       "age": 24,
       "value": 2000000,
       "contract": "2027-06-30",
-      "nat": "Cote d'Ivoire"
+      "nat": "Costa do Marfim",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/911985-1715878431.jpg"
     },
     {
       "id": "961051",
@@ -2176,7 +2556,9 @@
       "age": 20,
       "value": 2000000,
       "contract": "2030-06-30",
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/961051-1646210435.jpg"
     },
     {
       "id": "902401",
@@ -2187,7 +2569,9 @@
       "age": 22,
       "value": 2000000,
       "contract": "2027-06-30",
-      "nat": "Norway"
+      "nat": "Noruega",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/902401-1785757326.jpg"
     },
     {
       "id": "497175",
@@ -2198,7 +2582,9 @@
       "age": 28,
       "value": 2000000,
       "contract": "2028-06-30",
-      "nat": "France"
+      "nat": "França",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/497175-1656342808.png"
     },
     {
       "id": "521225",
@@ -2209,7 +2595,9 @@
       "age": 26,
       "value": 2000000,
       "contract": "2027-06-30",
-      "nat": "Denmark"
+      "nat": "Dinamarca",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/521225-1725485168.jpg"
     },
     {
       "id": "360338",
@@ -2220,7 +2608,9 @@
       "age": 28,
       "value": 2000000,
       "contract": "2029-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/360338-1772795034.png"
     },
     {
       "id": "745202",
@@ -2231,7 +2621,9 @@
       "age": 23,
       "value": 2000000,
       "contract": "2028-06-30",
-      "nat": "France"
+      "nat": "França",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/745202-1772795345.png"
     },
     {
       "id": "525140",
@@ -2242,7 +2634,9 @@
       "age": 26,
       "value": 2000000,
       "contract": "2027-06-30",
-      "nat": "Central African Republic"
+      "nat": "Central African Republic",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/525140-1785318382.jpg"
     },
     {
       "id": "988272",
@@ -2253,7 +2647,9 @@
       "age": 21,
       "value": 2000000,
       "contract": "2027-06-30",
-      "nat": "France"
+      "nat": "França",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/988272-1732575669.png"
     },
     {
       "id": "565045",
@@ -2264,7 +2660,9 @@
       "age": 27,
       "value": 2000000,
       "contract": "2027-06-30",
-      "nat": "Nigeria"
+      "nat": "Nigéria",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/565045-1771718660.jpg"
     },
     {
       "id": "244221",
@@ -2275,7 +2673,9 @@
       "age": 35,
       "value": 1800000,
       "contract": "2028-06-30",
-      "nat": "England"
+      "nat": "Inglaterra",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/244221-1772107115.jpg"
     },
     {
       "id": "502074",
@@ -2286,7 +2686,9 @@
       "age": 25,
       "value": 1800000,
       "contract": "2029-06-30",
-      "nat": "Bulgaria"
+      "nat": "Bulgaria",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/502074-1600171168.jpg"
     },
     {
       "id": "928323",
@@ -2297,7 +2699,9 @@
       "age": 25,
       "value": 1800000,
       "contract": "2027-06-30",
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/928323-1756734497.jpg"
     },
     {
       "id": "934645",
@@ -2308,7 +2712,9 @@
       "age": 21,
       "value": 1800000,
       "contract": "2030-06-30",
-      "nat": "Germany"
+      "nat": "Alemanha",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/934645-1764866002.jpg"
     },
     {
       "id": "667506",
@@ -2319,7 +2725,9 @@
       "age": 22,
       "value": 1800000,
       "contract": "2030-06-30",
-      "nat": "Wales"
+      "nat": "País de Gales",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/667506-1785834362.jpg"
     },
     {
       "id": "482141",
@@ -2330,7 +2738,9 @@
       "age": 26,
       "value": 1800000,
       "contract": "2030-06-30",
-      "nat": "Netherlands"
+      "nat": "Holanda",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/482141-1723809649.jpg"
     },
     {
       "id": "289648",
@@ -2341,7 +2751,9 @@
       "age": 28,
       "value": 1800000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/289648-1785238935.jpg"
     },
     {
       "id": "159522",
@@ -2352,7 +2764,9 @@
       "age": 29,
       "value": 1800000,
       "contract": "2027-06-30",
-      "nat": "Germany"
+      "nat": "Alemanha",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/159522-1696753926.jpg"
     },
     {
       "id": "491298",
@@ -2363,7 +2777,9 @@
       "age": 26,
       "value": 1800000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/491298-1785930939.jpg"
     },
     {
       "id": "265763",
@@ -2374,7 +2790,9 @@
       "age": 29,
       "value": 1800000,
       "contract": "2027-06-30",
-      "nat": "Guadeloupe"
+      "nat": "Guadeloupe",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/265763-1754663643.jpg"
     },
     {
       "id": "538958",
@@ -2385,7 +2803,9 @@
       "age": 26,
       "value": 1800000,
       "contract": "2028-06-30",
-      "nat": "Curacao"
+      "nat": "Curacao",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/538958-1718692901.png"
     },
     {
       "id": "623095",
@@ -2396,7 +2816,9 @@
       "age": 23,
       "value": 1500000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/623095-1704452328.jpg"
     },
     {
       "id": "1334900",
@@ -2407,7 +2829,9 @@
       "age": 17,
       "value": 1500000,
       "contract": "2029-06-30",
-      "nat": "Italy"
+      "nat": "Itália",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1334900-1776408863.jpg"
     },
     {
       "id": "393686",
@@ -2418,7 +2842,9 @@
       "age": 26,
       "value": 1500000,
       "contract": "2029-06-30",
-      "nat": "Austria"
+      "nat": "Áustria",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/393686-1722521028.jpg"
     },
     {
       "id": "170646",
@@ -2429,7 +2855,9 @@
       "age": 32,
       "value": 1500000,
       "contract": "2027-06-30",
-      "nat": "Sweden"
+      "nat": "Suécia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/170646-1785852117.jpg"
     },
     {
       "id": "420890",
@@ -2440,7 +2868,9 @@
       "age": 29,
       "value": 1500000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/420890-1736777226.jpg"
     },
     {
       "id": "148365",
@@ -2451,7 +2881,9 @@
       "age": 32,
       "value": 1500000,
       "contract": "2028-06-30",
-      "nat": "Denmark"
+      "nat": "Dinamarca",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/148365-1733899547.jpg"
     },
     {
       "id": "1030663",
@@ -2462,7 +2894,9 @@
       "age": 26,
       "value": 1500000,
       "contract": "2028-06-30",
-      "nat": "Japan"
+      "nat": "Japão",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1030663-1785927421.jpg"
     },
     {
       "id": "570817",
@@ -2473,7 +2907,9 @@
       "age": 27,
       "value": 1500000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/570817-1785927239.jpg"
     },
     {
       "id": "1112904",
@@ -2484,7 +2920,9 @@
       "age": 18,
       "value": 1500000,
       "contract": "2029-06-30",
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1112904-1785921781.jpg"
     },
     {
       "id": "1293796",
@@ -2495,7 +2933,9 @@
       "age": 20,
       "value": 1500000,
       "contract": "2027-06-30",
-      "nat": "Cote d'Ivoire"
+      "nat": "Costa do Marfim",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1293796-1785921919.jpg"
     },
     {
       "id": "1029619",
@@ -2506,7 +2946,9 @@
       "age": 22,
       "value": 1500000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1029619-1785836596.jpg"
     },
     {
       "id": "501749",
@@ -2517,7 +2959,9 @@
       "age": 25,
       "value": 1500000,
       "contract": "2029-06-30",
-      "nat": "Japan"
+      "nat": "Japão",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/501749-1785836763.jpg"
     },
     {
       "id": "1060983",
@@ -2528,7 +2972,9 @@
       "age": 20,
       "value": 1500000,
       "contract": "2030-06-30",
-      "nat": "Switzerland"
+      "nat": "Suíça",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1060983-1758831483.jpg"
     },
     {
       "id": "915026",
@@ -2539,7 +2985,9 @@
       "age": 21,
       "value": 1500000,
       "contract": "2030-06-30",
-      "nat": "Japan"
+      "nat": "Japão",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/915026-1772817414.jpg"
     },
     {
       "id": "566011",
@@ -2550,7 +2998,9 @@
       "age": 24,
       "value": 1500000,
       "contract": "2031-06-30",
-      "nat": "Japan"
+      "nat": "Japão",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/566011-1772673330.JPG"
     },
     {
       "id": "717604",
@@ -2561,7 +3011,9 @@
       "age": 23,
       "value": 1500000,
       "contract": "2030-06-30",
-      "nat": "Netherlands"
+      "nat": "Holanda",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/717604-1692261678.jpg"
     },
     {
       "id": "1049965",
@@ -2572,7 +3024,9 @@
       "age": 23,
       "value": 1500000,
       "contract": "2028-06-30",
-      "nat": "Senegal"
+      "nat": "Senegal",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1049965-1739452053.png"
     },
     {
       "id": "661208",
@@ -2583,7 +3037,9 @@
       "age": 23,
       "value": 1500000,
       "contract": "2029-06-30",
-      "nat": "Norway"
+      "nat": "Noruega",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/661208-1648481718.jpg"
     },
     {
       "id": "129588",
@@ -2594,7 +3050,9 @@
       "age": 32,
       "value": 1500000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/129588-1572887027.jpg"
     },
     {
       "id": "583919",
@@ -2605,7 +3063,9 @@
       "age": 23,
       "value": 1500000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/583919-1770620939.jpg"
     },
     {
       "id": "1274489",
@@ -2616,7 +3076,9 @@
       "age": 20,
       "value": 1500000,
       "contract": "2029-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1274489-1785238549.jpg"
     },
     {
       "id": "924447",
@@ -2627,7 +3089,9 @@
       "age": 23,
       "value": 1500000,
       "contract": "2030-06-30",
-      "nat": "Nigeria"
+      "nat": "Nigéria",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/924447-1700777468.jpg"
     },
     {
       "id": "463738",
@@ -2638,7 +3102,9 @@
       "age": 26,
       "value": 1500000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/463738-1711612650.png"
     },
     {
       "id": "984593",
@@ -2649,7 +3115,9 @@
       "age": 20,
       "value": 1500000,
       "contract": "2027-06-30",
-      "nat": "England"
+      "nat": "Inglaterra",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/984593-1746641384.jpg"
     },
     {
       "id": "983364",
@@ -2660,7 +3128,9 @@
       "age": 23,
       "value": 1500000,
       "contract": "2028-06-30",
-      "nat": "France"
+      "nat": "França",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/983364-1742299959.png"
     },
     {
       "id": "340343",
@@ -2671,7 +3141,9 @@
       "age": 29,
       "value": 1500000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/340343-1785756916.jpg"
     },
     {
       "id": "401598",
@@ -2682,7 +3154,9 @@
       "age": 25,
       "value": 1500000,
       "contract": "2029-06-30",
-      "nat": "Poland"
+      "nat": "Polônia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/401598-1785931145.jpg"
     },
     {
       "id": "208552",
@@ -2693,7 +3167,9 @@
       "age": 30,
       "value": 1500000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/208552-1713336899.png"
     },
     {
       "id": "696550",
@@ -2704,7 +3180,9 @@
       "age": 26,
       "value": 1500000,
       "contract": "2027-06-30",
-      "nat": "Mali"
+      "nat": "Mali",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/696550-1675941881.jpg"
     },
     {
       "id": "591032",
@@ -2715,7 +3193,9 @@
       "age": 26,
       "value": 1500000,
       "contract": "2027-06-30",
-      "nat": "Germany"
+      "nat": "Alemanha",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/591032-1689513062.jpg"
     },
     {
       "id": "671682",
@@ -2726,7 +3206,9 @@
       "age": 22,
       "value": 1500000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/671682-1714046245.png"
     },
     {
       "id": "1085270",
@@ -2737,7 +3219,9 @@
       "age": 20,
       "value": 1500000,
       "contract": "2029-06-30",
-      "nat": "Hungary"
+      "nat": "Hungria",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1085270-1732987323.png"
     },
     {
       "id": "961054",
@@ -2748,7 +3232,9 @@
       "age": 20,
       "value": 1500000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/961054-1785841908.jpg"
     },
     {
       "id": "886363",
@@ -2759,7 +3245,9 @@
       "age": 22,
       "value": 1500000,
       "contract": "2027-06-30",
-      "nat": "Netherlands"
+      "nat": "Holanda",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/886363-1713871128.png"
     },
     {
       "id": "981693",
@@ -2770,7 +3258,9 @@
       "age": 20,
       "value": 1500000,
       "contract": "2027-06-30",
-      "nat": "Netherlands"
+      "nat": "Holanda",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/981693-1742228262.jpg"
     },
     {
       "id": "648895",
@@ -2781,7 +3271,9 @@
       "age": 22,
       "value": 1500000,
       "contract": "2029-06-30",
-      "nat": "Hungary"
+      "nat": "Hungria",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/648895-1727336184.jpg"
     },
     {
       "id": "604326",
@@ -2792,7 +3284,9 @@
       "age": 23,
       "value": 1500000,
       "contract": "2027-06-30",
-      "nat": "Germany"
+      "nat": "Alemanha",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/604326-1722891787.jpg"
     },
     {
       "id": "616162",
@@ -2803,7 +3297,9 @@
       "age": 23,
       "value": 1400000,
       "contract": "2027-06-30",
-      "nat": "Italy"
+      "nat": "Itália",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/616162-1770411975.jpg"
     },
     {
       "id": "452296",
@@ -2814,7 +3310,9 @@
       "age": 29,
       "value": 1300000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/452296-1757576357.jpg"
     },
     {
       "id": "1124661",
@@ -2825,7 +3323,9 @@
       "age": 25,
       "value": 1300000,
       "contract": "2027-06-30",
-      "nat": "Japan"
+      "nat": "Japão",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1124661-1759763155.jpg"
     },
     {
       "id": "1284784",
@@ -2836,7 +3336,9 @@
       "age": 19,
       "value": 1300000,
       "contract": "2029-06-30",
-      "nat": "Guinea"
+      "nat": "Guiné",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1284784-1785931770.jpg"
     },
     {
       "id": "1310356",
@@ -2847,7 +3349,9 @@
       "age": 21,
       "value": 1200000,
       "contract": "2030-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1310356-1789480665.jpg"
     },
     {
       "id": "154351",
@@ -2858,7 +3362,9 @@
       "age": 34,
       "value": 1200000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/154351-1705415837.jpg"
     },
     {
       "id": "621965",
@@ -2869,7 +3375,9 @@
       "age": 23,
       "value": 1200000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/621965-1746716774.jpg"
     },
     {
       "id": "1186563",
@@ -2880,7 +3388,9 @@
       "age": 18,
       "value": 1200000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1186563-1785924206.jpg"
     },
     {
       "id": "802547",
@@ -2891,7 +3401,9 @@
       "age": 21,
       "value": 1200000,
       "contract": "2030-06-30",
-      "nat": "Denmark"
+      "nat": "Dinamarca",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/802547-1785837488.jpg"
     },
     {
       "id": "183120",
@@ -2902,7 +3414,9 @@
       "age": 32,
       "value": 1200000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/183120-1757669600.jpg"
     },
     {
       "id": "1111912",
@@ -2913,7 +3427,9 @@
       "age": 22,
       "value": 1200000,
       "contract": "2027-06-30",
-      "nat": "The Gambia"
+      "nat": "The Gambia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1111912-1723820918.png"
     },
     {
       "id": "551932",
@@ -2924,7 +3440,9 @@
       "age": 24,
       "value": 1200000,
       "contract": "2030-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/551932-1785932047.jpg"
     },
     {
       "id": "944367",
@@ -2935,7 +3453,9 @@
       "age": 25,
       "value": 1200000,
       "contract": "2029-06-30",
-      "nat": "Ghana"
+      "nat": "Gana",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/944367-1785931845.jpg"
     },
     {
       "id": "929494",
@@ -2946,7 +3466,9 @@
       "age": 25,
       "value": 1200000,
       "contract": "2028-06-30",
-      "nat": "Nigeria"
+      "nat": "Nigéria",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/929494-1785931233.jpg"
     },
     {
       "id": "1422277",
@@ -2957,7 +3479,9 @@
       "age": 22,
       "value": 1200000,
       "contract": "2027-06-30",
-      "nat": "Senegal"
+      "nat": "Senegal",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1422277-1761231322.jpg"
     },
     {
       "id": "935507",
@@ -2968,7 +3492,9 @@
       "age": 26,
       "value": 1200000,
       "contract": "2029-06-30",
-      "nat": "France"
+      "nat": "França",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/935507-1773277092.jpg"
     },
     {
       "id": "917101",
@@ -2979,7 +3505,9 @@
       "age": 22,
       "value": 1200000,
       "contract": "2029-06-30",
-      "nat": "France"
+      "nat": "França",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/917101-1785253421.jpg"
     },
     {
       "id": "719670",
@@ -2990,7 +3518,9 @@
       "age": 22,
       "value": 1200000,
       "contract": "2028-06-30",
-      "nat": "Scotland"
+      "nat": "Escócia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/719670-1785253883.jpg"
     },
     {
       "id": "1108145",
@@ -3001,7 +3531,9 @@
       "age": 22,
       "value": 1200000,
       "contract": "2028-06-30",
-      "nat": "Mali"
+      "nat": "Mali",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1108145-1764608819.jpg"
     },
     {
       "id": "250543",
@@ -3012,7 +3544,9 @@
       "age": 29,
       "value": 1000000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/250543-1705416091.jpg"
     },
     {
       "id": "1122795",
@@ -3023,7 +3557,9 @@
       "age": 19,
       "value": 1000000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1122795-1729176819.jpg"
     },
     {
       "id": "627939",
@@ -3034,7 +3570,9 @@
       "age": 24,
       "value": 1000000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/627939-1714037103.png"
     },
     {
       "id": "1397296",
@@ -3045,7 +3583,9 @@
       "age": 17,
       "value": 1000000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1397296-1779887024.jpg"
     },
     {
       "id": "568373",
@@ -3056,7 +3596,9 @@
       "age": 24,
       "value": 1000000,
       "contract": "2029-06-30",
-      "nat": "Netherlands"
+      "nat": "Holanda",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/568373-1717147838.jpg"
     },
     {
       "id": "906428",
@@ -3067,7 +3609,9 @@
       "age": 21,
       "value": 1000000,
       "contract": "2030-06-30",
-      "nat": "England"
+      "nat": "Inglaterra",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/906428-1757499607.jpg"
     },
     {
       "id": "1555142",
@@ -3078,7 +3622,9 @@
       "age": 18,
       "value": 1000000,
       "contract": "2030-06-30",
-      "nat": "Ghana"
+      "nat": "Gana",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1555142-1785922054.jpg"
     },
     {
       "id": "937111",
@@ -3089,7 +3635,9 @@
       "age": 20,
       "value": 1000000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/937111-1785836073.jpg"
     },
     {
       "id": "207623",
@@ -3100,7 +3648,9 @@
       "age": 31,
       "value": 1000000,
       "contract": "2027-06-30",
-      "nat": "North Macedonia"
+      "nat": "North Macedonia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/207623-1734014773.jpg"
     },
     {
       "id": "1137664",
@@ -3111,7 +3661,9 @@
       "age": 23,
       "value": 1000000,
       "contract": "2029-06-30",
-      "nat": "Senegal"
+      "nat": "Senegal",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1137664-1693403522.png"
     },
     {
       "id": "664973",
@@ -3122,7 +3674,9 @@
       "age": 23,
       "value": 1000000,
       "contract": "2028-06-30",
-      "nat": "Germany"
+      "nat": "Alemanha",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/664973-1722887235.jpg"
     },
     {
       "id": "1097605",
@@ -3133,7 +3687,9 @@
       "age": 21,
       "value": 1000000,
       "contract": "2030-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1097605-1774016755.jpg"
     },
     {
       "id": "956050",
@@ -3144,7 +3700,9 @@
       "age": 24,
       "value": 1000000,
       "contract": "2027-06-30",
-      "nat": "Zimbabwe"
+      "nat": "Zimbabwe",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/956050-1718281939.jpg"
     },
     {
       "id": "655003",
@@ -3155,7 +3713,9 @@
       "age": 22,
       "value": 1000000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/655003-1765372453.png"
     },
     {
       "id": "903223",
@@ -3166,7 +3726,9 @@
       "age": 22,
       "value": 1000000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/903223-1785756632.jpg"
     },
     {
       "id": "522248",
@@ -3177,7 +3739,9 @@
       "age": 24,
       "value": 1000000,
       "contract": "2029-06-30",
-      "nat": "Germany"
+      "nat": "Alemanha",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/522248-1785931939.jpg"
     },
     {
       "id": "338665",
@@ -3188,7 +3752,9 @@
       "age": 27,
       "value": 1000000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/338665-1713871912.jpg"
     },
     {
       "id": "289584",
@@ -3199,7 +3765,9 @@
       "age": 28,
       "value": 1000000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/289584-1626772588.jpg"
     },
     {
       "id": "708453",
@@ -3210,7 +3778,9 @@
       "age": 22,
       "value": 1000000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/708453-1718282283.jpg"
     },
     {
       "id": "548037",
@@ -3221,7 +3791,9 @@
       "age": 23,
       "value": 1000000,
       "contract": "2027-06-30",
-      "nat": "Austria"
+      "nat": "Áustria",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/548037-1724948741.jpg"
     },
     {
       "id": "738478",
@@ -3232,7 +3804,9 @@
       "age": 21,
       "value": 1000000,
       "contract": "2029-06-30",
-      "nat": "Netherlands"
+      "nat": "Holanda",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/738478-1785844295.jpg"
     },
     {
       "id": "656800",
@@ -3243,7 +3817,9 @@
       "age": 22,
       "value": 1000000,
       "contract": "2028-06-30",
-      "nat": "Netherlands"
+      "nat": "Holanda",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/656800-1724750566.jpg"
     },
     {
       "id": "741587",
@@ -3254,7 +3830,9 @@
       "age": 21,
       "value": 1000000,
       "contract": "2028-06-30",
-      "nat": "Finland"
+      "nat": "Finlândia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/741587-1785841626.jpg"
     },
     {
       "id": "1004618",
@@ -3265,7 +3843,9 @@
       "age": 22,
       "value": 1000000,
       "contract": "2027-06-30",
-      "nat": "France"
+      "nat": "França",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1004618-1785844213.jpg"
     },
     {
       "id": "926301",
@@ -3276,7 +3856,9 @@
       "age": 20,
       "value": 1000000,
       "contract": "2027-06-30",
-      "nat": "Luxembourg"
+      "nat": "Luxembourg",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/926301-1760967429.jpg"
     },
     {
       "id": "947363",
@@ -3287,7 +3869,9 @@
       "age": 23,
       "value": 1000000,
       "contract": "2027-06-30",
-      "nat": "France"
+      "nat": "França",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/947363-1772795276.png"
     },
     {
       "id": "490224",
@@ -3298,7 +3882,9 @@
       "age": 25,
       "value": 1000000,
       "contract": "2028-06-30",
-      "nat": "Mali"
+      "nat": "Mali",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/490224-1754322517.png"
     },
     {
       "id": "937994",
@@ -3309,7 +3895,9 @@
       "age": 24,
       "value": 1000000,
       "contract": "2028-06-30",
-      "nat": "France"
+      "nat": "França",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/937994-1753083685.jpg"
     },
     {
       "id": "926601",
@@ -3320,7 +3908,9 @@
       "age": 23,
       "value": 1000000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/926601-1755504114.jpg"
     },
     {
       "id": "486053",
@@ -3331,7 +3921,9 @@
       "age": 24,
       "value": 1000000,
       "contract": "2029-06-30",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/486053-1785318483.jpg"
     },
     {
       "id": "1050404",
@@ -3342,7 +3934,9 @@
       "age": 22,
       "value": 1000000,
       "contract": "2027-06-30",
-      "nat": "Slovenia"
+      "nat": "Eslovênia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1050404-1761947719.png"
     },
     {
       "id": "1159786",
@@ -3353,7 +3947,9 @@
       "age": 21,
       "value": 1000000,
       "contract": "2030-06-30",
-      "nat": "South Africa"
+      "nat": "South Africa",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1159786-1754511168.jpg"
     },
     {
       "id": "671675",
@@ -3364,7 +3960,9 @@
       "age": 22,
       "value": 1000000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/671675-1764155600.jpg"
     },
     {
       "id": "338673",
@@ -3375,7 +3973,9 @@
       "age": 27,
       "value": 900000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/338673-1785931666.jpg"
     },
     {
       "id": "358021",
@@ -3386,7 +3986,9 @@
       "age": 26,
       "value": 900000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/358021-1785834783.jpg"
     },
     {
       "id": "358042",
@@ -3397,7 +3999,9 @@
       "age": 26,
       "value": 900000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/358042-1785843770.jpg"
     },
     {
       "id": "578655",
@@ -3408,7 +4012,9 @@
       "age": 25,
       "value": 900000,
       "contract": "2027-06-30",
-      "nat": "Japan"
+      "nat": "Japão",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/578655-1785253542.jpg"
     },
     {
       "id": "1041316",
@@ -3419,7 +4025,9 @@
       "age": 22,
       "value": 800000,
       "contract": "2028-06-30",
-      "nat": "Venezuela"
+      "nat": "Venezuela",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1041316-1781772811.jpg"
     },
     {
       "id": "205550",
@@ -3430,7 +4038,9 @@
       "age": 31,
       "value": 800000,
       "contract": "2027-06-30",
-      "nat": "Madagascar"
+      "nat": "Madagascar",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/205550-1672593922.jpg"
     },
     {
       "id": "153661",
@@ -3441,7 +4051,9 @@
       "age": 31,
       "value": 800000,
       "contract": "2028-06-30",
-      "nat": "Germany"
+      "nat": "Alemanha",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/153661-1785411836.jpg"
     },
     {
       "id": "384587",
@@ -3452,7 +4064,9 @@
       "age": 29,
       "value": 800000,
       "contract": "2027-06-30",
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/384587-1719302263.jpg"
     },
     {
       "id": "579084",
@@ -3463,7 +4077,9 @@
       "age": 24,
       "value": 800000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/579084-1785837420.jpg"
     },
     {
       "id": "1153358",
@@ -3474,7 +4090,9 @@
       "age": 19,
       "value": 800000,
       "contract": "2029-06-30",
-      "nat": "Japan"
+      "nat": "Japão",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1188222",
@@ -3485,7 +4103,9 @@
       "age": 20,
       "value": 800000,
       "contract": "2030-06-30",
-      "nat": "France"
+      "nat": "França",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1188222-1789975005.jpg"
     },
     {
       "id": "1063263",
@@ -3496,7 +4116,9 @@
       "age": 22,
       "value": 800000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1063263-1718282509.jpg"
     },
     {
       "id": "112930",
@@ -3507,7 +4129,9 @@
       "age": 32,
       "value": 800000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/112930-1693899816.jpg"
     },
     {
       "id": "338651",
@@ -3518,7 +4142,9 @@
       "age": 28,
       "value": 800000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/338651-1710924593.jpg"
     },
     {
       "id": "724529",
@@ -3529,7 +4155,9 @@
       "age": 22,
       "value": 800000,
       "contract": "2030-06-30",
-      "nat": "Ireland"
+      "nat": "Irlanda",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/724529-1706085794.jpg"
     },
     {
       "id": "467616",
@@ -3540,7 +4168,9 @@
       "age": 26,
       "value": 800000,
       "contract": "2028-06-30",
-      "nat": "South Africa"
+      "nat": "South Africa",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/467616-1697908313.jpg"
     },
     {
       "id": "884822",
@@ -3551,7 +4181,9 @@
       "age": 20,
       "value": 800000,
       "contract": "2029-06-30",
-      "nat": "Germany"
+      "nat": "Alemanha",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/884822-1760967283.jpg"
     },
     {
       "id": "1145004",
@@ -3562,7 +4194,9 @@
       "age": 20,
       "value": 800000,
       "contract": "2030-06-30",
-      "nat": "Cote d'Ivoire"
+      "nat": "Costa do Marfim",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1145004-1785761099.jpg"
     },
     {
       "id": "559320",
@@ -3573,7 +4207,9 @@
       "age": 23,
       "value": 800000,
       "contract": "2029-06-30",
-      "nat": "Netherlands"
+      "nat": "Holanda",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/559320-1754511080.jpg"
     },
     {
       "id": "544106",
@@ -3584,7 +4220,9 @@
       "age": 28,
       "value": 800000,
       "contract": "2027-06-30",
-      "nat": "Spain"
+      "nat": "Espanha",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/544106-1785931073.jpg"
     },
     {
       "id": "492634",
@@ -3595,7 +4233,9 @@
       "age": 27,
       "value": 800000,
       "contract": "2027-06-30",
-      "nat": "Germany"
+      "nat": "Alemanha",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/492634-1714469405.png"
     },
     {
       "id": "681970",
@@ -3606,7 +4246,9 @@
       "age": 26,
       "value": 800000,
       "contract": "2027-06-30",
-      "nat": "Japan"
+      "nat": "Japão",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/681970-1785931318.jpg"
     },
     {
       "id": "583901",
@@ -3617,7 +4259,9 @@
       "age": 23,
       "value": 800000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/583901-1709894742.jpg"
     },
     {
       "id": "609691",
@@ -3628,7 +4272,9 @@
       "age": 25,
       "value": 800000,
       "contract": "2028-06-30",
-      "nat": "Haiti"
+      "nat": "Haiti",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/609691-1726495140.png"
     },
     {
       "id": "249570",
@@ -3639,7 +4285,9 @@
       "age": 29,
       "value": 800000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/249570-1713869830.png"
     },
     {
       "id": "917822",
@@ -3650,7 +4298,9 @@
       "age": 26,
       "value": 800000,
       "contract": "2027-06-30",
-      "nat": "France"
+      "nat": "França",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/917822-1750009631.png"
     },
     {
       "id": "899764",
@@ -3661,7 +4311,9 @@
       "age": 27,
       "value": 800000,
       "contract": "2028-06-30",
-      "nat": "Germany"
+      "nat": "Alemanha",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/899764-1689943671.jpg"
     },
     {
       "id": "343953",
@@ -3672,7 +4324,9 @@
       "age": 28,
       "value": 800000,
       "contract": "2029-06-30",
-      "nat": "Serbia"
+      "nat": "Sérvia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/343953-1725631867.JPG"
     },
     {
       "id": "1040824",
@@ -3683,7 +4337,9 @@
       "age": 23,
       "value": 800000,
       "contract": "2028-06-30",
-      "nat": "Cameroon"
+      "nat": "Camarões",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1040824-1699980581.png"
     },
     {
       "id": "585711",
@@ -3694,7 +4350,9 @@
       "age": 26,
       "value": 800000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/585711-1785318142.jpg"
     },
     {
       "id": "292815",
@@ -3705,7 +4363,9 @@
       "age": 29,
       "value": 800000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/292815-1754662994.jpg"
     },
     {
       "id": "371936",
@@ -3716,7 +4376,9 @@
       "age": 27,
       "value": 800000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/371936-1713872702.jpg"
     },
     {
       "id": "671668",
@@ -3727,7 +4389,9 @@
       "age": 21,
       "value": 800000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/671668-1700467124.jpg"
     },
     {
       "id": "1072185",
@@ -3738,7 +4402,9 @@
       "age": 19,
       "value": 800000,
       "contract": "2027-06-30",
-      "nat": "Burkina Faso"
+      "nat": "Burkina Faso",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1072185-1783875400.jpg"
     },
     {
       "id": "1130961",
@@ -3749,7 +4415,9 @@
       "age": 20,
       "value": 750000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1130961-1785924641.jpg"
     },
     {
       "id": "307870",
@@ -3760,7 +4428,9 @@
       "age": 35,
       "value": 750000,
       "contract": "2027-06-30",
-      "nat": "Japan"
+      "nat": "Japão",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/307870-1781200305.jpg"
     },
     {
       "id": "650809",
@@ -3771,7 +4441,9 @@
       "age": 27,
       "value": 750000,
       "contract": "2028-06-30",
-      "nat": "France"
+      "nat": "França",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/650809-1632825488.jpg"
     },
     {
       "id": "985691",
@@ -3782,7 +4454,9 @@
       "age": 20,
       "value": 750000,
       "contract": "2027-06-30",
-      "nat": "England"
+      "nat": "Inglaterra",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/985691-1785254178.jpg"
     },
     {
       "id": "565429",
@@ -3793,7 +4467,9 @@
       "age": 23,
       "value": 700000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/565429-1789481328.jpg"
     },
     {
       "id": "1133955",
@@ -3804,7 +4480,9 @@
       "age": 20,
       "value": 700000,
       "contract": "2028-06-30",
-      "nat": "Nigeria"
+      "nat": "Nigéria",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1133955-1759920827.jpg"
     },
     {
       "id": "502298",
@@ -3815,7 +4493,9 @@
       "age": 25,
       "value": 700000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/502298-1713450201.png"
     },
     {
       "id": "671677",
@@ -3826,7 +4506,9 @@
       "age": 22,
       "value": 700000,
       "contract": "2029-06-30",
-      "nat": "Belarus"
+      "nat": "Belarus",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/671677-1739184146.jpg"
     },
     {
       "id": "435808",
@@ -3837,7 +4519,9 @@
       "age": 28,
       "value": 700000,
       "contract": "2028-06-30",
-      "nat": "Cote d'Ivoire"
+      "nat": "Costa do Marfim",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/435808-1762961673.jpg"
     },
     {
       "id": "959576",
@@ -3848,7 +4532,9 @@
       "age": 22,
       "value": 700000,
       "contract": "2027-06-30",
-      "nat": "France"
+      "nat": "França",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/959576-1785761461.jpg"
     },
     {
       "id": "234193",
@@ -3859,7 +4545,9 @@
       "age": 32,
       "value": 700000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/234193-1785932168.jpg"
     },
     {
       "id": "687630",
@@ -3870,7 +4558,9 @@
       "age": 25,
       "value": 700000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/687630-1785931591.jpg"
     },
     {
       "id": "323602",
@@ -3881,7 +4571,9 @@
       "age": 29,
       "value": 700000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/323602-1713870329.png"
     },
     {
       "id": "720939",
@@ -3892,7 +4584,9 @@
       "age": 23,
       "value": 700000,
       "contract": "2028-06-30",
-      "nat": "Hungary"
+      "nat": "Hungria",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/720939-1787301641.jpg"
     },
     {
       "id": "338652",
@@ -3903,7 +4597,9 @@
       "age": 28,
       "value": 700000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/338652-1772796109.png"
     },
     {
       "id": "671679",
@@ -3914,7 +4610,9 @@
       "age": 22,
       "value": 700000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/671679-1754662839.jpg"
     },
     {
       "id": "396823",
@@ -3925,7 +4623,9 @@
       "age": 28,
       "value": 700000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/396823-1597831251.jpg"
     },
     {
       "id": "698560",
@@ -3936,7 +4636,9 @@
       "age": 26,
       "value": 700000,
       "contract": "2028-06-30",
-      "nat": "Guinea"
+      "nat": "Guiné",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/698560-1720593327.jpg"
     },
     {
       "id": "250591",
@@ -3947,7 +4649,9 @@
       "age": 29,
       "value": 700000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/250591-1764690162.png"
     },
     {
       "id": "1153876",
@@ -3958,7 +4662,9 @@
       "age": 21,
       "value": 650000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1153876-1776865552.jpg"
     },
     {
       "id": "540827",
@@ -3969,7 +4675,9 @@
       "age": 24,
       "value": 650000,
       "contract": "2030-06-30",
-      "nat": "Israel"
+      "nat": "Israel",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/540827-1745226640.jpg"
     },
     {
       "id": "1160184",
@@ -3980,7 +4688,9 @@
       "age": 21,
       "value": 600000,
       "contract": "2028-06-30",
-      "nat": "Burkina Faso"
+      "nat": "Burkina Faso",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1160184-1746717025.jpg"
     },
     {
       "id": "183383",
@@ -3991,7 +4701,9 @@
       "age": 31,
       "value": 600000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/183383-1671479324.jpg"
     },
     {
       "id": "1048452",
@@ -4002,7 +4714,9 @@
       "age": 20,
       "value": 600000,
       "contract": "2030-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1048452-1761205800.jpg"
     },
     {
       "id": "147043",
@@ -4013,7 +4727,9 @@
       "age": 32,
       "value": 600000,
       "contract": "2028-06-30",
-      "nat": "Switzerland"
+      "nat": "Suíça",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/147043-1785928308.jpg"
     },
     {
       "id": "486054",
@@ -4024,7 +4740,9 @@
       "age": 24,
       "value": 600000,
       "contract": "2029-06-30",
-      "nat": "Cameroon"
+      "nat": "Camarões",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/486054-1711614596.png"
     },
     {
       "id": "1086381",
@@ -4035,7 +4753,9 @@
       "age": 22,
       "value": 600000,
       "contract": "2029-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1086381-1723788635.jpg"
     },
     {
       "id": "1451916",
@@ -4046,7 +4766,9 @@
       "age": 19,
       "value": 600000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1451916-1787144566.jpg"
     },
     {
       "id": "1208836",
@@ -4057,7 +4779,9 @@
       "age": 19,
       "value": 600000,
       "contract": "2030-06-30",
-      "nat": "France"
+      "nat": "França",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1208836-1785238749.jpg"
     },
     {
       "id": "440953",
@@ -4068,7 +4792,9 @@
       "age": 25,
       "value": 600000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/440953-1785761390.jpg"
     },
     {
       "id": "492730",
@@ -4079,7 +4805,9 @@
       "age": 26,
       "value": 600000,
       "contract": "2027-06-30",
-      "nat": "Japan"
+      "nat": "Japão",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/492730-1774735323.JPG"
     },
     {
       "id": "406559",
@@ -4090,7 +4818,9 @@
       "age": 26,
       "value": 600000,
       "contract": "2027-06-30",
-      "nat": "England"
+      "nat": "Inglaterra",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/406559-1785841819.jpg"
     },
     {
       "id": "1372119",
@@ -4101,7 +4831,9 @@
       "age": 19,
       "value": 600000,
       "contract": "2027-06-30",
-      "nat": "Nigeria"
+      "nat": "Nigéria",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1372119-1755311057.jpg"
     },
     {
       "id": "416802",
@@ -4112,7 +4844,9 @@
       "age": 26,
       "value": 600000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/416802-1772795442.png"
     },
     {
       "id": "931555",
@@ -4123,7 +4857,9 @@
       "age": 24,
       "value": 600000,
       "contract": "2028-06-30",
-      "nat": "Senegal"
+      "nat": "Senegal",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/931555-1756993227.jpg"
     },
     {
       "id": "1113308",
@@ -4134,7 +4870,9 @@
       "age": 21,
       "value": 600000,
       "contract": "2027-06-30",
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1113308-1691997287.jpg"
     },
     {
       "id": "271441",
@@ -4145,7 +4883,9 @@
       "age": 32,
       "value": 600000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/271441-1754663135.jpg"
     },
     {
       "id": "1322006",
@@ -4156,7 +4896,9 @@
       "age": 18,
       "value": 500000,
       "contract": "2030-06-30",
-      "nat": "France"
+      "nat": "França",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1322006-1787144272.jpg"
     },
     {
       "id": "137326",
@@ -4167,7 +4909,9 @@
       "age": 33,
       "value": 500000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/137326-1714036449.png"
     },
     {
       "id": "981532",
@@ -4178,7 +4922,9 @@
       "age": 19,
       "value": 500000,
       "contract": "2030-06-30",
-      "nat": "Mali"
+      "nat": "Mali",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/981532-1785247417.jpg"
     },
     {
       "id": "129684",
@@ -4189,7 +4935,9 @@
       "age": 31,
       "value": 500000,
       "contract": "2029-06-30",
-      "nat": "Japan"
+      "nat": "Japão",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/129684-1789480921.jpg"
     },
     {
       "id": "453770",
@@ -4200,7 +4948,9 @@
       "age": 25,
       "value": 500000,
       "contract": "2029-06-30",
-      "nat": "Germany"
+      "nat": "Alemanha",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/453770-1730797362.jpg"
     },
     {
       "id": "1005835",
@@ -4211,7 +4961,9 @@
       "age": 20,
       "value": 500000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1005835-1732779540.jpg"
     },
     {
       "id": "1377310",
@@ -4222,7 +4974,9 @@
       "age": 17,
       "value": 500000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1377310-1785923620.jpg"
     },
     {
       "id": "601556",
@@ -4233,7 +4987,9 @@
       "age": 27,
       "value": 500000,
       "contract": "2030-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/601556-1756924538.jpg"
     },
     {
       "id": "1094135",
@@ -4244,7 +5000,9 @@
       "age": 21,
       "value": 500000,
       "contract": "2029-06-30",
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1094135-1785837153.jpg"
     },
     {
       "id": "1318194",
@@ -4255,7 +5013,9 @@
       "age": 19,
       "value": 500000,
       "contract": "2029-06-30",
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1318194-1785837075.jpg"
     },
     {
       "id": "450218",
@@ -4266,7 +5026,9 @@
       "age": 29,
       "value": 500000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/450218-1709893883.jpg"
     },
     {
       "id": "981194",
@@ -4277,7 +5039,9 @@
       "age": 21,
       "value": 500000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/981194-1673801616.jpg"
     },
     {
       "id": "1207292",
@@ -4288,7 +5052,9 @@
       "age": 20,
       "value": 500000,
       "contract": "2029-06-30",
-      "nat": "Nigeria"
+      "nat": "Nigéria",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1318352",
@@ -4299,7 +5065,9 @@
       "age": 18,
       "value": 500000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1318352-1778058740.jpg"
     },
     {
       "id": "1095336",
@@ -4310,7 +5078,9 @@
       "age": 23,
       "value": 500000,
       "contract": "2030-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1095336-1725068640.jpg"
     },
     {
       "id": "1126257",
@@ -4321,7 +5091,9 @@
       "age": 20,
       "value": 500000,
       "contract": "2027-06-30",
-      "nat": "Japan"
+      "nat": "Japão",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1126257-1772685457.jpg"
     },
     {
       "id": "727088",
@@ -4332,7 +5104,9 @@
       "age": 22,
       "value": 500000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/727088-1774594715.jpg"
     },
     {
       "id": "938400",
@@ -4343,7 +5117,9 @@
       "age": 20,
       "value": 500000,
       "contract": "2027-06-30",
-      "nat": "England"
+      "nat": "Inglaterra",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/938400-1785841986.jpg"
     },
     {
       "id": "858324",
@@ -4354,7 +5130,9 @@
       "age": 22,
       "value": 500000,
       "contract": "2027-06-30",
-      "nat": "Serbia"
+      "nat": "Sérvia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/858324-1789059671.jpg"
     },
     {
       "id": "860048",
@@ -4365,7 +5143,9 @@
       "age": 22,
       "value": 500000,
       "contract": "2027-06-30",
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/860048-1729088273.jpg"
     },
     {
       "id": "808128",
@@ -4376,7 +5156,9 @@
       "age": 24,
       "value": 500000,
       "contract": "2028-06-30",
-      "nat": "France"
+      "nat": "França",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/808128-1772795787.png"
     },
     {
       "id": "394127",
@@ -4387,7 +5169,9 @@
       "age": 27,
       "value": 500000,
       "contract": "2028-06-30",
-      "nat": "Algeria"
+      "nat": "Argélia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/394127-1772796936.png"
     },
     {
       "id": "909860",
@@ -4398,7 +5182,9 @@
       "age": 21,
       "value": 500000,
       "contract": "2027-06-30",
-      "nat": "Austria"
+      "nat": "Áustria",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/909860-1786997213.png"
     },
     {
       "id": "289564",
@@ -4409,7 +5195,9 @@
       "age": 28,
       "value": 500000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/289564-1659604722.jpg"
     },
     {
       "id": "723485",
@@ -4420,7 +5208,9 @@
       "age": 22,
       "value": 500000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/723485-1661336338.jpg"
     },
     {
       "id": "451742",
@@ -4431,7 +5221,9 @@
       "age": 30,
       "value": 500000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/451742-1748528846.jpg"
     },
     {
       "id": "490325",
@@ -4442,7 +5234,9 @@
       "age": 29,
       "value": 500000,
       "contract": "2027-06-30",
-      "nat": "South Africa"
+      "nat": "South Africa",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/490325-1614108142.jpg"
     },
     {
       "id": "1231354",
@@ -4453,7 +5247,9 @@
       "age": 18,
       "value": 450000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1231354-1754383849.jpg"
     },
     {
       "id": "671678",
@@ -4464,7 +5260,9 @@
       "age": 22,
       "value": 450000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/671678-1754662697.jpg"
     },
     {
       "id": "1073654",
@@ -4475,7 +5273,9 @@
       "age": 20,
       "value": 400000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1073654-1692209584.jpg"
     },
     {
       "id": "1062475",
@@ -4486,7 +5286,9 @@
       "age": 20,
       "value": 400000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1062475-1785246669.jpg"
     },
     {
       "id": "1035533",
@@ -4497,7 +5299,9 @@
       "age": 23,
       "value": 400000,
       "contract": "2030-06-30",
-      "nat": "France"
+      "nat": "França",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1035533-1789480958.jpg"
     },
     {
       "id": "719383",
@@ -4508,7 +5312,9 @@
       "age": 25,
       "value": 400000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/719383-1789480710.jpg"
     },
     {
       "id": "984479",
@@ -4519,7 +5325,9 @@
       "age": 20,
       "value": 400000,
       "contract": "2029-06-30",
-      "nat": "Germany"
+      "nat": "Alemanha",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/984479-1722948343.jpg"
     },
     {
       "id": "654919",
@@ -4530,7 +5338,9 @@
       "age": 22,
       "value": 400000,
       "contract": "2030-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/654919-1785239570.jpg"
     },
     {
       "id": "1231353",
@@ -4541,7 +5351,9 @@
       "age": 17,
       "value": 400000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1231353-1729177430.jpg"
     },
     {
       "id": "1318279",
@@ -4552,7 +5364,9 @@
       "age": 19,
       "value": 400000,
       "contract": "2030-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1318279-1785923440.jpg"
     },
     {
       "id": "763090",
@@ -4563,7 +5377,9 @@
       "age": 21,
       "value": 400000,
       "contract": "2029-06-30",
-      "nat": "Uzbekistan"
+      "nat": "Uzbekistan",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/763090-1785924321.jpg"
     },
     {
       "id": "981197",
@@ -4574,7 +5390,9 @@
       "age": 20,
       "value": 400000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/981197-1756924720.jpg"
     },
     {
       "id": "1269454",
@@ -4585,7 +5403,9 @@
       "age": 19,
       "value": 400000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1269454-1724403941.PNG"
     },
     {
       "id": "931712",
@@ -4596,7 +5416,9 @@
       "age": 22,
       "value": 400000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/931712-1713872351.jpg"
     },
     {
       "id": "616431",
@@ -4607,7 +5429,9 @@
       "age": 24,
       "value": 400000,
       "contract": "2028-06-30",
-      "nat": "Australia"
+      "nat": "Austrália",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/616431-1703769381.png"
     },
     {
       "id": "988711",
@@ -4618,7 +5442,9 @@
       "age": 21,
       "value": 400000,
       "contract": "2027-06-30",
-      "nat": "Türkiye"
+      "nat": "Turquia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/988711-1724403795.PNG"
     },
     {
       "id": "110822",
@@ -4629,7 +5455,9 @@
       "age": 33,
       "value": 400000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/110822-1705658325.jpg"
     },
     {
       "id": "1176433",
@@ -4640,7 +5468,9 @@
       "age": 21,
       "value": 400000,
       "contract": "2028-06-30",
-      "nat": "Burkina Faso"
+      "nat": "Burkina Faso",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1176433-1785239051.jpg"
     },
     {
       "id": "1037260",
@@ -4651,7 +5481,9 @@
       "age": 23,
       "value": 400000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1037260-1663010262.jpg"
     },
     {
       "id": "823584",
@@ -4662,7 +5494,9 @@
       "age": 23,
       "value": 400000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/823584-1785931392.jpg"
     },
     {
       "id": "597289",
@@ -4673,7 +5507,9 @@
       "age": 28,
       "value": 400000,
       "contract": "2027-06-30",
-      "nat": "Albania"
+      "nat": "Albania",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/597289-1705820197.jpg"
     },
     {
       "id": "706554",
@@ -4684,7 +5520,9 @@
       "age": 23,
       "value": 400000,
       "contract": "2028-06-30",
-      "nat": "Serbia"
+      "nat": "Sérvia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/706554-1694785397.jpg"
     },
     {
       "id": "707063",
@@ -4695,7 +5533,9 @@
       "age": 22,
       "value": 400000,
       "contract": "2029-06-30",
-      "nat": "Senegal"
+      "nat": "Senegal",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/707063-1697465878.png"
     },
     {
       "id": "975201",
@@ -4706,7 +5546,9 @@
       "age": 22,
       "value": 400000,
       "contract": "2028-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/975201-1713870227.png"
     },
     {
       "id": "605394",
@@ -4717,7 +5559,9 @@
       "age": 23,
       "value": 400000,
       "contract": "2028-06-30",
-      "nat": "Sweden"
+      "nat": "Suécia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/605394-1785843411.jpg"
     },
     {
       "id": "883915",
@@ -4728,7 +5572,9 @@
       "age": 22,
       "value": 400000,
       "contract": "2028-06-30",
-      "nat": "Ghana"
+      "nat": "Gana",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/883915-1785843900.jpg"
     },
     {
       "id": "187293",
@@ -4739,7 +5585,9 @@
       "age": 33,
       "value": 400000,
       "contract": "2027-06-30",
-      "nat": "Indonesia"
+      "nat": "Indonesia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/187293-1723456380.jpg"
     },
     {
       "id": "130418",
@@ -4750,7 +5598,9 @@
       "age": 31,
       "value": 400000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/130418-1785841736.jpg"
     },
     {
       "id": "463133",
@@ -4761,7 +5611,9 @@
       "age": 32,
       "value": 400000,
       "contract": "2027-06-30",
-      "nat": "Senegal"
+      "nat": "Senegal",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/463133-1772795712.png"
     },
     {
       "id": "429563",
@@ -4772,7 +5624,9 @@
       "age": 25,
       "value": 400000,
       "contract": "2028-06-30",
-      "nat": "Iceland"
+      "nat": "Islândia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/429563-1754662510.jpg"
     },
     {
       "id": "1194331",
@@ -4783,7 +5637,9 @@
       "age": 19,
       "value": 400000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1194331-1785850208.jpg"
     },
     {
       "id": "1456176",
@@ -4794,7 +5650,9 @@
       "age": 17,
       "value": 400000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1456176-1785253965.jpg"
     },
     {
       "id": "718032",
@@ -4805,7 +5663,9 @@
       "age": 25,
       "value": 400000,
       "contract": "2027-06-30",
-      "nat": "Cameroon"
+      "nat": "Camarões",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/718032-1732990037.png"
     },
     {
       "id": "503688",
@@ -4816,7 +5676,9 @@
       "age": 26,
       "value": 400000,
       "contract": "2028-06-30",
-      "nat": "England"
+      "nat": "Inglaterra",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/503688-1787302840.jpg"
     },
     {
       "id": "168166",
@@ -4827,7 +5689,9 @@
       "age": 31,
       "value": 350000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/168166-1706870344.jpg"
     },
     {
       "id": "249568",
@@ -4838,7 +5702,9 @@
       "age": 29,
       "value": 350000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/249568-1713280347.png"
     },
     {
       "id": "1318195",
@@ -4849,7 +5715,9 @@
       "age": 19,
       "value": 300000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1318195-1785246603.jpg"
     },
     {
       "id": "937072",
@@ -4860,7 +5728,9 @@
       "age": 20,
       "value": 300000,
       "contract": "2027-06-30",
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/937072-1785849962.jpg"
     },
     {
       "id": "1133729",
@@ -4871,7 +5741,9 @@
       "age": 19,
       "value": 300000,
       "contract": "2029-06-30",
-      "nat": "Senegal"
+      "nat": "Senegal",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1133729-1773845182.jpg"
     },
     {
       "id": "1209302",
@@ -4882,7 +5754,9 @@
       "age": 19,
       "value": 300000,
       "contract": "2030-06-30",
-      "nat": "Japan"
+      "nat": "Japão",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1209302-1785923693.jpg"
     },
     {
       "id": "1467124",
@@ -4893,7 +5767,9 @@
       "age": 20,
       "value": 300000,
       "contract": "2030-06-30",
-      "nat": "Cote d'Ivoire"
+      "nat": "Costa do Marfim",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "235247",
@@ -4904,7 +5780,9 @@
       "age": 31,
       "value": 300000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/235247-1713346691.png"
     },
     {
       "id": "751989",
@@ -4915,7 +5793,9 @@
       "age": 22,
       "value": 300000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/751989-1713347445.png"
     },
     {
       "id": "671665",
@@ -4926,7 +5806,9 @@
       "age": 22,
       "value": 300000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/671665-1761140001.png"
     },
     {
       "id": "160736",
@@ -4937,7 +5819,9 @@
       "age": 34,
       "value": 300000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/160736-1785932340.jpg"
     },
     {
       "id": "946964",
@@ -4948,7 +5832,9 @@
       "age": 21,
       "value": 300000,
       "contract": "2028-06-30",
-      "nat": "Croatia"
+      "nat": "Croácia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/946964-1747406520.jpg"
     },
     {
       "id": "981118",
@@ -4959,7 +5845,9 @@
       "age": 20,
       "value": 300000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/981118-1785930309.jpg"
     },
     {
       "id": "666821",
@@ -4970,7 +5858,9 @@
       "age": 24,
       "value": 300000,
       "contract": "2028-06-30",
-      "nat": "United States"
+      "nat": "Estados Unidos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/666821-1785930786.jpg"
     },
     {
       "id": "381968",
@@ -4981,7 +5871,9 @@
       "age": 27,
       "value": 300000,
       "contract": "2028-06-30",
-      "nat": "DR Congo"
+      "nat": "RD Congo",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/381968-1785931482.jpg"
     },
     {
       "id": "159382",
@@ -4992,7 +5884,9 @@
       "age": 33,
       "value": 300000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/159382-1709893684.jpg"
     },
     {
       "id": "159098",
@@ -5003,7 +5897,9 @@
       "age": 35,
       "value": 300000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/159098-1709368362.jpg"
     },
     {
       "id": "332686",
@@ -5014,7 +5910,9 @@
       "age": 30,
       "value": 300000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/332686-1754663708.jpg"
     },
     {
       "id": "142924",
@@ -5025,7 +5923,9 @@
       "age": 34,
       "value": 300000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/142924-1713346549.png"
     },
     {
       "id": "796862",
@@ -5036,7 +5936,9 @@
       "age": 24,
       "value": 300000,
       "contract": "2027-06-30",
-      "nat": "France"
+      "nat": "França",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/796862-1669303507.png"
     },
     {
       "id": "435868",
@@ -5047,7 +5949,9 @@
       "age": 34,
       "value": 300000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/435868-1596835460.jpg"
     },
     {
       "id": "387990",
@@ -5058,7 +5962,9 @@
       "age": 34,
       "value": 250000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/387990-1704726704.jpg"
     },
     {
       "id": "1247587",
@@ -5069,7 +5975,9 @@
       "age": 19,
       "value": 250000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1247587-1785835882.jpg"
     },
     {
       "id": "124182",
@@ -5080,7 +5988,9 @@
       "age": 35,
       "value": 250000,
       "contract": "2027-06-30",
-      "nat": "Ukraine"
+      "nat": "Ucrânia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/124182-1785836469.jpg"
     },
     {
       "id": "1078642",
@@ -5091,7 +6001,9 @@
       "age": 18,
       "value": 250000,
       "contract": "2028-06-30",
-      "nat": "Austria"
+      "nat": "Áustria",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1078642-1749754969.png"
     },
     {
       "id": "1391239",
@@ -5102,7 +6014,9 @@
       "age": 20,
       "value": 250000,
       "contract": "2028-06-30",
-      "nat": "Cote d'Ivoire"
+      "nat": "Costa do Marfim",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1391239-1754662920.jpg"
     },
     {
       "id": "163724",
@@ -5113,7 +6027,9 @@
       "age": 34,
       "value": 250000,
       "contract": "2027-06-30",
-      "nat": "Luxembourg"
+      "nat": "Luxembourg",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/163724-1689324534.jpg"
     },
     {
       "id": "743377",
@@ -5124,7 +6040,9 @@
       "age": 21,
       "value": 250000,
       "contract": "2028-06-30",
-      "nat": "DR Congo"
+      "nat": "RD Congo",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/743377-1652692540.jpg"
     },
     {
       "id": "1103809",
@@ -5135,7 +6053,9 @@
       "age": 21,
       "value": 200000,
       "contract": "2030-06-30",
-      "nat": "Nigeria"
+      "nat": "Nigéria",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1103809-1714046104.png"
     },
     {
       "id": "1231931",
@@ -5146,7 +6066,9 @@
       "age": 17,
       "value": 200000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1231931-1766058192.jpg"
     },
     {
       "id": "1061159",
@@ -5157,7 +6079,9 @@
       "age": 20,
       "value": 200000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1061159-1785850277.jpg"
     },
     {
       "id": "1047841",
@@ -5168,7 +6092,9 @@
       "age": 21,
       "value": 200000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1047841-1785244222.jpg"
     },
     {
       "id": "1064973",
@@ -5179,7 +6105,9 @@
       "age": 23,
       "value": 200000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1064973-1767860483.jpeg"
     },
     {
       "id": "1165890",
@@ -5190,7 +6118,9 @@
       "age": 19,
       "value": 200000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "64246",
@@ -5201,7 +6131,9 @@
       "age": 36,
       "value": 200000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/64246-1705488995.jpg"
     },
     {
       "id": "1191562",
@@ -5212,7 +6144,9 @@
       "age": 17,
       "value": 200000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1191562-1785923358.jpg"
     },
     {
       "id": "1135426",
@@ -5223,7 +6157,9 @@
       "age": 18,
       "value": 200000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1135426-1785924574.jpg"
     },
     {
       "id": "1184725",
@@ -5234,7 +6170,9 @@
       "age": 19,
       "value": 200000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1184725-1785923508.jpg"
     },
     {
       "id": "924051",
@@ -5245,7 +6183,9 @@
       "age": 21,
       "value": 200000,
       "contract": "2030-06-30",
-      "nat": "France"
+      "nat": "França",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/924051-1785836172.jpg"
     },
     {
       "id": "937107",
@@ -5256,7 +6196,9 @@
       "age": 20,
       "value": 200000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/937107-1713345861.png"
     },
     {
       "id": "1070973",
@@ -5267,7 +6209,9 @@
       "age": 18,
       "value": 200000,
       "contract": "2027-06-30",
-      "nat": "Croatia"
+      "nat": "Croácia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1070973-1765308318.jpg"
     },
     {
       "id": "624342",
@@ -5278,7 +6222,9 @@
       "age": 23,
       "value": 200000,
       "contract": "2027-06-30",
-      "nat": "Montenegro"
+      "nat": "Montenegro",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/624342-1713869681.png"
     },
     {
       "id": "644563",
@@ -5289,7 +6235,9 @@
       "age": 27,
       "value": 200000,
       "contract": "2027-06-30",
-      "nat": "France"
+      "nat": "França",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/644563-1772796656.png"
     },
     {
       "id": "989448",
@@ -5300,7 +6248,9 @@
       "age": 21,
       "value": 200000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/989448-1785253822.jpg"
     },
     {
       "id": "250138",
@@ -5311,7 +6261,9 @@
       "age": 30,
       "value": 200000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/250138-1705504229.jpg"
     },
     {
       "id": "1230201",
@@ -5322,7 +6274,9 @@
       "age": 23,
       "value": 200000,
       "contract": "2028-06-30",
-      "nat": "Nigeria"
+      "nat": "Nigéria",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1230201-1785253114.jpg"
     },
     {
       "id": "1020704",
@@ -5333,7 +6287,9 @@
       "age": 22,
       "value": 150000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1020704-1785924484.jpg"
     },
     {
       "id": "1453001",
@@ -5344,7 +6300,9 @@
       "age": 19,
       "value": 150000,
       "contract": "2030-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1318685",
@@ -5355,7 +6313,9 @@
       "age": 18,
       "value": 150000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1318685-1785761603.jpg"
     },
     {
       "id": "1173870",
@@ -5366,7 +6326,9 @@
       "age": 20,
       "value": 150000,
       "contract": "2029-06-30",
-      "nat": "Mali"
+      "nat": "Mali",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1173870-1785761174.jpg"
     },
     {
       "id": "1308524",
@@ -5377,7 +6339,9 @@
       "age": 18,
       "value": 150000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1308524-1785761537.jpg"
     },
     {
       "id": "559161",
@@ -5388,7 +6352,9 @@
       "age": 23,
       "value": 150000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/559161-1713341575.png"
     },
     {
       "id": "1179829",
@@ -5399,7 +6365,9 @@
       "age": 19,
       "value": 150000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1179829-1785930233.jpg"
     },
     {
       "id": "1011934",
@@ -5410,7 +6378,9 @@
       "age": 19,
       "value": 150000,
       "contract": "2027-06-30",
-      "nat": "Türkiye"
+      "nat": "Turquia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1011934-1785930581.jpg"
     },
     {
       "id": "1068262",
@@ -5421,7 +6391,9 @@
       "age": 19,
       "value": 150000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1068262-1785930056.jpg"
     },
     {
       "id": "1372321",
@@ -5432,7 +6404,9 @@
       "age": 20,
       "value": 150000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1372321-1782719360.jpeg"
     },
     {
       "id": "96472",
@@ -5443,7 +6417,9 @@
       "age": 37,
       "value": 150000,
       "contract": "2027-06-30",
-      "nat": "Netherlands"
+      "nat": "Holanda",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/96472-1723630079.jpg"
     },
     {
       "id": "1072029",
@@ -5454,7 +6430,9 @@
       "age": 19,
       "value": 150000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1072029-1785843266.jpg"
     },
     {
       "id": "1441672",
@@ -5465,7 +6443,9 @@
       "age": 17,
       "value": 150000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1441672-1791279247.jpg"
     },
     {
       "id": "1456177",
@@ -5476,7 +6456,9 @@
       "age": 18,
       "value": 150000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1456177-1785253705.jpg"
     },
     {
       "id": "38978",
@@ -5487,7 +6469,9 @@
       "age": 38,
       "value": 150000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/38978-1709895473.jpg"
     },
     {
       "id": "1193791",
@@ -5498,7 +6482,9 @@
       "age": 19,
       "value": 100000,
       "contract": "2028-06-30",
-      "nat": "Georgia"
+      "nat": "Geórgia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1193791-1789480593.jpg"
     },
     {
       "id": "483007",
@@ -5509,7 +6495,9 @@
       "age": 25,
       "value": 100000,
       "contract": "2027-06-30",
-      "nat": "Bosnia-Herzegovina"
+      "nat": "Bósnia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/483007-1785412189.jpg"
     },
     {
       "id": "1047424",
@@ -5520,7 +6508,9 @@
       "age": 21,
       "value": 100000,
       "contract": "2027-06-30",
-      "nat": "Suriname"
+      "nat": "Suriname",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1047424-1757590803.jpg"
     },
     {
       "id": "1577556",
@@ -5531,7 +6521,9 @@
       "age": 18,
       "value": 100000,
       "contract": "2030-06-30",
-      "nat": "Cameroon"
+      "nat": "Camarões",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1577556-1785929067.jpg"
     },
     {
       "id": "1389531",
@@ -5542,7 +6534,9 @@
       "age": 18,
       "value": 100000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1182625",
@@ -5553,7 +6547,9 @@
       "age": 19,
       "value": 100000,
       "contract": "2029-06-30",
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1182625-1747232836.jpg"
     },
     {
       "id": "981712",
@@ -5564,7 +6560,9 @@
       "age": 19,
       "value": 100000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/981712-1729176867.jpg"
     },
     {
       "id": "1269453",
@@ -5575,7 +6573,9 @@
       "age": 18,
       "value": 100000,
       "contract": "2028-06-30",
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1269453-1743565838.png"
     },
     {
       "id": "745341",
@@ -5586,7 +6586,9 @@
       "age": 23,
       "value": 100000,
       "contract": "2027-06-30",
-      "nat": "France"
+      "nat": "França",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/745341-1663767128.jpg"
     },
     {
       "id": "548619",
@@ -5597,7 +6599,9 @@
       "age": 26,
       "value": 100000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/548619-1763711445.jpg"
     },
     {
       "id": "1084207",
@@ -5608,7 +6612,9 @@
       "age": 20,
       "value": 100000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1084207-1787300144.jpg"
     },
     {
       "id": "1211302",
@@ -5619,7 +6625,9 @@
       "age": 20,
       "value": 100000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1211302-1785930147.jpg"
     },
     {
       "id": "1314653",
@@ -5630,7 +6638,9 @@
       "age": 19,
       "value": 100000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1314653-1788947811.jpg"
     },
     {
       "id": "1507561",
@@ -5641,7 +6651,9 @@
       "age": 19,
       "value": 100000,
       "contract": "2028-06-30",
-      "nat": "Senegal"
+      "nat": "Senegal",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1507561-1788174562.jpg"
     },
     {
       "id": "1027444",
@@ -5652,7 +6664,9 @@
       "age": 18,
       "value": 100000,
       "contract": "2028-06-30",
-      "nat": "Denmark"
+      "nat": "Dinamarca",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1027444-1787149463.jpg"
     },
     {
       "id": "463737",
@@ -5663,7 +6677,9 @@
       "age": 25,
       "value": 100000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/463737-1785843587.jpg"
     },
     {
       "id": "1335076",
@@ -5674,7 +6690,9 @@
       "age": 18,
       "value": 100000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1335076-1785843490.jpg"
     },
     {
       "id": "905252",
@@ -5685,7 +6703,9 @@
       "age": 21,
       "value": 100000,
       "contract": "2027-06-30",
-      "nat": "Portugal"
+      "nat": "Portugal",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/905252-1772795210.png"
     },
     {
       "id": "981539",
@@ -5696,7 +6716,9 @@
       "age": 19,
       "value": 100000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/981539-1772796718.png"
     },
     {
       "id": "738770",
@@ -5707,7 +6729,9 @@
       "age": 23,
       "value": 100000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/738770-1672602780.jpg"
     },
     {
       "id": "1436492",
@@ -5718,7 +6742,9 @@
       "age": 21,
       "value": 100000,
       "contract": "2028-06-30",
-      "nat": "Senegal"
+      "nat": "Senegal",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "688246",
@@ -5729,7 +6755,9 @@
       "age": 25,
       "value": 100000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/688246-1714736381.png"
     },
     {
       "id": "1492856",
@@ -5740,7 +6768,9 @@
       "age": 19,
       "value": 100000,
       "contract": "2028-06-30",
-      "nat": "Senegal"
+      "nat": "Senegal",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1053009",
@@ -5751,7 +6781,9 @@
       "age": 20,
       "value": 75000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1053009-1759919759.jpg"
     },
     {
       "id": "1186566",
@@ -5762,7 +6794,9 @@
       "age": 20,
       "value": 75000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1186566-1724404753.PNG"
     },
     {
       "id": "1137815",
@@ -5773,7 +6807,9 @@
       "age": 21,
       "value": 75000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1137815-1713534017.jpg"
     },
     {
       "id": "797461",
@@ -5784,7 +6820,9 @@
       "age": 22,
       "value": 50000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/797461-1789480792.jpg"
     },
     {
       "id": "1192697",
@@ -5795,7 +6833,9 @@
       "age": 19,
       "value": 50000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1192697-1724403339.PNG"
     },
     {
       "id": "1276349",
@@ -5806,7 +6846,9 @@
       "age": 17,
       "value": 50000,
       "contract": "2028-06-30",
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "993333",
@@ -5817,7 +6859,9 @@
       "age": 23,
       "value": 50000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/993333-1785239111.jpg"
     },
     {
       "id": "1178478",
@@ -5828,7 +6872,9 @@
       "age": 20,
       "value": 50000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1178478-1753175334.jpg"
     },
     {
       "id": "1065144",
@@ -5839,7 +6885,9 @@
       "age": 21,
       "value": 50000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1065144-1709893965.jpeg"
     },
     {
       "id": "1451840",
@@ -5850,7 +6898,9 @@
       "age": 19,
       "value": 50000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1451840-1785843649.jpg"
     },
     {
       "id": "1300295",
@@ -5861,7 +6911,9 @@
       "age": 21,
       "value": 50000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1300295-1785843342.jpg"
     },
     {
       "id": "1123651",
@@ -5872,7 +6924,9 @@
       "age": 18,
       "value": 50000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1123651-1713341706.png"
     },
     {
       "id": "1488783",
@@ -5883,7 +6937,9 @@
       "age": 18,
       "value": 50000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1488783-1791279372.jpg"
     },
     {
       "id": "1226227",
@@ -5894,7 +6950,9 @@
       "age": 21,
       "value": 50000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1226227-1785253286.jpg"
     },
     {
       "id": "1109625",
@@ -5905,7 +6963,9 @@
       "age": 23,
       "value": 50000,
       "contract": "2028-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1087102",
@@ -5916,7 +6976,9 @@
       "age": 21,
       "value": 50000,
       "contract": "2028-06-30",
-      "nat": "DR Congo"
+      "nat": "RD Congo",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1087102-1773844518.jpg"
     },
     {
       "id": "1159156",
@@ -5927,7 +6989,9 @@
       "age": 23,
       "value": 25000,
       "contract": "2028-06-30",
-      "nat": "Saudi Arabia"
+      "nat": "Arábia Saudita",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1159156-1697053932.png"
     }
   ]
 }

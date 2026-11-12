@@ -15,6 +15,7 @@ export interface TmPlayer {
   signedFrom: string | null;
   contract: string | null;
   marketValue: number | null;
+  imageUrl?: string | null;
 }
 
 export interface TmTransfer {
@@ -91,3 +92,24 @@ export function matchClubSlug(tmName: string, aliasesBySlug: Record<string, stri
   }
   return best?.slug ?? null;
 }
+
+const COUNTRY_PT: Record<string, string> = {
+  Brazil: "Brasil", Argentina: "Argentina", Colombia: "Colômbia", Uruguay: "Uruguai", Spain: "Espanha", France: "França",
+  Ecuador: "Equador", "United States": "Estados Unidos", Paraguay: "Paraguai", Chile: "Chile", Netherlands: "Holanda",
+  Germany: "Alemanha", Mexico: "México", "Saudi Arabia": "Arábia Saudita", Belgium: "Bélgica", "Türkiye": "Turquia",
+  Russia: "Rússia", Portugal: "Portugal", England: "Inglaterra", Italy: "Itália", "United Arab Emirates": "Emirados Árabes",
+  Qatar: "Catar", Morocco: "Marrocos", Senegal: "Senegal", "Cote d'Ivoire": "Costa do Marfim", Denmark: "Dinamarca",
+  Nigeria: "Nigéria", Serbia: "Sérvia", Canada: "Canadá", Japan: "Japão", Croatia: "Croácia", Sweden: "Suécia", Ghana: "Gana",
+  Mali: "Mali", Algeria: "Argélia", Switzerland: "Suíça", Austria: "Áustria", Norway: "Noruega", Poland: "Polônia",
+  Cameroon: "Camarões", Venezuela: "Venezuela", "Bosnia-Herzegovina": "Bósnia", "DR Congo": "RD Congo", Greece: "Grécia",
+  Guinea: "Guiné", Peru: "Peru", Bolivia: "Bolívia", Scotland: "Escócia", Wales: "País de Gales", Ireland: "Irlanda",
+  "Korea, South": "Coreia do Sul", Ukraine: "Ucrânia", "Czech Republic": "Tchéquia", Hungary: "Hungria", Egypt: "Egito",
+  Tunisia: "Tunísia", Angola: "Angola", "Cape Verde": "Cabo Verde", Mozambique: "Moçambique", Australia: "Austrália",
+  "Costa Rica": "Costa Rica", Honduras: "Honduras", Panama: "Panamá", Jamaica: "Jamaica", Haiti: "Haiti", Slovakia: "Eslováquia",
+  Slovenia: "Eslovênia", Romania: "Romênia", Georgia: "Geórgia", Iceland: "Islândia", Finland: "Finlândia",
+};
+export const countryPt = (c: string | null | undefined) => (c ? COUNTRY_PT[c] ?? c : null);
+/** Estrangeiro = nenhuma das nacionalidades é brasileira. */
+export const isForeign = (nats: string[] | null | undefined) => !(nats ?? []).includes("Brazil");
+/** Foto do Transfermarkt, sem a silhueta padrão. */
+export const tmPhoto = (url: string | null | undefined) => (url && !/default/i.test(url) ? url : null);

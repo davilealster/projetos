@@ -94,7 +94,9 @@
       "age": 21,
       "value": 5000000,
       "contract": "2028-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1439518-1773281900.jpg"
     },
     {
       "id": "498687",
@@ -105,7 +107,9 @@
       "age": 28,
       "value": 2800000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/498687-1744731555.png"
     },
     {
       "id": "1175703",
@@ -116,7 +120,9 @@
       "age": 21,
       "value": 2500000,
       "contract": "2028-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1175703-1718123141.JPG"
     },
     {
       "id": "747148",
@@ -127,7 +133,9 @@
       "age": 25,
       "value": 2000000,
       "contract": "2028-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/747148-1768837824.JPG"
     },
     {
       "id": "668513",
@@ -138,7 +146,9 @@
       "age": 23,
       "value": 1800000,
       "contract": "2027-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/668513-1720647740.jpg"
     },
     {
       "id": "262999",
@@ -149,7 +159,9 @@
       "age": 31,
       "value": 1800000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/262999-1773281955.JPG"
     },
     {
       "id": "1166097",
@@ -160,7 +172,9 @@
       "age": 21,
       "value": 1800000,
       "contract": "2028-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1166097-1698869614.jpg"
     },
     {
       "id": "122582",
@@ -171,7 +185,9 @@
       "age": 33,
       "value": 1800000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/122582-1762438466.png"
     },
     {
       "id": "563089",
@@ -182,7 +198,9 @@
       "age": 28,
       "value": 1700000,
       "contract": "2027-06-30",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/563089-1741099748.jpg"
     },
     {
       "id": "1406511",
@@ -193,7 +211,9 @@
       "age": 20,
       "value": 1600000,
       "contract": "2029-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1406511-1754668741.jpg"
     },
     {
       "id": "459467",
@@ -204,7 +224,9 @@
       "age": 30,
       "value": 1500000,
       "contract": "2028-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/459467-1737406382.JPG"
     },
     {
       "id": "88103",
@@ -215,7 +237,9 @@
       "age": 35,
       "value": 1500000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/88103-1720681352.jpg"
     },
     {
       "id": "338962",
@@ -226,7 +250,9 @@
       "age": 30,
       "value": 1500000,
       "contract": "2028-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/338962-1737411718.JPG"
     },
     {
       "id": "1130046",
@@ -237,7 +263,9 @@
       "age": 23,
       "value": 1500000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1130046-1736437862.JPG"
     },
     {
       "id": "212699",
@@ -248,7 +276,9 @@
       "age": 32,
       "value": 1400000,
       "contract": "2028-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/212699-1692205245.jpg"
     },
     {
       "id": "626693",
@@ -259,7 +289,9 @@
       "age": 29,
       "value": 1400000,
       "contract": "2029-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/626693-1710259328.JPG"
     },
     {
       "id": "1119752",
@@ -270,7 +302,9 @@
       "age": 20,
       "value": 1400000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1119752-1729352925.jpg"
     },
     {
       "id": "1053759",
@@ -281,7 +315,9 @@
       "age": 24,
       "value": 1400000,
       "contract": "2029-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1053759-1755136749.JPG"
     },
     {
       "id": "392763",
@@ -292,7 +328,9 @@
       "age": 26,
       "value": 1200000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/392763-1724771925.jpg"
     },
     {
       "id": "1371667",
@@ -303,7 +341,9 @@
       "age": 21,
       "value": 1200000,
       "contract": "2028-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1371667-1764686859.JPG"
     },
     {
       "id": "266906",
@@ -314,7 +354,9 @@
       "age": 31,
       "value": 1200000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/266906-1479479691.jpg"
     },
     {
       "id": "587296",
@@ -325,7 +367,9 @@
       "age": 28,
       "value": 1200000,
       "contract": "2028-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/587296-1705074348.JPG"
     },
     {
       "id": "984904",
@@ -336,7 +380,9 @@
       "age": 23,
       "value": 1200000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/984904-1663127210.JPG"
     },
     {
       "id": "908293",
@@ -347,7 +393,9 @@
       "age": 23,
       "value": 1200000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/908293-1771673478.jpg"
     },
     {
       "id": "339758",
@@ -358,7 +406,9 @@
       "age": 29,
       "value": 1200000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/339758-1565169283.jpg"
     },
     {
       "id": "1186148",
@@ -369,7 +419,9 @@
       "age": 21,
       "value": 1200000,
       "contract": "2028-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1186148-1788728539.JPG"
     },
     {
       "id": "657784",
@@ -380,7 +432,9 @@
       "age": 24,
       "value": 1200000,
       "contract": "2028-12-31",
-      "nat": "Venezuela"
+      "nat": "Venezuela",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/657784-1745938163.jpg"
     },
     {
       "id": "630924",
@@ -391,7 +445,9 @@
       "age": 28,
       "value": 1000000,
       "contract": "2028-12-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/630924-1739196701.jpg"
     },
     {
       "id": "465682",
@@ -402,7 +458,9 @@
       "age": 26,
       "value": 1000000,
       "contract": "2028-06-30",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/465682-1752505115.JPG"
     },
     {
       "id": "911337",
@@ -413,7 +471,9 @@
       "age": 23,
       "value": 1000000,
       "contract": "2028-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/911337-1740596788.jpg"
     },
     {
       "id": "382836",
@@ -424,7 +484,9 @@
       "age": 29,
       "value": 1000000,
       "contract": "2028-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/382836-1565165023.png"
     },
     {
       "id": "715140",
@@ -435,7 +497,9 @@
       "age": 26,
       "value": 1000000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/715140-1738949657.png"
     },
     {
       "id": "439629",
@@ -446,7 +510,9 @@
       "age": 28,
       "value": 1000000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/439629-1588661972.jpg"
     },
     {
       "id": "1031525",
@@ -457,7 +523,9 @@
       "age": 26,
       "value": 1000000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1031525-1731707943.JPG"
     },
     {
       "id": "690737",
@@ -468,7 +536,9 @@
       "age": 30,
       "value": 1000000,
       "contract": "2029-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/690737-1739810719.jpg"
     },
     {
       "id": "671959",
@@ -479,7 +549,9 @@
       "age": 26,
       "value": 1000000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/671959-1756917216.jpg"
     },
     {
       "id": "871077",
@@ -490,7 +562,9 @@
       "age": 24,
       "value": 1000000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/871077-1769961533.jpg"
     },
     {
       "id": "659693",
@@ -501,7 +575,9 @@
       "age": 26,
       "value": 900000,
       "contract": "2028-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/659693-1698770294.jpg"
     },
     {
       "id": "938123",
@@ -512,7 +588,9 @@
       "age": 22,
       "value": 900000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/938123-1740780781.jpg"
     },
     {
       "id": "856184",
@@ -523,7 +601,9 @@
       "age": 23,
       "value": 900000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/856184-1771753977.jpg"
     },
     {
       "id": "650833",
@@ -534,7 +614,9 @@
       "age": 25,
       "value": 900000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/650833-1757589388.png"
     },
     {
       "id": "657092",
@@ -545,7 +627,9 @@
       "age": 26,
       "value": 900000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/657092-1715708121.jpg"
     },
     {
       "id": "572076",
@@ -556,7 +640,9 @@
       "age": 29,
       "value": 900000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/572076-1703792152.jpg"
     },
     {
       "id": "783526",
@@ -567,7 +653,9 @@
       "age": 27,
       "value": 900000,
       "contract": "2029-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/783526-1702399656.jpg"
     },
     {
       "id": "610651",
@@ -578,7 +666,9 @@
       "age": 29,
       "value": 900000,
       "contract": "2028-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/610651-1737648088.JPG"
     },
     {
       "id": "1045952",
@@ -589,7 +679,9 @@
       "age": 23,
       "value": 900000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1045952-1663127410.JPG"
     },
     {
       "id": "929438",
@@ -600,7 +692,9 @@
       "age": 26,
       "value": 900000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/929438-1687403995.jpg"
     },
     {
       "id": "1415104",
@@ -611,7 +705,9 @@
       "age": 20,
       "value": 850000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1415104-1780600839.jpg"
     },
     {
       "id": "582995",
@@ -622,7 +718,9 @@
       "age": 27,
       "value": 800000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/582995-1771754806.jpg"
     },
     {
       "id": "1411391",
@@ -633,7 +731,9 @@
       "age": 21,
       "value": 800000,
       "contract": "2028-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1411391-1784679220.jpg"
     },
     {
       "id": "552474",
@@ -644,7 +744,9 @@
       "age": 31,
       "value": 800000,
       "contract": "2029-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/552474-1793296625.jpg"
     },
     {
       "id": "474590",
@@ -655,7 +757,9 @@
       "age": 28,
       "value": 800000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/474590-1715391985.JPG"
     },
     {
       "id": "989926",
@@ -666,7 +770,9 @@
       "age": 23,
       "value": 800000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/989926-1735956832.jpg"
     },
     {
       "id": "409424",
@@ -677,7 +783,9 @@
       "age": 28,
       "value": 800000,
       "contract": "2027-06-30",
-      "nat": "Venezuela"
+      "nat": "Venezuela",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/409424-1790279509.jpg"
     },
     {
       "id": "982123",
@@ -688,7 +796,9 @@
       "age": 30,
       "value": 800000,
       "contract": "2028-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/982123-1766157828.jpg"
     },
     {
       "id": "978950",
@@ -699,7 +809,9 @@
       "age": 25,
       "value": 800000,
       "contract": "2030-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/978950-1748210396.jpg"
     },
     {
       "id": "91970",
@@ -710,7 +822,9 @@
       "age": 38,
       "value": 800000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/91970-1663576912.jpg"
     },
     {
       "id": "388287",
@@ -721,7 +835,9 @@
       "age": 29,
       "value": 800000,
       "contract": "2029-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/388287-1670173252.jpg"
     },
     {
       "id": "480684",
@@ -732,7 +848,9 @@
       "age": 29,
       "value": 800000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/480684-1688486695.JPG"
     },
     {
       "id": "906791",
@@ -743,7 +861,9 @@
       "age": 24,
       "value": 800000,
       "contract": "2028-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/906791-1746980657.jpg"
     },
     {
       "id": "649330",
@@ -754,7 +874,9 @@
       "age": 28,
       "value": 800000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/649330-1649007306.jpg"
     },
     {
       "id": "1034026",
@@ -765,7 +887,9 @@
       "age": 25,
       "value": 800000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1034026-1737915550.JPG"
     },
     {
       "id": "569222",
@@ -776,7 +900,9 @@
       "age": 27,
       "value": 800000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/569222-1708037398.JPG"
     },
     {
       "id": "572044",
@@ -787,7 +913,9 @@
       "age": 27,
       "value": 800000,
       "contract": "2029-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/572044-1693692194.JPG"
     },
     {
       "id": "610566",
@@ -798,7 +926,9 @@
       "age": 26,
       "value": 800000,
       "contract": "2028-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/610566-1777242226.JPG"
     },
     {
       "id": "1106875",
@@ -809,7 +939,9 @@
       "age": 24,
       "value": 800000,
       "contract": "2028-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1106875-1690223065.jpg"
     },
     {
       "id": "373714",
@@ -820,7 +952,9 @@
       "age": 28,
       "value": 800000,
       "contract": "2026-12-31",
-      "nat": "Venezuela"
+      "nat": "Venezuela",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/373714-1791415082.jpg"
     },
     {
       "id": "1157809",
@@ -831,7 +965,9 @@
       "age": 21,
       "value": 800000,
       "contract": "2028-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1157809-1749584376.jpg"
     },
     {
       "id": "627097",
@@ -842,7 +978,9 @@
       "age": 27,
       "value": 750000,
       "contract": "2029-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/627097-1721616890.jpg"
     },
     {
       "id": "345654",
@@ -853,7 +991,9 @@
       "age": 30,
       "value": 700000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/345654-1788920522.jpg"
     },
     {
       "id": "747819",
@@ -864,7 +1004,9 @@
       "age": 31,
       "value": 700000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/747819-1717333877.jpg"
     },
     {
       "id": "602036",
@@ -875,7 +1017,9 @@
       "age": 28,
       "value": 700000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/602036-1709057431.JPG"
     },
     {
       "id": "1026053",
@@ -886,7 +1030,9 @@
       "age": 27,
       "value": 700000,
       "contract": "2028-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1026053-1758642214.jpg"
     },
     {
       "id": "543467",
@@ -897,7 +1043,9 @@
       "age": 26,
       "value": 700000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/543467-1678214745.jpg"
     },
     {
       "id": "439626",
@@ -908,7 +1056,9 @@
       "age": 30,
       "value": 700000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/439626-1710095617.jpg"
     },
     {
       "id": "580422",
@@ -919,7 +1069,9 @@
       "age": 29,
       "value": 700000,
       "contract": "2028-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/580422-1721664888.jpg"
     },
     {
       "id": "656344",
@@ -930,7 +1082,9 @@
       "age": 29,
       "value": 700000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/656344-1723688919.jpg"
     },
     {
       "id": "345656",
@@ -941,7 +1095,9 @@
       "age": 29,
       "value": 700000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/345656-1741099954.jpg"
     },
     {
       "id": "648483",
@@ -952,7 +1108,9 @@
       "age": 26,
       "value": 700000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/648483-1630739877.JPG"
     },
     {
       "id": "1098970",
@@ -963,7 +1121,9 @@
       "age": 22,
       "value": 700000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1098970-1692992878.JPG"
     },
     {
       "id": "911946",
@@ -974,7 +1134,9 @@
       "age": 23,
       "value": 700000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/911946-1728843525.png"
     },
     {
       "id": "638188",
@@ -985,7 +1147,9 @@
       "age": 27,
       "value": 700000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/638188-1699472268.JPG"
     },
     {
       "id": "638217",
@@ -996,7 +1160,9 @@
       "age": 26,
       "value": 700000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/638217-1674273753.JPG"
     },
     {
       "id": "361433",
@@ -1007,7 +1173,9 @@
       "age": 31,
       "value": 700000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/361433-1740778508.jpg"
     },
     {
       "id": "958457",
@@ -1018,7 +1186,9 @@
       "age": 23,
       "value": 700000,
       "contract": "2029-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/958457-1769027991.JPG"
     },
     {
       "id": "650822",
@@ -1029,7 +1199,9 @@
       "age": 28,
       "value": 700000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/650822-1690826330.jpg"
     },
     {
       "id": "745937",
@@ -1040,7 +1212,9 @@
       "age": 26,
       "value": 700000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/745937-1734708077.jpg"
     },
     {
       "id": "638216",
@@ -1051,7 +1225,9 @@
       "age": 23,
       "value": 650000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/638216-1753976629.JPG"
     },
     {
       "id": "617910",
@@ -1062,7 +1238,9 @@
       "age": 29,
       "value": 650000,
       "contract": "2028-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/617910-1745802918.JPG"
     },
     {
       "id": "309505",
@@ -1073,7 +1251,9 @@
       "age": 31,
       "value": 650000,
       "contract": "2027-06-30",
-      "nat": "Venezuela"
+      "nat": "Venezuela",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/309505-1643142642.jpg"
     },
     {
       "id": "746579",
@@ -1084,7 +1264,9 @@
       "age": 27,
       "value": 650000,
       "contract": "2027-12-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/746579-1654445626.jpg"
     },
     {
       "id": "655335",
@@ -1095,7 +1277,9 @@
       "age": 24,
       "value": 600000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/655335-1724554460.JPG"
     },
     {
       "id": "909360",
@@ -1106,7 +1290,9 @@
       "age": 22,
       "value": 600000,
       "contract": "2028-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/909360-1692729767.JPG"
     },
     {
       "id": "653779",
@@ -1117,7 +1303,9 @@
       "age": 30,
       "value": 600000,
       "contract": "2028-12-31",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/653779-1771087552.JPG"
     },
     {
       "id": "585420",
@@ -1128,7 +1316,9 @@
       "age": 27,
       "value": 600000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/585420-1714873811.jpg"
     },
     {
       "id": "480422",
@@ -1139,7 +1329,9 @@
       "age": 29,
       "value": 600000,
       "contract": "2028-12-31",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/480422-1748210580.jpg"
     },
     {
       "id": "119228",
@@ -1150,7 +1342,9 @@
       "age": 35,
       "value": 600000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/119228-1740780590.jpg"
     },
     {
       "id": "732507",
@@ -1161,7 +1355,9 @@
       "age": 26,
       "value": 600000,
       "contract": "2027-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/732507-1785888271.JPG"
     },
     {
       "id": "960057",
@@ -1172,7 +1368,9 @@
       "age": 23,
       "value": 600000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/960057-1709053132.JPG"
     },
     {
       "id": "892082",
@@ -1183,7 +1381,9 @@
       "age": 25,
       "value": 600000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/892082-1690925192.JPG"
     },
     {
       "id": "288786",
@@ -1194,7 +1394,9 @@
       "age": 32,
       "value": 600000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/288786-1672433511.jpg"
     },
     {
       "id": "1094402",
@@ -1205,7 +1407,9 @@
       "age": 23,
       "value": 600000,
       "contract": "2027-06-30",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1094402-1787086042.jpg"
     },
     {
       "id": "421011",
@@ -1216,7 +1420,9 @@
       "age": 29,
       "value": 600000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/421011-1741100058.jpg"
     },
     {
       "id": "522131",
@@ -1227,7 +1433,9 @@
       "age": 27,
       "value": 600000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/522131-1713129751.JPG"
     },
     {
       "id": "1363192",
@@ -1238,7 +1446,9 @@
       "age": 21,
       "value": 600000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1363192-1768664408.JPG"
     },
     {
       "id": "651477",
@@ -1249,7 +1459,9 @@
       "age": 25,
       "value": 550000,
       "contract": "2029-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/651477-1697133343.JPG"
     },
     {
       "id": "371231",
@@ -1260,7 +1472,9 @@
       "age": 31,
       "value": 550000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/371231-1687403938.jpg"
     },
     {
       "id": "308560",
@@ -1271,7 +1485,9 @@
       "age": 30,
       "value": 550000,
       "contract": "2027-06-30",
-      "nat": "Venezuela"
+      "nat": "Venezuela",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/308560-1736434090.jpg"
     },
     {
       "id": "393964",
@@ -1282,7 +1498,9 @@
       "age": 28,
       "value": 550000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/393964-1715477102.JPG"
     },
     {
       "id": "650832",
@@ -1293,7 +1511,9 @@
       "age": 27,
       "value": 550000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/650832-1691772583.jpg"
     },
     {
       "id": "570531",
@@ -1304,7 +1524,9 @@
       "age": 30,
       "value": 550000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/570531-1670517671.jpg"
     },
     {
       "id": "1009164",
@@ -1315,7 +1537,9 @@
       "age": 24,
       "value": 550000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1009164-1686267139.JPG"
     },
     {
       "id": "358165",
@@ -1326,7 +1550,9 @@
       "age": 32,
       "value": 550000,
       "contract": null,
-      "nat": "Venezuela"
+      "nat": "Venezuela",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/358165-1719836773.jpg"
     },
     {
       "id": "977739",
@@ -1337,7 +1563,9 @@
       "age": 25,
       "value": 550000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/977739-1674260177.JPG"
     },
     {
       "id": "1031798",
@@ -1348,7 +1576,9 @@
       "age": 22,
       "value": 550000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1031798-1722187033.JPG"
     },
     {
       "id": "655842",
@@ -1359,7 +1589,9 @@
       "age": 28,
       "value": 550000,
       "contract": "2027-06-30",
-      "nat": "Venezuela"
+      "nat": "Venezuela",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/655842-1745939771.jpg"
     },
     {
       "id": "569268",
@@ -1370,7 +1602,9 @@
       "age": 30,
       "value": 500000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/569268-1694027703.JPG"
     },
     {
       "id": "1153962",
@@ -1381,7 +1615,9 @@
       "age": 21,
       "value": 500000,
       "contract": "2029-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1153962-1751305521.jpeg"
     },
     {
       "id": "867466",
@@ -1392,7 +1628,9 @@
       "age": 24,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/867466-1688495075.jpg"
     },
     {
       "id": "583812",
@@ -1403,7 +1641,9 @@
       "age": 32,
       "value": 500000,
       "contract": "2028-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/583812-1757613356.jpg"
     },
     {
       "id": "414746",
@@ -1414,7 +1654,9 @@
       "age": 34,
       "value": 500000,
       "contract": "2028-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/414746-1707705574.JPG"
     },
     {
       "id": "421194",
@@ -1425,7 +1667,9 @@
       "age": 28,
       "value": 500000,
       "contract": "2029-06-30",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/421194-1768410795.JPG"
     },
     {
       "id": "582982",
@@ -1436,7 +1680,9 @@
       "age": 27,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Colombia",
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/582982-1768410909.jpg",
       "loanFrom": "Club Athletico Paranaense"
     },
     {
@@ -1448,7 +1694,9 @@
       "age": 28,
       "value": 500000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/657050-1728830570.jpg"
     },
     {
       "id": "570520",
@@ -1459,7 +1707,9 @@
       "age": 31,
       "value": 500000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/570520-1785889356.JPG"
     },
     {
       "id": "1111697",
@@ -1470,7 +1720,9 @@
       "age": 21,
       "value": 500000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1111697-1718909195.JPG"
     },
     {
       "id": "119333",
@@ -1481,7 +1733,9 @@
       "age": 34,
       "value": 500000,
       "contract": "2028-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/119333-1681407283.jpg"
     },
     {
       "id": "285810",
@@ -1492,7 +1746,9 @@
       "age": 33,
       "value": 500000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/285810-1659975038.jpg"
     },
     {
       "id": "656922",
@@ -1503,7 +1759,9 @@
       "age": 27,
       "value": 500000,
       "contract": "2029-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/656922-1682276002.JPG"
     },
     {
       "id": "628443",
@@ -1514,7 +1772,9 @@
       "age": 27,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/628443-1742315273.jpg"
     },
     {
       "id": "663186",
@@ -1525,7 +1785,9 @@
       "age": 28,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/663186-1676132902.jpg"
     },
     {
       "id": "572867",
@@ -1536,7 +1798,9 @@
       "age": 25,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/572867-1687876787.jpg"
     },
     {
       "id": "593356",
@@ -1547,7 +1811,9 @@
       "age": 28,
       "value": 500000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/593356-1780487743.png"
     },
     {
       "id": "868378",
@@ -1558,7 +1824,9 @@
       "age": 26,
       "value": 500000,
       "contract": "2027-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/868378-1769213404.jpg"
     },
     {
       "id": "314197",
@@ -1569,7 +1837,9 @@
       "age": 30,
       "value": 500000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/314197-1769213678.jpg"
     },
     {
       "id": "385454",
@@ -1580,7 +1850,9 @@
       "age": 32,
       "value": 500000,
       "contract": "2028-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/385454-1709489314.jpg"
     },
     {
       "id": "653161",
@@ -1591,7 +1863,9 @@
       "age": 29,
       "value": 500000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/653161-1738175478.jpg"
     },
     {
       "id": "631331",
@@ -1602,7 +1876,9 @@
       "age": 24,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/631331-1672493714.jpg"
     },
     {
       "id": "567347",
@@ -1613,7 +1889,9 @@
       "age": 29,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/567347-1737672595.JPG"
     },
     {
       "id": "585358",
@@ -1624,7 +1902,9 @@
       "age": 27,
       "value": 500000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/585358-1751823448.JPG"
     },
     {
       "id": "119342",
@@ -1635,7 +1915,9 @@
       "age": 33,
       "value": 450000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/119342-1695666967.JPG"
     },
     {
       "id": "485731",
@@ -1646,7 +1928,9 @@
       "age": 30,
       "value": 450000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/485731-1766414489.jpg"
     },
     {
       "id": "1324746",
@@ -1657,7 +1941,9 @@
       "age": 21,
       "value": 450000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1324746-1728493184.JPG"
     },
     {
       "id": "226327",
@@ -1668,7 +1954,9 @@
       "age": 33,
       "value": 450000,
       "contract": "2027-12-31",
-      "nat": "Chile"
+      "nat": "Chile",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/226327-1738286131.png"
     },
     {
       "id": "746582",
@@ -1679,7 +1967,9 @@
       "age": 29,
       "value": 450000,
       "contract": "2028-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/746582-1672331818.JPG"
     },
     {
       "id": "337921",
@@ -1690,7 +1980,9 @@
       "age": 33,
       "value": 450000,
       "contract": "2029-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/337921-1749548969.jpg"
     },
     {
       "id": "312731",
@@ -1701,7 +1993,9 @@
       "age": 30,
       "value": 450000,
       "contract": "2028-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/312731-1712107219.jpg"
     },
     {
       "id": "832162",
@@ -1712,7 +2006,9 @@
       "age": 26,
       "value": 450000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/832162-1759109444.jpg"
     },
     {
       "id": "365756",
@@ -1723,7 +2019,9 @@
       "age": 30,
       "value": 450000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/365756-1630737879.JPG"
     },
     {
       "id": "638623",
@@ -1734,7 +2032,9 @@
       "age": 27,
       "value": 450000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/638623-1751062791.jpg"
     },
     {
       "id": "626675",
@@ -1745,7 +2045,9 @@
       "age": 32,
       "value": 450000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/626675-1734534128.JPG"
     },
     {
       "id": "211389",
@@ -1756,7 +2058,9 @@
       "age": 33,
       "value": 450000,
       "contract": "2028-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/211389-1744644857.jpg"
     },
     {
       "id": "651657",
@@ -1767,7 +2071,9 @@
       "age": 25,
       "value": 450000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/651657-1674273802.JPG"
     },
     {
       "id": "474677",
@@ -1778,7 +2084,9 @@
       "age": 29,
       "value": 450000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/474677-1715281293.JPG"
     },
     {
       "id": "548301",
@@ -1789,7 +2097,9 @@
       "age": 27,
       "value": 450000,
       "contract": "2027-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/548301-1635924212.JPG"
     },
     {
       "id": "1111247",
@@ -1800,7 +2110,9 @@
       "age": 24,
       "value": 450000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1111247-1769961489.jpg"
     },
     {
       "id": "1000700",
@@ -1811,7 +2123,9 @@
       "age": 23,
       "value": 450000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1000700-1677511200.JPG"
     },
     {
       "id": "932548",
@@ -1822,7 +2136,9 @@
       "age": 24,
       "value": 450000,
       "contract": "2028-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/932548-1688610133.jpg"
     },
     {
       "id": "988408",
@@ -1833,7 +2149,9 @@
       "age": 23,
       "value": 450000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/988408-1767995560.jpg"
     },
     {
       "id": "480682",
@@ -1844,7 +2162,9 @@
       "age": 29,
       "value": 450000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/480682-1737648342.jpg"
     },
     {
       "id": "572815",
@@ -1855,7 +2175,9 @@
       "age": 28,
       "value": 450000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/572815-1746980332.jpg"
     },
     {
       "id": "491547",
@@ -1866,7 +2188,9 @@
       "age": 26,
       "value": 450000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/491547-1717382151.JPG"
     },
     {
       "id": "1007783",
@@ -1877,7 +2201,9 @@
       "age": 23,
       "value": 450000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1007783-1689005200.JPG"
     },
     {
       "id": "652333",
@@ -1888,7 +2214,9 @@
       "age": 27,
       "value": 450000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/652333-1752505161.JPG"
     },
     {
       "id": "214538",
@@ -1899,7 +2227,9 @@
       "age": 35,
       "value": 400000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/214538-1742088921.jpg"
     },
     {
       "id": "643750",
@@ -1910,7 +2240,9 @@
       "age": 28,
       "value": 400000,
       "contract": "2028-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/643750-1724425484.png"
     },
     {
       "id": "1369134",
@@ -1921,7 +2253,9 @@
       "age": 21,
       "value": 400000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1369134-1743432791.JPG"
     },
     {
       "id": "262474",
@@ -1932,7 +2266,9 @@
       "age": 32,
       "value": 400000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/262474-1720884797.jpg"
     },
     {
       "id": "833893",
@@ -1943,7 +2279,9 @@
       "age": 25,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/833893-1768342401.JPG"
     },
     {
       "id": "842342",
@@ -1954,7 +2292,9 @@
       "age": 24,
       "value": 400000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/842342-1717610773.JPG"
     },
     {
       "id": "465647",
@@ -1965,7 +2305,9 @@
       "age": 31,
       "value": 400000,
       "contract": null,
-      "nat": "Mexico"
+      "nat": "México",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/465647-1753801300.jpg"
     },
     {
       "id": "746584",
@@ -1976,7 +2318,9 @@
       "age": 28,
       "value": 400000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/746584-1724117769.jpg"
     },
     {
       "id": "263027",
@@ -1987,7 +2331,9 @@
       "age": 31,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/263027-1729534405.jpg"
     },
     {
       "id": "441422",
@@ -1998,7 +2344,9 @@
       "age": 27,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/441422-1742571091.png"
     },
     {
       "id": "565818",
@@ -2009,7 +2357,9 @@
       "age": 28,
       "value": 400000,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/565818-1683118830.JPG"
     },
     {
       "id": "932622",
@@ -2020,7 +2370,9 @@
       "age": 24,
       "value": 400000,
       "contract": "2029-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/932622-1709150975.JPG"
     },
     {
       "id": "495693",
@@ -2031,7 +2383,9 @@
       "age": 28,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/495693-1770320147.JPG"
     },
     {
       "id": "312575",
@@ -2042,7 +2396,9 @@
       "age": 31,
       "value": 400000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/312575-1736991257.JPG"
     },
     {
       "id": "648309",
@@ -2053,7 +2409,9 @@
       "age": 27,
       "value": 400000,
       "contract": "2028-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/648309-1717636007.JPG"
     },
     {
       "id": "627396",
@@ -2064,7 +2422,9 @@
       "age": 29,
       "value": 400000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/627396-1758650226.jpg"
     },
     {
       "id": "844744",
@@ -2075,7 +2435,9 @@
       "age": 25,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/844744-1635922617.JPG"
     },
     {
       "id": "1106881",
@@ -2086,7 +2448,9 @@
       "age": 27,
       "value": 400000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1106881-1787454272.jpg"
     },
     {
       "id": "1118346",
@@ -2097,7 +2461,9 @@
       "age": 23,
       "value": 400000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1118346-1718909289.JPG"
     },
     {
       "id": "860705",
@@ -2108,7 +2474,9 @@
       "age": 26,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/860705-1674524393.jpg"
     },
     {
       "id": "1150073",
@@ -2119,7 +2487,9 @@
       "age": 27,
       "value": 400000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1150073-1737298491.jpg"
     },
     {
       "id": "977615",
@@ -2130,7 +2500,9 @@
       "age": 23,
       "value": 400000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/977615-1755139269.JPG"
     },
     {
       "id": "1023915",
@@ -2141,7 +2513,9 @@
       "age": 22,
       "value": 400000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1023915-1712718507.jpg"
     },
     {
       "id": "855547",
@@ -2152,7 +2526,9 @@
       "age": 28,
       "value": 400000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/855547-1691518154.jpg"
     },
     {
       "id": "1119364",
@@ -2163,7 +2539,9 @@
       "age": 24,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1119364-1730048748.jpg"
     },
     {
       "id": "562483",
@@ -2174,7 +2552,9 @@
       "age": 32,
       "value": 400000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/562483-1755786651.jpg"
     },
     {
       "id": "1105280",
@@ -2185,7 +2565,9 @@
       "age": 22,
       "value": 400000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1105280-1692126655.JPG"
     },
     {
       "id": "620730",
@@ -2196,7 +2578,9 @@
       "age": 25,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/620730-1759109384.jpg"
     },
     {
       "id": "402082",
@@ -2207,7 +2591,9 @@
       "age": 28,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/402082-1678206054.jpg"
     },
     {
       "id": "910647",
@@ -2218,7 +2604,9 @@
       "age": 24,
       "value": 400000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/910647-1715267328.JPG"
     },
     {
       "id": "876889",
@@ -2229,7 +2617,9 @@
       "age": 24,
       "value": 400000,
       "contract": "2028-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/876889-1745772520.JPG"
     },
     {
       "id": "662460",
@@ -2240,7 +2630,9 @@
       "age": 24,
       "value": 400000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/662460-1691772973.jpg"
     },
     {
       "id": "260385",
@@ -2251,7 +2643,9 @@
       "age": 33,
       "value": 350000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/260385-1736523995.JPG"
     },
     {
       "id": "212697",
@@ -2262,7 +2656,9 @@
       "age": 33,
       "value": 350000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/212697-1695929387.jpg"
     },
     {
       "id": "491546",
@@ -2273,7 +2669,9 @@
       "age": 25,
       "value": 350000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/491546-1750963781.JPG"
     },
     {
       "id": "906620",
@@ -2284,7 +2682,9 @@
       "age": 26,
       "value": 350000,
       "contract": "2028-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/906620-1790123763.JPG"
     },
     {
       "id": "182122",
@@ -2295,7 +2695,9 @@
       "age": 35,
       "value": 350000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/182122-1750107904.jpg"
     },
     {
       "id": "95172",
@@ -2306,7 +2708,9 @@
       "age": 36,
       "value": 350000,
       "contract": "2027-12-31",
-      "nat": "Peru"
+      "nat": "Peru",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/95172-1740780288.jpg"
     },
     {
       "id": "1128818",
@@ -2317,7 +2721,9 @@
       "age": 22,
       "value": 350000,
       "contract": "2029-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1128818-1686267238.JPG"
     },
     {
       "id": "377389",
@@ -2328,7 +2734,9 @@
       "age": 31,
       "value": 350000,
       "contract": "2027-12-31",
-      "nat": "Venezuela"
+      "nat": "Venezuela",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/377389-1664560689.jpg"
     },
     {
       "id": "262931",
@@ -2339,7 +2747,9 @@
       "age": 33,
       "value": 350000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/262931-1674524329.jpg"
     },
     {
       "id": "524932",
@@ -2350,7 +2760,9 @@
       "age": 29,
       "value": 350000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/524932-1649007211.jpg"
     },
     {
       "id": "907797",
@@ -2361,7 +2773,9 @@
       "age": 26,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/907797-1753666735.JPG"
     },
     {
       "id": "1108160",
@@ -2372,7 +2786,9 @@
       "age": 22,
       "value": 350000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1108160-1778700198.JPG"
     },
     {
       "id": "541568",
@@ -2383,7 +2799,9 @@
       "age": 27,
       "value": 350000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/541568-1768705463.jpg"
     },
     {
       "id": "841184",
@@ -2394,7 +2812,9 @@
       "age": 29,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/841184-1733347820.jpg"
     },
     {
       "id": "827285",
@@ -2405,7 +2825,9 @@
       "age": 23,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "El Salvador"
+      "nat": "El Salvador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/827285-1682475933.JPG"
     },
     {
       "id": "670061",
@@ -2416,7 +2838,9 @@
       "age": 29,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/670061-1756494512.jpg"
     },
     {
       "id": "749970",
@@ -2427,7 +2851,9 @@
       "age": 22,
       "value": 350000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/749970-1696270490.JPG"
     },
     {
       "id": "337775",
@@ -2438,7 +2864,9 @@
       "age": 31,
       "value": 350000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/337775-1749221488.jpg"
     },
     {
       "id": "857065",
@@ -2449,7 +2877,9 @@
       "age": 25,
       "value": 350000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/857065-1721238893.JPG"
     },
     {
       "id": "1257746",
@@ -2460,7 +2890,9 @@
       "age": 22,
       "value": 350000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1257746-1729953985.JPG"
     },
     {
       "id": "632290",
@@ -2471,7 +2903,9 @@
       "age": 25,
       "value": 350000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/632290-1708532395.jpg"
     },
     {
       "id": "751990",
@@ -2482,7 +2916,9 @@
       "age": 25,
       "value": 350000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/751990-1674595421.jpg"
     },
     {
       "id": "910331",
@@ -2493,7 +2929,9 @@
       "age": 23,
       "value": 300000,
       "contract": "2029-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/910331-1738526034.jpg"
     },
     {
       "id": "992869",
@@ -2504,7 +2942,9 @@
       "age": 23,
       "value": 300000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/992869-1735957053.JPG"
     },
     {
       "id": "283399",
@@ -2515,7 +2955,9 @@
       "age": 33,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/283399-1741026444.jpg"
     },
     {
       "id": "492999",
@@ -2526,7 +2968,9 @@
       "age": 28,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/492999-1696948268.png"
     },
     {
       "id": "585356",
@@ -2537,7 +2981,9 @@
       "age": 27,
       "value": 300000,
       "contract": "2029-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/585356-1754149702.png"
     },
     {
       "id": "572817",
@@ -2548,7 +2994,9 @@
       "age": 27,
       "value": 300000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/572817-1744213482.JPG"
     },
     {
       "id": "422865",
@@ -2559,7 +3007,9 @@
       "age": 29,
       "value": 300000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/422865-1734454336.jpg"
     },
     {
       "id": "417780",
@@ -2570,7 +3020,9 @@
       "age": 35,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/417780-1703202933.JPG"
     },
     {
       "id": "255944",
@@ -2581,7 +3033,9 @@
       "age": 33,
       "value": 300000,
       "contract": "2028-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/255944-1751823327.JPG"
     },
     {
       "id": "172300",
@@ -2592,7 +3046,9 @@
       "age": 34,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/172300-1612185745.jpg"
     },
     {
       "id": "868074",
@@ -2603,7 +3059,9 @@
       "age": 24,
       "value": 300000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/868074-1759109302.jpg"
     },
     {
       "id": "185246",
@@ -2614,7 +3072,9 @@
       "age": 34,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/185246-1693692480.JPG"
     },
     {
       "id": "742516",
@@ -2625,7 +3085,9 @@
       "age": 22,
       "value": 300000,
       "contract": "2028-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/742516-1675084914.jpeg"
     },
     {
       "id": "384581",
@@ -2636,7 +3098,9 @@
       "age": 29,
       "value": 300000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/384581-1715392207.JPG"
     },
     {
       "id": "572077",
@@ -2647,7 +3111,9 @@
       "age": 31,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/572077-1731195883.jpg"
     },
     {
       "id": "100379",
@@ -2658,7 +3124,9 @@
       "age": 35,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/100379-1695929070.JPG"
     },
     {
       "id": "585419",
@@ -2669,7 +3137,9 @@
       "age": 27,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/585419-1721403482.jpg"
     },
     {
       "id": "263032",
@@ -2680,7 +3150,9 @@
       "age": 33,
       "value": 300000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/263032-1714873702.jpg"
     },
     {
       "id": "421007",
@@ -2691,7 +3163,9 @@
       "age": 32,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/421007-1733348008.jpg"
     },
     {
       "id": "370678",
@@ -2702,7 +3176,9 @@
       "age": 31,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/370678-1768678903.JPG"
     },
     {
       "id": "189393",
@@ -2713,7 +3189,9 @@
       "age": 32,
       "value": 300000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/189393-1742418285.JPG"
     },
     {
       "id": "260391",
@@ -2724,7 +3202,9 @@
       "age": 33,
       "value": 300000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/260391-1708552567.jpg"
     },
     {
       "id": "356455",
@@ -2735,7 +3215,9 @@
       "age": 33,
       "value": 300000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/356455-1734363501.jpg"
     },
     {
       "id": "950839",
@@ -2746,7 +3228,9 @@
       "age": 24,
       "value": 300000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/950839-1772133232.jpg"
     },
     {
       "id": "1102438",
@@ -2757,7 +3241,9 @@
       "age": 22,
       "value": 300000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1102438-1677989736.JPG"
     },
     {
       "id": "651480",
@@ -2768,7 +3254,9 @@
       "age": 26,
       "value": 300000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/651480-1663126887.JPG"
     },
     {
       "id": "571896",
@@ -2779,7 +3267,9 @@
       "age": 28,
       "value": 300000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/571896-1721092913.JPG"
     },
     {
       "id": "742522",
@@ -2790,7 +3280,9 @@
       "age": 22,
       "value": 300000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/742522-1685393508.JPG"
     },
     {
       "id": "670569",
@@ -2801,7 +3293,9 @@
       "age": 28,
       "value": 300000,
       "contract": null,
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/670569-1556628592.png"
     },
     {
       "id": "1139706",
@@ -2812,7 +3306,9 @@
       "age": 22,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1139706-1684449418.JPG"
     },
     {
       "id": "647894",
@@ -2823,7 +3319,9 @@
       "age": 28,
       "value": 300000,
       "contract": "2027-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/647894-1731195997.jpg"
     },
     {
       "id": "660000",
@@ -2834,7 +3332,9 @@
       "age": 24,
       "value": 300000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/660000-1754201665.png"
     },
     {
       "id": "456113",
@@ -2845,7 +3345,9 @@
       "age": 30,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/456113-1682477234.JPG"
     },
     {
       "id": "414773",
@@ -2856,7 +3358,9 @@
       "age": 29,
       "value": 300000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/414773-1659553869.jpg"
     },
     {
       "id": "908383",
@@ -2867,7 +3371,9 @@
       "age": 25,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/908383-1673823435.jpg"
     },
     {
       "id": "663055",
@@ -2878,7 +3384,9 @@
       "age": 27,
       "value": 300000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/663055-1758646696.JPG"
     },
     {
       "id": "637506",
@@ -2889,7 +3397,9 @@
       "age": 29,
       "value": 300000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/637506-1640098953.jpg"
     },
     {
       "id": "911120",
@@ -2900,7 +3410,9 @@
       "age": 24,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/911120-1689700683.jpg"
     },
     {
       "id": "657053",
@@ -2911,7 +3423,9 @@
       "age": 29,
       "value": 300000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/657053-1670517230.jpg"
     },
     {
       "id": "628953",
@@ -2922,7 +3436,9 @@
       "age": 29,
       "value": 300000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/628953-1758641743.jpg"
     },
     {
       "id": "991540",
@@ -2933,7 +3449,9 @@
       "age": 24,
       "value": 300000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/991540-1680199913.JPG"
     },
     {
       "id": "414775",
@@ -2944,7 +3462,9 @@
       "age": 30,
       "value": 300000,
       "contract": null,
-      "nat": "Armenia"
+      "nat": "Armenia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/414775-1717375416.JPG"
     },
     {
       "id": "906756",
@@ -2955,7 +3475,9 @@
       "age": 31,
       "value": 300000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/906756-1758650457.jpg"
     },
     {
       "id": "587550",
@@ -2966,7 +3488,9 @@
       "age": 27,
       "value": 300000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/587550-1660167561.jpg"
     },
     {
       "id": "572041",
@@ -2977,7 +3501,9 @@
       "age": 27,
       "value": 300000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/572041-1713006428.jpg"
     },
     {
       "id": "131097",
@@ -2988,7 +3514,9 @@
       "age": 34,
       "value": 275000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/131097-1757624045.jpg"
     },
     {
       "id": "262951",
@@ -2999,7 +3527,9 @@
       "age": 31,
       "value": 275000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/262951-1599723699.jpg"
     },
     {
       "id": "1320139",
@@ -3010,7 +3540,9 @@
       "age": 20,
       "value": 250000,
       "contract": "2028-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1320139-1744657559.JPG"
     },
     {
       "id": "262514",
@@ -3021,7 +3553,9 @@
       "age": 32,
       "value": 250000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/262514-1712956159.JPG"
     },
     {
       "id": "1437532",
@@ -3032,7 +3566,9 @@
       "age": 20,
       "value": 250000,
       "contract": "2028-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1437532-1756051444.jpg"
     },
     {
       "id": "254122",
@@ -3043,7 +3579,9 @@
       "age": 33,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/254122-1728830842.jpg"
     },
     {
       "id": "814306",
@@ -3054,7 +3592,9 @@
       "age": 26,
       "value": 250000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/814306-1748119510.jpg"
     },
     {
       "id": "1418579",
@@ -3065,7 +3605,9 @@
       "age": 20,
       "value": 250000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1418579-1785888387.JPG"
     },
     {
       "id": "326011",
@@ -3076,7 +3618,9 @@
       "age": 34,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/326011-1761924438.JPG"
     },
     {
       "id": "202959",
@@ -3087,7 +3631,9 @@
       "age": 34,
       "value": 250000,
       "contract": "2027-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/202959-1681133614.JPG"
     },
     {
       "id": "570165",
@@ -3098,7 +3644,9 @@
       "age": 26,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/570165-1741013139.jpg"
     },
     {
       "id": "685388",
@@ -3109,7 +3657,9 @@
       "age": 26,
       "value": 250000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/685388-1680360642.JPG"
     },
     {
       "id": "651567",
@@ -3120,7 +3670,9 @@
       "age": 30,
       "value": 250000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/651567-1731195687.jpg"
     },
     {
       "id": "131099",
@@ -3131,7 +3683,9 @@
       "age": 33,
       "value": 250000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/131099-1739661281.JPG"
     },
     {
       "id": "498266",
@@ -3142,7 +3696,9 @@
       "age": 29,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/498266-1737650596.JPG"
     },
     {
       "id": "339760",
@@ -3153,7 +3709,9 @@
       "age": 30,
       "value": 250000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/339760-1637856838.jpg"
     },
     {
       "id": "387605",
@@ -3164,7 +3722,9 @@
       "age": 31,
       "value": 250000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/387605-1731195584.jpg"
     },
     {
       "id": "1120655",
@@ -3175,7 +3735,9 @@
       "age": 28,
       "value": 250000,
       "contract": "2028-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1120655-1705792369.jpg"
     },
     {
       "id": "356102",
@@ -3186,7 +3748,9 @@
       "age": 31,
       "value": 250000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/356102-1768424618.jpg"
     },
     {
       "id": "975132",
@@ -3197,7 +3761,9 @@
       "age": 25,
       "value": 250000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/975132-1770651420.JPG"
     },
     {
       "id": "661243",
@@ -3208,7 +3774,9 @@
       "age": 24,
       "value": 250000,
       "contract": "2027-06-30",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/661243-1710427443.jpg"
     },
     {
       "id": "662459",
@@ -3219,7 +3787,9 @@
       "age": 24,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/662459-1753666546.JPG"
     },
     {
       "id": "287534",
@@ -3230,7 +3800,9 @@
       "age": 33,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/287534-1690857732.JPG"
     },
     {
       "id": "836282",
@@ -3241,7 +3813,9 @@
       "age": 28,
       "value": 250000,
       "contract": "2027-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/836282-1771512818.png"
     },
     {
       "id": "1056604",
@@ -3252,7 +3826,9 @@
       "age": 26,
       "value": 250000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1056604-1776214025.png"
     },
     {
       "id": "909733",
@@ -3263,7 +3839,9 @@
       "age": 26,
       "value": 250000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/909733-1665883214.jpg"
     },
     {
       "id": "474678",
@@ -3274,7 +3852,9 @@
       "age": 28,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/474678-1749219822.jpg"
     },
     {
       "id": "687674",
@@ -3285,7 +3865,9 @@
       "age": 25,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/687674-1691772672.jpg"
     },
     {
       "id": "1105571",
@@ -3296,7 +3878,9 @@
       "age": 22,
       "value": 250000,
       "contract": "2029-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1105571-1692992085.JPG"
     },
     {
       "id": "393696",
@@ -3307,7 +3891,9 @@
       "age": 33,
       "value": 250000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/393696-1660655740.jpg"
     },
     {
       "id": "977382",
@@ -3318,7 +3904,9 @@
       "age": 26,
       "value": 250000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/977382-1705075883.JPG"
     },
     {
       "id": "1057578",
@@ -3329,7 +3917,9 @@
       "age": 26,
       "value": 250000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1057578-1692296782.JPG"
     },
     {
       "id": "977367",
@@ -3340,7 +3930,9 @@
       "age": 22,
       "value": 250000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/977367-1698685323.JPG"
     },
     {
       "id": "985859",
@@ -3351,7 +3943,9 @@
       "age": 27,
       "value": 250000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/985859-1684428488.jpg"
     },
     {
       "id": "655632",
@@ -3362,7 +3956,9 @@
       "age": 27,
       "value": 250000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/655632-1759862290.JPG"
     },
     {
       "id": "906422",
@@ -3373,7 +3969,9 @@
       "age": 26,
       "value": 250000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/906422-1748313568.jpg"
     },
     {
       "id": "253056",
@@ -3384,7 +3982,9 @@
       "age": 34,
       "value": 225000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/253056-1613181392.jpg"
     },
     {
       "id": "119634",
@@ -3395,7 +3995,9 @@
       "age": 40,
       "value": 200000,
       "contract": "2027-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/119634-1727267615.jpg"
     },
     {
       "id": "137840",
@@ -3406,7 +4008,9 @@
       "age": 36,
       "value": 200000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/137840-1745260429.jpg"
     },
     {
       "id": "1425437",
@@ -3417,7 +4021,9 @@
       "age": 19,
       "value": 200000,
       "contract": "2029-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1425437-1784679183.jpg"
     },
     {
       "id": "623623",
@@ -3428,7 +4034,9 @@
       "age": 28,
       "value": 200000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/623623-1690222424.jpg"
     },
     {
       "id": "227404",
@@ -3439,7 +4047,9 @@
       "age": 35,
       "value": 200000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/227404-1692205519.jpg"
     },
     {
       "id": "1210202",
@@ -3450,7 +4060,9 @@
       "age": 20,
       "value": 200000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1210202-1756394117.jpg"
     },
     {
       "id": "165361",
@@ -3461,7 +4073,9 @@
       "age": 35,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/165361-1678462068.jpg"
     },
     {
       "id": "131098",
@@ -3472,7 +4086,9 @@
       "age": 34,
       "value": 200000,
       "contract": "2027-12-31",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/131098-1721238735.JPG"
     },
     {
       "id": "253827",
@@ -3483,7 +4099,9 @@
       "age": 34,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/253827-1714416503.JPG"
     },
     {
       "id": "977339",
@@ -3494,7 +4112,9 @@
       "age": 22,
       "value": 200000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/977339-1729352780.jpg"
     },
     {
       "id": "1420778",
@@ -3505,7 +4125,9 @@
       "age": 17,
       "value": 200000,
       "contract": "2029-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1420778-1769363659.JPG"
     },
     {
       "id": "1190215",
@@ -3516,7 +4138,9 @@
       "age": 21,
       "value": 200000,
       "contract": "2028-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1190215-1767751893.JPG"
     },
     {
       "id": "653158",
@@ -3527,7 +4151,9 @@
       "age": 27,
       "value": 200000,
       "contract": "2028-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/653158-1692126452.JPG"
     },
     {
       "id": "323838",
@@ -3538,7 +4164,9 @@
       "age": 31,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/323838-1743705783.JPG"
     },
     {
       "id": "105845",
@@ -3549,7 +4177,9 @@
       "age": 36,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/105845-1714873597.jpg"
     },
     {
       "id": "1248019",
@@ -3560,7 +4190,9 @@
       "age": 21,
       "value": 200000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "665402",
@@ -3571,7 +4203,9 @@
       "age": 25,
       "value": 200000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/665402-1687547947.jpg"
     },
     {
       "id": "313286",
@@ -3582,7 +4216,9 @@
       "age": 35,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/313286-1714493309.JPG"
     },
     {
       "id": "649878",
@@ -3593,7 +4229,9 @@
       "age": 25,
       "value": 200000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/649878-1767976021.jpg"
     },
     {
       "id": "661228",
@@ -3604,7 +4242,9 @@
       "age": 24,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/661228-1572341686.png"
     },
     {
       "id": "650824",
@@ -3615,7 +4255,9 @@
       "age": 24,
       "value": 200000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/650824-1699472366.JPG"
     },
     {
       "id": "565001",
@@ -3626,7 +4268,9 @@
       "age": 26,
       "value": 200000,
       "contract": "2027-06-30",
-      "nat": "Venezuela"
+      "nat": "Venezuela",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/565001-1732808155.png"
     },
     {
       "id": "653400",
@@ -3637,7 +4281,9 @@
       "age": 27,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/653400-1676922096.JPG"
     },
     {
       "id": "420180",
@@ -3648,7 +4294,9 @@
       "age": 30,
       "value": 200000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/420180-1674524258.jpg"
     },
     {
       "id": "663187",
@@ -3659,7 +4307,9 @@
       "age": 27,
       "value": 200000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/663187-1674164568.JPG"
     },
     {
       "id": "421396",
@@ -3670,7 +4320,9 @@
       "age": 33,
       "value": 200000,
       "contract": null,
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/421396-1725145434.jpg"
     },
     {
       "id": "572079",
@@ -3681,7 +4333,9 @@
       "age": 25,
       "value": 200000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/572079-1756494455.jpg"
     },
     {
       "id": "975151",
@@ -3692,7 +4346,9 @@
       "age": 24,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/975151-1713882436.jpg"
     },
     {
       "id": "355650",
@@ -3703,7 +4359,9 @@
       "age": 29,
       "value": 200000,
       "contract": null,
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/355650-1722397006.jpg"
     },
     {
       "id": "283624",
@@ -3714,7 +4372,9 @@
       "age": 32,
       "value": 200000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/283624-1678125588.jpg"
     },
     {
       "id": "657797",
@@ -3725,7 +4385,9 @@
       "age": 28,
       "value": 200000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/657797-1770044746.jpg"
     },
     {
       "id": "571912",
@@ -3736,7 +4398,9 @@
       "age": 29,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/571912-1692205881.jpg"
     },
     {
       "id": "389010",
@@ -3747,7 +4411,9 @@
       "age": 31,
       "value": 200000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/389010-1711900838.JPG"
     },
     {
       "id": "132353",
@@ -3758,7 +4424,9 @@
       "age": 35,
       "value": 200000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/132353-1770565669.png"
     },
     {
       "id": "1383742",
@@ -3769,7 +4437,9 @@
       "age": 22,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1383742-1743374556.jpg"
     },
     {
       "id": "352566",
@@ -3780,7 +4450,9 @@
       "age": 31,
       "value": 200000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/352566-1630738530.JPG"
     },
     {
       "id": "1018118",
@@ -3791,7 +4463,9 @@
       "age": 24,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1018118-1690222757.jpg"
     },
     {
       "id": "495709",
@@ -3802,7 +4476,9 @@
       "age": 27,
       "value": 200000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/495709-1751401622.jpg"
     },
     {
       "id": "1105638",
@@ -3813,7 +4489,9 @@
       "age": 26,
       "value": 200000,
       "contract": null,
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1105638-1784943195.JPG"
     },
     {
       "id": "1223290",
@@ -3824,7 +4502,9 @@
       "age": 22,
       "value": 200000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1223290-1705720876.JPG"
     },
     {
       "id": "1475207",
@@ -3835,7 +4515,9 @@
       "age": 21,
       "value": 200000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1475207-1774397924.jpg"
     },
     {
       "id": "262933",
@@ -3846,7 +4528,9 @@
       "age": 33,
       "value": 200000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/262933-1630754403.JPG"
     },
     {
       "id": "976480",
@@ -3857,7 +4541,9 @@
       "age": 22,
       "value": 200000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/976480-1712767208.JPG"
     },
     {
       "id": "686718",
@@ -3868,7 +4554,9 @@
       "age": 27,
       "value": 200000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/686718-1691518592.jpg"
     },
     {
       "id": "225998",
@@ -3879,7 +4567,9 @@
       "age": 34,
       "value": 200000,
       "contract": null,
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/225998-1688053814.JPG"
     },
     {
       "id": "642406",
@@ -3890,7 +4580,9 @@
       "age": 32,
       "value": 200000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/642406-1660337459.JPG"
     },
     {
       "id": "422990",
@@ -3901,7 +4593,9 @@
       "age": 31,
       "value": 200000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/422990-1736168425.jpg"
     },
     {
       "id": "683732",
@@ -3912,7 +4606,9 @@
       "age": 30,
       "value": 200000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/683732-1724728632.JPG"
     },
     {
       "id": "233007",
@@ -3923,7 +4619,9 @@
       "age": 33,
       "value": 200000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/233007-1707101937.JPG"
     },
     {
       "id": "1153961",
@@ -3934,7 +4632,9 @@
       "age": 23,
       "value": 200000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1153961-1700763178.JPG"
     },
     {
       "id": "223888",
@@ -3945,7 +4645,9 @@
       "age": 36,
       "value": 175000,
       "contract": "2027-06-30",
-      "nat": "Ecuador"
+      "nat": "Equador",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/223888-1717332653.jpg"
     },
     {
       "id": "304892",
@@ -3956,7 +4658,9 @@
       "age": 33,
       "value": 175000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/304892-1635923403.JPG"
     },
     {
       "id": "460893",
@@ -3967,7 +4671,9 @@
       "age": 30,
       "value": 175000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/460893-1630754958.JPG"
     },
     {
       "id": "304866",
@@ -3978,7 +4684,9 @@
       "age": 32,
       "value": 175000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/304866-1720171677.jpg"
     },
     {
       "id": "886632",
@@ -3989,7 +4697,9 @@
       "age": 24,
       "value": 150000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/886632-1758647006.jpg"
     },
     {
       "id": "1106880",
@@ -4000,7 +4710,9 @@
       "age": 22,
       "value": 150000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "954031",
@@ -4011,7 +4723,9 @@
       "age": 24,
       "value": 150000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/954031-1775656826.jpg"
     },
     {
       "id": "253846",
@@ -4022,7 +4736,9 @@
       "age": 35,
       "value": 150000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/253846-1738175359.jpg"
     },
     {
       "id": "653667",
@@ -4033,7 +4749,9 @@
       "age": 28,
       "value": 150000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/653667-1722808098.jpg"
     },
     {
       "id": "260925",
@@ -4044,7 +4762,9 @@
       "age": 34,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/260925-1719869900.jpg"
     },
     {
       "id": "552471",
@@ -4055,7 +4775,9 @@
       "age": 29,
       "value": 150000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/552471-1561130610.jpg"
     },
     {
       "id": "942666",
@@ -4066,7 +4788,9 @@
       "age": 23,
       "value": 150000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/942666-1793883089.JPG"
     },
     {
       "id": "978949",
@@ -4077,7 +4801,9 @@
       "age": 23,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/978949-1756494284.jpg"
     },
     {
       "id": "889093",
@@ -4088,7 +4814,9 @@
       "age": 24,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/889093-1738345374.jpg"
     },
     {
       "id": "213528",
@@ -4099,7 +4827,9 @@
       "age": 35,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/213528-1714418383.JPG"
     },
     {
       "id": "859214",
@@ -4110,7 +4840,9 @@
       "age": 26,
       "value": 150000,
       "contract": "2028-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/859214-1690828495.jpg"
     },
     {
       "id": "413558",
@@ -4121,7 +4853,9 @@
       "age": 30,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/413558-1664560759.jpg"
     },
     {
       "id": "139923",
@@ -4132,7 +4866,9 @@
       "age": 34,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/139923-1754494190.JPG"
     },
     {
       "id": "907566",
@@ -4143,7 +4879,9 @@
       "age": 26,
       "value": 150000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/907566-1690925512.JPG"
     },
     {
       "id": "746583",
@@ -4154,7 +4892,9 @@
       "age": 26,
       "value": 150000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/746583-1589559962.jpg"
     },
     {
       "id": "650795",
@@ -4165,7 +4905,9 @@
       "age": 30,
       "value": 150000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/650795-1678066117.JPG"
     },
     {
       "id": "850341",
@@ -4176,7 +4918,9 @@
       "age": 26,
       "value": 150000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/850341-1690222168.jpg"
     },
     {
       "id": "657009",
@@ -4187,7 +4931,9 @@
       "age": 28,
       "value": 150000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/657009-1758647724.jpg"
     },
     {
       "id": "1283879",
@@ -4198,7 +4944,9 @@
       "age": 20,
       "value": 150000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1283879-1768616448.JPG"
     },
     {
       "id": "581671",
@@ -4209,7 +4957,9 @@
       "age": 27,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/581671-1753666448.JPG"
     },
     {
       "id": "907356",
@@ -4220,7 +4970,9 @@
       "age": 28,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/907356-1721238808.JPG"
     },
     {
       "id": "654184",
@@ -4231,7 +4983,9 @@
       "age": 29,
       "value": 150000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/654184-1793061672.jpg"
     },
     {
       "id": "365764",
@@ -4242,7 +4996,9 @@
       "age": 31,
       "value": 150000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/365764-1770320331.jpg"
     },
     {
       "id": "325778",
@@ -4253,7 +5009,9 @@
       "age": 33,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/325778-1637856889.jpg"
     },
     {
       "id": "651655",
@@ -4264,7 +5022,9 @@
       "age": 29,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/651655-1640098604.jpg"
     },
     {
       "id": "659709",
@@ -4275,7 +5035,9 @@
       "age": 25,
       "value": 150000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/659709-1746980457.jpg"
     },
     {
       "id": "1004403",
@@ -4286,7 +5048,9 @@
       "age": 25,
       "value": 150000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1004403-1698432790.jpg"
     },
     {
       "id": "300272",
@@ -4297,7 +5061,9 @@
       "age": 33,
       "value": 125000,
       "contract": null,
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/300272-1771937520.jpg"
     },
     {
       "id": "1182704",
@@ -4308,7 +5074,9 @@
       "age": 22,
       "value": 100000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1182704-1756394204.jpg"
     },
     {
       "id": "332056",
@@ -4319,7 +5087,9 @@
       "age": 34,
       "value": 100000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/332056-1677080093.JPG"
     },
     {
       "id": "73345",
@@ -4330,7 +5100,9 @@
       "age": 37,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/73345-1715276756.JPG"
     },
     {
       "id": "190836",
@@ -4341,7 +5113,9 @@
       "age": 33,
       "value": 100000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/190836-1660235397.JPG"
     },
     {
       "id": "392093",
@@ -4352,7 +5126,9 @@
       "age": 31,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/392093-1706196877.JPG"
     },
     {
       "id": "211391",
@@ -4363,7 +5139,9 @@
       "age": 33,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/211391-1714436071.JPG"
     },
     {
       "id": "156561",
@@ -4374,7 +5152,9 @@
       "age": 35,
       "value": 100000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/156561-1739896799.jpg"
     },
     {
       "id": "74418",
@@ -4385,7 +5165,9 @@
       "age": 40,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/74418-1447152748.jpg"
     },
     {
       "id": "356098",
@@ -4396,7 +5178,9 @@
       "age": 35,
       "value": 100000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/356098-1721616938.jpg"
     },
     {
       "id": "906696",
@@ -4407,7 +5191,9 @@
       "age": 25,
       "value": 100000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/906696-1748274551.JPG"
     },
     {
       "id": "93142",
@@ -4418,7 +5204,9 @@
       "age": 36,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/93142-1711648579.JPG"
     },
     {
       "id": "178118",
@@ -4429,7 +5217,9 @@
       "age": 37,
       "value": 100000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/178118-1761746916.JPG"
     },
     {
       "id": "325097",
@@ -4440,7 +5230,9 @@
       "age": 30,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/325097-1678592809.jpg"
     },
     {
       "id": "260741",
@@ -4451,7 +5243,9 @@
       "age": 34,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/260741-1721403571.jpg"
     },
     {
       "id": "358015",
@@ -4462,7 +5256,9 @@
       "age": 38,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/358015-1717377153.jpg"
     },
     {
       "id": "208715",
@@ -4473,7 +5269,9 @@
       "age": 36,
       "value": 100000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/208715-1660005315.JPG"
     },
     {
       "id": "538770",
@@ -4484,7 +5282,9 @@
       "age": 36,
       "value": 100000,
       "contract": "2028-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/538770-1744382881.JPG"
     },
     {
       "id": "462201",
@@ -4495,7 +5295,9 @@
       "age": 36,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/462201-1722214529.JPG"
     },
     {
       "id": "580427",
@@ -4506,7 +5308,9 @@
       "age": 27,
       "value": 100000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/580427-1743704952.jpg"
     },
     {
       "id": "74421",
@@ -4517,7 +5321,9 @@
       "age": 36,
       "value": 100000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/74421-1729534506.jpg"
     },
     {
       "id": "684544",
@@ -4528,7 +5334,9 @@
       "age": 23,
       "value": 100000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/684544-1661530752.png"
     },
     {
       "id": "926453",
@@ -4539,7 +5347,9 @@
       "age": 25,
       "value": 100000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/926453-1663857996.JPG"
     },
     {
       "id": "1243241",
@@ -4550,7 +5360,9 @@
       "age": 23,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1243241-1745167762.jpg"
     },
     {
       "id": "146215",
@@ -4561,7 +5373,9 @@
       "age": 35,
       "value": 100000,
       "contract": null,
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/146215-1770651372.JPG"
     },
     {
       "id": "1146411",
@@ -4572,7 +5386,9 @@
       "age": 22,
       "value": 100000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1146411-1775075765.jpg"
     },
     {
       "id": "313426",
@@ -4583,7 +5399,9 @@
       "age": 33,
       "value": 100000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/313426-1689183487.jpg"
     },
     {
       "id": "591848",
@@ -4594,7 +5412,9 @@
       "age": 30,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/591848-1715020204.JPG"
     },
     {
       "id": "414774",
@@ -4605,7 +5425,9 @@
       "age": 31,
       "value": 100000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/414774-1751990209.JPG"
     },
     {
       "id": "955471",
@@ -4616,7 +5438,9 @@
       "age": 22,
       "value": 100000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/955471-1674270908.jpg"
     },
     {
       "id": "973527",
@@ -4627,7 +5451,9 @@
       "age": 25,
       "value": 100000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/973527-1706758112.jpg"
     },
     {
       "id": "1415109",
@@ -4638,7 +5464,9 @@
       "age": 21,
       "value": 100000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1415109-1757601770.jpg"
     },
     {
       "id": "653437",
@@ -4649,7 +5477,9 @@
       "age": 29,
       "value": 100000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/653437-1759019797.jpg"
     },
     {
       "id": "188491",
@@ -4660,7 +5490,9 @@
       "age": 35,
       "value": 100000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/188491-1759019879.jpg"
     },
     {
       "id": "669669",
@@ -4671,7 +5503,9 @@
       "age": 27,
       "value": 100000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/669669-1630755262.JPG"
     },
     {
       "id": "130482",
@@ -4682,7 +5516,9 @@
       "age": 33,
       "value": 100000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/130482-1638277397.jpg"
     },
     {
       "id": "657043",
@@ -4693,7 +5529,9 @@
       "age": 26,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/657043-1677610483.JPG"
     },
     {
       "id": "491533",
@@ -4704,7 +5542,9 @@
       "age": 26,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/491533-1757619823.JPG"
     },
     {
       "id": "118998",
@@ -4715,7 +5555,9 @@
       "age": 35,
       "value": 100000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/118998-1697659112.JPG"
     },
     {
       "id": "632266",
@@ -4726,7 +5568,9 @@
       "age": 25,
       "value": 100000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/632266-1674524180.jpg"
     },
     {
       "id": "366711",
@@ -4737,7 +5581,9 @@
       "age": 31,
       "value": 100000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/366711-1657037122.jpg"
     },
     {
       "id": "1380821",
@@ -4748,7 +5594,9 @@
       "age": 21,
       "value": 100000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1128218",
@@ -4759,7 +5607,9 @@
       "age": 21,
       "value": 100000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1128218-1730592203.jpg"
     },
     {
       "id": "1041511",
@@ -4770,7 +5620,9 @@
       "age": 22,
       "value": 100000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1041511-1704392359.jpg"
     },
     {
       "id": "76924",
@@ -4781,7 +5633,9 @@
       "age": 36,
       "value": 100000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/76924-1580382409.jpg"
     },
     {
       "id": "265590",
@@ -4792,7 +5646,9 @@
       "age": 34,
       "value": 100000,
       "contract": null,
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/265590-1741555558.png"
     },
     {
       "id": "975134",
@@ -4803,7 +5659,9 @@
       "age": 24,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/975134-1678473384.JPG"
     },
     {
       "id": "364057",
@@ -4814,7 +5672,9 @@
       "age": 32,
       "value": 100000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/364057-1672506496.JPG"
     },
     {
       "id": "1230822",
@@ -4825,7 +5685,9 @@
       "age": 25,
       "value": 100000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1230822-1709425707.jpg"
     },
     {
       "id": "1008145",
@@ -4836,7 +5698,9 @@
       "age": 21,
       "value": 100000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1008145-1678593084.jpg"
     },
     {
       "id": "936982",
@@ -4847,7 +5711,9 @@
       "age": 26,
       "value": 100000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/936982-1690998829.JPG"
     },
     {
       "id": "253225",
@@ -4858,7 +5724,9 @@
       "age": 34,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/253225-1739891671.png"
     },
     {
       "id": "1118342",
@@ -4869,7 +5737,9 @@
       "age": 26,
       "value": 100000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1118342-1762731157.JPG"
     },
     {
       "id": "1286997",
@@ -4880,7 +5750,9 @@
       "age": 29,
       "value": 100000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1286997-1743262822.jpg"
     },
     {
       "id": "355155",
@@ -4891,7 +5763,9 @@
       "age": 31,
       "value": 100000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/355155-1692296425.JPG"
     },
     {
       "id": "133522",
@@ -4902,7 +5776,9 @@
       "age": 36,
       "value": 100000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/133522-1611585754.jpg"
     },
     {
       "id": "778477",
@@ -4913,7 +5789,9 @@
       "age": 26,
       "value": 100000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/778477-1705076498.JPG"
     },
     {
       "id": "115183",
@@ -4924,7 +5802,9 @@
       "age": 38,
       "value": 75000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/115183-1625770873.png"
     },
     {
       "id": "1160382",
@@ -4935,7 +5815,9 @@
       "age": 22,
       "value": 75000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "974651",
@@ -4946,7 +5828,9 @@
       "age": 27,
       "value": 75000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/974651-1745167997.jpg"
     },
     {
       "id": "73782",
@@ -4957,7 +5841,9 @@
       "age": 40,
       "value": 50000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/73782-1471509769.jpg"
     },
     {
       "id": "842343",
@@ -4968,7 +5854,9 @@
       "age": 24,
       "value": 50000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/842343-1680553334.JPG"
     },
     {
       "id": "74071",
@@ -4979,7 +5867,9 @@
       "age": 39,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/74071-1663858064.JPG"
     },
     {
       "id": "55666",
@@ -4990,7 +5880,9 @@
       "age": 39,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/55666-1647680041.jpg"
     },
     {
       "id": "716275",
@@ -5001,7 +5893,9 @@
       "age": 24,
       "value": 50000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/716275-1689099702.JPG"
     },
     {
       "id": "77066",
@@ -5012,7 +5906,9 @@
       "age": 41,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/77066-1739283136.JPG"
     },
     {
       "id": "148713",
@@ -5023,7 +5919,9 @@
       "age": 39,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/148713-1772412257.JPG"
     },
     {
       "id": "119235",
@@ -5034,7 +5932,9 @@
       "age": 40,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/119235-1702399864.jpg"
     },
     {
       "id": "1133563",
@@ -5045,7 +5945,9 @@
       "age": 21,
       "value": 50000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1133563-1690827005.JPG"
     },
     {
       "id": "331056",
@@ -5056,7 +5958,9 @@
       "age": 30,
       "value": 50000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/331056-1714493049.JPG"
     },
     {
       "id": "37934",
@@ -5067,7 +5971,9 @@
       "age": 41,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/37934-1698777152.JPG"
     },
     {
       "id": "1014142",
@@ -5078,7 +5984,9 @@
       "age": 21,
       "value": 50000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1014142-1680387652.JPG"
     },
     {
       "id": "42457",
@@ -5089,7 +5997,9 @@
       "age": 41,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/42457-1696364738.jpg"
     },
     {
       "id": "356360",
@@ -5100,7 +6010,9 @@
       "age": 37,
       "value": 50000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/356360-1648419935.jpg"
     },
     {
       "id": "978953",
@@ -5111,7 +6023,9 @@
       "age": 21,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/978953-1775603464.jpg"
     },
     {
       "id": "975131",
@@ -5122,7 +6036,9 @@
       "age": 23,
       "value": 50000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/975131-1677989843.JPG"
     },
     {
       "id": "1415116",
@@ -5133,7 +6049,9 @@
       "age": 20,
       "value": 50000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1415116-1778363534.jpg"
     },
     {
       "id": "213469",
@@ -5144,7 +6062,9 @@
       "age": 34,
       "value": 50000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/213469-1754494081.JPG"
     },
     {
       "id": "1002859",
@@ -5155,7 +6075,9 @@
       "age": 25,
       "value": 50000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1002859-1692729165.JPG"
     },
     {
       "id": "1108159",
@@ -5166,7 +6088,9 @@
       "age": 22,
       "value": 50000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1108159-1756494342.jpg"
     },
     {
       "id": "1108681",
@@ -5177,7 +6101,9 @@
       "age": 20,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1108681-1743408848.jpg"
     },
     {
       "id": "699688",
@@ -5188,7 +6114,9 @@
       "age": 27,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1127943",
@@ -5199,7 +6127,9 @@
       "age": 23,
       "value": 50000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1127943-1705075768.JPG"
     },
     {
       "id": "203138",
@@ -5210,7 +6140,9 @@
       "age": 37,
       "value": 50000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/203138-1648011384.jpg"
     },
     {
       "id": "136005",
@@ -5221,7 +6153,9 @@
       "age": 38,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/136005-1627077849.jpg"
     },
     {
       "id": "655637",
@@ -5232,7 +6166,9 @@
       "age": 23,
       "value": 50000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/655637-1688754798.jpg"
     },
     {
       "id": "460349",
@@ -5243,7 +6179,9 @@
       "age": 34,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/460349-1633812315.jpg"
     },
     {
       "id": "529759",
@@ -5254,7 +6192,9 @@
       "age": 27,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/529759-1745853623.jpg"
     },
     {
       "id": "331757",
@@ -5265,7 +6205,9 @@
       "age": 34,
       "value": 50000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/331757-1721238957.JPG"
     },
     {
       "id": "652402",
@@ -5276,7 +6218,9 @@
       "age": 24,
       "value": 50000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/652402-1712766998.JPG"
     },
     {
       "id": "1033123",
@@ -5287,7 +6231,9 @@
       "age": 27,
       "value": 50000,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1033123-1739043243.JPG"
     },
     {
       "id": "550755",
@@ -5298,7 +6244,9 @@
       "age": 32,
       "value": 50000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/550755-1753801615.jpg"
     },
     {
       "id": "120013",
@@ -5309,7 +6257,9 @@
       "age": 34,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/120013-1676755001.jpg"
     },
     {
       "id": "362577",
@@ -5320,7 +6270,9 @@
       "age": 36,
       "value": 50000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/362577-1749231590.JPG"
     },
     {
       "id": "653457",
@@ -5331,7 +6283,9 @@
       "age": 27,
       "value": 50000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "74440",
@@ -5342,7 +6296,9 @@
       "age": 37,
       "value": 50000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/74440-1632212786.jpg"
     },
     {
       "id": "1295762",
@@ -5353,7 +6309,9 @@
       "age": 21,
       "value": 50000,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1295762-1725984667.jpg"
     },
     {
       "id": "421210",
@@ -5364,7 +6322,9 @@
       "age": 30,
       "value": 50000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/421210-1722695803.jpg"
     },
     {
       "id": "599707",
@@ -5375,7 +6335,9 @@
       "age": 32,
       "value": 50000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/599707-1660167089.jpg"
     },
     {
       "id": "211399",
@@ -5386,7 +6348,9 @@
       "age": 36,
       "value": 50000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/211399-1713129952.jpg"
     },
     {
       "id": "76648",
@@ -5397,7 +6361,9 @@
       "age": 36,
       "value": 50000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/76648-1695928734.JPG"
     },
     {
       "id": "74475",
@@ -5408,7 +6374,9 @@
       "age": 36,
       "value": 50000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/74475-1728059957.jpg"
     },
     {
       "id": "1240945",
@@ -5419,7 +6387,9 @@
       "age": 21,
       "value": 50000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1240945-1793061574.jpg"
     },
     {
       "id": "188393",
@@ -5430,7 +6400,9 @@
       "age": 37,
       "value": 50000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/188393-1709151129.JPG"
     },
     {
       "id": "332558",
@@ -5441,7 +6413,9 @@
       "age": 33,
       "value": 50000,
       "contract": "2027-07-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/332558-1672505278.JPG"
     },
     {
       "id": "907596",
@@ -5452,7 +6426,9 @@
       "age": 26,
       "value": 50000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/907596-1692729000.JPG"
     },
     {
       "id": "865703",
@@ -5463,7 +6439,9 @@
       "age": 24,
       "value": 50000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/865703-1676755198.jpg"
     },
     {
       "id": "906651",
@@ -5474,7 +6452,9 @@
       "age": 23,
       "value": 50000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/906651-1723948289.JPG"
     },
     {
       "id": "850783",
@@ -5485,7 +6465,9 @@
       "age": 26,
       "value": 50000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/850783-1683033737.JPG"
     },
     {
       "id": "600616",
@@ -5496,7 +6478,9 @@
       "age": 32,
       "value": 50000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/600616-1674523721.jpg"
     },
     {
       "id": "189390",
@@ -5507,7 +6491,9 @@
       "age": 37,
       "value": 50000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/189390-1709151047.JPG"
     },
     {
       "id": "638187",
@@ -5518,7 +6504,9 @@
       "age": 27,
       "value": 50000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/638187-1743539693.jpg"
     },
     {
       "id": "911027",
@@ -5529,7 +6517,9 @@
       "age": 26,
       "value": 50000,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/911027-1630755050.JPG"
     },
     {
       "id": "748264",
@@ -5540,7 +6530,9 @@
       "age": 24,
       "value": 50000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/748264-1676238285.jpg"
     },
     {
       "id": "491541",
@@ -5551,7 +6543,9 @@
       "age": 26,
       "value": 50000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/491541-1678956622.png"
     },
     {
       "id": "1118282",
@@ -5562,7 +6556,9 @@
       "age": 23,
       "value": 50000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1118282-1704392202.jpg"
     },
     {
       "id": "1000782",
@@ -5573,7 +6569,9 @@
       "age": 24,
       "value": 50000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1000782-1739035571.JPG"
     },
     {
       "id": "498688",
@@ -5584,7 +6582,9 @@
       "age": 28,
       "value": 25000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/498688-1731597689.jpg"
     },
     {
       "id": "1260616",
@@ -5595,7 +6595,9 @@
       "age": 23,
       "value": 25000,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1260616-1751825288.jpg"
     },
     {
       "id": "129483",
@@ -5606,7 +6608,9 @@
       "age": 33,
       "value": 25000,
       "contract": null,
-      "nat": "Spain"
+      "nat": "Espanha",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/129483-1475571577.jpg"
     },
     {
       "id": "1079487",
@@ -5617,7 +6621,9 @@
       "age": 22,
       "value": 25000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1079487-1691000356.JPG"
     },
     {
       "id": "1226038",
@@ -5628,7 +6634,9 @@
       "age": 20,
       "value": null,
       "contract": "2027-06-30",
-      "nat": "Spain"
+      "nat": "Espanha",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1226038-1785352640.png"
     },
     {
       "id": "1391806",
@@ -5639,7 +6647,9 @@
       "age": 22,
       "value": null,
       "contract": "2028-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1391806-1748274635.JPG"
     },
     {
       "id": "1448911",
@@ -5650,7 +6660,9 @@
       "age": 20,
       "value": null,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1448911-1778251870.jpg"
     },
     {
       "id": "1085489",
@@ -5661,7 +6673,9 @@
       "age": 22,
       "value": null,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1527525",
@@ -5672,7 +6686,9 @@
       "age": 19,
       "value": null,
       "contract": null,
-      "nat": "Venezuela"
+      "nat": "Venezuela",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1406955",
@@ -5683,7 +6699,9 @@
       "age": 19,
       "value": null,
       "contract": "2027-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1406955-1751823738.jpg"
     },
     {
       "id": "1398415",
@@ -5694,7 +6712,9 @@
       "age": 21,
       "value": null,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1398415-1769213596.jpg"
     },
     {
       "id": "1319521",
@@ -5705,7 +6725,9 @@
       "age": 20,
       "value": null,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1319521-1740843789.png"
     },
     {
       "id": "1254651",
@@ -5716,7 +6738,9 @@
       "age": 23,
       "value": null,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1622970",
@@ -5727,7 +6751,9 @@
       "age": 19,
       "value": null,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1622970-1793882994.JPG"
     },
     {
       "id": "1408965",
@@ -5738,7 +6764,9 @@
       "age": 18,
       "value": null,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1408965-1793883133.JPG"
     },
     {
       "id": "1187155",
@@ -5749,7 +6777,9 @@
       "age": 22,
       "value": null,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1622714",
@@ -5760,7 +6790,9 @@
       "age": 18,
       "value": null,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1249352",
@@ -5771,7 +6803,9 @@
       "age": 30,
       "value": null,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1432786",
@@ -5782,7 +6816,9 @@
       "age": 21,
       "value": null,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "977633",
@@ -5793,7 +6829,9 @@
       "age": 21,
       "value": null,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1341351",
@@ -5804,7 +6842,9 @@
       "age": 20,
       "value": null,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1102013",
@@ -5815,7 +6855,9 @@
       "age": 22,
       "value": null,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1102013-1788741703.JPG"
     },
     {
       "id": "1469126",
@@ -5826,7 +6868,9 @@
       "age": 18,
       "value": null,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1469126-1784943236.JPG"
     },
     {
       "id": "614973",
@@ -5837,7 +6881,9 @@
       "age": 28,
       "value": null,
       "contract": "2027-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/614973-1630738064.JPG"
     },
     {
       "id": "1475310",
@@ -5848,7 +6894,9 @@
       "age": 26,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1475310-1790739161.png"
     },
     {
       "id": "852633",
@@ -5859,7 +6907,9 @@
       "age": 30,
       "value": null,
       "contract": "2026-12-31",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/852633-1649703055.jpg"
     },
     {
       "id": "1503648",
@@ -5870,7 +6920,9 @@
       "age": 21,
       "value": null,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1506697",
@@ -5881,7 +6933,9 @@
       "age": 20,
       "value": null,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": null
     }
   ]
 }

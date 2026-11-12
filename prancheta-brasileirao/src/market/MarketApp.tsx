@@ -15,7 +15,7 @@ import { AgeValue, ContractYears, Depth, Legend, Waterfall } from "./Charts";
 import { MARKET_INDEX, hasMarketData, loadClubMarket, loadLeague, loadMarketState, saveMarketState } from "./data";
 import {
   ACTION_LABEL, PRICED, SIGNING_LABEL, actionsFor, contractYears, decisionOf, depthChart, emptyMarketState, fmtBrl, fmtDate,
-  fmtEur, isEnding, isFreeAgent, moneyOf, nextSeason, shareText, staysWith, summarize, waterfall,
+  FOREIGN_LIMIT, fmtEur, isEnding, isFreeAgent, moneyOf, nextSeason, posRank, shareText, staysWith, summarize, waterfall,
   type Decision, type MarketState, type SigningType, type SquadAction,
 } from "./logic";
 import type { ClubMarket, MarketLeague, MarketPlayer, SquadPlayer } from "./types";
@@ -194,6 +194,7 @@ function MarketClub({ slug }: { slug: string }) {
   const sum = summarize(squad, st, CUTOFF, arrivals.map((a) => ({ value: a.p.value, age: a.p.age })));
   const next = nextSeason(squad, st, CUTOFF, arrivals.map((a) => a.p));
   const depth = depthChart(next);
+  const foreigners = next.filter((x) => x.kind !== "leave" && x.foreign).length;
   const steps = waterfall(st, sum);
 
   const setDecision = (id: string, d: Decision | null) =>
@@ -213,7 +214,7 @@ function MarketClub({ slug }: { slug: string }) {
   ];
 
   const rail = (
-    <Ledger st={st} setSt={setSt} sum={sum} steps={steps} depth={depth} onNext={tab === "close" ? null : () => (setTab(tab === "squad" ? "market" : "close"), setSheet(false), window.scrollTo({ top: 0 }))} nextLabel={tab === "squad" ? "Ir às compras" : "Fechar a janela"} />
+    <Ledger st={st} setSt={setSt} sum={sum} steps={steps} depth={depth} foreigners={foreigners} onNext={tab === "close" ? null : () => (setTab(tab === "squad" ? "market" : "close"), setSheet(false), window.scrollTo({ top: 0 }))} nextLabel={tab === "squad" ? "Ir às compras" : "Fechar a janela"} />
   );
 
   return (
@@ -403,8 +404,26 @@ function Guide({ team, st, setSt, pending, loans, onDone }: {
 
 // ============ balancete (lateral / folha no celular) ============
 
-function Ledger({ st, setSt, sum, steps, depth, onNext, nextLabel }: {
-  st: MarketState; setSt: SetSt; sum: ReturnType<typeof summarize>; steps: ReturnType<typeof waterfall>; depth: ReturnType<typeof depthChart>;
+/** Estrangeiros no elenco da próxima temporada, contra o limite por jogo da CBF. */
+function ForeignMeter({ count }: { count: number }) {
+  const over = count > FOREIGN_LIMIT;
+  return (
+    <div className={`tm-foreignmeter ${over ? "is-over" : ""}`}>
+      <p>
+        <b>{count}</b> estrangeiro{count === 1 ? "" : "s"}
+        <span>{over ? ` · só ${FOREIGN_LIMIT} podem ser relacionados por jogo` : ` · até ${FOREIGN_LIMIT} podem ser relacionados por jogo`}</span>
+      </p>
+      <div className="tm-foreignmeter__bar" role="img" aria-label={`${count} estrangeiros; até ${FOREIGN_LIMIT} podem ser relacionados por jogo`}>
+        {Array.from({ length: Math.max(FOREIGN_LIMIT, count) }, (_, i) => (
+          <i key={i} className={i < count ? (i < FOREIGN_LIMIT ? "is-on" : "is-over") : ""} />
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function Ledger({ st, setSt, sum, steps, depth, foreigners, onNext, nextLabel }: {
+  st: MarketState; setSt: SetSt; sum: ReturnType<typeof summarize>; steps: ReturnType<typeof waterfall>; depth: ReturnType<typeof depthChart>; foreigners: number;
   onNext: (() => void) | null; nextLabel: string;
 }) {
   const short = depth.filter((d) => d.short);
@@ -433,6 +452,7 @@ function Ledger({ st, setSt, sum, steps, depth, onNext, nextLabel }: {
       </label>
 
       <p className="tm-eyebrow tm-ledger__sep">Elenco {SEASON} · {sum.squadSize} jogadores</p>
+      <ForeignMeter count={foreigners} />
       <Depth rows={depth} compact />
       <Legend items={["stay", "new", "leave", "min"]} />
       {short.length > 0 && <p className="tm-ledger__warn">Faltam: {short.map((d) => `${d.short} ${d.pos}`).join(", ")}</p>}
@@ -444,14 +464,30 @@ function Ledger({ st, setSt, sum, steps, depth, onNext, nextLabel }: {
 // ============ fichas ============
 
 function Photo({ name, photo, colors }: { name: string; photo: string | null; colors?: { primary: string; secondary: string } }) {
-  return photo ? (
-    <img className="tm-ficha__photo" src={photo} alt="" width={52} height={52} loading="lazy" />
-  ) : (
+  const [broken, setBroken] = useState(false);
+  if (photo && !broken) {
+    return (
+      <img
+        className="tm-ficha__photo"
+        src={photo}
+        alt=""
+        width={52}
+        height={52}
+        loading="lazy"
+        referrerPolicy="no-referrer"
+        onError={() => setBroken(true)}
+      />
+    );
+  }
+  return (
     <span className="tm-ficha__photo tm-ficha__photo--ini" style={colors ? { background: colors.primary, color: colors.secondary === colors.primary ? "#fff" : colors.secondary } : undefined}>
       {initials(name)}
     </span>
   );
 }
+
+/** Bandeira de texto para estrangeiro (conta no limite da CBF). */
+const Foreign = ({ on }: { on: boolean }) => (on ? <span className="tm-foreign" title={`Estrangeiro: até ${FOREIGN_LIMIT} podem ser relacionados por jogo`}>EST</span> : null);
 
 function arrivalText(p: SquadPlayer): string {
   const a = p.arrival;
@@ -479,7 +515,7 @@ function Price({ value, onChange, label }: { value: number; onChange: (v: number
   );
 }
 
-type SquadFilter = "all" | "pending" | "loans" | "leaving";
+type SquadFilter = "all" | "pending" | "loans" | "leaving" | "foreign";
 type SquadSort = "pos" | "value" | "contract" | "age";
 
 function SquadTab({ squad, st, setSt, setDecision, colors }: {
@@ -492,19 +528,20 @@ function SquadTab({ squad, st, setSt, setDecision, colors }: {
   const act = (p: SquadPlayer) => decisionOf(p, st, CUTOFF).action;
   const shown = squad
     .filter((p) =>
-      filter === "pending" ? isEnding(p, CUTOFF) : filter === "loans" ? p.status !== "owned" : filter === "leaving" ? !staysWith(act(p)) && p.status !== "loanOut" : true,
+      filter === "pending" ? isEnding(p, CUTOFF) : filter === "loans" ? p.status !== "owned" : filter === "leaving" ? !staysWith(act(p)) && p.status !== "loanOut" : filter === "foreign" ? p.foreign : true,
     )
     .sort((a, b) =>
       sort === "value" ? (b.value ?? 0) - (a.value ?? 0)
       : sort === "age" ? (b.age ?? 0) - (a.age ?? 0)
       : sort === "contract" ? (a.loanUntil ?? a.contract ?? "9999").localeCompare(b.loanUntil ?? b.contract ?? "9999")
-      : POSITIONS.indexOf(a.pos) - POSITIONS.indexOf(b.pos) || (b.value ?? 0) - (a.value ?? 0),
+      : posRank(a.pos) - posRank(b.pos) || (b.value ?? 0) - (a.value ?? 0),
     );
   const filters: [SquadFilter, string][] = [
     ["all", `Todos ${squad.length}`],
     ["pending", `Terminando ${squad.filter((p) => isEnding(p, CUTOFF)).length}`],
     ["loans", `Empréstimos ${squad.filter((p) => p.status !== "owned").length}`],
     ["leaving", "Saindo"],
+    ["foreign", `Estrangeiros ${squad.filter((p) => p.foreign && p.status !== "loanOut").length}`],
   ];
   return (
     <section>
@@ -553,6 +590,7 @@ function SquadTab({ squad, st, setSt, setDecision, colors }: {
                   {p.num != null && <i className="tm-ficha__num">{p.num}</i>}
                   {p.name}
                   <span className={`tm-pos tm-pos--${p.pos}`}>{p.pos}</span>
+                  <Foreign on={p.foreign} />
                 </p>
                 <p className="tm-ficha__meta">
                   {p.age != null ? `${p.age} anos` : "Idade não informada"}{p.nat ? ` · ${p.nat}` : ""} · <span className={ending ? "is-ending" : ""}>{contractText(p)}</span>
@@ -599,6 +637,7 @@ function MarketTab({ st, setSt, balance, ownIds, depth, onLeague }: {
   const [loaded, setLoaded] = useState<MarketLeague[]>([]);
   const [loading, setLoading] = useState(true);
   const [q, setQ] = useState("");
+  const [clubKey, setClubKey] = useState(""); // "liga:índice"
   const [pos, setPos] = useState<Pos | null>(null);
   const [maxAge, setMaxAge] = useState(0);
   const [afford, setAfford] = useState(false);
@@ -618,6 +657,7 @@ function MarketTab({ st, setSt, balance, ownIds, depth, onLeague }: {
       ls.forEach(onLeague);
     });
     setLimit(40);
+    setClubKey("");
     return () => {
       alive = false;
     };
@@ -630,8 +670,11 @@ function MarketTab({ st, setSt, balance, ownIds, depth, onLeague }: {
     const nq = norm(q.trim());
     const out: { p: MarketPlayer; lg: MarketLeague }[] = [];
     for (const lg of loaded) {
+      if (clubKey && !clubKey.startsWith(`${lg.id}:`)) continue;
+      const ci = clubKey ? Number(clubKey.split(":")[1]) : -1;
       for (const p of lg.players) {
         if (ownIds.has(p.id)) continue;
+        if (ci >= 0 && p.club !== ci) continue;
         if (pos && p.pos !== pos) continue;
         if (maxAge && (p.age ?? 99) > maxAge) continue;
         const free = isFreeAgent(p, CUTOFF);
@@ -649,7 +692,7 @@ function MarketTab({ st, setSt, balance, ownIds, depth, onLeague }: {
       contract: (a, b) => (a.contract ?? "9999").localeCompare(b.contract ?? "9999"),
     };
     return out.sort((a, b) => by[sort](a.p, b.p));
-  }, [loaded, q, pos, maxAge, afford, onlyFree, onlyWatch, watch, ownIds, balance, sort]);
+  }, [loaded, q, clubKey, pos, maxAge, afford, onlyFree, onlyWatch, watch, ownIds, balance, sort]);
 
   const signed = new Map(st.signings.map((s) => [s.id, s]));
   const sign = (p: MarketPlayer, league: string, type: SigningType) =>
@@ -679,7 +722,23 @@ function MarketTab({ st, setSt, balance, ownIds, depth, onLeague }: {
             </optgroup>
           ))}
         </select>
-        <input type="search" placeholder="Jogador ou clube" value={q} onChange={(e) => setQ(e.target.value)} aria-label="Buscar jogador ou clube" />
+        <select value={clubKey} onChange={(e) => (setClubKey(e.target.value), setLimit(40))} aria-label="Clube" disabled={!loaded.length}>
+          <option value="">Todos os clubes</option>
+          {loaded.length === 1
+            ? loaded[0].clubs
+                .map((c, i) => ({ c, i }))
+                .sort((a, b) => a.c.name.localeCompare(b.c.name, "pt-BR"))
+                .map(({ c, i }) => <option key={c.id} value={`${loaded[0].id}:${i}`}>{c.name}</option>)
+            : loaded.map((lg) => (
+                <optgroup key={lg.id} label={lg.name}>
+                  {lg.clubs
+                    .map((c, i) => ({ c, i }))
+                    .sort((a, b) => a.c.name.localeCompare(b.c.name, "pt-BR"))
+                    .map(({ c, i }) => <option key={c.id} value={`${lg.id}:${i}`}>{c.name}</option>)}
+                </optgroup>
+              ))}
+        </select>
+        <input type="search" placeholder="Buscar jogador" value={q} onChange={(e) => setQ(e.target.value)} aria-label="Buscar jogador ou clube" />
         <select value={maxAge} onChange={(e) => setMaxAge(Number(e.target.value))} aria-label="Idade máxima">
           <option value={0}>Qualquer idade</option>
           {[21, 23, 25, 28, 31].map((a) => <option key={a} value={a}>até {a} anos</option>)}
@@ -710,9 +769,9 @@ function MarketTab({ st, setSt, balance, ownIds, depth, onLeague }: {
           const over = !free && (p.value ?? 0) > balance;
           return (
             <article key={wk} className={`tm-ficha ${s ? "is-signed" : ""}`}>
-              <Photo name={p.name} photo={null} />
+              <Photo name={p.name} photo={p.photo} />
               <div className="tm-ficha__main">
-                <p className="tm-ficha__name">{p.name}<span className={`tm-pos tm-pos--${p.pos}`}>{p.pos}</span></p>
+                <p className="tm-ficha__name">{p.name}<span className={`tm-pos tm-pos--${p.pos}`}>{p.pos}</span><Foreign on={p.foreign} /></p>
                 <p className="tm-ficha__meta">{p.age != null ? `${p.age} anos` : "Idade não informada"}{p.nat ? ` · ${p.nat}` : ""} · {lg.clubs[p.club]?.name}</p>
                 <p className="tm-ficha__origin">
                   {lg.name} · <span className={free ? "is-free" : ""}>contrato até {fmtDate(p.contract)}{free ? " (chega livre)" : ""}</span>
@@ -742,7 +801,7 @@ function MarketTab({ st, setSt, balance, ownIds, depth, onLeague }: {
         {!loading && !results.length && (
           <p className="tm-empty">
             Nenhum jogador com esses filtros.{" "}
-            <button className="tm-link" onClick={() => (setQ(""), setPos(null), setMaxAge(0), setAfford(false), setOnlyFree(false), setOnlyWatch(false))}>Limpar filtros</button>
+            <button className="tm-link" onClick={() => (setQ(""), setClubKey(""), setPos(null), setMaxAge(0), setAfford(false), setOnlyFree(false), setOnlyWatch(false))}>Limpar filtros</button>
           </p>
         )}
       </div>
@@ -760,6 +819,9 @@ function CloseTab({ sum, st, setSt, arrivals, next, depth, steps, squad, onShare
   onShare: () => void; onReset: () => void;
 }) {
   const before = squad.filter((p) => p.status !== "loanOut");
+  const foreigners = next.filter((x) => x.kind !== "leave" && x.foreign).length;
+  const arrivalsByPos = [...arrivals].sort((a, b) => posRank(a.p.pos) - posRank(b.p.pos) || (b.p.value ?? 0) - (a.p.value ?? 0));
+  const leavesByPos = [...sum.leaves].sort((a, b) => posRank(a.p.pos) - posRank(b.p.pos) || (b.p.value ?? 0) - (a.p.value ?? 0));
   const valueBefore = before.reduce((a, p) => a + (p.value ?? 0), 0);
   const delta = sum.squadValue - valueBefore;
   const short = depth.filter((d) => d.short);
@@ -782,6 +844,10 @@ function CloseTab({ sum, st, setSt, arrivals, next, depth, steps, squad, onShare
         <div><span>Elenco {SEASON}</span><b>{sum.squadSize}</b><small>{sum.squadSize === before.length ? "mesmo tamanho de hoje" : `${sum.squadSize > before.length ? "+" : "–"}${Math.abs(sum.squadSize - before.length)} em relação a hoje`}</small></div>
         <div><span>Valor do elenco</span><b>{fmtEur(sum.squadValue)}</b><small>{delta >= 0 ? "+" : "– "}{fmtEur(Math.abs(delta))} na janela · {fmtBrl(sum.squadValue, st.rate)}</small></div>
         <div><span>Idade média</span><b>{sum.avgAge ? sum.avgAge.toFixed(1).replace(".", ",") : "—"}</b><small>anos</small></div>
+        <div className={foreigners > FOREIGN_LIMIT ? "is-over" : ""}>
+          <span>Estrangeiros</span><b>{foreigners}</b>
+          <small>{foreigners > FOREIGN_LIMIT ? `${foreigners - FOREIGN_LIMIT} a mais que os ${FOREIGN_LIMIT} relacionáveis por jogo` : `até ${FOREIGN_LIMIT} relacionados por jogo`}</small>
+        </div>
       </div>
 
       <div className="tm-grid">
@@ -809,7 +875,7 @@ function CloseTab({ sum, st, setSt, arrivals, next, depth, steps, squad, onShare
         <div className="tm-list">
           <h3>Chegam <span>{arrivals.length}</span></h3>
           {!arrivals.length && <p className="tm-muted">Nenhuma contratação. O mercado está na etapa 2.</p>}
-          {arrivals.map((a) => (
+          {arrivalsByPos.map((a) => (
             <p key={a.s.id}>
               <span className={`tm-pos tm-pos--${a.p.pos}`}>{a.p.pos}</span>
               <b>{a.p.name}</b><i>{a.club}</i>
@@ -822,7 +888,7 @@ function CloseTab({ sum, st, setSt, arrivals, next, depth, steps, squad, onShare
         <div className="tm-list">
           <h3>Saem <span>{sum.leaves.length}</span></h3>
           {!sum.leaves.length && <p className="tm-muted">Ninguém saindo. As decisões ficam na etapa 1.</p>}
-          {sum.leaves.map(({ p, d }) => {
+          {leavesByPos.map(({ p, d }) => {
             const m = moneyOf(p, d);
             return (
               <p key={p.id}>

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { arrivalOf, loanStatus, matchClubSlug, tmPosition, type TmTransfer } from "../scripts/lib/market";
+import { arrivalOf, countryPt, isForeign, loanStatus, matchClubSlug, tmPhoto, tmPosition, type TmTransfer } from "../scripts/lib/market";
 import { actionsFor, contractYears, depthChart, emptyMarketState, fmtEur, isEnding, isFreeAgent, moneyOf, nextSeason, shareText, summarize, waterfall } from "../src/market/logic";
 import type { MarketPlayer, SquadPlayer } from "../src/market/types";
 
@@ -58,6 +58,14 @@ describe("situação contratual (Transfermarkt)", () => {
     expect(tmPosition(null)).toBe("MEI");
   });
 
+  it("estrangeiro, país em português e foto", () => {
+    expect(isForeign(["Argentina", "Italy"])).toBe(true);
+    expect(isForeign(["Portugal", "Brazil"])).toBe(false);
+    expect(countryPt("Colombia")).toBe("Colômbia");
+    expect(countryPt("Kosovo")).toBe("Kosovo");
+    expect(tmPhoto("https://img.a.transfermarkt.technology/portrait/big/default.jpg")).toBeNull();
+  });
+
   it("nome do clube no Transfermarkt → slug", () => {
     const aliases = { vasco: ["Vasco da Gama"], flamengo: ["Flamengo"], "atletico-mg": ["Atletico Mineiro"], "athletico-pr": ["Athletico Paranaense"] };
     expect(matchClubSlug("CR Vasco da Gama", aliases)).toBe("vasco");
@@ -70,7 +78,7 @@ describe("situação contratual (Transfermarkt)", () => {
 
 const CUT = "2027-01-01";
 const sp = (o: Partial<SquadPlayer> & { id: string }): SquadPlayer => ({
-  name: o.id, pos: "MEI", posName: null, age: 25, value: 5_000_000, contract: "2029-12-31", nat: null, num: null, photo: null,
+  name: o.id, pos: "MEI", posName: null, age: 25, value: 5_000_000, contract: "2029-12-31", nat: null, foreign: false, num: null, photo: null,
   status: "owned", arrival: { type: "unknown", from: null, fee: null, date: null }, joined: null, ...o,
 });
 
@@ -138,12 +146,15 @@ describe("gráficos e resumo da janela", () => {
     sp({ id: "fora", pos: "MEI", status: "loanOut", loanUntil: "2028-01-01" }),
   ];
   const st = { ...emptyMarketState(), budget: 10_000_000, decisions: { a1: { action: "sell" as const }, z2: { action: "renew" as const } } };
-  const novo = { id: "n", name: "Novo", club: 0, pos: "ATA", posName: null, age: 21, value: 4_000_000, contract: "2029-06-30", nat: null } as MarketPlayer;
+  const novo = { id: "n", name: "Novo", club: 0, pos: "ATA", posName: null, age: 21, value: 4_000_000, contract: "2029-06-30", nat: null, foreign: true, photo: null } as MarketPlayer;
   const list = nextSeason(squad, st, CUT, [novo]);
 
   it("elenco da próxima temporada: fica, sai, chega; emprestado fora que segue fora não entra", () => {
     expect(list.map((x) => `${x.id}:${x.kind}`)).toEqual(["g1:stay", "z1:stay", "z2:stay", "a1:leave", "n:new"]);
     expect(list.find((x) => x.id === "z2")!.contract).toBe("renew");
+  });
+  it("estrangeiros contam quem fica e quem chega", () => {
+    expect(list.filter((x) => x.kind !== "leave" && x.foreign).map((x) => x.id)).toEqual(["n"]);
   });
   it("profundidade por posição aponta carências", () => {
     const d = depthChart(list);

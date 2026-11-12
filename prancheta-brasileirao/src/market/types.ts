@@ -25,6 +25,8 @@ export interface SquadPlayer {
   /** fim do contrato (ou do empréstimo, para quem chegou emprestado), AAAA-MM-DD */
   contract: string | null;
   nat: string | null;
+  /** sem nacionalidade brasileira (conta no limite de estrangeiros) */
+  foreign: boolean;
   num: number | null;
   photo: string | null;
   status: SquadStatus;
@@ -54,6 +56,8 @@ export interface MarketPlayer {
   value: number | null;
   contract: string | null;
   nat: string | null;
+  foreign: boolean;
+  photo: string | null;
   /** se chegou emprestado ao clube atual: clube dono */
   loanFrom?: string | null;
 }

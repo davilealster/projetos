@@ -70,7 +70,9 @@
       "age": 29,
       "value": 18000000,
       "contract": "2029-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/323704-1697052788.png"
     },
     {
       "id": "543771",
@@ -81,7 +83,9 @@
       "age": 24,
       "value": 12000000,
       "contract": "2027-06-30",
-      "nat": "Albania"
+      "nat": "Albania",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/543771-1716969431.jpg"
     },
     {
       "id": "292808",
@@ -92,7 +96,9 @@
       "age": 28,
       "value": 10000000,
       "contract": "2029-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/292808-1668080038.jpg"
     },
     {
       "id": "1104114",
@@ -103,7 +109,9 @@
       "age": 22,
       "value": 8000000,
       "contract": null,
-      "nat": "Nigeria"
+      "nat": "Nigéria",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1104114-1759400062.png"
     },
     {
       "id": "258626",
@@ -114,7 +122,9 @@
       "age": 32,
       "value": 7000000,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/258626-1738664288.jpg"
     },
     {
       "id": "449592",
@@ -125,7 +135,9 @@
       "age": 28,
       "value": 7000000,
       "contract": "2027-06-30",
-      "nat": "Spain"
+      "nat": "Espanha",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/449592-1758702596.jpg"
     },
     {
       "id": "180337",
@@ -136,7 +148,9 @@
       "age": 31,
       "value": 6000000,
       "contract": "2028-06-30",
-      "nat": "Iran"
+      "nat": "Iran",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/180337-1714721015.jpg"
     },
     {
       "id": "234850",
@@ -147,7 +161,9 @@
       "age": 31,
       "value": 6000000,
       "contract": "2028-06-30",
-      "nat": "Greece"
+      "nat": "Grécia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/234850-1762637878.png"
     },
     {
       "id": "598506",
@@ -158,7 +174,9 @@
       "age": 30,
       "value": 6000000,
       "contract": "2028-06-30",
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/598506-1723144724.jpg"
     },
     {
       "id": "518472",
@@ -169,7 +187,9 @@
       "age": 31,
       "value": 5000000,
       "contract": "2027-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/518472-1662068635.png"
     },
     {
       "id": "357770",
@@ -180,7 +200,9 @@
       "age": 27,
       "value": 5000000,
       "contract": "2031-06-30",
-      "nat": "Croatia"
+      "nat": "Croácia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/357770-1690574730.png"
     },
     {
       "id": "818252",
@@ -191,7 +213,9 @@
       "age": 25,
       "value": 5000000,
       "contract": "2029-06-30",
-      "nat": "Portugal"
+      "nat": "Portugal",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/818252-1723802085.jpg"
     },
     {
       "id": "179054",
@@ -202,7 +226,9 @@
       "age": 33,
       "value": 5000000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/179054-1706544530.jpg"
     },
     {
       "id": "1009030",
@@ -213,7 +239,9 @@
       "age": 20,
       "value": 4500000,
       "contract": "2029-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1009030-1757676794.jpg"
     },
     {
       "id": "355817",
@@ -224,7 +252,9 @@
       "age": 31,
       "value": 4500000,
       "contract": "2028-06-30",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/355817-1685909664.JPG"
     },
     {
       "id": "401394",
@@ -235,7 +265,9 @@
       "age": 27,
       "value": 4500000,
       "contract": "2028-06-30",
-      "nat": "Slovenia"
+      "nat": "Eslovênia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/401394-1785512583.png"
     },
     {
       "id": "478192",
@@ -246,7 +278,9 @@
       "age": 27,
       "value": 4500000,
       "contract": "2028-06-30",
-      "nat": "Iran"
+      "nat": "Iran",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/478192-1707245004.jpg"
     },
     {
       "id": "500091",
@@ -257,7 +291,9 @@
       "age": 25,
       "value": 4000000,
       "contract": null,
-      "nat": "Türkiye"
+      "nat": "Turquia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/500091-1727354578.png"
     },
     {
       "id": "273152",
@@ -268,7 +304,9 @@
       "age": 31,
       "value": 4000000,
       "contract": "2028-06-30",
-      "nat": "Serbia"
+      "nat": "Sérvia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/273152-1735060522.jpg"
     },
     {
       "id": "364946",
@@ -279,7 +317,9 @@
       "age": 30,
       "value": 4000000,
       "contract": "2029-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/364946-1609187986.png"
     },
     {
       "id": "1089955",
@@ -290,7 +330,9 @@
       "age": 20,
       "value": 4000000,
       "contract": "2029-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1089955-1682389631.jpg"
     },
     {
       "id": "527394",
@@ -301,7 +343,9 @@
       "age": 26,
       "value": 4000000,
       "contract": "2029-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/527394-1693146728.jpg"
     },
     {
       "id": "830847",
@@ -312,7 +356,9 @@
       "age": 24,
       "value": 4000000,
       "contract": "2028-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/830847-1755379936.jpg"
     },
     {
       "id": "299161",
@@ -323,7 +369,9 @@
       "age": 32,
       "value": 4000000,
       "contract": "2027-06-30",
-      "nat": "Syria"
+      "nat": "Syria",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/299161-1755379976.jpg"
     },
     {
       "id": "662325",
@@ -334,7 +382,9 @@
       "age": 24,
       "value": 3500000,
       "contract": "2029-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/662325-1571841193.png"
     },
     {
       "id": "1037802",
@@ -345,7 +395,9 @@
       "age": 22,
       "value": 3500000,
       "contract": "2029-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1037802-1749583459.jpg"
     },
     {
       "id": "677382",
@@ -356,7 +408,9 @@
       "age": 23,
       "value": 3500000,
       "contract": "2031-06-30",
-      "nat": "Suriname"
+      "nat": "Suriname",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/677382-1754376775.jpg"
     },
     {
       "id": "740059",
@@ -367,7 +421,9 @@
       "age": 27,
       "value": 3500000,
       "contract": "2028-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/740059-1705068787.jpg"
     },
     {
       "id": "308441",
@@ -378,7 +434,9 @@
       "age": 32,
       "value": 3500000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/308441-1572338054.jpg"
     },
     {
       "id": "587458",
@@ -389,7 +447,9 @@
       "age": 27,
       "value": 3500000,
       "contract": "2029-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/587458-1663687096.jpg"
     },
     {
       "id": "295382",
@@ -400,7 +460,9 @@
       "age": 30,
       "value": 3500000,
       "contract": null,
-      "nat": "Tunisia"
+      "nat": "Tunísia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/295382-1631906303.jpg"
     },
     {
       "id": "589374",
@@ -411,7 +473,9 @@
       "age": 27,
       "value": 3000000,
       "contract": "2029-06-30",
-      "nat": "Angola"
+      "nat": "Angola",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/589374-1725631683.jpg"
     },
     {
       "id": "373433",
@@ -422,7 +486,9 @@
       "age": 28,
       "value": 3000000,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/373433-1733188388.jpg"
     },
     {
       "id": "697716",
@@ -433,7 +499,9 @@
       "age": 25,
       "value": 3000000,
       "contract": null,
-      "nat": "Cape Verde"
+      "nat": "Cabo Verde",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/697716-1737015415.jpg"
     },
     {
       "id": "989925",
@@ -444,7 +512,9 @@
       "age": 23,
       "value": 3000000,
       "contract": "2030-06-30",
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/989925-1708532639.JPG"
     },
     {
       "id": "294791",
@@ -455,7 +525,9 @@
       "age": 30,
       "value": 3000000,
       "contract": "2028-06-30",
-      "nat": "Cote d'Ivoire"
+      "nat": "Costa do Marfim",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/294791-1626771107.jpg"
     },
     {
       "id": "471776",
@@ -466,7 +538,9 @@
       "age": 31,
       "value": 3000000,
       "contract": "2028-06-30",
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/471776-1523371575.jpg"
     },
     {
       "id": "1156563",
@@ -477,7 +551,9 @@
       "age": 21,
       "value": 2800000,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1156563-1739799273.jpg"
     },
     {
       "id": "425973",
@@ -488,7 +564,9 @@
       "age": 34,
       "value": 2800000,
       "contract": "2028-06-30",
-      "nat": "Togo"
+      "nat": "Togo",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/425973-1636985489.jpg"
     },
     {
       "id": "612162",
@@ -499,7 +577,9 @@
       "age": 25,
       "value": 2800000,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/612162-1755380201.jpg"
     },
     {
       "id": "379163",
@@ -510,7 +590,9 @@
       "age": 28,
       "value": 2800000,
       "contract": "2028-06-30",
-      "nat": "Romania"
+      "nat": "Romênia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/379163-1751530473.jpg"
     },
     {
       "id": "435022",
@@ -521,7 +603,9 @@
       "age": 29,
       "value": 2800000,
       "contract": "2027-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/435022-1709749605.jpg"
     },
     {
       "id": "1083965",
@@ -532,7 +616,9 @@
       "age": 23,
       "value": 2500000,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1083965-1770919491.png"
     },
     {
       "id": "243879",
@@ -543,7 +629,9 @@
       "age": 29,
       "value": 2500000,
       "contract": "2028-06-30",
-      "nat": "DR Congo"
+      "nat": "RD Congo",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/243879-1658483049.jpg"
     },
     {
       "id": "186368",
@@ -554,7 +642,9 @@
       "age": 30,
       "value": 2500000,
       "contract": null,
-      "nat": "Austria"
+      "nat": "Áustria",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/186368-1692819728.jpg"
     },
     {
       "id": "621370",
@@ -565,7 +655,9 @@
       "age": 24,
       "value": 2500000,
       "contract": "2029-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/621370-1573832758.jpg"
     },
     {
       "id": "681120",
@@ -576,7 +668,9 @@
       "age": 26,
       "value": 2500000,
       "contract": "2028-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/681120-1755379772.jpg"
     },
     {
       "id": "658602",
@@ -587,7 +681,9 @@
       "age": 26,
       "value": 2500000,
       "contract": "2029-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "341393",
@@ -598,7 +694,9 @@
       "age": 30,
       "value": 2500000,
       "contract": "2027-06-30",
-      "nat": "France"
+      "nat": "França",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/341393-1544024406.jpg"
     },
     {
       "id": "245228",
@@ -609,7 +707,9 @@
       "age": 33,
       "value": 2500000,
       "contract": "2027-06-30",
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/245228-1727967656.png"
     },
     {
       "id": "624826",
@@ -620,7 +720,9 @@
       "age": 25,
       "value": 2000000,
       "contract": "2029-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/624826-1755380054.jpg"
     },
     {
       "id": "967976",
@@ -631,7 +733,9 @@
       "age": 23,
       "value": 2000000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "981056",
@@ -642,7 +746,9 @@
       "age": 23,
       "value": 2000000,
       "contract": "2029-06-30",
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/981056-1721246742.jpg"
     },
     {
       "id": "735572",
@@ -653,7 +759,9 @@
       "age": 25,
       "value": 2000000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/735572-1601285272.jpg"
     },
     {
       "id": "307058",
@@ -664,7 +772,9 @@
       "age": 34,
       "value": 2000000,
       "contract": "2027-06-30",
-      "nat": "Iran"
+      "nat": "Iran",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/307058-1716551799.jpg"
     },
     {
       "id": "1082639",
@@ -675,7 +785,9 @@
       "age": 22,
       "value": 2000000,
       "contract": "2029-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1082639-1759257548.jpg"
     },
     {
       "id": "593205",
@@ -686,7 +798,9 @@
       "age": 25,
       "value": 2000000,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/593205-1676081720.jpg"
     },
     {
       "id": "660544",
@@ -697,7 +811,9 @@
       "age": 22,
       "value": 2000000,
       "contract": "2029-06-30",
-      "nat": "Slovenia"
+      "nat": "Eslovênia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/660544-1723992271.jpg"
     },
     {
       "id": "634697",
@@ -708,7 +824,9 @@
       "age": 26,
       "value": 2000000,
       "contract": "2028-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/634697-1755379878.jpg"
     },
     {
       "id": "694509",
@@ -719,7 +837,9 @@
       "age": 26,
       "value": 2000000,
       "contract": "2028-06-30",
-      "nat": "Mali"
+      "nat": "Mali",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/694509-1708555512.jpg"
     },
     {
       "id": "1146094",
@@ -730,7 +850,9 @@
       "age": 23,
       "value": 2000000,
       "contract": "2029-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1146094-1755380050.jpg"
     },
     {
       "id": "743590",
@@ -741,7 +863,9 @@
       "age": 22,
       "value": 2000000,
       "contract": "2027-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/743590-1682766429.jpg"
     },
     {
       "id": "191422",
@@ -752,7 +876,9 @@
       "age": 30,
       "value": 2000000,
       "contract": null,
-      "nat": "Syria"
+      "nat": "Syria",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/191422-1726605307.jpg"
     },
     {
       "id": "431911",
@@ -763,7 +889,9 @@
       "age": 28,
       "value": 2000000,
       "contract": null,
-      "nat": "Uzbekistan"
+      "nat": "Uzbekistan",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/431911-1762622827.png"
     },
     {
       "id": "249271",
@@ -774,7 +902,9 @@
       "age": 30,
       "value": 1800000,
       "contract": "2028-06-30",
-      "nat": "Iran"
+      "nat": "Iran",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/249271-1781596714.jpg"
     },
     {
       "id": "1085060",
@@ -785,7 +915,9 @@
       "age": 23,
       "value": 1800000,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1085060-1680118961.jpg"
     },
     {
       "id": "1344099",
@@ -796,7 +928,9 @@
       "age": 21,
       "value": 1800000,
       "contract": null,
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1344099-1739442252.jpg",
       "loanFrom": "Clube Atlético Mineiro"
     },
     {
@@ -808,7 +942,9 @@
       "age": 25,
       "value": 1800000,
       "contract": "2031-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/740157-1705952500.jpg"
     },
     {
       "id": "543385",
@@ -819,7 +955,9 @@
       "age": 23,
       "value": 1800000,
       "contract": "2028-06-30",
-      "nat": "Mali"
+      "nat": "Mali",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "718648",
@@ -830,7 +968,9 @@
       "age": 26,
       "value": 1800000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/718648-1736318487.JPG"
     },
     {
       "id": "709443",
@@ -841,7 +981,9 @@
       "age": 26,
       "value": 1700000,
       "contract": "2030-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "680551",
@@ -852,7 +994,9 @@
       "age": 25,
       "value": 1700000,
       "contract": "2028-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/680551-1733447794.jpg"
     },
     {
       "id": "655893",
@@ -863,7 +1007,9 @@
       "age": 23,
       "value": 1500000,
       "contract": "2027-06-30",
-      "nat": "Türkiye"
+      "nat": "Turquia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/655893-1705504963.jpg"
     },
     {
       "id": "944442",
@@ -874,7 +1020,9 @@
       "age": 21,
       "value": 1500000,
       "contract": null,
-      "nat": "Türkiye"
+      "nat": "Turquia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/944442-1756306507.png"
     },
     {
       "id": "689640",
@@ -885,7 +1033,9 @@
       "age": 25,
       "value": 1500000,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/689640-1606852664.jpg"
     },
     {
       "id": "743589",
@@ -896,7 +1046,9 @@
       "age": 22,
       "value": 1500000,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/743589-1732734743.jpg"
     },
     {
       "id": "344395",
@@ -907,7 +1059,9 @@
       "age": 29,
       "value": 1500000,
       "contract": "2027-06-30",
-      "nat": "Portugal"
+      "nat": "Portugal",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/344395-1631004204.jpg"
     },
     {
       "id": "1082538",
@@ -918,7 +1072,9 @@
       "age": 22,
       "value": 1500000,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1082538-1670981214.jpg"
     },
     {
       "id": "614835",
@@ -929,7 +1085,9 @@
       "age": 28,
       "value": 1500000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/614835-1706544273.jpg"
     },
     {
       "id": "277137",
@@ -940,7 +1098,9 @@
       "age": 31,
       "value": 1500000,
       "contract": "2027-06-30",
-      "nat": "Peru"
+      "nat": "Peru",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/277137-1718679726.jpg"
     },
     {
       "id": "430855",
@@ -951,7 +1111,9 @@
       "age": 26,
       "value": 1500000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "717881",
@@ -962,7 +1124,9 @@
       "age": 22,
       "value": 1500000,
       "contract": "2030-05-30",
-      "nat": "Croatia"
+      "nat": "Croácia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/717881-1641234065.jpg"
     },
     {
       "id": "1083885",
@@ -973,7 +1137,9 @@
       "age": 21,
       "value": 1500000,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1083885-1759431736.jpg"
     },
     {
       "id": "485782",
@@ -984,7 +1150,9 @@
       "age": 29,
       "value": 1500000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/485782-1569423012.jpg"
     },
     {
       "id": "215915",
@@ -995,7 +1163,9 @@
       "age": 34,
       "value": 1500000,
       "contract": "2027-06-30",
-      "nat": "Italy"
+      "nat": "Itália",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/215915-1703280013.png"
     },
     {
       "id": "706533",
@@ -1006,7 +1176,9 @@
       "age": 23,
       "value": 1500000,
       "contract": "2030-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/706533-1654675180.jpg"
     },
     {
       "id": "712618",
@@ -1017,7 +1189,9 @@
       "age": 25,
       "value": 1500000,
       "contract": "2028-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/712618-1575396815.jpg"
     },
     {
       "id": "1198045",
@@ -1028,7 +1202,9 @@
       "age": 21,
       "value": 1500000,
       "contract": "2030-06-30",
-      "nat": "Mali"
+      "nat": "Mali",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1198045-1715538051.jpg"
     },
     {
       "id": "1337458",
@@ -1039,7 +1215,9 @@
       "age": 21,
       "value": 1500000,
       "contract": null,
-      "nat": "Cameroon"
+      "nat": "Camarões",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "327140",
@@ -1050,7 +1228,9 @@
       "age": 33,
       "value": 1500000,
       "contract": "2027-06-30",
-      "nat": "Iran"
+      "nat": "Iran",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/327140-1760359200.jpg"
     },
     {
       "id": "1075604",
@@ -1061,7 +1241,9 @@
       "age": 22,
       "value": 1500000,
       "contract": "2028-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1075604-1707232383.jpeg"
     },
     {
       "id": "727747",
@@ -1072,7 +1254,9 @@
       "age": 24,
       "value": 1500000,
       "contract": "2026-12-31",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/727747-1709884918.png"
     },
     {
       "id": "916920",
@@ -1083,7 +1267,9 @@
       "age": 26,
       "value": 1500000,
       "contract": "2027-06-30",
-      "nat": "Gabon"
+      "nat": "Gabon",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/916920-1668887323.jpg"
     },
     {
       "id": "295327",
@@ -1094,7 +1280,9 @@
       "age": 30,
       "value": 1500000,
       "contract": null,
-      "nat": "Nigeria"
+      "nat": "Nigéria",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/295327-1716063806.png"
     },
     {
       "id": "255744",
@@ -1105,7 +1293,9 @@
       "age": 31,
       "value": 1500000,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/255744-1595914430.jpg"
     },
     {
       "id": "862358",
@@ -1116,7 +1306,9 @@
       "age": 23,
       "value": 1300000,
       "contract": "2028-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/862358-1676124280.jpg"
     },
     {
       "id": "663585",
@@ -1127,7 +1319,9 @@
       "age": 26,
       "value": 1300000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/663585-1626627006.jpg"
     },
     {
       "id": "531007",
@@ -1138,7 +1332,9 @@
       "age": 32,
       "value": 1300000,
       "contract": null,
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "555541",
@@ -1149,7 +1345,9 @@
       "age": 28,
       "value": 1200000,
       "contract": "2029-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/555541-1706543890.jpg"
     },
     {
       "id": "555471",
@@ -1160,7 +1358,9 @@
       "age": 28,
       "value": 1200000,
       "contract": "2028-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/555471-1706544339.jpg"
     },
     {
       "id": "815677",
@@ -1171,7 +1371,9 @@
       "age": 24,
       "value": 1200000,
       "contract": "2027-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/815677-1678037955.jpg"
     },
     {
       "id": "977471",
@@ -1182,7 +1384,9 @@
       "age": 24,
       "value": 1200000,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/977471-1682804100.jpg"
     },
     {
       "id": "242548",
@@ -1193,7 +1397,9 @@
       "age": 33,
       "value": 1200000,
       "contract": null,
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/242548-1446727257.jpg"
     },
     {
       "id": "1115721",
@@ -1204,7 +1410,9 @@
       "age": 21,
       "value": 1200000,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1115721-1680448686.jpg"
     },
     {
       "id": "614840",
@@ -1215,7 +1423,9 @@
       "age": 28,
       "value": 1200000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/614840-1706544484.jpg"
     },
     {
       "id": "1092074",
@@ -1226,7 +1436,9 @@
       "age": 25,
       "value": 1200000,
       "contract": "2029-06-30",
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "856087",
@@ -1237,7 +1449,9 @@
       "age": 25,
       "value": 1200000,
       "contract": "2028-06-30",
-      "nat": "Iran"
+      "nat": "Iran",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/856087-1755380279.jpg"
     },
     {
       "id": "213191",
@@ -1248,7 +1462,9 @@
       "age": 33,
       "value": 1200000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/213191-1609190459.png"
     },
     {
       "id": "50201",
@@ -1259,7 +1475,9 @@
       "age": 35,
       "value": 1200000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/50201-1740673905.jpg"
     },
     {
       "id": "676589",
@@ -1270,7 +1488,9 @@
       "age": 26,
       "value": 1200000,
       "contract": "2030-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "204294",
@@ -1281,7 +1501,9 @@
       "age": 33,
       "value": 1200000,
       "contract": "2027-06-30",
-      "nat": "Iran"
+      "nat": "Iran",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/204294-1760359209.jpg"
     },
     {
       "id": "432960",
@@ -1292,7 +1514,9 @@
       "age": 30,
       "value": 1200000,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/432960-1563950094.jpg"
     },
     {
       "id": "377219",
@@ -1303,7 +1527,9 @@
       "age": 29,
       "value": 1200000,
       "contract": null,
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/377219-1616872969.jpg"
     },
     {
       "id": "351990",
@@ -1314,7 +1540,9 @@
       "age": 33,
       "value": 1200000,
       "contract": "2027-06-30",
-      "nat": "Mali"
+      "nat": "Mali",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/351990-1685658971.jpg"
     },
     {
       "id": "708723",
@@ -1325,7 +1553,9 @@
       "age": 24,
       "value": 1000000,
       "contract": "2026-12-31",
-      "nat": "Brazil",
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/708723-1725326064.jpg",
       "loanFrom": "Sport Club Corinthians Paulista"
     },
     {
@@ -1337,7 +1567,9 @@
       "age": 21,
       "value": 1000000,
       "contract": "2031-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1282697-1756409422.jpg"
     },
     {
       "id": "208587",
@@ -1348,7 +1580,9 @@
       "age": 31,
       "value": 1000000,
       "contract": "2027-06-30",
-      "nat": "Norway"
+      "nat": "Noruega",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/208587-1671228428.jpg"
     },
     {
       "id": "929866",
@@ -1359,7 +1593,9 @@
       "age": 22,
       "value": 1000000,
       "contract": "2029-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/929866-1649417360.jpg"
     },
     {
       "id": "699233",
@@ -1370,7 +1606,9 @@
       "age": 23,
       "value": 1000000,
       "contract": null,
-      "nat": "Serbia"
+      "nat": "Sérvia",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "531450",
@@ -1381,7 +1619,9 @@
       "age": 32,
       "value": 1000000,
       "contract": "2027-06-30",
-      "nat": "Cape Verde"
+      "nat": "Cabo Verde",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/531450-1732288650.jpg"
     },
     {
       "id": "667974",
@@ -1392,7 +1632,9 @@
       "age": 23,
       "value": 1000000,
       "contract": "2027-06-30",
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/667974-1724491695.png"
     },
     {
       "id": "355689",
@@ -1403,7 +1645,9 @@
       "age": 31,
       "value": 1000000,
       "contract": null,
-      "nat": "Guinea"
+      "nat": "Guiné",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/355689-1556009401.jpg"
     },
     {
       "id": "362278",
@@ -1414,7 +1658,9 @@
       "age": 31,
       "value": 1000000,
       "contract": "2027-06-30",
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/362278-1681075662.png"
     },
     {
       "id": "718649",
@@ -1425,7 +1671,9 @@
       "age": 25,
       "value": 900000,
       "contract": "2028-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "189100",
@@ -1436,7 +1684,9 @@
       "age": 33,
       "value": 900000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/189100-1755379811.jpg"
     },
     {
       "id": "796726",
@@ -1447,7 +1697,9 @@
       "age": 24,
       "value": 900000,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/796726-1657665532.jpeg"
     },
     {
       "id": "349570",
@@ -1458,7 +1710,9 @@
       "age": 31,
       "value": 900000,
       "contract": "2028-06-30",
-      "nat": "Cape Verde"
+      "nat": "Cabo Verde",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/349570-1780406310.jpg"
     },
     {
       "id": "471653",
@@ -1469,7 +1723,9 @@
       "age": 26,
       "value": 900000,
       "contract": "2028-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "549034",
@@ -1480,7 +1736,9 @@
       "age": 24,
       "value": 900000,
       "contract": "2030-06-30",
-      "nat": "Portugal"
+      "nat": "Portugal",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/549034-1749738197.jpg"
     },
     {
       "id": "630108",
@@ -1491,7 +1749,9 @@
       "age": 23,
       "value": 900000,
       "contract": "2029-06-30",
-      "nat": "Serbia"
+      "nat": "Sérvia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/630108-1629911331.jpg"
     },
     {
       "id": "306382",
@@ -1502,7 +1762,9 @@
       "age": 29,
       "value": 900000,
       "contract": "2028-06-30",
-      "nat": "Ghana"
+      "nat": "Gana",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/306382-1697466032.png"
     },
     {
       "id": "352811",
@@ -1513,7 +1775,9 @@
       "age": 33,
       "value": 900000,
       "contract": null,
-      "nat": "Portugal"
+      "nat": "Portugal",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/352811-1696332613.png"
     },
     {
       "id": "1039758",
@@ -1524,7 +1788,9 @@
       "age": 20,
       "value": 800000,
       "contract": "2029-06-30",
-      "nat": "Iran"
+      "nat": "Iran",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1039758-1763381693.png"
     },
     {
       "id": "743596",
@@ -1535,7 +1801,9 @@
       "age": 22,
       "value": 800000,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "826278",
@@ -1546,7 +1814,9 @@
       "age": 26,
       "value": 800000,
       "contract": "2027-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/826278-1760359394.jpg"
     },
     {
       "id": "1124268",
@@ -1557,7 +1827,9 @@
       "age": 20,
       "value": 800000,
       "contract": "2029-06-30",
-      "nat": "Paraguay"
+      "nat": "Paraguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1124268-1789494329.jpg"
     },
     {
       "id": "731550",
@@ -1568,7 +1840,9 @@
       "age": 25,
       "value": 800000,
       "contract": "2029-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/731550-1762955359.JPG"
     },
     {
       "id": "735574",
@@ -1579,7 +1853,9 @@
       "age": 26,
       "value": 800000,
       "contract": "2029-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "981525",
@@ -1590,7 +1866,9 @@
       "age": 22,
       "value": 800000,
       "contract": null,
-      "nat": "Senegal"
+      "nat": "Senegal",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/981525-1676126193.jpg"
     },
     {
       "id": "205849",
@@ -1601,7 +1879,9 @@
       "age": 31,
       "value": 800000,
       "contract": null,
-      "nat": "North Macedonia"
+      "nat": "North Macedonia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/205849-1732192902.png"
     },
     {
       "id": "443612",
@@ -1612,7 +1892,9 @@
       "age": 31,
       "value": 800000,
       "contract": "2030-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/443612-1734752988.png"
     },
     {
       "id": "927076",
@@ -1623,7 +1905,9 @@
       "age": 25,
       "value": 800000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "825683",
@@ -1634,7 +1918,9 @@
       "age": 23,
       "value": 800000,
       "contract": null,
-      "nat": "Serbia"
+      "nat": "Sérvia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/825683-1748369666.png"
     },
     {
       "id": "729938",
@@ -1645,7 +1931,9 @@
       "age": 25,
       "value": 700000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1278173",
@@ -1656,7 +1944,9 @@
       "age": 20,
       "value": 700000,
       "contract": null,
-      "nat": "The Gambia"
+      "nat": "The Gambia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1278173-1759083829.jpg"
     },
     {
       "id": "1240269",
@@ -1667,7 +1957,9 @@
       "age": 23,
       "value": 700000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1034718",
@@ -1678,7 +1970,9 @@
       "age": 23,
       "value": 700000,
       "contract": null,
-      "nat": "Serbia"
+      "nat": "Sérvia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1034718-1705689502.jpg"
     },
     {
       "id": "1391483",
@@ -1689,7 +1983,9 @@
       "age": 21,
       "value": 700000,
       "contract": "2029-06-30",
-      "nat": "Senegal"
+      "nat": "Senegal",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "531214",
@@ -1700,7 +1996,9 @@
       "age": 23,
       "value": 700000,
       "contract": "2028-06-30",
-      "nat": "Austria"
+      "nat": "Áustria",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/531214-1726595804.jpg"
     },
     {
       "id": "723667",
@@ -1711,7 +2009,9 @@
       "age": 23,
       "value": 700000,
       "contract": null,
-      "nat": "Mali"
+      "nat": "Mali",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/723667-1755380382.jpg"
     },
     {
       "id": "857342",
@@ -1722,7 +2022,9 @@
       "age": 25,
       "value": 700000,
       "contract": "2028-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/857342-1706544191.jpg"
     },
     {
       "id": "614424",
@@ -1733,7 +2035,9 @@
       "age": 24,
       "value": 700000,
       "contract": "2027-06-30",
-      "nat": "Serbia"
+      "nat": "Sérvia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/614424-1760359460.jpg"
     },
     {
       "id": "864109",
@@ -1744,7 +2048,9 @@
       "age": 22,
       "value": 700000,
       "contract": "2029-06-30",
-      "nat": "Tunisia"
+      "nat": "Tunísia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/864109-1774858704.jpg"
     },
     {
       "id": "226155",
@@ -1755,7 +2061,9 @@
       "age": 32,
       "value": 700000,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/226155-1739292351.jpg"
     },
     {
       "id": "677706",
@@ -1766,7 +2074,9 @@
       "age": 27,
       "value": 700000,
       "contract": null,
-      "nat": "Colombia"
+      "nat": "Colômbia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/677706-1716118662.png"
     },
     {
       "id": "992532",
@@ -1777,7 +2087,9 @@
       "age": 23,
       "value": 700000,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/992532-1740506774.jpg"
     },
     {
       "id": "813120",
@@ -1788,7 +2100,9 @@
       "age": 23,
       "value": 700000,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/813120-1706138382.jpg"
     },
     {
       "id": "738477",
@@ -1799,7 +2113,9 @@
       "age": 21,
       "value": 650000,
       "contract": "2027-06-30",
-      "nat": "Netherlands"
+      "nat": "Holanda",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/738477-1724750611.jpg"
     },
     {
       "id": "998321",
@@ -1810,7 +2126,9 @@
       "age": 23,
       "value": 600000,
       "contract": "2028-06-30",
-      "nat": "Sweden"
+      "nat": "Suécia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/998321-1662118325.jpg"
     },
     {
       "id": "988662",
@@ -1821,7 +2139,9 @@
       "age": 23,
       "value": 600000,
       "contract": null,
-      "nat": "Uruguay"
+      "nat": "Uruguai",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/988662-1792612106.jpg"
     },
     {
       "id": "1385669",
@@ -1832,7 +2152,9 @@
       "age": 19,
       "value": 600000,
       "contract": "2030-06-30",
-      "nat": "Nigeria"
+      "nat": "Nigéria",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "615597",
@@ -1843,7 +2165,9 @@
       "age": 24,
       "value": 600000,
       "contract": "2027-06-30",
-      "nat": "Serbia"
+      "nat": "Sérvia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/615597-1702405344.jpg"
     },
     {
       "id": "172623",
@@ -1854,7 +2178,9 @@
       "age": 33,
       "value": 600000,
       "contract": "2027-06-30",
-      "nat": "Egypt"
+      "nat": "Egito",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/172623-1619018314.jpg"
     },
     {
       "id": "1139455",
@@ -1865,7 +2191,9 @@
       "age": 22,
       "value": 600000,
       "contract": null,
-      "nat": "Nigeria"
+      "nat": "Nigéria",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1139455-1755380260.jpg"
     },
     {
       "id": "1043030",
@@ -1876,7 +2204,9 @@
       "age": 23,
       "value": 600000,
       "contract": "2028-06-30",
-      "nat": "Portugal"
+      "nat": "Portugal",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1043030-1755380266.jpg"
     },
     {
       "id": "578280",
@@ -1887,7 +2217,9 @@
       "age": 27,
       "value": 600000,
       "contract": "2028-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "74300",
@@ -1898,7 +2230,9 @@
       "age": 35,
       "value": 600000,
       "contract": "2027-06-30",
-      "nat": "Serbia"
+      "nat": "Sérvia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/74300-1724510535.JPG"
     },
     {
       "id": "265625",
@@ -1909,7 +2243,9 @@
       "age": 30,
       "value": 600000,
       "contract": null,
-      "nat": "Australia"
+      "nat": "Austrália",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/265625-1764162948.png"
     },
     {
       "id": "115763",
@@ -1920,7 +2256,9 @@
       "age": 32,
       "value": 600000,
       "contract": null,
-      "nat": "Germany"
+      "nat": "Alemanha",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/115763-1727796170.png"
     },
     {
       "id": "977467",
@@ -1931,7 +2269,9 @@
       "age": 21,
       "value": 600000,
       "contract": "2027-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/977467-1682806242.jpg"
     },
     {
       "id": "519875",
@@ -1942,7 +2282,9 @@
       "age": 31,
       "value": 600000,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/519875-1693303954.jpg"
     },
     {
       "id": "481198",
@@ -1953,7 +2295,9 @@
       "age": 27,
       "value": 600000,
       "contract": "2027-06-30",
-      "nat": "Bolivia"
+      "nat": "Bolívia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/481198-1757624434.jpg"
     },
     {
       "id": "354664",
@@ -1964,7 +2308,9 @@
       "age": 30,
       "value": 600000,
       "contract": null,
-      "nat": "Jamaica"
+      "nat": "Jamaica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/354664-1583582955.jpg"
     },
     {
       "id": "639431",
@@ -1975,7 +2321,9 @@
       "age": 24,
       "value": 600000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/639431-1612467388.jpg"
     },
     {
       "id": "483006",
@@ -1986,7 +2334,9 @@
       "age": 29,
       "value": 600000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/483006-1706543981.jpg"
     },
     {
       "id": "1171409",
@@ -1997,7 +2347,9 @@
       "age": 22,
       "value": 600000,
       "contract": "2027-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1171409-1757589492.png"
     },
     {
       "id": "573619",
@@ -2008,7 +2360,9 @@
       "age": 26,
       "value": 600000,
       "contract": "2028-06-30",
-      "nat": "Sierra Leone"
+      "nat": "Sierra Leone",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/573619-1727116020.jpg"
     },
     {
       "id": "651762",
@@ -2019,7 +2373,9 @@
       "age": 22,
       "value": 500000,
       "contract": null,
-      "nat": "Bosnia-Herzegovina"
+      "nat": "Bósnia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/651762-1759084015.jpg"
     },
     {
       "id": "860188",
@@ -2030,7 +2386,9 @@
       "age": 24,
       "value": 500000,
       "contract": null,
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/860188-1791903243.jpg"
     },
     {
       "id": "717661",
@@ -2041,7 +2399,9 @@
       "age": 26,
       "value": 500000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/717661-1760359325.jpg"
     },
     {
       "id": "627231",
@@ -2052,7 +2412,9 @@
       "age": 24,
       "value": 500000,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/627231-1613386987.jpg"
     },
     {
       "id": "708811",
@@ -2063,7 +2425,9 @@
       "age": 31,
       "value": 500000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1058758",
@@ -2074,7 +2438,9 @@
       "age": 25,
       "value": 500000,
       "contract": "2027-06-30",
-      "nat": "Mali"
+      "nat": "Mali",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1058758-1760359453.jpg"
     },
     {
       "id": "742834",
@@ -2085,7 +2451,9 @@
       "age": 26,
       "value": 500000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "481192",
@@ -2096,7 +2464,9 @@
       "age": 28,
       "value": 500000,
       "contract": null,
-      "nat": "Bolivia"
+      "nat": "Bolívia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/481192-1645270306.JPG"
     },
     {
       "id": "667971",
@@ -2107,7 +2477,9 @@
       "age": 24,
       "value": 500000,
       "contract": "2029-06-30",
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/667971-1723220513.jpg"
     },
     {
       "id": "586262",
@@ -2118,7 +2490,9 @@
       "age": 31,
       "value": 500000,
       "contract": "2027-06-30",
-      "nat": "Senegal"
+      "nat": "Senegal",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/586262-1729087158.jpg"
     },
     {
       "id": "921090",
@@ -2129,7 +2503,9 @@
       "age": 22,
       "value": 500000,
       "contract": null,
-      "nat": "Canada"
+      "nat": "Canadá",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/921090-1785429305.jpg"
     },
     {
       "id": "295544",
@@ -2140,7 +2516,9 @@
       "age": 30,
       "value": 500000,
       "contract": "2029-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/295544-1563465374.jpg"
     },
     {
       "id": "707060",
@@ -2151,7 +2529,9 @@
       "age": 26,
       "value": 500000,
       "contract": null,
-      "nat": "Senegal"
+      "nat": "Senegal",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/707060-1690905947.png"
     },
     {
       "id": "327451",
@@ -2162,7 +2542,9 @@
       "age": 30,
       "value": 500000,
       "contract": null,
-      "nat": "Albania"
+      "nat": "Albania",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/327451-1657779301.png"
     },
     {
       "id": "617594",
@@ -2173,7 +2555,9 @@
       "age": 28,
       "value": 500000,
       "contract": "2028-06-30",
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/617594-1765978549.jpg"
     },
     {
       "id": "575706",
@@ -2184,7 +2568,9 @@
       "age": 27,
       "value": 450000,
       "contract": "2028-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/575706-1732079238.png"
     },
     {
       "id": "988448",
@@ -2195,7 +2581,9 @@
       "age": 22,
       "value": 450000,
       "contract": "2030-06-30",
-      "nat": "Cote d'Ivoire"
+      "nat": "Costa do Marfim",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/988448-1794307124.jpg"
     },
     {
       "id": "668266",
@@ -2206,7 +2594,9 @@
       "age": 23,
       "value": 450000,
       "contract": "2029-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/668266-1760359318.jpg"
     },
     {
       "id": "1174681",
@@ -2217,7 +2607,9 @@
       "age": 22,
       "value": 450000,
       "contract": "2027-06-30",
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1174681-1743799739.jpeg"
     },
     {
       "id": "875586",
@@ -2228,7 +2620,9 @@
       "age": 26,
       "value": 450000,
       "contract": "2029-06-30",
-      "nat": "Argentina"
+      "nat": "Argentina",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/875586-1739482309.jpg"
     },
     {
       "id": "837329",
@@ -2239,7 +2633,9 @@
       "age": 23,
       "value": 450000,
       "contract": null,
-      "nat": "Cote d'Ivoire"
+      "nat": "Costa do Marfim",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/837329-1697464731.png"
     },
     {
       "id": "1256443",
@@ -2250,7 +2646,9 @@
       "age": 20,
       "value": 400000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1229514",
@@ -2261,7 +2659,9 @@
       "age": 23,
       "value": 400000,
       "contract": "2028-06-30",
-      "nat": "Egypt"
+      "nat": "Egito",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "910175",
@@ -2272,7 +2672,9 @@
       "age": 22,
       "value": 400000,
       "contract": "2028-06-30",
-      "nat": "France"
+      "nat": "França",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/910175-1744314087.jpg"
     },
     {
       "id": "685140",
@@ -2283,7 +2685,9 @@
       "age": 23,
       "value": 400000,
       "contract": "2029-06-30",
-      "nat": "Venezuela"
+      "nat": "Venezuela",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/685140-1744921753.jpg"
     },
     {
       "id": "562099",
@@ -2294,7 +2698,9 @@
       "age": 26,
       "value": 400000,
       "contract": "2028-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "721746",
@@ -2305,7 +2711,9 @@
       "age": 25,
       "value": 400000,
       "contract": "2027-06-30",
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/721746-1697213626.jpg"
     },
     {
       "id": "269649",
@@ -2316,7 +2724,9 @@
       "age": 31,
       "value": 400000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/269649-1760359223.jpg"
     },
     {
       "id": "890297",
@@ -2327,7 +2737,9 @@
       "age": 31,
       "value": 400000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/890297-1620592502.png"
     },
     {
       "id": "687218",
@@ -2338,7 +2750,9 @@
       "age": 26,
       "value": 400000,
       "contract": "2027-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/687218-1563722219.jpg"
     },
     {
       "id": "729587",
@@ -2349,7 +2763,9 @@
       "age": 30,
       "value": 400000,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/729587-1682386276.jpg"
     },
     {
       "id": "485779",
@@ -2360,7 +2776,9 @@
       "age": 28,
       "value": 400000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "996976",
@@ -2371,7 +2789,9 @@
       "age": 23,
       "value": 350000,
       "contract": null,
-      "nat": "Guinea"
+      "nat": "Guiné",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "969464",
@@ -2382,7 +2802,9 @@
       "age": 28,
       "value": 350000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "873152",
@@ -2393,7 +2815,9 @@
       "age": 24,
       "value": 350000,
       "contract": "2029-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "753626",
@@ -2404,7 +2828,9 @@
       "age": 24,
       "value": 350000,
       "contract": "2028-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "666952",
@@ -2415,7 +2841,9 @@
       "age": 24,
       "value": 350000,
       "contract": "2029-06-30",
-      "nat": "Cameroon"
+      "nat": "Camarões",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/666952-1681409529.jpg"
     },
     {
       "id": "614841",
@@ -2426,7 +2854,9 @@
       "age": 30,
       "value": 350000,
       "contract": null,
-      "nat": "Egypt"
+      "nat": "Egito",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "900689",
@@ -2437,7 +2867,9 @@
       "age": 23,
       "value": 350000,
       "contract": null,
-      "nat": "Albania"
+      "nat": "Albania",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/900689-1760359305.jpg"
     },
     {
       "id": "712045",
@@ -2448,7 +2880,9 @@
       "age": 30,
       "value": 350000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1188391",
@@ -2459,7 +2893,9 @@
       "age": 22,
       "value": 350000,
       "contract": "2030-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1160358",
@@ -2470,7 +2906,9 @@
       "age": 23,
       "value": 350000,
       "contract": null,
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "978053",
@@ -2481,7 +2919,9 @@
       "age": 23,
       "value": 350000,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "620527",
@@ -2492,7 +2932,9 @@
       "age": 32,
       "value": 350000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1195223",
@@ -2503,7 +2945,9 @@
       "age": 23,
       "value": 350000,
       "contract": "2027-06-30",
-      "nat": "Senegal"
+      "nat": "Senegal",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1195223-1752991085.png"
     },
     {
       "id": "1165796",
@@ -2514,7 +2958,9 @@
       "age": 24,
       "value": 350000,
       "contract": "2027-06-30",
-      "nat": "Mali"
+      "nat": "Mali",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1165796-1713813962.png"
     },
     {
       "id": "829302",
@@ -2525,7 +2971,9 @@
       "age": 27,
       "value": 350000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "869873",
@@ -2536,7 +2984,9 @@
       "age": 25,
       "value": 350000,
       "contract": "2028-06-30",
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/869873-1743176697.jpg"
     },
     {
       "id": "1302320",
@@ -2547,7 +2997,9 @@
       "age": 22,
       "value": 325000,
       "contract": "2029-06-30",
-      "nat": "Mali"
+      "nat": "Mali",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "322699",
@@ -2558,7 +3010,9 @@
       "age": 31,
       "value": 325000,
       "contract": "2028-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "982879",
@@ -2569,7 +3023,9 @@
       "age": 24,
       "value": 325000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/982879-1760417528.jpg"
     },
     {
       "id": "421313",
@@ -2580,7 +3036,9 @@
       "age": 29,
       "value": 325000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "890216",
@@ -2591,7 +3049,9 @@
       "age": 26,
       "value": 325000,
       "contract": "2029-06-30",
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/890216-1714322208.jpeg"
     },
     {
       "id": "697144",
@@ -2602,7 +3062,9 @@
       "age": 22,
       "value": 325000,
       "contract": "2027-06-30",
-      "nat": "Türkiye"
+      "nat": "Turquia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/697144-1696622078.png"
     },
     {
       "id": "880953",
@@ -2613,7 +3075,9 @@
       "age": 25,
       "value": 325000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "905719",
@@ -2624,7 +3088,9 @@
       "age": 22,
       "value": 300000,
       "contract": "2027-06-30",
-      "nat": "Serbia"
+      "nat": "Sérvia",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "541479",
@@ -2635,7 +3101,9 @@
       "age": 27,
       "value": 300000,
       "contract": "2028-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "701397",
@@ -2646,7 +3114,9 @@
       "age": 25,
       "value": 300000,
       "contract": "2027-06-30",
-      "nat": "Japan"
+      "nat": "Japão",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/701397-1689881019.jpg"
     },
     {
       "id": "131945",
@@ -2657,7 +3127,9 @@
       "age": 34,
       "value": 300000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "937318",
@@ -2668,7 +3140,9 @@
       "age": 23,
       "value": 300000,
       "contract": null,
-      "nat": "Mali"
+      "nat": "Mali",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/937318-1721918208.jpg"
     },
     {
       "id": "140952",
@@ -2679,7 +3153,9 @@
       "age": 36,
       "value": 300000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/140952-1706544591.jpg"
     },
     {
       "id": "131954",
@@ -2690,7 +3166,9 @@
       "age": 32,
       "value": 300000,
       "contract": "2028-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "539434",
@@ -2701,7 +3179,9 @@
       "age": 31,
       "value": 300000,
       "contract": "2028-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/539434-1760358881.jpg"
     },
     {
       "id": "884131",
@@ -2712,7 +3192,9 @@
       "age": 25,
       "value": 300000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/884131-1706544069.jpg"
     },
     {
       "id": "709448",
@@ -2723,7 +3205,9 @@
       "age": 26,
       "value": 300000,
       "contract": "2029-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1119335",
@@ -2734,7 +3218,9 @@
       "age": 24,
       "value": 300000,
       "contract": "2027-06-30",
-      "nat": "Cote d'Ivoire"
+      "nat": "Costa do Marfim",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "710497",
@@ -2745,7 +3231,9 @@
       "age": 25,
       "value": 300000,
       "contract": "2027-06-30",
-      "nat": "Serbia"
+      "nat": "Sérvia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/710497-1606165694.jpg"
     },
     {
       "id": "673434",
@@ -2756,7 +3244,9 @@
       "age": 21,
       "value": 300000,
       "contract": null,
-      "nat": "Serbia"
+      "nat": "Sérvia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/673434-1695020080.jpg"
     },
     {
       "id": "857159",
@@ -2767,7 +3257,9 @@
       "age": 22,
       "value": 275000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "884101",
@@ -2778,7 +3270,9 @@
       "age": 23,
       "value": 275000,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "147871",
@@ -2789,7 +3283,9 @@
       "age": 37,
       "value": 275000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/147871-1706543643.jpg"
     },
     {
       "id": "295274",
@@ -2800,7 +3296,9 @@
       "age": 30,
       "value": 275000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/295274-1755380270.jpg"
     },
     {
       "id": "1008462",
@@ -2811,7 +3309,9 @@
       "age": 23,
       "value": 275000,
       "contract": "2029-06-30",
-      "nat": "Tunisia"
+      "nat": "Tunísia",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1138521",
@@ -2822,7 +3322,9 @@
       "age": 21,
       "value": 275000,
       "contract": "2028-06-30",
-      "nat": "Iran"
+      "nat": "Iran",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1138521-1762956821.png"
     },
     {
       "id": "261485",
@@ -2833,7 +3335,9 @@
       "age": 32,
       "value": 275000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/261485-1781007036.png"
     },
     {
       "id": "687221",
@@ -2844,7 +3348,9 @@
       "age": 28,
       "value": 275000,
       "contract": "2028-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/687221-1563722032.jpg"
     },
     {
       "id": "843327",
@@ -2855,7 +3361,9 @@
       "age": 24,
       "value": 275000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/843327-1765113978.png"
     },
     {
       "id": "1084065",
@@ -2866,7 +3374,9 @@
       "age": 22,
       "value": 275000,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1084065-1759240601.jpg"
     },
     {
       "id": "485863",
@@ -2877,7 +3387,9 @@
       "age": 29,
       "value": 250000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "490386",
@@ -2888,7 +3400,9 @@
       "age": 24,
       "value": 250000,
       "contract": "2027-06-30",
-      "nat": "Belgium"
+      "nat": "Bélgica",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/490386-1714737895.png"
     },
     {
       "id": "1030741",
@@ -2899,7 +3413,9 @@
       "age": 23,
       "value": 250000,
       "contract": "2029-06-30",
-      "nat": "Iran"
+      "nat": "Iran",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1030741-1704216836.jpg"
     },
     {
       "id": "938159",
@@ -2910,7 +3426,9 @@
       "age": 20,
       "value": 250000,
       "contract": "2029-06-30",
-      "nat": "Spain"
+      "nat": "Espanha",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/938159-1755380274.jpg"
     },
     {
       "id": "1315402",
@@ -2921,7 +3439,9 @@
       "age": 22,
       "value": 250000,
       "contract": "2029-06-30",
-      "nat": "Cape Verde"
+      "nat": "Cabo Verde",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "320178",
@@ -2932,7 +3452,9 @@
       "age": 34,
       "value": 250000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/320178-1760359077.jpg"
     },
     {
       "id": "880960",
@@ -2943,7 +3465,9 @@
       "age": 28,
       "value": 250000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/880960-1760359149.jpg"
     },
     {
       "id": "732142",
@@ -2954,7 +3478,9 @@
       "age": 26,
       "value": 250000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1029170",
@@ -2965,7 +3491,9 @@
       "age": 23,
       "value": 250000,
       "contract": null,
-      "nat": "Guinea"
+      "nat": "Guiné",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1029170-1671719604.jpeg"
     },
     {
       "id": "792484",
@@ -2976,7 +3504,9 @@
       "age": 25,
       "value": 250000,
       "contract": "2028-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "864103",
@@ -2987,7 +3517,9 @@
       "age": 23,
       "value": 250000,
       "contract": "2029-06-30",
-      "nat": "Burkina Faso"
+      "nat": "Burkina Faso",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/864103-1701295593.png"
     },
     {
       "id": "430277",
@@ -2998,7 +3530,9 @@
       "age": 29,
       "value": 250000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "978086",
@@ -3009,7 +3543,9 @@
       "age": 22,
       "value": 250000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1195257",
@@ -3020,7 +3556,9 @@
       "age": 25,
       "value": 250000,
       "contract": null,
-      "nat": "Cameroon"
+      "nat": "Camarões",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1083638",
@@ -3031,7 +3569,9 @@
       "age": 23,
       "value": 225000,
       "contract": "2028-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1083638-1671033732.jpg"
     },
     {
       "id": "1149765",
@@ -3042,7 +3582,9 @@
       "age": 23,
       "value": 225000,
       "contract": null,
-      "nat": "Iran"
+      "nat": "Iran",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1149765-1760417499.jpg"
     },
     {
       "id": "1045599",
@@ -3053,7 +3595,9 @@
       "age": 22,
       "value": 225000,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1045599-1660704402.jpg"
     },
     {
       "id": "1094955",
@@ -3064,7 +3608,9 @@
       "age": 23,
       "value": 225000,
       "contract": "2030-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "574420",
@@ -3075,7 +3621,9 @@
       "age": 24,
       "value": 225000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/574420-1714056140.jpg"
     },
     {
       "id": "430929",
@@ -3086,7 +3634,9 @@
       "age": 32,
       "value": 225000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "614902",
@@ -3097,7 +3647,9 @@
       "age": 29,
       "value": 225000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "630160",
@@ -3108,7 +3660,9 @@
       "age": 27,
       "value": 225000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/630160-1706544434.jpg"
     },
     {
       "id": "428404",
@@ -3119,7 +3673,9 @@
       "age": 31,
       "value": 200000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1094614",
@@ -3130,7 +3686,9 @@
       "age": 21,
       "value": 200000,
       "contract": "2028-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1176258",
@@ -3141,7 +3699,9 @@
       "age": 21,
       "value": 200000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "539358",
@@ -3152,7 +3712,9 @@
       "age": 28,
       "value": 200000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "584542",
@@ -3163,7 +3725,9 @@
       "age": 30,
       "value": 200000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/584542-1760358899.jpg"
     },
     {
       "id": "884143",
@@ -3174,7 +3738,9 @@
       "age": 27,
       "value": 200000,
       "contract": "2028-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1093085",
@@ -3185,7 +3751,9 @@
       "age": 29,
       "value": 200000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "630138",
@@ -3196,7 +3764,9 @@
       "age": 27,
       "value": 200000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "884145",
@@ -3207,7 +3777,9 @@
       "age": 26,
       "value": 200000,
       "contract": null,
-      "nat": "Jordan"
+      "nat": "Jordan",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "358758",
@@ -3218,7 +3790,9 @@
       "age": 35,
       "value": 200000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/358758-1563469167.jpg"
     },
     {
       "id": "1005297",
@@ -3229,7 +3803,9 @@
       "age": 24,
       "value": 200000,
       "contract": "2027-06-30",
-      "nat": "Cameroon"
+      "nat": "Camarões",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1005297-1654452853.png"
     },
     {
       "id": "1008453",
@@ -3240,7 +3816,9 @@
       "age": 23,
       "value": 200000,
       "contract": null,
-      "nat": "Tunisia"
+      "nat": "Tunísia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1008453-1689484150.jpg"
     },
     {
       "id": "988188",
@@ -3251,7 +3829,9 @@
       "age": 26,
       "value": 200000,
       "contract": null,
-      "nat": "Haiti"
+      "nat": "Haiti",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/988188-1713341554.png"
     },
     {
       "id": "1122899",
@@ -3262,7 +3842,9 @@
       "age": 21,
       "value": 175000,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "322430",
@@ -3273,7 +3855,9 @@
       "age": 31,
       "value": 175000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/322430-1736318319.JPG"
     },
     {
       "id": "428222",
@@ -3284,7 +3868,9 @@
       "age": 33,
       "value": 175000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "665705",
@@ -3295,7 +3881,9 @@
       "age": 27,
       "value": 175000,
       "contract": "2027-06-30",
-      "nat": "Palestine"
+      "nat": "Palestine",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/665705-1563464646.jpg"
     },
     {
       "id": "1172783",
@@ -3306,7 +3894,9 @@
       "age": 24,
       "value": 175000,
       "contract": null,
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1270437",
@@ -3317,7 +3907,9 @@
       "age": 21,
       "value": 175000,
       "contract": null,
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1270437-1773680664.jpeg"
     },
     {
       "id": "884146",
@@ -3328,7 +3920,9 @@
       "age": 26,
       "value": 175000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "618038",
@@ -3339,7 +3933,9 @@
       "age": 24,
       "value": 175000,
       "contract": null,
-      "nat": "Netherlands"
+      "nat": "Holanda",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/618038-1722335507.jpg"
     },
     {
       "id": "729921",
@@ -3350,7 +3946,9 @@
       "age": 28,
       "value": 175000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1119054",
@@ -3361,7 +3959,9 @@
       "age": 22,
       "value": 175000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1119054-1678818445.png"
     },
     {
       "id": "1094418",
@@ -3372,7 +3972,9 @@
       "age": 23,
       "value": 175000,
       "contract": null,
-      "nat": "Togo"
+      "nat": "Togo",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1094418-1693136559.jpg"
     },
     {
       "id": "1003856",
@@ -3383,7 +3985,9 @@
       "age": 24,
       "value": 150000,
       "contract": "2029-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "575700",
@@ -3394,7 +3998,9 @@
       "age": 27,
       "value": 150000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1015100",
@@ -3405,7 +4011,9 @@
       "age": 22,
       "value": 150000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "171887",
@@ -3416,7 +4024,9 @@
       "age": 37,
       "value": 150000,
       "contract": "2028-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/171887-1649675054.png"
     },
     {
       "id": "324183",
@@ -3427,7 +4037,9 @@
       "age": 33,
       "value": 150000,
       "contract": "2028-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1313890",
@@ -3438,7 +4050,9 @@
       "age": 19,
       "value": 150000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "883971",
@@ -3449,7 +4063,9 @@
       "age": 21,
       "value": 150000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/883971-1755379758.jpg"
     },
     {
       "id": "630142",
@@ -3460,7 +4076,9 @@
       "age": 26,
       "value": 150000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "937959",
@@ -3471,7 +4089,9 @@
       "age": 20,
       "value": 150000,
       "contract": null,
-      "nat": "Spain"
+      "nat": "Espanha",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1112448",
@@ -3482,7 +4102,9 @@
       "age": 22,
       "value": 150000,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "131956",
@@ -3493,7 +4115,9 @@
       "age": 33,
       "value": 150000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "861985",
@@ -3504,7 +4128,9 @@
       "age": 28,
       "value": 150000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "261387",
@@ -3515,7 +4141,9 @@
       "age": 32,
       "value": 150000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1313892",
@@ -3526,7 +4154,9 @@
       "age": 20,
       "value": 150000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "744060",
@@ -3537,7 +4167,9 @@
       "age": 23,
       "value": 150000,
       "contract": "2028-06-30",
-      "nat": "Lebanon"
+      "nat": "Lebanon",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/744060-1771090841.jpg"
     },
     {
       "id": "1345158",
@@ -3548,7 +4180,9 @@
       "age": 20,
       "value": 150000,
       "contract": "2027-06-30",
-      "nat": "Mali"
+      "nat": "Mali",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "209304",
@@ -3559,7 +4193,9 @@
       "age": 33,
       "value": 150000,
       "contract": null,
-      "nat": "Tunisia"
+      "nat": "Tunísia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/209304-1770924083.png"
     },
     {
       "id": "890293",
@@ -3570,7 +4206,9 @@
       "age": 25,
       "value": 150000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1212222",
@@ -3581,7 +4219,9 @@
       "age": 21,
       "value": 150000,
       "contract": "2027-06-30",
-      "nat": "Mali"
+      "nat": "Mali",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1069871",
@@ -3592,7 +4232,9 @@
       "age": 22,
       "value": 150000,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "428220",
@@ -3603,7 +4245,9 @@
       "age": 31,
       "value": 150000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1463644",
@@ -3614,7 +4258,9 @@
       "age": 19,
       "value": 125000,
       "contract": null,
-      "nat": "Senegal"
+      "nat": "Senegal",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "268933",
@@ -3625,7 +4271,9 @@
       "age": 34,
       "value": 125000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/268933-1760359193.jpg"
     },
     {
       "id": "999366",
@@ -3636,7 +4284,9 @@
       "age": 25,
       "value": 125000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/999366-1760359400.jpg"
     },
     {
       "id": "539362",
@@ -3647,7 +4297,9 @@
       "age": 29,
       "value": 125000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1015617",
@@ -3658,7 +4310,9 @@
       "age": 22,
       "value": 125000,
       "contract": "2027-06-30",
-      "nat": "Nigeria"
+      "nat": "Nigéria",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1015617-1679682796.jpg"
     },
     {
       "id": "1303059",
@@ -3669,7 +4323,9 @@
       "age": 24,
       "value": 125000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "466150",
@@ -3680,7 +4336,9 @@
       "age": 30,
       "value": 125000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/466150-1563469189.jpg"
     },
     {
       "id": "353259",
@@ -3691,7 +4349,9 @@
       "age": 31,
       "value": 125000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/353259-1574068250.jpg"
     },
     {
       "id": "839796",
@@ -3702,7 +4362,9 @@
       "age": 24,
       "value": 125000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "974751",
@@ -3713,7 +4375,9 @@
       "age": 36,
       "value": 125000,
       "contract": "2027-05-31",
-      "nat": "Syria"
+      "nat": "Syria",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/974751-1769800053.jpg"
     },
     {
       "id": "630159",
@@ -3724,7 +4388,9 @@
       "age": 27,
       "value": 125000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "946379",
@@ -3735,7 +4401,9 @@
       "age": 25,
       "value": 125000,
       "contract": null,
-      "nat": "Ghana"
+      "nat": "Gana",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/946379-1653058681.jpg"
     },
     {
       "id": "107426",
@@ -3746,7 +4414,9 @@
       "age": 39,
       "value": 100000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/107426-1513255718.jpg"
     },
     {
       "id": "1463643",
@@ -3757,7 +4427,9 @@
       "age": 22,
       "value": 100000,
       "contract": null,
-      "nat": "Cote d'Ivoire"
+      "nat": "Costa do Marfim",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1444482",
@@ -3768,7 +4440,9 @@
       "age": 22,
       "value": 100000,
       "contract": "2028-06-30",
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "799405",
@@ -3779,7 +4453,9 @@
       "age": 25,
       "value": 100000,
       "contract": "2028-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1036286",
@@ -3790,7 +4466,9 @@
       "age": 23,
       "value": 100000,
       "contract": null,
-      "nat": "Iran"
+      "nat": "Iran",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1584821",
@@ -3801,7 +4479,9 @@
       "age": 19,
       "value": 100000,
       "contract": null,
-      "nat": "Senegal"
+      "nat": "Senegal",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "744960",
@@ -3812,7 +4492,9 @@
       "age": 24,
       "value": 100000,
       "contract": null,
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/744960-1646818239.png"
     },
     {
       "id": "523000",
@@ -3823,7 +4505,9 @@
       "age": 26,
       "value": 100000,
       "contract": "2028-06-30",
-      "nat": "Yemen"
+      "nat": "Yemen",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/523000-1630853882.jpg"
     },
     {
       "id": "1069489",
@@ -3834,7 +4518,9 @@
       "age": 22,
       "value": 100000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1200267",
@@ -3845,7 +4531,9 @@
       "age": 22,
       "value": 100000,
       "contract": "2029-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1083678",
@@ -3856,7 +4544,9 @@
       "age": 22,
       "value": 100000,
       "contract": "2027-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1083678-1671033582.jpg"
     },
     {
       "id": "1005586",
@@ -3867,7 +4557,9 @@
       "age": 20,
       "value": 100000,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1005586-1775234033.jpg"
     },
     {
       "id": "1054667",
@@ -3878,7 +4570,9 @@
       "age": 24,
       "value": 100000,
       "contract": "2027-06-30",
-      "nat": "Senegal"
+      "nat": "Senegal",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1054667-1723585773.jpg"
     },
     {
       "id": "372590",
@@ -3889,7 +4583,9 @@
       "age": 31,
       "value": 100000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "950820",
@@ -3900,7 +4596,9 @@
       "age": 22,
       "value": 75000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "965453",
@@ -3911,7 +4609,9 @@
       "age": 23,
       "value": 75000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1346408",
@@ -3922,7 +4622,9 @@
       "age": 20,
       "value": 75000,
       "contract": null,
-      "nat": "Nigeria"
+      "nat": "Nigéria",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "955873",
@@ -3933,7 +4635,9 @@
       "age": 21,
       "value": 75000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "690488",
@@ -3944,7 +4648,9 @@
       "age": 25,
       "value": 75000,
       "contract": "2027-06-30",
-      "nat": "Serbia"
+      "nat": "Sérvia",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1500536",
@@ -3955,7 +4661,9 @@
       "age": 23,
       "value": 75000,
       "contract": null,
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1500536-1773733807.png"
     },
     {
       "id": "706855",
@@ -3966,7 +4674,9 @@
       "age": 25,
       "value": 75000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "431780",
@@ -3977,7 +4687,9 @@
       "age": 33,
       "value": 75000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/431780-1678818534.png"
     },
     {
       "id": "1313437",
@@ -3988,7 +4700,9 @@
       "age": 21,
       "value": 75000,
       "contract": null,
-      "nat": "Ghana"
+      "nat": "Gana",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1313437-1728540689.JPG"
     },
     {
       "id": "222803",
@@ -3999,7 +4713,9 @@
       "age": 37,
       "value": 75000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/222803-1563464750.jpg"
     },
     {
       "id": "1444478",
@@ -4010,7 +4726,9 @@
       "age": 21,
       "value": 75000,
       "contract": null,
-      "nat": "Mali"
+      "nat": "Mali",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1541905",
@@ -4021,7 +4739,9 @@
       "age": 20,
       "value": 75000,
       "contract": "2027-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1249982",
@@ -4032,7 +4752,9 @@
       "age": 24,
       "value": 75000,
       "contract": "2028-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "153835",
@@ -4043,7 +4765,9 @@
       "age": 37,
       "value": 50000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1047256",
@@ -4054,7 +4778,9 @@
       "age": 21,
       "value": 50000,
       "contract": "2029-06-30",
-      "nat": "England"
+      "nat": "Inglaterra",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1047256-1736153289.jpg"
     },
     {
       "id": "1380117",
@@ -4065,7 +4791,9 @@
       "age": 20,
       "value": 50000,
       "contract": null,
-      "nat": "Yemen"
+      "nat": "Yemen",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "619612",
@@ -4076,7 +4804,9 @@
       "age": 33,
       "value": 50000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "185495",
@@ -4087,7 +4817,9 @@
       "age": 38,
       "value": 50000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "269648",
@@ -4098,7 +4830,9 @@
       "age": 38,
       "value": 50000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1089738",
@@ -4109,7 +4843,9 @@
       "age": 26,
       "value": 50000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1002265",
@@ -4120,7 +4856,9 @@
       "age": 24,
       "value": 50000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "269175",
@@ -4131,7 +4869,9 @@
       "age": 36,
       "value": 50000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "185650",
@@ -4142,7 +4882,9 @@
       "age": 36,
       "value": 50000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/185650-1733447294.jpg"
     },
     {
       "id": "429879",
@@ -4153,7 +4895,9 @@
       "age": 34,
       "value": 50000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1197261",
@@ -4164,7 +4908,9 @@
       "age": 21,
       "value": 50000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1061187",
@@ -4175,7 +4921,9 @@
       "age": 23,
       "value": 50000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1061187-1732388108.png"
     },
     {
       "id": "562108",
@@ -4186,7 +4934,9 @@
       "age": 24,
       "value": 50000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1303025",
@@ -4197,7 +4947,9 @@
       "age": 21,
       "value": 50000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "631815",
@@ -4208,7 +4960,9 @@
       "age": 27,
       "value": 50000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "482993",
@@ -4219,7 +4973,9 @@
       "age": 30,
       "value": 25000,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1253770",
@@ -4230,7 +4986,9 @@
       "age": 24,
       "value": 25000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1253770-1732079139.png"
     },
     {
       "id": "633979",
@@ -4241,7 +4999,9 @@
       "age": 24,
       "value": 25000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "834445",
@@ -4252,7 +5012,9 @@
       "age": 22,
       "value": 25000,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/834445-1739971022.jpg"
     },
     {
       "id": "1082599",
@@ -4263,7 +5025,9 @@
       "age": 22,
       "value": 25000,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1496838",
@@ -4274,7 +5038,9 @@
       "age": 20,
       "value": 10000,
       "contract": null,
-      "nat": "Senegal"
+      "nat": "Senegal",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "222823",
@@ -4285,7 +5051,9 @@
       "age": 37,
       "value": 10000,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/222823-1563465019.jpg"
     },
     {
       "id": "1060747",
@@ -4296,7 +5064,9 @@
       "age": 24,
       "value": null,
       "contract": "2028-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1060747-1701294327.png"
     },
     {
       "id": "1019990",
@@ -4307,7 +5077,9 @@
       "age": 25,
       "value": null,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "825443",
@@ -4318,7 +5090,9 @@
       "age": 20,
       "value": null,
       "contract": "2031-06-30",
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1222759",
@@ -4329,7 +5103,9 @@
       "age": 19,
       "value": null,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1075849",
@@ -4340,7 +5116,9 @@
       "age": 21,
       "value": null,
       "contract": "2028-06-30",
-      "nat": "Portugal"
+      "nat": "Portugal",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1261645",
@@ -4351,7 +5129,9 @@
       "age": 20,
       "value": null,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1196689",
@@ -4362,7 +5142,9 @@
       "age": 20,
       "value": null,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1196689-1725382959.jpg"
     },
     {
       "id": "1224500",
@@ -4373,7 +5155,9 @@
       "age": 20,
       "value": null,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1224500-1769167493.png"
     },
     {
       "id": "1271161",
@@ -4384,7 +5168,9 @@
       "age": 19,
       "value": null,
       "contract": null,
-      "nat": "Ghana"
+      "nat": "Gana",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1420457",
@@ -4395,7 +5181,9 @@
       "age": 18,
       "value": null,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1420457-1769129057.jpg"
     },
     {
       "id": "1416752",
@@ -4406,7 +5194,9 @@
       "age": 19,
       "value": null,
       "contract": null,
-      "nat": "Nigeria"
+      "nat": "Nigéria",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1265346",
@@ -4417,7 +5207,9 @@
       "age": 20,
       "value": null,
       "contract": "2029-06-30",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1265346-1772290500.png"
     },
     {
       "id": "1379042",
@@ -4428,7 +5220,9 @@
       "age": 20,
       "value": null,
       "contract": null,
-      "nat": "Canada"
+      "nat": "Canadá",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "883917",
@@ -4439,7 +5233,9 @@
       "age": 27,
       "value": null,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/883917-1755380376.jpg"
     },
     {
       "id": "1116052",
@@ -4450,7 +5246,9 @@
       "age": 22,
       "value": null,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1309105",
@@ -4461,7 +5259,9 @@
       "age": 23,
       "value": null,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1309105-1755380040.jpg"
     },
     {
       "id": "1408237",
@@ -4472,7 +5272,9 @@
       "age": 20,
       "value": null,
       "contract": "2029-06-30",
-      "nat": "Cote d'Ivoire"
+      "nat": "Costa do Marfim",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1388284",
@@ -4483,7 +5285,9 @@
       "age": 22,
       "value": null,
       "contract": "2031-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1305102",
@@ -4494,7 +5298,9 @@
       "age": 21,
       "value": null,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1256444",
@@ -4505,7 +5311,9 @@
       "age": 22,
       "value": null,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1252808",
@@ -4516,7 +5324,9 @@
       "age": 21,
       "value": null,
       "contract": null,
-      "nat": "Jordan"
+      "nat": "Jordan",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1252808-1754563383.jpeg"
     },
     {
       "id": "1530251",
@@ -4527,7 +5337,9 @@
       "age": 17,
       "value": null,
       "contract": null,
-      "nat": "Egypt"
+      "nat": "Egito",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1530251-1780308513.jpeg"
     },
     {
       "id": "1220182",
@@ -4538,7 +5350,9 @@
       "age": 20,
       "value": null,
       "contract": null,
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1617722",
@@ -4549,7 +5363,9 @@
       "age": 22,
       "value": null,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1270439",
@@ -4560,7 +5376,9 @@
       "age": 25,
       "value": null,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1270439-1760358940.jpg"
     },
     {
       "id": "1061176",
@@ -4571,7 +5389,9 @@
       "age": 22,
       "value": null,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "272372",
@@ -4582,7 +5402,9 @@
       "age": 37,
       "value": null,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1195203",
@@ -4593,7 +5415,9 @@
       "age": 22,
       "value": null,
       "contract": null,
-      "nat": "England"
+      "nat": "Inglaterra",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1584823",
@@ -4604,7 +5428,9 @@
       "age": 21,
       "value": null,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1584822",
@@ -4615,7 +5441,9 @@
       "age": 23,
       "value": null,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1586833",
@@ -4626,7 +5454,9 @@
       "age": 25,
       "value": null,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1475669",
@@ -4637,7 +5467,9 @@
       "age": 29,
       "value": null,
       "contract": null,
-      "nat": "Pakistan"
+      "nat": "Pakistan",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1135406",
@@ -4648,7 +5480,9 @@
       "age": 22,
       "value": null,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1475461",
@@ -4659,7 +5493,9 @@
       "age": 20,
       "value": null,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "964106",
@@ -4670,7 +5506,9 @@
       "age": 27,
       "value": null,
       "contract": null,
-      "nat": "Palestine"
+      "nat": "Palestine",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1481870",
@@ -4681,7 +5519,9 @@
       "age": 24,
       "value": null,
       "contract": null,
-      "nat": "Russia"
+      "nat": "Rússia",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1481870-1789890111.png"
     },
     {
       "id": "423779",
@@ -4692,7 +5532,9 @@
       "age": 31,
       "value": null,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/423779-1609190132.png"
     },
     {
       "id": "1195204",
@@ -4703,7 +5545,9 @@
       "age": 24,
       "value": null,
       "contract": null,
-      "nat": "Cameroon"
+      "nat": "Camarões",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1326154",
@@ -4714,7 +5558,9 @@
       "age": 22,
       "value": null,
       "contract": null,
-      "nat": "Egypt"
+      "nat": "Egito",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "870335",
@@ -4725,7 +5571,9 @@
       "age": 26,
       "value": null,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "114155",
@@ -4736,7 +5584,9 @@
       "age": 36,
       "value": null,
       "contract": "2028-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/N_D_s_114155_5432_2009_1.jpg"
     },
     {
       "id": "1204254",
@@ -4747,7 +5597,9 @@
       "age": 23,
       "value": null,
       "contract": "2028-06-30",
-      "nat": "Mali"
+      "nat": "Mali",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1204254-1701294866.png"
     },
     {
       "id": "859162",
@@ -4758,7 +5610,9 @@
       "age": 21,
       "value": null,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "109256",
@@ -4769,7 +5623,9 @@
       "age": 34,
       "value": null,
       "contract": null,
-      "nat": "Switzerland"
+      "nat": "Suíça",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/109256-1671105391.png"
     },
     {
       "id": "1096270",
@@ -4780,7 +5636,9 @@
       "age": 20,
       "value": null,
       "contract": "2030-08-01",
-      "nat": "Brazil"
+      "nat": "Brasil",
+      "foreign": false,
+      "photo": null
     },
     {
       "id": "1457832",
@@ -4791,7 +5649,9 @@
       "age": 21,
       "value": null,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1584820",
@@ -4802,7 +5662,9 @@
       "age": 20,
       "value": null,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1198310",
@@ -4813,7 +5675,9 @@
       "age": 22,
       "value": null,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1198310-1732388042.png"
     },
     {
       "id": "840445",
@@ -4824,7 +5688,9 @@
       "age": 30,
       "value": null,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1471129",
@@ -4835,7 +5701,9 @@
       "age": 20,
       "value": null,
       "contract": null,
-      "nat": "Oman"
+      "nat": "Oman",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1128614",
@@ -4846,7 +5714,9 @@
       "age": 22,
       "value": null,
       "contract": "2027-06-30",
-      "nat": "Cote d'Ivoire"
+      "nat": "Costa do Marfim",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1153100",
@@ -4857,7 +5727,9 @@
       "age": 21,
       "value": null,
       "contract": "2027-06-30",
-      "nat": "Morocco"
+      "nat": "Marrocos",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1189641",
@@ -4868,7 +5740,9 @@
       "age": 21,
       "value": null,
       "contract": "2027-06-30",
-      "nat": "Canada"
+      "nat": "Canadá",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1189641-1757543741.jpg"
     },
     {
       "id": "553396",
@@ -4879,7 +5753,9 @@
       "age": 27,
       "value": null,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "729936",
@@ -4890,7 +5766,9 @@
       "age": 27,
       "value": null,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1177554",
@@ -4901,7 +5779,9 @@
       "age": 25,
       "value": null,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1413682",
@@ -4912,7 +5792,9 @@
       "age": 21,
       "value": null,
       "contract": "2028-06-30",
-      "nat": "Egypt"
+      "nat": "Egito",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1270447",
@@ -4923,7 +5805,9 @@
       "age": 20,
       "value": null,
       "contract": null,
-      "nat": "Oman"
+      "nat": "Oman",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "564904",
@@ -4934,7 +5818,9 @@
       "age": 27,
       "value": null,
       "contract": "2027-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1061194",
@@ -4945,7 +5831,9 @@
       "age": 23,
       "value": null,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1259917",
@@ -4956,7 +5844,9 @@
       "age": 23,
       "value": null,
       "contract": "2028-06-30",
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1119023",
@@ -4967,7 +5857,9 @@
       "age": 24,
       "value": null,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1119023-1678810372.png"
     },
     {
       "id": "1061424",
@@ -4978,7 +5870,9 @@
       "age": 23,
       "value": null,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1340074",
@@ -4989,7 +5883,9 @@
       "age": 21,
       "value": null,
       "contract": null,
-      "nat": "Azerbaijan"
+      "nat": "Azerbaijan",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1327027",
@@ -5000,7 +5896,9 @@
       "age": 27,
       "value": null,
       "contract": null,
-      "nat": "United Arab Emirates"
+      "nat": "Emirados Árabes",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1017952",
@@ -5011,7 +5909,9 @@
       "age": 23,
       "value": null,
       "contract": null,
-      "nat": "Tunisia"
+      "nat": "Tunísia",
+      "foreign": true,
+      "photo": null
     },
     {
       "id": "1253639",
@@ -5022,7 +5922,9 @@
       "age": 20,
       "value": null,
       "contract": null,
-      "nat": "Syria"
+      "nat": "Syria",
+      "foreign": true,
+      "photo": null
     }
   ]
 }
