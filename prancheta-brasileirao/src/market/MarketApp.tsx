@@ -17,6 +17,15 @@ import {
 } from "./logic";
 import type { ClubMarket, MarketLeague, MarketPlayer, SquadPlayer } from "./types";
 import { CoachCard, LineupTab, StoryStudio, useNextCoach } from "./Lineup";
+import { Tour, tourSeen, type TourStep } from "./Tour";
+
+const TOUR: TourStep[] = [
+  { target: [".tm-steps", ".tm-tabbar"], title: "As quatro etapas da janela", text: "Elenco → Mercado → Fechamento → Escalação. Siga na ordem; dá para voltar a qualquer uma." },
+  { target: [".tm-view"], title: "Lista ou Campo", text: "Na Lista, o elenco inteiro com filtros. No Campo, setor por setor, com o rosto grande e um toque por decisão." },
+  { target: [".tm-callout"], title: "Comece por aqui", text: "Esses contratos acabam antes da próxima temporada. Decida um a um ou aplique o padrão a todos." },
+  { target: [".tm-rail .tm-ledger", ".tm-chip"], title: "Balancete", text: "Saldo, vendas, gastos e o elenco por posição, sempre à vista. No celular, toque no saldo para abrir." },
+  { target: [".mhd-club"], title: "Outro clube ou a Prancheta", text: "Toque no escudo para trocar de clube. A Prancheta do mesmo time fica no seletor ao lado (no celular, no menu ⋯)." },
+];
 
 const CUTOFF = MARKET_INDEX.nextSeasonStart;
 const SEASON = CUTOFF.slice(0, 4);
@@ -158,6 +167,7 @@ function MarketClub({ slug }: { slug: string }) {
   const [sheet, setSheet] = useState(false);
   const [toast, setToast] = useState<string | null>(null);
   const [studio, setStudio] = useState<Lineup | null>(null);
+  const [tour, setTour] = useState(false);
   const isMobile = useIsMobile();
   const [view, setViewState] = useState<SquadView>(() => {
     try {
@@ -248,7 +258,10 @@ function MarketClub({ slug }: { slug: string }) {
             </button>
           ) : undefined
         }
-        menuItems={[{ label: "Como funciona", onSelect: () => setGuide(true) }]}
+        menuItems={[
+          { label: "Como funciona", onSelect: () => setGuide(true) },
+          { label: "Tour pela tela", onSelect: () => (setTab("squad"), setSheet(false), setTour(true)) },
+        ]}
       />
 
       {/* as quatro etapas são uma sequência real: decidir o elenco, comprar, fechar, escalar */}
@@ -372,7 +385,12 @@ function MarketClub({ slug }: { slug: string }) {
           setSt={setSt}
           pending={sum.pending.length}
           loans={squad.filter((p) => p.status !== "owned").length}
-          onDone={() => (setSt((s) => ({ ...s, onboarded: true })), setGuide(false))}
+          onDone={() => {
+            // primeira vez: depois do guia, o tour mostra onde fica cada coisa
+            if (!st.onboarded && !tourSeen()) (setTab("squad"), setTour(true));
+            setSt((s) => ({ ...s, onboarded: true }));
+            setGuide(false);
+          }}
         />
       )}
       {studio && (
@@ -382,6 +400,7 @@ function MarketClub({ slug }: { slug: string }) {
           onClose={() => setStudio(null)}
         />
       )}
+      {tour && !showGuide && <Tour steps={TOUR} onClose={() => setTour(false)} />}
       {toast && <div className="tm-toast">{toast}</div>}
       <TapTips />
     </div>

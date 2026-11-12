@@ -641,3 +641,24 @@ button.lu-slot:hover .lu-slot__photo { transform: translateY(-2px); }
   .tm-mission__crest { width: 64px; height: 64px; }
   .tm-mission__stamp { top: 6px; font-size: 13px; }
 }
+
+/* tour de navegação */
+.tm-tour { position: fixed; inset: 0; z-index: 120; }
+.tm-tour__scrim { position: absolute; inset: 0; }
+.tm-tour__hole {
+  position: fixed; border-radius: 10px; pointer-events: none;
+  box-shadow: 0 0 0 2px var(--brass), 0 0 0 9999px rgba(5, 14, 11, 0.72);
+  transition: left 0.25s ease, top 0.25s ease, width 0.25s ease, height 0.25s ease;
+}
+.tm-tour__card {
+  position: fixed; padding: 16px 16px 12px; border-radius: 6px; background: var(--paper); color: var(--ink);
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.5); animation: tm-rise 0.2s ease-out; display: grid; gap: 6px;
+}
+.tm-tour__card h3 { margin: 0; font-family: var(--f-display); font-weight: 900; font-size: 24px; line-height: 1; text-transform: uppercase; }
+.tm-tour__card > p:not(.tm-eyebrow) { margin: 0; font-size: 14px; line-height: 1.45; color: var(--ink-soft); }
+.tm-tour__card .tm-eyebrow { color: var(--ink-amber); }
+.tm-tour__nav { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-top: 6px; }
+.tm-tour__nav > span { display: flex; gap: 6px; }
+.tm-tour__card .tm-btn--ghost { color: var(--ink-soft); border-color: transparent; }
+.tm-tour__card .tm-btn--brass { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+@media (prefers-reduced-motion: reduce) { .tm-tour__hole { transition: none; } }
