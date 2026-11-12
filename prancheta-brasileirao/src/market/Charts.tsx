@@ -1,8 +1,54 @@
 // Gráficos do Mercado da bola. Cores validadas para daltonismo sobre o feltro (ver market.css: --c-*).
 // Identidade nunca só pela cor: quem sai é anel vazado, quem chega tem marca própria, e há legenda.
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { fmtEur, type DepthRow, type NextPlayer, type WaterfallStep } from "./logic";
 
 const tip = (text: string) => ({ "data-tip": text, tabIndex: 0 });
+
+/**
+ * Dicas no toque: em telas sem hover, tocar num elemento com data-tip mostra a dica (presa dentro da tela);
+ * tocar em qualquer outro lugar, rolar ou girar a tela fecha. Com mouse, segue valendo o :hover do CSS.
+ */
+export function TapTips() {
+  const [t, setT] = useState<{ text: string; r: DOMRect; el: Element } | null>(null);
+  const ref = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    const touch = matchMedia("(hover: none)");
+    const onClick = (e: MouseEvent) => {
+      if (!touch.matches) return;
+      const el = (e.target as Element | null)?.closest?.(".tm [data-tip]");
+      setT((cur) => (el && cur?.el !== el ? { text: el.getAttribute("data-tip") ?? "", r: el.getBoundingClientRect(), el } : null));
+    };
+    const close = () => setT(null);
+    document.addEventListener("click", onClick);
+    window.addEventListener("scroll", close, { passive: true, capture: true });
+    window.addEventListener("resize", close);
+    return () => {
+      document.removeEventListener("click", onClick);
+      window.removeEventListener("scroll", close, { capture: true });
+      window.removeEventListener("resize", close);
+    };
+  }, []);
+  useLayoutEffect(() => {
+    const box = ref.current;
+    if (!t || !box) return;
+    const pad = 8;
+    const w = box.offsetWidth;
+    const h = box.offsetHeight;
+    const vw = document.documentElement.clientWidth;
+    const left = Math.min(Math.max(pad, t.r.left + t.r.width / 2 - w / 2), vw - w - pad);
+    const above = t.r.top - h - 8;
+    box.style.left = `${left}px`;
+    box.style.top = `${above >= pad ? above : t.r.bottom + 8}px`;
+    box.style.visibility = "visible";
+  }, [t]);
+  if (!t) return null;
+  return (
+    <div ref={ref} className="tm-taptip" role="tooltip" style={{ visibility: "hidden" }}>
+      {t.text}
+    </div>
+  );
+}
 
 export function Legend({ items }: { items: ("stay" | "new" | "leave" | "min")[] }) {
   const label = { stay: "Fica", new: "Chega", leave: "Sai", min: "Mínimo recomendado" };
