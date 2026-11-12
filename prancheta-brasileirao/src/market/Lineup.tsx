@@ -223,6 +223,16 @@ export function LineupTab({ next, st, setSt, team, coach, onGenerate }: {
       )}
       <div className="lu-board" style={{ "--lu-bg": storyBg(team.colors) } as React.CSSProperties}>
         {team.crest && <img className="lu-board__mark" src={team.crest} alt="" aria-hidden="true" />}
+        <p className="lu-board__title">Meu elenco ideal <em>2027</em></p>
+        <button
+          className="lu-share"
+          disabled={empty > 0}
+          onClick={() => onGenerate(lineup)}
+          title={empty ? `Faltam ${empty} titular${empty > 1 ? "es" : ""} para compartilhar` : "Compartilhar a escalação e a janela"}
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M7 8l5-5 5 5M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6" /></svg>
+          <span>{empty ? `Faltam ${empty}` : "Compartilhar"}</span>
+        </button>
         <Field lineup={lineup} byId={byId} onSlot={setSlot} selected={slot} />
         <div className="lu-board__coach">
           <small>Técnico</small>
@@ -237,9 +247,6 @@ export function LineupTab({ next, st, setSt, team, coach, onGenerate }: {
       {outside.length > 0 && (
         <p className="lu-outside"><b>Fora da lista ({outside.length}):</b> {outside.map((p) => shortName(p.name)).join(", ")}</p>
       )}
-      <button className="tm-btn tm-btn--brass lu-generate" disabled={empty > 0} onClick={() => onGenerate(lineup)}>
-        {empty ? `Faltam ${empty} titular${empty > 1 ? "es" : ""}` : "Gerar imagens para o story"}
-      </button>
 
       {slot !== null && (
         <SlotPicker
@@ -316,6 +323,24 @@ export function storyBg(c: Team["colors"]): string {
   return "#1b1b1b";
 }
 
+/** Endereço divulgado nas imagens e na legenda. */
+export const SITE_HOST = "meuelencofc.com.br";
+
+/** Selo do rodapé das imagens: limpo e contrastante, chama quem vê para montar o seu. */
+function StorySeal() {
+  return (
+    <div className="sty-seal">
+      <img src="/brand/escudo@2x.png" alt="" />
+      <div>
+        <small>Modo Diretor de Futebol</small>
+        <b>Monte o seu em <u>{SITE_HOST}</u></b>
+      </div>
+    </div>
+  );
+}
+
+const money = (v: number) => fmtEur(v).replace(" mi", "M").replace("€ ", "€").replace("R$ ", "R$");
+
 interface StoryProps {
   team: Team;
   lineup: Lineup;
@@ -326,7 +351,14 @@ interface StoryProps {
   host: string;
 }
 
-export const StoryField = forwardRef<HTMLDivElement, StoryProps>(function StoryField({ team, lineup, byId, coach, budget, balance, host }, ref) {
+export const StoryField = forwardRef<HTMLDivElement, StoryProps>(function StoryField({ team, lineup, byId, coach }, ref) {
+  const listedIds = [...lineup.starters.filter((x): x is string => !!x), ...lineup.subs.flat()];
+  const listedValue = listedIds.reduce((t, id) => t + (byId.get(id)?.value ?? 0), 0);
+  const xiValue = lineup.starters.reduce((t, id) => t + ((id && byId.get(id)?.value) || 0), 0);
+  const inList = new Set(listedIds);
+  const outside = [...byId.values()]
+    .filter((p) => p.kind !== "leave" && !inList.has(p.id))
+    .sort((x, y) => posRank(x.pos) - posRank(y.pos));
   return (
     <div ref={ref} className="sty sty--field" style={{ "--sty-bg": storyBg(team.colors) } as React.CSSProperties}>
       {team.crest && <img className="sty__mark" src={team.crest} alt="" />}
@@ -343,15 +375,20 @@ export const StoryField = forwardRef<HTMLDivElement, StoryProps>(function StoryF
         <b>{coach ? shortName(coach.name) : "A definir"}</b>
       </div>
       <footer className="sty__foot">
-        <p>ORÇAMENTO {fmtEur(budget).replace(" mi", "M").replace("€ ", "€")} · CAIXA FINAL {fmtEur(balance).replace(" mi", "M").replace("€ ", "€")}</p>
-        <p className="sty__url"><b>{host}/mercado</b><span>monte o seu</span></p>
+        <div className="sty-info">
+          <p><span>{listedIds.length} relacionados</span><b>{money(listedValue)}</b><span>XI titular</span><b>{money(xiValue)}</b></p>
+          {outside.length > 0 && (
+            <p className="sty-info__out"><span>Fora da lista ({outside.length})</span> {outside.map((p) => shortName(p.name)).join(" · ")}</p>
+          )}
+        </div>
+        <StorySeal />
       </footer>
     </div>
   );
 });
 
 export const StorySummary = forwardRef<HTMLDivElement, StoryProps & { arrivals: NextPlayer[]; leaves: NextPlayer[]; stays: NextPlayer[] }>(
-  function StorySummary({ team, coach, budget, balance, host, arrivals, leaves, stays }, ref) {
+  function StorySummary({ team, coach, budget, balance, arrivals, leaves, stays }, ref) {
     // ordem do quadro: quem sai, quem fica, quem chega
     const groups = [leaves, stays, arrivals].filter((g) => g.length);
     // maior foto que cabe: começa com poucas colunas e aumenta até o quadro não invadir o rodapé
@@ -399,6 +436,7 @@ export const StorySummary = forwardRef<HTMLDivElement, StoryProps & { arrivals: 
       );
     return (
       <div ref={setRoot} className="sty sty--summary" style={{ "--sty-bg": storyBg(team.colors) } as React.CSSProperties}>
+        {team.crest && <img className="sty__mark sty__mark--bokeh" src={team.crest} alt="" />}
         {team.crest && <img className="sty__crest" src={team.crest} alt="" />}
         <header className="sty__head sty__head--left">
           <p className="sty__chip">JANELA DE TRANSFERÊNCIAS <em>2027</em></p>
@@ -409,8 +447,8 @@ export const StorySummary = forwardRef<HTMLDivElement, StoryProps & { arrivals: 
         {section("Ficam", stays, "stay")}
         {section("Chegam", arrivals, "in")}
         <footer className="sty__foot">
-          <p>ORÇAMENTO {fmtEur(budget).replace(" mi", "M").replace("€ ", "€")} · CAIXA FINAL {fmtEur(balance).replace(" mi", "M").replace("€ ", "€")}</p>
-          <p className="sty__url"><b>{host}/mercado</b><span>monte o seu</span></p>
+          <p className="sty-info__money">Orçamento <b>{money(budget)}</b> · Caixa final <b>{money(balance)}</b></p>
+          <StorySeal />
         </footer>
       </div>
     );
@@ -445,6 +483,19 @@ export function StoryStudio({ props, summary, onClose }: {
   const sumRef = useRef<HTMLDivElement>(null);
   const [files, setFiles] = useState<{ name: string; url: string; blob: Blob }[] | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [caption, setCaption] = useState(
+    `Assumi a diretoria de futebol do ${props.team.shortName} e montei a minha janela de transferências ideal pra 2027: quem sai, quem fica, quem chega e o time titular. ⚽📋\n\nE você, faria diferente? Monte o seu também 👉 https://${SITE_HOST}`,
+  );
+  const [copied, setCopied] = useState(false);
+  const copyCaption = async () => {
+    try {
+      await navigator.clipboard.writeText(caption);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch {
+      /* sem permissão */
+    }
+  };
   const slug = props.team.shortName.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-");
 
   useEffect(() => {
@@ -481,8 +532,10 @@ export function StoryStudio({ props, summary, onClose }: {
   const share = async () => {
     if (!files) return;
     const list = files.map((f) => new File([f.blob], f.name, { type: "image/png" }));
+    // alguns apps (ex.: Instagram) ignoram o texto: a legenda também vai para a área de transferência
+    await copyCaption();
     try {
-      if (navigator.canShare?.({ files: list })) await navigator.share({ files: list });
+      if (navigator.canShare?.({ files: list })) await navigator.share({ files: list, text: caption, title: `Meu ${props.team.shortName} 2027` });
       else download();
     } catch {
       /* cancelado */
@@ -493,7 +546,7 @@ export function StoryStudio({ props, summary, onClose }: {
     <div className="tm-modal lu-studio" role="dialog" aria-label="Imagens para o story">
       <div className="lu-studio__box">
         <button className="tm-sheet__close" onClick={onClose} aria-label="Fechar">×</button>
-        <p className="tm-eyebrow">Para o story · 1080 × 1920</p>
+        <p className="tm-eyebrow">Para o story · 2 imagens · 1080 × 1920</p>
         {error && <p className="lu-warn">{error}</p>}
         {!files && !error && <p className="lu-studio__wait">Montando as imagens…</p>}
         {files && (
@@ -501,10 +554,18 @@ export function StoryStudio({ props, summary, onClose }: {
             <div className="lu-studio__previews">
               {files.map((f) => <img key={f.name} src={f.url} alt={f.name} />)}
             </div>
+            <label className="lu-caption">
+              <span>Legenda <button type="button" className="tm-link" onClick={copyCaption}>{copied ? "copiada ✓" : "copiar"}</button></span>
+              <textarea value={caption} onChange={(e) => setCaption(e.target.value)} rows={4} />
+            </label>
             <div className="lu-studio__acts">
-              <button className="tm-btn tm-btn--brass" onClick={download}>Salvar imagens</button>
-              <button className="tm-btn" onClick={share}>Compartilhar</button>
+              <button className="tm-btn tm-btn--brass" onClick={share}>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M7 8l5-5 5 5M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6" /></svg>
+                Compartilhar
+              </button>
+              <button className="tm-btn" onClick={download}>Salvar imagens</button>
             </div>
+            <p className="lu-studio__hint">A legenda é copiada ao compartilhar: é só colar no post ou no story.</p>
           </>
         )}
       </div>
