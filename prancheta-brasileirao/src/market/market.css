@@ -396,8 +396,9 @@ button.tm-stamp:hover { opacity: 0.55; }
   .tm-guide__opts { grid-template-columns: 1fr; }
   .tm-opt { grid-template-columns: 90px 1fr; align-items: center; }
   .tm-opt small { grid-column: 2; }
-  .tm-guide__list li { grid-template-columns: 1fr; gap: 6px; }
-  .tm-guide__list li > span { display: contents; } /* celular: mantém o layout de antes */
+  .tm-guide__list { gap: 12px; }
+  .tm-guide__list li { grid-template-columns: 1fr; gap: 6px; align-items: start; font-size: 13.5px; }
+  .tm-guide__list .tm-stamp { font-size: 14px; }
   .tm-wf__row { grid-template-columns: 70px 1fr 78px; }
 
   /* ---- home ---- */
