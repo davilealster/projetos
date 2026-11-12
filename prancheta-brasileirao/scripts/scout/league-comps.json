@@ -1,9 +1,22 @@
 {
   "_doc": "Competições do Transfermarkt que formam cada liga (além do próprio id do mercado). Ligas com Apertura/Clausura têm um id por torneio; fases finais/playoffs ficam de fora para que todos os clubes tenham o mesmo número de jogos possíveis.",
   "leagues": {
-    "AR1N": ["ARG1", "ARGC"],
-    "URU1": ["URUI", "URUC"],
-    "COLP": ["COL1"],
-    "PR1A": ["PR1C"]
+    "AR1N": [
+      "ARG1",
+      "ARGC"
+    ],
+    "URU1": [
+      "URUI",
+      "URUC"
+    ],
+    "COLP": [
+      "COL1"
+    ],
+    "PR1A": [
+      "PR1C"
+    ],
+    "MEX1": [
+      "MEXA"
+    ]
   }
 }
