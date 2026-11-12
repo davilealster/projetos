@@ -151,3 +151,5 @@
 .mando-skin .export-host { color: #eef3ef; font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
 
 .mando-skin .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+/* selo "Elenco atual 2026": carimbo de latão ao lado do título */
+.mando-skin .panel__badge { border-radius: 3px; border-width: 1.5px; color: var(--mk-brass); font-family: var(--mk-data); font-weight: 500; font-size: 10px; letter-spacing: 0.08em; background: rgba(224, 185, 90, 0.08); }

@@ -13,9 +13,11 @@ interface Props {
   onActivate: (p: DragPayload) => void;
   safe?: boolean;
   headerExtra?: React.ReactNode;
+  /** selo ao lado do título (ex.: "Elenco atual 2026") */
+  badge?: string;
 }
 
-export function SquadPanel({ title, players, colors, kind, onField, onDrop, onActivate, safe, headerExtra }: Props) {
+export function SquadPanel({ title, players, colors, kind, onField, onDrop, onActivate, safe, headerExtra, badge }: Props) {
   const [filter, setFilter] = useState<Pos | null>(null);
   const present = POSITIONS.filter((p) => players.some((x) => x.pos === p));
   const shown = filter ? players.filter((p) => p.pos === filter) : players;
@@ -24,6 +26,7 @@ export function SquadPanel({ title, players, colors, kind, onField, onDrop, onAc
     <section className="panel">
       <header className="panel__head">
         <h2>{title}</h2>
+        {badge && <span className="panel__badge">{badge}</span>}
         <span className="panel__count">
           {onField.size}/{players.length} em campo
         </span>

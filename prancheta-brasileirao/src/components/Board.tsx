@@ -587,7 +587,8 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
 
   const squadPanel = (
     <SquadPanel
-      title={`Elenco · ${team.shortName}`}
+      title={team.shortName}
+      badge={`Elenco atual ${team.updatedAt?.slice(0, 4) || new Date().getFullYear()}`}
       players={team.players}
       colors={team.colors}
       kind="player"
