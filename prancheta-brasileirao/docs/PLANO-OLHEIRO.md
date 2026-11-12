@@ -104,3 +104,24 @@ Verificação: tsc, vitest, build, Playwright 390×844 e 1360×900, `scrollWidth
 - Casamento de nomes entre fontes: meta ≥ 90% casados nas ligas principais; resto aparece só com dados do Transfermarkt.
 - Coeficientes de liga são opinião: deixar visíveis e editáveis.
 - Monetização (assinatura/passe da janela, anúncios, licença de dados e imagens) fica para depois — ver conversa de 12/11/2026.
+
+---
+
+## 10. Ajuste de 12/11/2026 — dados só do Transfermarkt (decisão do usuário)
+Teste real: o plano gratuito da API-Football só libera temporadas 2022–2024 (2025/2026 dão erro) e a conta aparece "suspensa".
+Decisão: construir o Olheiro **agora com o Transfermarkt** (temporada atual) e deixar a camada de dados pronta para plugar a API-Football paga depois.
+
+Dados por jogador (contrato em `src/scout/types.ts`): jogos, minutos, gols, assistências, cartões, gols sofridos e jogos sem sofrer gol **com o jogador em campo**, minutos em todas as competições, valor há 12 meses e pico de valor (`player_stats` + `player_market_value` do SDK `transfermarkt-api`).
+Temporada: por liga, o maior `season_id` presente nos dados da liga (todos os jogadores comparados na mesma temporada).
+
+Indicadores por posição (substituem a tabela da seção 3; sempre por 90 min, amostra mínima, percentil por posição):
+| Posição | Indicadores |
+|---|---|
+| GOL | gols sofridos/90 (inverso), % jogos sem sofrer gol, % minutos jogados |
+| ZAG | gols sofridos/90 em campo (inverso), % jogos sem sofrer gol, % minutos, gols/90 (bola parada), disciplina |
+| LD/LE | assistências/90, G+A/90, gols sofridos/90 em campo (inverso), % minutos |
+| VOL | % minutos, gols sofridos/90 em campo (inverso), G+A/90, disciplina |
+| MEI | assistências/90, G+A/90, % minutos |
+| PON | G+A/90, gols/90, assistências/90, % minutos |
+| ATA | gols/90, G+A/90, % minutos |
+Mais, para todos: **valorização em 12 meses** (%), idade, contrato, valor. Rótulos honestos ("gols sofridos com ele em campo", nunca "xG"/"desarmes").
