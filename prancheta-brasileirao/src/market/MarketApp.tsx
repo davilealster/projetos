@@ -530,9 +530,9 @@ function Guide({ team, st, setSt, pending, loans, onDone }: {
               emprestado ou dispensado. Clicar no carimbo desfaz.
             </p>
             <ul className="tm-guide__list">
-              <li><Stamp text="A decidir" ink="amber" /> {pending ? <><b>{pending}</b> contratos ou empréstimos do {team} acabam antes de {SEASON}. Comece por eles.</> : <>Nenhum contrato do {team} acaba antes de {SEASON}.</>}</li>
-              {loans > 0 && <li><Stamp text="Emprestado" ink="blue" /> <b>{loans}</b> jogadores estão emprestados (chegando ou fora). Dá para devolver, comprar ou trazer de volta.</li>}
-              <li><Stamp text="Vendido" ink="red" /> Vendas entram no balancete na hora, pelo valor de mercado ou pelo preço que você digitar.</li>
+              <li><Stamp text="A decidir" ink="amber" /> <span>{pending ? <><b>{pending}</b> contratos ou empréstimos do {team} acabam antes de {SEASON}. Comece por eles.</> : <>Nenhum contrato do {team} acaba antes de {SEASON}.</>}</span></li>
+              {loans > 0 && <li><Stamp text="Emprestado" ink="blue" /> <span><b>{loans}</b> jogadores estão emprestados (chegando ou fora). Dá para devolver, comprar ou trazer de volta.</span></li>}
+              <li><Stamp text="Vendido" ink="red" /> <span>Vendas entram no balancete na hora, pelo valor de mercado ou pelo preço que você digitar.</span></li>
             </ul>
           </>
         )}
