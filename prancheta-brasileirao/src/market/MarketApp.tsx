@@ -12,11 +12,11 @@ import { PitchView } from "./PitchView";
 import { MARKET_INDEX, hasMarketData, loadClubMarket, loadLeague, loadMarketState, saveMarketState } from "./data";
 import {
   ACTION_LABEL, PRICED, SIGNING_LABEL, actionsFor, contractYears, decisionOf, depthChart, emptyMarketState, fmtDate, curUnit, fmtMoney, fmtRef, fromUnit, setMoneyMode, toUnit,
-  FOREIGN_LIMIT, fmtEur, isEnding, isFreeAgent, moneyOf, nextSeason, posRank, shareText, staysWith, summarize, waterfall,
+  FOREIGN_LIMIT, HOW_TAG, fmtEur, isEnding, isFreeAgent, moneyOf, nextSeason, posRank, shareText, staysWith, summarize, waterfall,
   type Currency, type Decision, type Lineup, type MarketState, type SigningType, type SquadAction,
 } from "./logic";
 import type { ClubMarket, MarketLeague, MarketPlayer, SquadPlayer } from "./types";
-import { CoachCard, LineupTab, StoryStudio, useNextCoach } from "./Lineup";
+import { CoachCard, LineupTab, StoryStudio, shortName, useNextCoach } from "./Lineup";
 import { Tour, tourSeen, type TourStep } from "./Tour";
 
 const TOUR: TourStep[] = [
@@ -238,7 +238,7 @@ function MarketClub({ slug }: { slug: string }) {
   const NEXT: Record<Tab, [Tab, string] | null> = { squad: ["market", "Ir às compras"], market: ["close", "Fechar a janela"], close: ["lineup", "Escalar o time ideal"], lineup: null };
 
   const rail = (
-    <Ledger st={st} setSt={setSt} sum={sum} steps={steps} depth={depth} foreigners={foreigners} onNext={NEXT[tab] ? () => (setTab(NEXT[tab]![0]), setSheet(false), window.scrollTo({ top: 0 })) : null} nextLabel={NEXT[tab]?.[1] ?? ""} />
+    <Ledger st={st} setSt={setSt} sum={sum} steps={steps} depth={depth} foreigners={foreigners} next={next} onNext={NEXT[tab] ? () => (setTab(NEXT[tab]![0]), setSheet(false), window.scrollTo({ top: 0 })) : null} nextLabel={NEXT[tab]?.[1] ?? ""} />
   );
 
   return (
@@ -533,8 +533,9 @@ function ForeignMeter({ count }: { count: number }) {
   );
 }
 
-function Ledger({ st, setSt, sum, steps, depth, foreigners, onNext, nextLabel }: {
+function Ledger({ st, setSt, sum, steps, depth, foreigners, next, onNext, nextLabel }: {
   st: MarketState; setSt: SetSt; sum: ReturnType<typeof summarize>; steps: ReturnType<typeof waterfall>; depth: ReturnType<typeof depthChart>; foreigners: number;
+  next: ReturnType<typeof nextSeason>;
   onNext: (() => void) | null; nextLabel: string;
 }) {
   const short = depth.filter((d) => d.short);
@@ -549,6 +550,7 @@ function Ledger({ st, setSt, sum, steps, depth, foreigners, onNext, nextLabel }:
         <small>{fmtRef(sum.balance) ? `${fmtRef(sum.balance)} de saldo` : "de saldo"}</small>
       </p>
       <Waterfall steps={steps} compact />
+      <Roster next={next} />
       <div className="tm-ledger__budget">
         <label className="tm-field">
           Orçamento
@@ -572,6 +574,62 @@ function Ledger({ st, setSt, sum, steps, depth, foreigners, onNext, nextLabel }:
       {short.length > 0 && <p className="tm-ledger__warn">Faltam: {short.map((d) => `${d.short} ${d.pos}`).join(", ")}</p>}
       {onNext && <button className="tm-btn tm-btn--brass tm-ledger__next" onClick={onNext}>{nextLabel} →</button>}
     </div>
+  );
+}
+
+// ============ quem sai, fica e chega (no balancete) ============
+
+function RosterFace({ p }: { p: ReturnType<typeof nextSeason>[number] }) {
+  const [broken, setBroken] = useState(false);
+  return p.photo && !broken ? (
+    <img src={p.photo} alt="" loading="lazy" referrerPolicy="no-referrer" onError={() => setBroken(true)} />
+  ) : (
+    <span className="tm-roster__ini">{initials(p.name)}</span>
+  );
+}
+
+/** Progresso da janela, sempre à vista: quem já saiu, quem fica e quem chega. */
+function Roster({ next }: { next: ReturnType<typeof nextSeason> }) {
+  const [allStay, setAllStay] = useState(false);
+  const order = (l: typeof next) => [...l].sort((a, b) => posRank(a.pos) - posRank(b.pos) || (b.value ?? 0) - (a.value ?? 0));
+  const leave = order(next.filter((p) => p.kind === "leave"));
+  const stay = order(next.filter((p) => p.kind === "stay"));
+  const arrive = order(next.filter((p) => p.kind === "new"));
+  const tile = (p: (typeof next)[number]) => {
+    const how = p.how ? HOW_TAG[p.how] : undefined;
+    return (
+      <li key={p.id} className="tm-roster__tile" title={`${p.name} · ${p.pos}${how ? ` · ${how}` : ""}`}>
+        <span className="tm-roster__face"><RosterFace p={p} /><i className={`tm-pos tm-pos--${p.pos}`}>{p.pos}</i></span>
+        <span className="tm-roster__name">{shortName(p.name)}</span>
+        {how && <span className={`tm-roster__how sty-how--${p.how}`}>{how}</span>}
+      </li>
+    );
+  };
+  return (
+    <section className="tm-roster" aria-label="Quem sai, fica e chega">
+      <div className="tm-roster__grp tm-roster__grp--out">
+        <h4>Saem <b>{leave.length}</b></h4>
+        {leave.length ? <ul>{leave.map(tile)}</ul> : <p className="tm-roster__empty">Ninguém saindo ainda.</p>}
+      </div>
+      <div className="tm-roster__grp tm-roster__grp--stay">
+        <h4>
+          Ficam <b>{stay.length}</b>
+          {stay.length > 0 && <button className="tm-link" onClick={() => setAllStay(!allStay)}>{allStay ? "recolher" : "ver todos"}</button>}
+        </h4>
+        {allStay ? (
+          <ul>{stay.map(tile)}</ul>
+        ) : (
+          <button className="tm-roster__stack" onClick={() => setAllStay(true)} aria-label={`Ver os ${stay.length} que ficam`}>
+            {stay.slice(0, 9).map((p) => <span key={p.id} className="tm-roster__face"><RosterFace p={p} /></span>)}
+            {stay.length > 9 && <em>+{stay.length - 9}</em>}
+          </button>
+        )}
+      </div>
+      <div className="tm-roster__grp tm-roster__grp--in">
+        <h4>Chegam <b>{arrive.length}</b></h4>
+        {arrive.length ? <ul>{arrive.map(tile)}</ul> : <p className="tm-roster__empty">Nenhuma chegada. Contrate na etapa 2.</p>}
+      </div>
+    </section>
   );
 }
 

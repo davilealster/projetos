@@ -662,3 +662,24 @@ button.lu-slot:hover .lu-slot__photo { transform: translateY(-2px); }
 .tm-tour__card .tm-btn--ghost { color: var(--ink-soft); border-color: transparent; }
 .tm-tour__card .tm-btn--brass { background: var(--ink); border-color: var(--ink); color: var(--paper); }
 @media (prefers-reduced-motion: reduce) { .tm-tour__hole { transition: none; } }
+
+/* balancete: quem sai, fica e chega */
+.tm-roster { display: grid; gap: 10px; padding: 12px 0 2px; border-top: 1px solid var(--felt-line); }
+.tm-roster__grp h4 { margin: 0 0 6px; display: flex; align-items: center; gap: 7px; font-family: var(--f-display); font-weight: 900; font-size: 15px; letter-spacing: 0.05em; text-transform: uppercase; color: var(--cream); }
+.tm-roster__grp h4::before { content: ""; width: 8px; height: 8px; border-radius: 2px; background: var(--k); }
+.tm-roster__grp h4 b { font-family: var(--f-data); font-weight: 500; font-size: 11px; padding: 1px 6px; border-radius: 999px; background: rgba(239, 230, 210, 0.08); color: var(--cream-soft); }
+.tm-roster__grp h4 .tm-link { margin-left: auto; font-family: var(--f-body); font-size: 12px; font-weight: 500; letter-spacing: 0; text-transform: none; color: var(--brass); }
+.tm-roster__grp--out { --k: var(--c-leave); } .tm-roster__grp--stay { --k: var(--c-stay); } .tm-roster__grp--in { --k: var(--c-new); }
+.tm-roster ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(52px, 1fr)); gap: 8px 6px; }
+.tm-roster__tile { display: grid; justify-items: center; gap: 2px; min-width: 0; }
+.tm-roster__face { position: relative; width: 42px; height: 42px; border-radius: 5px; overflow: hidden; background: #e9e4d8; box-shadow: inset 0 0 0 2px var(--k); display: grid; place-items: center; }
+.tm-roster__face img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
+.tm-roster__grp--out .tm-roster__face img { filter: grayscale(0.7); }
+.tm-roster__face .tm-pos { position: absolute; left: 0; bottom: 0; font-style: normal; font-size: 7.5px; padding: 1px 2px; border-radius: 0 3px 0 0; }
+.tm-roster__ini { font-family: var(--f-display); font-weight: 900; font-size: 15px; color: var(--ink); }
+.tm-roster__name { max-width: 100%; font-size: 10.5px; font-weight: 650; line-height: 1.15; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--cream); }
+.tm-roster__how { max-width: 100%; padding: 0 4px; border-radius: 2px; background: var(--how, #555); color: #fff; font-family: var(--f-display); font-weight: 800; font-size: 8.5px; line-height: 1.35; letter-spacing: 0.02em; text-transform: uppercase; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.tm-roster__stack { display: flex; align-items: center; padding: 0 0 0 6px; border: 0; background: none; cursor: pointer; }
+.tm-roster__stack .tm-roster__face { width: 30px; height: 30px; margin-left: -6px; border-radius: 50%; box-shadow: 0 0 0 2px var(--felt-deep), inset 0 0 0 2px var(--k); }
+.tm-roster__stack em { margin-left: 6px; font-style: normal; font-family: var(--f-data); font-size: 12px; color: var(--cream-soft); }
+.tm-roster__empty { margin: 0; font-size: 12px; color: var(--cream-soft); }
