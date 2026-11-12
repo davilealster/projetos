@@ -51,6 +51,30 @@ function FichaArt() {
   );
 }
 
+/** Ficha de observação com a lupa por cima e o carimbo "Prioridade". */
+function ScoutArt() {
+  return (
+    <div className="mh-art mh-scout" aria-hidden="true">
+      <span className="mh-scout__lines">
+        <i />
+        <i />
+        <i />
+      </span>
+      <span className="mh-scout__bars">
+        <i style={{ width: "86%" }} />
+        <i style={{ width: "62%" }} />
+        <i style={{ width: "74%" }} />
+      </span>
+      <svg className="mh-scout__lens" viewBox="0 0 44 44">
+        <circle cx="17" cy="17" r="12" fill="rgba(239,230,210,0.35)" stroke="#1d1b16" strokeWidth="3.5" />
+        <path d="M26 26 L39 39" stroke="#1d1b16" strokeWidth="6" strokeLinecap="round" />
+        <path d="M11 13 Q14 9 19 9" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" opacity="0.8" />
+      </svg>
+      <span className="brand-stamp brand-stamp--green mh-stamp">Prioridade</span>
+    </div>
+  );
+}
+
 function Crest({ club, size }: { club: TeamSummary; size: number }) {
   return club.crest ? (
     <img src={club.crest} alt="" width={size} height={size} loading="lazy" decoding="async" />
@@ -59,7 +83,7 @@ function Crest({ club, size }: { club: TeamSummary; size: number }) {
   );
 }
 
-const isModule = (m: string | null): m is ModuleId => m === "prancheta" || m === "mercado";
+const isModule = (m: string | null): m is ModuleId => m === "prancheta" || m === "mercado" || m === "olheiro";
 
 export function Home() {
   const [club, setClub] = useState<TeamSummary | null>(() => findClub(getLastClub()));
@@ -95,6 +119,7 @@ export function Home() {
 
   const boardHref = club ? moduleHref("prancheta", club.slug) : "/?modulo=prancheta&trocar=1";
   const marketHref = club ? moduleHref("mercado", club.slug) : "/?modulo=mercado&trocar=1";
+  const scoutHref = club ? moduleHref("olheiro", club.slug) : "/?modulo=olheiro&trocar=1";
   const clubStyle = (club ? clubVars(club.colors) : undefined) as CSSProperties | undefined;
 
   return (
@@ -117,7 +142,7 @@ export function Home() {
           <p className="mh-sub">
             Chega de só cornetar. Assuma a cadeira, monte a barca, desenhe a tática e mostre como se faz.
             <br />
-            Escolha seu papel: no campo como técnico ou no mercado como diretor de futebol.
+            Escolha seu papel: no campo como técnico, no mercado como diretor de futebol ou no radar como olheiro.
           </p>
         </section>
 
@@ -170,14 +195,20 @@ export function Home() {
             </a>
           </li>
           <li>
-            <div className="mh-card mh-card--soon" aria-disabled="true">
+            <a className="mh-card mh-card--scout" href={scoutHref} onClick={enter("olheiro")} aria-haspopup={club ? undefined : "dialog"}>
               <span className="mh-card__label">Crachá 03 · Scout</span>
+              <ScoutArt />
               <span className="mh-card__body">
                 <span className="mh-card__title">Olheiro</span>
-                <span className="mh-card__text">Faça o papel de scout: monitore o mercado e encontre oportunidades antes dos outros.</span>
+                <span className="mh-card__module">Radar de mercado</span>
+                <span className="mh-card__text">Ache os óbvios e os não óbvios, separe em prateleiras e monte o Plano A, B e C.</span>
               </span>
-              <span className="brand-stamp brand-stamp--amber mh-stamp mh-card__soon">Em breve</span>
-            </div>
+              <span className="mh-card__cta">
+                {club && <Crest club={club} size={20} />}
+                <span>{club ? `Abrir o radar do ${club.shortName}` : "Abrir o olheiro"}</span>
+                <span className="mh-card__arrow" aria-hidden="true">→</span>
+              </span>
+            </a>
           </li>
         </ul>
 
@@ -186,7 +217,7 @@ export function Home() {
             <button type="button" className="brand-btn brand-btn--brass mh-clubs__pick" onClick={() => setSheet({ module: null })} aria-haspopup="dialog">
               Escolher meu clube
             </button>
-            <p className="mh-clubs__help">Opcional — você também pode escolher ao abrir a prancheta ou o mercado.</p>
+            <p className="mh-clubs__help">Opcional — você também pode escolher ao abrir a prancheta, o mercado ou o olheiro.</p>
           </section>
         )}
       </main>

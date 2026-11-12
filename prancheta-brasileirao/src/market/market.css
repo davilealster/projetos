@@ -782,3 +782,11 @@ button.lu-slot:hover .lu-slot__photo { transform: translateY(-2px); }
   .lu-bar .lu-share span { display: none; }
   .lu-bar .lu-share { width: 42px; height: 42px; padding: 0; justify-content: center; }
 }
+
+/* ---- integração com o Olheiro ---- */
+.tm-act--scout { border-style: dashed; border-color: rgba(29, 27, 22, 0.4); color: var(--ink-soft) !important; }
+.tm-act--scout::before { content: ""; display: inline-block; width: 9px; height: 9px; margin: 0 6px 1px 0; border: 1.8px solid currentColor; border-radius: 50%; vertical-align: middle; box-shadow: 3px 3px 0 -1.2px currentColor; }
+.tm-act--scout:hover { border-color: var(--ink); color: var(--ink) !important; }
+@media (max-width: 640px) {
+  .tm-act--scout { flex: none; }
+}

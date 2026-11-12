@@ -28,7 +28,7 @@
 .mh-sub { margin: 16px auto 0; max-width: 66ch; font-size: 17px; line-height: 1.5; color: var(--cream-soft); text-wrap: pretty; }
 
 /* ---- crachás ---- */
-.mh-cards { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr 0.62fr; gap: 20px; }
+.mh-cards { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
 .mh-cards > li { display: flex; min-width: 0; }
 
 .mh-card {
@@ -124,25 +124,37 @@
 @keyframes mh-stamp-in { from { opacity: 0; transform: rotate(-7deg) scale(1.9); } to { opacity: 0.88; transform: rotate(-7deg) scale(1); } }
 @keyframes mh-stamp-in-again { from { opacity: 0; transform: rotate(-7deg) scale(1.9); } to { opacity: 0.88; transform: rotate(-7deg) scale(1); } }
 
-/* ---- crachá 3 ---- */
-.mh-card--soon {
-  opacity: 0.6; cursor: default; grid-template-columns: minmax(0, 1fr); grid-template-areas: "label" "body" "stamp";
-  border: 1.5px dashed rgba(29, 27, 22, 0.4); padding-bottom: 22px; box-shadow: 0 10px 22px -10px rgba(0, 0, 0, 0.45);
+/* ---- arte: ficha de observação + lupa ---- */
+.mh-scout {
+  transform: rotate(1.8deg); background: #f8f2e4; overflow: visible;
+  box-shadow: 0 1px 0 var(--paper-edge), 0 6px 12px rgba(0, 0, 0, 0.22), 0 0 0 1px rgba(29, 27, 22, 0.06);
+  background-image: repeating-linear-gradient(180deg, transparent 0 13px, rgba(29, 78, 163, 0.12) 13px 14px);
 }
-.mh-card--soon .mh-card__soon { grid-area: stamp; justify-self: start; margin-top: 18px; font-size: 17px; }
+.mh-scout::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 4px; border-radius: 3px 0 0 3px; background: var(--club-primary, var(--ink-green)); }
+.mh-scout__lines { position: absolute; left: 12px; top: 10px; display: grid; gap: 5px; }
+.mh-scout__lines i { display: block; width: 38px; height: 4px; border-radius: 2px; background: rgba(29, 27, 22, 0.22); }
+.mh-scout__lines i + i { width: 26px; background: rgba(29, 27, 22, 0.12); }
+.mh-scout__bars { position: absolute; left: 12px; right: 44px; top: 36px; display: grid; gap: 5px; }
+.mh-scout__bars i { display: block; height: 5px; border-radius: 3px; background: linear-gradient(90deg, var(--ink-green), #2fa58c); opacity: 0.75; }
+.mh-scout__lens {
+  position: absolute; right: -10px; top: -12px; width: 50px; height: 50px; transform: rotate(-8deg);
+  filter: drop-shadow(0 3px 4px rgba(0, 0, 0, 0.35)); transition: transform 0.35s cubic-bezier(0.3, 1.3, 0.5, 1);
+}
+.mh-scout .mh-stamp { position: absolute; right: 6px; bottom: 7px; font-size: 12px; padding: 3px 6px 2px; border-width: 2px; border-radius: 4px; }
 
 /* ---- hover / toque ---- */
 @media (hover: hover) {
-  .mh-cards > li .mh-card:not(.mh-card--soon):hover {
+  .mh-cards > li .mh-card:hover {
     transform: translateY(-4px) rotate(0deg); border-color: var(--brass);
     box-shadow: 0 1px 0 var(--paper-edge), 0 0 0 1px var(--brass), 0 24px 40px -10px rgba(0, 0, 0, 0.6);
   }
-  .mh-card:not(.mh-card--soon):hover .mh-card__cta { background: var(--brass); color: var(--ink); }
-  .mh-card:not(.mh-card--soon):hover .mh-card__arrow { transform: translateX(4px); }
+  .mh-card:hover .mh-card__cta { background: var(--brass); color: var(--ink); }
+  .mh-card:hover .mh-card__arrow { transform: translateX(4px); }
   .mh-card:hover .mh-tok--brass { transform: translate(-50%, -50%) translate(9px, -4px); }
-  .mh-card:not(.mh-card--soon):hover .mh-stamp { animation-name: mh-stamp-in-again; animation-delay: 0s; }
+  .mh-card:hover .mh-scout__lens { transform: rotate(-8deg) translate(-14px, 10px); }
+  .mh-card:hover .mh-stamp { animation-name: mh-stamp-in-again; animation-delay: 0s; }
 }
-.mh-cards > li .mh-card:not(.mh-card--soon):active { transform: scale(0.985); transition-duration: 0.08s; }
+.mh-cards > li .mh-card:active { transform: scale(0.985); transition-duration: 0.08s; }
 
 /* ---- seletor de clube ---- */
 .mh-clubs { margin-top: 30px; }
@@ -192,12 +204,11 @@
 
 /* ---- tablet ---- */
 @media (max-width: 1023px) {
-  .mh-cards { grid-template-columns: 1fr 1fr; }
-  .mh-cards > li:nth-child(3) { grid-column: 1 / -1; }
-  .mh-card--soon { min-height: 0; grid-template-columns: auto minmax(0, 1fr) auto; grid-template-areas: "label body stamp"; align-items: center; column-gap: 20px; padding: 26px 22px 18px; }
-  .mh-card--soon .mh-card__body { padding-top: 0; align-self: center; }
-  .mh-card--soon .mh-card__label { align-self: center; padding: 0; }
-  .mh-card--soon .mh-card__soon { margin: 0; align-self: center; }
+  .mh-cards { gap: 14px; }
+  .mh-card { grid-template-columns: minmax(0, 1fr); grid-template-areas: "label" "art" "body" "cta"; padding: 30px 18px 0; }
+  .mh-card .mh-art { margin-top: 14px; justify-self: start; }
+  .mh-card__title { font-size: 30px; }
+  .mh-card__cta { margin: 18px -18px 0; padding: 0 18px; }
 }
 
 /* ---- celular ---- */
@@ -211,7 +222,7 @@
   .mh-sub { margin: 12px 0 0; font-size: 15.5px; }
 
   .mh-cards { grid-template-columns: 1fr; gap: 12px; }
-  .mh-cards > li:nth-child(3) { grid-column: auto; }
+  .mh-card, .mh-card .mh-art { margin-top: 0; }
   .mh-card {
     min-height: 148px; grid-template-columns: minmax(0, 1fr) 96px; grid-template-rows: auto 1fr auto;
     grid-template-areas: "label art" "body art" "cta cta"; column-gap: 14px; padding: 26px 16px 0;
@@ -231,15 +242,13 @@
   .mh-tok--brass { width: 10px; height: 10px; }
   .mh-card__cta { height: 48px; margin: 14px -16px 0; padding: 0 16px; background: var(--brass); color: var(--ink); border-top: 0; font-size: 15px; }
 
-  .mh-card--soon {
-    min-height: 56px; height: 56px; display: flex; align-items: center; gap: 12px; padding: 0 16px;
-  }
-  .mh-card--soon::before { display: none; }
-  .mh-card--soon .mh-card__label { padding: 0; }
-  .mh-card--soon .mh-card__body { padding: 0; }
-  .mh-card--soon .mh-card__title { font-size: 22px; }
-  .mh-card--soon .mh-card__text { display: none; }
-  .mh-card--soon .mh-card__soon { margin: 0 0 0 auto; font-size: 14px; padding: 3px 8px 2px; border-width: 2px; }
+  .mh-scout__lines { left: 10px; top: 8px; gap: 4px; }
+  .mh-scout__lines i { width: 30px; }
+  .mh-scout__lines i + i { width: 20px; }
+  .mh-scout__bars { left: 10px; right: 36px; top: 28px; gap: 4px; }
+  .mh-scout__bars i { height: 4px; }
+  .mh-scout__lens { width: 40px; height: 40px; right: -8px; top: -10px; }
+  .mh-scout .mh-stamp { font-size: 10px; right: 4px; bottom: 5px; padding: 2px 4px 1px; }
 
   .mh-clubs { margin-top: 22px; }
   .mh-clubs__pick { width: 100%; }
@@ -256,5 +265,6 @@
   .mh-card, .mh-cards > li .mh-card { transform: none !important; transition: none; }
   .mh-stamp, .mh-card:hover .mh-stamp { animation: none !important; }
   .mh-tok--brass, .mh-card:hover .mh-tok--brass { transition: none; transform: translate(-50%, -50%) !important; }
+  .mh-scout__lens, .mh-card:hover .mh-scout__lens { transition: none; transform: rotate(-8deg) !important; }
   .mh-card__arrow { transition: none; }
 }

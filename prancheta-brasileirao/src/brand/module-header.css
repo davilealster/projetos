@@ -1,4 +1,4 @@
-/* ModuleHeader — barra comum da Prancheta e do Mercado. Raiz tem .brand (tokens), mas não é página. */
+/* ModuleHeader — barra comum da Prancheta, do Mercado e do Olheiro. Raiz tem .brand (tokens), mas não é página. */
 .brand.mhd {
   position: sticky; top: 0; z-index: 50; min-height: 0; flex: none;
   background: var(--felt-deep); border-bottom: 1px solid var(--felt-line);
@@ -81,7 +81,7 @@
 @media (max-width: 760px) {
   .mhd--bar .mhd-in { gap: 10px; padding: 0 12px; }
   .mhd--bar .mando-mark__word { display: none; }
-  .mhd--bar .mhd-seg__item { padding: 0 10px; }
+  .mhd--bar .mhd-seg__item { padding: 0 9px; letter-spacing: 0.06em; }
 }
 
 @keyframes mhd-drop { from { opacity: 0; transform: translateY(-4px) scale(0.98); } }

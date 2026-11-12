@@ -10,6 +10,7 @@ import { replace, useRoute, type Route } from "./router";
 
 const AdminApp = lazy(() => import("./admin/AdminApp"));
 const MarketApp = lazy(() => import("./market/MarketApp"));
+const ScoutApp = lazy(() => import("./scout/ScoutApp"));
 
 /** Link do bloco "não encontrado": volta para escolher um clube. */
 function NotFound({ message = "Página não encontrada." }: { message?: string }) {
@@ -33,7 +34,7 @@ export function App() {
       replace(redirectTarget(route.module, getLastClub()));
       return;
     }
-    const slug = route.page === "board" && !route.live ? route.slug : route.page === "market" ? route.slug : null;
+    const slug = route.page === "board" && !route.live ? route.slug : route.page === "market" || route.page === "scout" ? route.slug : null;
     if (slug && teamSummary(slug)) setLastClub(slug);
   }, [route]);
 
@@ -44,6 +45,12 @@ export function App() {
     return (
       <Suspense fallback={<div className="loading">Carregando…</div>}>
         <MarketApp slug={route.slug} />
+      </Suspense>
+    );
+  if (route.page === "scout")
+    return (
+      <Suspense fallback={<div className="loading">Carregando…</div>}>
+        <ScoutApp slug={route.slug} />
       </Suspense>
     );
   if (route.page === "admin")

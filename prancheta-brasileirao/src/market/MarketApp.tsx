@@ -1,8 +1,8 @@
-import { useEffect, useMemo, useState } from "react";
+import { Suspense, lazy, useEffect, useMemo, useState } from "react";
 import "../brand/brand.css";
 import "./market.css";
 import { teamSummary } from "../data";
-import { navigate } from "../router";
+import { navigate, params, replace } from "../router";
 import { ModuleHeader } from "../brand/ModuleHeader";
 import { clubVars, initials } from "../lib/color";
 import { applyTeamSummary, useOverrides } from "../lib/overrides";
@@ -19,6 +19,11 @@ import type { ClubMarket, MarketLeague, MarketPlayer, SquadPlayer } from "./type
 import { CoachCard, LineupTab, StoryStudio, shortName, useNextCoach } from "./Lineup";
 import { Tour, tourSeen, type TourStep } from "./Tour";
 
+// perfil do Olheiro ("Ver scout"): carregado só quando aberto
+const ScoutPeek = lazy(() => import("../scout/ScoutPeek"));
+type Peek = { league: string; player: MarketPlayer | SquadPlayer; club: string };
+type OnScout = (p: Peek) => void;
+
 const TOUR: TourStep[] = [
   { target: [".tm-steps", ".tm-tabbar"], title: "As quatro etapas da janela", text: "Elenco → Mercado → Fechamento → Compartilhe. Siga na ordem; dá para voltar a qualquer uma." },
   { target: [".tm-view"], title: "Lista ou Campo", text: "Na Lista, o elenco inteiro com filtros. No Campo, setor por setor, com o rosto grande e um toque por decisão." },
@@ -28,6 +33,8 @@ const TOUR: TourStep[] = [
 ];
 
 const CUTOFF = MARKET_INDEX.nextSeasonStart;
+/** liga dos clubes da Série A (o elenco do usuário) */
+const CLUB_LEAGUE = "BRA1";
 const SEASON = CUTOFF.slice(0, 4);
 type SetSt = React.Dispatch<React.SetStateAction<MarketState>>;
 
@@ -161,11 +168,16 @@ function MarketClub({ slug }: { slug: string }) {
   const [club, setClub] = useState<ClubMarket | null | undefined>(undefined);
   const [st, setSt] = useState<MarketState>(() => loadMarketState(slug));
   setMoneyMode(st.currency, st.rate); // antes de renderizar os filhos: todos os valores saem na moeda escolhida
-  const [tab, setTab] = useState<Tab>("squad");
+  // ?aba=mercado: chegando do Olheiro ("Adicionar ao meu mercado")
+  const [tab, setTab] = useState<Tab>(() => (params().get("aba") === "mercado" ? "market" : "squad"));
+  const [peek, setPeek] = useState<Peek | null>(null);
+  useEffect(() => {
+    if (location.search) replace(`/mercado/${slug}`);
+  }, [slug]);
   const [leagues, setLeagues] = useState<Record<string, MarketLeague>>({});
   const [guide, setGuide] = useState(false);
   const [sheet, setSheet] = useState(false);
-  const [toast, setToast] = useState<string | null>(null);
+  const [toast, setToast] = useState<string | null>(() => (params().get("aba") === "mercado" ? "Do Olheiro para o seu mercado" : null));
   const [studio, setStudio] = useState<Lineup | null>(null);
   const [tour, setTour] = useState(false);
   const isMobile = useIsMobile();
@@ -317,14 +329,14 @@ function MarketClub({ slug }: { slug: string }) {
                 ) : (
                   <>
                     <CoachCard coach={club!.coach ?? null} st={st} setSt={setSt} />
-                    <SquadTab squad={squad} st={st} setSt={setSt} setDecision={setDecision} colors={team.colors} isMobile={isMobile} />
+                    <SquadTab squad={squad} st={st} setSt={setSt} setDecision={setDecision} colors={team.colors} isMobile={isMobile} onScout={(p) => setPeek({ ...p, club: team.name })} />
                   </>
                 )}
               </>
             )}
             {tab === "lineup" && <LineupTab next={next} st={st} setSt={setSt} team={team} coach={nextCoach} balance={sum.balance} onGenerate={setStudio} />}
             {tab === "market" && (
-              <MarketTab st={st} setSt={setSt} balance={sum.balance} ownIds={new Set(squad.map((p) => p.id))} depth={depth} onLeague={(l) => setLeagues((x) => ({ ...x, [l.id]: l }))} isMobile={isMobile} />
+              <MarketTab st={st} setSt={setSt} balance={sum.balance} ownIds={new Set(squad.map((p) => p.id))} depth={depth} onLeague={(l) => setLeagues((x) => ({ ...x, [l.id]: l }))} isMobile={isMobile} onScout={setPeek} />
             )}
             {tab === "close" && (
               <CloseTab
@@ -401,6 +413,11 @@ function MarketClub({ slug }: { slug: string }) {
         />
       )}
       {tour && !showGuide && <Tour steps={TOUR} onClose={() => setTour(false)} />}
+      {peek && (
+        <Suspense fallback={null}>
+          <ScoutPeek slug={slug} league={peek.league} player={peek.player} club={peek.club} onClose={() => setPeek(null)} />
+        </Suspense>
+      )}
       {toast && <div className="tm-toast">{toast}</div>}
       <TapTips />
     </div>
@@ -737,9 +754,9 @@ function PendingCallout({ squad, st, setSt, onShow }: { squad: SquadPlayer[]; st
 
 const SQUAD_SORTS: [SquadSort, string][] = [["pos", "por posição"], ["value", "por valor"], ["contract", "por fim de contrato"], ["age", "por idade"]];
 
-function SquadTab({ squad, st, setSt, setDecision, colors, isMobile }: {
+function SquadTab({ squad, st, setSt, setDecision, colors, isMobile, onScout }: {
   squad: SquadPlayer[]; st: MarketState; setSt: SetSt; setDecision: (id: string, d: Decision | null) => void;
-  colors: { primary: string; secondary: string }; isMobile: boolean;
+  colors: { primary: string; secondary: string }; isMobile: boolean; onScout: (p: Omit<Peek, "club">) => void;
 }) {
   const [filter, setFilter] = useState<SquadFilter>("all");
   const [sort, setSort] = useState<SquadSort>("pos");
@@ -834,6 +851,7 @@ function SquadTab({ squad, st, setSt, setDecision, colors, isMobile }: {
                     <b className={money >= 0 ? "is-in" : "is-out"}>{money > 0 ? "+" : ""}{fmtEur(money)}{fmtRef(money) && <small className="tm-ref"> {fmtRef(money)}</small>}</b>
                   </span>
                 )}
+                <button className="tm-act tm-act--scout" onClick={() => onScout({ league: CLUB_LEAGUE, player: p })} aria-label={`Ver scout de ${p.name}`}>Ver scout</button>
               </div>
               {explicit ? (
                 <Stamp key={d.action} text={stamp} ink={ink} onClick={() => setDecision(p.id, null)} title="Desfazer a decisão" />
@@ -855,8 +873,8 @@ type MarketSort = "value" | "cheap" | "young" | "contract";
 
 const MARKET_SORTS: [MarketSort, string][] = [["value", "Mais valiosos"], ["cheap", "Mais baratos"], ["young", "Mais jovens"], ["contract", "Contrato acaba antes"]];
 
-function MarketTab({ st, setSt, balance, ownIds, depth, onLeague, isMobile }: {
-  st: MarketState; setSt: SetSt; balance: number; ownIds: Set<string>; depth: ReturnType<typeof depthChart>; onLeague: (l: MarketLeague) => void; isMobile: boolean;
+function MarketTab({ st, setSt, balance, ownIds, depth, onLeague, isMobile, onScout }: {
+  st: MarketState; setSt: SetSt; balance: number; ownIds: Set<string>; depth: ReturnType<typeof depthChart>; onLeague: (l: MarketLeague) => void; isMobile: boolean; onScout: OnScout;
 }) {
   const [sheet, setSheet] = useState(false);
   const groups = [...new Set(MARKET_INDEX.leagues.map((l) => l.group))];
@@ -1083,6 +1101,7 @@ function MarketTab({ st, setSt, balance, ownIds, depth, onLeague, isMobile }: {
                   </>
                 )}
                 <button className={`tm-star ${watch.has(wk) ? "is-on" : ""}`} aria-pressed={watch.has(wk)} aria-label={watch.has(wk) ? "Tirar dos observados" : "Observar"} onClick={() => toggleWatch(wk)}>★</button>
+                <button className="tm-act tm-act--scout" onClick={() => onScout({ league: lg.id, player: p, club: lg.clubs[p.club]?.name ?? "" })} aria-label={`Ver scout de ${p.name}`}>Ver scout</button>
               </div>
               {s && <Stamp key={s.type} text={SIGN_STAMP[s.type]} ink={s.type === "loan" ? "blue" : "green"} onClick={() => unsign(p.id)} title="Desistir da contratação" />}
             </article>

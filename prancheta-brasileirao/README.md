@@ -8,7 +8,7 @@
 | --- | --- | --- |
 | Técnico | **Prancheta tática**: monta a escalação, arrasta os jogadores e desenha a jogada | `/prancheta`, `/{slug}` |
 | Diretor de futebol | **Mercado da bola**: define o orçamento, decide quem fica e quem sai e contrata | `/mercado`, `/mercado/{slug}` |
-| Presidente | Em breve | — |
+| Olheiro | **Radar de mercado**: acha os óbvios e os não óbvios, separa em prateleiras e monta o Plano A, B e C | `/olheiro`, `/olheiro/{slug}` |
 
 A home (`/`) apresenta os papéis e deixa escolher o clube; a escolha fica salva no navegador em `mando:clube` (também atualizada ao abrir a prancheta ou o mercado de um clube) e personaliza os atalhos. As chaves já existentes (`prancheta:*`, `mercado:*`) não mudaram de nome.
 
@@ -28,7 +28,7 @@ npm run dev
 
 | Rota | O que é |
 | --- | --- |
-| `/` | Home do Meu Elenco FC: papéis (técnico, diretor de futebol) e escolha do clube |
+| `/` | Home do Meu Elenco FC: papéis (técnico, diretor de futebol, olheiro) e escolha do clube |
 | `/prancheta` | Prancheta tática: os 20 clubes, com busca |
 | `/{slug}` | Prancheta do clube (ex.: `/vasco`). Escalação compartilhada vem em `#s=...` |
 | `/{slug}/live` | Modo Live para OBS: `?bg=grass\|solid\|chroma\|transparent&ratio=16x9\|9x16&size=P\|M\|G&safe=1&creator=@handle&ui=0&score=1` |
@@ -64,6 +64,17 @@ npm run build:market                            # gera src/data/market
 O coletor guarda cada chamada em `.cache/tm/`: se o Transfermarkt bloquear no meio, rodar de novo continua de onde parou. As ligas estão em `scripts/market/competitions.json` (as sem código são procuradas pelo nome e travadas em `data/market/competitions.lock.json`). Há também a GitHub Action semanal "Mercado" (`.github/workflows/mercado-sync.yml`), que coleta e abre um PR. O Transfermarkt pode bloquear IPs de servidores; nesse caso, rode na sua máquina.
 
 Como a situação é deduzida (`scripts/lib/market.ts`): a última transferência concluída diz se o jogador chegou emprestado ("loan" para o clube) ou está emprestado fora ("loan" saindo do clube); a chegada é a última entrada no clube que não seja retorno de empréstimo; sem entrada no histórico = cria da base. Emprestados fora só aparecem se estiverem num clube das ligas coletadas. "Terminando" = contrato (ou empréstimo) que acaba antes de 01/01/2027 (`MARKET_NEXT_SEASON` muda a data).
+
+## Olheiro (`/olheiro`)
+
+Terceiro crachá: o usuário faz o papel de scout do clube. Plano completo em `docs/PLANO-OLHEIRO.md` (seção 10: só dados do Transfermarkt).
+
+- **Nota da posição (0–100):** média ponderada dos percentis de cada indicador, comparando com a mesma posição no mesmo grupo de ligas (Brasil, América do Sul, top 5…), só entre quem tem 450+ min. Indicadores sempre por 90 min e com rótulo honesto: gols, assistências, G+A, gols sofridos e jogos sem sofrer gol **com o jogador em campo**, % dos minutos possíveis e cartões. Pesos por posição em `src/scout/metrics.ts` (`POS_WEIGHTS`). Sem xG, desarmes ou passes.
+- **Índices:** custo-benefício (nota ÷ log do valor, em percentil), potencial/joia, oportunidade de contrato, subvalorizado, liga de exportação (coeficientes editáveis em `LEAGUE_COEF`) e riscos. Valorização em 12 meses e distância do pico.
+- **Buscas prontas:** os óbvios, não óbvios, joias, fim de contrato, custo-benefício que cabe no saldo, reposição (perfil parecido com um jogador do elenco) e cobrir a carência (do balancete do Mercado), mais filtros manuais.
+- **Prateleiras** (Monitorar → Observar de perto → Prioridade → Descartado, com motivo), **Planos A/B/C** por posição (até 5), **Comparador** (até 3) e nota do olheiro, salvos por clube em `olheiro:{slug}:v1`.
+- **Integração:** "Adicionar ao meu mercado" grava a contratação em `mercado:{slug}:v1` (livre se o contrato acaba antes da próxima temporada, senão compra pelo valor; sem duplicar) e abre o Mercado; os Planos A vão em lote. No Mercado, "Ver scout" abre o mesmo perfil sem sair da tela.
+- **Dados:** `src/data/scout/` (`npm run collect:scout` + `npm run build:scout`); carregados por grupo de ligas. Sem dados, a tela mostra como coletar.
 
 ## Posições: principal + 2 alternativas
 

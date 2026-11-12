@@ -7,6 +7,8 @@ import "./module-header.css";
 import { initials } from "../lib/color";
 import { navigate } from "../router";
 
+const GO_LABEL: Record<ModuleId, string> = { prancheta: "Ir para a Prancheta", mercado: "Ir para o Mercado", olheiro: "Ir para o Olheiro" };
+
 export type ModuleMenuItem = { label: string; onSelect(): void };
 
 type Props = {
@@ -21,18 +23,17 @@ type Props = {
 
 /**
  * Cabeçalho comum dos módulos: marca (→ Home), crachá do clube (troca de clube, fica no módulo),
- * chave Prancheta | Mercado (mantém o clube), ações do módulo e menu "⋯".
+ * chave Prancheta | Mercado | Olheiro (mantém o clube), ações do módulo e menu "⋯".
  * "bar" = desktop; "app" = celular (52px; a chave de módulo vai para o menu).
  */
 export function ModuleHeader({ module, slug, clubName, crest, variant, actions, menuItems }: Props) {
   const [sheet, setSheet] = useState(false);
   const app = variant === "app";
-  const other = MODULES.find((m) => m.id !== module)!;
 
   const items: ModuleMenuItem[] = [...(menuItems ?? [])];
   if (app) {
     items.push(
-      { label: other.id === "mercado" ? "Ir para o Mercado" : "Ir para a Prancheta", onSelect: () => navigate(moduleHref(other.id, slug)) },
+      ...MODULES.filter((m) => m.id !== module).map((m) => ({ label: GO_LABEL[m.id], onSelect: () => navigate(moduleHref(m.id, slug)) })),
       { label: "Trocar de clube", onSelect: () => setSheet(true) },
       { label: "Início", onSelect: () => navigate("/") },
     );
