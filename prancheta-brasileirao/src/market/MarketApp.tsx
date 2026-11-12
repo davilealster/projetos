@@ -1,11 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
-import "@fontsource/big-shoulders-display/latin-700";
-import "@fontsource/big-shoulders-display/latin-900";
-import "@fontsource/big-shoulders-stencil-display/latin-800";
-import "@fontsource-variable/hanken-grotesk";
-import "@fontsource/dm-mono/latin-400";
-import "@fontsource/dm-mono/latin-500";
+import "../brand/brand.css";
 import "./market.css";
+import { BrandMark } from "../brand/BrandMark";
 import { TEAMS, teamSummary } from "../data";
 import { navigate } from "../router";
 import { clubVars, initials } from "../lib/color";
@@ -105,7 +101,7 @@ const ICON = {
 
 export default function MarketApp({ slug }: { slug: string | null }) {
   useEffect(() => {
-    document.title = "Mercado da bola · Prancheta Brasileirão";
+    document.title = "Mercado da bola · Mando";
     document.documentElement.classList.add("is-market");
     return () => document.documentElement.classList.remove("is-market");
   }, []);
@@ -155,7 +151,7 @@ function MarketHome() {
   return (
     <div className="tm tm-home">
       <nav className="tm-nav">
-        <a href="/" onClick={go("/")}>← Prancheta tática</a>
+        <BrandMark size="sm" />
         {MARKET_INDEX.collectedAt && <span>Dados de {new Date(`${MARKET_INDEX.collectedAt}T12:00:00`).toLocaleDateString("pt-BR")}</span>}
       </nav>
       <header className="tm-hero">

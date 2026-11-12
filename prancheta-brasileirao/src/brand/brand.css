@@ -1,0 +1,85 @@
+/* Mando — sistema visual compartilhado (Home + Mercado). Fontes são importadas em BrandMark.tsx. */
+.brand, .tm {
+  --felt: #0f2a23;
+  --felt-deep: #0a1f1a;
+  --felt-line: rgba(239, 230, 210, 0.12);
+  --paper: #efe6d2;
+  --paper-edge: #d9cdb2;
+  --ink: #1d1b16;
+  --ink-soft: #5f584b;
+  --brass: #e0b95a;
+  --cream: #efe6d2;
+  --cream-soft: #a9b5a8;
+  /* tinta dos carimbos (sobre papel) */
+  --ink-green: #1c7a45;
+  --ink-red: #c2331f;
+  --ink-blue: #1d4fa3;
+  --ink-amber: #a86a10;
+  /* gráficos (sobre feltro) — validadas para daltonismo */
+  --c-stay: #2fa58c;
+  --c-leave: #e0603f;
+  --c-new: #4d8fe0;
+  --c-warn: #b88a1e;
+  --c-neutral: #8fa39a;
+  --f-display: "Big Shoulders Display", "Arial Narrow", sans-serif;
+  --f-stamp: "Big Shoulders Stencil Display", "Big Shoulders Display", sans-serif;
+  --f-body: "Hanken Grotesk Variable", system-ui, sans-serif;
+  --f-data: "DM Mono", ui-monospace, monospace;
+}
+
+html.is-brand, html.is-brand body { background: #0f2a23; }
+
+.brand {
+  min-height: 100vh;
+  color: var(--cream);
+  font-family: var(--f-body);
+  font-size: 15px;
+  line-height: 1.45;
+  background:
+    radial-gradient(120% 60% at 50% -10%, #1a4636 0%, transparent 60%),
+    repeating-linear-gradient(115deg, rgba(255, 255, 255, 0.012) 0 2px, transparent 2px 5px),
+    var(--felt);
+}
+.brand *, .brand *::before, .brand *::after { box-sizing: border-box; }
+:where(.brand) button, :where(.brand) input, :where(.brand) select { font: inherit; color: inherit; }
+.brand :focus-visible { outline: 2px solid var(--brass); outline-offset: 2px; }
+
+.brand-eyebrow { margin: 0; font-family: var(--f-data); font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--brass); }
+
+/* ---- botões ---- */
+.brand-btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 6px; padding: 9px 16px; border-radius: 4px; cursor: pointer;
+  border: 1px solid rgba(239, 230, 210, 0.3); background: transparent; color: var(--cream); font-weight: 650; font-size: 14px; text-decoration: none; white-space: nowrap;
+  transition: background 0.15s, transform 0.1s;
+}
+.brand-btn:hover { background: rgba(239, 230, 210, 0.08); }
+.brand-btn:active { transform: translateY(1px); }
+.brand-btn--brass { background: var(--brass); border-color: var(--brass); color: var(--ink); }
+.brand-btn--brass:hover { background: #ecc973; }
+
+/* ---- carimbo ---- */
+.brand-stamp {
+  display: inline-block; font-family: var(--f-stamp); font-weight: 800; font-size: 19px; line-height: 1; letter-spacing: 0.07em; text-transform: uppercase;
+  padding: 4px 10px 3px; border: 2.5px solid currentColor; border-radius: 5px; background: transparent; transform: rotate(-7deg);
+  opacity: 0.88; mix-blend-mode: multiply; white-space: nowrap;
+}
+.brand-stamp--green { color: var(--ink-green); } .brand-stamp--red { color: var(--ink-red); }
+.brand-stamp--blue { color: var(--ink-blue); } .brand-stamp--amber { color: var(--ink-amber); border-style: dashed; }
+
+/* ---- marca ---- */
+.mando-mark {
+  --brand-cream: #efe6d2;
+  --brand-brass: #e0b95a;
+  display: inline-flex; align-items: center; gap: 8px; color: var(--brand-cream); text-decoration: none; line-height: 1;
+  border-radius: 4px; -webkit-tap-highlight-color: transparent;
+}
+.mando-mark__glyph { flex: none; color: var(--brand-brass); transition: transform 0.25s cubic-bezier(0.2, 1.2, 0.4, 1); }
+.mando-mark__word {
+  font-family: "Big Shoulders Display", "Arial Narrow", sans-serif; font-weight: 900; text-transform: uppercase;
+  letter-spacing: 0.02em; font-size: 24px; transform: translateY(1px);
+}
+.mando-mark--lg { gap: 10px; }
+.mando-mark--lg .mando-mark__word { font-size: 34px; }
+.mando-mark:focus-visible { outline: 2px solid var(--brand-brass); outline-offset: 3px; }
+@media (hover: hover) { .mando-mark:hover .mando-mark__glyph { transform: rotate(-18deg); } }
+@media (prefers-reduced-motion: reduce) { .mando-mark__glyph { transition: none; } }

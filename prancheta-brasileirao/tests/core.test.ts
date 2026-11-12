@@ -3,6 +3,8 @@ import {
   isAbbreviated, mapApiPosition, mapSportsDbPosition, matchPlayerName, matchTeamSlug,
   mergePlayers, needsPositionReview, parsePtPositions, sortPlayers, stripMeta, type Pos, type RawPlayer,
 } from "../scripts/lib/core";
+import { TEAMS } from "../src/data";
+import { parseRoute } from "../src/router";
 
 const raw = (o: Partial<RawPlayer> & { id: number }): RawPlayer => ({
   name: `Jogador ${o.id}`, number: null, position: "Midfielder", photo: null, ...o,
@@ -166,5 +168,22 @@ describe("cor contrastante para as linhas do adversário", async () => {
   });
   it("vermelho x azul mantém o azul", () => {
     expect(distinctColor("#E30613", ["#0055A4"])).toBe("#0055A4");
+  });
+});
+
+describe("parseRoute (Mando)", () => {
+  it("separa home, seletor da prancheta, prancheta do clube e mercado", () => {
+    expect(parseRoute("/")).toEqual({ page: "home" });
+    expect(parseRoute("/prancheta")).toEqual({ page: "picker" });
+    expect(parseRoute("/vasco")).toEqual({ page: "board", slug: "vasco", live: false });
+    expect(parseRoute("/vasco/live")).toEqual({ page: "board", slug: "vasco", live: true });
+    expect(parseRoute("/mercado")).toEqual({ page: "market", slug: null });
+    expect(parseRoute("/mercado/vasco")).toEqual({ page: "market", slug: "vasco" });
+  });
+
+  it("nenhum slug de clube colide com rotas reservadas", () => {
+    const reserved = ["prancheta", "mercado", "creator", "admin"];
+    expect(TEAMS.length).toBe(20);
+    expect(TEAMS.filter((t) => reserved.includes(t.slug))).toEqual([]);
   });
 });

@@ -1,6 +1,16 @@
-# Prancheta Brasileirão
+# Mando
 
-Prancheta tática online com os 20 clubes da Série A 2026. Projeto independente, sem vínculo com CBF ou clubes.
+**O clube é seu. Você decide.** Assuma um dos 20 clubes da Série A 2026 e escolha o seu papel: no campo como técnico (Prancheta tática) ou no mercado como diretor de futebol (Mercado da bola). Sem cadastro. Projeto independente, sem vínculo com CBF ou clubes.
+
+## Módulos
+
+| Papel | Módulo | Rota |
+| --- | --- | --- |
+| Técnico | **Prancheta tática**: monta a escalação, arrasta os jogadores e desenha a jogada | `/prancheta`, `/{slug}` |
+| Diretor de futebol | **Mercado da bola**: define o orçamento, decide quem fica e quem sai e contrata | `/mercado`, `/mercado/{slug}` |
+| Presidente | Em breve | — |
+
+A home (`/`) apresenta os papéis e deixa escolher o clube; a escolha fica salva no navegador em `mando:clube` (também atualizada ao abrir a prancheta ou o mercado de um clube) e personaliza os atalhos. As chaves já existentes (`prancheta:*`, `mercado:*`) não mudaram de nome.
 
 Stack: Vite + React + TypeScript (front estático) e scripts Node em TypeScript (`tsx`) para os dados.
 
@@ -18,7 +28,8 @@ npm run dev
 
 | Rota | O que é |
 | --- | --- |
-| `/` | Os 20 clubes, com busca |
+| `/` | Home do Mando: papéis (técnico, diretor de futebol) e escolha do clube |
+| `/prancheta` | Prancheta tática: os 20 clubes, com busca |
 | `/{slug}` | Prancheta do clube (ex.: `/vasco`). Escalação compartilhada vem em `#s=...` |
 | `/{slug}/live` | Modo Live para OBS: `?bg=grass\|solid\|chroma\|transparent&ratio=16x9\|9x16&size=P\|M\|G&safe=1&creator=@handle&ui=0&score=1` |
 | `/creator` | Página para influenciadores: gerador de URL do OBS, atalhos e aviso de imagens |
@@ -38,7 +49,7 @@ Módulo separado da prancheta: o usuário escolhe um clube da Série A, define o
 
 ### Design do módulo
 
-O Mercado tem identidade própria (`src/market/market.css`): a mesa do dirigente em feltro verde, cada jogador numa ficha de papel e cada decisão num carimbo (clicar no carimbo desfaz). Fontes embutidas via `@fontsource`: Big Shoulders (títulos e carimbos), Hanken Grotesk (texto) e DM Mono (valores). O fluxo é em quatro etapas (Elenco → Mercado → Fechamento → Escalação), com passo a passo na primeira visita, balancete lateral sempre visível (barra fixa no celular) e quatro gráficos no fechamento: cascata do dinheiro, profundidade por posição, fim dos contratos por ano e idade × valor. As cores dos gráficos foram validadas para daltonismo, e quem sai/chega também se distingue pela forma.
+O Mercado tem identidade própria (`src/market/market.css`), com os tokens de cor e as fontes compartilhados com a home em `src/brand/brand.css`: a mesa do dirigente em feltro verde, cada jogador numa ficha de papel e cada decisão num carimbo (clicar no carimbo desfaz). Fontes embutidas via `@fontsource`: Big Shoulders (títulos e carimbos), Hanken Grotesk (texto) e DM Mono (valores). O fluxo é em quatro etapas (Elenco → Mercado → Fechamento → Escalação), com passo a passo na primeira visita, balancete lateral sempre visível (barra fixa no celular) e quatro gráficos no fechamento: cascata do dinheiro, profundidade por posição, fim dos contratos por ano e idade × valor. As cores dos gráficos foram validadas para daltonismo, e quem sai/chega também se distingue pela forma.
 
 ### Dados (Transfermarkt)
 

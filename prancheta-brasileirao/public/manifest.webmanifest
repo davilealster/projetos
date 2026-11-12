@@ -1,7 +1,7 @@
 {
-  "name": "Prancheta Brasileirão",
-  "short_name": "Prancheta",
-  "description": "Prancheta tática com os 20 clubes da Série A. Monte a escalação, desenhe a jogada e compartilhe.",
+  "name": "Mando",
+  "short_name": "Mando",
+  "description": "Assuma o seu clube da Série A: monte a escalação na prancheta tática como técnico e comande a janela de transferências como diretor de futebol. Sem cadastro.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",

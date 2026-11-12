@@ -45,7 +45,7 @@ export function CreatorPage() {
 
   return (
     <div className="creator">
-      <a className="back" href="/" onClick={(e) => (e.preventDefault(), navigate("/"))}>← Clubes</a>
+      <a className="back" href="/prancheta" onClick={(e) => (e.preventDefault(), navigate("/prancheta"))}>← Clubes</a>
       <header className="creator__hero">
         <p className="home__kicker">Para quem faz live</p>
         <h1 className="home__title">Prancheta <span>na sua live</span></h1>

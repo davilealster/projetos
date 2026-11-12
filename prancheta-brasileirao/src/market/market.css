@@ -1,31 +1,5 @@
 /* Mercado da bola — a mesa do dirigente: feltro verde, fichas de papel, tinta de carimbo e latão. */
 .tm {
-  --felt: #0f2a23;
-  --felt-deep: #0a1f1a;
-  --felt-line: rgba(239, 230, 210, 0.12);
-  --paper: #efe6d2;
-  --paper-edge: #d9cdb2;
-  --ink: #1d1b16;
-  --ink-soft: #5f584b;
-  --brass: #e0b95a;
-  --cream: #efe6d2;
-  --cream-soft: #a9b5a8;
-  /* tinta dos carimbos (sobre papel) */
-  --ink-green: #1c7a45;
-  --ink-red: #c2331f;
-  --ink-blue: #1d4fa3;
-  --ink-amber: #a86a10;
-  /* gráficos (sobre feltro) — validadas para daltonismo */
-  --c-stay: #2fa58c;
-  --c-leave: #e0603f;
-  --c-new: #4d8fe0;
-  --c-warn: #b88a1e;
-  --c-neutral: #8fa39a;
-  --f-display: "Big Shoulders Display", "Arial Narrow", sans-serif;
-  --f-stamp: "Big Shoulders Stencil Display", "Big Shoulders Display", sans-serif;
-  --f-body: "Hanken Grotesk Variable", system-ui, sans-serif;
-  --f-data: "DM Mono", ui-monospace, monospace;
-
   min-height: 100vh;
   color: var(--cream);
   font-family: var(--f-body);
@@ -124,6 +98,9 @@ button.tm-stamp:hover { opacity: 0.55; }
 .tm-home { padding: 0 20px 28px; }
 .tm-nav { max-width: 1120px; margin: 0 auto; padding: 16px 0; display: flex; justify-content: space-between; font-size: 13px; color: var(--cream-soft); font-family: var(--f-data); }
 .tm-nav a { color: var(--cream); text-decoration: none; }
+/* a marca (24px) não pode empurrar a página: a nav mantém a altura da linha de texto de antes */
+.tm-nav { align-items: center; }
+.tm-nav > a:first-child { margin-block: -2.6px; }
 .tm-hero { max-width: 1120px; margin: 0 auto; display: grid; grid-template-columns: 1.15fr 1fr; gap: 40px; align-items: center; padding: 28px 0 56px; }
 .tm-hero h1 { margin: 10px 0 18px; font-family: var(--f-display); font-weight: 900; text-transform: uppercase; font-size: clamp(60px, 10.5vw, 136px); line-height: 0.84; letter-spacing: -0.01em; }
 .tm-hero h1 em { font-style: normal; color: var(--brass); }

@@ -385,7 +385,7 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
     return (
       <div className="notfound">
         <p>Clube não encontrado.</p>
-        <a href="/" onClick={(e) => (e.preventDefault(), navigate("/"))}>Ver os 20 clubes</a>
+        <a href="/prancheta" onClick={(e) => (e.preventDefault(), navigate("/prancheta"))}>Ver os 20 clubes</a>
       </div>
     );
   }
@@ -751,7 +751,7 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
         style={vars}
         title={team.shortName}
         crest={team.crest}
-        onBack={() => navigate("/")}
+        onBack={() => navigate("/prancheta")}
         onLive={() => navigate(`/${slug}/live?ratio=9x16`)}
         onUndo={undo}
         banner={bannerNode}
@@ -816,7 +816,7 @@ export function Board({ slug, live }: { slug: string; live: boolean }) {
   return (
     <div className={`board ${uiHidden ? "is-focus" : ""}`} style={vars}>
       <header className="board__head">
-        <a className="back" href="/" onClick={(e) => (e.preventDefault(), navigate("/"))}>← Clubes</a>
+        <a className="back" href="/prancheta" onClick={(e) => (e.preventDefault(), navigate("/prancheta"))}>← Clubes</a>
         <div className="board__club">
           {team.crest && <img src={team.crest} alt="" width={40} height={40} />}
           <h1>{team.name}</h1>

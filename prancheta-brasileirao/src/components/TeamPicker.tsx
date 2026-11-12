@@ -1,15 +1,19 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { TEAMS } from "../data";
 import { navigate } from "../router";
 import { clubVars } from "../lib/color";
 import { applyTeamSummary, useOverrides } from "../lib/overrides";
 import { Footer } from "./Footer";
+import { BrandMark } from "../brand/BrandMark";
 
 const norm = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
 
 export function TeamPicker() {
   const [q, setQ] = useState("");
   const doc = useOverrides();
+  useEffect(() => {
+    document.title = "Prancheta tática · Mando";
+  }, []);
   const list = useMemo(
     () =>
       TEAMS.map((t) => applyTeamSummary(t, doc)).filter((t) =>
@@ -20,14 +24,14 @@ export function TeamPicker() {
   return (
     <div className="home">
       <header className="home__hero">
+        <div className="home__brand">
+          <BrandMark size="sm" />
+        </div>
         <p className="home__kicker">Série A 2026 · 20 clubes</p>
         <h1 className="home__title">
-          Prancheta <span>Brasileirão</span>
+          Prancheta <span>tática</span>
         </h1>
         <p className="home__lead">Escolha o seu time, arraste os jogadores e monte a escalação. Sem cadastro.</p>
-        <a className="home__module" href="/mercado" onClick={(e) => (e.preventDefault(), navigate("/mercado"))}>
-          <b>Novo: Mercado da bola</b> · sente na cadeira do dirigente e monte o elenco de 2027 →
-        </a>
         <input
           className="home__search"
           type="search"

@@ -2,6 +2,9 @@ import { Suspense, lazy, useEffect } from "react";
 import { Board } from "./components/Board";
 import { CreatorPage } from "./components/CreatorPage";
 import { TeamPicker } from "./components/TeamPicker";
+import { teamSummary } from "./data";
+import { Home } from "./home/Home";
+import { setLastClub } from "./lib/lastClub";
 import { navigate, useRoute } from "./router";
 
 const AdminApp = lazy(() => import("./admin/AdminApp"));
@@ -10,10 +13,15 @@ const MarketApp = lazy(() => import("./market/MarketApp"));
 export function App() {
   const route = useRoute();
   useEffect(() => {
-    document.documentElement.classList.toggle("is-live", route.page === "board" && route.live);
+    const html = document.documentElement;
+    html.classList.toggle("is-live", route.page === "board" && route.live);
+    html.classList.toggle("is-brand", route.page === "home");
+    const slug = route.page === "board" && !route.live ? route.slug : route.page === "market" ? route.slug : null;
+    if (slug && teamSummary(slug)) setLastClub(slug);
   }, [route]);
 
-  if (route.page === "home") return <TeamPicker />;
+  if (route.page === "home") return <Home />;
+  if (route.page === "picker") return <TeamPicker />;
   if (route.page === "creator") return <CreatorPage />;
   if (route.page === "market")
     return (
@@ -31,7 +39,7 @@ export function App() {
   return (
     <div className="notfound">
       <p>Página não encontrada.</p>
-      <a href="/" onClick={(e) => (e.preventDefault(), navigate("/"))}>Ver os 20 clubes</a>
+      <a href="/" onClick={(e) => (e.preventDefault(), navigate("/"))}>Voltar ao início</a>
     </div>
   );
 }
