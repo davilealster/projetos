@@ -30,6 +30,7 @@ Módulo separado da prancheta: o usuário escolhe um clube da Série A, define o
 
 - **Elenco atual:** valor de mercado, fim de contrato, situação (do clube, emprestado ao clube, emprestado fora) e como chegou (comprado de X por €, livre, empréstimo, base).
 - **Decisões:** do clube → mantém, vende, empresta ou dispensa; contrato terminando → renova, deixa sair livre ou vende; chegou emprestado → mantém o empréstimo, devolve ou compra em definitivo; emprestado fora → traz de volta, segue emprestado ou vende. Vendas e compras aceitam valor próprio.
+- **Moeda:** euro ou real (seletor € | R$ no balancete e no passo a passo). Em euro, os valores vêm com a referência em reais; a cotação é editável. Os dados ficam em euros, só a exibição muda.
 - **Técnico:** mantém ou demite; se demitir, contrata um dos técnicos das 23 ligas coletadas.
 - **Mercado:** 23 ligas (Brasil, América do Sul, top 5 da Europa, outros europeus, MLS, México, Arábia, Catar, Emirados). Filtros por liga, nome, posição, idade, valor e "só livres" (contrato terminando). Compra, empréstimo ou contratação livre.
 - **Resumo:** receitas, gastos, saldo, valor e idade média do elenco, chegadas, saídas, decisões pendentes e alertas de elenco (goleiros, laterais etc.).

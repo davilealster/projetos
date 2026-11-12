@@ -55,6 +55,8 @@ export interface MarketState {
   useSales: boolean;
   /** cotação do euro em reais, para mostrar valores em R$ */
   rate: number;
+  /** moeda de exibição; em euros, sempre com a referência em reais */
+  currency: Currency;
   decisions: Record<string, Decision>;
   signings: Signing[];
   /** já passou pelo passo a passo inicial */
@@ -77,7 +79,7 @@ export interface Lineup {
   subs: string[][];
 }
 
-export const emptyMarketState = (): MarketState => ({ budget: 20_000_000, useSales: true, rate: 6.2, decisions: {}, signings: [], onboarded: false, watch: [],
+export const emptyMarketState = (): MarketState => ({ budget: 20_000_000, useSales: true, rate: 6.2, currency: "EUR", decisions: {}, signings: [], onboarded: false, watch: [],
   coach: { action: "keep", hire: null }, lineup: null, formation: "4-3-3" });
 
 const ends = (date: string | null | undefined, cutoff: string) => !!date && date < cutoff;
@@ -171,8 +173,31 @@ export function summarize(
 // ---------- formatação ----------
 
 /** 12500000 → "€ 12,5 mi"; 800000 → "€ 800 mil". */
+// ---------- moeda ----------
+// Os valores ficam sempre em euros (como no Transfermarkt); só a exibição muda.
+// O clube aberto define o modo ao renderizar (setMoneyMode), antes dos filhos.
+export type Currency = "EUR" | "BRL";
+const MONEY = { cur: "EUR" as Currency, rate: 6.2 };
+export function setMoneyMode(cur: Currency, rate: number): void {
+  MONEY.cur = cur;
+  MONEY.rate = rate;
+}
+export const moneyMode = () => MONEY.cur;
+/** símbolo da moeda de exibição */
+export const curUnit = () => (MONEY.cur === "BRL" ? "R$" : "€");
+/** euros → moeda de exibição (para campos de entrada) */
+export const toUnit = (eur: number) => (MONEY.cur === "BRL" ? eur * MONEY.rate : eur);
+/** moeda de exibição → euros */
+export const fromUnit = (v: number) => (MONEY.cur === "BRL" ? v / MONEY.rate : v);
+/** referência em reais quando a exibição é em euros ("" em reais) */
+export const fmtRef = (v: number | null | undefined) => (MONEY.cur === "EUR" && v != null ? fmtBrl(v, MONEY.rate) : "");
+/** valor na moeda escolhida, com "(R$ …)" quando em euros */
+export const fmtMoney = (v: number | null | undefined) => (fmtRef(v) ? `${fmtEur(v)} (${fmtRef(v)})` : fmtEur(v));
+
+/** Valor na moeda de exibição (o nome ficou de quando só havia euro). */
 export function fmtEur(v: number | null | undefined): string {
   if (v == null) return "—";
+  if (MONEY.cur === "BRL") return fmtBrl(v, MONEY.rate);
   const abs = Math.abs(v);
   const sign = v < 0 ? "– " : "";
   if (abs >= 1e6) return `${sign}€ ${(abs / 1e6).toLocaleString("pt-BR", { maximumFractionDigits: abs >= 1e8 ? 0 : 1 })} mi`;
@@ -185,8 +210,9 @@ export function fmtBrl(v: number | null | undefined, rate: number): string {
   const r = v * rate;
   const abs = Math.abs(r);
   const sign = r < 0 ? "– " : "";
-  if (abs >= 1e6) return `${sign}R$ ${(abs / 1e6).toLocaleString("pt-BR", { maximumFractionDigits: 1 })} mi`;
-  return `${sign}R$ ${Math.round(abs / 1e3)} mil`;
+  if (abs >= 1e6) return `${sign}R$ ${(abs / 1e6).toLocaleString("pt-BR", { maximumFractionDigits: abs >= 1e8 ? 0 : 1 })} mi`;
+  if (abs >= 1e3) return `${sign}R$ ${Math.round(abs / 1e3)} mil`;
+  return `${sign}R$ ${Math.round(abs)}`;
 }
 
 export const fmtDate = (d: string | null | undefined) => {

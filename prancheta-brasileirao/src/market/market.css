@@ -713,3 +713,19 @@ button.lu-slot:hover .lu-slot__photo { transform: translateY(-2px); }
 }
 .sty__formation--coach { font-family: var(--f-body); letter-spacing: 0; font-size: 16px; }
 .sty__formation--coach b { font-weight: 750; color: #fff; }
+
+/* moeda: € | R$ (no balancete) e referência em reais */
+.tm-ledger__head { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.tm-cur { display: inline-flex; padding: 2px; border-radius: 999px; border: 1px solid var(--felt-line); background: var(--felt-deep); }
+.tm-cur button { min-width: 38px; padding: 4px 10px; border: 0; border-radius: 999px; background: none; color: var(--cream-soft); font-family: var(--f-data); font-size: 12px; font-weight: 500; cursor: pointer; }
+.tm-cur button.is-on { background: var(--brass); color: var(--ink); }
+.tm-ref { font-style: normal; font-family: var(--f-data); font-size: 0.78em; font-weight: 400; color: var(--ink-soft); white-space: nowrap; }
+.tm-opt .tm-ref { display: block; font-size: 11px; margin-top: -2px; }
+.lu-foot .tm-ref { display: block; color: var(--cream-soft); font-size: 11px; }
+.tm-price .tm-ref { font-size: 11px; }
+.tm-chip__ref { display: block; font-size: 9.5px; line-height: 1; opacity: 0.75; margin-top: 1px; }
+.tm-guide__cur { display: flex; align-items: center; gap: 10px; margin: -4px 0 14px; font-size: 13px; color: var(--ink-soft); }
+.tm-guide .tm-cur { background: #f8f2e3; border-color: rgba(29, 27, 22, 0.25); }
+.tm-guide .tm-cur button { color: var(--ink-soft); }
+.tm-guide .tm-cur button.is-on { background: var(--ink); color: var(--paper); }
+.tm-sheet__body .tm-ledger__head { padding-right: 46px; }

@@ -15,9 +15,9 @@ import { AgeValue, ContractYears, Depth, Legend, TapTips, Waterfall } from "./Ch
 import { PitchView } from "./PitchView";
 import { MARKET_INDEX, hasMarketData, loadClubMarket, loadLeague, loadMarketState, saveMarketState } from "./data";
 import {
-  ACTION_LABEL, PRICED, SIGNING_LABEL, actionsFor, contractYears, decisionOf, depthChart, emptyMarketState, fmtBrl, fmtDate,
+  ACTION_LABEL, PRICED, SIGNING_LABEL, actionsFor, contractYears, decisionOf, depthChart, emptyMarketState, fmtDate, curUnit, fmtMoney, fmtRef, fromUnit, setMoneyMode, toUnit,
   FOREIGN_LIMIT, fmtEur, isEnding, isFreeAgent, moneyOf, nextSeason, posRank, shareText, staysWith, summarize, waterfall,
-  type Decision, type Lineup, type MarketState, type SigningType, type SquadAction,
+  type Currency, type Decision, type Lineup, type MarketState, type SigningType, type SquadAction,
 } from "./logic";
 import type { ClubMarket, MarketLeague, MarketPlayer, SquadPlayer } from "./types";
 import { CoachCard, LineupTab, StoryStudio, useNextCoach } from "./Lineup";
@@ -221,6 +221,7 @@ function MarketClub({ slug }: { slug: string }) {
   const team = applyTeamSummary(teamSummary(slug)!, doc);
   const [club, setClub] = useState<ClubMarket | null | undefined>(undefined);
   const [st, setSt] = useState<MarketState>(() => loadMarketState(slug));
+  setMoneyMode(st.currency, st.rate); // antes de renderizar os filhos: todos os valores saem na moeda escolhida
   const [tab, setTab] = useState<Tab>("squad");
   const [leagues, setLeagues] = useState<Record<string, MarketLeague>>({});
   const [guide, setGuide] = useState(false);
@@ -314,6 +315,7 @@ function MarketClub({ slug }: { slug: string }) {
           {ready && (
             <button className={`tm-chip ${sum.balance < 0 ? "is-neg" : ""}`} onClick={() => setSheet(true)} aria-label={`Saldo ${fmtEur(sum.balance)}. Abrir o balancete`}>
               {fmtEur(sum.balance)}
+              {fmtRef(sum.balance) && <small className="tm-chip__ref">{fmtRef(sum.balance)}</small>}
             </button>
           )}
           <button className="tm-apphead__more" aria-label="Mais opções" aria-expanded={menu} onClick={() => setMenu(!menu)}>⋯</button>
@@ -427,7 +429,7 @@ function MarketClub({ slug }: { slug: string }) {
                 }}
                 onReset={() => {
                   if (confirm("Recomeçar a janela? Todas as decisões e contratações deste clube serão apagadas.")) {
-                    setSt({ ...emptyMarketState(), onboarded: true, rate: st.rate });
+                    setSt({ ...emptyMarketState(), onboarded: true, rate: st.rate, currency: st.currency });
                     setTab("squad");
                   }
                 }}
@@ -501,10 +503,12 @@ function Guide({ team, st, setSt, pending, loans, onDone }: {
           <>
             <p className="tm-eyebrow">Passo 1 de 3</p>
             <h2>Quanto a diretoria do {team} liberou?</h2>
+            <div className="tm-guide__cur"><span>Ver valores em</span><CurrencySwitch st={st} setSt={setSt} /></div>
             <div className="tm-guide__opts">
               {BUDGET_OPTIONS.map(([v, title, sub]) => (
                 <button key={v} className={`tm-opt ${st.budget === v * 1e6 ? "is-on" : ""}`} onClick={() => setSt((s) => ({ ...s, budget: v * 1e6 }))}>
-                  <b>€ {v} mi</b>
+                  <b>{fmtEur(v * 1e6)}</b>
+                  {fmtRef(v * 1e6) && <em className="tm-ref">{fmtRef(v * 1e6)}</em>}
                   <span>{title}</span>
                   <small>{sub}</small>
                 </button>
@@ -512,8 +516,8 @@ function Guide({ team, st, setSt, pending, loans, onDone }: {
             </div>
             <label className="tm-field">
               Outro valor
-              <input type="number" min={0} value={st.budget / 1e6} onChange={(e) => setSt((s) => ({ ...s, budget: Math.max(0, Number(e.target.value) || 0) * 1e6 }))} />
-              <span>€ mi ({fmtBrl(st.budget, st.rate)})</span>
+              <BudgetInput st={st} setSt={setSt} />
+              <span>{curUnit()} mi{fmtRef(st.budget) ? ` (${fmtRef(st.budget)})` : ""}</span>
             </label>
             <label className="tm-check">
               <input type="checkbox" checked={st.useSales} onChange={(e) => setSt((s) => ({ ...s, useSales: e.target.checked }))} />
@@ -587,17 +591,20 @@ function Ledger({ st, setSt, sum, steps, depth, foreigners, onNext, nextLabel }:
   const short = depth.filter((d) => d.short);
   return (
     <div className="tm-ledger">
-      <p className="tm-eyebrow">Balancete</p>
+      <div className="tm-ledger__head">
+        <p className="tm-eyebrow">Balancete</p>
+        <CurrencySwitch st={st} setSt={setSt} />
+      </div>
       <p className={`tm-ledger__bal ${sum.balance < 0 ? "is-neg" : ""}`}>
         {fmtEur(sum.balance)}
-        <small>{fmtBrl(sum.balance, st.rate)} de saldo</small>
+        <small>{fmtRef(sum.balance) ? `${fmtRef(sum.balance)} de saldo` : "de saldo"}</small>
       </p>
       <Waterfall steps={steps} compact />
       <div className="tm-ledger__budget">
         <label className="tm-field">
           Orçamento
-          <input type="number" min={0} value={st.budget / 1e6} onChange={(e) => setSt((s) => ({ ...s, budget: Math.max(0, Number(e.target.value) || 0) * 1e6 }))} />
-          <span>€ mi</span>
+          <BudgetInput st={st} setSt={setSt} />
+          <span>{curUnit()} mi</span>
         </label>
         <label className="tm-field" title="Cotação usada para mostrar valores em reais">
           € 1 = R$
@@ -616,6 +623,32 @@ function Ledger({ st, setSt, sum, steps, depth, foreigners, onNext, nextLabel }:
       {short.length > 0 && <p className="tm-ledger__warn">Faltam: {short.map((d) => `${d.short} ${d.pos}`).join(", ")}</p>}
       {onNext && <button className="tm-btn tm-btn--brass tm-ledger__next" onClick={onNext}>{nextLabel} →</button>}
     </div>
+  );
+}
+
+// ============ moeda ============
+
+/** € | R$ — em euros, os valores vêm sempre com a referência em reais. */
+function CurrencySwitch({ st, setSt }: { st: MarketState; setSt: SetSt }) {
+  const opts: [Currency, string, string][] = [["EUR", "€", "Euro"], ["BRL", "R$", "Real"]];
+  return (
+    <div className="tm-cur" role="radiogroup" aria-label="Moeda">
+      {opts.map(([c, sym, name]) => (
+        <button key={c} role="radio" aria-checked={st.currency === c} className={st.currency === c ? "is-on" : ""} title={name} onClick={() => setSt((s) => ({ ...s, currency: c }))}>{sym}</button>
+      ))}
+    </div>
+  );
+}
+
+/** Orçamento digitado na moeda escolhida (guardado em euros). */
+function BudgetInput({ st, setSt }: { st: MarketState; setSt: SetSt }) {
+  return (
+    <input
+      type="number"
+      min={0}
+      value={Math.round((toUnit(st.budget) / 1e6) * 10) / 10}
+      onChange={(e) => setSt((s) => ({ ...s, budget: Math.round(fromUnit(Math.max(0, Number(e.target.value) || 0) * 1e6)) }))}
+    />
   );
 }
 
@@ -652,8 +685,8 @@ function arrivalText(p: SquadPlayer): string {
   const year = a.date ? ` em ${a.date.slice(0, 4)}` : "";
   if (a.type === "youth") return "Cria da base";
   if (a.type === "freeTransfer") return `Chegou livre${a.from ? ` do ${a.from}` : ""}${year}`;
-  if (a.type === "loan") return `Empréstimo do ${a.from ?? "?"}${a.fee ? `, taxa de ${fmtEur(a.fee)}` : ""}`;
-  if (a.type === "transfer") return `Comprado do ${a.from ?? "?"}${a.fee ? ` por ${fmtEur(a.fee)}` : ""}${year}`;
+  if (a.type === "loan") return `Empréstimo do ${a.from ?? "?"}${a.fee ? `, taxa de ${fmtMoney(a.fee)}` : ""}`;
+  if (a.type === "transfer") return `Comprado do ${a.from ?? "?"}${a.fee ? ` por ${fmtMoney(a.fee)}` : ""}${year}`;
   return "";
 }
 
@@ -666,8 +699,8 @@ function contractText(p: SquadPlayer): string {
 function Price({ value, onChange, label }: { value: number; onChange: (v: number) => void; label: string }) {
   return (
     <label className="tm-price">
-      {label} €
-      <input type="number" min={0} step={0.1} value={Math.round((value / 1e6) * 10) / 10} onChange={(e) => onChange(Math.max(0, Number(e.target.value) || 0) * 1e6)} />
+      {label} {curUnit()}
+      <input type="number" min={0} step={0.1} value={Math.round((toUnit(value) / 1e6) * 10) / 10} onChange={(e) => onChange(Math.round(fromUnit(Math.max(0, Number(e.target.value) || 0) * 1e6)))} />
       mi
     </label>
   );
@@ -781,7 +814,7 @@ function SquadTab({ squad, st, setSt, setDecision, colors, isMobile }: {
                 </p>
                 {arrivalText(p) && <p className="tm-ficha__origin">{arrivalText(p)}</p>}
               </div>
-              <p className="tm-ficha__value">{fmtEur(p.value)}<small>{fmtBrl(p.value, st.rate)}</small></p>
+              <p className="tm-ficha__value">{fmtEur(p.value)}<small>{fmtRef(p.value)}</small></p>
               <div className="tm-ficha__actions" role="group" aria-label={`Destino de ${p.name}`}>
                 {options.map((a) => (
                   <button key={a} className={`tm-act tm-act--${STAMP[a][1]} ${explicit && d.action === a ? "is-on" : ""}`} aria-pressed={explicit && d.action === a} onClick={() => setDecision(p.id, { action: a })}>
@@ -791,7 +824,7 @@ function SquadTab({ squad, st, setSt, setDecision, colors, isMobile }: {
                 {explicit && PRICED.includes(d.action) && (
                   <span className="tm-ficha__price">
                     <Price label={d.action === "loanOut" ? "Taxa" : d.action === "sell" ? "Por" : "Custo"} value={d.price ?? (d.action === "loanOut" ? 0 : p.value ?? 0)} onChange={(v) => setDecision(p.id, { ...d, price: v })} />
-                    <b className={money >= 0 ? "is-in" : "is-out"}>{money > 0 ? "+" : ""}{fmtEur(money)}</b>
+                    <b className={money >= 0 ? "is-in" : "is-out"}>{money > 0 ? "+" : ""}{fmtEur(money)}{fmtRef(money) && <small className="tm-ref"> {fmtRef(money)}</small>}</b>
                   </span>
                 )}
               </div>
@@ -1028,7 +1061,7 @@ function MarketTab({ st, setSt, balance, ownIds, depth, onLeague, isMobile }: {
                   {p.loanFrom ? ` · emprestado pelo ${p.loanFrom}` : ""}
                 </p>
               </div>
-              <p className="tm-ficha__value">{fmtEur(p.value)}<small>{fmtBrl(p.value, st.rate)}</small></p>
+              <p className="tm-ficha__value">{fmtEur(p.value)}<small>{fmtRef(p.value)}</small></p>
               <div className="tm-ficha__actions">
                 {s ? (
                   <>
@@ -1062,7 +1095,7 @@ function MarketTab({ st, setSt, balance, ownIds, depth, onLeague, isMobile }: {
 
 // ============ fechamento ============
 
-function CloseTab({ sum, st, setSt, arrivals, next, depth, steps, squad, onShare, onReset }: {
+function CloseTab({ sum, setSt, arrivals, next, depth, steps, squad, onShare, onReset }: {
   sum: ReturnType<typeof summarize>; st: MarketState; setSt: SetSt;
   arrivals: { s: MarketState["signings"][number]; p: MarketPlayer; club: string; league: string }[];
   next: ReturnType<typeof nextSeason>; depth: ReturnType<typeof depthChart>; steps: ReturnType<typeof waterfall>; squad: SquadPlayer[];
@@ -1076,7 +1109,7 @@ function CloseTab({ sum, st, setSt, arrivals, next, depth, steps, squad, onShare
   const delta = sum.squadValue - valueBefore;
   const short = depth.filter((d) => d.short);
   const verdict =
-    sum.balance < 0 ? `O saldo fechou negativo em ${fmtEur(-sum.balance)}. Venda alguém ou desista de uma contratação.`
+    sum.balance < 0 ? `O saldo fechou negativo em ${fmtMoney(-sum.balance)}. Venda alguém ou desista de uma contratação.`
     : sum.pending.length ? `Faltam ${sum.pending.length} decisões de contrato para a janela ficar redonda.`
     : short.length ? `Contas em dia, mas o elenco está curto em ${short.map((d) => d.pos).join(", ")}.`
     : "Janela fechada: contas em dia e elenco completo.";
@@ -1092,7 +1125,7 @@ function CloseTab({ sum, st, setSt, arrivals, next, depth, steps, squad, onShare
 
       <div className="tm-kpis">
         <div><span>Elenco {SEASON}</span><b>{sum.squadSize}</b><small>{sum.squadSize === before.length ? "mesmo tamanho de hoje" : `${sum.squadSize > before.length ? "+" : "–"}${Math.abs(sum.squadSize - before.length)} em relação a hoje`}</small></div>
-        <div><span>Valor do elenco</span><b>{fmtEur(sum.squadValue)}</b><small>{delta >= 0 ? "+" : "– "}{fmtEur(Math.abs(delta))} na janela · {fmtBrl(sum.squadValue, st.rate)}</small></div>
+        <div><span>Valor do elenco</span><b>{fmtEur(sum.squadValue)}</b><small>{delta >= 0 ? "+" : "– "}{fmtEur(Math.abs(delta))} na janela{fmtRef(sum.squadValue) ? ` · ${fmtRef(sum.squadValue)}` : ""}</small></div>
         <div><span>Idade média</span><b>{sum.avgAge ? sum.avgAge.toFixed(1).replace(".", ",") : "—"}</b><small>anos</small></div>
         <div className={foreigners > FOREIGN_LIMIT ? "is-over" : ""}>
           <span>Estrangeiros</span><b>{foreigners}</b>
@@ -1129,7 +1162,7 @@ function CloseTab({ sum, st, setSt, arrivals, next, depth, steps, squad, onShare
             <p key={a.s.id}>
               <span className={`tm-pos tm-pos--${a.p.pos}`}>{a.p.pos}</span>
               <b>{a.p.name}</b><i>{a.club}</i>
-              <span className="tm-list__end">{a.s.type === "buy" ? fmtEur(a.s.price) : SIGNING_LABEL[a.s.type]}
+              <span className="tm-list__end">{a.s.type === "buy" ? fmtMoney(a.s.price) : SIGNING_LABEL[a.s.type]}
                 <button aria-label={`Desistir de ${a.p.name}`} onClick={() => setSt((x) => ({ ...x, signings: x.signings.filter((y) => y.id !== a.s.id) }))}>×</button>
               </span>
             </p>
@@ -1144,7 +1177,7 @@ function CloseTab({ sum, st, setSt, arrivals, next, depth, steps, squad, onShare
               <p key={p.id}>
                 <span className={`tm-pos tm-pos--${p.pos}`}>{p.pos}</span>
                 <b>{p.name}</b><i>{ACTION_LABEL[d.action].toLowerCase()}</i>
-                <span className="tm-list__end">{m ? `+${fmtEur(m)}` : "sem custo"}</span>
+                <span className="tm-list__end">{m ? `+${fmtMoney(m)}` : "sem custo"}</span>
               </p>
             );
           })}

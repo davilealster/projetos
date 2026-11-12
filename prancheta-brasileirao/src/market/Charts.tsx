@@ -1,7 +1,7 @@
 // Gráficos do Mercado da bola. Cores validadas para daltonismo sobre o feltro (ver market.css: --c-*).
 // Identidade nunca só pela cor: quem sai é anel vazado, quem chega tem marca própria, e há legenda.
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
-import { fmtEur, type DepthRow, type NextPlayer, type WaterfallStep } from "./logic";
+import { curUnit, fmtEur, fmtMoney, toUnit, type DepthRow, type NextPlayer, type WaterfallStep } from "./logic";
 
 const tip = (text: string) => ({ "data-tip": text, tabIndex: 0 });
 
@@ -82,7 +82,7 @@ export function Waterfall({ steps, compact = false }: { steps: WaterfallStep[]; 
               <div
                 className="tm-wf__bar"
                 style={{ left: `${pct(s.from)}%`, width: `${Math.max(0.6, pct(s.to) - pct(s.from))}%` }}
-                {...tip(`${s.label}: ${fmtEur(s.value)}`)}
+                {...tip(`${s.label}: ${fmtMoney(s.value)}`)}
               />
             </div>
             <span className="tm-wf__val">
@@ -171,13 +171,13 @@ export function AgeValue({ list }: { list: NextPlayer[] }) {
   const top = [...pts].filter((p) => p.kind !== "leave").sort((a, b) => b.value! - a.value!).slice(0, 3);
   return (
     <div className="tm-scatter">
-      <div className="tm-scatter__axes" aria-hidden="true"><span>↑ valor, € mi</span><span>idade →</span></div>
+      <div className="tm-scatter__axes" aria-hidden="true"><span>↑ valor, {curUnit()} mi</span><span>idade →</span></div>
       <div className="tm-scatter__plot">
       <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Idade e valor de mercado de cada jogador">
         {ticks.map((t) => (
           <g key={t}>
             <line x1={m.l} x2={W - m.r} y1={y(t)} y2={y(t)} className="tm-gl" />
-            <text x={m.l - 8} y={y(t) + 5} textAnchor="end" className="tm-axis">{t / 1e6}</text>
+            <text x={m.l - 8} y={y(t) + 5} textAnchor="end" className="tm-axis">{Math.round(toUnit(t) / 1e6).toLocaleString("pt-BR")}</text>
           </g>
         ))}
         {[18, 22, 26, 30, 34, 38].filter((a) => a <= a1).map((a) => (
@@ -200,7 +200,7 @@ export function AgeValue({ list }: { list: NextPlayer[] }) {
           key={p.id}
           className={`tm-dot tm-dot--${p.kind}`}
           style={{ left: `${(x(p.age!) / W) * 100}%`, top: `${(y(p.value!) / H) * 100}%` }}
-          {...tip(`${p.name} · ${p.age} anos · ${fmtEur(p.value)}${p.kind === "leave" ? " · sai" : p.kind === "new" ? " · chega" : ""}`)}
+          {...tip(`${p.name} · ${p.age} anos · ${fmtMoney(p.value)}${p.kind === "leave" ? " · sai" : p.kind === "new" ? " · chega" : ""}`)}
         />
       ))}
       </div>

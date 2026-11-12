@@ -4,7 +4,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { initials } from "../lib/color";
 import type { Pos } from "../types";
 import {
-  ACTION_LABEL, FOREIGN_LIMIT, PRICED, actionsFor, decisionOf, fmtDate, fmtEur, isEnding, moneyOf, staysWith,
+  ACTION_LABEL, FOREIGN_LIMIT, PRICED, actionsFor, decisionOf, fmtDate, fmtEur, fmtRef, curUnit, toUnit, fromUnit, isEnding, moneyOf, staysWith,
   type Decision, type MarketState, type SquadAction,
 } from "./logic";
 import { loadCoaches } from "./data";
@@ -117,20 +117,20 @@ function Face({ name, photo }: { name: string; photo: string | null }) {
 }
 
 function PriceField({ label, value, onChange }: { label: string; value: number; onChange: (v: number) => void }) {
-  const [txt, setTxt] = useState(() => String(+(value / 1e6).toFixed(2)).replace(".", ","));
+  const [txt, setTxt] = useState(() => String(+(toUnit(value) / 1e6).toFixed(2)).replace(".", ","));
   return (
     <label className="pv-price">
       <span>{label}</span>
-      <b>€</b>
+      <b>{curUnit()}</b>
       <input
         inputMode="decimal"
         value={txt}
         onChange={(e) => {
           setTxt(e.target.value);
           const n = Number(e.target.value.replace(/\./g, "").replace(",", "."));
-          if (Number.isFinite(n) && n >= 0) onChange(Math.round(n * 1e6));
+          if (Number.isFinite(n) && n >= 0) onChange(Math.round(fromUnit(n * 1e6)));
         }}
-        aria-label={`${label} em milhões de euros`}
+        aria-label={`${label} em milhões de ${curUnit() === "R$" ? "reais" : "euros"}`}
       />
       <em>mi</em>
     </label>
@@ -290,7 +290,7 @@ function PlayerCard({ p, st, cutoff, setDecision, onChose, active }: {
           <span className={`tm-pos tm-pos--${p.pos}`}>{p.pos}</span>
           {p.foreign && <span className="pv-est" title={`Estrangeiro (limite de ${FOREIGN_LIMIT} por jogo)`}>EST</span>}
           {p.age != null && <span>{p.age} anos</span>}
-          <span className="pv-value">{fmtEur(p.value)}</span>
+          <span className="pv-value">{fmtEur(p.value)}{fmtRef(p.value) && <small className="pv-ref">{fmtRef(p.value)}</small>}</span>
         </p>
         <p className={`pv-contract ${ending ? "is-ending" : ""}`}>
           {p.status === "owned" ? "Contrato até" : "Empréstimo até"} <b>{fmtDate(p.loanUntil ?? p.contract)}</b>
@@ -315,7 +315,7 @@ function PlayerCard({ p, st, cutoff, setDecision, onChose, active }: {
             value={d.price ?? (d.action === "loanOut" ? 0 : p.value ?? 0)}
             onChange={(v) => setDecision(p.id, { ...d, price: v })}
           />
-          <b className={money >= 0 ? "is-in" : "is-out"}>{money > 0 ? "+" : ""}{fmtEur(money)}</b>
+          <b className={money >= 0 ? "is-in" : "is-out"}>{money > 0 ? "+" : ""}{fmtEur(money)}{fmtRef(money) && <small className="pv-ref"> {fmtRef(money)}</small>}</b>
         </div>
       )}
     </article>

@@ -5,7 +5,7 @@ import { initials, isLight } from "../lib/color";
 import { FORMATION_NAMES, fitScore, slotsFor } from "../lib/formations";
 import type { Pos } from "../types";
 import {
-  FOREIGN_LIMIT, HOW_TAG, MAX_BENCH, MAX_SUBS, benchSize, autoLineup, cleanLineup, fmtEur, lineupStats, placeInLineup, posRank, removeFromLineup,
+  FOREIGN_LIMIT, HOW_TAG, MAX_BENCH, MAX_SUBS, benchSize, autoLineup, cleanLineup, fmtEur, fmtRef, lineupStats, placeInLineup, posRank, removeFromLineup,
   type Lineup, type MarketState, type NextPlayer,
 } from "./logic";
 import { loadCoaches } from "./data";
@@ -230,7 +230,7 @@ export function LineupTab({ next, st, setSt, team, coach, onGenerate }: {
         </div>
       </div>
       <div className="lu-foot">
-        <div><span>Valor do XI</span><b>{fmtEur(stats.xiValue)}</b></div>
+        <div><span>Valor do XI</span><b>{fmtEur(stats.xiValue)}</b>{fmtRef(stats.xiValue) && <small className="tm-ref">{fmtRef(stats.xiValue)}</small>}</div>
         <div><span>Relacionados</span><b>{stats.listed}/{11 + MAX_BENCH}</b></div>
         <div className={stats.foreign > FOREIGN_LIMIT ? "is-over" : ""}><span>Estrangeiros</span><b>{stats.foreign}/{FOREIGN_LIMIT}</b></div>
       </div>
