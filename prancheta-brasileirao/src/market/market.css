@@ -683,3 +683,32 @@ button.lu-slot:hover .lu-slot__photo { transform: translateY(-2px); }
 .tm-roster__stack .tm-roster__face { width: 30px; height: 30px; margin-left: -6px; border-radius: 50%; box-shadow: 0 0 0 2px var(--felt-deep), inset 0 0 0 2px var(--k); }
 .tm-roster__stack em { margin-left: 6px; font-style: normal; font-family: var(--f-data); font-size: 12px; color: var(--cream-soft); }
 .tm-roster__empty { margin: 0; font-size: 12px; color: var(--cream-soft); }
+
+/* fechamento: abas de visão */
+.tm-ctabs { display: flex; gap: 6px; margin: 18px 0 12px; overflow-x: auto; scrollbar-width: none; border-bottom: 1px solid var(--felt-line); }
+.tm-ctabs::-webkit-scrollbar { display: none; }
+.tm-ctabs button { flex: none; padding: 10px 14px; border: 0; border-bottom: 3px solid transparent; margin-bottom: -1px; background: none; color: var(--cream-soft); font-family: var(--f-body); font-weight: 700; font-size: 14px; cursor: pointer; white-space: nowrap; }
+.tm-ctabs button:hover { color: var(--cream); }
+.tm-ctabs button.is-on { color: var(--brass); border-bottom-color: var(--brass); }
+.tm-ctab-body { animation: tm-rise 0.18s ease-out; }
+/* versão grande do quadro (fechamento) */
+.tm-roster--big { gap: 18px; padding: 18px; border: 1px solid var(--felt-line); border-radius: 6px; background: var(--felt-deep); }
+.tm-roster--big .tm-roster__grp h4 { font-size: 19px; margin-bottom: 10px; }
+.tm-roster--big ul { grid-template-columns: repeat(auto-fill, minmax(78px, 1fr)); gap: 12px 10px; }
+.tm-roster--big .tm-roster__face { width: 64px; height: 64px; border-radius: 6px; }
+.tm-roster--big .tm-roster__face .tm-pos { font-size: 9px; padding: 1px 3px; }
+.tm-roster--big .tm-roster__name { font-size: 12px; }
+.tm-roster--big .tm-roster__how { font-size: 9.5px; }
+@media (max-width: 640px) {
+  .tm-ctabs { margin: 14px -12px 10px; padding: 0 12px; }
+  .tm-ctabs button { padding: 10px 10px; font-size: 13px; }
+  .tm-roster--big { padding: 14px 12px; }
+  .tm-roster--big ul { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .tm-roster--big .tm-roster__face { width: 58px; height: 58px; }
+}
+.tm-ctabs__short { display: none; }
+@media (max-width: 640px) {
+  .tm-ctabs__long { display: none; }
+  .tm-ctabs__short { display: inline; }
+  .tm-ctabs button { flex: 1; }
+}

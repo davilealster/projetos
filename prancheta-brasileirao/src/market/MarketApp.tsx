@@ -589,8 +589,8 @@ function RosterFace({ p }: { p: ReturnType<typeof nextSeason>[number] }) {
 }
 
 /** Progresso da janela, sempre à vista: quem já saiu, quem fica e quem chega. */
-function Roster({ next }: { next: ReturnType<typeof nextSeason> }) {
-  const [allStay, setAllStay] = useState(false);
+function Roster({ next, big = false }: { next: ReturnType<typeof nextSeason>; big?: boolean }) {
+  const [allStay, setAllStay] = useState(big);
   const order = (l: typeof next) => [...l].sort((a, b) => posRank(a.pos) - posRank(b.pos) || (b.value ?? 0) - (a.value ?? 0));
   const leave = order(next.filter((p) => p.kind === "leave"));
   const stay = order(next.filter((p) => p.kind === "stay"));
@@ -606,7 +606,7 @@ function Roster({ next }: { next: ReturnType<typeof nextSeason> }) {
     );
   };
   return (
-    <section className="tm-roster" aria-label="Quem sai, fica e chega">
+    <section className={`tm-roster ${big ? "tm-roster--big" : ""}`} aria-label="Quem sai, fica e chega">
       <div className="tm-roster__grp tm-roster__grp--out">
         <h4>Saem <b>{leave.length}</b></h4>
         {leave.length ? <ul>{leave.map(tile)}</ul> : <p className="tm-roster__empty">Ninguém saindo ainda.</p>}
@@ -614,7 +614,7 @@ function Roster({ next }: { next: ReturnType<typeof nextSeason> }) {
       <div className="tm-roster__grp tm-roster__grp--stay">
         <h4>
           Ficam <b>{stay.length}</b>
-          {stay.length > 0 && <button className="tm-link" onClick={() => setAllStay(!allStay)}>{allStay ? "recolher" : "ver todos"}</button>}
+          {stay.length > 0 && !big && <button className="tm-link" onClick={() => setAllStay(!allStay)}>{allStay ? "recolher" : "ver todos"}</button>}
         </h4>
         {allStay ? (
           <ul>{stay.map(tile)}</ul>
@@ -1102,12 +1102,16 @@ function MarketTab({ st, setSt, balance, ownIds, depth, onLeague, isMobile }: {
 
 // ============ fechamento ============
 
-function CloseTab({ sum, setSt, arrivals, next, depth, steps, squad, onShare, onReset }: {
+type CloseView = "squad" | "market" | "contracts" | "age";
+const CLOSE_VIEWS: [CloseView, string, string][] = [["squad", "Quem sai, fica e chega", "Elenco"], ["market", "Resumo do mercado", "Mercado"], ["contracts", "Contratos", "Contratos"], ["age", "Idade × valor", "Idade × valor"]];
+
+function CloseTab({ sum, setSt, arrivals, next, depth, squad, onShare, onReset }: {
   sum: ReturnType<typeof summarize>; st: MarketState; setSt: SetSt;
   arrivals: { s: MarketState["signings"][number]; p: MarketPlayer; club: string; league: string }[];
   next: ReturnType<typeof nextSeason>; depth: ReturnType<typeof depthChart>; steps: ReturnType<typeof waterfall>; squad: SquadPlayer[];
   onShare: () => void; onReset: () => void;
 }) {
+  const [view, setView] = useState<CloseView>("squad");
   const before = squad.filter((p) => p.status !== "loanOut");
   const foreigners = next.filter((x) => x.kind !== "leave" && x.foreign).length;
   const arrivalsByPos = [...arrivals].sort((a, b) => posRank(a.p.pos) - posRank(b.p.pos) || (b.p.value ?? 0) - (a.p.value ?? 0));
@@ -1140,28 +1144,30 @@ function CloseTab({ sum, setSt, arrivals, next, depth, steps, squad, onShare, on
         </div>
       </div>
 
-      <div className="tm-grid">
-        <figure className="tm-chart">
-          <figcaption><b>Para onde foi o dinheiro</b><span>Orçamento, vendas e gastos até o saldo</span></figcaption>
-          <Waterfall steps={steps} />
-        </figure>
-        <figure className="tm-chart">
-          <figcaption><b>Profundidade por posição</b><span>Um ponto por jogador; o traço marca o mínimo recomendado</span></figcaption>
-          <Depth rows={depth} />
-          <Legend items={["stay", "new", "leave", "min"]} />
-        </figure>
-        <figure className="tm-chart">
+      <div className="tm-ctabs" role="tablist" aria-label="Visões do fechamento">
+        {CLOSE_VIEWS.map(([v, label, short]) => (
+          <button key={v} role="tab" aria-selected={view === v} className={view === v ? "is-on" : ""} onClick={() => setView(v)}>
+            <span className="tm-ctabs__long">{label}</span><span className="tm-ctabs__short">{short}</span>
+          </button>
+        ))}
+      </div>
+
+      {view === "squad" && <div className="tm-ctab-body"><Roster next={next} big /></div>}
+      {view === "contracts" && (
+        <figure className="tm-chart tm-ctab-body">
           <figcaption><b>Quando acabam os contratos</b><span>Elenco {SEASON}, por ano de fim do vínculo</span></figcaption>
           <ContractYears data={contractYears(next)} />
         </figure>
-        <figure className="tm-chart">
+      )}
+      {view === "age" && (
+        <figure className="tm-chart tm-ctab-body">
           <figcaption><b>Idade e valor de mercado</b><span>À direita e no alto: veteranos caros, bons de vender</span></figcaption>
           <AgeValue list={next} />
           <Legend items={["stay", "new", "leave"]} />
         </figure>
-      </div>
-
-      <div className="tm-grid">
+      )}
+      {view === "market" && (
+      <div className="tm-grid tm-ctab-body">
         <div className="tm-list">
           <h3>Chegam <span>{arrivals.length}</span></h3>
           {!arrivals.length && <p className="tm-muted">Nenhuma contratação. O mercado está na etapa 2.</p>}
@@ -1190,6 +1196,7 @@ function CloseTab({ sum, setSt, arrivals, next, depth, steps, squad, onShare, on
           })}
         </div>
       </div>
+      )}
     </section>
   );
 }
