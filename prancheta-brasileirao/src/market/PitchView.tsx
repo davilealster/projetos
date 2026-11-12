@@ -20,6 +20,8 @@ export interface PitchViewProps {
   /** data de corte da próxima temporada (para isEnding/actionsFor/decisionOf) */
   cutoff: string;
   colors: { primary: string; secondary: string; accent: string };
+  /** próximo passo: ir ao mercado (etapa 2) */
+  onMarket?: () => void;
 }
 
 /** Texto e tinta do carimbo de cada decisão (igual à lista). */
@@ -434,7 +436,7 @@ function Sector({ def, n, players, st, cutoff, setDecision, onSectorDone, onNext
 
 // ---------- visão ----------
 
-export function PitchView({ squad, coach, st, setSt, setDecision, cutoff, colors }: PitchViewProps) {
+export function PitchView({ squad, coach, st, setSt, setDecision, cutoff, colors, onMarket }: PitchViewProps) {
   const groups = useMemo(() => {
     const out: { def: SectorDef; players: SquadPlayer[] }[] = [{ def: SECTORS[0], players: [] }];
     for (const def of SECTORS.slice(1)) {
@@ -536,7 +538,14 @@ export function PitchView({ squad, coach, st, setSt, setDecision, cutoff, colors
             {foreign} estrangeiro{foreign === 1 ? "" : "s"} no elenco · até {FOREIGN_LIMIT} por jogo
             {st.coach.action === "fire" ? " · técnico demitido" : ""}
           </p>
-          <button className="tm-btn" onClick={() => jump("TEC")}>Voltar ao início do campo</button>
+          <div className="pv-end__acts">
+            {onMarket && (
+              <button className="tm-btn tm-btn--brass pv-end__go" onClick={onMarket}>
+                Ir ao mercado →<small>contratar por compra, empréstimo ou de graça</small>
+              </button>
+            )}
+            <button className="tm-btn tm-btn--ghost" onClick={() => jump("TEC")}>Voltar ao início do campo</button>
+          </div>
         </div>
       </section>
     </div>

@@ -312,7 +312,7 @@ function MarketClub({ slug }: { slug: string }) {
                 {view === "pitch" ? (
                   <>
                     <PendingCallout squad={squad} st={st} setSt={setSt} />
-                    <PitchView squad={squad} coach={club!.coach ?? null} st={st} setSt={setSt} setDecision={setDecision} cutoff={CUTOFF} colors={team.colors} />
+                    <PitchView squad={squad} coach={club!.coach ?? null} st={st} setSt={setSt} setDecision={setDecision} cutoff={CUTOFF} colors={team.colors} onMarket={() => (setTab("market"), window.scrollTo({ top: 0 }))} />
                   </>
                 ) : (
                   <>
