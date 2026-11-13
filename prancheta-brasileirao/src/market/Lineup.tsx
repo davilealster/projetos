@@ -215,6 +215,18 @@ function useAuthor(): [string, (v: string) => void] {
   ];
 }
 
+/** Ícone de compartilhar: três nós ligados. */
+function ShareIcon() {
+  return (
+    <svg className="lu-share-ico" viewBox="0 0 24 24" aria-hidden="true">
+      <circle cx="18" cy="5" r="3" />
+      <circle cx="6" cy="12" r="3" />
+      <circle cx="18" cy="19" r="3" />
+      <path d="M8.6 10.5l6.8-4M8.6 13.5l6.8 4" />
+    </svg>
+  );
+}
+
 export function LineupTab({ slug, next, st, setSt, team, coach, balance, income, spend, onGenerate }: {
   slug: string;
   next: NextPlayer[];
@@ -255,8 +267,11 @@ export function LineupTab({ slug, next, st, setSt, team, coach, balance, income,
           onClick={() => onGenerate(lineup)}
           title={empty ? `Faltam ${empty} titular${empty > 1 ? "es" : ""} no elenco ideal` : "Gerar as 2 imagens com legenda"}
         >
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M7 8l5-5 5 5M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6" /></svg>
-          <span>{empty ? `Faltam ${empty}` : "Compartilhar"}</span>
+          <ShareIcon />
+          <span className="lu-share__txt">
+            <b>{empty ? `Faltam ${empty} titular${empty > 1 ? "es" : ""}` : "Compartilhar minha janela"}</b>
+            <small>{empty ? "Complete o time em “Meu elenco ideal”" : "2 imagens prontas pro story, com legenda"}</small>
+          </span>
         </button>
       </div>
       <label className="lu-sign">
@@ -610,15 +625,14 @@ export function StoryStudio({ props, summary, onClose }: {
   const sumRef = useRef<HTMLDivElement>(null);
   const [files, setFiles] = useState<{ name: string; url: string; blob: Blob }[] | null>(null);
   const [error, setError] = useState<string | null>(null);
-  const [caption, setCaption] = useState(
-    `Assumi a diretoria de futebol do ${props.team.shortName} e montei a minha janela de transferências ideal pra 2027: quem sai, quem fica, quem chega e o time titular. ⚽📋\n\nE você, faria diferente? Monte o seu também 👉 https://${SITE_HOST}`,
+  // a legenda vai junto ao compartilhar (sem campo na tela)
+  const caption = (
+    `Assumi a diretoria de futebol do ${props.team.shortName} e montei a minha janela de transferências ideal pra 2027: quem sai, quem fica, quem chega e o time titular. ⚽📋\n\nE você, faria diferente? Monte o seu também 👉 https://${SITE_HOST}`
   );
-  const [copied, setCopied] = useState(false);
+  /** Alguns apps (ex.: Instagram) ignoram o texto do compartilhamento: a legenda também fica copiada, em silêncio. */
   const copyCaption = async () => {
     try {
       await navigator.clipboard.writeText(caption);
-      setCopied(true);
-      setTimeout(() => setCopied(false), 2000);
     } catch {
       /* sem permissão */
     }
@@ -647,15 +661,14 @@ export function StoryStudio({ props, summary, onClose }: {
   }, [slug]);
   useEffect(() => () => files?.forEach((f) => URL.revokeObjectURL(f.url)), [files]);
 
-  const download = () =>
-    files?.forEach((f, i) =>
+  const download = () => (void copyCaption(), files?.forEach((f, i) =>
       setTimeout(() => {
         const a = document.createElement("a");
         a.href = f.url;
         a.download = f.name;
         a.click();
       }, i * 400),
-    );
+    ));
   const share = async () => {
     if (!files) return;
     const list = files.map((f) => new File([f.blob], f.name, { type: "image/png" }));
@@ -681,18 +694,13 @@ export function StoryStudio({ props, summary, onClose }: {
             <div className="lu-studio__previews">
               {files.map((f) => <img key={f.name} src={f.url} alt={f.name} />)}
             </div>
-            <label className="lu-caption">
-              <span>Legenda <button type="button" className="tm-link" onClick={copyCaption}>{copied ? "copiada ✓" : "copiar"}</button></span>
-              <textarea value={caption} onChange={(e) => setCaption(e.target.value)} rows={4} />
-            </label>
             <div className="lu-studio__acts">
               <button className="tm-btn tm-btn--brass" onClick={share}>
-                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M7 8l5-5 5 5M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6" /></svg>
+                <ShareIcon />
                 Compartilhar
               </button>
               <button className="tm-btn" onClick={download}>Salvar imagens</button>
             </div>
-            <p className="lu-studio__hint">A legenda é copiada ao compartilhar: é só colar no post ou no story.</p>
           </>
         )}
       </div>

@@ -882,3 +882,18 @@ button.lu-slot:hover .lu-slot__photo { transform: translateY(-2px); }
 .tm-steps.is-docked { opacity: 0; transform: translateY(-10px) scale(0.98); }
 @media (max-width: 1180px) { .tm-dock-steps span { display: none; } .tm-dock-steps button { padding: 0 6px; } }
 @media (prefers-reduced-motion: reduce) { .tm-dock-steps button, .tm-steps { transition: none; } }
+
+/* compartilhar (etapa 4): ícone de nós + chamada clara */
+.lu-share-ico { width: 18px; height: 18px; flex: none; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; }
+.lu-share__txt { display: grid; text-align: left; line-height: 1.15; }
+.lu-share__txt b { font-weight: 750; font-size: 14px; }
+.lu-share__txt small { display: none; }
+@media (max-width: 640px) {
+  .lu-bar { flex-direction: column; align-items: stretch; gap: 10px; }
+  .lu-bar .lu-share { width: 100%; height: auto; min-height: 56px; padding: 10px 16px; justify-content: flex-start; gap: 12px; border-radius: 12px; }
+  .lu-bar .lu-share span { display: grid; }
+  .lu-bar .lu-share .lu-share-ico { width: 24px; height: 24px; padding: 7px; box-sizing: content-box; border-radius: 50%; background: rgba(29, 27, 22, 0.12); }
+  .lu-share__txt b { font-size: 16px; }
+  .lu-share__txt small { display: block; margin-top: 2px; font-size: 12px; font-weight: 600; opacity: 0.75; }
+  .lu-bar .lu-share:disabled .lu-share-ico { background: rgba(255, 255, 255, 0.1); }
+}
