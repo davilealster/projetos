@@ -201,7 +201,7 @@ export function Home() {
           <a href="/prancheta" onClick={spaLink("/prancheta")}>Ferramenta extra: Prancheta tática →</a>
           <a href="/creator" onClick={spaLink("/creator")}>Faz live? Use a prancheta na transmissão</a>
         </nav>
-        <p>Projeto independente, sem vínculo com CBF ou clubes. Imagens pertencem aos respectivos detentores.</p>
+        <p>Projeto independente, sem vínculo com CBF ou clubes. Imagens pertencem aos respectivos detentores. <a href="/privacidade">Política de privacidade</a></p>
       </footer>
 
       <ClubSheet

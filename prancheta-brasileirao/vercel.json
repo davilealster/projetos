@@ -1,3 +1,9 @@
 {
-  "rewrites": [{ "source": "/((?!api/|assets/|players/|teams/).*)", "destination": "/index.html" }]
+  "rewrites": [
+    {
+      "source": "/((?!api/|assets/|players/|teams/).*)",
+      "destination": "/index.html"
+    }
+  ],
+  "cleanUrls": true
 }
