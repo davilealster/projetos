@@ -16,7 +16,7 @@ import {
   type Currency, type Decision, type Lineup, type MarketState, type SigningType, type SquadAction,
 } from "./logic";
 import type { ClubMarket, MarketLeague, MarketPlayer, SquadPlayer } from "./types";
-import { CoachCard, LineupTab, StoryStudio, shortName, useNextCoach } from "./Lineup";
+import { CoachCard, LineupTab, StoryStudio, getAuthor, shortName, useNextCoach } from "./Lineup";
 import { Tour, tourSeen, type TourStep } from "./Tour";
 
 // perfil do Olheiro ("Ver scout"): carregado só quando aberto
@@ -334,7 +334,7 @@ function MarketClub({ slug }: { slug: string }) {
                 )}
               </>
             )}
-            {tab === "lineup" && <LineupTab next={next} st={st} setSt={setSt} team={team} coach={nextCoach} balance={sum.balance} onGenerate={setStudio} />}
+            {tab === "lineup" && <LineupTab next={next} st={st} setSt={setSt} team={team} coach={nextCoach} balance={sum.balance} income={sum.income} spend={sum.spend} onGenerate={setStudio} />}
             {tab === "market" && (
               <MarketTab st={st} setSt={setSt} balance={sum.balance} ownIds={new Set(squad.map((p) => p.id))} depth={depth} onLeague={(l) => setLeagues((x) => ({ ...x, [l.id]: l }))} isMobile={isMobile} onScout={setPeek} />
             )}
@@ -407,7 +407,7 @@ function MarketClub({ slug }: { slug: string }) {
       )}
       {studio && (
         <StoryStudio
-          props={{ team, lineup: studio, byId: new Map(next.map((p) => [p.id, p])), coach: nextCoach, budget: st.budget, balance: sum.balance, host: location.host }}
+          props={{ team, lineup: studio, byId: new Map(next.map((p) => [p.id, p])), coach: nextCoach, budget: st.budget, balance: sum.balance, income: sum.income, spend: sum.spend, host: location.host, author: getAuthor() }}
           summary={{ arrivals: next.filter((p) => p.kind === "new"), leaves: next.filter((p) => p.kind === "leave"), stays: next.filter((p) => p.kind === "stay") }}
           onClose={() => setStudio(null)}
         />

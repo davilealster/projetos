@@ -5,7 +5,7 @@ import { initials, isLight } from "../lib/color";
 import { FORMATION_NAMES, fitScore, slotsFor } from "../lib/formations";
 import type { Pos } from "../types";
 import {
-  FOREIGN_LIMIT, HOW_TAG, MAX_BENCH, MAX_SUBS, benchSize, autoLineup, cleanLineup, fmtEur, fmtRef, lineupStats, placeInLineup, posRank, removeFromLineup,
+  FOREIGN_LIMIT, MAX_BENCH, MAX_SUBS, benchSize, autoLineup, cleanLineup, fmtEur, fmtRef, lineupStats, placeInLineup, posRank, removeFromLineup,
   type Lineup, type MarketState, type NextPlayer,
 } from "./logic";
 import { loadCoaches } from "./data";
@@ -148,11 +148,13 @@ interface FieldProps {
   lineup: Lineup;
   byId: Map<string, NextPlayer>;
   story?: boolean;
+  /** imagem do post: o banco aparece fora do campo */
+  hideSubs?: boolean;
   onSlot?: (i: number) => void;
   selected?: number | null;
 }
 
-export function Field({ lineup, byId, story = false, onSlot, selected = null }: FieldProps) {
+export function Field({ lineup, byId, story = false, hideSubs = false, onSlot, selected = null }: FieldProps) {
   const slots = slotsFor(lineup.formation, false);
   const pos = projectSlots(slots);
   return (
@@ -174,7 +176,7 @@ export function Field({ lineup, byId, story = false, onSlot, selected = null }: 
               {p ? <Face name={p.name} photo={p.photo} story={story} /> : <span className="lu-face lu-face--empty">{s.role}</span>}
             </span>
             <span className="lu-slot__name">{p ? shortName(p.name) : "Escolher"}</span>
-            {subs.map((sp) => (
+            {!hideSubs && subs.map((sp) => (
               <span key={sp.id} className="lu-slot__sub">{shortName(sp.name)}</span>
             ))}
           </Tag>
@@ -186,15 +188,44 @@ export function Field({ lineup, byId, story = false, onSlot, selected = null }: 
 
 // ============ etapa: escalação ============
 
-export function LineupTab({ next, st, setSt, team, coach, balance, onGenerate }: {
+/** Assinatura opcional dos posts ("Criado por …"), uma para todos os clubes. */
+const AUTHOR_KEY = "mando:assinatura";
+export function getAuthor(): string {
+  try {
+    return (localStorage.getItem(AUTHOR_KEY) ?? "").trim().slice(0, 28);
+  } catch {
+    return "";
+  }
+}
+function useAuthor(): [string, (v: string) => void] {
+  const [v, setV] = useState(getAuthor);
+  return [
+    v,
+    (x: string) => {
+      const t = x.slice(0, 28);
+      setV(t);
+      try {
+        if (t.trim()) localStorage.setItem(AUTHOR_KEY, t.trim());
+        else localStorage.removeItem(AUTHOR_KEY);
+      } catch {
+        /* sem storage */
+      }
+    },
+  ];
+}
+
+export function LineupTab({ next, st, setSt, team, coach, balance, income, spend, onGenerate }: {
   next: NextPlayer[];
   st: MarketState;
   setSt: SetSt;
   team: Team;
   coach: MarketCoach | null;
   balance: number;
+  income: number;
+  spend: number;
   onGenerate: (lineup: Lineup) => void;
 }) {
+  const [author, setAuthor] = useAuthor();
   const [view, setView] = useState<"summary" | "field">("summary");
   const players = useMemo(() => next.filter((p) => p.kind !== "leave"), [next]);
   const byId = useMemo(() => new Map(players.map((p) => [p.id, p])), [players]);
@@ -226,9 +257,14 @@ export function LineupTab({ next, st, setSt, team, coach, balance, onGenerate }:
           <span>{empty ? `Faltam ${empty}` : "Compartilhar"}</span>
         </button>
       </div>
+      <label className="lu-sign">
+        <span>Assinar os posts</span>
+        <input value={author} onChange={(e) => setAuthor(e.target.value)} placeholder="Seu nome (opcional)" maxLength={28} />
+        <small>{author.trim() ? `Aparece “Criado por ${author.trim()}”` : "Sem nome, não aparece nada"}</small>
+      </label>
       {view === "summary" && (
         <SummaryPreview
-          props={{ team, lineup, byId: new Map(next.map((p) => [p.id, p])), coach, budget: st.budget, balance, host: location.host }}
+          props={{ team, lineup, byId: new Map(next.map((p) => [p.id, p])), coach, budget: st.budget, balance, income, spend, host: location.host, author: author.trim() }}
           summary={{ arrivals: next.filter((p) => p.kind === "new"), leaves: next.filter((p) => p.kind === "leave"), stays: next.filter((p) => p.kind === "stay") }}
         />
       )}
@@ -364,108 +400,141 @@ interface StoryProps {
   coach: MarketCoach | null;
   budget: number;
   balance: number;
+  /** entradas (vendas e taxas de empréstimo) e gastos da janela */
+  income: number;
+  spend: number;
   host: string;
+  /** "Criado por …" (opcional, digitado pelo usuário) */
+  author?: string;
 }
 
-export const StoryField = forwardRef<HTMLDivElement, StoryProps>(function StoryField({ team, lineup, byId, coach }, ref) {
+const sortPos = (g: NextPlayer[]) => [...g].sort((a, b) => posRank(a.pos) - posRank(b.pos) || (b.value ?? 0) - (a.value ?? 0));
+
+/** Ficha da imagem: foto, posição no canto e nome embaixo. */
+function StoryCard({ p, grey = false }: { p: NextPlayer; grey?: boolean }) {
+  return (
+    <div className={`sx-card ${grey ? "is-grey" : ""}`}>
+      <span className="sx-card__photo"><Face name={p.name} photo={p.photo} story /><i className={`tm-pos tm-pos--${p.pos}`}>{p.pos}</i></span>
+      <span className="sx-card__name">{shortName(p.name)}</span>
+    </div>
+  );
+}
+
+/**
+ * Ajusta o tamanho das fichas (--w) até o conteúdo terminar antes do selo do rodapé.
+ * Começa grande e diminui; recomeça quando a lista muda.
+ */
+function useFit(sig: string, max: number, min: number, lastSel: string) {
+  // k = quantos passos foram necessários: primeiro diminui as fichas, depois (quem quiser) o resto
+  const [k, setK] = useState(0);
+  const w = Math.max(min, max - 2 * k);
+  const extra = Math.max(0, k - (max - min) / 2);
+  const root = useRef<HTMLDivElement | null>(null);
+  useLayoutEffect(() => setK(0), [sig, max]);
+  useLayoutEffect(() => {
+    const el = root.current;
+    const last = el?.querySelector<HTMLElement>(lastSel);
+    const seal = el?.querySelector<HTMLElement>(".sty-seal");
+    if (!el || !last || !seal) return;
+    const bottom = last.getBoundingClientRect().bottom - el.getBoundingClientRect().top;
+    const top = seal.getBoundingClientRect().top - el.getBoundingClientRect().top;
+    if (bottom > top - 8 && k < 60) setK(k + 1);
+  });
+  return { w, extra, root };
+}
+const mergeRef = <T,>(a: React.MutableRefObject<T | null>, b: React.ForwardedRef<T>) => (el: T | null) => {
+  a.current = el;
+  if (typeof b === "function") b(el);
+  else if (b) b.current = el;
+};
+
+export const StoryField = forwardRef<HTMLDivElement, StoryProps>(function StoryField({ team, lineup, byId, coach, author }, ref) {
   const listedIds = [...lineup.starters.filter((x): x is string => !!x), ...lineup.subs.flat()];
   const listedValue = listedIds.reduce((t, id) => t + (byId.get(id)?.value ?? 0), 0);
   const xiValue = lineup.starters.reduce((t, id) => t + ((id && byId.get(id)?.value) || 0), 0);
   const inList = new Set(listedIds);
-  const outside = [...byId.values()]
-    .filter((p) => p.kind !== "leave" && !inList.has(p.id))
-    .sort((x, y) => posRank(x.pos) - posRank(y.pos));
+  const bench = sortPos(lineup.subs.flat().map((id) => byId.get(id)).filter((x): x is NextPlayer => !!x));
+  const outside = sortPos([...byId.values()].filter((p) => p.kind !== "leave" && !inList.has(p.id)));
+  // fichas do banco de 44 até 34 px; se ainda não couber, o campo encolhe
+  const { w, extra, root } = useFit(`${bench.length}/${outside.length}/${author ?? ""}`, 44, 34, ".sx-vals");
   return (
-    <div ref={ref} className="sty sty--field" style={{ "--sty-bg": storyBg(team.colors) } as React.CSSProperties}>
+    <div ref={mergeRef(root, ref)} className="sty sty--field sx" style={{ "--sty-bg": storyBg(team.colors), "--w": `${w}px`, "--pitch": `${Math.max(300, 392 - extra * 8)}px` } as React.CSSProperties}>
       {team.crest && <img className="sty__mark" src={team.crest} alt="" />}
       {team.crest && <img className="sty__crest" src={team.crest} alt="" />}
       <header className="sty__head">
         <p className="sty__chip">MEU ELENCO IDEAL <em>2027</em></p>
         <h2 className="sty__team">{team.shortName}</h2>
-        <p className="sty__formation">{lineup.formation}</p>
+        <p className="sty__formation">{lineup.formation.split("").join(" ")}{author && <span className="sx-author"> · Criado por <b>{author}</b></span>}</p>
       </header>
-      <div className="sty__pitch"><Field lineup={lineup} byId={byId} story /></div>
-      <div className="sty__coach">
-        <small>TÉCNICO</small>
-        <span className="sty__coach-photo"><Face name={coach?.name ?? "?"} photo={coach?.photo ?? null} story /></span>
-        <b>{coach ? shortName(coach.name) : "A definir"}</b>
+      <p className="sx-coach"><small>TÉCNICO</small><b>{coach?.name ?? "A definir"}</b></p>
+      <div className="sx-pitch"><Field lineup={lineup} byId={byId} story hideSubs /></div>
+      <section className="sx-box sx-box--bench">
+        <h3>Banco de reservas <em>{bench.length}</em><span>Relacionados para o jogo</span></h3>
+        <div className="sx-grid">{bench.map((p) => <StoryCard key={p.id} p={p} />)}</div>
+      </section>
+      {outside.length > 0 && (
+        <section className="sx-box sx-box--out">
+          <h3>Fora da lista <em>{outside.length}</em><span>Não relacionados</span></h3>
+          <div className="sx-grid">{outside.map((p) => <StoryCard key={p.id} p={p} grey />)}</div>
+        </section>
+      )}
+      <div className="sx-vals">
+        <div><small>Valor dos {listedIds.length} relacionados</small><b>{money(listedValue)}</b></div>
+        <div><small>Valor do XI titular</small><b>{money(xiValue)}</b></div>
       </div>
-      <footer className="sty__foot">
-        <div className="sty-info">
-          <p><span>{listedIds.length} relacionados</span><b>{money(listedValue)}</b><span>XI titular</span><b>{money(xiValue)}</b></p>
-          {outside.length > 0 && (
-            <p className="sty-info__out"><span>Fora da lista ({outside.length})</span> {outside.map((p) => shortName(p.name)).join(" · ")}</p>
-          )}
-        </div>
-        <StorySeal />
-      </footer>
+      <StorySeal />
     </div>
   );
 });
 
+type Group = [key: string, label: string, color: string];
+const OUT_GROUPS: Group[] = [["sell", "Vendidos", "#d0321e"], ["loanOut", "Emprestados", "#2860c4"], ["release", "Dispensados", "#8e2a5a"], ["letGo", "Fim de contrato", "#6b6458"], ["returnLoan", "Devolvidos", "#6b6458"]];
+const IN_GROUPS: Group[] = [["buy", "Compras", "#1f8a4c"], ["loan", "Empréstimos", "#2860c4"], ["free", "Livres", "#b07612"]];
+
 export const StorySummary = forwardRef<HTMLDivElement, StoryProps & { arrivals: NextPlayer[]; leaves: NextPlayer[]; stays: NextPlayer[] }>(
-  function StorySummary({ team, coach, budget, balance, arrivals, leaves, stays }, ref) {
-    // ordem do quadro: quem sai, quem fica, quem chega
-    const groups = [leaves, stays, arrivals].filter((g) => g.length);
-    // maior foto que cabe: começa com poucas colunas e aumenta até o quadro não invadir o rodapé
-    const [cols, setCols] = useState(4);
-    const pw = Math.floor((540 - 48 - (cols - 1) * 8) / cols);
-    const ph = Math.round(pw * 1.15);
-    const root = useRef<HTMLDivElement | null>(null);
-    const setRoot = (el: HTMLDivElement | null) => {
-      root.current = el;
-      if (typeof ref === "function") ref(el);
-      else if (ref) ref.current = el;
-    };
-    const sig = groups.map((g) => g.length).join(",");
-    useLayoutEffect(() => setCols(4), [sig]);
-    useLayoutEffect(() => {
-      const el = root.current;
-      const secs = el?.querySelectorAll<HTMLElement>(".sty-sec");
-      const foot = el?.querySelector<HTMLElement>(".sty__foot");
-      if (!secs?.length || !foot) return;
-      const last = secs[secs.length - 1];
-      if (last.offsetTop + last.offsetHeight > foot.offsetTop - 10 && cols < 12) setCols(cols + 1);
-    });
-    // "6 vendidos · 4 emprestados · 8 dispensados"
-    const breakdown = (list: NextPlayer[]) => {
-      const n = new Map<string, number>();
-      for (const p of list) if (p.how && HOW_TAG[p.how]) n.set(HOW_TAG[p.how]!, (n.get(HOW_TAG[p.how]!) ?? 0) + 1);
-      return n.size ? [...n].map(([k, v]) => `${v} ${(v > 1 && !k.includes(" ") ? `${k}s` : k).toLowerCase()}`).join(" · ") : null;
-    };
-    const sorted = (g: NextPlayer[]) => [...g].sort((a, b) => posRank(a.pos) - posRank(b.pos) || (b.value ?? 0) - (a.value ?? 0));
-    const section = (title: string, list: NextPlayer[], kind: string) =>
+  function StorySummary({ team, coach, budget, balance, income, spend, author, arrivals, leaves, stays }, ref) {
+    const { w, root } = useFit(`${leaves.length}/${arrivals.length}/${stays.length}`, 40, 22, ".sx-lane:last-of-type");
+    const sum = (l: NextPlayer[]) => l.reduce((t, p) => t + (p.money ?? 0), 0);
+    const lane = (title: string, kind: string, list: NextPlayer[], groups: Group[] | null, cash: string | null) =>
       list.length > 0 && (
-        <section className={`sty-sec sty-sec--${kind}`}>
-          <h3>{title} <span>{list.length}</span>{breakdown(list) && <small>{breakdown(list)}</small>}</h3>
-          <div className="sty-grid" style={{ gridTemplateColumns: `repeat(${cols}, ${pw}px)`, "--ph": `${ph}px`, "--pw": `${pw}px` } as React.CSSProperties}>
-            {sorted(list).map((p) => (
-              <div key={p.id} className="sty-card">
-                <span className="sty-card__photo"><Face name={p.name} photo={p.photo} story /></span>
-                <span className={`tm-pos tm-pos--${p.pos}`}>{p.pos}</span>
-                <span className="sty-card__name">{shortName(p.name)}</span>
-                {p.how && HOW_TAG[p.how] && <span className={`sty-card__how sty-how--${p.how}`}>{HOW_TAG[p.how]}</span>}
-              </div>
-            ))}
-          </div>
+        <section className={`sx-lane sx-lane--${kind}`}>
+          <h3>{title} <em>{list.length}</em>{cash && <span>{cash}</span>}</h3>
+          {groups ? (
+            groups.map(([key, label, color]) => {
+              const g = sortPos(list.filter((p) => p.how === key));
+              if (!g.length) return null;
+              const m = sum(g);
+              return (
+                <div key={key} className="sx-row">
+                  <p className="sx-row__lab"><b style={{ background: color }}>{label}</b><span>{g.length}{m ? ` · ${kind === "in" ? "−" : "+"}${money(m)}` : kind === "in" && key === "free" ? " · €0" : ""}</span></p>
+                  <div className="sx-faces">{g.map((p) => <StoryCard key={p.id} p={p} grey={kind === "out"} />)}</div>
+                </div>
+              );
+            })
+          ) : (
+            <div className="sx-faces sx-faces--stay">{sortPos(list).map((p) => <StoryCard key={p.id} p={p} />)}</div>
+          )}
         </section>
       );
     return (
-      <div ref={setRoot} className="sty sty--summary" style={{ "--sty-bg": storyBg(team.colors) } as React.CSSProperties}>
+      <div ref={mergeRef(root, ref)} className="sty sty--summary sx" style={{ "--sty-bg": storyBg(team.colors), "--w": `${w}px` } as React.CSSProperties}>
         {team.crest && <img className="sty__mark sty__mark--bokeh" src={team.crest} alt="" />}
         {team.crest && <img className="sty__crest" src={team.crest} alt="" />}
         <header className="sty__head sty__head--left">
-          <p className="sty__chip">JANELA DE TRANSFERÊNCIAS <em>2027</em></p>
+          <p className="sty__chip">MINHA JANELA DE TRANSFERÊNCIAS <em>2027</em></p>
           <h2 className="sty__team">{team.shortName}</h2>
-          <p className="sty__formation sty__formation--coach">Técnico: <b>{coach?.name ?? "a definir"}</b></p>
+          <p className="sty__formation sty__formation--coach">Técnico: <b>{coach?.name ?? "a definir"}</b>{author && <> · Criado por <b>{author}</b></>}</p>
         </header>
-        {section("Saem", leaves, "out")}
-        {section("Ficam", stays, "stay")}
-        {section("Chegam", arrivals, "in")}
-        <footer className="sty__foot">
-          <p className="sty-info__money">Orçamento <b>{money(budget)}</b> · Caixa final <b>{money(balance)}</b></p>
-          <StorySeal />
-        </footer>
+        <div className="sx-money">
+          <div className="is-in"><small>Entrou (vendas)</small><b>+{money(income)}</b></div>
+          <div className="is-out"><small>Investido</small><b>−{money(spend)}</b></div>
+          <div className="is-bal"><small>Saldo em caixa</small><b>{money(balance)}</b></div>
+        </div>
+        <p className="sx-ctx">Orçamento {money(budget)} · {leaves.length} saídas · {arrivals.length} chegadas · {stays.length} ficam</p>
+        {lane("Saem", "out", leaves, OUT_GROUPS, income ? `+${money(sum(leaves))}` : null)}
+        {lane("Chegam", "in", arrivals, IN_GROUPS, `−${money(sum(arrivals))}`)}
+        {lane("Ficam", "stay", stays, null, null)}
+        <StorySeal />
       </div>
     );
   },

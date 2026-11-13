@@ -790,3 +790,64 @@ button.lu-slot:hover .lu-slot__photo { transform: translateY(-2px); }
 @media (max-width: 640px) {
   .tm-act--scout { flex: none; }
 }
+
+/* ===== posts v2 (aprovados em 13/11/2026): raias por negociação, banco fora do campo ===== */
+.sx .sty-seal { position: absolute; left: 18px; right: 18px; bottom: 16px; }
+.sx .sty__head { padding: 22px 22px 0; }
+.sx .sty__chip { font-size: 15px; }
+.sx .sty__team { font-size: 46px; margin-top: 6px; padding-right: 150px; }
+.sx .sty__crest { top: 20px; right: 22px; width: 62px; height: 62px; }
+.sx-author, .sty__formation--coach { font-family: var(--f-body); }
+.sx-author { font-family: var(--f-body); letter-spacing: 0; font-size: 13px; color: rgba(255, 255, 255, 0.75); }
+.sx-author b { color: #fff; font-weight: 750; }
+/* ficha */
+.sx-card { display: grid; justify-items: center; min-width: 0; }
+.sx-card__photo { position: relative; width: var(--w); height: calc(var(--w) * 1.08); border-radius: 5px; background: #e9e4d8; }
+.sx-card__photo .lu-face { border-radius: 5px; object-position: top center; }
+.sx-card__photo .lu-face--ini { font-size: calc(var(--w) * 0.36); border-radius: 5px; }
+.sx-card__photo .tm-pos { position: absolute; top: -4px; left: -4px; font-style: normal; font-size: 7.5px; padding: 2px 3px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.45); }
+.sx-card__name { max-width: calc(var(--w) + 12px); margin-top: 2px; font-family: var(--f-display); font-weight: 900; font-size: clamp(9px, calc(var(--w) * 0.26), 11.5px); line-height: 1.1; text-transform: uppercase; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sx-card.is-grey .sx-card__photo img { filter: grayscale(0.75); }
+/* resumo da janela */
+.sx-money { display: grid; grid-template-columns: 1fr 1fr 1.15fr; gap: 6px; margin: 12px 18px 4px; }
+.sx-money > div { padding: 7px 10px 6px; border-radius: 7px; background: rgba(255, 255, 255, 0.07); border: 1px solid rgba(255, 255, 255, 0.12); }
+.sx-money small { display: block; font-family: var(--f-data); font-size: 9px; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255, 255, 255, 0.65); }
+.sx-money b { font-family: var(--f-display); font-weight: 900; font-size: 27px; line-height: 1; }
+.sx-money .is-in b { color: #5fd18a; } .sx-money .is-out b { color: #ff7a5c; }
+.sx-money .is-bal { background: #e0b95a; border-color: #e0b95a; color: #1d1b16; }
+.sx-money .is-bal small { color: rgba(29, 27, 22, 0.7); }
+.sx-ctx { margin: 0 20px 8px; font-family: var(--f-data); font-size: 9.5px; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(255, 255, 255, 0.6); }
+.sx-lane { position: relative; margin: 0 14px 7px; padding: 6px 9px 7px; border-radius: 8px; background: rgba(255, 255, 255, 0.045); border: 1px solid rgba(255, 255, 255, 0.1); border-top: 3px solid var(--k); }
+.sx-lane--out { --k: #ff7a5c; } .sx-lane--in { --k: #5fd18a; } .sx-lane--stay { --k: #efe6d2; }
+.sx-lane h3, .sx-box h3 { margin: 0 0 4px; display: flex; align-items: baseline; gap: 7px; font-family: var(--f-display); font-weight: 900; font-size: 18px; line-height: 1; text-transform: uppercase; letter-spacing: 0.04em; }
+.sx-lane h3 em, .sx-box h3 em { font-family: var(--f-data); font-weight: 500; font-size: 11px; font-style: normal; padding: 1px 6px; border-radius: 999px; background: rgba(255, 255, 255, 0.12); }
+.sx-lane h3 span { margin-left: auto; font-size: 16px; color: var(--k); }
+.sx-row { display: grid; grid-template-columns: 86px 1fr; gap: 6px; align-items: start; padding: 4px 0; border-top: 1px dashed rgba(255, 255, 255, 0.12); }
+.sx-lane h3 + .sx-row { border-top: 0; }
+.sx-row__lab { margin: 0; }
+.sx-row__lab b { display: inline-block; padding: 1px 5px; border-radius: 3px; font-family: var(--f-display); font-weight: 900; font-size: 10px; line-height: 1.3; letter-spacing: 0.04em; text-transform: uppercase; color: #fff; }
+.sx-row__lab span { display: block; margin-top: 3px; font-family: var(--f-data); font-size: 9.5px; line-height: 1.2; color: rgba(255, 255, 255, 0.75); }
+.sx-faces { display: flex; flex-wrap: wrap; gap: 3px 5px; padding-top: 4px; }
+.sx-faces--stay { gap: 3px 4px; }
+/* meu elenco ideal */
+.sx .sty__formation { margin-top: 4px; font-size: 13px; }
+.sx-coach { position: absolute; right: 96px; top: 40px; margin: 0; text-align: right; display: grid; }
+.sx-coach small { font-family: var(--f-data); font-size: 8.5px; letter-spacing: 0.14em; color: rgba(255, 255, 255, 0.65); }
+.sx-coach b { font-family: var(--f-display); font-weight: 900; font-size: 14px; text-transform: uppercase; }
+.sx-pitch { position: relative; height: var(--pitch, 392px); margin: 8px 18px 0; }
+.sx .sx-pitch .lu-field { aspect-ratio: auto; height: 100%; max-width: none; --card: 52px; }
+.sx-box { margin: 10px 14px 0; padding: 7px 10px 8px; border-radius: 8px; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.12); border-top: 3px solid #e0b95a; }
+.sx-box--out { margin-top: 7px; background: none; border: 1px dashed rgba(255, 255, 255, 0.28); }
+.sx-box h3 { font-size: 16px; margin-bottom: 6px; }
+.sx-box h3 span { margin-left: auto; font-family: var(--f-data); font-weight: 500; font-size: 9.5px; letter-spacing: 0.06em; color: rgba(255, 255, 255, 0.65); }
+.sx-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(calc(var(--w) + 14px), 1fr)); gap: 5px 4px; justify-items: center; }
+.sx-vals { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; margin: 7px 14px 0; }
+.sx-vals > div { padding: 5px 10px; border-radius: 7px; background: rgba(255, 255, 255, 0.07); border: 1px solid rgba(255, 255, 255, 0.12); }
+.sx-vals small { display: block; font-family: var(--f-data); font-size: 9px; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255, 255, 255, 0.65); }
+.sx-vals b { font-family: var(--f-display); font-weight: 900; font-size: 24px; line-height: 1; }
+/* campo de assinatura (etapa Compartilhe) */
+.lu-sign { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; font-size: 13px; color: var(--cream-soft); }
+.lu-sign > span { font-weight: 700; color: var(--cream); }
+.lu-sign input { flex: 1; min-width: 160px; max-width: 280px; padding: 8px 11px; border-radius: 6px; border: 1px solid var(--felt-line); background: var(--felt-deep); color: var(--cream); font: inherit; font-size: 14px; }
+.lu-sign small { font-size: 12px; }
+@media (max-width: 640px) { .lu-sign input { max-width: none; } .lu-sign small { width: 100%; } }
