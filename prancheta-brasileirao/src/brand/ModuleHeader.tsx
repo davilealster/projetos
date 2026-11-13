@@ -18,6 +18,8 @@ type Props = {
   crest: string | null;
   variant: "bar" | "app";
   actions?: ReactNode;
+  /** conteúdo ao lado do clube (ex.: as etapas do Mercado quando a página rola, no computador) */
+  center?: ReactNode;
   menuItems?: ModuleMenuItem[];
 };
 
@@ -27,7 +29,7 @@ type Props = {
  * no menu "⋯" do Mercado e mostra um link claro de volta à janela.
  * "bar" = desktop; "app" = celular (52px).
  */
-export function ModuleHeader({ module, slug, clubName, crest, variant, actions, menuItems }: Props) {
+export function ModuleHeader({ module, slug, clubName, crest, variant, actions, center, menuItems }: Props) {
   const [sheet, setSheet] = useState(false);
   const app = variant === "app";
   const acc = useAccount();
@@ -85,6 +87,7 @@ export function ModuleHeader({ module, slug, clubName, crest, variant, actions, 
           </a>
         )}
 
+        {center}
         <span className="mhd-spacer" />
         {actions && <div className="mhd-actions">{actions}</div>}
         {(!app || acc.user) && <AccountButton compact={app} />}

@@ -859,3 +859,26 @@ button.lu-slot:hover .lu-slot__photo { transform: translateY(-2px); }
 .sx-row__lab em { font-style: normal; }
 .sx-row__lab .is-gain { color: #5fd18a; } .sx-row__lab .is-cost { color: #ff7a5c; }
 .sx-lane--stay .sx-row__lab b { white-space: normal; }
+
+/* etapas no cabeçalho (computador): aparecem quando a faixa das etapas sai da tela */
+.tm-dock-steps { display: flex; align-items: center; gap: 4px; margin-left: 6px; pointer-events: none; }
+.tm-dock-steps button {
+  display: inline-flex; align-items: center; gap: 6px; height: 34px; padding: 0 11px 0 6px; border-radius: 999px;
+  border: 1px solid transparent; background: none; color: var(--cream-soft, #a9b5a8); cursor: pointer; white-space: nowrap;
+  font: 700 13px/1 "Hanken Grotesk Variable", system-ui, sans-serif;
+  opacity: 0; transform: translateY(14px) scale(0.92); filter: blur(3px);
+  transition: opacity 0.28s ease, transform 0.36s cubic-bezier(0.2, 1.1, 0.3, 1), filter 0.28s ease, background 0.15s, color 0.15s, border-color 0.15s;
+}
+.tm-dock-steps b { display: grid; place-items: center; width: 22px; height: 22px; border-radius: 50%; background: rgba(239, 230, 210, 0.08); font: 900 14px/1 "Big Shoulders Display", sans-serif; }
+.tm-dock-steps i { min-width: 18px; height: 18px; padding: 0 5px; border-radius: 999px; background: #2b6fd6; color: #fff; font: 500 10.5px/18px "DM Mono", monospace; font-style: normal; text-align: center; }
+.tm-dock-steps i.is-warn { background: #e0b95a; color: #1d1b16; }
+.tm-dock-steps.is-on { pointer-events: auto; }
+.tm-dock-steps.is-on button { opacity: 1; transform: none; filter: none; }
+.tm-dock-steps button:hover { color: #efe6d2; border-color: rgba(239, 230, 210, 0.18); }
+.tm-dock-steps button.is-on { color: #1d1b16; background: #e0b95a; }
+.tm-dock-steps button.is-on b { background: rgba(29, 27, 22, 0.15); }
+/* a faixa original some suave enquanto as etapas sobem para o cabeçalho */
+.tm-steps { transition: opacity 0.3s ease, transform 0.35s ease; }
+.tm-steps.is-docked { opacity: 0; transform: translateY(-10px) scale(0.98); }
+@media (max-width: 1180px) { .tm-dock-steps span { display: none; } .tm-dock-steps button { padding: 0 6px; } }
+@media (prefers-reduced-motion: reduce) { .tm-dock-steps button, .tm-steps { transition: none; } }

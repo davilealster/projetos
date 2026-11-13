@@ -1,4 +1,4 @@
-import { Suspense, lazy, useEffect, useMemo, useState } from "react";
+import { Suspense, lazy, useEffect, useMemo, useRef, useState } from "react";
 import "../brand/brand.css";
 import "./market.css";
 import { teamSummary } from "../data";
@@ -162,6 +162,25 @@ function MarketClub({ slug }: { slug: string }) {
     if (isMobile) window.scrollTo({ top: 0 });
   };
 
+  // computador: quando a faixa das etapas sai da tela, as etapas "sobem" para o cabeçalho
+  const stepsRef = useRef<HTMLElement | null>(null);
+  const [docked, setDocked] = useState(false);
+  useEffect(() => {
+    const el = stepsRef.current;
+    if (!el || isMobile) {
+      setDocked(false);
+      return;
+    }
+    const io = new IntersectionObserver(([e]) => setDocked(!e.isIntersecting && e.boundingClientRect.top < 80), { rootMargin: "-62px 0px 0px 0px", threshold: 0 });
+    io.observe(el);
+    return () => io.disconnect();
+  }, [isMobile, club]);
+  const dockTab = (t: Tab) => {
+    setTab(t);
+    const top = stepsRef.current ? stepsRef.current.getBoundingClientRect().top + window.scrollY - 70 : 0;
+    window.scrollTo({ top: Math.max(0, top), behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
+  };
+
   useEffect(() => void loadClubMarket(slug).then(setClub), [slug]);
   useEffect(() => saveMarketState(slug, st), [slug, st]);
   useEffect(() => {
@@ -229,6 +248,22 @@ function MarketClub({ slug }: { slug: string }) {
             </button>
           ) : undefined
         }
+        center={
+          !isMobile && ready ? (
+            <nav className={`tm-dock-steps ${docked ? "is-on" : ""}`} aria-label="Etapas da janela" aria-hidden={!docked}>
+              {tabs.map(([t, label], i) => {
+                const badge = t === "squad" ? sum.pending.length : t === "market" ? arrivals.length : 0;
+                return (
+                  <button key={t} tabIndex={docked ? 0 : -1} className={tab === t ? "is-on" : ""} aria-current={tab === t ? "step" : undefined} style={{ transitionDelay: docked ? `${i * 45}ms` : "0ms" }} onClick={() => dockTab(t)}>
+                    <b>{i + 1}</b>
+                    <span>{label}</span>
+                    {badge > 0 && <i className={t === "squad" ? "is-warn" : ""}>{badge}</i>}
+                  </button>
+                );
+              })}
+            </nav>
+          ) : undefined
+        }
         menuItems={[
           { label: "Como funciona", onSelect: () => setGuide(true) },
           { label: "Tour pela tela", onSelect: () => (setTab("squad"), setSheet(false), setTour(true)) },
@@ -253,7 +288,7 @@ function MarketClub({ slug }: { slug: string }) {
           })}
         </nav>
       ) : (
-        <nav className="tm-steps" role="tablist" aria-label="Etapas da janela">
+        <nav ref={stepsRef} className={`tm-steps ${docked ? "is-docked" : ""}`} role="tablist" aria-label="Etapas da janela">
           {tabs.map(([t, label, note], i) => (
             <button key={t} role="tab" aria-selected={tab === t} className={`tm-step ${tab === t ? "is-on" : ""}`} onClick={() => setTab(t)}>
               <b>{i + 1}</b>
