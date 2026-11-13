@@ -190,6 +190,18 @@ describe("parseRoute (Mando)", () => {
     expect(parseRoute("/mercado/")).toEqual({ page: "redirect", module: "mercado" });
   });
 
+  it("o Olheiro virou a etapa 2 do Mercado: /olheiro e /olheiro/{clube} redirecionam", () => {
+    expect(parseRoute("/olheiro")).toEqual({ page: "redirect", module: "olheiro" });
+    expect(parseRoute("/olheiro/vasco")).toEqual({ page: "redirect", module: "olheiro", slug: "vasco" });
+    expect(parseRoute("/olheiro/vasco/x")).toEqual({ page: "notfound" });
+    // /olheiro/{clube}: o clube da URL; /olheiro: o clube salvo (se válido) ou a Home
+    expect(redirectTarget("olheiro", "vasco")).toBe("/mercado/vasco?aba=mercado");
+    expect(redirectTarget("olheiro", null)).toBe("/?modulo=olheiro&trocar=1");
+    expect(redirectTarget("olheiro", "time-que-nao-existe")).toBe("/?modulo=olheiro&trocar=1");
+    expect(moduleHref("olheiro", "vasco")).toBe("/mercado/vasco?aba=mercado");
+    expect(parseRoute(redirectTarget("olheiro", "vasco").split("?")[0])).toEqual({ page: "market", slug: "vasco" });
+  });
+
   it("moduleHref mantém o clube ao trocar de módulo", () => {
     expect(moduleHref("prancheta", "vasco")).toBe("/vasco");
     expect(moduleHref("mercado", "vasco")).toBe("/mercado/vasco");

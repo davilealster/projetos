@@ -1,13 +1,13 @@
-// "Ver scout" dentro do Mercado: o mesmo perfil do Olheiro, compacto, sem sair da tela.
+// "Ver scout" dentro do Mercado: o relatório do olheiro, sem sair da tela.
+// Na etapa 2 recebe o estado da Minha lista (st/dispatch) de quem abriu; no elenco (own) lê o próprio.
 import { useEffect, useReducer, useState } from "react";
 import "./scout.css";
-import { navigate } from "../router";
 import type { MarketPlayer } from "../market/types";
 import { CONTRACT_CUT, FREE_CUTOFF, leagueName, groupOf, loadScoutPlayer } from "./data";
 import { evaluate, toProspect, type ScoutPlayer } from "./metrics";
 import { PlayerSheet } from "./PlayerSheet";
 import { isFree } from "./searches";
-import { loadScoutState, saveScoutState, scoutReducer } from "./state";
+import { loadScoutState, saveScoutState, scoutReducer, type ScoutAction, type ScoutState } from "./state";
 import { Drawer } from "./ui";
 
 type Props = {
@@ -17,11 +17,21 @@ type Props = {
   player: Pick<MarketPlayer, "id" | "name" | "pos" | "age" | "value" | "contract" | "nat" | "foreign" | "photo">;
   club: string;
   onClose: () => void;
+  /** jogador do elenco do clube */
+  own?: boolean;
+  st?: ScoutState;
+  dispatch?: (a: ScoutAction) => void;
+  foot?: React.ReactNode;
 };
 
-export default function ScoutPeek({ slug, league, player, club, onClose }: Props) {
-  const [st, dispatch] = useReducer(scoutReducer, slug, loadScoutState);
-  useEffect(() => saveScoutState(slug, st), [slug, st]);
+export default function ScoutPeek({ slug, league, player, club, onClose, own = false, st: outerSt, dispatch: outerDispatch, foot }: Props) {
+  const [innerSt, innerDispatch] = useReducer(scoutReducer, slug, loadScoutState);
+  const external = !!outerSt && !!outerDispatch;
+  useEffect(() => {
+    if (!external) saveScoutState(slug, innerSt);
+  }, [slug, innerSt, external]);
+  const st = external ? outerSt! : innerSt;
+  const dispatch = external ? outerDispatch! : innerDispatch;
   const [x, setX] = useState<ScoutPlayer | null | undefined>(undefined);
   useEffect(() => {
     let alive = true;
@@ -56,8 +66,8 @@ export default function ScoutPeek({ slug, league, player, club, onClose }: Props
       onClose={onClose}
       free={isFree(x, FREE_CUTOFF)}
       contractCut={CONTRACT_CUT}
-      compact
-      onOpenScout={() => navigate(`/olheiro/${slug}`)}
+      own={own}
+      foot={foot}
     />
   );
 }

@@ -44,7 +44,12 @@ export type ScoutAction =
   | { type: "plan/set"; pos: Pos; keys: string[] }
   | { type: "note"; key: string; text: string }
   | { type: "compare"; key: string }
-  | { type: "compare/clear" };
+  | { type: "compare/clear" }
+  // Minha lista (etapa 2 do Mercado): guardar, prioridade (Plano A/B/C ou só observando), reordenar, tirar
+  | { type: "list/save"; key: string; at?: number }
+  | { type: "list/remove"; key: string }
+  | { type: "list/priority"; pos: Pos; key: string; prio: number | null }
+  | { type: "list/move"; pos: Pos; order: string[]; key: string; dir: -1 | 1 };
 
 export function scoutReducer(st: ScoutState, a: ScoutAction): ScoutState {
   switch (a.type) {
@@ -95,7 +100,119 @@ export function scoutReducer(st: ScoutState, a: ScoutAction): ScoutState {
     }
     case "compare/clear":
       return { ...st, compare: [] };
+    case "list/save":
+      return isSaved(st, a.key) ? st : { ...st, shelves: { ...st.shelves, [a.key]: { shelf: "monitor", at: a.at ?? Date.now() } } };
+    case "list/remove": {
+      const shelves = { ...st.shelves };
+      delete shelves[a.key];
+      const plans: ScoutState["plans"] = {};
+      for (const [pos, list] of Object.entries(st.plans) as [Pos, string[]][]) {
+        const rest = list.filter((k) => k !== a.key);
+        if (rest.length) plans[pos] = rest;
+      }
+      return { ...st, shelves, plans, compare: st.compare.filter((k) => k !== a.key) };
+    }
+    case "list/priority":
+      return setPriority(st, a.pos, a.key, a.prio);
+    case "list/move":
+      return moveInList(st, a.pos, a.order, a.key, a.dir);
   }
+}
+
+// ---------- Minha lista (prateleiras + planos numa lista só) ----------
+
+/** Letras que o seletor oferece (Plano A, B, C); "só observando" = fora dos planos. */
+export const LIST_PRIORITIES = 3;
+
+/**
+ * Letras possíveis para um jogador na posição: Plano B só existe se houver um A (é a alternativa ao A), e assim por diante.
+ * Devolve o maior índice permitido (0 = só A).
+ */
+export function maxPriority(st: ScoutState, pos: Pos, key: string): number {
+  const others = (st.plans[pos] ?? []).filter((k) => k !== key).length;
+  return Math.min(others, LIST_PRIORITIES - 1);
+}
+
+/** Está na Minha lista: num plano ou numa prateleira (menos "descartado"). */
+export const isSaved = (st: ScoutState, key: string) => !!planOf(st, key) || (!!st.shelves[key] && st.shelves[key].shelf !== "discard");
+
+/** Todas as chaves da lista (planos primeiro, depois prateleiras), sem repetir. */
+export function savedKeys(st: ScoutState): string[] {
+  const out = new Set<string>(Object.values(st.plans).flat().filter((k): k is string => !!k));
+  for (const [k, e] of Object.entries(st.shelves)) if (e.shelf !== "discard") out.add(k);
+  return [...out];
+}
+
+/**
+ * Ordem de uma posição na lista: os planos (A, B, C…) e depois os "só observando" (`observing`: chaves da posição),
+ * do mais antigo para o mais novo.
+ */
+export function listOrder(st: ScoutState, pos: Pos, observing: string[]): string[] {
+  const planned = st.plans[pos] ?? [];
+  const rest = observing.filter((k) => !planned.includes(k) && !planOf(st, k));
+  rest.sort((a, b) => (st.shelves[a]?.at ?? 0) - (st.shelves[b]?.at ?? 0));
+  return [...planned, ...rest];
+}
+
+/** Garante a entrada na prateleira (quem está na lista sempre tem uma; "descartado" volta a observar). */
+const ensureShelf = (shelves: ScoutState["shelves"], key: string, at = Date.now()) => {
+  if (!shelves[key] || shelves[key].shelf === "discard") shelves[key] = { shelf: "monitor", at };
+};
+
+/** Plano A/B/C (`prio` = 0, 1, 2…) ou só observando (null). Quem já ocupava a letra desce uma. */
+export function setPriority(st: ScoutState, pos: Pos, key: string, prio: number | null): ScoutState {
+  const plans = { ...st.plans };
+  const cur = planOf(st, key);
+  if (cur && cur.pos !== pos) {
+    const l = (plans[cur.pos] ?? []).filter((k) => k !== key);
+    if (l.length) plans[cur.pos] = l;
+    else delete plans[cur.pos];
+  }
+  const list = (plans[pos] ?? []).filter((k) => k !== key);
+  if (prio != null) list.splice(Math.max(0, Math.min(prio, list.length)), 0, key);
+  const shelves = { ...st.shelves };
+  ensureShelf(shelves, key);
+  // passou do limite: o último volta para "só observando"
+  for (const k of list.slice(PLAN_MAX)) shelves[k] = { shelf: "monitor", at: Date.now() };
+  if (list.length) plans[pos] = list.slice(0, PLAN_MAX);
+  else delete plans[pos];
+  return { ...st, plans, shelves };
+}
+
+/**
+ * Sobe/desce um jogador na ordem da posição. O número de planos não muda: quem cruza a linha troca de lugar
+ * com o vizinho (o último plano passa a "só observando" e vice-versa).
+ */
+export function moveInList(st: ScoutState, pos: Pos, order: string[], key: string, dir: -1 | 1): ScoutState {
+  const i = order.indexOf(key);
+  const j = i + dir;
+  if (i < 0 || j < 0 || j >= order.length) return st;
+  const next = [...order];
+  [next[i], next[j]] = [next[j], next[i]];
+  const n = Math.min((st.plans[pos] ?? []).length, next.length);
+  const plans = { ...st.plans };
+  if (n) plans[pos] = next.slice(0, n);
+  const shelves = { ...st.shelves };
+  const rest = next.slice(n);
+  const ats = rest.map((k) => shelves[k]?.at ?? 0).sort((a, b) => a - b);
+  rest.forEach((k, idx) => {
+    shelves[k] = { ...(shelves[k] ?? { shelf: "monitor" as ShelfId }), at: ats[idx] || Date.now() + idx };
+    if (shelves[k].shelf === "discard") shelves[k] = { shelf: "monitor", at: shelves[k].at };
+  });
+  for (const k of next.slice(0, n)) ensureShelf(shelves, k);
+  return { ...st, plans, shelves };
+}
+
+/**
+ * Migração: o ★ "observar" antigo do Mercado (`MarketState.watch`, chaves "liga:id") entra na Minha lista
+ * como "só observando". Quem já está no olheiro (inclusive descartado) fica como está. Pura.
+ */
+export function mergeWatch(st: ScoutState, watch: readonly string[], at = Date.now()): ScoutState {
+  const add = watch.filter((k) => /^[A-Za-z0-9]+:.+/.test(k) && !st.shelves[k] && !planOf(st, k));
+  if (!add.length) return st;
+  const shelves = { ...st.shelves };
+  add.forEach((k, i) => (shelves[k] = { shelf: "monitor", at: at + i }));
+  return { ...st, shelves };
 }
 
 /** Em que plano (posição e letra) o jogador está. */

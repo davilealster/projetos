@@ -131,7 +131,7 @@ export function AccountModals() {
         <h2 id="acc-title">Quer salvar sua jornada?</h2>
         <p>
           Faça o login e continue de onde parou em qualquer navegador ou celular: seu clube, as decisões e contratações do mercado, a
-          escalação e as prateleiras do olheiro.
+          escalação e a sua lista de alvos.
         </p>
         <GoogleButton clientId={acc.clientId} onError={setError} />
         {error && <p className="acc-error">{error}</p>}
@@ -145,7 +145,7 @@ export function AccountModals() {
 function describe(keys: string[]): string {
   const names = keys.map((k) => {
     const [mod, slug] = k.split(":");
-    const m = mod === "mercado" ? "mercado" : mod === "olheiro" ? "olheiro" : mod === "prancheta" ? "prancheta" : "preferências";
+    const m = mod === "mercado" ? "mercado" : mod === "olheiro" ? "lista de alvos" : mod === "prancheta" ? "prancheta" : "preferências";
     return slug && slug !== "clube" && slug !== "view" ? `${m} do ${slug}` : m;
   });
   return [...new Set(names)].slice(0, 4).join(", ");

@@ -29,11 +29,18 @@ Arquivos: `src/home/Home.tsx`, `src/home/home.css` (+ assets em `public/brand/`)
 - README/PENDENCIAS atualizados.
 Arquivos: `src/brand/ModuleHeader.tsx`, `module-header.css`, `nav.ts`, `src/market/MarketApp.tsx` (menu/atalho), `src/components/Board.tsx`/`MobileShell.tsx` (link de volta), `src/scout/ScoutApp.tsx` (link de volta).
 
-## Fase 3 — Olheiro dentro da ida às compras (por último)
+## Fase 3 — Olheiro dentro da ida às compras (por último) — FEITA
 - Etapa 2 "Mercado" ganha as ferramentas do olheiro: buscas prontas (Os óbvios, Não óbvios, Joias, Fim de contrato, Custo-benefício, Reposição, Cobrir a carência) como atalhos acima da lista; nota 0–100 em carimbo nas fichas; "Ver scout" abre o relatório (já existe).
 - Prateleiras e Planos A/B/C viram uma sub-aba da etapa 2 ("Minha lista"), substituindo/absorvendo a estrela de "guardar para depois" do Mercado.
 - `/olheiro/{slug}` redireciona para `/mercado/{slug}?aba=mercado`; estado `olheiro:{slug}:v1` é preservado e lido pelo Mercado.
 - Remover o módulo Olheiro da navegação; manter `src/scout/metrics|searches|state|data` como biblioteca.
+
+Decisões (fase 3):
+- Etapa 2 = sub-abas **Procurar** (padrão) e **Minha lista** (com contador). Código em `src/market/Shopping.tsx`, carregado só ao abrir a etapa 2 (o chunk principal não cresceu; `ScoutApp`, `Radar`, `Boards`, `context` foram apagados).
+- Atalhos rodam sobre a liga escolhida no seletor (e os filtros); o seletor de grupo do antigo Radar e os filtros extras (minutos, nota mín., valor máx.) saíram. "Reposição" pede um jogador do elenco.
+- "Guardar na lista" substitui a ★. Minha lista usa o mesmo estado `olheiro:{slug}:v1`: Plano A/B/C = ordem em `plans[pos]` (B só existe se houver A; o novo A empurra o antigo para B); "Observando" = prateleira; descartados ficam ocultos. ★ antigo migrado uma vez (`mergeWatch`) e `watch` zerado.
+- Comparador **fora** da interface (código e estado mantidos): não coube de forma simples. O perfil ("Ver scout") troca a "Mesa do olheiro" por "Minha lista" (prioridade, tirar, anotação).
+- Correção: redirecionamentos no primeiro carregamento (`/mercado`, `/prancheta`, `/olheiro`) ficavam em branco; `useRoute` agora sincroniza ao assinar o `popstate`.
 
 ## Verificação por fase
 tsc, vitest, build; Playwright 390×844 e 1360×900; `scrollWidth<=innerWidth`; jornada: abrir a home sem nada salvo → tocar num escudo → cair no guia do Mercado; voltar à home → "Continuar a janela". Depois de verde: commit, push, deploy.

@@ -2,11 +2,10 @@ import { useEffect, useState } from "react";
 
 export type Route =
   | { page: "home" }
-  | { page: "redirect"; module: "prancheta" | "mercado" | "olheiro" }
+  | { page: "redirect"; module: "prancheta" | "mercado" | "olheiro"; slug?: string }
   | { page: "creator" }
   | { page: "admin" }
   | { page: "market"; slug: string | null }
-  | { page: "scout"; slug: string }
   | { page: "board"; slug: string; live: boolean }
   | { page: "notfound" };
 
@@ -18,7 +17,8 @@ export function parseRoute(path: string): Route {
   if (parts.length === 1 && parts[0] === "mercado") return { page: "redirect", module: "mercado" };
   if (parts[0] === "mercado" && parts.length === 2) return { page: "market", slug: parts[1] };
   if (parts.length === 1 && parts[0] === "olheiro") return { page: "redirect", module: "olheiro" };
-  if (parts[0] === "olheiro" && parts.length === 2) return { page: "scout", slug: parts[1] };
+  // o Olheiro virou parte da etapa 2 do Mercado: links antigos redirecionam
+  if (parts[0] === "olheiro" && parts.length === 2) return { page: "redirect", module: "olheiro", slug: parts[1] };
   if (parts.length === 1 && parts[0] === "prancheta") return { page: "redirect", module: "prancheta" };
   if (parts.length === 1) return { page: "board", slug: parts[0], live: false };
   if (parts.length === 2 && parts[1] === "live") return { page: "board", slug: parts[0], live: true };
@@ -41,6 +41,8 @@ export function useRoute(): Route {
   useEffect(() => {
     const on = () => setPath(location.pathname);
     window.addEventListener("popstate", on);
+    // efeitos dos filhos rodam antes: um redirecionamento no primeiro render (ex.: /olheiro) já trocou a URL
+    on();
     return () => window.removeEventListener("popstate", on);
   }, []);
   return parseRoute(path);

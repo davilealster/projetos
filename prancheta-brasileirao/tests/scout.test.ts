@@ -5,7 +5,7 @@ import {
   type Prospect, type ScoutPlayer,
 } from "../src/scout/metrics";
 import { applyFilters, emptyFilters, needsText, runSearch, similarTo, type SearchCtx } from "../src/scout/searches";
-import { emptyScoutState, planOf, scoutReducer, shelfCounts, signingFor, withSignings } from "../src/scout/state";
+import { emptyScoutState, isSaved, listOrder, mergeWatch, planOf, savedKeys, scoutReducer, shelfCounts, signingFor, withSignings } from "../src/scout/state";
 import type { ScoutStats } from "../src/scout/types";
 import type { Pos } from "../src/types";
 
@@ -268,5 +268,70 @@ describe("temporada exibida", () => {
     expect(seasonLabel("MLS1", "2025")).toBe("2026");
     expect(seasonLabel("GB1", "2026")).toBe("2026/27");
     expect(seasonLabel("BRA1", null)).toBe("");
+  });
+});
+
+describe("Minha lista (prateleiras + planos na etapa 2)", () => {
+  it("mergeWatch: o ★ antigo do Mercado entra como 'só observando', sem duplicar nem ressuscitar descartados", () => {
+    let st = emptyScoutState();
+    st = scoutReducer(st, { type: "shelf", key: "BRA1:9", shelf: "discard", at: 1 });
+    st = scoutReducer(st, { type: "plan/add", pos: "ZAG", key: "GB1:7" });
+    const out = mergeWatch(st, ["BRA1:1", "AR1N:2", "BRA1:9", "GB1:7", "lixo"], 100);
+    expect(out.shelves["BRA1:1"]).toEqual({ shelf: "monitor", at: 100 });
+    expect(out.shelves["AR1N:2"]).toEqual({ shelf: "monitor", at: 101 });
+    expect(out.shelves["BRA1:9"].shelf).toBe("discard");
+    expect(out.shelves["GB1:7"]).toBeUndefined();
+    expect(out.shelves.lixo).toBeUndefined();
+    expect(st.shelves["BRA1:1"]).toBeUndefined(); // pura
+    expect(mergeWatch(out, ["BRA1:1"], 999)).toBe(out);
+    expect(mergeWatch(st, [])).toBe(st);
+  });
+
+  it("savedKeys junta planos e prateleiras (menos descartado)", () => {
+    let st = emptyScoutState();
+    st = scoutReducer(st, { type: "shelf", key: "a:1", shelf: "priority", at: 1 });
+    st = scoutReducer(st, { type: "shelf", key: "a:2", shelf: "discard", at: 2 });
+    st = scoutReducer(st, { type: "plan/add", pos: "ATA", key: "a:3" });
+    expect(savedKeys(st).sort()).toEqual(["a:1", "a:3"]);
+    expect(isSaved(st, "a:2")).toBe(false);
+    expect(isSaved(st, "a:3")).toBe(true);
+  });
+
+  it("guardar, prioridade A/B/C, observar e tirar", () => {
+    let st = emptyScoutState();
+    st = scoutReducer(st, { type: "list/save", key: "x:1", at: 1 });
+    st = scoutReducer(st, { type: "list/save", key: "x:2", at: 2 });
+    st = scoutReducer(st, { type: "list/save", key: "x:3", at: 3 });
+    expect(listOrder(st, "ZAG", ["x:3", "x:1", "x:2"])).toEqual(["x:1", "x:2", "x:3"]);
+    st = scoutReducer(st, { type: "list/priority", pos: "ZAG", key: "x:2", prio: 0 });
+    st = scoutReducer(st, { type: "list/priority", pos: "ZAG", key: "x:3", prio: 0 }); // novo A: o antigo desce para B
+    expect(st.plans.ZAG).toEqual(["x:3", "x:2"]);
+    expect(listOrder(st, "ZAG", ["x:1", "x:2", "x:3"])).toEqual(["x:3", "x:2", "x:1"]);
+    st = scoutReducer(st, { type: "list/priority", pos: "ZAG", key: "x:3", prio: null });
+    expect(st.plans.ZAG).toEqual(["x:2"]);
+    expect(isSaved(st, "x:3")).toBe(true);
+    st = scoutReducer(st, { type: "list/remove", key: "x:2" });
+    expect(st.plans.ZAG).toBeUndefined();
+    expect(isSaved(st, "x:2")).toBe(false);
+    // descartado que volta a ser guardado
+    st = scoutReducer(st, { type: "shelf", key: "x:9", shelf: "discard" });
+    st = scoutReducer(st, { type: "list/priority", pos: "ZAG", key: "x:9", prio: 2 });
+    expect(st.shelves["x:9"].shelf).toBe("monitor");
+    expect(st.plans.ZAG).toEqual(["x:9"]);
+  });
+
+  it("reordenar mantém o número de planos (quem cruza a linha troca de lugar)", () => {
+    let st = emptyScoutState();
+    for (const [k, at] of [["y:1", 1], ["y:2", 2], ["y:3", 3]] as const) st = scoutReducer(st, { type: "list/save", key: k, at });
+    st = scoutReducer(st, { type: "list/priority", pos: "MEI", key: "y:1", prio: 0 });
+    let order = listOrder(st, "MEI", ["y:1", "y:2", "y:3"]);
+    expect(order).toEqual(["y:1", "y:2", "y:3"]);
+    st = scoutReducer(st, { type: "list/move", pos: "MEI", order, key: "y:3", dir: -1 });
+    order = listOrder(st, "MEI", ["y:1", "y:2", "y:3"]);
+    expect(order).toEqual(["y:1", "y:3", "y:2"]);
+    st = scoutReducer(st, { type: "list/move", pos: "MEI", order, key: "y:3", dir: -1 }); // sobe para Plano A
+    expect(st.plans.MEI).toEqual(["y:3"]);
+    expect(listOrder(st, "MEI", ["y:1", "y:2", "y:3"])).toEqual(["y:3", "y:1", "y:2"]);
+    expect(scoutReducer(st, { type: "list/move", pos: "MEI", order: ["y:3", "y:1", "y:2"], key: "y:3", dir: -1 })).toBe(st);
   });
 });

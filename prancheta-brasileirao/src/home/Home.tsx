@@ -71,7 +71,7 @@ const STEPS = [
 
 export function Home() {
   const [club] = useState<TeamSummary | null>(() => findClub(getLastClub()));
-  // Links antigos (`?modulo=prancheta|olheiro`) seguem para o módulo pedido; o padrão é o mercado.
+  // Links antigos (`?modulo=prancheta|olheiro`) seguem para o módulo pedido (olheiro = etapa 2 do mercado); o padrão é o mercado.
   const [target] = useState<ModuleId>(() => {
     const m = params().get("modulo");
     return isModule(m) ? m : "mercado";

@@ -6,26 +6,26 @@ import { navigate, params, replace } from "../router";
 import { ModuleHeader } from "../brand/ModuleHeader";
 import { clubVars, initials } from "../lib/color";
 import { applyTeamSummary, useOverrides } from "../lib/overrides";
-import { POSITIONS, type Pos } from "../types";
 import { AgeValue, ContractYears, Depth, Legend, TapTips, Waterfall } from "./Charts";
 import { PitchView } from "./PitchView";
 import { MARKET_INDEX, hasMarketData, loadClubMarket, loadLeague, loadMarketState, saveMarketState } from "./data";
 import {
   ACTION_LABEL, PRICED, SIGNING_LABEL, actionsFor, contractYears, decisionOf, depthChart, emptyMarketState, fmtDate, curUnit, fmtMoney, fmtRef, fromUnit, setMoneyMode, toUnit,
-  FOREIGN_LIMIT, HOW_TAG, fmtEur, isEnding, isFreeAgent, moneyOf, nextSeason, posRank, shareText, staysWith, summarize, waterfall,
-  type Currency, type Decision, type Lineup, type MarketState, type SigningType, type SquadAction,
+  FOREIGN_LIMIT, HOW_TAG, fmtEur, isEnding, moneyOf, nextSeason, posRank, shareText, staysWith, summarize, waterfall,
+  type Currency, type Decision, type Lineup, type MarketState, type SquadAction,
 } from "./logic";
 import type { ClubMarket, MarketLeague, MarketPlayer, SquadPlayer } from "./types";
+import { Foreign, Ico, ICON, Photo, Price, Sheet, Stamp } from "./bits";
 import { CoachCard, LineupTab, StoryStudio, getAuthor, shortName, useNextCoach } from "./Lineup";
 import { Tour, tourSeen, type TourStep } from "./Tour";
 
-// perfil do Olheiro ("Ver scout"): carregado só quando aberto
+// perfil do olheiro ("Ver scout") e a etapa 2 (atalhos do olheiro + Minha lista): carregados só quando abertos
 const ScoutPeek = lazy(() => import("../scout/ScoutPeek"));
+const Shopping = lazy(() => import("./Shopping"));
 type Peek = { league: string; player: MarketPlayer | SquadPlayer; club: string };
-type OnScout = (p: Peek) => void;
 
 const TOUR: TourStep[] = [
-  { target: [".tm-steps", ".tm-tabbar"], title: "As quatro etapas da janela", text: "Elenco → Mercado → Fechamento → Compartilhe. Siga na ordem; dá para voltar a qualquer uma." },
+  { target: [".tm-steps", ".tm-tabbar"], title: "As quatro etapas da janela", text: "Elenco → Mercado → Fechamento → Compartilhe. No Mercado, os atalhos do olheiro (Joias, Fim de contrato…) acham reforços e a Minha lista guarda os seus Planos A, B e C." },
   { target: [".tm-view"], title: "Lista ou Campo", text: "Na Lista, o elenco inteiro com filtros. No Campo, setor por setor, com o rosto grande e um toque por decisão." },
   { target: [".tm-callout"], title: "Comece por aqui", text: "Esses contratos acabam antes da próxima temporada. Decida um a um ou aplique o padrão a todos." },
   { target: [".tm-rail .tm-ledger", ".tm-chip"], title: "Balancete", text: "Saldo, vendas, gastos e o elenco por posição, sempre à vista. No celular, toque no saldo para abrir." },
@@ -52,7 +52,6 @@ const STAMP: Record<SquadAction, [string, "green" | "red" | "blue"]> = {
   recall: ["Volta", "green"],
   keepLoan: ["Segue fora", "blue"],
 };
-const SIGN_STAMP: Record<SigningType, string> = { buy: "Contratado", loan: "Empréstimo", free: "Chega livre" };
 
 const go = (to: string) => (e: React.MouseEvent) => {
   if (e.metaKey || e.ctrlKey) return;
@@ -79,39 +78,7 @@ function useIsMobile() {
 }
 
 /** Folha que sobe de baixo (só no celular). A rolagem da página trava via CSS enquanto ela existe. */
-function Sheet({ title, onClose, children, foot }: { title: string; onClose: () => void; children: React.ReactNode; foot?: React.ReactNode }) {
-  useEffect(() => {
-    const k = (e: KeyboardEvent) => e.key === "Escape" && onClose();
-    window.addEventListener("keydown", k);
-    return () => window.removeEventListener("keydown", k);
-  }, [onClose]);
-  return (
-    <div className="tm-sheet" role="dialog" aria-modal="true" aria-label={title} onClick={onClose}>
-      <div className="tm-sheet__body tm-psheet" onClick={(e) => e.stopPropagation()}>
-        <div className="tm-psheet__head">
-          <b>{title}</b>
-          <button className="tm-sheet__close" onClick={onClose} aria-label="Fechar">×</button>
-        </div>
-        <div className="tm-psheet__scroll">{children}</div>
-        {foot && <div className="tm-psheet__foot">{foot}</div>}
-      </div>
-    </div>
-  );
-}
 
-const Ico = ({ d, size = 22 }: { d: string; size?: number }) => (
-  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-    <path d={d} />
-  </svg>
-);
-const ICON = {
-  squad: "M8 3 4 5.5 2.5 10l3 1.2V21h13v-9.8l3-1.2L20 5.5 16 3c-.6 1.6-2.2 2.6-4 2.6S8.6 4.6 8 3Z",
-  market: "M3 4h2.2l2.3 11h10.8L21 7H6.4M9.5 20a1 1 0 1 0 0-.01M17 20a1 1 0 1 0 0-.01",
-  close: "M4 20V10m5.3 10V4m5.4 16v-7M20 20V7M3 20.5h18",
-  lineup: "M4 3h16v18H4zM4 12h16M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0-6 0M9 3v3h6V3M9 21v-3h6v3",
-  sort: "M7 4v16M7 20l-3-3M7 20l3-3M17 20V4M17 4l-3 3M17 4l3 3",
-  filter: "M4 6h16M7 12h10M10 18h4",
-};
 
 // ============ rota ============
 
@@ -147,14 +114,6 @@ function NoData() {
   );
 }
 
-function Stamp({ text, ink, onClick, title }: { text: string; ink: "green" | "red" | "blue" | "amber"; onClick?: () => void; title?: string }) {
-  const cls = `tm-stamp tm-stamp--${ink}`;
-  return onClick ? (
-    <button className={cls} onClick={onClick} title={title}>{text}</button>
-  ) : (
-    <span className={cls}>{text}</span>
-  );
-}
 
 // ============ clube ============
 
@@ -168,7 +127,7 @@ function MarketClub({ slug }: { slug: string }) {
   const [club, setClub] = useState<ClubMarket | null | undefined>(undefined);
   const [st, setSt] = useState<MarketState>(() => loadMarketState(slug));
   setMoneyMode(st.currency, st.rate); // antes de renderizar os filhos: todos os valores saem na moeda escolhida
-  // ?aba=mercado: chegando do Olheiro ("Adicionar ao meu mercado")
+  // ?aba=mercado: abre direto nas compras (links antigos do Olheiro caem aqui)
   const [tab, setTab] = useState<Tab>(() => (params().get("aba") === "mercado" ? "market" : "squad"));
   const [peek, setPeek] = useState<Peek | null>(null);
   useEffect(() => {
@@ -177,7 +136,7 @@ function MarketClub({ slug }: { slug: string }) {
   const [leagues, setLeagues] = useState<Record<string, MarketLeague>>({});
   const [guide, setGuide] = useState(false);
   const [sheet, setSheet] = useState(false);
-  const [toast, setToast] = useState<string | null>(() => (params().get("aba") === "mercado" ? "Do Olheiro para o seu mercado" : null));
+  const [toast, setToast] = useState<string | null>(null);
   const [studio, setStudio] = useState<Lineup | null>(null);
   const [tour, setTour] = useState(false);
   const isMobile = useIsMobile();
@@ -336,7 +295,13 @@ function MarketClub({ slug }: { slug: string }) {
             )}
             {tab === "lineup" && <LineupTab slug={slug} next={next} st={st} setSt={setSt} team={team} coach={nextCoach} balance={sum.balance} income={sum.income} spend={sum.spend} onGenerate={setStudio} />}
             {tab === "market" && (
-              <MarketTab st={st} setSt={setSt} balance={sum.balance} ownIds={new Set(squad.map((p) => p.id))} depth={depth} onLeague={(l) => setLeagues((x) => ({ ...x, [l.id]: l }))} isMobile={isMobile} onScout={setPeek} />
+              <Suspense fallback={<p className="tm-center">Abrindo o mercado…</p>}>
+                <Shopping
+                  slug={slug} st={st} setSt={setSt} balance={sum.balance} squad={squad} depth={depth} isMobile={isMobile}
+                  onLeague={(l: MarketLeague) => setLeagues((x) => (x[l.id] ? x : { ...x, [l.id]: l }))}
+                  onToast={setToast}
+                />
+              </Suspense>
             )}
             {tab === "close" && (
               <CloseTab
@@ -415,7 +380,7 @@ function MarketClub({ slug }: { slug: string }) {
       {tour && !showGuide && <Tour steps={TOUR} onClose={() => setTour(false)} />}
       {peek && (
         <Suspense fallback={null}>
-          <ScoutPeek slug={slug} league={peek.league} player={peek.player} club={peek.club} onClose={() => setPeek(null)} />
+          <ScoutPeek slug={slug} league={peek.league} player={peek.player} club={peek.club} own onClose={() => setPeek(null)} />
         </Suspense>
       )}
       {toast && <div className="tm-toast">{toast}</div>}
@@ -509,8 +474,8 @@ function Guide({ team, crest, squadSize, st, setSt, pending, loans, onDone }: {
             <p className="tm-eyebrow">Passo 3 de 3</p>
             <h2>Vá às compras e feche a janela</h2>
             <p>
-              No <b>Mercado</b>, filtre por liga, posição, idade e preço. “Cabe no saldo” mostra só quem você pode pagar, e
-              a estrela guarda um jogador para decidir depois. Quem está em fim de contrato pode chegar de graça.
+              No <b>Mercado</b>, os atalhos do olheiro (Os óbvios, Joias, Fim de contrato…) e os filtros acham reforços em
+              23 ligas; “Guardar na lista” monta a sua <b>Minha lista</b>, com Planos A, B e C por posição.
             </p>
             <p>
               O <b>balancete</b> acompanha tudo: saldo, e quantos jogadores você tem em cada posição. No
@@ -678,31 +643,7 @@ function BudgetInput({ st, setSt }: { st: MarketState; setSt: SetSt }) {
 
 // ============ fichas ============
 
-function Photo({ name, photo, colors }: { name: string; photo: string | null; colors?: { primary: string; secondary: string } }) {
-  const [broken, setBroken] = useState(false);
-  if (photo && !broken) {
-    return (
-      <img
-        className="tm-ficha__photo"
-        src={photo}
-        alt=""
-        width={52}
-        height={52}
-        loading="lazy"
-        referrerPolicy="no-referrer"
-        onError={() => setBroken(true)}
-      />
-    );
-  }
-  return (
-    <span className="tm-ficha__photo tm-ficha__photo--ini" style={colors ? { background: colors.primary, color: colors.secondary === colors.primary ? "#fff" : colors.secondary } : undefined}>
-      {initials(name)}
-    </span>
-  );
-}
 
-/** Bandeira de texto para estrangeiro (conta no limite da CBF). */
-const Foreign = ({ on }: { on: boolean }) => (on ? <span className="tm-foreign" title={`Estrangeiro: até ${FOREIGN_LIMIT} podem ser relacionados por jogo`}>EST</span> : null);
 
 function arrivalText(p: SquadPlayer): string {
   const a = p.arrival;
@@ -720,15 +661,6 @@ function contractText(p: SquadPlayer): string {
   return p.contract ? `Contrato até ${fmtDate(p.contract)}` : "Contrato sem data informada";
 }
 
-function Price({ value, onChange, label }: { value: number; onChange: (v: number) => void; label: string }) {
-  return (
-    <label className="tm-price">
-      {label} {curUnit()}
-      <input type="number" min={0} step={0.1} value={Math.round((toUnit(value) / 1e6) * 10) / 10} onChange={(e) => onChange(Math.round(fromUnit(Math.max(0, Number(e.target.value) || 0) * 1e6)))} />
-      mi
-    </label>
-  );
-}
 
 type SquadFilter = "all" | "pending" | "loans" | "leaving" | "foreign";
 type SquadSort = "pos" | "value" | "contract" | "age";
@@ -863,258 +795,6 @@ function SquadTab({ squad, st, setSt, setDecision, colors, isMobile, onScout }: 
         })}
         {!shown.length && <p className="tm-empty">Ninguém neste filtro. <button className="tm-link" onClick={() => setFilter("all")}>Ver todos</button></p>}
       </div>
-    </section>
-  );
-}
-
-// ============ mercado ============
-
-type MarketSort = "value" | "cheap" | "young" | "contract";
-
-const MARKET_SORTS: [MarketSort, string][] = [["value", "Mais valiosos"], ["cheap", "Mais baratos"], ["young", "Mais jovens"], ["contract", "Contrato acaba antes"]];
-
-function MarketTab({ st, setSt, balance, ownIds, depth, onLeague, isMobile, onScout }: {
-  st: MarketState; setSt: SetSt; balance: number; ownIds: Set<string>; depth: ReturnType<typeof depthChart>; onLeague: (l: MarketLeague) => void; isMobile: boolean; onScout: OnScout;
-}) {
-  const [sheet, setSheet] = useState(false);
-  const groups = [...new Set(MARKET_INDEX.leagues.map((l) => l.group))];
-  const [leagueId, setLeagueId] = useState(MARKET_INDEX.leagues[0]?.id ?? "");
-  const [loaded, setLoaded] = useState<MarketLeague[]>([]);
-  const [loading, setLoading] = useState(true);
-  const [q, setQ] = useState("");
-  const [clubKey, setClubKey] = useState(""); // "liga:índice"
-  const [pos, setPos] = useState<Pos | null>(null);
-  const [maxAge, setMaxAge] = useState(0);
-  const [afford, setAfford] = useState(false);
-  const [onlyFree, setOnlyFree] = useState(false);
-  const [onlyWatch, setOnlyWatch] = useState(false);
-  const [sort, setSort] = useState<MarketSort>("value");
-  const [limit, setLimit] = useState(40);
-
-  useEffect(() => {
-    const ids = leagueId === "ALL" ? MARKET_INDEX.leagues.map((l) => l.id) : [leagueId];
-    let alive = true;
-    setLoading(true);
-    Promise.all(ids.map((id) => loadLeague(id)).filter((p): p is Promise<MarketLeague> => !!p)).then((ls) => {
-      if (!alive) return;
-      setLoaded(ls);
-      setLoading(false);
-      ls.forEach(onLeague);
-    });
-    setLimit(40);
-    setClubKey("");
-    return () => {
-      alive = false;
-    };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [leagueId]);
-
-  const norm = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
-  const watch = useMemo(() => new Set(st.watch), [st.watch]);
-  const results = useMemo(() => {
-    const nq = norm(q.trim());
-    const out: { p: MarketPlayer; lg: MarketLeague }[] = [];
-    for (const lg of loaded) {
-      if (clubKey && !clubKey.startsWith(`${lg.id}:`)) continue;
-      const ci = clubKey ? Number(clubKey.split(":")[1]) : -1;
-      for (const p of lg.players) {
-        if (ownIds.has(p.id)) continue;
-        if (ci >= 0 && p.club !== ci) continue;
-        if (pos && p.pos !== pos) continue;
-        if (maxAge && (p.age ?? 99) > maxAge) continue;
-        const free = isFreeAgent(p, CUTOFF);
-        if (afford && !free && (p.value ?? 0) > Math.max(0, balance)) continue;
-        if (onlyFree && !free) continue;
-        if (onlyWatch && !watch.has(`${lg.id}:${p.id}`)) continue;
-        if (nq && !norm(`${p.name} ${lg.clubs[p.club]?.name ?? ""}`).includes(nq)) continue;
-        out.push({ p, lg });
-      }
-    }
-    const by: Record<MarketSort, (a: MarketPlayer, b: MarketPlayer) => number> = {
-      value: (a, b) => (b.value ?? 0) - (a.value ?? 0),
-      cheap: (a, b) => (a.value ?? 0) - (b.value ?? 0),
-      young: (a, b) => (a.age ?? 99) - (b.age ?? 99) || (b.value ?? 0) - (a.value ?? 0),
-      contract: (a, b) => (a.contract ?? "9999").localeCompare(b.contract ?? "9999"),
-    };
-    return out.sort((a, b) => by[sort](a.p, b.p));
-  }, [loaded, q, clubKey, pos, maxAge, afford, onlyFree, onlyWatch, watch, ownIds, balance, sort]);
-
-  const signed = new Map(st.signings.map((s) => [s.id, s]));
-  const sign = (p: MarketPlayer, league: string, type: SigningType) =>
-    setSt((s) => ({ ...s, signings: [...s.signings.filter((x) => x.id !== p.id), { id: p.id, league, type, price: type === "buy" ? p.value ?? 0 : 0 }] }));
-  const unsign = (id: string) => setSt((s) => ({ ...s, signings: s.signings.filter((x) => x.id !== id) }));
-  const toggleWatch = (k: string) => setSt((s) => ({ ...s, watch: s.watch.includes(k) ? s.watch.filter((x) => x !== k) : [...s.watch, k] }));
-  const short = depth.filter((d) => d.short);
-  const clearFilters = () => (setClubKey(""), setPos(null), setMaxAge(0), setAfford(false), setOnlyFree(false), setOnlyWatch(false));
-
-  const leagueSel = (
-    <select value={leagueId} onChange={(e) => setLeagueId(e.target.value)} aria-label="Liga">
-      <option value="ALL">Todas as ligas</option>
-      {groups.map((g) => (
-        <optgroup key={g} label={g}>
-          {MARKET_INDEX.leagues.filter((l) => l.group === g).map((l) => <option key={l.id} value={l.id}>{l.name}</option>)}
-        </optgroup>
-      ))}
-    </select>
-  );
-  const clubSel = (
-    <select value={clubKey} onChange={(e) => (setClubKey(e.target.value), setLimit(40))} aria-label="Clube" disabled={!loaded.length}>
-      <option value="">Todos os clubes</option>
-      {loaded.length === 1
-        ? loaded[0].clubs
-            .map((c, i) => ({ c, i }))
-            .sort((a, b) => a.c.name.localeCompare(b.c.name, "pt-BR"))
-            .map(({ c, i }) => <option key={c.id} value={`${loaded[0].id}:${i}`}>{c.name}</option>)
-        : loaded.map((lg) => (
-            <optgroup key={lg.id} label={lg.name}>
-              {lg.clubs
-                .map((c, i) => ({ c, i }))
-                .sort((a, b) => a.c.name.localeCompare(b.c.name, "pt-BR"))
-                .map(({ c, i }) => <option key={c.id} value={`${lg.id}:${i}`}>{c.name}</option>)}
-            </optgroup>
-          ))}
-    </select>
-  );
-  const searchInput = <input type="search" placeholder="Buscar jogador" value={q} onChange={(e) => setQ(e.target.value)} aria-label="Buscar jogador ou clube" />;
-  const ageSel = (
-    <select value={maxAge} onChange={(e) => setMaxAge(Number(e.target.value))} aria-label="Idade máxima">
-      <option value={0}>Qualquer idade</option>
-      {[21, 23, 25, 28, 31].map((a) => <option key={a} value={a}>até {a} anos</option>)}
-    </select>
-  );
-  const toggles = (
-    <>
-      <button className={`tm-toggle ${afford ? "is-on" : ""}`} aria-pressed={afford} onClick={() => setAfford(!afford)}>Cabe no saldo ({fmtEur(Math.max(0, balance))})</button>
-      <button className={`tm-toggle ${onlyFree ? "is-on" : ""}`} aria-pressed={onlyFree} onClick={() => setOnlyFree(!onlyFree)}>Fim de contrato (chega livre)</button>
-      <button className={`tm-toggle ${onlyWatch ? "is-on" : ""}`} aria-pressed={onlyWatch} onClick={() => setOnlyWatch(!onlyWatch)}>★ Observados ({st.watch.length})</button>
-    </>
-  );
-  const posFilter = (
-    <span className="tm-posfilter" role="group" aria-label="Posição">
-      {POSITIONS.map((p) => (
-        <button key={p} className={`tm-pos tm-pos--${p} ${pos === p ? "is-on" : pos ? "is-dim" : ""}`} aria-pressed={pos === p} onClick={() => setPos(pos === p ? null : p)}>{p}</button>
-      ))}
-    </span>
-  );
-  const active = [clubKey, pos, maxAge, afford, onlyFree, onlyWatch].filter(Boolean).length;
-
-  return (
-    <section>
-      {short.length > 0 && (
-        <div className="tm-needs">
-          <span>Seu elenco precisa de</span>
-          {short.map((d) => (
-            <button key={d.pos} className={`tm-need ${pos === d.pos ? "is-on" : ""}`} onClick={() => setPos(pos === d.pos ? null : d.pos)}>
-              <span className={`tm-pos tm-pos--${d.pos}`}>{d.pos}</span> +{d.short}
-            </button>
-          ))}
-        </div>
-      )}
-      {isMobile ? (
-        <div className="tm-mfilters">
-          {searchInput}
-          {leagueSel}
-          <button className={`tm-iconbtn ${active ? "is-on" : ""}`} onClick={() => setSheet(true)} aria-label={`Filtros${active ? `, ${active} ativos` : ""}`}>
-            <Ico d={ICON.filter} size={20} />
-            {active > 0 && <i>{active}</i>}
-          </button>
-        </div>
-      ) : (
-        <>
-          <div className="tm-filters">
-            {leagueSel}
-            {clubSel}
-            {searchInput}
-            {ageSel}
-            <select value={sort} onChange={(e) => setSort(e.target.value as MarketSort)} aria-label="Ordenar">
-              {MARKET_SORTS.map(([k, label]) => <option key={k} value={k}>{label}</option>)}
-            </select>
-          </div>
-          <div className="tm-toggles">
-            {toggles}
-            {posFilter}
-          </div>
-        </>
-      )}
-      {isMobile && sheet && (
-        <Sheet
-          title="Filtros"
-          onClose={() => setSheet(false)}
-          foot={
-            <>
-              <button className="tm-btn" onClick={clearFilters} disabled={!active}>Limpar</button>
-              <button className="tm-btn tm-btn--brass" onClick={() => setSheet(false)}>
-                {loading ? "Carregando…" : `Ver ${results.length.toLocaleString("pt-BR")} jogador${results.length === 1 ? "" : "es"}`}
-              </button>
-            </>
-          }
-        >
-          <div className="tm-fsheet">
-            <label>Clube{clubSel}</label>
-            <div>Posição{posFilter}</div>
-            <label>Idade{ageSel}</label>
-            <div>Mostrar só<span className="tm-fsheet__toggles">{toggles}</span></div>
-            <div>
-              Ordenar
-              <span className="tm-radios" role="radiogroup" aria-label="Ordenar">
-                {MARKET_SORTS.map(([k, label]) => (
-                  <label key={k} className="tm-radio">
-                    <input type="radio" name="market-sort" checked={sort === k} onChange={() => setSort(k)} />
-                    {label}
-                  </label>
-                ))}
-              </span>
-            </div>
-          </div>
-        </Sheet>
-      )}
-      <p className="tm-count">{loading ? "Carregando a liga…" : `${results.length.toLocaleString("pt-BR")} jogadores`}</p>
-      <div className="tm-fichas tm-fichas--market">
-        {results.slice(0, limit).map(({ p, lg }) => {
-          const s = signed.get(p.id);
-          const free = isFreeAgent(p, CUTOFF);
-          const wk = `${lg.id}:${p.id}`;
-          const over = !free && (p.value ?? 0) > balance;
-          return (
-            <article key={wk} className={`tm-ficha ${s ? "is-signed" : ""}`}>
-              <Photo name={p.name} photo={p.photo} />
-              <div className="tm-ficha__main">
-                <p className="tm-ficha__name">{p.name}<span className={`tm-pos tm-pos--${p.pos}`}>{p.pos}</span><Foreign on={p.foreign} /></p>
-                <p className="tm-ficha__meta">{p.age != null ? `${p.age} anos` : "Idade não informada"}{p.nat ? ` · ${p.nat}` : ""} · {lg.clubs[p.club]?.name}</p>
-                <p className="tm-ficha__origin">
-                  {lg.name} · <span className={free ? "is-free" : ""}>contrato até {fmtDate(p.contract)}{free ? " (chega livre)" : ""}</span>
-                  {p.loanFrom ? ` · emprestado pelo ${p.loanFrom}` : ""}
-                </p>
-              </div>
-              <p className="tm-ficha__value">{fmtEur(p.value)}<small>{fmtRef(p.value)}</small></p>
-              <div className="tm-ficha__actions">
-                {s ? (
-                  <>
-                    {s.type === "buy" && <Price label="Por" value={s.price} onChange={(v) => setSt((x) => ({ ...x, signings: x.signings.map((y) => (y.id === p.id ? { ...y, price: v } : y)) }))} />}
-                    <button className="tm-act" onClick={() => unsign(p.id)}>Desistir</button>
-                  </>
-                ) : (
-                  <>
-                    <button className="tm-act tm-act--green" onClick={() => sign(p, lg.id, "buy")} title={over ? "Estoura o saldo atual" : undefined}>Comprar{over ? " ⚠" : ""}</button>
-                    <button className="tm-act tm-act--blue" onClick={() => sign(p, lg.id, "loan")}>Empréstimo</button>
-                    {free && <button className="tm-act tm-act--green" onClick={() => sign(p, lg.id, "free")}>Trazer livre</button>}
-                  </>
-                )}
-                <button className={`tm-star ${watch.has(wk) ? "is-on" : ""}`} aria-pressed={watch.has(wk)} aria-label={watch.has(wk) ? "Tirar dos observados" : "Observar"} onClick={() => toggleWatch(wk)}>★</button>
-                <button className="tm-act tm-act--scout" onClick={() => onScout({ league: lg.id, player: p, club: lg.clubs[p.club]?.name ?? "" })} aria-label={`Ver scout de ${p.name}`}>Ver scout</button>
-              </div>
-              {s && <Stamp key={s.type} text={SIGN_STAMP[s.type]} ink={s.type === "loan" ? "blue" : "green"} onClick={() => unsign(p.id)} title="Desistir da contratação" />}
-            </article>
-          );
-        })}
-        {!loading && !results.length && (
-          <p className="tm-empty">
-            Nenhum jogador com esses filtros.{" "}
-            <button className="tm-link" onClick={() => (setQ(""), clearFilters())}>Limpar filtros</button>
-          </p>
-        )}
-      </div>
-      {results.length > limit && <button className="tm-btn tm-more" onClick={() => setLimit((l) => l + 40)}>Mostrar mais 40</button>}
     </section>
   );
 }

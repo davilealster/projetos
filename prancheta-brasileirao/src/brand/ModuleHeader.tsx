@@ -23,8 +23,8 @@ type Props = {
 
 /**
  * Cabeçalho comum: marca (→ Home), clube (troca de clube, fica na tela atual), ações, conta e menu "⋯".
- * O produto é o Mercado (a janela do diretor). A Prancheta (ferramenta extra) e o Olheiro (temporário) ficam
- * no menu "⋯" do Mercado e mostram um link claro de volta à janela.
+ * O produto é o Mercado (a janela do diretor; o olheiro mora na etapa 2). A Prancheta (ferramenta extra) fica
+ * no menu "⋯" do Mercado e mostra um link claro de volta à janela.
  * "bar" = desktop; "app" = celular (52px).
  */
 export function ModuleHeader({ module, slug, clubName, crest, variant, actions, menuItems }: Props) {
@@ -40,10 +40,7 @@ export function ModuleHeader({ module, slug, clubName, crest, variant, actions, 
   items.push(...(menuItems ?? []));
   const divideAt = items.length;
   if (market) {
-    items.push(
-      { label: "Prancheta tática (extra)", onSelect: () => navigate(moduleHref("prancheta", slug)) },
-      { label: "Olheiro", onSelect: () => navigate(moduleHref("olheiro", slug)) },
-    );
+    items.push({ label: "Prancheta tática (extra)", onSelect: () => navigate(moduleHref("prancheta", slug)) });
   }
   items.push({ label: "Trocar de clube", onSelect: () => setSheet(true) }, { label: "Início", onSelect: () => navigate("/") });
   if (acc.enabled && !acc.user) items.push({ label: "Entrar e salvar a jornada", onSelect: openLogin });

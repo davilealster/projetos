@@ -8,7 +8,7 @@
 | --- | --- | --- |
 | **Mercado da bola** | O produto: a janela do diretor de futebol (orçamento, carimbos, compras, fechamento, compartilhe) | `/mercado`, `/mercado/{slug}` |
 | **Prancheta tática** | Ferramenta extra: monta a escalação, arrasta os jogadores e desenha a jogada. Abre pelo menu ⋯ do Mercado ou pelo atalho da etapa 4; o cabeçalho tem "← Janela do {clube}" | `/prancheta`, `/{slug}` |
-| **Olheiro** | Radar de mercado (prateleiras, Planos A/B/C). Temporário: abre pelo menu ⋯ do Mercado e será incorporado à etapa 2 (ver `docs/PLANO-HOME-DIRETOR.md`, fase 3) | `/olheiro`, `/olheiro/{slug}` |
+| **Olheiro** | Não é mais um módulo: vive na etapa 2 do Mercado (atalhos, nota, "Ver scout", Minha lista). Links antigos redirecionam | `/olheiro`, `/olheiro/{slug}` → `/mercado/{slug}?aba=mercado` |
 
 A home (`/`) leva à janela de um clube; a escolha fica salva no navegador em `mando:clube` (também atualizada ao abrir a prancheta ou o mercado de um clube). O cabeçalho comum (`src/brand/ModuleHeader.tsx`) não tem mais seletor de módulo: marca → home, clube (trocar), ações, conta e menu ⋯. As chaves já existentes (`prancheta:*`, `mercado:*`) não mudaram de nome.
 
@@ -28,7 +28,7 @@ npm run dev
 
 | Rota | O que é |
 | --- | --- |
-| `/` | Home do Meu Elenco FC: papéis (técnico, diretor de futebol, olheiro) e escolha do clube |
+| `/` | Home do Meu Elenco FC: escolha do clube (ou "Continuar a janela") |
 | `/prancheta` | Prancheta tática: os 20 clubes, com busca |
 | `/{slug}` | Prancheta do clube (ex.: `/vasco`). Escalação compartilhada vem em `#s=...` |
 | `/{slug}/live` | Modo Live para OBS: `?bg=grass\|solid\|chroma\|transparent&ratio=16x9\|9x16&size=P\|M\|G&safe=1&creator=@handle&ui=0&score=1` |
@@ -65,16 +65,17 @@ O coletor guarda cada chamada em `.cache/tm/`: se o Transfermarkt bloquear no me
 
 Como a situação é deduzida (`scripts/lib/market.ts`): a última transferência concluída diz se o jogador chegou emprestado ("loan" para o clube) ou está emprestado fora ("loan" saindo do clube); a chegada é a última entrada no clube que não seja retorno de empréstimo; sem entrada no histórico = cria da base. Emprestados fora só aparecem se estiverem num clube das ligas coletadas. "Terminando" = contrato (ou empréstimo) que acaba antes de 01/01/2027 (`MARKET_NEXT_SEASON` muda a data).
 
-## Olheiro (`/olheiro`)
+## Olheiro dentro do Mercado
 
-Terceiro crachá: o usuário faz o papel de scout do clube. Plano completo em `docs/PLANO-OLHEIRO.md` (seção 10: só dados do Transfermarkt).
+O scout faz parte da etapa 2 do Mercado ("ir às compras"), com duas sub-abas. Persona única: o diretor de futebol.
+`/olheiro` e `/olheiro/{slug}` redirecionam para `/mercado/{slug}?aba=mercado` (sem clube na URL: o clube salvo, ou a Home). O código vive em `src/market/Shopping.tsx` (chunk carregado só quando a etapa 2 abre) e na biblioteca `src/scout/` (`metrics`, `searches`, `state`, `data`, `PlayerSheet`, `ui`).
 
-- **Nota da posição (0–100):** média ponderada dos percentis de cada indicador, comparando com a mesma posição no mesmo grupo de ligas (Brasil, América do Sul, top 5…), só entre quem tem 450+ min. Indicadores sempre por 90 min e com rótulo honesto: gols, assistências, G+A, gols sofridos e jogos sem sofrer gol **com o jogador em campo**, % dos minutos possíveis e cartões. Pesos por posição em `src/scout/metrics.ts` (`POS_WEIGHTS`). Sem xG, desarmes ou passes.
-- **Índices:** custo-benefício (nota ÷ log do valor, em percentil), potencial/joia, oportunidade de contrato, subvalorizado, liga de exportação (coeficientes editáveis em `LEAGUE_COEF`) e riscos. Valorização em 12 meses e distância do pico.
-- **Buscas prontas:** os óbvios, não óbvios, joias, fim de contrato, custo-benefício que cabe no saldo, reposição (perfil parecido com um jogador do elenco) e cobrir a carência (do balancete do Mercado), mais filtros manuais.
-- **Prateleiras** (Monitorar → Observar de perto → Prioridade → Descartado, com motivo), **Planos A/B/C** por posição (até 5), **Comparador** (até 3) e nota do olheiro, salvos por clube em `olheiro:{slug}:v1`.
-- **Integração:** "Adicionar ao meu mercado" grava a contratação em `mercado:{slug}:v1` (livre se o contrato acaba antes da próxima temporada, senão compra pelo valor; sem duplicar) e abre o Mercado; os Planos A vão em lote. No Mercado, "Ver scout" abre o mesmo perfil sem sair da tela.
-- **Dados:** `src/data/scout/` (`npm run collect:scout` + `npm run build:scout`); carregados por grupo de ligas. Sem dados, a tela mostra como coletar.
+- **Procurar:** a busca do Mercado (liga, clube, idade, "Cabe no saldo", "Fim de contrato", posição) + os **atalhos do olheiro** numa fileira que rola de lado: Os óbvios, Não óbvios, Joias, Fim de contrato, Custo-benefício (cabe no saldo), Reposição (parecido com um jogador do elenco) e Cobrir a carência (do balancete). O atalho roda sobre a liga escolhida e os filtros; "Limpar ×" desliga. Fichas com o **carimbo da nota** (0–100) e etiquetas (Joia, Subvalorizado, riscos…), ordenação "Melhor nota do olheiro", ações Comprar / Empréstimo / Trazer livre, "Guardar na lista" e "Ver scout" (relatório completo).
+- **Minha lista:** os jogadores guardados por posição, cada um com prioridade **Plano A / B / C** ou "Observando" (B só existe se houver um A: é a alternativa), setas para reordenar, custo do Plano A × saldo, Contratar e "Tirar da lista". Salva em `olheiro:{slug}:v1` (prateleiras + planos do antigo Olheiro aparecem aqui como "Observando"/planos; descartados ficam de fora). O ★ antigo do Mercado (`MarketState.watch`) é migrado uma vez para a lista (`mergeWatch`, testado).
+- **Nota da posição (0–100):** média ponderada dos percentis de cada indicador, comparando com a mesma posição no mesmo grupo de ligas (Brasil, América do Sul, top 5…), só entre quem tem 450+ min. Indicadores por 90 min e com rótulo honesto: gols, assistências, G+A, gols sofridos e jogos sem sofrer gol **com o jogador em campo**, % dos minutos possíveis e cartões. Pesos em `src/scout/metrics.ts` (`POS_WEIGHTS`). Sem xG, desarmes ou passes.
+- **Índices:** custo-benefício, potencial/joia, oportunidade de contrato, subvalorizado, liga de exportação (`LEAGUE_COEF`) e riscos; valorização em 12 meses e distância do pico.
+- **Fora da interface (código mantido):** comparador (até 3) e as prateleiras de 4 níveis; o estado ainda os guarda.
+- **Dados:** `src/data/scout/` (`npm run collect:scout` + `npm run build:scout`); carregados por grupo de ligas.
 
 ## Posições: principal + 2 alternativas
 

@@ -1,7 +1,7 @@
-// Perfil do jogador: percentis da posição, por 90 e totais, contexto da amostra, índices, prateleira, plano e nota.
+// Perfil do jogador ("Ver scout"): percentis da posição, por 90 e totais, contexto da amostra, índices, Minha lista e anotação.
 import { fmtDate, fmtEur, fmtRef, FOREIGN_LIMIT } from "../market/logic";
 import { EXPORT_COEF_MAX, MIN_SAMPLE, cardPoints, per90, seasonLabel, type ScoutPlayer } from "./metrics";
-import { PLAN_LETTERS, PLAN_MAX, SHELVES, planOf, type ScoutAction, type ScoutState } from "./state";
+import { PLAN_LETTERS, isSaved, maxPriority, planOf, type ScoutAction, type ScoutState } from "./state";
 import { Drawer, Face, Ico, ICON, PctBar, ScoreStamp, Trend } from "./ui";
 
 const POS_NAME: Record<string, string> = {
@@ -19,38 +19,23 @@ type Props = {
   /** chega livre (contrato acaba antes da próxima temporada) */
   free: boolean;
   contractCut: string;
-  /** dentro do Mercado: sem "Adicionar ao meu mercado", com link para o Olheiro */
-  compact?: boolean;
-  signed?: boolean;
+  /** jogador do próprio elenco: sem "Minha lista" */
   own?: boolean;
-  onAddToMarket?: () => void;
-  onOpenScout?: () => void;
+  /** rodapé (ex.: comprar / emprestar), opcional */
+  foot?: React.ReactNode;
 };
 
-export function PlayerSheet({ x, st, dispatch, onClose, free, contractCut, compact = false, signed = false, own = false, onAddToMarket, onOpenScout }: Props) {
+export function PlayerSheet({ x, st, dispatch, onClose, free, contractCut, own = false, foot }: Props) {
   const s = x.stats;
-  const shelf = st.shelves[x.key];
+  const saved = isSaved(st, x.key);
   const plan = planOf(st, x.key);
-  const planList = st.plans[x.pos] ?? [];
-  const inCompare = st.compare.includes(x.key);
   const cutText = fmtDate(contractCut);
-
-  const foot = compact ? (
-    onOpenScout && <button className="tm-btn tm-btn--brass sc-wide" onClick={onOpenScout}>Abrir no Olheiro →</button>
-  ) : own ? (
-    <p className="sc-foot-note">Já é do seu elenco.</p>
-  ) : (
-    <button className="tm-btn tm-btn--brass sc-wide" onClick={onAddToMarket} disabled={signed}>
-      <Ico d={ICON.cart} size={18} />
-      {signed ? "Já está no seu mercado" : free ? "Adicionar ao meu mercado (chega livre)" : `Adicionar ao meu mercado · ${fmtEur(x.value)}`}
-    </button>
-  );
 
   return (
     <Drawer label={`Perfil de ${x.name}`} onClose={onClose} foot={foot}>
-      <article className={`sc-profile ${compact ? "is-compact" : ""}`}>
+      <article className="sc-profile">
         <header className="sc-profile__head">
-          <Face name={x.name} photo={x.photo} size={compact ? 64 : 76} />
+          <Face name={x.name} photo={x.photo} size={64} />
           <div className="sc-profile__id">
             <p className="tm-eyebrow">Relatório do olheiro · {x.leagueName}</p>
             <h2>{x.name}</h2>
@@ -154,45 +139,44 @@ export function PlayerSheet({ x, st, dispatch, onClose, free, contractCut, compa
         </section>
         )}
 
-        <section className="sc-sec sc-desk">
-          <h3>Mesa do olheiro</h3>
-          <div className="sc-shelfpick" role="group" aria-label="Prateleira">
-            {SHELVES.map((sh) => (
-              <button
-                key={sh.id}
-                className={`sc-shelfbtn sc-shelfbtn--${sh.ink} ${shelf?.shelf === sh.id ? "is-on" : ""}`}
-                aria-pressed={shelf?.shelf === sh.id}
-                onClick={() => dispatch({ type: "shelf", key: x.key, shelf: shelf?.shelf === sh.id ? null : sh.id })}
-              >
-                {sh.short}
-              </button>
-            ))}
-          </div>
-          {shelf?.shelf === "discard" && (
-            <label className="sc-input">
-              Motivo do descarte
-              <input value={shelf.reason ?? ""} maxLength={80} placeholder="Ex.: caro demais, lesão, perfil" onChange={(e) => dispatch({ type: "reason", key: x.key, reason: e.target.value })} />
-            </label>
-          )}
-          <div className="sc-rowbtns">
-            {plan ? (
-              <button className="tm-btn sc-planbtn is-on" onClick={() => dispatch({ type: "plan/remove", pos: plan.pos, key: x.key })}>
-                Plano {PLAN_LETTERS[plan.index]} · {plan.pos} <span aria-hidden="true">×</span>
-              </button>
+        {!own && (
+          <section className="sc-sec sc-desk">
+            <h3>Minha lista</h3>
+            {saved ? (
+              <>
+                <div className="sc-shelfpick" role="radiogroup" aria-label={`Prioridade de ${x.name}`}>
+                  {[0, 1, 2, null].map((p) => {
+                    const on = p == null ? !plan : plan?.index === p;
+                    return (
+                      <button
+                        key={String(p)}
+                        role="radio"
+                        aria-checked={on}
+                        disabled={p != null && p > maxPriority(st, x.pos, x.key)}
+                        className={`sc-shelfbtn sc-shelfbtn--${p == null ? "blue" : p === 0 ? "green" : "amber"} ${on ? "is-on" : ""}`}
+                        onClick={() => dispatch({ type: "list/priority", pos: x.pos, key: x.key, prio: p })}
+                      >
+                        {p == null ? "Observando" : `Plano ${PLAN_LETTERS[p]}`}
+                      </button>
+                    );
+                  })}
+                </div>
+                <p className="sc-small sc-dim">
+                  {plan ? `Plano ${PLAN_LETTERS[plan.index]} entre os ${POS_NAME[x.pos]} da sua lista.` : "Só observando, sem prioridade."}{" "}
+                  <button className="tm-link sc-unsave" onClick={() => dispatch({ type: "list/remove", key: x.key })}>Tirar da lista</button>
+                </p>
+              </>
             ) : (
-              <button className="tm-btn sc-planbtn" disabled={planList.length >= PLAN_MAX} onClick={() => dispatch({ type: "plan/add", pos: x.pos, key: x.key })}>
-                <Ico d={ICON.plus} size={16} /> {planList.length >= PLAN_MAX ? `Planos de ${x.pos} cheios` : `Plano ${PLAN_LETTERS[planList.length]} para ${x.pos}`}
+              <button className="tm-btn sc-wide sc-savebtn" onClick={() => dispatch({ type: "list/save", key: x.key })}>
+                <Ico d={ICON.plus} size={18} /> Guardar na lista
               </button>
             )}
-            <button className={`tm-btn ${inCompare ? "is-on" : ""}`} aria-pressed={inCompare} onClick={() => dispatch({ type: "compare", key: x.key })}>
-              {inCompare ? "No comparador ✓" : "Comparar"}
-            </button>
-          </div>
-          <label className="sc-input">
-            Nota do olheiro
-            <textarea rows={3} maxLength={500} value={st.notes[x.key] ?? ""} placeholder="O que você viu: bom de cabeça, joga pelos dois lados…" onChange={(e) => dispatch({ type: "note", key: x.key, text: e.target.value })} />
-          </label>
-        </section>
+            <label className="sc-input">
+              Sua anotação
+              <textarea rows={3} maxLength={500} value={st.notes[x.key] ?? ""} placeholder="O que você viu: bom de cabeça, joga pelos dois lados…" onChange={(e) => dispatch({ type: "note", key: x.key, text: e.target.value })} />
+            </label>
+          </section>
+        )}
 
         <p className="sc-fine">
           Dados do Transfermarkt: jogos, minutos, gols, assistências, cartões e gols sofridos com o jogador em campo. Sem xG, desarmes
