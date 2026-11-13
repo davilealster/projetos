@@ -281,7 +281,15 @@ export function LineupTab({ slug, next, st, setSt, team, coach, balance, income,
         <ShareButton bar empty={empty} onClick={() => onGenerate(lineup)} />
       </div>
       <label className="lu-sign">
-        <span>Assinar os posts</span>
+        <span className="lu-sign__head">
+          <span>Assinar os posts</span>
+          {!empty && (
+            <em className="lu-sign__hint" aria-hidden="true">
+              Compartilhe com seus amigos
+              <svg viewBox="0 0 28 22"><path d="M2 4c9 0 17 3 21 13" /><path d="M18 14l5 4 2-6" /></svg>
+            </em>
+          )}
+        </span>
         <span className="lu-sign__row">
           <input value={author} onChange={(e) => setAuthor(e.target.value)} placeholder="Seu nome (opcional)" maxLength={28} />
           <ShareButton empty={empty} onClick={() => onGenerate(lineup)} />

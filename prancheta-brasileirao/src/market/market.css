@@ -920,3 +920,16 @@ button.lu-slot:hover .lu-slot__photo { transform: translateY(-2px); }
   .lu-share--icon .lu-share-ico, .lu-share--icon .lu-share-ico svg { width: 22px; height: 22px; background: none !important; }
   .lu-share--icon:disabled { background: rgba(0, 0, 0, 0.45); color: rgba(255, 255, 255, 0.7); box-shadow: none; }
 }
+/* dica "Compartilhe com seus amigos" (celular): mesma linha do rótulo, com uma seta para o botão */
+.lu-sign__head { display: contents; }
+.lu-sign__hint { display: none; }
+@media (max-width: 640px) {
+  .lu-sign__head { display: flex; align-items: flex-end; justify-content: space-between; gap: 8px; }
+  .lu-sign__hint {
+    display: inline-flex; align-items: flex-end; gap: 2px; margin-right: 6px; font-style: normal; white-space: nowrap;
+    font-family: var(--f-display); font-weight: 700; font-size: 15px; letter-spacing: 0.02em; color: var(--brass);
+  }
+  .lu-sign__hint svg { width: 24px; height: 19px; margin-bottom: -10px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; animation: lu-nudge 1.8s ease-in-out infinite; }
+}
+@keyframes lu-nudge { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(2px, 3px); } }
+@media (prefers-reduced-motion: reduce) { .lu-sign__hint svg { animation: none; } }
