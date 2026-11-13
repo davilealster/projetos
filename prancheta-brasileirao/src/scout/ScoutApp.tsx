@@ -159,7 +159,6 @@ function ScoutClub({ slug }: { slug: string }) {
               </button>
             ) : undefined
           }
-          menuItems={[{ label: "Abrir o mercado do clube", onSelect: () => navigate(`/mercado/${slug}`) }]}
         />
 
         {isMobile ? (

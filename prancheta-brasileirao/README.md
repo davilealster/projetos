@@ -1,16 +1,16 @@
 # Meu Elenco FC
 
-**O clube é seu. Você decide.** Assuma um dos 20 clubes da Série A 2026 e escolha o seu papel: no campo como técnico (Prancheta tática) ou no mercado como diretor de futebol (Mercado da bola). Sem cadastro. Projeto independente, sem vínculo com CBF ou clubes.
+**O clube é seu. Você decide.** Assuma um dos 20 clubes da Série A 2026 como diretor de futebol e faça a janela de transferências: orçamento, quem fica, quem sai, quem chega e o time ideal para compartilhar. Sem cadastro. Projeto independente, sem vínculo com CBF ou clubes.
 
-## Módulos
+## Produto
 
-| Papel | Módulo | Rota |
+| O quê | Papel no produto | Rota |
 | --- | --- | --- |
-| Técnico | **Prancheta tática**: monta a escalação, arrasta os jogadores e desenha a jogada | `/prancheta`, `/{slug}` |
-| Diretor de futebol | **Mercado da bola**: define o orçamento, decide quem fica e quem sai e contrata | `/mercado`, `/mercado/{slug}` |
-| Olheiro | **Radar de mercado**: acha os óbvios e os não óbvios, separa em prateleiras e monta o Plano A, B e C | `/olheiro`, `/olheiro/{slug}` |
+| **Mercado da bola** | O produto: a janela do diretor de futebol (orçamento, carimbos, compras, fechamento, compartilhe) | `/mercado`, `/mercado/{slug}` |
+| **Prancheta tática** | Ferramenta extra: monta a escalação, arrasta os jogadores e desenha a jogada. Abre pelo menu ⋯ do Mercado ou pelo atalho da etapa 4; o cabeçalho tem "← Janela do {clube}" | `/prancheta`, `/{slug}` |
+| **Olheiro** | Radar de mercado (prateleiras, Planos A/B/C). Temporário: abre pelo menu ⋯ do Mercado e será incorporado à etapa 2 (ver `docs/PLANO-HOME-DIRETOR.md`, fase 3) | `/olheiro`, `/olheiro/{slug}` |
 
-A home (`/`) apresenta os papéis e deixa escolher o clube; a escolha fica salva no navegador em `mando:clube` (também atualizada ao abrir a prancheta ou o mercado de um clube) e personaliza os atalhos. As chaves já existentes (`prancheta:*`, `mercado:*`) não mudaram de nome.
+A home (`/`) leva à janela de um clube; a escolha fica salva no navegador em `mando:clube` (também atualizada ao abrir a prancheta ou o mercado de um clube). O cabeçalho comum (`src/brand/ModuleHeader.tsx`) não tem mais seletor de módulo: marca → home, clube (trocar), ações, conta e menu ⋯. As chaves já existentes (`prancheta:*`, `mercado:*`) não mudaram de nome.
 
 Stack: Vite + React + TypeScript (front estático) e scripts Node em TypeScript (`tsx`) para os dados.
 

@@ -1,15 +1,13 @@
 import { useEffect, useId, useRef, useState, type KeyboardEvent, type ReactNode } from "react";
 import { BrandMark, spaLink } from "./BrandMark";
 import { ClubSheet } from "./ClubSheet";
-import { MODULES, moduleHref, type ModuleId } from "./nav";
+import { moduleHref, type ModuleId } from "./nav";
 import "./brand.css";
 import { AccountButton } from "./Account";
 import { openLogin, useAccount } from "../lib/account";
 import "./module-header.css";
 import { initials } from "../lib/color";
 import { navigate } from "../router";
-
-const GO_LABEL: Record<ModuleId, string> = { prancheta: "Ir para a Prancheta", mercado: "Ir para o Mercado", olheiro: "Ir para o Olheiro" };
 
 export type ModuleMenuItem = { label: string; onSelect(): void };
 
@@ -24,24 +22,31 @@ type Props = {
 };
 
 /**
- * Cabeçalho comum dos módulos: marca (→ Home), crachá do clube (troca de clube, fica no módulo),
- * chave Prancheta | Mercado | Olheiro (mantém o clube), ações do módulo e menu "⋯".
- * "bar" = desktop; "app" = celular (52px; a chave de módulo vai para o menu).
+ * Cabeçalho comum: marca (→ Home), clube (troca de clube, fica na tela atual), ações, conta e menu "⋯".
+ * O produto é o Mercado (a janela do diretor). A Prancheta (ferramenta extra) e o Olheiro (temporário) ficam
+ * no menu "⋯" do Mercado e mostram um link claro de volta à janela.
+ * "bar" = desktop; "app" = celular (52px).
  */
 export function ModuleHeader({ module, slug, clubName, crest, variant, actions, menuItems }: Props) {
   const [sheet, setSheet] = useState(false);
   const app = variant === "app";
   const acc = useAccount();
+  const market = module === "mercado";
+  const back = market ? null : moduleHref("mercado", slug);
+  const backLabel = `Janela do ${clubName}`;
 
-  const items: ModuleMenuItem[] = [...(menuItems ?? [])];
-  if (app) {
+  const items: ModuleMenuItem[] = [];
+  if (back && app) items.push({ label: `← ${backLabel}`, onSelect: () => navigate(back) });
+  items.push(...(menuItems ?? []));
+  const divideAt = items.length;
+  if (market) {
     items.push(
-      ...MODULES.filter((m) => m.id !== module).map((m) => ({ label: GO_LABEL[m.id], onSelect: () => navigate(moduleHref(m.id, slug)) })),
-      { label: "Trocar de clube", onSelect: () => setSheet(true) },
-      { label: "Início", onSelect: () => navigate("/") },
+      { label: "Prancheta tática (extra)", onSelect: () => navigate(moduleHref("prancheta", slug)) },
+      { label: "Olheiro", onSelect: () => navigate(moduleHref("olheiro", slug)) },
     );
-    if (acc.enabled && !acc.user) items.push({ label: "Entrar e salvar a jornada", onSelect: openLogin });
   }
+  items.push({ label: "Trocar de clube", onSelect: () => setSheet(true) }, { label: "Início", onSelect: () => navigate("/") });
+  if (acc.enabled && !acc.user) items.push({ label: "Entrar e salvar a jornada", onSelect: openLogin });
 
   const pick = (next: string) => {
     setSheet(false);
@@ -51,7 +56,13 @@ export function ModuleHeader({ module, slug, clubName, crest, variant, actions, 
   return (
     <header className={`brand mhd mhd--${variant}`}>
       <div className="mhd-in">
-        <BrandMark size="sm" />
+        {back && app ? (
+          <a className="mhd-back mhd-back--icon" href={back} onClick={spaLink(back)} aria-label={`Voltar à ${backLabel}`} title={`Voltar à ${backLabel}`}>
+            <BackArrow />
+          </a>
+        ) : (
+          <BrandMark size="sm" />
+        )}
         <button
           type="button"
           className="mhd-club"
@@ -69,33 +80,29 @@ export function ModuleHeader({ module, slug, clubName, crest, variant, actions, 
           </svg>
         </button>
 
-        {!app && (
-          <nav className="mhd-seg" aria-label="Módulo">
-            {MODULES.map((m) => {
-              const href = moduleHref(m.id, slug);
-              const on = m.id === module;
-              return (
-                <a
-                  key={m.id}
-                  className={`mhd-seg__item${on ? " is-on" : ""}`}
-                  href={href}
-                  aria-current={on ? "page" : undefined}
-                  onClick={on ? (e) => e.preventDefault() : spaLink(href)}
-                >
-                  {m.label}
-                </a>
-              );
-            })}
-          </nav>
+        {module === "prancheta" && !app && <span className="mhd-tag">Ferramenta extra</span>}
+        {back && !app && (
+          <a className="mhd-back" href={back} onClick={spaLink(back)}>
+            <BackArrow />
+            <span>{backLabel}</span>
+          </a>
         )}
 
         <span className="mhd-spacer" />
         {actions && <div className="mhd-actions">{actions}</div>}
         {(!app || acc.user) && <AccountButton compact={app} />}
-        {items.length > 0 && <MoreMenu items={items} divideAt={app ? (menuItems?.length ?? 0) : 0} />}
+        {items.length > 0 && <MoreMenu items={items} divideAt={divideAt} />}
       </div>
       <ClubSheet open={sheet} current={slug} title="Trocar de clube" onPick={pick} onClose={() => setSheet(false)} />
     </header>
+  );
+}
+
+function BackArrow() {
+  return (
+    <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
+      <path d="M10 3L5 8l5 5" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
   );
 }
 

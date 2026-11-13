@@ -512,6 +512,8 @@ button.lu-slot:hover .lu-slot__photo { transform: translateY(-2px); }
 .lu-foot .is-over b { color: var(--c-leave); }
 .lu-outside { margin: 0; font-size: 13px; color: var(--cream-soft); }
 .lu-outside b { color: var(--cream); }
+.lu-board-link { justify-self: start; font-size: 13px; color: var(--cream-soft); text-decoration: underline; text-underline-offset: 3px; }
+.lu-board-link:hover { color: var(--brass); }
 .lu-generate { justify-self: start; padding: 12px 20px; font-size: 16px; }
 .lu-generate:disabled { opacity: 0.55; cursor: not-allowed; }
 

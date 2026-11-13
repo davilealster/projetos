@@ -8,6 +8,7 @@ import {
   FOREIGN_LIMIT, MAX_BENCH, MAX_SUBS, benchSize, autoLineup, cleanLineup, fmtEur, fmtRef, lineupStats, placeInLineup, posRank, removeFromLineup,
   type Lineup, type MarketState, type NextPlayer,
 } from "./logic";
+import { spaLink } from "../brand/BrandMark";
 import { loadCoaches } from "./data";
 import type { MarketCoach } from "./types";
 
@@ -214,7 +215,8 @@ function useAuthor(): [string, (v: string) => void] {
   ];
 }
 
-export function LineupTab({ next, st, setSt, team, coach, balance, income, spend, onGenerate }: {
+export function LineupTab({ slug, next, st, setSt, team, coach, balance, income, spend, onGenerate }: {
+  slug: string;
   next: NextPlayer[];
   st: MarketState;
   setSt: SetSt;
@@ -299,6 +301,8 @@ export function LineupTab({ next, st, setSt, team, coach, balance, income, spend
         <p className="lu-outside"><b>Fora da lista ({outside.length}):</b> {outside.map((p) => shortName(p.name)).join(", ")}</p>
       )}
       </>}
+
+      <a className="lu-board-link" href={`/${slug}`} onClick={spaLink(`/${slug}`)}>Desenhar a tática deste time na prancheta →</a>
 
       {slot !== null && (
         <SlotPicker

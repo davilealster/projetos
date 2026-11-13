@@ -40,6 +40,7 @@ Atualizado em 06/11/2026. O que está feito vai no fim do arquivo.
 
 ## Feito
 
+- Foco no Mercado (fase 2 do `docs/PLANO-HOME-DIRETOR.md`): saiu o seletor Prancheta | Mercado | Olheiro do cabeçalho. A Prancheta virou ferramenta extra (menu ⋯ do Mercado, atalho na etapa 4, link "← Janela do {clube}" de volta); o Olheiro segue no menu ⋯ até a fase 3.
 - Pesquisa de posições na Wikipédia para os 20 clubes, importada como rascunho (principal + 2 alternativas).
 - Posição principal + 2 alternativas; clique no jogador em campo escolhe a posição na escalação.
 - Painel `/admin` com login (Vercel Blob privado): edição por clube e jogador, troca de senha, exportação.

@@ -29,7 +29,7 @@ const TOUR: TourStep[] = [
   { target: [".tm-view"], title: "Lista ou Campo", text: "Na Lista, o elenco inteiro com filtros. No Campo, setor por setor, com o rosto grande e um toque por decisão." },
   { target: [".tm-callout"], title: "Comece por aqui", text: "Esses contratos acabam antes da próxima temporada. Decida um a um ou aplique o padrão a todos." },
   { target: [".tm-rail .tm-ledger", ".tm-chip"], title: "Balancete", text: "Saldo, vendas, gastos e o elenco por posição, sempre à vista. No celular, toque no saldo para abrir." },
-  { target: [".mhd-club"], title: "Outro clube ou a Prancheta", text: "Toque no escudo para trocar de clube. A Prancheta do mesmo time fica no seletor ao lado (no celular, no menu ⋯)." },
+  { target: [".mhd-club"], title: "Outro clube", text: "Toque no escudo para trocar de clube: a janela de cada time fica salva. No menu ⋯ ficam o guia, este tour e a prancheta tática." },
 ];
 
 const CUTOFF = MARKET_INDEX.nextSeasonStart;
@@ -334,7 +334,7 @@ function MarketClub({ slug }: { slug: string }) {
                 )}
               </>
             )}
-            {tab === "lineup" && <LineupTab next={next} st={st} setSt={setSt} team={team} coach={nextCoach} balance={sum.balance} income={sum.income} spend={sum.spend} onGenerate={setStudio} />}
+            {tab === "lineup" && <LineupTab slug={slug} next={next} st={st} setSt={setSt} team={team} coach={nextCoach} balance={sum.balance} income={sum.income} spend={sum.spend} onGenerate={setStudio} />}
             {tab === "market" && (
               <MarketTab st={st} setSt={setSt} balance={sum.balance} ownIds={new Set(squad.map((p) => p.id))} depth={depth} onLeague={(l) => setLeagues((x) => ({ ...x, [l.id]: l }))} isMobile={isMobile} onScout={setPeek} />
             )}
