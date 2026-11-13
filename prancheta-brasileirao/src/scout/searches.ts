@@ -1,6 +1,6 @@
 // Buscas prontas e filtros manuais do Olheiro (puros; testados em tests/scout.test.ts).
 import type { Pos } from "../types";
-import { median, profileDistance, type ScoutPlayer } from "./metrics";
+import { leagueCoef, median, profileDistance, type ScoutPlayer } from "./metrics";
 
 export const TOP5_GROUP = "Top 5 da Europa";
 
@@ -83,7 +83,7 @@ export interface SearchDef {
 }
 
 export const SEARCHES: SearchDef[] = [
-  { id: "obvious", title: "Os óbvios", rule: "Top 10 pela nota da posição", limit: 10 },
+  { id: "obvious", title: "Os óbvios", rule: "Os mais bem avaliados nas ligas mais fortes, já valorizados", limit: 10 },
   { id: "hidden", title: "Não óbvios", rule: "Nota 75+ fora do top 5 europeu, valor até a mediana da posição", limit: 0 },
   { id: "gems", title: "Joias", rule: "Sub-21 com nota 70+ ou sub-23 com 80+", limit: 0 },
   { id: "contract", title: "Fim de contrato", rule: "Contrato acaba até 30/06 e nota 60+", limit: 0 },
@@ -103,8 +103,11 @@ export function runSearch(id: SearchId, list: ScoutPlayer[], ctx: SearchCtx): Sc
   const def = SEARCHES.find((s) => s.id === id)!;
   const cap = (xs: ScoutPlayer[]) => (def.limit ? xs.slice(0, def.limit) : xs);
   switch (id) {
-    case "obvious":
-      return cap([...pool].sort(byScore));
+    case "obvious": {
+      // óbvio = rende muito numa liga forte e o mercado já sabe (valor alto): nota × força da liga, com peso do valor
+      const w = (x: ScoutPlayer) => x.m.score! * leagueCoef(x.league) + 6 * Math.log10(1 + (x.value ?? 0) / 1e6);
+      return cap(pool.filter((x) => x.m.score! >= 70).sort((a, b) => w(b) - w(a)));
+    }
     case "hidden": {
       // mediana de valor por posição dentro da própria lista (o grupo escolhido)
       const med = new Map<Pos, number | null>();

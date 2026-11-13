@@ -178,10 +178,10 @@ describe("buscas do olheiro", () => {
     expect(applyFilters(pool, { ...emptyFilters(), minScore: 1 }, ctx()).some((x) => x.id === "tiny")).toBe(false);
   });
 
-  it("os óbvios: ordem pela nota, sem amostra pequena nem o próprio elenco", () => {
+  it("os óbvios: nota alta (70+), sem amostra pequena nem o próprio elenco, até 10", () => {
     const r = runSearch("obvious", pool, ctx({ ownIds: new Set(["kid"]) }));
     expect(r.some((x) => x.id === "tiny" || x.id === "kid")).toBe(false);
-    for (let i = 1; i < r.length; i++) expect(r[i - 1].m.score!).toBeGreaterThanOrEqual(r[i].m.score!);
+    expect(r.every((x) => x.m.score! >= 70)).toBe(true);
     expect(r.length).toBeLessThanOrEqual(10);
   });
 
