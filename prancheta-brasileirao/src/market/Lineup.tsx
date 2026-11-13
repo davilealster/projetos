@@ -270,7 +270,7 @@ export function LineupTab({ slug, next, st, setSt, team, coach, balance, income,
           <ShareIcon />
           <span className="lu-share__txt">
             <b>{empty ? `Faltam ${empty} titular${empty > 1 ? "es" : ""}` : "Compartilhar"}</b>
-            <small>{empty ? "Complete o time em “Meu elenco ideal”" : "2 imagens prontas pro story, com legenda"}</small>
+            {empty > 0 && <small>Complete o time em “Meu elenco ideal”</small>}
           </span>
         </button>
       </div>
