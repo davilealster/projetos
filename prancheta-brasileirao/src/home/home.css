@@ -103,7 +103,7 @@
 }
 .mh-resume__meta span { white-space: nowrap; }
 .mh-resume__budget { color: var(--ink-soft); }
-.mh-resume__stamp { position: absolute; right: 30px; bottom: 34px; font-size: 17px; padding: 4px 8px 3px; border-width: 2.5px; border-radius: 4px; }
+.mh-resume__stamp { position: absolute; right: 30px; bottom: 34px; font-size: 15px; white-space: nowrap; padding: 4px 8px 3px; border-width: 2.5px; border-radius: 4px; }
 .mh-resume__actions { display: flex; align-items: center; gap: 16px; margin-top: 18px; flex-wrap: wrap; }
 .mh-resume__go { min-height: 50px; padding: 0 28px; font-size: 17px; font-weight: 750; gap: 10px; box-shadow: 0 2px 0 rgba(0, 0, 0, 0.25); }
 .mh-resume__go span { transition: transform 0.2s; }
