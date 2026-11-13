@@ -1,7 +1,7 @@
 {
   "name": "Meu Elenco FC",
   "short_name": "Meu Elenco",
-  "description": "Assuma o seu clube da Série A: monte a escalação na prancheta tática como técnico e comande a janela de transferências como diretor de futebol. Sem cadastro.",
+  "description": "Você é o diretor de futebol: escolha o seu clube da Série A e monte a janela de transferências 2027. Decida quem fica, quem sai e quem chega, e compartilhe o seu elenco. Sem cadastro.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",

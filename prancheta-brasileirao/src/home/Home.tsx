@@ -1,4 +1,4 @@
-import { useEffect, useState, type CSSProperties, type MouseEvent } from "react";
+import { useEffect, useMemo, useState, type CSSProperties, type MouseEvent } from "react";
 import { AccountButton } from "../brand/Account";
 import { BrandMark, spaLink } from "../brand/BrandMark";
 import "../brand/brand.css";
@@ -10,8 +10,10 @@ import { clubVars, initials } from "../lib/color";
 import { getLastClub, setLastClub } from "../lib/lastClub";
 import { navigate, params, replace } from "../router";
 import type { TeamSummary } from "../types";
+import { budgetLabel, progressLabel, readWindowProgress } from "./progress";
 
 const findClub = (slug: string | null) => TEAMS.find((t) => t.slug === slug) ?? null;
+const isModule = (m: string | null): m is ModuleId => m === "prancheta" || m === "mercado" || m === "olheiro";
 
 /** Mini prancheta (decorativa): campo, 5 fichas e a seta da jogada. */
 function PitchArt() {
@@ -38,90 +40,68 @@ function PitchArt() {
   );
 }
 
-/** Mini ficha de jogador com o carimbo "Renovado". */
-function FichaArt() {
+/** Mini ficha de jogador com carimbo (ou etiqueta de preço). */
+function FichaArt({ stamp, tone, label, price }: { stamp: string; tone: "green" | "blue"; label: string; price?: string }) {
   return (
-    <div className="mh-art mh-ficha" aria-hidden="true">
-      <span className="mh-ficha__avatar">10</span>
+    <div className={`mh-art mh-ficha mh-ficha--${tone}`} aria-hidden="true">
+      <span className="mh-ficha__avatar">{label}</span>
       <span className="mh-ficha__bars">
         <i />
         <i />
       </span>
-      <span className="brand-stamp brand-stamp--green mh-stamp">Renovado</span>
+      {price && <span className="mh-ficha__price">{price}</span>}
+      <span className={`brand-stamp brand-stamp--${tone} mh-stamp`}>{stamp}</span>
     </div>
   );
 }
 
-/** Ficha de observação com a lupa por cima e o carimbo "Prioridade". */
-function ScoutArt() {
-  return (
-    <div className="mh-art mh-scout" aria-hidden="true">
-      <span className="mh-scout__lines">
-        <i />
-        <i />
-        <i />
-      </span>
-      <span className="mh-scout__bars">
-        <i style={{ width: "86%" }} />
-        <i style={{ width: "62%" }} />
-        <i style={{ width: "74%" }} />
-      </span>
-      <svg className="mh-scout__lens" viewBox="0 0 44 44">
-        <circle cx="17" cy="17" r="12" fill="rgba(239,230,210,0.35)" stroke="#1d1b16" strokeWidth="3.5" />
-        <path d="M26 26 L39 39" stroke="#1d1b16" strokeWidth="6" strokeLinecap="round" />
-        <path d="M11 13 Q14 9 19 9" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" opacity="0.8" />
-      </svg>
-      <span className="brand-stamp brand-stamp--green mh-stamp">Prioridade</span>
-    </div>
-  );
-}
-
-function Crest({ club, size }: { club: TeamSummary; size: number }) {
+function Crest({ club, size, eager }: { club: TeamSummary; size: number; eager?: boolean }) {
   return club.crest ? (
-    <img src={club.crest} alt="" width={size} height={size} loading="lazy" decoding="async" />
+    <img src={club.crest} alt="" width={size} height={size} loading={eager ? "eager" : "lazy"} decoding="async" />
   ) : (
     <span className="mh-crest__initials" style={{ width: size, height: size }}>{initials(club.name)}</span>
   );
 }
 
-const isModule = (m: string | null): m is ModuleId => m === "prancheta" || m === "mercado" || m === "olheiro";
+const STEPS = [
+  { n: "1", title: "Decida o elenco", text: "Quem fica, quem sai, quem vai emprestado.", art: <FichaArt stamp="Fica" tone="green" label="10" /> },
+  { n: "2", title: "Vá às compras", text: "23 ligas, valores de mercado reais.", art: <FichaArt stamp="Chegou" tone="blue" label="9" price="€ 12 mi" /> },
+  { n: "3", title: "Escale e compartilhe", text: "Gera a imagem do seu time para postar.", art: <PitchArt /> },
+];
 
 export function Home() {
-  const [club, setClub] = useState<TeamSummary | null>(() => findClub(getLastClub()));
-  // Folha de clubes: `module` = para onde ir depois da escolha (null = só salvar o clube).
-  const [sheet, setSheet] = useState<{ module: ModuleId | null } | null>(() => {
-    const q = params();
-    const m = q.get("modulo");
-    return q.get("trocar") === "1" ? { module: isModule(m) ? m : null } : null;
+  const [club] = useState<TeamSummary | null>(() => findClub(getLastClub()));
+  // Links antigos (`?modulo=prancheta|olheiro`) seguem para o módulo pedido; o padrão é o mercado.
+  const [target] = useState<ModuleId>(() => {
+    const m = params().get("modulo");
+    return isModule(m) ? m : "mercado";
   });
+  const [sheet, setSheet] = useState(() => params().get("trocar") === "1");
+  const progress = useMemo(() => (club ? readWindowProgress(club.slug) : null), [club]);
 
   useEffect(() => {
-    document.title = "Meu Elenco FC — o clube é seu";
+    document.title = "Meu Elenco FC — monte a janela do seu clube";
     if (location.search) replace("/");
   }, []);
 
+  const go = (slug: string) => {
+    setLastClub(slug);
+    navigate(moduleHref(target, slug));
+  };
+
   const pick = (slug: string) => {
-    const next = findClub(slug);
-    const target = sheet?.module ?? null;
-    setSheet(null);
-    if (!next) return;
-    setClub(next);
-    setLastClub(next.slug);
-    if (target) navigate(moduleHref(target, next.slug));
+    setSheet(false);
+    if (findClub(slug)) go(slug);
   };
 
-  /** Crachá sem clube salvo: abre a folha e segue para o módulo depois da escolha. */
-  const enter = (module: ModuleId) => (e: MouseEvent<HTMLAnchorElement>) => {
-    if (club) return spaLink(moduleHref(module, club.slug))(e);
-    if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
-    e.preventDefault();
-    setSheet({ module });
+  const crestLink = (slug: string) => (e: MouseEvent<HTMLAnchorElement>) => {
+    setLastClub(slug);
+    spaLink(moduleHref(target, slug))(e);
   };
 
-  const boardHref = club ? moduleHref("prancheta", club.slug) : "/?modulo=prancheta&trocar=1";
-  const marketHref = club ? moduleHref("mercado", club.slug) : "/?modulo=mercado&trocar=1";
-  const scoutHref = club ? moduleHref("olheiro", club.slug) : "/?modulo=olheiro&trocar=1";
-  const clubStyle = (club ? clubVars(club.colors) : undefined) as CSSProperties | undefined;
+  const done = progressLabel(progress);
+  const budget = budgetLabel(progress?.budget ?? null);
+  const resumeHref = club ? moduleHref(target, club.slug) : "/";
 
   return (
     <div className="brand mh">
@@ -134,107 +114,102 @@ export function Home() {
       </header>
 
       <main className="mh-wrap">
-        <section className="mh-hero">
-          <p className="brand-eyebrow">As chaves do clube estão com você</p>
-          <h1 className="mh-title">
-            O clube é seu.
-            <br />
-            <em>Você decide.</em>
-          </h1>
-          <p className="mh-sub">
-            Chega de só cornetar. Assuma a cadeira, monte a barca, desenhe a tática e mostre como se faz.
-            <br />
-            Escolha seu papel: no campo como técnico, no mercado como diretor de futebol ou no radar como olheiro.
-          </p>
-        </section>
-
-        {club && (
-          <div className="mh-continue" style={clubStyle} aria-live="polite">
-            <span className="mh-continue__crest">
-              <Crest club={club} size={30} />
-            </span>
-            <p className="mh-continue__text">
-              <span className="mh-continue__eyebrow">Seu clube</span>
-              <span className="mh-continue__name">Continuar com o {club.shortName}</span>
+        <div className="mh-stage">
+          <section className="mh-hero">
+            <p className="brand-eyebrow">Janela de transferências 2027</p>
+            <h1 className="mh-title">
+              <span>Você é o diretor de futebol.</span>
+              <em>Monte o seu elenco.</em>
+            </h1>
+            <p className="mh-sub">
+              Chega de só cornetar. Escolha o seu clube, decida quem fica, quem sai e quem chega, e mostre como se faz.
             </p>
-            <button type="button" className="mh-continue__swap" onClick={() => setSheet({ module: null })} aria-haspopup="dialog">
-              Trocar
-            </button>
-          </div>
-        )}
-
-        <ul className="mh-cards" style={clubStyle}>
-          <li>
-            <a className="mh-card mh-card--coach" href={boardHref} onClick={enter("prancheta")} aria-haspopup={club ? undefined : "dialog"}>
-              <span className="mh-card__label">Crachá 01 · Comissão técnica</span>
-              <PitchArt />
-              <span className="mh-card__body">
-                <span className="mh-card__title">Técnico</span>
-                <span className="mh-card__module">Prancheta tática</span>
-                <span className="mh-card__text">Monte a escalação, arraste os jogadores e desenhe a jogada.</span>
-              </span>
-              <span className="mh-card__cta">
-                {club && <Crest club={club} size={20} />}
-                <span>{club ? `Abrir a prancheta do ${club.shortName}` : "Abrir a prancheta"}</span>
-                <span className="mh-card__arrow" aria-hidden="true">→</span>
-              </span>
-            </a>
-          </li>
-          <li>
-            <a className="mh-card mh-card--director" href={marketHref} onClick={enter("mercado")} aria-haspopup={club ? undefined : "dialog"}>
-              <span className="mh-card__label">Crachá 02 · Diretoria</span>
-              <FichaArt />
-              <span className="mh-card__body">
-                <span className="mh-card__title">Diretor de futebol</span>
-                <span className="mh-card__module">Mercado da bola</span>
-                <span className="mh-card__text">Defina o orçamento, carimbe quem fica e quem sai e vá às compras.</span>
-              </span>
-              <span className="mh-card__cta">
-                {club && <Crest club={club} size={20} />}
-                <span>{club ? `Abrir o mercado do ${club.shortName}` : "Abrir o mercado"}</span>
-                <span className="mh-card__arrow" aria-hidden="true">→</span>
-              </span>
-            </a>
-          </li>
-          <li>
-            <a className="mh-card mh-card--scout" href={scoutHref} onClick={enter("olheiro")} aria-haspopup={club ? undefined : "dialog"}>
-              <span className="mh-card__label">Crachá 03 · Scout</span>
-              <ScoutArt />
-              <span className="mh-card__body">
-                <span className="mh-card__title">Olheiro</span>
-                <span className="mh-card__module">Radar de mercado</span>
-                <span className="mh-card__text">Ache os óbvios e os não óbvios, separe em prateleiras e monte o Plano A, B e C.</span>
-              </span>
-              <span className="mh-card__cta">
-                {club && <Crest club={club} size={20} />}
-                <span>{club ? `Abrir o radar do ${club.shortName}` : "Abrir o olheiro"}</span>
-                <span className="mh-card__arrow" aria-hidden="true">→</span>
-              </span>
-            </a>
-          </li>
-        </ul>
-
-        {!club && (
-          <section className="mh-clubs" aria-label="Seu clube">
-            <button type="button" className="brand-btn brand-btn--brass mh-clubs__pick" onClick={() => setSheet({ module: null })} aria-haspopup="dialog">
-              Escolher meu clube
-            </button>
-            <p className="mh-clubs__help">Opcional — você também pode escolher ao abrir a prancheta, o mercado ou o olheiro.</p>
           </section>
-        )}
+
+          {club ? (
+            <section className="mh-resume" style={clubVars(club.colors) as CSSProperties} aria-labelledby="mh-resume-title">
+              <span className="mh-resume__stripe" aria-hidden="true" />
+              <div className="mh-resume__head">
+                <span className="mh-resume__crest">
+                  <Crest club={club} size={56} eager />
+                </span>
+                <div className="mh-resume__text">
+                  <p className="mh-resume__eyebrow">Sua janela 2027</p>
+                  <h2 className="mh-resume__title" id="mh-resume-title">
+                    Continuar a janela do <b>{club.shortName}</b>
+                  </h2>
+                </div>
+              </div>
+              <p className="mh-resume__meta">
+                <span>{done ?? "Nada decidido ainda"}</span>
+                {budget && <span className="mh-resume__budget">Orçamento {budget}</span>}
+              </p>
+              <span className={`brand-stamp ${done ? "brand-stamp--green" : "brand-stamp--amber"} mh-stamp mh-resume__stamp`} aria-hidden="true">
+                {done ? "Em andamento" : "Janela aberta"}
+              </span>
+              <div className="mh-resume__actions">
+                <a className="brand-btn brand-btn--brass mh-resume__go" href={resumeHref} onClick={spaLink(resumeHref)}>
+                  Continuar <span aria-hidden="true">→</span>
+                </a>
+                <button type="button" className="mh-resume__swap" onClick={() => setSheet(true)} aria-haspopup="dialog">
+                  Trocar de clube
+                </button>
+              </div>
+            </section>
+          ) : (
+            <section className="mh-pick" aria-labelledby="mh-pick-title">
+              <header className="mh-pick__head">
+                <span className="mh-pick__step">1º passo</span>
+                <h2 className="mh-pick__title" id="mh-pick-title">Escolha o seu clube</h2>
+                <p className="mh-pick__hint">Toque no escudo e a janela abre.</p>
+              </header>
+              <ul className="mh-grid">
+                {TEAMS.map((t, i) => (
+                  <li key={t.slug} style={{ "--i": i } as CSSProperties}>
+                    <a className="mh-club" href={moduleHref(target, t.slug)} onClick={crestLink(t.slug)} aria-label={t.name}>
+                      <span className="mh-club__crest">
+                        <Crest club={t} size={40} eager />
+                      </span>
+                      <span className="mh-club__name" aria-hidden="true">{t.shortName}</span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
+        </div>
+
+        <section className="mh-how" aria-labelledby="mh-how-title">
+          <h2 className="mh-how__title" id="mh-how-title">Como funciona</h2>
+          <ol className="mh-steps">
+            {STEPS.map((s) => (
+              <li key={s.n} className="mh-stepcard">
+                {s.art}
+                <span className="mh-stepcard__n" aria-hidden="true">{s.n}</span>
+                <span className="mh-stepcard__body">
+                  <span className="mh-stepcard__title">{s.title}</span>
+                  <span className="mh-stepcard__text">{s.text}</span>
+                </span>
+              </li>
+            ))}
+          </ol>
+        </section>
       </main>
 
       <footer className="mh-wrap mh-foot">
+        <nav className="mh-foot__links" aria-label="Outras ferramentas">
+          <a href="/prancheta" onClick={spaLink("/prancheta")}>Ferramenta extra: Prancheta tática →</a>
+          <a href="/creator" onClick={spaLink("/creator")}>Faz live? Use a prancheta na transmissão</a>
+        </nav>
         <p>Projeto independente, sem vínculo com CBF ou clubes. Imagens pertencem aos respectivos detentores.</p>
-        <a href="/creator" onClick={spaLink("/creator")}>Faz live? Use a prancheta na transmissão</a>
       </footer>
 
       <ClubSheet
-        open={sheet !== null}
+        open={sheet}
         current={club?.slug ?? null}
         title={club ? "Trocar de clube" : "Qual é o seu clube?"}
         onPick={pick}
-        onClose={() => setSheet(null)}
+        onClose={() => setSheet(false)}
       />
     </div>
   );
