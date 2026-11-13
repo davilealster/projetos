@@ -905,3 +905,18 @@ button.lu-slot:hover .lu-slot__photo { transform: translateY(-2px); }
   .lu-bar .lu-share .lu-share-ico svg { width: 22px; height: 22px; }
   .lu-bar .lu-share span.lu-share-ico { display: inline-grid; }
 }
+/* compartilhar: no computador ao lado das abas; no celular só o ícone, ao lado do campo de assinatura */
+.lu-sign__row { display: contents; }
+.lu-share--icon { display: none !important; }
+@media (max-width: 640px) {
+  .lu-bar .lu-share--bar { display: none !important; }
+  .lu-sign { display: grid; grid-template-columns: 1fr; gap: 6px; }
+  .lu-sign__row { display: flex; align-items: center; gap: 8px; }
+  .lu-sign__row input { flex: 1; min-width: 0; }
+  .lu-share--icon {
+    display: inline-grid !important; place-items: center; position: static; flex: none; width: 46px; height: 46px; padding: 0; border-radius: 50%;
+    background: var(--brass); color: var(--ink); border: 0; box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+  }
+  .lu-share--icon .lu-share-ico, .lu-share--icon .lu-share-ico svg { width: 22px; height: 22px; background: none !important; }
+  .lu-share--icon:disabled { background: rgba(0, 0, 0, 0.45); color: rgba(255, 255, 255, 0.7); box-shadow: none; }
+}

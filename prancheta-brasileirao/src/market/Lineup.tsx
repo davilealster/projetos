@@ -229,6 +229,21 @@ function ShareIcon() {
   );
 }
 
+/** Botão de compartilhar. "bar" = ao lado das abas (computador); o outro, só ícone, ao lado da assinatura (celular). */
+function ShareButton({ bar = false, empty, onClick }: { bar?: boolean; empty: number; onClick: () => void }) {
+  const title = empty ? `Faltam ${empty} titular${empty > 1 ? "es" : ""} no elenco ideal` : "Compartilhar as 2 imagens com legenda";
+  return (
+    <button type="button" className={`lu-share ${bar ? "lu-share--bar" : "lu-share--icon"}`} disabled={empty > 0} onClick={onClick} title={title} aria-label={title}>
+      <ShareIcon />
+      {bar && (
+        <span className="lu-share__txt">
+          <b>{empty ? `Faltam ${empty} titular${empty > 1 ? "es" : ""}` : "Compartilhar"}</b>
+        </span>
+      )}
+    </button>
+  );
+}
+
 export function LineupTab({ slug, next, st, setSt, team, coach, balance, income, spend, onGenerate }: {
   slug: string;
   next: NextPlayer[];
@@ -263,22 +278,14 @@ export function LineupTab({ slug, next, st, setSt, team, coach, balance, income,
           <button role="tab" aria-selected={view === "summary"} className={view === "summary" ? "is-on" : ""} onClick={() => setView("summary")}>Resumo da janela</button>
           <button role="tab" aria-selected={view === "field"} className={view === "field" ? "is-on" : ""} onClick={() => setView("field")}>Meu elenco ideal</button>
         </div>
-        <button
-          className="lu-share"
-          disabled={empty > 0}
-          onClick={() => onGenerate(lineup)}
-          title={empty ? `Faltam ${empty} titular${empty > 1 ? "es" : ""} no elenco ideal` : "Gerar as 2 imagens com legenda"}
-        >
-          <ShareIcon />
-          <span className="lu-share__txt">
-            <b>{empty ? `Faltam ${empty} titular${empty > 1 ? "es" : ""}` : "Compartilhar"}</b>
-            {empty > 0 && <small>Complete o time em “Meu elenco ideal”</small>}
-          </span>
-        </button>
+        <ShareButton bar empty={empty} onClick={() => onGenerate(lineup)} />
       </div>
       <label className="lu-sign">
         <span>Assinar os posts</span>
-        <input value={author} onChange={(e) => setAuthor(e.target.value)} placeholder="Seu nome (opcional)" maxLength={28} />
+        <span className="lu-sign__row">
+          <input value={author} onChange={(e) => setAuthor(e.target.value)} placeholder="Seu nome (opcional)" maxLength={28} />
+          <ShareButton empty={empty} onClick={() => onGenerate(lineup)} />
+        </span>
         <small>{author.trim() ? `Aparece “Criado por ${author.trim()}”` : "Sem nome, não aparece nada"}</small>
       </label>
       {view === "summary" && (
