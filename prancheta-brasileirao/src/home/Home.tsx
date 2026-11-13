@@ -1,4 +1,5 @@
 import { useEffect, useState, type CSSProperties, type MouseEvent } from "react";
+import { AccountButton } from "../brand/Account";
 import { BrandMark, spaLink } from "../brand/BrandMark";
 import "../brand/brand.css";
 import { ClubSheet } from "../brand/ClubSheet";
@@ -128,6 +129,7 @@ export function Home() {
         <div className="mh-wrap mh-top__in">
           <BrandMark size="sm" />
           <p className="mh-top__meta">Série A 2026 · 20 clubes</p>
+          <AccountButton />
         </div>
       </header>
 

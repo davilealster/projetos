@@ -1,0 +1,42 @@
+/* Login opcional (Meu Elenco FC) — classes acc-* */
+.acc-btn {
+  display: inline-flex; align-items: center; gap: 6px; height: 34px; padding: 0 12px; border-radius: 999px; cursor: pointer;
+  border: 1px solid rgba(224, 185, 90, 0.55); background: rgba(224, 185, 90, 0.1); color: #e0b95a;
+  font: 700 13px/1 "Hanken Grotesk Variable", system-ui, sans-serif; white-space: nowrap;
+}
+.acc-btn:hover { background: #e0b95a; color: #1d1b16; }
+.acc-btn svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 2.2; stroke-linecap: round; }
+.acc-btn.is-compact { width: 34px; padding: 0; justify-content: center; }
+.acc-me { position: relative; }
+.acc-avatar { position: relative; width: 34px; height: 34px; padding: 0; border-radius: 50%; border: 2px solid #e0b95a; background: #0a1f1a; color: #efe6d2; cursor: pointer; overflow: visible; display: grid; place-items: center; font-weight: 800; }
+.acc-avatar img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; }
+.acc-avatar i { position: absolute; right: -2px; bottom: -2px; width: 11px; height: 11px; border-radius: 50%; background: #2fa58c; border: 2px solid #0a1f1a; }
+.acc-avatar i.is-sync { background: #e0b95a; animation: acc-pulse 1s ease-in-out infinite; }
+@keyframes acc-pulse { 50% { opacity: 0.35; } }
+.acc-scrim { position: fixed; inset: 0; z-index: 60; }
+.acc-menu { position: absolute; right: 0; top: calc(100% + 8px); z-index: 61; min-width: 220px; padding: 10px; border-radius: 8px; background: #efe6d2; color: #1d1b16; box-shadow: 0 16px 40px rgba(0, 0, 0, 0.5); display: grid; gap: 8px; }
+.acc-menu p { margin: 0; display: grid; gap: 2px; font-size: 14px; }
+.acc-menu small { color: #5f584b; font-size: 12px; }
+.acc-menu button { padding: 9px 10px; border: 1px solid rgba(29, 27, 22, 0.2); border-radius: 6px; background: none; color: #1d1b16; font: 650 14px/1 "Hanken Grotesk Variable", system-ui, sans-serif; text-align: left; cursor: pointer; }
+.acc-menu button:hover { background: rgba(29, 27, 22, 0.06); }
+
+.acc-modal { position: fixed; inset: 0; z-index: 200; display: grid; place-items: center; padding: 16px; background: rgba(5, 14, 11, 0.78); min-height: 0 !important; }
+.acc-card {
+  position: relative; width: min(420px, 100%); padding: 26px 24px 20px; border-radius: 8px; text-align: center;
+  background: #efe6d2; color: #1d1b16; box-shadow: 0 30px 80px rgba(0, 0, 0, 0.6); display: grid; gap: 10px; justify-items: center;
+  animation: acc-rise 0.22s ease-out;
+}
+@keyframes acc-rise { from { opacity: 0; transform: translateY(12px); } }
+.acc-card .brand-eyebrow { color: #a86a10; }
+.acc-card h2 { margin: 0; font-family: "Big Shoulders Display", "Arial Narrow", sans-serif; font-weight: 900; font-size: 34px; line-height: 0.95; text-transform: uppercase; }
+.acc-card > p { margin: 0; font-size: 14.5px; line-height: 1.5; color: #5f584b; max-width: 36ch; }
+.acc-logo { width: 64px; height: auto; margin-bottom: 2px; filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.2)); }
+.acc-close { position: absolute; right: 10px; top: 10px; width: 32px; height: 32px; border-radius: 50%; border: 0; background: rgba(29, 27, 22, 0.08); color: #1d1b16; font-size: 20px; cursor: pointer; }
+.acc-google { min-height: 44px; margin-top: 6px; display: grid; place-items: center; }
+.acc-later { border: 0; background: none; color: #1d1b16; font: 650 14px/1 "Hanken Grotesk Variable", system-ui, sans-serif; text-decoration: underline; cursor: pointer; padding: 6px; }
+.acc-note { font-size: 12px !important; }
+.acc-error { color: #c2331f !important; font-weight: 650; }
+.acc-acts { display: grid; gap: 8px; width: 100%; margin-top: 6px; }
+.acc-acts .brand-btn { justify-content: center; padding: 12px; }
+.acc-acts .brand-btn:not(.brand-btn--brass) { color: #1d1b16; border-color: rgba(29, 27, 22, 0.3); }
+@media (prefers-reduced-motion: reduce) { .acc-card { animation: none; } .acc-avatar i.is-sync { animation: none; } }

@@ -134,3 +134,10 @@ Cores dos clubes: `data/team-colors.json` (preenchidas à mão, revise).
 ```bash
 npm test
 ```
+
+## Conta opcional (salvar a jornada)
+
+Login com Google é opcional: sem login, tudo fica no navegador (localStorage). Com login, as chaves `mando:*`, `mercado:*`, `olheiro:*` e `prancheta:*` são espelhadas na conta (Blob privado `users/<hash>.json`, o mesmo armazenamento do admin), com sincronização em três vias e escolha do usuário em caso de conflito. Um convite "Quer salvar sua jornada?" aparece uma vez por sessão para quem já tem progresso (adiável por 3 dias).
+
+- `api/session.ts` (GET/POST/DELETE) e `api/journey.ts` (GET/PUT); lógica em `api/_lib/user.ts` e `src/lib/account.ts`.
+- Variáveis: `GOOGLE_CLIENT_ID` (OAuth "Aplicativo da Web" no Google Cloud, com as origens do site em "Origens JavaScript autorizadas") e `USER_SESSION_SECRET`. Sem `GOOGLE_CLIENT_ID`, o login fica escondido.

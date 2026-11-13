@@ -1,5 +1,7 @@
 import { Suspense, lazy, useEffect } from "react";
+import { AccountModals } from "./brand/Account";
 import { spaLink } from "./brand/BrandMark";
+import { initAccount } from "./lib/account";
 import { redirectTarget } from "./brand/nav";
 import { Board } from "./components/Board";
 import { CreatorPage } from "./components/CreatorPage";
@@ -26,6 +28,17 @@ const isBrandPage = (r: Route) => r.page === "home" || r.page === "redirect" || 
 
 export function App() {
   const route = useRoute();
+  useEffect(() => void initAccount(), []);
+  const live = route.page === "board" && route.live;
+  return (
+    <>
+      <Page route={route} />
+      {!live && <AccountModals />}
+    </>
+  );
+}
+
+function Page({ route }: { route: Route }) {
   useEffect(() => {
     const html = document.documentElement;
     html.classList.toggle("is-live", route.page === "board" && route.live);

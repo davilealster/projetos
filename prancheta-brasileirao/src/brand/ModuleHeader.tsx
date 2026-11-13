@@ -3,6 +3,8 @@ import { BrandMark, spaLink } from "./BrandMark";
 import { ClubSheet } from "./ClubSheet";
 import { MODULES, moduleHref, type ModuleId } from "./nav";
 import "./brand.css";
+import { AccountButton } from "./Account";
+import { openLogin, useAccount } from "../lib/account";
 import "./module-header.css";
 import { initials } from "../lib/color";
 import { navigate } from "../router";
@@ -29,6 +31,7 @@ type Props = {
 export function ModuleHeader({ module, slug, clubName, crest, variant, actions, menuItems }: Props) {
   const [sheet, setSheet] = useState(false);
   const app = variant === "app";
+  const acc = useAccount();
 
   const items: ModuleMenuItem[] = [...(menuItems ?? [])];
   if (app) {
@@ -37,6 +40,7 @@ export function ModuleHeader({ module, slug, clubName, crest, variant, actions, 
       { label: "Trocar de clube", onSelect: () => setSheet(true) },
       { label: "Início", onSelect: () => navigate("/") },
     );
+    if (acc.enabled && !acc.user) items.push({ label: "Entrar e salvar a jornada", onSelect: openLogin });
   }
 
   const pick = (next: string) => {
@@ -87,6 +91,7 @@ export function ModuleHeader({ module, slug, clubName, crest, variant, actions, 
 
         <span className="mhd-spacer" />
         {actions && <div className="mhd-actions">{actions}</div>}
+        {(!app || acc.user) && <AccountButton compact={app} />}
         {items.length > 0 && <MoreMenu items={items} divideAt={app ? (menuItems?.length ?? 0) : 0} />}
       </div>
       <ClubSheet open={sheet} current={slug} title="Trocar de clube" onPick={pick} onClose={() => setSheet(false)} />
