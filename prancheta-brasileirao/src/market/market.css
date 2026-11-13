@@ -851,3 +851,9 @@ button.lu-slot:hover .lu-slot__photo { transform: translateY(-2px); }
 .lu-sign input { flex: 1; min-width: 160px; max-width: 280px; padding: 8px 11px; border-radius: 6px; border: 1px solid var(--felt-line); background: var(--felt-deep); color: var(--cream); font: inherit; font-size: 14px; }
 .lu-sign small { font-size: 12px; }
 @media (max-width: 640px) { .lu-sign input { max-width: none; } .lu-sign small { width: 100%; } }
+/* dinheiro: entrada verde, gasto vermelho (as cores das raias continuam) */
+.sx-lane--out h3 span { color: #5fd18a; }
+.sx-lane--in h3 span, .sx-lane--stay h3 span { color: #ff7a5c; }
+.sx-row__lab em { font-style: normal; }
+.sx-row__lab .is-gain { color: #5fd18a; } .sx-row__lab .is-cost { color: #ff7a5c; }
+.sx-lane--stay .sx-row__lab b { white-space: normal; }

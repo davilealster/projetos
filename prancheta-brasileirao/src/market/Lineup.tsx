@@ -427,8 +427,8 @@ function StoryCard({ p, grey = false }: { p: NextPlayer; grey?: boolean }) {
 function useFit(sig: string, max: number, min: number, lastSel: string) {
   // k = quantos passos foram necessários: primeiro diminui as fichas, depois (quem quiser) o resto
   const [k, setK] = useState(0);
-  const w = Math.max(min, max - 2 * k);
-  const extra = Math.max(0, k - (max - min) / 2);
+  const w = Math.max(min, max - 3 * k);
+  const extra = Math.max(0, k - Math.ceil((max - min) / 3));
   const root = useRef<HTMLDivElement | null>(null);
   useLayoutEffect(() => setK(0), [sig, max]);
   useLayoutEffect(() => {
@@ -438,7 +438,7 @@ function useFit(sig: string, max: number, min: number, lastSel: string) {
     if (!el || !last || !seal) return;
     const bottom = last.getBoundingClientRect().bottom - el.getBoundingClientRect().top;
     const top = seal.getBoundingClientRect().top - el.getBoundingClientRect().top;
-    if (bottom > top - 8 && k < 60) setK(k + 1);
+    if (bottom > top - 8 && k < 30) setK(k + 1); // até 30 passos (o React limita atualizações em cadeia)
   });
   return { w, extra, root };
 }
@@ -458,7 +458,7 @@ export const StoryField = forwardRef<HTMLDivElement, StoryProps>(function StoryF
   // fichas do banco de 44 até 34 px; se ainda não couber, o campo encolhe
   const { w, extra, root } = useFit(`${bench.length}/${outside.length}/${author ?? ""}`, 44, 34, ".sx-vals");
   return (
-    <div ref={mergeRef(root, ref)} className="sty sty--field sx" style={{ "--sty-bg": storyBg(team.colors), "--w": `${w}px`, "--pitch": `${Math.max(300, 392 - extra * 8)}px` } as React.CSSProperties}>
+    <div ref={mergeRef(root, ref)} className="sty sty--field sx" style={{ "--sty-bg": storyBg(team.colors), "--w": `${w}px`, "--pitch": `${Math.max(300, 392 - extra * 12)}px` } as React.CSSProperties}>
       {team.crest && <img className="sty__mark" src={team.crest} alt="" />}
       {team.crest && <img className="sty__crest" src={team.crest} alt="" />}
       <header className="sty__head">
@@ -506,13 +506,29 @@ export const StorySummary = forwardRef<HTMLDivElement, StoryProps & { arrivals: 
               const m = sum(g);
               return (
                 <div key={key} className="sx-row">
-                  <p className="sx-row__lab"><b style={{ background: color }}>{label}</b><span>{g.length}{m ? ` · ${kind === "in" ? "−" : "+"}${money(m)}` : kind === "in" && key === "free" ? " · €0" : ""}</span></p>
+                  <p className="sx-row__lab"><b style={{ background: color }}>{label}</b><span>{g.length}{m ? <> · <em className={kind === "in" ? "is-cost" : "is-gain"}>{kind === "in" ? "−" : "+"}{money(m)}</em></> : kind === "in" && key === "free" ? " · €0" : ""}</span></p>
                   <div className="sx-faces">{g.map((p) => <StoryCard key={p.id} p={p} grey={kind === "out"} />)}</div>
                 </div>
               );
             })
           ) : (
-            <div className="sx-faces sx-faces--stay">{sortPos(list).map((p) => <StoryCard key={p.id} p={p} />)}</div>
+            (() => {
+              const bought = sortPos(list.filter((p) => p.how === "buyOut"));
+              const rest = sortPos(list.filter((p) => p.how !== "buyOut"));
+              if (!bought.length) return <div className="sx-faces sx-faces--stay">{rest.map((p) => <StoryCard key={p.id} p={p} />)}</div>;
+              return (
+                <>
+                  <div className="sx-row">
+                    <p className="sx-row__lab"><b style={{ background: "#1f8a4c" }}>Compra definitiva</b><span>{bought.length} · <em className="is-cost">−{money(sum(bought))}</em></span></p>
+                    <div className="sx-faces">{bought.map((p) => <StoryCard key={p.id} p={p} />)}</div>
+                  </div>
+                  <div className="sx-row">
+                    <p className="sx-row__lab"><b style={{ background: "#6b6458" }}>Permanecem</b><span>{rest.length}</span></p>
+                    <div className="sx-faces">{rest.map((p) => <StoryCard key={p.id} p={p} />)}</div>
+                  </div>
+                </>
+              );
+            })()
           )}
         </section>
       );
@@ -533,7 +549,7 @@ export const StorySummary = forwardRef<HTMLDivElement, StoryProps & { arrivals: 
         <p className="sx-ctx">Orçamento {money(budget)} · {leaves.length} saídas · {arrivals.length} chegadas · {stays.length} ficam</p>
         {lane("Saem", "out", leaves, OUT_GROUPS, income ? `+${money(sum(leaves))}` : null)}
         {lane("Chegam", "in", arrivals, IN_GROUPS, `−${money(sum(arrivals))}`)}
-        {lane("Ficam", "stay", stays, null, null)}
+        {lane("Ficam", "stay", stays, null, stays.some((p) => p.how === "buyOut") ? `−${money(sum(stays.filter((p) => p.how === "buyOut")))}` : null)}
         <StorySeal />
       </div>
     );

@@ -247,7 +247,7 @@ export interface NextPlayer {
 /** Etiqueta curta para a imagem do story: como o jogador sai ou chega. */
 export const HOW_TAG: Partial<Record<SquadAction | SigningType, string>> = {
   sell: "Vendido", loanOut: "Emprestado", release: "Dispensado", letGo: "Fim contrato", returnLoan: "Devolvido",
-  buy: "Compra", loan: "Empréstimo", free: "Livre",
+  buy: "Compra", loan: "Empréstimo", free: "Livre", buyOut: "Comprado",
 };
 
 /** Limite de estrangeiros relacionados por jogo no Brasileirão em 2027 (CBF). */
@@ -264,7 +264,7 @@ export function nextSeason(squad: SquadPlayer[], st: MarketState, cutoff: string
     const stays = staysWith(d.action);
     if (!stays && p.status === "loanOut" && d.action !== "sell") continue; // já está fora e segue fora
     const contract = d.action === "renew" ? "renew" : d.action === "extendLoan" ? p.loanUntil ?? null : p.contract;
-    out.push({ id: p.id, name: p.name, photo: p.photo, pos: p.pos, age: p.age, value: p.value, contract, kind: stays ? "stay" : "leave", pending: isEnding(p, cutoff) && !st.decisions[p.id], foreign: p.foreign, how: stays ? undefined : d.action, money: stays ? undefined : Math.max(0, moneyOf(p, d)) });
+    out.push({ id: p.id, name: p.name, photo: p.photo, pos: p.pos, age: p.age, value: p.value, contract, kind: stays ? "stay" : "leave", pending: isEnding(p, cutoff) && !st.decisions[p.id], foreign: p.foreign, how: stays ? (d.action === "buyOut" ? "buyOut" : undefined) : d.action, money: stays ? (d.action === "buyOut" ? Math.max(0, -moneyOf(p, d)) : undefined) : Math.max(0, moneyOf(p, d)) });
   }
   for (const a of arrivals) {
     const sg = st.signings.find((x) => x.id === a.id);
