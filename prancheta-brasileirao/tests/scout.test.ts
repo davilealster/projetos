@@ -260,3 +260,13 @@ describe("prateleiras, planos e comparador", () => {
     expect(withSignings(r.state, [r.added[0]]).state).toBe(r.state);
   });
 });
+
+import { seasonLabel } from "../src/scout/metrics";
+describe("temporada exibida", () => {
+  it("ano-calendário soma 1; europeias viram 2026/27", () => {
+    expect(seasonLabel("BRA1", "2025")).toBe("2026");
+    expect(seasonLabel("MLS1", "2025")).toBe("2026");
+    expect(seasonLabel("GB1", "2026")).toBe("2026/27");
+    expect(seasonLabel("BRA1", null)).toBe("");
+  });
+});

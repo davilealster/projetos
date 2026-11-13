@@ -355,3 +355,16 @@ export const keyIndicators = (x: ScoutPlayer) => [...x.m.indicators].sort((a, b)
 /** Faixa da nota, para a cor do carimbo. */
 export const scoreTier = (s: number | null): "top" | "good" | "mid" | "low" | "none" =>
   s == null ? "none" : s >= 80 ? "top" : s >= 65 ? "good" : s >= 45 ? "mid" : "low";
+
+/**
+ * Temporada como o torcedor chama. O Transfermarkt indexa as ligas de ano-calendário
+ * (Brasil, América do Sul, MLS) pelo ano anterior: season "2025" = temporada 2026.
+ * Ligas europeias (e as que seguem o calendário europeu) usam o ano de início: "2026" = 2026/27.
+ */
+const CALENDAR_YEAR_LEAGUES = new Set(["BRA1", "BRA2", "AR1N", "URU1", "COLP", "CLPD", "PR1A", "EC1N", "MLS1"]);
+export function seasonLabel(leagueId: string, season: string | null): string {
+  if (!season) return "";
+  const y = Number(season);
+  if (!Number.isFinite(y)) return season;
+  return CALENDAR_YEAR_LEAGUES.has(leagueId) ? String(y + 1) : `${y}/${String(y + 1).slice(2)}`;
+}

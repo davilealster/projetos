@@ -1,6 +1,6 @@
 // Perfil do jogador: percentis da posição, por 90 e totais, contexto da amostra, índices, prateleira, plano e nota.
 import { fmtDate, fmtEur, fmtRef, FOREIGN_LIMIT } from "../market/logic";
-import { EXPORT_COEF_MAX, MIN_SAMPLE, cardPoints, per90, type ScoutPlayer } from "./metrics";
+import { EXPORT_COEF_MAX, MIN_SAMPLE, cardPoints, per90, seasonLabel, type ScoutPlayer } from "./metrics";
 import { PLAN_LETTERS, PLAN_MAX, SHELVES, planOf, type ScoutAction, type ScoutState } from "./state";
 import { Drawer, Face, Ico, ICON, PctBar, ScoreStamp, Trend } from "./ui";
 
@@ -84,7 +84,7 @@ export function PlayerSheet({ x, st, dispatch, onClose, free, contractCut, compa
         </dl>
 
         <section className="sc-sec">
-          <h3>Na temporada {x.season ?? ""}</h3>
+          <h3>Na temporada {seasonLabel(x.league, x.season)}</h3>
           {s ? (
             <p className={`sc-sample ${x.m.sample ? "" : "is-small"}`}>
               <b>{n0(s.min)} min</b> de {n0(x.maxMin)} possíveis na liga ({Math.round(x.m.minPct * 100)}%) · {s.apps} jogos
