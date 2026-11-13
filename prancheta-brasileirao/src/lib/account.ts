@@ -52,8 +52,8 @@ export function hash(s: string): string {
 }
 
 export interface Plan {
-  /** escrever no navegador (vem da conta) */
-  toLocal: Record<string, string>;
+  /** escrever no navegador (vem da conta); null = apagar daqui */
+  toLocal: Record<string, string | null>;
   /** mandar para a conta */
   toServer: Record<string, string | null>;
   conflicts: string[];
@@ -75,7 +75,7 @@ export function planSync(local: Record<string, string>, server: Record<string, s
       if (b && b === hash(s!)) plan.toServer[k] = null;
       else plan.toLocal[k] = s!;
     } else if (s === undefined) {
-      if (b && b === hash(l)) plan.toLocal[k] = ""; // apagado em outro aparelho: "" = remover daqui
+      if (b && b === hash(l)) plan.toLocal[k] = null; // apagado em outro aparelho
       else plan.toServer[k] = l;
     } else if (b === hash(l)) plan.toLocal[k] = s; // só a conta mudou
     else if (b === hash(s)) plan.toServer[k] = l; // só o navegador mudou
@@ -124,13 +124,30 @@ function writeBase(sub: string, entries: Record<string, string>) {
     /* sem storage */
   }
 }
-function writeLocal(entries: Record<string, string>) {
+/** Escreve no navegador e diz se algo realmente mudou (valor vazio "" é um valor, não apagar). */
+function writeLocal(entries: Record<string, string | null>): boolean {
   const ls = store();
-  if (!ls) return;
+  if (!ls) return false;
+  let changed = false;
   for (const [k, v] of Object.entries(entries)) {
-    if (v === "") rawRemove.call(ls, k);
+    if (ls.getItem(k) === v) continue;
+    changed = true;
+    if (v === null) rawRemove.call(ls, k);
     else rawSet.call(ls, k, v);
   }
+  return changed;
+}
+
+/** Recarrega para as telas lerem o que veio da conta — no máximo uma vez a cada 30 s (trava contra laço). */
+function reloadOnce() {
+  try {
+    const last = Number(sessionStorage.getItem("mef:reload") ?? 0);
+    if (Date.now() - last < 30_000) return;
+    sessionStorage.setItem("mef:reload", String(Date.now()));
+  } catch {
+    return;
+  }
+  location.reload();
 }
 
 // ---------- envio com espera ----------
@@ -201,7 +218,7 @@ async function pull(user: AccountUser) {
 }
 
 async function applyPlan(user: AccountUser, plan: Plan, server: Record<string, string>) {
-  writeLocal(plan.toLocal);
+  const changed = writeLocal(plan.toLocal);
   if (Object.keys(plan.toServer).length) {
     pending = { ...pending, ...plan.toServer };
     await flush();
@@ -211,7 +228,7 @@ async function applyPlan(user: AccountUser, plan: Plan, server: Record<string, s
   const common: Record<string, string> = {};
   for (const [k, v] of Object.entries(now)) if (!plan.conflicts.includes(k) && (server[k] === v || k in plan.toServer)) common[k] = v;
   writeBase(user.sub, common);
-  if (Object.keys(plan.toLocal).length) location.reload();
+  if (changed) reloadOnce();
 }
 
 /** Escolha do usuário num conflito: manter o da conta ou o deste navegador. */
@@ -222,7 +239,7 @@ export async function resolveConflict(keep: "server" | "local") {
   set({ conflict: null });
   const plan: Plan = { toLocal: {}, toServer: {}, conflicts: [] };
   for (const k of c.keys) {
-    if (keep === "server") plan.toLocal[k] = c.server[k] ?? "";
+    if (keep === "server") plan.toLocal[k] = k in c.server ? c.server[k] : null;
     else plan.toServer[k] = c.local[k];
   }
   await applyPlan(user, plan, keep === "server" ? c.server : { ...c.server, ...plan.toServer } as Record<string, string>);

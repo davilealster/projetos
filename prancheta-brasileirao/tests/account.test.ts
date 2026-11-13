@@ -26,7 +26,13 @@ describe("sincronização da jornada (três vias)", () => {
     const b = base({ a: "1", c: "3" });
     const p = planSync({ c: "3" }, { a: "1" }, b);
     expect(p.toServer).toEqual({ a: null });
-    expect(p.toLocal).toEqual({ c: "" });
+    expect(p.toLocal).toEqual({ c: null });
+  });
+
+  it("valor vazio é valor: baixa uma vez e depois fica estável", () => {
+    expect(planSync({}, { "prancheta:creator": "" }, {}).toLocal).toEqual({ "prancheta:creator": "" });
+    const p = planSync({ "prancheta:creator": "" }, { "prancheta:creator": "" }, base({ "prancheta:creator": "" }));
+    expect(p).toEqual({ toLocal: {}, toServer: {}, conflicts: [] });
   });
 });
 
