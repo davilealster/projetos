@@ -924,7 +924,7 @@ function CloseTab({ sum, st, setSt, arrivals, next, depth, squad, team, oldCoach
             <div className="mv-row mv-row--coach">
               <span className="mv-photo"><Photo name={newCoach.name} photo={newCoach.photo} /></span>
               <span className="mv-who">
-                <b>{newCoach.name} <i className="tm-pos ms-tec">TEC</i></b>
+                <b><span>{newCoach.name}</span> <i className="tm-pos ms-tec">TEC</i></b>
                 <small>{[newCoach.age != null ? `${newCoach.age} anos` : "", newCoach.nat ?? ""].filter(Boolean).join(" · ")}</small>
               </span>
               <span className="mv-from">{newCoach.free ? <span className="mv-from__txt">Sem clube{newCoach.lastClub ? <small>último: {newCoach.lastClub}</small> : null}</span> : <span className="mv-from__txt">{newCoach.club}<small>{newCoach.league}</small></span>}</span>
@@ -937,7 +937,7 @@ function CloseTab({ sum, st, setSt, arrivals, next, depth, squad, team, oldCoach
             <div key={a.s.id} className="mv-row">
               <span className="mv-photo"><Photo name={a.p.name} photo={a.p.photo} /></span>
               <span className="mv-who">
-                <b>{a.p.name} <i className={`tm-pos tm-pos--${a.p.pos}`}>{a.p.pos}</i></b>
+                <b><span>{a.p.name}</span> <i className={`tm-pos tm-pos--${a.p.pos}`}>{a.p.pos}</i></b>
                 <small>{[a.p.age != null ? `${a.p.age} anos` : "", a.p.nat ?? ""].filter(Boolean).join(" · ")}</small>
               </span>
               <span className="mv-from"><Crest src={tmCrest(a.clubId)} name={a.club} /><span className="mv-from__txt">{a.club}<small>{a.league}</small></span></span>
@@ -957,7 +957,7 @@ function CloseTab({ sum, st, setSt, arrivals, next, depth, squad, team, oldCoach
             <div className="mv-row mv-row--coach">
               <span className="mv-photo is-out"><Photo name={oldCoach.name} photo={oldCoach.photo} /></span>
               <span className="mv-who">
-                <b>{oldCoach.name} <i className="tm-pos ms-tec">TEC</i></b>
+                <b><span>{oldCoach.name}</span> <i className="tm-pos ms-tec">TEC</i></b>
                 <small>{[oldCoach.age != null ? `${oldCoach.age} anos` : "", oldCoach.nat ?? ""].filter(Boolean).join(" · ")}</small>
               </span>
               <span className="mv-from"><Crest src={team.crest} name={team.shortName} /><span className="mv-from__txt">{team.shortName}<small>técnico atual</small></span></span>
@@ -972,7 +972,7 @@ function CloseTab({ sum, st, setSt, arrivals, next, depth, squad, team, oldCoach
               <div key={p.id} className="mv-row">
                 <span className="mv-photo is-out"><Photo name={p.name} photo={p.photo} /></span>
                 <span className="mv-who">
-                  <b>{p.name} <i className={`tm-pos tm-pos--${p.pos}`}>{p.pos}</i></b>
+                  <b><span>{p.name}</span> <i className={`tm-pos tm-pos--${p.pos}`}>{p.pos}</i></b>
                   <small>{[p.age != null ? `${p.age} anos` : "", p.nat ?? ""].filter(Boolean).join(" · ")}</small>
                 </span>
                 <span className="mv-from"><span className="mv-from__txt">{p.status === "loanIn" ? `volta ao ${p.loanClub ?? "clube de origem"}` : p.status === "loanOut" ? `estava no ${p.loanClub ?? "empréstimo"}` : `valor: ${fmtEur(p.value)}`}<small>{p.contract ? `contrato até ${fmtDate(p.contract)}` : ""}</small></span></span>

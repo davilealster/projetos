@@ -984,3 +984,13 @@ button.lu-slot:hover .lu-slot__photo { transform: translateY(-2px); }
   .mv-who b { font-size: 15px; }
 }
 .mv .tm-pos.ms-tec { background: var(--ink); color: var(--paper); box-shadow: none; letter-spacing: 0.06em; }
+/* celular: 3 linhas — nome+posição (com ×), negociação+valor, clube inteiro (nada cortado) */
+@media (max-width: 640px) {
+  .mv-row { grid-template-columns: 44px minmax(0, 1fr) 26px; grid-template-areas: "photo who x" "photo deal deal" "photo from from"; gap: 4px 10px; }
+  .mv-who b { flex-wrap: wrap; row-gap: 3px; }
+  .mv-who b > :first-child { overflow: visible; white-space: normal; }
+  .mv-who .tm-pos { flex: none; }
+  .mv-deal { justify-items: start; text-align: left; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .mv-from__txt, .mv-from__txt small { white-space: normal; overflow: visible; }
+  .mv-x { align-self: start; }
+}
