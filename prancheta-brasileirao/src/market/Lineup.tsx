@@ -11,6 +11,7 @@ import {
 } from "./logic";
 import { spaLink } from "../brand/BrandMark";
 import { loadCoaches } from "./data";
+import { SHOW_BOARD } from "../brand/nav";
 import { filterCoaches, sortCoaches } from "./coaches";
 import type { MarketCoach } from "./types";
 
@@ -336,7 +337,7 @@ export function LineupTab({ slug, next, st, setSt, team, coach, balance, income,
       )}
       </>}
 
-      <a className="lu-board-link" href={`/${slug}`} onClick={spaLink(`/${slug}`)}>Desenhar a tática deste time na prancheta →</a>
+      {SHOW_BOARD && <a className="lu-board-link" href={`/${slug}`} onClick={spaLink(`/${slug}`)}>Desenhar a tática deste time na prancheta →</a>}
 
       {slot !== null && (
         <SlotPicker

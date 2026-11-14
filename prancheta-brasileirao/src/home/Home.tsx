@@ -4,7 +4,7 @@ import { AccountButton } from "../brand/Account";
 import { BrandMark, spaLink } from "../brand/BrandMark";
 import "../brand/brand.css";
 import { ClubSheet } from "../brand/ClubSheet";
-import { moduleHref, type ModuleId } from "../brand/nav";
+import { moduleHref, type ModuleId, SHOW_BOARD } from "../brand/nav";
 import "./home.css";
 import { TEAMS } from "../data";
 import { clubVars, initials } from "../lib/color";
@@ -75,7 +75,7 @@ export function Home() {
   // Links antigos (`?modulo=prancheta|olheiro`) seguem para o módulo pedido (olheiro = etapa 2 do mercado); o padrão é o mercado.
   const [target] = useState<ModuleId>(() => {
     const m = params().get("modulo");
-    return isModule(m) ? m : "mercado";
+    return isModule(m) && (SHOW_BOARD || m !== "prancheta") ? m : "mercado";
   });
   const [sheet, setSheet] = useState(() => params().get("trocar") === "1");
   const progress = useMemo(() => (club ? readWindowProgress(club.slug) : null), [club]);
@@ -200,10 +200,12 @@ export function Home() {
       </main>
 
       <footer className="mh-wrap mh-foot">
-        <nav className="mh-foot__links" aria-label="Outras ferramentas">
-          <a href="/prancheta" onClick={spaLink("/prancheta")}>Ferramenta extra: Prancheta tática →</a>
-          <a href="/creator" onClick={spaLink("/creator")}>Faz live? Use a prancheta na transmissão</a>
-        </nav>
+        {SHOW_BOARD && (
+          <nav className="mh-foot__links" aria-label="Outras ferramentas">
+            <a href="/prancheta" onClick={spaLink("/prancheta")}>Ferramenta extra: Prancheta tática →</a>
+            <a href="/creator" onClick={spaLink("/creator")}>Faz live? Use a prancheta na transmissão</a>
+          </nav>
+        )}
         <p>Projeto independente, sem vínculo com CBF ou clubes. Imagens pertencem aos respectivos detentores. <a href="/privacidade">Política de privacidade</a></p>
       </footer>
 

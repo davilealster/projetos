@@ -1,7 +1,7 @@
 import { useEffect, useId, useRef, useState, type KeyboardEvent, type ReactNode } from "react";
 import { BrandMark, spaLink } from "./BrandMark";
 import { ClubSheet } from "./ClubSheet";
-import { moduleHref, type ModuleId } from "./nav";
+import { moduleHref, type ModuleId, SHOW_BOARD } from "./nav";
 import "./brand.css";
 import { AccountButton } from "./Account";
 import { openLogin, useAccount } from "../lib/account";
@@ -41,7 +41,7 @@ export function ModuleHeader({ module, slug, clubName, crest, variant, actions, 
   if (back && app) items.push({ label: `← ${backLabel}`, onSelect: () => navigate(back) });
   items.push(...(menuItems ?? []));
   const divideAt = items.length;
-  if (market) {
+  if (market && SHOW_BOARD) {
     items.push({ label: "Prancheta tática (extra)", onSelect: () => navigate(moduleHref("prancheta", slug)) });
   }
   items.push({ label: "Trocar de clube", onSelect: () => setSheet(true) }, { label: "Início", onSelect: () => navigate("/") });

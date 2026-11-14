@@ -208,9 +208,10 @@ describe("parseRoute (Mando)", () => {
   });
 
   it("redirectTarget usa o clube salvo só se for válido", () => {
-    expect(redirectTarget("prancheta", "palmeiras")).toBe("/palmeiras");
+    // prancheta oculta do site (SHOW_BOARD = false): /prancheta leva ao mercado
+    expect(redirectTarget("prancheta", "palmeiras")).toBe("/mercado/palmeiras");
     expect(redirectTarget("mercado", "palmeiras")).toBe("/mercado/palmeiras");
-    expect(redirectTarget("prancheta", null)).toBe("/?modulo=prancheta&trocar=1");
+    expect(redirectTarget("prancheta", null)).toBe("/?modulo=mercado&trocar=1");
     expect(redirectTarget("mercado", "time-que-nao-existe")).toBe("/?modulo=mercado&trocar=1");
     for (const r of [redirectTarget("prancheta", "flamengo"), redirectTarget("mercado", "flamengo")])
       expect(parseRoute(r).page).not.toBe("redirect");

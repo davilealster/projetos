@@ -30,7 +30,7 @@ const TOUR: TourStep[] = [
   { target: [".tm-view"], title: "Lista ou Campo", text: "Na Lista, o elenco inteiro com filtros. No Campo, setor por setor, com o rosto grande e um toque por decisão." },
   { target: [".tm-callout"], title: "Comece por aqui", text: "Esses contratos acabam antes da próxima temporada: decida o destino de cada um. Toque no × para fechar o aviso." },
   { target: [".tm-rail .tm-ledger", ".tm-chip"], title: "Balancete", text: "Saldo, vendas, gastos e o elenco por posição, sempre à vista. No celular, toque no saldo para abrir." },
-  { target: [".mhd-club"], title: "Outro clube", text: "Toque no escudo para trocar de clube: a janela de cada time fica salva. No menu ⋯ ficam o guia, este tour e a prancheta tática." },
+  { target: [".mhd-club"], title: "Outro clube", text: "Toque no escudo para trocar de clube: a janela de cada time fica salva. No menu ⋯ ficam o guia e este tour." },
 ];
 
 const CUTOFF = MARKET_INDEX.nextSeasonStart;
