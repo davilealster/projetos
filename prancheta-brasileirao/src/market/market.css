@@ -933,3 +933,8 @@ button.lu-slot:hover .lu-slot__photo { transform: translateY(-2px); }
 }
 @keyframes lu-nudge { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(2px, 3px); } }
 @media (prefers-reduced-motion: reduce) { .lu-sign__hint svg { animation: none; } }
+/* aviso dos vínculos: só informativo, com X para fechar */
+.tm-callout { flex-wrap: nowrap; align-items: flex-start; }
+.tm-callout p { min-width: 0; }
+.tm-callout__x { flex: none; width: 30px; height: 30px; margin: -4px -6px -4px 0; border-radius: 50%; border: 0; background: none; color: var(--cream-soft); font-size: 22px; line-height: 1; cursor: pointer; }
+.tm-callout__x:hover { background: rgba(239, 230, 210, 0.1); color: var(--cream); }

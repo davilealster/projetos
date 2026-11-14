@@ -27,7 +27,7 @@ type Peek = { league: string; player: MarketPlayer | SquadPlayer; club: string }
 const TOUR: TourStep[] = [
   { target: [".tm-steps", ".tm-tabbar"], title: "As quatro etapas da janela", text: "Elenco → Mercado → Fechamento → Compartilhe. No Mercado, os atalhos do olheiro (Joias, Fim de contrato…) acham reforços e a Minha lista guarda os seus Planos A, B e C." },
   { target: [".tm-view"], title: "Lista ou Campo", text: "Na Lista, o elenco inteiro com filtros. No Campo, setor por setor, com o rosto grande e um toque por decisão." },
-  { target: [".tm-callout"], title: "Comece por aqui", text: "Esses contratos acabam antes da próxima temporada. Decida um a um ou aplique o padrão a todos." },
+  { target: [".tm-callout"], title: "Comece por aqui", text: "Esses contratos acabam antes da próxima temporada: decida o destino de cada um. Toque no × para fechar o aviso." },
   { target: [".tm-rail .tm-ledger", ".tm-chip"], title: "Balancete", text: "Saldo, vendas, gastos e o elenco por posição, sempre à vista. No celular, toque no saldo para abrir." },
   { target: [".mhd-club"], title: "Outro clube", text: "Toque no escudo para trocar de clube: a janela de cada time fica salva. No menu ⋯ ficam o guia, este tour e a prancheta tática." },
 ];
@@ -317,13 +317,13 @@ function MarketClub({ slug }: { slug: string }) {
                 </div>
                 {view === "pitch" ? (
                   <>
-                    <PendingCallout squad={squad} st={st} setSt={setSt} />
+                    <PendingCallout squad={squad} st={st} slug={slug} />
                     <PitchView squad={squad} coach={club!.coach ?? null} st={st} setSt={setSt} setDecision={setDecision} cutoff={CUTOFF} colors={team.colors} onMarket={() => (setTab("market"), window.scrollTo({ top: 0 }))} />
                   </>
                 ) : (
                   <>
                     <CoachCard coach={club!.coach ?? null} st={st} setSt={setSt} />
-                    <SquadTab squad={squad} st={st} setSt={setSt} setDecision={setDecision} colors={team.colors} isMobile={isMobile} onScout={(p) => setPeek({ ...p, club: team.name })} />
+                    <SquadTab slug={slug} squad={squad} st={st} setDecision={setDecision} colors={team.colors} isMobile={isMobile} onScout={(p) => setPeek({ ...p, club: team.name })} />
                   </>
                 )}
               </>
@@ -701,28 +701,38 @@ type SquadFilter = "all" | "pending" | "loans" | "leaving" | "foreign";
 type SquadSort = "pos" | "value" | "contract" | "age";
 
 /** Vínculos que acabam e ainda não têm decisão; vale na lista e no campo. */
-function PendingCallout({ squad, st, setSt, onShow }: { squad: SquadPlayer[]; st: MarketState; setSt: SetSt; onShow?: () => void }) {
+/** Aviso dos vínculos que acabam antes da próxima temporada. Fecha no X (fica fechado para este clube). */
+function PendingCallout({ squad, st, slug }: { squad: SquadPlayer[]; st: MarketState; slug: string }) {
+  const key = `mercado:aviso:${slug}`;
+  const [closed, setClosed] = useState(() => {
+    try {
+      return localStorage.getItem(key) === "1";
+    } catch {
+      return false;
+    }
+  });
   const pending = squad.filter((p) => isEnding(p, CUTOFF) && !st.decisions[p.id]);
-  if (!pending.length) return null;
+  if (!pending.length || closed) return null;
+  const close = () => {
+    setClosed(true);
+    try {
+      localStorage.setItem(key, "1");
+    } catch {
+      /* sem storage */
+    }
+  };
   return (
-    <div className="tm-callout">
-      <p><b>{pending.length} {pending.length > 1 ? "vínculos acabam" : "vínculo acaba"} antes de {SEASON}</b> e ainda não têm decisão.</p>
-      {onShow && <button className="tm-btn tm-btn--ghost" onClick={onShow}>Ver só esses</button>}
-      <button
-        className="tm-btn"
-        title="Renova quem é do clube, devolve quem chegou emprestado e traz de volta quem está fora"
-        onClick={() => setSt((s) => ({ ...s, decisions: { ...s.decisions, ...Object.fromEntries(pending.map((p) => [p.id, { action: actionsFor(p, CUTOFF).def }])) } }))}
-      >
-        Aplicar o padrão a todos
-      </button>
+    <div className="tm-callout" role="note">
+      <p><b>{pending.length} {pending.length > 1 ? "vínculos acabam" : "vínculo acaba"} antes de {SEASON}</b> e ainda não {pending.length > 1 ? "têm" : "tem"} decisão.</p>
+      <button className="tm-callout__x" onClick={close} aria-label="Fechar aviso">×</button>
     </div>
   );
 }
 
 const SQUAD_SORTS: [SquadSort, string][] = [["pos", "por posição"], ["value", "por valor"], ["contract", "por fim de contrato"], ["age", "por idade"]];
 
-function SquadTab({ squad, st, setSt, setDecision, colors, isMobile, onScout }: {
-  squad: SquadPlayer[]; st: MarketState; setSt: SetSt; setDecision: (id: string, d: Decision | null) => void;
+function SquadTab({ slug, squad, st, setDecision, colors, isMobile, onScout }: {
+  slug: string; squad: SquadPlayer[]; st: MarketState; setDecision: (id: string, d: Decision | null) => void;
   colors: { primary: string; secondary: string }; isMobile: boolean; onScout: (p: Omit<Peek, "club">) => void;
 }) {
   const [filter, setFilter] = useState<SquadFilter>("all");
@@ -781,7 +791,7 @@ function SquadTab({ squad, st, setSt, setDecision, colors, isMobile, onScout }: 
           </div>
         </Sheet>
       )}
-      <PendingCallout squad={squad} st={st} setSt={setSt} onShow={() => setFilter("pending")} />
+      <PendingCallout squad={squad} st={st} slug={slug} />
       <div className="tm-fichas">
         {shown.map((p) => {
           const { options } = actionsFor(p, CUTOFF);
