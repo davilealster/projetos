@@ -994,3 +994,7 @@ button.lu-slot:hover .lu-slot__photo { transform: translateY(-2px); }
   .mv-from__txt, .mv-from__txt small { white-space: normal; overflow: visible; }
   .mv-x { align-self: start; }
 }
+/* barra de baixo: número da etapa antes do nome */
+.tm-tabbar__lbl { white-space: nowrap; }
+.tm-tabbar__lbl b { font-family: var(--f-data); font-weight: 500; font-size: 0.92em; opacity: 0.75; }
+@media (max-width: 380px) { .tm-tabbar button { font-size: 10.5px; } }

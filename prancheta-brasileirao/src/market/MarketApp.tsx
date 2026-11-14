@@ -280,7 +280,7 @@ function MarketClub({ slug }: { slug: string }) {
       {/* as quatro etapas são uma sequência real: decidir o elenco, comprar, fechar, escalar */}
       {isMobile ? (
         <nav className="tm-tabbar" role="tablist" aria-label="Etapas da janela">
-          {tabs.map(([t, label]) => {
+          {tabs.map(([t, label], i) => {
             const badge = t === "squad" ? sum.pending.length : t === "market" ? arrivals.length : 0;
             return (
               <button key={t} role="tab" aria-selected={tab === t} className={tab === t ? "is-on" : ""} onClick={() => openTab(t)}>
@@ -289,7 +289,7 @@ function MarketClub({ slug }: { slug: string }) {
                   {badge > 0 && <i className={t === "squad" ? "is-warn" : ""}>{badge}</i>}
                   {t === "close" && sum.balance < 0 && <i className="is-neg" aria-label="saldo negativo">!</i>}
                 </span>
-                {label}
+                <span className="tm-tabbar__lbl"><b>{i + 1}.</b> {label}</span>
               </button>
             );
           })}
