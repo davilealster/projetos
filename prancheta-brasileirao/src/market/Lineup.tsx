@@ -287,16 +287,15 @@ export function LineupTab({ slug, next, st, setSt, team, coach, balance, income,
       <header className="lu-intro">
         <div className="lu-intro__txt">
           <h2>Escale e compartilhe</h2>
-          <p>Monte o seu time ideal e poste as 2 imagens: o elenco e o resumo da janela.</p>
+          <p>Escale o seu time ideal e compartilhe o novo elenco e o resumo da janela de transferências. Bora lá?</p>
         </div>
         <span className="lu-intro__share">
           {!empty && (
-            <em className="lu-sign__hint" aria-hidden="true">
+            <em className="lu-intro__hint" aria-hidden="true">
               Compartilhe
-              <svg viewBox="0 0 28 22"><path d="M2 4c9 0 17 3 21 13" /><path d="M18 14l5 4 2-6" /></svg>
+              <svg viewBox="0 0 24 12"><path d="M1 6h20M16 1l5 5-5 5" /></svg>
             </em>
           )}
-          <ShareButton bar empty={empty} onClick={() => onGenerate(lineup)} />
           <ShareButton empty={empty} onClick={() => onGenerate(lineup)} />
         </span>
       </header>
