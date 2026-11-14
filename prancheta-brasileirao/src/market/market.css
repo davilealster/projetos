@@ -939,3 +939,48 @@ button.lu-slot:hover .lu-slot__photo { transform: translateY(-2px); }
 .tm-callout p { min-width: 0; }
 .tm-callout__x { flex: none; width: 30px; height: 30px; margin: -4px -6px -4px 0; border-radius: 50%; border: 0; background: none; color: var(--cream-soft); font-size: 22px; line-height: 1; cursor: pointer; }
 .tm-callout__x:hover { background: rgba(239, 230, 210, 0.1); color: var(--cream); }
+
+/* fechamento: tabelas de quem chega / quem sai */
+.mv { background: var(--paper); color: var(--ink); border-radius: 6px; padding: 14px 16px 6px; box-shadow: 0 6px 14px rgba(0, 0, 0, 0.28); }
+.mv-head { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 4px; }
+.mv-head h3 { margin: 0; font-family: var(--f-display); font-weight: 900; font-size: 26px; text-transform: uppercase; }
+.mv-head span { font-family: var(--f-data); font-size: 14px; color: var(--ink-soft); }
+.mv-row { display: grid; grid-template-columns: 48px minmax(0, 1.4fr) minmax(0, 1.3fr) auto 28px; gap: 12px; align-items: center; padding: 10px 0; border-top: 1px solid rgba(29, 27, 22, 0.12); }
+.mv-row--coach { background: linear-gradient(90deg, rgba(224, 185, 90, 0.16), transparent 70%); margin: 0 -16px; padding: 10px 16px; }
+.mv-photo { width: 48px; height: 52px; border-radius: 5px; overflow: hidden; background: #e2d9c4; display: grid; place-items: center; }
+.mv-photo .tm-ficha__photo, .mv-photo img { width: 100%; height: 100%; object-fit: cover; object-position: top; border-radius: 0; }
+.mv-photo.is-out img { filter: grayscale(0.7); }
+.mv-who { display: grid; min-width: 0; }
+.mv-who b { display: flex; align-items: center; gap: 6px; font-size: 15.5px; font-weight: 750; line-height: 1.2; min-width: 0; }
+.mv-who b > :first-child { overflow: hidden; text-overflow: ellipsis; }
+.mv-who i { font-style: normal; }
+.mv-who small, .mv-from small, .mv-deal small { font-size: 12px; color: var(--ink-soft); }
+.mv-from { display: flex; align-items: center; gap: 8px; min-width: 0; }
+.mv-from__txt { display: grid; min-width: 0; font-size: 13.5px; font-weight: 650; line-height: 1.25; }
+.mv-from__txt, .mv-from__txt small { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.mv-crest { width: 30px; height: 30px; flex: none; object-fit: contain; }
+.mv-crest--ini { display: grid; place-items: center; border-radius: 50%; background: rgba(29, 27, 22, 0.1); font-family: var(--f-display); font-weight: 900; font-size: 12px; }
+.mv-deal { display: grid; justify-items: end; gap: 3px; text-align: right; }
+.mv-pill { padding: 2px 8px; border-radius: 3px; color: #fff; font-style: normal; font-family: var(--f-display); font-weight: 900; font-size: 12px; letter-spacing: 0.04em; text-transform: uppercase; white-space: nowrap; }
+.mv-deal small { font-family: var(--f-data); white-space: nowrap; }
+.mv-deal small.is-cost { color: #c2331f; font-weight: 500; }
+.mv-deal small.is-gain { color: #1c7a45; font-weight: 500; }
+.mv-x { width: 28px; height: 28px; border-radius: 50%; border: 0; background: none; color: var(--ink-soft); font-size: 20px; cursor: pointer; }
+.mv-x:hover { background: rgba(29, 27, 22, 0.08); color: var(--ink); }
+.mv-row > :last-child:not(.mv-x) { grid-column: span 2; }
+@media (max-width: 640px) {
+  .mv { padding: 12px 12px 4px; }
+  .mv-row { grid-template-columns: 44px minmax(0, 1fr) auto; grid-template-areas: "photo who deal" "photo from x"; gap: 2px 10px; }
+  .mv-row--coach { margin: 0 -12px; padding: 10px 12px; }
+  .mv-photo { grid-area: photo; width: 44px; height: 48px; align-self: start; }
+  .mv-who { grid-area: who; }
+  .mv-from { grid-area: from; }
+  .mv-deal { grid-area: deal; }
+  .mv-x { grid-area: x; justify-self: end; width: 26px; height: 26px; }
+  .mv-row > :last-child:not(.mv-x) { grid-column: auto; }
+  .mv-crest { width: 22px; height: 22px; }
+  .mv-from__txt { font-size: 12.5px; font-weight: 600; }
+  .mv-from__txt small { display: none; }
+  .mv-who b { font-size: 15px; }
+}
+.mv .tm-pos.ms-tec { background: var(--ink); color: var(--paper); box-shadow: none; letter-spacing: 0.06em; }

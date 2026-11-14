@@ -15,7 +15,7 @@ import {
   FOREIGN_LIMIT, HOW_TAG, fmtEur, isEnding, moneyOf, nextSeason, posRank, shareText, staysWith, summarize, waterfall,
   type Currency, type Decision, type Lineup, type MarketState, type SquadAction,
 } from "./logic";
-import type { ClubMarket, MarketLeague, MarketPlayer, SquadPlayer } from "./types";
+import type { ClubMarket, MarketCoach, MarketLeague, MarketPlayer, SquadPlayer } from "./types";
 import { Foreign, Ico, ICON, Photo, Price, Sheet, Stamp } from "./bits";
 import { CoachCard, LineupTab, StoryStudio, getAuthor, shortName, useNextCoach } from "./Lineup";
 import { Tour, tourSeen, type TourStep } from "./Tour";
@@ -206,7 +206,7 @@ function MarketClub({ slug }: { slug: string }) {
     .map((s) => {
       const lg = leagues[s.league];
       const p = lg?.players.find((x) => x.id === s.id);
-      return p && lg ? { s, p, club: lg.clubs[p.club]?.name ?? "", league: lg.name } : null;
+      return p && lg ? { s, p, club: lg.clubs[p.club]?.name ?? "", clubId: lg.clubs[p.club]?.id ?? null, league: lg.name } : null;
     })
     .filter((x): x is NonNullable<typeof x> => !!x);
   const sum = summarize(squad, st, CUTOFF, arrivals.map((a) => ({ value: a.p.value, age: a.p.age })));
@@ -349,6 +349,7 @@ function MarketClub({ slug }: { slug: string }) {
             {tab === "close" && (
               <CloseTab
                 sum={sum} st={st} setSt={setSt} arrivals={arrivals} next={next} depth={depth} steps={steps} squad={squad}
+                team={team} oldCoach={club!.coach ?? null} newCoach={st.coach.action === "fire" ? nextCoach : null}
                 onShare={async () => {
                   const text = shareText({
                     club: team.shortName,
@@ -855,16 +856,27 @@ function SquadTab({ slug, squad, st, setDecision, colors, isMobile, onScout }: {
 
 // ============ fechamento ============
 
-type CloseView = "squad" | "market" | "contracts" | "age";
-const CLOSE_VIEWS: [CloseView, string, string][] = [["squad", "Quem sai, fica e chega", "Elenco"], ["market", "Resumo do mercado", "Mercado"], ["contracts", "Contratos", "Contratos"], ["age", "Idade × valor", "Idade × valor"]];
+type CloseView = "in" | "out" | "contracts" | "age";
+const CLOSE_VIEWS: [CloseView, string, string][] = [["in", "Quem chega", "Chegam"], ["out", "Quem sai", "Saem"], ["contracts", "Contratos", "Contratos"], ["age", "Idade × valor", "Idade × valor"]];
 
-function CloseTab({ sum, setSt, arrivals, next, depth, squad, onShare, onReset }: {
+/** Escudo de um clube do Transfermarkt (pela id). */
+const tmCrest = (id: string | null) => (id ? `https://img.a.transfermarkt.technology/wappen/big/${id}.png` : null);
+
+function Crest({ src, name }: { src: string | null; name: string }) {
+  const [bad, setBad] = useState(false);
+  return src && !bad ? <img className="mv-crest" src={src} alt="" title={name} loading="lazy" referrerPolicy="no-referrer" onError={() => setBad(true)} /> : <span className="mv-crest mv-crest--ini" title={name}>{initials(name)}</span>;
+}
+
+const HOW_INK: Record<string, string> = { sell: "#d0321e", loanOut: "#2860c4", release: "#8e2a5a", letGo: "#6b6458", returnLoan: "#6b6458", buy: "#1f8a4c", loan: "#2860c4", free: "#b07612" };
+
+function CloseTab({ sum, st, setSt, arrivals, next, depth, squad, team, oldCoach, newCoach, onShare, onReset }: {
   sum: ReturnType<typeof summarize>; st: MarketState; setSt: SetSt;
-  arrivals: { s: MarketState["signings"][number]; p: MarketPlayer; club: string; league: string }[];
+  arrivals: { s: MarketState["signings"][number]; p: MarketPlayer; club: string; clubId: string | null; league: string }[];
+  team: { shortName: string; crest: string | null }; oldCoach: MarketCoach | null; newCoach: MarketCoach | null;
   next: ReturnType<typeof nextSeason>; depth: ReturnType<typeof depthChart>; steps: ReturnType<typeof waterfall>; squad: SquadPlayer[];
   onShare: () => void; onReset: () => void;
 }) {
-  const [view, setView] = useState<CloseView>("squad");
+  const [view, setView] = useState<CloseView>("in");
   const before = squad.filter((p) => p.status !== "loanOut");
   const foreigners = next.filter((x) => x.kind !== "leave" && x.foreign).length;
   const arrivalsByPos = [...arrivals].sort((a, b) => posRank(a.p.pos) - posRank(b.p.pos) || (b.p.value ?? 0) - (a.p.value ?? 0));
@@ -905,7 +917,74 @@ function CloseTab({ sum, setSt, arrivals, next, depth, squad, onShare, onReset }
         ))}
       </div>
 
-      {view === "squad" && <div className="tm-ctab-body"><Roster next={next} big /></div>}
+      {view === "in" && (
+        <div className="mv tm-ctab-body">
+          <div className="mv-head"><h3>Quem chega</h3><span>{arrivals.length + (newCoach ? 1 : 0)}</span></div>
+          {newCoach && (
+            <div className="mv-row mv-row--coach">
+              <span className="mv-photo"><Photo name={newCoach.name} photo={newCoach.photo} /></span>
+              <span className="mv-who">
+                <b>{newCoach.name} <i className="tm-pos ms-tec">TEC</i></b>
+                <small>{[newCoach.age != null ? `${newCoach.age} anos` : "", newCoach.nat ?? ""].filter(Boolean).join(" · ")}</small>
+              </span>
+              <span className="mv-from">{newCoach.free ? <span className="mv-from__txt">Sem clube{newCoach.lastClub ? <small>último: {newCoach.lastClub}</small> : null}</span> : <span className="mv-from__txt">{newCoach.club}<small>{newCoach.league}</small></span>}</span>
+              <span className="mv-deal"><em className="mv-pill" style={{ background: "#1f8a4c" }}>Técnico</em><small>{newCoach.free ? "sem custo" : "rescisão a negociar"}</small></span>
+              <button className="mv-x" aria-label={`Desfazer contratação de ${newCoach.name}`} onClick={() => setSt((x) => ({ ...x, coach: { action: "keep", hire: null } }))}>×</button>
+            </div>
+          )}
+          {!arrivals.length && !newCoach && <p className="tm-muted">Nenhuma contratação. O mercado está na etapa 2.</p>}
+          {arrivalsByPos.map((a) => (
+            <div key={a.s.id} className="mv-row">
+              <span className="mv-photo"><Photo name={a.p.name} photo={a.p.photo} /></span>
+              <span className="mv-who">
+                <b>{a.p.name} <i className={`tm-pos tm-pos--${a.p.pos}`}>{a.p.pos}</i></b>
+                <small>{[a.p.age != null ? `${a.p.age} anos` : "", a.p.nat ?? ""].filter(Boolean).join(" · ")}</small>
+              </span>
+              <span className="mv-from"><Crest src={tmCrest(a.clubId)} name={a.club} /><span className="mv-from__txt">{a.club}<small>{a.league}</small></span></span>
+              <span className="mv-deal">
+                <em className="mv-pill" style={{ background: HOW_INK[a.s.type] }}>{SIGNING_LABEL[a.s.type]}</em>
+                <small className={a.s.type === "buy" ? "is-cost" : ""}>{a.s.type === "buy" ? `−${fmtMoney(a.s.price)}` : "sem custo"}</small>
+              </span>
+              <button className="mv-x" aria-label={`Desistir de ${a.p.name}`} onClick={() => setSt((x) => ({ ...x, signings: x.signings.filter((y) => y.id !== a.s.id) }))}>×</button>
+            </div>
+          ))}
+        </div>
+      )}
+      {view === "out" && (
+        <div className="mv tm-ctab-body">
+          <div className="mv-head"><h3>Quem sai</h3><span>{sum.leaves.length + (newCoach && oldCoach ? 1 : 0)}</span></div>
+          {st.coach.action === "fire" && oldCoach && (
+            <div className="mv-row mv-row--coach">
+              <span className="mv-photo is-out"><Photo name={oldCoach.name} photo={oldCoach.photo} /></span>
+              <span className="mv-who">
+                <b>{oldCoach.name} <i className="tm-pos ms-tec">TEC</i></b>
+                <small>{[oldCoach.age != null ? `${oldCoach.age} anos` : "", oldCoach.nat ?? ""].filter(Boolean).join(" · ")}</small>
+              </span>
+              <span className="mv-from"><Crest src={team.crest} name={team.shortName} /><span className="mv-from__txt">{team.shortName}<small>técnico atual</small></span></span>
+              <span className="mv-deal"><em className="mv-pill" style={{ background: "#d0321e" }}>Demitido</em><small>multa a negociar</small></span>
+            </div>
+          )}
+          {!sum.leaves.length && !(st.coach.action === "fire" && oldCoach) && <p className="tm-muted">Ninguém saindo. As decisões ficam na etapa 1.</p>}
+          {leavesByPos.map(({ p, d }) => {
+            const m = moneyOf(p, d);
+            const tag = HOW_TAG[d.action] ?? ACTION_LABEL[d.action];
+            return (
+              <div key={p.id} className="mv-row">
+                <span className="mv-photo is-out"><Photo name={p.name} photo={p.photo} /></span>
+                <span className="mv-who">
+                  <b>{p.name} <i className={`tm-pos tm-pos--${p.pos}`}>{p.pos}</i></b>
+                  <small>{[p.age != null ? `${p.age} anos` : "", p.nat ?? ""].filter(Boolean).join(" · ")}</small>
+                </span>
+                <span className="mv-from"><span className="mv-from__txt">{p.status === "loanIn" ? `volta ao ${p.loanClub ?? "clube de origem"}` : p.status === "loanOut" ? `estava no ${p.loanClub ?? "empréstimo"}` : `valor: ${fmtEur(p.value)}`}<small>{p.contract ? `contrato até ${fmtDate(p.contract)}` : ""}</small></span></span>
+                <span className="mv-deal">
+                  <em className="mv-pill" style={{ background: HOW_INK[d.action] ?? "#6b6458" }}>{tag}</em>
+                  <small className={m > 0 ? "is-gain" : ""}>{m > 0 ? `+${fmtMoney(m)}` : "sem receita"}</small>
+                </span>
+              </div>
+            );
+          })}
+        </div>
+      )}
       {view === "contracts" && (
         <figure className="tm-chart tm-ctab-body">
           <figcaption><b>Quando acabam os contratos</b><span>Elenco {SEASON}, por ano de fim do vínculo</span></figcaption>
@@ -918,37 +997,6 @@ function CloseTab({ sum, setSt, arrivals, next, depth, squad, onShare, onReset }
           <AgeValue list={next} />
           <Legend items={["stay", "new", "leave"]} />
         </figure>
-      )}
-      {view === "market" && (
-      <div className="tm-grid tm-ctab-body">
-        <div className="tm-list">
-          <h3>Chegam <span>{arrivals.length}</span></h3>
-          {!arrivals.length && <p className="tm-muted">Nenhuma contratação. O mercado está na etapa 2.</p>}
-          {arrivalsByPos.map((a) => (
-            <p key={a.s.id}>
-              <span className={`tm-pos tm-pos--${a.p.pos}`}>{a.p.pos}</span>
-              <b>{a.p.name}</b><i>{a.club}</i>
-              <span className="tm-list__end">{a.s.type === "buy" ? fmtMoney(a.s.price) : SIGNING_LABEL[a.s.type]}
-                <button aria-label={`Desistir de ${a.p.name}`} onClick={() => setSt((x) => ({ ...x, signings: x.signings.filter((y) => y.id !== a.s.id) }))}>×</button>
-              </span>
-            </p>
-          ))}
-        </div>
-        <div className="tm-list">
-          <h3>Saem <span>{sum.leaves.length}</span></h3>
-          {!sum.leaves.length && <p className="tm-muted">Ninguém saindo. As decisões ficam na etapa 1.</p>}
-          {leavesByPos.map(({ p, d }) => {
-            const m = moneyOf(p, d);
-            return (
-              <p key={p.id}>
-                <span className={`tm-pos tm-pos--${p.pos}`}>{p.pos}</span>
-                <b>{p.name}</b><i>{ACTION_LABEL[d.action].toLowerCase()}</i>
-                <span className="tm-list__end">{m ? `+${fmtMoney(m)}` : "sem custo"}</span>
-              </p>
-            );
-          })}
-        </div>
-      </div>
       )}
     </section>
   );
