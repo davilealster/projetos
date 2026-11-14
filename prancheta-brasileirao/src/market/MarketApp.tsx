@@ -577,7 +577,6 @@ function Ledger({ st, setSt, sum, steps, depth, foreigners, next, onNext, nextLa
         <small>{fmtRef(sum.balance) ? `${fmtRef(sum.balance)} de saldo` : "de saldo"}</small>
       </p>
       <Waterfall steps={steps} compact />
-      <Roster next={next} />
       <div className="tm-ledger__budget">
         <label className="tm-field">
           Orçamento
@@ -593,6 +592,7 @@ function Ledger({ st, setSt, sum, steps, depth, foreigners, next, onNext, nextLa
         <input type="checkbox" checked={st.useSales} onChange={(e) => setSt((s) => ({ ...s, useSales: e.target.checked }))} />
         Vendas voltam para o orçamento
       </label>
+      <Roster next={next} />
 
       <p className="tm-eyebrow tm-ledger__sep">Elenco {SEASON} · {sum.squadSize} jogadores</p>
       <ForeignMeter count={foreigners} />
