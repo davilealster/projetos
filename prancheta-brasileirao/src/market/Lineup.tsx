@@ -1,5 +1,6 @@
 // Etapa 4 do Mercado: técnico, escalação ideal em campo projetado e imagens para o story.
 import { forwardRef, useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
+import { trackEvent } from "../lib/analytics";
 import { toBlob } from "html-to-image";
 import { initials, isLight } from "../lib/color";
 import { FORMATION_NAMES, fitScore, slotsFor } from "../lib/formations";
@@ -678,7 +679,7 @@ export function StoryStudio({ props, summary, onClose }: {
   }, [slug]);
   useEffect(() => () => files?.forEach((f) => URL.revokeObjectURL(f.url)), [files]);
 
-  const download = () => (void copyCaption(), files?.forEach((f, i) =>
+  const download = () => (trackEvent("salvar_imagens", { clube: props.team.shortName }), void copyCaption(), files?.forEach((f, i) =>
       setTimeout(() => {
         const a = document.createElement("a");
         a.href = f.url;
@@ -688,6 +689,7 @@ export function StoryStudio({ props, summary, onClose }: {
     ));
   const share = async () => {
     if (!files) return;
+    trackEvent("compartilhar_janela", { clube: props.team.shortName });
     const list = files.map((f) => new File([f.blob], f.name, { type: "image/png" }));
     // alguns apps (ex.: Instagram) ignoram o texto: a legenda também vai para a área de transferência
     await copyCaption();

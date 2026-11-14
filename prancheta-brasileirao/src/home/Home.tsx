@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState, type CSSProperties, type MouseEvent } from "react";
+import { trackEvent } from "../lib/analytics";
 import { AccountButton } from "../brand/Account";
 import { BrandMark, spaLink } from "../brand/BrandMark";
 import "../brand/brand.css";
@@ -85,6 +86,7 @@ export function Home() {
   }, []);
 
   const go = (slug: string) => {
+    trackEvent("escolher_clube", { clube: slug });
     setLastClub(slug);
     navigate(moduleHref(target, slug));
   };
@@ -95,6 +97,7 @@ export function Home() {
   };
 
   const crestLink = (slug: string) => (e: MouseEvent<HTMLAnchorElement>) => {
+    trackEvent("escolher_clube", { clube: slug });
     setLastClub(slug);
     spaLink(moduleHref(target, slug))(e);
   };

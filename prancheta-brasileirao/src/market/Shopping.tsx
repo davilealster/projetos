@@ -2,6 +2,7 @@
 // nas fichas) e Minha lista (prateleiras + Planos A/B/C numa lista só). Carregado só quando a etapa 2 abre:
 // as estatísticas e as contas do olheiro não entram no chunk principal.
 import { useCallback, useEffect, useMemo, useReducer, useState } from "react";
+import { trackEvent } from "../lib/analytics";
 import "../scout/scout.css";
 import "./shopping.css";
 import { POSITIONS, type Pos } from "../types";
@@ -50,8 +51,10 @@ type Peek = { league: string; player: MarketPlayer; club: string };
 /** Contratar: comprar pelo valor, emprestar (sem custo) ou trazer livre. */
 function useSignings(setSt: SetSt) {
   const sign = useCallback(
-    (p: Pick<MarketPlayer, "id" | "value">, league: string, type: SigningType) =>
-      setSt((s) => ({ ...s, signings: [...s.signings.filter((x) => x.id !== p.id), { id: p.id, league, type, price: type === "buy" ? p.value ?? 0 : 0 }] })),
+    (p: Pick<MarketPlayer, "id" | "value">, league: string, type: SigningType) => {
+      trackEvent("contratar", { tipo: type, liga: league });
+      setSt((s) => ({ ...s, signings: [...s.signings.filter((x) => x.id !== p.id), { id: p.id, league, type, price: type === "buy" ? p.value ?? 0 : 0 }] }));
+    },
     [setSt],
   );
   const unsign = useCallback((id: string) => setSt((s) => ({ ...s, signings: s.signings.filter((x) => x.id !== id) })), [setSt]);

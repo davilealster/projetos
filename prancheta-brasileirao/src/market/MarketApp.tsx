@@ -1,4 +1,5 @@
 import { Suspense, lazy, useEffect, useMemo, useRef, useState } from "react";
+import { trackEvent } from "../lib/analytics";
 import "../brand/brand.css";
 import "./market.css";
 import { teamSummary } from "../data";
@@ -400,6 +401,7 @@ function MarketClub({ slug }: { slug: string }) {
           onDone={() => {
             // primeira vez: depois do guia, o tour mostra onde fica cada coisa
             if (!st.onboarded && !tourSeen()) (setTab("squad"), setTour(true));
+            if (!st.onboarded) trackEvent("concluir_guia", { clube: slug });
             setSt((s) => ({ ...s, onboarded: true }));
             setGuide(false);
           }}

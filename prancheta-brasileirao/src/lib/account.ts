@@ -3,6 +3,7 @@
 // (mando:, mercado:, olheiro:, prancheta:) são espelhadas na conta, com resolução de conflito
 // em três vias (local × conta × última versão sincronizada neste navegador).
 import { useSyncExternalStore } from "react";
+import { trackEvent } from "./analytics";
 
 export const SYNC_KEY = /^(mando|mercado|olheiro|prancheta):[\w:-]{1,60}$/;
 const BASE_KEY = "mef:base"; // { [chave]: hash da última versão sincronizada } + dono
@@ -263,6 +264,7 @@ export async function loginWithGoogle(credential: string): Promise<boolean> {
   if (!r.ok) return false;
   const { user } = (await r.json()) as { user: AccountUser };
   set({ user, askOpen: false });
+  trackEvent("login", { metodo: "google" });
   await pull(user);
   return true;
 }
