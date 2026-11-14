@@ -218,3 +218,12 @@ button.tm-pos.ms-tec.is-on { background: var(--brass); color: var(--ink); box-sh
   .ms-hired__sum > div { padding: 8px; }
   .ms-hired__sum b { font-size: 19px; }
 }
+/* celular: cada aba numa linha só; contador vira um selo no canto (não empurra o texto) */
+@media (max-width: 640px) {
+  .ms-sub { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 3px; padding: 3px; }
+  .ms-sub button { position: relative; white-space: nowrap; gap: 4px; padding: 0 2px; font-size: 13px; letter-spacing: -0.01em; overflow: visible; }
+  .ms-sub button span { overflow: hidden; text-overflow: ellipsis; }
+  .ms-sub button svg { width: 14px; height: 14px; }
+  .ms-sub .ms-sub__n { position: absolute; top: -6px; right: -2px; min-width: 18px; height: 18px; padding: 0 5px; font-size: 10px; box-shadow: 0 0 0 2px var(--felt-deep); }
+}
+@media (max-width: 340px) { .ms-sub button svg { display: none; } }
