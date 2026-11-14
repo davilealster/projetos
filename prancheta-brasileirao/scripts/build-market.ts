@@ -179,6 +179,20 @@ export function buildMarket(): { leagues: number; players: number; clubs: number
       if (co) coaches.push(co);
     }
   }
+  // contrato dos empregados e técnicos sem clube (scripts/market/collect_coaches.py)
+  const extraPath = p("data/market/coaches-extra.json");
+  if (existsSync(extraPath)) {
+    const extra = readJson<{
+      employed: Record<string, { since: string | null; until: string | null }>;
+      free: { id: string; name: string; photo: string | null; age: number | null; nat: string | null; lastClub: string | null; lastGame: string | null }[];
+    }>(extraPath);
+    for (const co of coaches) co.until = extra.employed[co.id]?.until ?? null;
+    const have = new Set(coaches.map((c) => c.id));
+    for (const f of extra.free) {
+      if (have.has(f.id)) continue;
+      coaches.push({ id: f.id, name: f.name, since: null, photo: tmPhoto(f.photo), age: f.age, nat: countryPt(f.nat), free: true, lastClub: f.lastClub, lastGame: f.lastGame });
+    }
+  }
   writeJson(`${OUT}/coaches.json`, coaches);
   writeJson(`${OUT}/index.json`, index);
   const missing = Object.keys(map).filter((s) => !clubs[s]);

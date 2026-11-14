@@ -48,6 +48,13 @@ export interface MarketCoach {
   /** clube atual e liga (na lista de técnicos para contratar) */
   club?: string;
   league?: string;
+  /** fim do contrato com o clube atual, quando o Transfermarkt informa */
+  until?: string | null;
+  /** sem clube: disponível no mercado, sem custo de rescisão */
+  free?: boolean;
+  /** sem clube: último clube e data do último jogo */
+  lastClub?: string | null;
+  lastGame?: string | null;
 }
 
 export interface ClubMarket {

@@ -154,3 +154,37 @@
 }
 .ms-row__prio > button:disabled, .sc-shelfbtn:disabled { opacity: 0.28; cursor: default; border-style: dashed; }
 .ms-row__acts .tm-act--green:not(:disabled) { background: var(--ink-green); border-color: transparent; color: var(--paper) !important; }
+
+/* ---- barra de posições: TEC à esquerda, separado ---- */
+.ms-posbar { align-items: center; }
+.tm-pos.ms-tec { --c: var(--brass); background: transparent; color: var(--brass); box-shadow: inset 0 0 0 1.5px var(--brass); letter-spacing: 0.08em; }
+button.tm-pos.ms-tec.is-on { background: var(--brass); color: var(--ink); box-shadow: 0 0 0 2px var(--felt), 0 0 0 4px var(--cream); }
+.ms-posbar__sep { flex: none; width: 1px; height: 18px; margin: 0 6px; background: var(--felt-line); }
+.tm-ficha__name .tm-pos.ms-tec { background: var(--ink); color: var(--paper); box-shadow: none; }
+
+/* ---- técnicos (TEC) ---- */
+.ms-cfilters { grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); max-width: 640px; }
+.ms-cstatus { display: inline-flex; gap: 6px; flex-wrap: wrap; }
+.ms-ccur { color: var(--cream-soft); }
+.ms-ccur b { color: var(--cream); font-weight: 600; }
+.ms-cbadge {
+  display: inline-block; padding: 4px 8px; border: 1.5px solid rgba(29, 27, 22, 0.35); border-radius: 3px;
+  font-family: var(--f-data); font-size: 11px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-soft);
+}
+.ms-cbadge.is-free { border-color: var(--ink-green); color: var(--ink-green); }
+.ms-coach__fee { font-style: normal; color: var(--ink-amber); }
+
+@media (max-width: 640px) {
+  .tm-mfilters--tec { grid-template-columns: minmax(0, 1fr) minmax(0, 118px); }
+  .tm-mfilters .ms-posbar {
+    grid-column: 1 / -1; display: flex; flex-wrap: nowrap; gap: 6px; margin: 2px -12px 0; padding: 4px 12px 2px;
+    overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch;
+  }
+  .tm-mfilters .ms-posbar::-webkit-scrollbar { display: none; }
+  .tm-mfilters .ms-posbar button.tm-pos { flex: none; min-width: 44px; min-height: 34px; font-size: 12px; }
+  .tm-mfilters .ms-posbar__sep { height: 22px; margin: 0 2px; }
+  .ms-ctoggles { margin-bottom: 10px; }
+  .tm-fichas--market .ms-coach .tm-ficha__origin { white-space: normal; }
+  .ms-cstatus { display: grid; grid-template-columns: repeat(3, 1fr); width: 100%; }
+  .ms-cstatus .tm-toggle { min-height: 38px; }
+}

@@ -1,0 +1,123 @@
+# Técnicos acompanhados para a lista "sem clube" do Mercado.
+# O coletor busca cada nome e só mantém quem está SEM CLUBE hoje (Transfermarkt: isAvailable).
+# Brasileiros
+Dorival Júnior
+Tite
+Renato Gaúcho
+Mano Menezes
+Fernando Diniz
+Cuca
+Vanderlei Luxemburgo
+Luiz Felipe Scolari
+Abel Braga
+Rogério Ceni
+Thiago Carpini
+Paulo Autuori
+Odair Hellmann
+Lisca
+Roger Machado
+Jair Ventura
+Marcelo Fernandes
+Rafael Paiva
+Zé Ricardo
+Enderson Moreira
+Guto Ferreira
+Claudinei Oliveira
+Umberto Louzer
+Eduardo Barroca
+Lucas Silvestre
+Fábio Carille
+Jorginho
+Ney Franco
+Dado Cavalcanti
+Marcelo Chamusca
+Rodrigo Santana
+António Carlos Zago
+Maurício Barbieri
+Ramon Menezes
+Filipe Luís
+Leonardo Jardim
+Rafael Guanaes
+Pedro Caixinha
+Gilmar Dal Pozzo
+Hélio dos Anjos
+Dorival
+Felipe Conceição
+Juan Carlos Osorio
+# Sul-americanos
+Ramón Díaz
+Emiliano Díaz
+Jorge Sampaoli
+Eduardo Coudet
+Gustavo Quinteros
+Juan Pablo Vojvoda
+Marcelo Gallardo
+Gabriel Milito
+Martín Demichelis
+Sebastián Beccacece
+Ricardo Gareca
+Gustavo Alfaro
+Diego Aguirre
+Paulo Pezzolano
+Martín Anselmi
+Alexander Medina
+Fernando Batista
+Gerardo Martino
+Matías Almeyda
+Hernán Crespo
+Diego Cocca
+Ariel Holan
+Guillermo Barros Schelotto
+Juan Román Riquelme
+Marcelo Bielsa
+Néstor Lorenzo
+Reinaldo Rueda
+Fernando Gago
+Claudio Borghi
+# Portugueses e europeus
+Jorge Jesus
+Abel Ferreira
+Artur Jorge
+Vítor Pereira
+Luís Castro
+Paulo Sousa
+António Oliveira
+Bruno Lage
+Pedro Martins
+Rui Vitória
+Sérgio Conceição
+Paulo Fonseca
+Marco Silva
+Carlos Carvalhal
+Ruben Amorim
+José Mourinho
+Fernando Santos
+Roberto Martínez
+Jürgen Klopp
+Thomas Tuchel
+Erik ten Hag
+Xavi
+Mauricio Pochettino
+Zinedine Zidane
+Massimiliano Allegri
+Stefano Pioli
+Edin Terzić
+Graham Potter
+Gareth Southgate
+Julen Lopetegui
+Rafael Benítez
+Quique Sánchez Flores
+Ernesto Valverde
+Unai Emery
+Simone Inzaghi
+Antonio Conte
+Daniele De Rossi
+Thiago Motta
+Ange Postecoglou
+Lucien Favre
+Domenico Tedesco
+Roger Schmidt
+Marcelino
+José Bordalás
+Míchel
+Vincenzo Montella

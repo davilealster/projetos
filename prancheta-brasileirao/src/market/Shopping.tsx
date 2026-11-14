@@ -7,9 +7,10 @@ import "../scout/scout.css";
 import "./shopping.css";
 import { POSITIONS, type Pos } from "../types";
 import { Foreign, Ico, ICON, Photo, Price, Sheet, Stamp, SIGN_STAMP } from "./bits";
-import { MARKET_INDEX, loadLeague } from "./data";
+import { MARKET_INDEX, loadCoaches, loadLeague } from "./data";
+import { COACH_STATUS, coachMonth, filterCoaches, sortCoaches, type CoachStatus } from "./coaches";
 import { fmtDate, fmtEur, fmtRef, isFreeAgent, posRank, type DepthRow, type MarketState, type SigningType } from "./logic";
-import type { MarketLeague, MarketPlayer, SquadPlayer } from "./types";
+import type { MarketCoach, MarketLeague, MarketPlayer, SquadPlayer } from "./types";
 import { FREE_CUTOFF, SCOUT_GROUPS, groupOf, hasScoutLeague, loadGroup } from "../scout/data";
 import type { ScoutPlayer } from "../scout/metrics";
 import ScoutPeek from "../scout/ScoutPeek";
@@ -43,6 +44,10 @@ type Props = {
   isMobile: boolean;
   onLeague: (l: MarketLeague) => void;
   onToast: (t: string) => void;
+  /** técnico atual do clube (fica fora da lista de TEC) */
+  coach: MarketCoach | null;
+  /** abre Procurar já em TEC (vindo do "Demite" da etapa 1) */
+  startTec?: boolean;
 };
 
 type Sub = "search" | "list";
@@ -62,7 +67,7 @@ function useSignings(setSt: SetSt) {
   return { sign, unsign, setPrice };
 }
 
-export default function Shopping({ slug, st, setSt, balance, squad, depth, isMobile, onLeague, onToast }: Props) {
+export default function Shopping({ slug, st, setSt, balance, squad, depth, isMobile, onLeague, onToast, coach, startTec }: Props) {
   // Minha lista = estado do olheiro (`olheiro:{slug}:v1`); o ★ antigo do Mercado (`watch`) entra nela uma vez
   const [sc, dispatch] = useReducer(scoutReducer, null, () => mergeWatch(loadScoutState(slug), st.watch));
   useEffect(() => saveScoutState(slug, sc), [slug, sc]);
@@ -111,6 +116,7 @@ export default function Shopping({ slug, st, setSt, balance, squad, depth, isMob
         <Search
           sc={sc} balance={balance} ownIds={ownIds} squad={squad} depth={depth} isMobile={isMobile} onLeague={onLeague}
           byKey={byKey} groups={groups} ensure={ensure} signed={signed} deals={deals} onScout={setPeek} onSave={toggleSave}
+          coach={coach} st={st} setSt={setSt} onToast={onToast} startTec={!!startTec}
         />
       </div>
       {sub === "list" && (
@@ -162,10 +168,11 @@ const MARKET_SORTS: [MarketSort, string][] = [
 ];
 type Row = { p: MarketPlayer; lg: MarketLeague; key: string; x: ScoutPlayer | undefined };
 
-function Search({ sc, balance, ownIds, squad, depth, isMobile, onLeague, byKey, groups, ensure, signed, deals, onScout, onSave }: {
+function Search({ sc, balance, ownIds, squad, depth, isMobile, onLeague, byKey, groups, ensure, signed, deals, onScout, onSave, coach, st, setSt, onToast, startTec }: {
   sc: ScoutState; balance: number; ownIds: Set<string>; squad: SquadPlayer[]; depth: DepthRow[]; isMobile: boolean;
   onLeague: (l: MarketLeague) => void; byKey: Map<string, ScoutPlayer>; groups: Record<string, ScoutPlayer[]>; ensure: (g: string | null) => void;
   signed: Map<string, MarketState["signings"][number]>; deals: ReturnType<typeof useSignings>; onScout: (p: Peek) => void; onSave: (key: string, name: string) => void;
+  coach: MarketCoach | null; st: MarketState; setSt: SetSt; onToast: (t: string) => void; startTec: boolean;
 }) {
   const [sheet, setSheet] = useState(false);
   const leagueGroups = [...new Set(MARKET_INDEX.leagues.map((l) => l.group))];
@@ -174,7 +181,14 @@ function Search({ sc, balance, ownIds, squad, depth, isMobile, onLeague, byKey, 
   const [loading, setLoading] = useState(true);
   const [q, setQ] = useState("");
   const [clubKey, setClubKey] = useState(""); // "liga:índice"
-  const [pos, setPos] = useState<Pos | null>(null);
+  // "TEC" troca a lista de jogadores pela de técnicos
+  const [pos, setPos] = useState<Pos | "TEC" | null>(startTec ? "TEC" : null);
+  const tec = pos === "TEC";
+  const [status, setStatus] = useState<CoachStatus>("free");
+  const [coaches, setCoaches] = useState<MarketCoach[] | null>(null);
+  useEffect(() => {
+    if (tec && !coaches) void loadCoaches().then(setCoaches);
+  }, [tec, coaches]);
   const [maxAge, setMaxAge] = useState(0);
   const [afford, setAfford] = useState(false);
   const [onlyFree, setOnlyFree] = useState(false);
@@ -280,7 +294,7 @@ function Search({ sc, balance, ownIds, squad, depth, isMobile, onLeague, byKey, 
   };
   const def = SEARCHES.find((s) => s.id === search);
   const short = depth.filter((d) => d.short);
-  const clearFilters = () => (setClubKey(""), setPos(null), setMaxAge(0), setAfford(false), setOnlyFree(false));
+  const clearFilters = () => (setClubKey(""), setPos((p) => (p === "TEC" ? p : null)), setMaxAge(0), setAfford(false), setOnlyFree(false));
   const sorts: [MarketSort, string][] = search ? [["rank", "Ordem do atalho"], ...MARKET_SORTS] : MARKET_SORTS;
 
   const leagueSel = (
@@ -305,7 +319,9 @@ function Search({ sc, balance, ownIds, squad, depth, isMobile, onLeague, byKey, 
       })}
     </select>
   );
-  const searchInput = <input type="search" placeholder="Buscar jogador" value={q} onChange={(e) => setQ(e.target.value)} aria-label="Buscar jogador ou clube" />;
+  const searchInput = tec
+    ? <input type="search" placeholder="Buscar técnico ou clube" value={q} onChange={(e) => setQ(e.target.value)} aria-label="Buscar técnico ou clube" />
+    : <input type="search" placeholder="Buscar jogador" value={q} onChange={(e) => setQ(e.target.value)} aria-label="Buscar jogador ou clube" />;
   const ageSel = (
     <select value={maxAge} onChange={(e) => setMaxAge(Number(e.target.value))} aria-label="Idade máxima">
       <option value={0}>Qualquer idade</option>
@@ -318,28 +334,39 @@ function Search({ sc, balance, ownIds, squad, depth, isMobile, onLeague, byKey, 
       <button className={`tm-toggle ${onlyFree ? "is-on" : ""}`} aria-pressed={onlyFree} onClick={() => setOnlyFree(!onlyFree)}>Fim de contrato (chega livre)</button>
     </>
   );
+  const pickPos = (p: Pos | "TEC") => (setPos(pos === p ? null : p), setLimit(40));
+  // barra de posições: técnico à esquerda, separado; no celular fica na barra fixa (um toque filtra)
   const posFilter = (
-    <span className="tm-posfilter" role="group" aria-label="Posição">
+    <span className="tm-posfilter ms-posbar" role="group" aria-label="Posição">
+      <button className={`tm-pos ms-tec ${tec ? "is-on" : pos ? "is-dim" : ""}`} aria-pressed={tec} onClick={() => pickPos("TEC")} title="Técnicos">TEC</button>
+      <i className="ms-posbar__sep" aria-hidden="true" />
       {POSITIONS.map((p) => (
-        <button key={p} className={`tm-pos tm-pos--${p} ${pos === p ? "is-on" : pos ? "is-dim" : ""}`} aria-pressed={pos === p} onClick={() => setPos(pos === p ? null : p)}>{p}</button>
+        <button key={p} className={`tm-pos tm-pos--${p} ${pos === p ? "is-on" : pos ? "is-dim" : ""}`} aria-pressed={pos === p} onClick={() => pickPos(p)}>{p}</button>
       ))}
     </span>
   );
-  const active = [clubKey, pos, maxAge, afford, onlyFree].filter(Boolean).length;
+  const statusSeg = (
+    <span className="ms-cstatus" role="radiogroup" aria-label="Situação do técnico">
+      {COACH_STATUS.map(([k, label]) => (
+        <button key={k} role="radio" aria-checked={status === k} className={`tm-toggle ${status === k ? "is-on" : ""}`} onClick={() => (setStatus(k), setLimit(40))}>{label}</button>
+      ))}
+    </span>
+  );
+  const active = [clubKey, maxAge, afford, onlyFree].filter(Boolean).length;
   const leagueLabel = leagueId === "ALL" ? "todas as ligas" : MARKET_INDEX.leagues.find((l) => l.id === leagueId)?.name ?? "";
 
   return (
     <>
       {/* atalhos do olheiro: buscas prontas sobre a liga escolhida (e os filtros) */}
-      <div className="ms-shortcuts" role="group" aria-label="Atalhos do olheiro">
+      {!tec && <div className="ms-shortcuts" role="group" aria-label="Atalhos do olheiro">
         {SEARCHES.map((s) => (
           <button key={s.id} className={`ms-short ${search === s.id ? "is-on" : ""}`} aria-pressed={search === s.id} onClick={() => pick(search === s.id ? null : s.id)} title={s.id === "needs" ? needsText(needs) : s.rule}>
             <b>{s.title}</b>
             <em>{!scoutReady ? "…" : s.id === "replace" && !ref ? "escolha" : counts[s.id] ?? 0}</em>
           </button>
         ))}
-      </div>
-      {def && (
+      </div>}
+      {!tec && def && (
         <div className="ms-active">
           <p>
             <b>{def.title}</b> <span>{def.id === "needs" ? needsText(needs) : def.rule}</span>
@@ -354,7 +381,7 @@ function Search({ sc, balance, ownIds, squad, depth, isMobile, onLeague, byKey, 
         </div>
       )}
 
-      {!search && short.length > 0 && (
+      {!tec && !search && short.length > 0 && (
         <div className="tm-needs">
           <span>Seu elenco precisa de</span>
           {short.map((d) => (
@@ -365,14 +392,31 @@ function Search({ sc, balance, ownIds, squad, depth, isMobile, onLeague, byKey, 
         </div>
       )}
       {isMobile ? (
-        <div className="tm-mfilters">
-          {searchInput}
-          {leagueSel}
-          <button className={`tm-iconbtn ${active ? "is-on" : ""}`} onClick={() => setSheet(true)} aria-label={`Filtros${active ? `, ${active} ativos` : ""}`}>
-            <Ico d={ICON.filter} size={20} />
-            {active > 0 && <i>{active}</i>}
-          </button>
-        </div>
+        <>
+          <div className={`tm-mfilters ${tec ? "tm-mfilters--tec" : ""}`}>
+            {searchInput}
+            {leagueSel}
+            {!tec && (
+              <button className={`tm-iconbtn ${active ? "is-on" : ""}`} onClick={() => setSheet(true)} aria-label={`Filtros${active ? `, ${active} ativos` : ""}`}>
+                <Ico d={ICON.filter} size={20} />
+                {active > 0 && <i>{active}</i>}
+              </button>
+            )}
+            {posFilter}
+          </div>
+          {tec && <div className="tm-toggles ms-ctoggles">{statusSeg}</div>}
+        </>
+      ) : tec ? (
+        <>
+          <div className="tm-filters ms-cfilters">
+            {leagueSel}
+            {searchInput}
+          </div>
+          <div className="tm-toggles">
+            {statusSeg}
+            {posFilter}
+          </div>
+        </>
       ) : (
         <>
           <div className="tm-filters">
@@ -390,7 +434,14 @@ function Search({ sc, balance, ownIds, squad, depth, isMobile, onLeague, byKey, 
           </div>
         </>
       )}
-      {isMobile && sheet && (
+      {tec && (
+        <Coaches
+          list={coaches} current={coach} st={st} setSt={setSt} onToast={onToast} status={status} limit={limit} onMore={() => setLimit((l) => l + 40)}
+          league={leagueId === "ALL" ? null : MARKET_INDEX.leagues.find((l) => l.id === leagueId)?.name ?? null} leagueLabel={leagueLabel} q={q}
+          onClear={() => (setQ(""), setStatus("all"), setLeagueId("ALL"))}
+        />
+      )}
+      {!tec && isMobile && sheet && (
         <Sheet
           title="Filtros"
           onClose={() => setSheet(false)}
@@ -405,7 +456,6 @@ function Search({ sc, balance, ownIds, squad, depth, isMobile, onLeague, byKey, 
         >
           <div className="tm-fsheet">
             <label>Clube{clubSel}</label>
-            <div>Posição{posFilter}</div>
             <label>Idade{ageSel}</label>
             <div>Mostrar só<span className="tm-fsheet__toggles">{toggles}</span></div>
             <div>
@@ -422,6 +472,7 @@ function Search({ sc, balance, ownIds, squad, depth, isMobile, onLeague, byKey, 
           </div>
         </Sheet>
       )}
+      {!tec && <>
       <p className="tm-count">
         {loading ? "Carregando a liga…"
           : search && !scoutReady ? "Abrindo os relatórios do olheiro…"
@@ -471,6 +522,75 @@ function Search({ sc, balance, ownIds, squad, depth, isMobile, onLeague, byKey, 
       </div>
       {results.length > limit && <button className="tm-btn tm-more" onClick={() => setLimit((l) => l + 40)}>Mostrar mais 40</button>}
       {search && <p className="ms-fine">Nota de 0 a 100 do olheiro: compara cada jogador com a mesma posição no grupo de ligas (Transfermarkt: minutos, gols, assistências, gols sofridos em campo). “Ver scout” abre o relatório.</p>}
+      </>}
+    </>
+  );
+}
+
+// ============ técnicos (TEC) ============
+
+function Coaches({ list, current, st, setSt, onToast, status, league, leagueLabel, q, limit, onMore, onClear }: {
+  list: MarketCoach[] | null; current: MarketCoach | null; st: MarketState; setSt: SetSt; onToast: (t: string) => void;
+  status: CoachStatus; league: string | null; leagueLabel: string; q: string; limit: number; onMore: () => void; onClear: () => void;
+}) {
+  const rows = useMemo(() => (list ? sortCoaches(filterCoaches(list, { status, league, q, exclude: current?.id })) : []), [list, status, league, q, current]);
+  const hiredId = st.coach.action === "fire" ? st.coach.hire : null;
+  const hire = (c: MarketCoach) => {
+    trackEvent("contratar_tecnico", { livre: c.free ? "sim" : "nao" });
+    const prev = hiredId ? list?.find((x) => x.id === hiredId) : null;
+    setSt((s) => ({ ...s, coach: { action: "fire", hire: c.id } }));
+    onToast(prev ? `${c.name} contratado no lugar de ${prev.name}` : st.coach.action === "keep" && current ? `${current.name} demitido · ${c.name} contratado` : `${c.name} contratado`);
+  };
+  const undo = (c: MarketCoach) => (setSt((s) => ({ ...s, coach: { action: "keep", hire: null } })), onToast(`${c.name} saiu${current ? ` · ${current.name} mantido` : ""}`));
+  const what = status === "free" ? "sem clube" : status === "employed" ? "com clube" : "";
+  return (
+    <>
+      <p className="tm-count">
+        {!list ? "Carregando os técnicos…"
+          : `${rows.length.toLocaleString("pt-BR")} técnico${rows.length === 1 ? "" : "s"}${what ? ` ${what}` : ""}${status !== "free" && league ? ` · ${leagueLabel}` : ""}${status === "all" ? " · sem clube primeiro" : ""}`}
+        {current && <span className="ms-ccur"> · Seu técnico: <b>{current.name}</b> ({st.coach.action === "fire" ? "demitido" : "mantido"})</span>}
+      </p>
+      <div className="tm-fichas tm-fichas--market">
+        {rows.slice(0, limit).map((c) => {
+          const on = c.id === hiredId;
+          const last = coachMonth(c.lastGame);
+          return (
+            <article key={c.id} className={`tm-ficha ms-ficha ms-coach ${on ? "is-signed" : ""}`}>
+              <Photo name={c.name} photo={c.photo} />
+              <div className="tm-ficha__main">
+                <p className="tm-ficha__name">{c.name}<span className="tm-pos ms-tec">TEC</span></p>
+                <p className="tm-ficha__meta">{c.age != null ? `${c.age} anos` : "Idade não informada"}{c.nat ? ` · ${c.nat}` : ""}</p>
+                {c.free ? (
+                  <p className="tm-ficha__origin"><span className="is-free">Sem clube</span>{c.lastClub ? ` · último trabalho: ${c.lastClub}${last ? ` (${last})` : ""}` : ""}</p>
+                ) : (
+                  <>
+                    <p className="tm-ficha__origin">{c.club}{c.league ? ` · ${c.league}` : ""}</p>
+                    <p className="tm-ficha__origin">
+                      {c.until ? `contrato até ${coachMonth(c.until)}` : c.since ? `no cargo desde ${coachMonth(c.since)}` : "sob contrato"} · <i className="ms-coach__fee">rescisão a negociar</i>
+                    </p>
+                  </>
+                )}
+              </div>
+              <p className="tm-ficha__value"><span className={`ms-cbadge ${c.free ? "is-free" : ""}`}>{c.free ? "Sem clube" : "Com clube"}</span></p>
+              <div className="tm-ficha__actions">
+                {on ? (
+                  <button className="tm-act" onClick={() => undo(c)}>Desfazer</button>
+                ) : (
+                  <button className="tm-act tm-act--green" onClick={() => hire(c)}>Contratar técnico</button>
+                )}
+              </div>
+              {on && <Stamp text="Contratado ✓" ink="green" onClick={() => undo(c)} title="Desfazer a contratação" />}
+            </article>
+          );
+        })}
+        {list && !rows.length && (
+          <p className="tm-empty">
+            Nenhum técnico com esses filtros. <button className="tm-link" onClick={onClear}>Ver todos</button>
+          </p>
+        )}
+      </div>
+      {rows.length > limit && <button className="tm-btn tm-more" onClick={onMore}>Mostrar mais 40</button>}
+      <p className="ms-fine">Técnico não mexe no saldo: o sem clube chega livre; o com clube tem rescisão a negociar à parte. Contratar um novo demite o atual.</p>
     </>
   );
 }

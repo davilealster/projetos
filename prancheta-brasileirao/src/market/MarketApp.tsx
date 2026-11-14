@@ -130,6 +130,12 @@ function MarketClub({ slug }: { slug: string }) {
   setMoneyMode(st.currency, st.rate); // antes de renderizar os filhos: todos os valores saem na moeda escolhida
   // ?aba=mercado: abre direto nas compras (links antigos do Olheiro caem aqui)
   const [tab, setTab] = useState<Tab>(() => (params().get("aba") === "mercado" ? "market" : "squad"));
+  // Procurar já em TEC: "Procurar técnico no mercado" (etapa 1) ou ?aba=mercado&pos=TEC; vale só nessa abertura
+  const [startTec, setStartTec] = useState(() => params().get("aba") === "mercado" && params().get("pos") === "TEC");
+  useEffect(() => {
+    if (tab !== "market") setStartTec(false);
+  }, [tab]);
+  const coachMarket = () => (setStartTec(true), setTab("market"), window.scrollTo({ top: 0 }));
   const [peek, setPeek] = useState<Peek | null>(null);
   useEffect(() => {
     if (location.search) replace(`/mercado/${slug}`);
@@ -319,11 +325,11 @@ function MarketClub({ slug }: { slug: string }) {
                 {view === "pitch" ? (
                   <>
                     <PendingCallout squad={squad} st={st} slug={slug} />
-                    <PitchView squad={squad} coach={club!.coach ?? null} st={st} setSt={setSt} setDecision={setDecision} cutoff={CUTOFF} colors={team.colors} onMarket={() => (setTab("market"), window.scrollTo({ top: 0 }))} />
+                    <PitchView squad={squad} coach={club!.coach ?? null} st={st} setSt={setSt} setDecision={setDecision} cutoff={CUTOFF} colors={team.colors} onMarket={() => (setTab("market"), window.scrollTo({ top: 0 }))} onCoachMarket={coachMarket} />
                   </>
                 ) : (
                   <>
-                    <CoachCard coach={club!.coach ?? null} st={st} setSt={setSt} />
+                    <CoachCard coach={club!.coach ?? null} st={st} setSt={setSt} onMarket={coachMarket} />
                     <SquadTab slug={slug} squad={squad} st={st} setDecision={setDecision} colors={team.colors} isMobile={isMobile} onScout={(p) => setPeek({ ...p, club: team.name })} />
                   </>
                 )}
@@ -335,7 +341,7 @@ function MarketClub({ slug }: { slug: string }) {
                 <Shopping
                   slug={slug} st={st} setSt={setSt} balance={sum.balance} squad={squad} depth={depth} isMobile={isMobile}
                   onLeague={(l: MarketLeague) => setLeagues((x) => (x[l.id] ? x : { ...x, [l.id]: l }))}
-                  onToast={setToast}
+                  onToast={setToast} coach={club!.coach ?? null} startTec={startTec}
                 />
               </Suspense>
             )}

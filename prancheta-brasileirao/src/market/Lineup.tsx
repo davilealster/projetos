@@ -11,6 +11,7 @@ import {
 } from "./logic";
 import { spaLink } from "../brand/BrandMark";
 import { loadCoaches } from "./data";
+import { filterCoaches, sortCoaches } from "./coaches";
 import type { MarketCoach } from "./types";
 
 type SetSt = React.Dispatch<React.SetStateAction<MarketState>>;
@@ -38,7 +39,7 @@ function Face({ name, photo, size, story = false }: { name: string; photo: strin
 
 // ============ técnico ============
 
-export function CoachCard({ coach, st, setSt }: { coach: MarketCoach | null; st: MarketState; setSt: SetSt }) {
+export function CoachCard({ coach, st, setSt, onMarket }: { coach: MarketCoach | null; st: MarketState; setSt: SetSt; onMarket?: () => void }) {
   const [list, setList] = useState<MarketCoach[] | null>(null);
   const [q, setQ] = useState("");
   const fired = st.coach.action === "fire";
@@ -46,8 +47,7 @@ export function CoachCard({ coach, st, setSt }: { coach: MarketCoach | null; st:
     if (fired && !list) void loadCoaches().then(setList);
   }, [fired, list]);
   const hired = list?.find((c) => c.id === st.coach.hire) ?? null;
-  const norm = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
-  const matches = q.trim().length >= 2 && list ? list.filter((c) => c.id !== coach?.id && norm(`${c.name} ${c.club}`).includes(norm(q.trim()))).slice(0, 8) : [];
+  const matches = q.trim().length >= 2 && list ? sortCoaches(filterCoaches(list, { status: "all", q, exclude: coach?.id })).slice(0, 8) : [];
   const since = coach?.since ? new Date(`${coach.since}T12:00:00`).toLocaleDateString("pt-BR", { month: "2-digit", year: "numeric" }) : null;
   return (
     <article className={`tm-ficha lu-coach ${fired ? "is-out" : ""}`}>
@@ -59,19 +59,20 @@ export function CoachCard({ coach, st, setSt }: { coach: MarketCoach | null; st:
           <div className="lu-hire">
             {hired ? (
               <p className="lu-hire__chosen">
-                Contratado: <b>{hired.name}</b> <span>({hired.club})</span>
+                Contratado: <b>{hired.name}</b> <span>({hired.free ? "sem clube" : hired.club})</span>
                 <button className="tm-link" onClick={() => setSt((s) => ({ ...s, coach: { ...s.coach, hire: null } }))}>trocar</button>
               </p>
             ) : (
               <>
-                <input type="search" placeholder="Buscar técnico para contratar (nome ou clube)" value={q} onChange={(e) => setQ(e.target.value)} aria-label="Buscar técnico" />
+                {onMarket && <button className="tm-btn tm-btn--brass lu-hire__go" onClick={onMarket}>Procurar técnico no mercado →</button>}
+                <input type="search" placeholder="Ou busque aqui: nome ou clube" value={q} onChange={(e) => setQ(e.target.value)} aria-label="Buscar técnico" />
                 {!list && <p className="tm-ficha__origin">Carregando técnicos…</p>}
                 {matches.length > 0 && (
                   <ul className="lu-hire__list">
                     {matches.map((c) => (
                       <li key={c.id}>
                         <button onClick={() => (setSt((s) => ({ ...s, coach: { action: "fire", hire: c.id } })), setQ(""))}>
-                          <b>{c.name}</b> <span>{c.club} · {c.league}</span>
+                          <b>{c.name}</b> <span>{c.free ? `sem clube${c.lastClub ? ` · último: ${c.lastClub}` : ""}` : `${c.club} · ${c.league}`}</span>
                         </button>
                       </li>
                     ))}

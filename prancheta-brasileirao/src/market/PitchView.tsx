@@ -8,6 +8,7 @@ import {
   type Decision, type MarketState, type SquadAction,
 } from "./logic";
 import { loadCoaches } from "./data";
+import { filterCoaches, sortCoaches } from "./coaches";
 import type { MarketCoach, SquadPlayer } from "./types";
 
 export interface PitchViewProps {
@@ -22,6 +23,8 @@ export interface PitchViewProps {
   colors: { primary: string; secondary: string; accent: string };
   /** próximo passo: ir ao mercado (etapa 2) */
   onMarket?: () => void;
+  /** depois de demitir: abrir o Mercado já nos técnicos (TEC) */
+  onCoachMarket?: () => void;
 }
 
 /** Texto e tinta do carimbo de cada decisão (igual à lista). */
@@ -326,7 +329,7 @@ function PlayerCard({ p, st, cutoff, setDecision, onChose, active }: {
 
 // ---------- técnico ----------
 
-function CoachSector({ coach, st, setSt }: Pick<PitchViewProps, "coach" | "st" | "setSt">) {
+function CoachSector({ coach, st, setSt, onCoachMarket }: Pick<PitchViewProps, "coach" | "st" | "setSt" | "onCoachMarket">) {
   const [list, setList] = useState<MarketCoach[] | null>(null);
   const [q, setQ] = useState("");
   const fired = st.coach.action === "fire";
@@ -334,8 +337,7 @@ function CoachSector({ coach, st, setSt }: Pick<PitchViewProps, "coach" | "st" |
     if (fired && !list) void loadCoaches().then(setList);
   }, [fired, list]);
   const hired = list?.find((c) => c.id === st.coach.hire) ?? null;
-  const norm = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
-  const matches = q.trim().length >= 2 && list ? list.filter((c) => c.id !== coach?.id && norm(`${c.name} ${c.club}`).includes(norm(q.trim()))).slice(0, 5) : [];
+  const matches = q.trim().length >= 2 && list ? sortCoaches(filterCoaches(list, { status: "all", q, exclude: coach?.id })).slice(0, 5) : [];
   const since = coach?.since ? fmtDate(coach.since) : null;
   const name = coach?.name ?? "Técnico não informado";
   return (
@@ -362,19 +364,20 @@ function CoachSector({ coach, st, setSt }: Pick<PitchViewProps, "coach" | "st" |
           <div className="pv-hire">
             {hired ? (
               <p className="pv-hire__chosen">
-                Novo técnico: <b>{hired.name}</b> <span>{hired.club}</span>
+                Novo técnico: <b>{hired.name}</b> <span>{hired.free ? "sem clube" : hired.club}</span>
                 <button className="tm-link" onClick={() => setSt((s) => ({ ...s, coach: { ...s.coach, hire: null } }))}>trocar</button>
               </p>
             ) : (
               <>
-                <input type="search" placeholder="Contratar: nome ou clube" value={q} onChange={(e) => setQ(e.target.value)} aria-label="Buscar técnico para contratar" />
+                {onCoachMarket && <button className="tm-btn tm-btn--brass pv-hire__go" onClick={onCoachMarket}>Procurar técnico no mercado →</button>}
+                <input type="search" placeholder="Ou busque: nome ou clube" value={q} onChange={(e) => setQ(e.target.value)} aria-label="Buscar técnico para contratar" />
                 {!list && <p className="pv-hire__note">Carregando técnicos…</p>}
                 {matches.length > 0 && (
                   <ul className="pv-hire__list">
                     {matches.map((c) => (
                       <li key={c.id}>
                         <button onClick={() => (setSt((s) => ({ ...s, coach: { action: "fire", hire: c.id } })), setQ(""))}>
-                          <b>{c.name}</b> <span>{c.club}</span>
+                          <b>{c.name}</b> <span>{c.free ? "sem clube" : c.club}</span>
                         </button>
                       </li>
                     ))}
@@ -436,7 +439,7 @@ function Sector({ def, n, players, st, cutoff, setDecision, onSectorDone, onNext
 
 // ---------- visão ----------
 
-export function PitchView({ squad, coach, st, setSt, setDecision, cutoff, colors, onMarket }: PitchViewProps) {
+export function PitchView({ squad, coach, st, setSt, setDecision, cutoff, colors, onMarket, onCoachMarket }: PitchViewProps) {
   const groups = useMemo(() => {
     const out: { def: SectorDef; players: SquadPlayer[] }[] = [{ def: SECTORS[0], players: [] }];
     for (const def of SECTORS.slice(1)) {
@@ -515,7 +518,7 @@ export function PitchView({ squad, coach, st, setSt, setDecision, cutoff, colors
             <>
               <SectorHead n={1} name="Técnico" index={0} count={1} decided={1} />
               <div className="pv-stage">
-                <CoachSector coach={coach} st={st} setSt={setSt} />
+                <CoachSector coach={coach} st={st} setSt={setSt} onCoachMarket={onCoachMarket} />
                 <Arrows index={0} count={1} onGo={() => {}} onNext={() => jump(next("TEC"))} nextName={nameOf(next("TEC"))} />
               </div>
             </>

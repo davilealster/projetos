@@ -337,3 +337,4 @@ button.pv-stamp:hover { opacity: 0.8; }
 @media (hover: hover) and (pointer: fine) {
   html:has(.pv) { scroll-snap-type: none; }
 }
+.pv-hire__go { width: 100%; margin-bottom: 8px; min-height: 42px; }
