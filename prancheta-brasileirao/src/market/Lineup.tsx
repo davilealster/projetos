@@ -259,8 +259,8 @@ export function LineupTab({ slug, next, st, setSt, team, coach, balance, income,
   spend: number;
   onGenerate: (lineup: Lineup) => void;
 }) {
-  const [author, setAuthor] = useAuthor();
-  const [view, setView] = useState<"summary" | "field">("summary");
+  const [author] = useAuthor();
+  const [view, setView] = useState<"summary" | "field">("field");
   const players = useMemo(() => next.filter((p) => p.kind !== "leave"), [next]);
   const byId = useMemo(() => new Map(players.map((p) => [p.id, p])), [players]);
   const lineup = useMemo(() => {
@@ -274,31 +274,33 @@ export function LineupTab({ slug, next, st, setSt, team, coach, balance, income,
   const save = (l: Lineup) => setSt((s) => ({ ...s, lineup: l }));
   const empty = lineup.starters.filter((x) => !x).length;
 
+  // as duas imagens do post, lado a lado: troca logo acima da imagem
+  const views = (
+    <div className="lu-views" role="tablist" aria-label="Imagens do post">
+      <button role="tab" aria-selected={view === "field"} className={view === "field" ? "is-on" : ""} onClick={() => setView("field")}><b>1</b> Meu elenco ideal</button>
+      <button role="tab" aria-selected={view === "summary"} className={view === "summary" ? "is-on" : ""} onClick={() => setView("summary")}><b>2</b> Resumo da janela</button>
+    </div>
+  );
+
   return (
     <section className="lu">
-      <div className="lu-bar">
-        <div className="lu-views" role="tablist" aria-label="O que compartilhar">
-          <button role="tab" aria-selected={view === "summary"} className={view === "summary" ? "is-on" : ""} onClick={() => setView("summary")}>Resumo da janela</button>
-          <button role="tab" aria-selected={view === "field"} className={view === "field" ? "is-on" : ""} onClick={() => setView("field")}>Meu elenco ideal</button>
+      <header className="lu-intro">
+        <div className="lu-intro__txt">
+          <h2>Escale e compartilhe</h2>
+          <p>Monte o seu time ideal e poste as 2 imagens: o elenco e o resumo da janela.</p>
         </div>
-        <ShareButton bar empty={empty} onClick={() => onGenerate(lineup)} />
-      </div>
-      <label className="lu-sign">
-        <span className="lu-sign__head">
-          <span>Assinar os posts</span>
+        <span className="lu-intro__share">
           {!empty && (
             <em className="lu-sign__hint" aria-hidden="true">
-              Compartilhe com seus amigos
+              Compartilhe
               <svg viewBox="0 0 28 22"><path d="M2 4c9 0 17 3 21 13" /><path d="M18 14l5 4 2-6" /></svg>
             </em>
           )}
-        </span>
-        <span className="lu-sign__row">
-          <input value={author} onChange={(e) => setAuthor(e.target.value)} placeholder="Seu nome (opcional)" maxLength={28} />
+          <ShareButton bar empty={empty} onClick={() => onGenerate(lineup)} />
           <ShareButton empty={empty} onClick={() => onGenerate(lineup)} />
         </span>
-        <small>{author.trim() ? `Aparece “Criado por ${author.trim()}”` : "Sem nome, não aparece nada"}</small>
-      </label>
+      </header>
+      {view === "summary" && views}
       {view === "summary" && (
         <SummaryPreview
           props={{ team, lineup, byId: new Map(next.map((p) => [p.id, p])), coach, budget: st.budget, balance, income, spend, host: location.host, author: author.trim() }}
@@ -318,6 +320,7 @@ export function LineupTab({ slug, next, st, setSt, team, coach, balance, income,
       {stats.foreign > FOREIGN_LIMIT && (
         <p className="lu-warn">⚠ {stats.foreign} estrangeiros entre os {stats.listed} relacionados: em {"2027"} o limite é {FOREIGN_LIMIT} por jogo.</p>
       )}
+      {views}
       <div className="lu-board" style={{ "--lu-bg": storyBg(team.colors) } as React.CSSProperties}>
         {team.crest && <img className="lu-board__mark" src={team.crest} alt="" aria-hidden="true" />}
         <p className="lu-board__title">Meu elenco ideal <em>2027</em></p>
@@ -657,18 +660,27 @@ export function StoryStudio({ props, summary, onClose }: {
       /* sem permissão */
     }
   };
+  // assinatura "Criado por …": escolhida aqui, já com as imagens prontas (refaz as imagens ao mudar)
+  const [author, setAuthor] = useAuthor();
+  const [signed, setSigned] = useState(author.trim());
+  useEffect(() => {
+    const t = setTimeout(() => setSigned(author.trim()), 700);
+    return () => clearTimeout(t);
+  }, [author]);
   const slug = props.team.shortName.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-");
 
   useEffect(() => {
     let alive = true;
+    setFiles(null);
     (async () => {
       try {
+        await new Promise((r) => requestAnimationFrame(() => r(null)));
         const b = await renderStory(sumRef.current!);
         const a = await renderStory(fieldRef.current!);
         if (!alive) return;
         setFiles([
-          { name: `janela-2027-${slug}.png`, url: URL.createObjectURL(b), blob: b },
           { name: `elenco-ideal-2027-${slug}.png`, url: URL.createObjectURL(a), blob: a },
+          { name: `janela-2027-${slug}.png`, url: URL.createObjectURL(b), blob: b },
         ]);
       } catch (e) {
         console.error(e);
@@ -678,7 +690,7 @@ export function StoryStudio({ props, summary, onClose }: {
     return () => {
       alive = false;
     };
-  }, [slug]);
+  }, [slug, signed]);
   useEffect(() => () => files?.forEach((f) => URL.revokeObjectURL(f.url)), [files]);
 
   const download = () => (trackEvent("salvar_imagens", { clube: props.team.shortName }), void copyCaption(), files?.forEach((f, i) =>
@@ -708,6 +720,16 @@ export function StoryStudio({ props, summary, onClose }: {
       <div className="lu-studio__box">
         <button className="tm-sheet__close" onClick={onClose} aria-label="Fechar">×</button>
         <p className="tm-eyebrow">Para o story · 2 imagens · 1080 × 1920</p>
+        <label className="lu-studio__sign">
+          <span className="lu-studio__sign-ico" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M4 20h4L19 9l-4-4L4 16v4z" /><path d="M14 6l4 4" /></svg>
+          </span>
+          <span className="lu-studio__sign-txt">
+            <b>Assine o seu post</b>
+            <small>{author.trim() ? `Vai aparecer “Criado por ${author.trim()}” nas imagens` : "Opcional: mostra que foi você quem montou"}</small>
+          </span>
+          <input value={author} onChange={(e) => setAuthor(e.target.value)} placeholder="Seu nome" maxLength={28} aria-label="Seu nome para assinar o post" />
+        </label>
         {error && <p className="lu-warn">{error}</p>}
         {!files && !error && <p className="lu-studio__wait">Montando as imagens…</p>}
         {files && (
@@ -727,8 +749,8 @@ export function StoryStudio({ props, summary, onClose }: {
       </div>
       {/* fora da tela: as peças que viram imagem */}
       <div className="lu-offscreen" aria-hidden="true">
-        <StoryField ref={fieldRef} {...props} />
-        <StorySummary ref={sumRef} {...props} {...summary} />
+        <StoryField ref={fieldRef} {...props} author={signed} />
+        <StorySummary ref={sumRef} {...props} {...summary} author={signed} />
       </div>
     </div>
   );
