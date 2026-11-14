@@ -26,7 +26,7 @@ const Shopping = lazy(() => import("./Shopping"));
 type Peek = { league: string; player: MarketPlayer | SquadPlayer; club: string };
 
 const TOUR: TourStep[] = [
-  { target: [".tm-steps", ".tm-tabbar"], title: "As quatro etapas da janela", text: "Elenco → Mercado → Fechamento → Compartilhe. No Mercado, os atalhos do olheiro (Joias, Fim de contrato…) acham reforços e a Minha lista guarda os seus Planos A, B e C." },
+  { target: [".tm-steps", ".tm-tabbar"], title: "As quatro etapas da janela", text: "Elenco → Mercado → Fechamento → Escalação. No Mercado, os atalhos do olheiro (Joias, Fim de contrato…) acham reforços e a Minha lista guarda os seus Planos A, B e C." },
   { target: [".tm-view"], title: "Lista ou Campo", text: "Na Lista, o elenco inteiro com filtros. No Campo, setor por setor, com o rosto grande e um toque por decisão." },
   { target: [".tm-callout"], title: "Comece por aqui", text: "Esses contratos acabam antes da próxima temporada: decida o destino de cada um. Toque no × para fechar o aviso." },
   { target: [".tm-rail .tm-ledger", ".tm-chip"], title: "Balancete", text: "Saldo, vendas, gastos e o elenco por posição, sempre à vista. No celular, toque no saldo para abrir." },
@@ -230,7 +230,7 @@ function MarketClub({ slug }: { slug: string }) {
     ["squad", "Elenco", sum.pending.length ? `${sum.pending.length} a decidir` : "resolvido"],
     ["market", "Mercado", arrivals.length ? `${arrivals.length} chegada${arrivals.length > 1 ? "s" : ""}` : "nenhuma chegada"],
     ["close", "Fechamento", sum.balance < 0 ? "saldo negativo" : null],
-    ["lineup", "Compartilhe", "escale e poste"],
+    ["lineup", "Escalação", "escale e poste"],
   ];
   const NEXT: Record<Tab, [Tab, string] | null> = { squad: ["market", "Ir às compras"], market: ["close", "Fechar a janela"], close: ["lineup", "Compartilhar a janela"], lineup: null };
 
@@ -524,7 +524,7 @@ function Guide({ team, crest, squadSize, st, setSt, pending, loans, onDone }: {
             </p>
             <p>
               O <b>balancete</b> acompanha tudo: saldo, e quantos jogadores você tem em cada posição. No
-              <b> Fechamento</b>, veja os gráficos do elenco {SEASON}. Por fim, em <b>Compartilhe</b>, monte o time ideal e
+              <b> Fechamento</b>, veja os gráficos do elenco {SEASON}. Por fim, na <b>Escalação</b>, monte o time ideal e
               gere as imagens para o story.
             </p>
           </>
