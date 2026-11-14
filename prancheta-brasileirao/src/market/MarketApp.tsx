@@ -348,7 +348,7 @@ function MarketClub({ slug }: { slug: string }) {
             )}
             {tab === "close" && (
               <CloseTab
-                sum={sum} st={st} setSt={setSt} arrivals={arrivals} next={next} depth={depth} steps={steps} squad={squad}
+                sum={sum} st={st} setSt={setSt} arrivals={arrivals} next={next} steps={steps} squad={squad}
                 team={team} oldCoach={club!.coach ?? null} newCoach={st.coach.action === "fire" ? nextCoach : null}
                 onShare={async () => {
                   const text = shareText({
@@ -370,10 +370,8 @@ function MarketClub({ slug }: { slug: string }) {
                   }
                 }}
                 onReset={() => {
-                  if (confirm("Recomeçar a janela? Todas as decisões e contratações deste clube serão apagadas.")) {
-                    setSt({ ...emptyMarketState(), onboarded: true, rate: st.rate, currency: st.currency });
-                    setTab("squad");
-                  }
+                  setSt({ ...emptyMarketState(), onboarded: true, rate: st.rate, currency: st.currency });
+                  setTab("squad");
                 }}
               />
             )}
@@ -869,11 +867,11 @@ function Crest({ src, name }: { src: string | null; name: string }) {
 
 const HOW_INK: Record<string, string> = { sell: "#d0321e", loanOut: "#2860c4", release: "#8e2a5a", letGo: "#6b6458", returnLoan: "#6b6458", buy: "#1f8a4c", loan: "#2860c4", free: "#b07612" };
 
-function CloseTab({ sum, st, setSt, arrivals, next, depth, squad, team, oldCoach, newCoach, onShare, onReset }: {
+function CloseTab({ sum, st, setSt, arrivals, next, squad, team, oldCoach, newCoach, onShare, onReset }: {
   sum: ReturnType<typeof summarize>; st: MarketState; setSt: SetSt;
   arrivals: { s: MarketState["signings"][number]; p: MarketPlayer; club: string; clubId: string | null; league: string }[];
   team: { shortName: string; crest: string | null }; oldCoach: MarketCoach | null; newCoach: MarketCoach | null;
-  next: ReturnType<typeof nextSeason>; depth: ReturnType<typeof depthChart>; steps: ReturnType<typeof waterfall>; squad: SquadPlayer[];
+  next: ReturnType<typeof nextSeason>; steps: ReturnType<typeof waterfall>; squad: SquadPlayer[];
   onShare: () => void; onReset: () => void;
 }) {
   const [view, setView] = useState<CloseView>("in");
@@ -883,21 +881,36 @@ function CloseTab({ sum, st, setSt, arrivals, next, depth, squad, team, oldCoach
   const leavesByPos = [...sum.leaves].sort((a, b) => posRank(a.p.pos) - posRank(b.p.pos) || (b.p.value ?? 0) - (a.p.value ?? 0));
   const valueBefore = before.reduce((a, p) => a + (p.value ?? 0), 0);
   const delta = sum.squadValue - valueBefore;
-  const short = depth.filter((d) => d.short);
+  const [askReset, setAskReset] = useState(false);
+  // aviso só para o que trava a janela (saldo negativo ou contratos sem decisão)
   const verdict =
     sum.balance < 0 ? `O saldo fechou negativo em ${fmtMoney(-sum.balance)}. Venda alguém ou desista de uma contratação.`
     : sum.pending.length ? `Faltam ${sum.pending.length} decisões de contrato para a janela ficar redonda.`
-    : short.length ? `Contas em dia, mas o elenco está curto em ${short.map((d) => d.pos).join(", ")}.`
-    : "Janela fechada: contas em dia e elenco completo.";
+    : null;
   return (
     <section className="tm-close">
-      <div className={`tm-verdict ${sum.balance < 0 ? "is-bad" : sum.pending.length || short.length ? "is-warn" : "is-ok"}`}>
-        <p>{verdict}</p>
-        <div>
-          <button className="tm-btn tm-btn--brass" onClick={onShare}>Copiar resumo da janela</button>
-          <button className="tm-btn tm-btn--ghost" onClick={onReset}>Recomeçar</button>
-        </div>
+      <div className="tm-close__bar">
+        <p className="tm-eyebrow">Resumo da janela</p>
+        <button className="tm-roundbtn" onClick={onShare} aria-label="Copiar resumo da janela" title="Copiar resumo da janela">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2" /><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2" /></svg>
+        </button>
+        <button className="tm-roundbtn" onClick={() => setAskReset(true)} aria-label="Recomeçar a janela" title="Recomeçar a janela">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.6-5.9" /><path d="M4 4v4.5h4.5" /></svg>
+        </button>
       </div>
+      {verdict && <div className={`tm-verdict ${sum.balance < 0 ? "is-bad" : "is-warn"}`}><p>{verdict}</p></div>}
+      {askReset && (
+        <div className="tm-modal" role="dialog" aria-modal="true" aria-labelledby="tm-reset-t" onClick={() => setAskReset(false)}>
+          <div className="tm-confirm" onClick={(e) => e.stopPropagation()}>
+            <h2 id="tm-reset-t">Recomeçar a janela?</h2>
+            <p>Você vai perder toda a jornada do {team.shortName}: decisões de contrato, vendas, contratações, técnico e escalação. Não dá para desfazer.</p>
+            <div>
+              <button className="tm-btn tm-btn--ghost" onClick={() => setAskReset(false)}>Cancelar</button>
+              <button className="tm-btn tm-btn--danger" onClick={() => { setAskReset(false); onReset(); }}>Apagar e recomeçar</button>
+            </div>
+          </div>
+        </div>
+      )}
 
       <div className="tm-kpis">
         <div><span>Elenco {SEASON}</span><b>{sum.squadSize}</b><small>{sum.squadSize === before.length ? "mesmo tamanho de hoje" : `${sum.squadSize > before.length ? "+" : "–"}${Math.abs(sum.squadSize - before.length)} em relação a hoje`}</small></div>
