@@ -342,6 +342,7 @@ function MarketClub({ slug }: { slug: string }) {
                   slug={slug} st={st} setSt={setSt} balance={sum.balance} squad={squad} depth={depth} isMobile={isMobile}
                   onLeague={(l: MarketLeague) => setLeagues((x) => (x[l.id] ? x : { ...x, [l.id]: l }))}
                   onToast={setToast} coach={club!.coach ?? null} startTec={startTec}
+                  arrivals={arrivals} hiredCoach={st.coach.action === "fire" && st.coach.hire ? nextCoach : null}
                 />
               </Suspense>
             )}

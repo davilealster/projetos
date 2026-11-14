@@ -48,9 +48,14 @@ type Props = {
   coach: MarketCoach | null;
   /** abre Procurar já em TEC (vindo do "Demite" da etapa 1) */
   startTec?: boolean;
+  /** contratações com os dados do jogador (para a aba Contratados) */
+  arrivals: Arrival[];
+  /** técnico contratado (quando o atual foi demitido e há um novo) */
+  hiredCoach: MarketCoach | null;
 };
+type Arrival = { s: MarketState["signings"][number]; p: MarketPlayer; club: string; league: string };
 
-type Sub = "search" | "list";
+type Sub = "search" | "list" | "done";
 type Peek = { league: string; player: MarketPlayer; club: string };
 
 /** Contratar: comprar pelo valor, emprestar (sem custo) ou trazer livre. */
@@ -67,7 +72,7 @@ function useSignings(setSt: SetSt) {
   return { sign, unsign, setPrice };
 }
 
-export default function Shopping({ slug, st, setSt, balance, squad, depth, isMobile, onLeague, onToast, coach, startTec }: Props) {
+export default function Shopping({ slug, st, setSt, balance, squad, depth, isMobile, onLeague, onToast, coach, startTec, arrivals, hiredCoach }: Props) {
   // Minha lista = estado do olheiro (`olheiro:{slug}:v1`); o ★ antigo do Mercado (`watch`) entra nela uma vez
   const [sc, dispatch] = useReducer(scoutReducer, null, () => mergeWatch(loadScoutState(slug), st.watch));
   useEffect(() => saveScoutState(slug, sc), [slug, sc]);
@@ -104,10 +109,16 @@ export default function Shopping({ slug, st, setSt, balance, squad, depth, isMob
     <section className="ms">
       <div className="ms-sub" role="tablist" aria-label="Mercado">
         <button role="tab" aria-selected={sub === "search"} className={sub === "search" ? "is-on" : ""} onClick={() => setSub("search")}>
-          Procurar
+          <Ico d={SUB_ICON.search} size={17} />
+          <span>Procurar</span>
         </button>
         <button role="tab" aria-selected={sub === "list"} className={sub === "list" ? "is-on" : ""} onClick={() => (setSub("list"), isMobile && window.scrollTo({ top: 0 }))}>
-          Minha lista {saved.length > 0 && <i className="ms-sub__n">{saved.length}</i>}
+          <Ico d={SUB_ICON.list} size={17} />
+          <span>Minha lista</span> {saved.length > 0 && <i className="ms-sub__n">{saved.length}</i>}
+        </button>
+        <button role="tab" aria-selected={sub === "done"} className={`ms-sub__done ${sub === "done" ? "is-on" : ""}`} onClick={() => (setSub("done"), isMobile && window.scrollTo({ top: 0 }))}>
+          <Ico d={SUB_ICON.done} size={17} />
+          <span>Contratados</span> {arrivals.length + (hiredCoach ? 1 : 0) > 0 && <i className="ms-sub__n ms-sub__n--ok">{arrivals.length + (hiredCoach ? 1 : 0)}</i>}
         </button>
       </div>
 
@@ -126,6 +137,14 @@ export default function Shopping({ slug, st, setSt, balance, squad, depth, isMob
         />
       )}
 
+      {sub === "done" && (
+        <Hired
+          arrivals={arrivals} coach={hiredCoach} balance={balance} deals={deals} setSt={setSt} onToast={onToast}
+          onSearch={() => setSub("search")}
+          onScout={(a) => setPeek({ league: a.s.league, player: a.p, club: a.club })}
+        />
+      )}
+
       {peek && (
         <ScoutPeek
           slug={slug} league={peek.league} player={peek.player} club={peek.club} st={sc} dispatch={dispatch}
@@ -133,6 +152,85 @@ export default function Shopping({ slug, st, setSt, balance, squad, depth, isMob
         />
       )}
     </section>
+  );
+}
+
+const SUB_ICON = {
+  search: "M10.5 4a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13zM15.3 15.3 20 20",
+  list: "M12 20.5s-7.5-4.6-7.5-10.2A4.3 4.3 0 0 1 12 7.6a4.3 4.3 0 0 1 7.5 2.7c0 5.6-7.5 10.2-7.5 10.2z",
+  done: "M5 12.5 10 17 19 7",
+};
+
+// ============ Contratados ============
+
+const DEAL_LABEL: Record<SigningType, string> = { buy: "Compras", loan: "Empréstimos", free: "Livres" };
+
+function Hired({ arrivals, coach, balance, deals, setSt, onToast, onSearch, onScout }: {
+  arrivals: Arrival[]; coach: MarketCoach | null; balance: number; deals: ReturnType<typeof useSignings>; setSt: SetSt;
+  onToast: (t: string) => void; onSearch: () => void; onScout: (a: Arrival) => void;
+}) {
+  if (!arrivals.length && !coach)
+    return (
+      <div className="ms-empty">
+        <p className="tm-eyebrow">Contratados</p>
+        <h3>Ninguém contratado ainda</h3>
+        <p>Em <b>Procurar</b> (ou na <b>Minha lista</b>), toque em Comprar, Empréstimo ou Trazer livre. Quem você contratar aparece aqui.</p>
+        <button className="tm-btn tm-btn--brass" onClick={onSearch}>Procurar reforços →</button>
+      </div>
+    );
+  const spent = arrivals.reduce((t, a) => t + (a.s.type === "free" ? 0 : a.s.price), 0);
+  const groups = (["buy", "loan", "free"] as SigningType[])
+    .map((t) => ({ t, list: arrivals.filter((a) => a.s.type === t).sort((x, y) => posRank(x.p.pos) - posRank(y.p.pos)) }))
+    .filter((g) => g.list.length);
+  return (
+    <div className="ms-hired">
+      <div className="ms-hired__sum">
+        <div><small>Contratados</small><b>{arrivals.length}{coach ? " + técnico" : ""}</b></div>
+        <div><small>Investido</small><b className="is-cost">{spent ? `−${fmtEur(spent)}` : "€ 0"}</b>{fmtRef(spent) && <em>{fmtRef(spent)}</em>}</div>
+        <div className={balance < 0 ? "is-neg" : ""}><small>Saldo</small><b>{fmtEur(balance)}</b>{fmtRef(balance) && <em>{fmtRef(balance)}</em>}</div>
+      </div>
+      {coach && (
+        <section className="ms-hired__grp">
+          <h3>Técnico</h3>
+          <article className="tm-ficha ms-ficha is-signed">
+            <Photo name={coach.name} photo={coach.photo} />
+            <div className="tm-ficha__main">
+              <p className="tm-ficha__name">{coach.name}<span className="tm-pos ms-tec">TEC</span></p>
+              <p className="tm-ficha__meta">{coach.age != null ? `${coach.age} anos` : ""}{coach.nat ? ` · ${coach.nat}` : ""}</p>
+              <p className="tm-ficha__origin">{coach.free ? `Sem clube${coach.lastClub ? ` · último trabalho: ${coach.lastClub}` : ""}` : `${coach.club ?? ""}${coach.league ? ` · ${coach.league}` : ""} · rescisão a negociar`}</p>
+            </div>
+            <div className="tm-ficha__actions">
+              <button className="tm-act" onClick={() => (setSt((s) => ({ ...s, coach: { action: "keep", hire: null } })), onToast(`${coach.name} desfeito`))}>Desfazer</button>
+            </div>
+            <Stamp text="Contratado" ink="green" />
+          </article>
+        </section>
+      )}
+      {groups.map((g) => (
+        <section key={g.t} className="ms-hired__grp">
+          <h3>{DEAL_LABEL[g.t]} <span>{g.list.length}</span></h3>
+          <div className="tm-fichas tm-fichas--market">
+            {g.list.map((a) => (
+              <article key={a.p.id} className="tm-ficha ms-ficha is-signed">
+                <Photo name={a.p.name} photo={a.p.photo} />
+                <div className="tm-ficha__main">
+                  <p className="tm-ficha__name">{a.p.name}<span className={`tm-pos tm-pos--${a.p.pos}`}>{a.p.pos}</span><Foreign on={a.p.foreign} /></p>
+                  <p className="tm-ficha__meta">{a.p.age != null ? `${a.p.age} anos` : ""}{a.p.nat ? ` · ${a.p.nat}` : ""} · {a.club}</p>
+                  <p className="tm-ficha__origin">{a.league} · contrato até {fmtDate(a.p.contract)}</p>
+                </div>
+                <p className="tm-ficha__value">{a.s.type === "buy" ? fmtEur(a.s.price) : a.s.type === "loan" ? "Empréstimo" : "Livre"}{a.s.type === "buy" && <small>{fmtRef(a.s.price)}</small>}</p>
+                <div className="tm-ficha__actions">
+                  {a.s.type === "buy" && <Price label="Por" value={a.s.price} onChange={(v) => deals.setPrice(a.p.id, v)} />}
+                  <button className="tm-act" onClick={() => (deals.unsign(a.p.id), onToast(`Desistiu de ${a.p.name}`))}>Desistir</button>
+                  <button className="tm-act tm-act--scout" onClick={() => onScout(a)}>Ver scout</button>
+                </div>
+                <Stamp text={SIGN_STAMP[a.s.type]} ink={a.s.type === "loan" ? "blue" : "green"} onClick={() => deals.unsign(a.p.id)} title="Desistir da contratação" />
+              </article>
+            ))}
+          </div>
+        </section>
+      ))}
+    </div>
   );
 }
 
