@@ -354,9 +354,15 @@ function MarketClub({ slug }: { slug: string }) {
                   const text = shareText({
                     club: team.shortName,
                     season: SEASON,
-                    arrivals: arrivals.map((a) => ({ name: a.p.name, from: a.club, type: a.s.type, price: a.s.price })),
-                    leaves: sum.leaves.map(({ p, d }) => ({ name: p.name, action: d.action, money: moneyOf(p, d) })),
+                    arrivals: arrivals.map((a) => ({ name: a.p.name, pos: a.p.pos, from: a.club, type: a.s.type, price: a.s.price })),
+                    leaves: sum.leaves.map(({ p, d }) => ({ name: p.name, pos: p.pos, action: d.action, money: moneyOf(p, d) })),
                     balance: sum.balance,
+                    income: st.useSales ? sum.income : 0,
+                    spend: sum.spend,
+                    squadSize: sum.squadSize,
+                    squadValue: sum.squadValue,
+                    coachIn: st.coach.action === "fire" && nextCoach ? { name: nextCoach.name, from: nextCoach.free ? null : nextCoach.club ?? null } : null,
+                    coachOut: st.coach.action === "fire" ? club!.coach?.name ?? null : null,
                     url: `${location.origin}/mercado/${slug}`,
                   });
                   try {

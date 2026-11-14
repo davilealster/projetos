@@ -172,8 +172,9 @@ describe("gráficos e resumo da janela", () => {
   });
   it("texto para compartilhar", () => {
     const txt = shareText({ club: "Vasco", season: "2027", arrivals: [{ name: "Novo", from: "Clube X", type: "buy", price: 4e6 }], leaves: [{ name: "a1", action: "sell", money: 9e6 }], balance: 15e6, url: "https://x/mercado/vasco" });
-    expect(txt).toContain("+ Novo (Clube X) · € 4 mi");
-    expect(txt).toContain("- a1 · vende por € 9 mi");
+    expect(txt).toContain("🟢 *CHEGAM (1)*");
+    expect(txt).toContain("• Novo · Clube X · € 4 mi");
+    expect(txt).toContain("• a1 · vendido por € 9 mi");
     expect(txt).toContain("Saldo: € 15 mi");
   });
 });

@@ -329,27 +329,50 @@ export function waterfall(st: MarketState, sum: Pick<Summary, "income" | "spend"
   return steps;
 }
 
-/** Resumo em texto para colar no WhatsApp / X. */
+/** Resumo em texto para colar no WhatsApp / X (*negrito* do WhatsApp nos títulos). */
 export function shareText(opts: {
   club: string;
   season: string;
-  arrivals: { name: string; from: string; type: SigningType; price: number }[];
-  leaves: { name: string; action: SquadAction; money: number }[];
+  arrivals: { name: string; pos?: string; from: string; type: SigningType; price: number }[];
+  leaves: { name: string; pos?: string; action: SquadAction; money: number }[];
   balance: number;
   url: string;
+  income?: number;
+  spend?: number;
+  squadSize?: number;
+  squadValue?: number;
+  coachIn?: { name: string; from: string | null } | null;
+  coachOut?: string | null;
 }): string {
-  const lines = [`Minha janela do ${opts.club} para ${opts.season}`, ""];
-  if (opts.arrivals.length) {
-    lines.push("CHEGAM");
-    for (const a of opts.arrivals) lines.push(`+ ${a.name} (${a.from}) · ${a.type === "buy" ? fmtEur(a.price) : SIGNING_LABEL[a.type].toLowerCase()}`);
+  const money = (v: number) => `${fmtEur(v)}${fmtRef(v) ? ` (${fmtRef(v)})` : ""}`;
+  const who = (name: string, pos?: string) => (pos ? `${name} (${pos})` : name);
+  const lines = [`⚽ *MINHA JANELA DE TRANSFERÊNCIAS ${opts.season}*`, `*${opts.club}* · Modo Diretor de Futebol`, ""];
+
+  const nIn = opts.arrivals.length + (opts.coachIn ? 1 : 0);
+  if (nIn) {
+    lines.push(`🟢 *CHEGAM (${nIn})*`);
+    if (opts.coachIn) lines.push(`• Técnico: ${opts.coachIn.name}${opts.coachIn.from ? ` · ${opts.coachIn.from}` : " · sem clube"}`);
+    for (const a of opts.arrivals) {
+      const deal = a.type === "buy" ? fmtEur(a.price) : SIGNING_LABEL[a.type].toLowerCase();
+      lines.push(`• ${who(a.name, a.pos)} · ${a.from} · ${deal}`);
+    }
     lines.push("");
   }
-  if (opts.leaves.length) {
-    lines.push("SAEM");
-    for (const l of opts.leaves) lines.push(`- ${l.name} · ${ACTION_LABEL[l.action].toLowerCase()}${l.money ? ` por ${fmtEur(l.money)}` : ""}`);
+
+  const nOut = opts.leaves.length + (opts.coachOut ? 1 : 0);
+  if (nOut) {
+    lines.push(`🔴 *SAEM (${nOut})*`);
+    if (opts.coachOut) lines.push(`• Técnico: ${opts.coachOut} · demitido`);
+    for (const l of opts.leaves) lines.push(`• ${who(l.name, l.pos)} · ${(HOW_TAG[l.action] ?? ACTION_LABEL[l.action]).toLowerCase()}${l.money ? ` por ${fmtEur(l.money)}` : ""}`);
     lines.push("");
   }
-  lines.push(`Saldo: ${fmtEur(opts.balance)}`, `Monte a sua: ${opts.url}`);
+
+  lines.push("💰 *BALANÇO*");
+  if (opts.income) lines.push(`Vendas: +${fmtEur(opts.income)}`);
+  if (opts.spend) lines.push(`Gastos: −${fmtEur(opts.spend)}`);
+  lines.push(`Saldo: ${opts.balance < 0 ? "−" : ""}${money(Math.abs(opts.balance))}`);
+  if (opts.squadSize) lines.push(`Elenco ${opts.season}: ${opts.squadSize} jogadores${opts.squadValue ? ` · ${fmtEur(opts.squadValue)}` : ""}`);
+  lines.push("", `👉 Monte a sua: ${opts.url}`);
   return lines.join("\n");
 }
 
